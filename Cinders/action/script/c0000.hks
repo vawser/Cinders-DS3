@@ -1443,64 +1443,48 @@ function ExecGuard(event, blend_type)
                 if IsCannon() == TRUE then
                     if 80 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
-                    else
-                        act(2002, 113005) -- FP Pause
                     end
                 end
                 
                 if IsChurchCannon() == TRUE then
                     if 80 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
-                    else
-                        act(2002, 113005) -- FP Pause
                     end
                 end
                 
                 if IsHunterPistol() == TRUE then
                     if 30 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
-                    else
-                        act(2002, 113003) -- FP Pause
                     end
                 end
                 
                 if IsRepeatingPistol() == TRUE then
                     if 35 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
-                    else
-                        act(2002, 113003) -- FP Pause
                     end
                 end
                 
                 if IsEvelynn() == TRUE then
                     if 40 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
-                    else
-                        act(2002, 113003) -- FP Pause
                     end
                 end
                 
                 if IsBlunderbuss() == TRUE then
                     if 50 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
-                    else
-                        act(2002, 113005) -- FP Pause
                     end
                 end
                 
                 if IsRosamarinus() == TRUE then
                     if 15 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
-                    else
-                        act(2002, 113003) -- FP Pause
                     end
                 end
                 
                 if IsFistOfGratia() == TRUE then
                     if 60 > env(1001) then
                         l1 = "W_AttackLeftHeavy2"
-                    else
-                        act(2002, 113005) -- FP Pause
                     end
                 end
                 
@@ -1512,6 +1496,9 @@ function ExecGuard(event, blend_type)
                     act(2002, 112450)
                 end
                 
+                -- FP Pause
+                act(2002, 113002) 
+                        
                 ExecEventAllBody(l1)
                 
                 return FALSE
@@ -3417,10 +3404,10 @@ function ExecItem(quick_type, blend_type)
     ----------------------
     -- FP Pause
     ----------------------
-    act(2002, 113003)
+    act(2002, 113001)
     
     if item_type == ITEM_THROW_KNIFE or item_type == ITEM_THROW_BOTTLE or item_type == ITEM_QUICK_THROW_KNIFE or item_type == ITEM_QUICK_THROW_BOTTLE then
-        act(2002, 113005) -- Longer pause for the throwables
+        act(2002, 113002) -- Longer pause for the throwables
     end
     
     if IsNodeActive("ItemDrinking_Upper_CMSG") == TRUE then
@@ -3706,7 +3693,7 @@ function ExecLadderItem(hand)
     local item_type = env(231) -- GetItemAnimType
     
     -- FP Pause
-    act(2002, 113003)
+    act(2002, 113001)
     
     local event = "W_ItemLadderInvalid"
     local event_hand = "Left"
@@ -14087,7 +14074,7 @@ function MagicFireRight_Upper_onUpdate()
         act("魔法ID切り替え無効")
     end
     SetVariable("IndexThrowHand", HAND_RIGHT)
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if MagicCommonFunction(ALLBODY, QUICKTYPE_NORMAL) == TRUE then
         return 
     elseif HalfBlendUpperCommonFunction(lower_state) == TRUE then
@@ -14105,7 +14092,7 @@ function MagicFireRight2_Upper_onUpdate()
         act("魔法ID切り替え無効")
     end
     SetVariable("IndexThrowHand", HAND_RIGHT)
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if MagicCommonFunction(ALLBODY, QUICKTYPE_NORMAL) == TRUE then
         return 
     elseif HalfBlendUpperCommonFunction(lower_state) == TRUE then
@@ -14123,7 +14110,7 @@ function MagicFireRight3_Upper_onUpdate()
         act("魔法ID切り替え無効")
     end
     SetVariable("IndexThrowHand", HAND_RIGHT)
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if MagicCommonFunction(ALLBODY, QUICKTYPE_NORMAL) == TRUE then
         return 
     elseif HalfBlendUpperCommonFunction(lower_state) == TRUE then
@@ -14141,7 +14128,7 @@ function MagicFireRightLvl2_Upper_onUpdate()
         act("魔法ID切り替え無効")
     end
     SetVariable("IndexThrowHand", HAND_RIGHT)
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if MagicCommonFunction(ALLBODY, QUICKTYPE_NORMAL) == TRUE then
         return 
     elseif HalfBlendUpperCommonFunction(lower_state) == TRUE then
@@ -14320,7 +14307,7 @@ function MagicFireLeft_Upper_onUpdate()
         act("魔法ID切り替え無効")
     end
     SetVariable("IndexThrowHand", HAND_LEFT)
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if MagicCommonFunction(ALLBODY, QUICKTYPE_NORMAL) == TRUE then
         return 
     elseif HalfBlendUpperCommonFunction(lower_state) == TRUE then
@@ -14338,7 +14325,7 @@ function MagicFireLeft2_Upper_onUpdate()
         act("魔法ID切り替え無効")
     end
     SetVariable("IndexThrowHand", HAND_LEFT)
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if MagicCommonFunction(ALLBODY, QUICKTYPE_NORMAL) == TRUE then
         return 
     elseif HalfBlendUpperCommonFunction(lower_state) == TRUE then
@@ -14356,7 +14343,7 @@ function MagicFireLeft3_Upper_onUpdate()
         act("魔法ID切り替え無効")
     end
     SetVariable("IndexThrowHand", HAND_LEFT)
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if MagicCommonFunction(ALLBODY, QUICKTYPE_NORMAL) == TRUE then
         return 
     elseif HalfBlendUpperCommonFunction(lower_state) == TRUE then
@@ -14374,7 +14361,7 @@ function MagicFireLeftLvl2_Upper_onUpdate()
         act("魔法ID切り替え無効")
     end
     SetVariable("IndexThrowHand", HAND_LEFT)
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if MagicCommonFunction(ALLBODY, QUICKTYPE_NORMAL) == TRUE then
         return 
     elseif HalfBlendUpperCommonFunction(lower_state) == TRUE then
@@ -14388,7 +14375,7 @@ end
 
 function QuickMagicFireRightNormal_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14410,7 +14397,7 @@ end
 
 function QuickMagicFireRightDash_Upper_onUpdate()
     act("ロックオン中角度固定解除")
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     local blend_type, lower_state = GetHalfBlendInfo()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
@@ -14428,7 +14415,7 @@ end
 
 function QuickMagicFireRightStep_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14445,7 +14432,7 @@ end
 
 function QuickMagicFireRightAttackRight_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14462,7 +14449,7 @@ end
 
 function QuickMagicFireRightAttackRight2_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14479,7 +14466,7 @@ end
 
 function QuickMagicFireRightAttackLeft_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14496,7 +14483,7 @@ end
 
 function QuickMagicFireRightAttackLeft2_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14513,7 +14500,7 @@ end
 
 function QuickMagicFireLeftNormal_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14536,7 +14523,7 @@ end
 function QuickMagicFireLeftDash_Upper_onUpdate()
     act("ロックオン中角度固定解除")
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14553,7 +14540,7 @@ end
 
 function QuickMagicFireLeftStep_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14570,7 +14557,7 @@ end
 
 function QuickMagicFireLeftAttackRight_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14587,7 +14574,7 @@ end
 
 function QuickMagicFireLeftAttackRight2_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14604,7 +14591,7 @@ end
 
 function QuickMagicFireLeftAttackLeft_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -14621,7 +14608,7 @@ end
 
 function QuickMagicFireLeftAttackLeft2_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
-    PauseFPAfterCast()
+    ApplyEffectsAfterCast()
     if lower_state == LOWER_TURN or lower_state == LOWER_END_TURN then
         act("魔法ID切り替え無効")
     end
@@ -18053,21 +18040,15 @@ function UpdateCatalystAffinityEffect()
     end
 end
 
-function PauseFPAfterCast()
+function ApplyEffectsAfterCast()
     magic_type = env(227)
     
-    ----------------------
-    -- FP Pause
-    ----------------------
-    -- Dart
-    if magic_type == 29 then
-        act(2002, 113001)
-    -- Flashsword
-    elseif magic_type == 30 then
-        act(2002, 113001)
-    -- Default
-    else
-        act(2002, 113003)
+    -- Unstable Catalyst
+    if env(1116, 113522) == FALSE then
+        if env(1116, 113520) == TRUE then
+            act(2002, 113521)
+            act(2002, 113522)
+        end
     end
 end
 

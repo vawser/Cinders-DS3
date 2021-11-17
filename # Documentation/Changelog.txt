@@ -74,10 +74,12 @@ Finish following weapons:
 - Reduced damage of several hostile NPCs.
 
 # Spells
+- Increased max spellbuff to 300 again.
+- Removed the FP pause from casting a normal spell. Other pauses still remain.
 - Changed the passive spells that reduced max FP to instead increase FP consumption costs for their duration instead.
 - Adjusted the cost of several spells.
-
 - The instant healing spells now apply a stacking healing effectiveness debuff of -10% for 15 seconds when usage.
+- Added Unstable infusion: increases spellbuff by 50, but each cast applies a +10% FP cost increase for 10 seconds, stacking.
 
 - Changed the effect of Unleash Magic:
  - Reduces FP consumption of Sorceries by 90%, but reduces max HP by 90%. Lasts 12 seconds. (16 for ascended)
@@ -122,7 +124,6 @@ Add Gatling Gun
 Add Solaire as summon to Soul of Cinder
 Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
 
-o312300_0000
 
 # AI Pass:
 Undead Dog

@@ -3371,7 +3371,10 @@ Throbbing: reduces FP cost of all spells by 10%.
 Quivering: boosts cast speed by 25.
 Laughing: converts the catalyst into Luck form:
 - Halves the INT and FTH required for spells.
-- Switches the catalyst scaling to LCK.</text>
+- Switches the catalyst scaling to LCK.
+Unstable: boosts spellbuff but:
+- Increases FP consumption of spells by 10% per cast. 
+- Stacks, and each stack lasts 10 seconds.</text>
 <text id="99004004">Reinforcement</text>
 <text id="99005000">Does not work here.</text>
 <text id="99005100">Silver Knight Ledo intrudes...</text>

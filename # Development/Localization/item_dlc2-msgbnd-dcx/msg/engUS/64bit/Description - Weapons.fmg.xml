@@ -20118,6 +20118,14 @@ Affinity for Magic damage. Presence of other catalysts in hand will nullify affi
 
 Skill: Arcane Ward
 Coat oneself in magical energies, boosting Magic absorption by 30% for 60 seconds.</text>
+<text id="17000600">Staff used to cast sorceries. A common catalyst given to sorcerers of the Vinheim Dragon School.
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Arcane Ward
+Coat oneself in magical energies, boosting Magic absorption by 30% for 60 seconds.</text>
 <text id="17010000">Crystal catalyst presented as a gift by the Crystal Sages to their favorite pupil, Kriemhild. 
 
 Crystal spheres devour the will of the user.
@@ -20174,6 +20182,16 @@ Crystal spheres devour the will of the user.
 
 Can cast Sorceries and Dark Sorceries.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Homing Crystal Soulmass
+Releases a homing crystal soulmass, drawn from the crystal properties of the staff.</text>
+<text id="17010600">Crystal catalyst presented as a gift by the Crystal Sages to their favorite pupil, Kriemhild. 
+
+Crystal spheres devour the will of the user.
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
 Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Homing Crystal Soulmass
@@ -20238,6 +20256,16 @@ Affinity for Magic damage. Presence of other catalysts in hand will nullify affi
 
 Skill: Homing Soulmass
 Releases a homing soulmass, drawn from the magical properties of the staff.</text>
+<text id="17020600">Catalyst used by the court sorcerers of the Profaned Capital. Very powerful when wielded by an exceptionally intelligent sorcerer.
+
+The court sorcerers laid claim to the legacy of the renowned Big Hat Logan, going so far as to emulate him with copies of the staff he used.
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Homing Soulmass
+Releases a homing soulmass, drawn from the magical properties of the staff.</text>
 <text id="17030000">The branch of a large, well-tended witchtree, used as a sorcery catalyst. Witchtree staves are customary in the far north, and allow for faster casting than ordinary catalysts.
 
 Can cast Sorceries and Dark Sorceries.
@@ -20298,6 +20326,16 @@ Effect: increases casting speed by 25.
 
 Skill: Weapon Skill
 Equipping this catalyst in the left hand allows one to perform the Skill of the right hand weapon.</text>
+<text id="17030600">The branch of a large, well-tended witchtree, used as a sorcery catalyst. Witchtree staves are customary in the far north, and allow for faster casting than ordinary catalysts.
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases casting speed by 25.
+
+Skill: Weapon Skill
+Equipping this catalyst in the left hand allows one to perform the Skill of the right hand weapon.</text>
 <text id="17040000">Medium for used for casting sorceries. This black tuft of hair that serves as a talisman belongs to Velka, Goddess of Sin.
 
 Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
@@ -20342,6 +20380,14 @@ Raise the talisman up to imbue oneself with a sense of haste, increasing the cas
 
 Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Velka's Grace
+Raise the talisman up to imbue oneself with a sense of haste, increasing the cast speed by 50 for 30 seconds. Effect duration can be extended.</text>
+<text id="17040600">Medium for used for casting sorceries. This black tuft of hair that serves as a talisman belongs to Velka, Goddess of Sin.
+
+Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
+Spell Buff is determined by INT.
 Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Velka's Grace
@@ -20400,6 +20446,16 @@ Fires moonlight wave that pierces enemies.</text>
 
 Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases max FP by 10%.
+
+Skill: Moonlight Wave
+Fires moonlight wave that pierces enemies.</text>
+<text id="17050600">Talisman given to the knights of the Sunless Realms, who serve the nameless moon.
+
+Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
+Spell Buff is determined by INT.
 Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
 
 Effect: increases max FP by 10%.
@@ -20466,6 +20522,16 @@ Effect: increases soul absorption by 20%.
 
 Skill: Serpentine Orbs
 Summon forth five golden serpentine orbs that seek nearby foes.</text>
+<text id="17060600">A staff with a small bowl attached to the tip, similar to a mendicant's crook.
+
+Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
+Spell Buff is determined by INT.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases soul absorption by 20%.
+
+Skill: Serpentine Orbs
+Summon forth five golden serpentine orbs that seek nearby foes.</text>
 <text id="17070000">Ancient catalyst of the Witch of Izalith and her daughters, used long before the dawn of chaos and of pyromancy.
 
 Can cast Sorceries, Pyromancies, Dark Sorceries and Dark Pyromancies.
@@ -20510,6 +20576,14 @@ Summon forth a primordial flame, that builds, and then explodes.</text>
 
 Can cast Sorceries, Pyromancies, Dark Sorceries and Dark Pyromancies.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Fire damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Primordial Flame
+Summon forth a primordial flame, that builds, and then explodes.</text>
+<text id="17070600">Ancient catalyst of the Witch of Izalith and her daughters, used long before the dawn of chaos and of pyromancy.
+
+Can cast Sorceries, Pyromancies, Dark Sorceries and Dark Pyromancies.
+Spell Buff is determined by INT.
 Affinity for Fire damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Primordial Flame
@@ -20574,6 +20648,16 @@ Effect: increases luck by 5.
 
 Skill: Holy Arrow
 Shoot forth a holy arrow, blessed by Rosaria herself.</text>
+<text id="17080600">Staff of the man-grubs who guard Rosaria's Bed Chamber. Their holy symbol is formed at the tip. The man-grubs have clearly been reborn, but as what?
+
+Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
+Spell Buff is determined by INT.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases luck by 5.
+
+Skill: Holy Arrow
+Shoot forth a holy arrow, blessed by Rosaria herself.</text>
 <text id="17090000">A sacred chime, once the possession of Gertrude, the Heavenly Daughter, and defiled by the scholars of the Grand Archives. The power of crystals granted the scholars a degree of success. 
 
 Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
@@ -20618,6 +20702,14 @@ Emits crystal explosions around the caster.</text>
 
 Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Crystalline Storm
+Emits crystal explosions around the caster.</text>
+<text id="17090600">A sacred chime, once the possession of Gertrude, the Heavenly Daughter, and defiled by the scholars of the Grand Archives. The power of crystals granted the scholars a degree of success. 
+
+Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
+Spell Buff is determined by INT.
 Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Crystalline Storm
@@ -20682,6 +20774,16 @@ Effect: increases max FP by 10%.
 
 Skill: Beckon Soul
 Summon forth a soulmass in the wielder's hand.</text>
+<text id="17100600">Sorcerous catalyst used by a talented pyromancer that once attempted to combine sorcery and pyromancy.
+
+Can cast Sorceries, Pyromancies, Dark Sorceries and Dark Pyromancies.
+Spell Buff is determined by INT.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases max FP by 10%.
+
+Skill: Beckon Soul
+Summon forth a soulmass in the wielder's hand.</text>
 <text id="17110000">A ritual spear presented to Darkmoon Knights before Sulyvahn claimed the title of Pontiff. Can also be used as a staff.
 
 Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
@@ -20730,7 +20832,16 @@ Affinity for Magic damage. Presence of other catalysts in hand will nullify affi
 
 Skill: Darkmoon Volley
 Summon a volley of Darkmoon arrows that rain down in front of the wielder.</text>
-<text id="17120000">Choice weapon of Yellowfinger Heysel, a Finger of Rosaria and xanthous scholar. The gold specks are remnants of lost sorceries. 
+<text id="17110600">A ritual spear presented to Darkmoon Knights before Sulyvahn claimed the title of Pontiff. Can also be used as a staff.
+
+Can cast Sorceries, Miracles, Dark Sorceries and Dark Miracles.
+Spell Buff is determined by FTH.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Darkmoon Volley
+Summon a volley of Darkmoon arrows that rain down in front of the wielder.</text>
+<text id="17120000">Choice weapon of Yellowfinger Heysel, a Finger of Rosaria and xanthous scholar. The gold specks are remnants of lost so
+rceries. 
 
 Can cast Sorceries and Dark Sorceries.
 Spell Buff is determined by INT.
@@ -20774,6 +20885,14 @@ Distorts light in order to deflect magic.</text>
 
 Can cast Sorceries and Dark Sorceries.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Twist Light 
+Distorts light in order to deflect magic.</text>
+<text id="17120600">Choice weapon of Yellowfinger Heysel, a Finger of Rosaria and xanthous scholar. The gold specks are remnants of lost sorceries. 
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
 Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Twist Light 
@@ -20832,6 +20951,15 @@ Affinity for Magic damage. Presence of other catalysts in hand will nullify affi
 
 Skill: Leydia Enchantment
 Coat blade in magical energies, boosting Magic damage by 100 for 60 seconds. Effect duration can be extended.</text>
+<text id="17130600">Straight sword wielded by Leydia apostles.
+The Leydia apostles, adept at magic, wielded unique weapons but were hunted down as traitors. 
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Leydia Enchantment
+Coat blade in magical energies, boosting Magic damage by 100 for 60 seconds. Effect duration can be extended.</text>
 <text id="18000000">Talisman for casting miracles of the Gods. Once a very common item among the ranks of the old Way of White.
 
 Can cast Miracles and Dark Miracles.
@@ -20876,6 +21004,14 @@ Creates a shockwave. While it inflicts little direct damage, this skill propels 
 
 Can cast Miracles and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Force
+Creates a shockwave. While it inflicts little direct damage, this skill propels foes back, staggering them.</text>
+<text id="18000600">Talisman for casting miracles of the Gods. Once a very common item among the ranks of the old Way of White.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
 Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Force
@@ -20940,6 +21076,16 @@ Affinity for Dark damage. Presence of other catalysts in hand will nullify affin
 
 Skill: Poison Spores
 Expel noxious spores from the formless, parasitical things that inhabit the talisman.</text>
+<text id="18010600">A rotten talisman, used by the rotten ghru that inhabit the swamps of Farron.
+
+Imbued with the putrid swamp waters, this talisman inflicts a potent poison when used in close quarters.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Poison Spores
+Expel noxious spores from the formless, parasitical things that inhabit the talisman.</text>
 <text id="18020000">A smouldering talisman, used by the smouldering ghru that inhabit the depths of the catacombs. Charred by its exposure to flame, this talisman grants its wielder an unnatural protection against fire.
 
 Can cast Miracles, Pyromancies, Dark Miracles and Dark Pyromancies.
@@ -21000,6 +21146,16 @@ Effect: increases Fire absorption by 5%.
 
 Skill: Immolate
 Immolate oneself, leaving a trail of fire in your wake for 8 seconds.</text>
+<text id="18020600">A smouldering talisman, used by the smouldering ghru that inhabit the depths of the catacombs. Charred by its exposure to flame, this talisman grants its wielder an unnatural protection against fire.
+
+Can cast Miracles, Pyromancies, Dark Miracles and Dark Pyromancies.
+Spell Buff is determined by FTH.
+Affinity for Fire damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases Fire absorption by 5%.
+
+Skill: Immolate
+Immolate oneself, leaving a trail of fire in your wake for 8 seconds.</text>
 <text id="18030000">The Knight of Sunlight's personal talisman for casting miracles of the Gods. The talisman bears the Knight's own holy illustration, an emblem of his unwavering faith.
 
 Can cast Miracles and Dark Miracles.
@@ -21054,6 +21210,16 @@ Summon a shower of sunlight, raining sunlight spears down upon foes.</text>
 
 Can cast Miracles and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Lightning damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: boosts casting speed by 10.
+
+Skill: Shower of Sunlight
+Summon a shower of sunlight, raining sunlight spears down upon foes.</text>
+<text id="18030600">The Knight of Sunlight's personal talisman for casting miracles of the Gods. The talisman bears the Knight's own holy illustration, an emblem of his unwavering faith.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
 Affinity for Lightning damage. Presence of other catalysts in hand will nullify affinity.
 
 Effect: boosts casting speed by 10.
@@ -21132,6 +21298,18 @@ Effect: increases effectiveness of HP recovery by 10%.
 
 Skill: Wrath of the Gods
 This primal skill of profound fury emits a shockwave that also inflicts damage.</text>
+<text id="18040600">Medium for casting miracles of the Gods.
+Ivory talismans are given only to women clerics,
+and faith greatly affects their effectiveness.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases effectiveness of HP recovery by 10%.
+
+Skill: Wrath of the Gods
+This primal skill of profound fury emits a shockwave that also inflicts damage.</text>
 <text id="18050000">Talisman made from a lock of white hair.
 This lock of hair belonged to a deformed member of the chaos witches, mothers of the art of pyromancy.
 
@@ -21186,6 +21364,15 @@ Affinity for Fire damage. Presence of other catalysts in hand will nullify affin
 
 Skill: Combustion
 Creates a powerful flame in the wielder's hand.</text>
+<text id="18050600">Talisman made from a lock of white hair.
+This lock of hair belonged to a deformed member of the chaos witches, mothers of the art of pyromancy.
+
+Can cast Miracles, Pyromancies, Dark Miracles and Dark Pyromancies.
+Spell Buff is determined by FTH.
+Affinity for Fire damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Combustion
+Creates a powerful flame in the wielder's hand.</text>
 <text id="18060000">Sacred chime for casting miracles of the Gods. Chimes such as these are often given to clerics who become Undead.
 
 Can cast Miracles and Dark Miracles.
@@ -21230,6 +21417,14 @@ Restores 20 HP per second for 5 seconds.</text>
 
 Can cast Miracles and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Gentle Prayer
+Restores 20 HP per second for 5 seconds.</text>
+<text id="18060600">Sacred chime for casting miracles of the Gods. Chimes such as these are often given to clerics who become Undead.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
 Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Gentle Prayer
@@ -21288,6 +21483,16 @@ Restores 20 HP per second for 5 seconds.</text>
 
 Can cast Miracles and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases max FP by 10%.
+
+Skill: Gentle Prayer
+Restores 20 HP per second for 5 seconds.</text>
+<text id="18070600">A sacred chime belonging to Yorshka. Her brother, the former knight captain, presented her with this medium together with another gift: her name.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
 Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
 
 Effect: increases max FP by 10%.
@@ -21360,6 +21565,17 @@ Affinity for Physical damage. Presence of other catalysts in hand will nullify a
 Skill: Pray for Favor
 Restores 30 HP per second for 5 seconds.
 Affects caster and those in vicinity.</text>
+<text id="18080600">A sacred chime blessed by Princess Filianore, matriarch of the church.
+
+Filianore's favor knows no boundaries, and this sacred chime represents the epitome of her grace.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Pray for Favor
+Restores 30 HP per second for 5 seconds.
+Affects caster and those in vicinity.</text>
 <text id="18090000">Sacred chime for casting miracles of the Gods. A bellvine cut from a small saint-tree that has been meticulously tended to.
 Saint-tree bellvines are customary in the far north, and allow for faster casting than ordinary sacred chimes.
 
@@ -21426,6 +21642,17 @@ Effect: increases casting speed by 25.
 
 Skill: Weapon Skill
 Equipping this chime in the left hand allows one to perform the Skill of the right hand weapon.</text>
+<text id="18090600">Sacred chime for casting miracles of the Gods. A bellvine cut from a small saint-tree that has been meticulously tended to.
+Saint-tree bellvines are customary in the far north, and allow for faster casting than ordinary sacred chimes.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases casting speed by 25.
+
+Skill: Weapon Skill
+Equipping this chime in the left hand allows one to perform the Skill of the right hand weapon.</text>
 <text id="18100000">Holy catalyst used by a pyromancer that was once touched by the gods.
 
 Can cast Miracles, Pyromancies, Dark Miracles and Dark Pyromancies.
@@ -21480,6 +21707,16 @@ Summon forth a powerful holy symbol in the wielder's hand.</text>
 
 Can cast Miracles, Pyromancies, Dark Miracles and Dark Pyromancies.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases max HP by 10%.
+
+Skill: Divine Retribution
+Summon forth a powerful holy symbol in the wielder's hand.</text>
+<text id="18100600">Holy catalyst used by a pyromancer that was once touched by the gods.
+
+Can cast Miracles, Pyromancies, Dark Miracles and Dark Pyromancies.
+Spell Buff is determined by FTH.
 Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
 
 Effect: increases max HP by 10%.
@@ -21558,18 +21795,19 @@ Effect: increases effectiveness of HP recovery by 10%.
 
 Skill: Guiding Light
 A candle provides a temporary source of light which reveals additional guidance and boosts all spell damage by 10% for 60 seconds.</text>
-<text id="18110500">A candlestick used by the Lothric priests.
+<text id="18110600">A candlestick used by the Lothric priests.
 The priests would make use of the candlestick during religious
 processions.
 
 Can cast Miracles and Dark Miracles.
-Spell Buff is fixed, but spell damage scales based on Luck.
+Spell Buff is determined by FTH.
 Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
 
 Effect: increases effectiveness of HP recovery by 10%.
 
 Skill: Guiding Light
 A candle provides a temporary source of light which reveals additional guidance and boosts all spell damage by 10% for 60 seconds.</text>
+
 <text id="18120000">A flail used by the bulbous Father of the Painted World to shred his own skin, producing blood to appease the flame.
 
 Can cast Miracles and Dark Miracles.
@@ -21618,6 +21856,15 @@ Affinity for Dark damage. Presence of other catalysts in hand will nullify affin
 
 Skill: Awakening
 Violently flail oneself to trigger an awakening, just as the good Father used the rose himself. Harms flailer but grants immunity to damage for 15 seconds.</text>
+<text id="18120600">A flail used by the bulbous Father of the Painted World to shred his own skin, producing blood to appease the flame.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Awakening
+Violently flail oneself to trigger an awakening, just as the good Father used the rose himself. Harms flailer but grants immunity to damage for 15 seconds.</text>
+
 <text id="19000000">Catalyst used by generations of heretic sorcerers. The heretic sorcerers cared not for rigidity of regular sorcery, and this staff reflects this.
 
 Can cast Sorceries, Pyromancies, Dark Sorceries and Dark Pyromancies.
@@ -21662,6 +21909,14 @@ Emit a silencing aura that prevents enemies from casting for 15 seconds.</text>
 
 Can cast Sorceries, Pyromancies, Dark Sorceries and Dark Pyromancies.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Silence
+Emit a silencing aura that prevents enemies from casting for 15 seconds.</text>
+<text id="19000600">Catalyst used by generations of heretic sorcerers. The heretic sorcerers cared not for rigidity of regular sorcery, and this staff reflects this.
+
+Can cast Sorceries, Pyromancies, Dark Sorceries and Dark Pyromancies.
+Spell Buff is determined by INT.
 Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Silence
@@ -21720,6 +21975,16 @@ Expel noxious spores from the formless, parasitical things that inhabit the staf
 
 Can cast Miracles, Pyromancies, Dark Miracles and Dark Pyromancies.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases Poison and Toxic resistance by 200.
+
+Skill: Poison Spores
+Expel noxious spores from the formless, parasitical things that inhabit the staff.</text>
+<text id="19010600">Staff of a heretic storyteller who shares tales of the Painted World to forlorn souls. The storytellers, too, are wretched beings with no place to go. Their bodies, souls, and even their staves are all tainted through and through.
+
+Can cast Miracles, Pyromancies, Dark Miracles and Dark Pyromancies.
+Spell Buff is determined by FTH.
 Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
 
 Effect: increases Poison and Toxic resistance by 200.
@@ -21786,6 +22051,16 @@ Effect: boosts casting speed by 10.
 
 Skill: Despairing Whisper
 Emit forward a potent whisper of despair, inflicting Curse.</text>
+<text id="19020600">The long-handled staff wielded by the murkmen who rise from the depths.
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: boosts casting speed by 10.
+
+Skill: Despairing Whisper
+Emit forward a potent whisper of despair, inflicting Curse.</text>
 <text id="19030000">Large staff bestowed upon Archdeacons of the Cathedral of the Deep.
 
 Can cast Miracles and Dark Miracles.
@@ -21840,6 +22115,16 @@ Cause nearby dead to explode and harm enemies.</text>
 
 Can cast Miracles and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases Dark absorption by 10%.
+
+Skill: Punish the Dead
+Cause nearby dead to explode and harm enemies.</text>
+<text id="19030600">Large staff bestowed upon Archdeacons of the Cathedral of the Deep.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined FTH.
 Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
 
 Effect: increases Dark absorption by 10%.
@@ -21906,6 +22191,16 @@ Affinity for Dark damage. Presence of other catalysts in hand will nullify affin
 
 Skill: Fury of Manus
 Let loose the fury of Manus and beckon various manifestations of his power into this world.</text>
+<text id="19040600">A sorcery catalyst born from the soul of Manus, Father of the Abyss.
+
+A rough, old wooden catalyst large enough to be used as a strike weapon.
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Fury of Manus
+Let loose the fury of Manus and beckon various manifestations of his power into this world.</text>
 <text id="19050000">Catalyst of the banishment sorcerers who flooded New Londo to seal off away the Darkwraiths and the Kings who fell to Dark.
 
 Can cast Sorceries and Dark Sorceries.
@@ -21950,6 +22245,14 @@ Banish the mind of the enemy, turning them non-hostile and allowing them to harm
 
 Can cast Sorceries and Dark Sorceries.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Banish
+Banish the mind of the enemy, turning them non-hostile and allowing them to harm their own kind for 30 seconds.</text>
+<text id="19050600">Catalyst of the banishment sorcerers who flooded New Londo to seal off away the Darkwraiths and the Kings who fell to Dark.
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
 Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Banish
@@ -22026,6 +22329,18 @@ Affinity for Magic damage. Presence of other catalysts in hand will nullify affi
 
 Skill: Pestilent Mist
 Expel pestilent mist from the tip of the staff, harming those that step within it, and cursing them slowly.</text>
+<text id="19060600">A staff used by the consumed king, Oceiros during
+his studies into the origins of dragons.
+
+What madness caused Oceiros to appropriate the frightful power
+of the ancient dragons into such a staff?
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Pestilent Mist
+Expel pestilent mist from the tip of the staff, harming those that step within it, and cursing them slowly.</text>
 <text id="19070000">Once a sacred chime for casting miracles of the Gods, of the type given to Lothric priests. This one appears to have been corrupted by the abyssal beings that inhabit the King's gardens.
 
 Can cast Miracles and Dark Miracles.
@@ -22070,6 +22385,14 @@ Restores 20 HP per second for 5 seconds.</text>
 
 Can cast Miracles and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Gentle Prayer
+Restores 20 HP per second for 5 seconds.</text>
+<text id="19070600">Once a sacred chime for casting miracles of the Gods, of the type given to Lothric priests. This one appears to have been corrupted by the abyssal beings that inhabit the King's gardens.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
 Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Gentle Prayer
@@ -22134,6 +22457,16 @@ Effect: extends the duration of certain effects by 100%.
 
 Skill: Caitha's Affliction
 Emit a ravenous swarm of insects, inflicting 60 Bleed and heavy damage.</text>
+<text id="19080600">Sacred chime blessed by Caitha, goddess of tears. Rare even amongst Carim clerics.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: extends the duration of certain effects by 100%.
+
+Skill: Caitha's Affliction
+Emit a ravenous swarm of insects, inflicting 60 Bleed and heavy damage.</text>
 <text id="19090000">Once a medium for casting miracles of the Gods. Canvas talismans are austere items carried by heralds. This one appears to have been corrupted by an unholy wielder.
 
 Can cast Miracles and Dark Miracles.
@@ -22178,6 +22511,14 @@ Summon multiple darkened soul sediment spots in vicinity, inflicting Curse.</tex
 
 Can cast Miracles and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Yearning
+Summon multiple darkened soul sediment spots in vicinity, inflicting Curse.</text>
+<text id="19090600">Once a medium for casting miracles of the Gods. Canvas talismans are austere items carried by heralds. This one appears to have been corrupted by an unholy wielder.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
 Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Yearning
@@ -22231,6 +22572,15 @@ increasing the cast speed by 50 for 30 seconds. Effect duration can be extended.
 
 Can cast Miracles and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Bestial Wrath
+Raise the talisman up to imbue oneself with a sense of haste,
+increasing the cast speed by 50 for 30 seconds. Effect duration can be extended.</text>
+<text id="19100600">An old wooden amulet resembling a depraved beast, once said to be a cleric.
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
 Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Bestial Wrath
@@ -22290,6 +22640,15 @@ Affinity for Physical damage. Presence of other catalysts in hand will nullify a
 
 Skill: Insanity
 Go insane! Each stack increases Dark damage by 5%, but cuts HP by 25% and causes 1 HP to be lost per second.</text>
+<text id="19110600">A catalyst wrapped in golden cloth.
+Empowered by corrupted magic nestled deep within its bosom.
+
+Can cast Sorceries, Pyromancies, Miracles, Dark Sorceries, Dark Pyromancies and Dark Miracles.
+Spell Buff is determined by INT and FTH.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Insanity
+Go insane! Each stack increases Dark damage by 5%, but cuts HP by 25% and causes 1 HP to be lost per second.</text>
 <text id="19120000">Dark flame catalyst used by corrupted pyromancers. 
 
 Can cast Pyromancies and Dark Pyromancies.
@@ -22338,6 +22697,14 @@ Affinity for Dark damage. Presence of other catalysts in hand will nullify affin
 
 Skill: Abyssal Grasp
 Creates a powerful black flame in the wielder's hand.</text>
+<text id="19120600">Dark flame catalyst used by corrupted pyromancers. 
+
+Can cast Pyromancies and Dark Pyromancies.
+Spell Buff is determined by INT and FTH.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Abyssal Grasp
+Creates a powerful black flame in the wielder's hand.</text>
 <text id="19130000">Candle stick used as both sword and catalyst. Used for worship by the Deacons of the Deep. The deacons, under the guidance of Archdeacon McDonnell, became both clergymen and sorcerers.
 
 Can cast Sorceries, Pyromancies, Miracles, Dark Sorceries, Dark Pyromancies and Dark Miracles.
@@ -22382,6 +22749,14 @@ A candle provides a temporary source of light which reveals additional guidance 
 
 Can cast Sorceries, Pyromancies, Miracles, Dark Sorceries, Dark Pyromancies and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Guiding Light
+A candle provides a temporary source of light which reveals additional guidance and boosts all spell damage by 10% for 60 seconds.</text>
+<text id="19130600">Candle stick used as both sword and catalyst. Used for worship by the Deacons of the Deep. The deacons, under the guidance of Archdeacon McDonnell, became both clergymen and sorcerers.
+
+Can cast Sorceries, Pyromancies, Miracles, Dark Sorceries, Dark Pyromancies and Dark Miracles.
+Spell Buff is determined by INT and FTH.
 Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Guiding Light
@@ -22442,6 +22817,16 @@ An ideal choice for light-footed pilgrims.
 
 Can cast Miracles and Dark Miracles.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
+
+Skill: Pilgrim's Enchantment
+Coat blade in magical energies, boosting Dark damage by 100 for 60 seconds. Effect duration can be extended.</text>
+<text id="19140600">Spontoon used by warriors on pilgrimage.
+Rather worn from the long journey it has doubtless seen.
+An ideal choice for light-footed pilgrims. 
+
+Can cast Miracles and Dark Miracles.
+Spell Buff is determined by FTH.
 Affinity for Dark damage. Presence of other catalysts in hand will nullify affinity.
 
 Skill: Pilgrim's Enchantment
@@ -22512,6 +22897,17 @@ Effect: increases equipment load by 10%.
 Skill: Feasting Branch
 Use souls to weave a sharp branch to fillet prey.
 Can be used repeatedly.</text>
+<text id="19150600">The desiccated right hand of a white-faced locust that rose from an abyssal swamp.
+
+Can cast Sorceries and Dark Sorceries.
+Spell Buff is determined by INT.
+Affinity for Magic damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases equipment load by 10%.
+
+Skill: Feasting Branch
+Use souls to weave a sharp branch to fillet prey.
+Can be used repeatedly.</text>
 <text id="19800000">Flame catalyst used by pyromancers.
 
 Can cast Pyromancies and Dark Pyromancies.
@@ -22566,6 +22962,16 @@ Creates a powerful flame in the wielder's hand. One of the most basic pyromancie
 
 Can cast Pyromancies and Dark Pyromancies.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Fire damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: increases stamina recovery speed by 20. Removes maggots.
+
+Skill: Combustion
+Creates a powerful flame in the wielder's hand. One of the most basic pyromancies, and for this very reason, the flame created is fierce.</text>
+<text id="19800600">Flame catalyst used by pyromancers.
+
+Can cast Pyromancies and Dark Pyromancies.
+Spell Buff is determined by INT and FTH.
 Affinity for Fire damage. Presence of other catalysts in hand will nullify affinity.
 
 Effect: increases stamina recovery speed by 20. Removes maggots.
@@ -22644,6 +23050,18 @@ Effect: adds the flame's damage when casting some Pyromancies at melee range. Re
 
 Skill: Parting Flame
 Release store of death echoes to gain a modest dose of Estus.</text>
+<text id="19810600">The pyromancy flame of Livid Pyromancer Dunnel that attracts the echoes of death.
+
+When Dunnel lost his hideous spouse, he gave his own pyromancy flame as an offering, which transformed into a parting flame. Not long after, Dunnel became a mad spirit, damned to wander the lands.
+
+Can cast Pyromancies and Dark Pyromancies.
+Spell Buff is determined by INT and FTH.
+Affinity for Fire damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: adds the flame's damage when casting some Pyromancies at melee range. Removes maggots.
+
+Skill: Parting Flame
+Release store of death echoes to gain a modest dose of Estus.</text>
 <text id="19820000">This chaotic thing, the last flame kindled by the demon prince, is shaped like the claw marks of a demon.
 
 Can cast Pyromancies and Dark Pyromancies.
@@ -22698,6 +23116,16 @@ Spin to stoke a fierce chaos flame, and use momentum to transition into a spinni
 
 Can cast Pyromancies and Dark Pyromancies.
 Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Fire damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: Reduces Fire absorption by 1% for 5 seconds. Stacks.
+
+Skill: Spin Slash
+Spin to stoke a fierce chaos flame, and use momentum to transition into a spinning strong attack, creating an short-lived lava pool.</text>
+<text id="19820600">This chaotic thing, the last flame kindled by the demon prince, is shaped like the claw marks of a demon.
+
+Can cast Pyromancies and Dark Pyromancies.
+Spell Buff is determined by INT and FTH.
 Affinity for Fire damage. Presence of other catalysts in hand will nullify affinity.
 
 Effect: Reduces Fire absorption by 1% for 5 seconds. Stacks.
@@ -22764,6 +23192,16 @@ Effect: removes maggots.
 
 Skill: Punitive Flame
 Punish foes with a flame that blankets the ground.</text>
+<text id="19830600">Profaned Flame wielded by the Irithyllian witches, frigid spirits roaming the Boreal Valley. This torch, both a weapon and a staff, is enshrouded in an everlasting flame.
+
+Can cast Sorceries, Pyromancies, Dark Sorceries and Dark Pyromancies.
+Spell Buff is determined by INT and FTH.
+Affinity for Fire damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: removes maggots.
+
+Skill: Punitive Flame
+Punish foes with a flame that blankets the ground.</text>
 <text id="19900000">Catalyst fashioned by an enimatic jester, intent on channeling his unnatural affinity for luck towards the arcane.
 
 Can cast Sorceries, Pyromancies, Miracles and Hexes.
@@ -22815,6 +23253,16 @@ Effect: halves the required Intelligence and Faith to cast spells.
 Skill: Fluorescent Flare
 Creates a powerful psychedelic flame in the wielders hand.</text>
 <text id="19900500">Catalyst fashioned by an enimatic jester, intent on channeling his unnatural affinity for luck towards the arcane.
+
+Can cast Sorceries, Pyromancies, Miracles and Hexes.
+Spell Buff is fixed, but spell damage scales based on Luck.
+Affinity for Physical damage. Presence of other catalysts in hand will nullify affinity.
+
+Effect: halves the required Intelligence and Faith to cast spells.
+
+Skill: Fluorescent Flare
+Creates a powerful psychedelic flame in the wielders hand.</text>
+<text id="19900600">Catalyst fashioned by an enimatic jester, intent on channeling his unnatural affinity for luck towards the arcane.
 
 Can cast Sorceries, Pyromancies, Miracles and Hexes.
 Spell Buff is fixed, but spell damage scales based on Luck.
