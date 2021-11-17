@@ -162,6 +162,9 @@ def t300500_x9():
         # Offerings
         AddTalkListData(1, 15003003, -1)
 
+        # Purchase Item
+        AddTalkListData(4, 15011020, -1)
+        
         # Form Covenant
         AddTalkListDataIf(GetEventStatus(25000206) == 0, 2, 15003019, -1)
         
@@ -186,6 +189,12 @@ def t300500_x9():
         # Offerings
         if GetTalkListEntryResult() == 1:
             c1111(21600, 21699)
+            continue
+        # Purchase Item
+        elif GetTalkListEntryResult() == 4:
+            """ State 3,8 """
+            OpenRegularShop(310000, 310099)
+            assert not (CheckSpecificPersonMenuIsOpen(5, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
             continue
         # Form Covenant
         elif GetTalkListEntryResult() == 2:
