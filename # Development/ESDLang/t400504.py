@@ -700,7 +700,7 @@ def t400504_x41():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31500, 4, 1, 0) == 1, 104, 99015203, -1)
         
         # Quit
-        AddTalkListData(99, 15000180, -1)
+        AddTalkListData(999, 15000180, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
@@ -1363,7 +1363,7 @@ def t400504_x42():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31501, 4, 1, 0) == 1, 104, 99015203, -1)
         
         # Quit
-        AddTalkListData(99, 15000180, -1)
+        AddTalkListData(999, 15000180, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
@@ -2689,7 +2689,7 @@ def t400504_x44():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31503, 4, 1, 0) == 1, 104, 99015203, -1)
         
         # Quit
-        AddTalkListData(99, 15000180, -1)
+        AddTalkListData(999, 15000180, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
@@ -3353,7 +3353,7 @@ def t400504_x45():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31504, 4, 1, 0) == 1, 104, 99015203, -1)
         
         # Quit
-        AddTalkListData(99, 15000180, -1)
+        AddTalkListData(999, 15000180, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
