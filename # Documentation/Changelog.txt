@@ -90,6 +90,10 @@ Finish following weapons:
 - Soothing Sunlight:
  - Restores 800 HP
  
+- Added spell Soul Eruption: Emit eruption of soulmasses.
+ - Can be ascended in Soul Explosion.
+ - Found in the Undead Settlement.
+ 
 # Rings
 - Young Dragon Ring: effect now occurs every 15 seconds, no longer randomly.
 - Great Swamp Ring: effect now occurs every 15 seconds, no longer randomly.

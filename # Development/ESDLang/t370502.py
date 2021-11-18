@@ -346,6 +346,9 @@ def t370502_x20():
         # Refined Teleport
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1809000, 4, 1, 0) == 1, 46, 99041045, -1)
         
+        # Soul Explosion
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1810000, 4, 1, 0) == 1, 47, 99041046, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -523,6 +526,10 @@ def t370502_x20():
         # Refined Teleport
         elif GetTalkListEntryResult() == 46:
             assert t370502_x50(80450, 1070, 14, -15, 99042045, 99043045, 99040011)
+            continue
+        # Sooul Explosion
+        elif GetTalkListEntryResult() == 47:
+            assert t370502_x50(80460, 1070, 9, -10, 99042046, 99043046, 99040010)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

@@ -46,6 +46,18 @@
 - Adds an area of effect explosion on impact.
 
 #--------------------------------
+# Soul Eruption 
+#--------------------------------
+- FP Cost: 60
+- INT Req: 20
+- Slot Use: 1
+- Magic Damage: 100 {300}
+- Emit soul projectiles from body. (3 rows of 10)
+
+#---- Soul Explosion
+- Emit more souls projectiles from body (3 rows of 15)
+
+#--------------------------------
 # Scattering Crystal Orb
 #--------------------------------
 - FP Cost: 80
@@ -2022,9 +2034,6 @@ Counterspell
 Falling Star
  Projectile falls down to target, no collision with map
  
-Unleash Magic
- Add proper body VFX
- 
 # Hexes
 Forbidden Pact
  Boost cast speed and HP regen, reduce damage
@@ -2048,3 +2057,5 @@ Fury of the Storm
  
 Cyclone Blast
  Crystal soul spear but wind
+ 
+1810000
