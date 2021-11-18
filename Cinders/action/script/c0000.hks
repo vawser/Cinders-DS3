@@ -1756,6 +1756,38 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         b2 = "W_AttackBothHeavy1Start"
     end
     
+    -----------------------
+    -- Rings
+    -----------------------
+    -- Pugilist's Trick
+    if env(1116, 112590) == TRUE then
+        local fist_hand = HAND_RIGHT
+    
+        -- Handle weapon hand position
+        if style == HAND_LEFT_BOTH then
+            fist_hand = HAND_LEFT
+        else
+            fist_hand = HAND_RIGHT
+        end
+        
+        -- Boost only if fist is right-hand weapon
+        if env(225, fist_hand) == WEAPON_CATEGORY_FIST then
+            if env(1116, 112570) == TRUE then
+                act(2002, 112580)
+            elseif env(1116, 112571) == TRUE then
+                act(2002, 112581)
+            elseif env(1116, 112572) == TRUE then
+                act(2002, 112582)
+            elseif env(1116, 112573) == TRUE then
+                act(2002, 112583)
+            elseif env(1116, 112574) == TRUE then
+                act(2002, 112584)
+            elseif env(1116, 112575) == TRUE then
+                act(2002, 112585)
+            end
+        end
+    end
+    
     --------------------------------------------
     -- R1
     --------------------------------------------
