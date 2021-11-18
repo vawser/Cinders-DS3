@@ -100,6 +100,9 @@ Finish following weapons:
 - Morne's Ring: effect now occurs every 15 seconds, no longer randomly.
 - Deep Ring: effect now occurs every 15 seconds, no longer randomly.
 
+# Enemies
+- Reduced the damage and poise of the Pontiff Knights.
+
 # Merchants
 - Solaire now sells Lifegem, Radiant Lifegem, Old Radiant Lifegem and Rouge Water.
  
