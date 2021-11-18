@@ -13919,6 +13919,7 @@ function MagicLaunchRight_Upper_onUpdate()
             if 0 < env(1108, button) then
                 -- Generic Hold Magic
                 local magic_type = env(227)
+                
                 if magic_type == 0 or magic_type == 5 or magic_type == 8 or magic_type == 9 or magic_type == 12 or magic_type == 18 or magic_type == 19 or magic_type == 22 or magic_type == 25 or magic_type == 31 or magic_type == 32 or magic_type == 33 or magic_type == 35 or magic_type == 36 or magic_type == 37 or magic_type == 39 or magic_type == 40 or magic_type == 41 or magic_type == 42 or magic_type == 43 or magic_type == 44 or magic_type == 47 then
                     ExecEventHalfBlend("W_Idle", blend_type)
                 else

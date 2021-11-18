@@ -1043,30 +1043,30 @@
 #--------------------------------
 # Lightning Spear
 #--------------------------------
-- FP Cost: 50
+- FP Cost: 30
 - FTH Req: 10
 - Slot Use: 1
 - Lightning Damage: 110 {330} [50 {150}] [50 {150}] 
 
 #---- Lightning Surge
-- Changes cast animation to Fire Surge and reduces damage to 100.
+- Changes cast animation to Fire Surge and reduces damage to 75.
 
 #--------------------------------
 # Great Lightning Spear
 #--------------------------------
-- FP Cost: 75
-- Lightning Damage: 160 {480} [80 {240}] [80 {240}] 
+- FP Cost: 60
+- Lightning Damage: 175 {525} [80 {240}] [80 {240}] 
 - FTH Req: 25
 - Slot Use: 1
 
 #---- Storm Spear
-- Adds a ground lighting AoE wave on impact, damage 80 {240}.
+- Adds a ground lighting AoE wave on impact, damage 100 {300}.
 
 #--------------------------------
 # Sunlight Spear
 #--------------------------------
 - FP Cost: 100
-- Lightning Damage: 250 {750} [100 {300}] [100 {300}]
+- Lightning Damage: 300 {900} [100 {300}] [100 {300}]
 - FTH Req: 40
 - Slot Use: 2
 
