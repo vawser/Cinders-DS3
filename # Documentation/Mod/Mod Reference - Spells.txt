@@ -2024,10 +2024,6 @@
 # Spell Ideas
 #--------------------------------------------------------------------------
 # Sorcery
-Soul Burst
- Multiple weak projectiles
- Force anim
- 
 Counterspell
  Vow of Silence effect for enemy only, but shorter
  
@@ -2058,4 +2054,4 @@ Fury of the Storm
 Cyclone Blast
  Crystal soul spear but wind
  
-1810000
+

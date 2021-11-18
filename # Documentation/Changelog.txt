@@ -91,7 +91,7 @@ Finish following weapons:
  - Restores 800 HP
  
 - Added spell Soul Eruption: Emit eruption of soulmasses.
- - Can be ascended in Soul Explosion.
+ - Can be ascended into Soul Explosion.
  - Found in the Undead Settlement.
  
 # Rings
@@ -116,6 +116,7 @@ Finish following weapons:
 
 # Bugfix
 - Fixed the HP effectiveness adjustment being incorrect for affixed Unholy Remains and Wretched Pendant.
+- Carthus Sandworm now drops his Undead Bone Shard correctly.
 
 #------------------------------
 # TODO
