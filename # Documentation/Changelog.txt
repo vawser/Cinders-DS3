@@ -73,6 +73,9 @@ Finish following weapons:
 - Reduced HP of several hostile NPCs.
 - Reduced damage of several hostile NPCs.
 
+# Weapons
+- Feast Bell WA now lasts 20 seconds.
+
 # Spells
 - Increased max spellbuff to 300 again.
 - Removed the FP pause from casting a normal spell. Other pauses still remain.
