@@ -236,7 +236,7 @@
 9896    Amygdalan Arm (closed)
 9897    Greatshield of Artorias
 9898    Greatsword of Artorias
-9899    Artorias sword              # UNUSED
+9899    Artorias sword
 9900    Balder Side Sword
 9901    Channeler's Trident
 9902    Marvelous Zweihander
@@ -258,7 +258,7 @@
 9918    Grant
 9919    Gravelord Sword
 9920    Great Lord Greatsword
-9921    Lifehunt Scythe             # UNUSED
+9921    Lifehunt Scythe
 9922    Man Serpent Greatsword
 9923    Manus Catalyst
 9924    Moonlight Butterfly Horn
