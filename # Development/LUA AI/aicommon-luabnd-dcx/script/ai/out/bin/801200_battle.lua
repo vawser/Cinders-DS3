@@ -31,55 +31,55 @@ Goal.Activate = function (self, ai, goal)
     
     if ai:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_B, 180) then
         if 6 <= distance then
-            actChanceList[11] = 0
-            actChanceList[20] = 100
+            actChanceList[11] = 0 -- Dash Left/Right
+            actChanceList[20] = 100 -- Turn
         elseif 2 <= distance then
-            actChanceList[11] = 30
-            actChanceList[20] = 70
+            actChanceList[11] = 30 -- Dash Left/Right
+            actChanceList[20] = 70 -- Turn
         else
-            actChanceList[11] = 50
-            actChanceList[20] = 50
+            actChanceList[11] = 50 -- Dash Left/Right
+            actChanceList[20] = 50 -- Turn
         end
     elseif 7 <= distance then
-        actChanceList[1] = 0
-        actChanceList[2] = 5
-        actChanceList[3] = 40
-        actChanceList[4] = 5
-        actChanceList[5] = 20
-        actChanceList[6] = 20
-        actChanceList[7] = 0
-        actChanceList[10] = 10
-        actChanceList[11] = 0
+        actChanceList[1] = 0 -- Bite
+        actChanceList[2] = 5 -- Jump Bite
+        actChanceList[3] = 0 -- Bark
+        actChanceList[4] = 5 -- Leap and Bite
+        actChanceList[5] = 20 -- Run Right and Bite
+        actChanceList[6] = 20 -- Run Left and Bite
+        actChanceList[7] = 0 -- Dash Left/Right and Bite
+        actChanceList[10] = 10 -- Move
+        actChanceList[11] = 0 -- Dash Left/Right
     elseif 4 <= distance then
-        actChanceList[1] = 10
-        actChanceList[2] = 20
-        actChanceList[3] = 30
-        actChanceList[4] = 30
-        actChanceList[5] = 0
-        actChanceList[6] = 0
-        actChanceList[7] = 0
-        actChanceList[10] = 10
-        actChanceList[11] = 0
+        actChanceList[1] = 10 -- Bite
+        actChanceList[2] = 20 -- Jump Bite
+        actChanceList[3] = 0 -- Bark
+        actChanceList[4] = 30 -- Leap and Bite
+        actChanceList[5] = 0 -- Run Right and Bite
+        actChanceList[6] = 0 -- Run Left and Bite
+        actChanceList[7] = 0 -- Dash Left/Right and Bite
+        actChanceList[10] = 10 -- Move
+        actChanceList[11] = 0 -- Dash Left/Right
     elseif 2 <= distance then
-        actChanceList[1] = 20
-        actChanceList[2] = 40
-        actChanceList[3] = 0
-        actChanceList[4] = 0
-        actChanceList[5] = 0
-        actChanceList[6] = 0
-        actChanceList[7] = 20
-        actChanceList[10] = 10
-        actChanceList[11] = 10
+        actChanceList[1] = 20 -- Bite
+        actChanceList[2] = 40 -- Jump Bite
+        actChanceList[3] = 0 -- Bark
+        actChanceList[4] = 0 -- Leap and Bite
+        actChanceList[5] = 0 -- Run Right and Bite
+        actChanceList[6] = 0 -- Run Left and Bite
+        actChanceList[7] = 20 -- Dash Left/Right and Bite
+        actChanceList[10] = 10 -- Move
+        actChanceList[11] = 10 -- Dash Left/Right
     else
-        actChanceList[1] = 30
-        actChanceList[2] = 20
-        actChanceList[3] = 0
-        actChanceList[4] = 0
-        actChanceList[5] = 0
-        actChanceList[6] = 0
-        actChanceList[7] = 20
-        actChanceList[10] = 0
-        actChanceList[11] = 30
+        actChanceList[1] = 30 -- Bite
+        actChanceList[2] = 20 -- Jump Bite
+        actChanceList[3] = 0 -- Bark
+        actChanceList[4] = 0 -- Leap and Bite
+        actChanceList[5] = 0 -- Run Right and Bite
+        actChanceList[6] = 0 -- Run Left and Bite
+        actChanceList[7] = 20 -- Dash Left/Right and Bite
+        actChanceList[10] = 0 -- Move
+        actChanceList[11] = 30 -- Dash Left/Right
     end
     
     actChanceList[3] = SetCoolTime(ai, goal, 3005, 10, actChanceList[3], 0)
@@ -152,81 +152,107 @@ function SpellSummon_UndeadDog_Act02(self, ai, goal)
     return GetWellSpace_Odds
 end
 
+-- Bark
 function SpellSummon_UndeadDog_Act03(self, ai, goal)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3005, TARGET_ENE_0, 3.5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
+-- Leap and Bite
 function SpellSummon_UndeadDog_Act04(self, ai, goal)
     local local0 = 2.5 - self:GetMapHitRadius(TARGET_SELF)
     local local1 = 2.5 - self:GetMapHitRadius(TARGET_SELF) + 1
     local local2 = 3008
+    
     if local1 <= self:GetDist(TARGET_ENE_0) then
         local0 = local0 + 1
         local2 = 3009
     end
+    
     Approach_Act_Flex(self, ai, local0, 2.5 - self:GetMapHitRadius(TARGET_SELF) + 0, local1, 0, 0, 1.5, 4)
+    
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, local2, TARGET_ENE_0, 3.5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- Run Right and Bite
 function SpellSummon_UndeadDog_Act05(self, ai, goal)
     local local0 = 7 - self:GetMapHitRadius(TARGET_SELF)
     local local1 = 7 - self:GetMapHitRadius(TARGET_SELF) + 1
+    
     if local1 < self:GetDist(TARGET_ENE_0) then
         local0 = local0 + 1
     end
+    
     Approach_Act_Flex(self, ai, local0, 7 - self:GetMapHitRadius(TARGET_SELF) + 0, local1, 0, 0, 1.5, 4)
+    
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3012, TARGET_ENE_0, 3.5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- Run Left and Bite
 function SpellSummon_UndeadDog_Act06(self, ai, goal)
     local local0 = 6.6 - self:GetMapHitRadius(TARGET_SELF)
     local local1 = 6.6 - self:GetMapHitRadius(TARGET_SELF) + 1
+    
     if local1 < self:GetDist(TARGET_ENE_0) then
         local0 = local0 + 1
     end
+    
     Approach_Act_Flex(self, ai, local0, 6.6 - self:GetMapHitRadius(TARGET_SELF) + 0, local1, 0, 0, 1.5, 4)
+    
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3013, TARGET_ENE_0, 3.5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- Dash Left/Right and Bite
 function SpellSummon_UndeadDog_Act07(self, ai, goal)
     local local0 = 3.5 - self:GetMapHitRadius(TARGET_SELF)
     local local1 = 0
     local local2 = 0
+    
     if self:GetRandam_Int(1, 100) <= 50 then
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3010, TARGET_ENE_0, local0, local1, local2, 0, 0)
     else
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3011, TARGET_ENE_0, local0, local1, local2, 0, 0)
     end
+    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
+-- Move
 function SpellSummon_UndeadDog_Act10(self, ai, goal)
     ai:AddSubGoal(GOAL_COMMON_MoveToSomewhere, self:GetRandam_Float(1.5, 2), TARGET_ENE_0, self:GetRandam_Int(AI_DIR_TYPE_ToL, AI_DIR_TYPE_ToR), 6, TARGET_SELF, false)
+    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
+-- Dash Left/Right
 function SpellSummon_UndeadDog_Act11(self, ai, goal)
     if InsideRange(self, ai, 90, 180, -9999, 9999) then
         ai:AddSubGoal(GOAL_COMMON_SpinStep, 5, 6002, TARGET_ENE_0, 0, AI_DIR_TYPE_L, 5)
     elseif InsideRange(self, ai, -90, 180, -9999, 9999) then
         ai:AddSubGoal(GOAL_COMMON_SpinStep, 5, 6003, TARGET_ENE_0, 0, AI_DIR_TYPE_R, 5)
     end
+    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
+-- Turn
 function SpellSummon_UndeadDog_Act20(self, ai, goal)
     ai:AddSubGoal(GOAL_COMMON_Turn, 2, TARGET_ENE_0, 90)
+    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
@@ -258,27 +284,23 @@ end
 
 RegisterTableGoal(GOAL_SpellSummon_UndeadDog_801200_AfterAttackAct, "GOAL_SpellSummon_UndeadDog_801200_AfterAttackAct")
 REGISTER_GOAL_NO_SUB_GOAL(GOAL_SpellSummon_UndeadDog_801200_AfterAttackAct, true)
+
 Goal.Activate = function (self, ai, goal)
-    local local0 = ai:GetDist(TARGET_ENE_0)
-    local local1 = ai:GetRandam_Int(1, 100)
+    local distance = ai:GetDist(TARGET_ENE_0)
+    local roll = ai:GetRandam_Int(1, 100)
+    
     if ai:GetTeamOrder(ORDER_TYPE_Role) == ROLE_TYPE_Attack then
-        if local0 <= 1.5 then
-            if local1 <= 40 then
+        -- Backstep
+        if distance <= 1.5 then
+            if roll <= 40 then
                 goal:AddSubGoal(GOAL_COMMON_SpinStep, 5, 6001, TARGET_ENE_0, 0, AI_DIR_TYPE_B, ai:GetStringIndexedNumber("Dist_BackStep"))
-            elseif local1 <= 55 then
+            elseif roll <= 55 then
                 goal:AddSubGoal(GOAL_COMMON_SpinStep, 5, 6001, TARGET_ENE_0, 0, AI_DIR_TYPE_B, ai:GetStringIndexedNumber("Dist_BackStep"))
+
                 goal:AddSubGoal(GOAL_COMMON_SpinStep, 5, 6001, TARGET_ENE_0, 0, AI_DIR_TYPE_B, ai:GetStringIndexedNumber("Dist_BackStep"))
             end
-        elseif local0 <= 3 and local1 <= 25 then
+        elseif distance <= 3 and roll <= 25 then
             goal:AddSubGoal(GOAL_COMMON_SpinStep, 5, 6001, TARGET_ENE_0, 0, AI_DIR_TYPE_B, ai:GetStringIndexedNumber("Dist_BackStep"))
-        end
-    elseif ai:GetTeamOrder(ORDER_TYPE_Role) == ROLE_TYPE_Torimaki then
-        if local0 <= 6 then
-            goal:AddSubGoal(GOAL_COMMON_LeaveTarget, ai:GetRandam_Float(1, 1.5), TARGET_ENE_0, 8, TARGET_ENE_0, true, -1)
-        end
-    elseif ai:GetTeamOrder(ORDER_TYPE_Role) == ROLE_TYPE_Kankyaku then
-        if local0 <= 6 then
-            goal:AddSubGoal(GOAL_COMMON_LeaveTarget, ai:GetRandam_Float(1, 1.5), TARGET_ENE_0, 8, TARGET_ENE_0, true, -1)
         end
     else
         goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 2, TARGET_ENE_0, 999, TARGET_SELF, false, 0)

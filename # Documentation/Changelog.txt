@@ -66,6 +66,10 @@ Finish following weapons:
 # General
 - Reverted the armor icon change.
 
+# Classes
+- Added Collector class.
+- Added Guardian class.
+
 # Stats
 - Changed the base FP value to 150.
 
@@ -75,6 +79,10 @@ Finish following weapons:
 
 # Weapons
 - Feast Bell WA now lasts 20 seconds.
+- Shiv now boosts movement speed by 10%.
+- Censuring Palm now only boosts movement speed by 10%.
+- Thrall Harpe now increases jump distance by 25% (and +5 LCK as before).
+- Thrall Pick now increases jump distance by 25% (and +5 LCK as before).
 
 # Spells
 - Increased max spellbuff to 300 again.
@@ -104,7 +112,7 @@ Finish following weapons:
 - Deep Ring: effect now occurs every 15 seconds, no longer randomly.
 
 - Added Pugilist's Trick:
- - Boosts fist damage by 100/120/140/160/180/200%.
+ - Boosts fist damage by 50/60/70/80/90/100%.
  - Works with Fists and Censuring Palm.
  - Found in Farron Keep.
  
@@ -142,9 +150,6 @@ Add unreachable item handling for OTK enemies that don't award loot directly: mi
 
 
 # AI Pass:
-Undead Dog
-Carthus Swordsman
-Lycanthrope
 Black Knight
 Abyss Watcher
 Gargoyle
@@ -185,3 +190,11 @@ Livid Pyromancer Dunnel
 Amnesiac Lapp
 Slave Knight Gael
 
+Guardian
+30900000
+22140000
+
+99890000
+99891000
+99892000
+99893000
