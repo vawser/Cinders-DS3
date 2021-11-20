@@ -4086,6 +4086,7 @@
 160500510 [Pyromancy] Bloodthirsty Sacred Flame
 160500520 [Miracle] Bloodthirsty Divine Arrow
 160500530 [Miracle] Beckoning Grace
+160500540 [Pyromancy] Throw Sand
 160509999 ### Spells - Drawbacks ###
 160510000 Magic Weapon
 160510010 Great Magic Weapon
