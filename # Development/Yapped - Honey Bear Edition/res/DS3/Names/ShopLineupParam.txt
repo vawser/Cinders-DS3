@@ -212,6 +212,7 @@
 30050 [Ludleth - Abyss Watcher] Farron Greatsword
 30051 [Ludleth - Abyss Watcher] Wolf Knight's Greatsword
 30052 [Ludleth - Abyss Watcher] Hornet Ring
+30053 [Ludleth - Abyss Watcher] Conjure Watcher
 30060 [Ludleth - High Lord Wolnir] Wolnir's Holy Sword
 30061 [Ludleth - High Lord Wolnir] Black Serpent
 30063 [Ludleth - High Lord Wolnir] Black Fire Vestiges
@@ -228,6 +229,7 @@
 30091 [Ludleth - Aldrich] Lifehunt Scythe
 30092 [Ludleth - Aldrich] Sword of Avowal
 30093 [Ludleth - Aldrich] Golden Ritual Spear
+30094 [Ludleth - Aldrich] Teleport
 30100 [Ludleth - Yhorm the Giant] Yhorm's Great Machete
 30101 [Ludleth - Yhorm the Giant] Yhorm's Greatshield
 30102 [Ludleth - Yhorm the Giant] Ring of Punishment
@@ -330,6 +332,7 @@
 30450 [Ludleth - The Marauder] Fume Sword
 30451 [Ludleth - The Marauder] Fume Ultra Greatsword
 30452 [Ludleth - The Marauder] Knight Slayer's Ring
+30453 [Ludleth - The Marauder] Conjure Knight
 36000 [Bonfire - Firelink Shrine] Shriving Stone
 36001 [Bonfire - Firelink Shrine] Lethal Gem
 36002 [Bonfire - Untended Graves] Curse Gem
@@ -813,6 +816,8 @@
 140102 [Cornyx - Spells] Flame Fan
 140103 [Cornyx - Spells] Firestorm
 140104 [Cornyx - Spells] Profuse Sweat
+140105 [Cornyx - Spells] Throw Dust
+140106 [Cornyx - Spells] Magnetism
 140120 [Cornyx - Spells - Great Swamp] Fire Surge
 140121 [Cornyx - Spells - Great Swamp] Great Combustion
 140122 [Cornyx - Spells - Great Swamp] Flash Sweat
@@ -1570,19 +1575,13 @@
 270021 [Master Benjin - Tortured Soul] Rosamarius
 270040 [Master Benjin - Smithbox] Cannon
 270041 [Master Benjin - Smithbox] Evelynn
-280000 [Ritualist Ellie] Rejuvenating Phial
-280001 [Ritualist Ellie] Banishing Coin
-280002 [Ritualist Ellie] Beckoning Bone
-280003 [Ritualist Ellie] Invigorating Phial
-280004 [Ritualist Ellie] Regenerating Phial
-280010 [Ritualist Ellie] Dial of Obedience
-280011 [Ritualist Ellie] Offering of Might
-280012 [Ritualist Ellie] Offering of Tenacity
-280013 [Ritualist Ellie] Offering of Fortitude
-280014 [Ritualist Ellie] Offering of Vitality
-280015 [Ritualist Ellie] Offering of Devotion
-280016 [Ritualist Ellie] Offering of Fervor
-280100 [Ritualist Ellie] Opus of Rituals
+280000 [Conjurator Ellie - Shop] Conjure Hollow
+280001 [Conjurator Ellie - Shop] Conjure Hound
+280002 [Conjurator Ellie - Shop] Minor Restoration Ritual
+280010 [Conjurator Ellie - Shop - Abyss Watchers] Ring of Conjuration
+280100 [Conjurator Ellie - Covenant] Ferverous Ritual
+280101 [Conjurator Ellie - Covenant] Major Restoration Ritual
+280102 [Conjurator Ellie - Covenant] Sacrificial Ritual
 290000 [Occultist Grudore] Bloodthirsty Firebomb
 290001 [Occultist Grudore] Bloodthirsty Throwing Knife
 290002 [Occultist Grudore] Bloodthirsty Set-up Firebomb
@@ -1666,6 +1665,10 @@
 300051 [Erstwhile George] Gloom Armor
 300052 [Erstwhile George] Gloom Gauntlets
 300053 [Erstwhile George] Gloom Leggings
+310000 [Solaire of Astora] Lifegem
+310001 [Solaire of Astora] Radiant Lifegem
+310002 [Solaire of Astora] Old Radiant Lifegem
+310003 [Solaire of Astora] Rouge Water
 760001 [Stone-humped Hag] Devil's Trumpet
 760002 [Stone-humped Hag] Moonflower
 760003 [Stone-humped Hag] Henbane
@@ -3062,18 +3065,17 @@
 802132 [Gauntlet Accessory] Frostflower Ring
 802133 [Gauntlet Accessory] Rare Ring of Humanity
 802134 [Gauntlet Accessory] Gwynevere's Urn
-802135 [Gauntlet Accessory] Dial of Obedience
-802136 [Gauntlet Accessory] Offering of Might
-802137 [Gauntlet Accessory] Offering of Tenacity
-802138 [Gauntlet Accessory] Offering of Fortitude
-802139 [Gauntlet Accessory] Offering of Vitality
-802140 [Gauntlet Accessory] Offering of Devotion
-802141 [Gauntlet Accessory] Offering of Fervor
+802136 [Gauntlet Accessory] Ring of Conjuration
 802142 [Gauntlet Accessory] Ravenous Chalice
 802143 [Gauntlet Accessory] Old Man's Gambit
 802144 [Gauntlet Accessory] Assassin's Mark
 802145 [Gauntlet Accessory] Gower's Ring of Protection
 802146 [Gauntlet Accessory] Ring of Retreat
+802147 [Gauntlet Accessory] Ring of Blades
+802148 [Gauntlet Accessory] Sigil of Magic
+802149 [Gauntlet Accessory] Sigil of Flame
+802150 [Gauntlet Accessory] Sigil of Thunder
+802151 [Gauntlet Accessory] Sigil of Darkness
 803000 [Gauntlet Spell] Farron Dart
 803001 [Gauntlet Spell] Bloodthirsty Farron Dart
 803002 [Gauntlet Spell] Scattering Soul Orb
@@ -3400,6 +3402,23 @@
 803323 [Gauntlet Spell] Quickened Discs of Dorthinus
 803324 [Gauntlet Spell] Gwynevere's Abnegation
 803325 [Gauntlet Spell] Gwynevere's Refined Abnegation
+803326 [Gauntlet Spell] Conjure Skeleton
+803327 [Gauntlet Spell] Conjure Hollow
+803328 [Gauntlet Spell] Conjure Hound
+803329 [Gauntlet Spell] Conjure Warrior
+803330 [Gauntlet Spell] Conjure Sentinel
+803331 [Gauntlet Spell] Conjure Lycanthrope
+803332 [Gauntlet Spell] Conjure Knight
+803333 [Gauntlet Spell] Conjure Watcher
+803334 [Gauntlet Spell] Conjure Gargoyle
+803335 [Gauntlet Spell] Ferverous Ritual
+803336 [Gauntlet Spell] Major Restoration Ritual
+803337 [Gauntlet Spell] Minor Restoration Ritual
+803338 [Gauntlet Spell] Sacrificial Ritual
+803339 [Gauntlet Spell] Teleport
+803340 [Gauntlet Spell] Refined Teleport
+803341 [Gauntlet Spell] Soul Eruption
+803342 [Gauntlet Spell] Soul Explosion
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal
@@ -3550,6 +3569,86 @@
 804231 [Gauntlet Ammunition] Poison Bolt
 804232 [Gauntlet Ammunition] Frost Bolt
 804233 [Gauntlet Ammunition] Millwood Greatarrow
+804500 [Gauntlet Covenant] Darkmoon Faithful I
+804501 [Gauntlet Covenant] Darkmoon Faithful II
+804502 [Gauntlet Covenant] Darkmoon Faithful III
+804503 [Gauntlet Covenant] Darkmoon Faithful IV
+804504 [Gauntlet Covenant] Darkmoon Faithful V
+804510 [Gauntlet Covenant] Watchdogs of Farron I
+804511 [Gauntlet Covenant] Watchdogs of Farron II
+804512 [Gauntlet Covenant] Watchdogs of Farron III
+804513 [Gauntlet Covenant] Watchdogs of Farron IV
+804514 [Gauntlet Covenant] Watchdogs of Farron V
+804520 [Gauntlet Covenant] Aldrich Faithful I
+804521 [Gauntlet Covenant] Aldrich Faithful II
+804522 [Gauntlet Covenant] Aldrich Faithful III
+804523 [Gauntlet Covenant] Aldrich Faithful IV
+804524 [Gauntlet Covenant] Aldrich Faithful V
+804530 [Gauntlet Covenant] Warrior of Sunlight I
+804531 [Gauntlet Covenant] Warrior of Sunlight II
+804532 [Gauntlet Covenant] Warrior of Sunlight III
+804533 [Gauntlet Covenant] Warrior of Sunlight IV
+804534 [Gauntlet Covenant] Warrior of Sunlight V
+804540 [Gauntlet Covenant] Mound-makers I
+804541 [Gauntlet Covenant] Mound-makers II
+804542 [Gauntlet Covenant] Mound-makers III
+804543 [Gauntlet Covenant] Mound-makers IV
+804544 [Gauntlet Covenant] Mound-makers V
+804550 [Gauntlet Covenant] Thieves' Pact I
+804551 [Gauntlet Covenant] Thieves' Pact II
+804552 [Gauntlet Covenant] Thieves' Pact III
+804553 [Gauntlet Covenant] Thieves' Pact IV
+804554 [Gauntlet Covenant] Thieves' Pact V
+804560 [Gauntlet Covenant] Chaos Servant I
+804561 [Gauntlet Covenant] Chaos Servant II
+804562 [Gauntlet Covenant] Chaos Servant III
+804563 [Gauntlet Covenant] Chaos Servant IV
+804564 [Gauntlet Covenant] Chaos Servant V
+804570 [Gauntlet Covenant] Rosaria's Fingers I
+804571 [Gauntlet Covenant] Rosaria's Fingers II
+804572 [Gauntlet Covenant] Rosaria's Fingers III
+804573 [Gauntlet Covenant] Rosaria's Fingers IV
+804574 [Gauntlet Covenant] Rosaria's Fingers V
+804580 [Gauntlet Covenant] Vinheim Scholars I
+804581 [Gauntlet Covenant] Vinheim Scholars II
+804582 [Gauntlet Covenant] Vinheim Scholars III
+804583 [Gauntlet Covenant] Vinheim Scholars IV
+804584 [Gauntlet Covenant] Vinheim Scholars V
+804590 [Gauntlet Covenant] Pilgrims of Dark I
+804591 [Gauntlet Covenant] Pilgrims of Dark II
+804592 [Gauntlet Covenant] Pilgrims of Dark III
+804593 [Gauntlet Covenant] Pilgrims of Dark IV
+804594 [Gauntlet Covenant] Pilgrims of Dark V
+804600 [Gauntlet Covenant] Way of White I
+804601 [Gauntlet Covenant] Way of White II
+804602 [Gauntlet Covenant] Way of White III
+804603 [Gauntlet Covenant] Way of White IV
+804604 [Gauntlet Covenant] Way of White V
+804610 [Gauntlet Covenant] Blue Sentinels I
+804611 [Gauntlet Covenant] Blue Sentinels II
+804612 [Gauntlet Covenant] Blue Sentinels III
+804613 [Gauntlet Covenant] Blue Sentinels IV
+804614 [Gauntlet Covenant] Blue Sentinels V
+804620 [Gauntlet Covenant] Way of Blue I
+804621 [Gauntlet Covenant] Way of Blue II
+804622 [Gauntlet Covenant] Way of Blue III
+804623 [Gauntlet Covenant] Way of Blue IV
+804624 [Gauntlet Covenant] Way of Blue V
+804630 [Gauntlet Covenant] Company of Champions I
+804631 [Gauntlet Covenant] Company of Champions II
+804632 [Gauntlet Covenant] Company of Champions III
+804633 [Gauntlet Covenant] Company of Champions IV
+804634 [Gauntlet Covenant] Company of Champions V
+804640 [Gauntlet Covenant] Servant of the Rat I
+804641 [Gauntlet Covenant] Servant of the Rat II
+804642 [Gauntlet Covenant] Servant of the Rat III
+804643 [Gauntlet Covenant] Servant of the Rat IV
+804644 [Gauntlet Covenant] Servant of the Rat V
+804650 [Gauntlet Covenant] Conjurator's Pact I
+804651 [Gauntlet Covenant] Conjurator's Pact II
+804652 [Gauntlet Covenant] Conjurator's Pact III
+804653 [Gauntlet Covenant] Conjurator's Pact IV
+804654 [Gauntlet Covenant] Conjurator's Pact V
 900000 [Debug] Weapon Token
 900001 [Debug] Armor Token
 900002 [Debug] Accesory Token

@@ -108,6 +108,10 @@ Finish following weapons:
 - Added spell Soul Eruption: Emit eruption of soulmasses.
  - Can be ascended into Soul Explosion.
  - Found in the Undead Settlement.
+
+- Added two new Pyromancies:
+ - Throw Dust: Deals low Physical damage in a small AoE and reduces the Physical absorption of enemies by 10% for 10 seconds. Sold by Cornyx.
+ - Magnetism: Pulls target enemy closer to the caster. Sold by Cornyx.
  
 # Rings
 - Young Dragon Ring: effect now occurs every 15 seconds, no longer randomly.
@@ -162,6 +166,10 @@ Finish following weapons:
 # Bugfix
 - Fixed the HP effectiveness adjustment being incorrect for affixed Unholy Remains and Wretched Pendant.
 - Carthus Sandworm now drops his Undead Bone Shard correctly.
+- Added the missing border to the Mass of Humanity menu icon.
+- Fixed the Cannon drop amount from Ashen Hunter Yafuh.
+- Fixed the Gower's Ring of Retribution drop amount from Huntmaster Ava.
+- Fixed some item descriptions.
 
 #------------------------------
 # TODO

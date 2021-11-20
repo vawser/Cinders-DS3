@@ -234,8 +234,10 @@
 100224 Class - Skeptic
 100225 Class - Paladin
 100226 Class - Jester
-100227 Class - Summoner
-100228 Class - Accursed
+100227 Class - Conjurator
+100228 Class - Collector
+100229 Class - Guardian
+100230 Class - Accursed
 100300 Gift - None
 100301 Gift - Master Key
 100302 Gift - Young White Branch (3)

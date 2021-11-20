@@ -1644,6 +1644,35 @@ Rage, rage against the dying of the flame.
 
 Deals 5 damage per hit every second for 10 seconds. Stacks.
 </text>
+<text id="2722000">Pyromancy of Carthus of the Sands.
+
+Create particles of dust in hand and throw at enemy.
+Impact reduces the Physical absorption of the target by 10% for 10 seconds.
+
+Carthus' swordsmen attached great value to victory,
+and would not shun the use of such pyromancies.
+For where is the honor in death and scoured bones?</text>
+<text id="2722010">Pyromancy of Carthus of the Sands.
+
+Create particles of dust in hand and throw at enemy.
+Impact reduces the Physical absorption of the target by 10% for 10 seconds.
+Grants 5 Bloodthirst charges.
+
+Carthus' swordsmen attached great value to victory,
+and would not shun the use of such pyromancies.
+For where is the honor in death and scoured bones?</text>
+<text id="2723000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Create magnetic field around target enemy and pull them closer to the caster.
+Only works against weak enemies.
+
+The earth itself responds to the flame, as to why, it is unknown.</text>
+<text id="2723010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Create magnetic field around target enemy and pull them closer to the caster with no focus cost.
+Only works against weak enemies.
+
+The earth itself responds to the flame, as to why, it is unknown.</text>
 <text id="2730000">An eclectic pyromancy created by an elusive conjurator.
 Draws upon the inner flame to conjure life from collected remains.
 
@@ -1841,7 +1870,7 @@ are amply rewarded. </text>
 <text id="3503000">Special miracle granted to the maidens
 of the Princess of Sunlight.
 
-Restores a 500 HP for self and those in the general area.
+Restores a 800 HP for self and those in the general area.
 Scales with Spell Buff.
 Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 
@@ -1851,7 +1880,7 @@ a great many warriors.</text>
 <text id="3503010">Special miracle granted to the maidens
 of the Princess of Sunlight.
 
-Restores a 500 HP for self and those in the general area.
+Restores a 800 HP for self and those in the general area.
 Scales with Spell Buff. Range increased to 17 meters.
 Usage diminishes healing effectiveness by 10% for 15 seconds. This effect stacks.
 

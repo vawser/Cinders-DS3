@@ -229,6 +229,17 @@
 4508 [Spell Tool] Laughing +8
 4509 [Spell Tool] Laughing +9
 4510 [Spell Tool] Laughing +10
+4600 [Spell Tool] Unstable +0
+4601 [Spell Tool] Unstable +1
+4602 [Spell Tool] Unstable +2
+4603 [Spell Tool] Unstable +3
+4604 [Spell Tool] Unstable +4
+4605 [Spell Tool] Unstable +5
+4606 [Spell Tool] Unstable +6
+4607 [Spell Tool] Unstable +7
+4608 [Spell Tool] Unstable +8
+4609 [Spell Tool] Unstable +9
+4610 [Spell Tool] Unstable +10
 8000 [Shield] Stock +0
 8001 [Shield] Stock +1
 8002 [Shield] Stock +2

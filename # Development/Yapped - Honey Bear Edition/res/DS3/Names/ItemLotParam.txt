@@ -177,7 +177,7 @@
 9999 ### Treasure - Intruders
 10100 [Luyila of Londor] Darkdrift
 10200 [Forgotten Locklin] Dashmaster's String
-10300 [Holy Knight Morton] Titanite Fragment
+10300 [Holy Knight Morton] Sigil of Flame
 10500 [Tiny] Smough's Helm
 10501 [Tiny] Smough's Armor
 10502 [Tiny] Smough's Gauntlets
@@ -558,6 +558,8 @@
 80420 [Sorcery] Chilling Rime
 80430 [Sorcery] Bloodthirsty Path of Frost
 80440 [Sorcery] Quickened Discs of Dorthinus
+80450 [Sorcery] Refined Teleport
+80460 [Sorcery] Soul Explosion
 81000 [Pyromancy] Incendiary Fireball
 81010 [Pyromancy] Weakening Fire Orb
 81020 [Pyromancy] Homing Chaos Fire Orb
@@ -594,6 +596,8 @@
 81330 [Pyromancy] Refined Profuse Sweat
 81340 [Pyromancy] Lingering Iron Flesh
 81350 [Pyromancy] Lingering Rockflesh
+81360 [Pyromancy] Bloodthirsty Dust
+81370 [Pyromancy] Refined Magnetism
 82000 [Miracle] Bloodthirsty Lightning Arrow
 82010 [Miracle] Lightning Surge
 82020 [Miracle] Storm Spear
@@ -705,7 +709,7 @@
 90200 [Gift - Yoel] Dark Sigil
 90210 [Gift - Solaire] Estus Shard
 90220 [Gift - Remy] Dried Root
-90230 [Gift - Ritualist Ellie] Ritual Incense
+90230 [Gift - Conjurator Ellie] Ritual Incense
 90240 [Gift - Occultist Grudore] Moonflower
 90250 [Gift - Erstwhile George] Awestone
 91000 [Script] Ring of Betrothal
@@ -725,11 +729,6 @@
 110120 [Memory of Strength - Hard] Titanite Chunk
 110130 [Memory of Strength - Very Hard] Titanite Slab
 110140 [Memory of Strength - Mythic] Primordial Fragment
-110200 [Memory of Glory - Easy] Titanite Shard
-110210 [Memory of Glory - Normal] Large Titanite Shard
-110220 [Memory of Glory - Hard] Titanite Chunk
-110230 [Memory of Glory - Very Hard] Titanite Slab
-110240 [Memory of Glory - Mythic] Primordial Fragment
 199999 ### Script - Crows
 200000 [Petrified Something] Set 1 - Rings
 200010 [Petrified Something] Set 2 - Weapons
@@ -788,8 +787,7 @@
 3000460 [Chest] Raven Mask
 3000470 [Chest] Astora Straight Sword
 3000480 [Chest] Balder Side Sword
-3000490 [Chest] Cleric's Sacred Chime
-3000491 [Chest] Cleric's Parma
+3000490 [Chest] Bulwark Ring
 3000500 [Chest] Knight's Crossbow
 3000510 [Chest] Steel Soldier Helm
 3000511 [Chest] Deserter Armor
@@ -804,7 +802,7 @@
 3000551 [Chest] Shadow Armor
 3000552 [Chest] Shadow Gloves
 3000553 [Chest] Shadow Leggings
-3000560 [Chest] Spirit Amethyst
+3000560 [Chest] Undead Bone Shard
 3000570 [Chest] Talisman of Beasts
 3000580 [Chest] Drakeblood Helm
 3000581 [Chest] Drakeblood Armor
@@ -812,10 +810,10 @@
 3000583 [Chest] Drakeblood Leggings
 3000600 [Unique - Anvil] Estus Shard
 3000610 [Unique - Path of the Dragon] Seal of Judgment
-3001000 [Mimic] Venerable Sage's Hood
-3001001 [Mimic] Venerable Sage's Robe
-3001002 [Mimic] Venerable Sage's Gloves
-3001003 [Mimic] Venerable Sage's Boots
+3001000 [Mimic] Lothric Knight Helm
+3001001 [Mimic] Lothric Knight Armor
+3001002 [Mimic] Lothric Knight Gauntlets
+3001003 [Mimic] Lothric Knight Leggings
 3001010 [Mimic] Fang Boar Helm
 3001020 [Mimic] Merchant Ring
 3001030 [Mimic] Avelyn
@@ -824,6 +822,7 @@
 3002010 [OTD - Lothric Knight] Ravenous Chalice
 3002020 [OTD - Lothric Knight] Lothric Knight Sword
 3002021 [OTD - Lothric Knight] Lothric Knight Shield
+3002022 [OTD - Lothric Knight] Courtyard Key
 3002030 [OTD - Cathedral Knight] Magic Stoneplate Ring
 3002040 [OTD - Ancient Wyvern] Drake Sword
 3009999 ### Treasure - Lothric Castle
@@ -856,7 +855,7 @@
 3010130 [Corpse] Soul of a Nameless Soldier
 3010131 [Corpse] Large Titanite Shard
 3010140 [Corpse] Soul of a Nameless Soldier
-3010141 [Corpse] Tarnished Coin
+3010141 [Corpse] Sigil of Thunder
 3010150 [Corpse] Soul of a Nameless Soldier
 3010151 [Corpse] Old Growth Balm
 3010160 [Corpse] Large Soul of a Nameless Soldier
@@ -869,7 +868,7 @@
 3010183 [Corpse] Winged Knight Gauntlets
 3010184 [Corpse] Winged Knight Leggings
 3010190 [Corpse] Soul of a Champion
-3010191 [Corpse] Blackweed Balm
+3010191 [Corpse] Conjure Sentinel
 3010200 [Corpse] Soul of a Nameless Soldier
 3010201 [Corpse] Siegbräu
 3010210 [Corpse] Large Soul of a Nameless Soldier
@@ -893,14 +892,14 @@
 3010460 [Chest] Sniper Crossbow
 3010470 [Chest] Sacred Bloom Shield
 3010480 [Chest] Key to the Embedded
-3010490 [Chest] Lothric Knight Helm
-3010491 [Chest] Lothric Knight Armor
-3010492 [Chest] Lothric Knight Gauntlets
-3010493 [Chest] Lothric Knight Leggings
+3010490 [Chest] Venerable Sage's Hood
+3010491 [Chest] Venerable Sage Robe
+3010492 [Chest] Venerable Sage Gloves
+3010493 [Chest] Venerable Sage Leggings
 3010500 [Chest] Londor Braille Divine Tome
 3010510 [Chest] Winged Knight Halberd
 3010511 [Chest] Winged Knight Twinaxes
-3010520 [Chest] Undead Bone Shard
+3010520 [Chest] Spirit Amethyst
 3010530 [Chest] Sunlight Talisman
 3010540 [Chest] Hood of Prayer
 3010541 [Chest] Robe of Prayer
@@ -949,12 +948,12 @@
 3100131 [Corpse] Siegbräu
 3100140 [Corpse] Soul of a Deserted Corpse
 3100141 [Corpse] Vindicti Petal
-3100150 [Corpse] Soul of a Deserted Corpse
-3100151 [Corpse] Blackweed Balm
+3100150 [Corpse] Soul of a Nameless Soldier
+3100151 [Corpse] Soul Eruption
 3100160 [Corpse] Soul of a Deserted Corpse
 3100161 [Corpse] Old Growth Balm
 3100170 [Corpse] Soul of a Deserted Corpse
-3100171 [Corpse] Titanite Shard
+3100171 [Corpse] Conjure Skeleton
 3100180 [Corpse] Large Soul of a Deserted Corpse
 3100181 [Corpse] Set-up Firebomb
 3100190 [Corpse] Soul of a Deserted Corpse
@@ -1011,7 +1010,8 @@
 3100463 [Hanging Corpse] Footman's Trousers
 3100464 [Hanging Corpse] Great Machete
 3100470 [Hanging Corpse] Server
-3100480 [Hanging Corpse] Bulwark Ring
+3100480 [Hanging Corpse] Cleric's Parma
+3100481 [Hanging Corpse] Cleric's Sacred Chime
 3100490 [Hanging Corpse] Fire Clutch Ring
 3100500 [Hanging Corpse] Sage's Scroll
 3100510 [Hanging Corpse] Northern Helm
@@ -1147,7 +1147,7 @@
 3300000 [Corpse] Soul of a Nameless Soldier
 3300001 [Corpse] Lingering Dragoncrest Ring
 3300010 [Corpse] Soul of an Unknown Traveler
-3300011 [Corpse] Old Radiant Lifegem
+3300011 [Corpse] Conjure Lycanthrope
 3300020 [Corpse] Soul of an Unknown Traveler
 3300021 [Corpse] Rouge Water
 3300030 [Corpse] Soul of an Unknown Traveler
@@ -1231,7 +1231,7 @@
 3300400 [Corpse] Large Soul of an Unknown Traveler
 3300401 [Corpse] Ash Demon Hammer
 3300410 [Corpse] Soul of an Unknown Traveler
-3300411 [Corpse] Old Growth Balm
+3300411 [Corpse] Ring of Blades
 3300420 [Corpse] Soul of an Unknown Traveler
 3300421 [Corpse] Ritual Incense
 3300430 [Corpse] Large Soul of an Unknown Traveler
@@ -1539,7 +1539,7 @@
 3700020 [Corpse] Soul of a Nameless Soldier
 3700021 [Corpse] Siegbräu
 3700030 [Corpse] Soul of a Nameless Soldier
-3700031 [Corpse] Brightbug
+3700031 [Corpse] Sigil of Magic
 3700040 [Corpse] Soul of a Nameless Soldier
 3700041 [Corpse] Old Radiant Lifegem
 3700050 [Corpse] Soul of a Nameless Soldier
@@ -1733,7 +1733,7 @@
 3800230 [Corpse] Soul of a Nameless Soldier
 3800231 [Corpse] Red Bug Pellet
 3800240 [Corpse] Soul of a Weary Warrior
-3800241 [Corpse] Brightbug
+3800241 [Corpse] Conjure Warrior
 3800250 [Corpse] Soul of a Nameless Soldier
 3800251 [Corpse] Titanite Fragment
 3800260 [Corpse] Soul of a Nameless Soldier
@@ -1843,7 +1843,7 @@
 3900070 [Corpse] Soul of a Nameless Soldier
 3900071 [Corpse] Green Blossom
 3900080 [Corpse] Soul of a Crestfallen Knight
-3900081 [Corpse] Divine Blessing
+3900081 [Corpse] Sigil of Darkness
 3900090 [Corpse] Soul of a Weary Warrior
 3900091 [Corpse] Brightbug
 3900100 [Corpse] Soul of a Nameless Soldier
@@ -1863,7 +1863,7 @@
 3900170 [Corpse] Soul of a Nameless Soldier
 3900171 [Corpse] Rotten Pine Resin
 3900180 [Corpse] Soul of a Crestfallen Knight
-3900181 [Corpse] Large Titanite Shard
+3900181 [Corpse] Conjure Gargoyle
 3900190 [Corpse] Soul of a Weary Warrior
 3900191 [Corpse] Siegbräu
 3900200 [Corpse] Soul of a Nameless Soldier
@@ -2947,7 +2947,7 @@
 800001110 [Covenant] Company of Champions
 800001120 [Covenant] Warrior of Sunlight
 800001130 [Covenant] Servant of the Rat
-800001140 [Covenant] Ritualist Pact
+800001140 [Covenant] Conjurator's Pact
 800001150 [Covenant] Blue Sentinels
 800001160 [Covenant] Darkmoon Faithful
 800001170 [Covenant] Watchdogs of Farron

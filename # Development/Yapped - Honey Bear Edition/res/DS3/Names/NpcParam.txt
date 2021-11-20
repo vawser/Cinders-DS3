@@ -197,7 +197,7 @@
 31300 Inquisitor Ashford [Consumed King's Garden]
 31500 Corrupted Knight Lloyd [Irithyll Dungeon]
 31600 Huntmaster Ava [High Wall of Lothric]
-31700 The Pursuer [High Wall of Lothric]
+31700 The Pursuer [Consumed King's Garden]
 31710 The Pursuer [Lothric Castle]
 31720 The Pursuer [Grand Archives]
 31730 The Pursuer [Irithyll of the Boreal Valley]
@@ -1215,7 +1215,7 @@
 721800 Alchemist Jiji
 721900 Solaire of Astora
 722000 Master Benjin
-722100 Ritualist Ellie
+722100 Conjurator Ellie
 722200 Occultist Grudore
 722300 Erstwhile George
 722400 Oathkeeper Xavius
@@ -1244,7 +1244,7 @@
 764000 [Boss] Twisted Knight
 765000 [Boss] The Rock
 766000 Giant Sentinel
-767000 [Boss] Dismal Knight
+767000 Dismal Knight
 768000 [Boss] The Forlorn Giant
 770000 [Boss] Fallen Protector
 770100 [Boss] Fair Maiden

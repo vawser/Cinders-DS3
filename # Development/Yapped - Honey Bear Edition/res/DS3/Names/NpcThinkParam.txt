@@ -206,24 +206,6 @@
 36000 The Mother
 36100 The Child
 36200 Ashen Hunter Yafuh
-39999 ### Companions ###
-40000 Hollow
-40010 Lothric Knight (Sword)
-40020 Hollow Manservant (Saw and Board)
-40030 Serpent-man (Dagger)
-40040 Abyss Watcher
-40050 Lothric Knight (Spear)
-40060 Cathedral Knight (Mace)
-40070 Pontiff Knight (Curved Sword)
-40080 Black Knight (Sword)
-40090 Wretch (Spear)
-40100 Cathedral Grave Warden
-40110 Solaire of Astora
-40120 Great Wolf
-40130 Twisted Knight
-40140 Harald Knight
-40150 Ringed Knight
-40160 Hollow Cleric
 49999 ### Summons ###
 50000 Sellsword Luet - Cemetery of Ash
 50001 Sellsword Luet - Undead Settlement
@@ -487,6 +469,7 @@
 130130 Black Knight - Halberd
 131000 Boreal Outrider Knight
 131001 Boreal Outrider Knight - TOG
+131002 Boreal Outrider Knight - Undead Settlement
 132000 [Boss] Crystal Sage
 132001 [Boss] Crystal Sage - TOG
 132010 [Boss] Crystal Sage
@@ -981,7 +964,7 @@
 721800 Alchemist Jiji
 721900 Solaire of Astora
 722000 Master Benjin
-722100 Ritualist Ellie
+722100 Conjurator Ellie
 722200 Occultist Grudore
 722300 Erstwhile George
 722400 Oathkeeper Xavius
@@ -1016,6 +999,16 @@
 770100 Maiden
 771000 Titanite Abomination
 772000 Royal Rat Authority
+800999 ### Spell Summons ###
+801000 Skeleton - Falchion
+801100 Hollow Soldier - Sword and Shield
+801200 Undead Dog
+801300 Carthus Swordsman - Greatsword
+801400 Lothric Knight - Greatsword
+801500 Lycanthrope
+801600 Black Knight - Greataxe
+801700 Abyss Watcher
+801800 Gargoyle - Hammer
 803999 ### Memory of Strength ###
 804000 Aborr
 804010 Pus of Man

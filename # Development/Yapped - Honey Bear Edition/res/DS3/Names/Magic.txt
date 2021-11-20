@@ -173,6 +173,14 @@
 1808506 Discs of Dorthinus [Luck]
 1808510 Quickened Discs of Dorthinus
 1808511 Quickened Discs of Dorthinus [Luck]
+1809000 Teleport
+1809006 Teleport [Luck]
+1809010 Refined Teleport
+1809016 Refined Teleport [Luck]
+1810000 Soul Eruption
+1810006 Soul Eruption [Luck]
+1810010 Soul Explosion
+1810016 Soul Explosion [Luck]
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400006 Fireball [Luck]
@@ -318,6 +326,40 @@
 2721006 Chaos Beam [Luck]
 2721010 Incinerating Chaos Beam
 2721016 Incinerating Chaos Beam [Luck]
+2722000 Throw Dust
+2722006 Throw Dust [Luck]
+2722010 Bloodthirsty Dust
+2722016 Bloodthirsty Dust [Luck]
+2723000 Magnetism
+2723006 Magnetism [Luck]
+2723010 Refined Magnetism
+2723016 Refined Magnetism [Luck]
+2730000 Conjure Skeleton
+2730006 Conjure Skeleton [Luck]
+2731000 Conjure Hollow
+2731006 Conjure Hollow [Luck]
+2732000 Conjure Hound
+2732006 Conjure Hound [Luck]
+2733000 Conjure Warrior
+2733006 Conjure Warrior [Luck]
+2734000 Conjure Sentinel
+2734006 Conjure Sentinel [Luck]
+2735000 Conjure Lycanthrope
+2735006 Conjure Lycanthrope [Luck]
+2736000 Conjure Knight
+2736006 Conjure Knight [Luck]
+2737000 Conjure Watcher
+2737006 Conjure Watcher [Luck]
+2738000 Conjure Gargoyle
+2738006 Conjure Gargoyle [Luck]
+2751000 Ferverous Ritual
+2751006 Ferverous Ritual [Luck]
+2752000 Major Restoration Ritual
+2752006 Major Restoration Ritual [Luck]
+2753000 Minor Restoration Ritual
+2753006 Minor Restoration Ritual [Luck]
+2754000 Sacrificial Ritual
+2754006 Sacrificial Ritual [Luck]
 3399999 ### Miracles ###
 3490000 Heal Aid
 3490006 Heal Aid [Luck]

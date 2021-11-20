@@ -164,11 +164,82 @@
 1409 Titanite - Blunt +9
 1410 Titanite - Blunt +10
 10000 Catalyst - Stock +0
+10001 Catalyst - Stock +1
+10002 Catalyst - Stock +2
+10003 Catalyst - Stock +3
+10004 Catalyst - Stock +4
+10005 Catalyst - Stock +5
+10006 Catalyst - Stock +6
+10007 Catalyst - Stock +7
+10008 Catalyst - Stock +8
+10009 Catalyst - Stock +9
+10010 Catalyst - Stock +10
 10100 Catalyst - Pulsating +0
+10101 Catalyst - Pulsating +1
+10102 Catalyst - Pulsating +2
+10103 Catalyst - Pulsating +3
+10104 Catalyst - Pulsating +4
+10105 Catalyst - Pulsating +5
+10106 Catalyst - Pulsating +6
+10107 Catalyst - Pulsating +7
+10108 Catalyst - Pulsating +8
+10109 Catalyst - Pulsating +9
+10110 Catalyst - Pulsating +10
 10200 Catalyst - Vibrating +0
+10201 Catalyst - Vibrating +1
+10202 Catalyst - Vibrating +2
+10203 Catalyst - Vibrating +3
+10204 Catalyst - Vibrating +4
+10205 Catalyst - Vibrating +5
+10206 Catalyst - Vibrating +6
+10207 Catalyst - Vibrating +7
+10208 Catalyst - Vibrating +8
+10209 Catalyst - Vibrating +9
+10210 Catalyst - Vibrating +10
 10300 Catalyst - Throbbing +0
+10301 Catalyst - Throbbing +1
+10302 Catalyst - Throbbing +2
+10303 Catalyst - Throbbing +3
+10304 Catalyst - Throbbing +4
+10305 Catalyst - Throbbing +5
+10306 Catalyst - Throbbing +6
+10307 Catalyst - Throbbing +7
+10308 Catalyst - Throbbing +8
+10309 Catalyst - Throbbing +9
+10310 Catalyst - Throbbing +10
 10400 Catalyst - Quivering +0
+10401 Catalyst - Quivering +1
+10402 Catalyst - Quivering +2
+10403 Catalyst - Quivering +3
+10404 Catalyst - Quivering +4
+10405 Catalyst - Quivering +5
+10406 Catalyst - Quivering +6
+10407 Catalyst - Quivering +7
+10408 Catalyst - Quivering +8
+10409 Catalyst - Quivering +9
+10410 Catalyst - Quivering +10
 10500 Catalyst - Laughing +0
+10501 Catalyst - Laughing +1
+10502 Catalyst - Laughing +2
+10503 Catalyst - Laughing +3
+10504 Catalyst - Laughing +4
+10505 Catalyst - Laughing +5
+10506 Catalyst - Laughing +6
+10507 Catalyst - Laughing +7
+10508 Catalyst - Laughing +8
+10509 Catalyst - Laughing +9
+10510 Catalyst - Laughing +10
+10600 Catalyst - Unstable +0
+10601 Catalyst - Unstable +1
+10602 Catalyst - Unstable +2
+10603 Catalyst - Unstable +3
+10604 Catalyst - Unstable +4
+10605 Catalyst - Unstable +5
+10606 Catalyst - Unstable +6
+10607 Catalyst - Unstable +7
+10608 Catalyst - Unstable +8
+10609 Catalyst - Unstable +9
+10610 Catalyst - Unstable +10
 20000 Shield - Stock +0
 20001 Shield - Stock +1
 20002 Shield - Stock +2
@@ -344,6 +415,11 @@
 140003 Accessory Token - 4
 140004 Accessory Token - 5
 140005 Accessory Token - 10
+140100 Covenant - Accessory Token - 1
+140101 Covenant - Accessory Token - 3
+140102 Covenant - Accessory Token - 5
+140103 Covenant - Accessory Token - 8
+140104 Covenant - Accessory Token - 10
 200001 Awestone - 1
 200002 Awestone - 2
 200003 Awestone - 3
