@@ -1963,6 +1963,7 @@ Persisting will transform you into a grub.</text>
 <text id="15003027">Members of the Darkmoon will appreciate this action.</text>
 <text id="15003028">Enter the Darkness</text>
 <text id="15003029">Catalyst Infusions</text>
+
 <text id="15003030">Form Champion's Pact</text>
 <text id="15003031">The Champion's Pact has been enabled.</text>
 <text id="15003032">Break Champion's Pact</text>
@@ -4502,6 +4503,15 @@ Defeat all bosses at least once to complete the gauntlet.</text>
 <text id="99060302">Pyromancies</text>
 <text id="99060303">Miracles</text>
 <text id="99060304">Hexes</text>
+
+<text id="99060400">Bite Material</text>
+<text id="99060410">Titanite Slab</text>
+<text id="99060411">Titanite Chunk</text>
+<text id="99060412">Large Titanite Shard</text>
+<text id="99060420">Bite Titanite Slab into 5 Titanite Chunks?</text>
+<text id="99060421">Bite Titanite Chunk into 5 Large Titanite Shards?</text>
+<text id="99060422">Bite Large Titanite Shard into 5 Titanite Shards?</text>
+<text id="99060430">Material bitten</text>
 
 <text id="99061000">Masteries</text>
 <text id="99061001">Summary</text>

@@ -65,7 +65,7 @@ Then create the python version and recompile it.
 310380 Cage Madman
 310410 Holy Knight Hodrick
 310500 Master Benjin    # Talk Flags: 73109000
-310501 Vernax the Wanderer
+310501 GENERIC UNUSED
 310502 GENERIC UNUSED
 310503 GENERIC UNUSED
 310504 GENERIC UNUSED
@@ -123,7 +123,7 @@ Then create the python version and recompile it.
 341001 Grand Archives Rooftop bonfire
 341320 Lothric
 341500 Erstwhile George
-341501 Vernax the Wanderer
+341501 GENERIC UNUSED
 341502 GENERIC UNUSED
 341503 GENERIC UNUSED
 341504 GENERIC UNUSED
@@ -183,7 +183,7 @@ Then create the python version and recompile it.
 370500 Domhnall of Zena # Talk Flags: 73709100
 370501 Marvelous Chester # Talk Flags: 73709000
 370502 Sorcery Scribe
-370503 Vernax the Wanderer
+370503 GENERIC UNUSED
 370504 GENERIC UNUSED
 370505 GENERIC UNUSED
 370506 GENERIC UNUSED

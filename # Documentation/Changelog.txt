@@ -70,6 +70,10 @@ Finish following weapons:
 - Added Collector class.
 - Added Guardian class.
 
+# Covenants
+- Reduced the covenant material drop cooldown to 3 seconds (from 20).
+- Reduced the covenant consumable drop cooldown to 30 seconds (from 40).
+
 # Stats
 - Changed the base FP value to 150.
 
@@ -121,6 +125,7 @@ Finish following weapons:
 
 # Merchants
 - Solaire now sells Lifegem, Radiant Lifegem, Old Radiant Lifegem and Rouge Water.
+- Remy the Rat can now break down Titanite materials, i.e. 1 Titanite Slab can be bitten into 5 Titanite Chunks, etc.
  
 # Map - High Wall
 - Moved some chests in High Wall.
@@ -147,7 +152,6 @@ Change healing spells to heal when holding the cast
 Add Gatling Gun
 Add Solaire as summon to Soul of Cinder
 Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
-
 
 # AI Pass:
 Black Knight
@@ -190,11 +194,3 @@ Livid Pyromancer Dunnel
 Amnesiac Lapp
 Slave Knight Gael
 
-Guardian
-30900000
-22140000
-
-99890000
-99891000
-99892000
-99893000

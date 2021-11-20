@@ -165,6 +165,9 @@ def t400506_x9():
         # Covenant
         AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 99062000, -1)
         
+        # Bite Material
+        AddTalkListData(13, 99060400, -1)
+        
         # Undead Match
         AddTalkListData(8, 15000350, -1)
         
@@ -221,6 +224,10 @@ def t400506_x9():
             assert t400506_x10(text1=10121020, flag1=0, mode1=0)
             SetEventState(25008230, 0)
             return 0
+        # Bite Material
+        elif GetTalkListEntryResult() == 13:
+            assert t400506_x70()
+            continue
         # Talk
         elif GetTalkListEntryResult() == 2:
             assert t400506_x10(text1=10020000, flag1=0, mode1=0)
@@ -429,3 +436,75 @@ def t400506_x63():
         pass
     return 0
     
+#----------------------------------------------------------
+# Bite Material
+#----------------------------------------------------------
+def t400506_x70():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+    
+        # Titanite Slab
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1003, 4, 1, 0) == 1, 1, 99060410, -1)
+        
+        # Titanite Chunk
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1002, 4, 1, 0) == 1, 2, 99060411, -1)
+        
+        # Large Titanite Shard
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1001, 4, 1, 0) == 1, 3, 99060412, -1)
+        
+        # Quit
+        AddTalkListData(99, 15000180, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Titanite Slab
+        if GetTalkListEntryResult() == 1:
+            assert t400506_x71(1003, 1002, 99060420)
+            return 0
+        # Titanite Chunk
+        elif GetTalkListEntryResult() == 2:
+            assert t400506_x71(1002, 1001, 99060421)
+            return 0
+        # Large Titanite Shard
+        elif GetTalkListEntryResult() == 3:
+            assert t400506_x71(1001, 1000, 99060422)
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+# Bite Material
+def t400506_x71(old_item=_, new_item=_, msg=_):
+    call = t400506_x72(action2=msg)
+    
+    if call.Get() == 0:
+        PlayerEquipmentQuantityChange(3, old_item, -1)
+        PlayerEquipmentQuantityChange(3, new_item, 5)
+        
+        # Material bitten
+        assert t400506_x73(action1=99060430)
+    elif call.Get() == 1:
+        pass
+    return 0
+    
+def t400506_x72(action2=_):
+    """ State 0,1 """
+    OpenGenericDialog(8, action2, 3, 4, 2)
+    assert not CheckSpecificPersonGenericDialogIsOpen(0)
+    """ State 2 """
+    if GetGenericDialogButtonResult() == 1:
+        """ State 3 """
+        return 0
+    else:
+        """ State 4 """
+        return 1
+        
+def t400506_x73(action1=_):
+    """ State 0,1 """
+    OpenGenericDialog(7, action1, 1, 0, 1)
+    assert not CheckSpecificPersonGenericDialogIsOpen(0)
+    """ State 2 """
+    return 0
