@@ -696,7 +696,7 @@ def t400504_x41():
         # Wretched Pendant
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30040, 4, 1, 0) == 1, 103, 99015202, -1)
         
-        # Pugilist's Trick
+        # Ring of Blades
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31500, 4, 1, 0) == 1, 104, 99015203, -1)
         
         # Quit
@@ -1117,7 +1117,7 @@ def t400504_x41():
         elif GetTalkListEntryResult() == 103:
             assert t400504_x50(30040, 30041, 1, -2)
             return 0
-        # Pugilist's Trick
+        # Ring of Blades
         elif GetTalkListEntryResult() == 104:
             assert t400504_x50(31500, 31501, 1, -2)
             return 0
@@ -1359,7 +1359,7 @@ def t400504_x42():
         # Wretched Pendant
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30041, 4, 1, 0) == 1, 103, 99015202, -1)
         
-        # Pugilist's Trick
+        # Ring of Blades
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31501, 4, 1, 0) == 1, 104, 99015203, -1)
         
         # Quit
@@ -1780,7 +1780,7 @@ def t400504_x42():
         elif GetTalkListEntryResult() == 103:
             assert t400504_x50(30041, 30042, 3, -4)
             return 0
-        # Pugilist's Trick
+        # Ring of Blades
         elif GetTalkListEntryResult() == 104:
             assert t400504_x50(31501, 31502, 3, -4)
             return 0
@@ -2022,7 +2022,7 @@ def t400504_x43():
         # Wretched Pendant
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30042, 4, 1, 0) == 1, 103, 99015202, -1)
         
-        # Pugilist's Trick
+        # Ring of Blades
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31502, 4, 1, 0) == 1, 104, 99015203, -1)
         
         # Quit
@@ -2443,7 +2443,7 @@ def t400504_x43():
         elif GetTalkListEntryResult() == 103:
             assert t400504_x50(30042, 30043, 5, -6)
             return 0
-        # Pugilist's Trick
+        # Ring of Blades
         elif GetTalkListEntryResult() == 104:
             assert t400504_x50(31502, 31503, 5, -6)
             return 0
@@ -2685,7 +2685,7 @@ def t400504_x44():
         # Wretched Pendant
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30043, 4, 1, 0) == 1, 103, 99015202, -1)
         
-        # Pugilist's Trick
+        # Ring of Blades
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31503, 4, 1, 0) == 1, 104, 99015203, -1)
         
         # Quit
@@ -3106,7 +3106,7 @@ def t400504_x44():
         elif GetTalkListEntryResult() == 103:
             assert t400504_x50(30043, 30044, 7, -8)
             return 0
-        # Pugilist's Trick
+        # Ring of Blades
         elif GetTalkListEntryResult() == 104:
             assert t400504_x50(31503, 31504, 7, -8)
             return 0
@@ -3349,7 +3349,7 @@ def t400504_x45():
         # Wretched Pendant
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30044, 4, 1, 0) == 1, 103, 99015202, -1)
         
-        # Pugilist's Trick
+        # Ring of Blades
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31504, 4, 1, 0) == 1, 104, 99015203, -1)
         
         # Quit
@@ -3770,7 +3770,7 @@ def t400504_x45():
         elif GetTalkListEntryResult() == 103:
             assert t400504_x50(30044, 30045, 9, -10)
             return 0
-        # Pugilist's Trick
+        # Ring of Blades
         elif GetTalkListEntryResult() == 104:
             assert t400504_x50(31504, 31505, 9, -10)
             return 0

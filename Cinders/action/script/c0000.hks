@@ -1759,30 +1759,19 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     -----------------------
     -- Rings
     -----------------------
-    -- Pugilist's Trick
-    local fist_hand = HAND_RIGHT
-
-    -- Handle weapon hand position
-    if style == HAND_LEFT_BOTH then
-        fist_hand = HAND_LEFT
-    else
-        fist_hand = HAND_RIGHT
-    end
-    
-    if env(225, fist_hand) == WEAPON_CATEGORY_FIST then
-        if env(1116, 112570) == TRUE then
-            act(2002, 112580)
-        elseif env(1116, 112571) == TRUE then
-            act(2002, 112581)
-        elseif env(1116, 112572) == TRUE then
-            act(2002, 112582)
-        elseif env(1116, 112573) == TRUE then
-            act(2002, 112583)
-        elseif env(1116, 112574) == TRUE then
-            act(2002, 112584)
-        elseif env(1116, 112575) == TRUE then
-            act(2002, 112585)
-        end
+    -- Ring of Blades
+    if env(1116, 115000) == TRUE then
+        act(2002, 115010)
+    elseif env(1116, 115001) == TRUE then
+        act(2002, 115011)
+    elseif env(1116, 115002) == TRUE then
+        act(2002, 115012)
+    elseif env(1116, 115003) == TRUE then
+        act(2002, 115013)
+    elseif env(1116, 115004) == TRUE then
+        act(2002, 115014)
+    elseif env(1116, 115005) == TRUE then
+        act(2002, 115015)
     end
     
     --------------------------------------------
