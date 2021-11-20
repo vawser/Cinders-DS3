@@ -4016,6 +4016,8 @@ to commune with the fallen knight.</text>
 <text id="99044033">Refined Profuse Sweat</text>
 <text id="99044034">Lingering Iron Flesh</text>
 <text id="99044035">Lingering Rockflesh</text>
+<text id="99044036">Bloodthirsty Dust</text>
+<text id="99044037">Refined Magnetisms</text>
 <text id="99045000">Ascend from Fireball?</text>
 <text id="99045001">Ascend from Fire Orb?</text>
 <text id="99045002">Ascend from Chaos Fire Orb?</text>
@@ -4052,6 +4054,8 @@ to commune with the fallen knight.</text>
 <text id="99045033">Ascend from Profuse Sweat?</text>
 <text id="99045034">Ascend from Iron Flesh?</text>
 <text id="99045035">Ascend from Rockflesh?</text>
+<text id="99045036">Ascend from Throw Dust?</text>
+<text id="99045037">Ascend from Magnetism?</text>
 <text id="99046000">Incendiary Fireball crafted</text>
 <text id="99046001">Weakening Fire Orb crafted</text>
 <text id="99046002">Homing Chaos Fire Orb crafted</text>
@@ -4088,6 +4092,8 @@ to commune with the fallen knight.</text>
 <text id="99046033">Refined Profuse Sweat crafted</text>
 <text id="99046034">Lingering Iron Flesh crafted</text>
 <text id="99046035">Lingering Rockflesh crafted</text>
+<text id="99046036">Bloodthirsty Dust crafted</text>
+<text id="99046037">Refined Magnetism crafted</text>
 <text id="99047000">Bloodthirsty Lightning Arrow</text>
 <text id="99047001">Lightning Surge</text>
 <text id="99047002">Storm Spear</text>

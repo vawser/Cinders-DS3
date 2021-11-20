@@ -325,6 +325,12 @@ def t380501_x20():
         # Lingering Rockflesh
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2713000, 4, 1, 0) == 1, 36, 99044035, -1)
         
+        # Bloodthirsty Dust
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2722000, 4, 1, 0) == 1, 37, 99044036, -1)
+        
+        # Refined Magnetism
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2723000, 4, 1, 0) == 1, 38, 99044037, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -474,6 +480,14 @@ def t380501_x20():
         # Lingering Rockflesh
         elif GetTalkListEntryResult() == 36:
             assert t380501_x50(81350, 1060, 9, -10, 99045035, 99046035, 99040040)
+            continue
+        # Bloodthirsty Dust
+        elif GetTalkListEntryResult() == 37:
+            assert t380501_x50(81360, 1060, 9, -10, 99045036, 99046036, 99040040)
+            continue
+        # Refined Magnetism
+        elif GetTalkListEntryResult() == 38:
+            assert t380501_x50(81370, 1060, 9, -10, 99045037, 99046037, 99040040)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
