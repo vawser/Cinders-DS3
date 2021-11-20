@@ -114,14 +114,33 @@ Finish following weapons:
 - Great Swamp Ring: effect now occurs every 15 seconds, no longer randomly.
 - Morne's Ring: effect now occurs every 15 seconds, no longer randomly.
 - Deep Ring: effect now occurs every 15 seconds, no longer randomly.
-
+- Gwynevere's Urn: Now only applies once every 300 seconds.
+ 
 - Added Ring of Blades:
- - Increases physical attack by 30/40/50/60/70/80.
+ - Increases physical attack by 50/70/90/110/130/150
+ - Affixable.
  - Found in Farron Keep.
  
-- Gwynevere's Urn:
- - Now only applies once every 300 seconds.
+- Added Sigil of Magic:
+ - Increases magic attack by 50/70/90/110/130/150
+ - Affixable.
+ - Found in Irithyll.
+
+- Added Sigil of Flame:
+ - Increases fire attack by 50/70/90/110/130/150
+ - Affixable.
+ - Found in Holy Knight Morton.
  
+- Added Sigil of Thunder:
+ - Increases lightning attack by 50/70/90/110/130/150
+ - Affixable.
+ - Found in Lothric Castle.
+ 
+- Added Sigil of Darkness:
+ - Increases dark attack by 50/70/90/110/130/150
+ - Affixable.
+ - Found in Irithyll Dungeon.
+
 # Enemies
 - Reduced the damage and poise of the Pontiff Knights.
 
@@ -156,7 +175,8 @@ Black Knight
 Abyss Watcher
 Gargoyle
 
-Sigil of Magic
-Sigil of Flame
-Sigil of Thunder
-Sigil of Darkness
+Sigil of Magic 31600
+Sigil of Flame 31700
+Sigil of Thunder 31800
+Sigil of Darkness 31900
+

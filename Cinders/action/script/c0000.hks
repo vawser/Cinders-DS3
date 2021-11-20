@@ -1774,6 +1774,66 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         act(2002, 115015)
     end
     
+    -- Sigil of Magic
+    if env(1116, 115020) == TRUE then
+        act(2002, 115030)
+    elseif env(1116, 115021) == TRUE then
+        act(2002, 115031)
+    elseif env(1116, 115022) == TRUE then
+        act(2002, 115032)
+    elseif env(1116, 115023) == TRUE then
+        act(2002, 115033)
+    elseif env(1116, 115024) == TRUE then
+        act(2002, 115034)
+    elseif env(1116, 115025) == TRUE then
+        act(2002, 115035)
+    end
+    
+    -- Sigil of Flame
+    if env(1116, 115040) == TRUE then
+        act(2002, 115050)
+    elseif env(1116, 115041) == TRUE then
+        act(2002, 115051)
+    elseif env(1116, 115042) == TRUE then
+        act(2002, 115052)
+    elseif env(1116, 115043) == TRUE then
+        act(2002, 115053)
+    elseif env(1116, 115044) == TRUE then
+        act(2002, 115054)
+    elseif env(1116, 115045) == TRUE then
+        act(2002, 115055)
+    end
+    
+    -- Sigil of Thunder
+    if env(1116, 115060) == TRUE then
+        act(2002, 115070)
+    elseif env(1116, 115061) == TRUE then
+        act(2002, 115071)
+    elseif env(1116, 115062) == TRUE then
+        act(2002, 115072)
+    elseif env(1116, 115063) == TRUE then
+        act(2002, 115073)
+    elseif env(1116, 115064) == TRUE then
+        act(2002, 115074)
+    elseif env(1116, 115065) == TRUE then
+        act(2002, 115075)
+    end
+    
+    -- Sigil of Darkness
+    if env(1116, 115080) == TRUE then
+        act(2002, 115090)
+    elseif env(1116, 115081) == TRUE then
+        act(2002, 115091)
+    elseif env(1116, 115082) == TRUE then
+        act(2002, 115092)
+    elseif env(1116, 115083) == TRUE then
+        act(2002, 115093)
+    elseif env(1116, 115084) == TRUE then
+        act(2002, 115094)
+    elseif env(1116, 115085) == TRUE then
+        act(2002, 115095)
+    end
+    
     --------------------------------------------
     -- R1
     --------------------------------------------

@@ -698,6 +698,14 @@ def t400504_x41():
         
         # Ring of Blades
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31500, 4, 1, 0) == 1, 104, 99015203, -1)
+        # Sigil of Magic
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31600, 4, 1, 0) == 1, 105, 99015204, -1)
+        # Sigil of Flame
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31700, 4, 1, 0) == 1, 106, 99015205, -1)
+        # Sigil of Thunder
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31800, 4, 1, 0) == 1, 107, 99015206, -1)
+        # Sigil of Darkness
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31900, 4, 1, 0) == 1, 108, 99015207, -1)
         
         # Quit
         AddTalkListData(999, 15000180, -1)
@@ -1121,6 +1129,22 @@ def t400504_x41():
         elif GetTalkListEntryResult() == 104:
             assert t400504_x50(31500, 31501, 1, -2)
             return 0
+        # Sigil of Magic
+        elif GetTalkListEntryResult() == 105:
+            assert t400504_x50(31600, 31601, 1, -2)
+            return 0
+        # Sigil of Flame
+        elif GetTalkListEntryResult() == 106:
+            assert t400504_x50(31700, 31701, 1, -2)
+            return 0
+        # Sigil of Thunder
+        elif GetTalkListEntryResult() == 107:
+            assert t400504_x50(31800, 31801, 1, -2)
+            return 0
+        # Sigil of Darkness
+        elif GetTalkListEntryResult() == 108:
+            assert t400504_x50(31900, 31901, 1, -2)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1361,6 +1385,14 @@ def t400504_x42():
         
         # Ring of Blades
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31501, 4, 1, 0) == 1, 104, 99015203, -1)
+        # Sigil of Magic
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31601, 4, 1, 0) == 1, 105, 99015204, -1)
+        # Sigil of Flame
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31701, 4, 1, 0) == 1, 106, 99015205, -1)
+        # Sigil of Thunder
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31801, 4, 1, 0) == 1, 107, 99015206, -1)
+        # Sigil of Darkness
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31901, 4, 1, 0) == 1, 108, 99015207, -1)
         
         # Quit
         AddTalkListData(999, 15000180, -1)
@@ -1784,6 +1816,22 @@ def t400504_x42():
         elif GetTalkListEntryResult() == 104:
             assert t400504_x50(31501, 31502, 3, -4)
             return 0
+        # Sigil of Magic
+        elif GetTalkListEntryResult() == 105:
+            assert t400504_x50(31601, 31602, 3, -4)
+            return 0
+        # Sigil of Flame
+        elif GetTalkListEntryResult() == 106:
+            assert t400504_x50(31701, 31702, 3, -4)
+            return 0
+        # Sigil of Thunder
+        elif GetTalkListEntryResult() == 107:
+            assert t400504_x50(31801, 31802, 3, -4)
+            return 0
+        # Sigil of Darkness
+        elif GetTalkListEntryResult() == 108:
+            assert t400504_x50(31901, 31902, 3, -4)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2024,6 +2072,14 @@ def t400504_x43():
         
         # Ring of Blades
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31502, 4, 1, 0) == 1, 104, 99015203, -1)
+        # Sigil of Magic
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31602, 4, 1, 0) == 1, 105, 99015204, -1)
+        # Sigil of Flame
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31702, 4, 1, 0) == 1, 106, 99015205, -1)
+        # Sigil of Thunder
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31802, 4, 1, 0) == 1, 107, 99015206, -1)
+        # Sigil of Darkness
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31902, 4, 1, 0) == 1, 108, 99015207, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2447,6 +2503,22 @@ def t400504_x43():
         elif GetTalkListEntryResult() == 104:
             assert t400504_x50(31502, 31503, 5, -6)
             return 0
+        # Sigil of Magic
+        elif GetTalkListEntryResult() == 105:
+            assert t400504_x50(31602, 31603, 5, -6)
+            return 0
+        # Sigil of Flame
+        elif GetTalkListEntryResult() == 106:
+            assert t400504_x50(31702, 31703, 5, -6)
+            return 0
+        # Sigil of Thunder
+        elif GetTalkListEntryResult() == 107:
+            assert t400504_x50(31802, 31803, 5, -6)
+            return 0
+        # Sigil of Darkness
+        elif GetTalkListEntryResult() == 108:
+            assert t400504_x50(31902, 31903, 5, -6)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2687,6 +2759,14 @@ def t400504_x44():
         
         # Ring of Blades
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31503, 4, 1, 0) == 1, 104, 99015203, -1)
+        # Sigil of Magic
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31603, 4, 1, 0) == 1, 105, 99015204, -1)
+        # Sigil of Flame
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31703, 4, 1, 0) == 1, 106, 99015205, -1)
+        # Sigil of Thunder
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31803, 4, 1, 0) == 1, 107, 99015206, -1)
+        # Sigil of Darkness
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31903, 4, 1, 0) == 1, 108, 99015207, -1)
         
         # Quit
         AddTalkListData(999, 15000180, -1)
@@ -3110,6 +3190,22 @@ def t400504_x44():
         elif GetTalkListEntryResult() == 104:
             assert t400504_x50(31503, 31504, 7, -8)
             return 0
+        # Sigil of Magic
+        elif GetTalkListEntryResult() == 105:
+            assert t400504_x50(31603, 31604, 7, -8)
+            return 0
+        # Sigil of Flame
+        elif GetTalkListEntryResult() == 106:
+            assert t400504_x50(31703, 31704, 7, -8)
+            return 0
+        # Sigil of Thunder
+        elif GetTalkListEntryResult() == 107:
+            assert t400504_x50(31803, 31804, 7, -8)
+            return 0
+        # Sigil of Darkness
+        elif GetTalkListEntryResult() == 108:
+            assert t400504_x50(31903, 31904, 7, -8)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -3351,6 +3447,14 @@ def t400504_x45():
         
         # Ring of Blades
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31504, 4, 1, 0) == 1, 104, 99015203, -1)
+        # Sigil of Magic
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31604, 4, 1, 0) == 1, 105, 99015204, -1)
+        # Sigil of Flame
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31704, 4, 1, 0) == 1, 106, 99015205, -1)
+        # Sigil of Thunder
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31804, 4, 1, 0) == 1, 107, 99015206, -1)
+        # Sigil of Darkness
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31904, 4, 1, 0) == 1, 108, 99015207, -1)
         
         # Quit
         AddTalkListData(999, 15000180, -1)
@@ -3773,6 +3877,22 @@ def t400504_x45():
         # Ring of Blades
         elif GetTalkListEntryResult() == 104:
             assert t400504_x50(31504, 31505, 9, -10)
+            return 0
+        # Sigil of Magic
+        elif GetTalkListEntryResult() == 105:
+            assert t400504_x50(31604, 31605, 9, -10)
+            return 0
+        # Sigil of Flame
+        elif GetTalkListEntryResult() == 106:
+            assert t400504_x50(31704, 31705, 9, -10)
+            return 0
+        # Sigil of Thunder
+        elif GetTalkListEntryResult() == 107:
+            assert t400504_x50(31804, 31805, 9, -10)
+            return 0
+        # Sigil of Darkness
+        elif GetTalkListEntryResult() == 108:
+            assert t400504_x50(31904, 31905, 9, -10)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

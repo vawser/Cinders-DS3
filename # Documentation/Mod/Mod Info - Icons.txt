@@ -154,8 +154,8 @@
 148 Sacrificial Ritual
 149 Teleport
 150 Soul Eruption
-151 []
-152 []
+151 Sigil of Magic
+152 Sigil of Flame
 153 Loretta's Bone
 154 Braille Divine Tome of Carim
 155 Braille Divine Tome of Lothric
@@ -180,7 +180,7 @@
 174 Small Doll
 175 Gower's Ring of Protection
 176 Beckoning Grace
-177 []
+177 Sigil of Thunder
 178 Twinkling Dragon Head Stone
 179 Twinkling Dragon Torso Stone
 180 Jailbreaker's Key
@@ -212,7 +212,7 @@
 206 Red Bug Pellet
 207 Yellow Bug Pellet
 208 Black Bug Pellet
-209 []
+209 Sigil of Darkness
 210 []
 211 []
 212 []

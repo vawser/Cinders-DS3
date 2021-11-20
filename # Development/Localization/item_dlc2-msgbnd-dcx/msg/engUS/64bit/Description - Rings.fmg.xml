@@ -4559,46 +4559,218 @@ Increases backstep distance by 100%.
 A coward may survive to live another day, but the guilt is eternal.</text>
 <text id="31500">The ring is modeled after the mad knight of Alken's weapon of choice.
 
-Increases physical attack by 30. 
+Increases physical attack by 50. 
 Only affects melee attacks.
 
 The kingdoms of Alken and Venn long ago flourished on these very grounds. 
 They were both founded by the same man, but were reduced to rivalry and spite.</text>
 <text id="31501">The ring is modeled after the mad knight of Alken's weapon of choice.
 
-Increases physical attack by 40.
+Increases physical attack by 70.
 Only affects melee attacks.
 
 The kingdoms of Alken and Venn long ago flourished on these very grounds. 
 They were both founded by the same man, but were reduced to rivalry and spite.</text>
 <text id="31502">The ring is modeled after the mad knight of Alken's weapon of choice.
 
-Increases physical attack by 50.
+Increases physical attack by 90.
 Only affects melee attacks.
 
 The kingdoms of Alken and Venn long ago flourished on these very grounds. 
 They were both founded by the same man, but were reduced to rivalry and spite.</text>
 <text id="31503">The ring is modeled after the mad knight of Alken's weapon of choice.
 
-Increases physical attack by 60.
+Increases physical attack by 110.
 Only affects melee attacks.
 
 The kingdoms of Alken and Venn long ago flourished on these very grounds. 
 They were both founded by the same man, but were reduced to rivalry and spite.</text>
 <text id="31504">The ring is modeled after the mad knight of Alken's weapon of choice.
 
-Increases physical attack by 70.
+Increases physical attack by 130.
 Only affects melee attacks.
 
 The kingdoms of Alken and Venn long ago flourished on these very grounds. 
 They were both founded by the same man, but were reduced to rivalry and spite.</text>
 <text id="31505">The ring is modeled after the mad knight of Alken's weapon of choice.
 
-Increases physical attack by 80.
+Increases physical attack by 150.
 Only affects melee attacks.
 
 The kingdoms of Alken and Venn long ago flourished on these very grounds. 
 They were both founded by the same man, but were reduced to rivalry and spite.</text>
+
+<text id="31600">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases magic attack by 50.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of magical armaments.</text>
+<text id="31601">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases magic attack by 70.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of magical armaments.</text>
+<text id="31602">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases magic attack by 90.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of magical armaments.</text>
+<text id="31603">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases magic attack by 110.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of magical armaments.</text>
+<text id="31604">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases magic attack by 130.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of magical armaments.</text>
+<text id="31605">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases magic attack by 150.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of magical armaments.</text>
+
+<text id="31700">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases fire attack by 50.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of chaotic armaments.</text>
+<text id="31701">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases fire attack by 70.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of chaotic armaments.</text>
+<text id="31702">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases fire attack by 90.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of chaotic armaments.</text>
+<text id="31703">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases fire attack by 110.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of chaotic armaments.</text>
+<text id="31704">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases fire attack by 130.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of chaotic armaments.</text>
+<text id="31705">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases fire attack by 150.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of chaotic armaments.</text>
+
+<text id="31800">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases lightning attack by 50.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of thunderous armaments.</text>
+<text id="31801">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases lightning attack by 70.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of thunderous armaments.</text>
+<text id="31802">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases lightning attack by 90.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of thunderous armaments.</text>
+<text id="31803">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases lightning attack by 110.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of thunderous armaments.</text>
+<text id="31804">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases lightning attack by 130.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of thunderous armaments.</text>
+<text id="31805">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases lightning attack by 150.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of thunderous armaments.</text>
+
+<text id="31900">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases dark attack by 50.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of abyssal armaments.</text>
+<text id="31901">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases dark attack by 70.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of abyssal armaments.</text>
+<text id="31902">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases dark attack by 90.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of abyssal armaments.</text>
+<text id="31903">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases dark attack by 110.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of abyssal armaments.</text>
+<text id="31904">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases dark attack by 130.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of abyssal armaments.</text>
+<text id="31905">One of the lost rings of Azzarek.
+A formidable magesmith, her enchanted rings were said to be the finest ever made.
+
+Increases dark attack by 150.
+Only affects melee attacks.
+
+The gem pulsates with magical energy when in presence of abyssal armaments.</text>
 
 </entries>
 </fmg>
