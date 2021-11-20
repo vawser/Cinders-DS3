@@ -3846,6 +3846,36 @@
 109560603 [Sorcery] Discs of Dorthinus - Linger
 109560604 [Sorcery] Discs of Dorthinus - Outward
 109560700 [Miracle] Gwynevere's Abnegation
+109560800 [Sorcery] Teleport
+109560900 [Sorcery] Soul Eruption - Source 1
+109560901 [Sorcery] Soul Eruption - Source 2
+109560902 [Sorcery] Soul Eruption - Source 3
+109560910 [Sorcery] Soul Eruption - Bullet 1
+109560911 [Sorcery] Soul Eruption - Bullet 2
+109560912 [Sorcery] Soul Eruption - Bullet 3
+109560920 [Sorcery] Soul Explosion - Source 1
+109560921 [Sorcery] Soul Explosion - Source 2
+109560922 [Sorcery] Soul Explosion - Source 3
+109562000 [Pyromancy] Throw Dust
+109562010 [Pyromancy] Throw Dust [Hit]
+109562100 [Pyromancy] Bloodthirsty Dust
+109562110 [Pyromancy] Bloodthirsty Dust [Hit]
+109563000 [Pyromancy] Magnetism
+109999999 ### Spell Summons ###
+110000000 Conjure Skeleton
+110000100 Conjure Hollow
+110000200 Conjure Hound
+110000300 Conjure Warrior
+110000400 Conjure Sentinel
+110000500 Conjure Lycanthrope
+110000600 Conjure Knight
+110000700 Conjure Watcher
+110000800 Conjure Gargoyle
+110010000 Beckoning Ritual
+110010100 Ferverous Ritual
+110010200 Major Restoration Ritual
+110010300 Minor Restoration Ritual
+110010400 Sacrificial Ritual
 209999999 ### Weapons ###
 210000000 Court Sorcerer's Staff - Soulmass
 210000010 Court Sorcerer's Staff - Soulmass [Hit]

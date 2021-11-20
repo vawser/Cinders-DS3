@@ -268,7 +268,7 @@
 2013 Forgotten Key
 2014 Grand Archives Key
 2015 Tower Key
-2016 Dragon Talon UNUSED
+2016 Courtyard Key
 2017 Pilgrim's Soul UNUSED
 2018 Catacombs Key UNUSED
 2019 Smouldering Key UNUSED
@@ -542,8 +542,6 @@
 5033 Tome: Fallen Protector
 5034 Tome: Titanite Abomination
 5035 Tome: The Marauder
-5199 ### Companions ###
-5300 Opus of Rituals
 5399 ### Tools ###
 5400 Bloodthirsty Firebomb
 5401 Bloodthirsty Black Firebomb
@@ -1080,12 +1078,6 @@
 12531 Overgrown Lothric Knight Emblem
 12540 Herald (Alt) Insignia
 12550 Undead Legion (Alt) Insignia
-20049 ### Companion Items ###
-20050 Rejuvenating Phial
-20051 Banishing Coin
-20052 Beckoning Bone
-20053 Invigorating Phial
-20054 Energizing Phial
 39999 ### Gauntlet Tokens ###
 40000 Weapon Token
 40001 Armor Token
@@ -1178,6 +1170,10 @@
 1808410 Refined Path of Frost
 1808500 Discs of Dorthinus
 1808510 Quickened Discs of Dorthinus
+1809000 Teleport
+1809010 Refined Teleport
+1810000 Soul Eruption
+1810010 Soul Explosion
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400010 Incendiary Fireball
@@ -1251,6 +1247,23 @@
 2720010 Great Fecal Expulsion
 2721000 Chaos Beam
 2721010 Incinerating Chaos Beam
+2722000 Throw Dust
+2722010 Bloodthirsty Dust
+2723000 Magnetism
+2723010 Refined Magnetism
+2730000 Conjure Skeleton
+2731000 Conjure Hollow
+2732000 Conjure Hound
+2733000 Conjure Warrior
+2734000 Conjure Sentinel
+2735000 Conjure Lycanthrope
+2736000 Conjure Knight
+2737000 Conjure Watcher
+2738000 Conjure Gargoyle
+2751000 Ferverous Ritual
+2752000 Major Restoration Ritual
+2753000 Minor Restoration Ritual
+2754000 Sacrificial Ritual
 3399999 ### Miracles ###
 3490000 Heal Aid
 3490010 Extended Heal Aid

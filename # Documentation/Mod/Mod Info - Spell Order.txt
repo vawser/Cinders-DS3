@@ -187,6 +187,9 @@ Incinerating Chaos Beam 121601
 Cataclysm 121700
 Great Cataclysm 121701
 
+Throw Dust 121750
+Bloodthirsty Dust 121751
+
 Boulder Heave 121800
 Swift Boulder Heave 121801
 
@@ -240,6 +243,9 @@ Lingering Iron Flesh 123401
 
 Rockflesh 123500
 Lingering Rockflesh 123501
+
+Magnetism 123600
+Refined Magnetism 123601
 
 
 # Miracles (EquipParamGoods Sort ID 130100 - 134201)

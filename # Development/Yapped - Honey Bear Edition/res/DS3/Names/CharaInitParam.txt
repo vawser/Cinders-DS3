@@ -70,7 +70,9 @@
 3024 [Class] Skeptic
 3025 [Class] Paladin
 3026 [Class] Jester
-3027 [Class] Summoner
+3027 [Class] Conjurator
+3028 [Class] Collector
+3029 [Class] Guardian
 3099 [Class] Accursed
 3100 Knight
 3101 Warrior
@@ -303,7 +305,7 @@
 721800 Alchemist Jiji
 721900 Solaire of Astora
 722000 Master Benjin
-722100 Ritualist Ellie
+722100 Conjurator Ellie
 722200 Occultist Grudore
 722400 Oathkeeper Xavius
 722500 Sorcery Scribe

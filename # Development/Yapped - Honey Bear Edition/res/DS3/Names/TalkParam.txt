@@ -111,9 +111,14 @@
 10021023 [Smithbox] I believe I saw the rapscallion running off towards the castle.
 10021030 Thank you!
 10021999 ### Talk - Ritualist Ellie (m40)
-10022000 Bring me any ritual incense you find.
-10022001 In exchange I can offer improvements to your rituals.
-10022002 Don't tarry now, on you go.
+10022000 Hello there. So, I take it you are interested in my pyromancies?
+10022001 Through the use of your inner flame, you too may conjure allies.
+10022002 Once those accursed watchers are dead, perhaps I'll even share even more.
+10022003 Don't tarry now, on you go.
+10022010 [Abyss Watchers Dead] Well done on slaying those accursed watchers.
+10022011 [Abyss Watchers Dead] As promised, I will now offer you a ring of conjuration.
+10022012 [Abyss Watchers Dead] In exchange for souls, of course.
+10022100 ### Talk - Ritualist Ellie (m33)
 10022999 ### Talk - Occultist Grudore (m40)
 10023000 Still a bit stiff, I'm afraid.
 10023001 I'm known as Grudore, a wandering occultist of sorts.
@@ -359,20 +364,20 @@
 10124031 [Marry] Of course, I accept your proposal.
 10124999 ### Spurned Shade (m40)
 10125000 Do you wish to restore your purity and reclaim the betrothal ring?
-10130999 ### Boss - The Marauder
+10130999 ### Boss - The Marauder (m40)
 10131000 Oh dear... What have we here?
 10131001 Prove your worth against my knights, or scram!
 10131010 Finally, a worthy challenger.
-10131999 ### Talk - Knight Lun
+10131999 ### Talk - Knight Lun (m40)
 10132000 Hello there. Do you seek to help those in distress too?
-10132999 ### Talk - Priestess Emilia
+10132999 ### Talk - Priestess Emilia (m40)
 10133000 I hear you have met the High Priestess too.
 10133001 She has charged me with assisting those that wish to help the Way of Blue.
-10133999 ### Talk - Oathkeeper Xavius
+10133999 ### Talk - Oathkeeper Xavius (m40)
 10134000 Welcome to the Gauntlet!
 10134001 Try your hand against the mighty and powerful of Lothric.
 10134002 If you need supplies, don't hesitate to inquire.
-10134999 ### Talk - Abyss Watcher Vernix
+10134999 ### Talk - Abyss Watcher Vernix (m33)
 10135000 My fallen brothers...
 10135001 Alas.
 10135002 If you seek to unlock the potential of Abyss Watcher weaponry, look no further.

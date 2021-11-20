@@ -5474,6 +5474,10 @@
 19560601 [Sorcery] Discs of Dorthinus - Linger
 19560602 [Sorcery] Discs of Dorthinus - Explosion
 19560700 [Miracle] Gwynevere's Abnegation
+19560800 [Sorcery] Soul Eruption
+19560900 [Pyromancy] Throw Dust
+19560910 [Pyromancy] Throw Dust [Hit]
+19561100 [Pyromancy] Magnetism
 210006010 Crystal Ring Shield - Unleash Moonlight
 220003000 Young Dragon Ring - Homing Soulmass
 220003001 Young Dragon Ring - Homing Soulmass

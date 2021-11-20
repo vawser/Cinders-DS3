@@ -145,6 +145,7 @@
 651 Hard Oath for icons
 900 Lothric's Scythe - Came out of invisibility
 950 [Behavior] Perfect Block VFX Trigger
+960 [Behavior] Perfect Block - Counter Attack
 1000 Weapon Magic Reinforcement 1
 1010 Weapon Magic Reinforcement 2
 1020 Weapon Magic Reinforcement 3
@@ -1079,8 +1080,8 @@
 10802 [Lothric Knight]
 10803 [Lothric Knight]
 10804 [Lothric Knight]
-10805 [Lothric Knight]
-10806 [Lothric Knight]
+10805 [Lothric Knight] Sword Buff A
+10806 [Lothric Knight] Sword Buff B
 10807 [Lothric Knight]
 10810 [Frigid Attendant] Held Orb VFX and Condition Occurrence - Small
 10811 [Frigid Attendant] Held Orb VFX and Condition Occurrence - Medium
@@ -2065,7 +2066,7 @@
 100931 [Behavior]
 100950 [Behavior]
 100960 [Behavior]
-110999 ### Custom Behavior Trigger ###
+110999 ### Behavior ###
 112000 [Behavior] Carthus Bloodring
 112003 [Behavior] Cursed Ring of Evasion
 112004 [Behavior] Insanity Catalyst - Insanity
@@ -2123,12 +2124,10 @@
 112165 [Behavior] Morne's Ring - Bullet
 112166 [Behavior] Deep Ring - Trigger
 112167 [Behavior] Deep Ring - Bullet
-112170 [Behavior] Bullet Ring Cooldown - 15
-112171 [Behavior] Bullet Ring Cooldown - 20
-112172 [Behavior] Bullet Ring Cooldown - 25
-112173 [Behavior] Bullet Ring Cooldown - 30
-112174 [Behavior] Bullet Ring Cooldown - 35
-112175 [Behavior] Bullet Ring Cooldown - 40
+112170 [Behavior] Young Dragon Ring - Timer
+112171 [Behavior] Great Swamp Ring - Timer
+112172 [Behavior] Morne's Ring - Timer
+112173 [Behavior] Deep Ring - Timer
 112180 [Behavior] Focus Implement Vulnerability
 112190 [Behavior] Gwynevere's Urn - Trigger
 112191 [Behavior] Gwynevere's Urn - Cooldown
@@ -2140,13 +2139,10 @@
 112302 [Behavior] Stagger Hit: 2
 112303 [Behavior] Stagger Hit: 3
 112304 [Behavior] Stagger Hit: 4
-112305 [Behavior] Stagger Hit: 5
-112306 [Behavior] Stagger Hit: 6
-112307 [Behavior] Stagger Hit: 7
 112350 [Behavior] Stagger Threshold: 1
-112351 [Behavior] Stagger Threshold: 3
-112352 [Behavior] Stagger Threshold: 5
-112353 [Behavior] Stagger Threshold: 7
+112351 [Behavior] Stagger Threshold: 2
+112352 [Behavior] Stagger Threshold: 3
+112353 [Behavior] Stagger Threshold: 4
 112360 [Behavior] Old Man's Gambit +0 - Trigger
 112361 [Behavior] Old Man's Gambit +1 - Trigger
 112362 [Behavior] Old Man's Gambit +2 - Trigger
@@ -2210,6 +2206,8 @@
 112563 [Behavior] Ring of Momentum +3 - Trigger
 112564 [Behavior] Ring of Momentum +4 - Trigger
 112565 [Behavior] Ring of Momentum +5 - Trigger
+112590 [Behavior] Weapon - Movement Speed Boost
+112591 [Behavior] Weapon - Jump Distance Boost
 112599 ### AI Behavior Trigger ###
 112600 Effect - Weapon Skill Cooldown
 112610 Effect - Disable AI
@@ -2339,6 +2337,9 @@
 113500 [Behavior] Bloodthirst Charge - Base Interval
 113501 [Behavior] Restore Bloodthirst Charge - Baseline - 2 per second
 113510 [Behavior] Shatter Effect
+113520 [Behavior] Unstable Catalyst - Trigger
+113521 [Behavior] Unstable Catalyst - FP Cost Increase
+113522 [Behavior] Unstable Catalyst - Timer
 113999 ### Fool's Sigil ###
 114000 [Behavior] Fool's Sigil - Cooldown
 114010 [Behavior] Fool's Sigil +0 - Attack
@@ -2375,6 +2376,67 @@
 114107 [Behavior] Fool's Sigil - Movement +30%
 114108 [Behavior] Fool's Sigil - Movement +40%
 114109 [Behavior] Fool's Sigil - Movement +50%
+114999 ### Rings ###
+115000 [Behavior] Ring of Blades +0 - Trigger
+115001 [Behavior] Ring of Blades +1 - Trigger
+115002 [Behavior] Ring of Blades +2 - Trigger
+115003 [Behavior] Ring of Blades +3 - Trigger
+115004 [Behavior] Ring of Blades +4 - Trigger
+115005 [Behavior] Ring of Blades +5 - Trigger
+115010 [Behavior] Ring of Blades +0 - Effect
+115011 [Behavior] Ring of Blades +1 - Effect
+115012 [Behavior] Ring of Blades +2 - Effect
+115013 [Behavior] Ring of Blades +3 - Effect
+115014 [Behavior] Ring of Blades +4 - Effect
+115015 [Behavior] Ring of Blades +5 - Effect
+115020 [Behavior] Sigil of Magic+0 - Trigger
+115021 [Behavior] Sigil of Magic+1 - Trigger
+115022 [Behavior] Sigil of Magic+2 - Trigger
+115023 [Behavior] Sigil of Magic+3 - Trigger
+115024 [Behavior] Sigil of Magic+4 - Trigger
+115025 [Behavior] Sigil of Magic+5 - Trigger
+115030 [Behavior] Sigil of Magic+0 - Effect
+115031 [Behavior] Sigil of Magic+1 - Effect
+115032 [Behavior] Sigil of Magic+2 - Effect
+115033 [Behavior] Sigil of Magic+3 - Effect
+115034 [Behavior] Sigil of Magic+4 - Effect
+115035 [Behavior] Sigil of Magic+5 - Effect
+115040 [Behavior] Sigil of Flame+0 - Trigger
+115041 [Behavior] Sigil of Flame+1 - Trigger
+115042 [Behavior] Sigil of Flame+2 - Trigger
+115043 [Behavior] Sigil of Flame+3 - Trigger
+115044 [Behavior] Sigil of Flame+4 - Trigger
+115045 [Behavior] Sigil of Flame+5 - Trigger
+115050 [Behavior] Sigil of Flame+0 - Effect
+115051 [Behavior] Sigil of Flame+1 - Effect
+115052 [Behavior] Sigil of Flame+2 - Effect
+115053 [Behavior] Sigil of Flame+3 - Effect
+115054 [Behavior] Sigil of Flame+4 - Effect
+115055 [Behavior] Sigil of Flame+5 - Effect
+115060 [Behavior] Sigil of Thunder+0 - Trigger
+115061 [Behavior] Sigil of Thunder+1 - Trigger
+115062 [Behavior] Sigil of Thunder+2 - Trigger
+115063 [Behavior] Sigil of Thunder+3 - Trigger
+115064 [Behavior] Sigil of Thunder+4 - Trigger
+115065 [Behavior] Sigil of Thunder+5 - Trigger
+115070 [Behavior] Sigil of Thunder+0 - Effect
+115071 [Behavior] Sigil of Thunder+1 - Effect
+115072 [Behavior] Sigil of Thunder+2 - Effect
+115073 [Behavior] Sigil of Thunder+3 - Effect
+115074 [Behavior] Sigil of Thunder+4 - Effect
+115075 [Behavior] Sigil of Thunder+5 - Effect
+115080 [Behavior] Sigil of Darkness+0 - Trigger
+115081 [Behavior] Sigil of Darkness+1 - Trigger
+115082 [Behavior] Sigil of Darkness+2 - Trigger
+115083 [Behavior] Sigil of Darkness+3 - Trigger
+115084 [Behavior] Sigil of Darkness+4 - Trigger
+115085 [Behavior] Sigil of Darkness+5 - Trigger
+115090 [Behavior] Sigil of Darkness+0 - Effect
+115091 [Behavior] Sigil of Darkness+1 - Effect
+115092 [Behavior] Sigil of Darkness+2 - Effect
+115093 [Behavior] Sigil of Darkness+3 - Effect
+115094 [Behavior] Sigil of Darkness+4 - Effect
+115095 [Behavior] Sigil of Darkness+5 - Effect
 119999 ### Base Behavior ###
 120000 [Weapon Art] Axe: War cry
 120010 [Weapon Art] Axe: War cry [Lack of FP]
@@ -2788,7 +2850,6 @@
 102650012 [Pyromancy] Carthus Beacon - 45 'Hits'
 102651000 [Pyromancy] Immolation
 102651010 Immolation - Smouldering Talisman
-103480000 [Miracle] Heal - FP Reduction
 103490000 [Miracle] Heal Aid
 103490100 [Miracle] Heal Aid [MP]
 103500000 [Miracle] Heal
@@ -4017,7 +4078,7 @@
 160500450 [Pyromancy] Lingering Rockflesh
 160500451 [Pyromancy] Lingering Rockflesh [CycleOccurance]
 160500452 [Pyromancy] Lingering Rockflesh [CycleOccurance]
-160500460 [Sorcery] Bloodthirsty Flashsword - Dark Edge - Path of Frost
+160500460 [Sorcery] Bloodthirsty Flashsword - Dark Edge - Path of Frost - Throw Dust
 160500470 [Sorcery] Bloodthirsty Farron Dart - Lightning Arrow - Way of White Corona - Deep Barb - Nibble - Surging Deep
 160500480 [Pyromancy] Bloodthirsty Flame Fan
 160500490 [Pyromancy] Bloodthirsty Lingering Chaos
@@ -4025,6 +4086,60 @@
 160500510 [Pyromancy] Bloodthirsty Sacred Flame
 160500520 [Miracle] Bloodthirsty Divine Arrow
 160500530 [Miracle] Beckoning Grace
+160509999 ### Spells - Drawbacks ###
+160510000 Magic Weapon
+160510010 Great Magic Weapon
+160510020 Crystal Magic Weapon
+160510030 Supreme Magic Weapon
+160510040 Magic Shield
+160510050 Great Magic Shield
+160510060 Supreme Magic Shield
+160510070 Hidden Weapon
+160510080 Hidden Body
+160510090 Spook
+160510100 Iron Flesh
+160510110 Lingering Iron Flesh
+160510120 Flash Sweat
+160510130 Carthus Flame Arc
+160510140 Supreme Carthus Flame Arc
+160510150 Power Within
+160510160 Lingering Power Within
+160510170 Warmth
+160510180 Profuse Sweat
+160510190 Carthus Beacon
+160510200 Lingering Carthus Beacon
+160510210 Rockflesh
+160510220 Lingering Rockflesh
+160510230 Heal Aid/Heal/Med Heal/Great Heal/Soothing Sunlight/Projected Heal
+160510280 Replenishment
+160510290 Lingering Replenishment
+160510300 Bountiful Light
+160510310 Lingering Bountiful Light
+160510320 Bountiful Sunlight
+160510330 Lingering Bountiful Sunlight
+160510340 Heavenly Relief
+160510350 Sacred Oath
+160510360 Lightning Blade
+160510370 Darkmoon Blade
+160510380 Blessed Weapon
+160510390 Supreme Blessed Weapon
+160510400 Perseverance
+160510410 Lingering Perseverance
+160510420 Numbness
+160510430 Lingering Numbness
+160510440 Black Flame Arc
+160510450 Deep Protection
+160510460 Bottomless Deep Protection
+160510470 Atonement
+160510480 Lingering Atonement
+160510490 Dark Blade
+160510500 Supreme Dark Blade
+160510520 Frozen Weapon
+160510530 Supreme Frozen Weapon
+160510540 Pungent Blade
+160510550 Supreme Pungent Blade
+160510560 Pulsating Blade
+160510570 Supreme Pulsating Blade
 160600001 ### Rings ###
 160600010 Life Ring
 160600011 Life Ring+1
@@ -4334,8 +4449,11 @@
 160600754 Unholy Remains+4
 160600755 Unholy Remains+5
 160600770 Wretched Pendant
-160600771 Wretched Pendant - Bullet
-160600772 Wretched Pendant - Movement Slow
+160600771 Wretched Pendant+1
+160600772 Wretched Pendant+2
+160600773 Wretched Pendant+3
+160600774 Wretched Pendant+4
+160600775 Wretched Pendant+5
 160600780 Symbol of the Penitent
 160600781 Symbol of the Penitent+1
 160600782 Symbol of the Penitent+2
@@ -4697,48 +4815,12 @@
 160603425 Frostflower Ring+5 [AttackOccurance]
 160603500 Rare Ring of Humanity
 160603600 Gwynevere's Urn
-160603700 Dial of Obedience
-160603701 Dial of Obedience+1
-160603702 Dial of Obedience+2
-160603703 Dial of Obedience+3
-160603704 Dial of Obedience+4
-160603705 Dial of Obedience+5
-160603710 Offering of Might
-160603711 Offering of Might+1
-160603712 Offering of Might+2
-160603713 Offering of Might+3
-160603714 Offering of Might+4
-160603715 Offering of Might+5
-160603720 Offering of Tenacity
-160603721 Offering of Tenacity+1
-160603722 Offering of Tenacity+2
-160603723 Offering of Tenacity+3
-160603724 Offering of Tenacity+4
-160603725 Offering of Tenacity+5
-160603730 Offering of Fortitude
-160603731 Offering of Fortitude+1
-160603732 Offering of Fortitude+2
-160603733 Offering of Fortitude+3
-160603734 Offering of Fortitude+4
-160603735 Offering of Fortitude+5
-160603740 Offering of Vitality
-160603741 Offering of Vitality+1
-160603742 Offering of Vitality+2
-160603743 Offering of Vitality+3
-160603744 Offering of Vitality+4
-160603745 Offering of Vitality+5
-160603750 Offering of Devotion
-160603751 Offering of Devotion+1
-160603752 Offering of Devotion+2
-160603753 Offering of Devotion+3
-160603754 Offering of Devotion+4
-160603755 Offering of Devotion+5
-160603760 Offering of Fervor
-160603761 Offering of Fervor+1
-160603762 Offering of Fervor+2
-160603763 Offering of Fervor+3
-160603764 Offering of Fervor+4
-160603765 Offering of Fervor+5
+160603710 Ring of Conjuration
+160603711 Ring of Conjuration+1
+160603712 Ring of Conjuration+2
+160603713 Ring of Conjuration+3
+160603714 Ring of Conjuration+4
+160603715 Ring of Conjuration+5
 160603770 Ravenous Chalice
 160603771 Ravenous Chalice [DeathOccurance]
 160603780 Relic of Legends
@@ -5448,15 +5530,26 @@
 160720360 Soul of the Marauder
 160730000 ### NPC Modifiers ###
 160730010 HP Scalar: 1000 HP
+160730011 HP Scalar: 1100 HP
+160730012 HP Scalar: 1200 HP
+160730013 HP Scalar: 1300 HP
+160730014 HP Scalar: 1400 HP
+160730015 HP Scalar: 1500 HP
+160730016 HP Scalar: 1600 HP
+160730017 HP Scalar: 1700 HP
+160730018 HP Scalar: 1800 HP
+160730019 HP Scalar: 1900 HP
 160730020 HP Scalar: 2000 HP
+160730021 HP Scalar: 2100 HP
+160730022 HP Scalar: 2200 HP
+160730023 HP Scalar: 2300 HP
+160730024 HP Scalar: 2400 HP
+160730025 HP Scalar: 2500 HP
+160730026 HP Scalar: 2600 HP
+160730027 HP Scalar: 2700 HP
+160730028 HP Scalar: 2800 HP
+160730029 HP Scalar: 2900 HP
 160730030 HP Scalar: 3000 HP
-160730040 HP Scalar: 4000 HP
-160730050 HP Scalar: 5000 HP
-160730060 HP Scalar: 6000 HP
-160730070 HP Scalar: 7000 HP
-160730080 HP Scalar: 8000 HP
-160730090 HP Scalar: 9000 HP
-160730100 HP Scalar: 10000 HP
 160731010 Damage Scalar: 90%
 160731020 Damage Scalar: 80%
 160731030 Damage Scalar: 70%
@@ -5529,6 +5622,8 @@
 160742210 The Marauder - Stat Drain
 160742300 Cathedral Guardian - Immunity
 160742310 Boss - Kill Automatically
+160742320 Enemy - 50% Damage
+160742321 Enemy - 75% Damage
 160749999 ### Map ###
 160750000 Object - Estus Pot Drink
 160750010 Object - Poisoned Estus Pot
@@ -5555,9 +5650,25 @@
 160751104 Interaction Effect - Debuff - Absorption
 160751105 Interaction Effect - Debuff - Stamina Recovery
 160751200 Interaction Effect - Effect - Souls (3,000)
-160759999 ### Companions ###
-160760000 Trigger - Local Companion
-160760100 Baseline - Local Companion
+160759999 ### Spell Summons ###
+160760000 Trigger - Skeleton
+160760001 Trigger - Hollow
+160760002 Trigger - Hound
+160760003 Trigger - Carthus Warrior
+160760004 Trigger - Lothric Knight
+160760005 Trigger - Lycanthrope
+160760006 Trigger - Black Knight
+160760007 Trigger - Abyss Watcher
+160760008 Trigger - Stone Gargoyle
+160760100 Baseline - Skeleton
+160760101 Baseline - Hollow
+160760102 Baseline - Hound
+160760103 Baseline - Carthus Warrior
+160760104 Baseline - Lothric Knight
+160760105 Baseline - Lycanthrope
+160760106 Baseline - Black Knight
+160760107 Baseline - Abyss Watcher
+160760108 Baseline - Stone Gargoyle
 160760200 Level Scaling: Cemetery of Ash
 160760201 Level Scaling: High Wall of Lothric
 160760202 Level Scaling: Undead Settlement
@@ -5574,71 +5685,32 @@
 160760213 Level Scaling: Dreg Heap
 160760214 Level Scaling: Ringed City
 160760215 Level Scaling: Filianore's Rest
-160760216 Level Scaling: Memories
-160761000 Companion - Summoned VFX
-160761100 Companion - Ritualist Pact I
-160761101 Companion - Ritualist Pact II
-160761102 Companion - Ritualist Pact III
-160761103 Companion - Ritualist Pact IV
-160761104 Companion - Ritualist Pact V
-160761600 Activity Timer - 60
-160761601 Activity Timer - 90
-160761602 Activity Timer - 120
-160761603 Activity Timer - 150
-160761604 Activity Timer - 180
-160761605 Activity Timer - 210
-160761606 Activity Timer - 250
-160761700 Player - Companion Active - 60
-160761701 Player - Companion Active - 90
-160761702 Player - Companion Active -120
-160761703 Player - Companion Active -150
-160761704 Player - Companion Active -180
-160761705 Player - Companion Active - 210
-160761706 Player - Companion Active - 250
-160763000 Rejuvenating Phial - Trigger
-160763001 Rejuvenating Phial - Companion
-160763100 Banishing Coin - Trigger
-160763200 Beckoning Bone - Trigger
-160763300 Invigorating Phial - Trigger
-160763301 Invigorating Phial - Companion
-160763400 Energizing Phial - Trigger
-160763401 Energizing Phial - Companion
-160764000 Companion: Offering of Might
-160764001 Companion: Offering of Might+1
-160764002 Companion: Offering of Might+2
-160764003 Companion: Offering of Might+3
-160764004 Companion: Offering of Might+4
-160764005 Companion: Offering of Might+5
-160764010 Companion: Offering of Tenacity
-160764011 Companion: Offering of Tenacity+1
-160764012 Companion: Offering of Tenacity+2
-160764013 Companion: Offering of Tenacity+3
-160764014 Companion: Offering of Tenacity+4
-160764015 Companion: Offering of Tenacity+5
-160764020 Companion: Offering of Fortitude
-160764021 Companion: Offering of Fortitude+1
-160764022 Companion: Offering of Fortitude+2
-160764023 Companion: Offering of Fortitude+3
-160764024 Companion: Offering of Fortitude+4
-160764025 Companion: Offering of Fortitude+5
-160764030 Companion: Offering of Vitality
-160764031 Companion: Offering of Vitality+1
-160764032 Companion: Offering of Vitality+2
-160764033 Companion: Offering of Vitality+3
-160764034 Companion: Offering of Vitality+4
-160764035 Companion: Offering of Vitality+5
-160764040 Companion: Offering of Devotion
-160764041 Companion: Offering of Devotion+1
-160764042 Companion: Offering of Devotion+2
-160764043 Companion: Offering of Devotion+3
-160764044 Companion: Offering of Devotion+4
-160764045 Companion: Offering of Devotion+5
-160764050 Companion: Offering of Fervor
-160764051 Companion: Offering of Fervor+1
-160764052 Companion: Offering of Fervor+2
-160764053 Companion: Offering of Fervor+3
-160764054 Companion: Offering of Fervor+4
-160764055 Companion: Offering of Fervor+5
+160760216 Level Scaling: Memory of Endurance
+160760217 Level Scaling: Memory of Strength
+160760300 Baseline - Spell Summon
+160761000 Spell Summon - Summoned VFX
+160761100 Spell Summon - Conjurator's Pact I
+160761101 Spell Summon - Conjurator's Pact II
+160761102 Spell Summon - Conjurator's Pact III
+160761103 Spell Summon - Conjurator's Pact IV
+160761104 Spell Summon - Conjurator's Pact V
+160761600 Spell Summon - Activity Timer - 50
+160761700 Spell Summon - Player Timer - 50
+160762010 Ferverous Ritual - Trigger
+160762020 Major Restoration Ritual - Trigger
+160762030 Minor Restoration Ritual - Trigger
+160762040 Sacrificial Ritual - Trigger
+160762110 Ferverous Ritual - Spell Summon - Effect
+160762120 Major Restoration Ritual - Spell Summon - Effect
+160762130 Minor Restoration Ritual - Spell Summon - Effect
+160762140 Sacrificial Ritual - Spell Summon - Effect
+160762141 Sacrificial Ritual - Player - Effect
+160764000 Spell Summon: Ring of Conjuration+0
+160764001 Spell Summon: Ring of Conjuration+1
+160764002 Spell Summon: Ring of Conjuration+2
+160764003 Spell Summon: Ring of Conjuration+3
+160764004 Spell Summon: Ring of Conjuration+4
+160764005 Spell Summon: Ring of Conjuration+5
 160769999 ### AI Behavior ###
 160770010 Orb Spell Cooldown
 160800000 ### NPC Modifiers ###
@@ -5647,7 +5719,6 @@
 160800003 Base - Friendly NPC
 160800004 Base - Hostile NPC
 160800005 Base - Boss
-160800006 Base - Primal Summon
 160800007 Base - Menu NPC
 160800010 NPC - Halflight
 160800011 NPC - Painting Guardian

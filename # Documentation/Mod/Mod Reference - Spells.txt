@@ -801,6 +801,17 @@
 - Deals 5 damage per hit every second for 10 seconds. Stacks.
 
 #--------------------------------
+# Throw Dust
+#--------------------------------
+- FP Cost: 30
+- Slot Use: 1
+- Fire Damage: 80 {240}
+- Base Effect: reduces Physical absorption by 10% for 10 seconds.
+
+#---- Bloodthirsty Dust
+- Gives 5 bloodthirst charges on hit.
+
+#--------------------------------
 # Conjure Skeleton
 #--------------------------------
 - FP Cost: 50
@@ -993,6 +1004,16 @@
 #---- Lingering Rockflesh
 - Increases duration to 60 seconds.
 - Fatigues focus, increasing FP consumption costs by 15% while active.
+
+#--------------------------------
+# Magnetism
+#--------------------------------
+- FP Cost: 10
+- Slot Use: 1
+- Base Effect: Pulls target enemy closer to the caster.
+
+#---- Refined Magnetism
+- Reduces FP cost to 0.
 
 #--------------------------------------------------------------------------
 # Miracles - Offensive

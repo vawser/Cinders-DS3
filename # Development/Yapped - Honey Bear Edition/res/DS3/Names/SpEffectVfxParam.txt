@@ -1003,6 +1003,8 @@
 75023 Writ of Fury
 75024 Writ of Envy
 75025 Writ of Desire
+75100 Spell Summon - Restoration Ritual
+75110 Spell Summon - Ferverous Ritual
 76000 Psychedelic Elixir - Color 1
 76001 Psychedelic Elixir - Color 2
 76002 Psychedelic Elixir - Color 3
