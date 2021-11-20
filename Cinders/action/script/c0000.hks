@@ -1768,9 +1768,8 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     else
         fist_hand = HAND_RIGHT
     end
-
-    -- Boost only for Fists and Censuring Palm
-    if env(225, fist_hand) == WEAPON_CATEGORY_FIST and env(345, fist_hand) == 271 then
+    
+    if env(225, fist_hand) == WEAPON_CATEGORY_FIST then
         if env(1116, 112570) == TRUE then
             act(2002, 112580)
         elseif env(1116, 112571) == TRUE then

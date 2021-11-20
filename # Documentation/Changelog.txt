@@ -116,8 +116,7 @@ Finish following weapons:
 - Deep Ring: effect now occurs every 15 seconds, no longer randomly.
 
 - Added Pugilist's Trick:
- - Boosts fist damage by 50/60/70/80/90/100%.
- - Works with Fists and Censuring Palm.
+ - Boosts fist and claw physical damage by 30/40/50/60/70/80.
  - Found in Farron Keep.
  
 # Enemies
@@ -145,10 +144,6 @@ Finish following weapons:
 #------------------------------
 # TODO
 #------------------------------
-# Harmonixer
-Finish adding the new stats and effects for Pyromancies, Miracles and Hexes
-Change healing spells to heal when holding the cast
-
 Add Gatling Gun
 Add Solaire as summon to Soul of Cinder
 Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
@@ -157,3 +152,5 @@ Add unreachable item handling for OTK enemies that don't award loot directly: mi
 Black Knight
 Abyss Watcher
 Gargoyle
+
+
