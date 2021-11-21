@@ -184,11 +184,6 @@ Goal.Activate = function (self, ai, goal)
     -- Items
     actFuncList[20] = REGIST_FUNC(ai, goal, NPC_Osvaldo_Act20)   -- Use Item (Slot 0) - Lightning Urn
     
-    -- Spells
-    actFuncList[30] = REGIST_FUNC(ai, goal, NPC_Osvaldo_Act30) -- Cast Spell (Slot 0) - Lightning Arrow
-    actFuncList[31] = REGIST_FUNC(ai, goal, NPC_Osvaldo_Act31) -- Cast Spell (Slot 1) - Great Heal
-    actFuncList[32] = REGIST_FUNC(ai, goal, NPC_Osvaldo_Act32) -- Cast Spell (Slot 2) - Tears of Denial
-    
     Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, NPC_Osvaldo_ActAfter_AdjustSpace), actTblList)
     return 
 end
