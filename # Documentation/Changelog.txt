@@ -67,8 +67,14 @@ Finish following weapons:
 - Reverted the armor icon change.
 
 # Classes
+- Most classes now start with at least one cosmetic item and the cleansing potion.
+- Adjusted Samurai stats so they no longer fat roll.
 - Added Collector class.
 - Added Guardian class.
+- Added Madman class.
+
+# Items
+- Changed VFX for the Writ of Crystallization
 
 # Covenants
 - Reduced the covenant material drop cooldown to 3 seconds (from 20).
