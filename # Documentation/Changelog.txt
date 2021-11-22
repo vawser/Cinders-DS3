@@ -175,7 +175,8 @@ Finish following weapons:
 - Remy the Rat can now break down Titanite materials, i.e. 1 Titanite Slab can be bitten into 5 Titanite Chunks, etc.
  
 # Traps
-- Made the mist traps emit slightly slower.
+- Made the bullet trapped chests fire slower so you have a chance to avoid a hit.
+- Added a sound effect to opening the bullet trapped chests so you know to dodge.
 - Reduced the durability damage of the acid mist trap.
  
 # Map - High Wall
