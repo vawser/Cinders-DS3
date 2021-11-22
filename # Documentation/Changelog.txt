@@ -211,4 +211,9 @@ Black Knight
 Abyss Watcher
 Gargoyle
 
-
+c1060 Black Dragon Knight       c1300 (Black Knight)        # Black Dragon Knight - Greatsword
+c1061 Black Dragon Knight       c6020 (Friede)              # Black Dragon Knight - Paired Warpick
+c1062 Black Dragon Knight       c1250 (Grave Warden)        # Black Dragon Knight - Paired Sword
+c1063 Black Dragon Knight       c6260 (Ringed Knight)       # Black Dragon Knight - Paired Greatsword
+c1064 Black Dragon Knight       c1410 (Silver Knight)       # Black Dragon Knight - Greatbow/Sword
+c1065 Black Dragon Knight       c1290 (Winged Knight)       # Black Dragon Knight - Greataxe (Halberd)

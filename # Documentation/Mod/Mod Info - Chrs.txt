@@ -43,11 +43,11 @@ c1051 Dragonrider               c3160 (Dragonslayer Armour) # UNUSED
 c1052 Dragonrider               c6100 (Millwood Knight)     # UNUSED
 c1053 Dragonrider               c5010 (Nameless King)       # UNUSED
 c1060 Black Dragon Knight       c1300 (Black Knight)
-c1061 Black Dragon Knight       c6020 (Friede)              # UNUSED
-c1062 Black Dragon Knight       c1250 (Grave Warden)        # UNUSED
-c1063 Black Dragon Knight       c6260 (Ringed Knight)       # UNUSED
-c1064 Black Dragon Knight       c1410 (Silver Knight)       # UNUSED
-c1065 Black Dragon Knight       c1290 (Winged Knight)       # UNUSED
+c1061 Black Dragon Knight       c6020 (Friede)              
+c1062 Black Dragon Knight       c1250 (Grave Warden)        
+c1063 Black Dragon Knight       c6260 (Ringed Knight)       
+c1064 Black Dragon Knight       c1410 (Silver Knight)       
+c1065 Black Dragon Knight       c1290 (Winged Knight)       
 c7500 Ciaran                    c1250 (Grave Warden)        
 c7510 Artorias                  c5280 (Soul of Cinder)
 c7511 Artorias                  c6200 (Slave Knight Gael)   # UNUSED
