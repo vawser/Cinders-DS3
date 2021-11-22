@@ -17532,6 +17532,33 @@ function Update()
     UpdateMornesRingEffect()
     UpdateDeepRingEffect()
     
+    -- Lifegem
+    UpdateStackableItem(116000, 116001, 116002, 116003, 116004, 116005, -1, -1, -1, -1, -1) 
+    
+    -- Radiant Lifegem
+    UpdateStackableItem(116010, 116011, 116012, 116013, 116014, 116015, -1, -1, -1, -1, -1) 
+    
+    -- Old Radiant Lifegem
+    UpdateStackableItem(116020, 116021, 116022, 116023, 116024, 116025, -1, -1, -1, -1, -1) 
+    
+    -- Elizabeth Mushroom
+    UpdateStackableItem(116030, 116031, 116032, 116033, 116034, 116035, -1, -1, -1, -1, -1) 
+    
+    -- Dried Root 
+    UpdateStackableItem(116040, 116041, 116042, 116043, 116044, 116045, -1, -1, -1, -1, -1) 
+    
+    -- Brightbug
+    UpdateStackableItem(116050, 116051, 116052, 116053, -1, -1, -1, -1, -1, -1, -1) 
+    
+    -- Tarnished Coin
+    UpdateStackableItem(116060, 116061, 116062, 116063, 116064, 116065, 116066, 116067, 116068, 116069, 116070) 
+    
+    -- Cursed Tarnished Coin
+    UpdateStackableItem(116080, 116081, 116082, 116083, 116084, 116085, 116086, 116087, 116088, 116089, 116090) 
+    
+    -- Henbane
+    UpdateHenbaneEffect()
+    
     UpdateOldMonkState()
     act(101, FALSE)
     act("ロックオン時システム旋回不可角度", 0, 0)
@@ -17655,6 +17682,48 @@ function IsFistOfGratia()
     end
     
     return FALSE
+end
+
+function UpdateStackableItem(trg_eff, sk_eff_1, sk_eff_2, sk_eff_3, sk_eff_4, sk_eff_5, sk_eff_6, sk_eff_7, sk_eff_8, sk_eff_9, sk_eff_10)
+    -- Trigger effect
+    if env(1116, trg_eff) == TRUE then
+        -- Add stacks, or just fresh first instance if at limit
+        if env(1116, sk_eff_1) == FALSE then
+            act(2002, sk_eff_1)
+        elseif sk_eff_2 ~= -1 and env(1116, sk_eff_2) == FALSE then
+            act(2002, sk_eff_2)
+        elseif sk_eff_3 ~= -1 and env(1116, sk_eff_3) == FALSE then
+            act(2002, sk_eff_3)
+        elseif sk_eff_4 ~= -1 and  env(1116, sk_eff_4) == FALSE then
+            act(2002, sk_eff_4)
+        elseif sk_eff_5 ~= -1 and env(1116, sk_eff_5) == FALSE then
+            act(2002, sk_eff_5)
+        elseif sk_eff_6 ~= -1 and env(1116, sk_eff_6) == FALSE then
+            act(2002, sk_eff_6)
+        elseif sk_eff_7 ~= -1 and env(1116, sk_eff_7) == FALSE then
+            act(2002, sk_eff_7)
+        elseif sk_eff_8 ~= -1 and env(1116, sk_eff_8) == FALSE then
+            act(2002, sk_eff_8)
+        elseif sk_eff_9 ~= -1 and env(1116, sk_eff_9) == FALSE then
+            act(2002, sk_eff_9)
+        elseif sk_eff_10 ~= -1 and env(1116, sk_eff_10) == FALSE then
+            act(2002, sk_eff_10)
+        else
+            act(2002, sk_eff_1)
+        end
+    end
+end
+
+function UpdateHenbaneEffect()
+    if env(1116, 116100) == TRUE then
+        if env(1000) > 100 then
+            act(2002, 116103)
+        elseif env(1000) > 10 then
+            act(2002, 116102)
+        elseif env(1000) > 1 then
+            act(2002, 116101)
+        end
+    end
 end
 
 -- FP Regen

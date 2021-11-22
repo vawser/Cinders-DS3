@@ -1372,33 +1372,33 @@ Bestowed with the mother's gift from Brume Tower, the Marauder slew her former a
 As the ages pasted, the Marauder wandered the lands, in search of his next victim.</text>
 <text id="800">Small stone made up of crystallized souls. 
 
-Restores 300 HP over 30 seconds. Stacks.
+Restores 300 HP over 30 seconds. Stacks up to 5 times.
 Effect duration can be extended.
 
 Often found near abandoned corpses, as if it were what remains of the soul.</text>
 <text id="801">Small stone made up of crystallized souls. 
 
-Restores 600 HP over 30 seconds. Stacks.
+Restores 600 HP over 30 seconds. Stacks up to 5 times.
 Effect duration can be extended.
 
 The dull glimmer of these mysterious stones brightens with the passage of time.</text>
 <text id="802">Small stone made up of crystallized souls. 
 
-Restores 900 HP over 30 seconds. Stacks.
+Restores 900 HP over 30 seconds. Stacks up to 5 times.
 Effect duration can be extended.
 
 A rare stone with so brilliant a shine would fetch a handsome price. But what value could it really have, without knowing who died to leave it behind?</text>
 <text id="803">Specially treated dried mushroom.
 Creates a euphoric sensation when ingested.
 
-Restores 1200 HP over 30 seconds. Stacks.
+Restores 1200 HP over 30 seconds. Stacks up to 5 times.
 Effect duration can be extended.
 
 Saint Elizabeth devoted her life to helping the needy by concocting medicine and potions.
 It's thought her great virtue was matched only by her sublime beauty, but who can say now?</text>
 <text id="804">Root of a perennial herb native to the south. 
 
-Restores 3000 HP over 300 seconds. Stacks.
+Restores 3000 HP over 300 seconds. Stacks up to 5 times.
 Effect duration can be extended.
 
 Wild animals abhor the pungent odor of this root, but clerics on pilgrimage are keenly aware of the value of its powerful medicinal effects.</text>
@@ -1953,7 +1953,8 @@ The merchant, the captain of a clan of hunters, was fascinated with weaponry.</t
 Brightbugs are said to comfort the dead,
 and are found in the marshlands leading to a long forgotten crypt.
 
-Boosts weapon damage and all absorptions by 20% for 60 seconds.
+Boosts weapon damage and all absorptions by 20% for 30 seconds.
+Stacks up to 3 times.
 Effect duration can be extended.
 
 By ingesting a brightbug just before death,
@@ -2045,14 +2046,14 @@ Scales with Luck.
 Not to be underestimated, as it can be thrown with enough force to send most enemies flying.</text>
 <text id="3004">A rusty old coin that surely has no currency.
 
-Crushing the coin boosts soul gain by 15%.
-Lasts until death or warp.
+Crushing the coin boosts soul gain by 5% for 300 seconds. Stacks up to 10 times.
+Effect duration can be extended.
 
 A rich man lost his fortune, but it returned to him twofold. He was swift to squander his retrieved fortune, smugly confident that it was bound to double once again.</text>
 <text id="3005">A rusty old silver coin that surely has no currency.
 
-Crushing the coin boosts soul gain by 30%.
-Lasts until death or warp.
+Crushing the coin boosts soul gain by 10% and reduces absorption by 10% for 300 seconds. Stacks up to 10 times.
+Effect duration can be extended.
 
 A rich man lost his fortune, but it returned to him twofold. He was swift to squander his retrieved fortune, smugly confident that it was bound to double once again.</text>
 <text id="3018">Powerful bisque urn filled with dark energies. 
@@ -2291,8 +2292,7 @@ Lasts until death.</text>
 <text id="4019">A potent deliriant, this herb has stark effects
 upon the mind anybody whom dare eat it.
 
-Consume this herb to almost die.
-Lasts until death.</text>
+Consume this herb to be brought to 1 HP.</text>
 <text id="4020">A smouldering stone used in sorcerous rituals.
 A crude element of any magesmith's arsenal.
 

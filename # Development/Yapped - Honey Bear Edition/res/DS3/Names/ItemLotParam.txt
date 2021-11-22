@@ -474,8 +474,8 @@
 61600 [Undead Settlement] Saint's Talisman
 61900 [Anri of Astora] Ring of the Evil Eye
 61930 [Yoel of Londor] Dark Sigil
-62000 [Patches] Tarnished Silver Coin
-62010 [Patches] Tarnished Silver Coin
+62000 [Patches] Cursed Tarnished Coin
+62010 [Patches] Cursed Tarnished Coin
 62099 ### Script - Siegward of Catarina
 62100 [Siegward of Catarina] Siegbräu
 62103 [Siegward of Catarina] Siegbräu
@@ -1096,7 +1096,7 @@
 3200090 [Corpse] Soul of a Nameless Soldier
 3200091 [Corpse] Lightning Urn
 3200100 [Corpse] Soul of a Nameless Soldier
-3200101 [Corpse] Tarnished Silver Coin
+3200101 [Corpse] Cursed Tarnished Coin
 3200110 [Corpse] Soul of a Nameless Soldier
 3200111 [Corpse] Ember
 3200120 [Corpse] Soul of a Nameless Soldier
@@ -1227,7 +1227,7 @@
 3300380 [Corpse] Soul of a Nameless Soldier
 3300381 [Corpse] Speckled Stoneplate Ring
 3300390 [Corpse] Soul of an Unknown Traveler
-3300391 [Corpse] Tarnished Silver Coin
+3300391 [Corpse] Cursed Tarnished Coin
 3300400 [Corpse] Large Soul of an Unknown Traveler
 3300401 [Corpse] Ash Demon Hammer
 3300410 [Corpse] Soul of an Unknown Traveler
@@ -1346,7 +1346,7 @@
 3410060 [Corpse] Soul of a Nameless Soldier
 3410061 [Corpse] Human Pine Resin
 3410070 [Corpse] Soul of a Nameless Soldier
-3410071 [Corpse] Tarnished Silver Coin
+3410071 [Corpse] Cursed Tarnished Coin
 3410080 [Corpse] Soul of a Nameless Soldier
 3410081 [Corpse] Crimson Water
 3410090 [Corpse] Large Soul of a Nameless Soldier
@@ -1456,7 +1456,7 @@
 3500090 [Corpse] Soul of an Unknown Traveler
 3500091 [Corpse] Divine Blessing
 3500100 [Corpse] Soul of an Unknown Traveler
-3500101 [Corpse] Tarnished Silver Coin
+3500101 [Corpse] Cursed Tarnished Coin
 3500110 [Corpse] Large Soul of an Unknown Traveler
 3500111 [Corpse] Barathrum Petal
 3500120 [Corpse] Soul of an Unknown Traveler
@@ -1555,7 +1555,7 @@
 3700100 [Corpse] Soul of a Nameless Soldier
 3700101 [Corpse] Alluring Skull
 3700110 [Corpse] Soul of a Weary Warrior
-3700111 [Corpse] Tarnished Silver Coin
+3700111 [Corpse] Cursed Tarnished Coin
 3700120 [Corpse] Soul of a Nameless Soldier
 3700121 [Corpse] Rusted Gold Coin
 3700130 [Corpse] Large Soul of a Nameless Soldier
@@ -1717,7 +1717,7 @@
 3800150 [Corpse] Soul of a Nameless Soldier
 3800151 [Corpse] Carthus Rouge
 3800160 [Corpse] Soul of a Nameless Soldier
-3800161 [Corpse] Tarnished Silver Coin
+3800161 [Corpse] Cursed Tarnished Coin
 3800170 [Corpse] Soul of a Nameless Soldier
 3800171 [Corpse] Large Titanite Shard
 3800180 [Corpse] Soul of a Nameless Soldier
@@ -1759,7 +1759,7 @@
 3800360 [Corpse] Soul of a Nameless Soldier
 3800361 [Corpse] Ritual Incense
 3800370 [Corpse] Soul of a Nameless Soldier
-3800371 [Corpse] Tarnished Silver Coin
+3800371 [Corpse] Cursed Tarnished Coin
 3800380 [Corpse] Soul of a Nameless Soldier
 3800381 [Corpse] Large Titanite Shard
 3800390 [Corpse] Soul of a Nameless Soldier
@@ -1847,7 +1847,7 @@
 3900090 [Corpse] Soul of a Weary Warrior
 3900091 [Corpse] Brightbug
 3900100 [Corpse] Soul of a Nameless Soldier
-3900101 [Corpse] Tarnished Silver Coin
+3900101 [Corpse] Cursed Tarnished Coin
 3900110 [Corpse] Soul of a Nameless Soldier
 3900111 [Corpse] Mossfruit
 3900120 [Corpse] Soul of a Crestfallen Knight
@@ -1994,7 +1994,7 @@
 4000270 [UG - Corpse] Large Soul of a Nameless Soldier
 4000271 [UG - Corpse] Hidden Blessing
 4000280 [UG - Corpse] Large Soul of a Nameless Soldier
-4000281 [UG - Corpse] Tarnished Silver Coin
+4000281 [UG - Corpse] Cursed Tarnished Coin
 4000290 [UG - Corpse] Soul of a Weary Warrior
 4000291 [UG - Corpse] Titanite Chunk
 4000300 [UG - FK Corpse] Eyes of a Fire Keeper
@@ -2184,7 +2184,7 @@
 5000100 [Corpse] Large Soul of a Weary Warrior
 5000101 [Corpse] Brightbug
 5000110 [Corpse] Soul of a Nameless Soldier
-5000111 [Corpse] Tarnished Silver Coin
+5000111 [Corpse] Cursed Tarnished Coin
 5000120 [Corpse] Soul of a Nameless Soldier
 5000121 [Corpse] Cursed Knife
 5000130 [Corpse] Soul of a Crestfallen Knight
@@ -2260,7 +2260,7 @@
 5100030 [Corpse] Soul of a Weary Warrior
 5100031 [Corpse] Siegbräu
 5100040 [Corpse] Soul of a Weary Warrior
-5100041 [Corpse] Tarnished Silver Coin
+5100041 [Corpse] Cursed Tarnished Coin
 5100050 [Corpse] Soul of a Nameless Soldier
 5100051 [Corpse] Gold Pine Resin
 5100060 [Corpse] Soul of a Nameless Soldier
@@ -2306,7 +2306,7 @@
 5100260 [Corpse] Soul of a Crestfallen Knight
 5100261 [Corpse] Divine Blessing
 5100270 [Corpse] Soul of a Weary Warrior
-5100271 [Corpse] Tarnished Silver Coin
+5100271 [Corpse] Cursed Tarnished Coin
 5100280 [Corpse] Soul of a Weary Warrior
 5100281 [Corpse] Gold Pine Resin
 5100290 [Corpse] Soul of a Weary Warrior
@@ -2748,7 +2748,7 @@
 30399999 ### Abyss Watcher ###
 30400000 [Default] Soul of a Weary Warrior
 30400001 [Default] Sharp Gem
-30400002 [Default] Tarnished Coin, Tarnished Silver Coin
+30400002 [Default] Tarnished Coin, Cursed Tarnished Coin
 30400003 [Default] Titanite Chunk
 30599999 ### Demon ###
 30600000 [Default] Soul of a Demon

@@ -395,7 +395,7 @@
 36078 [Bonfire - Cleansing Chapel] Holy Water Urn
 36079 [Bonfire - Distant Manor] Throwing Frying Pan
 36080 [Bonfire - Depths of the Painting] Tarnished Coin
-36081 [Bonfire - Depths of the Painting] Tarnished Silver Coin
+36081 [Bonfire - Depths of the Painting] Cursed Tarnished Coin
 36082 [Bonfire - Catacombs of Carthus] Hexing Urn
 36083 [Bonfire - Lothric Castle] Witching Urn
 36084 [Bonfire - Earthen Peak Ruins] Old Growth Balm
@@ -3450,7 +3450,7 @@
 804028 [Gauntlet Item] Infusing Essence
 804029 [Gauntlet Item] Degrading Essence
 804030 [Gauntlet Item] Tarnished Coin
-804031 [Gauntlet Item] Tarnished Silver Coin
+804031 [Gauntlet Item] Cursed Tarnished Coin
 804032 [Gauntlet Item] Hexing Urn
 804033 [Gauntlet Item] Witching Urn
 804034 [Gauntlet Item] Old Growth Balm

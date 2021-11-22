@@ -73,9 +73,6 @@ Finish following weapons:
 - Added Guardian class.
 - Added Madman class.
 
-# Items
-- Changed VFX for the Writ of Crystallization
-
 # Covenants
 - Reduced the covenant material drop cooldown to 3 seconds (from 20).
 - Reduced the covenant consumable drop cooldown to 30 seconds (from 40).
@@ -150,6 +147,25 @@ Finish following weapons:
  - Increases dark attack by 50/70/90/110/130/150
  - Affixable.
  - Found in Irithyll Dungeon.
+ 
+# Items
+- Changed VFX for the Writ of Crystallization
+- Lifegem: capped active stacks at 5.
+- Radiant Lifegem: capped active stacks at 5.
+- Old Radiant Lifegem: capped active stacks at 5.
+- Elizabeth Mushroom: capped active stacks at 5.
+- Dried Root: capped active stacks at 5.
+- Brightbug: now lasts 30 seconds, but can be stacked to 3 active stacks.
+- Renamed Tarnished Silver Coin to Cursed Tarnished Coin.
+- Henbane now brings you to exactly 1 HP.
+
+- Tarnished Coin:
+ - Crushing the coin boosts soul gain by 5% for 300 seconds. Stacks up to 10 times.
+ - Effect duration can be extended.
+ 
+- Cursed Tarnished Coin:
+ - Crushing the coin boosts soul gain by 10% and reduces absorption by 10% for 300 seconds. Stacks up to 10 times.
+ - Effect duration can be extended.
 
 # Enemies
 - Reduced the damage and poise of the Pontiff Knights.

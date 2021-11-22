@@ -2437,6 +2437,45 @@
 115093 [Behavior] Sigil of Darkness+3 - Effect
 115094 [Behavior] Sigil of Darkness+4 - Effect
 115095 [Behavior] Sigil of Darkness+5 - Effect
+115999 ### Items ###
+116000 Lifegem - Trigger
+116001 Lifegem - Stack 1
+116002 Lifegem - Stack 2
+116003 Lifegem - Stack 3
+116004 Lifegem - Stack 4
+116005 Lifegem - Stack 5
+116010 Radiant Lifegem - Trigger
+116011 Radiant Lifegem - Stack 1
+116012 Radiant Lifegem - Stack 2
+116013 Radiant Lifegem - Stack 3
+116014 Radiant Lifegem - Stack 4
+116015 Radiant Lifegem - Stack 5
+116020 Old Radiant Lifegem - Trigger
+116021 Old Radiant Lifegem - Stack 1
+116022 Old Radiant Lifegem - Stack 2
+116023 Old Radiant Lifegem - Stack 3
+116024 Old Radiant Lifegem - Stack 4
+116025 Old Radiant Lifegem - Stack 5
+116030 Elizabeth Mushroom - Trigger
+116031 Elizabeth Mushroom - Stack 1
+116032 Elizabeth Mushroom - Stack 2
+116033 Elizabeth Mushroom - Stack 3
+116034 Elizabeth Mushroom - Stack 4
+116035 Elizabeth Mushroom - Stack 5
+116040 Dried Root - Trigger
+116041 Dried Root - Stack 1
+116042 Dried Root - Stack 2
+116043 Dried Root - Stack 3
+116044 Dried Root - Stack 4
+116045 Dried Root - Stack 5
+116050 Brightbug - Trigger
+116051 Brightbug - Stack 1
+116052 Brightbug - Stack 2
+116053 Brightbug - Stack 3
+116060 Tarnished Coin - Trigger
+116061 Tarnished Coin - Stack 1
+116070 Cursed Tarnished Coin - Trigger
+116071 Cursed Tarnished Coin - Stack 1
 119999 ### Base Behavior ###
 120000 [Weapon Art] Axe: War cry
 120010 [Weapon Art] Axe: War cry [Lack of FP]
@@ -4852,10 +4891,7 @@
 160690031 Cursed Ring of Confusion  - HP Reduction
 160690035 Cursed Ring of Confusion - Change Team Type
 160700001 ### Items ###
-160700020 Brightbug
 160700040 Bloodthirsty Grass Dew
-160700050 Tarnished Coin
-160700060 Tarnished Silver Coin
 160700230 Old Growth Balm
 160700240 Vine Balm
 160700250 Blackweed Balm
@@ -4872,11 +4908,6 @@
 160700440 Soul of a Fallen Astrologer
 160700450 Soul of a Fallen Beserker
 160700460 Soul of a Fallen Champion
-160700500 Lifegem
-160700501 Radiant Lifegem
-160700502 Old Radiant Lifegem
-160700503 Elizabeth Mushroom
-160700504 Dried Root
 160700505 Rouge Water
 160700506 Crimson Water
 160700600 Lizard Hide
