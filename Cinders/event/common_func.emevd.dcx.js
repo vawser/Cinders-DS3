@@ -7383,9 +7383,10 @@ Event(20086000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetObjectTreasureState(X4_4, Disabled); // Disable treasure
     IfObjactEventFlag(MAIN, X8_4); // Wait for object activation flag
     WaitFixedTimeFrames(10);
-    ShootBullet(X12_4, X12_4, -1, X16_4, 0, 0, 0);
     SetObjectTreasureState(X4_4, Enabled); // Enable treasure
     SetEventFlag(X0_4, ON);
+    WaitFixedTimeFrames(10);
+    ShootBullet(X12_4, X12_4, -1, X16_4, 0, 0, 0);
 });
 
 //------------------------

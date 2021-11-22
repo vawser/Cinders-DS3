@@ -174,6 +174,10 @@ Finish following weapons:
 - Solaire now sells Lifegem, Radiant Lifegem, Old Radiant Lifegem and Rouge Water.
 - Remy the Rat can now break down Titanite materials, i.e. 1 Titanite Slab can be bitten into 5 Titanite Chunks, etc.
  
+# Traps
+- Made the mist traps emit slightly slower.
+- Reduced the durability damage of the acid mist trap.
+ 
 # Map - High Wall
 - Moved some chests in High Wall.
 - Removed/moved some enemies in High Wall to make it easier to traverse on initial runthrough.
