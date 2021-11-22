@@ -7385,7 +7385,8 @@ Event(20086000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     WaitFixedTimeFrames(10);
     SetObjectTreasureState(X4_4, Enabled); // Enable treasure
     SetEventFlag(X0_4, ON);
-    WaitFixedTimeFrames(10);
+    PlaySE(10000, SoundType.v_Voice, 444444442); // Thud Shwing
+    WaitFixedTimeSeconds(2.0);
     ShootBullet(X12_4, X12_4, -1, X16_4, 0, 0, 0);
 });
 
