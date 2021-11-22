@@ -93,6 +93,7 @@ Finish following weapons:
 
 # Spells
 - Increased max spellbuff to 300 again.
+- Adjusted pyromancy stat curve so it has an early power spike.
 - Removed the FP pause from casting a normal spell. Other pauses still remain.
 - Changed the passive spells that reduced max FP to instead increase FP consumption costs for their duration instead.
 - Adjusted the cost of several spells.
