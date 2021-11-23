@@ -1,10 +1,16 @@
 RegisterTableGoal(GOAL_SpellSummon_BlackKnight_801600_Battle, "GOAL_SpellSummon_BlackKnight_801600_Battle")
 REGISTER_GOAL_NO_SUB_GOAL(GOAL_SpellSummon_BlackKnight_801600_Battle, true)
 
+-------------------------
+-- Initialize
+-------------------------
 Goal.Initialize = function (self, ai, goal, arg3)
     return 
 end
 
+-------------------------
+-- Activate
+-------------------------
 Goal.Activate = function (self, ai, goal)
     Init_Pseudo_Global(ai, goal)
     ai:SetStringIndexedNumber("Dist_SideStep", 5)
@@ -19,7 +25,9 @@ Goal.Activate = function (self, ai, goal)
     
     ai:AddObserveSpecialEffectAttribute(TARGET_ENE_0, 90)
     ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 5028)
+    
     local local3 = ai:GetDist(TARGET_ENE_0)
+    
     if ai:IsTargetGuard(TARGET_SELF) == true and ai:GetRandam_Int(1, 100) <= 70 and InsideRange(ai, goal, 0, 90, -99 - ai:GetMapHitRadius(TARGET_SELF), 2.3 - ai:GetMapHitRadius(TARGET_SELF)) then
         local0[11] = 10
         local0[3] = 10
@@ -83,6 +91,7 @@ Goal.Activate = function (self, ai, goal)
         local0[8] = 25
         local0[10] = 0
     end
+    
     if ai:HasSpecialEffectId(TARGET_ENE_0, 90) then
         local0[1] = 0
         local0[3] = 0
@@ -90,28 +99,31 @@ Goal.Activate = function (self, ai, goal)
         local0[8] = 0
         local0[9] = 0
     end
+    
     local0[5] = SetCoolTime(ai, goal, 3008, 10, local0[5], 1)
     local0[6] = SetCoolTime(ai, goal, 3009, 10, local0[6], 1)
     local0[7] = SetCoolTime(ai, goal, 3010, 20, local0[7], 1)
     local0[8] = SetCoolTime(ai, goal, 3011, 20, local0[8], 1)
     local0[9] = SetCoolTime(ai, goal, 3012, 6, local0[9], 1)
-    local1[1] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act01)
-    local1[2] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act02)
-    local1[3] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act03)
-    local1[4] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act04)
-    local1[5] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act05)
-    local1[6] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act06)
-    local1[7] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act07)
-    local1[8] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act08)
-    local1[9] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act09)
-    local1[10] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act10)
-    local1[11] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act11)
-    local1[20] = REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_Act20)
-    Common_Battle_Activate(ai, goal, local0, local1, REGIST_FUNC(ai, goal, BlackKight_LargeAxe_130020_ActAfter_AdjustSpace), local2)
+    
+    local1[1] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act01)
+    local1[2] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act02)
+    local1[3] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act03)
+    local1[4] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act04)
+    local1[5] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act05)
+    local1[6] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act06)
+    local1[7] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act07)
+    local1[8] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act08)
+    local1[9] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act09)
+    local1[10] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act10)
+    local1[11] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act11)
+    local1[20] = REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_Act20)
+    
+    Common_Battle_Activate(ai, goal, local0, local1, REGIST_FUNC(ai, goal, SpellSummon_BlackKnight_ActAfter_AdjustSpace), local2)
     return 
 end
 
-function BlackKight_LargeAxe_130020_Act01(self, ai, goal)
+function SpellSummon_BlackKnight_Act01(self, ai, goal)
     Approach_Act_Flex(self, ai, 3.2 - self:GetMapHitRadius(TARGET_SELF) - 1, 3.2 - self:GetMapHitRadius(TARGET_SELF) - 1, 3.2 - self:GetMapHitRadius(TARGET_SELF) - 1, 0, 0, 5, 5)
     local local0 = 3000
     local local1 = 3001
@@ -158,7 +170,7 @@ function BlackKight_LargeAxe_130020_Act01(self, ai, goal)
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act02(self, ai, goal)
+function SpellSummon_BlackKnight_Act02(self, ai, goal)
     Approach_Act_Flex(self, ai, 3 - self:GetMapHitRadius(TARGET_SELF) - 1, 3 - self:GetMapHitRadius(TARGET_SELF) - 1, 3 - self:GetMapHitRadius(TARGET_SELF) - 1, 0, 0, 5, 5)
     local local0 = self:GetRandam_Int(1, 100)
     ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3004, TARGET_ENE_0, 20 - self:GetMapHitRadius(TARGET_SELF), 0, 0)
@@ -166,7 +178,7 @@ function BlackKight_LargeAxe_130020_Act02(self, ai, goal)
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act03(self, ai, goal)
+function SpellSummon_BlackKnight_Act03(self, ai, goal)
     Approach_Act_Flex(self, ai, 3 - self:GetMapHitRadius(TARGET_SELF) - 1, 3 - self:GetMapHitRadius(TARGET_SELF) - 1, 3 - self:GetMapHitRadius(TARGET_SELF) - 1, 0, 0, 5, 5)
     local local0 = 3005
     local local1 = 3001
@@ -217,14 +229,14 @@ function BlackKight_LargeAxe_130020_Act03(self, ai, goal)
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act04(self, ai, goal)
+function SpellSummon_BlackKnight_Act04(self, ai, goal)
     Approach_Act_Flex(self, ai, 2.3 - self:GetMapHitRadius(TARGET_SELF) - 1, 2.3 - self:GetMapHitRadius(TARGET_SELF) - 1, 2.3 - self:GetMapHitRadius(TARGET_SELF) - 1, 0, 0, 5, 5)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3006, TARGET_ENE_0, 20 - self:GetMapHitRadius(TARGET_SELF), 0, 0)
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act05(self, ai, goal)
+function SpellSummon_BlackKnight_Act05(self, ai, goal)
     Approach_Act_Flex(self, ai, 4.3 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 4.3 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 4.3 - self:GetMapHitRadius(TARGET_SELF) + 2, 80, 0, 5, 5)
     local local0 = 3008
     local local1 = 3001
@@ -247,21 +259,21 @@ function BlackKight_LargeAxe_130020_Act05(self, ai, goal)
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act06(self, ai, goal)
+function SpellSummon_BlackKnight_Act06(self, ai, goal)
     Approach_Act_Flex(self, ai, 6.5 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 6.5 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 6.5 - self:GetMapHitRadius(TARGET_SELF) + 2, 80, 0, 5, 5)
     ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3009, TARGET_ENE_0, 20 - self:GetMapHitRadius(TARGET_SELF), 1.5, 120)
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act07(self, ai, goal)
+function SpellSummon_BlackKnight_Act07(self, ai, goal)
     Approach_Act_Flex(self, ai, 6.5 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 6.5 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 6.5 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 0, 0, 5, 5)
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3010, TARGET_ENE_0, 20 - self:GetMapHitRadius(TARGET_SELF), 0, 0)
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act08(self, ai, goal)
+function SpellSummon_BlackKnight_Act08(self, ai, goal)
     Approach_Act_Flex(self, ai, 2.9 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 2.9 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 2.9 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 0, 0, 5, 5)
     local local0 = 3011
     local local1 = 20 - self:GetMapHitRadius(TARGET_SELF)
@@ -277,14 +289,14 @@ function BlackKight_LargeAxe_130020_Act08(self, ai, goal)
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act09(self, ai, goal)
+function SpellSummon_BlackKnight_Act09(self, ai, goal)
     ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3012, TARGET_ENE_0, 2.9 - self:GetMapHitRadius(TARGET_SELF), 0, 0)
     ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3011, TARGET_ENE_0, 20 - self:GetMapHitRadius(TARGET_SELF))
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act10(self, ai, goal)
+function SpellSummon_BlackKnight_Act10(self, ai, goal)
     Approach_Act_Flex(self, ai, 3.3 - self:GetMapHitRadius(TARGET_SELF) + 0.5, 3.3 - self:GetMapHitRadius(TARGET_SELF) + 0.5, 3.3 - self:GetMapHitRadius(TARGET_SELF) + 0.5, 0, 0, 5, 5)
     local local0 = self:GetRandam_Int(1, 100)
     ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3013, TARGET_ENE_0, 20 - self:GetMapHitRadius(TARGET_SELF), 0, 0)
@@ -292,7 +304,7 @@ function BlackKight_LargeAxe_130020_Act10(self, ai, goal)
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act11(self, ai, goal)
+function SpellSummon_BlackKnight_Act11(self, ai, goal)
     Approach_Act_Flex(self, ai, 2.3 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 2.3 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 2.3 - self:GetMapHitRadius(TARGET_SELF) - 0.5, 0, 100, 5, 5)
     local local0 = self:GetRandam_Int(1, 100)
     ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, 3006, TARGET_ENE_0, 0, 0, 0)
@@ -301,7 +313,7 @@ function BlackKight_LargeAxe_130020_Act11(self, ai, goal)
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_Act20(self, ai, goal)
+function SpellSummon_BlackKnight_Act20(self, ai, goal)
     if self:IsTargetGuard(TARGET_SELF) == true then
         ai:AddSubGoal(GOAL_COMMON_Turn, 2, TARGET_ENE_0, 0, 9910, 0, true)
     else
@@ -311,7 +323,7 @@ function BlackKight_LargeAxe_130020_Act20(self, ai, goal)
     return GetWellSpace_Odds
 end
 
-function BlackKight_LargeAxe_130020_ActAfter_AdjustSpace(self, ai, goal)
+function SpellSummon_BlackKnight_ActAfter_AdjustSpace(self, ai, goal)
     ai:AddSubGoal(GOAL_SpellSummon_BlackKnight_801600_AfterAttackAct, 3)
     return 
 end
@@ -363,12 +375,12 @@ Goal.Interrupt = function (self, ai, goal)
         if InsideRange(ai, goal, 0, 180, 3, 10) then
             if ai:GetRandam_Int(1, 100) <= 15 and ai:GetAttackPassedTime(3010) <= 8 then
                 goal:ClearSubGoal()
-                BlackKight_LargeAxe_130020_Act07(ai, goal, paramTbl)
+                SpellSummon_BlackKnight_Act07(ai, goal, paramTbl)
                 return true
             end
         elseif InsideRange(ai, goal, 0, 240, -99, 3) and ai:GetRandam_Int(1, 100) <= 15 and ai:GetAttackPassedTime(3010) <= 8 then
             goal:ClearSubGoal()
-            BlackKight_LargeAxe_130020_Act08(ai, goal, paramTbl)
+            SpellSummon_BlackKnight_Act08(ai, goal, paramTbl)
             return true
         end
     end
