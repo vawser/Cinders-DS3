@@ -79,6 +79,10 @@ Finish following weapons:
 - Added Hermit class
 - Added Royal Lancer class.
 - Added Marksman class.
+- Added Misanthrope class.
+- Added Scholar class.
+- Added Royal Warden class.
+- Added Wandering Knight class.
 
 # Covenants
 - Reduced the covenant material drop cooldown to 3 seconds (from 20).

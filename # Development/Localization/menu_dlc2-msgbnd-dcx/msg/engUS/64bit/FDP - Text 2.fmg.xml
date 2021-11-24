@@ -1756,7 +1756,7 @@ it will be consumed with use.</text>
 <text id="402369">Irithyllian</text>
 <text id="402401">Deprived</text>
 <text id="402402">Knight</text>
-<text id="402403">Forlorn Mage</text>
+<text id="402403">Brawler</text>
 <text id="402404">Sentinel</text>
 <text id="402405">Mercenary</text>
 <text id="402406">Wayfarer</text>
@@ -1770,7 +1770,7 @@ it will be consumed with use.</text>
 <text id="402414">Captain</text>
 <text id="402415">Peasant</text>
 <text id="402416">Adventurer</text>
-<text id="402417">Brawler</text>
+<text id="402417">Forlorn Mage</text>
 <text id="402418">Hunter</text>
 <text id="402419">Sorcerer</text>
 <text id="402420">Pyromancer</text>
@@ -1789,6 +1789,10 @@ it will be consumed with use.</text>
 <text id="402433">Hermit</text>
 <text id="402434">Royal Lancer</text>
 <text id="402435">Marksman</text>
+<text id="402436">Misanthrope</text>
+<text id="402437">Scholar</text>
+<text id="402438">Royal Warden</text>
+<text id="402439">Wandering Knight</text>
 <text id="402499">Accursed</text>
 <text id="402501">None</text>
 <text id="402502">Master Key</text>
