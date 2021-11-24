@@ -7052,7 +7052,7 @@ Event(20080000, Restart, function(X0_4) {
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
     
-    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 1060); // Spawn FFX
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 524023); // Spawn FFX
     
     // Wait until timer is reapplied
     IfCharacterHasSpeffect(AND_02, X0_4, 160761600, true, ComparisonType.Equal, 1);
@@ -7138,11 +7138,9 @@ Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     // Warp companion to player location
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
     
-    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 1060); // Spawn FFX
-    
     WaitFixedTimeSeconds(0.1);
     
-    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 1060); // Spawn FFX
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 524023); // Spawn FFX
     PlaySE(10000, SoundType.v_Voice, 444444442); // Thud Shwing
     
     Label1();

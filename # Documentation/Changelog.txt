@@ -168,9 +168,13 @@ Finish following weapons:
  - Crushing the coin boosts soul gain by 10% and reduces absorption by 10% for 300 seconds. Stacks up to 10 times.
  - Effect duration can be extended.
 
+# Bosses
+- Reduced Halflight HP to 2,000.
+
 # Enemies
 - Reduced the damage and poise of the Pontiff Knights.
-- Jailer vision now reduces absorption instead of max HP.
+- Jailer vision now reduces absorption by 1% with each stack instead of max HP. Each stack now lasts 30 seconds.
+- Increased the base damage of the Jailers so they hit harder.
 
 # Merchants
 - Solaire now sells Lifegem, Radiant Lifegem, Old Radiant Lifegem and Rouge Water.
@@ -192,6 +196,15 @@ Finish following weapons:
  - It is hostile to the peasants.
 - Moved Master Benjin to the Tower Basement bonfire area.
 
+# Map - Dreg Heap
+- Within the Earthen Peak Ruins bonfire is no longer locked behind an intruder kill.
+
+# Map - Ringed City
+- Ringed Inner Wall bonfire is no longer locked behind an intruder kill.
+
+# Memory of Endurance
+- Changed the waves from timer based into kill based (like Memory of Strength), so you face 3 enemies, they die, then 3 more, etc.
+
 # Bugfix
 - Fixed the HP effectiveness adjustment being incorrect for affixed Unholy Remains and Wretched Pendant.
 - Carthus Sandworm now drops his Undead Bone Shard correctly.
@@ -199,6 +212,8 @@ Finish following weapons:
 - Fixed the Cannon drop amount from Ashen Hunter Yafuh.
 - Fixed the Gower's Ring of Retribution drop amount from Huntmaster Ava.
 - Fixed some item descriptions.
+- Fixed bad chr id for Gargoyle spell summon in m39 and m45
+- Fixed bad npc param id for Lothric Knight spell summon in m38
 
 #------------------------------
 # TODO
@@ -207,14 +222,10 @@ Add Gatling Gun
 Add Solaire as summon to Soul of Cinder
 Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
 
-# AI Pass:
-Black Knight
-Abyss Watcher
-Gargoyle
-
 c1060 Black Dragon Knight       c1300 (Black Knight)        # Black Dragon Knight - Greatsword
 c1061 Black Dragon Knight       c6020 (Friede)              # Black Dragon Knight - Paired Warpick
 c1062 Black Dragon Knight       c1250 (Grave Warden)        # Black Dragon Knight - Paired Sword
 c1063 Black Dragon Knight       c6260 (Ringed Knight)       # Black Dragon Knight - Paired Greatsword
 c1064 Black Dragon Knight       c1410 (Silver Knight)       # Black Dragon Knight - Greatbow/Sword
 c1065 Black Dragon Knight       c1290 (Winged Knight)       # Black Dragon Knight - Greataxe (Halberd)
+
