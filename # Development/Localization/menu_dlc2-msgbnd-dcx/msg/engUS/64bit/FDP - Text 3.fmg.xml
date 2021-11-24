@@ -181,7 +181,7 @@ legend. They say children born like this
 are fated to be taken to the Boreal Valley.</text>
 <text id="402401">Naked and of unknown origin. Either an unimaginable fool in life, or was stripped of possessions upon burial.</text>
 <text id="402402">An obscure knight of poor renown who collapsed roaming the land.</text>
-<text id="402403">A common thief and pitiful deserter.</text>
+<text id="402403">Mage hailing from a harsh land of ice, skilled in both magic and swordsmanship.</text>
 <text id="402404">A sentinel of an old abandoned village.</text>
 <text id="402405">A mercenary and veteran of the battlefield.</text>
 <text id="402406">A roaming wayfarer, who seeks riches upon the roads.</text>
@@ -194,7 +194,7 @@ are fated to be taken to the Boreal Valley.</text>
 <text id="402413">A former herald who journeyed to finish a quest undertaken.</text>
 <text id="402414">Former captain, who collapsed after battle.</text>
 <text id="402415">A hard-working peasant, who once resided in the undead settlement below Lothric Castle.</text>
-<text id="402416">An self-proclaimed explorer, who seeks new thrills in the lands of Lothric.</text>
+<text id="402416">A self-proclaimed adventurer, who seeks new thrills in the lands of Lothric.</text>
 <text id="402417">A rough'n'tumble brawler, looking for the next fight.</text>
 <text id="402418">Once a member of aristocracy, this noble has taken to hunting to fend for themselves.</text>
 <text id="402419">A loner who left formal academia to pursue further research.</text>
@@ -210,6 +210,10 @@ are fated to be taken to the Boreal Valley.</text>
 <text id="402429">A collector of exotic items. Said to have come from a land of beasts and blood.</text>
 <text id="402430">Once a guardian of a dark and dangerous forest. Simple-minded, but stalwart against all.</text>
 <text id="402431">A complete madman, craves battle while on the verge of death.</text>
+<text id="402432">Not much is known about them, all that's known is that they have an obsession with doors.</text>
+<text id="402433">Swamp dweller who spends their days mastering two things, magic and hitting things with a big club.</text>
+<text id="402434">Royal Lancer from a long forgotten kingdom, doesn't have a horse but they try their best.</text>
+<text id="402435">Skilled marksman born from royalty, uses a crossbow to take down foes from afar.</text>
 <text id="402499">A worthless specimen, can't even die right.</text>
 <text id="402501">None.
 Scroll for additional options.</text>
