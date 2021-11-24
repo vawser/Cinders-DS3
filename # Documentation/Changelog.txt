@@ -181,6 +181,8 @@ Finish following weapons:
 
 # Bosses
 - Reduced Halflight HP to 2,000.
+- Marauder only requires you to kill the Black Knights once, after that you can simply talk to him to start the fight.
+- Reduced the souls dropped by the Marauder to 100000.
 
 # Enemies
 - Reduced the damage and poise of the Pontiff Knights.
