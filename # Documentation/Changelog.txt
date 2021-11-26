@@ -63,171 +63,21 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
-# General
-- Reverted the armor icon change.
-
 # Classes
-- Adjusted Samurai stats so they no longer fat roll.
-- Reworked Assassin class, now much more focused on crits.
-- Reworked Explorer class, now called Adventurer with a focus on consumables.
-- Removed Thief class
-- Added Collector class.
-- Added Guardian class.
-- Added Madman class.
-- Added Forlorn Mage class.
-- Added Doorman class.
-- Added Hermit class
-- Added Royal Lancer class.
-- Added Marksman class.
-- Added Misanthrope class.
-- Added Scholar class.
-- Added Royal Warden class.
-- Added Wandering Knight class.
-
-# Covenants
-- Reduced the covenant material drop cooldown to 3 seconds (from 20).
-- Reduced the covenant consumable drop cooldown to 30 seconds (from 40).
-
-# Stats
-- Changed the base FP value to 150.
-
-# Intruders
-- Reduced HP of several hostile NPCs.
-- Reduced damage of several hostile NPCs.
-
-# Weapons
-- Feast Bell WA now lasts 20 seconds.
-- Shiv now boosts movement speed by 10%.
-- Censuring Palm now only boosts movement speed by 10%.
-- Thrall Harpe now increases jump distance by 25% (and +5 LCK as before).
-- Thrall Pick now increases jump distance by 25% (and +5 LCK as before).
-
-# Spells
-- Increased max spellbuff to 300 again.
-- Adjusted pyromancy stat curve so it has an early power spike.
-- Removed the FP pause from casting a normal spell. Other pauses still remain.
-- Changed the passive spells that reduced max FP to instead increase FP consumption costs for their duration instead.
-- Adjusted the cost of several spells.
-- The instant healing spells now apply a stacking healing effectiveness debuff of -10% for 15 seconds when usage.
-- Added Unstable infusion: increases spellbuff by 50, but each cast applies a +10% FP cost increase for 10 seconds, stacking.
-
-- Changed the effect of Unleash Magic:
- - Reduces FP consumption of Sorceries by 90%, but reduces max HP by 90%. Lasts 12 seconds. (16 for ascended)
- 
-- Great Heal:
- - Restores 600 HP
- 
-- Soothing Sunlight:
- - Restores 800 HP
- 
-- Added spell Soul Eruption: Emit eruption of soulmasses.
- - Can be ascended into Soul Explosion.
- - Found in the Undead Settlement.
-
-- Added two new Pyromancies:
- - Throw Dust: Deals low Physical damage in a small AoE and reduces the Physical absorption of enemies by 10% for 10 seconds. Sold by Cornyx.
- - Magnetism: Pulls target enemy closer to the caster. Sold by Cornyx.
- 
-# Rings
-- Young Dragon Ring: effect now occurs every 15 seconds, no longer randomly.
-- Great Swamp Ring: effect now occurs every 15 seconds, no longer randomly.
-- Morne's Ring: effect now occurs every 15 seconds, no longer randomly.
-- Deep Ring: effect now occurs every 15 seconds, no longer randomly.
-- Gwynevere's Urn: Now only applies once every 300 seconds.
- 
-- Added Ring of Blades:
- - Increases physical attack by 50/70/90/110/130/150
- - Affixable.
- - Found in Farron Keep.
- 
-- Added Sigil of Magic:
- - Increases magic attack by 50/70/90/110/130/150
- - Affixable.
- - Found in Irithyll.
-
-- Added Sigil of Flame:
- - Increases fire attack by 50/70/90/110/130/150
- - Affixable.
- - Found in Holy Knight Morton.
- 
-- Added Sigil of Thunder:
- - Increases lightning attack by 50/70/90/110/130/150
- - Affixable.
- - Found in Lothric Castle.
- 
-- Added Sigil of Darkness:
- - Increases dark attack by 50/70/90/110/130/150
- - Affixable.
- - Found in Irithyll Dungeon.
- 
-# Items
-- Changed VFX for the Writ of Crystallization
-- Lifegem: capped active stacks at 5.
-- Radiant Lifegem: capped active stacks at 5.
-- Old Radiant Lifegem: capped active stacks at 5.
-- Elizabeth Mushroom: capped active stacks at 5.
-- Dried Root: capped active stacks at 5.
-- Brightbug: now lasts 30 seconds, but can be stacked to 3 active stacks.
-- Renamed Tarnished Silver Coin to Cursed Tarnished Coin.
-- Henbane now brings you to exactly 1 HP.
-
-- Tarnished Coin:
- - Crushing the coin boosts soul gain by 5% for 300 seconds. Stacks up to 10 times.
- - Effect duration can be extended.
- 
-- Cursed Tarnished Coin:
- - Crushing the coin boosts soul gain by 10% and reduces absorption by 10% for 300 seconds. Stacks up to 10 times.
- - Effect duration can be extended.
-
-# Bosses
-- Reduced Halflight HP to 2,000.
-- Marauder only requires you to kill the Black Knights once, after that you can simply talk to him to start the fight.
-- Reduced the souls dropped by the Marauder to 100000.
-- Increased stagger resistance for Prince Dorthinus.
-
-# Enemies
-- Reduced the damage and poise of the Pontiff Knights.
-- Jailer vision now reduces absorption by 1% with each stack instead of max HP. Each stack now lasts 30 seconds.
-- Increased the base damage of the Jailers so they hit harder.
-
-# Merchants
-- Solaire now sells Lifegem, Radiant Lifegem, Old Radiant Lifegem and Rouge Water.
-- Remy the Rat can now break down Titanite materials, i.e. 1 Titanite Slab can be bitten into 5 Titanite Chunks, etc.
- 
-# Traps
-- Made the bullet trapped chests fire slower so you have a chance to avoid a hit.
-- Added a sound effect to opening the bullet trapped chests so you know to dodge.
-- Reduced the durability damage of the acid mist trap.
- 
-# Map - High Wall
-- Moved some chests in High Wall.
-- Removed/moved some enemies in High Wall to make it easier to traverse on initial runthrough.
-- The lift down to the lower area of the High Wall is available immediate, but the lower courtyard requires you to beat a Lothric Knight before you can proceed.
-- Added a portcullis in front of Corrupted Gundyr's fogwall. This is to discourage immediate engagement with him. It can be raised by a lever found in the upper area with the 2 chests. Once opened, it remains open.
-
-# Map - Undead Settlement
-- Changed the first Outrider Knight encounter. It is now an ambush when you go for the item near the portcullis in the burning tree area.
- - It is hostile to the peasants.
-- Moved Master Benjin to the Tower Basement bonfire area.
-
-# Map - Dreg Heap
-- Within the Earthen Peak Ruins bonfire is no longer locked behind an intruder kill.
-
-# Map - Ringed City
-- Ringed Inner Wall bonfire is no longer locked behind an intruder kill.
-
-# Memory of Endurance
-- Changed the waves from timer based into kill based (like Memory of Strength), so you face 3 enemies, they die, then 3 more, etc.
-
-# Bugfix
-- Fixed the HP effectiveness adjustment being incorrect for affixed Unholy Remains and Wretched Pendant.
-- Carthus Sandworm now drops his Undead Bone Shard correctly.
-- Added the missing border to the Mass of Humanity menu icon.
-- Fixed the Cannon drop amount from Ashen Hunter Yafuh.
-- Fixed the Gower's Ring of Retribution drop amount from Huntmaster Ava.
-- Fixed some item descriptions.
-- Fixed bad chr id for Gargoyle spell summon in m39 and m45
-- Fixed bad npc param id for Lothric Knight spell summon in m38
+- Tweaked Pyromancer starting stats.
+- Changed Acolyte class, now Dragon Knight class.
+- Gave Hermit a shield.
+- Tweaked Skeptic stats, removed Dead Again and gave Deep Protection.
+- Tweaked Heretic stats to mirror new Skeptic stats.
+- Gave Jester firestorm.
+- Changed Sorcerer starting armor to fix texture issue caused by Chef.
+- Changed Madman's helmet.
+- Added Athlete class.
+- Added Ashen Pyromancer class.
+- Added Forgotten Knight class.
+- Added Reaper class.
+- Added Chef class.
+- Added Crab King class.
 
 #------------------------------
 # TODO
