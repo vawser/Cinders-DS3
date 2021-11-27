@@ -5178,8 +5178,6 @@ Event(20135, Restart, function() {
     SetEventFlag(flag_BossInProgress, OFF);
     SetEventFlag(flag_BossState1, OFF);
     SetEventFlag(flag_BossState2, OFF);
-    SetEventFlag(14000852, OFF);
-    SetEventFlag(14000853, OFF);
     
     //SetPlayerRespawnPoint(entity_SpawnPoint);
     SetMapCeremony(mapID, blockID, ceremonyID);

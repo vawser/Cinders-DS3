@@ -79,6 +79,13 @@ Finish following weapons:
 - Added Chef class.
 - Added Crab King class.
 
+# Bosses
+- Moved the Marauder into the Lonely Hollow area.
+- Changed the Marauder boss start to a normal fogwall start.
+
+# Bugfixes
+- Fixed duplicate localization keys causing some descriptions to be broken.
+
 #------------------------------
 # TODO
 #------------------------------
@@ -93,3 +100,4 @@ c1063 Black Dragon Knight       c6260 (Ringed Knight)       # Black Dragon Knigh
 c1064 Black Dragon Knight       c1410 (Silver Knight)       # Black Dragon Knight - Greatbow/Sword
 c1065 Black Dragon Knight       c1290 (Winged Knight)       # Black Dragon Knight - Greataxe (Halberd)
 
+Move Marauder, change setup to just be normal with initial talk when you enter

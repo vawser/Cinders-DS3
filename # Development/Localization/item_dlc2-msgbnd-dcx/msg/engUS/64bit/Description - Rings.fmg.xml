@@ -3971,12 +3971,6 @@ Disabled if current equipment load is above 70% of max.</text>
 
 Allows you to quickstep easily, overriding regular rolling. Costs 3 additional stamina.
 Disabled if current equipment load is above 70% of max.</text>
-
-<text id="30871">%null%</text>
-<text id="30872">%null%</text>
-<text id="30873">%null%</text>
-<text id="30874">%null%</text>
-<text id="30875">%null%</text>
 <text id="30876">%null%</text>
 <text id="30877">%null%</text>
 <text id="30878">%null%</text>
@@ -4005,11 +3999,6 @@ Replaces Guard action with shield or weapon with Jump.</text>
 
 Allows you to jump simply and extends jump distance by 200%.
 Replaces Guard action with shield or weapon with Jump.</text>
-<text id="30881">%null%</text>
-<text id="30882">%null%</text>
-<text id="30883">%null%</text>
-<text id="30884">%null%</text>
-<text id="30885">%null%</text>
 <text id="30886">%null%</text>
 <text id="30887">%null%</text>
 <text id="30888">%null%</text>
@@ -4066,11 +4055,6 @@ Increases movement speed by 45%.</text>
 Famed for his endless endurance, of which he used to sprint from place to place.
 
 Increases movement speed by 50%.</text>
-<text id="30901">%null%</text>
-<text id="30902">%null%</text>
-<text id="30903">%null%</text>
-<text id="30904">%null%</text>
-<text id="30905">%null%</text>
 <text id="30906">%null%</text>
 <text id="30907">%null%</text>
 <text id="30908">%null%</text>
