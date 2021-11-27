@@ -83,6 +83,9 @@ Finish following weapons:
 - Moved the Marauder into the Lonely Hollow area.
 - Changed the Marauder boss start to a normal fogwall start.
 
+# Enemies
+- Archive Scholar wax now reduces Magic absorption.
+
 # Bugfixes
 - Fixed duplicate localization keys causing some descriptions to be broken.
 - Adjusted some weapon moves so flat damage addition doesn't cause them to rebound.
