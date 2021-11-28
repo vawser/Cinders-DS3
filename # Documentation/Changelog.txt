@@ -92,6 +92,10 @@ Finish following weapons:
 - Boreal Outrider Sentinel/Assassin now always drop Titanite Chunks or a Titanite Slab (80%/20%).
 - Increased the HP and soul drop of the Boreal Outrider Sentinel/Assassin.
 
+# NPC
+- Solaire of Astora now has the Strengthen Covenant functionality.
+- Increased the damage scalar of a few early game intruders so their damage output isn't so low.
+
 # Map
 - Reduced the number of flies in the Ariandel pit room to reduce the chance of hitting enemy limit and causing a CTD.
 - Adjusted enemy count and layout in Lothric Castle to reduce the chance of hitting enemy limit and causing a CTD.
@@ -100,6 +104,9 @@ Finish following weapons:
 # Bugfixes
 - Fixed duplicate localization keys causing some descriptions to be broken.
 - Adjusted some weapon moves so flat damage addition doesn't cause them to rebound.
+- Okami transformation should no longer hide hands.
+- Daughter of Crystal Kriemhild intruder AI should now function
+- Daughter of Crystal Kriemhild should now drop her items only once.
 
 #------------------------------
 # TODO
