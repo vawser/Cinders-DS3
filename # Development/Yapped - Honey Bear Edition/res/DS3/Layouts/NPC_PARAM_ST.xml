@@ -442,7 +442,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Normal Change Texture Chr ID</name>
+    <name>AniBND Chr ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>

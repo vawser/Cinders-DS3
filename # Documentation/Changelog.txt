@@ -85,6 +85,13 @@ Finish following weapons:
 
 # Enemies
 - Archive Scholar wax now reduces Magic absorption.
+- Boreal Outrider Sentinel/Assassin now always drop Titanite Chunks or a Titanite Slab (80%/20%).
+- Increased the HP and soul drop of the Boreal Outrider Sentinel/Assassin.
+
+# Map
+- Reduced the number of flies in the Ariandel pit room to reduce the chance of hitting enemy limit and causing a CTD.
+- Adjusted enemy count and layout in Lothric Castle to reduce the chance of hitting enemy limit and causing a CTD.
+- Adjusted enemy count and layout in Grand Archives to reduce the chance of hitting enemy limit and causing a CTD.
 
 # Bugfixes
 - Fixed duplicate localization keys causing some descriptions to be broken.
