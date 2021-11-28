@@ -55,10 +55,8 @@ Finish following weapons:
 31680000 Stone Greataxe                  - Demon's Great Axe 
 
 # Lost Cat
-- Shield Catalyst - Loch Shield/Disc Chime
-- Covenant Inventory
-- Piercing Rifle
-- Gehrman's Blunderbuss
+- Shield Catalyst - Loch Shield/Disc Chime/Sanctum Shield/Vessel Shield
+- Finish Alternate CGS/Washing Pole/Nil Bow & Blade/Ivory King UGS.
 
 #------------------------------
 # Changelog
@@ -82,6 +80,12 @@ Finish following weapons:
 - Tweaked Pyromancer stats.
 - Tweaked Skeptic spells.
 - Tweaked Sorcerer armor.
+
+# General
+- Added i-frames to Backstep.
+
+# Weapons
+- Added i-frames during certain animation for Silver Knight Straight Sword & Beasthunter Saif.
 
 # Bosses
 - Moved the Marauder into the Lonely Hollow area.
@@ -107,6 +111,7 @@ Finish following weapons:
 - Okami transformation should no longer hide hands.
 - Daughter of Crystal Kriemhild intruder AI should now function
 - Daughter of Crystal Kriemhild should now drop her items only once.
+- Fixed Sanctum Mace & Black Scorpion Stinger's Weapon Art applying aux inflict other than Poison. 
 
 #------------------------------
 # TODO

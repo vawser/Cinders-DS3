@@ -1849,7 +1849,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
 				hand = HAND_LEFT
 		end				
 		local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)		
-        if sp_kind == 752 then
+        if sp_kind == 752 or sp_kind == 754 then
             if r1 == "W_AttackRightLight1" then
                 r1 = "W_AttackRightLight1Alt"
             elseif r1 == "W_AttackRightLightDash" then
@@ -1902,7 +1902,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
             end
         end
 		
-		if sp_kind == 752 then
+		if sp_kind == 752 or sp_kind == 754 then
             if r2 == "W_AttackRightHeavy1Start" then
                 r2 = "W_AttackRightHeavy1StartAlt"
             elseif r2 == "W_AttackRightHeavy1SubStart" then
@@ -1970,7 +1970,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
 				hand = HAND_LEFT
 		end				
 		local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)		
-        if sp_kind == 752 then
+        if sp_kind == 752 or sp_kind == 754 then
             if b1 == "W_AttackBothLight1" then
                 b1 = "W_AttackBothLight1Alt"
             elseif b1 == "W_AttackBothDash" then
@@ -2029,7 +2029,7 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
             end
         end
 		
-		if sp_kind == 752 then
+		if sp_kind == 752 or sp_kind == 754 then
             if b2 == "W_AttackBothHeavy1Start" then
                 b2 = "W_AttackBothHeavy1StartAlt"
             elseif b2 == "W_AttackBothHeavy1SubStart" then
@@ -8680,6 +8680,12 @@ function AttackRightHeavySpecial1SubStart_onUpdate()
         act("特殊補間設定", 0, TRUE) -- Special interpolation setting
         ExecEventAllBody("W_AttackRightHeavySpecial1Start")
         return 
+    elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100711) == TRUE then -- ActionDuration 
+        ExecEventAllBody("W_AttackRightHeavySpecial2End")
+        return
+    elseif env(1116, 100712) == TRUE then
+        ExecEventAllBody("W_AttackRightHeavySpecial2Start")
+        return  
     else
         return 
     end
@@ -9022,6 +9028,9 @@ function AttackBothLeft1_onUpdate()
 	
     if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", "W_AttackBothLeft2", "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
+    elseif env(1116, 100710) == TRUE then
+        ExecEventAllBody("W_AttackBothHeavySpecial1SubStart")
+        return 	 
     else
         return 
     end
@@ -9217,8 +9226,13 @@ function AttackBothHeavySpecial1SubStart_onUpdate()
         act("特殊補間設定", 0, TRUE)
         ExecEventAllBody("W_AttackBothHeavySpecial1Start")
         return 
-    else
-        return 
+    elseif env(1108, ACTION_ARM_L1) <= 0 and env(1116, 100711) == TRUE then -- ActionDuration 
+        ExecEventAllBody("W_AttackBothHeavySpecial2End")
+        return 		
+    elseif env(1116, 100712) == TRUE then
+        ExecEventAllBody("W_AttackBothHeavySpecial2Start")
+        return
+	else
     end
 end
 
@@ -10492,7 +10506,10 @@ function DrawStanceRightAttackLight_onUpdate()
         r2 = "W_DrawStanceRightAttackHeavy"
         b2 = "W_DrawStanceRightAttackHeavy"
         is_artsr2 = TRUE
-    end
+    end			
+	if sp_kind == 747 then
+        act(2001, 1.3)
+    end		
     if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, FALSE, is_artsr1, is_artsr2, GEN_TRANS_LEFT) == TRUE then
         return 
 	elseif env(1116, 100743) == TRUE then
@@ -10795,6 +10812,12 @@ function DrawStanceRightAttackHeavy_onUpdate()
         b2 = nil
         is_artsr1 = TRUE
     end
+	if sp_kind == 146 then
+        act(2001, 1.5)
+    end		
+	if sp_kind == 747 then
+        act(2001, 1.3)
+    end			
     if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, FALSE, is_artsr1, is_artsr2, GEN_TRANS_LEFT) == TRUE then
         return 
     elseif env(1116, 100450) == TRUE then
@@ -11464,6 +11487,15 @@ function SpinAttack_Activate()
 end
 
 function AttackSpinLight_onUpdate()
+    local hand = HAND_RIGHT
+    local style = c_Style
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	if sp_kind == 226 then
+        act(2001, 1.5)
+    end			
     if SwordArtsCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, FALSE, FALSE, GEN_TRANS_LEFT) == TRUE then
         return 
     elseif env("アニメ終了か", 1) == TRUE then
@@ -18324,6 +18356,7 @@ function IsFoolsSigil()
     end
 end
 
+
 ------------------------------------------
 -- Cat's Stuff
 ------------------------------------------
@@ -18370,7 +18403,7 @@ function AttackRightLight3Alt_onUpdate()
        
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
 	
-    if sp_kind == 752 then
+    if sp_kind == 752 or sp_kind == 754 then
         r1 = "W_AttackRightLight4Alt"
     end
 
@@ -18434,6 +18467,10 @@ function AttackRightLightDashAlt_onUpdate()
 	
 	if sp_kind == 752 then
 		r1 = "W_AttackRightLight2Alt"
+	end	
+
+	if sp_kind == 754 then
+		r1 = "W_AttackRightLight3Alt"   
 	end		
 	
     if IsWarcrySpAtk() == TRUE then
@@ -18485,8 +18522,10 @@ function AttackRightHeavy2StartAlt_onUpdate()
     elseif env(1108, ACTION_ARM_R2) <= 0 and env(1116, 100280) == TRUE then -- ActionDuration 
         ExecEventAllBody("W_AttackRightHeavy2EndAlt")
         return		
-    else
-        return 
+    elseif env(1116, 100710) == TRUE then
+        ExecEventAllBody("W_AttackRightHeavySpecial1SubStart")
+        return
+	else
     end
 end
 
@@ -18512,6 +18551,10 @@ function AttackRightLightStepAlt_onUpdate()
     if IsWarcrySpAtk() == TRUE then
         r2 = "W_AttackRightHeavySpecial1SubStart"
     end		
+	
+	if sp_kind == 754 then
+		r1 = "W_AttackRightLight2Alt"
+	end	
     
     if AttackCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy1Start", FALSE, TRUE) == TRUE then
         return 
@@ -18534,7 +18577,11 @@ function AttackBothLight1Alt_onUpdate()
 	
     if IsWarcrySpAtk() == TRUE then
         b2 = "W_AttackBothHeavySpecial2Start"
-    end		
+    end	
+
+	if sp_kind == 754 then 
+		l1 = "W_AttackBothLeft1"
+	end	
 	
     if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
@@ -18558,7 +18605,11 @@ function AttackBothLight2Alt_onUpdate()
 
     if IsWarcrySpAtk() == TRUE then
         b2 = "W_AttackBothHeavySpecial2Start"
-    end			
+    end	
+
+	if sp_kind == 754 then 
+		l1 = "W_AttackBothLeft1"
+	end	
     
     if AttackCommonFunction("W_AttackRightLight3", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
@@ -18580,10 +18631,13 @@ function AttackBothLight3Alt_onUpdate()
 
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
     	
-	if sp_kind == 752 then
+	if sp_kind == 752 or sp_kind == 754 then
 		b1 = "W_AttackBothLight4Alt"
 	end
 	
+	if sp_kind == 754 then 
+		l1 = "W_AttackBothLeft1"
+	end		
     if IsWarcrySpAtk() == TRUE then
         b2 = "W_AttackBothHeavySpecial2Start"
     end			   	
@@ -18612,6 +18666,10 @@ function AttackBothLight4Alt_onUpdate()
         b2 = "W_AttackBothHeavySpecial2Start"
     end	
 	
+	if sp_kind == 754 then
+		b1 = "W_AttackBothLight5Alt"
+		l1 = "W_AttackBothLeft1"		
+	end	
     if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
     else
@@ -18635,6 +18693,10 @@ function AttackBothLight5Alt_onUpdate()
     if IsWarcrySpAtk() == TRUE then
         b2 = "W_AttackBothHeavySpecial2Start"
     end		
+	
+	if sp_kind == 754 then 
+		l1 = "W_AttackBothLeft1"
+	end	
 
     if AttackCommonFunction("W_AttackRightLight2", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
@@ -18737,7 +18799,11 @@ function AttackBothLightStepAlt_onUpdate()
 	
     if IsWarcrySpAtk() == TRUE then
         b2 = "W_AttackBothHeavySpecial1SubStart"
-    end		
+    end	
+
+	if sp_kind == 754 then
+		b1 = "W_AttackBothLight2Alt"
+	end	
 	
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, b2, FALSE, TRUE) == TRUE then
         return 
