@@ -64,20 +64,24 @@ Finish following weapons:
 # Changelog
 #------------------------------
 # Classes
-- Tweaked Pyromancer starting stats.
-- Changed Acolyte class, now Dragon Knight class.
-- Gave Hermit a shield.
-- Tweaked Skeptic stats, removed Dead Again and gave Deep Protection.
-- Tweaked Heretic stats to mirror new Skeptic stats.
-- Gave Jester firestorm.
-- Changed Sorcerer starting armor to fix texture issue caused by Chef.
-- Changed Madman's helmet.
 - Added Athlete class.
 - Added Ashen Pyromancer class.
-- Added Forgotten Knight class.
-- Added Reaper class.
 - Added Chef class.
 - Added Crab King class.
+- Added Forgotten Knight class.
+- Added Reaper class.
+- Tweaked Acolyte class, now Dragon Knight class.
+- Tweaked Cleric spells.
+- Tweaked Herald stats, changed spells.
+- Tweaked Heretic stats to mirror new Skeptic stats.
+- Tweaked Hermit equipment.
+- Tweaked Jester spells.
+- Tweaked Madman armor.
+- Tweaked Paladin stats, changed spells.
+- Tweaked Priest class.
+- Tweaked Pyromancer stats.
+- Tweaked Skeptic spells.
+- Tweaked Sorcerer armor.
 
 # Bosses
 - Moved the Marauder into the Lonely Hollow area.
