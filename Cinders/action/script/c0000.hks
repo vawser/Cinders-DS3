@@ -17586,10 +17586,10 @@ function Update()
     UpdateStackableItem(116050, 116051, 116052, 116053, -1, -1, -1, -1, -1, -1, -1) 
     
     -- Tarnished Coin
-    UpdateStackableItem(116060, 116061, 116062, 116063, 116064, 116065, 116066, 116067, 116068, 116069, 116070) 
+    UpdateStackableItem(116060, 116061, 116062, 116063, -1, -1, -1, -1, -1, -1, -1) 
     
     -- Cursed Tarnished Coin
-    UpdateStackableItem(116080, 116081, 116082, 116083, 116084, 116085, 116086, 116087, 116088, 116089, 116090) 
+    UpdateStackableItem(116080, 116081, 116082, 116083, -1, -1, -1, -1, -1, -1, -1) 
     
     -- Henbane
     UpdateHenbaneEffect()

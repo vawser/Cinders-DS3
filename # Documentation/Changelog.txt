@@ -88,11 +88,14 @@ Finish following weapons:
 - Added i-frames during certain animation for Silver Knight Straight Sword & Beasthunter Saif.
 - Adjusted the stat requirements for the Hex catalysts
 
+# Items
+- Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
+
 # Bosses
 - Moved the Marauder into the Lonely Hollow area.
 - Changed the Marauder boss start to a normal fogwall start.
 - High Lord Wolnir:
- - Removed the skeletons that he spawns in..
+ - Removed the skeletons that he spawns in.
  - Reduced the dormant time on Wolnir's attacks so he is a bit more active in terms of aggression.
  - Adjusted his health, absorptions and bracelets so that you'll need to break the bracelets to kill him most of the time.
 
@@ -119,6 +122,7 @@ Finish following weapons:
 - Fixed Sanctum Mace & Black Scorpion Stinger's Weapon Art applying aux inflict other than Poison. 
 - Fixed an oversight in the Backstep hks, should fix Fool's Sigil not working with backstep R1 attacks.
 - Save and quitting after using the High Lord Wolnir bonfire should no longer place you at the Catacombs of Carthus bonfire when you reload.
+- Save and quitting in Profaned Capital should no longer place you at the Irithyll Dungeon bonfire after you reload.
 
 #------------------------------
 # TODO

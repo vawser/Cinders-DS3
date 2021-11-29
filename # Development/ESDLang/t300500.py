@@ -159,9 +159,6 @@ def t300500_x9():
     while True:
         ClearTalkListData()
        
-        # Offerings
-        AddTalkListData(1, 15003003, -1)
-
         # Purchase Item
         AddTalkListData(4, 15011020, -1)
         
@@ -189,12 +186,8 @@ def t300500_x9():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Offerings
-        if GetTalkListEntryResult() == 1:
-            c1111(21600, 21699)
-            continue
         # Purchase Item
-        elif GetTalkListEntryResult() == 4:
+        if GetTalkListEntryResult() == 4:
             """ State 3,8 """
             OpenRegularShop(310000, 310099)
             assert not (CheckSpecificPersonMenuIsOpen(5, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
