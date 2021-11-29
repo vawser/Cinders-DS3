@@ -8695,6 +8695,15 @@ function AttackRightHeavySpecial1SubStart_onUpdate()
 end
 
 function AttackRightHeavySpecial1Start_onUpdate()
+    local hand = HAND_RIGHT
+    local style = c_Style
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
+	if sp_kind == 177 then
+        act(2001, 1.5)
+    end	
     act("特殊補間設定", 0, FALSE) -- Special interpolation setting
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy2Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLight1", "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
         return 
@@ -9249,14 +9258,15 @@ function AttackBothHeavySpecial1Start_onUpdate()
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
     end
-
     local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
 	
 	if sp_kind == 604 then
 		b1 = "W_AttackBothHeavySpecial1End"
 		l1 = "W_AttackBothHeavySpecial2End"
 	end
-	
+	if sp_kind == 177 then
+        act(2001, 1.5)
+    end		
     act("特殊補間設定", 0, FALSE)
     if AttackCommonFunction("W_AttackRightLight1", "W_AttackRightHeavy1Start", l1, "W_AttackLeftHeavy1", b1, "W_AttackBothHeavy2Start", FALSE, TRUE) == TRUE then
         return 
@@ -11521,6 +11531,11 @@ function AttackSpinHeavy_onUpdate()
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
     end
+	local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)	
+    if sp_kind == 733 then
+        r1 = "W_AttackRightLight3"	
+        b1 = "W_AttackBothLight3"
+    end		
     local kind = env(225, hand)
     if kind == WEAPON_CATEGORY_CURVEDSWORD then
         local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
@@ -11541,7 +11556,7 @@ function AttackSpinHeavy_onUpdate()
     if env(1116, 100595) == TRUE then
         r2 = "W_AttackSpinLoop"
         b2 = "W_AttackSpinLoop"
-    end			
+    end		
     if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, FALSE, is_artsr1, FALSE, GEN_TRANS_LEFT) == TRUE then
         return 
     elseif env(1116, 100240) == TRUE and 0 < env(1108, ACTION_ARM_R2) and 0 < env(1001) then
@@ -11567,7 +11582,7 @@ function AttackSpinHeavyL_onUpdate()
     local style = c_Style
     if style == HAND_LEFT_BOTH then
         hand = HAND_LEFT
-    end
+    end	
     local kind = env(225, hand)
     if kind == WEAPON_CATEGORY_CURVEDSWORD then
         local sp_kind = env("装備武器特殊カテゴリ番号取得", hand)
@@ -11584,7 +11599,7 @@ function AttackSpinHeavyL_onUpdate()
         r1 = "W_AttackSpinLight"
         b1 = "W_AttackSpinLight"
         is_artsr1 = TRUE
-    end
+    end	
     if SwordArtsCommonFunction(r1, r2, "W_AttackLeftLight1", "W_AttackLeftHeavy1", b1, b2, FALSE, is_artsr1, FALSE, GEN_TRANS_LEFT) == TRUE then
         return 
     elseif env(1116, 100240) == TRUE and 0 < env(1108, ACTION_ARM_R2) and 0 < env(1001) then
@@ -17586,7 +17601,7 @@ function Update()
     UpdateStackableItem(116050, 116051, 116052, 116053, -1, -1, -1, -1, -1, -1, -1) 
     
     -- Tarnished Coin
-    UpdateStackableItem(116060, 116061, 116062, 116063, -1, -1, -1, -1, -1, -1, -1) 
+    UpdateStackableItem(116060, 116061, 116062, 116063, -1, -1, -1, -1, -1, -1, -1)  
     
     -- Cursed Tarnished Coin
     UpdateStackableItem(116080, 116081, 116082, 116083, -1, -1, -1, -1, -1, -1, -1) 
