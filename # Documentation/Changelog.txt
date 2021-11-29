@@ -86,6 +86,7 @@ Finish following weapons:
 
 # Weapons
 - Added i-frames during certain animation for Silver Knight Straight Sword & Beasthunter Saif.
+- Adjusted the stat requirements for the Hex catalysts
 
 # Bosses
 - Moved the Marauder into the Lonely Hollow area.
@@ -112,6 +113,7 @@ Finish following weapons:
 - Daughter of Crystal Kriemhild intruder AI should now function
 - Daughter of Crystal Kriemhild should now drop her items only once.
 - Fixed Sanctum Mace & Black Scorpion Stinger's Weapon Art applying aux inflict other than Poison. 
+- Fixed an oversight in the Backstep hks, should fix Fool's Sigil not working with backstep R1 attacks.
 
 #------------------------------
 # TODO
