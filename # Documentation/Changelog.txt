@@ -136,6 +136,7 @@ Finish following weapons:
 - Save and quitting in Profaned Capital should no longer place you at the Irithyll Dungeon bonfire after you reload.
 - Fixed Loch Shield's model.
 - Supreme Black Flame Arc no longer reduces max FP.
+- Fixed Hybrid Catalyst +10 reinforcement requiring 3 Titanite Slabs.
 
 #------------------------------
 # TODO
