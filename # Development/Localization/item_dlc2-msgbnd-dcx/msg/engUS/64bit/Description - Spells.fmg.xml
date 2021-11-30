@@ -1857,6 +1857,15 @@ The sacrifice of oneself is noble. Such nobility is rewarded by swift vengeance 
 Sacrifice self, reducing max HP by 99%. 
 Empower active conjured allies massively, boosting damage by 100% and granting immunity to damage.
 Lasts 30 seconds.</text>
+<text id="2755000">An eclectic pyromancy created by an elusive conjurator.
+To brand an enemy is to condemn them to death.
+
+Mark an enemy, drawing the ire of all conjured allies.
+Lasts 10 seconds.</text>
+<text id="2756000">An eclectic pyromancy created by an elusive conjurator.
+Begone, foul creations!
+
+Banish all active conjured allies.</text>
 
 <text id="3490000">Miracle imparted as charity to those of little faith.
 A show of tolerance from the Way of White.

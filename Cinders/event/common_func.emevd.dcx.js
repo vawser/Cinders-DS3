@@ -1693,7 +1693,7 @@ Event(20005341, Restart, function(X0_4, X4_4, X8_4) {
     IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
     SetEventFlag(X0_4, ON);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    AwardItemsIncludingClients(X8_4);
+    AwardItemLot(X8_4);
     
     EndUnconditionally(EventEndType.End);
 });
@@ -1748,7 +1748,7 @@ Event(20005350, Default, function(X0_4, X4_4, X8_4) {
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
     EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
     IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
-    AwardItemsIncludingClients(X4_4);
+    AwardItemLot(X4_4);
     EndUnconditionally(EventEndType.End);
 });
 
@@ -1760,7 +1760,7 @@ Event(20005351, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
     IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
     WaitFixedTimeSeconds(X12_4);
-    AwardItemsIncludingClients(X4_4);
+    AwardItemLot(X4_4);
     EndUnconditionally(EventEndType.End);
 });
 
@@ -5596,7 +5596,7 @@ Event(20008100, Default, function(X0_4, X4_4, X8_4) {
     IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
     SetEventFlag(X0_4, ON);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    AwardItemsIncludingClients(X8_4);
+    AwardItemLot(X8_4);
     EndUnconditionally(EventEndType.End);
 });
 
@@ -5622,7 +5622,7 @@ Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
     IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
     SetEventFlag(X0_4, ON);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    AwardItemsIncludingClients(X8_4);
+    AwardItemLot(X8_4);
     EndUnconditionally(EventEndType.End);
 });
 
@@ -5648,7 +5648,7 @@ Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
     IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
     SetEventFlag(X0_4, ON);
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    AwardItemsIncludingClients(X8_4);
+    AwardItemLot(X8_4);
     EndUnconditionally(EventEndType.End);
 });
 
@@ -5657,10 +5657,12 @@ Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
 //----------------------------------------------
 Event(20008150, Default, function(X0_4, X4_4) {
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
+    
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
     ForceCharacterDeath(X4_4, false);
     EndUnconditionally(EventEndType.End);
+    
     Label0();
     IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
     SetEventFlag(X0_4, ON);
@@ -7065,12 +7067,6 @@ Event(20080000, Restart, function(X0_4) {
 Event(20080001, Restart, function(X0_4) {
     // Reset activity timers if the player rests at a bonfire
     ClearSpeffect(X0_4, 160761600);
-    ClearSpeffect(X0_4, 160761601);
-    ClearSpeffect(X0_4, 160761602);
-    ClearSpeffect(X0_4, 160761603);
-    ClearSpeffect(X0_4, 160761604);
-    ClearSpeffect(X0_4, 160761605);
-    ClearSpeffect(X0_4, 160761606);
 });
 
 //----------------------------------------------
@@ -7192,6 +7188,12 @@ Event(20080002, Restart, function(X0_4) {
     SetSpeffect(X0_4, 160762140);
     SetSpeffect(10000, 160762141);
     SetSpeffect(10000, 113005); // FP Pause
+    
+    // Banishing Ritual
+    IfCharacterHasSpeffect(AND_06, 10000, 160762050, true, ComparisonType.Equal, 1);
+    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_06);
+    ClearSpeffect(X0_4, 160761600);
+    SetSpeffect(10000, 113003); // FP Pause
     
     Label0();
     

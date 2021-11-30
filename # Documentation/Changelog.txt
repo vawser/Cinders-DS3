@@ -110,6 +110,17 @@ Finish following weapons:
   - Pulsating Mud. Sold by Cornyx after giving him the Great Swamp Pyromancy Tome.
   - Black Star. Transposed from the Soul of Darkeater Midir.
 
+- Conjuration:
+ - Added Mark of Attraction:
+  - Brands an enemy, making them take on a red form.
+  - Attracts conjured allies to them.
+  - Lasts 10 seconds.
+  - Sold by Conjurator Ellie.
+ 
+ - Added Banishing Ritual
+  - Banishes all conjured allies early.
+  - Sold by Conjurator Ellie.
+
 # Items
 - Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
 
@@ -165,3 +176,5 @@ c1063 Black Dragon Knight       c6260 (Ringed Knight)       # Black Dragon Knigh
 c1064 Black Dragon Knight       c1410 (Silver Knight)       # Black Dragon Knight - Greatbow/Sword
 c1065 Black Dragon Knight       c1290 (Winged Knight)       # Black Dragon Knight - Greataxe (Halberd)
 
+261 Mark of Attraction
+268 Banishing Ritual
