@@ -1110,6 +1110,16 @@ The scholar attempts to bring forth soulmasses from within, but suffered a peril
 Emit explosion of soulmasses.
 
 Clearly, even ambition cannot drag the unworthy out of the settlement.</text>
+<text id="1811000">Unique sorcery developed by extraordinary preacher twins known as the Crystal Sages.
+
+Cast a crystal orb that pursues the target enemy.
+
+In a pact said to have been formed long ago, one of the Sages allied with the Undead Legion in order to train the sorcerers of Farron.</text>
+<text id="1811010">Unique sorcery developed by extraordinary preacher twins known as the Crystal Sages.
+
+Cast an explosive crystal orb that pursues the target enemy.
+
+In a pact said to have been formed long ago, one of the Sages allied with the Undead Legion in order to train the sorcerers of Farron.</text>
 
 <text id="2400000">Elementary pyromancy that is often the first learned.
 Hurls a fireball.
@@ -1673,6 +1683,53 @@ Create magnetic field around target enemy and pull them closer to the caster wit
 Only works against weak enemies.
 
 The earth itself responds to the flame, as to why, it is unknown.</text>
+<text id="2724000">Remnant power of Darkeater Midir after being consumed by the dark.
+
+Create a star that emits a beam of black fire.
+
+Even after the gods were no more, Midir continued his endless fight against the abyss.</text>
+<text id="2724010">Remnant power of Darkeater Midir after being consumed by the dark.
+
+Create a star that emits a beam of black fire.
+
+Even after the gods were no more, Midir continued his endless fight against the abyss.</text>
+<text id="2725000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Insert water deep underground where remains inactive until enemy proximity, causing an explosion of rock and water.
+Lasts 15 seconds.
+
+Nature itself responds to the flame, as to why, it is unknown.</text>
+<text id="2725010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Insert water deep underground where remains inactive until enemy proximity, causing an explosion of rock and water.
+Lasts 15 seconds.
+
+Nature itself responds to the flame, as to why, it is unknown.</text>
+<text id="2726000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Summon momentary sprinkle of rain to coat the ground with water, causing weak enemies to randomly slide off and fall.
+Lasts 10 seconds.
+
+Nature itself responds to the flame, as to why, it is unknown.</text>
+<text id="2726010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Summon momentary sprinkle of rain to coat the ground with water, causing weak enemies to randomly slide off and fall.
+Lasts 20 seconds.
+
+Nature itself responds to the flame, as to why, it is unknown.</text>
+<text id="2727000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Create pool of pulsating mud that quickly grows in intensity.
+Inflicts 10 Poison per hit.
+
+Nature itself responds to the flame, as to why, it is unknown.</text>
+<text id="2727010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
+
+Create pool of pulsating mud that quickly grows in intensity.
+Inflicts 10 Poison per hit.
+Grants 2 Bloodthirst charges per hit.
+
+Nature itself responds to the flame, as to why, it is unknown.</text>
 <text id="2730000">An eclectic pyromancy created by an elusive conjurator.
 Draws upon the inner flame to conjure life from collected remains.
 

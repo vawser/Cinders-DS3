@@ -14,6 +14,9 @@ Explosive Soul Spear 110801
 Crystal Soul Spear 110900
 Homing Crystal Soul Spear 110901
 
+Crystal Orb 110950
+Explosive Crystal Orb 110951
+
 White Dragon Breath 111000
 Extended White Dragon Breath 111001
 
@@ -190,11 +193,17 @@ Great Cataclysm 121701
 Throw Dust 121750
 Bloodthirsty Dust 121751
 
+Pulsating Mud 121775
+Bloodthirsty Pulsating Mud 121776
+
 Boulder Heave 121800
 Swift Boulder Heave 121801
 
 Fecal Expulsion 121900
 Great Fecal Expulsion 121901
+
+Geyser 121950
+Great Geyser 121951
 
 Heave Earth 122000
 Homing Heave Earth 122001
@@ -246,6 +255,9 @@ Lingering Rockflesh 123501
 
 Magnetism 123600
 Refined Magnetism 123601
+
+Drizzle 123700
+Lingering Drizzle 123701
 
 
 # Miracles (EquipParamGoods Sort ID 130100 - 134201)
@@ -444,6 +456,9 @@ Forceful Dark Dance 142201
 
 Recollection 142300
 Scorching Recollection 142301
+
+Black Star 142350
+Adjacent Black Star 142351
 
 Nibble 142400
 Refined Nibble 142401
