@@ -98,6 +98,7 @@ Finish following weapons:
 
 # Spells
 - Pungent Blade is now a Pyromancy.
+- Removed the sound/VFX that occurs under a spell summon.
 
 # Items
 - Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
@@ -137,6 +138,7 @@ Finish following weapons:
 - Fixed Loch Shield's model.
 - Supreme Black Flame Arc no longer reduces max FP.
 - Fixed Hybrid Catalyst +10 reinforcement requiring 3 Titanite Slabs.
+- Removed the sound effect that occurs when Benjin is disabled in Undead Settlement.
 
 #------------------------------
 # TODO

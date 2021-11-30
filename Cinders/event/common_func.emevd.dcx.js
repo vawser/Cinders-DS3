@@ -6626,8 +6626,6 @@ Event(20081220, Restart, function(X0_4, X4_4, X8_4) {
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     
-    SpawnOneshotSFX(TargetEntityType.Character, X4_4, 100, 105);
-    
     SetCharacterAIState(X4_4, Disabled);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
@@ -7052,7 +7050,7 @@ Event(20080000, Restart, function(X0_4) {
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
     
-    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 524023); // Spawn FFX
+    //SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 524023); // Spawn FFX
     
     // Wait until timer is reapplied
     IfCharacterHasSpeffect(AND_02, X0_4, 160761600, true, ComparisonType.Equal, 1);
@@ -7076,9 +7074,22 @@ Event(20080001, Restart, function(X0_4) {
 });
 
 //----------------------------------------------
+// Spell Summon - Suppress desummon VFX/Sound after bonfire rest
+//----------------------------------------------
+Event(20080005, Restart, function(X0_4) {
+    
+});
+
+//----------------------------------------------
+// Spell Summon - 
+//----------------------------------------------
+Event(20080006, Restart, function(X0_4) {
+    
+});
+
+//----------------------------------------------
 // Spell Summon - Summoning
 // <entity id>, <trigger speffect>, <level scaling speffect>, <map id>, <block id>
-// This handles the spell summon summoning, duration and scheduled desummoning
 //----------------------------------------------
 Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
@@ -7140,8 +7151,8 @@ Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
     
     WaitFixedTimeSeconds(0.1);
     
-    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 524023); // Spawn FFX
-    PlaySE(10000, SoundType.v_Voice, 444444442); // Thud Shwing
+    //SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 524023); // Spawn FFX
+    //PlaySE(10000, SoundType.v_Voice, 444444442); // Thud Shwing
     
     Label1();
     EndUnconditionally(EventEndType.Restart);
