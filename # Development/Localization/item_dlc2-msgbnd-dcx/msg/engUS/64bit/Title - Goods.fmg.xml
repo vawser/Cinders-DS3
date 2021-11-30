@@ -1322,6 +1322,8 @@
 <text id="1809010">Refined Teleport</text>
 <text id="1810000">Soul Eruption</text>
 <text id="1810010">Soul Explosion</text>
+<text id="1811000">Crystal Orb</text>
+<text id="1811010">Crystal Orb</text>
 <text id="2400000">Fireball</text>
 <text id="2400010">Incendiary Fireball</text>
 <text id="2402000">Fire Orb</text>
@@ -1392,6 +1394,14 @@
 <text id="2722010">Bloodthirsty Dust</text>
 <text id="2723000">Magnetism</text>
 <text id="2723010">Refined Magnetism</text>
+<text id="2724000">Black Star</text>
+<text id="2724010">Adjacent Black Star</text>
+<text id="2725000">Geyser</text>
+<text id="2725010">Great Geyser</text>
+<text id="2726000">Drizzle</text>
+<text id="2726010">Lingering Drizzle</text>
+<text id="2727000">Pulsating Mud</text>
+<text id="2727010">Bloodthirsty Pulsating Mud</text>
 <text id="2730000">Conjure Skeleton</text>
 <text id="2731000">Conjure Hollow</text>
 <text id="2732000">Conjure Hound</text>

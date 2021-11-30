@@ -564,6 +564,8 @@
 <text id="1809010">Teleport in the direction of travel</text>
 <text id="1810000">Emit eruption of soulmasses</text>
 <text id="1810010">Emit explosion of soulmasses</text>
+<text id="1811000">Cast a crystal orb that pursues the target enemy</text>
+<text id="1811010">Cast an explosive crystal orb that pursues the target enemy</text>
 <text id="2400000">Hurl fireball</text>
 <text id="2400010">Hurl incendiary fireball</text>
 <text id="2402000">Hurl giant fire orb</text>
@@ -638,6 +640,14 @@
 <text id="2721010">Create particles of dust in hand and throw at enemy</text>
 <text id="2723000">Create magnetic field around target enemy and pull them closer to the caster</text>
 <text id="2723010">Create magnetic field around target enemy and pull them closer to the caster with no focus cost</text>
+<text id="2724000">Create a star that emits a beam of black fire</text>
+<text id="2724010">Create a star that emits a beam of black fire</text>
+<text id="2725000">Insert water deep underground where remains inactive until enemy proximity, causing an explosion of rock and water</text>
+<text id="2725010">Insert water deep underground where remains inactive until enemy proximity, causing an explosion of rock and water</text>
+<text id="2726000">Summon momentary sprinkle of rain to coat the ground with water, causing weak enemies to randomly slide off and fall</text>
+<text id="2726010">Summon momentary sprinkle of rain to coat the ground with water, causing weak enemies to randomly slide off and fall</text>
+<text id="2727000">Create pool of pulsating mud that quickly grows in intensity</text>
+<text id="2727010">Create pool of pulsating mud that quickly grows in intensity</text>
 <text id="2730000">Conjure friendly skeleton to assist in battle</text>
 <text id="2731000">Conjure friendly hollow to assist in battle</text>
 <text id="2732000">Conjure friendly hound to assist in battle</text>

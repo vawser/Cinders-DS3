@@ -100,6 +100,16 @@ Finish following weapons:
 - Pungent Blade is now a Pyromancy.
 - Removed the sound/VFX that occurs under a spell summon.
 
+- Added new spells:
+ - Sorceries:
+  - Crystal Orb. Dropped by the Crystal Sage in the Grand Archives.
+ 
+ - Pyromancies:
+  - Geyser. Sold by Cornyx after giving him the Carthus Pyromancy Tome.
+  - Drizzle. Found in Archdragon Peak.
+  - Pulsating Mud. Sold by Cornyx after giving him the Great Swamp Pyromancy Tome.
+  - Black Star. Transposed from the Soul of Darkeater Midir.
+
 # Items
 - Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
 

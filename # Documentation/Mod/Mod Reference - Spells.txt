@@ -355,6 +355,17 @@
 #---- Quickened Discs of Dorthinus
 - Changes cast animation to Force.
 
+#--------------------------------
+# Crystal Orb
+#--------------------------------
+- FP Cost: 100
+- INT Req: 30
+- Slot Use: 2
+- Magic Damage: 250 {750}
+
+#---- Explosive Crystal Orb
+- Adds an area of effect explosion on impact.
+
 #--------------------------------------------------------------------------
 # Sorceries - Effects
 #--------------------------------------------------------------------------
@@ -812,6 +823,28 @@
 - Gives 5 bloodthirst charges on hit.
 
 #--------------------------------
+# Geyser
+#--------------------------------
+- FP Cost: 75
+- Slot Use: 1
+- Physical Damage: 200 {600}
+- Base Effect: acts as a mine.
+
+#---- Great Geyser
+- Increases the radius of the blast.
+
+#--------------------------------
+# Pulsating Mud
+#--------------------------------
+- FP Cost: 50
+- Slot Use: 1
+- Physical Damage: 50 {150} [50 {150}] [100 {300}]
+- Base Effect: inflicts 10 Poison per hit.
+
+#---- Bloodthirsty Pulsating Mud
+- Gives 2 bloodthirst charges per hit.
+
+#--------------------------------
 # Conjure Skeleton
 #--------------------------------
 - FP Cost: 50
@@ -1014,6 +1047,16 @@
 
 #---- Refined Magnetism
 - Reduces FP cost to 0.
+
+#--------------------------------
+# Drizzle
+#--------------------------------
+- FP Cost: 150
+- Slot Use: 1
+- Base Effect: Makes enemies randomly fall for 10 seconds.
+
+#---- Lingering Drizzle
+- Increases duration to 20 seconds.
 
 #--------------------------------------------------------------------------
 # Miracles - Offensive
@@ -1820,6 +1863,18 @@
 
 #---- Scorching Mournful Flames
 - Adds 3 lingering black fire patches that deals 50 {150} Dark damage per tick.
+
+#--------------------------------
+# Black Star  
+#--------------------------------
+- FP Cost: 120
+- INT Req: 30
+- FTH Req: 30
+- Slot Use: 2
+- Dark Damage: 40 {120} per tick for the beam, 275 {825} for the explosion
+
+#---- Adjacent Black Star
+- Changes the angle to shoot straight down.
 
 #--------------------------------
 # Nibble
