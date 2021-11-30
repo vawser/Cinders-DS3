@@ -96,6 +96,9 @@ Finish following weapons:
 - Increased damage & decreased stamina costs for Lance's running R1 attack.
 - Lance's fully charged R2 is now consists of six attacks/uncharged R2 is now consists of four attacks.
 
+# Spells
+- Pungent Blade is now a Pyromancy.
+
 # Items
 - Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
 
@@ -132,6 +135,7 @@ Finish following weapons:
 - Save and quitting after using the High Lord Wolnir bonfire should no longer place you at the Catacombs of Carthus bonfire when you reload.
 - Save and quitting in Profaned Capital should no longer place you at the Irithyll Dungeon bonfire after you reload.
 - Fixed Loch Shield's model.
+- Supreme Black Flame Arc no longer reduces max FP.
 
 #------------------------------
 # TODO
