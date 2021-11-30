@@ -340,6 +340,9 @@ def t390500_x20():
         # Bottomless Deep Protection
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4305000, 4, 1, 0) == 1, 41, 99050040, -1)
         
+        # Adjacent Black Star
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2724000, 4, 1, 0) == 1, 42, 99050041, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -509,6 +512,10 @@ def t390500_x20():
         # Bottomless Deep Protection
         elif GetTalkListEntryResult() == 41:
             assert t390500_x50(83400, 1080, 19, -20, 99051040, 99052040, 99040032)
+            continue
+        # Adjacent Black Star
+        elif GetTalkListEntryResult() == 42:
+            assert t390500_x50(83410, 1080, 19, -20, 99051041, 99052041, 99040032)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

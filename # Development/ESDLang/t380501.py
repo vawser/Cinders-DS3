@@ -331,6 +331,15 @@ def t380501_x20():
         # Refined Magnetism
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2723000, 4, 1, 0) == 1, 38, 99044037, -1)
         
+        # Great Geyser
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2725000, 4, 1, 0) == 1, 39, 99044038, -1)
+        
+        # Lingering Drizzle
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2726000, 4, 1, 0) == 1, 40, 99044039, -1)
+        
+        # Pulsating Mud
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2727000, 4, 1, 0) == 1, 41, 99044040, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -488,6 +497,18 @@ def t380501_x20():
         # Refined Magnetism
         elif GetTalkListEntryResult() == 38:
             assert t380501_x50(81370, 1060, 9, -10, 99045037, 99046037, 99040040)
+            continue
+        # Great Geyser
+        elif GetTalkListEntryResult() == 39:
+            assert t380501_x50(81380, 1060, 14, -15, 99045038, 99046038, 99040041)
+            continue
+        # Lingering Drizzle
+        elif GetTalkListEntryResult() == 40:
+            assert t380501_x50(81390, 1060, 9, -10, 99045039, 99046039, 99040040)
+            continue
+        # Bloodthirsty Pulsating Mud
+        elif GetTalkListEntryResult() == 41:
+            assert t380501_x50(81400, 1060, 9, -10, 99045040, 99046040, 99040040)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

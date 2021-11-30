@@ -3892,6 +3892,7 @@ to commune with the fallen knight.</text>
 <text id="99041044">Quickened Discs of Dorthinus</text>
 <text id="99041045">Refined Teleport</text>
 <text id="99041046">Soul Explosion</text>
+<text id="99041047">Explosive Crystal Orb</text>
 <text id="99042000">Ascend from Farron Dart?</text>
 <text id="99042001">Ascend from Soul Wave?</text>
 <text id="99042002">Ascend from Soul Arrow?</text>
@@ -3936,6 +3937,7 @@ to commune with the fallen knight.</text>
 <text id="99042044">Ascend from Discs of Dorthinus?</text>
 <text id="99042045">Ascend from Teleport?</text>
 <text id="99042046">Ascend from Soul Eruption?</text>
+<text id="99042047">Ascend from Crystal Orb?</text>
 <text id="99043000">Bloodthirsty Farron Dart crafted</text>
 <text id="99043001">Swift Soul Wave crafted</text>
 <text id="99043002">Explosive Soul Arrow crafted</text>
@@ -3980,6 +3982,7 @@ to commune with the fallen knight.</text>
 <text id="99043044">Quickened Discs of Dorthinus crafted</text>
 <text id="99043045">Refined Teleport crafted</text>
 <text id="99043046">Soul Explosion crafted</text>
+<text id="99043047">Crystal Orb crafted</text>
 <text id="99044000">Incendiary Fireball</text>
 <text id="99044001">Weakening Fire Orb</text>
 <text id="99044002">Homing Chaos Fire Orb</text>
@@ -4017,7 +4020,10 @@ to commune with the fallen knight.</text>
 <text id="99044034">Lingering Iron Flesh</text>
 <text id="99044035">Lingering Rockflesh</text>
 <text id="99044036">Bloodthirsty Dust</text>
-<text id="99044037">Refined Magnetisms</text>
+<text id="99044037">Refined Magnetism</text>
+<text id="99044038">Great Geyser</text>
+<text id="99044039">Bloodthirsty Pulsating Mud</text>
+<text id="99044040">Refined Magnetisms</text>
 <text id="99045000">Ascend from Fireball?</text>
 <text id="99045001">Ascend from Fire Orb?</text>
 <text id="99045002">Ascend from Chaos Fire Orb?</text>
@@ -4056,6 +4062,9 @@ to commune with the fallen knight.</text>
 <text id="99045035">Ascend from Rockflesh?</text>
 <text id="99045036">Ascend from Throw Dust?</text>
 <text id="99045037">Ascend from Magnetism?</text>
+<text id="99045038">Ascend from Great Geyser?</text>
+<text id="99045039">Ascend from Lingering Drizzle?</text>
+<text id="99045040">Ascend from Bloodthirsty Pulsating Mud?</text>
 <text id="99046000">Incendiary Fireball crafted</text>
 <text id="99046001">Weakening Fire Orb crafted</text>
 <text id="99046002">Homing Chaos Fire Orb crafted</text>
@@ -4094,6 +4103,9 @@ to commune with the fallen knight.</text>
 <text id="99046035">Lingering Rockflesh crafted</text>
 <text id="99046036">Bloodthirsty Dust crafted</text>
 <text id="99046037">Refined Magnetism crafted</text>
+<text id="99046038">Great Geyser crafted</text>
+<text id="99046039">Lingering Drizzle crafted</text>
+<text id="99046040">Bloodthirsty Pulsating Mud crafted</text>
 <text id="99047000">Bloodthirsty Lightning Arrow</text>
 <text id="99047001">Lightning Surge</text>
 <text id="99047002">Storm Spear</text>
@@ -4261,6 +4273,7 @@ to commune with the fallen knight.</text>
 <text id="99050038">Lingering Numbness</text>
 <text id="99050039">Lingering Atonement</text>
 <text id="99050040">Bottomless Deep Protection</text>
+<text id="99050041">Adjacent Black Star</text>
 <text id="99051000">Ascend from Deep Barb?</text>
 <text id="99051001">Ascend from Deep Soul?</text>
 <text id="99051002">Ascend from Great Deep Soul?</text>
@@ -4302,6 +4315,7 @@ to commune with the fallen knight.</text>
 <text id="99051038">Ascend from Lingering Numbness?</text>
 <text id="99051039">Ascend from Lingering Atonement?</text>
 <text id="99051040">Ascend from Bottomless Deep Protection?</text>
+<text id="99051041">Ascend from Black Star?</text>
 <text id="99052000">Bloodthirsty Deep Barb crafted</text>
 <text id="99052001">Deep Overflow crafted</text>
 <text id="99052002">Weakening Deep Soul crafted</text>
@@ -4343,6 +4357,7 @@ to commune with the fallen knight.</text>
 <text id="99052038">Lingering Numbness crafted</text>
 <text id="99052039">Lingering Atonement crafted</text>
 <text id="99052040">Bottomless Deep Protection crafted</text>
+<text id="99052041">Adjacent Black Star crafted</text>
 <text id="99060000">Configure Journey</text>
 <text id="99060001">Summary</text>
 <text id="99060002">Enable</text>
