@@ -139,6 +139,7 @@ Finish following weapons:
 - Supreme Black Flame Arc no longer reduces max FP.
 - Fixed Hybrid Catalyst +10 reinforcement requiring 3 Titanite Slabs.
 - Removed the sound effect that occurs when Benjin is disabled in Undead Settlement.
+- Fixed Teleport not working correctly when not at 99 casting speed. It will now teleport you properly inrespective of casting speed.
 
 #------------------------------
 # TODO
