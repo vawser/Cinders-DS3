@@ -1078,6 +1078,7 @@
 800110 Orange Force Circle
 800200 Orange Force Circle
 800210 Orange Force Circle
+1000000 Rougue - Crimson Water
 90013100 Spell - Magic Weapon - Magic Enchantment
 90013110 Spell - Great Magic Weapon - Magic Enchantment
 90013120 Spell - Crystal Magic Weapon - Magic Enchantment
@@ -1276,5 +1277,6 @@
 99950013 Phantom: Black Spirit
 99950014 Phantom: Illusion
 99950020 Perfect Block
+99950030 Marked Enemy
 99951000 Mimic - Crown of Illusions Invisibility
 99953000 Mass of Humanity

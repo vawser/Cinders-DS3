@@ -1175,6 +1175,12 @@
 102607580 Ivory King UGS - 2H Roll
 102607700 Ivory King UGS - WA First Hit
 102607705 Ivory King UGS - WA Second Hit
+102607710 Ivory King UGS - WA - Initial
+102607720 Ivory King UGS - WA - Heavy
+102607800 Ivory King UGS - Frost Beam - Thrust
+102607851 Ivory King UGS - Conjure Ice
+102607852 Ivory King UGS - Conjure Ice
+102607860 Ivory King UGS - Frost Beam
 102610000 Fume Ultra Greatsword
 102610001 Fume Ultra Greatsword
 102610005 Fume Slated Sword - 2H Light #1
@@ -5140,7 +5146,9 @@
 105100404 Carthus Curved Greatsword
 105100406 Carthus Curved Greatsword
 105100410 Carthus Curved Greatsword - 1H Kick
+105100415 Curved Greatsword (Alt) - 1H Kick
 105100420 Carthus Curved Greatsword - 2H Kick
+105100425 Curved Greatsword (Alt) - 2H Kick
 105100430 Carthus Curved Greatsword - 1H Guard
 105100440 Carthus Curved Greatsword - 2H Guard
 105100450 Carthus Curved Greatsword - Parry
@@ -5156,15 +5164,32 @@
 105100516 Carthus Curved Greatsword - Riposte (Hornet Ring)
 105100517 Carthus Curved Greatsword - Riposte (Hornet Ring)
 105100520 Carthus Curved Greatsword - 1H Backstep
+105100522 Curved Greatsword (Alt) - 1H Running - First Hit
+105100525 Curved Greatsword (Alt) - 1H Running - Second Hit
 105100530 Carthus Curved Greatsword - 2H Backstep
+105100532 Curved Greatsword (Alt) - 2H Running - First Hit
+105100535 Curved Greatsword (Alt) - 2H Running - Second Hit
 105100540 Carthus Curved Greatsword - 1H Roll
 105100580 Carthus Curved Greatsword - 2H Roll
 105100600 Carthus Curved Greatsword - Parry
 105100610 Carthus Curved Greatsword - Backstab Transition
 105100615 Carthus Curved Greatsword - Missed Backstab Transition
 105100700 Carthus Curved Greatsword - Spin
+105100701 Curved Greatsword (Alt)
 105100710 Carthus Curved Greatsword - Spin
 105100720 Carthus Curved Greatsword - Spin
+105100735 Washing Pole - Warcry Attack Wave
+105100740 Pontiff Knight Greatsword - Frost Blade
+105100743 Pontiff Knight Greatsword - Frost Blade
+105100745 Pontiff Knight Greatsword - Frost Blade
+105100750 Washing Pole - Warcry
+105100800 Washing Pole - Warcry 1H Heavy #1 - First Hit
+105100810 Washing Pole - Warcry 1H Heavy #1 - Second Hit
+105100820 Washing Pole - Warcry 1H Heavy #2
+105100900 Washing Pole - Warcry 2H Heavy #1
+105100905 Washing Pole - Warcry 2H Heavy #1 Max
+105100910 Washing Pole - Warcry 2H Heavy #2
+105100915 Washing Pole - Warcry 2H Heavy #2 Max
 105100990 Carthus Curved Greatsword - Quickstep
 105100995 Carthus Curved Greatsword - BB Dash
 105110700 Murakumo
@@ -5245,6 +5270,8 @@
 105301710 Painting Guardian's Curved Sword
 105301720 Painting Guardian's Curved Sword
 105301730 Painting Guardian's Curved Sword
+105301800 Nil Bow & Blade - Arrow
+105301810 Nil Bow & Blade - Arrow - Strong
 105302000 Shotel
 105302010 Shotel
 105302020 Shotel

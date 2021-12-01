@@ -1248,8 +1248,14 @@
 768000 [Boss] The Forlorn Giant
 770000 [Boss] Fallen Protector
 770100 [Boss] Fair Maiden
-771000 [Boss] Titanite Abomination
+771000 Titanite Abomination
 772000 Royal Rat Authority
+780000 [Boss] Black Dragon Knight - Greatsword
+780100 [Boss] Black Dragon Knight - Paired Warpick
+780200 [Boss] Black Dragon Knight - Paired Sword
+780300 [Boss] Black Dragon Knight - Paired Greatsword
+780400 [Boss] Black Dragon Knight - Greatbow/Sword
+780500 [Boss] Black Dragon Knight - Greataxe (Halberd)
 800999 ### Spell Summons ###
 801000 Skeleton - Falchion
 801100 Hollow Soldier - Sword and Shield

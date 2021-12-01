@@ -244,16 +244,19 @@
 30130 [Ludleth - Dragonslayer Armour] Dragonslayer Greataxe
 30131 [Ludleth - Dragonslayer Armour] Dragonslayer Greatshield
 30132 [Ludleth - Dragonslayer Armour] Perseverance
+30133 [Ludleth - Dragonslayer Armour] Lightning Orb
 30140 [Ludleth - Ancient Wyvern] Dragon King Greataxe
 30141 [Ludleth - Ancient Wyvern] Dragon Greatsword
 30143 [Ludleth - Ancient Wyvern] Ancient Dragon Halberd
 30144 [Ludleth - Ancient Wyvern] Dragon Bone Fist
 30145 [Ludleth - Ancient Wyvern] Drakewing Ultra Greatsword
+30146 [Ludleth - Ancient Wyvern] Whirlwind
 30150 [Ludleth - Nameless King] Dragonslayer Swordspear
 30151 [Ludleth - Nameless King] Storm Curved Sword
 30152 [Ludleth - Nameless King] Sunlight Spear
 30153 [Ludleth - Nameless King] Lightning Storm
 30154 [Ludleth - Nameless King] King's Quarterstaff
+30155 [Ludleth - Nameless King] Blast Wave
 30160 [Ludleth - Champion Gundyr] Gundyr's Halberd
 30161 [Ludleth - Champion Gundyr] Prisoner's Chain
 30170 [Ludleth - Twin Princes] Lorian's Greatsword
@@ -284,6 +287,7 @@
 30221 [Ludleth - Darkeater Midir] Old Moonlight
 30223 [Ludleth - Darkeater Midir] Obsidian Greatsword
 30224 [Ludleth - Darkeater Midir] Unleash Magic
+30225 [Ludleth - Darkeater Midir] Black Star
 30230 [Ludleth - Slave Knight Gael] Gael's Greatsword
 30231 [Ludleth - Slave Knight Gael] Repeating Crossbow
 30232 [Ludleth - Slave Knight Gael] Halo
@@ -822,10 +826,12 @@
 140121 [Cornyx - Spells - Great Swamp] Great Combustion
 140122 [Cornyx - Spells - Great Swamp] Flash Sweat
 140123 [Cornyx - Spells - Great Swamp] Poison Mist
+140124 [Cornyx - Spells - Great Swamp] Pulsating Mud
 140140 [Cornyx - Spells - Carthus] Toxic Mist
 140141 [Cornyx - Spells - Carthus] Iron Flesh
 140142 [Cornyx - Spells - Carthus] Carthus Flame Arc
 140143 [Cornyx - Spells - Carthus] Carthus Beacon
+140144 [Cornyx - Spells - Carthus] Geyser
 140160 [Cornyx - Spells - Izalith] Floating Chaos
 140161 [Cornyx - Spells - Izalith] Bursting Fireball
 140162 [Cornyx - Spells - Izalith] Great Chaos Fire Orb
@@ -867,6 +873,7 @@
 150201 [Karla - Spells - Deep] Dorhys' Gnawing
 150202 [Karla - Spells - Deep] Devouring Swarm
 150203 [Karla - Spells - Deep] Vow of Agony
+150204 [Karla - Spells - Deep] Blood Resonance
 150220 [Karla - Spells - Londor] Vow of Silence
 150221 [Karla - Spells - Londor] Dark Blade
 150222 [Karla - Spells - Londor] Dead Again
@@ -1578,6 +1585,8 @@
 280000 [Conjurator Ellie - Shop] Conjure Hollow
 280001 [Conjurator Ellie - Shop] Conjure Hound
 280002 [Conjurator Ellie - Shop] Minor Restoration Ritual
+280003 [Conjurator Ellie - Shop] Mark of Attraction
+280004 [Conjurator Ellie - Shop] Banishing Ritual
 280010 [Conjurator Ellie - Shop - Abyss Watchers] Ring of Conjuration
 280100 [Conjurator Ellie - Covenant] Ferverous Ritual
 280101 [Conjurator Ellie - Covenant] Major Restoration Ritual

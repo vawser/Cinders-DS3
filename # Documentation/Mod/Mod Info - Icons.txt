@@ -238,7 +238,7 @@
 232 Soul of a Venerable Old Hand
 233 Soul of a Champion
 234 Soul of a Great Champion
-235 []
+235 Whirlwind
 236 Young White Branch
 237 Wolf's Blood Swordgrass
 238 Human Dregs
@@ -278,11 +278,11 @@
 272 Abyssal Burst
 273 Dark Pyromancy Flame
 274 Fist
-275 []
-276 []
+275 Blast Wave
+276 Blood Sacrifice
 277 Ring of Wisdom
-278 []
-279 []
+278 Blood Resonance
+279 Blood Orb
 280 []
 281 []
 282 []
@@ -1624,7 +1624,7 @@
 4166 Unveil (Unassigned)
 4167 Resplendent Life (Halo)
 4168 Splintering Lightning Spear (Unassigned)
-4169 Blinding Bolt (Unassigned)
+4169 Blinding Bolt (Lightning Orb)
 4170 Earthquake
 4171 Earthfall
 4172 Rockflesh

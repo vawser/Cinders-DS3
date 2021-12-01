@@ -540,7 +540,7 @@
 5031 Tome: Trio of Explorers
 5032 Tome: Twisted Knight
 5033 Tome: Fallen Protector
-5034 Tome: Titanite Abomination
+5034 UNUSED
 5035 Tome: The Marauder
 5399 ### Tools ###
 5400 Bloodthirsty Firebomb
@@ -1174,6 +1174,8 @@
 1809010 Refined Teleport
 1810000 Soul Eruption
 1810010 Soul Explosion
+1811000 Crystal Orb
+1811010 Explosive Crystal Orb
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400010 Incendiary Fireball
@@ -1251,6 +1253,14 @@
 2722010 Bloodthirsty Dust
 2723000 Magnetism
 2723010 Refined Magnetism
+2724000 Black Star
+2724010 Adjacent Black Star
+2725000 Geyser
+2725010 Great Geyser
+2726000 Drizzle
+2726010 Lingering Drizzle
+2727000 Pulsating Mud
+2727010 Bloodthirsty Pulsating Mud
 2730000 Conjure Skeleton
 2731000 Conjure Hollow
 2732000 Conjure Hound
@@ -1264,6 +1274,8 @@
 2752000 Major Restoration Ritual
 2753000 Minor Restoration Ritual
 2754000 Sacrificial Ritual
+2755000 Mark of Attraction
+2756000 Banishing Ritual
 3399999 ### Miracles ###
 3490000 Heal Aid
 3490010 Extended Heal Aid
@@ -1350,6 +1362,12 @@
 3821010 Wrathful Wave
 3822000 Gwynevere's Abnegation
 3822010 Gwynevere's Refined Abnegation
+3823000 Lightning Orb
+3823010 Lingering Lightning Orb
+3824000 Whirlwind
+3824010 Lingering Whirlwind
+3825000 Blast Wave
+3825010 Distant Blast Wave
 4099999 ### Hexes ###
 4100000 Deep Barb
 4100010 Bloodthirsty Deep Barb
@@ -1433,3 +1451,9 @@
 4313010 Supreme Pulsating Blade
 4314000 Pungent Blade
 4314010 Supreme Pungent Blade
+4315000 Blood Sacrifice
+4315010 Bloodthirsty Sacrifice
+4316000 Blood Resonance
+4316010 Bloodthirsty Resonance
+4317000 Blood Orb
+4317010 Lingering Blood Orb

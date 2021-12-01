@@ -365,9 +365,8 @@
 10124999 ### Spurned Shade (m40)
 10125000 Do you wish to restore your purity and reclaim the betrothal ring?
 10130999 ### Boss - The Marauder (m40)
-10131000 Oh dear... What have we here?
-10131001 Prove your worth against my knights, or scram!
-10131010 Finally, a worthy challenger.
+10131000 Finally, a worthy challenger.
+10131010 Pathetic...
 10131999 ### Talk - Knight Lun (m40)
 10132000 Hello there. Do you seek to help those in distress too?
 10132999 ### Talk - Priestess Emilia (m40)

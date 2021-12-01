@@ -209,7 +209,7 @@
 100102 Age - Aged
 100200 Class - Deprived
 100201 Class - Knight
-100202 Class - Thief
+100202 Class - Brawler
 100203 Class - Sentinel
 100204 Class - Mercenary
 100205 Class - Wayfarer
@@ -218,12 +218,12 @@
 100208 Class - Warrior
 100209 Class - Bandit
 100210 Class - Soldier
-100211 Class - Acolyte
+100211 Class - Dragon Knight
 100212 Class - Herald
 100213 Class - Captain
 100214 Class - Peasant
-100215 Class - Explorer
-100216 Class - Brawler
+100215 Class - Adventurer
+100216 Class - Forlorn Mage
 100217 Class - Hunter
 100218 Class - Sorcerer
 100219 Class - Pyromancer
@@ -238,7 +238,21 @@
 100228 Class - Collector
 100229 Class - Guardian
 100230 Class - Madman
-100231 Class - Accursed
+100231 Class - Doorman
+100232 Class - Hermit
+100233 Class - Royal Lancer
+100234 Class - Marksman
+100235 Class - Misanthrope
+100236 Class - Scholar
+100237 Class - Royal Warden
+100238 Class - Wandering Knight
+100239 Class - Athlete
+100240 Class - Ashen Pyromancer
+100241 Class - Forgotten Knight
+100242 Class - Reaper
+100243 Class - Chef
+100244 Class - Crab King
+100245 Class - Accursed
 100300 Gift - None
 100301 Gift - Master Key
 100302 Gift - Young White Branch (3)

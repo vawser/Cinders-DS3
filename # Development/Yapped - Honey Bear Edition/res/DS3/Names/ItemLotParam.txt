@@ -71,8 +71,6 @@
 2421 [Boss - Twisted Knight] Tome: Twisted Knight
 2430 [Boss - Fallen Protector] Soul of the Maiden
 2431 [Boss - Fallen Protector] Tome: Fallen Protector
-2440 [Boss - Titanite Abomination] Titanite Slab
-2441 [Boss - Titanite Abomination] Tome: Titanite Abomination
 2450 [Boss - The Marauder] Soul of the Marauder
 2451 [Boss - The Marauder] Tome: The Marauder
 4000 [Giant Tree] Seed of a Giant Tree
@@ -224,15 +222,11 @@
 12300 [The Father] Mask of the Father
 12400 [The Mother] Mask of the Mother
 12500 [The Child] Mask of the Child
-12600 [Dragon Cultist Zena] Dragon Eye
-12700 [Dragon Cultist Pon] Dragon Eye
-12800 [Dragon Cultist Kalix] Dragon Eye
-12900 [Dragon Cultist Wex] Dragon Eye
-13000 [Dragon Cultist Solos] Dragon Eye
-13100 [Dragon Knight Oswald] Black Dragon Greataxe
-13200 [Dragon Knight Terrill] Black Dragon Greatsword
-13300 [Dragon Knight Lyre] Black Dragon Sword
-13301 [Dragon Knight Lyre] Black Dragon Shield
+12600 [Dragon Cultist] Dragon Eye
+12700 [Dragon Cultist] Dragon Eye
+12800 [Dragon Cultist] Dragon Eye
+12900 [Dragon Cultist] Dragon Eye
+13000 [Dragon Cultist] Dragon Eye
 13400 [Lord Zakar] Mad Warrior Helm
 13401 [Lord Zakar] Mad Warrior Armor
 13402 [Lord Zakar] Mad Warrior Gauntlets
@@ -560,6 +554,7 @@
 80440 [Sorcery] Quickened Discs of Dorthinus
 80450 [Sorcery] Refined Teleport
 80460 [Sorcery] Soul Explosion
+80470 [Sorcery] Explosive Crystal Orb
 81000 [Pyromancy] Incendiary Fireball
 81010 [Pyromancy] Weakening Fire Orb
 81020 [Pyromancy] Homing Chaos Fire Orb
@@ -598,6 +593,9 @@
 81350 [Pyromancy] Lingering Rockflesh
 81360 [Pyromancy] Bloodthirsty Dust
 81370 [Pyromancy] Refined Magnetism
+81380 [Pyromancy] Great Geyser
+81390 [Pyromancy] Lingering Drizzle
+81400 [Pyromancy] Bloodthirsty Pulsating Mud
 82000 [Miracle] Bloodthirsty Lightning Arrow
 82010 [Miracle] Lightning Surge
 82020 [Miracle] Storm Spear
@@ -640,6 +638,9 @@
 82400 [Miracle] Mass Tears of Denial
 82410 [Miracle] Refined Homeward
 82420 [Miracle] Gwynevere's Refined Abnegation
+82430 [Miracle] Lingering Lightning Orb
+82440 [Miracle] Lingering Whirlwind
+82450 [Miracle] Distant Blast Wave
 83000 [Hex] Bloodthirsty Deep Barb
 83010 [Hex] Deep Overflow
 83020 [Hex] Weakening Deep Soul
@@ -681,6 +682,10 @@
 83380 [Hex] Lingering Numbness
 83390 [Hex] Lingering Atonement
 83400 [Hex] Bottomless Deep Protection
+83410 [Hex] Adjacent Black Star
+83420 [Hex] Bloodthirsty Sacrifice
+83430 [Hex] Bloodthirsty Resonance
+83440 [Hex] Lingering Blood Orb
 89999 ### Script - Relationship
 90000 [Gift - Karla] Yearning Dregs
 90010 [Gift - Fire Keeper] Divine Blessing
@@ -1104,7 +1109,7 @@
 3200130 [Corpse] Soul of a Nameless Soldier
 3200131 [Corpse] Dragon Eye
 3200140 [Corpse] Soul of a Nameless Soldier
-3200141 [Corpse] Gold Pine Resin
+3200141 [Corpse] Drizzle
 3200150 [Corpse] Soul of a Nameless Soldier
 3200151 [Corpse] Elizabeth Mushroom
 3200160 [Corpse] Large Soul of a Nameless Soldier
@@ -1433,6 +1438,7 @@
 3412030 [OTD - Black Dragon Knight] Black Dragon Sword
 3412031 [OTD - Black Dragon Knight] Black Dragon Shield
 3412040 [OTD - Crystal Sage] Crystal Scroll
+3412041 [OTD - Crystal Sage] Crystal Orb
 3412050 [OTD - Archive Scholar] Scholar's Candlestick
 3499999 ### Treasure - Cathedral of the Deep
 3500000 [Corpse] Soul of an Unknown Traveler
@@ -1579,7 +1585,7 @@
 3700220 [Corpse] Large Soul of a Nameless Soldier
 3700221 [Corpse] Dragonslayer Lightning Arrow
 3700230 [Corpse] Soul of a Nameless Soldier
-3700231 [Corpse] Goldenfruit Balm
+3700231 [Corpse] Blood Orb
 3700240 [Corpse] Soul of a Nameless Soldier
 3700241 [Corpse] Gold Pine Resin
 3700250 [Corpse] Large Soul of a Nameless Soldier
@@ -1903,7 +1909,7 @@
 3900480 [Chest] Fleshbite Ring
 3900490 [Chest] Mask of Sin
 3900500 [Chest] Gargoyle Helm
-3900510 [Chest] Court Sorcerer's Staff
+3900510 [Chest] Blood Sacrifice
 3900520 [Chest] Hands of Sin
 3900530 [Chest] Hexer's Hood
 3900531 [Chest] Hexer's Robe
@@ -2720,7 +2726,7 @@
 22400001 [Default] Old Radiant Lifegem
 22400002 [Default] Petrified Something
 22400003 [Default] Frost Gem
-22400004 [Default] Titanite Slab
+22400004 [Default] Titanite Slab, Titanite Chunk
 22499999 ### Sulyvahn's Beast ###
 22500000 [Default] Blunt Gem
 22500001 [Default] Exotic Souls
@@ -2839,7 +2845,7 @@
 52700001 [Default] Old Radiant Lifegem
 52700002 [Default] Petrified Something
 52700003 [Default] Frost Gem
-52700004 [Default] Titanite Slab
+52700004 [Default] Titanite Slab, Titanite Chunk
 59999999 ### Farron Follower ###
 60000000 [Default] Frost Gem
 60000001 [Default] Radiant Lifegem

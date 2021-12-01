@@ -2449,6 +2449,42 @@ Repels target weak foe backwards significantly.
 Has little effect on powerful and exotic enemies.
 
 The allure of the Princess was powerful, but her rejection of suitors moreso.</text>
+<text id="3823000">Miracle created to slay the archdragons.
+
+Cast a massive lightning orb which slowly moves forward, ravaging everything on its path.
+Lasts 5 seconds.
+
+The orb inflicts lightning damage, providing an effective counter to magic or fire.
+Especially powerful against metal armor and dragons.</text>
+<text id="3823010">Miracle created to slay the archdragons.
+
+Cast a massive lightning orb which slowly moves forward, ravaging everything on its path.
+Lasts 10 seconds.
+
+The orb inflicts lightning damage, providing an effective counter to magic or fire.
+Especially powerful against metal armor and dragons.</text>
+<text id="3824000">Miracle of those most devoted to the dragons.
+
+Emit a whirlwind of tiny razor blades that continuously shred the enemies.
+Lasts 4 seconds.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3824010">Miracle of those most devoted to the dragons.
+
+Emit a lingering whirlwind of tiny razor blades that continuously shred the enemies.
+Lasts 7 seconds.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3825000">Miracle of those most devoted to the dragons.
+
+Compress air at range and immediately release it to cause a thunderous shockwave.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3825010">Miracle of those most devoted to the dragons.
+
+Compress air at very long range and immediately release it to cause a thunderous shockwave.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
 
 <text id="4100000">Hex of Archdeacon Royce and his deacons,
 said to have been imparted to them by McDonnell of the Boreal Valley.
@@ -2948,5 +2984,45 @@ Lasts 120 seconds.
 Fatigues focus, increasing FP consumption costs by 15% while active.
 
 Effect duration can be extended.</text>
+<text id="4315000">Hex taught in the Cathedral of the Deep.
+
+Sacrifice yourself to emit a deluge of your own blood.
+Inflicts 50 Bleed to self.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4315010">Hex taught in the Cathedral of the Deep.
+
+Sacrifice yourself to emit a deluge of your own blood.
+Inflicts 50 Bleed to self.
+Grants 5 Bloodthirst charges on hit.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4316000">Hex taught in the Cathedral of the Deep.
+
+Create a blood resonance within the target's body to make it burst and cause internal damage.
+Inflicts 8 Bleed.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4316010">Hex taught in the Cathedral of the Deep.
+
+Create a blood resonance within the target's body to make it burst and cause internal damage.
+Inflicts 8 Bleed.
+Grants 3 Bloodthirst charges on hit.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4317000">Hex taught in the Cathedral of the Deep.
+
+Create an orb of your own blood which continuously emits waves of blood while moving forward.
+Lasts 5 seconds.
+Inflicts 20 Bleed to Self.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4317010">Hex taught in the Cathedral of the Deep.
+
+Create an orb of your own blood which continuously emits waves of blood while moving forward.
+Lasts 10 seconds.
+Inflicts 20 Bleed to Self.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
 </entries>
 </fmg>

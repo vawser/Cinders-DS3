@@ -1314,6 +1314,41 @@
 #---- Gwynevere's Refined Abnegation
 - Reduces FP cost to 0.
 
+#--------------------------------
+# Lightning Orb
+#--------------------------------
+- FP Cost: 120
+- Lightning Damage: 20 {60} per tick
+- FTH Req: 50
+- Slot Use: 2
+- Base Effect: Lasts 5 seconds.
+
+#---- Lingering Lightning Orb
+- Increases duration to 10 seconds.
+
+#--------------------------------
+# Whirlwind
+#--------------------------------
+- FP Cost: 100
+- Physical Damage: 100 {300} for the initial hit, 50 {150} per tick after.
+- FTH Req: 50
+- Slot Use: 2
+- Base Effect: Lasts 4 seconds.
+
+#---- Lingering Whirlwind
+- Increases duration to 7 seconds.
+
+#--------------------------------
+# Blast Wave
+#--------------------------------
+- FP Cost: 80
+- Physical Damage: 300 {900}
+- FTH Req: 60
+- Slot Use: 2
+
+#---- Distant Blast Wave
+- The cast can now reach unlimited range.
+
 #--------------------------------------------------------------------------
 # Miracles - Effects
 #--------------------------------------------------------------------------
@@ -1977,6 +2012,45 @@
 
 #---- Gravelord Sword
 - Changes the cast animation to Black Serpent and hits once a single enemy with 200 {600} Dark damage and 30 Toxic build up. Changes the FP cost to 75 per cast.
+
+#--------------------------------
+# Blood Sacrifice
+#--------------------------------
+- FP Cost: 80
+- Dark Damage: 300 {900}
+- INT Req: 30
+- FTH Req: 30
+- Slot Use: 1
+- Base Effect: Self inflicts 50 Bleed.
+
+#---- Bloodthirsty Sacrifice
+- Gives 5 bloodthirst charges on hit.
+
+#--------------------------------
+# Blood Resonance
+#--------------------------------
+- FP Cost: 20
+- Dark Damage: 80 {240}
+- INT Req: 15
+- FTH Req: 15
+- Slot Use: 1
+- Base Effect: inflicts 8 Bleed.
+
+#---- Bloodthirsty Resonance
+- Gives 3 bloodthirst charges on hit.
+
+#--------------------------------
+# Blood Orb
+#--------------------------------
+- FP Cost: 60
+- Dark Damage: 75 {225}
+- INT Req: 25
+- FTH Req: 25
+- Slot Use: 1
+- Base Effect: Self inflicts 20 Bleed.
+
+#---- Lingering Blood Orb
+- Increases duration to 5 seconds.
 
 #--------------------------------------------------------------------------
 # Hexes - Effect

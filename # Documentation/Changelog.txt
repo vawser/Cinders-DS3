@@ -110,6 +110,14 @@ Finish following weapons:
   - Drizzle. Found in Archdragon Peak.
   - Pulsating Mud. Sold by Cornyx after giving him the Great Swamp Pyromancy Tome.
   - Black Star. Transposed from the Soul of Darkeater Midir.
+  
+ - Miracles:
+  - Lightning Orb. Transposed from the Soul of Dragonslayer Armour.
+  - Whirlwind. Transposed from the Soul of the Ancient Wyvern.
+  - Blast Wave. Transposed from the Soul of the Nameless King.
+  - Blood Sacrifice. Found in the Profaned Capital.
+  - Blood Resonance. Sold by Karla after giving her the Deep Braille Divine Tome.
+  - Blood Orb. Found in Irithyll of the Boreal Valley.
 
 - Conjuration:
  - Added Mark of Attraction:
@@ -124,6 +132,8 @@ Finish following weapons:
 
 # Items
 - Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
+- Changed the animation use of Rouge/Crimson Water to Consumable.
+- Added on use visual effects to some consumable items.
 
 # Bosses
 - Moved the Marauder into the Lonely Hollow area.

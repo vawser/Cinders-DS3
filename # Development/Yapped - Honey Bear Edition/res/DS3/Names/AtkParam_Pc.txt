@@ -1269,8 +1269,13 @@
 2607300 Ivory King UGS - 2H Heavy #1
 2607305 Ivory King UGS - 2H Heavy #1 Max
 2607580 Ivory King UGS - 2H Roll
-2607700 Ivory King UGS - WA First Hit
-2607705 Ivory King UGS - WA Second Hit
+2607700 Ivory King UGS - WA - Final - First Hit
+2607705 Ivory King UGS - WA - Final - Second Hit
+2607710 Ivory King UGS - WA - Initial
+2607720 Ivory King UGS - WA - Heavy
+2607800 Ivory King UGS - Frost Beam - Thrust
+2607860 Ivory King UGS - Frost Beam
+2607865 Ivory King UGS - Frost Beam
 2610000 Fume Ultra Greatsword
 2610001 Fume Ultra Greatsword
 2610005 Fume Slated Sword - 2H Light #1
@@ -2953,6 +2958,7 @@
 3521710 Sanctum Mace - Poison Burst - Cont
 3521720 Sanctum Mace - Poison Burst - Final
 3521730 Sanctum Mace - Poison Burst
+3521740 Sanctum Mace - Lingering Poison
 3522300 Kirkhammer - 2H Heavy #1
 3522315 Kirkhammer - 2H Heavy #2 Max
 3522415 Kirkhammer - 1H Kick
@@ -4836,13 +4842,15 @@
 5100300 Carthus Curved Greatsword - 2H Heavy #1
 5100305 Carthus Curved Greatsword - 2H Heavy #1 Max
 5100310 Carthus Curved Greatsword - 2H Heavy #2
-5100315 Carthus Curved Greatsword - 2H Heavy #1 Max
+5100315 Carthus Curved Greatsword - 2H Heavy #2 Max
 5100400 Carthus Curved Greatsword - Left Hand
 5100402 Carthus Curved Greatsword
 5100404 Carthus Curved Greatsword
 5100406 Carthus Curved Greatsword
 5100410 Carthus Curved Greatsword - 1H Kick
+5100415 Curved Greatsword (Alt) - 1H Kick
 5100420 Carthus Curved Greatsword - 2H Kick
+5100425 Curved Greatsword (Alt) - 2H Kick
 5100430 Carthus Curved Greatsword - 1H Guard
 5100440 Carthus Curved Greatsword - 2H Guard
 5100450 Carthus Curved Greatsword - Parry
@@ -4858,15 +4866,32 @@
 5100516 Carthus Curved Greatsword - Riposte (Hornet Ring)
 5100517 Carthus Curved Greatsword - Riposte (Hornet Ring)
 5100520 Carthus Curved Greatsword - 1H Backstep
+5100522 Curved Greatsword (Alt) - 1H Running - First Hit
+5100525 Curved Greatsword (Alt) - 1H Running - Second Hit
 5100530 Carthus Curved Greatsword - 2H Backstep
+5100532 Curved Greatsword (Alt) - 2H Running - First Hit
+5100535 Curved Greatsword (Alt) - 2H Running - Second Hit
 5100540 Carthus Curved Greatsword - 1H Roll
 5100580 Carthus Curved Greatsword - 2H Roll
 5100600 Carthus Curved Greatsword - Parry
 5100610 Carthus Curved Greatsword - Backstab Transition
 5100615 Carthus Curved Greatsword - Missed Backstab Transition
 5100700 Carthus Curved Greatsword - Spin
+5100701 Curved Greatsword (Alt)
 5100710 Carthus Curved Greatsword - Spin
 5100720 Carthus Curved Greatsword - Spin
+5100735 Washing Pole - Warcry Attack Wave
+5100740 Pontiff Knight Greatsword - Frost Blade
+5100743 Pontiff Knight Greatsword - Frost Blade
+5100745 Pontiff Knight Greatsword - Frost Blade
+5100750 Washing Pole - Warcry
+5100800 Washing Pole - Warcry 1H Heavy #1 - First Hit
+5100810 Washing Pole - Warcry 1H Heavy #1 - Second Hit
+5100820 Washing Pole - Warcry 1H Heavy #2
+5100900 Washing Pole - Warcry 2H Heavy #1
+5100905 Washing Pole - Warcry 2H Heavy #1 Max
+5100910 Washing Pole - Warcry 2H Heavy #2
+5100915 Washing Pole - Warcry 2H Heavy #2 Max
 5110700 Murakumo
 5110710 Murakumo
 5110711 Murakumo
@@ -4940,6 +4965,8 @@
 5301710 Painting Guardian's Curved Sword
 5301720 Painting Guardian's Curved Sword
 5301730 Painting Guardian's Curved Sword
+5301800 Nil Bow & Blade - Arrow
+5301810 Nil Bow & Blade - Arrow - Strong
 5302000 Shotel
 5302010 Shotel
 5302020 Shotel
@@ -5025,6 +5052,7 @@
 5306751 Ciaran's Tracers
 5306760 Ciaran's Tracers
 5306761 Ciaran's Tracers
+11010500 [Pyromancy] Mark of Attraction
 11200000 [Sorcery] Farron Dart
 11210000 [Sorcery] Scattering Soul Orb
 11210010 [Sorcery] Scattering Soul Orb
@@ -5478,6 +5506,38 @@
 19560900 [Pyromancy] Throw Dust
 19560910 [Pyromancy] Throw Dust [Hit]
 19561100 [Pyromancy] Magnetism
+19562000 [Sorcery] Crystal Orb
+19562100 [Sorcery] Explosive Crystal Orb
+19562110 [Sorcery] Explosive Crystal Orb [Hit]
+19563000 [Pyromancy] Black Star
+19563010 [Pyromancy] Black Star
+19563020 [Pyromancy] Black Star [Hit]
+19563030 [Pyromancy] Black Star [Hit]
+19564000 [Pyromancy] Geyser
+19564010 [Pyromancy] Geyser
+19564020 [Pyromancy] Geyser [Hit]
+19565000 [Pyromancy] Drizzle
+19565010 [Pyromancy] Drizzle
+19565020 [Pyromancy] Drizzle [Hit]
+19565030 [Pyromancy] Drizzle [Hit]
+19565040 [Pyromancy] Drizzle [Hit]
+19566000 [Pyromancy] Pulsating Mud
+19566010 [Pyromancy] Pulsating Mud
+19566020 [Pyromancy] Pulsating Mud [Hit]
+19566030 [Pyromancy] Pulsating Mud [Hit]
+19566040 [Pyromancy] Pulsating Mud [Hit]
+19567000 [Miracle] Lightning Orb
+19567010 [Miracle] Lightning Orb [Hit]
+19568000 [Miracle] Whirlwind
+19568010 [Miracle] Whirlwind
+19569000 [Miracle] Blast Wave
+19569010 [Miracle] Blast Wave [Hit]
+19569020 [Miracle] Blast Wave [Hit]
+19570000 [Miracle] Blood Sacrifice
+19570010 [Miracle] Blood Sacrifice [Hit]
+19571000 [Miracle] Blood Resonance
+19572000 [Miracle] Blood Orb
+19572010 [Miracle] Blood Orb [Hit]
 210006010 Crystal Ring Shield - Unleash Moonlight
 220003000 Young Dragon Ring - Homing Soulmass
 220003001 Young Dragon Ring - Homing Soulmass

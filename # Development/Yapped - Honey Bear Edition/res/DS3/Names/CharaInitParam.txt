@@ -45,7 +45,7 @@
 2509 Young White Branch
 3000 [Class] Deprived
 3001 [Class] Knight
-3002 [Class] Thief
+3002 [Class] Brawler
 3003 [Class] Sentinel
 3004 [Class] Mercenary
 3005 [Class] Wayfarer
@@ -54,12 +54,12 @@
 3008 [Class] Warrior
 3009 [Class] Bandit
 3010 [Class] Soldier
-3011 [Class] Acolyte
+3011 [Class] Dragon Knight
 3012 [Class] Herald
 3013 [Class] Captain
 3014 [Class] Peasant
-3015 [Class] Explorer
-3016 [Class] Brawler
+3015 [Class] Adventurer
+3016 [Class] Forlorn Mage
 3017 [Class] Hunter
 3018 [Class] Sorcerer
 3019 [Class] Pyromancer
@@ -74,6 +74,20 @@
 3028 [Class] Collector
 3029 [Class] Guardian
 3030 [Class] Madman
+3031 [Class] Doorman
+3032 [Class] Hermit
+3033 [Class] Royal Lancer
+3034 [Class] Marksman
+3035 [Class] Misanthrope
+3036 [Class] Scholar
+3037 [Class] Royal Warden
+3038 [Class] Wandering Knight
+3039 [Class] Athlete
+3040 [Class] Ashen Pyromancer
+3041 [Class] Forgotten Knight
+3042 [Class] Reaper
+3043 [Class] Chef
+3044 [Class] Crab King
 3099 [Class] Accursed
 3100 Knight
 3101 Warrior

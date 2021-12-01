@@ -666,6 +666,7 @@
 223020 Jailer Handmaid
 224000 [Boss] Vordt of the Boreal Valley
 224001 Boreal Outrider Sentinel
+224002 Boreal Outrider Sentinel - Patrol
 224100 [Boss] Vordt of the Boreal Valley (Heatup)
 225000 Sulyvahn's Beast
 225001 Sulyvahn's Beast - TOG
@@ -807,6 +808,7 @@
 526000 [Boss] Yhorm the Giant
 527000 [Boss] Dancer of the Boreal Valley
 527001 Boreal Outrider Assassin
+527002 Boreal Outrider Assassin - Patrol
 528000 [Boss] Soul of Cinder
 528100 [Boss] Soul of Cinder (Heatup)
 600000 Farron Follower 1

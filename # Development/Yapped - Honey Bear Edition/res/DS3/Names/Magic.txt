@@ -181,6 +181,10 @@
 1810006 Soul Eruption [Luck]
 1810010 Soul Explosion
 1810016 Soul Explosion [Luck]
+1811000 Crystal Orb
+1811006 Crystal Orb [Luck]
+1811010 Explosive Crystal Orb
+1811016 Explosive Crystal Orb [Luck]
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400006 Fireball [Luck]
@@ -334,6 +338,22 @@
 2723006 Magnetism [Luck]
 2723010 Refined Magnetism
 2723016 Refined Magnetism [Luck]
+2724000 Black Star
+2724006 Black Star [Luck]
+2724010 Adjacent Black Star
+2724016 Adjacent Black Star [Luck]
+2725000 Geyser
+2725006 Geyser [Luck]
+2725010 Great Geyser
+2725016 Great Geyser [Luck]
+2726000 Drizzle
+2726006 Drizzle [Luck]
+2726010 Lingering Drizzle
+2726016 Lingering Drizzle [Luck]
+2727000 Pulsating Mud
+2727006 Pulsating Mud [Luck]
+2727010 Bloodthirsty Pulsating Mud
+2727016 Bloodthirsty Pulsating Mud [Luck]
 2730000 Conjure Skeleton
 2730006 Conjure Skeleton [Luck]
 2731000 Conjure Hollow
@@ -360,6 +380,10 @@
 2753006 Minor Restoration Ritual [Luck]
 2754000 Sacrificial Ritual
 2754006 Sacrificial Ritual [Luck]
+2755000 Mark of Attraction
+2755006 Mark of Attraction [Luck]
+2756000 Banishing Ritual
+2756006 Banishing Ritual [Luck]
 3399999 ### Miracles ###
 3490000 Heal Aid
 3490006 Heal Aid [Luck]
@@ -531,6 +555,18 @@
 3822006 Gwynevere's Abnegation [Luck]
 3822010 Gwynevere's Refined Abnegation
 3822016 Gwynevere's Refined Abnegation [Luck]
+3823000 Lightning Orb
+3823006 Lightning Orb [Luck]
+3823010 Lingering Lightning Orb
+3823016 Lingering Lightning Orb [Luck]
+3824000 Whirlwind
+3824006 Whirlwind [Luck]
+3824010 Lingering Whirlwind
+3824016 Lingering Whirlwind [Luck]
+3825000 Blast Wave
+3825006 Blast Wave [Luck]
+3825010 Distant Blast Wave
+3825016 Distant Blast Wave [Luck]
 4099999 ### Hexes ###
 4100000 Deep Barb
 4100006 Deep Barb [Luck]
@@ -696,4 +732,16 @@
 4314006 Pungent Blade [Luck]
 4314010 Supreme Pungent Blade
 4314016 Supreme Pungent Blade [Luck]
+4315000 Blood Sacrifice
+4315006 Blood Sacrifice [Luck]
+4315010 Bloodthirsty Sacrifice
+4315016 Bloodthirsty Sacrifice [Luck]
+4316000 Blood Resonance
+4316006 Blood Resonance [Luck]
+4316010 Bloodthirsty Resonance
+4316016 Bloodthirsty Resonance [Luck]
+4317000 Blood Orb
+4317006 Blood Orb [Luck]
+4317010 Lingering Blood Orb
+4317016 Lingering Blood Orb [Luck]
 5200000 ### Below are NPC versions of the above spells

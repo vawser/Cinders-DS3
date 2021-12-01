@@ -19,40 +19,62 @@
 1504 Num. in Storage
 1512 Item Effect
 2000 ### Menu - Weapon View
-2001 Weapon Category
-2002 Damage Type
-2003 Skill Type
-2004 Skill FP Consumption - Light 391
-2005 Skill FP Consumption - Heavy 391
-2006 392
-2007 393
-2008 Weight
-2009 Durability
-2011 Physical Damage
-2012 Magic Damage
-2013 Fire Damage
-2014 Lightning Damage
-2015 Dark Damage
-2016 Critical
-2017 Range
-2018 Spell Buff
-2027 Physical Absorption
-2028 Magic Absorption
-2029 Fire Absorption
-2030 Lightning Absorption
-2031 Dark Absorption
-2032 Stability
-2041 Bleed
-2042 Poison
-2043 Frost
-2045 Strength Scaling
-2046 Dexterity Scaling
-2047 Intelligence Scaling
-2048 Faith Scaling
-2049 Strength Requirement
-2050 Dexterity Requirement
-2051 Intelligence Requirement
-2052 Faith Requirement
+2001 Top Grid: Weapon Category
+2002 Top Grid: Damage Type
+2003 Top Grid: Skill Type
+2004 Top Grid: Skill FP Consumption - Light 391
+2005 Top Grid: Skill FP Consumption - Heavy 391
+2006 Top Grid:
+2007 Top Grid:
+2008 Top Grid: Weight
+2009 Top Grid: Durability
+2010 Top Grid:
+2011 Column: Attack power - Physical
+2012 Column: Attack power - Magic
+2013 Column: Attack power - Fire
+2014 Column: Attack power - Lightning
+2015 Column: Attack power - Dark
+2016 Column: Attack power - Critical
+2017 Column: Attack power - Range
+2018 Column: Attack power - Spell Buff
+2019 Column: Attack power - Physical Value
+2020 Column: Attack power - Magic Value
+2021 Column: Attack power - Fire Value
+2022 Column: Attack power - Lightning Value
+2023 Column: Attack power - Dark Value
+2024 Column: Attack power - Critical Value
+2025 Column: Attack power - Range Value
+2026 Column: Attack power - Spell Buff Value
+2027 Column: Guard absorption - Physical
+2028 Column: Guard absorption - Magic
+2029 Column: Guard absorption - Fire
+2030 Column: Guard absorption - Lightning
+2031 Column: Guard absorption - Dark
+2032 Column: Guard absorption - Stability
+2033 Column: Guard absorption - UNUSED
+2034 Column: Guard absorption - Physical ABS Value
+2035 Column: Guard absorption - Magic ABS Value
+2036 Column: Guard absorption - Fire ABS Value
+2037 Column: Guard absorption - Lightning ABS Value
+2038 Column: Guard absorption - Dark ABS Value
+2039 Column: Guard absorption - Stability Value
+2040 Column: Guard absorption - UNUSED Value
+2041 Row: Additional effects - Bleed
+2042 Row: Additional effects - Poison
+2043 Row: Additional effects - Frost
+2044 Row: Additional effects - Curse
+2045 Row: Attribute Bonus - Strength Letter
+2046 Row: Attribute Bonus - Dexterity Letter
+2047 Row: Attribute Bonus - Intelligence Letter
+2048 Row: Attribute Bonus - Faith Letter
+2049 Row: Attribute requirement - Strength
+2050 Row: Attribute requirement - Dexterity
+2051 Row: Attribute requirement - Intelligence
+2052 Row: Attribute requirement - Faith
+2053 Row: Attribute requirement - Strength (Bracketed)
+2054 Row: Attribute requirement - Dexterity (Bracketed)
+2055 Row: Attribute requirement - Intelligence (Bracketed)
+2056 Row: Attribute requirement - Faith (Bracketed)
 2057 Attack Power
 2058 Guard Absorption
 2060 Attribute bonus
@@ -135,6 +157,7 @@
 6019 Bleed
 6020 Poison
 6021 Frost
+6022 Curse
 6023 Attack power
 6024 Additional effects
 10000 ### Menu - Player Status
