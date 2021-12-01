@@ -1363,6 +1363,12 @@
 <text id="3821010">Wrathful Wave</text>
 <text id="3822000">Gwynevere's Abnegation</text>
 <text id="3822010">Gwynevere's Refined Abnegation</text>
+<text id="3823000">Lightning Orb</text>
+<text id="3823010">Lingering Lightning Orb</text>
+<text id="3824000">Whirlwind</text>
+<text id="3824010">Lingering Whirlwind</text>
+<text id="3825000">Blast Wave</text>
+<text id="3825010">Distant Blast Wave</text>
 
 <text id="4100000">Deep Barb</text>
 <text id="4100010">Bloodthirsty Deep Barb</text>
@@ -1446,5 +1452,11 @@
 <text id="4313010">Supreme Pulsating Blade</text>
 <text id="4314000">Pungent Blade</text>
 <text id="4314010">Supreme Pungent Blade</text>
+<text id="4315000">Blood Sacrifice</text>
+<text id="4315010">Bloodthirsty Sacrifice</text>
+<text id="4316000">Blood Resonance</text>
+<text id="4316010">Bloodthirsty Resonance</text>
+<text id="4317000">Blood Orb</text>
+<text id="4317010">Lingering Blood Orb</text>
 </entries>
 </fmg>

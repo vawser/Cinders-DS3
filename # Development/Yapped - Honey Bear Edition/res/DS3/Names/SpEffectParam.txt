@@ -932,6 +932,8 @@
 10504 King of the Dead left arm part breakdown state
 10505 The King of the evil whole body miasma
 10506 The King of the evil whole body miasma
+10507 [High Lord Wolnir] Miasma Damage - Set on Boss Start
+10508 [High Lord Wolnir] Miasma Damage - Set on Boss Start
 10510 [Demon Cleric] Small VFX
 10511 [Demon Cleric] Medium VFX
 10512 [Demon Cleric] Big VFX
@@ -1263,7 +1265,7 @@
 11904 [Jailer]
 11905 [Jailer]
 11906 [Jailer]
-11907 [Jailer] HP Reduction
+11907 [Jailer] HP Reduction Effect
 11908 [Jailer]
 11909 [Jailer]
 11910 [Gargoyle] VFX
@@ -1364,15 +1366,15 @@
 12246 [Abyss Watcher]
 12247 [Abyss Watcher] Damage Reduction
 12248 [Abyss Watcher]
-12250 [Wolnir]
-12251 [Wolnir]
-12252 [Wolnir]
-12253 [Wolnir]
-12254 [Wolnir]
-12255 [Wolnir]
-12256 [Wolnir]
-12257 [Wolnir]
-12258 [Wolnir] Crawl Forward Trigger
+12250 [Wolnir] Bracelet Status 1 - Set on Boss Start
+12251 [Wolnir] Bracelet Explosion 1
+12252 [Wolnir] Bracelet Status 2 - Set on Boss Start
+12253 [Wolnir] Bracelet Explosion 2
+12254 [Wolnir] Bracelet Status 3 - Set on Boss Start
+12255 [Wolnir] Bracelet Explosion 3
+12256 [Wolnir] Bracelet Status 4 - Set on Boss Start
+12257 [Wolnir] Bracelet Explosion 4
+12258 [Wolnir]
 12259 [Wolnir]
 12280 [Frigid Attendant] Orb VFX
 12300 [Iudex Gundyr] Iudex Gundyr - Heat Up
@@ -1437,15 +1439,15 @@
 12603 [High Lord Wolnir]
 12604 [High Lord Wolnir]
 12605 [High Lord Wolnir]
-12610 [High Lord Wolnir]
-12611 [High Lord Wolnir]
-12612 [High Lord Wolnir]
-12613 [High Lord Wolnir] Bracelet Explosion [Expiration]
-12614 [High Lord Wolnir] Bracelet Explosion [Expiration]
-12615 [High Lord Wolnir] Bracelet Explosion
-12616 [High Lord Wolnir] Bracelet Explosion
-12617 [High Lord Wolnir]
-12618 [High Lord Wolnir]
+12610 [High Lord Wolnir] Darkness Aura - Set on Boss Start
+12611 [High Lord Wolnir] Darkness Aura - Set on Boss Start
+12612 [High Lord Wolnir] Darkness Aura - Set on Boss Start
+12613 [High Lord Wolnir] Bracelet Explosion 2 Effect
+12614 [High Lord Wolnir] Bracelet Explosion 1 Effect
+12615 [High Lord Wolnir] Bracelet Explosion 1 [Expiration]
+12616 [High Lord Wolnir] Bracelet Explosion 2 [Expiration]
+12617 [High Lord Wolnir] VFX - Set on Boss Start
+12618 [High Lord Wolnir] Darkness Aura - Set on Boss Start
 12620 [High Lord Wolnir]
 12621 [High Lord Wolnir]
 12630 [High Lord Wolnir]
@@ -1885,7 +1887,8 @@
 24120 NPC: Frost 3
 24130 NPC: Frost - Pontiff Knight
 24140 NPC: Frost 40
-24500 NPC: Durability Damage
+24500 NPC: Durability Damage 5
+24501 NPC: Durability Damage 1
 30000 NPC: Disable Poison
 30010 NPC: Disable Toxic
 30020 NPC: Disable Bleed
@@ -2026,6 +2029,7 @@
 100580 [Behavior] Demon's Scar
 100590 [Behavior] Harald Curved Greatsword
 100591 [Behavior] Kirk
+100595 [Behavior] Ivory King UGS - WA Heavy - Follow-up
 100600 [Behavior]
 100610 [Behavior]
 100620 [Behavior] Cast Magic
@@ -2037,6 +2041,9 @@
 100680 [Behavior] Frayed Blade
 100690 [Behavior] Guard
 100700 [Behavior] Guard
+100710 [Behavior] SubStart Transition
+100711 [Behavior] SubStart into End
+100712 [Behavior] SubStart into Start
 100720 [Behavior] Alternate Charging Mechanic
 100721 [Behavior] Alternate Charging Mechanic (Secondary Switch)
 100722 [Behavior] Alternate Charging Mechanic (Tonitrus)
@@ -2474,8 +2481,16 @@
 116053 Brightbug - Stack 3
 116060 Tarnished Coin - Trigger
 116061 Tarnished Coin - Stack 1
-116070 Cursed Tarnished Coin - Trigger
-116071 Cursed Tarnished Coin - Stack 1
+116062 Tarnished Coin - Stack 2
+116063 Tarnished Coin - Stack 3
+116080 Cursed Tarnished Coin - Trigger
+116081 Cursed Tarnished Coin - Stack 1
+116082 Cursed Tarnished Coin - Stack 2
+116083 Cursed Tarnished Coin - Stack 3
+116100 Henbane - Trigger
+116101 Henbane - Damage 1
+116102 Henbane - Damage 10
+116103 Henbane - Damage 100
 119999 ### Base Behavior ###
 120000 [Weapon Art] Axe: War cry
 120010 [Weapon Art] Axe: War cry [Lack of FP]
@@ -3820,6 +3835,8 @@
 160260210 Phosphorescent Pole - Weapon Art - Right - No FP
 160260250 Phosphorescent Pole - Weapon Art - Left
 160260260 Phosphorescent Pole - Weapon Art - Left - No FP
+160260300 Nil Bow & Blade - Hp Restore
+160260310 Ivory King UGS - Frost Beam
 160300001 ### Shields ###
 160300010 Ethereal Oak Shield
 160300020 Grass Crest Shield
@@ -4117,8 +4134,8 @@
 160500450 [Pyromancy] Lingering Rockflesh
 160500451 [Pyromancy] Lingering Rockflesh [CycleOccurance]
 160500452 [Pyromancy] Lingering Rockflesh [CycleOccurance]
-160500460 [Sorcery] Bloodthirsty Flashsword - Dark Edge - Path of Frost - Throw Dust
-160500470 [Sorcery] Bloodthirsty Farron Dart - Lightning Arrow - Way of White Corona - Deep Barb - Nibble - Surging Deep
+160500460 [Various Spells] Bloodthirsty Flashsword - Dark Edge - Path of Frost - Throw Dust - Blood Sacrifice
+160500470 [Various Spells] Bloodthirsty Farron Dart - Lightning Arrow - Way of White Corona - Deep Barb - Nibble - Surging Deep - Blood Sacrifice
 160500480 [Pyromancy] Bloodthirsty Flame Fan
 160500490 [Pyromancy] Bloodthirsty Lingering Chaos
 160500500 [Pyromancy] Bloodthirsty Fire Surge
@@ -4126,6 +4143,9 @@
 160500520 [Miracle] Bloodthirsty Divine Arrow
 160500530 [Miracle] Beckoning Grace
 160500540 [Pyromancy] Throw Sand
+160500550 [Pyromancy] Bloodthirsty Pulsating Mud
+160500560 [Miracle] Blood Sacrifice
+160500570 [Miracle] Blood Orb
 160509999 ### Spells - Drawbacks ###
 160510000 Magic Weapon
 160510010 Great Magic Weapon
@@ -4900,7 +4920,6 @@
 160700290 Aged Dragon Stone
 160700310 Devil's Trumpet
 160700320 Moonflower
-160700330 Henbane
 160700400 Soul of a Fallen Paladin
 160700410 Soul of a Fallen Sentinel
 160700420 Soul of a Fallen Sage
@@ -5649,9 +5668,6 @@
 160741902 Mirror Knight - Phantom Cleanup
 160742000 Princess Yngvil - Kneeling Stage
 160742010 Akseliane - HP Removal
-160742100 Titanite Abomination - HP Absorb
-160742200 The Marauder - Passive State
-160742210 The Marauder - Stat Drain
 160742300 Cathedral Guardian - Immunity
 160742310 Boss - Kill Automatically
 160742320 Enemy - 50% Damage
@@ -5732,11 +5748,13 @@
 160762020 Major Restoration Ritual - Trigger
 160762030 Minor Restoration Ritual - Trigger
 160762040 Sacrificial Ritual - Trigger
+160762050 Banishing Ritual - Trigger
 160762110 Ferverous Ritual - Spell Summon - Effect
 160762120 Major Restoration Ritual - Spell Summon - Effect
 160762130 Minor Restoration Ritual - Spell Summon - Effect
 160762140 Sacrificial Ritual - Spell Summon - Effect
 160762141 Sacrificial Ritual - Player - Effect
+160762150 Mark of Attraction - Enemy - Effect
 160764000 Spell Summon: Ring of Conjuration+0
 160764001 Spell Summon: Ring of Conjuration+1
 160764002 Spell Summon: Ring of Conjuration+2
@@ -5815,6 +5833,7 @@
 170000540 Toxic - Gravelord Sword
 170000550 Toxic - Black Fire Whip
 170000560 Toxic - Great Black Fire Scatter
+170000570 Poison - Pulsating Mud
 179999999 ### Poison - Weapons ###
 180000000 Poison - Normal (Infusion)
 180000001 Poison - Quick (Infusion)
@@ -6392,7 +6411,7 @@
 260000033 Trio of Explorers
 260000034 Twisted Knight
 260000035 Fallen Protector
-260000036 Titanite Abomination
+260000036 UNUSED
 260000037 The Marauder
 260000038 Spurned Shade
 260100000 ### Boss Revival ###
@@ -6430,7 +6449,7 @@
 260100320 Trio of Explorers
 260100330 Twisted Knight
 260100340 Fallen Protector
-260100350 Titanite Abomination
+260100350 UNUSED
 260100360 The Marauder
 260100370 Spurned Shade
 260109999 ### Wanderer Mode - Damage Boost ###
@@ -6467,7 +6486,7 @@
 260110030 Trio of Explorers
 260110031 Twisted Knight
 260110032 Fallen Protector
-260110033 Titanite Abomination
+260110033 UNUSED
 260110034 The Marauder
 260119999 ### Gauntlet Mode ###
 260120000 Ordered Trigger

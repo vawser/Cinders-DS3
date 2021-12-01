@@ -273,6 +273,9 @@ Storm Spear 130301
 Sunlight Spear 130400
 Homing Sunlight Spear 130401
 
+Lightning Orb 130450
+Lingering Lightning Orb 130451
+
 Wrathful Orbs 130500
 Weakening Wrathful Orbs 130501
 
@@ -326,6 +329,12 @@ Repeating Proof of a Pact 132101
 
 Ghostly Assault 132200
 Extended Ghostly Assault 132201
+
+Blast Wave 132225
+Distant Blast Wave 132226
+
+Whirlwind 132250
+Lingering Whirlwind 132251
 
 Heal Aid 132300
 Extended Heal Aid 132301
@@ -480,6 +489,15 @@ Gravelord Sword 142901
 
 Vow of Agony 143000
 Curse of Agony 143001
+
+Blood Orb 143011
+Lingering Orb 143012
+
+Blood Resonance 143025
+Bloodthirsty Resonance 143026
+
+Blood Sacrifice 143050
+Bloodthirsty Sacrifice 143051
 
 Dead Again 143100
 Refined Dead Again 143101

@@ -984,7 +984,7 @@
 1240720 [Peasant Hollow] ?
 1240721 [Peasant Hollow] ?
 1240800 [Peasant Hollow] ?
-1250700 [Hollow Manservant] Fire Breath
+1250700 [Cathedral Grave Warden] Fire Breath
 1260700 [Hollow Manservant] Pot Throw
 1260701 [Hollow Manservant] Pot Throw (poised)
 1260710 [Hollow Manservant] ?
@@ -1662,8 +1662,8 @@
 5160064 [Wolnir] ?
 5160065 [Wolnir] ?
 5160303 [Wolnir] Grave King Elementalers (outbreak bullet)
-5160313 [Wolnir] ?
-5160314 [Wolnir] ?
+5160313 [Wolnir] Miasma Damage
+5160314 [Wolnir] Miasma Damage
 5160450 [Wolnir] Darkness
 5160451 [Wolnir] Darkness
 5160452 [Wolnir] Darkness
@@ -2529,6 +2529,35 @@
 7710741 [Titanite Abomination]
 7710742 [Titanite Abomination]
 7710743 [Titanite Abomination]
+7810131 [Black Dragon Knight - Paired Warpick]
+7810133 [Black Dragon Knight - Paired Warpick] Spin Back AOE
+7810134 [Black Dragon Knight - Paired Warpick] Spin Back AOE
+7810135 [Black Dragon Knight - Paired Warpick] Spin Back AOE
+7810136 [Black Dragon Knight - Paired Warpick] Spin Back AOE
+7810137 [Black Dragon Knight - Paired Warpick] Spin Back AOE
+7810138 [Black Dragon Knight - Paired Warpick] Spin Back AOE
+7810144 [Black Dragon Knight - Paired Warpick] Spin Back Leap Strike - AOE
+7810145 [Black Dragon Knight - Paired Warpick] Spin Back Leap Strike - AOE
+7810146 [Black Dragon Knight - Paired Warpick] Spin Back Leap Strike - AOE
+7810147 [Black Dragon Knight - Paired Warpick] Spin Back Leap Strike - AOE
+7810148 [Black Dragon Knight - Paired Warpick] Spin Back Leap Strike - AOE
+7810149 [Black Dragon Knight - Paired Warpick] Spin Back Leap Strike - AOE
+7810150 [Black Dragon Knight - Paired Warpick] Leap Strike - AOE
+7810151 [Black Dragon Knight - Paired Warpick] Leap Strike - AOE
+7810152 [Black Dragon Knight - Paired Warpick] Leap Strike - AOE
+7810153 [Black Dragon Knight - Paired Warpick] Leap Strike - AOE
+7810155 [Black Dragon Knight - Paired Warpick] Leap Strike - AOE
+7810156 [Black Dragon Knight - Paired Warpick] Leap Strike - AOE
+7810157 [Black Dragon Knight - Paired Warpick] Leap Strike - AOE
+7810210 [Black Dragon Knight - Paired Warpick] Heal Anim
+7810211 [Black Dragon Knight - Paired Warpick] Heal Anim
+7820700 [Black Dragon Knight - Paired Sword] Fire Breath
+7830750 [Black Dragon Knight - Paired Greatsword]
+7830770 [Black Dragon Knight - Paired Greatsword]
+7830800 [Black Dragon Knight - Paired Greatsword]
+7830805 [Black Dragon Knight - Paired Greatsword]
+7830850 [Black Dragon Knight - Paired Greatsword]
+7830870 [Black Dragon Knight - Paired Greatsword]
 10000001 ### Spells ###
 11200000 [Sorcery] Farron Dart
 11200010 [Sorcery] Bloodthirsty Farron Dart
@@ -3431,6 +3460,8 @@
 104931300 [Black Scorpion Stinger] Lingering Poison
 104931400 [Sanctum Mace] Lingering Poison
 104931450 [Sanctum Mace] Poison Burst
+104931500 [Nil Bow & Blade] Arrow
+104931510 [Nil Bow & Blade] Arrow - Strong
 104999999 ### Spells ###
 105002000 [Sorcery] Soul Wave
 105002100 [Sorcery] Swift Soul Wave
@@ -3861,6 +3892,79 @@
 109562100 [Pyromancy] Bloodthirsty Dust
 109562110 [Pyromancy] Bloodthirsty Dust [Hit]
 109563000 [Pyromancy] Magnetism
+109564000 [Sorcery] Crystal Orb
+109564100 [Sorcery] Explosive Crystal Orb
+109564110 [Sorcery] Explosive Crystal Orb [Hit]
+109565000 [Pyromancy] Black Star
+109565010 [Pyromancy] Black Star
+109565020 [Pyromancy] Black Star
+109565030 [Pyromancy] Black Star [Hit]
+109565040 [Pyromancy] Black Star
+109565050 [Pyromancy] Black Star
+109565060 [Pyromancy] Black Star [Hit]
+109565100 [Pyromancy] Adjacent Black Star
+109565110 [Pyromancy] Adjacent Black Star
+109565120 [Pyromancy] Adjacent Black Star
+109565130 [Pyromancy] Adjacent Black Star [Hit]
+109565140 [Pyromancy] Adjacent Black Star
+109565150 [Pyromancy] Adjacent Black Star
+109565160 [Pyromancy] Adjacent Black Star [Hit]
+109566000 [Pyromancy] Geyser
+109566010 [Pyromancy] Geyser
+109566020 [Pyromancy] Geyser [Hit]
+109566030 [Pyromancy] Geyser
+109566100 [Pyromancy] Great Geyser
+109566110 [Pyromancy] Great Geyser
+109566120 [Pyromancy] Great Geyser [Hit]
+109566130 [Pyromancy] Great Geyser
+109567000 [Pyromancy] Drizzle
+109567010 [Pyromancy] Drizzle
+109567020 [Pyromancy] Drizzle
+109567030 [Pyromancy] Drizzle [Hit]
+109567040 [Pyromancy] Drizzle [Hit]
+109567050 [Pyromancy] Drizzle [Hit]
+109567100 [Pyromancy] Lingering Drizzle
+109567110 [Pyromancy] Lingering Drizzle
+109567120 [Pyromancy] Lingering Drizzle
+109567130 [Pyromancy] Lingering Drizzle [Hit]
+109567140 [Pyromancy] Lingering Drizzle [Hit]
+109567150 [Pyromancy] Lingering Drizzle [Hit]
+109568000 [Pyromancy] Pulsating Mud
+109568010 [Pyromancy] Pulsating Mud
+109568020 [Pyromancy] Pulsating Mud [Hit]
+109568030 [Pyromancy] Pulsating Mud [Hit]
+109568040 [Pyromancy] Pulsating Mud [Hit]
+109568100 [Pyromancy] Bloodthirsty Pulsating Mud
+109568110 [Pyromancy] Bloodthirsty Pulsating Mud
+109568120 [Pyromancy] Bloodthirsty Pulsating Mud [Hit]
+109568130 [Pyromancy] Bloodthirsty Pulsating Mud [Hit]
+109568140 [Pyromancy] Bloodthirsty Pulsating Mud [Hit]
+109569000 [Miracle] Lightning Orb
+109569010 [Miracle] Lightning Orb [Hit]
+109569100 [Miracle] Lingering Lightning Orb
+109569110 [Miracle] Lingering Lightning Orb [Hit]
+109570000 [Miracle] Whirlwind
+109570010 [Miracle] Whirlwind
+109570100 [Miracle] Lingering Whirlwind
+109570110 [Miracle] Lingering Whirlwind
+109571000 [Miracle] Blast Wave
+109571010 [Miracle] Blast Wave [Hit]
+109571020 [Miracle] Blast Wave [Hit]
+109571100 [Miracle] Distant Blast Wave
+109571110 [Miracle] Distant Blast Wave [Hit]
+109571120 [Miracle] Distant Blast Wave [Hit]
+109572000 [Miracle] Blood Sacrifice
+109572010 [Miracle] Blood Sacrifice [Hit]
+109572100 [Miracle] Bloodthirsty Sacrifice
+109572110 [Miracle] Bloodthirsty Sacrifice [Hit]
+109573000 [Miracle] Blood Resonance
+109573100 [Miracle] Bloodthirsty Resonance
+109574000 [Miracle] Blood Orb
+109574010 [Miracle] Blood Orb [Hit]
+109574020 [Miracle] Blood Orb
+109574100 [Miracle] Lingering Blood Orb
+109574110 [Miracle] Lingering Blood Orb [Hit]
+109574120 [Miracle] Lingering Blood Orb
 109999999 ### Spell Summons ###
 110000000 Conjure Skeleton
 110000100 Conjure Hollow
@@ -3876,6 +3980,8 @@
 110010200 Major Restoration Ritual
 110010300 Minor Restoration Ritual
 110010400 Sacrificial Ritual
+110010500 Mark of Attraction
+110010600 Banishing Ritual
 209999999 ### Weapons ###
 210000000 Court Sorcerer's Staff - Soulmass
 210000010 Court Sorcerer's Staff - Soulmass [Hit]
@@ -4163,6 +4269,8 @@
 210017221 [Spitfire Spear] - Heavy - Bullet [Hit]
 210018000 [Helix Halberd] - Staggering Dart
 210018001 [Helix Halberd] - Staggering Dart
+210018100 Ivory King Beam
+210018110 Ivory King Beam
 219999999 ### Rings ###
 220000000 Cursed Ring of Deflection - Spell Deflection
 220001000 Cursed Ring of Confusion - Rapport
