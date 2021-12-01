@@ -617,7 +617,7 @@ def t400517_x60():
         AddTalkListDataIf(GetEventStatus(25002033) == 0, 33, 99060232, -1)
         
         # Titanite Abomination
-        AddTalkListDataIf(GetEventStatus(25002034) == 0, 34, 99060233, -1)
+        # AddTalkListDataIf(GetEventStatus(25002034) == 0, 34, 99060233, -1)
         
         # The Marauder
         AddTalkListDataIf(GetEventStatus(25002035) == 0, 35, 99060234, -1)
@@ -762,9 +762,9 @@ def t400517_x60():
             GiveSpEffectToPlayer(260100340)
             return 0
         # Titanite Abomination
-        elif GetTalkListEntryResult() == 34:
-            GiveSpEffectToPlayer(260100350)
-            return 0
+        # elif GetTalkListEntryResult() == 34:
+            # GiveSpEffectToPlayer(260100350)
+            # return 0
         # The Marauder
         elif GetTalkListEntryResult() == 35:
             GiveSpEffectToPlayer(260100360)

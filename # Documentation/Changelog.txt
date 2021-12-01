@@ -133,6 +133,8 @@ Finish following weapons:
  - Reduced the dormant time on Wolnir's attacks so he is a bit more active in terms of aggression.
  - Adjusted his health, absorptions and bracelets so that you'll need to break the bracelets to kill him most of the time.
 
+- Removed Titanite Abomination.
+
 # Enemies
 - Archive Scholar wax now reduces Magic absorption.
 - Boreal Outrider Sentinel/Assassin now always drop Titanite Chunks or a Titanite Slab (80%/20%).
@@ -146,6 +148,10 @@ Finish following weapons:
 - Reduced the number of flies in the Ariandel pit room to reduce the chance of hitting enemy limit and causing a CTD.
 - Adjusted enemy count and layout in Lothric Castle to reduce the chance of hitting enemy limit and causing a CTD.
 - Adjusted enemy count and layout in Grand Archives to reduce the chance of hitting enemy limit and causing a CTD.
+
+- Archdragon Peak:
+ - Added some enemies to the old Titanite Abomination area.
+ - Moved Gaius the Mighty so he intrudes in the doorway that leaves the Titanite Abomination area.
 
 # Bugfixes
 - Fixed duplicate localization keys causing some descriptions to be broken.

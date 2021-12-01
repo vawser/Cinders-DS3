@@ -1252,7 +1252,7 @@
 6344 Killed Trio of Explorers
 6345 Killed Twisted Knight
 6346 Killed Fallen Protector
-6347 Killed Titanite Abomination
+6347 Killed UNUSED
 6348 Killed The Marauder
 
 # Never Reset
@@ -1289,7 +1289,7 @@
 9344 Killed Trio of Explorers
 9345 Killed Twisted Knight
 9346 Killed Fallen Protector
-9347 Killed Titanite Abomination
+9347 Killed UNUSED
 9348 Killed The Marauder
 
 # Misc
@@ -1540,7 +1540,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25001031 Boss Kill: Trio of Explorers
 25001032 Boss Kill: Twisted Knight
 25001033 Boss Kill: Fallen Protector
-25001034 Boss Kill: Titanite Abomination
+25001034 Boss Kill: UNUSED
 25001035 Boss Kill: The Marauder
 
 25001100 Boss fight started
@@ -1714,7 +1714,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002031 First Boss Kill: Trio of Explorers
 25002032 First Boss Kill: Twisted Knight
 25002033 First Boss Kill: Fallen Protector
-25002034 First Boss Kill: Titanite Abomination
+25002034 First Boss Kill: UNUSED
 25002035 First Boss Kill: The Marauder
 
 25003100 Engaged Boss 
@@ -1760,7 +1760,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003031 Selection: Trio of Explorers
 25003032 Selection: Twisted Knight
 25003033 Selection: Fallen Protector
-25003034 Selection: Titanite Abomination
+25003034 Selection: UNUSED
 25003035 Selection: The Marauder
 
 # Masteries

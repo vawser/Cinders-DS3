@@ -282,7 +282,7 @@ Event(0, Default, function() {
     InitializeEvent(32, 970, 13200870, 2410, 0, 0); // Trio of Explorers
     InitializeEvent(33, 970, 13010850, 2420, 0, 0); // Twisted Knight
     InitializeEvent(34, 970, 13900860, 2430, 0, 0); // Fallen Protector
-    InitializeEvent(35, 970, 13200880, 2440, 0, 0); // Titanite Abomination
+    //InitializeEvent(35, 970, 13200880, 2440, 0, 0); // UNUSED
     InitializeEvent(36, 970, 14000850, 2450, 0, 0); // The Marauder
     
     // Game Progress Flags
@@ -2664,9 +2664,9 @@ Event(20051, Restart, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002033);
     SetSpEffect(10000, 260110032);
     
-    // Titanite Abomination
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002034);
-    SetSpEffect(10000, 260110033);
+    // UNUSED
+    //SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002034);
+    //SetSpEffect(10000, 260110033);
     
     // The Marauder
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002035);
@@ -2997,10 +2997,10 @@ Event(20071, Restart, function() {
     SetSpEffect(10000, 260100150);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    // Titanite Abomination
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002034);  // Already Killed
-    SetSpEffect(10000, 260100350);
-    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    // UNUSED
+    //SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002034);  // Already Killed
+    //SetSpEffect(10000, 260100350);
+    //WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Trio of Explorers
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002031);  // Already Killed
@@ -3219,11 +3219,11 @@ Event(20072, Restart, function() {
     SetSpEffect(10000, 260100150);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    // Titanite Abomination
-    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002034);  // Already Killed
-    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003034); // Not Selected
-    SetSpEffect(10000, 260100350);
-    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    // UNUSED
+    //SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002034);  // Already Killed
+    //SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25003034); // Not Selected
+    //SetSpEffect(10000, 260100350);
+    //WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Nameless King
     SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, 25002016);  // Already Killed
@@ -3434,10 +3434,10 @@ Event(20073, Restart, function() {
     SetSpEffect(10000, 260100320);
     WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
-    // Titanite Abomination
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002034);  // Already Killed
-    SetSpEffect(10000, 260100350);
-    WaitFixedTimeSeconds(5.0); // Stall execution temporarily
+    // UNUSED
+    //SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002034);  // Already Killed
+    //SetSpEffect(10000, 260100350);
+    //WaitFixedTimeSeconds(5.0); // Stall execution temporarily
     
     // Ancient Wyvern
     SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25002015);  // Already Killed
@@ -5094,7 +5094,7 @@ Event(20133, Restart, function() {
 });
 
 //----------------------------------------------
-// Boss Revival - Titanite Abomination
+// Boss Revival - UNUSED
 // <speffect>, <spawn point>, <warp id>, <map id>, <block id>, <ceremony id>
 //----------------------------------------------
 Event(20134, Restart, function() {
