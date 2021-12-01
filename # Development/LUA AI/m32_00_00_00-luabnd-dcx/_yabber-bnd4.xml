@@ -161,12 +161,6 @@
       <flags>0x40</flags>
     </file>
     <file>
-      <id>1228</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\821000_TitaniteAbomination_battle.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
       <id>1000000</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\m32_00_00_00.luagnl</path>

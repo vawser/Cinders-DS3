@@ -153,6 +153,9 @@ Finish following weapons:
  - Added some enemies to the old Titanite Abomination area.
  - Moved Gaius the Mighty so he intrudes in the doorway that leaves the Titanite Abomination area.
 
+- Filianore's Rest
+ - Added roaming Fallen Abominations in the dunes after Slave Knight Gael is defeated.
+
 # Bugfixes
 - Fixed duplicate localization keys causing some descriptions to be broken.
 - Adjusted some weapon moves so flat damage addition doesn't cause them to rebound.
@@ -183,3 +186,5 @@ c1063 Black Dragon Knight       c6260 (Ringed Knight)       # Black Dragon Knigh
 c1064 Black Dragon Knight       c1410 (Silver Knight)       # Black Dragon Knight - Greatbow/Sword
 c1065 Black Dragon Knight       c1290 (Winged Knight)       # Black Dragon Knight - Greataxe (Halberd)
 
+Change itemlot emevd for Fallen Abomination in m51_1 when params are free
+Add black phantom coloring to Fallen Abominations
