@@ -343,6 +343,15 @@ def t350500_x20():
         # Gwynevere's Refined Abnegation
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3822000, 4, 1, 0) == 1, 43, 99047042, -1)
         
+        # Lingering Lightning Orb
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3823000, 4, 1, 0) == 1, 44, 99047043, -1)
+        
+        # Lingering Whirlwind
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3824000, 4, 1, 0) == 1, 45, 99047044, -1)
+        
+        # Distant Blast Wave
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3825000, 4, 1, 0) == 1, 46, 99047045, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -516,6 +525,18 @@ def t350500_x20():
         # Gwynevere's Refined Abnegation
         elif GetTalkListEntryResult() == 43:
             assert t350500_x50(82420, 1090, 9, -10, 99048042, 99049042, 99040020)
+            continue
+        # Lingering Lightning Orb
+        elif GetTalkListEntryResult() == 44:
+            assert t350500_x50(82430, 1090, 9, -10, 99048043, 99049043, 99040020)
+            continue
+        # Lingering Whirlwind
+        elif GetTalkListEntryResult() == 45:
+            assert t350500_x50(82440, 1090, 9, -10, 99048044, 99049044, 99040020)
+            continue
+        # Distant Blast Wave
+        elif GetTalkListEntryResult() == 46:
+            assert t350500_x50(82450, 1090, 9, -10, 99048045, 99049045, 99040020)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

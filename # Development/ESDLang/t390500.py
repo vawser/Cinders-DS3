@@ -343,6 +343,15 @@ def t390500_x20():
         # Adjacent Black Star
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2724000, 4, 1, 0) == 1, 42, 99050041, -1)
         
+        # Bloodthirsty Sacrifice
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4315000, 4, 1, 0) == 1, 43, 99050042, -1)
+        
+        # Bloodthirsty Resonance
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4316000, 4, 1, 0) == 1, 44, 99050043, -1)
+        
+        # Lingering Blood Orb
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4317000, 4, 1, 0) == 1, 45, 99050044, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -516,6 +525,18 @@ def t390500_x20():
         # Adjacent Black Star
         elif GetTalkListEntryResult() == 42:
             assert t390500_x50(83410, 1080, 19, -20, 99051041, 99052041, 99040032)
+            continue
+        # Bloodthirsty Sacrifice
+        elif GetTalkListEntryResult() == 43:
+            assert t390500_x50(83420, 1080, 9, -10, 99051042, 99052042, 99040030)
+            continue
+        # Bloodthirsty Resonance
+        elif GetTalkListEntryResult() == 44:
+            assert t390500_x50(83430, 1080, 9, -10, 99051043, 99052043, 99040030)
+            continue
+        # Lingering Blood Orb
+        elif GetTalkListEntryResult() == 45:
+            assert t390500_x50(83440, 1080, 9, -10, 99051044, 99052044, 99040030)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

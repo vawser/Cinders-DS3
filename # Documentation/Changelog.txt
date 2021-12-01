@@ -196,5 +196,10 @@ c1063 Black Dragon Knight       c6260 (Ringed Knight)       # Black Dragon Knigh
 c1064 Black Dragon Knight       c1410 (Silver Knight)       # Black Dragon Knight - Greatbow/Sword
 c1065 Black Dragon Knight       c1290 (Winged Knight)       # Black Dragon Knight - Greataxe (Halberd)
 
-Change itemlot emevd for Fallen Abomination in m51_1 when params are free
-Add black phantom coloring to Fallen Abominations
+c7820 Crystal Lizard (White)
+c7821 Crystal Lizard (Red)
+c7822 Crystal Lizard (Purple)
+c7823 Crystal Lizard (Moonlight)
+c7824 Crystal Lizard (Ice)
+c7825 Crystal Lizard (Golden)
+c7826 Crystal Lizard (Cursed)

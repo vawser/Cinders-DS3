@@ -90,7 +90,13 @@ c7780 Flamelurker               c6070 (Corvian Knight)      # UNUSED
 c7790 Garl Vinland              c1190 (Cathedral Knight)    # UNUSED
 c7800 King Allant               c5140 (Pontiff Sulyvahn)    # UNUSED
 c7810 Tarnished Gundyr          c5110
-c7820
+c7820 Crystal Lizard (White)
+c7821 Crystal Lizard (Red)
+c7822 Crystal Lizard (Purple)
+c7823 Crystal Lizard (Moonlight)
+c7824 Crystal Lizard (Ice)
+c7825 Crystal Lizard (Golden)
+c7826 Crystal Lizard (Cursed)
 c7830
 c7840
 c7850

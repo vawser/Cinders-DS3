@@ -4148,6 +4148,9 @@ to commune with the fallen knight.</text>
 <text id="99047040">Mass Tears of Denial</text>
 <text id="99047041">Refined Homeward</text>
 <text id="99047042">Gwynevere's Refined Abnegation</text>
+<text id="99047043">Lingering Lightning Orb</text>
+<text id="99047044">Lingering Whirlwind</text>
+<text id="99047045">Distant Blast Wave</text>
 <text id="99048000">Ascend from Lightning Arrow?</text>
 <text id="99048001">Ascend from Lightning Spear?</text>
 <text id="99048002">Ascend from Great Lightning Spear?</text>
@@ -4190,6 +4193,9 @@ to commune with the fallen knight.</text>
 <text id="99048040">Ascend from Tears of Denial?</text>
 <text id="99048041">Ascend from Homeward?</text>
 <text id="99048042">Ascend from Gwynevere's Abnegation?</text>
+<text id="99048043">Ascend from Lightning Orb?</text>
+<text id="99048044">Ascend from Whirlwind?</text>
+<text id="99048045">Ascend from Blast Wave?</text>
 <text id="99049000">Bloodthirsty Lightning Arrow crafted</text>
 <text id="99049001">Lightning Surge crafted</text>
 <text id="99049002">Storm Spear crafted</text>
@@ -4232,6 +4238,9 @@ to commune with the fallen knight.</text>
 <text id="99049040">Mass Tears of Denial crafted</text>
 <text id="99049041">Refined Homeward crafted</text>
 <text id="99049042">Gwynevere's Refined Abnegation crafted</text>
+<text id="99049043">Lingering Lightning Orb crafted</text>
+<text id="99049044">Lingering Whirlwind crafted</text>
+<text id="99049045">Distant Blast Wave crafted</text>
 <text id="99050000">Bloodthirsty Deep Barb</text>
 <text id="99050001">Deep Overflow</text>
 <text id="99050002">Weakening Deep Soul</text>
@@ -4274,6 +4283,9 @@ to commune with the fallen knight.</text>
 <text id="99050039">Lingering Atonement</text>
 <text id="99050040">Bottomless Deep Protection</text>
 <text id="99050041">Adjacent Black Star</text>
+<text id="99050042">Bloodthirsty Sacrifice</text>
+<text id="99050043">Bloodthirsty Resonance</text>
+<text id="99050044">Lingering Blood Orb</text>
 <text id="99051000">Ascend from Deep Barb?</text>
 <text id="99051001">Ascend from Deep Soul?</text>
 <text id="99051002">Ascend from Great Deep Soul?</text>
@@ -4316,6 +4328,9 @@ to commune with the fallen knight.</text>
 <text id="99051039">Ascend from Lingering Atonement?</text>
 <text id="99051040">Ascend from Bottomless Deep Protection?</text>
 <text id="99051041">Ascend from Black Star?</text>
+<text id="99051042">Ascend from Blood Sacrifice?</text>
+<text id="99051043">Ascend from Blood Resonance?</text>
+<text id="99051044">Ascend from Blood Orb?</text>
 <text id="99052000">Bloodthirsty Deep Barb crafted</text>
 <text id="99052001">Deep Overflow crafted</text>
 <text id="99052002">Weakening Deep Soul crafted</text>
@@ -4358,6 +4373,9 @@ to commune with the fallen knight.</text>
 <text id="99052039">Lingering Atonement crafted</text>
 <text id="99052040">Bottomless Deep Protection crafted</text>
 <text id="99052041">Adjacent Black Star crafted</text>
+<text id="99052042">Bloodthirsty Sacrifice crafted</text>
+<text id="99052043">Bloodthirsty Resonance crafted</text>
+<text id="99052044">Lingering Blood Orb crafted</text>
 <text id="99060000">Configure Journey</text>
 <text id="99060001">Summary</text>
 <text id="99060002">Enable</text>
