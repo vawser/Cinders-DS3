@@ -1078,7 +1078,11 @@
 800110 Orange Force Circle
 800200 Orange Force Circle
 800210 Orange Force Circle
-1000000 Rougue - Crimson Water
+1000000 Rougue/Crimson Water
+1000001 Inferi Petal
+1000002 Combustum Petal
+1000003 Vindicti Petal
+1000004 Barathrum Petal
 90013100 Spell - Magic Weapon - Magic Enchantment
 90013110 Spell - Great Magic Weapon - Magic Enchantment
 90013120 Spell - Crystal Magic Weapon - Magic Enchantment

@@ -2943,6 +2943,8 @@
 76700000 [Default] Dark Gem
 76700001 [Default] Human Dregs
 76700002 [Default] Lifegem
+77099999 ### Fallen Abomination ###
+77100000 [Default] Titanite Chunk, Titanite Slab
 799999999 ### Script ###
 800001000 [Covenant] Thieves' Pact
 800001020 [Covenant] Chaos Servant
