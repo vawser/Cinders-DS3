@@ -103,6 +103,7 @@ Finish following weapons:
 - Removed the sound/VFX that occurs under a spell summon.
 - Reduced the damage of Fire Surge and Lightning Surge to 40.
 - Reduced the FP cost of Lightning Surge to 10.
+- Changed Explosive Soul Spear to Swift Soul Spear.
 
 - Added new spells:
  - Sorceries:
@@ -184,6 +185,7 @@ Finish following weapons:
 - Fixed Hybrid Catalyst +10 reinforcement requiring 3 Titanite Slabs.
 - Removed the sound effect that occurs when Benjin is disabled in Undead Settlement.
 - Fixed Teleport not working correctly when not at 99 casting speed. It will now teleport you properly irrespective of casting speed.
+- Fixed Mournful Flames' description.
 
 #------------------------------
 # TODO

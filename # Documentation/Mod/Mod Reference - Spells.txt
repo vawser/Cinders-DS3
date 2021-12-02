@@ -76,8 +76,8 @@
 - Slot Use: 1
 - Magic Damage: 175 {525}
 
-#---- Explosive Soul Spear
-- Adds an area of effect explosion on impact.
+#---- Swift Soul Spear
+- Increases projectile speed to 60 m/s.
 
 #--------------------------------
 # Crystal Soul Spear
