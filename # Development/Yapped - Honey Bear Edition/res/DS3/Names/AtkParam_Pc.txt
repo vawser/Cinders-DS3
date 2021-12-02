@@ -5079,8 +5079,6 @@
 11305000 [Sorcery] Homing Crystal Soulmass
 11305100 [Sorcery] Homing Crystal Soulmass [HitBullet]
 11306000 [Sorcery] Soul Spear
-11306100 [Sorcery] Explosive Soul Spear
-11306110 [Sorcery] Explosive Soul Spear [HitBullet]
 11307000 [Sorcery] Crystal Soul Spear
 11308000 [Sorcery] Deep Soul
 11309000 [Sorcery] Great Deep Soul
