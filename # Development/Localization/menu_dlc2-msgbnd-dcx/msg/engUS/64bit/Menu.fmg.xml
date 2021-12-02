@@ -4744,27 +4744,27 @@ This effect can stack up to 10 times once at 99 Hollowing.
 <text id="99090015">Mythic Difficulty</text>
 <text id="99090021">The memory will be weak and pitiful.
 
-Soul absorption is not increased.
+Soul absorption is reduced by 50%.
 
 Completing the Memory will reward Titanite Shards.</text>
 <text id="99090022">The memory will require focus, but it easily won.
 
-Soul absorption is increased by 50%.
+Soul absorption is not changed.
 
 Completing the Memory will reward Large Titanite Shards.</text>
 <text id="99090023">The memory will challenge your skills.
 
-Soul absorption is increased by 100%.
+Soul absorption is increased by 50%.
 
 Completing the Memory will reward Titanite Chunks.</text>
 <text id="99090024">The memory will challenge your skills thoroughly and punish any mistakes.
 
-Soul absorption is increased by 150%.
+Soul absorption is increased by 100%.
 
 Completing the Memory will reward Titanite Slabs.</text>
 <text id="99090025">The memory will be near impossible for all but the toughest player.
 
-Soul absorption is increased by 200%.
+Soul absorption is increased by 150%.
 
 Completing the Memory will reward Primordial Fragments.</text>
 

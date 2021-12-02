@@ -101,9 +101,11 @@ Finish following weapons:
 # Spells
 - Pungent Blade is now a Pyromancy.
 - Removed the sound/VFX that occurs under a spell summon.
-- Reduced the damage of Fire Surge and Lightning Surge to 40.
+- Reduced the damage of Fire Surge to 40, removed the stagger and reduced shoot interval to 0.2
+- Reduced the damage of Lightning Surge to 40, removed the stagger and reduced shoot interval to 0.2
 - Reduced the FP cost of Lightning Surge to 10.
 - Changed Explosive Soul Spear to Swift Soul Spear.
+- Increased FP cost of Soul Eruption to 100.
 
 - Added new spells:
  - Sorceries:
@@ -157,6 +159,15 @@ Finish following weapons:
 # NPC
 - Solaire of Astora now has the Strengthen Covenant functionality.
 - Increased the damage scalar of a few early game intruders so their damage output isn't so low.
+
+# Memories
+- Made the baseline damage of enemies lower.
+- Made the baseline soul drop of enemies higher in Memory of Strength.
+- Changed Easy to be 0.5* to enemy damage and health. Reduces soul absorption by 50%.
+- Changed Normal to be a 1.0* to enemy damage and health. No change to soul absorption. 
+- Changed Hard to be a 1.5* to enemy damage and health. Increases soul absorption by 50%.
+- Changed Very Hard to be a 1.75* to enemy damage and health. Increases soul absorption by 100%.
+- Changed Mythic to be a 2.0* to enemy damage and health. Increases soul absorption by 150%.
 
 # Map
 - Reduced the number of flies in the Ariandel pit room to reduce the chance of hitting enemy limit and causing a CTD.

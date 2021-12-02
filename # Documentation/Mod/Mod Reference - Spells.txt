@@ -48,7 +48,7 @@
 #--------------------------------
 # Soul Eruption 
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 100
 - INT Req: 20
 - Slot Use: 1
 - Magic Damage: 100 {300}
