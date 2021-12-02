@@ -3428,6 +3428,28 @@
 803340 [Gauntlet Spell] Refined Teleport
 803341 [Gauntlet Spell] Soul Eruption
 803342 [Gauntlet Spell] Soul Explosion
+803343 [Gauntlet Spell] Crystal Orb
+803344 [Gauntlet Spell] Explosive Crystal Orb
+803345 [Gauntlet Spell] Geyser
+803346 [Gauntlet Spell] Great Geyser
+803347 [Gauntlet Spell] Drizzle
+803348 [Gauntlet Spell] Lingering Drizzle
+803349 [Gauntlet Spell] Pulsating Mud
+803350 [Gauntlet Spell] Bloodthirsty Pulsating Mud
+803351 [Gauntlet Spell] Black Star
+803352 [Gauntlet Spell] Adjacent Black Star
+803353 [Gauntlet Spell] Lightning Orb
+803354 [Gauntlet Spell] Lingering Lightning Orb
+803355 [Gauntlet Spell] Whirlwind
+803356 [Gauntlet Spell] Lingering Whirlwind
+803357 [Gauntlet Spell] Blast Wave
+803358 [Gauntlet Spell] Distant Blast Wave
+803359 [Gauntlet Spell] Blood Sacrifice
+803360 [Gauntlet Spell] Bloodthirsty Sacrifice
+803361 [Gauntlet Spell] Blood Resonance
+803362 [Gauntlet Spell] Bloodthirsty Resonance
+803363 [Gauntlet Spell] Blood Orb
+803364 [Gauntlet Spell] Lingering Blood Orb
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal

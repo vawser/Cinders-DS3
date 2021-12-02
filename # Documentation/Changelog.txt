@@ -101,6 +101,8 @@ Finish following weapons:
 # Spells
 - Pungent Blade is now a Pyromancy.
 - Removed the sound/VFX that occurs under a spell summon.
+- Reduced the damage of Fire Surge and Lightning Surge to 40.
+- Reduced the FP cost of Lightning Surge to 10.
 
 - Added new spells:
  - Sorceries:
@@ -134,7 +136,7 @@ Finish following weapons:
 # Items
 - Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
 - Changed the animation use of Rouge/Crimson Water to Consumable.
-- Added on use visual effects to some consumable items.
+- Added on use and ongoing visual effects to some consumable items.
 
 # Bosses
 - Moved the Marauder into the Lonely Hollow area.
