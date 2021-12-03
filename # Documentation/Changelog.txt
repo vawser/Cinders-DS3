@@ -67,8 +67,11 @@ Finish following weapons:
 - Added Chef class.
 - Added Crab King class.
 - Added Forgotten Knight class.
+- Added Monk class.
 - Added Reaper class.
+- Added Swordsman class.
 - Tweaked Acolyte class, now Dragon Knight class.
+- Tweaked Captain class.
 - Tweaked Cleric spells.
 - Tweaked Herald stats, changed spells.
 - Tweaked Heretic stats to mirror new Skeptic stats.
