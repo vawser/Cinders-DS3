@@ -5561,7 +5561,7 @@ Event(20008030, Restart, function(X0_4) {
 });
 
 //----------------------------------------------
-// Spawn Control - Curse of Attraction (old)
+// Spawn Control - UNUSED
 //----------------------------------------------
 Event(20008040, Restart, function(X0_4) {
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000005);
@@ -6382,7 +6382,7 @@ Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 });
 
 //----------------------------------------------
-// Curse - Spawn Control (Curse of Attraction)
+// Curse - Curse of Attraction
 // <entity id>, <trigger flag>
 //----------------------------------------------
 Event(20081000, Restart, function(X0_4, X4_4) {

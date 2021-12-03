@@ -184,6 +184,9 @@ Finish following weapons:
 - Filianore's Rest
  - Added roaming Fallen Abominations in the dunes after Slave Knight Gael is defeated.
 
+- High Wall
+ - Moved the Irithyll Knight into the back area of the Consumed Gardens.
+
 # Bugfixes
 - Fixed duplicate localization keys causing some descriptions to be broken.
 - Adjusted some weapon moves so flat damage addition doesn't cause them to rebound.
@@ -222,3 +225,7 @@ c7823 Crystal Lizard (Moonlight)
 c7824 Crystal Lizard (Ice)
 c7825 Crystal Lizard (Golden)
 c7826 Crystal Lizard (Cursed)
+
+Client:
+ Saw Pilgrims, but had timelost phantom form
+ Saw all enemies in Memory
