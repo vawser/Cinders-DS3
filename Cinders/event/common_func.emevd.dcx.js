@@ -5458,6 +5458,8 @@ Event(20008000, Restart, function(X0_4, X4_1, X8_4) {
 // NG+ Enemies
 //----------------------------------------------
 Event(20008001, Restart, function(X0_4, X4_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -5481,6 +5483,8 @@ Event(20008001, Restart, function(X0_4, X4_1) {
 // NG+ Rings - Abyss Watchers
 //----------------------------------------------
 Event(20008002, Restart, function(X0_4, X4_1, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -5509,6 +5513,8 @@ Event(20008002, Restart, function(X0_4, X4_1, X8_4) {
 // Spawn Control - Event Flag
 //----------------------------------------------
 Event(20008010, Restart, function(X0_4, X4_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -5532,6 +5538,8 @@ Event(20008010, Restart, function(X0_4, X4_4) {
 // Spawn Control - NG+ and Event Flag
 //----------------------------------------------
 Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X8_1);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
@@ -5556,6 +5564,8 @@ Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
 // Spawn Control - Disable By Default
 //----------------------------------------------
 Event(20008030, Restart, function(X0_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
 });
@@ -5564,6 +5574,8 @@ Event(20008030, Restart, function(X0_4) {
 // Spawn Control - Curse of Attraction (old)
 //----------------------------------------------
 Event(20008040, Restart, function(X0_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000005);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -5587,6 +5599,8 @@ Event(20008040, Restart, function(X0_4) {
 // Spawn Control - OTE - With Itemlot
 //----------------------------------------------
 Event(20008100, Default, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
@@ -5604,6 +5618,8 @@ Event(20008100, Default, function(X0_4, X4_4, X8_4) {
 // Spawn Control - OTE - NG+ - With Itemlot
 //----------------------------------------------
 Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X12_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -5630,6 +5646,8 @@ Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
 // Spawn Control - OTE - Event Flag - With Itemlot
 //----------------------------------------------
 Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -5656,6 +5674,8 @@ Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // Spawn Control - OTE - No Itemlot
 //----------------------------------------------
 Event(20008150, Default, function(X0_4, X4_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
     
     ChangeCharacterEnableState(X4_4, Disabled);
@@ -5674,6 +5694,8 @@ Event(20008150, Default, function(X0_4, X4_4) {
 // Warp Enemy to Player
 //------------------------
 Event(20008160, Restart, function(X0_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfCharacterHasSpEffect(MAIN, X0_4, 160500530, true, ComparisonType.Equal, 1);
     IssueShortWarpRequest(X0_4, TargetEntityType.Character, 10000, 270);
     
@@ -5773,6 +5795,7 @@ Event(20008206, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, 
 //----------------------------------------------
 Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X16_4);
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
@@ -5786,6 +5809,7 @@ Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
 //----------------------------------------------
 Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
@@ -5799,6 +5823,7 @@ Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
 //----------------------------------------------
 Event(20008205, Restart, function(X0_4, X4_4, X8_1, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     SendAllPhantomsHome(0);
     WaitFixedTimeSeconds(1);
@@ -5823,6 +5848,7 @@ Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
 //----------------------------------------------
 Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
@@ -5837,6 +5863,7 @@ Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
 //----------------------------------------------
 Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     IfActionButtonInArea(MAIN, X4_4, X0_4);
     SetEventFlag(X16_4, OFF);
     RotateCharacter(10000, X0_4, 91040, false);
@@ -5851,6 +5878,8 @@ Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
 // <object id>, <game cycle value>
 //----------------------------------------------
 Event(20009000, Default, function(X0_4, X4_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfGameCycle(AND_01, ComparisonType.Equal, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
     DeactivateObject(X0_4, Disabled);
@@ -5866,6 +5895,8 @@ Event(20009000, Default, function(X0_4, X4_1) {
 // <object id>, <game cycle value>
 //----------------------------------------------
 Event(20009100, Default, function(X0_4, X4_1) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfGameCycle(AND_01, ComparisonType.GreaterOrEqual, X4_1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
     DeactivateObject(X0_4, Disabled);
@@ -6210,6 +6241,8 @@ Event(20020134, Default, function() {
 // <entity id>, <warp point id>, <trigger region id>, <ffx id>, <dummy poly id>
 //----------------------------------------------
 Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfInoutsideArea(OR_01, InsideOutsideState.Inside, X0_4, X8_4, 1)
     IfConditionGroup(MAIN, PASS, OR_01);
     
@@ -6228,6 +6261,8 @@ Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // <entity id>, <object id>, <action param id>, <warp point id>, <ffx id>, <dummy poly id>
 //----------------------------------------------
 Event(20021001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfActionButtonInArea(OR_01, X8_4, X4_4);
     IfConditionGroup(MAIN, PASS, OR_01);
     
@@ -6246,6 +6281,8 @@ Event(20021001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
 // <entity id>, <warp point id>, <target id>, <ffx id>, <dummy poly id>
 //----------------------------------------------
 Event(20021002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfCharacterDamagedBy(OR_01, X8_4, X0_4);
     IfConditionGroup(MAIN, PASS, OR_01);
     
@@ -6264,6 +6301,8 @@ Event(20021002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // <entity id>, <warp point id>, <trigger region id>
 //----------------------------------------------
 Event(20021005, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfInoutsideArea(OR_01, InsideOutsideState.Inside, X0_4, X8_4, 1)
     IfConditionGroup(MAIN, PASS, OR_01);
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X4_4, -1, X0_4);
@@ -6278,6 +6317,7 @@ Event(20021005, Restart, function(X0_4, X4_4, X8_4) {
 //----------------------------------------------
 Event(20040000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
     SetNetworkSyncState(Disabled);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
     CreateObjectfollowingSFX(X0_4, 200, X8_4);
@@ -6306,6 +6346,8 @@ Event(20050010, Restart, function(X0_4, X4_4, X8_4) {
 // Check Player Death for Firelink Return
 //----------------------------------------------
 Event(20060001, Restart, function() {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     SetMapCeremony(40, 0, 0);
 });
@@ -6386,6 +6428,8 @@ Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // <entity id>, <trigger flag>
 //----------------------------------------------
 Event(20081000, Restart, function(X0_4, X4_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -6411,6 +6455,8 @@ Event(20081000, Restart, function(X0_4, X4_4) {
 // <entity id>, <trigger flag>
 //----------------------------------------------
 Event(20081001, Restart, function(X0_4, X4_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
@@ -6422,6 +6468,8 @@ Event(20081001, Restart, function(X0_4, X4_4) {
 // <entity id>, <speffect id>, <trigger flag>
 //----------------------------------------------
 Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
     
@@ -6436,6 +6484,8 @@ Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
 // <entity id>, <speffect id>, <trigger flag>
 //----------------------------------------------
 Event(20081011, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
     SetSpeffect(X0_4, X4_4);
     EndUnconditionally(EventEndType.Restart);
@@ -6446,6 +6496,8 @@ Event(20081011, Restart, function(X0_4, X4_4, X8_4) {
 // <entity id>, <speffect id>, <trigger flag>
 //----------------------------------------------
 Event(20081020, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetSpeffect(X0_4, X8_4);
@@ -6462,6 +6514,8 @@ Event(20081020, Restart, function(X0_4, X4_4, X8_4) {
 // <entity id>, <itemlot id>, <speffect id>
 //----------------------------------------------
 Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     
     WaitFixedTimeSeconds(5);
@@ -6509,6 +6563,8 @@ Event(20005353, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // <entity id>
 //----------------------------------------------
 Event(20081030, Default, function(X0_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterGravity(X0_4, Disabled);
     ChangeCharacterDispmask(X0_4, 0, OFF);
@@ -6587,6 +6643,8 @@ Event(20081100, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // <disabled flag>, <entity id>, <anim id>
 //----------------------------------------------
 Event(20081200, Default, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     ForceAnimationPlayback(X4_4, X8_4, false, false, false, 0, 1);
     EndUnconditionally(EventEndType.End);
@@ -6597,6 +6655,8 @@ Event(20081200, Default, function(X0_4, X4_4, X8_4) {
 // <disabled flag>, <entity id>, <anim id>
 //----------------------------------------------
 Event(20081210, Default, function(X0_4, X4_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     SetCharacterAIState(X4_4, Disabled);
     
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
@@ -6624,6 +6684,8 @@ Event(20081210, Default, function(X0_4, X4_4) {
 // <sent flag>, <entity id>
 //----------------------------------------------
 Event(20081220, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
@@ -6638,6 +6700,8 @@ Event(20081220, Restart, function(X0_4, X4_4, X8_4) {
 // <sent flag>, <entity id>
 //----------------------------------------------
 Event(20081230, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     
     SetCharacterAIState(X4_4, Disabled);
@@ -6656,6 +6720,8 @@ Event(20081230, Restart, function(X0_4, X4_4, X8_4) {
 // <sent flag>, <entity id>
 //----------------------------------------------
 Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
     
     SetCharacterAIState(X4_4, Disabled);
@@ -6676,6 +6742,8 @@ Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>
 //----------------------------------------------
 Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     
@@ -6714,6 +6782,8 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <conditional flag>
 //----------------------------------------------
 Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     
@@ -6768,7 +6838,7 @@ Event(20090020, Default, function(X0_4, X4_4) {
 // <obj id>, <summoned flag>, <boss flag>, <action param>
 //-------------------------------------------
 Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    SetNetworkSyncState(Disabled);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
     
     // Reset summoned flag
     SetEventFlag(X4_4, OFF);
@@ -6800,7 +6870,8 @@ Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // <entity id>, <summoned flag>, <gesture>, <msg>
 //-------------------------------------------
 Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    SetNetworkSyncState(Disabled);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     // Disable by default
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
@@ -6896,11 +6967,11 @@ Event(20090103, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // <summon flag>, <entity id>, <betrayer entity id>, <hp value>, 
 //-------------------------------------------
 Event(20090104, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     ChangeCharacterEnableState(X8_4, Disabled);
     SetCharacterAnimationState(X8_4, Disabled);
     SetCharacterAIState(X8_4, Disabled);
-    
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
     
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -6931,6 +7002,8 @@ Event(20090104, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // NPC - Talk Toggle
 //----------------------------------------------
 Event(20090300, Default, function(X0_4, X4_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfCharacterDamagedBy(AND_01, X0_4, 10000);
     IfConditionGroup(MAIN, PASS, AND_01);
     
@@ -6942,6 +7015,8 @@ Event(20090300, Default, function(X0_4, X4_4) {
 // <gesture speffect>, <trigger ID>, <itemlot>, <item flag>
 // ----------------------------------------
 Event(20090400, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X12_4);
     
     IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
@@ -6958,6 +7033,8 @@ Event(20090400, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // <trigger zone id>, <SpEffect ID>
 // ----------------------------------------
 Event(20090500, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X0_4, 1);
     SetSpeffect(10000, X4_4);
     WaitFixedTimeSeconds(0.8);
@@ -7006,6 +7083,8 @@ Event(20090800, Restart, function(X0_4) {
 // <id>
 // ----------------------------------------
 Event(20090810, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     var flag_GauntletMode = 25009813;
     
     // Disable Gauntlet fogwalls
@@ -7043,6 +7122,8 @@ Event(20090810, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // This handles forced desummoning for a spell summon
 //----------------------------------------------
 Event(20080000, Restart, function(X0_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     // Check if the companion has none of the activity timers
     IfCharacterHasSpeffect(AND_01, X0_4, 160761600, false, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -7065,6 +7146,8 @@ Event(20080000, Restart, function(X0_4) {
 // Spell Summon - Bonfire Rest
 //----------------------------------------------
 Event(20080001, Restart, function(X0_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     // Reset activity timers if the player rests at a bonfire
     ClearSpeffect(X0_4, 160761600);
 });
@@ -7073,14 +7156,14 @@ Event(20080001, Restart, function(X0_4) {
 // Spell Summon - Suppress desummon VFX/Sound after bonfire rest
 //----------------------------------------------
 Event(20080005, Restart, function(X0_4) {
-    
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
 });
 
 //----------------------------------------------
 // Spell Summon - 
 //----------------------------------------------
 Event(20080006, Restart, function(X0_4) {
-    
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
 });
 
 //----------------------------------------------
@@ -7088,7 +7171,7 @@ Event(20080006, Restart, function(X0_4) {
 // <entity id>, <trigger speffect>, <level scaling speffect>, <map id>, <block id>
 //----------------------------------------------
 Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
     
     IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
     IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
@@ -7160,6 +7243,8 @@ Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
 // This handles the interaction spells have with a spell summon
 //----------------------------------------------
 Event(20080002, Restart, function(X0_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     // If Spell Summon isn't active, just jump to loop restart.
     IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
@@ -7206,6 +7291,8 @@ Event(20080002, Restart, function(X0_4) {
 // This handles the ring effects that boost a Spell Summon
 //----------------------------------------------
 Event(20080003, Restart, function(X0_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     var entity_Companion = X0_4;
 
     //------------------------
@@ -7257,6 +7344,8 @@ Event(20080003, Restart, function(X0_4) {
 // <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>
 //----------------------------------------------
 Event(20085000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     // Skip FFX if -1 is arg
     SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
     SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
@@ -7272,6 +7361,8 @@ Event(20085000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>, <debuff id>, <debuff msg>
 //----------------------------------------------
 Event(20085001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     // Skip FFX if -1 is arg
     SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
     SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
@@ -7307,6 +7398,8 @@ Event(20085001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
 // <entity id>, <action id>, <sfx id>
 //----------------------------------------------
 Event(20085002, Restart, function(X0_4, X4_4, X8_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     // Skip FFX if -1 is arg
     SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
     SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
@@ -7358,6 +7451,8 @@ Event(20085002, Restart, function(X0_4, X4_4, X8_4) {
 // <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>, <debuff id>, <debuff msg>, <covenant speffect>
 //----------------------------------------------
 Event(20085003, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     // Skip FFX if -1 is arg
     SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
     SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
@@ -7381,6 +7476,8 @@ Event(20085003, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // InitializeCommonEvent(20086000, 14001620, 4001620, 4004620, 4000620, 280002020); // Poison Cloud
 //------------------------
 Event(20086000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
     
     // Used chest
@@ -7406,6 +7503,8 @@ Event(20086000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // <used flag>, <object id>, <ObjAct id>, <enemy 1 id>, <enemy 2 id>, <enemy 3 id>, 
 //------------------------
 Event(20086001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     SkipIfComparison(3, ComparisonType.Equal, X12_4, -1);
     ChangeCharacterEnableState(X12_4, Disabled);
     SetCharacterAnimationState(X12_4, Disabled);
@@ -7462,6 +7561,8 @@ Event(20086001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
 // InitializeCommonEvent(20086002, 14001620, 4001620, 4004620, 4000621, 4000622, 4000623, 700, 1700); // Skeletons
 //------------------------
 Event(20086002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     SetCharacterAnimationState(X12_4, Disabled);
     SetCharacterAIState(X12_4, Disabled);
     ForceAnimationPlayback(X12_4, X24_4, true, false, false, 0, 1);
@@ -7509,6 +7610,8 @@ Event(20086002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // Enable Wave Enemy
 //------------------------
 Event(20087100, Restart, function(X0_4) {
+    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
+    
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
