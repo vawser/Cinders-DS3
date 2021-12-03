@@ -158,8 +158,7 @@ Finish following weapons:
 
 # NPC
 - Solaire of Astora now has the Strengthen Covenant functionality.
-- Increased the damage scalar of several intruders.
-- Increased the spell damage of several intruders.
+- Increased the damage scalar of a few early game intruders so their damage output isn't so low.
 
 # Memories
 - Made the baseline damage of enemies lower.
@@ -220,4 +219,3 @@ c7823 Crystal Lizard (Moonlight)
 c7824 Crystal Lizard (Ice)
 c7825 Crystal Lizard (Golden)
 c7826 Crystal Lizard (Cursed)
-
