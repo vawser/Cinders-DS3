@@ -5035,9 +5035,14 @@ function ExecDamage(is_parry, is_attackwhileguard)
     
     -- Fake Poise System --
     if env(1007) == TRUE then -- IsCOMPlayer
-        if is_damaged == TRUE then -- Is hit
+        if is_damaged == TRUE and damage_level ~= DAMAGE_LEVEL_NONE then -- Is hit by attack that isn't set to Damage Level 0
             -- Skip if already in stagger state
             if env(1116, 112300) == FALSE then 
+                -- No Stagger Threshold
+                if env(1116, 112351) == FALSE and env(1116, 112352) == FALSE and env(1116, 112353) == FALSE then
+                    act(2002, 112300) -- Easy stagger
+                end
+                
                 -- Stagger Threshold: 1
                 if env(1116, 112351) == TRUE then
                     if env(1116, 112301) == FALSE then
