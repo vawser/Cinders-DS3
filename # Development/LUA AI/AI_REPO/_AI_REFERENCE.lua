@@ -1080,6 +1080,21 @@ function NPC_EXAMPLE_Act65(self, ai, goal)
 end
 
 -------------------------
+-- Misc
+-------------------------
+-- Approach Local Player
+function NPC_EXAMPLE_Act70(self, ai, goal)
+    if self:HasSpecialEffectId(TARGET_SELF, 5034) or isFindTarget == false then
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 2, TARGET_LOCALPLAYER, 4, TARGET_SELF, false, -1)
+    else
+        ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 2, TARGET_LOCALPLAYER, 8, TARGET_SELF, false, -1)
+    end
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-------------------------
 -- Act After
 -------------------------
 function NPC_EXAMPLE_ActAfter_AdjustSpace(self, ai, goal)

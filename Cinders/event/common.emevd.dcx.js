@@ -3655,7 +3655,9 @@ Event(20060, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    SetEventFlag(25000206, OFF); // Debug flag
+    ChangeCharacterEnableState(4000899, Enabled);
+    SetCharacterAnimationState(4000899, Enabled);
+    SetCharacterAIState(4000899, Enabled);
     
     EndUnconditionally(EventEndType.Restart);
 });
