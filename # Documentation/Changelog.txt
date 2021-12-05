@@ -56,7 +56,7 @@ Finish following weapons:
 
 # Lost Cat
 - Shield Catalyst - Loch Shield/Disc Chime/Sanctum Shield/Vessel Shield
-- Finish Alternate CGS/Washing Pole/Nil Bow & Blade/Ivory King UGS.
+- Finish Kirkhammer/Sunlight GS/Serpentine Chain-axe.
 
 #------------------------------
 # Changelog
@@ -89,7 +89,7 @@ Finish following weapons:
 - Added Curse inflict as a visible value in the menu to weapons that have it.
 
 # Weapons
-- Added i-frames during certain animation for Silver Knight Straight Sword & Beasthunter Saif.
+- Added i-frames during certain animation for Silver Knight Straight Sword, Short Bow & Beasthunter Saif.
 - Adjusted the stat requirements for the Hex catalysts.
 - Increased root motion for several weapon:
  - Silver Knight Straight Sword - Weapon Art Light Follow-up
@@ -100,6 +100,24 @@ Finish following weapons:
 - Increased damage & decreased stamina costs for Lance's running R1 attack.
 - Lance's fully charged R2 is now consists of six attacks/uncharged R2 is now consists of four attacks.
 - Added burning model to Fire infused Fume Slated Swords.
+- Meat Cleaver and Server now restore 1.5% HP per hit.
+- Bloodlust and Bewitched Alonne Sword now consumed 10% of the max hp per weapon art usage.
+- Bewitched Alonne Sword's Seppuku now lasts 45 seconds and inflict curses per attack.
+- Demon's Axe and Demon King's Greataxe Weapon Art now grant bonus fire damage like Boom Hammer.
+- Change moveset for the below weapon:
+ - Curved Greatsword
+  - Server (Spin Slash)
+  - Pontiff Knight Greatsword (Frost Blade)
+  - Carthus Curved Greatsword (Spin Slash)
+
+ - Ultra Greatsword
+  - Ivory King Ultra Greatsword (Ivory King's Valor)
+
+ - Katana
+  - Washing Pole (Tsubame Gaeshi)
+
+ - Curved Sword
+  - Nil Bow and Blade (Retreating Attack), now a paired weapon.
 
 # Spells
 - Pungent Blade is now a Pyromancy.
@@ -109,6 +127,7 @@ Finish following weapons:
 - Reduced the FP cost of Lightning Surge to 10.
 - Changed Explosive Soul Spear to Swift Soul Spear.
 - Increased FP cost of Soul Eruption to 100.
+- Chaos Beam now penetrates map.
 
 - Added new spells:
  - Sorceries:
@@ -203,6 +222,7 @@ Finish following weapons:
 - Removed the sound effect that occurs when Benjin is disabled in Undead Settlement.
 - Fixed Teleport not working correctly when not at 99 casting speed. It will now teleport you properly irrespective of casting speed.
 - Fixed Mournful Flames' description.
+- Restored Eleonora's lifesteal VFX.
 
 #------------------------------
 # TODO
