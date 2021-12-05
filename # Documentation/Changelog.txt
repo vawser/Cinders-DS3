@@ -206,6 +206,12 @@ Finish following weapons:
 - High Wall
  - Moved the Irithyll Knight into the back area of the Consumed Gardens.
 
+- Smouldering Lake
+ - Changed the upper rocky area in Smouldering Lake: now has demon corpses and a archtree stump instead of a tower
+  - Moved Helia of the Lake near to the stump.
+  - Added a Black Knight next to a Demon Firesage corpse.
+ - The Ballista is now disabled by default.
+ 
 # Bugfixes
 - Fixed duplicate localization keys causing some descriptions to be broken.
 - Adjusted some weapon moves so flat damage addition doesn't cause them to rebound.
