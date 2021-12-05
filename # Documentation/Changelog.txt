@@ -212,6 +212,11 @@ Finish following weapons:
   - Added a Black Knight next to a Demon Firesage corpse.
  - The Ballista is now disabled by default.
  
+- Untended Graves 
+ - Changed the approach to Champion Gundyr
+  - Now has a few more coffin objects
+  - Removed the weak Undead Clerics, now there are 2 Black Knights.
+ 
 # Bugfixes
 - Fixed duplicate localization keys causing some descriptions to be broken.
 - Adjusted some weapon moves so flat damage addition doesn't cause them to rebound.
@@ -229,6 +234,7 @@ Finish following weapons:
 - Fixed Teleport not working correctly when not at 99 casting speed. It will now teleport you properly irrespective of casting speed.
 - Fixed Mournful Flames' description.
 - Restored Eleonora's lifesteal VFX.
+- Fixed Sword Master phantom not using friendly battle goal.
 
 #------------------------------
 # TODO
