@@ -239,27 +239,5 @@ Finish following weapons:
 #------------------------------
 # TODO
 #------------------------------
-Add Gatling Gun
 Add Solaire as summon to Soul of Cinder
-Add unreachable item handling for OTK enemies that don't award loot directly: mimics, some NPCs.
 
-c1060 Black Dragon Knight       c1300 (Black Knight)        # Black Dragon Knight - Greatsword
-c1061 Black Dragon Knight       c6020 (Friede)              # Black Dragon Knight - Paired Warpick
-c1062 Black Dragon Knight       c1250 (Grave Warden)        # Black Dragon Knight - Paired Sword
-c1063 Black Dragon Knight       c6260 (Ringed Knight)       # Black Dragon Knight - Paired Greatsword
-c1064 Black Dragon Knight       c1410 (Silver Knight)       # Black Dragon Knight - Greatbow/Sword
-c1065 Black Dragon Knight       c1290 (Winged Knight)       # Black Dragon Knight - Greataxe (Halberd)
-
-c7820 Crystal Lizard (White)
-c7821 Crystal Lizard (Red)
-c7822 Crystal Lizard (Purple)
-c7823 Crystal Lizard (Moonlight)
-c7824 Crystal Lizard (Ice)
-c7825 Crystal Lizard (Golden)
-c7826 Crystal Lizard (Cursed)
-
-Client:
- Saw Pilgrims, but had timelost phantom form
- Saw all enemies in Memory
- 
-160803050
