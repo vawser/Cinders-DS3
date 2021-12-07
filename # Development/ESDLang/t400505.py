@@ -242,18 +242,24 @@ def t400505_x30():
         # Weapon Emission
         AddTalkListData(1, 15003100, -1)
         
+        # Head Emission
+        AddTalkListData(2, 15003107, -1)
+        
         # Body Emission
-        AddTalkListData(2, 15003103, -1)
+        AddTalkListData(3, 15003103, -1)
         
         # Eye Emission
-        AddTalkListData(3, 15003104, -1)
+        AddTalkListData(4, 15003104, -1)
         
         # Body Aura
-        AddTalkListData(4, 15003105, -1)
+        AddTalkListData(5, 15003105, -1)
         
         # Humanity Aura
-        AddTalkListData(5, 15003106, -1)
+        AddTalkListData(6, 15003106, -1)
         
+        # Clear Transformations
+        AddTalkListData(10, 15003110, -1)
+
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -264,22 +270,31 @@ def t400505_x30():
         if GetTalkListEntryResult() == 1:
             assert t400505_x31()
             continue
-        # Body Emission
+        # Head Emission
         elif GetTalkListEntryResult() == 2:
+            assert t400505_x44()
+            continue
+        # Body Emission
+        elif GetTalkListEntryResult() == 3:
             assert t400505_x40()
             continue
         # Eye Emission
-        elif GetTalkListEntryResult() == 3:
+        elif GetTalkListEntryResult() == 4:
             assert t400505_x41()
             continue
         # Body Aura
-        elif GetTalkListEntryResult() == 4:
+        elif GetTalkListEntryResult() == 5:
             assert t400505_x42()
             continue
         # Humanity Aura
-        elif GetTalkListEntryResult() == 5:
+        elif GetTalkListEntryResult() == 6:
             assert t400505_x43()
             continue
+        # Clear Transformations
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(25007398, 1)
+            assert t400505_x50(15003121)
+            return 0
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -418,7 +433,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003121)
-            return 0
+            continue
         # Magic
         elif GetTalkListEntryResult() == 2:
             SetEventState(25007100, 1)
@@ -440,7 +455,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Fire
         elif GetTalkListEntryResult() == 3:
             SetEventState(25007100, 0)
@@ -462,7 +477,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Lightning
         elif GetTalkListEntryResult() == 4:
             SetEventState(25007100, 0)
@@ -484,7 +499,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Abyss
         elif GetTalkListEntryResult() == 5:
             SetEventState(25007100, 0)
@@ -506,7 +521,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Poison
         elif GetTalkListEntryResult() == 6:
             SetEventState(25007100, 0)
@@ -528,7 +543,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Blood
         elif GetTalkListEntryResult() == 7:
             SetEventState(25007100, 0)
@@ -550,7 +565,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Frost
         elif GetTalkListEntryResult() == 8:
             SetEventState(25007100, 0)
@@ -572,7 +587,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Moonlight
         elif GetTalkListEntryResult() == 9:
             SetEventState(25007100, 0)
@@ -594,7 +609,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Divine
         elif GetTalkListEntryResult() == 10:
             SetEventState(25007100, 0)
@@ -616,7 +631,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Black Fire
         elif GetTalkListEntryResult() == 11:
             SetEventState(25007100, 0)
@@ -638,7 +653,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Bolt
         elif GetTalkListEntryResult() == 12:
             SetEventState(25007100, 0)
@@ -660,7 +675,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Sunlight
         elif GetTalkListEntryResult() == 13:
             SetEventState(25007100, 0)
@@ -682,7 +697,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Enchanted
         elif GetTalkListEntryResult() == 14:
             SetEventState(25007100, 0)
@@ -704,7 +719,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Scorched
         elif GetTalkListEntryResult() == 15:
             SetEventState(25007100, 0)
@@ -726,7 +741,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Rotten
         elif GetTalkListEntryResult() == 16:
             SetEventState(25007100, 0)
@@ -748,7 +763,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Wind
         elif GetTalkListEntryResult() == 17:
             SetEventState(25007100, 0)
@@ -770,7 +785,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Psychedelic
         elif GetTalkListEntryResult() == 18:
             SetEventState(25007100, 0)
@@ -792,7 +807,7 @@ def t400505_x32():
             SetEventState(25007116, 1)
             SetEventState(25007117, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Brume
         elif GetTalkListEntryResult() == 19:
             SetEventState(25007100, 0)
@@ -814,7 +829,7 @@ def t400505_x32():
             SetEventState(25007116, 0)
             SetEventState(25007117, 1)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -916,7 +931,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003121)
-            return 0
+            continue
         # Magic
         elif GetTalkListEntryResult() == 2:
             SetEventState(25007130, 1)
@@ -938,7 +953,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Fire
         elif GetTalkListEntryResult() == 3:
             SetEventState(25007130, 0)
@@ -960,7 +975,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Lightning
         elif GetTalkListEntryResult() == 4:
             SetEventState(25007130, 0)
@@ -982,7 +997,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Abyss
         elif GetTalkListEntryResult() == 5:
             SetEventState(25007130, 0)
@@ -1004,7 +1019,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Poison
         elif GetTalkListEntryResult() == 6:
             SetEventState(25007130, 0)
@@ -1026,7 +1041,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Blood
         elif GetTalkListEntryResult() == 7:
             SetEventState(25007130, 0)
@@ -1048,7 +1063,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Frost
         elif GetTalkListEntryResult() == 8:
             SetEventState(25007130, 0)
@@ -1070,7 +1085,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Moonlight
         elif GetTalkListEntryResult() == 9:
             SetEventState(25007130, 0)
@@ -1092,7 +1107,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Divine
         elif GetTalkListEntryResult() == 10:
             SetEventState(25007130, 0)
@@ -1114,7 +1129,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Black Fire
         elif GetTalkListEntryResult() == 11:
             SetEventState(25007130, 0)
@@ -1136,7 +1151,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Bolt
         elif GetTalkListEntryResult() == 12:
             SetEventState(25007130, 0)
@@ -1158,7 +1173,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Sunlight
         elif GetTalkListEntryResult() == 13:
             SetEventState(25007130, 0)
@@ -1180,7 +1195,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Enchanted
         elif GetTalkListEntryResult() == 14:
             SetEventState(25007130, 0)
@@ -1202,7 +1217,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Scorched
         elif GetTalkListEntryResult() == 15:
             SetEventState(25007130, 0)
@@ -1224,7 +1239,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Rotten
         elif GetTalkListEntryResult() == 16:
             SetEventState(25007130, 0)
@@ -1246,7 +1261,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Wind
         elif GetTalkListEntryResult() == 17:
             SetEventState(25007130, 0)
@@ -1268,7 +1283,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Psychedelic
         elif GetTalkListEntryResult() == 18:
             SetEventState(25007130, 0)
@@ -1290,7 +1305,7 @@ def t400505_x33():
             SetEventState(25007146, 1)
             SetEventState(25007147, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Brume
         elif GetTalkListEntryResult() == 19:
             SetEventState(25007130, 0)
@@ -1312,7 +1327,7 @@ def t400505_x33():
             SetEventState(25007146, 0)
             SetEventState(25007147, 1)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -1333,8 +1348,8 @@ def t400505_x40():
         # None
         AddTalkListData(1, 15003200, -1)
         
-        # Mass of Humanity
-        AddTalkListData(2, 15003300, -1)
+        # UNUSED
+        # AddTalkListData(2, 15003300, -1)
 
         # Magical Crystals
         AddTalkListData(3, 15003301, -1)
@@ -1414,8 +1429,8 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003121)
-            return 0
-        # Mass of Humanity
+            continue
+        # UNUSED
         elif GetTalkListEntryResult() == 2:
             SetEventState(25007200, 1)
             SetEventState(25007201, 0)
@@ -1436,7 +1451,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Magical Crystals
         elif GetTalkListEntryResult() == 3:
             SetEventState(25007200, 0)
@@ -1458,7 +1473,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Invisibility
         elif GetTalkListEntryResult() == 4:
             SetEventState(25007200, 0)
@@ -1480,7 +1495,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Stoneform
         elif GetTalkListEntryResult() == 5:
             SetEventState(25007200, 0)
@@ -1502,7 +1517,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Maggots
         elif GetTalkListEntryResult() == 6:
             SetEventState(25007200, 0)
@@ -1524,7 +1539,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Lightning
         elif GetTalkListEntryResult() == 7:
             SetEventState(25007200, 0)
@@ -1546,7 +1561,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # White Stars
         elif GetTalkListEntryResult() == 8:
             SetEventState(25007200, 0)
@@ -1568,7 +1583,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Prismatic Stars
         elif GetTalkListEntryResult() == 9:
             SetEventState(25007200, 0)
@@ -1590,7 +1605,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Corrupted Crystals
         elif GetTalkListEntryResult() == 10:
             SetEventState(25007200, 0)
@@ -1612,7 +1627,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Dung
         elif GetTalkListEntryResult() == 11:
             SetEventState(25007200, 0)
@@ -1634,7 +1649,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Barrier Wards
         elif GetTalkListEntryResult() == 12:
             SetEventState(25007200, 0)
@@ -1656,7 +1671,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Poison
         elif GetTalkListEntryResult() == 13:
             SetEventState(25007200, 0)
@@ -1678,7 +1693,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Frost
         elif GetTalkListEntryResult() == 14:
             SetEventState(25007200, 0)
@@ -1700,7 +1715,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Flame
         elif GetTalkListEntryResult() == 15:
             SetEventState(25007200, 0)
@@ -1722,7 +1737,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Dust
         elif GetTalkListEntryResult() == 16:
             SetEventState(25007200, 0)
@@ -1744,7 +1759,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Water
         elif GetTalkListEntryResult() == 17:
             SetEventState(25007200, 0)
@@ -1766,7 +1781,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Holy
         elif GetTalkListEntryResult() == 18:
             SetEventState(25007200, 0)
@@ -1788,7 +1803,7 @@ def t400505_x40():
             SetEventState(25007216, 1)
             SetEventState(25007217, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Smouldering
         elif GetTalkListEntryResult() == 19:
             SetEventState(25007200, 0)
@@ -1810,7 +1825,7 @@ def t400505_x40():
             SetEventState(25007216, 0)
             SetEventState(25007217, 1)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -1846,6 +1861,12 @@ def t400505_x41():
         # Golden Glow
         AddTalkListData(6, 15003404, -1)
         
+        # Green Glow
+        AddTalkListData(7, 15003405, -1)
+        
+        # Purple Glow
+        AddTalkListData(8, 15003406, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -1859,8 +1880,10 @@ def t400505_x41():
             SetEventState(25007252, 0)
             SetEventState(25007253, 0)
             SetEventState(25007254, 0)
+            SetEventState(25007255, 0)
+            SetEventState(25007256, 0)
             assert t400505_x50(15003121)
-            return 0
+            continue
         # Red Glow
         elif GetTalkListEntryResult() == 2:
             SetEventState(25007250, 1)
@@ -1868,8 +1891,10 @@ def t400505_x41():
             SetEventState(25007252, 0)
             SetEventState(25007253, 0)
             SetEventState(25007254, 0)
+            SetEventState(25007255, 0)
+            SetEventState(25007256, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Burning Red Glow
         elif GetTalkListEntryResult() == 3:
             SetEventState(25007250, 0)
@@ -1877,8 +1902,10 @@ def t400505_x41():
             SetEventState(25007252, 0)
             SetEventState(25007253, 0)
             SetEventState(25007254, 0)
+            SetEventState(25007255, 0)
+            SetEventState(25007256, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # White Glow
         elif GetTalkListEntryResult() == 4:
             SetEventState(25007250, 0)
@@ -1886,8 +1913,10 @@ def t400505_x41():
             SetEventState(25007252, 1)
             SetEventState(25007253, 0)
             SetEventState(25007254, 0)
+            SetEventState(25007255, 0)
+            SetEventState(25007256, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Blue Glow
         elif GetTalkListEntryResult() == 5:
             SetEventState(25007250, 0)
@@ -1895,8 +1924,10 @@ def t400505_x41():
             SetEventState(25007252, 0)
             SetEventState(25007253, 1)
             SetEventState(25007254, 0)
+            SetEventState(25007255, 0)
+            SetEventState(25007256, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Golden Glow
         elif GetTalkListEntryResult() == 6:
             SetEventState(25007250, 0)
@@ -1904,8 +1935,32 @@ def t400505_x41():
             SetEventState(25007252, 0)
             SetEventState(25007253, 0)
             SetEventState(25007254, 1)
+            SetEventState(25007255, 0)
+            SetEventState(25007256, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
+        # Green Glow
+        elif GetTalkListEntryResult() == 7:
+            SetEventState(25007250, 0)
+            SetEventState(25007251, 0)
+            SetEventState(25007252, 0)
+            SetEventState(25007253, 0)
+            SetEventState(25007254, 0)
+            SetEventState(25007255, 1)
+            SetEventState(25007256, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Purple Glow
+        elif GetTalkListEntryResult() == 8:
+            SetEventState(25007250, 0)
+            SetEventState(25007251, 0)
+            SetEventState(25007252, 0)
+            SetEventState(25007253, 0)
+            SetEventState(25007254, 0)
+            SetEventState(25007255, 0)
+            SetEventState(25007256, 1)
+            assert t400505_x50(15003120)
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -1981,7 +2036,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 0)
             assert t400505_x50(15003121)
-            return 0
+            continue
         # Ethereal
         elif GetTalkListEntryResult() == 2:
             SetEventState(25007300, 1)
@@ -1996,7 +2051,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # White Phantom
         elif GetTalkListEntryResult() == 5:
             SetEventState(25007300, 0)
@@ -2011,7 +2066,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Darkmoon Phantom
         elif GetTalkListEntryResult() == 6:
             SetEventState(25007300, 0)
@@ -2026,7 +2081,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Holy Phantom
         elif GetTalkListEntryResult() == 7:
             SetEventState(25007300, 0)
@@ -2041,7 +2096,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Swamp Phantom
         elif GetTalkListEntryResult() == 8:
             SetEventState(25007300, 0)
@@ -2056,7 +2111,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Abyssal Phantom
         elif GetTalkListEntryResult() == 9:
             SetEventState(25007300, 0)
@@ -2071,7 +2126,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Sunlight Phantom
         elif GetTalkListEntryResult() == 10:
             SetEventState(25007300, 0)
@@ -2086,7 +2141,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Mad Phantom
         elif GetTalkListEntryResult() == 11:
             SetEventState(25007300, 0)
@@ -2101,7 +2156,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Red Phantom
         elif GetTalkListEntryResult() == 12:
             SetEventState(25007300, 0)
@@ -2116,7 +2171,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Demonic Phantom
         elif GetTalkListEntryResult() == 13:
             SetEventState(25007300, 0)
@@ -2131,7 +2186,7 @@ def t400505_x42():
             SetEventState(25007311, 1)
             SetEventState(25007312, 0)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Psychedelic Phantom
         elif GetTalkListEntryResult() == 14:
             SetEventState(25007300, 0)
@@ -2146,7 +2201,7 @@ def t400505_x42():
             SetEventState(25007311, 0)
             SetEventState(25007312, 1)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -2181,22 +2236,61 @@ def t400505_x43():
         
         # None
         if GetTalkListEntryResult() == 1:
-            SetEventState(25007301, 0)
-            SetEventState(25007302, 0)
+            SetEventState(25007350, 0)
+            SetEventState(25007351, 0)
             assert t400505_x50(15003121)
-            return 0
+            continue
         # Hollow
         elif GetTalkListEntryResult() == 2:
-            SetEventState(25007301, 1)
-            SetEventState(25007302, 0)
+            SetEventState(25007350, 0)
+            SetEventState(25007351, 1)
             assert t400505_x50(15003120)
-            return 0
+            continue
         # Human
         elif GetTalkListEntryResult() == 3:
-            SetEventState(25007301, 0)
-            SetEventState(25007302, 1)
+            SetEventState(25007350, 1)
+            SetEventState(25007351, 0)
             assert t400505_x50(15003120)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
             return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#----------------------------------------------------
+# Head Emission
+#----------------------------------------------------
+def t400505_x44():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+
+        # None
+        AddTalkListData(1, 15003200, -1)
+        
+        # Mass of Humanity
+        AddTalkListData(2, 15003700, -1)
+
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # None
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25007270, 0)
+            assert t400505_x50(15003121)
+            continue
+        # Mass of Humanity
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25007270, 1)
+            assert t400505_x50(15003120)
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()

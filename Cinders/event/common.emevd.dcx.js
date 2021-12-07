@@ -37,6 +37,7 @@ Event(0, Default, function() {
     // Visual Effects
     //--------------------
     InitializeEvent(0, 20200, 0); // Preview Mode
+    InitializeEvent(0, 20201, 0); // Clear Transformations
     InitializeEvent(0, 20210, 0); // Weapon Emission - Preview
     InitializeEvent(0, 20211, 0); // Weapon Emission - On Load
     InitializeEvent(0, 20220, 0); // Body Emission - Preview
@@ -47,6 +48,8 @@ Event(0, Default, function() {
     InitializeEvent(0, 20241, 0); // Body Aura - On Load
     InitializeEvent(0, 20250, 0); // Humanity Aura - Preview
     InitializeEvent(0, 20251, 0); // Humanity Aura - On Load
+    InitializeEvent(0, 20260, 0); // Head Emission - Preview
+    InitializeEvent(0, 20261, 0); // Head Emission - On Load
     
     //--------------------
     // Curses - Add Player Effects
@@ -5231,15 +5234,24 @@ Event(20200, Default, function() {
     IfInoutsideArea(MAIN, InsideOutsideState.Outside, 10000, 4002760, 1);
     
     SetEventFlag(25007399, ON);
+});
+
+//----------------------------------------------
+// Clear Transformations
+//----------------------------------------------
+Event(20201, Default, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007398);
     
-    DisplayEpitaphMessage(15003404);
+    BatchSetEventFlags(25007100, 25007399, OFF);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
 // Weapon Emission - Preview
 //----------------------------------------------
 Event(20210, Default, function() {
-    WaitFixedTimeSeconds(0.5);
+    WaitFixedTimeSeconds(1.0);
     
     // End once player leaves Firelink Shrine bonfire area
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25007399);
@@ -5287,15 +5299,15 @@ Event(20210, Default, function() {
     
     // Bolt
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007110);
-    SetSpEffect(10000, 160709201);
+    SetSpEffect(10000, 160709181);
     
     // Sunlight
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007111);
-    SetSpEffect(10000, 160709301);
+    SetSpEffect(10000, 160709171);
     
     // Enchanted
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007112);
-    SetSpEffect(10000, 160709401);
+    SetSpEffect(10000, 160709161);
     
     // Scorched
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007113);
@@ -5360,15 +5372,15 @@ Event(20210, Default, function() {
     
     // Bolt
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007140);
-    SetSpEffect(10000, 160709206);
+    SetSpEffect(10000, 160709186);
     
     // Sunlight
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007141);
-    SetSpEffect(10000, 160709306);
+    SetSpEffect(10000, 160709176);
     
     // Enchanted
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007142);
-    SetSpEffect(10000, 160709406);
+    SetSpEffect(10000, 160709166);
     
     // Scorched
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007143);
@@ -5445,15 +5457,15 @@ Event(20211, Default, function() {
     
     // Bolt
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007110);
-    SetSpEffect(10000, 160709200);
+    SetSpEffect(10000, 160709180);
     
     // Sunlight
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007111);
-    SetSpEffect(10000, 160709300);
+    SetSpEffect(10000, 160709170);
     
     // Enchanted
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007112);
-    SetSpEffect(10000, 160709400);
+    SetSpEffect(10000, 160709160);
     
     // Scorched
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007113);
@@ -5518,15 +5530,15 @@ Event(20211, Default, function() {
     
     // Bolt
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007140);
-    SetSpEffect(10000, 160709205);
+    SetSpEffect(10000, 160709185);
     
     // Sunlight
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007141);
-    SetSpEffect(10000, 160709305);
+    SetSpEffect(10000, 160709175);
     
     // Enchanted
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007142);
-    SetSpEffect(10000, 160709405);
+    SetSpEffect(10000, 160709165);
     
     // Scorched
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007143);
@@ -5557,10 +5569,6 @@ Event(20220, Default, function() {
     
     // End once player leaves Firelink Shrine bonfire area
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25007399);
-    
-    // Mass of Humanity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007200);
-    SetSpEffect(10000, 160709501);
     
     // Magical Crystals
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007201);
@@ -5643,10 +5651,6 @@ Event(20221, Default, function() {
     
     // Wait for player to leave Firelink Shrine bonfire area
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007399);
-    
-    // Mass of Humanity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007200);
-    SetSpEffect(10000, 160709500);
     
     // Magical Crystals
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007201);
@@ -5746,6 +5750,14 @@ Event(20230, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007254);
     SetSpEffect(10000, 160709609);
     
+    // Green Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007255);
+    SetSpEffect(10000, 160709611);
+    
+    // Purple Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007256);
+    SetSpEffect(10000, 160709613);
+    
     WaitFixedTimeSeconds(0.5);
     
     EndUnconditionally(EventEndType.Restart);
@@ -5779,6 +5791,14 @@ Event(20231, Default, function() {
     // Golden Glow
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007254);
     SetSpEffect(10000, 160709608);
+    
+    // Green Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007255);
+    SetSpEffect(10000, 160709610);
+    
+    // Purple Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007256);
+    SetSpEffect(10000, 160709612);
 });
 
 //----------------------------------------------
@@ -5902,13 +5922,13 @@ Event(20250, Default, function() {
     // End once player leaves Firelink Shrine bonfire area
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25007399);
 
-    // Hollow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007301);
-    SetSpEffect(10000, 160709703);
-    
     // Human
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007302);
-    SetSpEffect(10000, 160709705);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007350);
+    SetSpEffect(10000, 160709801);
+    
+    // Hollow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007351);
+    SetSpEffect(10000, 160709803);
 
     WaitFixedTimeSeconds(0.5);
     
@@ -5923,14 +5943,46 @@ Event(20251, Default, function() {
     
     // Wait for player to leave Firelink Shrine bonfire area
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007399);
+    // Human
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007350);
+    SetSpEffect(10000, 160709800);
     
     // Hollow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007301);
-    SetSpEffect(10000, 160709702);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007351);
+    SetSpEffect(10000, 160709802);
     
-    // Human
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007302);
-    SetSpEffect(10000, 160709704);
+});
+
+//----------------------------------------------
+// Head Emission - Preview
+//----------------------------------------------
+Event(20260, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // End once player leaves Firelink Shrine bonfire area
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Mass of Humanity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007270);
+    SetSpEffect(10000, 160709401);
+    
+    WaitFixedTimeSeconds(0.5);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Head Emission - On Load
+//----------------------------------------------
+Event(20261, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // Wait for player to leave Firelink Shrine bonfire area
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Mass of Humanity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007270);
+    SetSpEffect(10000, 160709400);
 });
 
 

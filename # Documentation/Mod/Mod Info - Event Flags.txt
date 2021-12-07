@@ -1398,7 +1398,9 @@ Flags used in the Cinders range:
 xxx5760 All Enemies
 xxx5750 Enemies enabled by Curse of Attraction
 
+#------------------------
 # General
+#------------------------
 25000011 Is in NG+1
 25000012 Is in NG+2
 25000013 Is in NG+3
@@ -1421,11 +1423,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25000099 Game Flags Set
 
-25000060 Warp To: Trial of Adversity
-25000061 Warp To: Trial of Calamity
-25000062 Warp To: Trial of Sorrow
-25000063 Warp To: Trial of Devastation
-
+#------------------------
+# Covenants
+#------------------------
 25000200 Covenant Acquired: Thieves Pact           - Greirat
 25000201 Covenant Acquired: Chaos Servant          - Cornyx
 25000202 Covenant Acquired: Vinheim Scholars       - Orbeck
@@ -1437,6 +1437,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000208 Covenant Acquired: Servant of the Rat     - Remy the Rat
 25000209 Covenant Acquired: Ritualist Pact         - Ritualist Ellie
 
+#------------------------
+# Gestures
+#------------------------
 25000300 Gesture Acquired: Unmannered Bow     - Cornyx
 25000301 Gesture Acquired: Shrug              - Shrine Handmaid
 25000302 Gesture Acquired: Path of the Dragon - Dragon Altar/Hawkwood
@@ -1447,6 +1450,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000307 Gesture Acquired: Retch              - Archdeacon McDonnell
 25000308 Gesture Acquired: Confused           - Greirat
 
+#------------------------
+# Curses
+#------------------------
 25000400 Curse of Pride I
 25000401 Curse of Pride II
 25000402 Curse of Pride III
@@ -1500,6 +1506,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000500 Curse of Impermanence 
 25000510 Curse of Valor
 
+#------------------------
+# Bosses
+#------------------------
 25001001 Boss Kill: Corrupted Gundyr
 25001002 Boss Kill: Vordt
 25001003 Boss Kill: Curse-rotted Greatwood
@@ -1538,140 +1547,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25001100 Boss fight started
 25001110 Boss fight ended
-
-25008000 Married: 
-25008010 Married: Karla
-25008020 Married: Fire Keeper
-25008030 Married: Painter
-25008040 Married: Rosaria
-25008050 Married: Archdeacon McDonnell
-25008060 Married: Company Captain Yorshka
-25008070 Married: Domhnall of Zena
-25008080 Married: Marvelous Chester
-25008090 Married: Crestfallen Merchant
-25008100 Married: Ludleth
-25008110 Married: Yuria
-25008120 Married: Orbeck
-25008130 Married: Andre
-25008140 Married: Shrine Handmaid
-25008150 Married: Cornyx
-25008160 Married: Irina of Carim
-25008170 Married: Patches
-25008180 Married: Grave Warden Lillian
-25008190 Married: Magnum Ursus
-25008200 Married: Greirat
-25008210 Married: Yoel
-25008220 Married: Solaire of Astora
-25008230 Married: Remy the Rat
-25008240 Married: Ritualist Ellie
-25008250 Married: Acolyte Grudore
-25008260 Married: Erstwhile George
-
-25008300 Ritualist Ellie: Talk Flag 1
-
-25008800 Screenshot mode
-
-
-25009000 Random flag range
-
-# Map State
-25009100 Sandworm Item state
-25009101 Sandworm Wall state
-25009110 Wyvern flag
-
-25009115 Update Armor Effects
-
-25009120 Princess Yngvil - Talk trigger
-
-25009520 Magnum Ursus - Dark Soul turn-in
-
-25009530 Tortured Soul turn-in
-25009540 Smithbox turn-in
-25009541 Benjin - Returned to Sanctum
-
-25009550 Irina - Given Humanity
-25009551 Irina - Given Holy Fragments
-
-25009560 Statue Puzzle 1
-25009561 Statue Puzzle 2
-25009562 Statue Puzzle 3
-25009563 Statue Puzzle 4
-25009564 Statue Puzzle 5
-25009565 Statue Puzzle 6
-25009566 Statue Puzzle 7
-25009567 Statue Puzzle 8
-25009568 Statue Puzzle 9
-25009569 Statue Puzzle 10
-25009570 Statue Puzzle Null
-
-25009580 Grudore - Farron Coal
-25009581 Grudore - Sage's Coal
-25009582 Grudore - Giant's Coal
-25009583 Grudore - Profaned Coal
-
-25009590 Disable Curse soul gain
-
-25009600 Start Memory
-25009610 Memory Difficulty: Easy
-25009611 Memory Difficulty: Normal
-25009612 Memory Difficulty: Hard
-25009613 Memory Difficulty: Very Hard
-25009614 Memory Difficulty: Mythic
-25009620 Memory of Strength - Random Set 1
-25009621 Memory of Strength - Random Set 2
-25009630 Memory of Glory - Random Set 1
-25009631 Memory of Glory - Random Set 2
-25009632 Memory of Glory - Random Set 3
-
-25009690 End Wave
-
-25009700 Touched Colossus Tower
-25009710 Reached into Profaned Flame
-
-25009720 Priestess Emilia trigger
-25009730 Knight Lun trigger
-25009740 Marauder talk state disabled trigger
-25009750 BB Dodge toggle
-
-25009760 Spurned Shade warp
-25009761 Spurned Shade in progress
-
-25009770 Corrupted Gundyr gate opened
-
-25009780 Summon VFX toggle
-
-25009999 NO SHOW flag
-
-75003000 Stone-humped Hag 1
-75003010 Stone-humped Hag 1
-75003020 Stone-humped Hag 1
-
-25009800 Game setup completed
-25009801 Location set
-25009802 Journey began
-25009803 Unlock memories
-25009804 Gauntlet setup completed
-25009805 Ignore DLC bosses in Gauntlet
-
-25009810 Standard mode
-25009811 Wanderer mode
-25009812 Mythic mode
-25009813 Gauntlet mode
-25009814 Explorer mode
-
-25009820 Untended Graves
-25009821 Archdragon Peak
-25009822 Farron Keep
-25009823 Catacombs of Carthus
-25009824 Irithyll
-25009825 Profaned Capital
-25009826 Consumed King's Garden
-25009827 Lothric Castle
-25009828 Cathedral of the Deep
-25009829 Ariandel
-25009830 Dreg Heap
-25009831 Ringed City
-25009840 Random location
 
 25002001 First Boss Kill: Corrupted Gundyr
 25002002 First Boss Kill: Vordt
@@ -1755,7 +1630,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003034 Selection: UNUSED
 25003035 Selection: The Marauder
 
+#------------------------
 # Masteries
+#------------------------
 25007000 Reset Masteries
 
 25007020 Attunement Mastery
@@ -1767,6 +1644,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007080 Faith Mastery
 25007090 Luck Mastery
 
+#------------------------
+# Player VFX
+#------------------------
 # Player - Weapon Emission 
 25007100 Weapon Emission: Magic (Right)
 25007101 Weapon Emission: Fire (Right)
@@ -1807,7 +1687,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007147 Weapon Emission: Brume (Left)
 
 # Player - Body Emission
-25007200 Body Emission: Mass of Humanity
+25007200 Body Emission: UNUSED
 25007201 Body Emission: Magical Crystals
 25007202 Body Emission: Invisibility
 25007203 Body Emission: Stoneform
@@ -1832,6 +1712,11 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007252 Eye Emission: White Glow
 25007253 Eye Emission: Blue Glow
 25007254 Eye Emission: Golden Glow
+25007255 Eye Emission: Green Glow 
+25007256 Eye Emission: Purple Glow 
+
+# Player - Head Emission
+25007270 Head Emission: Mass of Humanity
 
 # Player - Body Aura
 25007300 Body Aura: Ethereal Phantom
@@ -1848,15 +1733,25 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007311 Body Aura: Demonic Phantom
 25007312 Body Aura: Psychedelic Phantom
 
+# Player - Humanity Aura
+25007350 Body Aura: Human
+25007351 Body Aura: Hollow
+
 # Utility
+25007398 Disable all transformation flags
 25007399 Preview Mode disabled
 
+#------------------------
 # Training Dummy
+#------------------------
 25007510 Dummy 1 enabled
 25007520 Dummy 2 enabled
 25007530 Dummy 3 enabled
 25007600 Outside location enabled
 
+#------------------------
+# Spell Summon VFX
+#------------------------
 # Spell Summon - Skeleton
 25007700 Visual Emission: Fire
 25007701 Visual Emission: 
@@ -2054,4 +1949,149 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007877 Visual Aura: Violet
 25007878 Visual Aura: Pink
 25007879 Visual Aura: Rainbow
+
+#------------------------
+# NPC Marriage
+#------------------------
+25008000 Married: 
+25008010 Married: Karla
+25008020 Married: Fire Keeper
+25008030 Married: Painter
+25008040 Married: Rosaria
+25008050 Married: Archdeacon McDonnell
+25008060 Married: Company Captain Yorshka
+25008070 Married: Domhnall of Zena
+25008080 Married: Marvelous Chester
+25008090 Married: Crestfallen Merchant
+25008100 Married: Ludleth
+25008110 Married: Yuria
+25008120 Married: Orbeck
+25008130 Married: Andre
+25008140 Married: Shrine Handmaid
+25008150 Married: Cornyx
+25008160 Married: Irina of Carim
+25008170 Married: Patches
+25008180 Married: Grave Warden Lillian
+25008190 Married: Magnum Ursus
+25008200 Married: Greirat
+25008210 Married: Yoel
+25008220 Married: Solaire of Astora
+25008230 Married: Remy the Rat
+25008240 Married: Ritualist Ellie
+25008250 Married: Acolyte Grudore
+25008260 Married: Erstwhile George
+
+25008300 Ritualist Ellie: Talk Flag 1
+
+#------------------------
+# Misc Usage
+#------------------------
+25008800 Screenshot mode
+
+25009000 Random flag range
+
+25009100 Sandworm Item state
+25009101 Sandworm Wall state
+25009110 Wyvern flag
+
+25009115 Update Armor Effects
+
+25009120 Princess Yngvil - Talk trigger
+
+25009520 Magnum Ursus - Dark Soul turn-in
+
+25009530 Tortured Soul turn-in
+25009540 Smithbox turn-in
+25009541 Benjin - Returned to Sanctum
+
+25009550 Irina - Given Humanity
+25009551 Irina - Given Holy Fragments
+
+25009560 Statue Puzzle 1
+25009561 Statue Puzzle 2
+25009562 Statue Puzzle 3
+25009563 Statue Puzzle 4
+25009564 Statue Puzzle 5
+25009565 Statue Puzzle 6
+25009566 Statue Puzzle 7
+25009567 Statue Puzzle 8
+25009568 Statue Puzzle 9
+25009569 Statue Puzzle 10
+25009570 Statue Puzzle Null
+
+25009580 Grudore - Farron Coal
+25009581 Grudore - Sage's Coal
+25009582 Grudore - Giant's Coal
+25009583 Grudore - Profaned Coal
+
+25009590 Disable Curse soul gain
+
+25009600 Start Memory
+25009610 Memory Difficulty: Easy
+25009611 Memory Difficulty: Normal
+25009612 Memory Difficulty: Hard
+25009613 Memory Difficulty: Very Hard
+25009614 Memory Difficulty: Mythic
+25009620 Memory of Strength - Random Set 1
+25009621 Memory of Strength - Random Set 2
+25009630 Memory of Glory - Random Set 1
+25009631 Memory of Glory - Random Set 2
+25009632 Memory of Glory - Random Set 3
+
+25009690 End Wave
+
+25009700 Touched Colossus Tower
+25009710 Reached into Profaned Flame
+
+25009720 Priestess Emilia trigger
+25009730 Knight Lun trigger
+25009740 Marauder talk state disabled trigger
+25009750 BB Dodge toggle
+
+25009760 Spurned Shade warp
+25009761 Spurned Shade in progress
+
+25009770 Corrupted Gundyr gate opened
+
+25009780 Summon VFX toggle
+
+25009999 NO SHOW flag
+
+#------------------------
+# Configuration
+#------------------------
+25009800 Game setup completed
+25009801 Location set
+25009802 Journey began
+25009803 Unlock memories
+25009804 Gauntlet setup completed
+25009805 Ignore DLC bosses in Gauntlet
+
+
+25009810 Standard mode
+25009811 Wanderer mode
+25009812 Mythic mode
+25009813 Gauntlet mode
+25009814 Explorer mode
+
+25009820 Untended Graves
+25009821 Archdragon Peak
+25009822 Farron Keep
+25009823 Catacombs of Carthus
+25009824 Irithyll
+25009825 Profaned Capital
+25009826 Consumed King's Garden
+25009827 Lothric Castle
+25009828 Cathedral of the Deep
+25009829 Ariandel
+25009830 Dreg Heap
+25009831 Ringed City
+25009840 Random location
+
+#------------------------
+# Other
+#------------------------
+75003000 Stone-humped Hag 1
+75003010 Stone-humped Hag 1
+75003020 Stone-humped Hag 1
 

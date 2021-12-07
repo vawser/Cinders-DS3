@@ -1990,10 +1990,11 @@ Persisting will transform you into a grub.</text>
 <text id="15003104">Eye Emission</text>
 <text id="15003105">Body Aura</text>
 <text id="15003106">Humanity Aura</text>
+<text id="15003107">Head Emission</text>
 
-<text id="15003110">Clear Effects</text>
-<text id="15003120">Effect applied.</text>
-<text id="15003121">Effects removed.</text>
+<text id="15003110">Clear Transformations</text>
+<text id="15003120">Transformation applied.</text>
+<text id="15003121">Transformation removed.</text>
 <text id="15003122">Reload the map to restore access to Transformation Effects.</text>
 
 <text id="15003200">None</text>
@@ -2016,7 +2017,7 @@ Persisting will transform you into a grub.</text>
 <text id="15003217">Psychedelic</text>
 <text id="15003218">Brume</text>
 
-<text id="15003300">Mass of Humanity</text>
+<text id="15003300"></text>
 <text id="15003301">Magical Crystals</text>
 <text id="15003302">Invisibility</text>
 <text id="15003303">Stoneform</text>
@@ -2040,6 +2041,8 @@ Persisting will transform you into a grub.</text>
 <text id="15003402">White Glow</text>
 <text id="15003403">Blue Glow</text>
 <text id="15003404">Golden Glow</text>
+<text id="15003405">Green Glow</text>
+<text id="15003406">Purple Glow</text>
 
 <text id="15003500">Ethereal Phantom</text>
 <text id="15003503">White Phantom</text>
@@ -2055,6 +2058,8 @@ Persisting will transform you into a grub.</text>
 
 <text id="15003600">Hollow</text>
 <text id="15003601">Human</text>
+
+<text id="15003700">Mass of Humanity</text>
 
 <text id="15004000">Learn Sorceries</text>
 <text id="15004001">Ascend Sorceries</text>

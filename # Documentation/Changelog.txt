@@ -93,10 +93,11 @@ Finish following weapons:
  - This allows you to select the old writ/elixir/oil effects.
  - These selections persist through loading.
  - Oil effects are now categorised under "Weapon Emission".
- - Writ effects are now categorised under "Body Emission".
+ - Writ effects that affected the body are categorised under "Body Emission".
+ - Writ effects that affected the head are categorised under "Head Emission".
  - Writ effects that affected the eyes are categorised under "Eye Emission".
- - Elixir effects that were phantom colors are categorised under "Body Aura".
- - Elixir effects that were humanity form are categorised under "Humanity Aura."
+ - Elixir effects that affected phantom color are categorised under "Body Aura".
+ - Elixir effects that affected humanity form are categorised under "Humanity Aura."
  - While in Firelink Shrine near Jiji, you are in a 'Preview' mode which permits you to view all the VFX without needing to reload the map.
   - This means the VFX flicker a bit since they are re-applied in this mode.
   - Outside of the shrine and in other maps, they won't flicker.
