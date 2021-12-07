@@ -64,12 +64,13 @@ Finish following weapons:
 # Classes
 - Added Athlete class.
 - Added Ashen Pyromancer class.
+- Added Carthus Warrior class.
 - Added Chef class.
 - Added Crab King class.
 - Added Forgotten Knight class.
 - Added Monk class.
 - Added Reaper class.
-- Added Swordsman class.
+- Added Royal Swordsman class.
 - Tweaked Acolyte class, now Dragon Knight class.
 - Tweaked Captain class.
 - Tweaked Cleric spells.
@@ -128,6 +129,7 @@ Finish following weapons:
 - Changed Explosive Soul Spear to Swift Soul Spear.
 - Increased FP cost of Soul Eruption to 100.
 - Chaos Beam now penetrates map.
+- Conjuration summons now have body vfx to help differentiate them from other enemies.
 
 - Added new spells:
  - Sorceries:
