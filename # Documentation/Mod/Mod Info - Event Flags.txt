@@ -1781,6 +1781,204 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007530 Dummy 3 enabled
 25007600 Outside location enabled
 
+
 # Quests
 25005000
 
+# Spell Summon - Skeleton
+25007700 Visual Emission: Fire
+25007701 Visual Emission: 
+25007702 Visual Emission:  
+25007703 Visual Emission: 
+25007704 Visual Emission: 
+25007705 Visual Emission: 
+25007706 Visual Emission: 
+25007707 Visual Emission: 
+25007708 Visual Emission:
+25007709 Visual Emission:
+25007710 Visual Aura: Red
+25007711 Visual Aura: Orange
+25007712 Visual Aura: Yellow
+25007713 Visual Aura: Green
+25007714 Visual Aura: Cyan
+25007715 Visual Aura: Blue
+25007716 Visual Aura: Indigo
+25007717 Visual Aura: Violet
+25007718 Visual Aura: Pink
+25007719 Visual Aura: Rainbow
+
+# Spell Summon - Hollow
+25007720 Visual Emission: Fire
+25007721 Visual Emission: 
+25007722 Visual Emission:  
+25007723 Visual Emission: 
+25007724 Visual Emission: 
+25007725 Visual Emission: 
+25007726 Visual Emission: 
+25007727 Visual Emission: 
+25007728 Visual Emission:
+25007729 Visual Emission:
+25007730 Visual Aura: Red
+25007731 Visual Aura: Orange
+25007732 Visual Aura: Yellow
+25007733 Visual Aura: Green
+25007734 Visual Aura: Cyan
+25007735 Visual Aura: Blue
+25007736 Visual Aura: Indigo
+25007737 Visual Aura: Violet
+25007738 Visual Aura: Pink
+25007739 Visual Aura: Rainbow
+
+# Spell Summon - Hound
+25007740 Visual Emission: Fire
+25007741 Visual Emission: 
+25007742 Visual Emission:  
+25007743 Visual Emission: 
+25007744 Visual Emission: 
+25007745 Visual Emission: 
+25007746 Visual Emission: 
+25007747 Visual Emission: 
+25007748 Visual Emission:
+25007749 Visual Emission:
+25007750 Visual Aura: Red
+25007751 Visual Aura: Orange
+25007752 Visual Aura: Yellow
+25007753 Visual Aura: Green
+25007754 Visual Aura: Cyan
+25007755 Visual Aura: Blue
+25007756 Visual Aura: Indigo
+25007757 Visual Aura: Violet
+25007758 Visual Aura: Pink
+25007759 Visual Aura: Rainbow
+
+# Spell Summon - Carthus Warrior
+25007760 Visual Emission: Fire
+25007761 Visual Emission: 
+25007762 Visual Emission:  
+25007763 Visual Emission: 
+25007764 Visual Emission: 
+25007765 Visual Emission: 
+25007766 Visual Emission: 
+25007767 Visual Emission: 
+25007768 Visual Emission:
+25007769 Visual Emission:
+25007770 Visual Aura: Red
+25007771 Visual Aura: Orange
+25007772 Visual Aura: Yellow
+25007773 Visual Aura: Green
+25007774 Visual Aura: Cyan
+25007775 Visual Aura: Blue
+25007776 Visual Aura: Indigo
+25007777 Visual Aura: Violet
+25007778 Visual Aura: Pink
+25007779 Visual Aura: Rainbow
+
+# Spell Summon - Lothric Knight
+25007780 Visual Emission: Fire
+25007781 Visual Emission: 
+25007782 Visual Emission:  
+25007783 Visual Emission: 
+25007784 Visual Emission: 
+25007785 Visual Emission: 
+25007786 Visual Emission: 
+25007787 Visual Emission: 
+25007788 Visual Emission:
+25007789 Visual Emission:
+25007790 Visual Aura: Red
+25007791 Visual Aura: Orange
+25007792 Visual Aura: Yellow
+25007793 Visual Aura: Green
+25007794 Visual Aura: Cyan
+25007795 Visual Aura: Blue
+25007796 Visual Aura: Indigo
+25007797 Visual Aura: Violet
+25007798 Visual Aura: Pink
+25007799 Visual Aura: Rainbow
+
+# Spell Summon - Lycanthrope
+25007800 Visual Emission: Fire
+25007801 Visual Emission: 
+25007802 Visual Emission:  
+25007803 Visual Emission: 
+25007804 Visual Emission: 
+25007805 Visual Emission: 
+25007806 Visual Emission: 
+25007807 Visual Emission: 
+25007808 Visual Emission:
+25007809 Visual Emission:
+25007810 Visual Aura: Red
+25007811 Visual Aura: Orange
+25007812 Visual Aura: Yellow
+25007813 Visual Aura: Green
+25007814 Visual Aura: Cyan
+25007815 Visual Aura: Blue
+25007816 Visual Aura: Indigo
+25007817 Visual Aura: Violet
+25007818 Visual Aura: Pink
+25007819 Visual Aura: Rainbow
+
+# Spell Summon - Black Knight
+25007820 Visual Emission: Fire
+25007821 Visual Emission: 
+25007822 Visual Emission:  
+25007823 Visual Emission: 
+25007824 Visual Emission: 
+25007825 Visual Emission: 
+25007826 Visual Emission: 
+25007827 Visual Emission: 
+25007828 Visual Emission:
+25007829 Visual Emission:
+25007830 Visual Aura: Red
+25007831 Visual Aura: Orange
+25007832 Visual Aura: Yellow
+25007833 Visual Aura: Green
+25007834 Visual Aura: Cyan
+25007835 Visual Aura: Blue
+25007836 Visual Aura: Indigo
+25007837 Visual Aura: Violet
+25007838 Visual Aura: Pink
+25007839 Visual Aura: Rainbow
+
+# Spell Summon - Abyss Watcher
+25007840 Visual Emission: Fire
+25007841 Visual Emission: 
+25007842 Visual Emission:  
+25007843 Visual Emission: 
+25007844 Visual Emission: 
+25007845 Visual Emission: 
+25007846 Visual Emission: 
+25007847 Visual Emission: 
+25007848 Visual Emission:
+25007849 Visual Emission:
+25007850 Visual Aura: Red
+25007851 Visual Aura: Orange
+25007852 Visual Aura: Yellow
+25007853 Visual Aura: Green
+25007854 Visual Aura: Cyan
+25007855 Visual Aura: Blue
+25007856 Visual Aura: Indigo
+25007857 Visual Aura: Violet
+25007858 Visual Aura: Pink
+25007859 Visual Aura: Rainbow
+
+# Spell Summon - Stone Gargoyle
+25007860 Visual Emission: Fire
+25007861 Visual Emission: 
+25007862 Visual Emission:  
+25007863 Visual Emission: 
+25007864 Visual Emission: 
+25007865 Visual Emission: 
+25007866 Visual Emission: 
+25007867 Visual Emission: 
+25007868 Visual Emission:
+25007869 Visual Emission:
+25007870 Visual Aura: Red
+25007871 Visual Aura: Orange
+25007872 Visual Aura: Yellow
+25007873 Visual Aura: Green
+25007874 Visual Aura: Cyan
+25007875 Visual Aura: Blue
+25007876 Visual Aura: Indigo
+25007877 Visual Aura: Violet
+25007878 Visual Aura: Pink
+25007879 Visual Aura: Rainbow

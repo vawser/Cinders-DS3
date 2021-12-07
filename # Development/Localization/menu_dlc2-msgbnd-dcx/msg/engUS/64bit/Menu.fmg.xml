@@ -4772,5 +4772,67 @@ Completing the Memory will reward Primordial Fragments.</text>
 
 <text id="99091010">The portcullis rises...</text>
 
+<text id="99091100">Conjuration</text>
+<text id="99091101">Visual Emission</text>
+<text id="99091102">Visual Aura</text>
+
+<text id="99091110">Visual Emission: None</text>
+<text id="99091111">Visual Emission: Fire</text>
+<text id="99091112">Visual Emission: </text>
+<text id="99091113">Visual Emission: </text>
+<text id="99091114">Visual Emission: </text>
+<text id="99091115">Visual Emission: </text>
+<text id="99091116">Visual Emission: </text>
+<text id="99091117">Visual Emission: </text>
+<text id="99091118">Visual Emission: </text>
+<text id="99091119">Visual Emission: </text>
+<text id="99091120">Visual Emission: </text>
+
+<text id="99091150">Visual Aura: None</text>
+<text id="99091151">Visual Aura: Red</text>
+<text id="99091152">Visual Aura: Orange</text>
+<text id="99091153">Visual Aura: Yellow</text>
+<text id="99091154">Visual Aura: Green</text>
+<text id="99091155">Visual Aura: Cyan</text>
+<text id="99091156">Visual Aura: Blue</text>
+<text id="99091157">Visual Aura: Indigo</text>
+<text id="99091158">Visual Aura: Violet</text>
+<text id="99091159">Visual Aura: Pink</text>
+<text id="99091160">Visual Aura: Rainbow</text>
+
+<text id="99091210">Visual Emission set to None.</text>
+<text id="99091211">Visual Emission set to Fire.</text>
+<text id="99091212">Visual Emission set to .</text>
+<text id="99091213">Visual Emission set to .</text>
+<text id="99091214">Visual Emission set to .</text>
+<text id="99091215">Visual Emission set to .</text>
+<text id="99091216">Visual Emission set to .</text>
+<text id="99091217">Visual Emission set to .</text>
+<text id="99091218">Visual Emission set to .</text>
+<text id="99091219">Visual Emission set to .</text>
+<text id="99091220">Visual Emission set to .</text>
+
+<text id="99091250">Visual Aura set to None.</text>
+<text id="99091251">Visual Aura set to Red.</text>
+<text id="99091252">Visual Aura set to Orange.</text>
+<text id="99091253">Visual Aura set to Yellow.</text>
+<text id="99091254">Visual Aura set to Green.</text>
+<text id="99091255">Visual Aura set to Cyan.</text>
+<text id="99091256">Visual Aura set to Blue.</text>
+<text id="99091257">Visual Aura set to Indigo.</text>
+<text id="99091258">Visual Aura set to Violet.</text>
+<text id="99091259">Visual Aura set to Pink.</text>
+<text id="99091260">Visual Aura set to Rainbow.</text>
+
+<text id="99092000">Skeleton</text>
+<text id="99092001">Hollow</text>
+<text id="99092002">Hound</text>
+<text id="99092003">Warrior</text>
+<text id="99092004">Sentinel</text>
+<text id="99092005">Lycanthrope</text>
+<text id="99092006">Knight</text>
+<text id="99092007">Watcher</text>
+<text id="99092008">Gargoyle</text>
+
 </entries>
 </fmg>

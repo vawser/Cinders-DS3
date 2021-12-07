@@ -165,6 +165,9 @@ def t400508_x9():
         # Purchase Item
         AddTalkListDataIf(GetEventStatus(25009813) == 0, 2, 15000010, -1)
         
+        # Conjuration
+        AddTalkListData(3, 99091100, -1)
+        
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008240) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
         
@@ -191,6 +194,10 @@ def t400508_x9():
         # Purchase Item
         elif GetTalkListEntryResult() == 2:
             OpenRegularShop(280000, 280099)
+            continue
+        # Cojuration
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x20()
             continue
         # Form Betrothal
         elif GetTalkListEntryResult() == 10:
@@ -339,20 +346,41 @@ def t400508_x12():
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
-            
+       
 #----------------------------------------------------
-# Imbues
+# Conjuration
 #----------------------------------------------------
 def t400508_x20():
     c1110()
     while True:
         ClearTalkListData()
 
-        # Imbue Overview
-        AddTalkListData(2, 99016001, -1)
+        # Skeleton
+        AddTalkListData(1, 99092000, -1)
         
-        # Apply Imbue
-        AddTalkListData(1, 99016000, -1) 
+        # Hollow
+        AddTalkListData(2, 99092001, -1)
+        
+        # Hound
+        AddTalkListData(3, 99092002, -1)
+        
+        # Warrior
+        AddTalkListData(4, 99092003, -1)
+        
+        # Sentinel
+        AddTalkListData(5, 99092004, -1)
+        
+        # Lycanthrope
+        AddTalkListData(6, 99092005, -1)
+        
+        # Knight
+        AddTalkListData(7, 99092006, -1)
+        
+        # Watcher
+        AddTalkListData(8, 99092007, -1)
+        
+        # Gargoyle
+        AddTalkListData(9, 99092008, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -360,13 +388,113 @@ def t400508_x20():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Apply Imbue
+        # Skeleton
         if GetTalkListEntryResult() == 1:
-            assert t400508_x40()
+            assert t400508_x21()
             continue
-        # Imbue Overview
+        # Hollow
         elif GetTalkListEntryResult() == 2:
-            OpenGenericDialog(1, 99016020, 0, 0, 0)
+            assert t400508_x22()
+            continue
+        # Hound
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x23()
+            continue
+        # Warrior
+        elif GetTalkListEntryResult() == 4:
+            assert t400508_x24()
+            continue
+        # Sentinel
+        elif GetTalkListEntryResult() == 5:
+            assert t400508_x25()
+            continue
+        # Lycanthrope
+        elif GetTalkListEntryResult() == 6:
+            assert t400508_x26()
+            continue
+        # Knight
+        elif GetTalkListEntryResult() == 7:
+            assert t400508_x27()
+            continue
+        # Watcher
+        elif GetTalkListEntryResult() == 8:
+            assert t400508_x28()
+            continue
+        # Gargoyle
+        elif GetTalkListEntryResult() == 9:
+            assert t400508_x29()
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+#----------------------------------------------------
+# Conjuration - Skeleton
+#----------------------------------------------------
+def t400508_x21():
+    c1110()
+    while True:
+        ClearTalkListData()
+
+        # Visual Emission
+        AddTalkListData(1, 99091101, -1)
+        
+        # Visual Aura
+        AddTalkListData(2, 99091102, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Visual Emission
+        if GetTalkListEntryResult() == 1:
+            assert t400508_x40(25007700, 25007701, 25007702, 25007703, 25007704, 25007705, 25007706, 25007707, 25007708, 25007709)
+            continue
+        # Visual Aura
+        elif GetTalkListEntryResult() == 2:
+            assert t400508_x41(25007710, 25007711, 25007712, 25007713, 25007714, 25007715, 25007716, 25007717, 25007718, 25007719)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+        
+#----------------------------------------------------
+# Conjuration - Hollow
+#----------------------------------------------------
+def t400508_x22():
+    c1110()
+    while True:
+        ClearTalkListData()
+
+        # Visual Emission
+        AddTalkListData(1, 99091101, -1)
+        
+        # Visual Aura
+        AddTalkListData(2, 99091102, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Visual Emission
+        if GetTalkListEntryResult() == 1:
+            assert t400508_x40(25007720, 25007721, 25007722, 25007723, 25007724, 25007725, 25007726, 25007727, 25007728, 25007729)
+            continue
+        # Visual Aura
+        elif GetTalkListEntryResult() == 2:
+            assert t400508_x41(25007730, 25007731, 25007732, 25007733, 25007734, 25007735, 25007736, 25007737, 25007738, 25007739)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -376,392 +504,671 @@ def t400508_x20():
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
-def t400508_x40():
+#----------------------------------------------------
+# Conjuration - Hound
+#----------------------------------------------------
+def t400508_x23():
     c1110()
-    
     while True:
         ClearTalkListData()
 
-        # Basic Imbue
-        AddTalkListData(1, 99016005, -1)
+        # Visual Emission
+        AddTalkListData(1, 99091101, -1)
         
-        # Fine Imbue
-        AddTalkListData(2, 99016006, -1)
+        # Visual Aura
+        AddTalkListData(2, 99091102, -1)
         
-        # Superior Imbue
-        AddTalkListData(3, 99016007, -1)
+        # Leave
+        AddTalkListData(99, 15000005, -1)
         
-        # Exquisite Imbue
-        AddTalkListData(4, 99016008, -1)
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
         
-        # Legendary Imbue
-        AddTalkListData(5, 99016009, -1)
-        
-        # Quit
-        AddTalkListData(99, 15000180, -1)
+        # Visual Emission
+        if GetTalkListEntryResult() == 1:
+            assert t400508_x40(25007740, 25007741, 25007742, 25007743, 25007744, 25007745, 25007746, 25007747, 25007748, 25007749)
+            continue
+        # Visual Aura
+        elif GetTalkListEntryResult() == 2:
+            assert t400508_x41(25007750, 25007751, 25007752, 25007753, 25007754, 25007755, 25007756, 25007757, 25007758, 25007759)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#----------------------------------------------------
+# Conjuration - Warrior
+#----------------------------------------------------
+def t400508_x24():
+    c1110()
+    while True:
+        ClearTalkListData()
 
+        # Visual Emission
+        AddTalkListData(1, 99091101, -1)
+        
+        # Visual Aura
+        AddTalkListData(2, 99091102, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Basic Imbue 
+        # Visual Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x41()
-            return 0
-        # Fine Imbue
+            assert t400508_x40(25007760, 25007761, 25007762, 25007763, 25007764, 25007765, 25007766, 25007767, 25007768, 25007769)
+            continue
+        # Visual Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x42()
-            return 0
-        # Superior Imbue 
-        elif GetTalkListEntryResult() == 3:
-            assert t400508_x43()
-            return 0
-        # Exquisite Imbue 
-        elif GetTalkListEntryResult() == 4:
-            assert t400508_x44()
-            return 0
-        # Legendary Imbue 
-        elif GetTalkListEntryResult() == 5:
-            assert t400508_x45()
+            assert t400508_x41(25007770, 25007771, 25007772, 25007773, 25007774, 25007775, 25007776, 25007777, 25007778, 25007779)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
-#----------------------------------------------------------
-# Basic
-#----------------------------------------------------------
-def t400508_x41():
+#----------------------------------------------------
+# Conjuration - Sentinel
+#----------------------------------------------------
+def t400508_x25():
     c1110()
-    
     while True:
         ClearTalkListData()
-    
-        # Dial of Obedience
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30980, 4, 1, 0) == 1, 1, 99016100, -1)
+
+        # Visual Emission
+        AddTalkListData(1, 99091101, -1)
         
-        # Offering of Might
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30990, 4, 1, 0) == 1, 2, 99016101, -1)
+        # Visual Aura
+        AddTalkListData(2, 99091102, -1)
         
-        # Offering of Tenacity
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31000, 4, 1, 0) == 1, 3, 99016102, -1)
-        
-        # Offering of Fortitude
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31010, 4, 1, 0) == 1, 4, 99016103, -1)
-        
-        # Offering of Vitality
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31020, 4, 1, 0) == 1, 5, 99016104, -1)
-        
-        # Offering of Devotion
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31030, 4, 1, 0) == 1, 6, 99016105, -1)
-        
-        # Offering of Fervor
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31040, 4, 1, 0) == 1, 7, 99016106, -1)
-        
-        # Quit
-        AddTalkListData(99, 15000180, -1)
+        # Leave
+        AddTalkListData(99, 15000005, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Dial of Obedience
+        # Visual Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x50(30980, 30981, 2, -3)
-            return 0
-        # Offering of Might
+            assert t400508_x40(25007780, 25007781, 25007782, 25007783, 25007784, 25007785, 25007786, 25007787, 25007788, 25007789)
+            continue
+        # Visual Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x50(30990, 30991, 2, -3)
-            return 0
-        # Offering of Tenacity
-        elif GetTalkListEntryResult() == 3:
-            assert t400508_x50(31000, 31001, 2, -3)
-            return 0
-        # Offering of Fortitude
-        elif GetTalkListEntryResult() == 4:
-            assert t400508_x50(31010, 31011, 2, -3)
-            return 0
-        # Offering of Vitality
-        elif GetTalkListEntryResult() == 5:
-            assert t400508_x50(31020, 31021, 2, -3)
-            return 0
-        # Offering of Devotion
-        elif GetTalkListEntryResult() == 6:
-            assert t400508_x50(31030, 31031, 2, -3)
-            return 0
-        # Offering of Fervor
-        elif GetTalkListEntryResult() == 7:
-            assert t400508_x50(31040, 31041, 2, -3)
+            assert t400508_x41(25007790, 25007791, 25007792, 25007793, 25007794, 25007795, 25007796, 25007797, 25007798, 25007799)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
-#----------------------------------------------------------
-# Fine
-#----------------------------------------------------------
-def t400508_x42():
+#----------------------------------------------------
+# Conjuration - Lycanthrope
+#----------------------------------------------------
+def t400508_x26():
     c1110()
-    
     while True:
         ClearTalkListData()
-    
-        # Dial of Obedience
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30981, 4, 1, 0) == 1, 1, 99016100, -1)
+
+        # Visual Emission
+        AddTalkListData(1, 99091101, -1)
         
-        # Offering of Might
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30991, 4, 1, 0) == 1, 2, 99016101, -1)
+        # Visual Aura
+        AddTalkListData(2, 99091102, -1)
         
-        # Offering of Tenacity
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31001, 4, 1, 0) == 1, 3, 99016102, -1)
-        
-        # Offering of Fortitude
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31011, 4, 1, 0) == 1, 4, 99016103, -1)
-        
-        # Offering of Vitality
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31021, 4, 1, 0) == 1, 5, 99016104, -1)
-        
-        # Offering of Devotion
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31031, 4, 1, 0) == 1, 6, 99016105, -1)
-        
-        # Offering of Fervor
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31041, 4, 1, 0) == 1, 7, 99016106, -1)
-        
-        # Quit
-        AddTalkListData(99, 15000180, -1)
+        # Leave
+        AddTalkListData(99, 15000005, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Dial of Obedience
+        # Visual Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x50(30981, 30982, 5, -6)
-            return 0
-        # Offering of Might
+            assert t400508_x40(25007800, 25007801, 25007802, 25007803, 25007804, 25007805, 25007806, 25007807, 25007808, 25007809)
+            continue
+        # Visual Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x50(30991, 30992, 5, -6)
-            return 0
-        # Offering of Tenacity
-        elif GetTalkListEntryResult() == 3:
-            assert t400508_x50(31001, 31002, 5, -6)
-            return 0
-        # Offering of Fortitude
-        elif GetTalkListEntryResult() == 4:
-            assert t400508_x50(31011, 31012, 5, -6)
-            return 0
-        # Offering of Vitality
-        elif GetTalkListEntryResult() == 5:
-            assert t400508_x50(31021, 31022, 5, -6)
-            return 0
-        # Offering of Devotion
-        elif GetTalkListEntryResult() == 6:
-            assert t400508_x50(31031, 31032, 5, -6)
-            return 0
-        # Offering of Fervor
-        elif GetTalkListEntryResult() == 7:
-            assert t400508_x50(31041, 31042, 5, -6)
+            assert t400508_x41(25007810, 25007811, 25007812, 25007813, 25007814, 25007815, 25007816, 25007817, 25007818, 25007819)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
-#----------------------------------------------------------
-# Superior
-#----------------------------------------------------------
-def t400508_x43():
+#----------------------------------------------------
+# Conjuration - Knight
+#----------------------------------------------------
+def t400508_x27():
     c1110()
-    
     while True:
         ClearTalkListData()
-    
-        # Dial of Obedience
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30982, 4, 1, 0) == 1, 1, 99016100, -1)
+
+        # Visual Emission
+        AddTalkListData(1, 99091101, -1)
         
-        # Offering of Might
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30992, 4, 1, 0) == 1, 2, 99016101, -1)
+        # Visual Aura
+        AddTalkListData(2, 99091102, -1)
         
-        # Offering of Tenacity
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31002, 4, 1, 0) == 1, 3, 99016102, -1)
-        
-        # Offering of Fortitude
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31012, 4, 1, 0) == 1, 4, 99016103, -1)
-        
-        # Offering of Vitality
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31022, 4, 1, 0) == 1, 5, 99016104, -1)
-        
-        # Offering of Devotion
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31032, 4, 1, 0) == 1, 6, 99016105, -1)
-        
-        # Offering of Fervor
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31042, 4, 1, 0) == 1, 7, 99016106, -1)
-        
-        # Quit
-        AddTalkListData(99, 15000180, -1)
+        # Leave
+        AddTalkListData(99, 15000005, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Dial of Obedience
+        # Visual Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x50(30982, 30983, 8, -9)
-            return 0
-        # Offering of Might
+            assert t400508_x40(25007820, 25007821, 25007822, 25007823, 25007824, 25007825, 25007826, 25007827, 25007828, 25007829)
+            continue
+        # Visual Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x50(30992, 30993, 8, -9)
-            return 0
-        # Offering of Tenacity
-        elif GetTalkListEntryResult() == 3:
-            assert t400508_x50(31002, 31003, 8, -9)
-            return 0
-        # Offering of Fortitude
-        elif GetTalkListEntryResult() == 4:
-            assert t400508_x50(31012, 31013, 8, -9)
-            return 0
-        # Offering of Vitality
-        elif GetTalkListEntryResult() == 5:
-            assert t400508_x50(31022, 31023, 8, -9)
-            return 0
-        # Offering of Devotion
-        elif GetTalkListEntryResult() == 6:
-            assert t400508_x50(31032, 31033, 8, -9)
-            return 0
-        # Offering of Fervor
-        elif GetTalkListEntryResult() == 7:
-            assert t400508_x50(31042, 31043, 8, -9)
+            assert t400508_x41(25007830, 25007831, 25007832, 25007833, 25007834, 25007835, 25007836, 25007837, 25007838, 25007839)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
-#----------------------------------------------------------
-# Exquisite
-#----------------------------------------------------------
-def t400508_x44():
+#----------------------------------------------------
+# Conjuration - Watcher
+#----------------------------------------------------
+def t400508_x28():
     c1110()
-    
     while True:
         ClearTalkListData()
-    
-        # Dial of Obedience
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30983, 4, 1, 0) == 1, 1, 99016100, -1)
+
+        # Visual Emission
+        AddTalkListData(1, 99091101, -1)
         
-        # Offering of Might
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30993, 4, 1, 0) == 1, 2, 99016101, -1)
+        # Visual Aura
+        AddTalkListData(2, 99091102, -1)
         
-        # Offering of Tenacity
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31003, 4, 1, 0) == 1, 3, 99016102, -1)
-        
-        # Offering of Fortitude
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31013, 4, 1, 0) == 1, 4, 99016103, -1)
-        
-        # Offering of Vitality
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31023, 4, 1, 0) == 1, 5, 99016104, -1)
-        
-        # Offering of Devotion
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31033, 4, 1, 0) == 1, 6, 99016105, -1)
-        
-        # Offering of Fervor
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31043, 4, 1, 0) == 1, 7, 99016106, -1)
-        
-        # Quit
-        AddTalkListData(99, 15000180, -1)
+        # Leave
+        AddTalkListData(99, 15000005, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Dial of Obedience
+        # Visual Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x50(30983, 30984, 11, -12)
-            return 0
-        # Offering of Might
+            assert t400508_x40(25007840, 25007841, 25007842, 25007843, 25007844, 25007845, 25007846, 25007847, 25007848, 25007849)
+            continue
+        # Visual Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x50(30993, 30994, 11, -12)
-            return 0
-        # Offering of Tenacity
-        elif GetTalkListEntryResult() == 3:
-            assert t400508_x50(31003, 31004, 11, -12)
-            return 0
-        # Offering of Fortitude
-        elif GetTalkListEntryResult() == 4:
-            assert t400508_x50(31013, 31014, 11, -12)
-            return 0
-        # Offering of Vitality
-        elif GetTalkListEntryResult() == 5:
-            assert t400508_x50(31023, 31024, 11, -12)
-            return 0
-        # Offering of Devotion
-        elif GetTalkListEntryResult() == 6:
-            assert t400508_x50(31033, 31034, 11, -12)
-            return 0
-        # Offering of Fervor
-        elif GetTalkListEntryResult() == 7:
-            assert t400508_x50(31043, 31044, 11, -12)
+            assert t400508_x41(25007850, 25007851, 25007852, 25007853, 25007854, 25007855, 25007856, 25007857, 25007858, 25007859)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
-#----------------------------------------------------------
-# Legendary
-#----------------------------------------------------------
-def t400508_x45():
+#----------------------------------------------------
+# Conjuration - Gargoyle
+#----------------------------------------------------
+def t400508_x29():
     c1110()
-    
     while True:
         ClearTalkListData()
-    
-        # Dial of Obedience
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30984, 4, 1, 0) == 1, 1, 99016100, -1)
+
+        # Visual Emission
+        AddTalkListData(1, 99091101, -1)
         
-        # Offering of Might
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30994, 4, 1, 0) == 1, 2, 99016101, -1)
+        # Visual Aura
+        AddTalkListData(2, 99091102, -1)
         
-        # Offering of Tenacity
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31004, 4, 1, 0) == 1, 3, 99016102, -1)
-        
-        # Offering of Fortitude
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31014, 4, 1, 0) == 1, 4, 99016103, -1)
-        
-        # Offering of Vitality
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31024, 4, 1, 0) == 1, 5, 99016104, -1)
-        
-        # Offering of Devotion
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31034, 4, 1, 0) == 1, 6, 99016105, -1)
-        
-        # Offering of Fervor
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31044, 4, 1, 0) == 1, 7, 99016106, -1)
-        
-        # Quit
-        AddTalkListData(99, 15000180, -1)
+        # Leave
+        AddTalkListData(99, 15000005, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Dial of Obedience
+        # Visual Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x50(30984, 30985, 14, -15)
-            return 0
-        # Offering of Might
+            assert t400508_x40(25007860, 25007861, 25007862, 25007863, 25007864, 25007865, 25007866, 25007867, 25007868, 25007869)
+            continue
+        # Visual Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x50(30994, 30995, 14, -15)
+            assert t400508_x41(25007870, 25007871, 25007872, 25007873, 25007874, 25007875, 25007876, 25007877, 25007878, 25007879)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
             return 0
-        # Offering of Tenacity
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#----------------------------------------------------
+# Visual Emission
+#----------------------------------------------------
+def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, flag8=_, flag9=_, flag10=_):
+    c1110()
+    while True:
+        ClearTalkListData()
+
+        # Visual Emission: None
+        AddTalkListData(1, 99091110, -1)
+        
+        # Visual Emission: Fire
+        AddTalkListData(2, 99091111, -1)
+        
+        # Visual Emission: 
+        #AddTalkListData(3, 99091112, -1)
+        
+        # Visual Emission: 
+        #AddTalkListData(4, 99091113, -1)
+        
+        # Visual Emission: 
+        #AddTalkListData(5, 99091114, -1)
+        
+        # Visual Emission: 
+        #AddTalkListData(6, 99091115, -1)
+        
+        # Visual Emission: 
+        #AddTalkListData(7, 99091116, -1)
+        
+        # Visual Emission: 
+        #AddTalkListData(8, 99091117, -1)
+        
+        # Visual Emission: 
+        #AddTalkListData(9, 99091118, -1)
+        
+        # Visual Emission: 
+        #AddTalkListData(10, 99091119, -1)
+        
+        # Visual Emission: 
+        #AddTalkListData(11, 99091120, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Visual Emission: None
+        if GetTalkListEntryResult() == 1:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091210)
+            return 0
+        # Visual Emission: Fire
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(flag1, 1)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091211)
+            return 0
+        # Visual Emission: 
         elif GetTalkListEntryResult() == 3:
-            assert t400508_x50(31004, 31005, 14, -15)
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 1)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091212)
             return 0
-        # Offering of Fortitude
+        # Visual Emission: 
         elif GetTalkListEntryResult() == 4:
-            assert t400508_x50(31014, 31015, 14, -15)
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 1)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091213)
             return 0
-        # Offering of Vitality
+        # Visual Emission: 
         elif GetTalkListEntryResult() == 5:
-            assert t400508_x50(31024, 31025, 14, -15)
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 1)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091214)
             return 0
-        # Offering of Devotion
+        # Visual Emission: 
         elif GetTalkListEntryResult() == 6:
-            assert t400508_x50(31034, 31035, 14, -15)
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 1)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091215)
             return 0
-        # Offering of Fervor
+        # Visual Emission: 
         elif GetTalkListEntryResult() == 7:
-            assert t400508_x50(31044, 31045, 14, -15)
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 1)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091216)
+            return 0
+        # Visual Emission: 
+        elif GetTalkListEntryResult() == 8:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 1)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091217)
+            return 0
+        # Visual Emission: 
+        elif GetTalkListEntryResult() == 9:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 1)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091218)
+            return 0
+        # Visual Emission: 
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 1)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091219)
+            return 0
+        # Visual Emission: 
+        elif GetTalkListEntryResult() == 11:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 1)
+            assert t400508_x52(99091220)
+            return 0
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+          
+#----------------------------------------------------
+# Visual Aura
+#----------------------------------------------------
+def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, flag8=_, flag9=_, flag10=_):
+    c1110()
+    while True:
+        ClearTalkListData()
+
+        # Visual Aura: None
+        AddTalkListData(1, 99091150, -1)
+        
+        # Visual Aura: Red
+        AddTalkListData(2, 99091151, -1)
+        
+        # Visual Aura: Orange
+        AddTalkListData(3, 99091152, -1)
+        
+        # Visual Aura: Yellow
+        AddTalkListData(4, 99091153, -1)
+        
+        # Visual Aura: Green
+        AddTalkListData(5, 99091154, -1)
+        
+        # Visual Aura: Cyan
+        AddTalkListData(6, 99091155, -1)
+        
+        # Visual Aura: Blue
+        AddTalkListData(7, 99091156, -1)
+        
+        # Visual Aura: Indigo
+        AddTalkListData(8, 99091157, -1)
+        
+        # Visual Aura: Violet
+        AddTalkListData(9, 99091158, -1)
+        
+        # Visual Aura: Pink
+        AddTalkListData(10, 99091159, -1)
+        
+        # Visual Aura: Rainbow
+        AddTalkListData(11, 99091160, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Visual Aura: None
+        if GetTalkListEntryResult() == 1:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091250)
+            return 0
+        # Visual Aura: Red
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(flag1, 1)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091251)
+            return 0
+        # Visual Aura: Orange
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 1)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091252)
+            return 0
+        # Visual Aura: Yellow
+        elif GetTalkListEntryResult() == 4:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 1)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091253)
+            return 0
+        # Visual Aura: Green
+        elif GetTalkListEntryResult() == 5:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 1)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091254)
+            return 0
+        # Visual Aura: Cyan
+        elif GetTalkListEntryResult() == 6:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 1)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091255)
+            return 0
+        # Visual Aura: Blue
+        elif GetTalkListEntryResult() == 7:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 1)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091256)
+            return 0
+        # Visual Aura: Indigo
+        elif GetTalkListEntryResult() == 8:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 1)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091257)
+            return 0
+        # Visual Aura: Violet
+        elif GetTalkListEntryResult() == 9:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 1)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091258)
+            return 0
+        # Visual Aura: Pink
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 1)
+            SetEventState(flag10, 0)
+            assert t400508_x52(99091259)
+            return 0
+        # Visual Aura: Rainbow
+        elif GetTalkListEntryResult() == 11:
+            SetEventState(flag1, 0)
+            SetEventState(flag2, 0)
+            SetEventState(flag3, 0)
+            SetEventState(flag4, 0)
+            SetEventState(flag5, 0)
+            SetEventState(flag6, 0)
+            SetEventState(flag7, 0)
+            SetEventState(flag8, 0)
+            SetEventState(flag9, 0)
+            SetEventState(flag10, 1)
+            assert t400508_x52(99091260)
+            return 0
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

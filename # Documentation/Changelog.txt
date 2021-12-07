@@ -129,7 +129,6 @@ Finish following weapons:
 - Changed Explosive Soul Spear to Swift Soul Spear.
 - Increased FP cost of Soul Eruption to 100.
 - Chaos Beam now penetrates map.
-- Conjuration summons now have body vfx to help differentiate them from other enemies.
 
 - Added new spells:
  - Sorceries:
@@ -164,6 +163,12 @@ Finish following weapons:
 - Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
 - Changed the animation use of Rouge/Crimson Water to Consumable.
 - Added on use and ongoing visual effects to some consumable items.
+
+# Conjurations
+- You can now configure Visual Emission and Visual Aura for each of your conjured allies.
+ - This allows you to add a visual effect/phantom glow to your conjured ally, making them easier to spot.
+ - This is done via Conjurator Ellie.
+ - The visual effect/phantom glow can be different for each conjured ally.
 
 # Bosses
 - Moved the Marauder into the Lonely Hollow area.
@@ -243,3 +248,4 @@ Finish following weapons:
 #------------------------------
 Add Solaire as summon to Soul of Cinder
 
+160760400

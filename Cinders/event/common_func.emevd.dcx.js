@@ -7070,20 +7070,6 @@ Event(20080001, Restart, function(X0_4) {
 });
 
 //----------------------------------------------
-// Spell Summon - Suppress desummon VFX/Sound after bonfire rest
-//----------------------------------------------
-Event(20080005, Restart, function(X0_4) {
-    
-});
-
-//----------------------------------------------
-// Spell Summon - 
-//----------------------------------------------
-Event(20080006, Restart, function(X0_4) {
-    
-});
-
-//----------------------------------------------
 // Spell Summon - Summoning
 // <entity id>, <trigger speffect>, <level scaling speffect>, <map id>, <block id>
 //----------------------------------------------
@@ -7206,48 +7192,1219 @@ Event(20080002, Restart, function(X0_4) {
 // This handles the ring effects that boost a Spell Summon
 //----------------------------------------------
 Event(20080003, Restart, function(X0_4) {
-    var entity_Companion = X0_4;
-
-    //------------------------
-    // Ring of Conjuration
-    //------------------------
-    // ON
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Ring of Conjuration - ON
     SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(entity_Companion, 160764000);
+    SetSpeffect(X0_4, 160764000);
     
     SkipIfCharacterHasSpeffect(1, 10000, 160603711, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(entity_Companion, 160764001);
+    SetSpeffect(X0_4, 160764001);
     
     SkipIfCharacterHasSpeffect(1, 10000, 160603712, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(entity_Companion, 160764002);
+    SetSpeffect(X0_4, 160764002);
     
     SkipIfCharacterHasSpeffect(1, 10000, 160603713, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(entity_Companion, 160764003);
+    SetSpeffect(X0_4, 160764003);
     
     SkipIfCharacterHasSpeffect(1, 10000, 160603714, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(entity_Companion, 160764004);
+    SetSpeffect(X0_4, 160764004);
     
     SkipIfCharacterHasSpeffect(1, 10000, 160603715, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(entity_Companion, 160764005);
+    SetSpeffect(X0_4, 160764005);
     
-    // OFF
+    // Ring of Conjuration - OFF
     SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(entity_Companion, 160764000);
+    ClearSpeffect(X0_4, 160764000);
     
     SkipIfCharacterHasSpeffect(1, 10000, 160603711, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(entity_Companion, 160764001);
+    ClearSpeffect(X0_4, 160764001);
     
     SkipIfCharacterHasSpeffect(1, 10000, 160603712, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(entity_Companion, 160764002);
+    ClearSpeffect(X0_4, 160764002);
     
     SkipIfCharacterHasSpeffect(1, 10000, 160603713, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(entity_Companion, 160764003);
+    ClearSpeffect(X0_4, 160764003);
     
     SkipIfCharacterHasSpeffect(1, 10000, 160603714, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(entity_Companion, 160764004);
+    ClearSpeffect(X0_4, 160764004);
     
     SkipIfCharacterHasSpeffect(1, 10000, 160603715, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(entity_Companion, 160764005);
+    ClearSpeffect(X0_4, 160764005);
+
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Skeleton
+//----------------------------------------------
+Event(20080010, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Skeleton - Visual Emission/Visual Arua
+//----------------------------------------------
+Event(20080011, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Visual Emission: Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007700);
+    SetSpEffect(X0_4, 160760400);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007701);
+    SetSpEffect(X0_4, 160760401);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007702);
+    SetSpEffect(X0_4, 160760402);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007703);
+    SetSpEffect(X0_4, 160760403);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007704);
+    SetSpEffect(X0_4, 160760404);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007705);
+    SetSpEffect(X0_4, 160760405);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007706);
+    SetSpEffect(X0_4, 160760406);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007707);
+    SetSpEffect(X0_4, 160760407);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007708);
+    SetSpEffect(X0_4, 160760408);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709);
+    SetSpEffect(X0_4, 160760409);
+    
+    // Visual Aura: Red
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007710);
+    SetSpEffect(X0_4, 160760450);
+    
+    // Visual Aura: Orange
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007711);
+    SetSpEffect(X0_4, 160760451);
+    
+    // Visual Aura: Yellow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007712);
+    SetSpEffect(X0_4, 160760452);
+    
+    // Visual Aura: Green
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007713);
+    SetSpEffect(X0_4, 160760453);
+    
+    // Visual Aura: Cyan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007714);
+    SetSpEffect(X0_4, 160760454);
+    
+    // Visual Aura: Blue
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007715);
+    SetSpEffect(X0_4, 160760455);
+    
+    // Visual Aura: Indigo
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007716);
+    SetSpEffect(X0_4, 160760456);
+    
+    // Visual Aura: Violet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007717);
+    SetSpEffect(X0_4, 160760457);
+    
+    // Visual Aura: Pink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007718);
+    SetSpEffect(X0_4, 160760458);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Skeleton - Rainbow Visual Aura
+//----------------------------------------------
+Event(20080012, Restart, function(X0_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007719);
+    
+    SetSpEffect(X0_4, 160760470);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760471);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760472);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760473);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760474);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760475);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760476);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760477);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760478);
+    WaitFixedTimeSeconds(0.6);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Hollow
+//----------------------------------------------
+Event(20080020, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Hollow - Visual Emission/Visual Arua
+//----------------------------------------------
+Event(20080021, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Visual Emission: Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007720);
+    SetSpEffect(X0_4, 160760400);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007721);
+    SetSpEffect(X0_4, 160760401);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007722);
+    SetSpEffect(X0_4, 160760402);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007723);
+    SetSpEffect(X0_4, 160760403);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007724);
+    SetSpEffect(X0_4, 160760404);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007725);
+    SetSpEffect(X0_4, 160760405);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007726);
+    SetSpEffect(X0_4, 160760406);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007727);
+    SetSpEffect(X0_4, 160760407);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007728);
+    SetSpEffect(X0_4, 160760408);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729);
+    SetSpEffect(X0_4, 160760409);
+    
+    // Visual Aura: Red
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007730);
+    SetSpEffect(X0_4, 160760450);
+    
+    // Visual Aura: Orange
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007731);
+    SetSpEffect(X0_4, 160760451);
+    
+    // Visual Aura: Yellow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007732);
+    SetSpEffect(X0_4, 160760452);
+    
+    // Visual Aura: Green
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007733);
+    SetSpEffect(X0_4, 160760453);
+    
+    // Visual Aura: Cyan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007734);
+    SetSpEffect(X0_4, 160760454);
+    
+    // Visual Aura: Blue
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007735);
+    SetSpEffect(X0_4, 160760455);
+    
+    // Visual Aura: Indigo
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007736);
+    SetSpEffect(X0_4, 160760456);
+    
+    // Visual Aura: Violet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007737);
+    SetSpEffect(X0_4, 160760457);
+    
+    // Visual Aura: Pink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007738);
+    SetSpEffect(X0_4, 160760458);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Hollow - Rainbow Visual Aura
+//----------------------------------------------
+Event(20080022, Restart, function(X0_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007739);
+    
+    SetSpEffect(X0_4, 160760470);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760471);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760472);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760473);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760474);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760475);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760476);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760477);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760478);
+    WaitFixedTimeSeconds(0.6);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Hound
+//----------------------------------------------
+Event(20080030, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Hound - Visual Emission/Visual Arua
+//----------------------------------------------
+Event(20080031, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Visual Emission: Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007740);
+    SetSpEffect(X0_4, 160760400);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007741);
+    SetSpEffect(X0_4, 160760401);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007742);
+    SetSpEffect(X0_4, 160760402);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007743);
+    SetSpEffect(X0_4, 160760403);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007744);
+    SetSpEffect(X0_4, 160760404);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007745);
+    SetSpEffect(X0_4, 160760405);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007746);
+    SetSpEffect(X0_4, 160760406);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007747);
+    SetSpEffect(X0_4, 160760407);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007748);
+    SetSpEffect(X0_4, 160760408);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749);
+    SetSpEffect(X0_4, 160760409);
+    
+    // Visual Aura: Red
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007750);
+    SetSpEffect(X0_4, 160760450);
+    
+    // Visual Aura: Orange
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007751);
+    SetSpEffect(X0_4, 160760451);
+    
+    // Visual Aura: Yellow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007752);
+    SetSpEffect(X0_4, 160760452);
+    
+    // Visual Aura: Green
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007753);
+    SetSpEffect(X0_4, 160760453);
+    
+    // Visual Aura: Cyan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007754);
+    SetSpEffect(X0_4, 160760454);
+    
+    // Visual Aura: Blue
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007755);
+    SetSpEffect(X0_4, 160760455);
+    
+    // Visual Aura: Indigo
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007756);
+    SetSpEffect(X0_4, 160760456);
+    
+    // Visual Aura: Violet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007757);
+    SetSpEffect(X0_4, 160760457);
+    
+    // Visual Aura: Pink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007758);
+    SetSpEffect(X0_4, 160760458);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Hound - Rainbow Visual Aura
+//----------------------------------------------
+Event(20080032, Restart, function(X0_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007759);
+    
+    SetSpEffect(X0_4, 160760470);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760471);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760472);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760473);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760474);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760475);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760476);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760477);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760478);
+    WaitFixedTimeSeconds(0.6);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Warrior
+//----------------------------------------------
+Event(20080040, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Warrior - Visual Emission/Visual Arua
+//----------------------------------------------
+Event(20080041, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Visual Emission: Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007760);
+    SetSpEffect(X0_4, 160760400);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007761);
+    SetSpEffect(X0_4, 160760401);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007762);
+    SetSpEffect(X0_4, 160760402);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007763);
+    SetSpEffect(X0_4, 160760403);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007764);
+    SetSpEffect(X0_4, 160760404);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007765);
+    SetSpEffect(X0_4, 160760405);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007766);
+    SetSpEffect(X0_4, 160760406);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007767);
+    SetSpEffect(X0_4, 160760407);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007768);
+    SetSpEffect(X0_4, 160760408);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769);
+    SetSpEffect(X0_4, 160760409);
+    
+    // Visual Aura: Red
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007770);
+    SetSpEffect(X0_4, 160760450);
+    
+    // Visual Aura: Orange
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007771);
+    SetSpEffect(X0_4, 160760451);
+    
+    // Visual Aura: Yellow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007772);
+    SetSpEffect(X0_4, 160760452);
+    
+    // Visual Aura: Green
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007773);
+    SetSpEffect(X0_4, 160760453);
+    
+    // Visual Aura: Cyan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007774);
+    SetSpEffect(X0_4, 160760454);
+    
+    // Visual Aura: Blue
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007775);
+    SetSpEffect(X0_4, 160760455);
+    
+    // Visual Aura: Indigo
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007776);
+    SetSpEffect(X0_4, 160760456);
+    
+    // Visual Aura: Violet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007777);
+    SetSpEffect(X0_4, 160760457);
+    
+    // Visual Aura: Pink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007778);
+    SetSpEffect(X0_4, 160760458);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Warrior - Rainbow Visual Aura
+//----------------------------------------------
+Event(20080042, Restart, function(X0_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007779);
+    
+    SetSpEffect(X0_4, 160760470);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760471);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760472);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760473);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760474);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760475);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760476);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760477);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760478);
+    WaitFixedTimeSeconds(0.6);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Sentinel
+//----------------------------------------------
+Event(20080050, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Sentinel - Visual Emission/Visual Arua
+//----------------------------------------------
+Event(20080051, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Visual Emission: Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007780);
+    SetSpEffect(X0_4, 160760400);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007781);
+    SetSpEffect(X0_4, 160760401);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007782);
+    SetSpEffect(X0_4, 160760402);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007783);
+    SetSpEffect(X0_4, 160760403);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007784);
+    SetSpEffect(X0_4, 160760404);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007785);
+    SetSpEffect(X0_4, 160760405);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007786);
+    SetSpEffect(X0_4, 160760406);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007787);
+    SetSpEffect(X0_4, 160760407);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007788);
+    SetSpEffect(X0_4, 160760408);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789);
+    SetSpEffect(X0_4, 160760409);
+    
+    // Visual Aura: Red
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007790);
+    SetSpEffect(X0_4, 160760450);
+    
+    // Visual Aura: Orange
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007791);
+    SetSpEffect(X0_4, 160760451);
+    
+    // Visual Aura: Yellow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007792);
+    SetSpEffect(X0_4, 160760452);
+    
+    // Visual Aura: Green
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007793);
+    SetSpEffect(X0_4, 160760453);
+    
+    // Visual Aura: Cyan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007794);
+    SetSpEffect(X0_4, 160760454);
+    
+    // Visual Aura: Blue
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007795);
+    SetSpEffect(X0_4, 160760455);
+    
+    // Visual Aura: Indigo
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007796);
+    SetSpEffect(X0_4, 160760456);
+    
+    // Visual Aura: Violet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007797);
+    SetSpEffect(X0_4, 160760457);
+    
+    // Visual Aura: Pink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007798);
+    SetSpEffect(X0_4, 160760458);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Sentinel - Rainbow Visual Aura
+//----------------------------------------------
+Event(20080052, Restart, function(X0_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007799);
+    
+    SetSpEffect(X0_4, 160760470);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760471);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760472);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760473);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760474);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760475);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760476);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760477);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760478);
+    WaitFixedTimeSeconds(0.6);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Lycanthrope
+//----------------------------------------------
+Event(20080060, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Lycanthrope - Visual Emission/Visual Arua
+//----------------------------------------------
+Event(20080061, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Visual Emission: Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007800);
+    SetSpEffect(X0_4, 160760400);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007801);
+    SetSpEffect(X0_4, 160760401);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007802);
+    SetSpEffect(X0_4, 160760402);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007803);
+    SetSpEffect(X0_4, 160760403);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007804);
+    SetSpEffect(X0_4, 160760404);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007805);
+    SetSpEffect(X0_4, 160760405);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007806);
+    SetSpEffect(X0_4, 160760406);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007807);
+    SetSpEffect(X0_4, 160760407);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007808);
+    SetSpEffect(X0_4, 160760408);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809);
+    SetSpEffect(X0_4, 160760409);
+    
+    // Visual Aura: Red
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007810);
+    SetSpEffect(X0_4, 160760450);
+    
+    // Visual Aura: Orange
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007811);
+    SetSpEffect(X0_4, 160760451);
+    
+    // Visual Aura: Yellow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007812);
+    SetSpEffect(X0_4, 160760452);
+    
+    // Visual Aura: Green
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007813);
+    SetSpEffect(X0_4, 160760453);
+    
+    // Visual Aura: Cyan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007814);
+    SetSpEffect(X0_4, 160760454);
+    
+    // Visual Aura: Blue
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007815);
+    SetSpEffect(X0_4, 160760455);
+    
+    // Visual Aura: Indigo
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007816);
+    SetSpEffect(X0_4, 160760456);
+    
+    // Visual Aura: Violet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007817);
+    SetSpEffect(X0_4, 160760457);
+    
+    // Visual Aura: Pink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007818);
+    SetSpEffect(X0_4, 160760458);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Lycanthrope - Rainbow Visual Aura
+//----------------------------------------------
+Event(20080062, Restart, function(X0_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007819);
+    
+    SetSpEffect(X0_4, 160760470);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760471);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760472);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760473);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760474);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760475);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760476);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760477);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760478);
+    WaitFixedTimeSeconds(0.6);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Knight
+//----------------------------------------------
+Event(20080070, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Knight - Visual Emission/Visual Arua
+//----------------------------------------------
+Event(20080071, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Visual Emission: Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007820);
+    SetSpEffect(X0_4, 160760400);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007821);
+    SetSpEffect(X0_4, 160760401);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007822);
+    SetSpEffect(X0_4, 160760402);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007823);
+    SetSpEffect(X0_4, 160760403);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007824);
+    SetSpEffect(X0_4, 160760404);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007825);
+    SetSpEffect(X0_4, 160760405);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007826);
+    SetSpEffect(X0_4, 160760406);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007827);
+    SetSpEffect(X0_4, 160760407);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007828);
+    SetSpEffect(X0_4, 160760408);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829);
+    SetSpEffect(X0_4, 160760409);
+    
+    // Visual Aura: Red
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007830);
+    SetSpEffect(X0_4, 160760450);
+    
+    // Visual Aura: Orange
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007831);
+    SetSpEffect(X0_4, 160760451);
+    
+    // Visual Aura: Yellow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007832);
+    SetSpEffect(X0_4, 160760452);
+    
+    // Visual Aura: Green
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007833);
+    SetSpEffect(X0_4, 160760453);
+    
+    // Visual Aura: Cyan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007834);
+    SetSpEffect(X0_4, 160760454);
+    
+    // Visual Aura: Blue
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007835);
+    SetSpEffect(X0_4, 160760455);
+    
+    // Visual Aura: Indigo
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007836);
+    SetSpEffect(X0_4, 160760456);
+    
+    // Visual Aura: Violet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007837);
+    SetSpEffect(X0_4, 160760457);
+    
+    // Visual Aura: Pink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007838);
+    SetSpEffect(X0_4, 160760458);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Knight - Rainbow Visual Aura
+//----------------------------------------------
+Event(20080072, Restart, function(X0_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007839);
+    
+    SetSpEffect(X0_4, 160760470);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760471);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760472);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760473);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760474);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760475);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760476);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760477);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760478);
+    WaitFixedTimeSeconds(0.6);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Watcher
+//----------------------------------------------
+Event(20080080, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Watcher - Visual Emission/Visual Arua
+//----------------------------------------------
+Event(20080081, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Visual Emission: Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007840);
+    SetSpEffect(X0_4, 160760400);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007841);
+    SetSpEffect(X0_4, 160760401);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007842);
+    SetSpEffect(X0_4, 160760402);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007843);
+    SetSpEffect(X0_4, 160760403);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007844);
+    SetSpEffect(X0_4, 160760404);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007845);
+    SetSpEffect(X0_4, 160760405);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007846);
+    SetSpEffect(X0_4, 160760406);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007847);
+    SetSpEffect(X0_4, 160760407);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007848);
+    SetSpEffect(X0_4, 160760408);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849);
+    SetSpEffect(X0_4, 160760409);
+    
+    // Visual Aura: Red
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007850);
+    SetSpEffect(X0_4, 160760450);
+    
+    // Visual Aura: Orange
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007851);
+    SetSpEffect(X0_4, 160760451);
+    
+    // Visual Aura: Yellow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007852);
+    SetSpEffect(X0_4, 160760452);
+    
+    // Visual Aura: Green
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007853);
+    SetSpEffect(X0_4, 160760453);
+    
+    // Visual Aura: Cyan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007854);
+    SetSpEffect(X0_4, 160760454);
+    
+    // Visual Aura: Blue
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007855);
+    SetSpEffect(X0_4, 160760455);
+    
+    // Visual Aura: Indigo
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007856);
+    SetSpEffect(X0_4, 160760456);
+    
+    // Visual Aura: Violet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007857);
+    SetSpEffect(X0_4, 160760457);
+    
+    // Visual Aura: Pink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007858);
+    SetSpEffect(X0_4, 160760458);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Watcher - Rainbow Visual Aura
+//----------------------------------------------
+Event(20080082, Restart, function(X0_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007859);
+    
+    SetSpEffect(X0_4, 160760470);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760471);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760472);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760473);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760474);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760475);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760476);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760477);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760478);
+    WaitFixedTimeSeconds(0.6);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Gargoyle
+//----------------------------------------------
+Event(20080090, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Gargoyle - Visual Emission/Visual Arua
+//----------------------------------------------
+Event(20080091, Restart, function(X0_4) {
+    // If Spell Summon isn't active, just jump to loop restart.
+    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
+    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Visual Emission: Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007860);
+    SetSpEffect(X0_4, 160760400);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007861);
+    SetSpEffect(X0_4, 160760401);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007862);
+    SetSpEffect(X0_4, 160760402);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007863);
+    SetSpEffect(X0_4, 160760403);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007864);
+    SetSpEffect(X0_4, 160760404);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007865);
+    SetSpEffect(X0_4, 160760405);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007866);
+    SetSpEffect(X0_4, 160760406);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007867);
+    SetSpEffect(X0_4, 160760407);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007868);
+    SetSpEffect(X0_4, 160760408);
+    
+    // Visual Emission: 
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869);
+    SetSpEffect(X0_4, 160760409);
+    
+    // Visual Aura: Red
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007870);
+    SetSpEffect(X0_4, 160760450);
+    
+    // Visual Aura: Orange
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007871);
+    SetSpEffect(X0_4, 160760451);
+    
+    // Visual Aura: Yellow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007872);
+    SetSpEffect(X0_4, 160760452);
+    
+    // Visual Aura: Green
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007873);
+    SetSpEffect(X0_4, 160760453);
+    
+    // Visual Aura: Cyan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007874);
+    SetSpEffect(X0_4, 160760454);
+    
+    // Visual Aura: Blue
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007875);
+    SetSpEffect(X0_4, 160760455);
+    
+    // Visual Aura: Indigo
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007876);
+    SetSpEffect(X0_4, 160760456);
+    
+    // Visual Aura: Violet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007877);
+    SetSpEffect(X0_4, 160760457);
+    
+    // Visual Aura: Pink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007878);
+    SetSpEffect(X0_4, 160760458);
+    
+    Label0();
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Spell Summon - Gargoyle - Rainbow Visual Aura
+//----------------------------------------------
+Event(20080092, Restart, function(X0_4) {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007879);
+    
+    SetSpEffect(X0_4, 160760470);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760471);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760472);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760473);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760474);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760475);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760476);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760477);
+    WaitFixedTimeSeconds(0.6);
+    SetSpEffect(X0_4, 160760478);
+    WaitFixedTimeSeconds(0.6);
     
     EndUnconditionally(EventEndType.Restart);
 });

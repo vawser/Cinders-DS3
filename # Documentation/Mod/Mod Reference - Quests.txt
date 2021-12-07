@@ -108,3 +108,43 @@ Remy:
             Catacombs of Carthus: 3 Large Titanite Shard / 2 Titanite Chunk
             Irithyll Dungeon: 5 Titanite Chunk
             Dreg Heap: 1 Titanite Slab
+            
+#------------------------
+# Anri of Astora
+#------------------------
+Road of Sacrifices:
+    Progression:
+        Speak to Anri. Exhaust dialogue
+
+    Dialogue:
+        Oh, hello. How do you do.
+        I am Anri of Astora. Unkindled, like you.
+        This is Horace. A friend and travelling companion.
+        Are you too in search of the Lords of Cinder?
+        We are well along the road of sacrifices. Below us is the Crucifixion Woods.
+        Beyond the flooded woods lies Farron Keep, home of the Undead Legion. Further yet is the Cathedral of the Deep.
+        We seek the cathedral, home of the grim Aldrich.
+        We may go our separate ways now, but we are both seekers of lords.
+        The next time we cross paths, one may find the other in a time of need.
+        May the flames guide your way.
+
+        Oh, yes, Horace…
+        He's not very talkative.
+        But don't think ill of him. He's an upstanding, kind-hearted knight, a fine partner for this gruelling journey.
+        Without his help, I would have cursed this onerous duty long ago.
+
+        We are well along the road of sacrifices. Below us is the Crucifixion Woods.
+        Beyond the flooded woods lies Farron Keep, home of the Undead Legion. Further yet is the Cathedral of the Deep.
+        We may go our separate ways now, but we are both seekers of lords.
+        The next time we cross paths, one may find the other in a time of need.
+        May the flames guide your way.
+
+Deacons of the Deep:
+    Progression:
+        Speak to phantom Anri. Exhaust dialogue.
+        
+    Dialogue:
+        Yes. Eliminate the accursed creatures within this cathedral.
+        Once they have fallen, you may find me in the dusty catacombs below the swamp.
+        
+Catacombs of Carthus:
