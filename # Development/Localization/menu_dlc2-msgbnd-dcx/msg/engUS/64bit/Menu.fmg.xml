@@ -1981,12 +1981,81 @@ Persisting will transform you into a grub.</text>
 <text id="15003050">Train Outside</text>
 <text id="15003051">Train Inside</text>
 
+<text id="15003060">Transformation Items</text>
+<text id="15003061">Transformation Effects</text>
+<text id="15003100">Weapon Emission</text>
+<text id="15003101">Right Weapon</text>
+<text id="15003102">Left Weapon</text>
+<text id="15003103">Body Emission</text>
+<text id="15003104">Eye Emission</text>
+<text id="15003105">Body Aura</text>
+<text id="15003106">Humanity Aura</text>
 
-<text id="15003060">Insignias and Emblems</text>
-<text id="15003061">Elixirs</text>
-<text id="15003062">Writs</text>
-<text id="15003063">Oils</text>
-<text id="15003064">Odds and Ends</text>
+<text id="15003110">Clear Effects</text>
+<text id="15003120">Effect applied.</text>
+<text id="15003121">Effects removed.</text>
+<text id="15003122">Reload the map to restore access to Transformation Effects.</text>
+
+<text id="15003200">None</text>
+<text id="15003201">Magic</text>
+<text id="15003202">Fire</text>
+<text id="15003203">Lightning</text>
+<text id="15003204">Abyss</text>
+<text id="15003205">Poison</text>
+<text id="15003206">Blood</text>
+<text id="15003207">Frost</text>
+<text id="15003208">Moonlight</text>
+<text id="15003209">Divine</text>
+<text id="15003210">Black Fire</text>
+<text id="15003211">Bolt</text>
+<text id="15003212">Sunlight</text>
+<text id="15003213">Enchanted</text>
+<text id="15003214">Scorched</text>
+<text id="15003215">Rotten</text>
+<text id="15003216">Wind</text>
+<text id="15003217">Psychedelic</text>
+<text id="15003218">Brume</text>
+
+<text id="15003300">Mass of Humanity</text>
+<text id="15003301">Magical Crystals</text>
+<text id="15003302">Invisibility</text>
+<text id="15003303">Stoneform</text>
+<text id="15003304">Maggots</text>
+<text id="15003305">Lightning</text>
+<text id="15003306">White Stars</text>
+<text id="15003307">Prismatic Stars</text>
+<text id="15003308">Corrupted Crystals</text>
+<text id="15003309">Dung</text>
+<text id="15003310">Barrier Wards</text>
+<text id="15003311">Poison</text>
+<text id="15003312">Frost</text>
+<text id="15003313">Flame</text>
+<text id="15003314">Dust</text>
+<text id="15003315">Water</text>
+<text id="15003316">Holy</text>
+<text id="15003317">Smouldering</text>
+
+<text id="15003400">Red Glow</text>
+<text id="15003401">Burning Red Glow</text>
+<text id="15003402">White Glow</text>
+<text id="15003403">Blue Glow</text>
+<text id="15003404">Golden Glow</text>
+
+<text id="15003500">Ethereal Phantom</text>
+<text id="15003503">White Phantom</text>
+<text id="15003504">Darkmoon Phantom</text>
+<text id="15003505">Holy Phantom</text>
+<text id="15003506">Swamp Phantom</text>
+<text id="15003507">Abyssal Phantom</text>
+<text id="15003508">Sunlight Phantom</text>
+<text id="15003509">Mad Phantom</text>
+<text id="15003510">Red Phantom</text>
+<text id="15003511">Demonic Phantom</text>
+<text id="15003512">Psychedelic Phantom</text>
+
+<text id="15003600">Hollow</text>
+<text id="15003601">Human</text>
+
 <text id="15004000">Learn Sorceries</text>
 <text id="15004001">Ascend Sorceries</text>
 <text id="15004002">Ascend Pyromancies</text>

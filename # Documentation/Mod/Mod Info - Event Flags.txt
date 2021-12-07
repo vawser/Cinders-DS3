@@ -1411,6 +1411,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25000030 Valid: Deathless Run
 25000031 Valid: Hitless Run
+25000040 Is Hit state
 
 25000050 Claimed Relic of Power
 25000051 Claimed Relic of Insanity
@@ -1499,14 +1500,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000500 Curse of Impermanence 
 25000510 Curse of Valor
 
-25000600 Tablet of Health
-25000601 Tablet of Power
-25000602 Tablet of Toughness
-25000603 Tablet of Restoration
-25000604 Tablet of Poise 
-25000605 Tablet of Mass Summoning
-25000606 Tablet of Hollow Summoning
-
 25001001 Boss Kill: Corrupted Gundyr
 25001002 Boss Kill: Vordt
 25001003 Boss Kill: Curse-rotted Greatwood
@@ -1546,8 +1539,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 25001100 Boss fight started
 25001110 Boss fight ended
 
-25006000 No Hit state
-
 25008000 Married: 
 25008010 Married: Karla
 25008020 Married: Fire Keeper
@@ -1579,6 +1570,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25008300 Ritualist Ellie: Talk Flag 1
 
 25008800 Screenshot mode
+
 
 25009000 Random flag range
 
@@ -1775,15 +1767,95 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007080 Faith Mastery
 25007090 Luck Mastery
 
+# Player - Weapon Emission 
+25007100 Weapon Emission: Magic (Right)
+25007101 Weapon Emission: Fire (Right)
+25007102 Weapon Emission: Lightning (Right)
+25007103 Weapon Emission: Abyss (Right)
+25007104 Weapon Emission: Poison (Right)
+25007105 Weapon Emission: Blood (Right)
+25007106 Weapon Emission: Frost (Right)
+25007107 Weapon Emission: Moonlight (Right)
+25007108 Weapon Emission: Divine (Right)
+25007109 Weapon Emission: Black Fire (Right)
+25007110 Weapon Emission: Bolt (Right)
+25007111 Weapon Emission: Sunlight (Right)
+25007112 Weapon Emission: Enchanted (Right)
+25007113 Weapon Emission: Scorched (Right)
+25007114 Weapon Emission: Rotten (Right)
+25007115 Weapon Emission: Wind (Right)
+25007116 Weapon Emission: Psychedelic (Right)
+25007117 Weapon Emission: Brume (Right)
+
+25007130 Weapon Emission: Magic (Left)
+25007131 Weapon Emission: Fire (Left)
+25007132 Weapon Emission: Lightning (Left)
+25007133 Weapon Emission: Abyss (Left)
+25007134 Weapon Emission: Poison (Left)
+25007135 Weapon Emission: Blood (Left)
+25007136 Weapon Emission: Frost (Left)
+25007137 Weapon Emission: Moonlight (Left)
+25007138 Weapon Emission: Divine (Left)
+25007139 Weapon Emission: Black Fire (Left)
+25007140 Weapon Emission: Bolt (Left)
+25007141 Weapon Emission: Sunlight (Left)
+25007142 Weapon Emission: Enchanted (Left)
+25007143 Weapon Emission: Scorched (Left)
+25007144 Weapon Emission: Rotten (Left)
+25007145 Weapon Emission: Wind (Left)
+25007146 Weapon Emission: Psychedelic (Left)
+25007147 Weapon Emission: Brume (Left)
+
+# Player - Body Emission
+25007200 Body Emission: Mass of Humanity
+25007201 Body Emission: Magical Crystals
+25007202 Body Emission: Invisibility
+25007203 Body Emission: Stoneform
+25007204 Body Emission: Maggots
+25007205 Body Emission: Lightning
+25007206 Body Emission: White Stars
+25007207 Body Emission: Prismatic Stars
+25007208 Body Emission: Corrupted Crystals
+25007209 Body Emission: Dung
+25007210 Body Emission: Barrier Wards
+25007211 Body Emission: Poison
+25007212 Body Emission: Frost
+25007213 Body Emission: Flame
+25007214 Body Emission: Dust
+25007215 Body Emission: Water
+25007216 Body Emission: Holy
+25007217 Body Emission: Smouldering
+
+# Player - Eye Emission
+25007250 Eye Emission: Red Glow
+25007251 Eye Emission: Burning Red Glow
+25007252 Eye Emission: White Glow
+25007253 Eye Emission: Blue Glow
+25007254 Eye Emission: Golden Glow
+
+# Player - Body Aura
+25007300 Body Aura: Ethereal Phantom
+25007301 Body Aura: Hollow
+25007302 Body Aura: Human
+25007303 Body Aura: White Phantom
+25007304 Body Aura: Darkmoon Phantom
+25007305 Body Aura: Holy Phantom
+25007306 Body Aura: Swamp Phantom
+25007307 Body Aura: Abyssal Phantom
+25007308 Body Aura: Sunlight Phantom
+25007309 Body Aura: Mad Phantom
+25007310 Body Aura: Red Phantom
+25007311 Body Aura: Demonic Phantom
+25007312 Body Aura: Psychedelic Phantom
+
+# Utility
+25007399 Preview Mode disabled
+
 # Training Dummy
 25007510 Dummy 1 enabled
 25007520 Dummy 2 enabled
 25007530 Dummy 3 enabled
 25007600 Outside location enabled
-
-
-# Quests
-25005000
 
 # Spell Summon - Skeleton
 25007700 Visual Emission: Fire
@@ -1982,3 +2054,4 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007877 Visual Aura: Violet
 25007878 Visual Aura: Pink
 25007879 Visual Aura: Rainbow
+

@@ -34,6 +34,21 @@ Event(0, Default, function() {
     InitializeEvent(0, 20081, 0); // Masteries - Reset
     
     //--------------------
+    // Visual Effects
+    //--------------------
+    InitializeEvent(0, 20200, 0); // Preview Mode
+    InitializeEvent(0, 20210, 0); // Weapon Emission - Preview
+    InitializeEvent(0, 20211, 0); // Weapon Emission - On Load
+    InitializeEvent(0, 20220, 0); // Body Emission - Preview
+    InitializeEvent(0, 20221, 0); // Body Emission - On Load
+    InitializeEvent(0, 20230, 0); // Eye Emission - Preview
+    InitializeEvent(0, 20231, 0); // Eye Emission - On Load
+    InitializeEvent(0, 20240, 0); // Body Aura - Preview
+    InitializeEvent(0, 20241, 0); // Body Aura - On Load
+    InitializeEvent(0, 20250, 0); // Humanity Aura - Preview
+    InitializeEvent(0, 20251, 0); // Humanity Aura - On Load
+    
+    //--------------------
     // Curses - Add Player Effects
     //--------------------
     InitializeEvent(0, 20010, 25000400, 250001000, 250001010); // Curse of Pride - 10%
@@ -2024,7 +2039,7 @@ Event(20002, Restart, function(X0_4, X4_4) {
 Event(20003, Restart, function() {
     SetNetworkSyncState(Disabled);
     
-    var flag_WasHit = 25006000;
+    var flag_WasHit = 25000040;
     
     SetEventFlag(flag_WasHit, OFF);
     
@@ -5194,3 +5209,729 @@ Event(20135, Restart, function() {
     
     EndUnconditionally(EventEndType.Restart);
 });
+
+//----------------------------------------------
+// Preview Mode Toggle
+//----------------------------------------------
+Event(20200, Default, function() {
+    // This toggle is used to permit the player to preview transformation effects at Jiji.
+    
+    // The reason for this is that with using a single application system 
+    // causes reapplied VFX to 're-emerge' or flicker, which looks bad.
+    
+    // While in Firelink Shrine, the short loop application system is active.
+    // This applies VFX effects that last 3 seconds, and re-applies them.
+    
+    // Outside the shrine and in all other maps, alternate VFX effects are applied
+    // that last forever and are applied only once.
+    
+    SetEventFlag(25007399, OFF);
+    
+    // Wait for player to leave Firelink Shrine bonfire area
+    IfInoutsideArea(MAIN, InsideOutsideState.Outside, 10000, 4002760, 1);
+    
+    SetEventFlag(25007399, ON);
+    
+    DisplayEpitaphMessage(15003404);
+});
+
+//----------------------------------------------
+// Weapon Emission - Preview
+//----------------------------------------------
+Event(20210, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // End once player leaves Firelink Shrine bonfire area
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Right
+    // Magic
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007100);
+    SetSpEffect(10000, 160709011);
+    
+    // Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007101);
+    SetSpEffect(10000, 160709021);
+    
+    // Lightning
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007102);
+    SetSpEffect(10000, 160709031);
+    
+    // Abyss
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007103);
+    SetSpEffect(10000, 160709041);
+    
+    // Poison
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007104);
+    SetSpEffect(10000, 160709051);
+    
+    // Blood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007105);
+    SetSpEffect(10000, 160709061);
+    
+    // Frost
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007106);
+    SetSpEffect(10000, 160709071);
+    
+    // Moonlight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007107);
+    SetSpEffect(10000, 160709081);
+    
+    // Divine
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007108);
+    SetSpEffect(10000, 160709091);
+    
+    // Black Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007109);
+    SetSpEffect(10000, 160709101);
+    
+    // Bolt
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007110);
+    SetSpEffect(10000, 160709201);
+    
+    // Sunlight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007111);
+    SetSpEffect(10000, 160709301);
+    
+    // Enchanted
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007112);
+    SetSpEffect(10000, 160709401);
+    
+    // Scorched
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007113);
+    SetSpEffect(10000, 160709111);
+    
+    // Rotten
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007114);
+    SetSpEffect(10000, 160709121);
+    
+    // Wind
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007115);
+    SetSpEffect(10000, 160709131);
+    
+    // Psychedelic
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007116);
+    SetSpEffect(10000, 160709141);
+    
+    // Brume
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007117);
+    SetSpEffect(10000, 160709151);
+    
+    // Left
+    // Magic
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007130);
+    SetSpEffect(10000, 160709016);
+    
+    // Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007131);
+    SetSpEffect(10000, 160709026);
+    
+    // Lightning
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007132);
+    SetSpEffect(10000, 160709036);
+    
+    // Abyss
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007133);
+    SetSpEffect(10000, 160709046);
+    
+    // Poison
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007134);
+    SetSpEffect(10000, 160709056);
+    
+    // Blood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007135);
+    SetSpEffect(10000, 160709066);
+    
+    // Frost
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007136);
+    SetSpEffect(10000, 160709076);
+    
+    // Moonlight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007137);
+    SetSpEffect(10000, 160709086);
+    
+    // Divine
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007138);
+    SetSpEffect(10000, 160709096);
+    
+    // Black Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007139);
+    SetSpEffect(10000, 160709106);
+    
+    // Bolt
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007140);
+    SetSpEffect(10000, 160709206);
+    
+    // Sunlight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007141);
+    SetSpEffect(10000, 160709306);
+    
+    // Enchanted
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007142);
+    SetSpEffect(10000, 160709406);
+    
+    // Scorched
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007143);
+    SetSpEffect(10000, 160709116);
+    
+    // Rotten
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007144);
+    SetSpEffect(10000, 160709126);
+    
+    // Wind
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007145);
+    SetSpEffect(10000, 160709136);
+    
+    // Psychedelic
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007146);
+    SetSpEffect(10000, 160709146);
+    
+    // Brume
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007147);
+    SetSpEffect(10000, 160709156);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Weapon Emission - On Load
+//----------------------------------------------
+Event(20211, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // Wait for player to leave Firelink Shrine bonfire area
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Right
+    // Magic
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007100);
+    SetSpEffect(10000, 160709010);
+    
+    // Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007101);
+    SetSpEffect(10000, 160709020);
+    
+    // Lightning
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007102);
+    SetSpEffect(10000, 160709030);
+    
+    // Abyss
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007103);
+    SetSpEffect(10000, 160709040);
+    
+    // Poison
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007104);
+    SetSpEffect(10000, 160709050);
+    
+    // Blood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007105);
+    SetSpEffect(10000, 160709060);
+    
+    // Frost
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007106);
+    SetSpEffect(10000, 160709070);
+    
+    // Moonlight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007107);
+    SetSpEffect(10000, 160709080);
+    
+    // Divine
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007108);
+    SetSpEffect(10000, 160709090);
+    
+    // Black Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007109);
+    SetSpEffect(10000, 160709100);
+    
+    // Bolt
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007110);
+    SetSpEffect(10000, 160709200);
+    
+    // Sunlight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007111);
+    SetSpEffect(10000, 160709300);
+    
+    // Enchanted
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007112);
+    SetSpEffect(10000, 160709400);
+    
+    // Scorched
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007113);
+    SetSpEffect(10000, 160709110);
+    
+    // Rotten
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007114);
+    SetSpEffect(10000, 160709120);
+    
+    // Wind
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007115);
+    SetSpEffect(10000, 160709130);
+    
+    // Psychedelic
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007116);
+    SetSpEffect(10000, 160709140);
+    
+    // Brume
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007117);
+    SetSpEffect(10000, 160709150);
+    
+    // Left
+    // Magic
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007130);
+    SetSpEffect(10000, 160709015);
+    
+    // Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007131);
+    SetSpEffect(10000, 160709025);
+    
+    // Lightning
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007132);
+    SetSpEffect(10000, 160709035);
+    
+    // Abyss
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007133);
+    SetSpEffect(10000, 160709045);
+    
+    // Poison
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007134);
+    SetSpEffect(10000, 160709055);
+    
+    // Blood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007135);
+    SetSpEffect(10000, 160709065);
+    
+    // Frost
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007136);
+    SetSpEffect(10000, 160709075);
+    
+    // Moonlight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007137);
+    SetSpEffect(10000, 160709085);
+    
+    // Divine
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007138);
+    SetSpEffect(10000, 160709095);
+    
+    // Black Fire
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007139);
+    SetSpEffect(10000, 160709105);
+    
+    // Bolt
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007140);
+    SetSpEffect(10000, 160709205);
+    
+    // Sunlight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007141);
+    SetSpEffect(10000, 160709305);
+    
+    // Enchanted
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007142);
+    SetSpEffect(10000, 160709405);
+    
+    // Scorched
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007143);
+    SetSpEffect(10000, 160709115);
+    
+    // Rotten
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007144);
+    SetSpEffect(10000, 160709125);
+    
+    // Wind
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007145);
+    SetSpEffect(10000, 160709135);
+    
+    // Psychedelic
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007146);
+    SetSpEffect(10000, 160709145);
+    
+    // Brume
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007147);
+    SetSpEffect(10000, 160709155);
+});
+
+//----------------------------------------------
+// Body Emission - Preview
+//----------------------------------------------
+Event(20220, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // End once player leaves Firelink Shrine bonfire area
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Mass of Humanity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007200);
+    SetSpEffect(10000, 160709501);
+    
+    // Magical Crystals
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007201);
+    SetSpEffect(10000, 160709503);
+    
+    // Invisibility
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007202);
+    SetSpEffect(10000, 160709505);
+    
+    // Stoneform
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007203);
+    SetSpEffect(10000, 160709507);
+    
+    // Maggots
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007204);
+    SetSpEffect(10000, 160709509);
+    
+    // Lightning
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007205);
+    SetSpEffect(10000, 160709511);
+    
+    // White Stars
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007206);
+    SetSpEffect(10000, 160709513);
+    
+    // Prismatic Stars
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007207);
+    SetSpEffect(10000, 160709515);
+    
+    // Corrupted Crystals
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007208);
+    SetSpEffect(10000, 160709517);
+    
+    // Dung
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007209);
+    SetSpEffect(10000, 160709519);
+    
+    // Barrier Wards
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007210);
+    SetSpEffect(10000, 160709521);
+    
+    // Poison
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007211);
+    SetSpEffect(10000, 160709523);
+    
+    // Frost
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007212);
+    SetSpEffect(10000, 160709525);
+    
+    // Flame
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007213);
+    SetSpEffect(10000, 160709527);
+    
+    // Dust
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007214);
+    SetSpEffect(10000, 160709529);
+    
+    // Water
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007215);
+    SetSpEffect(10000, 160709531);
+    
+    // Holy
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007216);
+    SetSpEffect(10000, 160709533);
+    
+    // Smouldering
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007217);
+    SetSpEffect(10000, 160709535);
+    
+    WaitFixedTimeSeconds(0.5);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Body Emission - On Load
+//----------------------------------------------
+Event(20221, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // Wait for player to leave Firelink Shrine bonfire area
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Mass of Humanity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007200);
+    SetSpEffect(10000, 160709500);
+    
+    // Magical Crystals
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007201);
+    SetSpEffect(10000, 160709502);
+    
+    // Invisibility
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007202);
+    SetSpEffect(10000, 160709504);
+    
+    // Stoneform
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007203);
+    SetSpEffect(10000, 160709506);
+    
+    // Maggots
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007204);
+    SetSpEffect(10000, 160709508);
+    
+    // Lightning
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007205);
+    SetSpEffect(10000, 160709510);
+    
+    // White Stars
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007206);
+    SetSpEffect(10000, 160709512);
+    
+    // Prismatic Stars
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007207);
+    SetSpEffect(10000, 160709514);
+    
+    // Corrupted Crystals
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007208);
+    SetSpEffect(10000, 160709516);
+    
+    // Dung
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007209);
+    SetSpEffect(10000, 160709518);
+    
+    // Barrier Wards
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007210);
+    SetSpEffect(10000, 160709520);
+    
+    // Poison
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007211);
+    SetSpEffect(10000, 160709522);
+    
+    // Frost
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007212);
+    SetSpEffect(10000, 160709524);
+    
+    // Flame
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007213);
+    SetSpEffect(10000, 160709526);
+    
+    // Dust
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007214);
+    SetSpEffect(10000, 160709528);
+    
+    // Water
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007215);
+    SetSpEffect(10000, 160709530);
+    
+    // Holy
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007216);
+    SetSpEffect(10000, 160709532);
+    
+    // Smouldering
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007217);
+    SetSpEffect(10000, 160709534);
+});
+
+//----------------------------------------------
+// Eye Emission - Preview
+//----------------------------------------------
+Event(20230, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // End once player leaves Firelink Shrine bonfire area
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Red Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007250);
+    SetSpEffect(10000, 160709601);
+    
+    // Burning Red Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007251);
+    SetSpEffect(10000, 160709603);
+    
+    // Red Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007252);
+    SetSpEffect(10000, 160709605);
+    
+    // Blue Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007253);
+    SetSpEffect(10000, 160709607);
+    
+    // Golden Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007254);
+    SetSpEffect(10000, 160709609);
+    
+    WaitFixedTimeSeconds(0.5);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Eye Emission - On Load
+//----------------------------------------------
+Event(20231, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // Wait for player to leave Firelink Shrine bonfire area
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Red Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007250);
+    SetSpEffect(10000, 160709600);
+    
+    // Burning Red Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007251);
+    SetSpEffect(10000, 160709602);
+    
+    // Red Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007252);
+    SetSpEffect(10000, 160709604);
+    
+    // Blue Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007253);
+    SetSpEffect(10000, 160709606);
+    
+    // Golden Glow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007254);
+    SetSpEffect(10000, 160709608);
+});
+
+//----------------------------------------------
+// Body Aura - Preview
+//----------------------------------------------
+Event(20240, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // End once player leaves Firelink Shrine bonfire area
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Ethereal Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007300);
+    SetSpEffect(10000, 160709701);
+    
+    // Psychedelic Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007312);
+    SetSpEffect(10000, 160709707);
+    
+    // White Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007303);
+    SetSpEffect(10000, 160709709);
+    
+    // Darkmoon Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007304);
+    SetSpEffect(10000, 160709711);
+    
+    // Holy Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007305);
+    SetSpEffect(10000, 160709713);
+    
+    // Swamp Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007306);
+    SetSpEffect(10000, 160709715);
+    
+    // Abyssal Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007307);
+    SetSpEffect(10000, 160709717);
+    
+    // Sunlight Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007308);
+    SetSpEffect(10000, 160709719);
+    
+    // Mad Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007309);
+    SetSpEffect(10000, 160709721);
+    
+    // Red Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007310);
+    SetSpEffect(10000, 160709723);
+    
+    // Demonic Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007311);
+    SetSpEffect(10000, 160709725);
+    
+    WaitFixedTimeSeconds(0.5);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Body Aura - On Load
+//----------------------------------------------
+Event(20241, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // Wait for player to leave Firelink Shrine bonfire area
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Ethereal Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007300);
+    SetSpEffect(10000, 160709700);
+    
+    // Psychedelic Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007312);
+    SetSpEffect(10000, 160709706);
+    
+    // White Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007303);
+    SetSpEffect(10000, 160709708);
+    
+    // Darkmoon Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007304);
+    SetSpEffect(10000, 160709710);
+    
+    // Holy Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007305);
+    SetSpEffect(10000, 160709712);
+    
+    // Swamp Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007306);
+    SetSpEffect(10000, 160709714);
+    
+    // Abyssal Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007307);
+    SetSpEffect(10000, 160709716);
+    
+    // Sunlight Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007308);
+    SetSpEffect(10000, 160709718);
+    
+    // Mad Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007309);
+    SetSpEffect(10000, 160709720);
+    
+    // Red Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007310);
+    SetSpEffect(10000, 160709722);
+    
+    // Demonic Phantom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007311);
+    SetSpEffect(10000, 160709724);
+});
+
+//----------------------------------------------
+// Humanity Aura - Preview
+//----------------------------------------------
+Event(20250, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // End once player leaves Firelink Shrine bonfire area
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25007399);
+
+    // Hollow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007301);
+    SetSpEffect(10000, 160709703);
+    
+    // Human
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007302);
+    SetSpEffect(10000, 160709705);
+
+    WaitFixedTimeSeconds(0.5);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Humanity Aura - On Load
+//----------------------------------------------
+Event(20251, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // Wait for player to leave Firelink Shrine bonfire area
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Hollow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007301);
+    SetSpEffect(10000, 160709702);
+    
+    // Human
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007302);
+    SetSpEffect(10000, 160709704);
+});
+
+
+

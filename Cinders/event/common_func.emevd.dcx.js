@@ -5888,7 +5888,7 @@ Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     AwardItemLot(X8_4);
     
     // No Hit Reward
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25000040);
     AwardItemLot(X12_4);
     
     // Curse of Valor
@@ -6537,10 +6537,6 @@ Event(20081030, Default, function(X0_4) {
 // <itemlot id>, <itemlot id>, <itemlot id>, <itemlot id>
 //----------------------------------------------
 Event(20081100, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    // No Hit
-    //SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25006000);
-    //AwardItemLot(X0_4);
-    
     // Curse of Obscurity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
     AwardItemLot(X4_4);

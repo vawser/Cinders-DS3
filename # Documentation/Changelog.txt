@@ -85,6 +85,22 @@ Finish following weapons:
 - Tweaked Skeptic spells.
 - Tweaked Sorcerer armor.
 
+# Transformations
+- Removed Writs.
+- Removed Elixirs.
+- Removed Oils.
+- Added "Transformation Effects" menu to Jiji.
+ - This allows you to select the old writ/elixir/oil effects.
+ - These selections persist through loading.
+ - Oil effects are now categorised under "Weapon Emission".
+ - Writ effects are now categorised under "Body Emission".
+ - Writ effects that affected the eyes are categorised under "Eye Emission".
+ - Elixir effects that were phantom colors are categorised under "Body Aura".
+ - Elixir effects that were humanity form are categorised under "Humanity Aura."
+ - While in Firelink Shrine near Jiji, you are in a 'Preview' mode which permits you to view all the VFX without needing to reload the map.
+  - This means the VFX flicker a bit since they are re-applied in this mode.
+  - Outside of the shrine and in other maps, they won't flicker.
+ 
 # General
 - Added i-frames to Backstep.
 - Added Curse inflict as a visible value in the menu to weapons that have it.
