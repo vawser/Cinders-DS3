@@ -163,10 +163,10 @@ def t400516_x9():
         AddTalkListData(1, 15003040, -1)
         
         # Train Outside
-        AddTalkListDataIf(GetEventStatus(25009813) == 0 and GetEventStatus(25007600) == 0, 2, 15003050, -1)
+        AddTalkListDataIf(GetEventStatus(25009813) == 0 and GetEventStatus(25009793) == 0, 2, 15003050, -1)
         
         # Train Inside
-        AddTalkListDataIf(GetEventStatus(25007600) == 1, 3, 15003051, -1)
+        AddTalkListDataIf(GetEventStatus(25009793) == 1, 3, 15003051, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -181,11 +181,11 @@ def t400516_x9():
             continue
         # Train Outside
         elif GetTalkListEntryResult() == 2:
-            SetEventState(25007600, 1)
+            SetEventState(25009793, 1)
             return 0
         # Train Inside
         elif GetTalkListEntryResult() == 3:
-            SetEventState(25007600, 0)
+            SetEventState(25009793, 0)
             return 0   
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -228,22 +228,22 @@ def t400516_x20():
         ClearTalkListData()
         
         # Enable Immovable Dummy
-        AddTalkListDataIf(GetEventStatus(25007510) == 0, 1, 15003041, -1)
+        AddTalkListDataIf(GetEventStatus(25009790) == 0, 1, 15003041, -1)
         
         # Disable Immovable Dummy
-        AddTalkListDataIf(GetEventStatus(25007510) == 1, 2, 15003044, -1)
+        AddTalkListDataIf(GetEventStatus(25009790) == 1, 2, 15003044, -1)
         
         # Enable Movable Dummy
-        AddTalkListDataIf(GetEventStatus(25007520) == 0, 3, 15003042, -1)
+        AddTalkListDataIf(GetEventStatus(25009791) == 0, 3, 15003042, -1)
         
         # Disable Movable Dummy
-        AddTalkListDataIf(GetEventStatus(25007520) == 1, 4, 15003045, -1)
+        AddTalkListDataIf(GetEventStatus(25009791) == 1, 4, 15003045, -1)
         
         # Enable Aggressive Dummy
-        AddTalkListDataIf(GetEventStatus(25007530) == 0, 5, 15003043, -1)
+        AddTalkListDataIf(GetEventStatus(25009792) == 0, 5, 15003043, -1)
         
         # Disable Aggressive Dummy
-        AddTalkListDataIf(GetEventStatus(25007530) == 1, 6, 15003046, -1)
+        AddTalkListDataIf(GetEventStatus(25009792) == 1, 6, 15003046, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -253,27 +253,27 @@ def t400516_x20():
         
         # Enable Immovable Dummy
         if GetTalkListEntryResult() == 1:
-            SetEventState(25007510, 1)
+            SetEventState(25009790, 1)
             continue
         # Disable Immovable Dummy
         elif GetTalkListEntryResult() == 2:
-            SetEventState(25007510, 0)
+            SetEventState(25009790, 0)
             continue
         # Enable Movable Dummy
         elif GetTalkListEntryResult() == 3:
-            SetEventState(25007520, 1)
+            SetEventState(25009791, 1)
             continue
         # Disable Movable Dummy
         elif GetTalkListEntryResult() == 4:
-            SetEventState(25007520, 0)
+            SetEventState(25009791, 0)
             continue
         # Enable Aggressive Dummy
         elif GetTalkListEntryResult() == 5:
-            SetEventState(25007530, 1)
+            SetEventState(25009792, 1)
             continue
         # Disable Aggressive Dummy
         elif GetTalkListEntryResult() == 6:
-            SetEventState(25007530, 0)
+            SetEventState(25009792, 0)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

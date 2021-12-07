@@ -208,7 +208,7 @@ def t400517_x9():
         # Respec
         elif GetTalkListEntryResult() == 55:
             c1113()
-            SetEventState(25007000, 1) # Reset Masteries
+            SetEventState(25009400, 1) # Reset Masteries
             continue
         # Enter the Gauntlet - Ordered
         elif GetTalkListEntryResult() == 60:

@@ -1631,20 +1631,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003035 Selection: The Marauder
 
 #------------------------
-# Masteries
-#------------------------
-25007000 Reset Masteries
-
-25007020 Attunement Mastery
-25007030 Endurance Mastery
-25007040 Vitality Mastery
-25007050 Strength Mastery
-25007060 Dexterity Mastery
-25007070 Intelligence Mastery
-25007080 Faith Mastery
-25007090 Luck Mastery
-
-#------------------------
 # Player VFX
 #------------------------
 # Player - Weapon Emission 
@@ -1741,13 +1727,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007398 Disable all transformation flags
 25007399 Preview Mode disabled
 
-#------------------------
-# Training Dummy
-#------------------------
-25007510 Dummy 1 enabled
-25007520 Dummy 2 enabled
-25007530 Dummy 3 enabled
-25007600 Outside location enabled
+# Armor
+25007400
+
 
 #------------------------
 # Spell Summon VFX
@@ -1998,6 +1980,16 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25009120 Princess Yngvil - Talk trigger
 
+25009400 Reset Masteries 
+25009401 Attunement Mastery
+25009402 Endurance Mastery
+25009403 Vitality Mastery
+25009404 Strength Mastery
+25009405 Dexterity Mastery
+25009406 Intelligence Mastery
+25009407 Faith Mastery
+25009408 Luck Mastery
+
 25009520 Magnum Ursus - Dark Soul turn-in
 
 25009530 Tortured Soul turn-in
@@ -2058,6 +2050,14 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009999 NO SHOW flag
 
 #------------------------
+# Training Dummy
+#------------------------
+25009790 Dummy 1 enabled
+25009791 Dummy 2 enabled
+25009792 Dummy 3 enabled
+25009793 Outside location enabled
+
+#------------------------
 # Configuration
 #------------------------
 25009800 Game setup completed
@@ -2066,7 +2066,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009803 Unlock memories
 25009804 Gauntlet setup completed
 25009805 Ignore DLC bosses in Gauntlet
-
 
 25009810 Standard mode
 25009811 Wanderer mode

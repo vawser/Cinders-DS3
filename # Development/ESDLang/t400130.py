@@ -744,35 +744,35 @@ def t400130_x40():
         
         # Attunement
         if GetTalkListEntryResult() == 2:
-            assert t400130_x41(1, 99061021, 99061031, 99061041, 25007020)
+            assert t400130_x41(1, 99061021, 99061031, 99061041, 25009401)
             continue
         # Endurance
         elif GetTalkListEntryResult() == 3:
-            assert t400130_x41(2, 99061022, 99061032, 99061042, 25007030)
+            assert t400130_x41(2, 99061022, 99061032, 99061042, 25009402)
             continue
         # Vitality
         elif GetTalkListEntryResult() == 4:
-            assert t400130_x41(0, 99061023, 99061033, 99061043, 25007040)
+            assert t400130_x41(0, 99061023, 99061033, 99061043, 25009403)
             continue
         # Strength
         elif GetTalkListEntryResult() == 5:
-            assert t400130_x41(3, 99061024, 99061034, 99061044, 25007050)
+            assert t400130_x41(3, 99061024, 99061034, 99061044, 25009404)
             continue
         # Dexterity
         elif GetTalkListEntryResult() == 6:
-            assert t400130_x41(4, 99061025, 99061035, 99061045, 25007060)
+            assert t400130_x41(4, 99061025, 99061035, 99061045, 25009405)
             continue
         # Intelligence
         elif GetTalkListEntryResult() == 7:
-            assert t400130_x41(5, 99061026, 99061036, 99061046, 25007070)
+            assert t400130_x41(5, 99061026, 99061036, 99061046, 25009406)
             continue
         # Faith
         elif GetTalkListEntryResult() == 8:
-            assert t400130_x41(6, 99061027, 99061037, 99061047, 25007080)
+            assert t400130_x41(6, 99061027, 99061037, 99061047, 25009407)
             continue
         # Luck
         elif GetTalkListEntryResult() == 9:
-            assert t400130_x41(7, 99061028, 99061038, 99061048, 25007090)
+            assert t400130_x41(7, 99061028, 99061038, 99061048, 25009408)
             continue
         # Return
         elif GetTalkListEntryResult() == 99:

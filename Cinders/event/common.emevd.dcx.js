@@ -3584,19 +3584,14 @@ Event(20079, Restart, function() {
 Event(20080, Restart, function() {
     SetNetworkSyncState(Disabled);
     
-    var flag_Mastery_Vigor        = 25007010;
-    var flag_Mastery_Attunement   = 25007020;
-    var flag_Mastery_Endurance    = 25007030;
-    var flag_Mastery_Vitality     = 25007040;
-    var flag_Mastery_Strength     = 25007050;
-    var flag_Mastery_Dexterity    = 25007060;
-    var flag_Mastery_Intelligence = 25007070;
-    var flag_Mastery_Faith        = 25007080;
-    var flag_Mastery_Luck         = 25007090;
-    
-    // Vigor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Vigor);
-    SetSpEffect(10000, 260130000);
+    var flag_Mastery_Attunement   = 25009401;
+    var flag_Mastery_Endurance    = 25009402;
+    var flag_Mastery_Vitality     = 25009403;
+    var flag_Mastery_Strength     = 25009404;
+    var flag_Mastery_Dexterity    = 25009405;
+    var flag_Mastery_Intelligence = 25009406;
+    var flag_Mastery_Faith        = 25009407;
+    var flag_Mastery_Luck         = 25009408;
     
     // Attunement
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, flag_Mastery_Attunement);
@@ -3640,21 +3635,20 @@ Event(20081, Restart, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 2052);
     
-    var flag_ResetMasteries       = 25007000;
-    var flag_Mastery_Vigor        = 25007010;
-    var flag_Mastery_Attunement   = 25007020;
-    var flag_Mastery_Endurance    = 25007030;
-    var flag_Mastery_Vitality     = 25007040;
-    var flag_Mastery_Strength     = 25007050;
-    var flag_Mastery_Dexterity    = 25007060;
-    var flag_Mastery_Intelligence = 25007070;
-    var flag_Mastery_Faith        = 25007080;
-    var flag_Mastery_Luck         = 25007090;
+    var flag_ResetMasteries       = 25009400;
+    
+    var flag_Mastery_Attunement   = 25009401;
+    var flag_Mastery_Endurance    = 25009402;
+    var flag_Mastery_Vitality     = 25009403;
+    var flag_Mastery_Strength     = 25009404;
+    var flag_Mastery_Dexterity    = 25009405;
+    var flag_Mastery_Intelligence = 25009406;
+    var flag_Mastery_Faith        = 25009407;
+    var flag_Mastery_Luck         = 25009408;
     
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_ResetMasteries)
     
     SetEventFlag(flag_ResetMasteries, OFF);
-    SetEventFlag(flag_Mastery_Vigor, OFF);
     SetEventFlag(flag_Mastery_Attunement, OFF);
     SetEventFlag(flag_Mastery_Endurance, OFF);
     SetEventFlag(flag_Mastery_Vitality, OFF);
@@ -5984,6 +5978,3 @@ Event(20261, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007270);
     SetSpEffect(10000, 160709400);
 });
-
-
-
