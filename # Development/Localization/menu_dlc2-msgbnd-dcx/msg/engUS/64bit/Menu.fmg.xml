@@ -1991,6 +1991,7 @@ Persisting will transform you into a grub.</text>
 <text id="15003105">Body Aura</text>
 <text id="15003106">Humanity Aura</text>
 <text id="15003107">Head Emission</text>
+<text id="15003108">Body Tint</text>
 
 <text id="15003110">Clear Transformations</text>
 <text id="15003120">Transformation applied.</text>
@@ -2055,6 +2056,19 @@ Persisting will transform you into a grub.</text>
 <text id="15003510">Red Phantom</text>
 <text id="15003511">Demonic Phantom</text>
 <text id="15003512">Psychedelic Phantom</text>
+
+<text id="15003520">Red Tint</text>
+<text id="15003521">Orange Tint</text>
+<text id="15003522">Yellow Tint</text>
+<text id="15003523">Green Tint</text>
+<text id="15003524">Cyan Tint</text>
+<text id="15003525">Blue Tint</text>
+<text id="15003526">Indigo Tint</text>
+<text id="15003527">Violet Tint</text>
+<text id="15003528">Pink Tint</text>
+<text id="15003529">White Tint</text>
+<text id="15003530">Black Tint</text>
+<text id="15003531">Psychedelic Tint</text>
 
 <text id="15003600">Hollow</text>
 <text id="15003601">Human</text>

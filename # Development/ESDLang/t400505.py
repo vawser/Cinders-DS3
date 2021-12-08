@@ -251,11 +251,14 @@ def t400505_x30():
         # Eye Emission
         AddTalkListData(4, 15003104, -1)
         
+        # Humanity Aura
+        AddTalkListData(6, 15003106, -1)
+        
         # Body Aura
         AddTalkListData(5, 15003105, -1)
         
-        # Humanity Aura
-        AddTalkListData(6, 15003106, -1)
+        # Body Tint
+        AddTalkListData(7, 15003108, -1)
         
         # Clear Transformations
         AddTalkListData(10, 15003110, -1)
@@ -289,6 +292,10 @@ def t400505_x30():
         # Humanity Aura
         elif GetTalkListEntryResult() == 6:
             assert t400505_x43()
+            continue
+        # Body Tint
+        elif GetTalkListEntryResult() == 7:
+            assert t400505_x45()
             continue
         # Clear Transformations
         elif GetTalkListEntryResult() == 10:
@@ -2015,16 +2022,37 @@ def t400505_x42():
         AddTalkListData(14, 15003512, -1)
 
         # Leave
-        AddTalkListData(99, 15000017, -1)
+        AddTalkListData(99, 15000005, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
         # None
         if GetTalkListEntryResult() == 1:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
-            SetEventState(25007301, 0)
-            SetEventState(25007302, 0)
             SetEventState(25007303, 0)
             SetEventState(25007304, 0)
             SetEventState(25007305, 0)
@@ -2039,6 +2067,29 @@ def t400505_x42():
             continue
         # Ethereal
         elif GetTalkListEntryResult() == 2:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 1)
             SetEventState(25007303, 0)
             SetEventState(25007304, 0)
@@ -2054,6 +2105,29 @@ def t400505_x42():
             continue
         # White Phantom
         elif GetTalkListEntryResult() == 5:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
             SetEventState(25007303, 1)
             SetEventState(25007304, 0)
@@ -2069,6 +2143,29 @@ def t400505_x42():
             continue
         # Darkmoon Phantom
         elif GetTalkListEntryResult() == 6:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
             SetEventState(25007303, 0)
             SetEventState(25007304, 1)
@@ -2084,6 +2181,29 @@ def t400505_x42():
             continue
         # Holy Phantom
         elif GetTalkListEntryResult() == 7:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
             SetEventState(25007303, 0)
             SetEventState(25007304, 0)
@@ -2099,6 +2219,29 @@ def t400505_x42():
             continue
         # Swamp Phantom
         elif GetTalkListEntryResult() == 8:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
             SetEventState(25007303, 0)
             SetEventState(25007304, 0)
@@ -2114,6 +2257,29 @@ def t400505_x42():
             continue
         # Abyssal Phantom
         elif GetTalkListEntryResult() == 9:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
             SetEventState(25007303, 0)
             SetEventState(25007304, 0)
@@ -2129,6 +2295,29 @@ def t400505_x42():
             continue
         # Sunlight Phantom
         elif GetTalkListEntryResult() == 10:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
             SetEventState(25007303, 0)
             SetEventState(25007304, 0)
@@ -2144,6 +2333,29 @@ def t400505_x42():
             continue
         # Mad Phantom
         elif GetTalkListEntryResult() == 11:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
             SetEventState(25007303, 0)
             SetEventState(25007304, 0)
@@ -2159,6 +2371,29 @@ def t400505_x42():
             continue
         # Red Phantom
         elif GetTalkListEntryResult() == 12:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
             SetEventState(25007303, 0)
             SetEventState(25007304, 0)
@@ -2174,6 +2409,29 @@ def t400505_x42():
             continue
         # Demonic Phantom
         elif GetTalkListEntryResult() == 13:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
             SetEventState(25007303, 0)
             SetEventState(25007304, 0)
@@ -2189,6 +2447,29 @@ def t400505_x42():
             continue
         # Psychedelic Phantom
         elif GetTalkListEntryResult() == 14:
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            
+            # Body Aura
             SetEventState(25007300, 0)
             SetEventState(25007303, 0)
             SetEventState(25007304, 0)
@@ -2289,6 +2570,562 @@ def t400505_x44():
         # Mass of Humanity
         elif GetTalkListEntryResult() == 2:
             SetEventState(25007270, 1)
+            assert t400505_x50(15003120)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#----------------------------------------------------
+# Body Tint
+#----------------------------------------------------
+def t400505_x45():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+
+        # None
+        AddTalkListData(1, 15003200, -1)
+        
+        # Red Tint
+        AddTalkListData(2, 15003520, -1)
+
+        # Orange Tint
+        AddTalkListData(3, 15003521, -1)
+        
+        # Yellow Tint
+        AddTalkListData(4, 15003522, -1)
+        
+        # Green Tint
+        AddTalkListData(5, 15003523, -1)
+        
+        # Cyan Tint
+        AddTalkListData(6, 15003524, -1)
+        
+        # Blue Tint
+        AddTalkListData(7, 15003525, -1)
+        
+        # Indigo Tint
+        AddTalkListData(8, 15003526, -1)
+        
+        # Violet Tint
+        AddTalkListData(9, 15003527, -1)
+        
+        # Pink Tint
+        AddTalkListData(10, 15003528, -1)
+        
+        # White Tint
+        AddTalkListData(11, 15003529, -1)
+        
+        # Black Tint
+        AddTalkListData(12, 15003530, -1)
+        
+        # Psychedelic Tint
+        AddTalkListData(13, 15003531, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # None
+        if GetTalkListEntryResult() == 1:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003121)
+            continue
+        # Red Tint
+        elif GetTalkListEntryResult() == 2:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 1)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Orange Tint
+        elif GetTalkListEntryResult() == 3:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 1)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Yellow Tint
+        elif GetTalkListEntryResult() == 4:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 1)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Green Tint
+        elif GetTalkListEntryResult() == 5:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 1)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Cyan Tint
+        elif GetTalkListEntryResult() == 6:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 1)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Blue Tint
+        elif GetTalkListEntryResult() == 7:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 1)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Indigo Tint
+        elif GetTalkListEntryResult() == 8:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 1)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Violet Tint
+        elif GetTalkListEntryResult() == 9:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 1)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Pink Tint
+        elif GetTalkListEntryResult() == 10:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 1)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # White Tint
+        elif GetTalkListEntryResult() == 11:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 1)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Black Tint
+        elif GetTalkListEntryResult() == 12:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 1)
+            SetEventState(25007331, 0)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
+            assert t400505_x50(15003120)
+            continue
+        # Psychedelic Tint
+        elif GetTalkListEntryResult() == 13:
+            # Body Aura
+            SetEventState(25007300, 0)
+            SetEventState(25007303, 0)
+            SetEventState(25007304, 0)
+            SetEventState(25007305, 0)
+            SetEventState(25007306, 0)
+            SetEventState(25007307, 0)
+            SetEventState(25007308, 0)
+            SetEventState(25007309, 0)
+            SetEventState(25007310, 0)
+            SetEventState(25007311, 0)
+            SetEventState(25007312, 0)
+            
+            # Body Tint
+            SetEventState(25007320, 0)
+            SetEventState(25007321, 0)
+            SetEventState(25007322, 0)
+            SetEventState(25007323, 0)
+            SetEventState(25007324, 0)
+            SetEventState(25007325, 0)
+            SetEventState(25007326, 0)
+            SetEventState(25007327, 0)
+            SetEventState(25007328, 0)
+            SetEventState(25007329, 0)
+            SetEventState(25007330, 0)
+            SetEventState(25007331, 1)
+            SetEventState(25007332, 0)
+            SetEventState(25007333, 0)
+            SetEventState(25007334, 0)
+            SetEventState(25007335, 0)
+            SetEventState(25007336, 0)
+            SetEventState(25007337, 0)
+            SetEventState(25007338, 0)
+            SetEventState(25007339, 0)
             assert t400505_x50(15003120)
             continue
         # Leave

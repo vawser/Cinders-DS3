@@ -92,6 +92,7 @@ Finish following weapons:
 - Added "Transformation Effects" menu to Jiji.
  - This allows you to select the old writ/elixir/oil effects.
  - These selections persist through loading.
+ - Added Body Tint effects: these change the specular color, basically a more subdued phantom aura.
  - Oil effects are now categorised under "Weapon Emission".
  - Writ effects that affected the body are categorised under "Body Emission".
  - Writ effects that affected the head are categorised under "Head Emission".

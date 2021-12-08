@@ -1706,8 +1706,8 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 # Player - Body Aura
 25007300 Body Aura: Ethereal Phantom
-25007301 Body Aura: Hollow
-25007302 Body Aura: Human
+25007301 Body Aura: 
+25007302 Body Aura: 
 25007303 Body Aura: White Phantom
 25007304 Body Aura: Darkmoon Phantom
 25007305 Body Aura: Holy Phantom
@@ -1718,6 +1718,28 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007310 Body Aura: Red Phantom
 25007311 Body Aura: Demonic Phantom
 25007312 Body Aura: Psychedelic Phantom
+
+# Player - Body Tint
+25007320 Body Tint: Red
+25007321 Body Tint: Orange
+25007322 Body Tint: Yellow
+25007323 Body Tint: Green
+25007324 Body Tint: Cyan
+25007325 Body Tint: Blue
+25007326 Body Tint: Indigo
+25007327 Body Tint: Violet
+25007328 Body Tint: Pink
+25007329 Body Tint: White
+25007330 Body Tint: Black
+25007331 Body Tint: Psychedelic
+25007332
+25007333
+25007334
+25007335
+25007336
+25007337
+25007338
+25007339
 
 # Player - Humanity Aura
 25007350 Body Aura: Human

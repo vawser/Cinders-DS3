@@ -50,6 +50,8 @@ Event(0, Default, function() {
     InitializeEvent(0, 20251, 0); // Humanity Aura - On Load
     InitializeEvent(0, 20260, 0); // Head Emission - Preview
     InitializeEvent(0, 20261, 0); // Head Emission - On Load
+    InitializeEvent(0, 20270, 0); // Body Tint - Preview
+    InitializeEvent(0, 20271, 0); // Body Tint - On Load
     
     //--------------------
     // Curses - Add Player Effects
@@ -5977,4 +5979,124 @@ Event(20261, Default, function() {
     // Mass of Humanity
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007270);
     SetSpEffect(10000, 160709400);
+});
+
+//----------------------------------------------
+// Body Tint - Preview
+//----------------------------------------------
+Event(20270, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // End once player leaves Firelink Shrine bonfire area
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Red Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007320);
+    SetSpEffect(10000, 160709727);
+    
+    // Orange Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007321);
+    SetSpEffect(10000, 160709729);
+    
+    // Yellow Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007322);
+    SetSpEffect(10000, 160709731);
+    
+    // Green Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007323);
+    SetSpEffect(10000, 160709733);
+    
+    // Cyan Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007324);
+    SetSpEffect(10000, 160709735);
+    
+    // Blue Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007325);
+    SetSpEffect(10000, 160709737);
+    
+    // Indigo Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007326);
+    SetSpEffect(10000, 160709739);
+    
+    // Violet Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007327);
+    SetSpEffect(10000, 160709741);
+    
+    // Pink Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007328);
+    SetSpEffect(10000, 160709743);
+    
+    // White Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007329);
+    SetSpEffect(10000, 160709745);
+    
+    // Black Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007330);
+    SetSpEffect(10000, 160709747);
+    
+    // Psychedelic Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007331);
+    SetSpEffect(10000, 160709749);
+    
+    WaitFixedTimeSeconds(0.5);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Body Tint - On Load
+//----------------------------------------------
+Event(20271, Default, function() {
+    WaitFixedTimeSeconds(0.5);
+    
+    // Wait for player to leave Firelink Shrine bonfire area
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    // Red Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007320);
+    SetSpEffect(10000, 160709726);
+    
+    // Orange Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007321);
+    SetSpEffect(10000, 160709728);
+    
+    // Yellow Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007322);
+    SetSpEffect(10000, 160709730);
+    
+    // Green Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007323);
+    SetSpEffect(10000, 160709732);
+    
+    // Cyan Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007324);
+    SetSpEffect(10000, 160709734);
+    
+    // Blue Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007325);
+    SetSpEffect(10000, 160709736);
+    
+    // Indigo Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007326);
+    SetSpEffect(10000, 160709738);
+    
+    // Violet Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007327);
+    SetSpEffect(10000, 160709740);
+    
+    // Pink Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007328);
+    SetSpEffect(10000, 160709742);
+    
+    // White Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007329);
+    SetSpEffect(10000, 160709744);
+    
+    // Black Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007330);
+    SetSpEffect(10000, 160709746);
+    
+    // Psychedelic Tint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007331);
+    SetSpEffect(10000, 160709748);
 });

@@ -17575,7 +17575,8 @@ function Update()
     UpdateFP()
     UpdateBloodthirstCharges()
     UpdateImpermanenceCurseEffect()
-    UpdatePsychedelicElixirEffect()
+    PsychedelicPhantomEffect()
+    PsychedelicTintEffect()
     UpdateVitalityMasteryEffect()
     UpdateHawkRingEffect()
     UpdateCatalystAffinityEffect()
@@ -18071,8 +18072,8 @@ function UpdateImpermanenceCurseEffect()
     end
 end
 
--- Psychedelic Elixir
-function UpdatePsychedelicElixirEffect()
+-- Psychedelic Phantom
+function PsychedelicPhantomEffect()
     -- End if AI player
     if env(1007) == TRUE then
         return
@@ -18082,6 +18083,21 @@ function UpdatePsychedelicElixirEffect()
         if env(1116, 112150) ~= TRUE then
             act(2002, 112150) -- Cooldown
             act(2002, 112152) -- Effect
+        end
+    end
+end
+
+-- Psychedelic Tint
+function PsychedelicTintEffect()
+    -- End if AI player
+    if env(1007) == TRUE then
+        return
+    end
+    
+    if env(1116, 112115) == TRUE then
+        if env(1116, 112116) ~= TRUE then
+            act(2002, 112116) -- Cooldown
+            act(2002, 112117) -- Effect
         end
     end
 end
