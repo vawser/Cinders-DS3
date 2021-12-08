@@ -7288,49 +7288,72 @@ Event(20080011, Restart, function(X0_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007707);
     SetSpEffect(X0_4, 160760407);
     
-    // Visual Emission: 
+    // Visual Emission:
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007708);
     SetSpEffect(X0_4, 160760408);
     
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709);
-    SetSpEffect(X0_4, 160760409);
-    
     // Visual Aura: Red
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007710);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007710);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760450);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760520);
     
     // Visual Aura: Orange
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007711);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007711);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760451);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760521);
     
     // Visual Aura: Yellow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007712);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007712);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760452);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760522);
     
     // Visual Aura: Green
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007713);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007713);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760453);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760523);
     
     // Visual Aura: Cyan
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007714);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007714);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760454);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760524);
     
     // Visual Aura: Blue
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007715);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007715);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760455);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760525);
     
     // Visual Aura: Indigo
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007716);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007716);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760456);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760526);
     
     // Visual Aura: Violet
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007717);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007717);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760457);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760527);
     
     // Visual Aura: Pink
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007718);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007718);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760458);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760528);
     
     Label0();
     
@@ -7343,23 +7366,67 @@ Event(20080011, Restart, function(X0_4) {
 Event(20080012, Restart, function(X0_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007719);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760470);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760520);
+
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760471);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760521);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760472);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760522);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760473);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760523);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760474);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760524);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760475);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760525);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760476);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760526);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760477);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760527);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
     SetSpEffect(X0_4, 160760478);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
+    SetSpEffect(X0_4, 160760528);
+    
     WaitFixedTimeSeconds(0.6);
     
     EndUnconditionally(EventEndType.Restart);
@@ -7422,45 +7489,68 @@ Event(20080021, Restart, function(X0_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007728);
     SetSpEffect(X0_4, 160760408);
     
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729);
-    SetSpEffect(X0_4, 160760409);
-    
     // Visual Aura: Red
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007730);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007730);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760450);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760500);
     
     // Visual Aura: Orange
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007731);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007731);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760451);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760501);
     
     // Visual Aura: Yellow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007732);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007732);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760452);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760502);
     
     // Visual Aura: Green
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007733);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007733);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760453);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760503);
     
     // Visual Aura: Cyan
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007734);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007734);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760454);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760504);
     
     // Visual Aura: Blue
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007735);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007735);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760455);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760505);
     
     // Visual Aura: Indigo
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007736);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007736);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760456);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760506);
     
     // Visual Aura: Violet
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007737);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007737);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760457);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760507);
     
     // Visual Aura: Pink
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007738);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007738);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760458);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760508);
     
     Label0();
     
@@ -7473,24 +7563,66 @@ Event(20080021, Restart, function(X0_4) {
 Event(20080022, Restart, function(X0_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007739);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760470);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760520);
+
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760471);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760521);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760472);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760522);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760473);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760523);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760474);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760524);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760475);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760525);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760476);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760526);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760477);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760527);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
     SetSpEffect(X0_4, 160760478);
-    WaitFixedTimeSeconds(0.6);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
+    SetSpEffect(X0_4, 160760528);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -7552,45 +7684,68 @@ Event(20080031, Restart, function(X0_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007748);
     SetSpEffect(X0_4, 160760408);
     
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749);
-    SetSpEffect(X0_4, 160760409);
-    
     // Visual Aura: Red
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007750);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007750);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760450);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760500);
     
     // Visual Aura: Orange
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007751);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007751);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760451);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760501);
     
     // Visual Aura: Yellow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007752);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007752);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760452);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760502);
     
     // Visual Aura: Green
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007753);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007753);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760453);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760503);
     
     // Visual Aura: Cyan
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007754);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007754);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760454);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760504);
     
     // Visual Aura: Blue
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007755);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007755);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760455);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760505);
     
     // Visual Aura: Indigo
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007756);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007756);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760456);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760506);
     
     // Visual Aura: Violet
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007757);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007757);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760457);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760507);
     
     // Visual Aura: Pink
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007758);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007758);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760458);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760508);
     
     Label0();
     
@@ -7603,24 +7758,66 @@ Event(20080031, Restart, function(X0_4) {
 Event(20080032, Restart, function(X0_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007759);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760470);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760520);
+
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760471);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760521);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760472);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760522);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760473);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760523);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760474);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760524);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760475);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760525);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760476);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760526);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760477);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760527);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
     SetSpEffect(X0_4, 160760478);
-    WaitFixedTimeSeconds(0.6);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
+    SetSpEffect(X0_4, 160760528);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -7682,45 +7879,68 @@ Event(20080041, Restart, function(X0_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007768);
     SetSpEffect(X0_4, 160760408);
     
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769);
-    SetSpEffect(X0_4, 160760409);
-    
     // Visual Aura: Red
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007770);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007770);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760450);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760500);
     
     // Visual Aura: Orange
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007771);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007771);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760451);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760501);
     
     // Visual Aura: Yellow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007772);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007772);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760452);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760502);
     
     // Visual Aura: Green
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007773);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007773);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760453);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760503);
     
     // Visual Aura: Cyan
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007774);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007774);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760454);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760504);
     
     // Visual Aura: Blue
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007775);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007775);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760455);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760505);
     
     // Visual Aura: Indigo
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007776);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007776);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760456);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760506);
     
     // Visual Aura: Violet
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007777);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007777);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760457);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760507);
     
     // Visual Aura: Pink
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007778);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007778);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760458);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760508);
     
     Label0();
     
@@ -7733,24 +7953,66 @@ Event(20080041, Restart, function(X0_4) {
 Event(20080042, Restart, function(X0_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007779);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760470);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760520);
+
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760471);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760521);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760472);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760522);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760473);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760523);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760474);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760524);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760475);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760525);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760476);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760526);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760477);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760527);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
     SetSpEffect(X0_4, 160760478);
-    WaitFixedTimeSeconds(0.6);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
+    SetSpEffect(X0_4, 160760528);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -7812,45 +8074,68 @@ Event(20080051, Restart, function(X0_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007788);
     SetSpEffect(X0_4, 160760408);
     
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789);
-    SetSpEffect(X0_4, 160760409);
-    
     // Visual Aura: Red
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007790);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007790);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760450);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760500);
     
     // Visual Aura: Orange
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007791);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007791);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760451);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760501);
     
     // Visual Aura: Yellow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007792);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007792);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760452);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760502);
     
     // Visual Aura: Green
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007793);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007793);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760453);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760503);
     
     // Visual Aura: Cyan
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007794);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007794);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760454);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760504);
     
     // Visual Aura: Blue
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007795);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007795);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760455);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760505);
     
     // Visual Aura: Indigo
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007796);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007796);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760456);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760506);
     
     // Visual Aura: Violet
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007797);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007797);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760457);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760507);
     
     // Visual Aura: Pink
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007798);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007798);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760458);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760508);
     
     Label0();
     
@@ -7863,24 +8148,66 @@ Event(20080051, Restart, function(X0_4) {
 Event(20080052, Restart, function(X0_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007799);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760470);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760520);
+
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760471);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760521);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760472);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760522);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760473);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760523);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760474);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760524);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760475);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760525);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760476);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760526);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760477);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760527);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
     SetSpEffect(X0_4, 160760478);
-    WaitFixedTimeSeconds(0.6);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
+    SetSpEffect(X0_4, 160760528);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -7942,45 +8269,68 @@ Event(20080061, Restart, function(X0_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007808);
     SetSpEffect(X0_4, 160760408);
     
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809);
-    SetSpEffect(X0_4, 160760409);
-    
     // Visual Aura: Red
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007810);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007810);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760450);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760500);
     
     // Visual Aura: Orange
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007811);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007811);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760451);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760501);
     
     // Visual Aura: Yellow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007812);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007812);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760452);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760502);
     
     // Visual Aura: Green
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007813);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007813);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760453);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760503);
     
     // Visual Aura: Cyan
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007814);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007814);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760454);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760504);
     
     // Visual Aura: Blue
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007815);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007815);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760455);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760505);
     
     // Visual Aura: Indigo
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007816);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007816);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760456);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760506);
     
     // Visual Aura: Violet
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007817);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007817);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760457);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760507);
     
     // Visual Aura: Pink
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007818);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007818);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760458);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760508);
     
     Label0();
     
@@ -7993,24 +8343,66 @@ Event(20080061, Restart, function(X0_4) {
 Event(20080062, Restart, function(X0_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007819);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760470);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760520);
+
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760471);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760521);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760472);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760522);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760473);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760523);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760474);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760524);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760475);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760525);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760476);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760526);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760477);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760527);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
     SetSpEffect(X0_4, 160760478);
-    WaitFixedTimeSeconds(0.6);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
+    SetSpEffect(X0_4, 160760528);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -8072,45 +8464,68 @@ Event(20080071, Restart, function(X0_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007828);
     SetSpEffect(X0_4, 160760408);
     
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829);
-    SetSpEffect(X0_4, 160760409);
-    
     // Visual Aura: Red
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007830);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007830);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760450);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760500);
     
     // Visual Aura: Orange
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007831);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007831);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760451);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760501);
     
     // Visual Aura: Yellow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007832);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007832);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760452);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760502);
     
     // Visual Aura: Green
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007833);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007833);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760453);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760503);
     
     // Visual Aura: Cyan
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007834);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007834);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760454);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760504);
     
     // Visual Aura: Blue
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007835);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007835);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760455);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760505);
     
     // Visual Aura: Indigo
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007836);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007836);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760456);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760506);
     
     // Visual Aura: Violet
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007837);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007837);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760457);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760507);
     
     // Visual Aura: Pink
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007838);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007838);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760458);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760508);
     
     Label0();
     
@@ -8123,24 +8538,66 @@ Event(20080071, Restart, function(X0_4) {
 Event(20080072, Restart, function(X0_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007839);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760470);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760520);
+
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760471);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760521);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760472);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760522);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760473);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760523);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760474);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760524);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760475);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760525);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760476);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760526);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760477);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760527);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
     SetSpEffect(X0_4, 160760478);
-    WaitFixedTimeSeconds(0.6);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
+    SetSpEffect(X0_4, 160760528);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -8202,45 +8659,68 @@ Event(20080081, Restart, function(X0_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007848);
     SetSpEffect(X0_4, 160760408);
     
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849);
-    SetSpEffect(X0_4, 160760409);
-    
     // Visual Aura: Red
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007850);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007850);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760450);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760500);
     
     // Visual Aura: Orange
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007851);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007851);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760451);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760501);
     
     // Visual Aura: Yellow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007852);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007852);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760452);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760502);
     
     // Visual Aura: Green
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007853);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007853);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760453);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760503);
     
     // Visual Aura: Cyan
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007854);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007854);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760454);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760504);
     
     // Visual Aura: Blue
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007855);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007855);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760455);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760505);
     
     // Visual Aura: Indigo
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007856);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007856);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760456);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760506);
     
     // Visual Aura: Violet
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007857);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007857);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760457);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760507);
     
     // Visual Aura: Pink
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007858);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007858);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760458);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760508);
     
     Label0();
     
@@ -8253,24 +8733,66 @@ Event(20080081, Restart, function(X0_4) {
 Event(20080082, Restart, function(X0_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007859);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760470);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760520);
+
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760471);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760521);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760472);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760522);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760473);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760523);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760474);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760524);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760475);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760525);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760476);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760526);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760477);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760527);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
     SetSpEffect(X0_4, 160760478);
-    WaitFixedTimeSeconds(0.6);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
+    SetSpEffect(X0_4, 160760528);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -8332,45 +8854,68 @@ Event(20080091, Restart, function(X0_4) {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007868);
     SetSpEffect(X0_4, 160760408);
     
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869);
-    SetSpEffect(X0_4, 160760409);
-    
     // Visual Aura: Red
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007870);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007870);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760450);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760500);
     
     // Visual Aura: Orange
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007871);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007871);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760451);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760501);
     
     // Visual Aura: Yellow
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007872);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007872);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760452);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760502);
     
     // Visual Aura: Green
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007873);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007873);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760453);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760503);
     
     // Visual Aura: Cyan
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007874);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007874);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760454);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760504);
     
     // Visual Aura: Blue
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007875);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007875);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760455);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760505);
     
     // Visual Aura: Indigo
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007876);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007876);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760456);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760506);
     
     // Visual Aura: Violet
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007877);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007877);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760457);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760507);
     
     // Visual Aura: Pink
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007878);
+    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007878);
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760458);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760508);
     
     Label0();
     
@@ -8383,24 +8928,66 @@ Event(20080091, Restart, function(X0_4) {
 Event(20080092, Restart, function(X0_4) {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007879);
     
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760470);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760520);
+
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760471);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760521);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760472);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760522);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760473);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760523);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760474);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760524);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760475);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760525);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760476);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760526);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760477);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760527);
+    
     WaitFixedTimeSeconds(0.6);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
     SetSpEffect(X0_4, 160760478);
-    WaitFixedTimeSeconds(0.6);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
+    SetSpEffect(X0_4, 160760528);
     
     EndUnconditionally(EventEndType.Restart);
 });

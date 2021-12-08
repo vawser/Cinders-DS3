@@ -1742,8 +1742,8 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007339
 
 # Player - Humanity Aura
-25007350 Body Aura: Human
-25007351 Body Aura: Hollow
+25007350 Humanity Aura: Human
+25007351 Humanity Aura: Hollow
 
 # Utility
 25007398 Disable all transformation flags
@@ -1751,7 +1751,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 # Armor
 25007400
-
 
 #------------------------
 # Spell Summon VFX
@@ -1766,7 +1765,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007706 Visual Emission: 
 25007707 Visual Emission: 
 25007708 Visual Emission:
-25007709 Visual Emission:
+25007709 Visual Tint Toggle
 25007710 Visual Aura: Red
 25007711 Visual Aura: Orange
 25007712 Visual Aura: Yellow
@@ -1788,7 +1787,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007726 Visual Emission: 
 25007727 Visual Emission: 
 25007728 Visual Emission:
-25007729 Visual Emission:
+25007729 Visual Tint Toggle
 25007730 Visual Aura: Red
 25007731 Visual Aura: Orange
 25007732 Visual Aura: Yellow
@@ -1810,7 +1809,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007746 Visual Emission: 
 25007747 Visual Emission: 
 25007748 Visual Emission:
-25007749 Visual Emission:
+25007749 Visual Tint Toggle
 25007750 Visual Aura: Red
 25007751 Visual Aura: Orange
 25007752 Visual Aura: Yellow
@@ -1832,7 +1831,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007766 Visual Emission: 
 25007767 Visual Emission: 
 25007768 Visual Emission:
-25007769 Visual Emission:
+25007769 Visual Tint Toggle
 25007770 Visual Aura: Red
 25007771 Visual Aura: Orange
 25007772 Visual Aura: Yellow
@@ -1854,7 +1853,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007786 Visual Emission: 
 25007787 Visual Emission: 
 25007788 Visual Emission:
-25007789 Visual Emission:
+25007789 Visual Tint Toggle
 25007790 Visual Aura: Red
 25007791 Visual Aura: Orange
 25007792 Visual Aura: Yellow
@@ -1876,7 +1875,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007806 Visual Emission: 
 25007807 Visual Emission: 
 25007808 Visual Emission:
-25007809 Visual Emission:
+25007809 Visual Tint Toggle
 25007810 Visual Aura: Red
 25007811 Visual Aura: Orange
 25007812 Visual Aura: Yellow
@@ -1898,7 +1897,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007826 Visual Emission: 
 25007827 Visual Emission: 
 25007828 Visual Emission:
-25007829 Visual Emission:
+25007829 Visual Tint Toggle
 25007830 Visual Aura: Red
 25007831 Visual Aura: Orange
 25007832 Visual Aura: Yellow
@@ -1920,7 +1919,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007846 Visual Emission: 
 25007847 Visual Emission: 
 25007848 Visual Emission:
-25007849 Visual Emission:
+25007849 Visual Tint Toggle
 25007850 Visual Aura: Red
 25007851 Visual Aura: Orange
 25007852 Visual Aura: Yellow
@@ -1942,7 +1941,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007866 Visual Emission: 
 25007867 Visual Emission: 
 25007868 Visual Emission:
-25007869 Visual Emission:
+25007869 Visual Tint Toggle
 25007870 Visual Aura: Red
 25007871 Visual Aura: Orange
 25007872 Visual Aura: Yellow

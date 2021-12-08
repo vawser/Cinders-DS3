@@ -440,11 +440,14 @@ def t400508_x21():
     while True:
         ClearTalkListData()
 
-        # Visual Emission
+        # Body Emission
         AddTalkListData(1, 99091101, -1)
         
-        # Visual Aura
+        # Body Aura
         AddTalkListData(2, 99091102, -1)
+        
+        # Body Tint
+        AddTalkListData(3, 99091103, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -452,13 +455,17 @@ def t400508_x21():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Emission
+        # Body Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x40(25007700, 25007701, 25007702, 25007703, 25007704, 25007705, 25007706, 25007707, 25007708, 25007709)
+            assert t400508_x40(25007700, 25007701, 25007702, 25007703, 25007704, 25007705, 25007706, 25007707, 25007708)
             continue
-        # Visual Aura
+        # Body Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x41(25007710, 25007711, 25007712, 25007713, 25007714, 25007715, 25007716, 25007717, 25007718, 25007719)
+            assert t400508_x41(25007710, 25007711, 25007712, 25007713, 25007714, 25007715, 25007716, 25007717, 25007718, 25007719, 25007709, 0)
+            continue
+        # Body Tint
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x41(25007710, 25007711, 25007712, 25007713, 25007714, 25007715, 25007716, 25007717, 25007718, 25007719, 25007709, 1)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -476,11 +483,14 @@ def t400508_x22():
     while True:
         ClearTalkListData()
 
-        # Visual Emission
+        # Body Emission
         AddTalkListData(1, 99091101, -1)
         
-        # Visual Aura
+        # Body Aura
         AddTalkListData(2, 99091102, -1)
+        
+        # Body Tint
+        AddTalkListData(3, 99091103, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -488,13 +498,17 @@ def t400508_x22():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Emission
+        # Body Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x40(25007720, 25007721, 25007722, 25007723, 25007724, 25007725, 25007726, 25007727, 25007728, 25007729)
+            assert t400508_x40(25007720, 25007721, 25007722, 25007723, 25007724, 25007725, 25007726, 25007727, 25007728)
             continue
-        # Visual Aura
+        # Body Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x41(25007730, 25007731, 25007732, 25007733, 25007734, 25007735, 25007736, 25007737, 25007738, 25007739)
+            assert t400508_x41(25007730, 25007731, 25007732, 25007733, 25007734, 25007735, 25007736, 25007737, 25007738, 25007739, 25007729, 0)
+            continue
+        # Body Tint
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x41(25007730, 25007731, 25007732, 25007733, 25007734, 25007735, 25007736, 25007737, 25007738, 25007739, 25007729, 1)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -512,11 +526,14 @@ def t400508_x23():
     while True:
         ClearTalkListData()
 
-        # Visual Emission
+        # Body Emission
         AddTalkListData(1, 99091101, -1)
         
-        # Visual Aura
+        # Body Aura
         AddTalkListData(2, 99091102, -1)
+        
+        # Body Tint
+        AddTalkListData(3, 99091103, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -524,13 +541,17 @@ def t400508_x23():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Emission
+        # Body Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x40(25007740, 25007741, 25007742, 25007743, 25007744, 25007745, 25007746, 25007747, 25007748, 25007749)
+            assert t400508_x40(25007740, 25007741, 25007742, 25007743, 25007744, 25007745, 25007746, 25007747, 25007748)
             continue
-        # Visual Aura
+        # Body Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x41(25007750, 25007751, 25007752, 25007753, 25007754, 25007755, 25007756, 25007757, 25007758, 25007759)
+            assert t400508_x41(25007750, 25007751, 25007752, 25007753, 25007754, 25007755, 25007756, 25007757, 25007758, 25007759, 25007749, 0)
+            continue
+        # Body Tint
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x41(25007750, 25007751, 25007752, 25007753, 25007754, 25007755, 25007756, 25007757, 25007758, 25007759, 25007749, 1)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -548,11 +569,14 @@ def t400508_x24():
     while True:
         ClearTalkListData()
 
-        # Visual Emission
+        # Body Emission
         AddTalkListData(1, 99091101, -1)
         
-        # Visual Aura
+        # Body Aura
         AddTalkListData(2, 99091102, -1)
+        
+        # Body Tint
+        AddTalkListData(3, 99091103, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -560,13 +584,17 @@ def t400508_x24():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Emission
+        # Body Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x40(25007760, 25007761, 25007762, 25007763, 25007764, 25007765, 25007766, 25007767, 25007768, 25007769)
+            assert t400508_x40(25007760, 25007761, 25007762, 25007763, 25007764, 25007765, 25007766, 25007767, 25007768)
             continue
-        # Visual Aura
+        # Body Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x41(25007770, 25007771, 25007772, 25007773, 25007774, 25007775, 25007776, 25007777, 25007778, 25007779)
+            assert t400508_x41(25007770, 25007771, 25007772, 25007773, 25007774, 25007775, 25007776, 25007777, 25007778, 25007779, 25007769, 0)
+            continue
+        # Body Tint
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x41(25007770, 25007771, 25007772, 25007773, 25007774, 25007775, 25007776, 25007777, 25007778, 25007779, 25007769, 1)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -584,11 +612,14 @@ def t400508_x25():
     while True:
         ClearTalkListData()
 
-        # Visual Emission
+        # Body Emission
         AddTalkListData(1, 99091101, -1)
         
-        # Visual Aura
+        # Body Aura
         AddTalkListData(2, 99091102, -1)
+        
+        # Body Tint
+        AddTalkListData(3, 99091103, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -596,13 +627,17 @@ def t400508_x25():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Emission
+        # Body Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x40(25007780, 25007781, 25007782, 25007783, 25007784, 25007785, 25007786, 25007787, 25007788, 25007789)
+            assert t400508_x40(25007780, 25007781, 25007782, 25007783, 25007784, 25007785, 25007786, 25007787, 25007788)
             continue
-        # Visual Aura
+        # Body Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x41(25007790, 25007791, 25007792, 25007793, 25007794, 25007795, 25007796, 25007797, 25007798, 25007799)
+            assert t400508_x41(25007790, 25007791, 25007792, 25007793, 25007794, 25007795, 25007796, 25007797, 25007798, 25007799, 25007789, 0)
+            continue
+        # Body Tint
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x41(25007790, 25007791, 25007792, 25007793, 25007794, 25007795, 25007796, 25007797, 25007798, 25007799, 25007789, 1)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -620,11 +655,14 @@ def t400508_x26():
     while True:
         ClearTalkListData()
 
-        # Visual Emission
+        # Body Emission
         AddTalkListData(1, 99091101, -1)
         
-        # Visual Aura
+        # Body Aura
         AddTalkListData(2, 99091102, -1)
+        
+        # Body Tint
+        AddTalkListData(3, 99091103, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -632,13 +670,17 @@ def t400508_x26():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Emission
+        # Body Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x40(25007800, 25007801, 25007802, 25007803, 25007804, 25007805, 25007806, 25007807, 25007808, 25007809)
+            assert t400508_x40(25007800, 25007801, 25007802, 25007803, 25007804, 25007805, 25007806, 25007807, 25007808)
             continue
-        # Visual Aura
+        # Body Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x41(25007810, 25007811, 25007812, 25007813, 25007814, 25007815, 25007816, 25007817, 25007818, 25007819)
+            assert t400508_x41(25007810, 25007811, 25007812, 25007813, 25007814, 25007815, 25007816, 25007817, 25007818, 25007819, 25007809, 0)
+            continue
+        # Body Tint
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x41(25007810, 25007811, 25007812, 25007813, 25007814, 25007815, 25007816, 25007817, 25007818, 25007819, 25007809, 1)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -656,11 +698,14 @@ def t400508_x27():
     while True:
         ClearTalkListData()
 
-        # Visual Emission
+        # Body Emission
         AddTalkListData(1, 99091101, -1)
         
-        # Visual Aura
+        # Body Aura
         AddTalkListData(2, 99091102, -1)
+        
+        # Body Tint
+        AddTalkListData(3, 99091103, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -668,13 +713,17 @@ def t400508_x27():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Emission
+        # Body Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x40(25007820, 25007821, 25007822, 25007823, 25007824, 25007825, 25007826, 25007827, 25007828, 25007829)
+            assert t400508_x40(25007820, 25007821, 25007822, 25007823, 25007824, 25007825, 25007826, 25007827, 25007828)
             continue
-        # Visual Aura
+        # Body Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x41(25007830, 25007831, 25007832, 25007833, 25007834, 25007835, 25007836, 25007837, 25007838, 25007839)
+            assert t400508_x41(25007830, 25007831, 25007832, 25007833, 25007834, 25007835, 25007836, 25007837, 25007838, 25007839, 25007829, 0)
+            continue
+        # Body Tint
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x41(25007830, 25007831, 25007832, 25007833, 25007834, 25007835, 25007836, 25007837, 25007838, 25007839, 25007829, 1)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -692,11 +741,14 @@ def t400508_x28():
     while True:
         ClearTalkListData()
 
-        # Visual Emission
+        # Body Emission
         AddTalkListData(1, 99091101, -1)
         
-        # Visual Aura
+        # Body Aura
         AddTalkListData(2, 99091102, -1)
+        
+        # Body Tint
+        AddTalkListData(3, 99091103, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -704,13 +756,17 @@ def t400508_x28():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Emission
+        # Body Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x40(25007840, 25007841, 25007842, 25007843, 25007844, 25007845, 25007846, 25007847, 25007848, 25007849)
+            assert t400508_x40(25007840, 25007841, 25007842, 25007843, 25007844, 25007845, 25007846, 25007847, 25007848)
             continue
-        # Visual Aura
+        # Body Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x41(25007850, 25007851, 25007852, 25007853, 25007854, 25007855, 25007856, 25007857, 25007858, 25007859)
+            assert t400508_x41(25007850, 25007851, 25007852, 25007853, 25007854, 25007855, 25007856, 25007857, 25007858, 25007859, 25007849, 0)
+            continue
+        # Body Tint
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x41(25007850, 25007851, 25007852, 25007853, 25007854, 25007855, 25007856, 25007857, 25007858, 25007859, 25007849, 1)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -728,11 +784,14 @@ def t400508_x29():
     while True:
         ClearTalkListData()
 
-        # Visual Emission
+        # Body Emission
         AddTalkListData(1, 99091101, -1)
         
-        # Visual Aura
+        # Body Aura
         AddTalkListData(2, 99091102, -1)
+        
+        # Body Tint
+        AddTalkListData(3, 99091103, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -740,13 +799,17 @@ def t400508_x29():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Emission
+        # Body Emission
         if GetTalkListEntryResult() == 1:
-            assert t400508_x40(25007860, 25007861, 25007862, 25007863, 25007864, 25007865, 25007866, 25007867, 25007868, 25007869)
+            assert t400508_x40(25007860, 25007861, 25007862, 25007863, 25007864, 25007865, 25007866, 25007867, 25007868)
             continue
-        # Visual Aura
+        # Body Aura
         elif GetTalkListEntryResult() == 2:
-            assert t400508_x41(25007870, 25007871, 25007872, 25007873, 25007874, 25007875, 25007876, 25007877, 25007878, 25007879)
+            assert t400508_x41(25007870, 25007871, 25007872, 25007873, 25007874, 25007875, 25007876, 25007877, 25007878, 25007879, 25007869, 0)
+            continue
+        # Body Tint
+        elif GetTalkListEntryResult() == 3:
+            assert t400508_x41(25007870, 25007871, 25007872, 25007873, 25007874, 25007875, 25007876, 25007877, 25007878, 25007879, 25007869, 1)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -757,45 +820,42 @@ def t400508_x29():
             return 0
             
 #----------------------------------------------------
-# Visual Emission
+# Body Emission
 #----------------------------------------------------
-def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, flag8=_, flag9=_, flag10=_):
+def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, flag8=_, flag9=_):
     c1110()
     while True:
         ClearTalkListData()
 
-        # Visual Emission: None
+        # Body Emission: None
         AddTalkListData(1, 99091110, -1)
         
-        # Visual Emission: Fire
+        # Body Emission: Fire
         AddTalkListData(2, 99091111, -1)
         
-        # Visual Emission: 
+        # Body Emission: 
         #AddTalkListData(3, 99091112, -1)
         
-        # Visual Emission: 
+        # Body Emission: 
         #AddTalkListData(4, 99091113, -1)
         
-        # Visual Emission: 
+        # Body Emission: 
         #AddTalkListData(5, 99091114, -1)
         
-        # Visual Emission: 
+        # Body Emission: 
         #AddTalkListData(6, 99091115, -1)
         
-        # Visual Emission: 
+        # Body Emission: 
         #AddTalkListData(7, 99091116, -1)
         
-        # Visual Emission: 
+        # Body Emission: 
         #AddTalkListData(8, 99091117, -1)
         
-        # Visual Emission: 
+        # Body Emission: 
         #AddTalkListData(9, 99091118, -1)
         
-        # Visual Emission: 
+        # Body Emission: 
         #AddTalkListData(10, 99091119, -1)
-        
-        # Visual Emission: 
-        #AddTalkListData(11, 99091120, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -803,7 +863,7 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Emission: None
+        # Body Emission: None
         if GetTalkListEntryResult() == 1:
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
@@ -814,10 +874,9 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag7, 0)
             SetEventState(flag8, 0)
             SetEventState(flag9, 0)
-            SetEventState(flag10, 0)
             assert t400508_x52(99091210)
             return 0
-        # Visual Emission: Fire
+        # Body Emission: Fire
         elif GetTalkListEntryResult() == 2:
             SetEventState(flag1, 1)
             SetEventState(flag2, 0)
@@ -828,10 +887,9 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag7, 0)
             SetEventState(flag8, 0)
             SetEventState(flag9, 0)
-            SetEventState(flag10, 0)
             assert t400508_x52(99091211)
             return 0
-        # Visual Emission: 
+        # Body Emission: 
         elif GetTalkListEntryResult() == 3:
             SetEventState(flag1, 0)
             SetEventState(flag2, 1)
@@ -842,10 +900,9 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag7, 0)
             SetEventState(flag8, 0)
             SetEventState(flag9, 0)
-            SetEventState(flag10, 0)
             assert t400508_x52(99091212)
             return 0
-        # Visual Emission: 
+        # Body Emission: 
         elif GetTalkListEntryResult() == 4:
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
@@ -856,10 +913,9 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag7, 0)
             SetEventState(flag8, 0)
             SetEventState(flag9, 0)
-            SetEventState(flag10, 0)
             assert t400508_x52(99091213)
             return 0
-        # Visual Emission: 
+        # Body Emission: 
         elif GetTalkListEntryResult() == 5:
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
@@ -870,10 +926,9 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag7, 0)
             SetEventState(flag8, 0)
             SetEventState(flag9, 0)
-            SetEventState(flag10, 0)
             assert t400508_x52(99091214)
             return 0
-        # Visual Emission: 
+        # Body Emission: 
         elif GetTalkListEntryResult() == 6:
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
@@ -884,10 +939,9 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag7, 0)
             SetEventState(flag8, 0)
             SetEventState(flag9, 0)
-            SetEventState(flag10, 0)
             assert t400508_x52(99091215)
             return 0
-        # Visual Emission: 
+        # Body Emission: 
         elif GetTalkListEntryResult() == 7:
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
@@ -898,10 +952,9 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag7, 0)
             SetEventState(flag8, 0)
             SetEventState(flag9, 0)
-            SetEventState(flag10, 0)
             assert t400508_x52(99091216)
             return 0
-        # Visual Emission: 
+        # Body Emission: 
         elif GetTalkListEntryResult() == 8:
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
@@ -912,10 +965,9 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag7, 1)
             SetEventState(flag8, 0)
             SetEventState(flag9, 0)
-            SetEventState(flag10, 0)
             assert t400508_x52(99091217)
             return 0
-        # Visual Emission: 
+        # Body Emission: 
         elif GetTalkListEntryResult() == 9:
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
@@ -926,10 +978,9 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag7, 0)
             SetEventState(flag8, 1)
             SetEventState(flag9, 0)
-            SetEventState(flag10, 0)
             assert t400508_x52(99091218)
             return 0
-        # Visual Emission: 
+        # Body Emission: 
         elif GetTalkListEntryResult() == 10:
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
@@ -940,22 +991,7 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag7, 0)
             SetEventState(flag8, 0)
             SetEventState(flag9, 1)
-            SetEventState(flag10, 0)
             assert t400508_x52(99091219)
-            return 0
-        # Visual Emission: 
-        elif GetTalkListEntryResult() == 11:
-            SetEventState(flag1, 0)
-            SetEventState(flag2, 0)
-            SetEventState(flag3, 0)
-            SetEventState(flag4, 0)
-            SetEventState(flag5, 0)
-            SetEventState(flag6, 0)
-            SetEventState(flag7, 0)
-            SetEventState(flag8, 0)
-            SetEventState(flag9, 0)
-            SetEventState(flag10, 1)
-            assert t400508_x52(99091220)
             return 0
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -966,44 +1002,44 @@ def t400508_x40(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             return 0
           
 #----------------------------------------------------
-# Visual Aura
+# Body Aura/Tint
 #----------------------------------------------------
-def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, flag8=_, flag9=_, flag10=_):
+def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, flag8=_, flag9=_, flag10=_, tint_flag=_, tint_value=_):
     c1110()
     while True:
         ClearTalkListData()
 
-        # Visual Aura: None
+        # Body Aura: None
         AddTalkListData(1, 99091150, -1)
         
-        # Visual Aura: Red
+        # Body Aura: Red
         AddTalkListData(2, 99091151, -1)
         
-        # Visual Aura: Orange
+        # Body Aura: Orange
         AddTalkListData(3, 99091152, -1)
         
-        # Visual Aura: Yellow
+        # Body Aura: Yellow
         AddTalkListData(4, 99091153, -1)
         
-        # Visual Aura: Green
+        # Body Aura: Green
         AddTalkListData(5, 99091154, -1)
         
-        # Visual Aura: Cyan
+        # Body Aura: Cyan
         AddTalkListData(6, 99091155, -1)
         
-        # Visual Aura: Blue
+        # Body Aura: Blue
         AddTalkListData(7, 99091156, -1)
         
-        # Visual Aura: Indigo
+        # Body Aura: Indigo
         AddTalkListData(8, 99091157, -1)
         
-        # Visual Aura: Violet
+        # Body Aura: Violet
         AddTalkListData(9, 99091158, -1)
         
-        # Visual Aura: Pink
+        # Body Aura: Pink
         AddTalkListData(10, 99091159, -1)
         
-        # Visual Aura: Rainbow
+        # Body Aura: Rainbow
         AddTalkListData(11, 99091160, -1)
         
         # Leave
@@ -1012,8 +1048,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Visual Aura: None
+        # Body Aura: None
         if GetTalkListEntryResult() == 1:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
             SetEventState(flag3, 0)
@@ -1026,8 +1063,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag10, 0)
             assert t400508_x52(99091250)
             return 0
-        # Visual Aura: Red
+        # Body Aura: Red
         elif GetTalkListEntryResult() == 2:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 1)
             SetEventState(flag2, 0)
             SetEventState(flag3, 0)
@@ -1040,8 +1078,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag10, 0)
             assert t400508_x52(99091251)
             return 0
-        # Visual Aura: Orange
+        # Body Aura: Orange
         elif GetTalkListEntryResult() == 3:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 0)
             SetEventState(flag2, 1)
             SetEventState(flag3, 0)
@@ -1054,8 +1093,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag10, 0)
             assert t400508_x52(99091252)
             return 0
-        # Visual Aura: Yellow
+        # Body Aura: Yellow
         elif GetTalkListEntryResult() == 4:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
             SetEventState(flag3, 1)
@@ -1068,8 +1108,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag10, 0)
             assert t400508_x52(99091253)
             return 0
-        # Visual Aura: Green
+        # Body Aura: Green
         elif GetTalkListEntryResult() == 5:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
             SetEventState(flag3, 0)
@@ -1082,8 +1123,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag10, 0)
             assert t400508_x52(99091254)
             return 0
-        # Visual Aura: Cyan
+        # Body Aura: Cyan
         elif GetTalkListEntryResult() == 6:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
             SetEventState(flag3, 0)
@@ -1096,8 +1138,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag10, 0)
             assert t400508_x52(99091255)
             return 0
-        # Visual Aura: Blue
+        # Body Aura: Blue
         elif GetTalkListEntryResult() == 7:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
             SetEventState(flag3, 0)
@@ -1110,8 +1153,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag10, 0)
             assert t400508_x52(99091256)
             return 0
-        # Visual Aura: Indigo
+        # Body Aura: Indigo
         elif GetTalkListEntryResult() == 8:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
             SetEventState(flag3, 0)
@@ -1124,8 +1168,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag10, 0)
             assert t400508_x52(99091257)
             return 0
-        # Visual Aura: Violet
+        # Body Aura: Violet
         elif GetTalkListEntryResult() == 9:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
             SetEventState(flag3, 0)
@@ -1138,8 +1183,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag10, 0)
             assert t400508_x52(99091258)
             return 0
-        # Visual Aura: Pink
+        # Body Aura: Pink
         elif GetTalkListEntryResult() == 10:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
             SetEventState(flag3, 0)
@@ -1152,8 +1198,9 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
             SetEventState(flag10, 0)
             assert t400508_x52(99091259)
             return 0
-        # Visual Aura: Rainbow
+        # Body Aura: Rainbow
         elif GetTalkListEntryResult() == 11:
+            SetEventState(tint_flag, tint_value)
             SetEventState(flag1, 0)
             SetEventState(flag2, 0)
             SetEventState(flag3, 0)
@@ -1173,7 +1220,7 @@ def t400508_x41(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, flag6=_, flag7=_, f
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
-            
+    
 #----------------------------------------------------------
 # Utility
 #----------------------------------------------------------     

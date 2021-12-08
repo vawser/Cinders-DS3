@@ -183,7 +183,7 @@ Finish following weapons:
 - Added on use and ongoing visual effects to some consumable items.
 
 # Conjurations
-- You can now configure Visual Emission and Visual Aura for each of your conjured allies.
+- You can now configure Body Emission, Body Aura  and Body Tint for each of your conjured allies.
  - This allows you to add a visual effect/phantom glow to your conjured ally, making them easier to spot.
  - This is done via Conjurator Ellie.
  - The visual effect/phantom glow can be different for each conjured ally.
@@ -266,4 +266,4 @@ Finish following weapons:
 #------------------------------
 Add Solaire as summon to Soul of Cinder
 
-160760400
+Smouldering Prince
