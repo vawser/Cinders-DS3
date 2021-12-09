@@ -1753,7 +1753,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007400
 
 #------------------------
-# Spell Summon VFX
+# Spell Summon
 #------------------------
 # Spell Summon - Skeleton
 25007700 Visual Emission: Fire

@@ -7243,6 +7243,10 @@ Event(20080010, Restart, function(X0_4) {
     IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
     
+    // Mark of Attraction - Force Replan
+    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
+    RequestCharacterAIReplan(X0_4);
+    
     Label0();
     
     EndUnconditionally(EventEndType.Restart);
@@ -7440,6 +7444,10 @@ Event(20080020, Restart, function(X0_4) {
     IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
     
+    // Mark of Attraction - Force Replan
+    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
+    RequestCharacterAIReplan(X0_4);
+    
     Label0();
     
     EndUnconditionally(EventEndType.Restart);
@@ -7634,6 +7642,10 @@ Event(20080030, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
     IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Mark of Attraction - Force Replan
+    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
+    RequestCharacterAIReplan(X0_4);
     
     Label0();
     
@@ -7830,6 +7842,10 @@ Event(20080040, Restart, function(X0_4) {
     IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
     
+    // Mark of Attraction - Force Replan
+    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
+    RequestCharacterAIReplan(X0_4);
+    
     Label0();
     
     EndUnconditionally(EventEndType.Restart);
@@ -8024,6 +8040,10 @@ Event(20080050, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
     IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Mark of Attraction - Force Replan
+    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
+    RequestCharacterAIReplan(X0_4);
     
     Label0();
     
@@ -8220,6 +8240,10 @@ Event(20080060, Restart, function(X0_4) {
     IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
     
+    // Mark of Attraction - Force Replan
+    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
+    RequestCharacterAIReplan(X0_4);
+    
     Label0();
     
     EndUnconditionally(EventEndType.Restart);
@@ -8414,6 +8438,10 @@ Event(20080070, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
     IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Mark of Attraction - Force Replan
+    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
+    RequestCharacterAIReplan(X0_4);
     
     Label0();
     
@@ -8610,6 +8638,10 @@ Event(20080080, Restart, function(X0_4) {
     IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
     
+    // Mark of Attraction - Force Replan
+    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
+    RequestCharacterAIReplan(X0_4);
+    
     Label0();
     
     EndUnconditionally(EventEndType.Restart);
@@ -8804,6 +8836,10 @@ Event(20080090, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
     IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
     GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
+    
+    // Mark of Attraction - Force Replan
+    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
+    RequestCharacterAIReplan(X0_4);
     
     Label0();
     
