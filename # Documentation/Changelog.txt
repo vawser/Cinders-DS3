@@ -242,6 +242,9 @@ Finish following weapons:
   - Now has a few more coffin objects
   - Removed the weak Undead Clerics, now there are 2 Black Knights.
  
+# Summons
+- Added Huntmaster Ava as a summon for Oceiros.
+ 
 # Bugfixes
 - Fixed duplicate localization keys causing some descriptions to be broken.
 - Adjusted some weapon moves so flat damage addition doesn't cause them to rebound.
@@ -266,3 +269,16 @@ Finish following weapons:
 #------------------------------
 Add Solaire as summon to Soul of Cinder
 
+50020 Huntmaster Ava
+
+// Interaction State - <obj id>, <entity use flag>, <speffect on summon>, <action button>
+InitializeCommonEvent(20090100, 4002190, 14000190, -1, 60003); 
+
+// Character State - <entity id>, <entity use flag>, <msg id>, <>
+InitializeCommonEvent(20090101, 4000190, 14000190, 99071310, -1);
+
+// Boss Warp - Champion Gundyr - <entity use flag>, <boss trigger flag>, <entity id>, <event warp point>
+InitializeCommonEvent(20090102, 14000190, 14000832, 4000190, 4002113); 
+
+// Collision Transition Warp - <entity use flag>, <entity id>, <trigger id>, <warp point id>
+InitializeCommonEvent(20090103, 14000190, 4000190, 4002840, 4002841); 
