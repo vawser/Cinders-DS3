@@ -312,7 +312,7 @@
 1013 Long Sword
 1014 Broadsword
 1015 Broken Straight Sword
-1016 Nil Blade
+1016 Nil Bow and Blade
 1017 Sanguinus
 1018 Lothric Knight Sword
 1019 Tonitrus
@@ -434,7 +434,7 @@
 1134 Bramd
 1135 Channeler's Trident
 1136 Marvelous Zweihander
-1137 Corrupted Greatsword of Artorias  (To be used by Cat - Sanctum Shield)
+1137 Sanctum Shield
 1138 Talisman
 1139 Sorcerer's Staff
 1140 Storyteller's Staff
@@ -447,7 +447,7 @@
 1145 Golden Ritual Spear
 1146 Crystal Straight Sword
 1147 Yorshka's Chime
-1148 Unknown Catalyst (To be used by Cat - Vordt - Body)
+1148 Vordt T
 1149 Dragonslayer Greatbow
 1150 Short Bow
 1151 Composite Bow
@@ -518,7 +518,7 @@
 1217 Saint Bident
 1218 Yorshka's Spear
 1219 Pike
-1220 Heavy Four-Pronged Plow (To be used by Cat - Disc Chime)
+1220 Disc Chime
 1221 Dragonslayer Spear
 1222 Lothric's Scythe
 1223 Ancient Dragon Halberd
@@ -957,10 +957,10 @@
 3081 Cleric T
 3082 Cleric A
 3083 Cleric L
-3084 Lapp's H (To be used by Cat - Carthus Swordman - Head)
-3085 Lapp's T (To be used by Cat - Carthus Swordman - Body)
-3086 Lapp A (To be used by Cat - Carthus Swordman - Arms)
-3087 Lapp L (To be used by Cat - Carthus Swordman - Legs)
+3084 Carthus Swordman H
+3085 Carthus Swordman T
+3086 Carthus Swordman A
+3087 Carthus Swordman L
 3088 Grotto H
 3089 Grotto H
 3090 Grotto A
@@ -1143,7 +1143,7 @@
 3265 Old Sorcerer T
 3266 USED
 3267 USED
-3268 Black Leather H (Unassigned)
+3268 Vordt H
 3269 Black Leather T
 3270 USED
 3271 USED
@@ -1360,10 +1360,10 @@
 3478 Harald Knight T
 3479 USED
 3480 USED
-3481 Tarnished Knight H (To be used by Cat - Royal Swordsman - Head)
-3482 Tarnished Knight T (To be used by Cat - Royal Swordsman - Body)
-3483 Tarnished Knight A (To be used by Cat - Royal Swordsman - Arms)
-3484 Tarnished Knight L (To be used by Cat - Royal Swordsman - Legs)
+3481 Royal Swordsman H
+3482 Royal Swordsman T
+3483 Royal Swordsman A
+3484 Royal Swordsman L
 3485 Desert Pyromancer H
 3486 Desert Pyromancer T
 3487 USED
@@ -1384,7 +1384,7 @@
 3502 Desert Pyromancer (F) T
 3503 Desert Pyromancer (F) L
 3504 Black Witch (F) T
-3505 [Unassigned] (To be used by Cat - Vordt - Legs)
+3505 Vordt L
 3506 Black Witch (F) L
 3507 Iron Dragonslayer H
 3508 Iron Dragonslayer T
@@ -1417,7 +1417,7 @@
 3535 USED
 3536 Badger's Black Hat
 3537 Mask of Horror
-3538 Genichiro's Helmet (To be used by Cat - Vordt - Arms)
+3538 Vordt A
 3539 Gyoubu's Helm
 3540 Nightjar Mask
 3541 Okami Mask
@@ -1562,7 +1562,7 @@
 4100 Black Serpent
 4101 Great Deep Soul
 4102 Farron Flashsword
-4103 Writ
+4103 Writ (Unassigned)
 4104 Soul Stream
 4105 Scattering Soul Orb
 4106 Affinity
@@ -1870,29 +1870,29 @@
 5118 Stalwart Knight T
 5119 Corrupted Bow (Unassigned)
 5120 Pontiff's Left Eye
-5121 [Unassigned] (To be used by Cat - Throne Defender - Head)
-5122 [Unassigned] (To be used by Cat - Throne Defender - Body)
-5123 [Unassigned] (To be used by Cat - Throne Defender - Arms)
+5121 Throne Defender H
+5122 Throne Defender T
+5123 Throne Defender A
 5124 Dragonscale Ring
 5125 Chillbite Ring
 5126 Red Scroll
-5127 [Unassigned] (Cat - Throne Defender - Legs)
-5128 [Unassigned] (Cat - Throne Watcher - Head)
-5129 [Unassigned] (Cat - Throne Watcher - Head)
+5127 Throne Defender L
+5128 Throne Watcher H
+5129 Throne Watcher T
 5130 Rosaria's Fingers
 5131 Blade of the Darkmoon
 5132 Watchdogs of Farron
 5133 Aldrich Faithful
-5134 [Unassigned] (Cat - Throne Watcher - Head)
+5134 Throne Watcher A
 5135 Way of Blue
 5136 Warrior of Sunlight
 5137 Mound-makers
 5138 Blue Sentinels
 5139 Spears of the Church
-5140 [Unassigned] (Cat - Throne Watcher - Head)
-5141 [Unassigned] (Cat - Wanderer - Body)
-5142 [Unassigned] (Cat - Wanderer - Arms)
-5143 [Unassigned] (Cat - Wanderer - Legs)
+5140 Throne Watcher L
+5141 Wanderer H
+5142 Wanderer T
+5143 Wanderer A
 
 #------------------------
 # BLOCK 6
@@ -1956,7 +1956,7 @@
 6056 Holy Flame
 6057 Sorcerous Flame
 6058 Fool's Flame
-6059 Chaos Flame (Unassigned)
+6059 Wanderer L
 6060 Mercenary Ring
 6061 Heretic Ring
 6062 Merchant Ring
@@ -2028,19 +2028,19 @@
 6128 Dreg Torrent
 6129 Yearning Void
 6130 Orbs of Judgment (Unassigned)
-6131 Elixir of Deceit
-6132 Elixir of Cooperation
-6133 Elixir of Ghosts
-6134 Accursed Elixir
-6135 Psychedelic Elixir
-6136 Demonic Elixir
-6137 Darkmoon Elixir
-6138 Holy Elixir
-6139 Earthen Elixir
-6140 Abyssal Elixir
-6141 Sunlight Elixir
-6142 Maddening Elixir
-6143 Bloody Elixir
+6131 Elixir of Deceit (Unassigned)
+6132 Elixir of Cooperation (Unassigned)
+6133 Elixir of Ghosts (Unassigned)
+6134 Accursed Elixir (Unassigned)
+6135 Psychedelic Elixir (Unassigned)
+6136 Demonic Elixir (Unassigned)
+6137 Darkmoon Elixir (Unassigned)
+6138 Holy Elixir (Unassigned)
+6139 Earthen Elixir (Unassigned)
+6140 Abyssal Elixir (Unassigned)
+6141 Sunlight Elixir (Unassigned)
+6142 Maddening Elixir (Unassigned)
+6143 Bloody Elixir (Unassigned)
 
 #------------------------
 # BLOCK 7
@@ -2154,17 +2154,17 @@
 7106 Chester T
 7107 Chester
 7108 Chester
-7109 Essence of Cleansing
-7110 Essence of Magic
-7111 Essence of Fire
-7112 Essence of Lightning
-7113 Essence of Darkness
-7114 Essence of Poison
-7115 Essence of Blood
-7116 Essence of Frost
-7117 Essence of Enchancement
-7118 Essence of Divinity
-7119 Essence of Black Fire
+7109 Essence of Cleansing (Unassigned)
+7110 Essence of Magic (Unassigned)
+7111 Essence of Fire (Unassigned)
+7112 Essence of Lightning (Unassigned)
+7113 Essence of Darkness (Unassigned)
+7114 Essence of Poison (Unassigned)
+7115 Essence of Blood (Unassigned)
+7116 Essence of Frost (Unassigned)
+7117 Essence of Enchancement (Unassigned)
+7118 Essence of Divinity (Unassigned)
+7119 Essence of Black Fire (Unassigned)
 7120 Tome
 7121 Wrathful Orbs
 7122 Holy Schism
