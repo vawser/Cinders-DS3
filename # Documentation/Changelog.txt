@@ -181,23 +181,35 @@ Finish following weapons:
   - Sold by Conjurator Ellie.
 
 # Rings
+- You can no longer buy the Relic of Power/Insanity from Magnum Ursus while in Mythic mode.
+- Reduced the power of Ring of Blades: 
+ - Increases physical damage by 30/40/50/60/70/80.
+- Reduced the power of Sigil of Magic: 
+ - Increases magic damage by 30/40/50/60/70/80.
+- Reduced the power of Sigil of Flame: 
+ - Increases fire damage by 30/40/50/60/70/80.
+- Reduced the power of Sigil of Thunder: 
+ - Increases lightning damage by 30/40/50/60/70/80.
+- Reduced the power of Sigil of Darkness: 
+ - Increases darkness damage by 30/40/50/60/70/80.
+
 - Added Eyri's Signet:
- - Increases slash damage by 15/17.5/20/22.5/25/30%. 
+ - Increases slash damage by 10/12/14/16/18/20%.
  - Transposed from Corrupted Gundyr.
  - Affixable.
  
 - Added Ofydd's Signet   
- - Increases strike damage by 15/17.5/20/22.5/25/30%. 
+ - Increases strike damage by 10/12/14/16/18/20%.
     Transposed from Champion Gundyr.
  - Affixable.
     
 - Added Ifanna's Signet  
- - Increases thrust damage by 15/17.5/20/22.5/25/30%. 
+ - Increases thrust damage by 10/12/14/16/18/20%.
     Transposed from Pontiff Sulyvahn.
  - Affixable.
     
 - Added Grufudd's Signet
- - Increases standard damage by 15/17.5/20/22.5/25/30%. 
+ - Increases standard damage by 10/12/14/16/18/20%.
     Transposed from Fallen Protector.
  - Affixable.
     

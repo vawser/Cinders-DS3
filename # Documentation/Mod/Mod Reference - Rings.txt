@@ -997,7 +997,7 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
     - Boosts all stats by 15/16/17/18/19/20.
     - Reduces FP consumption of skills by 20/22/24/26/28/30%.
     - Reduces weapon stamina consumption by 20/22/24/26/28/30%.
-- Source: Deathless run - Hard mode
+- Source: Deathless run - Mythic mode
 
 # Relic of Myths
 - Weight: 1
@@ -1008,7 +1008,7 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
     - Boosts all stats by 20/22/24/26/28/30.
     - Reduces FP consumption of skills by 30/32/34/36/38/40%.
     - Reduces weapon stamina consumption by 30/32/34/36/38/40%.
-- Source: Hitless run - Hard mode
+- Source: Hitless run - Mythic mode
 
 # Gwynevere's Urn
 - Weight: 1
@@ -1031,18 +1031,38 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
 - Weight: 1 
 - Increases backstep distance by 15/30/50/65/80/100%.
 
+# Ring of Blades
+- Weight: 1 
+- Increases physical damage by 30/40/50/60/70/80.
+
+# Sigil of Magic
+- Weight: 1 
+- Increases magic damage by 30/40/50/60/70/80.
+
+# Sigil of Flame
+- Weight: 1 
+- Increases fire damage by 30/40/50/60/70/80.
+
+# Sigil of Thunder
+- Weight: 1 
+- Increases lightning damage by 30/40/50/60/70/80.
+
+# Sigil of Darkness
+- Weight: 1 
+- Increases dark damage by 30/40/50/60/70/80.
+
 # Eyri's Signet
 - Weight: 1
-- Boosts slash damage by 15/17.5/20/22.5/25/30%
+- Boosts slash damage by 10/12/14/16/18/20%.
 
 # Ofydd's Signet
 - Weight: 1
-- Boosts strike damage by 15/17.5/20/22.5/25/30%
+- Boosts strike damage by 10/12/14/16/18/20%.
 
 # Ifanna's Signet
 - Weight: 1
-- Boosts thrust damage by 15/17.5/20/22.5/25/30%
+- Boosts thrust damage by 10/12/14/16/18/20%.
 
 # Grufudd's Signet
 - Weight: 1
-- Boosts standard damage by 15/17.5/20/22.5/25/30%
+- Boosts standard damage by 10/12/14/16/18/20%.
