@@ -222,6 +222,12 @@ Finish following weapons:
 - Removed Titanite Abomination.
 - Increased soul drop from Corrupted Gundyr to 10,000.
 
+# Treasure
+- Shrine Handmaid now sells Ancient King set after Fallen Protector is killed.
+- Demon Prince: Added Smelter Sword as a transposition.
+- Added Dragonrider Halberd to Way of Blue covenant shop.
+- Added Man Serpent Greatsword to Thieves' Pact covenant shop.
+
 # Enemies
 - Archive Scholar wax now reduces Magic absorption.
 - Boreal Outrider Sentinel/Assassin now always drop Titanite Chunks or a Titanite Slab (80%/20%).
