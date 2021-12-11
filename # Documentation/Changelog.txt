@@ -21,7 +21,7 @@
 53702160 Irithyll of the Boreal Valley / Anor Londo
 53802181 Catacombs of Carthus / Smouldering Lake
 53902125 Irithyll Dungeon / Profaned Capital
-54002083 Cemetery of Ash / Unturned Graves
+54002087 Cemetery of Ash / Unturned Graves
 54102014 Kiln of the First Flame
 54502091 Painted World of Ariandel
 55002071 Dreg Heap
@@ -239,7 +239,24 @@ Finish following weapons:
 - Demon Prince: Added Smelter Sword as a transposition.
 - Added Dragonrider Halberd to Way of Blue covenant shop.
 - Added Man Serpent Greatsword to Thieves' Pact covenant shop.
-
+- Changed the Nestling trades:
+ - Added 10 types of petrified stones, each reward a variety of consumables.
+  - Singing Stone
+  - Warbling Stone
+  - Chanting Stone
+  - Crooning Stone
+  - Humming Stone
+  - Shouting Stone
+  - Whistling Stone
+  - Chirping Stone
+  - Groaing Stone
+  - Purring Stone
+ - Added 4 specific trades:
+  - Estus Shard -> Handmaid's Ladle
+  - Undead Bone Shard -> Great Lord Greatsword
+  - Skull Ring -> 3 Titanite Slab
+  - Rubbish -> Adventurer's Set
+  
 # Enemies
 - Archive Scholar wax now reduces Magic absorption.
 - Boreal Outrider Sentinel/Assassin now always drop Titanite Chunks or a Titanite Slab (80%/20%).
@@ -310,4 +327,20 @@ Finish following weapons:
 # TODO
 #------------------------------
 Add Solaire as summon to Soul of Cinder
+
+2300 Singing Stone
+2301 Warbling Stone
+2302 Chanting Stone
+2303 Crooning Stone
+2304 Humming Stone
+2305 Shouting Stone
+2306 Whistling Stone
+2307 Chirping Stone
+2308 Groaning Stone
+2309 Purring Stone
+
+2141 Estus Shard -> 31120000 Handmaid's Ladle
+2143 Undead Bone Shard -> 30800000 Great Lord Greatsword
+20430 Skull Ring -> 1003 Titanite Slab
+380 Rubbish -> 99770000 Wise Set
 

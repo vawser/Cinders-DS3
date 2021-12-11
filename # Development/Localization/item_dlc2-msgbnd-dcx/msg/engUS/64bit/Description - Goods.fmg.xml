@@ -1964,11 +1964,7 @@ Often utilized as a last-resort for adventurers who have lost their way.</text>
 <text id="2161">Medicinal pellet made from crushed insects infused with magical energies.
 
 The Boreal Valley is infested with moon bugs, meaning ingredients are never far from hand for the Irithyllian slaves who concoct this medicine.</text>
-<text id="2162">An unidentified petrified object. Pleasant to the touch, despite its looks.
 
-A rare and peculiar thing, to be certain, but one without a known purpose.
-
-The nestling atop Firelink Shrine may be interested in this item.</text>
 <text id="2163">The taut hide of a crystal lizard. Crush to unleash the souls embedded within.
 
 Use to acquire many souls.
@@ -2023,21 +2019,48 @@ Used by Andre the Blacksmith to create infused shields.</text>
 extraordinary shields into the ordinary.
 
 Used by Andre the Blacksmith to revert infused shields.</text>
-<text id="2300">Ember once used to forge flame weaponry.
 
-Once used, boosts the power of imbued flame, greatly increasing Fire attack temporarily.</text>
-<text id="2301">Ember once used to forge crystal weaponry.
+<text id="2300">An unidentified petrified object.
+A low singing voice is emitted from within.
 
-Once used, boosts the power of imbued magic, greatly increasing Magic attack temporarily.</text>
-<text id="2302">Ember once used to forge lightning weaponry.
+The nestling atop Firelink Shrine may be interested in this item.</text>
+<text id="2301">An unidentified petrified object.
+A low warbling voice is emitted from within.
 
-Once used, boosts the power of imbued lightning, greatly increasing Lightning attack temporarily.</text>
-<text id="2303">Ember once used to forge dark weaponry.
+The nestling atop Firelink Shrine may be interested in this item.</text>
+<text id="2302">An unidentified petrified object.
+A low chanting voice is emitted from within.
 
-Once used, boosts the power of imbued dark, greatly increasing Dark attack temporarily.</text>
-<text id="2304">Ember once used to forge the stone weaponry of giants.
+The nestling atop Firelink Shrine may be interested in this item.</text>
+<text id="2303">An unidentified petrified object.
+A low crooning voice is emitted from within.
 
-Once used, boosts the inherent physicality of a weapon, greatly increasing Physical attack temporarily.</text>
+The nestling atop Firelink Shrine may be interested in this item.</text>
+<text id="2304">An unidentified petrified object.
+A low humming voice is emitted from within.
+
+The nestling atop Firelink Shrine may be interested in this item.</text>
+<text id="2305">An unidentified petrified object.
+A low shouting voice is emitted from within.
+
+The nestling atop Firelink Shrine may be interested in this item.</text>
+<text id="2306">An unidentified petrified object.
+A low whistling voice is emitted from within.
+
+The nestling atop Firelink Shrine may be interested in this item.</text>
+<text id="2307">An unidentified petrified object.
+A low chirping voice is emitted from within.
+
+The nestling atop Firelink Shrine may be interested in this item.</text>
+<text id="2308">An unidentified petrified object.
+A low groaning voice is emitted from within.
+
+The nestling atop Firelink Shrine may be interested in this item.</text>
+<text id="2309">An unidentified petrified object.
+A low purring voice is emitted from within.
+
+The nestling atop Firelink Shrine may be interested in this item.</text>
+
 <text id="3003">A seemingly mundane frying pan, small enough to be used as a projectile.
 
 Throw to inflict 10 physical damage. Deals high Poise damage and Stamina damage.
@@ -2373,195 +2396,6 @@ Use to absorb its latent power, increase STR, DEX, INT, FTH and LCK by 99 for 30
 Effect duration can be extended.
 
 Many a champion have fallen to the beasts that roam the lands of Lothric. Their sacrifice will sustain others more worthy of strength.</text>
-<text id="4300">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Removes all right-hand weapon appearance effects.</text>
-<text id="4301">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Removes all left-hand weapon appearance effects.</text>
-<text id="4310">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of magic to the right-hand.</text>
-<text id="4311">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of magic to the left-hand.</text>
-<text id="4320">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of fire to the right-hand.</text>
-<text id="4321">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of fire to the left-hand.</text>
-<text id="4330">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of lightning to the right-hand.</text>
-<text id="4331">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of lightning to the left-hand.</text>
-<text id="4340">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of darkness to the right-hand.</text>
-<text id="4341">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of darkness to the left-hand.</text>
-<text id="4350">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of poison to the right-hand.</text>
-<text id="4351">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of poison to the left-hand.</text>
-<text id="4360">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of blood to the right-hand.</text>
-<text id="4361">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of blood to the left-hand.</text>
-<text id="4370">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of frost to the right-hand.</text>
-<text id="4371">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of frost to the left-hand.</text>
-<text id="4380">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of enchantment to the right-hand.</text>
-<text id="4381">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of enchantment to the left-hand.</text>
-<text id="4390">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of divinity to the right-hand.</text>
-<text id="4391">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of divinity to the left-hand.</text>
-<text id="4400">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of black fire to the right-hand.</text>
-<text id="4401">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of black fire to the left-hand.</text>
-<text id="4410">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of blue lightning to the right-hand.</text>
-<text id="4411">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of blue lightning to the left-hand.</text>
-<text id="4420">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of ancient lightning to the right-hand.</text>
-<text id="4421">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of ancient lightning to the left-hand.</text>
-<text id="4430">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of darkmoon enchantment to the right-hand.</text>
-<text id="4431">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of darkmoon enchantment to the left-hand.</text>
-<text id="4440">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of scorching fire to the right-hand.</text>
-<text id="4441">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of scorching fire to the left-hand.</text>
-<text id="4450">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Coats right-hand weapon with living maggots.</text>
-<text id="4451">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Coats left-hand weapon with living maggots.</text>
-<text id="4460">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of wind magic to the right-hand.</text>
-<text id="4461">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of wind magic to the left-hand.</text>
-<text id="4470">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of rainbow energy to the right-hand.</text>
-<text id="4471">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies an aura of rainbow energy to the left-hand.</text>
-<text id="4480">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies Nadalia's enchantment to the right-hand.</text>
-<text id="4481">A weapon oil containing latent magic, used to change the apperance of weaponry.
-
-Applies Nadalia's enchantment to the left-hand.</text>
-<text id="4500">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a mass of humanity to the head.</text>
-<text id="4501">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a glowing red aura to the eyes.</text>
-<text id="4502">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies multiple crystals to the body.</text>
-<text id="4503">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies invisibility to the body.</text>
-<text id="4504">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies stoneform to the body.</text>
-<text id="4505">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies maggots to the body.</text>
-<text id="4506">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a burning red aura to the eyes.</text>
-<text id="4507">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a white aura to the eyes.</text>
-<text id="4508">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies sparks to the body.</text>
-<text id="4509">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies white stars to the body.</text>
-<text id="4510">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies prismatic stars to the body.</text>
-<text id="4511">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies corrupted crystals to the body.</text>
-<text id="4512">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies dung to the body.</text>
-<text id="4513">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a protection aura to the body.</text>
-<text id="4514">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a poison aura to the body.</text>
-<text id="4515">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a frost aura to the body.</text>
-<text id="4516">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a immolation aura to the body.</text>
-<text id="4517">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a dust aura to the body.</text>
-<text id="4518">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a water aura to the body.</text>
-<text id="4519">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a blue aura to the eyes.</text>
-<text id="4520">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a golden aura to the eyes.</text>
-<text id="4521">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a divine aura to the body.</text>
-<text id="4522">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a smouldering aura to the body.</text>
-<text id="4523">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a green aura to the eyes.</text>
-<text id="4524">A writ containing latent magic, used to apply magical effects to one's person.
-
-Applies a purple aura to the eyes.</text>
 <text id="5000">A worn tome that contains an account of a past heir of fire and its downfall.
 
 Read to revive Corrupted Gundyr and warp to the entrance of the boss arena.
