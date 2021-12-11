@@ -198,8 +198,8 @@ Finish following weapons:
  - Removed the skeletons that he spawns in.
  - Reduced the dormant time on Wolnir's attacks so he is a bit more active in terms of aggression.
  - Adjusted his health, absorptions and bracelets so that you'll need to break the bracelets to kill him most of the time.
-
 - Removed Titanite Abomination.
+- Increased soul drop from Corrupted Gundyr to 10,000.
 
 # Enemies
 - Archive Scholar wax now reduces Magic absorption.
