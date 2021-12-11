@@ -840,7 +840,7 @@
 2112 Ash Knuckle Ring
 2113 Bracing Knuckle Ring
 2114 Ring of Blades
-2115 Stone Ring (Ring of Conjuration)
+2115 Stone Ring
 2116 Giant's ring (Unassigned)
 2117 Clear Bluestone Ring (Unassigned)
 2118 Old Sun Ring
@@ -1821,7 +1821,7 @@
 5068 Darkmoon Ring
 5069 Ring of Momentum
 5070 Ring of Grace
-5071 Ring of Acrobatics (Unassigned)
+5071 Ring of Wounding
 5072 Hawk Ring
 5073 Hornet Ring
 5074 Covetous Gold Serpent Ring
@@ -2028,19 +2028,19 @@
 6128 Dreg Torrent
 6129 Yearning Void
 6130 Orbs of Judgment (Unassigned)
-6131 Elixir of Deceit (Unassigned)
-6132 Elixir of Cooperation (Unassigned)
-6133 Elixir of Ghosts (Unassigned)
-6134 Accursed Elixir (Unassigned)
-6135 Psychedelic Elixir (Unassigned)
-6136 Demonic Elixir (Unassigned)
-6137 Darkmoon Elixir (Unassigned)
-6138 Holy Elixir (Unassigned)
-6139 Earthen Elixir (Unassigned)
-6140 Abyssal Elixir (Unassigned)
-6141 Sunlight Elixir (Unassigned)
-6142 Maddening Elixir (Unassigned)
-6143 Bloody Elixir (Unassigned)
+6131 Ring of Conjuration
+6132 Eyri's Signet
+6133 Ofydd's Signet
+6134 Ifanna's Signet
+6135 Grufudd's Signet
+6136 [Unassigned]
+6137 [Unassigned]
+6138 [Unassigned]
+6139 [Unassigned]
+6140 [Unassigned]
+6141 [Unassigned]
+6142 [Unassigned]
+6143 [Unassigned]
 
 #------------------------
 # BLOCK 7

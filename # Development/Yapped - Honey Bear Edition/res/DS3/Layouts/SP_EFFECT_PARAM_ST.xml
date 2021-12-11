@@ -1614,87 +1614,87 @@ Enemies - Requires State Info 152</description>
     <default>0</default>
   </entry>
   <entry>
-    <name>UnkDamageMult0</name>
+    <name>Damage %: Slash</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>UnkDamageMult1</name>
+    <name>Damage %: Strike</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>UnkDamageMult2</name>
+    <name>Damage %: Thrust</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>UnkDamageMult3</name>
+    <name>Damage %: Standard</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Poison</name>
+    <name>PVP Damage %: Slash</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Toxic</name>
+    <name>PVP Damage %: Strike</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Bleed</name>
+    <name>PVP Damage %: Thrust</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Curse</name>
+    <name>PVP Damage %: Standard</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Damage %: Frost</name>
+    <name>Instakill Damage %: Slash</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Slash</name>
+    <name>Instakill Damage %: Strike</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Strike</name>
+    <name>Instakill Damage %: Thrust</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Thrust</name>
+    <name>Instakill Damage %: Standard</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Physical</name>
+    <name>Instakill Damage %: Physical</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Magic</name>
+    <name>Instakill Damage %: Magic</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Fire</name>
+    <name>Instakill Damage %: Fire</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Lightning</name>
+    <name>Instakill Damage %: Lightning</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SP Damage %: Dark</name>
+    <name>Instakill Damage %: Dark</name>
     <type>f32</type>
     <default>0</default>
   </entry>

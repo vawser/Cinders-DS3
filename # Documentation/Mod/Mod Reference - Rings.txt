@@ -1031,6 +1031,18 @@ Each stack lasts 300 seconds, increases damage inflicted by 6% but reduces absor
 - Weight: 1 
 - Increases backstep distance by 15/30/50/65/80/100%.
 
-# Pugilist's Trick
-- Weight 1
-- Boosts fist damage by 100/120/140/160/180/200%.
+# Eyri's Signet
+- Weight: 1
+- Boosts slash damage by 15/17.5/20/22.5/25/30%
+
+# Ofydd's Signet
+- Weight: 1
+- Boosts strike damage by 15/17.5/20/22.5/25/30%
+
+# Ifanna's Signet
+- Weight: 1
+- Boosts thrust damage by 15/17.5/20/22.5/25/30%
+
+# Grufudd's Signet
+- Weight: 1
+- Boosts standard damage by 15/17.5/20/22.5/25/30%

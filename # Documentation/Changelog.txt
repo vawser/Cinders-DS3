@@ -180,6 +180,27 @@ Finish following weapons:
   - Banishes all conjured allies early.
   - Sold by Conjurator Ellie.
 
+# Rings
+- Added Eyri's Signet:
+ - Increases slash damage by 15/17.5/20/22.5/25/30%. 
+ - Transposed from Corrupted Gundyr.
+ - Affixable.
+ 
+- Added Ofydd's Signet   
+ - Increases strike damage by 15/17.5/20/22.5/25/30%. 
+    Transposed from Champion Gundyr.
+ - Affixable.
+    
+- Added Ifanna's Signet  
+ - Increases thrust damage by 15/17.5/20/22.5/25/30%. 
+    Transposed from Pontiff Sulyvahn.
+ - Affixable.
+    
+- Added Grufudd's Signet
+ - Increases standard damage by 15/17.5/20/22.5/25/30%. 
+    Transposed from Fallen Protector.
+ - Affixable.
+    
 # Items
 - Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
 - Changed the animation use of Rouge/Crimson Water to Consumable.
@@ -200,6 +221,12 @@ Finish following weapons:
  - Adjusted his health, absorptions and bracelets so that you'll need to break the bracelets to kill him most of the time.
 - Removed Titanite Abomination.
 - Increased soul drop from Corrupted Gundyr to 10,000.
+
+# Treasure
+- Shrine Handmaid now sells Ancient King set after Fallen Protector is killed.
+- Demon Prince: Added Smelter Sword as a transposition.
+- Added Dragonrider Halberd to Way of Blue covenant shop.
+- Added Man Serpent Greatsword to Thieves' Pact covenant shop.
 
 # Enemies
 - Archive Scholar wax now reduces Magic absorption.
@@ -272,16 +299,3 @@ Finish following weapons:
 #------------------------------
 Add Solaire as summon to Soul of Cinder
 
-50020 Huntmaster Ava
-
-// Interaction State - <obj id>, <entity use flag>, <speffect on summon>, <action button>
-InitializeCommonEvent(20090100, 4002190, 14000190, -1, 60003); 
-
-// Character State - <entity id>, <entity use flag>, <msg id>, <>
-InitializeCommonEvent(20090101, 4000190, 14000190, 99071310, -1);
-
-// Boss Warp - Champion Gundyr - <entity use flag>, <boss trigger flag>, <entity id>, <event warp point>
-InitializeCommonEvent(20090102, 14000190, 14000832, 4000190, 4002113); 
-
-// Collision Transition Warp - <entity use flag>, <entity id>, <trigger id>, <warp point id>
-InitializeCommonEvent(20090103, 14000190, 4000190, 4002840, 4002841); 

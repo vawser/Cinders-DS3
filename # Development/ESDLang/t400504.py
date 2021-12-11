@@ -707,6 +707,15 @@ def t400504_x41():
         # Sigil of Darkness
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31900, 4, 1, 0) == 1, 108, 99015207, -1)
         
+        # Eyri's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32000, 4, 1, 0) == 1, 109, 99015208, -1)
+        # Ofydd's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32100, 4, 1, 0) == 1, 110, 99015209, -1)
+        # Ifanna's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32200, 4, 1, 0) == 1, 111, 99015210, -1)
+        # Grufudd's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32300, 4, 1, 0) == 1, 112, 99015211, -1)
+        
         # Quit
         AddTalkListData(999, 15000180, -1)
         
@@ -1145,6 +1154,22 @@ def t400504_x41():
         elif GetTalkListEntryResult() == 108:
             assert t400504_x50(31900, 31901, 1, -2)
             return 0
+        # Eyri's Signet
+        elif GetTalkListEntryResult() == 109:
+            assert t400504_x50(32000, 32001, 1, -2)
+            return 0
+        # Ofydd's Signet
+        elif GetTalkListEntryResult() == 110:
+            assert t400504_x50(32100, 32101, 1, -2)
+            return 0
+        # Ifanna's Signet
+        elif GetTalkListEntryResult() == 111:
+            assert t400504_x50(32200, 32201, 1, -2)
+            return 0
+        # Grufudd's Signet
+        elif GetTalkListEntryResult() == 112:
+            assert t400504_x50(32200, 32201, 1, -2)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -1393,6 +1418,15 @@ def t400504_x42():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31801, 4, 1, 0) == 1, 107, 99015206, -1)
         # Sigil of Darkness
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31901, 4, 1, 0) == 1, 108, 99015207, -1)
+        
+        # Eyri's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32001, 4, 1, 0) == 1, 109, 99015208, -1)
+        # Ofydd's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32101, 4, 1, 0) == 1, 110, 99015209, -1)
+        # Ifanna's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32201, 4, 1, 0) == 1, 111, 99015210, -1)
+        # Grufudd's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32301, 4, 1, 0) == 1, 112, 99015211, -1)
         
         # Quit
         AddTalkListData(999, 15000180, -1)
@@ -1832,6 +1866,22 @@ def t400504_x42():
         elif GetTalkListEntryResult() == 108:
             assert t400504_x50(31901, 31902, 3, -4)
             return 0
+        # Eyri's Signet
+        elif GetTalkListEntryResult() == 109:
+            assert t400504_x50(32001, 32002, 3, -4)
+            return 0
+        # Ofydd's Signet
+        elif GetTalkListEntryResult() == 110:
+            assert t400504_x50(32101, 32102, 3, -4)
+            return 0
+        # Ifanna's Signet
+        elif GetTalkListEntryResult() == 111:
+            assert t400504_x50(32201, 32202, 3, -4)
+            return 0
+        # Grufudd's Signet
+        elif GetTalkListEntryResult() == 112:
+            assert t400504_x50(32201, 32202, 3, -4)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2080,6 +2130,15 @@ def t400504_x43():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31802, 4, 1, 0) == 1, 107, 99015206, -1)
         # Sigil of Darkness
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31902, 4, 1, 0) == 1, 108, 99015207, -1)
+        
+        # Eyri's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32002, 4, 1, 0) == 1, 109, 99015208, -1)
+        # Ofydd's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32102, 4, 1, 0) == 1, 110, 99015209, -1)
+        # Ifanna's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32202, 4, 1, 0) == 1, 111, 99015210, -1)
+        # Grufudd's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32302, 4, 1, 0) == 1, 112, 99015211, -1)
         
         # Quit
         AddTalkListData(99, 15000180, -1)
@@ -2519,6 +2578,22 @@ def t400504_x43():
         elif GetTalkListEntryResult() == 108:
             assert t400504_x50(31902, 31903, 5, -6)
             return 0
+        # Eyri's Signet
+        elif GetTalkListEntryResult() == 109:
+            assert t400504_x50(32002, 32003, 5, -6)
+            return 0
+        # Ofydd's Signet
+        elif GetTalkListEntryResult() == 110:
+            assert t400504_x50(32102, 32103, 5, -6)
+            return 0
+        # Ifanna's Signet
+        elif GetTalkListEntryResult() == 111:
+            assert t400504_x50(32202, 32203, 5, -6)
+            return 0
+        # Grufudd's Signet
+        elif GetTalkListEntryResult() == 112:
+            assert t400504_x50(32202, 32203, 5, -6)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -2767,6 +2842,15 @@ def t400504_x44():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31803, 4, 1, 0) == 1, 107, 99015206, -1)
         # Sigil of Darkness
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31903, 4, 1, 0) == 1, 108, 99015207, -1)
+        
+        # Eyri's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32003, 4, 1, 0) == 1, 109, 99015208, -1)
+        # Ofydd's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32103, 4, 1, 0) == 1, 110, 99015209, -1)
+        # Ifanna's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32203, 4, 1, 0) == 1, 111, 99015210, -1)
+        # Grufudd's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32303, 4, 1, 0) == 1, 112, 99015211, -1)
         
         # Quit
         AddTalkListData(999, 15000180, -1)
@@ -3206,6 +3290,22 @@ def t400504_x44():
         elif GetTalkListEntryResult() == 108:
             assert t400504_x50(31903, 31904, 7, -8)
             return 0
+        # Eyri's Signet
+        elif GetTalkListEntryResult() == 109:
+            assert t400504_x50(32003, 32004, 7, -8)
+            return 0
+        # Ofydd's Signet
+        elif GetTalkListEntryResult() == 110:
+            assert t400504_x50(32103, 32104, 7, -8)
+            return 0
+        # Ifanna's Signet
+        elif GetTalkListEntryResult() == 111:
+            assert t400504_x50(32203, 32204, 7, -8)
+            return 0
+        # Grufudd's Signet
+        elif GetTalkListEntryResult() == 112:
+            assert t400504_x50(32204, 32205, 7, -8)
+            return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -3455,6 +3555,15 @@ def t400504_x45():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31804, 4, 1, 0) == 1, 107, 99015206, -1)
         # Sigil of Darkness
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31904, 4, 1, 0) == 1, 108, 99015207, -1)
+        
+        # Eyri's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32004, 4, 1, 0) == 1, 109, 99015208, -1)
+        # Ofydd's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32104, 4, 1, 0) == 1, 110, 99015209, -1)
+        # Ifanna's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32204, 4, 1, 0) == 1, 111, 99015210, -1)
+        # Grufudd's Signet
+        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32304, 4, 1, 0) == 1, 112, 99015211, -1)
         
         # Quit
         AddTalkListData(999, 15000180, -1)
@@ -3893,6 +4002,22 @@ def t400504_x45():
         # Sigil of Darkness
         elif GetTalkListEntryResult() == 108:
             assert t400504_x50(31904, 31905, 9, -10)
+            return 0
+        # Eyri's Signet
+        elif GetTalkListEntryResult() == 109:
+            assert t400504_x50(32004, 32005, 9, -10)
+            return 0
+        # Ofydd's Signet
+        elif GetTalkListEntryResult() == 110:
+            assert t400504_x50(32104, 32105, 9, -10)
+            return 0
+        # Ifanna's Signet
+        elif GetTalkListEntryResult() == 111:
+            assert t400504_x50(32204, 32205, 9, -10)
+            return 0
+        # Grufudd's Signet
+        elif GetTalkListEntryResult() == 112:
+            assert t400504_x50(32304, 32305, 9, -10)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
