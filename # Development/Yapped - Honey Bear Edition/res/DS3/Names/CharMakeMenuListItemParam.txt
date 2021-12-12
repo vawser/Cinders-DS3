@@ -241,7 +241,7 @@
 100231 Class - Doorman
 100232 Class - Hermit
 100233 Class - Royal Lancer
-100234 Class - Marksman
+100234 Class - Huntsman
 100235 Class - Misanthrope
 100236 Class - Scholar
 100237 Class - Royal Warden
@@ -252,7 +252,10 @@
 100242 Class - Reaper
 100243 Class - Chef
 100244 Class - Crab King
-100245 Class - Accursed
+100245 Class - Monk
+100246 Class - Carthus Warrior
+100247 Class - Royal Swordsman
+100248 Class - Accursed
 100300 Gift - None
 100301 Gift - Master Key
 100302 Gift - Young White Branch (3)

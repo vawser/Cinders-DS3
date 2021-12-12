@@ -338,10 +338,10 @@
 2723006 Magnetism [Luck]
 2723010 Refined Magnetism
 2723016 Refined Magnetism [Luck]
-2724000 Black Star
-2724006 Black Star [Luck]
-2724010 Adjacent Black Star
-2724016 Adjacent Black Star [Luck]
+2724000 Bubble Wall
+2724006 Bubble Wall [Luck]
+2724010 Bubble Prison
+2724016 Bubble Prison [Luck]
 2725000 Geyser
 2725006 Geyser [Luck]
 2725010 Great Geyser
@@ -726,12 +726,12 @@
 4312016 Great Lifehunt Scythe [Luck]
 4313000 Pulsating Blade
 4313006 Pulsating Blade [Luck]
-4313010 Supreme Pulsating Blade
-4313016 Supreme Pulsating Blade [Luck]
+4313010 Myiatic Blade
+4313016 Myiatic Blade [Luck]
 4314000 Pungent Blade
 4314006 Pungent Blade [Luck]
-4314010 Supreme Pungent Blade
-4314016 Supreme Pungent Blade [Luck]
+4314010 Noxious Blade
+4314016 Noxious Blade [Luck]
 4315000 Blood Sacrifice
 4315006 Blood Sacrifice [Luck]
 4315010 Bloodthirsty Sacrifice
@@ -744,4 +744,8 @@
 4317006 Blood Orb [Luck]
 4317010 Lingering Blood Orb
 4317016 Lingering Blood Orb [Luck]
+4318000 Black Star
+4318006 Black Star [Luck]
+4318010 Adjacent Black Star
+4318016 Adjacent Black Star [Luck]
 5200000 ### Below are NPC versions of the above spells

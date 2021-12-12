@@ -3461,6 +3461,7 @@
 104931450 [Sanctum Mace] Poison Burst
 104931500 [Nil Bow & Blade] Arrow
 104931510 [Nil Bow & Blade] Arrow - Strong
+104931520 [Nil Bow & Blade] Arrow - Weak
 104999999 ### Spells ###
 105002000 [Sorcery] Soul Wave
 105002100 [Sorcery] Swift Soul Wave
@@ -3964,6 +3965,15 @@
 109574100 [Miracle] Lingering Blood Orb
 109574110 [Miracle] Lingering Blood Orb [Hit]
 109574120 [Miracle] Lingering Blood Orb
+109575000 [Pyromancy] Bubble Wall
+109575010 [Pyromancy] Bubble Wall
+109575020 [Pyromancy] Bubble Wall
+109575030 [Pyromancy] Bubble Wall [Hit]
+109575100 [Pyromancy] Bubble Prison
+109575110 [Pyromancy] Bubble Prison
+109575120 [Pyromancy] Bubble Prison
+109575130 [Pyromancy] Bubble Prison
+109575140 [Pyromancy] Bubble Prison [Hit]
 109999999 ### Spell Summons ###
 110000000 Conjure Skeleton
 110000100 Conjure Hollow
@@ -4266,10 +4276,10 @@
 210017200 [Spitfire Spear] SpitFire
 210017220 [Spitfire Spear] - Heavy - Bullet
 210017221 [Spitfire Spear] - Heavy - Bullet [Hit]
-210018000 [Helix Halberd] - Staggering Dart
-210018001 [Helix Halberd] - Staggering Dart
-210018100 Ivory King Beam
-210018110 Ivory King Beam
+210018000 [Helix Halberd] - Helix Blast
+210018001 [Helix Halberd] - Helix Blast [Hit]
+210018100 [Ivory King UGS] - Frost Beam
+210018110 [Ivory King UGS] - Frost Beam [Hit]
 219999999 ### Rings ###
 220000000 Cursed Ring of Deflection - Spell Deflection
 220001000 Cursed Ring of Confusion - Rapport

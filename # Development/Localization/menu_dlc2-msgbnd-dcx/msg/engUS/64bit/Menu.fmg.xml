@@ -1963,13 +1963,11 @@ Persisting will transform you into a grub.</text>
 <text id="15003027">Members of the Darkmoon will appreciate this action.</text>
 <text id="15003028">Enter the Darkness</text>
 <text id="15003029">Catalyst Infusions</text>
-
 <text id="15003030">Form Champion's Pact</text>
 <text id="15003031">The Champion's Pact has been enabled.</text>
 <text id="15003032">Break Champion's Pact</text>
 <text id="15003033">The Champion's Pact has been disabled.</text>
 <text id="15003034">Face the Spurned Shade</text>
-
 <text id="15003040">Training Dummies</text>
 <text id="15003041">Enable Immovable Dummy</text>
 <text id="15003042">Enable Movable Dummy</text>
@@ -1977,10 +1975,8 @@ Persisting will transform you into a grub.</text>
 <text id="15003044">Disable Immovable Dummy</text>
 <text id="15003045">Disable Movable Dummy</text>
 <text id="15003046">Disable Aggressive Dummy</text>
-
 <text id="15003050">Train Outside</text>
 <text id="15003051">Train Inside</text>
-
 <text id="15003060">Transformation Items</text>
 <text id="15003061">Transformation Effects</text>
 <text id="15003100">Weapon Emission</text>
@@ -1992,12 +1988,10 @@ Persisting will transform you into a grub.</text>
 <text id="15003106">Humanity Aura</text>
 <text id="15003107">Head Emission</text>
 <text id="15003108">Body Tint</text>
-
 <text id="15003110">Clear Transformations</text>
 <text id="15003120">Transformation applied.</text>
 <text id="15003121">Transformation removed.</text>
 <text id="15003122">Reload the map to restore access to Transformation Effects.</text>
-
 <text id="15003200">None</text>
 <text id="15003201">Magic</text>
 <text id="15003202">Fire</text>
@@ -2017,7 +2011,6 @@ Persisting will transform you into a grub.</text>
 <text id="15003216">Wind</text>
 <text id="15003217">Psychedelic</text>
 <text id="15003218">Brume</text>
-
 <text id="15003300"></text>
 <text id="15003301">Magical Crystals</text>
 <text id="15003302">Invisibility</text>
@@ -2036,7 +2029,6 @@ Persisting will transform you into a grub.</text>
 <text id="15003315">Water</text>
 <text id="15003316">Holy</text>
 <text id="15003317">Smouldering</text>
-
 <text id="15003400">Red Glow</text>
 <text id="15003401">Burning Red Glow</text>
 <text id="15003402">White Glow</text>
@@ -2044,7 +2036,6 @@ Persisting will transform you into a grub.</text>
 <text id="15003404">Golden Glow</text>
 <text id="15003405">Green Glow</text>
 <text id="15003406">Purple Glow</text>
-
 <text id="15003500">Ethereal Phantom</text>
 <text id="15003503">White Phantom</text>
 <text id="15003504">Darkmoon Phantom</text>
@@ -2056,7 +2047,6 @@ Persisting will transform you into a grub.</text>
 <text id="15003510">Red Phantom</text>
 <text id="15003511">Demonic Phantom</text>
 <text id="15003512">Psychedelic Phantom</text>
-
 <text id="15003520">Red Tint</text>
 <text id="15003521">Orange Tint</text>
 <text id="15003522">Yellow Tint</text>
@@ -2069,12 +2059,9 @@ Persisting will transform you into a grub.</text>
 <text id="15003529">White Tint</text>
 <text id="15003530">Black Tint</text>
 <text id="15003531">Psychedelic Tint</text>
-
 <text id="15003600">Hollow</text>
 <text id="15003601">Human</text>
-
 <text id="15003700">Mass of Humanity</text>
-
 <text id="15004000">Learn Sorceries</text>
 <text id="15004001">Ascend Sorceries</text>
 <text id="15004002">Ascend Pyromancies</text>
@@ -3580,7 +3567,6 @@ Unstable: boosts spellbuff but:
 <text id="99005721">Daughter of Crystal Kriemhild has been vanquished</text>
 <text id="99005730">Ashen Hunter Yafuh intrudes...</text>
 <text id="99005731">Ashen Hunter Yafuh has been vanquished</text>
-
 <text id="99007000">Enemies of yore restored</text>
 <text id="99010000">Marks</text>
 <text id="99010001">Talk</text>
@@ -3631,7 +3617,6 @@ dash instead of rolling.</text>
 <text id="99013140">Forget Benjin's Dash</text>
 <text id="99013141">Hunter weapons will no longer cause you to 
 dash.</text>
-
 <text id="99015000">Apply Affix</text>
 <text id="99015001">Affix Overview</text>
 <text id="99015005">Basic Affix</text>
@@ -3766,7 +3751,6 @@ Legendary: 10 Primordial Fragments</text>
 <text id="99015209">Ofydd's Signet</text>
 <text id="99015210">Ifanna's Signet</text>
 <text id="99015211">Grufudd's Signet</text>
-
 <text id="99016000">Apply Imbue</text>
 <text id="99016001">Imbue Overview</text>
 <text id="99016005">Basic Imbue</text>
@@ -4116,6 +4100,7 @@ to commune with the fallen knight.</text>
 <text id="99044038">Great Geyser</text>
 <text id="99044039">Lingering Drizzle</text>
 <text id="99044040">Bloodthirsty Pulsating Mud</text>
+<text id="99044041">Bubble Prison</text>
 <text id="99045000">Ascend from Fireball?</text>
 <text id="99045001">Ascend from Fire Orb?</text>
 <text id="99045002">Ascend from Chaos Fire Orb?</text>
@@ -4157,6 +4142,7 @@ to commune with the fallen knight.</text>
 <text id="99045038">Ascend from Geyser?</text>
 <text id="99045039">Ascend from Drizzle?</text>
 <text id="99045040">Ascend from Pulsating Mud?</text>
+<text id="99045041">Ascend from Bubble Wall?</text>
 <text id="99046000">Incendiary Fireball crafted</text>
 <text id="99046001">Weakening Fire Orb crafted</text>
 <text id="99046002">Homing Chaos Fire Orb crafted</text>
@@ -4198,6 +4184,7 @@ to commune with the fallen knight.</text>
 <text id="99046038">Great Geyser crafted</text>
 <text id="99046039">Lingering Drizzle crafted</text>
 <text id="99046040">Bloodthirsty Pulsating Mud crafted</text>
+<text id="99046041">Bubble Prison crafted</text>
 <text id="99047000">Bloodthirsty Lightning Arrow</text>
 <text id="99047001">Lightning Surge</text>
 <text id="99047002">Storm Spear</text>
@@ -4369,8 +4356,8 @@ to commune with the fallen knight.</text>
 <text id="99050033">Curse of Silence</text>
 <text id="99050034">Supreme Black Flame Arc</text>
 <text id="99050035">Supreme Dark Blade</text>
-<text id="99050036">Supreme Pungent Blade</text>
-<text id="99050037">Supreme Pulsating Blade</text>
+<text id="99050036">Noxious Blade</text>
+<text id="99050037">Myiatic Blade</text>
 <text id="99050038">Lingering Numbness</text>
 <text id="99050039">Lingering Atonement</text>
 <text id="99050040">Bottomless Deep Protection</text>
@@ -4459,8 +4446,8 @@ to commune with the fallen knight.</text>
 <text id="99052033">Curse of Silence crafted</text>
 <text id="99052034">Supreme Black Flame Arc crafted</text>
 <text id="99052035">Supreme Dark Blade crafted</text>
-<text id="99052036">Supreme Pungent Blade crafted</text>
-<text id="99052037">Supreme Pulsating Blade crafted</text>
+<text id="99052036">Noxious Blade crafted</text>
+<text id="99052037">Myiatic Blade crafted</text>
 <text id="99052038">Lingering Numbness crafted</text>
 <text id="99052039">Lingering Atonement crafted</text>
 <text id="99052040">Bottomless Deep Protection crafted</text>
@@ -4546,7 +4533,6 @@ once you begin your journey.</text>
 once you begin your journey.</text>
 <text id="99060063">You will start in a random location 
 once you begin your journey.</text>
-
 <text id="99060100">Engage the boss or your progress will be reset.</text>
 <text id="99060101">Engage the boss immediately!</text>
 <text id="99060110">Enter the Gauntlet</text>
@@ -4558,14 +4544,12 @@ once you begin your journey.</text>
 <text id="99060129">Disable DLC Bosses</text>
 <text id="99060130">DLC Bosses will now appear in the gauntlet.</text>
 <text id="99060131">DLC Bosses will now no longer appear in the gauntlet.</text>
-
 <text id="99060150">Ordered</text>
 <text id="99060151">Random</text>
 <text id="99060152">Endless</text>
 <text id="99060153">Reverse Ordered</text>
 <text id="99060154">Reverse Endless</text>
 <text id="99060155">Boss Select</text>
-
 <text id="99060160">Gauntlet will now consist of bosses in a set order.
 
 Defeat all bosses to complete the gauntlet.</text>
@@ -4596,7 +4580,6 @@ allowing you to select which boss to fight.
 Once a boss is defeated, they will stop be selectable.
 
 Defeat all bosses at least once to complete the gauntlet.</text>
-
 <text id="99060200">Corrupted Gundyr</text>
 <text id="99060201">Vordt of the Boreal Valley</text>
 <text id="99060202">Curse-rotted Greatwood</text>
@@ -4632,13 +4615,11 @@ Defeat all bosses at least once to complete the gauntlet.</text>
 <text id="99060232">Fallen Protector</text>
 <text id="99060233">Titanite Abomination</text>
 <text id="99060234">The Marauder</text>
-
 <text id="99060300">Ascension</text>
 <text id="99060301">Sorceries</text>
 <text id="99060302">Pyromancies</text>
 <text id="99060303">Miracles</text>
 <text id="99060304">Hexes</text>
-
 <text id="99060400">Bite Material</text>
 <text id="99060410">Titanite Slab</text>
 <text id="99060411">Titanite Chunk</text>
@@ -4647,7 +4628,6 @@ Defeat all bosses at least once to complete the gauntlet.</text>
 <text id="99060421">Bite Titanite Chunk into 5 Large Titanite Shards?</text>
 <text id="99060422">Bite Large Titanite Shard into 5 Titanite Shards?</text>
 <text id="99060430">Material bitten</text>
-
 <text id="99061000">Masteries</text>
 <text id="99061001">Summary</text>
 <text id="99061002">Enable</text>
@@ -4701,134 +4681,106 @@ Defeat all bosses at least once to complete the gauntlet.</text>
 
 This effect can stack up to 10 times once at 99 Hollowing.
 </text>
-
 <text id="99062000">Covenant</text>
 <text id="99062001">Strengthen Bond</text>
 <text id="99062002">Devotion to covenant has increased.</text>
 <text id="99062003">View Inventory</text>
 <text id="99062004">Strengthen covenant bond?</text>
 <text id="99062005">You must equip the covenant accessory first</text>
-
 <text id="99062100">You lack 10 Proof of a Concord Kept</text>
 <text id="99062101">You lack 20 Proof of a Concord Kept</text>
 <text id="99062102">You lack 30 Proof of a Concord Kept</text>
 <text id="99062103">You lack 50 Proof of a Concord Kept</text>
-
 <text id="99062110">You lack 10 Wolf's Blood Swordgrass</text>
 <text id="99062111">You lack 20 Wolf's Blood Swordgrass</text>
 <text id="99062112">You lack 30 Wolf's Blood Swordgrass</text>
 <text id="99062113">You lack 50 Wolf's Blood Swordgrass</text>
-
 <text id="99062120">You lack 10 Human Dregs</text>
 <text id="99062121">You lack 20 Human Dregs</text>
 <text id="99062122">You lack 30 Human Dregs</text>
 <text id="99062123">You lack 50 Human Dregs</text>
-
 <text id="99062130">You lack 10 Sunlight Medal</text>
 <text id="99062131">You lack 20 Sunlight Medal</text>
 <text id="99062132">You lack 30 Sunlight Medal</text>
 <text id="99062133">You lack 50 Sunlight Medal</text>
-
 <text id="99062140">You lack 10 Vertebra Shackle</text>
 <text id="99062141">You lack 20 Vertebra Shackle</text>
 <text id="99062142">You lack 30 Vertebra Shackle</text>
 <text id="99062143">You lack 50 Vertebra Shackle</text>
-
 <text id="99062150">You lack 10 Lost Trinket</text>
 <text id="99062151">You lack 20 Lost Trinket</text>
 <text id="99062152">You lack 30 Lost Trinket</text>
 <text id="99062153">You lack 50 Lost Trinket</text>
-
 <text id="99062160">You lack 10 Fire Seed</text>
 <text id="99062161">You lack 20 Fire Seed</text>
 <text id="99062162">You lack 30 Fire Seed</text>
 <text id="99062163">You lack 50 Fire Seed</text>
-
 <text id="99062170">You lack 10 Pale Tongue</text>
 <text id="99062171">You lack 20 Pale Tongue</text>
 <text id="99062172">You lack 30 Pale Tongue</text>
 <text id="99062173">You lack 50 Pale Tongue</text>
-
 <text id="99062180">You lack 10 Filianore's Spear Ornament</text>
 <text id="99062181">You lack 20 Filianore's Spear Ornament</text>
 <text id="99062182">You lack 30 Filianore's Spear Ornament</text>
 <text id="99062183">You lack 50 Filianore's Spear Ornament</text>
-
 <text id="99062190">You lack 10 Crystal Fragment</text>
 <text id="99062191">You lack 20 Crystal Fragment</text>
 <text id="99062192">You lack 30 Crystal Fragment</text>
 <text id="99062193">You lack 50 Crystal Fragment</text>
-
 <text id="99062200">You lack 10 Abyssal Fragment</text>
 <text id="99062201">You lack 20 Abyssal Fragment</text>
 <text id="99062202">You lack 30 Abyssal Fragment</text>
 <text id="99062203">You lack 50 Abyssal Fragment</text>
-
 <text id="99062210">You lack 10 Holy Fragment</text>
 <text id="99062211">You lack 20 Holy Fragment</text>
 <text id="99062212">You lack 30 Holy Fragment</text>
 <text id="99062213">You lack 50 Holy Fragment</text>
-
 <text id="99062220">You lack 10 Dragon Eye</text>
 <text id="99062221">You lack 20 Dragon Eye</text>
 <text id="99062222">You lack 30 Dragon Eye</text>
 <text id="99062223">You lack 50 Dragon Eye</text>
-
 <text id="99062230">You lack 10 Grateful Soul</text>
 <text id="99062231">You lack 20 Grateful Soul</text>
 <text id="99062232">You lack 30 Grateful Soul</text>
 <text id="99062233">You lack 50 Grateful Soul</text>
-
 <text id="99062240">You lack 10 Awestone</text>
 <text id="99062241">You lack 20 Awestone</text>
 <text id="99062242">You lack 30 Awestone</text>
 <text id="99062243">You lack 50 Awestone</text>
-
 <text id="99062250">You lack 10 Rat Tail</text>
 <text id="99062251">You lack 20 Rat Tail</text>
 <text id="99062252">You lack 30 Rat Tail</text>
 <text id="99062253">You lack 50 Rat Tail</text>
-
 <text id="99062260">You lack 10 Ritual Incense</text>
 <text id="99062261">You lack 20 Ritual Incense</text>
 <text id="99062262">You lack 30 Ritual Incense</text>
 <text id="99062263">You lack 50 Ritual Incense</text>
-
 <text id="99070000">Seek Blessing</text>
 <text id="99070001">Harvest</text>
 <text id="99070002">Extract Draconic Essence</text>
-
 <text id="99070100">You have been blessed with enhanced vigor!</text>
 <text id="99070101">You have been blessed with enhanced focus!</text>
 <text id="99070102">You have been blessed with enhanced stamina!</text>
 <text id="99070103">You have been blessed with enhanced damage!</text>
 <text id="99070104">You have been blessed with enhanced absorption!</text>
 <text id="99070105">You have been blessed with enhanced stamina recovery!</text>
-
 <text id="99070200">You have been cursed with diminished vigor!</text>
 <text id="99070201">You have been cursed with diminished focus!</text>
 <text id="99070202">You have been cursed with diminished stamina!</text>
 <text id="99070203">You have been cursed with diminished damage!</text>
 <text id="99070204">You have been cursed with diminished absorption!</text>
 <text id="99070205">You have been cursed with diminished stamina recovery!</text>
-
 <text id="99070300">You harvest the remains of pilgrims, bolstering your own soul.</text>
-
 <text id="99071000">Summon Sellsword Luet</text>
 <text id="99071010">Sellsword Luet vanquished</text>
-
 <text id="99071100">Summon Maldron the Assassin</text>
 <text id="99071110">Maldron the Assassin vanquished</text>
 <text id="99071120">Maldron the Assassin betrays you!</text>
-
 <text id="99071200">Summon Sword Master</text>
 <text id="99071210">Sword Master vanquished</text>
-
 <text id="99071300">Summon Huntmaster Ava</text>
 <text id="99071310">Huntmaster Ava vanquished</text>
-
 <text id="99080000">The Marauder beckons you...</text>
-
 <text id="99090000">Begin Memory</text>
 <text id="99090001">Configure Memory</text>
 <text id="99090010">Start Memory</text>
@@ -4862,16 +4814,12 @@ Completing the Memory will reward Titanite Slabs.</text>
 Soul absorption is increased by 150%.
 
 Completing the Memory will reward Primordial Fragments.</text>
-
 <text id="99091000">Farron Transposition</text>
-
 <text id="99091010">The portcullis rises...</text>
-
 <text id="99091100">Conjuration</text>
 <text id="99091101">Body Emission</text>
 <text id="99091102">Body Aura</text>
 <text id="99091103">Body Tint</text>
-
 <text id="99091110">None</text>
 <text id="99091111">Fire</text>
 <text id="99091112"></text>
@@ -4883,7 +4831,6 @@ Completing the Memory will reward Primordial Fragments.</text>
 <text id="99091118"></text>
 <text id="99091119"></text>
 <text id="99091120"></text>
-
 <text id="99091150">None</text>
 <text id="99091151">Red</text>
 <text id="99091152">Orange</text>
@@ -4895,7 +4842,6 @@ Completing the Memory will reward Primordial Fragments.</text>
 <text id="99091158">Violet</text>
 <text id="99091159">Pink</text>
 <text id="99091160">Rainbow</text>
-
 <text id="99091210">Effect set to None.</text>
 <text id="99091211">Effect set to Fire.</text>
 <text id="99091212">Effect set to .</text>
@@ -4906,7 +4852,6 @@ Completing the Memory will reward Primordial Fragments.</text>
 <text id="99091217">Effect set to .</text>
 <text id="99091218">Effect set to .</text>
 <text id="99091219">Effect set to .</text>
-
 <text id="99091250">Effect set to None.</text>
 <text id="99091251">Effect set to Red.</text>
 <text id="99091252">Effect set to Orange.</text>
@@ -4918,7 +4863,6 @@ Completing the Memory will reward Primordial Fragments.</text>
 <text id="99091258">Effect set to Violet.</text>
 <text id="99091259">Effect set to Pink.</text>
 <text id="99091260">Effect set to Rainbow.</text>
-
 <text id="99092000">Skeleton</text>
 <text id="99092001">Hollow</text>
 <text id="99092002">Hound</text>
@@ -4928,6 +4872,5 @@ Completing the Memory will reward Primordial Fragments.</text>
 <text id="99092006">Knight</text>
 <text id="99092007">Watcher</text>
 <text id="99092008">Gargoyle</text>
-
 </entries>
 </fmg>

@@ -77,7 +77,7 @@
 3031 [Class] Doorman
 3032 [Class] Hermit
 3033 [Class] Royal Lancer
-3034 [Class] Marksman
+3034 [Class] Huntsman
 3035 [Class] Misanthrope
 3036 [Class] Scholar
 3037 [Class] Royal Warden
@@ -88,6 +88,9 @@
 3042 [Class] Reaper
 3043 [Class] Chef
 3044 [Class] Crab King
+3045 [Class] Monk
+3046 [Class] Carthus Warrior
+3047 [Class] Royal Swordsman
 3099 [Class] Accursed
 3100 Knight
 3101 Warrior
@@ -307,7 +310,7 @@
 50002 Sellsword Luet - Profaned Capital
 50010 Maldron the Assassin - Irithyll
 50011 Maldron the Assassin - Betrayer
-50020 Solaire of Astora
+50020 Huntmaster Ava - Consumed King's Garden
 103009 ### Boss - NPCs ###
 103010 Mirror Knight - Mad Warrior
 103020 Mirror Knight - Hallowed Knight

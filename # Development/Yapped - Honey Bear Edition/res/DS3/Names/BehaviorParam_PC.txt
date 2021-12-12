@@ -3149,6 +3149,8 @@
 103609310 Phosphorescent Pole - 2H Heavy #2
 103609315 Phosphorescent Pole - 2H Heavy #2 Max - Hit 1
 103609318 Phosphorescent Pole - 2H Heavy #2 Max - Hit 2
+103609410 Phosphorescent Pole - 1H Kick
+103609420 Phosphorescent Pole - 2H Kick
 103609520 Phosphorescent Pole - 1H Running
 103609521 Phosphorescent Pole - 1H Running - Final
 103609522 Phosphorescent Pole - 1H Running - Tackle
@@ -5266,12 +5268,22 @@
 105300720 Scimitar
 105300990 Scimitar - Quickstep
 105300995 Scimitar - BB Dash
+105301025 Nil Bow & Blade - 1H Light #2
+105301102 Nil Bow & Blade - 1H Heavy #1
+105301103 Nil Bow & Blade - 1H Heavy #1 Max
+105301112 Nil Bow & Blade - 1H Heavy #2
+105301113 Nil Bow & Blade - 1H Heavy #2 Max
+105301235 Nil Bow & Blade - 2H Jump
 105301700 Painting Guardian's Curved Sword
 105301710 Painting Guardian's Curved Sword
 105301720 Painting Guardian's Curved Sword
 105301730 Painting Guardian's Curved Sword
+105301750 Nil Bow & Blade - 2H Special Running - First Hit
+105301751 Nil Bow & Blade - 2H Special Running - Second Hit
 105301800 Nil Bow & Blade - Arrow
 105301810 Nil Bow & Blade - Arrow - Strong
+105301820 Nil Bow & Blade - Arrow - Weak
+105301855 Nil Bow & Blade - Weapon Art - Follow-up
 105302000 Shotel
 105302010 Shotel
 105302020 Shotel

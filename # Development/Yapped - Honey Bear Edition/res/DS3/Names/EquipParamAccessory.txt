@@ -84,11 +84,11 @@
 10172 Servant of the Rat III
 10173 Servant of the Rat IV
 10174 Servant of the Rat V
-10180 Ritualist Pact I
-10181 Ritualist Pact II
-10182 Ritualist Pact III
-10183 Ritualist Pact IV
-10184 Ritualist Pact V
+10180 Conjurator's Pact I
+10181 Conjurator's Pact II
+10182 Conjurator's Pact III
+10183 Conjurator's Pact IV
+10184 Conjurator's Pact V
 19999 ### Rings ###
 20000 Life Ring
 20001 Life Ring+1
@@ -761,3 +761,27 @@
 31903 Sigil of Darkness+3
 31904 Sigil of Darkness+4
 31905 Sigil of Darkness+5
+32000 Eyri's Signet
+32001 Eyri's Signet+1
+32002 Eyri's Signet+2
+32003 Eyri's Signet+3
+32004 Eyri's Signet+4
+32005 Eyri's Signet+5
+32100 Ofydd's Signet
+32101 Ofydd's Signet+1
+32102 Ofydd's Signet+2
+32103 Ofydd's Signet+3
+32104 Ofydd's Signet+4
+32105 Ofydd's Signet+5
+32200 Ifanna's Signet
+32201 Ifanna's Signet+1
+32202 Ifanna's Signet+2
+32203 Ifanna's Signet+3
+32204 Ifanna's Signet+4
+32205 Ifanna's Signet+5
+32300 Grufudd's Signet
+32301 Grufudd's Signet+1
+32302 Grufudd's Signet+2
+32303 Grufudd's Signet+3
+32304 Grufudd's Signet+4
+32305 Grufudd's Signet+5

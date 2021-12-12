@@ -67,12 +67,14 @@
 40010 Trigger Memory
 40014 Peer into the Past
 40015 Revive
+40100 Toss Petrified Something
 50000 Interaction Point - Seek Blessing
 50001 Interaction Point - Harvest
 50002 Interaction Point - Extract Draconic Essence
 60000 Summon - Sellsword Luet
 60001 Summon - Maldron the Assassin
 60002 Summon - Sword Master
+60003 Summon - Huntmaster Ava
 3000250 For the treasure corpse that broke from the vase
 3001800 Entering the wall of light (Ojo 1 Full Armor Beast)
 3001830 Entering the wall of light (Ojo 1 dragon)

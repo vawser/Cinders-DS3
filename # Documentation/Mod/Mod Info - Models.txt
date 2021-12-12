@@ -126,8 +126,8 @@
 0986	Heated Thrall Axe
 0987	Heated Thrall Pick
 0988	Fuming Slated Swords
-0989
-0990
+0989	Disc Chime
+0990	Sanctum Shield
 0991
 0992
 0993
@@ -481,6 +481,12 @@
 9952    Genichiro Set
 9953    Okami Set
 9954    Wolf Set
+9955	Wanderer's Set
+9956	Carthus Swordsman Set
+9957	Royal Swordsman Set
+9958	Vordt Set
+9959	Throne Watcher Set
+9960	Throne Defender Set
 
 9980	Elite Lothric Knight Set
 9981	Elite Lothric Knight Helm (Open Helm)

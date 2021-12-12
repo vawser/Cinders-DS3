@@ -1964,7 +1964,6 @@ Often utilized as a last-resort for adventurers who have lost their way.</text>
 <text id="2161">Medicinal pellet made from crushed insects infused with magical energies.
 
 The Boreal Valley is infested with moon bugs, meaning ingredients are never far from hand for the Irithyllian slaves who concoct this medicine.</text>
-
 <text id="2163">The taut hide of a crystal lizard. Crush to unleash the souls embedded within.
 
 Use to acquire many souls.
@@ -2019,7 +2018,6 @@ Used by Andre the Blacksmith to create infused shields.</text>
 extraordinary shields into the ordinary.
 
 Used by Andre the Blacksmith to revert infused shields.</text>
-
 <text id="2300">An unidentified petrified object.
 A low singing voice is emitted from within.
 
@@ -2060,7 +2058,6 @@ The nestling atop Firelink Shrine may be interested in this item.</text>
 A low purring voice is emitted from within.
 
 The nestling atop Firelink Shrine may be interested in this item.</text>
-
 <text id="3003">A seemingly mundane frying pan, small enough to be used as a projectile.
 
 Throw to inflict 10 physical damage. Deals high Poise damage and Stamina damage.
@@ -4140,7 +4137,6 @@ Applies illusionary helmet based on the Herald Set with lowered visor.</text>
 <text id="12550">An illusionary emblem that will disguise your own armor as another.
 
 Applies illusionary helmet based on the Undead Legion Set with only the cap.</text>
-
 <text id="40000">A crumbling token.
 
 Exchange with the Fire Keeper for weaponry and spells</text>
@@ -4760,12 +4756,12 @@ As a gift to his beloved, the Prince attempted to woo the Princess, and attempte
 
 Emit discs of Dorthinus towards foes.
 Inflicts 50 Frost.</text>
-<text id="1809000">A forbidden sorcery used by consumed Gwyndolin.
+<text id="1809000">Lost sorcery from Oolacile, used by consumed Gwyndolin.
 Known as the Dark Sun, Gwyndolin was a master of sorcery and commanded unfathomable skill over all forms of it.
 
 Teleport in the direction of travel. 
 Lack of movement will result in no change of position.</text>
-<text id="1809010">A forbidden sorcery used by consumed Gwyndolin.
+<text id="1809010">Lost sorcery from Oolacile, used by consumed Gwyndolin.
 Known as the Dark Sun, Gwyndolin was a master of sorcery and commanded unfathomable skill over all forms of it.
 
 Teleport in the direction of travel. 
@@ -5347,23 +5343,23 @@ For where is the honor in death and scoured bones?</text>
 Create magnetic field around target enemy and pull them closer to the caster.
 Only works against weak enemies.
 
-The earth itself responds to the flame, as to why, it is unknown.</text>
+Nature itself responds to the flame, as to why, it is unknown.</text>
 <text id="2723010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Create magnetic field around target enemy and pull them closer to the caster with no focus cost.
 Only works against weak enemies.
 
-The earth itself responds to the flame, as to why, it is unknown.</text>
-<text id="2724000">Remnant power of Darkeater Midir after being consumed by the dark.
+Nature itself responds to the flame, as to why, it is unknown.</text>
+<text id="2724000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
-Create a star that emits a beam of black fire.
+Create a wall of bubbles that impedes trespassing of weak enemies for 5 seconds.
 
-Even after the gods were no more, Midir continued his endless fight against the abyss.</text>
-<text id="2724010">Remnant power of Darkeater Midir after being consumed by the dark.
+Nature itself responds to the flame, as to why, it is unknown.</text>
+<text id="2724010">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
-Create a star that emits a beam of black fire.
+Isolate weak enemies within a prison of bubbles for 5 seconds.
 
-Even after the gods were no more, Midir continued his endless fight against the abyss.</text>
+Nature itself responds to the flame, as to why, it is unknown.</text>
 <text id="2725000">Heretical pyromancy discovered by pyromancers during a great pilgrimage.
 
 Insert water deep underground where remains inactive until enemy proximity, causing an explosion of rock and water.
@@ -5537,7 +5533,6 @@ Lasts 10 seconds.</text>
 Begone, foul creations!
 
 Banish all active conjured allies.</text>
-
 <text id="3490000">Miracle imparted as charity to those of little faith.
 A show of tolerance from the Way of White.
 
@@ -6156,7 +6151,6 @@ Controlling the winds is no common feat, as such, only those close to godhood an
 Compress air at very long range and immediately release it to cause a thunderous shockwave.
 
 Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
-
 <text id="4100000">Hex of Archdeacon Royce and his deacons,
 said to have been imparted to them by McDonnell of the Boreal Valley.
 
@@ -6636,8 +6630,9 @@ Effect duration can be extended.</text>
 <text id="4313010">Hex taught at the Cathedral of the Deep;
 imparted by the mentor Dorris before she lost her mind.
 
-Imbue right weapon with blood, inflicting 60 Bleed on hit.
-Lasts 120 seconds.
+Imbue right weapon with parasites, inflicting 20 Bleed every second for 5 seconds.
+Consecutive hits do not stack.
+Lasts 60 seconds.
 Fatigues focus, increasing FP consumption costs by 15% while active.
 
 Effect duration can be extended.</text>
@@ -6650,8 +6645,8 @@ Fatigues focus, increasing FP consumption costs by 15% while active.
 Effect duration can be extended.</text>
 <text id="4314010">A hex concocted by fallen pyromancers in the Great Swamp.
 
-Imbue right weapon with a noxious poison, inflicting 80 Poison on hit.
-Lasts 120 seconds.
+Imbue right weapon with a noxious toxin, inflicting 30 Toxic on hit.
+Lasts 60 seconds.
 Fatigues focus, increasing FP consumption costs by 15% while active.
 
 Effect duration can be extended.</text>
@@ -6695,5 +6690,15 @@ Lasts 10 seconds.
 Inflicts 20 Bleed to Self.
 
 Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4318000">Remnant power of Darkeater Midir after being consumed by the dark.
+
+Create a star that emits a beam of black fire.
+
+Even after the gods were no more, Midir continued his endless fight against the abyss.</text>
+<text id="4318010">Remnant power of Darkeater Midir after being consumed by the dark.
+
+Create a star that emits a beam of black fire.
+
+Even after the gods were no more, Midir continued his endless fight against the abyss.</text>
 </entries>
 </fmg>

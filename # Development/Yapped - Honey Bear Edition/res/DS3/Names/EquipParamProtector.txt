@@ -293,6 +293,26 @@
 10481000 Eastern Wolf Overcoat
 10482000 Eastern Wolf Gloves
 10483000 Eastern Wolf Trousers
+10490000 Carthus Swordsman Hood
+10491000 Carthus Swordsman Robe
+10492000 Carthus Swordsman Bracer
+10493000 Carthus Swordsman Anklets
+10500000 Royal Swordsman Sallet
+10501000 Royal Swordsman Breastplate
+10502000 Royal Swordsman Gauntlets
+10503000 Royal Swordsman Leggings
+10510000 Vordt's Helm
+10511000 Vordt's Armor
+10512000 Vordt's Gauntlets
+10513000 Vordt's Leggings
+10520000 Throne Watcher Helm
+10521000 Throne Watcher Armor
+10522000 Throne Watcher Gauntlets
+10523000 Throne Watcher Leggings
+10530000 Throne Defender Helm
+10531000 Throne Defender Armor
+10532000 Throne Defender Gauntlets
+10533000 Throne Defender Leggings
 19000000 Fallen Knight Helm
 19001000 Fallen Knight Armor
 19002000 Fallen Knight Gauntlets
@@ -700,7 +720,10 @@
 99093000 Pursuer's Leggings
 99100000 Ludleth's Crown
 99110000 Skull Mask
-99120000 Wanderer's Coat
+99120000 Wanderer Hood
+99121000 Wanderer Coat
+99122000 Wanderer Manchettes
+99123000 Wanderer Boots
 99130000 Mask of the Father
 99140000 Mask of the Mother
 99150000 Mask of the Child

@@ -363,7 +363,6 @@
 2158 Blood of the Dark Soul
 2159 Bloodthirsty Grass Dew
 2160 Brightbug
-2162 Petrified Something
 2163 Lizard Hide
 2170 Torn Excerpt
 2173 Profaned Pyromancy Tome
@@ -374,6 +373,16 @@
 2178 Heavenly Braille Divine Tome
 2200 Infusing Essence
 2201 Degrading Essence
+2300 Singing Stone
+2301 Warbling Stone
+2302 Chanting Stone
+2303 Crooning Stone
+2304 Humming Stone
+2305 Shouting Stone
+2306 Whistling Stone
+2307 Chirping Stone
+2308 Groaning Stone
+2309 Purring Stone
 3003 Throwing Frying Pan
 3004 Tarnished Coin
 3005 Cursed Tarnished Coin
@@ -386,19 +395,6 @@
 3024 Goldenfruit Balm
 3026 Rattling Finger
 3027 Murky Finger
-3028 Elixir of Ghosts
-3029 Elixir of Hollowing
-3030 Psychedelic Elixir
-3031 Darkmoon Elixir
-3032 Holy Elixir
-3033 Earthen Elixir
-3034 Abyssal Elixir
-3035 Sunlight Elixir
-3036 Maddening Elixir
-3037 Bloody Elixir
-3038 Demonic Elixir
-3039 Elixir of Cooperation
-3040 Elixir of Deceit
 3041 Cleansing Potion
 3042 Demonic Claw
 3043 Forgotten Tablet
@@ -443,69 +439,6 @@
 4204 Soul of a Fallen Astrologer
 4205 Soul of a Fallen Beserker
 4206 Soul of a Fallen Champion
-4300 Cleansing Oil
-4301 Cleansing Oil (Left)
-4310 Magical Oil
-4311 Magical Oil (Left)
-4320 Fiery Oil
-4321 Fiery Oil (Left)
-4330 Sparking Oil
-4331 Sparking Oil (Left)
-4340 Abyssal Oil
-4341 Abyssal Oil (Left)
-4350 Poisonous Oil
-4351 Poisonous Oil (Left)
-4360 Bloody Oil
-4361 Bloody Oil (Left)
-4370 Frost Oil
-4371 Frost Oil (Left)
-4380 Moonlit Oil
-4381 Moonlit Oil (Left)
-4390 Blessed Oil
-4391 Blessed Oil (Left)
-4400 Black Fire Oil
-4401 Black Fire Oil (Left)
-4410 Bolt Oil
-4411 Bolt Oil (Left)
-4420 Sunlight Oil
-4421 Sunlight Oil (Left)
-4430 Enchanted Oil
-4431 Enchanted Oil (Left)
-4440 Scorching Oil
-4441 Scorching Oil (Left)
-4450 Rotten Oil
-4451 Rotten Oil (Left)
-4460 Gust Oil
-4461 Gust Oil (Left)
-4470 Psychedelic Oil
-4471 Psychedelic Oil (Left)
-4480 Brume Oil
-4481 Brume Oil (Left)
-4500 Writ of Humanity
-4501 Writ of Anger
-4502 Writ of Crystallization
-4503 Writ of Invisibility
-4504 Writ of Stone
-4505 Writ of Maggots
-4506 Writ of Burning Anger
-4507 Writ of Silent Anger
-4508 Writ of Sparks
-4509 Writ of Stars
-4510 Writ of Prismatica
-4511 Writ of Corruption
-4512 Writ of Toxicity
-4513 Writ of Protection
-4514 Writ of Poison
-4515 Writ of Frost
-4516 Writ of Immolation
-4517 Writ of Dust
-4518 Writ of Water
-4519 Writ of Chilling Anger
-4520 Writ of Vengeful Anger
-4521 Writ of Divinity
-4522 Writ of Fury
-4523 Writ of Envy
-4524 Writ of Desire
 5000 Tome: Corrupted Gundyr
 5001 Tome: Vordt
 5002 Tome: Curse-rotted Greatwood
@@ -973,7 +906,8 @@
 11940 Venerable Sage's Insignia
 11941 Venerable Sage's Emblem
 11951 Clandestine Emblem
-11961 Wanderer's Emblem
+11960 Wanderer Insignia
+11961 Wanderer Emblem
 11970 Sage's Insignia
 11980 Moonlight Insignia
 11981 Moonlight Emblem
@@ -1253,8 +1187,8 @@
 2722010 Bloodthirsty Dust
 2723000 Magnetism
 2723010 Refined Magnetism
-2724000 Black Star
-2724010 Adjacent Black Star
+2724000 Bubble Wall
+2724010 Bubble Prison
 2725000 Geyser
 2725010 Great Geyser
 2726000 Drizzle
@@ -1448,12 +1382,14 @@
 4312000 Lifehunt Scythe
 4312010 Great Lifehunt Scythe
 4313000 Pulsating Blade
-4313010 Supreme Pulsating Blade
+4313010 Myiatic Blade
 4314000 Pungent Blade
-4314010 Supreme Pungent Blade
+4314010 Noxious Blade
 4315000 Blood Sacrifice
 4315010 Bloodthirsty Sacrifice
 4316000 Blood Resonance
 4316010 Bloodthirsty Resonance
 4317000 Blood Orb
 4317010 Lingering Blood Orb
+4318000 Black Star
+4318010 Adjacent Black Star

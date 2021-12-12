@@ -912,7 +912,8 @@
 72281 Stone Set - Body
 72290 Guardian Set - Head
 72291 Guardian Set - Body
-72301 Wanderer's Set - Body
+72300 Wanderer Set - Head
+72301 Wanderer Set - Body
 72310 Gallant Set - Head
 72311 Gallant Set - Body
 72320 Warden Set - Head
@@ -977,91 +978,129 @@
 72641 Overgrown Lothric Knight Set - Body
 72650 Herald Set - Head (Lowered Visor)
 72660 Undead Legion Set - Head (Only Cap)
-75000 Writ of Humanity
-75001 Writ of Anger
-75002 Writ of Crystallization
-75003 Writ of Invisibility
-75004 Writ of Stone
-75005 Writ of Maggots
-75006 Writ of Burning Anger
-75007 Writ of Silent Anger
-75008 Writ of Sparks
-75009 Writ of Stars
-75010 Writ of Prismatica
-75011 Writ of Corruption - 1
-75012 Writ of Corruption - 2
-75013 Writ of Toxicity
-75014 Writ of Protection
-75015 Writ of Poison
-75016 Writ of Frost
-75017 Writ of Immolation
-75018 Writ of Dust
-75019 Writ of Water
-75020 Writ of Chilling Anger
-75021 Writ of Vengeful Anger
-75022 Writ of Divinity
-75023 Writ of Fury
-75024 Writ of Envy
-75025 Writ of Desire
+75000 Head Emission - Mass of Humanity
+75001 Eye Emission - Red Glow
+75002 Body Emission - Magical Crystals
+75003 Body Emission - Invisibility
+75004 Body Emission - Stoneform
+75005 Body Emission - Maggots
+75006 Eye Emission - Burning Red Glow
+75007 Eye Emission - White Glow
+75008 Body Emission - Lightning
+75009 Body Emission - White Stars
+75010 Body Emission - Prismatic Stars
+75011 Body Emission - Corrupted Crystals - Part 1
+75012 Body Emission - Corrupted Crystals - Part 2
+75013 Body Emission - Dung
+75014 Body Emission - Barrier Wards
+75015 Body Emission - Poison
+75016 Body Emission - Frost
+75017 Body Emission - Flame
+75018 Body Emission - Dust
+75019 Body Emission - Water
+75020 Eye Emission - Blue Glow
+75021 Eye Emission - Golden Glow
+75022 Body Emission - Holy
+75023 Body Emission - Smouldering
+75024 Eye Emission - Green Glow
+75025 Eye Emission - Purple Glow
 75100 Spell Summon - Restoration Ritual
 75110 Spell Summon - Ferverous Ritual
-76000 Psychedelic Elixir - Color 1
-76001 Psychedelic Elixir - Color 2
-76002 Psychedelic Elixir - Color 3
-76003 Psychedelic Elixir - Color 4
-76004 Psychedelic Elixir - Color 5
-76005 Psychedelic Elixir - Color 6
-76006 Psychedelic Elixir - Color 7
-76007 Psychedelic Elixir - Color 8
-76008 Psychedelic Elixir - Color 9
-76100 Darkmoon Elixir
-76101 Holy Elixir
-76102 Earthen Elixir
-76103 Abyssal Elixir
-76104 Sunlight Elixir
-76105 Maddening Elixir
-76106 Bloody Elixir
-76107 Demonic Elixir
-76108 Demonic Elixir - Flames
-76109 Elixir of Ghosts
-76110 Elixir of Hollowing
-76111 Elixir of Deceit
-76112 Elixir of Cooperation
-76200 Fiery Oil
-76201 Off-hand Fiery Oil
-76202 Magical Oil
-76203 Off-hand Magical Oil
-76204 Sparking Oil
-76205 Off-hand Sparking Oil
-76206 Abyssal Oil
-76207 Off-hand Abyssal Oil
-76208 Poisonous Oil
-76209 Off-hand Poisonous Oil
-76210 Bloody Oil
-76211 Off-hand Bloody Oil
-76212 Frost Oil
-76213 Off-hand Frost Oil
-76214 Blessed Oil
-76215 Off-hand Blessed Oil
-76216 Moonlit Oil
-76217 Off-hand Moonlit Oil
-76218 Black Fire Oil
-76219 Off-hand Black Fire Oil
-76220 Rotten Oil
-76221 Off-hand Rotten Oil
-76222 Scorching Oil
-76223 Off-hand Scorching Oil
-76224 Enchanted Oil
-76225 Off-hand Enchanted Oil
-76226 Gust Oil
-76227 Off-hand Gust Oil
-76228 Psychedelic Oil
-76229 Off-hand Psychedelic Oil
-76230 Brume Oil
-76231 Off-hand Brume Oil
-76232 Sunlight Oil
-76233 Off-hand Sunlight Oil
+76000 Body Aura - Psychedelic Phantom - Red
+76001 Body Aura - Psychedelic Phantom - Orange
+76002 Body Aura - Psychedelic Phantom - Yellow
+76003 Body Aura - Psychedelic Phantom - Green
+76004 Body Aura - Psychedelic Phantom - Cyan
+76005 Body Aura - Psychedelic Phantom - Blue
+76006 Body Aura - Psychedelic Phantom - Indigo
+76007 Body Aura - Psychedelic Phantom - Violet
+76008 Body Aura - Psychedelic Phantom - Pink
+76100 Body Aura - Darkmoon Phantom
+76101 Body Aura - Holy Phantom
+76102 Body Aura - Swamp Phantom
+76103 Body Aura - Abyssal Phantom
+76104 Body Aura - Sunlight Phantom
+76105 Body Aura - Mad Phantom
+76106 Body Aura - Red Phantom
+76107 Body Aura - Demonic Phantom
+76108 Body Aura - Demonic Phantom - Flames
+76109 Body Aura - Ethereal Phantom
+76110 Humanity Aura: Hollow
+76111 Humanity Aura: Human
+76112 Body Aura - White Phantom
+76120 Body Aura: Red Tint
+76121 Body Aura: Orange Tint
+76122 Body Aura: Yellow Tint
+76123 Body Aura: Green Tint
+76124 Body Aura: Cyan Tint
+76125 Body Aura: Blue Tint
+76126 Body Aura: Indigo Tint
+76127 Body Aura: Violet Tint
+76128 Body Aura: Pink Tint
+76129 Body Aura: White Tint
+76130 Body Aura: Black Tint
+76200 Weapon Emission - Fire - Right
+76201 Weapon Emission - Fire - Left
+76202 Weapon Emission - Magic - Right
+76203 Weapon Emission - Magic - Left
+76204 Weapon Emission - Lightning - Right
+76205 Weapon Emission - Lightning - Left
+76206 Weapon Emission - Abyss - Right
+76207 Weapon Emission - Abyss - Left
+76208 Weapon Emission - Poison - Right
+76209 Weapon Emission - Poison - Left
+76210 Weapon Emission - Blood - Right
+76211 Weapon Emission - Blood - Left
+76212 Weapon Emission - Frost - Right
+76213 Weapon Emission - Frost - Left
+76214 Weapon Emission - Divine - Right
+76215 Weapon Emission - Divine - Left
+76216 Weapon Emission - Moonlight - Right
+76217 Weapon Emission - Moonlight - Left
+76218 Weapon Emission - Black Fire - Right
+76219 Weapon Emission - Black Fire - Left
+76220 Weapon Emission - Rotten - Right
+76221 Weapon Emission - Rotten - Left
+76222 Weapon Emission - Scorched - Right
+76223 Weapon Emission - Scorched - Left
+76224 Weapon Emission - Enchanted - Right
+76225 Weapon Emission - Enchanted - Left
+76226 Weapon Emission - Wind - Right
+76227 Weapon Emission - Wind - Left
+76228 Weapon Emission - Psychedelic - Right
+76229 Weapon Emission - Psychedelic - Left
+76230 Weapon Emission - Brume - Right
+76231 Weapon Emission - Brume - Left
+76232 Weapon Emission - Sunlight - Right
+76233 Weapon Emission - Sunlight - Left
 77000 Repel
+80000 Conjuration - Body Emission - Fire
+80001 Conjuration - Body Emission -
+80002 Conjuration - Body Emission -
+80003 Conjuration - Body Emission -
+80004 Conjuration - Body Emission -
+80005 Conjuration - Body Emission -
+80006 Conjuration - Body Emission -
+80007 Conjuration - Body Emission -
+80008 Conjuration - Body Emission -
+80050 Conjuration - Body Aura - Red
+80051 Conjuration - Body Aura - Orange
+80052 Conjuration - Body Aura - Yellow
+80053 Conjuration - Body Aura - Green
+80054 Conjuration - Body Aura - Cyan
+80055 Conjuration - Body Aura - Blue
+80056 Conjuration - Body Aura - Indigo
+80057 Conjuration - Body Aura - Violet
+80058 Conjuration - Body Aura - Pink
+80100 Conjuration - Body Tint - Red
+80101 Conjuration - Body Tint - Orange
+80102 Conjuration - Body Tint - Yellow
+80103 Conjuration - Body Tint - Green
+80104 Conjuration - Body Tint - Cyan
+80105 Conjuration - Body Tint - Blue
+80106 Conjuration - Body Tint - Indigo
+80107 Conjuration - Body Tint - Violet
+80108 Conjuration - Body Tint - Pink
 100000 Wax Head
 100020 Wind Ground Force
 100100 Total Invisibility
@@ -1172,6 +1211,8 @@
 91070451 Weapon Art - Warcry 3 - Left
 91070511 Weapon Art - Warcry 4 - Right
 91070551 Weapon Art - Warcry 4 - Left
+91071301 Weapon Art - Feast Bell - Right
+91071351 Weapon Art - Feast Bell - Left
 91080011 Weapon Art - Warcry 5 - Right
 91080051 Weapon Art - Warcry 5 - Left
 91080611 Weapon Art - Warcry 6 - Right
@@ -1265,6 +1306,7 @@
 99941000 Spell: Pulsating Blade
 99942000 Spell: Pungent Blade
 99943000 Spell: Black Flame Arc
+99944000 Spell: Noxious Blade
 99950000 Phantom: Default
 99950001 Phantom: Human
 99950002 Phantom: Black Tiger

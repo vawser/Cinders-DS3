@@ -596,6 +596,7 @@
 81380 [Pyromancy] Great Geyser
 81390 [Pyromancy] Lingering Drizzle
 81400 [Pyromancy] Bloodthirsty Pulsating Mud
+81410 [Pyromancy] Bubble Prison
 82000 [Miracle] Bloodthirsty Lightning Arrow
 82010 [Miracle] Lightning Surge
 82020 [Miracle] Storm Spear
@@ -677,8 +678,8 @@
 83330 [Hex] Curse of Silence
 83340 [Hex] Supreme Black Flame Arc
 83350 [Hex] Supreme Dark Blade
-83360 [Hex] Supreme Pungent Blade
-83370 [Hex] Supreme Pulsating Blade
+83360 [Hex] Noxious Blade
+83370 [Hex] Myiatic Blade
 83380 [Hex] Lingering Numbness
 83390 [Hex] Lingering Atonement
 83400 [Hex] Bottomless Deep Protection
@@ -734,10 +735,24 @@
 110120 [Memory of Strength - Hard] Titanite Chunk
 110130 [Memory of Strength - Very Hard] Titanite Slab
 110140 [Memory of Strength - Mythic] Primordial Fragment
-199999 ### Script - Crows
-200000 [Petrified Something] Set 1 - Rings
-200010 [Petrified Something] Set 2 - Weapons
-200020 [Petrified Something] Set 3 - Armor
+199999 ### Nestling
+200000 Goods - Singing Stone
+200010 Goods - Warbling Stone
+200020 Goods - Chanting Stone
+200030 Goods - Crooning Stone
+200040 Goods - Humming Stone
+200050 Goods - Shouting Stone
+200060 Goods - Whistling Stone
+200070 Goods - Chirping Stone
+200080 Goods - Groaning Stone
+200090 Goods - Purring Stone
+200100 Estus Shard -> Handmaid's Ladle
+200110 Undead Bone Shard -> Great Lord Greatsword
+200120 Skull Ring -> 3 Titanite Slab
+200130 Rubbish -> Helm of the Wise
+200131 Rubbish -> Armor of the Glorious
+200132 Rubbish -> Gauntlets of the Vanquisher
+200133 Rubbish -> Boots of the Explorer
 2999999 ### Treasure - High Wall of Lothric
 3000000 [Corpse] Soul of a Deserted Corpse
 3000001 [Corpse] Divine Blessing
@@ -1208,7 +1223,10 @@
 3300260 [Corpse] Soul of an Unknown Traveler
 3300261 [Corpse] Inferi Petal
 3300270 [Corpse] Large Soul of an Unknown Traveler
-3300271 [Corpse] Wanderer's Coat
+3300271 [Corpse] Wanderer Hood
+3300272 [Corpse] Wanderer Coat
+3300273 [Corpse] Wanderer Manchettes
+3300274 [Corpse] Wanderer Boots
 3300280 [Corpse] Soul of an Unknown Traveler
 3300281 [Corpse] Rusted Coin
 3300290 [Corpse] Soul of an Unknown Traveler
@@ -1735,7 +1753,10 @@
 3800210 [Corpse] Soul of a Crestfallen Knight
 3800211 [Corpse] Siegbräu
 3800220 [Corpse] Soul of a Nameless Soldier
-3800221 [Corpse] Flaming Knife
+3800221 [Corpse] Carthus Swordsman Hood
+3800222 [Corpse] Carthus Swordsman Robe
+3800223 [Corpse] Carthus Swordsman Bracer
+3800224 [Corpse] Carthus Swordsman Anklets
 3800230 [Corpse] Soul of a Nameless Soldier
 3800231 [Corpse] Red Bug Pellet
 3800240 [Corpse] Soul of a Weary Warrior
@@ -1958,7 +1979,7 @@
 3902050 [OTD - Wrench] Tailbone Short Sword
 3902060 [OTD - Handmaid Jailer] Handmaid's Dagger
 3902070 [OTD - Jailer] Jailer's Key Ring
-3902080 [Monstrosity of Sin] Eleonora
+3902080 [OTD - Monstrosity of Sin] Eleonora
 3999999 ### Treasure - Cemetery of Ash/Untended Graves
 4000000 [COA - Corpse] Fading Soul
 4000001 [COA - Corpse] Radiant Lifegem
@@ -2388,12 +2409,12 @@
 10099999 ### Gyrm ###
 10100000 [Default] Exotic Souls
 10100001 [Default] Radiant Lifegem
-10100002 [Default] Petrified Something
+10100002 [Default] Assorted Petrified Stones
 10100003 [Default] Titanite Fragment
 10399999 ### Ruin Sentinel ###
 10400000 [Default] Old Radiant Lifegem
 10400001 [Default] Exotic Souls
-10400002 [Default] Petrified Something
+10400002 [Default] Assorted Petrified Stones
 10400003 [Default] Veloxi Moss
 10699999 ### Skeleton ###
 10700000 [Scimitar - Undead Settlement] Human Pine Resin
@@ -2469,6 +2490,7 @@
 11700005 [Default] Lacerating Knife
 11700006 [Default] Carthus Rouge
 11700007 [Default] Large Titanite Shard
+11700008 [Default] Assorted Petrified Stones
 11899999 ### Cathedral Knight ###
 11900000 [Default] Holy Gem
 11900001 [Default] Ember
@@ -2476,16 +2498,17 @@
 11900003 [Default] Old Radiant Lifegem
 11900004 [Default] Blunt Gem
 11900005 [Default] Large Titanite Shard
+11900006 [Default] Assorted Petrified Stones
 12000999 ### Hollow Slave ###
 12001000 [Undead Settlement] Sharp Gem
 12001001 [Undead Settlement] Lifegem
-12001002 [Undead Settlement] Petrified Something
+12001002 [Default] Assorted Petrified Stones
 12001100 [Grand Archives] Enchanted Gem
 12001101 [Grand Archives] Radiant Lifegem
-12001102 [Grand Archives] Petrified Something
+12001102 [Default] Assorted Petrified Stones
 12001200 [Dreg Heap] Dark Gem
 12001201 [Dreg Heap] Old Radiant Lifegem
-12001202 [Dreg Heap] Petrified Something
+12001202 [Default] Assorted Petrified Stones
 12099999 ### Ghru ###
 12100000 [Default] Poison Gem
 12100001 [Default] Rotten Pine Resin
@@ -2507,6 +2530,7 @@
 12300004 [Default] Goldenfruit Balm
 12300005 [Default] Rouge Water
 12300006 [Default] Titanite Shard
+12300007 [Default] Assorted Petrified Stones
 12399999 ### Peasant Hollow ###
 12400000 [Default] Firebomb
 12400001 [Default] Charcoal Pine Resin
@@ -2534,34 +2558,38 @@
 12800002 [High Wall of Lothric] Exotic Souls
 12800003 [High Wall of Lothric] Radiant Lifegem
 12800004 [High Wall of Lothric] Titanite Shard
+12800005 [High Wall of Lothric] Assorted Petrified Stones
 12801000 [Lothric Castle] Lethal Gem
 12801001 [Lothric Castle] Sunlight Medal
 12801002 [Lothric Castle] Ember
 12801003 [Lothric Castle] Exotic Souls
 12801004 [Lothric Castle] Old Radiant Lifegem
 12801005 [Lothric Castle] Large Titanite Shard
+12801006 [Lothric Castle] Assorted Petrified Stones
 12899999 ### Winged Knight ###
 12900000 [High Wall of Lothric] Holy Gem
 12900001 [High Wall of Lothric] Exotic Souls
 12900002 [High Wall of Lothric] Radiant Lifegem
 12900003 [High Wall of Lothric] Large Titanite Shard
+12900004 [High Wall of Lothric] Assorted Petrified Stones
 12901000 [Lothric Castle] Holy Gem
 12901001 [Lothric Castle] Exotic Souls
 12901002 [Lothric Castle] Old Radiant Lifegem
 12901003 [Lothric Castle] Titanite Chunk
+12901005 [Lothric Castle] Assorted Petrified Stones
 12999999 ### Black Knight ###
 13000000 [Default] Blunt Gem
 13000001 [Default] Ember
 13000002 [Default] Exotic Souls
 13000003 [Default] Elizabeth Mushroom
-13000004 [Default] Petrified Something
+13000004 [Default] Assorted Petrified Stones
 13000005 [Default] Titanite Slab
 13099999 ### Boreal Outrider Knight ###
 13100000 [Default] Frost Gem
 13100001 [Default] Sharp Gem
 13100002 [Default] Exotic Souls
 13100003 [Default] Old Radiant Lifegem
-13100004 [Default] Petrified Something
+13100004 [Default] Assorted Petrified Stones
 13100005 [Default] Titanite Slab
 13199999 ### Crystal Sage ###
 13200000 [Default] Magic Gem
@@ -2589,7 +2617,7 @@
 13599999 ### Lycanthrope ###
 13600000 [Default] Ember
 13600001 [Default] Radiant Lifegem
-13600002 [Default] Petrified Something
+13600002 [Default] Assorted Petrified Stones
 13600003 [Default] Titanite Shard
 13699999 ### Lycanthrope Hunter ###
 13700000 [Default] Lifegem
@@ -2615,7 +2643,7 @@
 14100002 [Default] Proof of a Concord Kept
 14100003 [Default] Exotic Souls
 14100004 [Default] Elizabeth Mushroom
-14100005 [Default] Petrified Something
+14100005 [Default] Assorted Petrified Stones
 14100006 [Default] Large Titanite Shard
 14299999 ### Undead Cleric ###
 14300000 [Cemetery of Ash] Fading Soul
@@ -2667,8 +2695,7 @@
 20400000 [Default] Dung Pie
 20400001 [Default] Exotic Souls
 20400002 [Default] Elizabeth Mushroom
-20400003 [Default] Petrified Something
-20400004 [Default] Titanite Slab
+20400003 [Default] Titanite Slab
 20699999 ### Wretch ###
 20700000 [Default] Pale Pine Resin
 20700001 [Default] Rouge Water
@@ -2724,7 +2751,7 @@
 22399999 ### Boreal Outrider Sentinel ###
 22400000 [Default] Exotic Souls
 22400001 [Default] Old Radiant Lifegem
-22400002 [Default] Petrified Something
+22400002 [Default] Assorted Petrified Stones
 22400003 [Default] Frost Gem
 22400004 [Default] Titanite Slab, Titanite Chunk
 22499999 ### Sulyvahn's Beast ###
@@ -2749,7 +2776,7 @@
 30199999 ### Giant Slave ###
 30200000 [Default] Exotic Souls
 30200001 [Default] Elizabeth Mushroom
-30200002 [Default] Petrified Something
+30200002 [Default] Assorted Petrified Stones
 30200003 [Default] Titanite Chunk
 30399999 ### Abyss Watcher ###
 30400000 [Default] Soul of a Weary Warrior
@@ -2811,7 +2838,6 @@
 32100000 [Default] Rotten Pine Resin
 32100001 [Default] Poison Gem
 32100002 [Default] Lifegem
-32100003 [Default] Petrified Something
 32199999 ### Rock Lizard ###
 32200000 [Default] Lethal Gem, Sharp Gem, Blunt Gem
 32200001 [Default] Old Radiant Lifegem
@@ -2843,7 +2869,7 @@
 52699999 ### Boreal Outrider Assassin ###
 52700000 [Default] Exotic Souls
 52700001 [Default] Old Radiant Lifegem
-52700002 [Default] Petrified Something
+52700002 [Default] Assorted Petrified Stones
 52700003 [Default] Frost Gem
 52700004 [Default] Titanite Slab, Titanite Chunk
 59999999 ### Farron Follower ###

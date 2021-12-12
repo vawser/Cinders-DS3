@@ -2256,7 +2256,7 @@ greater mysteries, with the aid of his great soul,
 but he was led astray by his enormous fortune,
 becoming nothing more than a vulgar hedonist.
 
-Effect: increases Vitality by 2.</text>
+Effect: increases Strike Damage by 2.5%.</text>
 <text id="10411000">Armor worn by Ironclad Soldiers.
 Provides high defense, but is so heavy that
 it requires great strength to move.
@@ -2270,7 +2270,7 @@ greater mysteries, with the aid of his great soul,
 but he was led astray by his enormous fortune,
 becoming nothing more than a vulgar hedonist.
 
-Effect: reduces enemy backstab damage to zero.</text>
+Effect: reduces enemy backstab damage to zero and increases Strike Damage by 2.5%.</text>
 <text id="10412000">Gauntlets worn by Ironclad Soldiers.
 Provides high defense, but are so heavy that
 it requires great strength to move.
@@ -2284,7 +2284,7 @@ greater mysteries, with the aid of his great soul,
 but he was led astray by his enormous fortune,
 becoming nothing more than a vulgar hedonist.
 
-Effect: increases Vitality by 2.</text>
+Effect: increases Strike Damage by 2.5%.</text>
 <text id="10413000">Leggings worn by Ironclad Soldiers.
 Provides high defense, but are so heavy that
 they require great strength to move.
@@ -2299,7 +2299,7 @@ greater mysteries, with the aid of his great soul,
 but he was led astray by his enormous fortune,
 becoming nothing more than a vulgar hedonist.
 
-Effect: increases Vitality by 2.</text>
+Effect: increases Strike Damage by 2.5%.</text>
 <text id="10420000">Helm worn by the Prince Dorthinus.
 Once belonging to a distinguished prince of Eleum Loyce.
 
@@ -2431,7 +2431,7 @@ Effect: increases Lightning damage by 2.5%.</text>
 The once honourable shinobi was left forgotten in a well, waiting for purpose once more...
 
 Effect: increases Dexterity by 2.</text>
-<text id="10482000">Armguards of a nameless shinobi that hails from an eastern land, the left arm is replaced by a prosthetic arm which once allows the owner to fit in with various combat tools, but this ability has been lost due the parts eroading. 
+<text id="10482000">Armguards of a nameless shinobi that hails from an eastern land, the left arm is replaced by a prosthetic arm which once allows the owner to fit in with various combat tools, but this ability has been lost due the eroded parts. 
 
 Effect: increases Dexterity by 2.</text>
 <text id="10483000">Bakama of a nameless shinobi that hails from an eastern land, soaked with blood and sweat from countless battles, he was at last able to recover his honour in his final duel with a legendary commander. 
@@ -2439,6 +2439,138 @@ Effect: increases Dexterity by 2.</text>
 It is said that the lone wolf then set off to the west, to return the Dragon's Heir to its rightful place.
 
 Effect: increases Dexterity by 2.</text>
+<text id="10490000">Hood of the Swordsmen of Carthus.
+
+Offered superb ventilation and protection from heat, owing to excellent craftmanship.
+
+The swordsmen of Carthus favour fluid movements and speed with a curved sword. 
+
+Masters of the technique are said to dazzle their opponents by moving as weightlessly as a grain of sand. 
+
+Effect: increases Slash damage by 2.5%.</text>
+<text id="10491000">Ceremonial robe of the Swordsmen of Carthus. Decorated with chains and medallions.
+
+In the battlefield, the mere sound of chains grinding against each other struck fear into the enemies' heart. 
+
+Effect: increases Slash damage by 2.5%.</text>
+<text id="10492000">Bracer of the Swordsmen of Carthus.
+
+The swordsmen of Carthus utilized unique fighting style that involved deadly swordplay and unseen kukris hidden in their left hand, waiting for the perfect moment to strike unsuspected target.
+
+Hence only the sword arm is fitted with a bracer, for their left arm is always hidden from sight.
+
+Effect: increases Slash damage by 2.5%.</text>
+<text id="10493000">Anklets of the Swordsmen of Carthus.
+
+Lightweight but sturdy, owing to excellent craftmanship.
+
+The swordsmen of Carthus farvor light gears that do not hinder their movements.
+
+Effect: increases Slash damage by 2.5%.</text>
+<text id="10500000">Sallet of a royal swordsman.
+Its shape provides defense while allowing great mobility. Stripped of ornamentation, this particular helm is designed strictly for battle.
+
+King Vendrick supplied his bravest men with the best armor available to face the great giants, but very few returned alive. 
+
+Effect: increases Standard damage by 2.5%.</text>
+<text id="10501000">Cuirass of a royal swordsman.
+Its shape provides defense while allowing great mobility. Stripped of ornamentation, this cuirass is designed strictly for battle.
+
+King Vendrick supplied his bravest men with the best armor available to face the great giants, but very few returned alive. 
+
+Effect: increases Standard damage by 2.5%.</text>
+<text id="10502000">Gauntlets of a royal swordsman.
+Their shape provides defense while allowing great mobility. Stripped of ornamentation, these gauntlets are designed strictly for battle.
+
+King Vendrick supplied his bravest men with the best armor available to face the great giants, but very few returned alive.
+
+Effect: increases Standard damage by 2.5%.</text>
+<text id="10503000">Leggings of a royal swordsman.
+Their shape provides defense while allowing great mobility. Stripped of ornamentation, these leggings are designed strictly for battle.
+
+King Vendrick supplied his bravest men with the best armor available to face the great giants, but very few returned alive.
+
+Effect: increases Standard damage by 2.5%.</text>
+<text id="10510000">Helmet of Vordt, outrider knight of the Boreal Valley.
+
+Vordt was given the task to ensure no Unkindled can ever leave the High Wall and keep watch on the Dancer.
+
+In the end like all outriders he was driven mad, and was naught but a beast, however he kept his charge till the end.
+
+Effect: increases Strength by 2.</text>
+<text id="10511000">Armor of Vordt, outrider knight of the Boreal Valley.
+
+Vordt, being a pawn to Sulyvahn's grand scheme, knows of his eventual fate and yet hold on to his duty until the very end.
+
+Devoid of humanity, he endlessly engage in battles against every Unkindled that managed to approach the castle gate. 
+
+Effect: increases Strength by 2.</text>
+<text id="10512000">Gauntlets of Vordt, outrider knight of the Boreal Valley.
+
+Some parts are worn beyond recognition, owing to the constant swinging of the great mace in reckless abandon.
+
+The cursed ring that drove the outrider knight into madness is still in-tact on the gauntlet, polished and unweathered, an irony to its wearer's fate.
+
+Effect: increases Strength by 2.</text>
+<text id="10513000">Leggings of Vordt, outrider knight of the Boreal Valley.
+
+Vordt was given the task to ensure no Unkindled can ever leave the High Wall and keep watch on the Dancer.
+
+In the end like all outriders he was driven mad, and was naught but a beast, however he kept his charge till the end.
+
+Effect: increases Strength by 2.</text>
+<text id="10520000">Helm worn by the Throne Watcher.
+Has high magic defence.
+
+The Watcher waited by the throne for ages.
+Will all his waiting ever be rewarded?
+
+Effect: increases magic defence by 5%.</text>
+<text id="10521000">Armor worn by the Throne Watcher.
+Has high magic defence.
+
+The Watcher waited by the throne for ages.
+Will all his waiting ever be rewarded?
+
+Effect: increases magic defence by 5%.</text>
+<text id="10522000">Gauntlets worn by the Throne Watcher.
+Has high magic defence.
+
+The Watcher waited by the throne for ages.
+Will all his waiting ever be rewarded?
+
+Effect: increases magic defence by 5%.</text>
+<text id="10523000">Leggings worn by the Throne Watcher.
+Has high magic defence.
+
+The Watcher waited by the throne for ages.
+Will all his waiting ever be rewarded?
+
+Effect: increases magic defence by 5%.</text>
+<text id="10530000">Helmet worn by the Throne Defender.
+Has high lightning defence.
+
+The defender has stood by the throne for ages. Will his wait be worth the while?
+
+Effect: increases lightning defence by 5%.</text>
+<text id="10531000">Armor worn by the Throne Defender.
+Has high lightning defence.
+
+The defender has stood by the throne for ages. Will his wait be worth the while?
+
+Effect: increases lightning defence by 5%.</text>
+<text id="10532000">Gauntlets worn by the Throne Defender.
+Has high lightning defence.
+
+The defender has stood by the throne for ages. Will his wait be worth the while?
+
+Effect: increases lightning defence by 5%.</text>
+<text id="10533000">Leggings worn by the Throne Defender.
+Has high lightning defence.
+
+The defender has stood by the throne for ages. Will his wait be worth the while?
+
+Effect: increases lightning defence by 5%.</text>
 <text id="19000000">Helm of an order of fallen knights who disbanded and fled, but met untimely deaths.
 
 The drab, tattered hood conceals tough, black metal which provides dependable protection from fire.
@@ -4468,9 +4600,26 @@ Looks as if it may crumble to dust at any moment.
 The Darkwraiths were the oldest of the Red Eye Invaders, and rumored to have served a Primordial Serpent.
 
 Effect: increases Dark damage by 2.5%.</text>
-<text id="99120000">The well-worn coat of a wanderer that once dabbled in all manner of things.
+<text id="99120000">The well-worn hood of a wanderer that once dabbled in all manner of things.
 
-Effect: increases Item Discovery by 25.</text>
+Made from sturdy leather, it offers protection versus wind and rain.
+
+Effect: increases max Stamina by 5%.</text>
+<text id="99121000">The well-worn coat of a wanderer that once dabbled in all manner of things.
+
+Made from sturdy leather and quilting. 
+
+Effect: increases max Stamina by 5%.</text>
+<text id="99122000">The well-worn manchettes of a wanderer that once dabbled in all manner of things.
+
+Made from sturdy leather, provides protection against cuts and scratches.
+
+Effect: increases max Stamina by 5%.</text>
+<text id="99123000">The well-worn boots of a wanderer that once dabbled in all manner of things.
+
+Made from sturdy leather. A must-have for long journeys.
+
+Effect: increases max Stamina by 5%.</text>
 <text id="99130000">One of the three masks of a forgotten necromancer who stole the power of the Gravelord, and reigned over the Catacombs. This mask belonged to the valiant legend.
 
 Effect: increases equipment load by 5%.</text>
@@ -5475,22 +5624,22 @@ Effect: nulls fall damage.</text>
 
 Equipment crafted by the royal blacksmith. Finely polished and ready for battle.
 
-Effect: reduces weapon stamina consumption by 5%.</text>
+Effect: increases Thrust damage by 2.5%.</text>
 <text id="99821000">Royal Drangleic soldier armor.
 
 Equipment crafted by the royal blacksmith. Finely polished and ready for battle.
 
-Effect: reduces weapon stamina consumption by 5%.</text>
+Effect: increases Thrust damage by 2.5%.</text>
 <text id="99822000">Royal Drangleic soldier gauntlets.
 
 Equipment crafted by the royal blacksmith. Finely polished and ready for battle.
 
-Effect: reduces weapon stamina consumption by 5%.</text>
+Effect: increases Thrust damage by 2.5%.</text>
 <text id="99823000">Royal Drangleic soldier leggings.
 
 Equipment crafted by the royal blacksmith. Finely polished and ready for battle.
 
-Effect: reduces weapon stamina consumption by 5%.</text>
+Effect: increases Thrust damage by 2.5%.</text>
 <text id="99830000">Helm of a Knight of Loyce.
 
 These Knights of Loyce were devoted guardians of this land that delved valiantly into the depths of chaos, never to return.

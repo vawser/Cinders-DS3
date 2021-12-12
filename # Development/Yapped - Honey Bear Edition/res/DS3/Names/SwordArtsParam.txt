@@ -79,6 +79,7 @@
 416 [Ultra Greatsword] Raime's Fury
 417 [Ultra Greatsword] Nadalia's Wrath
 418 [Ultra Greatsword] Wind Wall
+419 [Ultra Greatsword] Ivory King's Valor
 500 [Rapier] Stance
 501 [Rapier] Shield Splitter
 502 [Rapier] Ricard's Lunge and Press
@@ -98,13 +99,14 @@
 610 [Curved Sword] Quelaag's Fury
 611 [Curved Sword] Hunter's Fury
 612 [Curved Sword] Whirlwind Fury
+613 [Curved Sword] Black Hand's Cunning
 700 [Curved Greatsword] Spin Slash
 701 [Curved Greatsword] Wolf Leap
 702 [Curved Greatsword] Spin Slash (Carthus Curved Greatsword)
 703 [Curved Greatsword] Spin Slash (Exile Greatsword)
 704 [Curved Greatsword] Sever
 705 [Curved Greatsword] Frost Blade
-706 [Curved Greatsword] Warcry
+706 [Curved Greatsword] Storm's Fury
 800 [Katana] Hold
 801 [Katana] Bloodlust
 802 [Katana] Hold (Washing Pole)
@@ -300,6 +302,7 @@
 2315 [Talisman] Immolate
 2316 [Talisman] Force
 2317 [Talisman] Wrath of the Gods
+2318 [Spell Tool] Spell Cast
 2400 [Pyromancy Flame] Combustion
 2401 [Pyromancy Flame] Parting Flame
 2402 [Pyromancy Flame] Abyssal Grasp
