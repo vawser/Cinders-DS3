@@ -677,6 +677,7 @@
 7150 Level Scaling - Ariandel
 7160 Level Scaling - Dreg Heap
 7170 Level Scaling - Ringed City
+7200 Level Scaling - Memory
 7300 Soul Black
 8000 NG Scaling - Enemies
 8010 NG Scaling - Bosses
@@ -2107,22 +2108,34 @@
 112112 [Behavior] Rolling Stamina Growth 3
 112113 [Behavior] Rolling Stamina Growth 4
 112114 [Behavior] Rolling Stamina Growth 5
+112115 [Behavior] Psychedelic Tint - Trigger
+112116 [Behavior] Psychedelic Tint - Interval
+112117 [Behavior] Psychedelic Tint - Effect
+112120 [Behavior] Psychedelic Tint - Red
+112121 [Behavior] Psychedelic Tint - Orange
+112122 [Behavior] Psychedelic Tint - Yellow
+112123 [Behavior] Psychedelic Tint - Green
+112124 [Behavior] Psychedelic Tint - Cyan
+112125 [Behavior] Psychedelic Tint - Blue
+112126 [Behavior] Psychedelic Tint - Indigo
+112127 [Behavior] Psychedelic Tint - Violet
+112128 [Behavior] Psychedelic Tint - Pink
 112130 [Behavior] Curse of Impermanence
 112131 [Behavior] Curse of Impermanence - Cooldown
 112132 [Behavior] Curse of Impermanence - Right Durability Loss
 112133 [Behavior] Curse of Impermanence - Left Durability Loss
-112140 [Behavior] Psychedelic Elixir - Trigger
-112141 [Behavior] Psychedelic Elixir - Color 1
-112142 [Behavior] Psychedelic Elixir - Color 2
-112143 [Behavior] Psychedelic Elixir - Color 3
-112144 [Behavior] Psychedelic Elixir - Color 4
-112145 [Behavior] Psychedelic Elixir - Color 5
-112146 [Behavior] Psychedelic Elixir - Color 6
-112147 [Behavior] Psychedelic Elixir - Color 7
-112148 [Behavior] Psychedelic Elixir - Color 8
-112149 [Behavior] Psychedelic Elixir - Color 9
-112150 [Behavior] Psychedelic Elixir - Cooldown
-112152 [Behavior] Psychedelic Elixir - Effect
+112140 [Behavior] Psychedelic Phantom - Trigger
+112141 [Behavior] Psychedelic Phantom - Red
+112142 [Behavior] Psychedelic Phantom - Orange
+112143 [Behavior] Psychedelic Phantom - Yellow
+112144 [Behavior] Psychedelic Phantom - Green
+112145 [Behavior] Psychedelic Phantom - Cyan
+112146 [Behavior] Psychedelic Phantom - Blue
+112147 [Behavior] Psychedelic Phantom - Indigo
+112148 [Behavior] Psychedelic Phantom - Violet
+112149 [Behavior] Psychedelic Phantom - Pink
+112150 [Behavior] Psychedelic Phantom - Interval
+112152 [Behavior] Psychedelic Phantom - Effect
 112160 [Behavior] Young Dragon Ring - Trigger
 112161 [Behavior] Young Dragon Ring - Bullet
 112162 [Behavior] Great Swamp Ring - Trigger
@@ -2520,10 +2533,10 @@
 120821 [Weapon Art] Unfaltering Prayer [Damage Replacement]
 120830 [Weapon Art] Unfaltering Prayer [Lack of FP]
 120831 [Weapon Art] Unfaltering Prayer [Damage Replacement] [Lack of FP]
-120840 [Weapon Art] Unfaltering Prayer
-120841 [Weapon Art] Unfaltering Prayer [Damage Replacement]
-120850 [Weapon Art] Unfaltering Prayer [Lack of FP]
-120851 [Weapon Art] Unfaltering Prayer [Damage Replacement] [Lack of FP]
+120840 [Weapon Art] Unfaltering Prayer [Used for Shield Catalyst]
+120841 [Weapon Art] Unfaltering Prayer [Damage Replacement] [Used for Shield Catalyst]
+120850 [Weapon Art] Unfaltering Prayer [Lack of FP] [Used for Shield Catalyst]
+120851 [Weapon Art] Unfaltering Prayer [Damage Replacement] [Lack of FP] [Used for Shield Catalyst]
 120910 [Weapon Art] Greatbow: Puncturing Arrow [Lack of FP]
 121010 [Weapon Art]
 121020 [Weapon Art] Moonlight Greatsword [Lack of FP]
@@ -2851,6 +2864,10 @@
 1081211 [Weapon Art] Phosphorescent Pole - Right Hand - No FP
 1081251 [Weapon Art] Phosphorescent Pole - Left Hand
 1081261 [Weapon Art] Phosphorescent Pole - Left Hand - No FP
+1081301 [Weapon Art] Washing Pole - Right Hand
+1081311 [Weapon Art] Washing Pole - Right Hand - No FP
+1081351 [Weapon Art] Washing Pole - Left Hand
+1081361 [Weapon Art] Washing Pole - Left Hand - No FP
 1083201 [Weapon Art] Ledo's Great Hammer - Right
 1083251 [Weapon Art] Ledo's Great Hammer - Left
 1092401 [Weapon Art] Ringed Knight Spear - Ember - Right
@@ -3394,6 +3411,10 @@
 130093401 [Frostfall] Crystal Rain Effect [ConditionOccurrence]
 130093402 [Frostfall] Crystal Rain Effect [Bullet Call]
 130093410 [Frostfall] Crystal Rain Effect - Frost
+130093500 [Ivory King UGS] Ivory King's Valor - Frostfire Buff - Right
+130093501 [Ivory King UGS] Ivory King's Valor - Frostfire Buff - Right [CycleOccurance]
+130093550 [Ivory King UGS] Ivory King's Valor - Frostfire Buff - Left
+130093551 [Ivory King UGS] Ivory King's Valor - Frostfire Buff - Left [CycleOccurance]
 130100700 [Pontiff Knight Great Scythe] Frost - Right
 130100710 [Pontiff Knight Great Scythe] Frost - Right [CycleOccurance]
 130100711 [Pontiff Knight Great Scythe] Frost - Right [AttackOccurance]
@@ -3807,6 +3828,9 @@
 160250760 Tonitrus - Spark - Left - No FP
 160250800 Bewitched Alonne Sword - Seppuku - Right
 160250810 Bewitched Alonne Sword - Seppuku - Right - No FP
+160250820 Bewitched Alonne Sword - Seppuku - Curse - Right-hand
+160250821 Bewitched Alonne Sword - Seppuku - Curse - Right-hand [CycleOccurance]
+160250822 Bewitched Alonne Sword - Seppuku - Curse - Right-hand [AttackOccurance]
 160250850 Bewitched Alonne Sword - Seppuku - Left
 160250860 Bewitched Alonne Sword - Seppuku - Left - No FP
 160250870 Bewitched Alonne Sword - Seppuku - HP Loss
@@ -3837,6 +3861,10 @@
 160260260 Phosphorescent Pole - Weapon Art - Left - No FP
 160260300 Nil Bow & Blade - Hp Restore
 160260310 Ivory King UGS - Frost Beam
+160260400 Washing Pole - Weapon Art - Right
+160260410 Washing Pole - Weapon Art - Right - No FP
+160260450 Washing Pole - Weapon Art - Left
+160260460 Washing Pole - Weapon Art - Left - No FP
 160300001 ### Shields ###
 160300010 Ethereal Oak Shield
 160300020 Grass Crest Shield
@@ -4070,6 +4098,22 @@
 160401531 Poise: Armor
 160401532 Poise: Gauntlets
 160401533 Poise: Leggings
+160401540 Slash Damage: Helm
+160401541 Slash Damage: Armor
+160401542 Slash Damage: Gauntlets
+160401543 Slash Damage: Leggings
+160401550 Strike Damage: Helm
+160401551 Strike Damage: Armor
+160401552 Strike Damage: Gauntlets
+160401553 Strike Damage: Leggings
+160401560 Thrust Damage: Helm
+160401561 Thrust Damage: Armor
+160401562 Thrust Damage: Gauntlets
+160401563 Thrust Damage: Leggings
+160401570 Standard Damage: Helm
+160401571 Standard Damage: Armor
+160401572 Standard Damage: Gauntlets
+160401573 Standard Damage: Leggings
 160408999 ### Armor - Passive Effects ###
 160409000 Symbol of Avarice
 160409001 Crown of Illusions
@@ -4126,10 +4170,11 @@
 160500390 [Pyromancy] Incendiary DoT 1
 160500400 [Pyromancy] Supreme Black Flame Arc
 160500410 [Sorcery] Lingering Numbness
-160500420 [Miracle] Supreme Pulsating Blade
-160500421 [Miracle] Supreme Pulsating Blade [AttackOccurance]
-160500430 [Pyromancy] Supreme Pungent Blade
-160500431 [Pyromancy] Supreme Pungent Blade [AttackOccurance]
+160500420 [Miracle] Myiatic Blade
+160500421 [Miracle] Myiatic Blade [AttackOccurance]
+160500422 [Miracle] Myiatic Blade [CycleOccurance]
+160500430 [Pyromancy] Noxious Blade
+160500431 [Pyromancy] Noxious Blade [AttackOccurance]
 160500440 [Sorcery] Lingering Repel
 160500450 [Pyromancy] Lingering Rockflesh
 160500451 [Pyromancy] Lingering Rockflesh [CycleOccurance]
@@ -4197,9 +4242,9 @@
 160510520 Frozen Weapon
 160510530 Supreme Frozen Weapon
 160510540 Pungent Blade
-160510550 Supreme Pungent Blade
+160510550 Noxious Blade
 160510560 Pulsating Blade
-160510570 Supreme Pulsating Blade
+160510570 Myiatic Blade
 160600001 ### Rings ###
 160600010 Life Ring
 160600011 Life Ring+1
@@ -4900,6 +4945,30 @@
 160604010 Scroll of Hollowing
 160604020 Scroll of Humanity
 160604030 Scroll of Cooperation
+160604100 Eyri's Signet
+160604101 Eyri's Signet+1
+160604102 Eyri's Signet+2
+160604103 Eyri's Signet+3
+160604104 Eyri's Signet+4
+160604105 Eyri's Signet+5
+160604200 Ofydd's Signet
+160604201 Ofydd's Signet+1
+160604202 Ofydd's Signet+2
+160604203 Ofydd's Signet+3
+160604204 Ofydd's Signet+4
+160604205 Ofydd's Signet+5
+160604300 Ifanna's Signet
+160604301 Ifanna's Signet+1
+160604302 Ifanna's Signet+2
+160604303 Ifanna's Signet+3
+160604304 Ifanna's Signet+4
+160604305 Ifanna's Signet+5
+160604400 Grufudd's Signet
+160604401 Grufudd's Signet+1
+160604402 Grufudd's Signet+2
+160604403 Grufudd's Signet+3
+160604404 Grufudd's Signet+4
+160604405 Grufudd's Signet+5
 160690001 Cursed Ring of Evasion - HP Reduction
 160690010 Cursed Ring of Vengeance - Effect
 160690011 Cursed Ring of Vengeance - HP Reduction
@@ -4987,18 +5056,6 @@
 160701018 Cleansing Potion - Clear 131
 160701019 Cleansing Potion - Clear 132
 160701020 Cleansing Potion - Clear 133
-160701300 Elixir of Ghosts
-160701301 Elixir of Hollowing
-160701302 Elixir of Deceit
-160701303 Elixir of Cooperation
-160701304 Darkmoon Elixir
-160701305 Holy Elixir
-160701306 Earthen Elixir
-160701307 Abyssal Elixir
-160701308 Sunlight Elixir
-160701309 Maddening Elixir
-160701310 Bloody Elixir
-160701311 Demonic Elixir
 160702999 ### Illusions ###
 160703010 Wax Form - Head
 160703011 Wax Form - Head - Grand Archives
@@ -5359,7 +5416,8 @@
 160705940 Venerable Sage's Insignia
 160705941 Venerable Sage's Emblem
 160705951 Clandestine Emblem
-160705961 Wanderer's Emblem
+160705960 Wanderer Insignia
+160705961 Wanderer Emblem
 160705970 Sage's Insignia
 160705980 Moonlight Insignia
 160705981 Moonlight Emblem
@@ -5464,72 +5522,184 @@
 160706531 Overgrown Lothric Knight Emblem
 160706540 Herald Insignia (Lowered Visor)
 160706550 Undead Legion Insignia (Only Cap)
-160708999 ### Weapon Visual Items ###
-160709000 Cleansing Oil - Right - Clear 153
-160709001 Cleansing Oil - Right - Clear 155
-160709005 Cleansing Oil - Left
-160709010 Magical Oil - Right
-160709015 Magical Oil - Left
-160709020 Fiery Oil - Right
-160709025 Fiery Oil - Left
-160709030 Sparking Oil - Right
-160709035 Sparking Oil - Left
-160709040 Abyssal Oil - Right
-160709045 Abyssal Oil - Left
-160709050 Poisonous Oil - Right
-160709055 Poisonous Oil - Left
-160709060 Bloody Oil - Right
-160709065 Bloody Oil - Left
-160709070 Frost Oil - Right
-160709075 Frost Oil - Left
-160709080 Moonlit Oil - Right
-160709085 Moonlit Oil - Left
-160709090 Blessed Oil - Right
-160709095 Blessed Oil - Left
-160709100 Black Fire Oil - Right
-160709105 Black Fire Oil - Left
-160709110 Scorching Oil - Right
-160709115 Scorching Oil - Left
-160709120 Rotten Oil - Right
-160709125 Rotten Oil - Left
-160709130 Gust Oil - Right
-160709135 Gust Oil - Left
-160709140 Psychedelic Oil - Right
-160709145 Psychedelic Oil - Left
-160709150 Brume Oil - Right
-160709155 Brume Oil - Left
-160709200 Bolt Oil - Right
-160709205 Bolt Oil - Left
-160709300 Sunlight Oil - Right
-160709305 Sunlight Oil - Left
-160709400 Enchanted Oil - Right
-160709405 Enchanted Oil - Left
-160709499 ### Writs ###
-160709500 Writ of Humanity
-160709501 Writ of Anger
-160709502 Writ of Crystallization
-160709503 Writ of Invisibility
-160709504 Writ of Stone
-160709505 Writ of Maggots
-160709506 Writ of Burning Anger
-160709507 Writ of Silent Anger
-160709508 Writ of Sparks
-160709509 Writ of Stars
-160709510 Writ of Prismatica
-160709511 Writ of Corruption
-160709512 Writ of Toxicity
-160709513 Writ of Protection
-160709514 Writ of Poison
-160709515 Writ of Frost
-160709516 Writ of Immolation
-160709517 Writ of Dust
-160709518 Writ of Water
-160709519 Writ of Chilling Anger
-160709520 Writ of Vengeful Anger
-160709521 Writ of Divinity
-160709522 Writ of Fury
-160709523 Writ of Envy
-160709524 Writ of Desire
+160708999 ### Weapon Emission ###
+160709010 Magic - Right
+160709011 Magic - Right (Preview)
+160709015 Magic - Left
+160709016 Magic - Left (Preview)
+160709020 Fire - Right
+160709021 Fire - Right (Preview)
+160709025 Fire - Left
+160709026 Fire - Left (Preview)
+160709030 Lightning - Right
+160709031 Lightning - Right (Preview)
+160709035 Lightning - Left
+160709036 Lightning - Left (Preview)
+160709040 Abyss - Right
+160709041 Abyss - Right (Preview)
+160709045 Abyss - Left
+160709046 Abyss - Left (Preview)
+160709050 Poison - Right
+160709051 Poison - Right (Preview)
+160709055 Poison - Left
+160709056 Poison - Left (Preview)
+160709060 Blood - Right
+160709061 Blood - Right (Preview)
+160709065 Blood - Left
+160709066 Blood - Left (Preview)
+160709070 Frost - Right
+160709071 Frost - Right (Preview)
+160709075 Frost - Left
+160709076 Frost - Left (Preview)
+160709080 Moonlight - Right
+160709081 Moonlight - Right (Preview)
+160709085 Moonlight - Left
+160709086 Moonlight - Left (Preview)
+160709090 Divine - Right
+160709091 Divine - Right (Preview)
+160709095 Divine - Left
+160709096 Divine - Left (Preview)
+160709100 Black Fire - Right
+160709101 Black Fire - Right (Preview)
+160709105 Black Fire - Left
+160709106 Black Fire - Left (Preview)
+160709110 Scorched - Right
+160709111 Scorched - Right (Preview)
+160709115 Scorched - Left
+160709116 Scorched - Left (Preview)
+160709120 Rotten - Right
+160709121 Rotten - Right (Preview)
+160709125 Rotten - Left
+160709126 Rotten - Left (Preview)
+160709130 Wind - Right
+160709131 Wind - Right (Preview)
+160709135 Wind - Left
+160709136 Wind - Left (Preview)
+160709140 Psychedelic - Right
+160709141 Psychedelic - Right (Preview)
+160709145 Psychedelic - Left
+160709146 Psychedelic - Left (Preview)
+160709150 Brume - Right
+160709151 Brume - Right (Preview)
+160709155 Brume - Left
+160709156 Brume - Left (Preview)
+160709160 Enchanted - Right
+160709161 Enchanted - Right (Preview)
+160709165 Enchanted - Left
+160709166 Enchanted - Left (Preview)
+160709170 Sunlight - Right
+160709171 Sunlight - Right (Preview)
+160709175 Sunlight - Left
+160709176 Sunlight - Left (Preview)
+160709180 Bolt - Right
+160709181 Bolt - Right (Preview)
+160709185 Bolt - Left
+160709186 Bolt - Left (Preview)
+160709399 ### Head Emission ###
+160709400 Mass of Humanity
+160709401 Mass of Humanity (Preview)
+160709499 ### Body Emission ###
+160709502 Magical Crystals
+160709503 Magical Crystals (Preview)
+160709504 Invisibility
+160709505 Invisibility (Preview)
+160709506 Stoneform
+160709507 Stoneform (Preview)
+160709508 Maggots
+160709509 Maggots (Preview)
+160709510 Lightning
+160709511 Lightning (Preview)
+160709512 White Stars
+160709513 White Stars (Preview)
+160709514 Prismatic Stars
+160709515 Prismatic Stars (Preview)
+160709516 Corrupted Crystals
+160709517 Corrupted Crystals (Preview)
+160709518 Dung
+160709519 Dung (Preview)
+160709520 Barrier Wards
+160709521 Barrier Wards (Preview)
+160709522 Poison
+160709523 Poison (Preview)
+160709524 Frost
+160709525 Frost (Preview)
+160709526 Flame
+160709527 Flame (Preview)
+160709528 Dust
+160709529 Dust (Preview)
+160709530 Water
+160709531 Water (Preview)
+160709532 Holy
+160709533 Holy (Preview)
+160709534 Smouldering
+160709535 Smouldering (Preview)
+160709599 ### Eye Emission ###
+160709600 Red Glow
+160709601 Red Glow (Preview)
+160709602 Burning Red Glow
+160709603 Burning Red Glow (Preview)
+160709604 White Glow
+160709605 White Glow (Preview)
+160709606 Blue Glow
+160709607 Blue Glow (Preview)
+160709608 Golden Glow
+160709609 Golden Glow (Preview)
+160709610 Green Glow
+160709611 Green Glow (Preview)
+160709612 Purple Glow
+160709613 Purple Glow (Preview)
+160709699 ### Body Aura ###
+160709700 Ethereal Phantom
+160709701 Ethereal Phantom (Preview)
+160709706 Psychedelic Phantom
+160709707 Psychedelic Phantom (Preview)
+160709708 White Phantom
+160709709 White Phantom (Preview)
+160709710 Darkmoon Phantom
+160709711 Darkmoon Phantom (Preview)
+160709712 Holy Phantom
+160709713 Holy Phantom (Preview)
+160709714 Swamp Phantom
+160709715 Swamp Phantom (Preview)
+160709716 Abyssal Phantom
+160709717 Abyssal Phantom (Preview)
+160709718 Sunlight Phantom
+160709719 Sunlight Phantom (Preview)
+160709720 Mad Phantom
+160709721 Mad Phantom (Preview)
+160709722 Red Phantom
+160709723 Red Phantom (Preview)
+160709724 Demonic Phantom
+160709725 Demonic Phantom (Preview)
+160709726 Red Tint
+160709727 Red Tint (Preview)
+160709728 Orange Tint
+160709729 Orange Tint (Preview)
+160709730 Yellow Tint
+160709731 Yellow Tint (Preview)
+160709732 Green Tint
+160709733 Green Tint (Preview)
+160709734 Cyan Tint
+160709735 Cyan Tint (Preview)
+160709736 Blue Tint
+160709737 Blue Tint (Preview)
+160709738 Indigo Tint
+160709739 Indigo Tint (Preview)
+160709740 Violet Tint
+160709741 Violet Tint (Preview)
+160709742 Pink Tint
+160709743 Pink Tint (Preview)
+160709744 White Tint
+160709745 White Tint (Preview)
+160709746 Black Tint
+160709747 Black Tint (Preview)
+160709748 Psychedelic Tint
+160709749 Psychedelic Tint (Preview)
+160709799 ### Humanity Aura ###
+160709800 Human
+160709801 Human (Preview)
+160709802 Hollow
+160709803 Hollow (Preview)
 160709999 ### Developer Items ###
 160710000 Detection - Event Flag Tool
 160710101 Effect - God Tool
@@ -5610,6 +5780,7 @@
 160731070 Damage Scalar: 30%
 160731080 Damage Scalar: 20%
 160731090 Damage Scalar: 10%
+160731200 Spell Damage Scalar: 300%
 160732010 Stamina Scalar: 10
 160732020 Stamina Scalar: 20
 160732030 Stamina Scalar: 30
@@ -5736,6 +5907,51 @@
 160760216 Level Scaling: Memory of Endurance
 160760217 Level Scaling: Memory of Strength
 160760300 Baseline - Spell Summon
+160760400 Visual Emission - Fire
+160760401 Visual Emission -
+160760402 Visual Emission -
+160760403 Visual Emission -
+160760404 Visual Emission -
+160760405 Visual Emission -
+160760406 Visual Emission -
+160760407 Visual Emission -
+160760408 Visual Emission -
+160760450 Visual Aura - Red
+160760451 Visual Aura - Orange
+160760452 Visual Aura - Yellow
+160760453 Visual Aura - Green
+160760454 Visual Aura - Cyan
+160760455 Visual Aura - Blue
+160760456 Visual Aura - Indigo
+160760457 Visual Aura - Violet
+160760458 Visual Aura - Pink
+160760470 Rainbow Visual Aura - Red
+160760471 Rainbow Visual Aura - Orange
+160760472 Rainbow Visual Aura - Yellow
+160760473 Rainbow Visual Aura - Green
+160760474 Rainbow Visual Aura - Cyan
+160760475 Rainbow Visual Aura - Blue
+160760476 Rainbow Visual Aura - Indigo
+160760477 Rainbow Visual Aura - Violet
+160760478 Rainbow Visual Aura - Pink
+160760500 Visual Tint - Red
+160760501 Visual Tint - Orange
+160760502 Visual Tint - Yellow
+160760503 Visual Tint - Green
+160760504 Visual Tint - Cyan
+160760505 Visual Tint - Blue
+160760506 Visual Tint - Indigo
+160760507 Visual Tint - Violet
+160760508 Visual Tint - Pink
+160760520 Rainbow Visual Tint - Red
+160760521 Rainbow Visual Tint - Orange
+160760522 Rainbow Visual Tint - Yellow
+160760523 Rainbow Visual Tint - Green
+160760524 Rainbow Visual Tint - Cyan
+160760525 Rainbow Visual Tint - Blue
+160760526 Rainbow Visual Tint - Indigo
+160760527 Rainbow Visual Tint - Violet
+160760528 Rainbow Visual Tint - Pink
 160761000 Spell Summon - Summoned VFX
 160761100 Spell Summon - Conjurator's Pact I
 160761101 Spell Summon - Conjurator's Pact II
@@ -5755,6 +5971,7 @@
 160762140 Sacrificial Ritual - Spell Summon - Effect
 160762141 Sacrificial Ritual - Player - Effect
 160762150 Mark of Attraction - Enemy - Effect
+160762151 Mark of Attraction - Player - Effect
 160764000 Spell Summon: Ring of Conjuration+0
 160764001 Spell Summon: Ring of Conjuration+1
 160764002 Spell Summon: Ring of Conjuration+2
@@ -6519,7 +6736,7 @@
 260200102 Memory Difficulty: Hard
 260200103 Memory Difficulty: Very Hard
 260200104 Memory Difficulty: Mythic
-260200200 Memory of Strength Boost
+260200200 Memory of Strength - Boost
 260209999 ### Multiplayer Adjustments ###
 260210000 Normal Enemy - 1 Summon
 260210001 Normal Enemy - 2 Summon

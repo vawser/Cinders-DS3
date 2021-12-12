@@ -2616,23 +2616,23 @@
 37000501 [Caged Madman]
 37000502 [Caged Madman]
 37000503 [Caged Madman]
-39000000 [Crows]
-39000001 [Crows]
-39000002 [Crows]
-39000100 [Crows]
-39000101 [Crows]
-39000102 [Crows]
-39000200 [Crows]
-39000201 [Crows]
-39000300 [Crows]
-39000301 [Crows]
-39000400 [Crows]
-39000401 [Crows]
-39000402 [Crows]
-39000403 [Crows]
-39000500 [Crows]
-39000501 [Crows]
-39000502 [Crows]
+39000000 [Crows] You, you.
+39000001 [Crows] Me, me, pickle-pee.
+39000002 [Crows] Me, me, pump-a-rum.
+39000100 [Crows] You! You!
+39000101 [Crows] Me, me, pickle pee!
+39000102 [Crows] Me, me, pump-a-rum!
+39000200 [Crows] Pickle pee, pickle pee!
+39000201 [Crows] Pickle pee, pickle pee!
+39000300 [Crows] Pump-a-rum, pump-a-rum!
+39000301 [Crows] Pump-a-rum, pump-a-rum!
+39000400 [Crows] You, you.
+39000401 [Crows] No, no.
+39000402 [Crows] That no pickle pee.
+39000403 [Crows] That no pump-a-rum.
+39000500 [Crows] You, you.
+39000501 [Crows] Not that.
+39000502 [Crows] Enough, enough.
 40000000 [Londor Pilgrim]
 40000001 [Londor Pilgrim]
 40000002 [Londor Pilgrim]

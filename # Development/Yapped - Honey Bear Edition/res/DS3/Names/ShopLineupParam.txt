@@ -9,7 +9,6 @@
 21009 [Darkmoon Faithful] Sunless Armor
 21010 [Darkmoon Faithful] Sunless Gauntlets
 21011 [Darkmoon Faithful] Sunless Leggings
-21012 [Darkmoon Faithful] Darkmoon Elixir
 21013 [Darkmoon Faithful] Priscilla's Scythe
 21014 [Darkmoon Faithful] Crown of the Dark Sun
 21015 [Darkmoon Faithful] Moonlight Robe
@@ -25,7 +24,6 @@
 21210 [Watchdogs of Farron] Wolf Knight Armor
 21211 [Watchdogs of Farron] Wolf Knight Gauntlets
 21212 [Watchdogs of Farron] Wolf Knight Leggings
-21213 [Watchdogs of Farron] Earthen Elixir
 21400 [Aldrich Faithful] Archdeacon's Great Staff
 21401 [Aldrich Faithful] Archdeacon's Longstaff
 21402 [Aldrich Faithful] Dark Gem
@@ -33,7 +31,6 @@
 21407 [Aldrich Faithful] Archdeacon Holy Garb
 21408 [Aldrich Faithful] Archdeacon Skirt
 21409 [Aldrich Faithful] Dark Bead
-21410 [Aldrich Faithful] Abyssal Elixir
 21600 [Warrior of Sunlight] Sunlight Shield
 21601 [Warrior of Sunlight] Sunlight Straight Sword
 21602 [Warrior of Sunlight] Lightning Gem
@@ -42,7 +39,6 @@
 21607 [Warrior of Sunlight] Armor of the Sun
 21608 [Warrior of Sunlight] Iron Bracelets
 21609 [Warrior of Sunlight] Iron Leggings
-21610 [Warrior of Sunlight] Sunlight Elixir
 21800 [Mound-makers] Bloodlust
 21801 [Mound-makers] Warmth
 21802 [Mound-makers] Sharp Gem
@@ -51,7 +47,6 @@
 21808 [Mound-makers] Sunset Armor
 21809 [Mound-makers] Sunset Gauntlets
 21810 [Mound-makers] Sunset Leggings
-21811 [Mound-makers] Maddening Elixir
 21812 [Mound-makers] Sunset Shield
 21813 [Mound-makers] Chariot Lance
 22000 [Chaos Servants] Lingering Chaos
@@ -60,7 +55,6 @@
 22008 [Chaos Servants] Gargoyle Tail Axe
 22009 [Chaos Servants] Gargoyle Bident
 22010 [Chaos Servants] Gargoyle Shield
-22011 [Chaos Servants] Demonic Elixir
 22013 [Chaos Servants] Soul of a Demon
 22014 [Chaos Servants] Soul of a Stray Demon
 22015 [Chaos Servants] Demonic Claw
@@ -77,7 +71,6 @@
 22209 [Rosaria's Fingers] Armor of Thorns
 22210 [Rosaria's Fingers] Gauntlets of Thorns
 22211 [Rosaria's Fingers] Leggings of Thorns
-22212 [Rosaria's Fingers] Bloody Elixir
 22213 [Rosaria's Fingers] Rosaria's Soul
 22214 [Rosaria's Fingers] Silver Mask
 22400 [Spears of the Church] Young Grass Dew
@@ -89,7 +82,6 @@
 22408 [Spears of the Church] Shira's Armor
 22409 [Spears of the Church] Shira's Gloves
 22410 [Spears of the Church] Shira's Trousers
-22411 [Spears of the Church] Holy Elixir
 22500 [Vinheim Scholars] Young Dragon Ring
 22501 [Vinheim Scholars] Slumbering Dragoncrest Ring
 22502 [Vinheim Scholars] Lingering Dragoncrest Ring
@@ -115,6 +107,7 @@
 22612 [Pilgrims of Dark] Heretic's Warstaff
 22615 [Pilgrims of Dark] Whisper of Despair
 22617 [Pilgrims of Dark] Dark Gem
+22618 [Pilgrims of Dark] Sanctum Shield
 22700 [Dragon Remnants] Farron Ring
 22701 [Dragon Remnants] Hawkwood's Shield
 22702 [Dragon Remnants] Dragon Bone Smasher
@@ -139,6 +132,15 @@
 22802 [Way of White] Hidden Blessing
 22803 [Way of White] Projected Heal
 22804 [Way of White] Heavenly Relief
+22805 [Way of White] Throne Watcher Helm
+22806 [Way of White] Throne Watcher Armor
+22807 [Way of White] Throne Watcher Gauntlets
+22808 [Way of White] Throne Watcher Leggings
+22809 [Way of White] Throne Defender Helm
+22810 [Way of White] Throne Defender Armor
+22811 [Way of White] Throne Defender Gauntlets
+22812 [Way of White] Throne Defender Leggings
+22813 [Way of White] Disc Chime
 22900 [Servant of the Rat] Blue Bug Pellet
 22901 [Servant of the Rat] Red Bug Pellet
 22902 [Servant of the Rat] Yellow Bug Pellet
@@ -177,6 +179,11 @@
 23102 [Way of Blue] Hidden Blessing
 23103 [Way of Blue] Heide Lance
 23104 [Way of Blue] Heide Greatlance
+23105 [Way of Blue] Dragonrider Halberd
+23106 [Way of Blue] Royal Swordsman Sallet
+23107 [Way of Blue] Royal Swordsman Breastplate
+23108 [Way of Blue] Royal Swordsman Gauntlets
+23109 [Way of Blue] Royal Swordsman Leggings
 23200 [Thieves' Pact] Titanite Shard
 23201 [Thieves' Pact] Large Titanite Shard
 23202 [Thieves' Pact] Titanite Chunk
@@ -185,10 +192,12 @@
 23205 [Thieves' Pact] Helix Halberd
 23206 [Thieves' Pact] Melu Scimitars
 23207 [Thieves' Pact] Flynn's Bow
+23208 [Thieves' Pact] Man Serpent Greatsword
 24000 [Abyss Watcher Vernix] Farron Greatsword - Parry
 24001 [Abyss Watcher Vernix] Farron Greatsword - Stomp
 30000 [Ludleth - Corrupted Gundyr] Accursed Sigil
 30001 [Ludleth - Corrupted Gundyr] Atonement
+30002 [Ludleth - Corrupted Gundyr] Eyri's Signet
 30010 [Ludleth - Vordt] Vordt's Great Hammer
 30011 [Ludleth - Vordt] Pontiff's Left Eye
 30012 [Ludleth - Vordt] Snap Freeze
@@ -225,6 +234,7 @@
 30081 [Ludleth - Ponitff Sulyvahn] Profaned Greatsword
 30082 [Ludleth - Ponitff Sulyvahn] Orbs of Judgment
 30083 [Ludleth - Ponitff Sulyvahn] Soul Wave
+30084 [Ludleth - Ponitff Sulyvahn] Ifanna's Signet
 30090 [Ludleth - Aldrich] Darkmoon Longbow
 30091 [Ludleth - Aldrich] Lifehunt Scythe
 30092 [Ludleth - Aldrich] Sword of Avowal
@@ -259,6 +269,7 @@
 30155 [Ludleth - Nameless King] Blast Wave
 30160 [Ludleth - Champion Gundyr] Gundyr's Halberd
 30161 [Ludleth - Champion Gundyr] Prisoner's Chain
+30162 [Ludleth - Champion Gundyr] Ofydd's Signet
 30170 [Ludleth - Twin Princes] Lorian's Greatsword
 30171 [Ludleth - Twin Princes] Lothric's Holy Sword
 30172 [Ludleth - Twin Princes] Lothric's Scythe
@@ -283,6 +294,7 @@
 30210 [Ludleth - Demon Prince] Demon's Scar
 30213 [Ludleth - Demon Prince] Cataclysm
 30214 [Ludleth - Demon Prince] Chaos Beam
+30215 [Ludleth - Demon Prince] Smelter Sword
 30220 [Ludleth - Darkeater Midir] Frayed Blade
 30221 [Ludleth - Darkeater Midir] Old Moonlight
 30223 [Ludleth - Darkeater Midir] Obsidian Greatsword
@@ -333,6 +345,7 @@
 30430 [Ludleth - Fallen Protector] Blueblood Sword
 30431 [Ludleth - Fallen Protector] Quicksilver Shield
 30432 [Ludleth - Fallen Protector] Life Ring
+30433 [Ludleth - Fallen Protector] Grufudd's Signet
 30450 [Ludleth - The Marauder] Fume Sword
 30451 [Ludleth - The Marauder] Fume Ultra Greatsword
 30452 [Ludleth - The Marauder] Knight Slayer's Ring
@@ -605,6 +618,10 @@
 110100 [Shrine Handmaid - Aborr] Leather Armor
 110101 [Shrine Handmaid - Aborr] Leather Gloves
 110102 [Shrine Handmaid - Aborr] Leather Boots
+110130 [Shrine Handmaid - Vordt] Vordt's Helm
+110131 [Shrine Handmaid - Vordt] Vordt's Armor
+110132 [Shrine Handmaid - Vordt] Vordt's Gauntlets
+110133 [Shrine Handmaid - Vordt] Vordt's Leggings
 110150 [Shrine Handmaid - Deacons of the Deep] Lloyd's Shield Ring
 110200 [Shrine Handmaid - Curse-rotted Greatwood] Hello Carving
 110201 [Shrine Handmaid - Curse-rotted Greatwood] Help me! Carving
@@ -721,6 +738,10 @@
 111671 [Shrine Handmaid - Yhorm] Catarina Armor
 111672 [Shrine Handmaid - Yhorm] Catarina Gauntlets
 111673 [Shrine Handmaid - Yhorm] Catarina Leggings
+111680 [Shrine Handmaid - Fallen Protector] Ancient King's Mask
+111681 [Shrine Handmaid - Fallen Protector] Ancient King's Breastplate
+111682 [Shrine Handmaid - Fallen Protector] Ancient King's Gauntlets
+111683 [Shrine Handmaid - Fallen Protector] Ancient King's Leggings
 119904 [Shrine Handmaid - Untended Graves] White Sign Soapstone
 119905 [Shrine Handmaid - Untended Graves] Dried Finger
 119907 [Shrine Handmaid - Untended Graves] Priestess Ring
@@ -827,6 +848,7 @@
 140122 [Cornyx - Spells - Great Swamp] Flash Sweat
 140123 [Cornyx - Spells - Great Swamp] Poison Mist
 140124 [Cornyx - Spells - Great Swamp] Pulsating Mud
+140125 [Cornyx - Spells - Great Swamp] Bubble Wall
 140140 [Cornyx - Spells - Carthus] Toxic Mist
 140141 [Cornyx - Spells - Carthus] Iron Flesh
 140142 [Cornyx - Spells - Carthus] Carthus Flame Arc
@@ -1035,38 +1057,24 @@
 240066 [Astrologer Lillian - Hexes] Nibble
 240067 [Astrologer Lillian - Hexes] Gnaw
 240068 [Astrologer Lillian - Hexes] Dead Again
-250000 [Alchemist Jiji - Odds and Ends] Cleansing Potion
-250001 [Alchemist Jiji - Odds and Ends] Devil's Trumpet
-250002 [Alchemist Jiji - Odds and Ends] Moonflower
-250003 [Alchemist Jiji - Odds and Ends] Henbane
-250004 [Alchemist Jiji - Odds and Ends] Rattling Skull
-250005 [Alchemist Jiji - Odds and Ends] Rattling Finger
-250006 [Alchemist Jiji - Odds and Ends] Murky Skull
-250007 [Alchemist Jiji - Odds and Ends] Murky Finger
-250008 [Alchemist Jiji - Odds and Ends] Demonic Skull
-250009 [Alchemist Jiji - Odds and Ends] Demonic Claw
-250010 [Alchemist Jiji - Odds and Ends] Forgotten Seal
-250011 [Alchemist Jiji - Odds and Ends] Forgotten Tablet
-250012 [Alchemist Jiji - Odds and Ends] Hunter's Mark
-250013 [Alchemist Jiji - Odds and Ends] Hunter's Emblem
-250014 [Alchemist Jiji - Odds and Ends] Tiny Mass of Humanity
-250015 [Alchemist Jiji - Odds and Ends] Scroll of Ethereality
-250016 [Alchemist Jiji - Odds and Ends] Scroll of Hollowing
-250017 [Alchemist Jiji - Odds and Ends] Scroll of Humanity
-250018 [Alchemist Jiji - Odds and Ends] Scroll of Cooperation
-250100 [Alchemist Jiji - Elixirs] Elixir of Deceit
-250101 [Alchemist Jiji - Elixirs] Elixir of Cooperation
-250103 [Alchemist Jiji - Elixirs] Psychedelic Elixir
-250104 [Alchemist Jiji - Elixirs] Darkmoon Elixir
-250105 [Alchemist Jiji - Elixirs] Holy Elixir
-250106 [Alchemist Jiji - Elixirs] Earthen Elixir
-250107 [Alchemist Jiji - Elixirs] Abyssal Elixir
-250108 [Alchemist Jiji - Elixirs] Sunlight Elixir
-250109 [Alchemist Jiji - Elixirs] Maddening Elixir
-250110 [Alchemist Jiji - Elixirs] Bloody Elixir
-250111 [Alchemist Jiji - Elixirs] Demonic Elixir
-250112 [Alchemist Jiji - Elixirs] Elixir of Ghosts
-250113 [Alchemist Jiji - Elixirs] Elixir of Hollowing
+250001 [Alchemist Jiji - Shop] Devil's Trumpet
+250002 [Alchemist Jiji - Shop] Moonflower
+250003 [Alchemist Jiji - Shop] Henbane
+250004 [Alchemist Jiji - Shop] Rattling Skull
+250005 [Alchemist Jiji - Shop] Rattling Finger
+250006 [Alchemist Jiji - Shop] Murky Skull
+250007 [Alchemist Jiji - Shop] Murky Finger
+250008 [Alchemist Jiji - Shop] Demonic Skull
+250009 [Alchemist Jiji - Shop] Demonic Claw
+250010 [Alchemist Jiji - Shop] Forgotten Seal
+250011 [Alchemist Jiji - Shop] Forgotten Tablet
+250012 [Alchemist Jiji - Shop] Hunter's Mark
+250013 [Alchemist Jiji - Shop] Hunter's Emblem
+250014 [Alchemist Jiji - Shop] Tiny Mass of Humanity
+250015 [Alchemist Jiji - Shop] Scroll of Ethereality
+250016 [Alchemist Jiji - Shop] Scroll of Hollowing
+250017 [Alchemist Jiji - Shop] Scroll of Humanity
+250018 [Alchemist Jiji - Shop] Scroll of Cooperation
 250200 [Alchemist Jiji] Havel's Emblem
 250201 [Alchemist Jiji] Havel's Emblem
 250202 [Alchemist Jiji] Giant-horn Insignia
@@ -1401,7 +1409,7 @@
 250532 [Alchemist Jiji] Venerable Sage's Insignia
 250533 [Alchemist Jiji] Venerable Sage's Emblem
 250534 [Alchemist Jiji] Clandestine Emblem
-250535 [Alchemist Jiji] Wanderer's Emblem
+250535 [Alchemist Jiji] Wanderer Emblem
 250536 [Alchemist Jiji] Sage's Insignia
 250537 [Alchemist Jiji] Moonlight Insignia
 250538 [Alchemist Jiji] Moonlight Emblem
@@ -1486,69 +1494,7 @@
 250617 [Alchemist Jiji] Fallen Prince's Emblem
 250618 [Alchemist Jiji] Eastern Commander Insignia
 250619 [Alchemist Jiji] Eastern Commander Emblem
-250700 [Alchemist Jiji] Cleansing Oil
-250701 [Alchemist Jiji] Cleansing Oil (Left)
-250702 [Alchemist Jiji] Magical Oil
-250703 [Alchemist Jiji] Magical Oil (Left)
-250704 [Alchemist Jiji] Fiery Oil
-250705 [Alchemist Jiji] Fiery Oil (Left)
-250706 [Alchemist Jiji] Sparking Oil
-250707 [Alchemist Jiji] Sparking Oil (Left)
-250708 [Alchemist Jiji] Abyssal Oil
-250709 [Alchemist Jiji] Abyssal Oil (Left)
-250710 [Alchemist Jiji] Poisonous Oil
-250711 [Alchemist Jiji] Poisonous Oil (Left)
-250712 [Alchemist Jiji] Bloody Oil
-250713 [Alchemist Jiji] Bloody Oil (Left)
-250714 [Alchemist Jiji] Frost Oil
-250715 [Alchemist Jiji] Frost Oil (Left)
-250716 [Alchemist Jiji] Moonlit Oil
-250717 [Alchemist Jiji] Moonlit Oil (Left)
-250718 [Alchemist Jiji] Blessed Oil
-250719 [Alchemist Jiji] Blessed Oil (Left)
-250720 [Alchemist Jiji] Black Fire Oil
-250721 [Alchemist Jiji] Black Fire Oil (Left)
-250730 [Alchemist Jiji] Bolt Oil
-250731 [Alchemist Jiji] Bolt Oil (Left)
-250740 [Alchemist Jiji] Sunlight Oil
-250741 [Alchemist Jiji] Sunlight Oil (Left)
-250750 [Alchemist Jiji] Enchanted Oil
-250751 [Alchemist Jiji] Enchanted Oil (Left)
-250760 [Alchemist Jiji] Flaming Oil
-250761 [Alchemist Jiji] Flaming Oil (Left)
-250770 [Alchemist Jiji] Maggot Oil
-250771 [Alchemist Jiji] Maggot Oil (Left)
-250780 [Alchemist Jiji] Gust Oil
-250781 [Alchemist Jiji] Gust Oil (Left)
-250782 [Alchemist Jiji] Psychedelic Oil
-250783 [Alchemist Jiji] Psychedelic Oil (Left)
-250784 [Alchemist Jiji] Brume Oil
-250785 [Alchemist Jiji] Brume Oil (Left)
-250800 [Alchemist Jiji - Writs] Writ of Humanity
-250801 [Alchemist Jiji - Writs] Writ of Anger
-250802 [Alchemist Jiji - Writs] Writ of Crystallization
-250803 [Alchemist Jiji - Writs] Writ of Invisibility
-250804 [Alchemist Jiji - Writs] Writ of Stone
-250805 [Alchemist Jiji - Writs] Writ of Maggots
-250806 [Alchemist Jiji - Writs] Writ of Burning Anger
-250807 [Alchemist Jiji - Writs] Writ of Silent Anger
-250808 [Alchemist Jiji - Writs] Writ of Sparks
-250809 [Alchemist Jiji - Writs] Writ of Stars
-250810 [Alchemist Jiji - Writs] Writ of Prismatica
-250811 [Alchemist Jiji - Writs] Writ of Corruption
-250812 [Alchemist Jiji - Writs] Writ of Toxicity
-250813 [Alchemist Jiji - Writs] Writ of Protection
-250814 [Alchemist Jiji - Writs] Writ of Poison
-250815 [Alchemist Jiji - Writs] Writ of Frost
-250816 [Alchemist Jiji - Writs] Writ of Immolation
-250817 [Alchemist Jiji - Writs] Writ of Dust
-250818 [Alchemist Jiji - Writs] Writ of Water
-250819 [Alchemist Jiji - Writs] Writ of Chilling Anger
-250820 [Alchemist Jiji - Writs] Writ of Vengeful Anger
-250821 [Alchemist Jiji - Writs] Writ of Divinity
-250822 [Alchemist Jiji - Writs] Writ of Fury
-250823 [Alchemist Jiji - Writs] Writ of Envy
-250824 [Alchemist Jiji - Writs] Writ of Desire
+250620 [Alchemist Jiji] Wanderer Insignia
 260000 [Magnum Ursus - Lordvessel] Primordial Fragment
 260010 [Magnum Ursusl] Cowl of the Bear
 260011 [Magnum Ursusl] Armor of the Bear
@@ -1565,8 +1511,6 @@
 260504 [Magnum Ursus - Mythic] Soul of a Fallen Astrologer
 260505 [Magnum Ursus - Mythic] Soul of a Fallen Berserker
 260506 [Magnum Ursus - Mythic] Soul of a Fallen Champion
-260507 [Magnum Ursus - Mythic] Relic of Power
-260508 [Magnum Ursus - Mythic] Relic of Insanity
 270000 [Master Benjin] Hunter's Pistol
 270001 [Master Benjin] Hunter's Blunderbuss
 270002 [Master Benjin] Repeating Pistol
@@ -2174,6 +2118,8 @@
 800489 [Gauntlet Weapon] Black Scorpion Stinger
 800490 [Gauntlet Weapon] Drakewing Ultra Greatsword
 800491 [Gauntlet Weapon] Aldia Hammer
+800492 [Gauntlet Weapon] Sanctum Shield
+800493 [Gauntlet Weapon] Disc Chime
 801000 [Gauntlet Armor] Gough's Helm
 801001 [Gauntlet Armor] Gough's Armor
 801002 [Gauntlet Armor] Gough's Gloves
@@ -2728,7 +2674,6 @@
 801551 [Gauntlet Armor] Pursuer's Leggings
 801552 [Gauntlet Armor] Ludleth's Crown
 801553 [Gauntlet Armor] Skull Mask
-801554 [Gauntlet Armor] Wanderer's Coat
 801555 [Gauntlet Armor] Mask of the Father
 801556 [Gauntlet Armor] Mask of the Mother
 801557 [Gauntlet Armor] Mask of the Child
@@ -2939,6 +2884,30 @@
 801762 [Gauntlet Armor] Guardian Armor
 801763 [Gauntlet Armor] Guardian Gauntlets
 801764 [Gauntlet Armor] Guardian Leggings
+801765 [Gauntlet Armor] Royal Swordsman Sallet
+801766 [Gauntlet Armor] Royal Swordsman Breastplate
+801767 [Gauntlet Armor] Royal Swordsman Gauntlets
+801768 [Gauntlet Armor] Royal Swordsman Leggings
+801769 [Gauntlet Armor] Vordt's Helm
+801770 [Gauntlet Armor] Vordt's Armor
+801771 [Gauntlet Armor] Vordt's Gauntlets
+801772 [Gauntlet Armor] Vordt's Leggings
+801773 [Gauntlet Armor] Throne Watcher Helm
+801774 [Gauntlet Armor] Throne Watcher Armor
+801775 [Gauntlet Armor] Throne Watcher Gauntlets
+801776 [Gauntlet Armor] Throne Watcher Leggings
+801777 [Gauntlet Armor] Throne Defender Helm
+801778 [Gauntlet Armor] Throne Defender Armor
+801779 [Gauntlet Armor] Throne Defender Gauntlets
+801780 [Gauntlet Armor] Throne Defender Leggings
+801781 [Gauntlet Armor] Wanderer Hood
+801782 [Gauntlet Armor] Wanderer Coat
+801783 [Gauntlet Armor] Wanderer Manchettes
+801784 [Gauntlet Armor] Wanderer Boots
+801785 [Gauntlet Armor] Carthus Swordsman Hood
+801786 [Gauntlet Armor] Carthus Swordsman Robe
+801787 [Gauntlet Armor] Carthus Swordsman Bracer
+801788 [Gauntlet Armor] Carthus Swordsman Anklets
 802000 [Gauntlet Accessory] Darkmoon Faithful I
 802001 [Gauntlet Accessory] Watchdogs of Farron I
 802002 [Gauntlet Accessory] Aldrich Faithful I
@@ -3085,6 +3054,10 @@
 802149 [Gauntlet Accessory] Sigil of Flame
 802150 [Gauntlet Accessory] Sigil of Thunder
 802151 [Gauntlet Accessory] Sigil of Darkness
+802152 [Gauntlet Accessory] Eyri's Signet
+802153 [Gauntlet Accessory] Ofydd's Signet
+802154 [Gauntlet Accessory] Ifanna's Signet
+802155 [Gauntlet Accessory] Grufudd's Signet
 803000 [Gauntlet Spell] Farron Dart
 803001 [Gauntlet Spell] Bloodthirsty Farron Dart
 803002 [Gauntlet Spell] Scattering Soul Orb
@@ -3394,9 +3367,9 @@
 803306 [Gauntlet Spell] Lifehunt Scythe
 803307 [Gauntlet Spell] Great Lifehunt Scythe
 803308 [Gauntlet Spell] Pulsating Blade
-803309 [Gauntlet Spell] Supreme Pulsating Blade
+803309 [Gauntlet Spell] Myiatic Blade
 803310 [Gauntlet Spell] Pungent Blade
-803311 [Gauntlet Spell] Supreme Pungent Blade
+803311 [Gauntlet Spell] Noxious Blade
 803312 [Gauntlet Spell] Frigid Tumult
 803313 [Gauntlet Spell] Frigid Roar
 803314 [Gauntlet Spell] Hail of Blades

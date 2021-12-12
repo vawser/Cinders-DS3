@@ -127,37 +127,37 @@ Finish following weapons:
 - Bewitched Alonne Sword's Seppuku now lasts 45 seconds and inflict curses per attack.
 - Demon's Axe and Demon King's Greataxe Weapon Art now grant bonus fire damage like Boom Hammer.
 - Change moveset for the below weapon:
- - Curved Greatsword
-  - Server (Spin Slash)
-  - Pontiff Knight Greatsword (Frost Blade)
-  - Carthus Curved Greatsword (Spin Slash)
+ - Curved Greatsword:
+  - Server (Spin Slash).
+  - Pontiff Knight Greatsword (Frost Blade).
+  - Carthus Curved Greatsword (Spin Slash).
 
- - Ultra Greatsword
-  - Ivory King Ultra Greatsword (Ivory King's Valor)
+ - Ultra Greatsword:
+  - Ivory King Ultra Greatsword (Ivory King's Valor).
 
- - Katana
-  - Washing Pole (Storm's Fury)
+ - Katana:
+  - Washing Pole (Storm's Fury).
 
- - Curved Sword
+ - Curved Sword:
   - Nil Bow and Blade (Black Hand's Cunning), now a paired weapon.
 
 - Added several shield catalysts:
- - Disc Chime (Casts Miracles, Lightning affinity)
- - Sanctum Shield (Casts Sorceries, Miracles & Pyromancies, Dark affinity)
- - Loch Shield, changed into a shield catalyst (Casts Sorceries, Magic affinity)
+ - Disc Chime (Casts Miracles, Lightning affinity).
+ - Sanctum Shield (Casts Sorceries, Miracles & Pyromancies, Dark affinity). 
+ - Loch Shield, changed into a shield catalyst (Casts Sorceries, Magic affinity).
 
 # Armors
 - Added the following set:
- - Wanderer Set (Boosts max stamina)
- - Carthus Swordsman Set (Boosts Slash damage)
- - Royal Swordsman Set (Boosts Standard damage)
- - Vordt's Set (Boosts Strength)
- - Throne Watcher Set (Boosts magic defence)
- - Throne Defender Set (Boosts lightning defence)
+ - Wanderer Set (Boosts max stamina).
+ - Carthus Swordsman Set (Boosts Slash damage).
+ - Royal Swordsman Set (Boosts Standard damage).
+ - Vordt's Set (Boosts Strength).
+ - Throne Watcher Set (Boosts magic defence).
+ - Throne Defender Set (Boosts lightning defence).
 
 - Tweak several set's effect:
- - Royal Soldier Set (Boosts Thrust damage)
- - Ironclad Set (Boosts Strike damage)
+ - Royal Soldier Set (Boosts Thrust damage).
+ - Ironclad Set (Boosts Strike damage).
 
 # Spells
 - Pungent Blade is now a Pyromancy.
@@ -241,6 +241,7 @@ Finish following weapons:
 - Changed the animation use of Rouge/Crimson Water to Consumable.
 - Added on use and ongoing visual effects to some consumable items.
 - Bloodthirsty Draconic Might and Bloodthirsty Draconic Fury no longer stop movement on use (they only slow down).
+- Increased the range and Poise damage of Bloodthirsty Draconic Fire. It now also ignores shields.
 
 # Conjurations
 - You can now configure Body Emission, Body Aura  and Body Tint for each of your conjured allies.

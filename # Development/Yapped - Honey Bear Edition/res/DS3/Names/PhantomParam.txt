@@ -109,6 +109,35 @@
 220 Echoes of the Past
 221 Empowered Companion
 230 Marked Enemy
+250 Visual Aura: Red
+251 Visual Aura: Orange
+252 Visual Aura: Yellow
+253 Visual Aura: Green
+254 Visual Aura: Cyan
+255 Visual Aura: Blue
+256 Visual Aura: Indigo
+257 Visual Aura: Violet
+258 Visual Aura: Pink
+260 Tint: Red
+261 Tint: Orange
+262 Tint: Yellow
+263 Tint: Green
+264 Tint: Cyan
+265 Tint: Blue
+266 Tint: Indigo
+267 Tint: Violet
+268 Tint: Pink
+269 Tint: White
+270 Tint: Black
+280 Conjuration - Tint: Red
+281 Conjuration - Tint: Orange
+282 Conjuration - Tint: Yellow
+283 Conjuration - Tint: Green
+284 Conjuration - Tint: Cyan
+285 Conjuration - Tint: Blue
+286 Conjuration - Tint: Indigo
+287 Conjuration - Tint: Violet
+288 Conjuration - Tint: Pink
 300 Ring of Champions - Color 1 - Red
 301 Ring of Champions - Color 2 - Orange
 302 Ring of Champions - Color 3 - Yellow

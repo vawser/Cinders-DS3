@@ -3225,7 +3225,7 @@
 3610523 Greatlance - 1H Running Weak
 3610530 Greatlance - 2H Running
 3610531 Greatlance - 2H Running Final
-3610532 Greatlance - 1H Running Tackle
+3610532 Greatlance - 2H Running Tackle
 3610533 Greatlance - 2H Running Weak
 3610540 Greatlance - 1H Roll
 3610580 Greatlance - 2H Roll
@@ -4961,12 +4961,22 @@
 5300700 Scimitar
 5300710 Scimitar
 5300720 Scimitar
+5301025 Nil Bow & Blade - 1H Light #4
+5301102 Nil Bow & Blade - 1H Heavy #1
+5301103 Nil Bow & Blade - 1H Heavy #1 Max
+5301112 Nil Bow & Blade - 1H Heavy #2
+5301113 Nil Bow & Blade - 1H Heavy #2 Max
+5301235 Nil Bow & Blade - 2H Jump
 5301700 Painting Guardian's Curved Sword
 5301710 Painting Guardian's Curved Sword
 5301720 Painting Guardian's Curved Sword
 5301730 Painting Guardian's Curved Sword
+5301750 Nil Bow & Blade - 2H Special Running - First Hit
+5301751 Nil Bow & Blade - 2H Special Running - Second Hit
 5301800 Nil Bow & Blade - Arrow
 5301810 Nil Bow & Blade - Arrow - Strong
+5301820 Nil Bow & Blade - Arrow - Weak
+5301855 Nil Bow & Blade - Weapon Art - Follow-up
 5302000 Shotel
 5302010 Shotel
 5302020 Shotel
@@ -5310,6 +5320,13 @@
 13730005 [Miracle] Lifehunt Scythe
 13730100 [Miracle] Great Lifehunt Scythe
 13730105 [Miracle] Great Lifehunt Scythe
+13731000 [Pyromancy] Bubble Wall
+13731010 [Pyromancy] Bubble Wall
+13731020 [Pyromancy] Bubble Wall [Hit]
+13731100 [Pyromancy] Bubble Prison
+13731110 [Pyromancy] Bubble Prison
+13731120 [Pyromancy] Bubble Prison
+13731130 [Pyromancy] Bubble Prison [Hit]
 13999999 ### Weapons ###
 14000000 Blessing of Rosaria (Old)
 14000001 Blessing of Rosaria (Old)
