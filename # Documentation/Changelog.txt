@@ -55,7 +55,7 @@ Finish following weapons:
 31680000 Stone Greataxe                  - Demon's Great Axe 
 
 # Lost Cat
-- Shield Catalyst - Loch Shield/Disc Chime/Sanctum Shield/Vessel Shield
+- Shield Catalyst - Vessel Shield (Pyromancies)
 - Finish Kirkhammer/Sunlight GS/Serpentine Chain-axe.
 
 #------------------------------
@@ -136,10 +136,28 @@ Finish following weapons:
   - Ivory King Ultra Greatsword (Ivory King's Valor)
 
  - Katana
-  - Washing Pole (Tsubame Gaeshi)
+  - Washing Pole (Storm's Fury)
 
  - Curved Sword
-  - Nil Bow and Blade (Retreating Attack), now a paired weapon.
+  - Nil Bow and Blade (Black Hand's Cunning), now a paired weapon.
+
+- Added several shield catalysts:
+ - Disc Chime (Casts Miracles, Lightning affinity)
+ - Sanctum Shield (Casts Sorceries, Miracles & Pyromancies, Dark affinity)
+ - Loch Shield, changed into a shield catalyst (Casts Sorceries, Magic affinity)
+
+# Armors
+- Added the following set:
+ - Wanderer Set (Boosts max stamina)
+ - Carthus Swordsman Set (Boosts Slash damage)
+ - Royal Swordsman Set (Boosts Standard damage)
+ - Vordt's Set (Boosts Strength)
+ - Throne Watcher Set (Boosts magic defence)
+ - Throne Defender Set (Boosts lightning defence)
+
+- Tweak several set's effect:
+ - Royal Soldier Set (Boosts Thrust damage)
+ - Ironclad Set (Boosts Strike damage)
 
 # Spells
 - Pungent Blade is now a Pyromancy.
