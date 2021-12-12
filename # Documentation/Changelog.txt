@@ -150,6 +150,10 @@ Finish following weapons:
 - Changed Explosive Soul Spear to Swift Soul Spear.
 - Increased FP cost of Soul Eruption to 100.
 - Chaos Beam now penetrates map.
+- Lingering Chaos now causes knockdown.
+- Teleport is now a Golden Sorcery. Changed its visual effect.
+- Changed Supreme Pungent Blade to Noxious Blade, inflicts 30 Toxic on hit.
+- Changed Pulsating Blade to Myiatic Blade, inflicts 20 Bleed every second for 5 seconds. Consecutive hits do not stack.
 
 - Added new spells:
  - Sorceries:
@@ -159,6 +163,7 @@ Finish following weapons:
   - Geyser. Sold by Cornyx after giving him the Carthus Pyromancy Tome.
   - Drizzle. Found in Archdragon Peak.
   - Pulsating Mud. Sold by Cornyx after giving him the Great Swamp Pyromancy Tome.
+  - Bubble Wall. Sold by Cornyx after giving him the Great Swamp Pyromancy Tome.
   - Black Star. Transposed from the Soul of Darkeater Midir.
   
  - Miracles:
@@ -217,6 +222,7 @@ Finish following weapons:
 - Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
 - Changed the animation use of Rouge/Crimson Water to Consumable.
 - Added on use and ongoing visual effects to some consumable items.
+- Bloodthirsty Draconic Might and Bloodthirsty Draconic Fury no longer stop movement on use (they only slow down).
 
 # Conjurations
 - You can now configure Body Emission, Body Aura  and Body Tint for each of your conjured allies.
@@ -322,6 +328,8 @@ Finish following weapons:
 - Fixed Mournful Flames' description.
 - Restored Eleonora's lifesteal VFX.
 - Fixed Sword Master phantom not using friendly battle goal.
+- Fixed the FTH requirement of Gwynevere's Abnegation when casted with a Laughing infused spell tool.
+- Fixed the INT/FTH requirements of Whisper of Despair.
 
 #------------------------------
 # TODO

@@ -4116,6 +4116,7 @@ to commune with the fallen knight.</text>
 <text id="99044038">Great Geyser</text>
 <text id="99044039">Lingering Drizzle</text>
 <text id="99044040">Bloodthirsty Pulsating Mud</text>
+<text id="99044041">Bubble Prison</text>
 <text id="99045000">Ascend from Fireball?</text>
 <text id="99045001">Ascend from Fire Orb?</text>
 <text id="99045002">Ascend from Chaos Fire Orb?</text>
@@ -4157,6 +4158,7 @@ to commune with the fallen knight.</text>
 <text id="99045038">Ascend from Geyser?</text>
 <text id="99045039">Ascend from Drizzle?</text>
 <text id="99045040">Ascend from Pulsating Mud?</text>
+<text id="99045041">Ascend from Bubble Wall?</text>
 <text id="99046000">Incendiary Fireball crafted</text>
 <text id="99046001">Weakening Fire Orb crafted</text>
 <text id="99046002">Homing Chaos Fire Orb crafted</text>
@@ -4198,6 +4200,7 @@ to commune with the fallen knight.</text>
 <text id="99046038">Great Geyser crafted</text>
 <text id="99046039">Lingering Drizzle crafted</text>
 <text id="99046040">Bloodthirsty Pulsating Mud crafted</text>
+<text id="99046041">Bubble Prison crafted</text>
 <text id="99047000">Bloodthirsty Lightning Arrow</text>
 <text id="99047001">Lightning Surge</text>
 <text id="99047002">Storm Spear</text>
@@ -4369,8 +4372,8 @@ to commune with the fallen knight.</text>
 <text id="99050033">Curse of Silence</text>
 <text id="99050034">Supreme Black Flame Arc</text>
 <text id="99050035">Supreme Dark Blade</text>
-<text id="99050036">Supreme Pungent Blade</text>
-<text id="99050037">Supreme Pulsating Blade</text>
+<text id="99050036">Noxious Blade</text>
+<text id="99050037">Myiatic Blade</text>
 <text id="99050038">Lingering Numbness</text>
 <text id="99050039">Lingering Atonement</text>
 <text id="99050040">Bottomless Deep Protection</text>
@@ -4459,8 +4462,8 @@ to commune with the fallen knight.</text>
 <text id="99052033">Curse of Silence crafted</text>
 <text id="99052034">Supreme Black Flame Arc crafted</text>
 <text id="99052035">Supreme Dark Blade crafted</text>
-<text id="99052036">Supreme Pungent Blade crafted</text>
-<text id="99052037">Supreme Pulsating Blade crafted</text>
+<text id="99052036">Pungent Blade crafted</text>
+<text id="99052037">Myiatic Blade crafted</text>
 <text id="99052038">Lingering Numbness crafted</text>
 <text id="99052039">Lingering Atonement crafted</text>
 <text id="99052040">Bottomless Deep Protection crafted</text>

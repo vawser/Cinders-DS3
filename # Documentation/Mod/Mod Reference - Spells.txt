@@ -845,6 +845,16 @@
 - Gives 2 bloodthirst charges per hit.
 
 #--------------------------------
+# Bubble Wall
+#--------------------------------
+- FP Cost: 50
+- Slot Use: 1
+- Base Effect: creates a wall of bubbles for 5 seconds.
+
+#---- Bubble Prison
+- Changes the spell to build a prison of bubbles around targeted enemy for 5 seconds.
+
+#--------------------------------
 # Conjure Skeleton
 #--------------------------------
 - FP Cost: 50
@@ -2103,8 +2113,8 @@
 - Base Effect: Adds 40 Poison inflict to main weapon for 60 seconds for 60 seconds.
 - Fatigues focus, increasing FP consumption costs by 15% while active.
 
-#---- Supreme Pungent Blade
-- Adds 80 Poison inflict to main weapon for 120 seconds.
+#---- Noxious Blade
+- Adds 30 Toxic inflict to main weapon for 60 seconds.
 
 #--------------------------------
 # Deep Protection
@@ -2167,8 +2177,8 @@
 - Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds.
 - Fatigues focus, increasing FP consumption costs by 15% while active.
 
-#---- Supreme Pulsating Blade
-- Adds 60 Bleed inflict to main weapon for 120 seconds.
+#---- Myiatic Blade
+- Adds maggot debuff to main weapon, inflicts 20 Bleed every second for 5 seconds. Lasts 60 seconds. Consecutive hits do not stack.
 
 #--------------------------------------------------------------------------
 # Spell Ideas

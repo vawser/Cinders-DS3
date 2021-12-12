@@ -1305,8 +1305,8 @@
 <text id="2722010">Create particles of dust in hand and throw at enemy</text>
 <text id="2723000">Create magnetic field around target enemy and pull them closer to the caster</text>
 <text id="2723010">Create magnetic field around target enemy and pull them closer to the caster with no focus cost</text>
-<text id="2724000">Create a star that emits a beam of black fire</text>
-<text id="2724010">Create a star that emits a beam of black fire</text>
+<text id="2724000">Create a wall of bubbles</text>
+<text id="2724010">Isolate weak enemies within a prison of bubbles</text>
 <text id="2725000">Insert water deep underground where remains inactive until enemy proximity</text>
 <text id="2725010">Insert water deep underground where remains inactive until enemy proximity</text>
 <text id="2726000">Summon momentary sprinkle of rain to coat the ground with water</text>
@@ -1494,14 +1494,16 @@
 <text id="4312000">Steal HP of foes using an illusory scythe</text>
 <text id="4312010">Steal HP of foes using an illusory scythe</text>
 <text id="4313000">Imbue right weapon with blood</text>
-<text id="4313010">Imbue right weapon with blood</text>
+<text id="4313010">Imbue right weapon with parasites</text>
 <text id="4314000">Imbue right weapon with a noxious poison</text>
-<text id="4314010">Imbue right weapon with a noxious poison</text>
+<text id="4314010">Imbue right weapon with a noxious toxin</text>
 <text id="4315000">Sacrifice yourself to emit a deluge of your own blood</text>
 <text id="4315010">Sacrifice yourself to emit a deluge of your own blood</text>
 <text id="4316000">Create a blood resonance within the target's body to make it burst and cause internal damage</text>
 <text id="4316010">Create a blood resonance within the target's body to make it burst and cause internal damage</text>
 <text id="4317000">Create an orb of your own blood which continuously emits waves of blood</text>
 <text id="4317010">Create an orb of your own blood which continuously emits waves of blood</text>
+<text id="4318000">Create a star that emits a beam of black fire</text>
+<text id="4318010">Create a star that emits a beam of black fire</text>
 </entries>
 </fmg>

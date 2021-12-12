@@ -1261,8 +1261,8 @@
 <text id="2722010">Bloodthirsty Dust</text>
 <text id="2723000">Magnetism</text>
 <text id="2723010">Refined Magnetism</text>
-<text id="2724000">Black Star</text>
-<text id="2724010">Adjacent Black Star</text>
+<text id="2724000">Bubble Wall</text>
+<text id="2724010">Bubble Prison</text>
 <text id="2725000">Geyser</text>
 <text id="2725010">Great Geyser</text>
 <text id="2726000">Drizzle</text>
@@ -1449,14 +1449,16 @@
 <text id="4312000">Lifehunt Scythe</text>
 <text id="4312010">Great Lifehunt Scythe</text>
 <text id="4313000">Pulsating Blade</text>
-<text id="4313010">Supreme Pulsating Blade</text>
+<text id="4313010">Myiatic Blade</text>
 <text id="4314000">Pungent Blade</text>
-<text id="4314010">Supreme Pungent Blade</text>
+<text id="4314010">Noxious Blade</text>
 <text id="4315000">Blood Sacrifice</text>
 <text id="4315010">Bloodthirsty Sacrifice</text>
 <text id="4316000">Blood Resonance</text>
 <text id="4316010">Bloodthirsty Resonance</text>
 <text id="4317000">Blood Orb</text>
 <text id="4317010">Lingering Blood Orb</text>
+<text id="4318000">Black Star</text>
+<text id="4318010">Adjacent Black Star</text>
 </entries>
 </fmg>
