@@ -1587,16 +1587,22 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002101 Achievement: Untouchable
 25002102 Achievement: Flameless
 25002103 Achievement: Sword and Board
+25002103 Achievement: Stormageddon
 
 25002200 Failed Achievement: Defying Death
 25002201 Failed Achievement: Untouchable
 25002202 Failed Achievement: Flameless
 25002203 Failed Achievement: Sword and Board
+25002204 Failed Achievement: Stormageddon
 
 25002300 Reward Given: Defying Death
 25002301 Reward Given: Untouchable
 25002302 Reward Given: Flameless
 25002303 Reward Given: Sword and Board
+25002304 Reward Given: Stormageddon
+
+25002400 Completion Monitor: Stormageddon Done
+25002401 Completion Monitor: Stormageddon In Progress
 
 25002499 Setup Achievements
 

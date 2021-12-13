@@ -4812,6 +4812,7 @@ Completing the Memory will reward Primordial Fragments.</text>
 <text id="99093101">Untouchable</text>
 <text id="99093102">Flameless</text>
 <text id="99093103">Sword and Board</text>
+<text id="99093104">Stormageddon</text>
 
 <text id="99093200">To complete Defying Death you need to:
 - Kill the Soul of Cinder.
@@ -4832,6 +4833,8 @@ You are allowed the following:
 <text id="99093203">To complete Sword and Board you need to:
 - Kill the Soul of Cinder.
 - Never roll, backstep or jump.</text>
+<text id="99093204">To complete Stormageddon you need to:
+- Kill the Nameless King with Restraint: Run enabled.</text>
 
 <text id="99093300">Completing Defying Death will reward you with:
 Relic of Eternity: reduces weapon stamina consumption massively</text>
@@ -4841,11 +4844,14 @@ Relic of Swiftness: boosts movement speed massively</text>
 Relic of Sanctification: boosts HP, FP and Max Stamina massively</text>
 <text id="99093303">Completing Sword and Board will reward you with:
 Relic of Protection: boosts all absorptions massively</text>
+<text id="99093304">Completing Stormageddon will reward you with:
+1 Titanite Slab</text>
 
 <text id="99093400">Defying Death has been completed.</text>
 <text id="99093401">Untouchable has been completed.</text>
 <text id="99093402">Flameless has been completed.</text>
 <text id="99093403">Sword and Board has been completed.</text>
+<text id="99093404">Stormageddon has been completed.</text>
 
 <text id="99093500">Defying Death has failed.
 
@@ -4857,6 +4863,9 @@ Can be reset via Request Absolution.</text>
  
 Cannot be reset via Request Absolution.</text>
 <text id="99093503">Sword and Board has failed.
+ 
+Can be reset via Request Absolution.</text>
+<text id="99093504">Stormageddon has failed.
  
 Can be reset via Request Absolution.</text>
 

@@ -6081,6 +6081,7 @@ Event(20300, Restart, function() {
     InitializeEvent(0, 20321, 0); // Achievement: Untouchable
     InitializeEvent(0, 20322, 0); // Achievement: Flameless
     InitializeEvent(0, 20323, 0); // Achievement: Sword and Board
+    InitializeEvent(0, 20324, 0); // Achievement: Stormageddon
     
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25002499);
     
@@ -6088,11 +6089,13 @@ Event(20300, Restart, function() {
     SetEventFlag(25002101, OFF); // Achievement: Untouchable
     SetEventFlag(25002102, OFF); // Achievement: Flameless
     SetEventFlag(25002103, OFF); // Achievement: Sword and Board
+    SetEventFlag(25002104, OFF); // Achievement: Stormageddon
     
     SetEventFlag(25002200, OFF); // Failed Achievement: Defying Death
     SetEventFlag(25002201, OFF); // Failed Achievement: Untouchable
     SetEventFlag(25002202, OFF); // Failed Achievement: Flameless
     SetEventFlag(25002203, OFF); // Failed Achievement: Sword and Board
+    SetEventFlag(25002204, OFF); // Failed Achievement: Stormageddon
     
     SetEventFlag(25002499, ON);
 });
@@ -6257,6 +6260,19 @@ Event(20323, Default, function() {
 });
 
 //------------------------------------------------
+// Achievement: Stormageddon
+//------------------------------------------------
+Event(20324, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
+    SetEventFlag(25002401, OFF); // Reset Stormageddon In Progress flag
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25002400); // Nameless King killed with Restraint: Run on
+    
+    SetEventFlag(25002104, ON);
+});
+
+//------------------------------------------------
 // Setup Restraints
 //------------------------------------------------
 Event(20400, Restart, function() {
@@ -6310,4 +6326,3 @@ Event(20400, Restart, function() {
     
     EndUnconditionally(EventEndType.Restart);
 });
-

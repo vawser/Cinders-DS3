@@ -111,18 +111,26 @@ Finish following weapons:
 - Added Curent Journey information, telling you which mode you selected and the current journey count.
 - Added an 'Achievements' system, replacing the Relic system that Magnum Ursus had.
 - You can complete 4 achievements:
- - Defying Death: kill the Soul of Cinder without dying once.
+ - Defying Death
+  - Kill the Soul of Cinder without dying once.
   - Rewards the Relic of Eternity.
   
- - Untouchable: kill the Soul of Cinder without being hit once.
+ - Untouchable
+  - Kill the Soul of Cinder without being hit once.
   - Rewards the Relic of Swiftness.
   
- - Flameless: kill the Soul of Cinder and only light the necessary bonfires required to reach him.
+ - Flameless
+  - Kill the Soul of Cinder and only light the necessary bonfires required to reach him.
   - The bonfires you are allowed are listed in the submenu.
   - Rewards the Relic of Sanctification.
   
- - Sword and Board: kill the Soul of Cinder having never rolled once.
+ - Sword and Board
+  - Kill the Soul of Cinder having never rolled once.
   - Rewards the Relic of Protection.
+  
+ - Stormageddon
+  - Kill Nameless King while only be able to walk.
+  - Rewards Titanite Slab.
   
 - You can reset your failure for the Defying Death/Untouchable/Sword and Board achievements via the Request Absolution option, which costs a large amount of souls.
 

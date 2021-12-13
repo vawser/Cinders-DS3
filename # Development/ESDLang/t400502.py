@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- Magnum Ursus
+#-- Blade of Champions
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -294,6 +294,9 @@ def t400502_x21():
         # Sword and Board
         AddTalkListData(4, 99093103, -1)
         
+        # Stormageddon
+        AddTalkListData(5, 99093104, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -315,6 +318,10 @@ def t400502_x21():
         # Sword and Board
         elif GetTalkListEntryResult() == 4:
             assert t400502_x30(25002103, 25002203, 25002303, 99093203, 99093303, 99093403, 99093503, 100010)
+            continue
+        # Stormageddon
+        elif GetTalkListEntryResult() == 5:
+            assert t400502_x30(25002104, 25002204, 25002304, 99093204, 99093304, 99093404, 99093504, 100040)
             continue
         # Request Absolution
         elif GetTalkListEntryResult() == 90:
