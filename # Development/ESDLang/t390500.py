@@ -341,7 +341,7 @@ def t390500_x20():
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4305000, 4, 1, 0) == 1, 41, 99050040, -1)
         
         # Adjacent Black Star
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2724000, 4, 1, 0) == 1, 42, 99050041, -1)
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4318000, 4, 1, 0) == 1, 42, 99050041, -1)
         
         # Bloodthirsty Sacrifice
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4315000, 4, 1, 0) == 1, 43, 99050042, -1)
