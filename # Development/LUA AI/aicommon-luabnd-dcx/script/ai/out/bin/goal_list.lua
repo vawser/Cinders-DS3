@@ -1065,3 +1065,5 @@ GOAL_Marauder_826000_AfterAttackAct = 826001
 GOAL_TwistedKnight_827000_Battle = 827000
 GOAL_ForlornGiant_828000_Battle = 828000
 GOAL_ForlornGiant_828000_AfterAttackAct = 828001
+GOAL_CathedralGuardian_829000_Battle = 829000
+GOAL_CathedralGuardian_829000_AttackStance = 829001

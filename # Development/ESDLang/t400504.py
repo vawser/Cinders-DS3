@@ -2141,7 +2141,7 @@ def t400504_x43():
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 32302, 4, 1, 0) == 1, 112, 99015211, -1)
         
         # Quit
-        AddTalkListData(99, 15000180, -1)
+        AddTalkListData(999, 15000180, -1)
         
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)

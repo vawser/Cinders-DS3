@@ -317,12 +317,6 @@
       <flags>0x40</flags>
     </file>
     <file>
-      <id>3162</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>script\ai\out\bin\822000_CathedralGuardian_Battle.lua</path>
-      <flags>0x40</flags>
-    </file>
-    <file>
       <id>5220</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\522000_battle.lua</path>
@@ -350,6 +344,12 @@
       <id>5224</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>script\ai\out\bin\805000_CathedralKnight_battle.lua</path>
+      <flags>0x40</flags>
+    </file>
+    <file>
+      <id>5230</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>script\ai\out\bin\829000_battle.lua</path>
       <flags>0x40</flags>
     </file>
     <file>
