@@ -169,9 +169,6 @@ def t400504_x9():
         # Affixes
         AddTalkListDataIf(GetEventStatus(25009814) == 0, 3, 99002532, -1)
         
-        # Relics
-        AddTalkListDataIf(GetEventStatus(25009814) == 0, 7, 99003501, -1)
-        
         # Bestow the Lordvessel
         AddTalkListDataIf(GetEventStatus(25009520) == 0 and ComparePlayerInventoryNumber(3, 2002, 2, 0, 0) == 1, 5, 99003500, -1)
         
@@ -180,6 +177,7 @@ def t400504_x9():
         
         # Flirt
         AddTalkListDataIf(GetEventStatus(25008190) == 1, 11, 15015041, -1)
+        
         # Divorce
         AddTalkListDataIf(GetEventStatus(25008190) == 1, 12, 15015042, -1)
         
@@ -235,10 +233,6 @@ def t400504_x9():
             PlayerEquipmentQuantityChange(3, 2002, -1)
             assert t400504_x10(text1=10117000, flag1=0, mode1=0)
             continue
-        # Relics
-        elif GetTalkListEntryResult() == 7:
-            assert t400504_x15()
-            return 0
         # Affixes
         elif GetTalkListEntryResult() == 3:
             assert t400504_x20()
@@ -273,107 +267,6 @@ def t400504_x11():
     """ State 2 """
     return 0
     
-# Relics
-def t400504_x15():
-    c1110()
-    
-    while True:
-        ClearTalkListData()
-        
-        AddTalkListDataIf(GetEventStatus(25000055) == 0 and GetEventStatus(25000050) == 0, 1, 99003506, -1) # Relic of Power
-        AddTalkListDataIf(GetEventStatus(25000055) == 0 and GetEventStatus(25000051) == 0, 2, 99003507, -1) # Relic of Insanity
-        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000052) == 0, 3, 99003508, -1) # Relic of Legends
-        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000053) == 0, 4, 99003509, -1) # Relic of Myths
-        
-        # Claim Relic of Power
-        AddTalkListDataIf(GetEventStatus(25000055) == 0 and GetEventStatus(25000030) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000050) == 0, 10, 99003502, -1)
-        
-        # Claim Relic of Insanity
-        AddTalkListDataIf(GetEventStatus(25000055) == 0 and GetEventStatus(25000031) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000051) == 0, 11, 99003503, -1)
-        
-        # Claim Relic of Legends
-        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000030) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000052) == 0, 12, 99003504, -1)
-        
-        # Claim Relic of Myths
-        AddTalkListDataIf(GetEventStatus(25000055) == 1 and GetEventStatus(25000031) == 1 and GetEventStatus(25001019) == 1 and GetEventStatus(25000053) == 0, 13, 99003505, -1)
-        
-        # Leave
-        AddTalkListData(99, 15000005, -1)
-        
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-        ShowShopMessage(1)
-        
-        # Relic of Power
-        if GetTalkListEntryResult() == 1:
-            # Succeeded
-            if GetEventStatus(25000030) == 1 and GetEventStatus(25001019) == 1:
-                OpenGenericDialog(1, 99003511, 0, 0, 0)
-            # Eligible
-            elif GetEventStatus(25000030) == 1:
-                OpenGenericDialog(1, 99003510, 0, 0, 0)
-            # Failed
-            elif GetEventStatus(25000030) == 0:
-                OpenGenericDialog(1, 99003512, 0, 0, 0)
-            return 0
-        # Relic of Insanity
-        elif GetTalkListEntryResult() == 2:
-            # Succeeded
-            if GetEventStatus(25000031) == 1 and GetEventStatus(25001019) == 1:
-                OpenGenericDialog(1, 99003521, 0, 0, 0)
-            # Eligible
-            elif GetEventStatus(25000031) == 1:
-                OpenGenericDialog(1, 99003520, 0, 0, 0)
-            # Failed
-            elif GetEventStatus(25000031) == 0:
-                OpenGenericDialog(1, 99003522, 0, 0, 0)
-            return 0
-        # Relic of Legends
-        elif GetTalkListEntryResult() == 3:
-            # Succeeded
-            if GetEventStatus(25000030) == 1 and GetEventStatus(25001019) == 1:
-                OpenGenericDialog(1, 99003531, 0, 0, 0)
-            # Eligible
-            elif GetEventStatus(25000030) == 1:
-                OpenGenericDialog(1, 99003530, 0, 0, 0)
-            # Failed
-            elif GetEventStatus(25000030) == 0:
-                OpenGenericDialog(1, 99003532, 0, 0, 0)
-            return 0
-        # Relic of Myths
-        elif GetTalkListEntryResult() == 4:
-            # Succeeded
-            if GetEventStatus(25000031) == 1 and GetEventStatus(25001019) == 1:
-                OpenGenericDialog(1, 99003541, 0, 0, 0)
-            # Eligible
-            elif GetEventStatus(25000031) == 1:
-                OpenGenericDialog(1, 99003540, 0, 0, 0)
-            # Failed
-            elif GetEventStatus(25000031) == 0:
-                OpenGenericDialog(1, 99003542, 0, 0, 0)
-            return 0
-        # Claim Relic of Power
-        elif GetTalkListEntryResult() == 10:
-            GetItemFromItemLot(100000)
-            SetEventState(25000050, 1)
-            return 0
-        # Claim Relic of Insanity
-        elif GetTalkListEntryResult() == 11:
-            GetItemFromItemLot(100010)
-            SetEventState(25000051, 1)
-            return 0
-        # Claim Relic of Legends
-        elif GetTalkListEntryResult() == 12:
-            GetItemFromItemLot(100020)
-            SetEventState(25000052, 1)
-            return 0
-        # Claim Relic of Myths
-        elif GetTalkListEntryResult() == 13:
-            GetItemFromItemLot(100030)
-            SetEventState(25000053, 1)
-            return 0
-        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
-            return 0
-            
 # Menu Loop
 def t400504_x20():
     c1110()
@@ -471,15 +364,6 @@ def t400504_x41():
     while True:
         ClearTalkListData()
     
-        # Relic of Power
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30910, 4, 1, 0) == 1, 83, 99015182, -1)
-        # Relic of Insanity
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30920, 4, 1, 0) == 1, 84, 99015183, -1)
-        # Relic of Legends
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31060, 4, 1, 0) == 1, 88, 99015187, -1)
-        # Relic of Myths
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31070, 4, 1, 0) == 1, 89, 99015188, -1)
-        
         # Life Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20000, 4, 1, 0) == 1, 1, 99015100, -1)
         # Dragonscale Ring
@@ -1050,14 +934,6 @@ def t400504_x41():
         elif GetTalkListEntryResult() == 82:
             assert t400504_x50(30890, 30891, 1, -2)
             return 0
-        # Relic of Power
-        elif GetTalkListEntryResult() == 83:
-            assert t400504_x50(30910, 30911, 1, -2)
-            return 0
-        # Relic of Insanity
-        elif GetTalkListEntryResult() == 84:
-            assert t400504_x50(30920, 30921, 1, -2)
-            return 0
         # Tainted Chalice
         elif GetTalkListEntryResult() == 85:
             assert t400504_x50(30930, 30931, 1, -2)
@@ -1069,14 +945,6 @@ def t400504_x41():
         # Frostflower Ring
         elif GetTalkListEntryResult() == 87:
             assert t400504_x50(30950, 30951, 1, -2)
-            return 0
-        # Relic of Legends
-        elif GetTalkListEntryResult() == 88:
-            assert t400504_x50(31060, 31061, 1, -2)
-            return 0
-        # Relic of Myths
-        elif GetTalkListEntryResult() == 89:
-            assert t400504_x50(31070, 31071, 1, -2)
             return 0
         # Ring of Momentum
         elif GetTalkListEntryResult() == 90:
@@ -1182,16 +1050,7 @@ def t400504_x42():
     
     while True:
         ClearTalkListData()
-    
-        # Relic of Power
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30911, 4, 1, 0) == 1, 83, 99015182, -1)
-        # Relic of Insanity
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30921, 4, 1, 0) == 1, 84, 99015183, -1)
-        # Relic of Legends
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31061, 4, 1, 0) == 1, 88, 99015187, -1)
-        # Relic of Myths
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31071, 4, 1, 0) == 1, 89, 99015188, -1)
-        
+
         # Life Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20001, 4, 1, 0) == 1, 1, 99015100, -1)
         # Dragonscale Ring
@@ -1762,14 +1621,6 @@ def t400504_x42():
         elif GetTalkListEntryResult() == 82:
             assert t400504_x50(30891, 30892, 3, -4)
             return 0
-        # Relic of Power
-        elif GetTalkListEntryResult() == 83:
-            assert t400504_x50(30911, 30912, 3, -4)
-            return 0
-        # Relic of Insanity
-        elif GetTalkListEntryResult() == 84:
-            assert t400504_x50(30921, 30922, 3, -4)
-            return 0
         # Tainted Chalice
         elif GetTalkListEntryResult() == 85:
             assert t400504_x50(30931, 30932, 3, -4)
@@ -1781,14 +1632,6 @@ def t400504_x42():
         # Frostflower Ring
         elif GetTalkListEntryResult() == 87:
             assert t400504_x50(30951, 30952, 3, -4)
-            return 0
-        # Relic of Legends
-        elif GetTalkListEntryResult() == 88:
-            assert t400504_x50(31061, 31062, 3, -4)
-            return 0
-        # Relic of Myths
-        elif GetTalkListEntryResult() == 89:
-            assert t400504_x50(31071, 31072, 3, -4)
             return 0
         # Ring of Momentum
         elif GetTalkListEntryResult() == 90:
@@ -1894,16 +1737,7 @@ def t400504_x43():
     
     while True:
         ClearTalkListData()
-    
-        # Relic of Power
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30912, 4, 1, 0) == 1, 83, 99015182, -1)
-        # Relic of Insanity
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30922, 4, 1, 0) == 1, 84, 99015183, -1)
-        # Relic of Legends
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31062, 4, 1, 0) == 1, 88, 99015187, -1)
-        # Relic of Myths
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31072, 4, 1, 0) == 1, 89, 99015188, -1)
-        
+
         # Life Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20002, 4, 1, 0) == 1, 1, 99015100, -1)
         # Dragonscale Ring
@@ -2474,14 +2308,6 @@ def t400504_x43():
         elif GetTalkListEntryResult() == 82:
             assert t400504_x50(30892, 30893, 5, -6)
             return 0
-        # Relic of Power
-        elif GetTalkListEntryResult() == 83:
-            assert t400504_x50(30912, 30913, 5, -6)
-            return 0
-        # Relic of Insanity
-        elif GetTalkListEntryResult() == 84:
-            assert t400504_x50(30922, 30923, 5, -6)
-            return 0
         # Tainted Chalice
         elif GetTalkListEntryResult() == 85:
             assert t400504_x50(30932, 30933, 5, -6)
@@ -2493,14 +2319,6 @@ def t400504_x43():
         # Frostflower Ring
         elif GetTalkListEntryResult() == 87:
             assert t400504_x50(30952, 30953, 5, -6)
-            return 0
-        # Relic of Legends
-        elif GetTalkListEntryResult() == 88:
-            assert t400504_x50(31062, 31063, 5, -6)
-            return 0
-        # Relic of Myths
-        elif GetTalkListEntryResult() == 89:
-            assert t400504_x50(31072, 31073, 5, -6)
             return 0
         # Ring of Momentum
         elif GetTalkListEntryResult() == 90:
@@ -2606,16 +2424,7 @@ def t400504_x44():
     
     while True:
         ClearTalkListData()
-    
-        # Relic of Power
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30913, 4, 1, 0) == 1, 83, 99015182, -1)
-        # Relic of Insanity
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30923, 4, 1, 0) == 1, 84, 99015183, -1)
-        # Relic of Legends
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31063, 4, 1, 0) == 1, 88, 99015187, -1)
-        # Relic of Myths
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31073, 4, 1, 0) == 1, 89, 99015188, -1)
-        
+
         # Life Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20003, 4, 1, 0) == 1, 1, 99015100, -1)
         # Dragonscale Ring
@@ -3186,14 +2995,6 @@ def t400504_x44():
         elif GetTalkListEntryResult() == 82:
             assert t400504_x50(30893, 30894, 7, -8)
             return 0
-        # Relic of Power
-        elif GetTalkListEntryResult() == 83:
-            assert t400504_x50(30913, 30914, 7, -8)
-            return 0
-        # Relic of Insanity
-        elif GetTalkListEntryResult() == 84:
-            assert t400504_x50(30923, 30924, 7, -8)
-            return 0
         # Tainted Chalice
         elif GetTalkListEntryResult() == 85:
             assert t400504_x50(30933, 30934, 7, -8)
@@ -3205,14 +3006,6 @@ def t400504_x44():
         # Frostflower Ring
         elif GetTalkListEntryResult() == 87:
             assert t400504_x50(30953, 30954, 7, -8)
-            return 0
-        # Relic of Legends
-        elif GetTalkListEntryResult() == 88:
-            assert t400504_x50(31063, 31064, 7, -8)
-            return 0
-        # Relic of Myths
-        elif GetTalkListEntryResult() == 89:
-            assert t400504_x50(31073, 31074, 7, -8)
             return 0
         # Ring of Momentum
         elif GetTalkListEntryResult() == 90:
@@ -3319,16 +3112,6 @@ def t400504_x45():
     while True:
         ClearTalkListData()
     
-        # Relic of Power
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30914, 4, 1, 0) == 1, 83, 99015182, -1)
-        # Relic of Insanity
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 30924, 4, 1, 0) == 1, 84, 99015183, -1)
-        # Relic of Legends
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31064, 4, 1, 0) == 1, 88, 99015187, -1)
-        # Relic of Myths
-        AddTalkListDataIf(ComparePlayerInventoryNumber(2, 31074, 4, 1, 0) == 1, 89, 99015188, -1)
-        
-        
         # Life Ring
         AddTalkListDataIf(ComparePlayerInventoryNumber(2, 20004, 4, 1, 0) == 1, 1, 99015100, -1)
         # Dragonscale Ring
@@ -3899,14 +3682,6 @@ def t400504_x45():
         elif GetTalkListEntryResult() == 82:
             assert t400504_x50(30894, 30895, 9, -10)
             return 0
-        # Relic of Power
-        elif GetTalkListEntryResult() == 83:
-            assert t400504_x50(30914, 30915, 9, -10)
-            return 0
-        # Relic of Insanity
-        elif GetTalkListEntryResult() == 84:
-            assert t400504_x50(30924, 30925, 9, -10)
-            return 0
         # Tainted Chalice
         elif GetTalkListEntryResult() == 85:
             assert t400504_x50(30934, 30935, 9, -10)
@@ -3918,14 +3693,6 @@ def t400504_x45():
         # Frostflower Ring
         elif GetTalkListEntryResult() == 87:
             assert t400504_x50(30954, 30955, 9, -10)
-            return 0
-        # Relic of Legends
-        elif GetTalkListEntryResult() == 88:
-            assert t400504_x50(31064, 31065, 9, -10)
-            return 0
-        # Relic of Myths
-        elif GetTalkListEntryResult() == 89:
-            assert t400504_x50(31074, 31075, 9, -10)
             return 0
         # Ring of Momentum
         elif GetTalkListEntryResult() == 90:

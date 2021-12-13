@@ -19,9 +19,6 @@ Event(0, Default, function() {
     InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
     
     // Trackers
-    InitializeEvent(0, 20003, 0); // No Hit State
-    InitializeEvent(0, 20004, 0); // Deathless Run State
-    InitializeEvent(0, 20005, 0); // Hitless Run State
     InitializeEvent(0, 20006, 0); // Baseline SpEffects
     
     // Covenant
@@ -32,6 +29,11 @@ Event(0, Default, function() {
     // Masteries
     InitializeEvent(0, 20080, 0); // Masteries
     InitializeEvent(0, 20081, 0); // Masteries - Reset
+    
+    //--------------------
+    // Achievements
+    //--------------------
+    InitializeEvent(0, 20300, 0); // Setup
     
     //--------------------
     // Visual Effects
@@ -2036,46 +2038,6 @@ Event(20002, Restart, function(X0_4, X4_4) {
     
     IfGameCycle(MAIN, ComparisonType.GreaterOrEqual, 7);
     SetEventFlag(25000017, ON); // NG+7
-});
-
-//------------------------------------------------
-// No Hit State
-//------------------------------------------------
-Event(20003, Restart, function() {
-    SetNetworkSyncState(Disabled);
-    
-    var flag_WasHit = 25000040;
-    
-    SetEventFlag(flag_WasHit, OFF);
-    
-    IfCharacterHasSpeffect(MAIN, 10000, 112060, true, ComparisonType.Equal, 1);
-
-    SetEventFlag(flag_WasHit, ON);
-});
-
-//------------------------------------------------
-// Deathless Run State
-//------------------------------------------------
-Event(20004, Default, function() {
-    SetNetworkSyncState(Disabled);
-    
-    var flag_NeverDied = 25000030;
-    
-    IfCharacterHasSpeffect(MAIN, 10000, 112100, true, ComparisonType.Equal, 1);
-    
-    SetEventFlag(flag_NeverDied, OFF);
-});
-
-//------------------------------------------------
-// Hitless Run State
-//------------------------------------------------
-Event(20005, Default, function() {
-    SetNetworkSyncState(Disabled);
-    
-    var flag_NeverHit = 25000031;
-    
-    IfCharacterHasSpeffect(MAIN, 10000, 112101, true, ComparisonType.Equal, 1);
-    SetEventFlag(flag_NeverHit, OFF);
 });
 
 //------------------------------------------------
@@ -6100,3 +6062,192 @@ Event(20271, Default, function() {
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007331);
     SetSpEffect(10000, 160709748);
 });
+
+//------------------------------------------------
+// Setup Achievements
+//------------------------------------------------
+Event(20300, Restart, function() {
+    InitializeEvent(0, 20310, 0); // Failed Achievement: Defying Death
+    InitializeEvent(0, 20311, 0); // Failed Achievement: Untouchable
+    InitializeEvent(0, 20312, 0); // Failed Achievement: Untouchable
+    InitializeEvent(0, 20313, 0); // Failed Achievement: Sword and Board
+    
+    InitializeEvent(0, 20320, 0); // Achievement: Defying Death
+    InitializeEvent(0, 20321, 0); // Achievement: Untouchable
+    InitializeEvent(0, 20322, 0); // Achievement: Flameless
+    InitializeEvent(0, 20323, 0); // Achievement: Sword and Board
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25002999);
+    
+    SetEventFlag(25002100, OFF); // Achievement: Defying Death
+    SetEventFlag(25002101, OFF); // Achievement: Untouchable
+    SetEventFlag(25002102, OFF); // Achievement: Flameless
+    SetEventFlag(25002103, OFF); // Achievement: Sword and Board
+    
+    SetEventFlag(25002200, OFF); // Failed Achievement: Defying Death
+    SetEventFlag(25002201, OFF); // Failed Achievement: Untouchable
+    SetEventFlag(25002202, OFF); // Failed Achievement: Flameless
+    SetEventFlag(25002203, OFF); // Failed Achievement: Sword and Board
+    
+    SetEventFlag(25002999, ON);
+});
+
+//------------------------------------------------
+// Failed Achievement: Defying Death
+//------------------------------------------------
+Event(20310, Restart, function() {
+    SetNetworkSyncState(Disabled);
+
+    IfCharacterDeadalive(MAIN, 10000, DeathState.Dead, ComparisonType.Equal, 1);
+
+    SetEventFlag(25002200, ON);
+});
+
+//------------------------------------------------
+// Failed Achievement: Untouchable
+//------------------------------------------------
+Event(20311, Restart, function() {
+    SetNetworkSyncState(Disabled);
+    
+    IfCharacterHasSpeffect(MAIN, 10000, 112101, true, ComparisonType.Equal, 1);
+
+    SetEventFlag(25002201, ON);
+});
+
+//------------------------------------------------
+// Failed Achievement: Flameless
+//------------------------------------------------
+Event(20312, Restart, function() {
+    SetNetworkSyncState(Disabled);
+    
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14000004);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14000002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13000005);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13000002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13000004);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13000001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13010000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13010002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13410000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13410001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13100000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13100002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13100003);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13200000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13200003);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13200002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13200001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13300006);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13300000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13300007);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13300002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13300003);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13300004);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13300008);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13300005);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13300001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13500003);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13500000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13500001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13500002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700007);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700004);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700005);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700006);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700003);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700008);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13800006);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13800000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13800001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13800002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13800003);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13800004);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13900000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13900002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13900001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14500002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14500003);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14500004);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14500005);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14500000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14500007);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14500006);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15000002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15000003);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15000000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15100002);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15100003);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15100004);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15100005);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15100000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15100001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15110001);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 15110000);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 14500008);
+    IfConditionGroup(MAIN, PASS, OR_01);
+    
+    SetEventFlag(25002202, ON);
+});
+
+//------------------------------------------------
+// Failed Achievement: Sword and Board
+//------------------------------------------------
+Event(20313, Restart, function() {
+    SetNetworkSyncState(Disabled);
+    
+    IfCharacterHasSpeffect(MAIN, 10000, 440, true, ComparisonType.Equal, 1);
+
+    SetEventFlag(25002203, ON);
+});
+
+//------------------------------------------------
+// Achievement: Defying Death
+//------------------------------------------------
+Event(20320, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25002019); // Soul of Cinder
+    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25002200);
+    
+    SetEventFlag(25002100, ON);
+});
+
+//------------------------------------------------
+// Achievement: Untouchable
+//------------------------------------------------
+Event(20321, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25002019); // Soul of Cinder
+    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25002201);
+    
+    SetEventFlag(25002101, ON);
+});
+
+//------------------------------------------------
+// Achievement: Flameless
+//------------------------------------------------
+Event(20322, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25002019); // Soul of Cinder
+    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25002202);
+    
+    SetEventFlag(25002102, ON);
+});
+
+//------------------------------------------------
+// Achievement: Sword and Board
+//------------------------------------------------
+Event(20323, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25002019); // Soul of Cinder
+    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25002203);
+    
+    SetEventFlag(25002103, ON);
+});
+

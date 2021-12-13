@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- Blade of Champions
+#-- Magnum Ursus
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -121,7 +121,7 @@ def t400502_x6():
     """ State 3 """
     assert GetCurrentStateElapsedFrames() > 1
     """ State 2 """
-    if GetDistanceToPlayer() > 12:
+    if GetDistanceToPlayer() > 3:
         """ State 7 """
         assert t400502_x2() # Clear Talk State
     else:
@@ -136,7 +136,7 @@ def t400502_x7():
     if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not
         CheckSpecificPersonGenericDialogIsOpen(0)):
         """ State 2,5 """
-        if GetDistanceToPlayer() > 12:
+        if GetDistanceToPlayer() > 3:
             """ State 4 """
             Label('L0')
             assert t400502_x2() # Clear Talk State
@@ -156,50 +156,267 @@ def t400502_x8():
 # Menu Loop
 def t400502_x9():
     c1110()
+    
     while True:
         ClearTalkListData()
-       
-        # Trial of Perseverance
-        AddTalkListData(1, 15003040, -1)
-
+        
+        # Current Journey
+        AddTalkListData(1, 99093001, -1)
+        
+        # Achievements
+        AddTalkListDataIf(GetEventStatus(25009814) == 0, 2, 99093000, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Trial of Perseverance
+        # Current Journey
         if GetTalkListEntryResult() == 1:
-            SetEventState(25008100, 1)
-            SetEventState(25008200, 1)
-            SetEventState(25008201, 0)
-            SetEventState(25008202, 0)
-            SetEventState(25008203, 0)
-            SetEventState(25008204, 0)
-            SetEventState(25008205, 0)
-            SetEventState(25008206, 0)
-            SetEventState(25008207, 0)
-            SetEventState(25008208, 0)
-            SetEventState(25008209, 0)
-            return 0
+            assert t400502_x20()
+            continue
+        # Achievements
+        elif GetTalkListEntryResult() == 2:
+            assert t400502_x21()
+            continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
-#----------------------------------------------------
-# Utility
-#----------------------------------------------------
-# Acquire Gesture
-def t400502_x50(z2=_, z3=_, flag1=_):
-    """ State 0,1 """
-    if GetEventStatus(flag1) == 1:
-        """ State 2 """
+# Talk Function
+def t400502_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t400502_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
         pass
     else:
-        """ State 3,4 """
-        AcquireGesture(z2)
-        OpenItemAcquisitionMenu(3, z3, 1)
-        SetEventState(flag1, 1)
-        assert not IsMenuOpen(63) and GetCurrentStateElapsedFrames() > 1
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
     """ State 5 """
     return 0
+    
+# Talk Cleanup
+def t400502_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    
+#----------------------------------------------------------
+# Current Journey
+#----------------------------------------------------------
+def t400502_x20():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        # Journey Progression
+        AddTalkListData(1, 99094001, -1)
+        
+        # Journey Type
+        AddTalkListData(2, 99094000, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Journey Progression
+        if GetTalkListEntryResult() == 1:
+            if GetEventStatus(25000017) == 1:
+                OpenGenericDialog(1, 99094207, 0, 0, 0)
+            elif GetEventStatus(25000016) == 1:
+                OpenGenericDialog(1, 99094206, 0, 0, 0)
+            elif GetEventStatus(25000015) == 1:
+                OpenGenericDialog(1, 99094205, 0, 0, 0)
+            elif GetEventStatus(25000014) == 1:
+                OpenGenericDialog(1, 99094204, 0, 0, 0)
+            elif GetEventStatus(25000013) == 1:
+                OpenGenericDialog(1, 99094203, 0, 0, 0)
+            elif GetEventStatus(25000012) == 1:
+                OpenGenericDialog(1, 99094202, 0, 0, 0)
+            elif GetEventStatus(25000011) == 1:
+                OpenGenericDialog(1, 99094201, 0, 0, 0)
+            else:
+                OpenGenericDialog(1, 99094200, 0, 0, 0)
+                
+            continue
+        # Journey Type
+        elif GetTalkListEntryResult() == 2:
+            if GetEventStatus(25009810) == 1:
+                OpenGenericDialog(1, 99094100, 0, 0, 0)
+            elif GetEventStatus(25009811) == 1:
+                OpenGenericDialog(1, 99094101, 0, 0, 0)
+            elif GetEventStatus(25009812) == 1:
+                OpenGenericDialog(1, 99094102, 0, 0, 0)
+            elif GetEventStatus(25009813) == 1:
+                OpenGenericDialog(1, 99094103, 0, 0, 0)
+            elif GetEventStatus(25009814) == 1:
+                OpenGenericDialog(1, 99094104, 0, 0, 0)
+            else:
+                OpenGenericDialog(1, 99094100, 0, 0, 0)
+                
+            continue
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+    
+#----------------------------------------------------------
+# Achievements
+#----------------------------------------------------------
+def t400502_x21():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        # Request Absolution
+        AddTalkListDataIf(GetEventStatus(25002200) == 1 or GetEventStatus(25002201) == 1 or GetEventStatus(25002203) == 1, 90, 99093004, -1)
+        
+        # Defying Death
+        AddTalkListData(1, 99093100, -1)
+        
+        # Untouchable
+        AddTalkListData(2, 99093101, -1)
+        
+        # Flameless
+        AddTalkListData(3, 99093102, -1)
+        
+        # Sword and Board
+        AddTalkListData(4, 99093103, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Defying Death
+        if GetTalkListEntryResult() == 1:
+            assert t400502_x30(25002100, 25002200, 25002300, 99093200, 99093300, 99093400, 99093500, 100020)
+            continue
+        # Untouchable
+        elif GetTalkListEntryResult() == 2:
+            assert t400502_x30(25002101, 25002201, 25002301, 99093201, 99093301, 99093401, 99093501, 100000)
+            continue
+        # Flameless
+        elif GetTalkListEntryResult() == 3:
+            assert t400502_x30(25002102, 25002202, 25002302, 99093202, 99093302, 99093402, 99093502, 100030)
+            continue
+        # Sword and Board
+        elif GetTalkListEntryResult() == 4:
+            assert t400502_x30(25002103, 25002203, 25002303, 99093203, 99093303, 99093403, 99093503, 100010)
+            continue
+        # Request Absolution
+        elif GetTalkListEntryResult() == 90:
+            SetAquittalCostMessageTag(500, 1)
+
+            call = t400502_x51(99093010)
+            
+            if call.Get() == 0:
+                if ComparePlayerAcquittalPrice(500, 1, 2) == 1:
+                
+                    # Insufficient souls
+                    assert t400502_x52(10010754)
+                else:
+                    SubtractAcquittalCostFromPlayerSouls(500, 1)
+
+                    # Failed flags
+                    SetEventState(25002200, 0)
+                    SetEventState(25002201, 0)
+                    #SetEventState(25002202, 0)
+                    SetEventState(25002203, 0)
+                    
+                    OpenGenericDialog(1, 99093011, 0, 0, 0)
+            elif call.Get() == 1:
+                pass
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+#----------------------------------------------------------
+# Achievement Subment
+#----------------------------------------------------------
+def t400502_x30(achievement_flag=_, failed_flag=_, reward_flag=_, requirement_text=_, reward_text=_, requirement_done_text=_, requirement_failed_text=_, reward_lot=_):
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        # Requirement
+        AddTalkListDataIf(GetEventStatus(achievement_flag) == 0 and GetEventStatus(failed_flag) == 0, 1, 99093002, -1)
+        
+        # Reward
+        AddTalkListDataIf(GetEventStatus(achievement_flag) == 0 and GetEventStatus(failed_flag) == 0 and GetEventStatus(reward_flag) == 0, 2, 99093003, -1)
+        
+        # Requirement (DONE)
+        AddTalkListDataIf(GetEventStatus(achievement_flag) == 1 and GetEventStatus(failed_flag) == 0, 10, 99093002, -1)
+        
+        # Reward (DONE)
+        AddTalkListDataIf(GetEventStatus(achievement_flag) == 1 and GetEventStatus(failed_flag) == 0 and GetEventStatus(reward_flag) == 0, 11, 99093003, -1)
+        
+        # Requirement (FAILED)
+        AddTalkListDataIf(GetEventStatus(achievement_flag) == 0 and GetEventStatus(failed_flag) == 1, 12, 99093002, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Requirement
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, requirement_text, 0, 0, 0)
+            continue
+        # Reward
+        elif GetTalkListEntryResult() == 2:
+            OpenGenericDialog(1, reward_text, 0, 0, 0)
+            return 0
+        # Requirement (DONE)
+        elif GetTalkListEntryResult() == 10:
+            OpenGenericDialog(1, requirement_done_text, 0, 0, 0)
+            continue
+        # Reward (DONE)
+        elif GetTalkListEntryResult() == 11:
+            SetEventState(reward_flag, 1)
+            GetItemFromItemLot(reward_lot)
+            return 0
+        # Requirement (FAILED)
+        elif GetTalkListEntryResult() == 12:
+            OpenGenericDialog(1, requirement_failed_text, 0, 0, 0)
+            continue
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#----------------------------------------------------------
+# Utility
+#----------------------------------------------------------     
+def t400502_x51(action2=_):
+    """ State 0,1 """
+    OpenGenericDialog(8, action2, 3, 4, 2)
+    assert not CheckSpecificPersonGenericDialogIsOpen(0)
+    """ State 2 """
+    if GetGenericDialogButtonResult() == 1:
+        """ State 3 """
+        return 0
+    else:
+        """ State 4 """
+        return 1
+        
+def t400502_x52(action1=_):
+    """ State 0,1 """
+    OpenGenericDialog(7, action1, 1, 0, 1)
+    assert not CheckSpecificPersonGenericDialogIsOpen(0)
+    """ State 2 """
+    return 0
+    
+    

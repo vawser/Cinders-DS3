@@ -3345,81 +3345,7 @@ Enables an additional chance for a Primordial Fragment.</text>
 <text id="99002531">Inspect</text>
 <text id="99002532">Affixes</text>
 <text id="99003500">Bestow Lordvessel</text>
-<text id="99003501">Relics</text>
-<text id="99003502">Claim Relic of Power</text>
-<text id="99003503">Claim Relic of Insanity</text>
-<text id="99003504">Claim Relic of Legends</text>
-<text id="99003505">Claim Relic of Myths</text>
-<text id="99003506">Relic of Power</text>
-<text id="99003507">Relic of Insanity</text>
-<text id="99003508">Relic of Legends</text>
-<text id="99003509">Relic of Myths</text>
-<text id="99003510">To claim the Relic of Power you must:
-- Kill the Soul of Cinder.
-- Refrain from dying at any point during your journey.
 
-You are still eligible.</text>
-<text id="99003511">To claim the Relic of Power you must:
-- Kill the Soul of Cinder.
-- Refrain from dying at any point during your journey.
-
-You can claim the relic.</text>
-<text id="99003512">To claim the Relic of Power you must:
-- Kill the Soul of Cinder.
-- Refrain from dying at any point during your journey.
-
-You have failed.</text>
-<text id="99003520">To claim the Relic of Insanity you must:
-- Kill the Soul of Cinder.
-- Refrain from taking any damage from any enemy at any point 
-during your journey.
-
-You are still eligible.</text>
-<text id="99003521">To claim the Relic of Insanity you must:
-- Kill the Soul of Cinder.
-- Refrain from taking any damage from any enemy at any point 
-during your journey.
-
-You can claim the relic.</text>
-<text id="99003522">To claim the Relic of Insanity you must:
-- Kill the Soul of Cinder.
-- Refrain from taking any damage from any enemy at any point 
-during your journey.
-
-You have failed.</text>
-<text id="99003530">To claim the Relic of Legends you must:
-- Kill the Soul of Cinder.
-- Refrain from dying at any point during your journey.
-
-You are still eligible.</text>
-<text id="99003531">To claim the Relic of Legends you must:
-- Kill the Soul of Cinder.
-- Refrain from dying at any point during your journey.
-
-You can claim the relic.</text>
-<text id="99003532">To claim the Relic of Legends you must:
-- Kill the Soul of Cinder.
-- Refrain from dying at any point during your journey.
-
-You have failed.</text>
-<text id="99003540">To claim the Relic of Myths you must:
-- Kill the Soul of Cinder.
-- Refrain from taking any damage from any enemy at any point 
-during your journey.
-
-You are still eligible.</text>
-<text id="99003541">To claim the Relic of Myths you must:
-- Kill the Soul of Cinder.
-- Refrain from taking any damage from any enemy at any point 
-during your journey.
-
-You can claim the relic.</text>
-<text id="99003542">To claim the Relic of Myths you must:
-- Kill the Soul of Cinder.
-- Refrain from taking any damage from any enemy at any point 
-during your journey.
-
-You have failed.</text>
 <text id="99003600">Give the Blood of the Dark Soul</text>
 <text id="99004000">Lethal: reduces weapon stamina consumption by 15%.
 Magic: gains additional Bloodthirst charges on hit.
@@ -4872,5 +4798,84 @@ Completing the Memory will reward Primordial Fragments.</text>
 <text id="99092006">Knight</text>
 <text id="99092007">Watcher</text>
 <text id="99092008">Gargoyle</text>
+
+<text id="99093000">Achievements</text>
+<text id="99093001">Current Journey</text>
+<text id="99093002">Requirement</text>
+<text id="99093003">Reward</text>
+<text id="99093004">Request Absolution</text>
+
+<text id="99093010">Reset failed achievements?</text>
+<text id="99093011">Failed achievements are now possible again.</text>
+
+<text id="99093100">Defying Death</text>
+<text id="99093101">Untouchable</text>
+<text id="99093102">Flameless</text>
+<text id="99093103">Sword and Board</text>
+
+<text id="99093200">To complete Defying Death you need to:
+- Kill the Soul of Cinder.
+- Refrain from dying.</text>
+<text id="99093201">To complete Untouchable you need to:
+- Kill the Soul of Cinder.
+- Refrain from being hit.</text>
+<text id="99093202">To complete Flameless you need to:
+- Kill the Soul of Cinder.
+- Not light any unnecessary bonfires. You are allowed the following:
+ - Firelink Shrine
+ - Untended Graves
+ - High Wall of Lothric
+ - Foot of the High Wall
+ - Pit of Hollows
+ - Flameless Shrine</text>
+<text id="99093203">To complete Sword and Board you need to:
+- Kill the Soul of Cinder.
+- Never roll or use actions that replace rolling.</text>
+
+<text id="99093300">Completing Defying Death will reward you with:
+Relic of Eternity: reduces weapon stamina consumption massively</text>
+<text id="99093301">Completing Untouchable will reward you with:
+Relic of Swiftness: boosts movement speed massively</text>
+<text id="99093302">Completing Flameless will reward you with:
+Relic of Sanctification: boosts HP, FP and Max Stamina massively</text>
+<text id="99093303">Completing Sword and Board will reward you with:
+Relic of Protection: boosts all absorptions massively</text>
+
+<text id="99093400">Defying Death has been completed.</text>
+<text id="99093401">Untouchable has been completed.</text>
+<text id="99093402">Flameless has been completed.</text>
+<text id="99093403">Sword and Board has been completed.</text>
+
+<text id="99093500">Defying Death has failed.
+
+Can be reset via Request Absolution.</text>
+<text id="99093501">Untouchable has failed.
+ 
+Can be reset via Request Absolution.</text>
+<text id="99093502">Flameless has failed.
+ 
+Cannot be reset via Request Absolution.</text>
+<text id="99093503">Sword and Board has failed.
+ 
+Can be reset via Request Absolution.</text>
+
+<text id="99094000">Journey Type</text>
+<text id="99094001">Journey Progression</text>
+
+<text id="99094100">You are currently in Standard Mode.</text>
+<text id="99094101">You are currently in Wanderer Mode.</text>
+<text id="99094102">You are currently in Mythic Mode.</text>
+<text id="99094103">You are currently in Gauntlet Mode.</text>
+<text id="99094104">You are currently in Explorer Mode.</text>
+
+<text id="99094200">You are currently in Journey 1.</text>
+<text id="99094201">You are currently in Journey 2.</text>
+<text id="99094202">You are currently in Journey 3.</text>
+<text id="99094203">You are currently in Journey 4.</text>
+<text id="99094204">You are currently in Journey 5.</text>
+<text id="99094205">You are currently in Journey 6</text>
+<text id="99094206">You are currently in Journey 7.</text>
+<text id="99094207">You are currently in Journey 8.</text>
+
 </entries>
 </fmg>

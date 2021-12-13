@@ -7827,6 +7827,11 @@ function Move_onUpdate()
         end
     end
     
+    -- Relic of Swiftness
+    if env(1116, 112570) == TRUE then
+        base_move_mult = base_move_mult + 0.5
+    end
+    
     -- Weapon Movement Speed Boost
     if env(1116, 112590) == TRUE then
         base_move_mult = base_move_mult + 0.1

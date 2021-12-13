@@ -106,6 +106,28 @@ Finish following weapons:
   - This means the VFX flicker a bit since they are re-applied in this mode.
   - Outside of the shrine and in other maps, they won't flicker.
  
+# Blade of Champions
+- Added Curent Journey information, telling you which mode you selected and the current journey count.
+
+- Added an 'Achievements' system, replacing the Relic system that Magnum Ursus had.
+ - Accessed via the Blade of Champions found near to the Firelink Shrine bonfire.
+ 
+- You can complete 4 achievements:
+ - Defying Death: kill the Soul of Cinder without dying once.
+  - Rewards the Relic of Eternity.
+  
+ - Untouchable: kill the Soul of Cinder without being hit once.
+  - Rewards the Relic of Swiftness.
+  
+ - Flameless: kill the Soul of Cinder and only light the necessary bonfires required to reach him.
+  - The bonfires you are allowed are listed in the submenu.
+  - Rewards the Relic of Sanctification.
+  
+ - Sword and Board: kill the Soul of Cinder having never rolled once.
+  - Rewards the Relic of Protection.
+  
+- Relic of Power/Insanity/Legends/Myths items have been changed into the new relics.
+ 
 # General
 - Added i-frames to Backstep.
 - Added Curse inflict as a visible value in the menu to weapons that have it.
@@ -236,6 +258,11 @@ Finish following weapons:
     Transposed from Fallen Protector.
  - Affixable.
     
+- Changed Relic of Power into Relic of Swiftness: boosts movement speed by 50%.
+- Changed Relic of Legends into Relic of Eternity: reduces weapon stamina consumption by 50%.
+- Changed Relic of Myths into Relic of Sanctification: boosts max HP, FP and Stamina by 50%.
+- Changed Relic of Insanity into Relic of Protection: boosts all absorptions by 50%.
+
 # Items
 - Reduced Tarnished Coin and Cursed Tarnished Coin to 3 stacks.
 - Changed the animation use of Rouge/Crimson Water to Consumable.
@@ -355,3 +382,7 @@ Finish following weapons:
 #------------------------------
 Add Solaire as summon to Soul of Cinder
 
+Relic of Swiftness
+Relic of Protection
+Relic of Eternity
+Relic of Santification

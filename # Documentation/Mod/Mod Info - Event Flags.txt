@@ -1411,10 +1411,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25000020 Debug Flag 
 
-25000030 Valid: Deathless Run
-25000031 Valid: Hitless Run
-25000040 Is Hit state
-
 25000050 Claimed Relic of Power
 25000051 Claimed Relic of Insanity
 25000052 Claimed Relic of Legends
@@ -1584,6 +1580,29 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002034 First Boss Kill: UNUSED
 25002035 First Boss Kill: The Marauder
 
+#------------------------
+# Achivements
+#------------------------
+25002100 Achievement: Defying Death
+25002101 Achievement: Untouchable
+25002102 Achievement: Flameless
+25002103 Achievement: Sword and Board
+
+25002200 Failed Achievement: Defying Death
+25002201 Failed Achievement: Untouchable
+25002202 Failed Achievement: Flameless
+25002203 Failed Achievement: Sword and Board
+
+25002300 Reward Given: Defying Death
+25002301 Reward Given: Untouchable
+25002302 Reward Given: Flameless
+25002303 Reward Given: Sword and Board
+
+25002999 Setup Achievements
+ 
+#------------------------
+# 
+#------------------------
 25003100 Engaged Boss 
 25003101 Killed Boss 
 
