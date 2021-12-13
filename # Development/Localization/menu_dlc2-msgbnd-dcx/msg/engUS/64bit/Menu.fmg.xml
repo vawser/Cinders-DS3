@@ -4884,24 +4884,28 @@ Can be reset via Request Absolution.</text>
 <text id="99095012">Enable Restraint: Run</text>
 <text id="99095013">Enable Restraint: Backstep</text>
 <text id="99095014">Enable Restraint: Jump</text>
+<text id="99095015">Enable Restraint: Kick</text>
 
 <text id="99095020">Disable Restraint: Roll</text>
 <text id="99095021">Disable Restraint: Sprint</text>
 <text id="99095022">Disable Restraint: Run</text>
 <text id="99095023">Disable Restraint: Backstep</text>
 <text id="99095024">Disable Restraint: Jump</text>
+<text id="99095025">Disable Restraint: Kick</text>
 
 <text id="99095100">You will be able to roll again.</text>
 <text id="99095101">You will be able to sprint again.</text>
 <text id="99095102">You will be able to run again.</text>
 <text id="99095103">You will be able to backstep again.</text>
 <text id="99095104">You will be able to jump again.</text>
+<text id="99095105">You will be able to kick again.</text>
 
 <text id="99095200">You will no longer be able to roll.</text>
 <text id="99095201">You will no longer be able to sprint.</text>
 <text id="99095202">You will no longer be able to run.</text>
 <text id="99095203">You will no longer be able to backstep.</text>
 <text id="99095204">You will no longer be able to jump.</text>
+<text id="99095205">You will no longer be able to kick.</text>
 
 </entries>
 </fmg>

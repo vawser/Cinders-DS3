@@ -295,6 +295,12 @@ def t400503_x20():
         # Restraint: Jump - Disable
         AddTalkListDataIf(GetEventStatus(25002504) == 1, 10, 99095024, -1)
         
+        # Restraint: Kick - Enable
+        AddTalkListDataIf(GetEventStatus(25002505) == 0, 11, 99095015, -1)
+        
+        # Restraint: Kick - Disable
+        AddTalkListDataIf(GetEventStatus(25002505) == 1, 12, 99095025, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -350,6 +356,16 @@ def t400503_x20():
         elif GetTalkListEntryResult() == 10:
             OpenGenericDialog(1, 99095104, 0, 0, 0)
             SetEventState(25002504, 0)
+            continue
+        # Enable Restraint: Kick
+        elif GetTalkListEntryResult() == 11:
+            OpenGenericDialog(1, 99095205, 0, 0, 0)
+            SetEventState(25002505, 1)
+            continue
+        # Disable Restraint: Kick
+        elif GetTalkListEntryResult() == 12:
+            OpenGenericDialog(1, 99095105, 0, 0, 0)
+            SetEventState(25002505, 0)
             continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

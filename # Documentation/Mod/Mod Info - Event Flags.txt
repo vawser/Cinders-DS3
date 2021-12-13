@@ -1608,6 +1608,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002502 Restraint: Run
 25002503 Restraint: Backstep
 25002504 Restraint: Jump
+25002505 Restraint: Kick
  
 #------------------------
 # 

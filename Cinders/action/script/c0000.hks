@@ -1685,6 +1685,13 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         end
     end
     
+    -- Restraint: Kick
+    if env(1116, 112925) == TRUE then
+        if request == ATTACK_REQUEST_LIGHT_KICK or request == ATTACK_REQUEST_HEAVY_KICK then
+            return ATTACK_REQUEST_INVALID
+        end
+    end
+    
     -----------------------
     -- Shatter
     -----------------------

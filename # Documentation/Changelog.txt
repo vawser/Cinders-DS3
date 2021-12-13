@@ -136,6 +136,7 @@ Finish following weapons:
  - Added Restraint: Jump, which blocks jumping
  - Added Restraint: Sprint, which blocks sprinting
  - Added Restraint: Run, which blocks running (and sprinting)
+ - Added Restraint: Kick, which blocks kicking
  
 # General
 - Added i-frames to Backstep.

@@ -6300,6 +6300,14 @@ Event(20400, Restart, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25002504);
     ClearSpEffect(10000, 112924);
     
+    // Block Kick ON
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002505);
+    SetSpEffect(10000, 112925);
+    
+    // Block Kick OFF
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25002505);
+    ClearSpEffect(10000, 112925);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
