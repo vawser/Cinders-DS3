@@ -107,11 +107,9 @@ Finish following weapons:
   - Outside of the shrine and in other maps, they won't flicker.
  
 # Blade of Champions
+- Blade of Champions is found near to the Firelink Shrine bonfire.
 - Added Curent Journey information, telling you which mode you selected and the current journey count.
-
 - Added an 'Achievements' system, replacing the Relic system that Magnum Ursus had.
- - Accessed via the Blade of Champions found near to the Firelink Shrine bonfire.
- 
 - You can complete 4 achievements:
  - Defying Death: kill the Soul of Cinder without dying once.
   - Rewards the Relic of Eternity.
@@ -126,6 +124,8 @@ Finish following weapons:
  - Sword and Board: kill the Soul of Cinder having never rolled once.
   - Rewards the Relic of Protection.
   
+- You can reset your failure for the Defying Death/Untouchable/Sword and Board achievements via the Request Absolution option, which costs a large amount of souls.
+
 - Relic of Power/Insanity/Legends/Myths items have been changed into the new relics.
  
 # General
