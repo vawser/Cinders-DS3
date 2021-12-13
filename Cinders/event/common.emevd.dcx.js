@@ -36,6 +36,11 @@ Event(0, Default, function() {
     InitializeEvent(0, 20300, 0); // Setup
     
     //--------------------
+    // Restraints
+    //--------------------
+    InitializeEvent(0, 20400, 0); // Setup
+    
+    //--------------------
     // Visual Effects
     //--------------------
     InitializeEvent(0, 20200, 0); // Preview Mode
@@ -6077,7 +6082,7 @@ Event(20300, Restart, function() {
     InitializeEvent(0, 20322, 0); // Achievement: Flameless
     InitializeEvent(0, 20323, 0); // Achievement: Sword and Board
     
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25002999);
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25002499);
     
     SetEventFlag(25002100, OFF); // Achievement: Defying Death
     SetEventFlag(25002101, OFF); // Achievement: Untouchable
@@ -6089,7 +6094,7 @@ Event(20300, Restart, function() {
     SetEventFlag(25002202, OFF); // Failed Achievement: Flameless
     SetEventFlag(25002203, OFF); // Failed Achievement: Sword and Board
     
-    SetEventFlag(25002999, ON);
+    SetEventFlag(25002499, ON);
 });
 
 //------------------------------------------------
@@ -6249,5 +6254,52 @@ Event(20323, Default, function() {
     IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, 25002203);
     
     SetEventFlag(25002103, ON);
+});
+
+//------------------------------------------------
+// Setup Restraints
+//------------------------------------------------
+Event(20400, Restart, function() {
+    // Block Roll ON
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002500);
+    SetSpEffect(10000, 112920);
+    
+    // Block Roll OFF
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25002500);
+    ClearSpEffect(10000, 112920);
+    
+    // Block Sprinting
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002501);
+    SetSpEffect(10000, 112921);
+    
+    // Block Sprinting
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25002501);
+    ClearSpEffect(10000, 112921);
+    
+    // Block Sprinting
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002502);
+    SetSpEffect(10000, 112922);
+    
+    // Block Sprinting
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25002502);
+    ClearSpEffect(10000, 112922);
+    
+    // Block Backstep ON
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002503);
+    SetSpEffect(10000, 112923);
+    
+    // Block Backstep OFF
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25002503);
+    ClearSpEffect(10000, 112923);
+    
+    // Block Jump ON
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002504);
+    SetSpEffect(10000, 112924);
+    
+    // Block Backstep OFF
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25002504);
+    ClearSpEffect(10000, 112924);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 

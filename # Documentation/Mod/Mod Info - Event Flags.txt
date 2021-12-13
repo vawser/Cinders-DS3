@@ -1598,21 +1598,20 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002302 Reward Given: Flameless
 25002303 Reward Given: Sword and Board
 
-25002999 Setup Achievements
+25002499 Setup Achievements
+
+#------------------------
+# Restraints
+#------------------------
+25002500 Restraint: Roll
+25002501 Restraint: Sprint
+25002502 Restraint: Run
+25002503 Restraint: Backstep
+25002504 Restraint: Jump
  
 #------------------------
 # 
 #------------------------
-25003100 Engaged Boss 
-25003101 Killed Boss 
-
-25003200 Gauntlet: Set
-25003201 Gauntlet: Random
-25003202 Gauntlet: Endless
-25003203 Gauntlet: Reverse Set
-25003204 Gauntlet: Reverse Endless
-25003205 Gauntlet: Boss Select
-
 25003001 Selection: Corrupted Gundyr
 25003002 Selection: Vordt
 25003003 Selection: Curse-rotted Greatwood
@@ -1648,6 +1647,16 @@ xxx5750 Enemies enabled by Curse of Attraction
 25003033 Selection: Fallen Protector
 25003034 Selection: UNUSED
 25003035 Selection: The Marauder
+
+25003100 Engaged Boss 
+25003101 Killed Boss 
+
+25003200 Gauntlet: Set
+25003201 Gauntlet: Random
+25003202 Gauntlet: Endless
+25003203 Gauntlet: Reverse Set
+25003204 Gauntlet: Reverse Endless
+25003205 Gauntlet: Boss Select
 
 #------------------------
 # Player VFX

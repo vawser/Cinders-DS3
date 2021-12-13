@@ -128,6 +128,15 @@ Finish following weapons:
 
 - Relic of Power/Insanity/Legends/Myths items have been changed into the new relics.
  
+# Magical Restraints
+- Astrologer Lillian can now apply magical restraints to you.
+ - Mostly for self-made challenges or for achievements.
+ - Added Restraint: Roll, which blocks rolling
+ - Added Restraint: Backstep, which blocks backstep
+ - Added Restraint: Jump, which blocks jumping
+ - Added Restraint: Sprint, which blocks sprinting
+ - Added Restraint: Run, which blocks running (and sprinting)
+ 
 # General
 - Added i-frames to Backstep.
 - Added Curse inflict as a visible value in the menu to weapons that have it.
@@ -386,3 +395,7 @@ Relic of Swiftness
 Relic of Protection
 Relic of Eternity
 Relic of Santification
+
+
+    
+    
