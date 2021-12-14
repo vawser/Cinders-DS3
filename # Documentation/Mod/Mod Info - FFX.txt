@@ -320,6 +320,20 @@ dmy:
 
 899000 Bubble Wall
 
+900000 Blood Corruption
+900100 Great Blood Corruption (Projectile)
+900200 Great Blood Corruption (Impact)
+
+901000 Soul Instability
+
+902000 Gale Force
+
+903000 Slicing Wind
+
+904000 Cyclone Blast (Projectile)
+904100 Cyclone Blast (Impact)
+904200 Explosive Cyclone Blast
+
 #------------------------
 # Frostfall
 #------------------------

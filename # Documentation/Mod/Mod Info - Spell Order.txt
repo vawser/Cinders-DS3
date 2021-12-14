@@ -50,6 +50,9 @@ Focused Crystal Hail 111901
 Orbs of Judgment 112000
 Swift Orbs of Judgment 112001
 
+Soul Instability 112050
+Lingering Soul Instability 112051
+
 Crystal Storm 112100
 Repeating Crystal Storm 112101
 
@@ -333,8 +336,14 @@ Repeating Proof of a Pact 132101
 Ghostly Assault 132200
 Extended Ghostly Assault 132201
 
+Slicing Wind 132210
+Swift Slicing Wind 132211
+
 Blast Wave 132225
 Distant Blast Wave 132226
+
+Squall 132231
+Bloodthirsty Squall 132232
 
 Whirlwind 132250
 Lingering Whirlwind 132251
