@@ -541,15 +541,14 @@ def t400210_x15(goods1=2107, goods2=2108, goods3=2109, goods4=2110, goods5=2111,
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         """ State 11 """
         
+        # Soul Coalescence
+        AddTalkListData(3, 99096000, -1)
+        
         # Purchase Item
         AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15011020, -1)
         
         # Sell Item
         AddTalkListDataIf(GetEventStatus(25009813) == 0, 2, 15000012, -1)
-        
-        # Soul Sacrifice
-        AddTalkListData(3, 99096000, -1)
-        
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008140) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
         
@@ -612,7 +611,7 @@ def t400210_x15(goods1=2107, goods2=2108, goods3=2109, goods4=2110, goods5=2111,
             assert t400210_x5(text1=10112020, flag1=0, mode1=0)
             SetEventState(25008140, 0)
             return 0
-        # Soul Sacrifice
+        # Soul Coalescence
         elif GetTalkListEntryResult() == 3:
             assert t400210_x30()
             continue
@@ -709,7 +708,7 @@ def t400210_x21(z2=_, z3=_, flag1=_):
     return 0
 
 #----------------------------------------------------------
-# Soul Sacrifice
+# Soul Coalescence
 #----------------------------------------------------------
 def t400210_x30():
     c1110()
@@ -717,20 +716,35 @@ def t400210_x30():
     while True:
         ClearTalkListData()
         
-        # Sacrifice Strength
-        AddTalkListData(1, 99096010, -1)
+        # Coalesce Strength
+        AddTalkListDataIf(GetEventStatus(25009400) == 0, 1, 99096010, -1)
         
-        # Sacrifice Dexterity
-        AddTalkListData(2, 99096011, -1)
+        # Coalesce Dexterity
+        AddTalkListDataIf(GetEventStatus(25009401) == 0, 2, 99096011, -1)
         
-        # Sacrifice Intelligence
-        AddTalkListData(3, 99096012, -1)
+        # Coalesce Intelligence
+        AddTalkListDataIf(GetEventStatus(25009402) == 0, 3, 99096012, -1)
         
-        # Sacrifice Faith
-        AddTalkListData(4, 99096013, -1)
+        # Coalesce Faith
+        AddTalkListDataIf(GetEventStatus(25009403) == 0, 4, 99096013, -1)
         
-        # Sacrifice Luck
-        AddTalkListData(5, 99096014, -1)
+        # Coalesce Luck
+        AddTalkListDataIf(GetEventStatus(25009404) == 0, 5, 99096014, -1)
+        
+        # Coalescence of Strength
+        AddTalkListDataIf(GetEventStatus(25009400) == 1, 1, 99096020, -1)
+        
+        # Coalescence of Dexterity
+        AddTalkListDataIf(GetEventStatus(25009401) == 1, 2, 99096021, -1)
+        
+        # Coalescence of Intelligence
+        AddTalkListDataIf(GetEventStatus(25009402) == 1, 3, 99096022, -1)
+        
+        # Coalescence of Faith
+        AddTalkListDataIf(GetEventStatus(25009403) == 1, 4, 99096023, -1)
+        
+        # Coalescence of Luck
+        AddTalkListDataIf(GetEventStatus(25009404) == 1, 5, 99096024, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -741,77 +755,62 @@ def t400210_x30():
         # Sacrifice Strength
         if GetTalkListEntryResult() == 1:
             if GetEventStatus(25009400) == 0:
-                assert t400210_x50(99096040, 3, 99096020, 99096030, 120000, 25009400)
-            elif GetEventStatus(25009401) == 0:
-                assert t400210_x50(99096040, 3, 99096020, 99096030, 120010, 25009401)
-            elif GetEventStatus(25009402) == 0:
-                assert t400210_x50(99096040, 3, 99096020, 99096030, 120020, 25009401)
-            elif GetEventStatus(25009403) == 0:
-                assert t400210_x50(99096040, 3, 99096020, 99096030, 120030, 25009401)
-            elif GetEventStatus(25009404) == 0:
-                assert t400210_x50(99096040, 3, 99096020, 99096030, 120040, 25009401)
-            else:
-                assert t400210_x52(99096050)
+                if ComparePlayerStatus(3, 4, 99) == 1:
+                    assert t400210_x50(25009400)
+                else:
+                    # Lack stats
+                    OpenGenericDialog(1, 99096040, 0, 0, 0)
+            elif GetEventStatus(25009400) == 1:
+                # Completed, show bonus
+                OpenGenericDialog(1, 99096050, 0, 0, 0)
             return 0
         # Sacrifice Dexterity
         elif GetTalkListEntryResult() == 2:
-            if GetEventStatus(25009410) == 0:
-                assert t400210_x50(99096041, 4, 99096021, 99096031, 120100, 25009410)
-            elif GetEventStatus(25009411) == 0:
-                assert t400210_x50(99096041, 4, 99096021, 99096031, 120110, 25009411)
-            elif GetEventStatus(25009412) == 0:
-                assert t400210_x50(99096041, 4, 99096021, 99096031, 120120, 25009411)
-            elif GetEventStatus(25009413) == 0:
-                assert t400210_x50(99096041, 4, 99096021, 99096031, 120130, 25009411)
-            elif GetEventStatus(25009414) == 0:
-                assert t400210_x50(99096041, 4, 99096021, 99096031, 120140, 25009411)
-            else:
-                assert t400210_x52(99096051)
+            if GetEventStatus(25009401) == 0:
+                if ComparePlayerStatus(4, 4, 99) == 1:
+                    assert t400210_x50(25009401)
+                else:
+                    # Lack stats
+                    OpenGenericDialog(1, 99096041, 0, 0, 0)
+            elif GetEventStatus(25009401) == 1:
+                # Completed, show bonus
+                OpenGenericDialog(1, 99096051, 0, 0, 0)
             return 0
         # Sacrifice Intelligence
         elif GetTalkListEntryResult() == 3:
-            if GetEventStatus(25009420) == 0:
-                assert t400210_x50(99096042, 5, 99096022, 99096032, 120200, 25009420)
-            elif GetEventStatus(25009421) == 0:
-                assert t400210_x50(99096042, 5, 99096022, 99096032, 120210, 25009421)
-            elif GetEventStatus(25009422) == 0:
-                assert t400210_x50(99096042, 5, 99096022, 99096032, 120220, 25009421)
-            elif GetEventStatus(25009423) == 0:
-                assert t400210_x50(99096042, 5, 99096022, 99096032, 120230, 25009421)
-            elif GetEventStatus(25009424) == 0:
-                assert t400210_x50(99096042, 5, 99096022, 99096032, 120240, 25009421)
-            else:
-                assert t400210_x52(99096052)
+            if GetEventStatus(25009402) == 0:
+                if ComparePlayerStatus(5, 4, 99) == 1:
+                    assert t400210_x50(25009402)
+                else:
+                    # Lack stats
+                    OpenGenericDialog(1, 99096042, 0, 0, 0)
+            elif GetEventStatus(25009402) == 1:
+                # Completed, show bonus
+                OpenGenericDialog(1, 99096052, 0, 0, 0)
             return 0
         # Sacrifice Faith
         elif GetTalkListEntryResult() == 4:
-            if GetEventStatus(25009430) == 0:
-                assert t400210_x50(99096043, 6, 99096023, 99096033, 120300, 25009430)
-            elif GetEventStatus(25009431) == 0:
-                assert t400210_x50(99096043, 6, 99096023, 99096033, 120310, 25009431)
-            elif GetEventStatus(25009432) == 0:
-                assert t400210_x50(99096043, 6, 99096023, 99096033, 120320, 25009431)
-            elif GetEventStatus(25009433) == 0:
-                assert t400210_x50(99096043, 6, 99096023, 99096033, 120330, 25009431)
-            elif GetEventStatus(25009434) == 0:
-                assert t400210_x50(99096043, 6, 99096023, 99096033, 120340, 25009431)
-            else:
-                assert t400210_x52(99096053)
+            if GetEventStatus(25009403) == 0:
+                if ComparePlayerStatus(6, 4, 99) == 1:
+                    assert t400210_x50(25009403)
+                else:
+                    # Lack stats
+                    OpenGenericDialog(1, 99096043, 0, 0, 0)
+            elif GetEventStatus(25009403) == 1:
+                # Completed, show bonus
+                OpenGenericDialog(1, 99096053, 0, 0, 0)
             return 0
         # Sacrifice Luck
         elif GetTalkListEntryResult() == 5:
-            if GetEventStatus(25009440) == 0:
-                assert t400210_x50(99096044, 7, 99096024, 99096034, 120400, 25009440)
-            elif GetEventStatus(25009441) == 0:
-                assert t400210_x50(99096044, 7, 99096024, 99096034, 120410, 25009441)
-            elif GetEventStatus(25009442) == 0:
-                assert t400210_x50(99096044, 7, 99096024, 99096034, 120420, 25009441)
-            elif GetEventStatus(25009443) == 0:
-                assert t400210_x50(99096044, 7, 99096024, 99096034, 120430, 25009441)
-            elif GetEventStatus(25009444) == 0:
-                assert t400210_x50(99096044, 7, 99096024, 99096034, 120440, 25009441)
-            else:
-                assert t400210_x52(99096054)
+            if GetEventStatus(25009404) == 0:
+                if ComparePlayerStatus(7, 4, 99) == 1:
+                    assert t400210_x50(25009404)
+                else:
+                    # Lack stats
+                    OpenGenericDialog(1, 99096044, 0, 0, 0)
+            elif GetEventStatus(25009404) == 1:
+                # Completed, show bonus
+                OpenGenericDialog(1, 99096054, 0, 0, 0)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
@@ -819,21 +818,22 @@ def t400210_x30():
 #----------------------------------------------------------
 # Utility
 #----------------------------------------------------------    
-def t400210_x50(sacrifice_text=_, stat=_, lack_text=_, essence_text=_, itemlot=_, level_flag=_):
-    call = t400210_x51(sacrifice_text)
+def t400210_x50(flag=_):
+    SetAquittalCostMessageTag(500, 1)
+
+    call = t400210_x51(99096031)
     
     if call.Get() == 0:
-        if ComparePlayerStatus(stat, 4, 60) == 0:
+        if ComparePlayerAcquittalPrice(500, 1, 2) == 1:
         
-            # Insufficient level
-            assert t400210_x52(lack_text)
+            # Insufficient souls
+            assert t400210_x52(10010754)
         else:
-            ChangePlayerStats(stat, 5, 1)
-            GetItemFromItemLot(itemlot)
-            SetEventState(level_flag, 1)
+            SubtractAcquittalCostFromPlayerSouls(500, 1)
+
+            SetEventState(flag, 1)
             
-            # Essence bestowed
-            assert t400210_x52(essence_text)
+            OpenGenericDialog(1, 99096030, 0, 0, 0)
     elif call.Get() == 1:
         pass
         

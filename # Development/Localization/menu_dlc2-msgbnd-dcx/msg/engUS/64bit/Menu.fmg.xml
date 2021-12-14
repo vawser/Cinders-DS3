@@ -4916,41 +4916,43 @@ Can be reset via Request Absolution.</text>
 <text id="99095204">You will no longer be able to jump.</text>
 <text id="99095205">You will no longer be able to kick.</text>
 
-<text id="99096000">Soul Sacrifice</text>
-<text id="99096010">Sacrifice Strength</text>
-<text id="99096011">Sacrifice Dexterity</text>
-<text id="99096012">Sacrifice Intelligence</text>
-<text id="99096013">Sacrifice Faith</text>
-<text id="99096014">Sacrifice Luck</text>
+<text id="99096000">Soul Coalescence</text>
+<text id="99096010">Coalesce Strength</text>
+<text id="99096011">Coalesce Dexterity</text>
+<text id="99096012">Coalesce Intelligence</text>
+<text id="99096013">Coalesce Faith</text>
+<text id="99096014">Coalesce Luck</text>
 
-<text id="99096020">You must have atleast 60 Strength.</text>
-<text id="99096021">You must have atleast 60 Dexterity.</text>
-<text id="99096022">You must have atleast 60 Intelligence.</text>
-<text id="99096023">You must have atleast 60 Faith.</text>
-<text id="99096024">You must have atleast 60 Luck.</text>
+<text id="99096020">Coalescence of Strength</text>
+<text id="99096021">Coalescence of Dexterity</text>
+<text id="99096022">Coalescence of Intelligence</text>
+<text id="99096023">Coalescence of Faith</text>
+<text id="99096024">Coalescence of Luck</text>
 
-<text id="99096030">Essence of Strength bestowed.</text>
-<text id="99096031">Essence of Dexterity bestowed.</text>
-<text id="99096032">Essence of Intelligence bestowed.</text>
-<text id="99096033">Essence of Faith bestowed.</text>
-<text id="99096034">Essence of Luck bestowed.</text>
+<text id="99096030">Coalescence complete.</text>
+<text id="99096031">Begin coalescence?</text>
 
-<text id="99096040">Sacrifice Strength?
-You will be set to 1 Strength.</text>
-<text id="99096041">Sacrifice Dexterity?
-You will be set to 1 Dexterity.</text>
-<text id="99096042">Sacrifice Intelligence?
-You will be set to 1 Intelligence.</text>
-<text id="99096043">Sacrifice Faith?
-You will be set to 1 Faith.</text>
-<text id="99096044">Sacrifice Luck?
-You will be set to 1 Luck.</text>
+<text id="99096040">You must have 99 Strength to coalesce.</text>
+<text id="99096041">You must have 99 Dexterity to coalesce.</text>
+<text id="99096042">You must have 99 Intelligence to coalesce.</text>
+<text id="99096043">You must have 99 Faith to coalesce.</text>
+<text id="99096044">You must have 99 Luck to coalesce.</text>
 
-<text id="99096050">Maximum Essence of Strength already bestowed.</text>
-<text id="99096051">Maximum Essence of Dexterity already bestowed.</text>
-<text id="99096052">Maximum Essence of Intelligence already bestowed.</text>
-<text id="99096053">Maximum Essence of Faith already bestowed.</text>
-<text id="99096054">Maximum Essence of Luck already bestowed.</text>
+<text id="99096050">Coalescence of Strength
+
+Grants you a boon, boosting maximum equipment load by 30%.</text>
+<text id="99096051">Coalescence of Dexterity
+
+Grants you a boon, boosting max Stamina by 30%.</text>
+<text id="99096052">Coalescence of Intelligence
+
+Grants you a boon, boosting max FP by 30%.</text>
+<text id="99096053">Coalescence of Faith
+
+Grants you a boon, boosting max HP by 30%.</text>
+<text id="99096054">Coalescence of Luck
+
+Grants you a boon, boosting soul absorption by 30%.</text>
 
 </entries>
 </fmg>

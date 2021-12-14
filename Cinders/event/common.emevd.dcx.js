@@ -37,7 +37,7 @@ Event(0, Default, function() {
     InitializeEvent(0, 20400, 0); // Setup
     
     //--------------------
-    // Soul Sacrifice
+    // Soul Coalescence
     //--------------------
     InitializeEvent(0, 20500, 0);
     
@@ -6248,215 +6248,38 @@ Event(20400, Restart, function() {
 });
 
 //----------------------------------------------
-// Setup Soul Sacrifice
+// Setup Soul Coalescence
 //----------------------------------------------
 Event(20500, Restart, function() {
-    InitializeEvent(0, 20501, 0); // Strength
-    InitializeEvent(0, 20502, 0); // Dexterity
-    InitializeEvent(0, 20503, 0); // Intelligence
-    InitializeEvent(0, 20504, 0); // Faith
-    InitializeEvent(0, 20505, 0); // Luck
+     // Strength
+    InitializeEvent(0, 20510, 25009400, 260130000);
+    
+    // Dexterity
+    InitializeEvent(1, 20510, 25009401, 260130010);
+    
+    // Intelligence
+    InitializeEvent(2, 20510, 25009402, 260130020);
+    
+    // Faith
+    InitializeEvent(3, 20510, 25009403, 260130030);
+    
+    // Luck
+    InitializeEvent(4, 20510, 25009404, 260130040);
 });
 
 //----------------------------------------------
-// Strength Sacrifice
+// Coalescence
 //----------------------------------------------
-Event(20501, Restart, function() {
+Event(20510, Restart, function(X0_4, X4_4) {
     SetNetworkSyncState(Disabled);
 
-    // 1
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 5100, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_01);
-    SetSpEffect(10000, 260130000);
-    SetEventFlag(25009400, ON);
+    // ON
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, X0_4);
+    SetSpEffect(10000, X4_4);
     
-    // 2
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, 5101, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    SetSpEffect(10000, 260130001);
-    SetEventFlag(25009401, ON);
-    
-    // 3
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_03, ItemType.Goods, 5102, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
-    SetSpEffect(10000, 260130002);
-    SetEventFlag(25009402, ON);
-    
-    // 4
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_04, ItemType.Goods, 5103, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_04);
-    SetSpEffect(10000, 260130003);
-    SetEventFlag(25009403, ON);
-    
-    // 5
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_05, ItemType.Goods, 5104, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_05);
-    SetSpEffect(10000, 260130004);
-    SetEventFlag(25009404, ON);
-    
-    WaitFixedTimeSeconds(1.0);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Dexterity  Sacrifice
-//----------------------------------------------
-Event(20502, Restart, function() {
-    SetNetworkSyncState(Disabled);
-
-    // 1
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 5110, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_01);
-    SetSpEffect(10000, 260130010);
-    SetEventFlag(25009410, ON);
-    
-    // 2
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, 5111, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    SetSpEffect(10000, 260130011);
-    SetEventFlag(25009411, ON);
-    
-    // 3
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_03, ItemType.Goods, 5112, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
-    SetSpEffect(10000, 260130012);
-    SetEventFlag(25009412, ON);
-    
-    // 4
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_04, ItemType.Goods, 5113, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_04);
-    SetSpEffect(10000, 260130013);
-    SetEventFlag(25009413, ON);
-    
-    // 5
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_05, ItemType.Goods, 5114, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_05);
-    SetSpEffect(10000, 260130014);
-    SetEventFlag(25009414, ON);
-    
-    WaitFixedTimeSeconds(1.0);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Intelligence Sacrifice
-//----------------------------------------------
-Event(20503, Restart, function() {
-    SetNetworkSyncState(Disabled);
-
-    // 1
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 5120, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_01);
-    SetSpEffect(10000, 260130020);
-    SetEventFlag(25009420, ON);
-    
-    // 2
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, 5121, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    SetSpEffect(10000, 260130021);
-    SetEventFlag(25009421, ON);
-    
-    // 3
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_03, ItemType.Goods, 5122, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
-    SetSpEffect(10000, 260130022);
-    SetEventFlag(25009422, ON);
-    
-    // 4
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_04, ItemType.Goods, 5123, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_04);
-    SetSpEffect(10000, 260130023);
-    SetEventFlag(25009423, ON);
-    
-    // 5
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_05, ItemType.Goods, 5124, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_05);
-    SetSpEffect(10000, 260130024);
-    SetEventFlag(25009424, ON);
-
-    WaitFixedTimeSeconds(1.0);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Faith Sacrifice
-//----------------------------------------------
-Event(20504, Restart, function() {
-    SetNetworkSyncState(Disabled);
-
-    // 1
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 5130, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_01);
-    SetSpEffect(10000, 260130030);
-    SetEventFlag(25009430, ON);
-    
-    // 2
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, 5131, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    SetSpEffect(10000, 260130031);
-    SetEventFlag(25009431, ON);
-    
-    // 3
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_03, ItemType.Goods, 5132, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
-    SetSpEffect(10000, 260130032);
-    SetEventFlag(25009432, ON);
-    
-    // 4
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_04, ItemType.Goods, 5133, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_04);
-    SetSpEffect(10000, 260130033);
-    SetEventFlag(25009433, ON);
-    
-    // 5
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_05, ItemType.Goods, 5134, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_05);
-    SetSpEffect(10000, 260130034);
-    SetEventFlag(25009434, ON);
-    
-    WaitFixedTimeSeconds(1.0);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//----------------------------------------------
-// Luck Sacrifice
-//----------------------------------------------
-Event(20505, Restart, function() {
-    SetNetworkSyncState(Disabled);
-
-    // 1
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 5140, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_01);
-    SetSpEffect(10000, 260130040);
-    SetEventFlag(25009440, ON);
-    
-    // 2
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, 5141, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    SetSpEffect(10000, 260130041);
-    SetEventFlag(25009441, ON);
-    
-    // 3
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_03, ItemType.Goods, 5142, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
-    SetSpEffect(10000, 260130042);
-    SetEventFlag(25009442, ON);
-    
-    // 4
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_04, ItemType.Goods, 5143, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_04);
-    SetSpEffect(10000, 260130043);
-    SetEventFlag(25009443, ON);
-    
-    // 5
-    IfPlayerHasdoesntHaveItemIncludingBbox(AND_05, ItemType.Goods, 5144, OwnershipState.Owns);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_05);
-    SetSpEffect(10000, 260130044);
-    SetEventFlag(25009444, ON);
+    // OFF
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, X0_4);
+    ClearSpEffect(10000, X4_4);
     
     WaitFixedTimeSeconds(1.0);
     
