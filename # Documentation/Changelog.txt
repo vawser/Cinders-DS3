@@ -146,6 +146,20 @@ Finish following weapons:
  - Added Restraint: Run, which blocks running (and sprinting)
  - Added Restraint: Kick, which blocks kicking
  
+# Soul Sacrifice
+- Shrine Handmaiden can now consume your levels in exchange for permanent bonuses. You can sacrifice:
+ - Strength: boost equipment load by 20%. Can be applied 5 times.
+ - Dexterity: reduce weapon stamina consumption by 10%. Can be applied 5 times.
+ - Intelligence: reduce spell FP costs by 10%. Can be applied 5 times.
+ - Faith: boosts effectiveness of HP restoration by 20%. Can be applied 5 times.
+ - Luck: boosts soul absorption by 20%. Can be applied 5 times.
+
+- Sacrificing a stat will set your level in that stat back to 1 and give you an 'Essence of X: Y' item, where X is the stat and Y is the rank.
+ - This item gives you the bonus, and allows it to persist into NG+.
+
+# Masteries
+- Masteries have been removed. Replaced with Soul Sacrifice.
+ 
 # General
 - Added i-frames to Backstep.
 - Added Curse inflict as a visible value in the menu to weapons that have it.

@@ -2036,16 +2036,42 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25009120 Princess Yngvil - Talk trigger
 
-25009400 Reset Masteries 
-25009401 Attunement Mastery
-25009402 Endurance Mastery
-25009403 Vitality Mastery
-25009404 Strength Mastery
-25009405 Dexterity Mastery
-25009406 Intelligence Mastery
-25009407 Faith Mastery
-25009408 Luck Mastery
+#------------------------
+# Soul Sacrifice
+#------------------------
+25009400 Strength Sacrifice 1
+25009401 Strength Sacrifice 2
+25009402 Strength Sacrifice 3
+25009403 Strength Sacrifice 4
+25009404 Strength Sacrifice 5
 
+25009410 Dexterity Sacrifice 1
+25009411 Dexterity Sacrifice 2
+25009412 Dexterity Sacrifice 3
+25009413 Dexterity Sacrifice 4
+25009414 Dexterity Sacrifice 5
+
+25009420 Intelligence Sacrifice 1
+25009421 Intelligence Sacrifice 2
+25009422 Intelligence Sacrifice 3
+25009423 Intelligence Sacrifice 4
+25009424 Intelligence Sacrifice 5
+
+25009430 Faith Sacrifice 1
+25009431 Faith Sacrifice 2
+25009432 Faith Sacrifice 3
+25009433 Faith Sacrifice 4
+25009434 Faith Sacrifice 5
+
+25009440 Luck Sacrifice 1
+25009441 Luck Sacrifice 2
+25009442 Luck Sacrifice 3
+25009443 Luck Sacrifice 4
+25009444 Luck Sacrifice 5
+
+#------------------------
+#
+#------------------------
 25009520 Magnum Ursus - Dark Soul turn-in
 
 25009530 Tortured Soul turn-in

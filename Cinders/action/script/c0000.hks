@@ -1698,11 +1698,6 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     local shatter_chance = 0
     local roll = math.random(0, 100)
     
-    -- Luck Mastery
-    if env(1116, 112401) == TRUE then
-        shatter_chance = shatter_chance + 5
-    end
-    
     -- Old Man's Gambit
     if IsOldMansGambit() == TRUE then
         -- Add chance for current ring

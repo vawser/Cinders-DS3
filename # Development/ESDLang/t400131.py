@@ -36,9 +36,6 @@ def t400131_x1(weapon1=6260000, weapon2=6280000):
         assert t400131_x2(weapon1=weapon1, weapon2=weapon2)
         """ State 2 """
         
-        # Masteries
-        AddTalkListDataIf(DoesPlayerHaveSpEffect(160700460) == 0, 20, 99061000, -1)
-        
         # Transpose
         AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15003000, 74000171)
         
@@ -57,10 +54,6 @@ def t400131_x1(weapon1=6260000, weapon2=6280000):
         elif GetTalkListEntryResult() == 3:
             """ State 8,9 """
             assert t400131_x0(weapon1=weapon1, weapon2=weapon2)
-        # Masteries
-        elif GetTalkListEntryResult() == 20:
-            assert t400131_x40()
-            continue
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 6,11 """
             return 0
@@ -254,123 +247,3 @@ def t400131_x13(z1=2135, z2=390):
 def t400131_x14():
     """ State 0 """
 
-# Masteries
-def t400131_x40():
-    c1110()
-    while True:
-        ClearTalkListData()
-
-        # Attunement
-        AddTalkListData(2, 99061011, -1)
-        
-        # Endurnace
-        AddTalkListData(3, 99061012, -1)
-        
-        # Vitality
-        AddTalkListData(4, 99061013, -1)
-        
-        # Strength
-        AddTalkListData(5, 99061014, -1)
-        
-        # Dexterity
-        AddTalkListData(6, 99061015, -1)
-        
-        # Intelligence
-        AddTalkListData(7, 99061016, -1)
-        
-        # Faith
-        AddTalkListData(8, 99061017, -1)
-        
-        # Luck
-        AddTalkListData(9, 99061018, -1)
-               
-        # Return
-        AddTalkListData(99, 15000005, -1)
-        
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-        ShowShopMessage(1)
-        
-        # Attunement
-        if GetTalkListEntryResult() == 2:
-            assert t400131_x41(1, 99061021, 99061031, 99061041, 25009401)
-            continue
-        # Endurance
-        elif GetTalkListEntryResult() == 3:
-            assert t400131_x41(2, 99061022, 99061032, 99061042, 25009402)
-            continue
-        # Vitality
-        elif GetTalkListEntryResult() == 4:
-            assert t400131_x41(0, 99061023, 99061033, 99061043, 25009403)
-            continue
-        # Strength
-        elif GetTalkListEntryResult() == 5:
-            assert t400131_x41(3, 99061024, 99061034, 99061044, 25009404)
-            continue
-        # Dexterity
-        elif GetTalkListEntryResult() == 6:
-            assert t400131_x41(4, 99061025, 99061035, 99061045, 25009405)
-            continue
-        # Intelligence
-        elif GetTalkListEntryResult() == 7:
-            assert t400131_x41(5, 99061026, 99061036, 99061046, 25009406)
-            continue
-        # Faith
-        elif GetTalkListEntryResult() == 8:
-            assert t400131_x41(6, 99061027, 99061037, 99061047, 25009407)
-            continue
-        # Luck
-        elif GetTalkListEntryResult() == 9:
-            assert t400131_x41(7, 99061028, 99061038, 99061048, 25009408)
-            continue
-        # Return
-        elif GetTalkListEntryResult() == 99:
-            ReportConversationEndToHavokBehavior()
-            return 0
-        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
-            return 0
-            
-# Mastery
-def t400131_x41(checked_stat=_, summary_text=_, invalid_stat_text=_, valid_stat_text=_, mastery_flag=_):
-    c1110()
-    while True:
-        ClearTalkListData()
-       
-        # Summary
-        AddTalkListData(1, 99061001, -1)
-        
-        # Enable
-        AddTalkListDataIf(GetEventStatus(mastery_flag) == 0, 2, 99061002, -1)
-        
-        # Disable
-        AddTalkListDataIf(GetEventStatus(mastery_flag) == 1, 3, 99061003, -1)
-        
-        # Return
-        AddTalkListData(99, 15000005, -1)
-        
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-        ShowShopMessage(1)
-        
-        # Summary
-        if GetTalkListEntryResult() == 1:
-            OpenGenericDialog(1, summary_text, 0, 0, 0)
-            continue
-        # Enable
-        elif GetTalkListEntryResult() == 2:
-            if ComparePlayerStatus(checked_stat, 0, 99) == 1:
-                OpenGenericDialog(1, valid_stat_text, 0, 0, 0)
-                SetEventState(mastery_flag, 1)
-            else:
-                OpenGenericDialog(1, invalid_stat_text, 0, 0, 0)
-            continue
-        # Enable (Active)
-        elif GetTalkListEntryResult() == 3:
-            OpenGenericDialog(1, 99061050, 0, 0, 0)
-            SetEventState(mastery_flag, 0)
-            continue
-        # Return
-        elif GetTalkListEntryResult() == 99:
-            ReportConversationEndToHavokBehavior()
-            return 0
-        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
-            return 0
-         
