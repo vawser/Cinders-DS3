@@ -3974,6 +3974,34 @@
 109575120 [Pyromancy] Bubble Prison
 109575130 [Pyromancy] Bubble Prison
 109575140 [Pyromancy] Bubble Prison [Hit]
+109576000 [Sorcery] Soul Instability
+109576010 [Sorcery] Soul Instability
+109576020 [Sorcery] Soul Instability [Hit]
+109576100 [Sorcery] Lingering Soul Instability
+109576110 [Sorcery] Lingering Soul Instability
+109576120 [Sorcery] Lingering Soul Instability [Hit]
+109577000 [Miracle] Squall
+109577010 [Miracle] Squall
+109577020 [Miracle] Squall [Hit]
+109577100 [Miracle] Bloodthirsty Squall
+109577110 [Miracle] Bloodthirsty Squall
+109577120 [Miracle] Bloodthirsty Squall [Hit]
+109578000 [Miracle] Slicing Wind
+109578100 [Miracle] Swift Slicing Wind
+109579000 [Miracle] Gale Force
+109579100 [Miracle] Weakening Gale Force
+109580000 [Miracle] Cyclone Blast
+109580100 [Miracle] Explosive Cyclone Blast [Hit]
+109580110 [Miracle] Explosive Cyclone Blast
+109580120 [Miracle] Explosive Cyclone Blast [Hit]
+109581000 [Miracle] Static Field
+109581010 [Miracle] Static Field [Hit]
+109581100 [Miracle] Lingering Static Field
+109581110 [Miracle] Lingering Static Field [Hit]
+109582000 [Miracle] Blood Corruption
+109582010 [Miracle] Blood Corruption [Hit]
+109582100 [Miracle] Great Blood Corruption
+109582110 [Miracle] Great Blood Corruption [Hit]
 109999999 ### Spell Summons ###
 110000000 Conjure Skeleton
 110000100 Conjure Hollow

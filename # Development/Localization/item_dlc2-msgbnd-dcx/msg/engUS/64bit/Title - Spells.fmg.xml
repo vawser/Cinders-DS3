@@ -1191,6 +1191,8 @@
 <text id="1810010">Soul Explosion</text>
 <text id="1811000">Crystal Orb</text>
 <text id="1811010">Explosive Crystal Orb</text>
+<text id="1812000">Soul Instability</text>
+<text id="1812010">Lingering Soul Instability</text>
 <text id="2400000">Fireball</text>
 <text id="2400010">Incendiary Fireball</text>
 <text id="2402000">Fire Orb</text>
@@ -1369,6 +1371,16 @@
 <text id="3824010">Lingering Whirlwind</text>
 <text id="3825000">Blast Wave</text>
 <text id="3825010">Distant Blast Wave</text>
+<text id="3826000">Squall</text>
+<text id="3826010">Bloodthirsty Squall</text>
+<text id="3827000">Slicing Wind</text>
+<text id="3827010">Swift Slicing Wind</text>
+<text id="3828000">Gale Force</text>
+<text id="3828010">Weakening Gale Force</text>
+<text id="3829000">Cyclone Blast</text>
+<text id="3829010">Explosive Cyclone Blast</text>
+<text id="3830000">Static Field</text>
+<text id="3830010">Lingering Static Field</text>
 <text id="4100000">Deep Barb</text>
 <text id="4100010">Bloodthirsty Deep Barb</text>
 <text id="4101000">Deep Soul</text>
@@ -1459,5 +1471,7 @@
 <text id="4317010">Lingering Blood Orb</text>
 <text id="4318000">Black Star</text>
 <text id="4318010">Adjacent Black Star</text>
+<text id="4319000">Blood Corruption</text>
+<text id="4319010">Great Blood Corruption</text>
 </entries>
 </fmg>

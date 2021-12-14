@@ -185,6 +185,10 @@
 1811006 Crystal Orb [Luck]
 1811010 Explosive Crystal Orb
 1811016 Explosive Crystal Orb [Luck]
+1812000 Soul Instability
+1812006 Soul Instability [Luck]
+1812010 Lingering Soul Instability
+1812016 Lingering Soul Instability [Luck]
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400006 Fireball [Luck]
@@ -567,6 +571,26 @@
 3825006 Blast Wave [Luck]
 3825010 Distant Blast Wave
 3825016 Distant Blast Wave [Luck]
+3826000 Squall
+3826006 Squall [Luck]
+3826010 Bloodthirsty Squall
+3826016 Bloodthirsty Squall [Luck]
+3827000 Slicing Wind
+3827006 Slicing Wind [Luck]
+3827010 Swift Slicing Wind
+3827016 Swift Slicing Wind [Luck]
+3828000 Gale Force
+3828006 Gale Force [Luck]
+3828010 Weakening Gale Force
+3828016 Weakening Gale Force [Luck]
+3829000 Cyclone Blast
+3829006 Cyclone Blast [Luck]
+3829010 Explosive Cyclone Blast
+3829016 Explosive Cyclone Blast [Luck]
+3830000 Static Field
+3830006 Static Field [Luck]
+3830010 Lingering Static Field
+3830016 Lingering Static Field [Luck]
 4099999 ### Hexes ###
 4100000 Deep Barb
 4100006 Deep Barb [Luck]
@@ -748,4 +772,8 @@
 4318006 Black Star [Luck]
 4318010 Adjacent Black Star
 4318016 Adjacent Black Star [Luck]
+4319000 Blood Corruption
+4319006 Blood Corruption [Luck]
+4319010 Great Blood Corruption
+4319016 Great Blood Corruption [Luck]
 5200000 ### Below are NPC versions of the above spells

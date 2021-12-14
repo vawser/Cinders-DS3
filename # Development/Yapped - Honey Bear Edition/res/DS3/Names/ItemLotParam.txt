@@ -555,6 +555,7 @@
 80450 [Sorcery] Refined Teleport
 80460 [Sorcery] Soul Explosion
 80470 [Sorcery] Explosive Crystal Orb
+80480 [Sorcery] Lingering Soul Instability
 81000 [Pyromancy] Incendiary Fireball
 81010 [Pyromancy] Weakening Fire Orb
 81020 [Pyromancy] Homing Chaos Fire Orb
@@ -642,6 +643,11 @@
 82430 [Miracle] Lingering Lightning Orb
 82440 [Miracle] Lingering Whirlwind
 82450 [Miracle] Distant Blast Wave
+82460 [Miracle] Bloodthirsty Squall
+82470 [Miracle] Swift Slicing Wind
+82480 [Miracle] Weakening Gale Force
+82481 [Miracle] Explosive Cyclone Blast
+82482 [Miracle] Lingering Static Field
 83000 [Hex] Bloodthirsty Deep Barb
 83010 [Hex] Deep Overflow
 83020 [Hex] Weakening Deep Soul
@@ -687,11 +693,13 @@
 83420 [Hex] Bloodthirsty Sacrifice
 83430 [Hex] Bloodthirsty Resonance
 83440 [Hex] Lingering Blood Orb
+83450 [Hex] Great Blood Corruption
 89999 ### Script - Relationship
 90000 [Gift - Karla] Yearning Dregs
 90010 [Gift - Fire Keeper] Divine Blessing
 90020 [Gift - Bonk Jail] Bloodthirsty Dung
-90021 [Gift - Bonk Jail] Brightbug
+90021 [Gift - Bonk Jail] Blood Corruption
+90022 [Gift - Bonk Jail] Brightbug
 90030 [Gift - Rosaria] Brightbug
 90040 [Gift - Archdeacon McDonnell] Abyssal Fragment
 90050 [Gift - Company Captain Yorshka] Hidden Blessing
@@ -719,11 +727,12 @@
 90240 [Gift - Occultist Grudore] Moonflower
 90250 [Gift - Erstwhile George] Awestone
 91000 [Script] Ring of Betrothal
-99999 ### Script - Challenges
-100000 Relic of Power
-100010 Relic of Insanity
-100020 Relic of Legends
-100030 Relic of Myths
+99999 ### Script - Achievements
+100000 Relic of Swiftness
+100010 Relic of Protection
+100020 Relic of Eternity
+100030 Relic of Sanctification
+100040 Titanite Slab
 109999 ### Script - Memories
 110000 [Memory of Endurance - Easy] Titanite Shard
 110010 [Memory of Endurance - Normal] Large Titanite Shard
@@ -881,7 +890,7 @@
 3010160 [Corpse] Large Soul of a Nameless Soldier
 3010161 [Corpse] Bloodred Moss Clump
 3010170 [Corpse] Large Soul of a Nameless Soldier
-3010171 [Corpse] Radiant Lifegem
+3010171 [Corpse] Cyclone Blast
 3010180 [Corpse] Soul of a Weary Warrior
 3010181 [Corpse] Winged Knight Helm
 3010182 [Corpse] Winged Knight Armor
@@ -1243,6 +1252,7 @@
 3300341 [Corpse] Human Pine Resin
 3300350 [Corpse] Soul of a Crestfallen Knight
 3300351 [Corpse] Dragon Crest Shield
+3300352 [Corpse] Slicing Wind
 3300360 [Corpse] Soul of an Unknown Traveler
 3300361 [Corpse] Witching Urn
 3300370 [Corpse] Soul of a Nameless Soldier
