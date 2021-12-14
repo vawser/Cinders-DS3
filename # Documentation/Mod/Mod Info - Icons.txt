@@ -273,10 +273,10 @@
 266 Divine Spear Fragment
 267 Young Grass Dew
 268 Banishing Ritual
-269 Holy Flame
-270 Pursuing Soul (Unassigned)
-271 Great Pursuing Soul (Unassigned)
-272 Abyssal Burst (Unassigned)
+269 Squall
+270 Slicing Wind
+271 Gale Force
+272 Cyclone Blast
 273 Dark Pyromancy Flame (Unassigned)
 274 Censuring Palm
 275 Blast Wave
@@ -1460,9 +1460,9 @@
 # BLOCK 4
 #------------------------
 4000 Soul Arrow
-4001 Great Soul Arrow (Unassigned)
-4002 Heavy Soul Arrow (Unassigned)
-4003 Great Heavy Soul Arrow (Unassigned)
+4001 Soul Instability
+4002 Static Field
+4003 Blood Corruption
 4004 Homing Soulmass
 4005 Homing Crystal Soulmass
 4006 Soul Spear
