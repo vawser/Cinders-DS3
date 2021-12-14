@@ -189,7 +189,6 @@ def t350020_x8(goods1=373, goods2=728, lot1=4268, lot2=4267):
         AddTalkListDataIf(GetEventStatus(73500150, 1) == 1, 7, 15003025, -1)
         
         # Reallocate attributes
-        
         AddTalkListDataIf(GetEventStatus(6760) == 1, 3, 15027010, -1)
         
         # Alter appearance
@@ -246,7 +245,7 @@ def t350020_x8(goods1=373, goods2=728, lot1=4268, lot2=4267):
                 assert GetCurrentStateElapsedTime() > 1
                 """ State 13 """
                 c1113()
-                SetEventState(25009400, 1) # Reset Masteries
+                
                 ClearTalkActionState()
                 def ExitPause():
                     SetEventState(73500161, 0)

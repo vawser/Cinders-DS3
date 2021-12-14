@@ -147,7 +147,7 @@ Finish following weapons:
  - Added Restraint: Kick, which blocks kicking
  
 # Soul Sacrifice
-- Shrine Handmaiden can now consume your levels in exchange for permanent bonuses. You can sacrifice:
+- Shrine Handmaiden can now consume your levels in exchange for permanent bonuses. You can sacrifice at 60 in the respective stat.
  - Strength: boost equipment load by 20%. Can be applied 5 times.
  - Dexterity: reduce weapon stamina consumption by 10%. Can be applied 5 times.
  - Intelligence: reduce spell FP costs by 10%. Can be applied 5 times.
@@ -415,5 +415,5 @@ Finish following weapons:
 Add Solaire as summon to Soul of Cinder
 
 
-    
+
     
