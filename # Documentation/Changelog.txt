@@ -221,10 +221,12 @@ Finish following weapons:
 - Teleport is now a Golden Sorcery. Changed its visual effect.
 - Changed Supreme Pungent Blade to Noxious Blade, inflicts 30 Toxic on hit.
 - Changed Pulsating Blade to Myiatic Blade, inflicts 20 Bleed every second for 5 seconds. Consecutive hits do not stack.
+- Changed the damage type of several Physical spells (Standard/Strike/Slash/Thrust).
 
 - Added new spells:
  - Sorceries:
   - Crystal Orb. Dropped by the Crystal Sage in the Grand Archives.
+  - Soul Instability. Transposed from Soul of Aldrich.
  
  - Pyromancies:
   - Geyser. Sold by Cornyx after giving him the Carthus Pyromancy Tome.
@@ -235,11 +237,17 @@ Finish following weapons:
   
  - Miracles:
   - Lightning Orb. Transposed from the Soul of Dragonslayer Armour.
+  - Static Field. Sold in the Warriors of Sunlight covenant.
+  - Squall. Sold in the Dragon Remnants covenant.
+  - Slicing Wind. Found in Farron Keep.
+  - Gale Force. Sold in the Dragon Remnants covenant.
+  - Cyclone Blast. Found in Lothric Castle.
   - Whirlwind. Transposed from the Soul of the Ancient Wyvern.
   - Blast Wave. Transposed from the Soul of the Nameless King.
-  - Blood Sacrifice. Found in the Profaned Capital.
   - Blood Resonance. Sold by Karla after giving her the Deep Braille Divine Tome.
   - Blood Orb. Found in Irithyll of the Boreal Valley.
+  - Blood Corruption. Dropped by the Beast of Lust.
+  - Blood Sacrifice. Found in the Profaned Capital.
 
 - Conjuration:
  - Added Mark of Attraction:
@@ -409,13 +417,5 @@ Finish following weapons:
 #------------------------------
 Add Solaire as summon to Soul of Cinder
 
-# Harmonixer
-Finish and add new spells:
-- Soul Instability
-- Squall
-- Slicing Wind
-- Gale Force
-- Cyclone Blast
-- Static Field
-- Blood Corruption
+
     

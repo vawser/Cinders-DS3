@@ -1110,6 +1110,8 @@
 1810010 Soul Explosion
 1811000 Crystal Orb
 1811010 Explosive Crystal Orb
+1812000 Soul Instability
+1812010 Lingering Soul Instability
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400010 Incendiary Fireball
@@ -1302,6 +1304,16 @@
 3824010 Lingering Whirlwind
 3825000 Blast Wave
 3825010 Distant Blast Wave
+3826000 Squall
+3826010 Bloodthirsty Squall
+3827000 Slicing Wind
+3827010 Swift Slicing Wind
+3828000 Gale Force
+3828010 Weakening Gale Force
+3829000 Cyclone Blast
+3829010 Explosive Cyclone Blast
+3830000 Static Field
+3830010 Lingering Static Field
 4099999 ### Hexes ###
 4100000 Deep Barb
 4100010 Bloodthirsty Deep Barb
@@ -1393,3 +1405,5 @@
 4317010 Lingering Blood Orb
 4318000 Black Star
 4318010 Adjacent Black Star
+4319000 Blood Corruption
+4319010 Great Blood Corruption

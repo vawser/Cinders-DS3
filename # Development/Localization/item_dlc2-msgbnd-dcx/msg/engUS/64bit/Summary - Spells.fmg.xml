@@ -566,6 +566,8 @@
 <text id="1810010">Emit explosion of soulmasses</text>
 <text id="1811000">Cast a crystal orb that pursues the target enemy</text>
 <text id="1811010">Cast an explosive crystal orb that pursues the target enemy</text>
+<text id="1812000">Release a soul orb that creates a vortex of fierce energies</text>
+<text id="1812010">Release a lingering soul orb that creates a vortex of fierce energies</text>
 <text id="2400000">Hurl fireball</text>
 <text id="2400010">Hurl incendiary fireball</text>
 <text id="2402000">Hurl giant fire orb</text>
@@ -750,6 +752,16 @@
 <text id="3824010">Emit a lingering whirlwind of tiny razor blades that continuously shred the enemies</text>
 <text id="3825000">Compress air at range and immediately release it to cause a thunderous shockwave</text>
 <text id="3825010">Compress air at very long range and immediately release it to cause a thunderous shockwave</text>
+<text id="3826000">Emit a short burst of wind</text>
+<text id="3826010">Emit a short burst of wind</text>
+<text id="3827000">Emit wave of wind that slices enemies</text>
+<text id="3827010">Emit swift wave of wind that slices enemies</text>
+<text id="3828000">Emit wind projectile</text>
+<text id="3828010">Emit weakening wind projectile</text>
+<text id="3829000">Emit large wind blast</text>
+<text id="3829010">Emit large explosive wind blast</text>
+<text id="3830000">Cast a lightning orb that pulls enemies to it</text>
+<text id="3830010">Cast a lingering lightning orb that pulls enemies to it</text>
 <text id="4100000">Hurl darkened soul sediment</text>
 <text id="4100010">Hurl darkened soul sediment</text>
 <text id="4101000">Fire darkened soul sediment</text>
@@ -840,5 +852,7 @@
 <text id="4317010">Create an orb of your own blood which continuously emits waves of blood</text>
 <text id="4318000">Create a star that emits a beam of black fire</text>
 <text id="4318010">Create a star that emits a beam of black fire</text>
+<text id="4319000">Spew blood corrupted with parasites from one's mouth</text>
+<text id="4319010">Spew blood corrupted with parasites from one's mouth</text>
 </entries>
 </fmg>

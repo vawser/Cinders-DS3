@@ -366,6 +366,18 @@
 #---- Explosive Crystal Orb
 - Adds an area of effect explosion on impact.
 
+#--------------------------------
+# Soul Instability
+#--------------------------------
+- FP Cost: 120
+- INT Req: 50
+- Slot Use: 2
+- Magic Damage: 50 {150}
+- Base Effect: Deals damage every second for 5 seconds.
+
+#---- Lingering Soul Instability
+- Duration increased to 10 seconds.
+
 #--------------------------------------------------------------------------
 # Sorceries - Effects
 #--------------------------------------------------------------------------
@@ -1359,6 +1371,50 @@
 #---- Distant Blast Wave
 - The cast can now reach unlimited range.
 
+#--------------------------------
+# Squall
+#--------------------------------
+- FP Cost: 40
+- Physical Damage: 150 {450}
+- FTH Req: 10
+- Slot Use: 1
+
+#---- Bloodthirsty Squall
+- Gives 5 bloodthirst charges on hit.
+
+#--------------------------------
+# Slicing Wind
+#--------------------------------
+- FP Cost: 40
+- Physical Damage: 70 {210}
+- FTH Req: 10
+- Slot Use: 1
+
+#---- Swift Slicing Wind
+- Increases projectile speed to 60 m/s.
+
+#--------------------------------
+# Gale Force
+#--------------------------------
+- FP Cost: 70
+- Physical Damage: 175 {525}
+- FTH Req: 20
+- Slot Use: 1
+
+#---- Weakening Gale Force
+- Impact reduces the Physical absorption of the target by 10% for 5 seconds.
+
+#--------------------------------
+# Cyclone Blast
+#--------------------------------
+- FP Cost: 100
+- Physical Damage: 250 {750}
+- FTH Req: 30
+- Slot Use: 2
+
+#---- Explosive Cyclone Blast
+- Adds an area of effect explosion on impact.
+
 #--------------------------------------------------------------------------
 # Miracles - Effects
 #--------------------------------------------------------------------------
@@ -1595,6 +1651,17 @@
 
 #---- Lingering Perseverance
 - Increases duration to 120 seconds.
+
+#--------------------------------
+# Static Field
+#--------------------------------
+- FP Cost: 80
+- FTH Req: 30
+- Slot Use: 1
+- Base Effect: cast orb that pulls enemies to it.
+
+#---- Lingering Static Field
+- Increases duration to 10 seconds.
 
 #--------------------------------------------------------------------------
 # Hexes - Offensive
@@ -2062,6 +2129,19 @@
 #---- Lingering Blood Orb
 - Increases duration to 5 seconds.
 
+#--------------------------------
+# Blood Corruption
+#--------------------------------
+- FP Cost: 50
+- Dark Damage: 20 {60}
+- INT Req: 25
+- FTH Req: 25
+- Slot Use: 1
+- Base Effect: Inflicts maggot debuff. Self inflicts 30 Bleed.
+
+#---- Great Blood Corruption
+- Increases damage to 40.
+
 #--------------------------------------------------------------------------
 # Hexes - Effect
 #--------------------------------------------------------------------------
@@ -2199,19 +2279,8 @@ Call of the Abyss
  After a few seconds, spawn lots of soul dregs from above 
  
 # Miracles
-Slicing Wind
- Wind blade that pierces enemies
- 
-Squall
- Soul arrow but wind
- 
-Gale Force
- Soul spear but wind
  
 Fury of the Storm
  Torrent of air that staggers most enemies and deals light damage
- 
-Cyclone Blast
- Crystal soul spear but wind
  
 

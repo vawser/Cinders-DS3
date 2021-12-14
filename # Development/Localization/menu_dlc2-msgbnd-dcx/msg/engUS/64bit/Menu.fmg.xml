@@ -3895,6 +3895,7 @@ to commune with the fallen knight.</text>
 <text id="99041045">Refined Teleport</text>
 <text id="99041046">Soul Explosion</text>
 <text id="99041047">Explosive Crystal Orb</text>
+<text id="99041048">Lingering Soul Instability</text>
 <text id="99042000">Ascend from Farron Dart?</text>
 <text id="99042001">Ascend from Soul Wave?</text>
 <text id="99042002">Ascend from Soul Arrow?</text>
@@ -3940,6 +3941,7 @@ to commune with the fallen knight.</text>
 <text id="99042045">Ascend from Teleport?</text>
 <text id="99042046">Ascend from Soul Eruption?</text>
 <text id="99042047">Ascend from Crystal Orb?</text>
+<text id="99042048">Ascend from Soul Instability?</text>
 <text id="99043000">Bloodthirsty Farron Dart crafted</text>
 <text id="99043001">Swift Soul Wave crafted</text>
 <text id="99043002">Explosive Soul Arrow crafted</text>
@@ -3984,7 +3986,8 @@ to commune with the fallen knight.</text>
 <text id="99043044">Quickened Discs of Dorthinus crafted</text>
 <text id="99043045">Refined Teleport crafted</text>
 <text id="99043046">Soul Explosion crafted</text>
-<text id="99043047">Crystal Orb crafted</text>
+<text id="99043047">Explosive Crystal Orb crafted</text>
+<text id="99043048">Lingering Soul Instability crafted</text>
 <text id="99044000">Incendiary Fireball</text>
 <text id="99044001">Weakening Fire Orb</text>
 <text id="99044002">Homing Chaos Fire Orb</text>
@@ -4156,6 +4159,11 @@ to commune with the fallen knight.</text>
 <text id="99047043">Lingering Lightning Orb</text>
 <text id="99047044">Lingering Whirlwind</text>
 <text id="99047045">Distant Blast Wave</text>
+<text id="99047046">Bloodthirsty Squall</text>
+<text id="99047047">Swift Slicing Wind</text>
+<text id="99047048">Weakening Gale Force</text>
+<text id="99047049">Explosive Cyclone Blast</text>
+<text id="99047050">Lingering Static Field</text>
 <text id="99048000">Ascend from Lightning Arrow?</text>
 <text id="99048001">Ascend from Lightning Spear?</text>
 <text id="99048002">Ascend from Great Lightning Spear?</text>
@@ -4201,6 +4209,11 @@ to commune with the fallen knight.</text>
 <text id="99048043">Ascend from Lightning Orb?</text>
 <text id="99048044">Ascend from Whirlwind?</text>
 <text id="99048045">Ascend from Blast Wave?</text>
+<text id="99048046">Ascend from Squall?</text>
+<text id="99048047">Ascend from Slicing Wind?</text>
+<text id="99048048">Ascend from Gale Force?</text>
+<text id="99048049">Ascend from Cyclone Blast?</text>
+<text id="99048050">Ascend from Static Field?</text>
 <text id="99049000">Bloodthirsty Lightning Arrow crafted</text>
 <text id="99049001">Lightning Surge crafted</text>
 <text id="99049002">Storm Spear crafted</text>
@@ -4246,6 +4259,11 @@ to commune with the fallen knight.</text>
 <text id="99049043">Lingering Lightning Orb crafted</text>
 <text id="99049044">Lingering Whirlwind crafted</text>
 <text id="99049045">Distant Blast Wave crafted</text>
+<text id="99049046">Bloodthirsty Squall crafted</text>
+<text id="99049047">Swift Slicing Wind crafted</text>
+<text id="99049048">Weakening Gale Force crafted</text>
+<text id="99049049">Explosive Cyclone Blast crafted</text>
+<text id="99049050">Lingering Static Field crafted</text>
 <text id="99050000">Bloodthirsty Deep Barb</text>
 <text id="99050001">Deep Overflow</text>
 <text id="99050002">Weakening Deep Soul</text>
@@ -4291,6 +4309,7 @@ to commune with the fallen knight.</text>
 <text id="99050042">Bloodthirsty Sacrifice</text>
 <text id="99050043">Bloodthirsty Resonance</text>
 <text id="99050044">Lingering Blood Orb</text>
+<text id="99050045">Great Blood Corruption</text>
 <text id="99051000">Ascend from Deep Barb?</text>
 <text id="99051001">Ascend from Deep Soul?</text>
 <text id="99051002">Ascend from Great Deep Soul?</text>
@@ -4336,6 +4355,7 @@ to commune with the fallen knight.</text>
 <text id="99051042">Ascend from Blood Sacrifice?</text>
 <text id="99051043">Ascend from Blood Resonance?</text>
 <text id="99051044">Ascend from Blood Orb?</text>
+<text id="99051045">Ascend from Blood Corruption?</text>
 <text id="99052000">Bloodthirsty Deep Barb crafted</text>
 <text id="99052001">Deep Overflow crafted</text>
 <text id="99052002">Weakening Deep Soul crafted</text>
@@ -4381,6 +4401,7 @@ to commune with the fallen knight.</text>
 <text id="99052042">Bloodthirsty Sacrifice crafted</text>
 <text id="99052043">Bloodthirsty Resonance crafted</text>
 <text id="99052044">Lingering Blood Orb crafted</text>
+<text id="99052045">Great Blood Corruption crafted</text>
 <text id="99060000">Configure Journey</text>
 <text id="99060001">Summary</text>
 <text id="99060002">Enable</text>

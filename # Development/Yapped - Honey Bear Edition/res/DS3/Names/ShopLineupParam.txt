@@ -39,6 +39,7 @@
 21607 [Warrior of Sunlight] Armor of the Sun
 21608 [Warrior of Sunlight] Iron Bracelets
 21609 [Warrior of Sunlight] Iron Leggings
+21610 [Warrior of Sunlight] Static Field
 21800 [Mound-makers] Bloodlust
 21801 [Mound-makers] Warmth
 21802 [Mound-makers] Sharp Gem
@@ -127,6 +128,8 @@
 22718 [Dragon Remnants] Black Dragon Leggings
 22719 [Dragon Remnants] Bloodthirsty Draconic Fire Orbs
 22720 [Dragon Remnants] Bloodthirsty Draconic Fury
+22721 [Dragon Remnants] Squall
+22722 [Dragon Remnants] Gale Force
 22800 [Way of White] Holy Gem
 22801 [Way of White] Divine Blessing
 22802 [Way of White] Hidden Blessing
@@ -240,6 +243,7 @@
 30092 [Ludleth - Aldrich] Sword of Avowal
 30093 [Ludleth - Aldrich] Golden Ritual Spear
 30094 [Ludleth - Aldrich] Teleport
+30095 [Ludleth - Aldrich] Soul Instability
 30100 [Ludleth - Yhorm the Giant] Yhorm's Great Machete
 30101 [Ludleth - Yhorm the Giant] Yhorm's Greatshield
 30102 [Ludleth - Yhorm the Giant] Ring of Punishment
@@ -1075,6 +1079,7 @@
 250016 [Alchemist Jiji - Shop] Scroll of Hollowing
 250017 [Alchemist Jiji - Shop] Scroll of Humanity
 250018 [Alchemist Jiji - Shop] Scroll of Cooperation
+250019 [Alchemist Jiji - Shop] Cleansing Potion
 250200 [Alchemist Jiji] Havel's Emblem
 250201 [Alchemist Jiji] Havel's Emblem
 250202 [Alchemist Jiji] Giant-horn Insignia

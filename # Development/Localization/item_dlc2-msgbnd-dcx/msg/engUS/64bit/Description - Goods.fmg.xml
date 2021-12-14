@@ -4865,6 +4865,14 @@ In a pact said to have been formed long ago, one of the Sages allied with the Un
 Cast an explosive crystal orb that pursues the target enemy.
 
 In a pact said to have been formed long ago, one of the Sages allied with the Undead Legion in order to train the sorcerers of Farron.</text>
+<text id="1812000">A forbidden sorcery used by consumed Gwyndolin.
+Known as the Dark Sun, Gwyndolin was a master of sorcery and commanded unfathomable skill over all forms of it.
+
+Release a soul orb that creates a vortex of fierce energies for 5 seconds.</text>
+<text id="1812010">A forbidden sorcery used by consumed Gwyndolin.
+Known as the Dark Sun, Gwyndolin was a master of sorcery and commanded unfathomable skill over all forms of it.
+
+Release a Lingering soul orb that creates a vortex of fierce energies for 10 seconds.</text>
 <text id="2400000">Elementary pyromancy that is often the first learned.
 Hurls a fireball.
 
@@ -6228,6 +6236,61 @@ Controlling the winds is no common feat, as such, only those close to godhood an
 Compress air at very long range and immediately release it to cause a thunderous shockwave.
 
 Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3826000">Miracle of those most devoted to the dragons.
+
+Emit a short burst of wind.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3826010">Miracle of those most devoted to the dragons.
+
+Emit a short burst of wind.
+Grants 5 bloodthirst charges on hit.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3827000">Miracle of those most devoted to the dragons.
+
+Emit wave of wind that slices enemies.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3827010">Miracle of those most devoted to the dragons.
+
+Emit swift wave of wind that slices enemies.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3828000">Miracle of those most devoted to the dragons.
+
+Emit wind projectile.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3828010">Miracle of those most devoted to the dragons.
+
+Emit weakening wind projectile that reduces Physical absorption by 10% for 5 seconds.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3829000">Miracle of those most devoted to the dragons.
+
+Emit large wind blast.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3829010">Miracle of those most devoted to the dragons.
+
+Emit large explosive wind blast.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3830000">Miracle allegedly used by Warriors of Sunlight.
+
+Cast a lightning orb that pulls enemies to it.
+Lasts 5 seconds.
+Only works against weak enemies.
+
+The lightning emited by this orb is weak, but enough to momentarily keep the caster out of harm's way, or take the entire force upon themselves.</text>
+<text id="3830010">Miracle allegedly used by Warriors of Sunlight.
+
+Cast a lingering lightning orb that pulls enemies to it.
+Lasts 10 seconds.
+Only works against weak enemies.
+
+The lightning emited by this orb is weak, but enough to momentarily keep the caster out of harm's way, or take the entire force upon themselves.</text>
 <text id="4100000">Hex of Archdeacon Royce and his deacons,
 said to have been imparted to them by McDonnell of the Boreal Valley.
 
@@ -6777,5 +6840,19 @@ Even after the gods were no more, Midir continued his endless fight against the 
 Create a star that emits a beam of black fire.
 
 Even after the gods were no more, Midir continued his endless fight against the abyss.</text>
+<text id="4319000">Hex taught in the Cathedral of the Deep.
+
+Spew blood corrupted with parasites from one's mouth, inflicting 20 Bleed every second for 5 seconds. 
+Consecutive attacks do not stack.
+Inflicts 30 Bleed to Self.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4319010">Hex taught in the Cathedral of the Deep.
+
+Spew blood corrupted with parasites from one's mouth, inflicting 20 Bleed every second for 5 seconds. 
+Consecutive attacks do not stack.
+Inflicts 30 Bleed to Self.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
 </entries>
 </fmg>

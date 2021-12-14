@@ -2103,6 +2103,7 @@
 112090 [Behavior] Horsehoof Ring
 112100 [Behavior] Deathless Run Failure
 112101 [Behavior] Hitless Run Failure
+112102 [Behavior] Fist Only Run Failure
 112110 [Behavior] Rolling Stamina Growth 1
 112111 [Behavior] Rolling Stamina Growth 2
 112112 [Behavior] Rolling Stamina Growth 3
@@ -2169,7 +2170,6 @@
 112363 [Behavior] Old Man's Gambit +3 - Trigger
 112364 [Behavior] Old Man's Gambit +4 - Trigger
 112365 [Behavior] Old Man's Gambit +5 - Trigger
-112401 [Behavior] Luck Mastery - Trigger
 112410 [Behavior] Short Leap
 112411 [Behavior] Long Leap
 112414 [Behavior] BB Dash Toggle
@@ -2226,6 +2226,7 @@
 112563 [Behavior] Ring of Momentum +3 - Trigger
 112564 [Behavior] Ring of Momentum +4 - Trigger
 112565 [Behavior] Ring of Momentum +5 - Trigger
+112570 [Behavior] Relic of Swiftness - Trigger
 112590 [Behavior] Weapon - Movement Speed Boost
 112591 [Behavior] Weapon - Jump Distance Boost
 112599 ### AI Behavior Trigger ###
@@ -2268,8 +2269,14 @@
 112753 [Behavior] Elden Ring +3 - Damage Boost
 112754 [Behavior] Elden Ring +4 - Damage Boost
 112755 [Behavior] Elden Ring +5 - Damage Boost
-112899 ### Sidearms ###
+112899 ### Misc ###
 112910 Firearm Parry Duration
+112920 Restraint: Roll
+112921 Restraint: Sprint
+112922 Restraint: Run
+112923 Restraint: Backstep
+112924 Restraint: Jump
+112925 Restraint: Kick
 112999 ### FP Pause ###
 113000 Base Interval
 113001 Seconds: 1
@@ -4170,16 +4177,16 @@
 160500390 [Pyromancy] Incendiary DoT 1
 160500400 [Pyromancy] Supreme Black Flame Arc
 160500410 [Sorcery] Lingering Numbness
-160500420 [Miracle] Myiatic Blade
-160500421 [Miracle] Myiatic Blade [AttackOccurance]
-160500422 [Miracle] Myiatic Blade [CycleOccurance]
+160500420 [Various Spells] Maggot debuff  - Myiatic Blade
+160500421 [Various Spells] Maggot debuff [AttackOccurance] - Myiatic Blade - Blood Corruption
+160500422 [Various Spells] Maggot debuff [CycleOccurance] - Myiatic Blade - Blood Corruption
 160500430 [Pyromancy] Noxious Blade
 160500431 [Pyromancy] Noxious Blade [AttackOccurance]
 160500440 [Sorcery] Lingering Repel
 160500450 [Pyromancy] Lingering Rockflesh
 160500451 [Pyromancy] Lingering Rockflesh [CycleOccurance]
 160500452 [Pyromancy] Lingering Rockflesh [CycleOccurance]
-160500460 [Various Spells] Bloodthirsty Flashsword - Dark Edge - Path of Frost - Throw Dust - Blood Sacrifice
+160500460 [Various Spells] Bloodthirsty Flashsword - Dark Edge - Path of Frost - Throw Dust - Blood Sacrifice - Squall
 160500470 [Various Spells] Bloodthirsty Farron Dart - Lightning Arrow - Way of White Corona - Deep Barb - Nibble - Surging Deep - Blood Sacrifice
 160500480 [Pyromancy] Bloodthirsty Flame Fan
 160500490 [Pyromancy] Bloodthirsty Lingering Chaos
@@ -4191,6 +4198,8 @@
 160500550 [Pyromancy] Bloodthirsty Pulsating Mud
 160500560 [Miracle] Blood Sacrifice
 160500570 [Miracle] Blood Orb
+160500580 [Miracle] Weakening Gale Force
+160500590 [Miracle] Blood Corruption
 160509999 ### Spells - Drawbacks ###
 160510000 Magic Weapon
 160510010 Great Magic Weapon
@@ -4678,18 +4687,8 @@
 160601543 Wolf Ring+3
 160601544 Wolf Ring+4
 160601545 Wolf Ring+5
-160601740 Relic of Power
-160601741 Relic of Power+1
-160601742 Relic of Power+2
-160601743 Relic of Power+3
-160601744 Relic of Power+4
-160601745 Relic of Power+5
-160601750 Relic of Insanity
-160601751 Relic of Insanity+1
-160601752 Relic of Insanity+2
-160601753 Relic of Insanity+3
-160601754 Relic of Insanity+4
-160601755 Relic of Insanity+5
+160601740 Relic of Swiftness
+160601750 Relic of Protection
 160602000 Ring of Retaliation
 160602001 Ring of Retaliation - Kick
 160602002 Ring of Retaliation [CycleOccurance]
@@ -4928,18 +4927,8 @@
 160603715 Ring of Conjuration+5
 160603770 Ravenous Chalice
 160603771 Ravenous Chalice [DeathOccurance]
-160603780 Relic of Legends
-160603781 Relic of Legends+1
-160603782 Relic of Legends+2
-160603783 Relic of Legends+3
-160603784 Relic of Legends+4
-160603785 Relic of Legends+5
-160603790 Relic of Myths
-160603791 Relic of Myths+1
-160603792 Relic of Myths+2
-160603793 Relic of Myths+3
-160603794 Relic of Myths+4
-160603795 Relic of Myths+5
+160603780 Relic of Eternity
+160603790 Relic of Sanctification
 160603800 Ring of Londor
 160604000 Scroll of Ethereality
 160604010 Scroll of Hollowing
@@ -6710,15 +6699,12 @@
 260120010 Random Trigger
 260120020 Reset Progress Trigger
 260120100 Soul Boost
-260129999 ### Masteries ###
-260130010 Attunement
-260130020 Endurance
-260130030 Vitality
-260130040 Strength
-260130050 Dexterity
-260130060 Intelligence
-260130070 Faith
-260130080 Luck
+260129999 ### Soul Coalescence ###
+260130000 Strength Coalescence
+260130010 Dexterity Coalescence
+260130020 Intelligence Coalescence
+260130030 Faith Coalescence
+260130040 Luck Coalescence
 260139999 ### Hollowing ###
 260140000 Hollowing - Player Effect - 10
 260140001 Hollowing - Player Effect - 20

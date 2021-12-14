@@ -5327,6 +5327,21 @@
 13731110 [Pyromancy] Bubble Prison
 13731120 [Pyromancy] Bubble Prison
 13731130 [Pyromancy] Bubble Prison [Hit]
+13732000 [Sorcery] Soul Instability
+13732010 [Sorcery] Soul Instability [Hit]
+13733000 [Miracle] Squall
+13733010 [Miracle] Squall [Hit]
+13734000 [Miracle] Slicing Wind
+13735000 [Miracle] Gale Force
+13736000 [Miracle] Cyclone Blast
+13736100 [Miracle] Explosive Cyclone Blast [Hit]
+13736110 [Miracle] Explosive Cyclone Blast
+13737000 [Miracle] Static Field
+13737010 [Miracle] Static Field [Hit]
+13738000 [Miracle] Blood Corruption
+13738010 [Miracle] Blood Corruption [Hit]
+13738100 [Miracle] Great Blood Corruption
+13738110 [Miracle] Great Blood Corruption [Hit]
 13999999 ### Weapons ###
 14000000 Blessing of Rosaria (Old)
 14000001 Blessing of Rosaria (Old)
