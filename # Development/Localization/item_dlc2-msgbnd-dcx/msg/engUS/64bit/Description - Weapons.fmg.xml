@@ -20,8 +20,7 @@ Simultaneously equip up to two types of arrows,
 and switch between them as needed.</text>
 <text id="400200">Arrows with poisoned tips.
 
-Inflict 30 poison damage that gradually wears down 
-foes.</text>
+Inflict 30 poison damage that gradually wears down foes.</text>
 <text id="400300">Large, more powerful arrows with a shorter range 
 due to their weight.
 
@@ -58,7 +57,7 @@ and switch between them as needed.</text>
 savage hunters.
 Inflicts dark damage.
 
-Effect: Homes in the target.
+Effect: Inflicts 30 Curse and homes in the target.
 
 It is said that these arrows scrape out death from
 their targets, but savages are known to tell tall 
@@ -202,12 +201,12 @@ servants of the abyss in the distant past.
 Imbued with abyssal energies, these arrows 
 inflict dark damage.
 
-Effect: Homes in the target.
+Effect: Inflicts 30 Curse and homes in the target.
 
 Can only be used with greatbows.</text>
 <text id="434000">Magical bolts said to have been used by servants of the abyss. Imbued with abyssal energies, these bolts inflict dark damage.
 
-Effect: Homes in the target.
+Effect: Inflicts 30 Curse and homes in the target.
 
 Simultaneously equip up to two types of bolts, and switch between them as needed.</text>
 <text id="442000">Draconic greatarrows said to be associated with the dragons of old.

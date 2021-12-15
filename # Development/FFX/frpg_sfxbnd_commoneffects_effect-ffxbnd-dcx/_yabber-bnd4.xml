@@ -35716,11 +35716,5 @@
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>sfx\effect\f000904100.fxr</path>
     </file>
-    <file>
-      <flags>0x40</flags>
-      <id>28437</id>
-      <root>N:\FDP\data\INTERROOT_win64\</root>
-      <path>sfx\effect\f000904200.fxr</path>
-    </file>
   </files>
 </bnd4>

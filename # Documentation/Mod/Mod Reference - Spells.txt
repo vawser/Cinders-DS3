@@ -372,8 +372,8 @@
 - FP Cost: 120
 - INT Req: 50
 - Slot Use: 2
-- Magic Damage: 50 {150}
-- Base Effect: Deals damage every second for 5 seconds.
+- Magic Damage: 100 {300}
+- Base Effect: Deals damage 0.7 second for 5 seconds.
 
 #---- Lingering Soul Instability
 - Duration increased to 10 seconds.
@@ -2124,7 +2124,7 @@
 - INT Req: 25
 - FTH Req: 25
 - Slot Use: 1
-- Base Effect: Self inflicts 20 Bleed.
+- Base Effect: Self inflicts 80 Bleed.
 
 #---- Lingering Blood Orb
 - Increases duration to 5 seconds.
