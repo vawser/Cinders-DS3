@@ -6086,7 +6086,6 @@ Event(20312, Restart, function() {
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700006);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700003);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700008);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13700002);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13800006);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13800000);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 13800001);
@@ -6285,4 +6284,3 @@ Event(20510, Restart, function(X0_4, X4_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
-
