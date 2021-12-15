@@ -3991,9 +3991,8 @@
 109579000 [Miracle] Gale Force
 109579100 [Miracle] Weakening Gale Force
 109580000 [Miracle] Cyclone Blast
-109580100 [Miracle] Explosive Cyclone Blast [Hit]
-109580110 [Miracle] Explosive Cyclone Blast
-109580120 [Miracle] Explosive Cyclone Blast [Hit]
+109580100 [Miracle] Explosive Cyclone Blast
+109580110 [Miracle] Explosive Cyclone Blast [Hit]
 109581000 [Miracle] Static Field
 109581010 [Miracle] Static Field [Hit]
 109581100 [Miracle] Lingering Static Field
