@@ -411,11 +411,12 @@ Finish following weapons:
 - Fixed Sword Master phantom not using friendly battle goal.
 - Fixed the FTH requirement of Gwynevere's Abnegation when casted with a Laughing infused spell tool.
 - Fixed the INT/FTH requirements of Whisper of Despair.
+- Fixed Domhnall of Zena talk.
 
 #------------------------------
 # TODO
 #------------------------------
 Add Solaire as summon to Soul of Cinder
 
-
-    
+# Sorcery
+1812000 Soul Instability

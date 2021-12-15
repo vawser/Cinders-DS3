@@ -352,6 +352,9 @@ def t370502_x20():
         # Crystal Orb
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1811000, 4, 1, 0) == 1, 48, 99041047, -1)
         
+        # Soul Instability
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1812000, 4, 1, 0) == 1, 49, 99041048, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -537,6 +540,10 @@ def t370502_x20():
         # Explosive Crystal Orb
         elif GetTalkListEntryResult() == 48:
             assert t370502_x50(80470, 1070, 14, -15, 99042047, 99043047, 99040011)
+            continue
+        # Lingering Soul Instability
+        elif GetTalkListEntryResult() == 49:
+            assert t370502_x50(80480, 1070, 14, -15, 99042048, 99043048, 99040011)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

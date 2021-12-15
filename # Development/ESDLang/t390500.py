@@ -352,6 +352,9 @@ def t390500_x20():
         # Lingering Blood Orb
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4317000, 4, 1, 0) == 1, 45, 99050044, -1)
         
+        # Blood Corruption
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4319000, 4, 1, 0) == 1, 46, 99050045, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -537,6 +540,10 @@ def t390500_x20():
         # Lingering Blood Orb
         elif GetTalkListEntryResult() == 45:
             assert t390500_x50(83440, 1080, 9, -10, 99051044, 99052044, 99040030)
+            continue
+        # Great Blood Corruption
+        elif GetTalkListEntryResult() == 46:
+            assert t390500_x50(83450, 1080, 9, -10, 99051045, 99052045, 99040030)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

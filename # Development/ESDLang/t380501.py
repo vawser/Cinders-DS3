@@ -340,6 +340,9 @@ def t380501_x20():
         # Pulsating Mud
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2727000, 4, 1, 0) == 1, 41, 99044040, -1)
         
+        # Bubble Wall
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2724000, 4, 1, 0) == 1, 42, 99044041, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -509,6 +512,10 @@ def t380501_x20():
         # Bloodthirsty Pulsating Mud
         elif GetTalkListEntryResult() == 41:
             assert t380501_x50(81400, 1060, 9, -10, 99045040, 99046040, 99040040)
+            continue
+        # Bubble Prison
+        elif GetTalkListEntryResult() == 42:
+            assert t380501_x50(81410, 1060, 9, -10, 99045041, 99046041, 99040040)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

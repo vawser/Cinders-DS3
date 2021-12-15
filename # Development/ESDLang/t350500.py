@@ -349,8 +349,23 @@ def t350500_x20():
         # Lingering Whirlwind
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3824000, 4, 1, 0) == 1, 45, 99047044, -1)
         
-        # Distant Blast Wave
+        # Blast Wave
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3825000, 4, 1, 0) == 1, 46, 99047045, -1)
+        
+        # Squall
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3826000, 4, 1, 0) == 1, 47, 99047046, -1)
+        
+        # Slicing Wind
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3827000, 4, 1, 0) == 1, 48, 99047047, -1)
+        
+        # Gale Force
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3828000, 4, 1, 0) == 1, 49, 99047048, -1)
+        
+        # Cyclone Blast
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3829000, 4, 1, 0) == 1, 50, 99047049, -1)
+        
+        # Static Field
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3830000, 4, 1, 0) == 1, 51, 99047050, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -537,6 +552,26 @@ def t350500_x20():
         # Distant Blast Wave
         elif GetTalkListEntryResult() == 46:
             assert t350500_x50(82450, 1090, 9, -10, 99048045, 99049045, 99040020)
+            continue
+        # Bloodthirsty Squall
+        elif GetTalkListEntryResult() == 47:
+            assert t350500_x50(82460, 1090, 9, -10, 99048046, 99049046, 99040020)
+            continue
+        # Swift Slicing Wind
+        elif GetTalkListEntryResult() == 48:
+            assert t350500_x50(82470, 1090, 9, -10, 99048047, 99049047, 99040020)
+            continue
+        # Weakening Gale Force
+        elif GetTalkListEntryResult() == 49:
+            assert t350500_x50(82480, 1090, 9, -10, 99048048, 99049048, 99040020)
+            continue
+        # Explosive Cyclone Blast
+        elif GetTalkListEntryResult() == 50:
+            assert t350500_x50(82490, 1090, 9, -10, 99048049, 99049049, 99040020)
+            continue
+        # Lingering Static Field
+        elif GetTalkListEntryResult() == 51:
+            assert t350500_x50(82500, 1090, 9, -10, 99048050, 99049050, 99040020)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
