@@ -105,6 +105,15 @@ Finish following weapons:
  - While in Firelink Shrine near Jiji, you are in a 'Preview' mode which permits you to view all the VFX without needing to reload the map.
   - This means the VFX flicker a bit since they are re-applied in this mode.
   - Outside of the shrine and in other maps, they won't flicker.
+- Added Insignia/Emblems for the following set:
+ - Wanderer Set
+ - Carthus Swordsman Set
+ - Royal Swordsman Set
+ - Vordt's Set
+ - Throne Watcher Set
+ - Throne Defender Set
+ - Mirrah Hat (Unique Headpiece), can be found in Company of Champions' covenant shop.
+ - Smelter Demon (Alt), can be found in Company of Champions' covenant shop.
  
 # Blade of Champions
 - Blade of Champions is found near to the Firelink Shrine bonfire.
@@ -172,10 +181,15 @@ Finish following weapons:
 - Lance's fully charged R2 is now consists of six attacks/uncharged R2 is now consists of four attacks.
 - Added burning model to Fire infused Fume Slated Swords.
 - Meat Cleaver and Server now restore 1.5% HP per hit.
+- Old Wolf Curved Greatsword has a new passive: Recovers HP with successive attacks, restoring 2% + 75 HP per attack once triggered.
 - Bloodlust and Bewitched Alonne Sword now consumed 10% of the max hp per weapon art usage.
-- Bewitched Alonne Sword's Seppuku now lasts 45 seconds and inflict curses per attack.
+- Bewitched Alonne Sword's Seppuku now lasts 45 seconds and inflict 30 Curse build up per attack.
 - Demon's Axe and Demon King's Greataxe Weapon Art now grant bonus fire damage like Boom Hammer.
+- Updated some weapons' damage type.
 - Change moveset for the below weapon:
+ - Greatsword:
+  - Sunlight Greatsword (Oath of Sunlight)
+
  - Curved Greatsword:
   - Server (Spin Slash).
   - Pontiff Knight Greatsword (Frost Blade).
@@ -184,11 +198,15 @@ Finish following weapons:
  - Ultra Greatsword:
   - Ivory King Ultra Greatsword (Ivory King's Valor).
 
+ - Great Hammer:
+  - Kirkhammer (Righteous Slam)
+
  - Katana:
   - Washing Pole (Storm's Fury).
 
  - Curved Sword:
   - Nil Bow and Blade (Black Hand's Cunning), now a paired weapon.
+  - Carthus Shotel, now have a new weapon art (Carthus Cunning).
 
 - Added several shield catalysts:
  - Disc Chime (Casts Miracles, Lightning affinity).
