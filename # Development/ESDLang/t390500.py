@@ -355,6 +355,9 @@ def t390500_x20():
         # Blood Corruption
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4319000, 4, 1, 0) == 1, 46, 99050045, -1)
         
+        # Blood Crystallization
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 4320000, 4, 1, 0) == 1, 47, 99050046, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -544,6 +547,10 @@ def t390500_x20():
         # Great Blood Corruption
         elif GetTalkListEntryResult() == 46:
             assert t390500_x50(83450, 1080, 9, -10, 99051045, 99052045, 99040030)
+            continue
+        # Great Blood Crystallization
+        elif GetTalkListEntryResult() == 47:
+            assert t390500_x50(83460, 1080, 9, -10, 99051046, 99052046, 99040030)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
