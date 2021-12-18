@@ -166,10 +166,7 @@ def t400505_x9():
         AddTalkListData(2, 15003060, -1)
         
         # Transformation Effects
-        AddTalkListDataIf(GetEventStatus(25007399) == 0, 3, 15003061, -1)
-        
-        # Transformation Effects
-        AddTalkListDataIf(GetEventStatus(25007399) == 1, 4, 15003061, -1)
+        AddTalkListData(3, 15003061, -1)
         
         # Talk
         AddTalkListData(10, 99010001, -1) 
@@ -192,10 +189,6 @@ def t400505_x9():
         elif GetTalkListEntryResult() == 3:
             assert t400505_x30()
             continue
-        # Transformation Effects (Disabled)
-        elif GetTalkListEntryResult() == 4:
-            assert t400505_x50(15003122)
-            return 0
         # Talk
         elif GetTalkListEntryResult() == 10:
             assert t400505_x10(text1=10019000, flag1=0, mode1=0)

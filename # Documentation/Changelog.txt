@@ -102,9 +102,6 @@ Finish following weapons:
  - Writ effects that affected the eyes are categorised under "Eye Emission".
  - Elixir effects that affected phantom color are categorised under "Body Aura".
  - Elixir effects that affected humanity form are categorised under "Humanity Aura."
- - While in Firelink Shrine near Jiji, you are in a 'Preview' mode which permits you to view all the VFX without needing to reload the map.
-  - This means the VFX flicker a bit since they are re-applied in this mode.
-  - Outside of the shrine and in other maps, they won't flicker.
 - Added Insignia/Emblems for the following set:
  - Wanderer Set
  - Carthus Swordsman Set
