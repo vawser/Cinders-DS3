@@ -280,7 +280,7 @@ def t400502_x21():
         ClearTalkListData()
         
         # Request Absolution
-        AddTalkListDataIf(GetEventStatus(25002200) == 1 or GetEventStatus(25002201) == 1 or GetEventStatus(25002203) == 1, 90, 99093004, -1)
+        # AddTalkListDataIf(GetEventStatus(25002019) == 0 and (GetEventStatus(25002200) == 1 or GetEventStatus(25002201) == 1 or GetEventStatus(25002203) == 1), 90, 99093004, -1)
         
         # Defying Death
         AddTalkListData(1, 99093100, -1)
