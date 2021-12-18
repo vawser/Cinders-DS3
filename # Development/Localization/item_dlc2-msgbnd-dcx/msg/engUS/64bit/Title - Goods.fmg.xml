@@ -645,7 +645,6 @@
 <text id="5033">Tome: Fallen Protector</text>
 <text id="5034">Tome: UNUSED</text>
 <text id="5035">Tome: The Marauder</text>
-
 <text id="5100">Essence of Strength: I</text>
 <text id="5101">Essence of Strength: II</text>
 <text id="5102">Essence of Strength: III</text>
@@ -671,7 +670,6 @@
 <text id="5142">Essence of Luck: III</text>
 <text id="5143">Essence of Luck: IV</text>
 <text id="5144">Essence of Luck: V</text>
-
 <text id="5400">Bloodthirsty Firebomb</text>
 <text id="5401">Bloodthirsty Black Firebomb</text>
 <text id="5402">Bloodthirsty Holy Water Urn</text>
@@ -1101,7 +1099,8 @@
 <text id="11940">Venerable Sage's Insignia</text>
 <text id="11941">Venerable Sage's Emblem</text>
 <text id="11951">Clandestine Emblem</text>
-<text id="11961">Wanderer's Emblem</text>
+<text id="11960">Wanderer Insignia</text>
+<text id="11961">Wanderer Emblem</text>
 <text id="11970">Sage's Insignia</text>
 <text id="11980">Moonlight Insignia</text>
 <text id="11981">Moonlight Emblem</text>
@@ -1206,6 +1205,19 @@
 <text id="12531">Overgrown Lothric Knight Emblem</text>
 <text id="12540">Herald (Alt) Insignia</text>
 <text id="12550">Undead Legion (Alt) Insignia</text>
+<text id="12560">Carthus Swordsman Insignia</text>
+<text id="12561">Carthus Swordsman Emblem</text>
+<text id="12570">Royal Swordsman Insignia</text>
+<text id="12571">Royal Swordsman Emblem</text>
+<text id="12580">Vordt's Insignia</text>
+<text id="12581">Vordt's Emblem</text>
+<text id="12590">Throne Watcher Insignia</text>
+<text id="12591">Throne Watcher Emblem</text>
+<text id="12600">Throne Defender Insignia</text>
+<text id="12601">Throne Defender Emblem</text>
+<text id="12610">Mirrah (Alt) Insignia</text>
+<text id="12620">Smelter Demon (Alt) Insignia</text>
+<text id="12621">Smelter Demon (Alt) Emblem</text>
 <text id="40000">Weapon Token</text>
 <text id="40001">Armor Token</text>
 <text id="40002">Accessory Token</text>
@@ -1579,5 +1591,7 @@
 <text id="4318010">Adjacent Black Star</text>
 <text id="4319000">Blood Corruption</text>
 <text id="4319010">Great Blood Corruption</text>
+<text id="4320000">Blood Crystallization</text>
+<text id="4320010">Great Blood Crystallization</text>
 </entries>
 </fmg>

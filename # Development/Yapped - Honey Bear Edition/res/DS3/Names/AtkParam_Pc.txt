@@ -1127,6 +1127,10 @@
 2525735 Great Lord Greatsword - WA - Heavy #1 - No FP
 2525740 Great Lord Greatsword - WA - Heavy #2
 2525745 Great Lord Greatsword - WA - Heavy #2 - No FP
+2526215 Sunlight Greatsword - 2H Light #4
+2526300 Sunlight Greatsword - 2H Heavy #1
+2526305 Sunlight Greatsword - 2H Heavy #1 Max
+2526580 Sunlight Greatsword - 2H Roll
 2527700 Obsidian Greatsword - Abyssal Fire
 2527705 Obsidian Greatsword - Abyssal Fire - Burst
 2527706 Obsidian Greatsword - Abyssal Fire
@@ -1667,8 +1671,11 @@
 2807540 Carthus Shotel
 2807580 Carthus Shotel
 2807700 Carthus Shotel
+2807702 Carthus Shotel - Kukri
+2807703 Carthus Shotel - Kukri
 2807710 Carthus Shotel
 2807720 Carthus Shotel
+2807750 Carthus Shotel - WA - Follow-up
 2810000 Crescent Moon Sword
 2810010 Crescent Moon Sword
 2810020 Crescent Moon Sword
@@ -2959,13 +2966,13 @@
 3521720 Sanctum Mace - Poison Burst - Final
 3521730 Sanctum Mace - Poison Burst
 3521740 Sanctum Mace - Lingering Poison
-3522300 Kirkhammer - 2H Heavy #1
+3522230 Kirkhammer - 2H Jump
 3522315 Kirkhammer - 2H Heavy #2 Max
 3522415 Kirkhammer - 1H Kick
 3522425 Kirkhammer - 2H Kick
 3522530 Kirkhammer - 2H Running
 3522700 Kirkhammer - Weapon Art - Perseverance
-3522705 Kirkhammer - Weapon Art - Bullet
+3522705 Kirkhammer - Weapon Art - Wrath of the Gods
 3522706 Kirkhammer - Weapon Art
 3522710 Kirkhammer - Weapon Art - Slam
 3522711 Kirkhammer - Weapon Art - Final - Heave
@@ -5342,6 +5349,10 @@
 13738010 [Miracle] Blood Corruption [Hit]
 13738100 [Miracle] Great Blood Corruption
 13738110 [Miracle] Great Blood Corruption [Hit]
+13739000 [Miracle] Blood Crystallization
+13739010 [Miracle] Blood Crystallization [Hit]
+13739100 [Miracle] Great Blood Crystallization
+13739110 [Miracle] Great Blood Crystallization [Hit]
 13999999 ### Weapons ###
 14000000 Blessing of Rosaria (Old)
 14000001 Blessing of Rosaria (Old)

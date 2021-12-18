@@ -3462,6 +3462,9 @@
 104931500 [Nil Bow & Blade] Arrow
 104931510 [Nil Bow & Blade] Arrow - Strong
 104931520 [Nil Bow & Blade] Arrow - Weak
+104931600 Carthus Shotel
+104931610 Carthus Shotel
+104931650 Carthus Shotel
 104999999 ### Spells ###
 105002000 [Sorcery] Soul Wave
 105002100 [Sorcery] Swift Soul Wave
@@ -4001,6 +4004,10 @@
 109582010 [Miracle] Blood Corruption [Hit]
 109582100 [Miracle] Great Blood Corruption
 109582110 [Miracle] Great Blood Corruption [Hit]
+109583000 [Miracle] Blood Crystallization
+109583010 [Miracle] Blood Crystallization [Hit]
+109583100 [Miracle] Great Blood Crystallization
+109583110 [Miracle] Great Blood Crystallization [Hit]
 109999999 ### Spell Summons ###
 110000000 Conjure Skeleton
 110000100 Conjure Hollow
