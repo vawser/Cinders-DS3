@@ -998,6 +998,9 @@
 210337 [Domhnall of Zena] Overgrown Lothric Knight Emblem
 210338 [Domhnall of Zena] Herald (Alt) Insignia
 210339 [Domhnall of Zena] Undead Legion (Alt) Insignia
+210340 [Domhnall of Zena] Mirrah (Alt) Insignia
+210341 [Domhnall of Zena] Smelter Demon (Alt) Insignia
+210342 [Domhnall of Zena] Smelter Demon (Alt) Emblem
 220000 [Marvelous Chester] Snickering Top Hat
 220001 [Marvelous Chester] Chester's Long Coat
 220002 [Marvelous Chester] Chester's Gloves
@@ -1500,6 +1503,16 @@
 250618 [Alchemist Jiji] Eastern Commander Insignia
 250619 [Alchemist Jiji] Eastern Commander Emblem
 250620 [Alchemist Jiji] Wanderer Insignia
+250621 [Alchemist Jiji] Carthus Swordsman Insignia
+250622 [Alchemist Jiji] Carthus Swordsman Emblem
+250623 [Alchemist Jiji] Royal Swordsman Insignia
+250624 [Alchemist Jiji] Royal Swordsman Emblem
+250625 [Alchemist Jiji] Vordt Insignia
+250626 [Alchemist Jiji] Vordt Emblem
+250627 [Alchemist Jiji] Throne Watcher Insignia
+250628 [Alchemist Jiji] Throne Watcher Emblem
+250629 [Alchemist Jiji] Throne Defender Insignia
+250630 [Alchemist Jiji] Throne Defender Emblem
 260000 [Magnum Ursus - Lordvessel] Primordial Fragment
 260010 [Magnum Ursusl] Cowl of the Bear
 260011 [Magnum Ursusl] Armor of the Bear
@@ -2890,7 +2903,7 @@
 801763 [Gauntlet Armor] Guardian Gauntlets
 801764 [Gauntlet Armor] Guardian Leggings
 801765 [Gauntlet Armor] Royal Swordsman Sallet
-801766 [Gauntlet Armor] Royal Swordsman Breastplate
+801766 [Gauntlet Armor] Royal Swordsman Cuirass
 801767 [Gauntlet Armor] Royal Swordsman Gauntlets
 801768 [Gauntlet Armor] Royal Swordsman Leggings
 801769 [Gauntlet Armor] Vordt's Helm

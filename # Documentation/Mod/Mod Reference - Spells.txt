@@ -372,7 +372,7 @@
 - FP Cost: 120
 - INT Req: 50
 - Slot Use: 2
-- Magic Damage: 100 {300}
+- Magic Damage: 50 {150}
 - Base Effect: Deals damage 0.7 second for 5 seconds.
 
 #---- Lingering Soul Instability
@@ -2141,6 +2141,19 @@
 
 #---- Great Blood Corruption
 - Increases damage to 40.
+
+#--------------------------------
+# Blood Crystallization
+#--------------------------------
+- FP Cost: 40
+- Dark Damage: 150 {450}
+- INT Req: 15
+- FTH Req: 15
+- Slot Use: 1
+- Base Effect: Inflicts 40 Bleed. Self inflicts 20 Bleed.
+
+#---- Great Blood Crystallization
+- Increases damage to 200, Bleed to 60 and self inflicted Bleed to 30.
 
 #--------------------------------------------------------------------------
 # Hexes - Effect

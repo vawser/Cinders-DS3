@@ -2042,9 +2042,12 @@
 100680 [Behavior] Frayed Blade
 100690 [Behavior] Guard
 100700 [Behavior] Guard
-100710 [Behavior] SubStart Transition
-100711 [Behavior] SubStart into End
-100712 [Behavior] SubStart into Start
+100710 [Behavior] SubStart 2 Transition
+100711 [Behavior] SubStart 2  into End
+100712 [Behavior] SubStart 2  into Start
+100713 [Behavior] SubStart 1  into End
+100714 [Behavior] SubStart 1  into Start
+100715 [Behavior] SubStart 1 Transition
 100720 [Behavior] Alternate Charging Mechanic
 100721 [Behavior] Alternate Charging Mechanic (Secondary Switch)
 100722 [Behavior] Alternate Charging Mechanic (Tonitrus)
@@ -3872,6 +3875,7 @@
 160260410 Washing Pole - Weapon Art - Right - No FP
 160260450 Washing Pole - Weapon Art - Left
 160260460 Washing Pole - Weapon Art - Left - No FP
+160260500 Carthus Shotel - Kukri Bleed
 160300001 ### Shields ###
 160300010 Ethereal Oak Shield
 160300020 Grass Crest Shield
@@ -4196,10 +4200,12 @@
 160500530 [Miracle] Beckoning Grace
 160500540 [Pyromancy] Throw Sand
 160500550 [Pyromancy] Bloodthirsty Pulsating Mud
-160500560 [Miracle] Blood Sacrifice
-160500570 [Miracle] Blood Orb
+160500560 [Miracle] Blood Sacrifice - Self Inflict
+160500570 [Miracle] Blood Orb - Self Inflict
 160500580 [Miracle] Weakening Gale Force
-160500590 [Miracle] Blood Corruption
+160500590 [Miracle] Blood Corruption - Self Inflict
+160500600 [Miracle] Blood Crystallization - Self Inflict
+160500601 [Miracle] Great Blood Crystallization - Self Inflict
 160509999 ### Spells - Drawbacks ###
 160510000 Magic Weapon
 160510010 Great Magic Weapon
@@ -5511,6 +5517,19 @@
 160706531 Overgrown Lothric Knight Emblem
 160706540 Herald Insignia (Lowered Visor)
 160706550 Undead Legion Insignia (Only Cap)
+160706560 Carthus Swordsman Insignia
+160706561 Carthus Swordsman Emblem
+160706570 Royal Swordsman Insignia
+160706571 Royal Swordsman Emblem
+160706580 Vordt Insignia
+160706581 Vordt Emblem
+160706590 Throne Watcher Insignia
+160706591 Throne Watcher Emblem
+160706600 Throne Defender Insignia
+160706601 Throne Defender Emblem
+160706610 Mirrah (Alt) Insignia
+160706620 Smelter Demon (Alt) Insignia
+160706621 Smelter Demon (Alt) Emblem
 160708999 ### Weapon Emission ###
 160709010 Magic - Right
 160709011 Magic - Right (Preview)
@@ -6040,6 +6059,9 @@
 170000550 Toxic - Black Fire Whip
 170000560 Toxic - Great Black Fire Scatter
 170000570 Poison - Pulsating Mud
+170000580 Bleed - Blood Resonance
+170000590 Bleed - Blood Crystallization
+170000600 Bleed - Great Blood Crystallization
 179999999 ### Poison - Weapons ###
 180000000 Poison - Normal (Infusion)
 180000001 Poison - Quick (Infusion)

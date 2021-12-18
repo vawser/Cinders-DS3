@@ -1033,6 +1033,10 @@
 102525735 Great Lord Greatsword - WA - Heavy #1 - No FP
 102525740 Great Lord Greatsword - WA - Heavy #2
 102525745 Great Lord Greatsword - WA - Heavy #2 - No FP
+102526215 Sunlight Greatsword - 2H Light #4
+102526300 Sunlight Greatsword - 2H Heavy #1
+102526305 Sunlight Greatsword - 2H Heavy #1 Max
+102526580 Sunlight Greatsword - 2H Roll
 102526700 Sunlight Greatsword - Oath of Sunlight
 102527700 Obsidian Greatsword - Abyssal Fire
 102527705 Obsidian Greatsword - Abyssal Fire
@@ -1566,8 +1570,12 @@
 102807540 Carthus Shotel
 102807580 Carthus Shotel
 102807700 Carthus Shotel
+102807702 Carthus Shotel - WA - Kukri
+102807703 Carthus Shotel - WA - Kukri
+102807705 Carthus Shotel - WA - Kukri - Light
 102807710 Carthus Shotel
 102807720 Carthus Shotel
+102807750 Carthus Shotel - WA - Heavy
 102810000 Crescent Moon Sword
 102810010 Crescent Moon Sword
 102810020 Crescent Moon Sword
@@ -2950,13 +2958,13 @@
 103521720 Sanctum Mace - Poison Burst - Final
 103521725 Sanctum Mace - Poison Mist
 103521730 Sanctum Mace - Poison Burst
-103522300 Kirkhammer - 2H Heavy #1
+103522230 Kirkhammer - 2H Jump
 103522315 Kirkhammer - 2H Heavy #2 Max
 103522415 Kirkhammer - 1H Kick
 103522425 Kirkhammer - 2H Kick
 103522530 Kirkhammer - Weapon Art - Perseverance
-103522700 Kirkhammer - Weapon Art - Bullet
-103522705 Kirkhammer - Weapon Art
+103522700 Kirkhammer - Weapon Art - Initial
+103522705 Kirkhammer - Weapon Art - Wrath of the Gods
 103522710 Kirkhammer - Weapon Art - Slam
 103522711 Kirkhammer - Weapon Art - Final - Heave
 103522712 Kirkhammer - Weapon Art - Final #1

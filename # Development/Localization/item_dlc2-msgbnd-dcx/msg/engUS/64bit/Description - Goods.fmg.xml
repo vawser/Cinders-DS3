@@ -2569,7 +2569,6 @@ Those who cannot remember the past are condemned to repeat it...</text>
 Read to revive the Marauder and warp to the entrance of the boss arena.
 
 Those who cannot remember the past are condemned to repeat it...</text>
-
 <text id="5100">A concentrated soul essence, granted by the shrine handmaiden.
 
 Grants strength essence boon, boosting max equipment load by 20%.</text>
@@ -2645,7 +2644,6 @@ Grants luck essence boon, increasing soul absorption by 20%.</text>
 <text id="5144">A concentrated soul essence, granted by the shrine handmaiden.
 
 Grants luck essence boon, increasing soul absorption by 20%.</text>
-
 <text id="5400">Bisque urn filled with black powder.
 Explodes, inflicting 500 fire damage.
 Does not scale with any stat.
@@ -3899,9 +3897,12 @@ Applies illusionary armor based on the Venerable Sage's Set.</text>
 <text id="11951">An illusionary emblem that will disguise your own armor as another.
 
 Applies illusionary armor based on the Clandestine Coat.</text>
+<text id="11960">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary helmet based on the Wanderer Set.</text>
 <text id="11961">An illusionary emblem that will disguise your own armor as another.
 
-Applies illusionary armor based on the Wanderer's Coat.</text>
+Applies illusionary armor based on the Wanderer Set.</text>
 <text id="11970">An illusionary emblem that will disguise your own armor as another.
 
 Applies illusionary helmet based on the Sage's Big Hat.</text>
@@ -4214,6 +4215,45 @@ Applies illusionary helmet based on the Herald Set with lowered visor.</text>
 <text id="12550">An illusionary emblem that will disguise your own armor as another.
 
 Applies illusionary helmet based on the Undead Legion Set with only the cap.</text>
+<text id="12560">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary helmet based on the Carthus Swordsman Set.</text>
+<text id="12561">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary armor based on the Carthus Swordsman Set.</text>
+<text id="12570">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary helmet based on the Royal Swordsman Set.</text>
+<text id="12571">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary armor based on the Royal Swordsman Set.</text>
+<text id="12580">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary helmet based on the Vordt's Set.</text>
+<text id="12581">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary armor based on the Vordt's Set.</text>
+<text id="12590">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary helmet based on the Throne Watcher Set.</text>
+<text id="12591">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary armor based on the Throne Watcher Set.</text>
+<text id="12600">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary helmet based on the Throne Defender Set.</text>
+<text id="12601">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary armor based on the Throne Defender Set.</text>
+<text id="12610">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary helmet based on the Mirrah Set with only the hat.</text>
+<text id="12620">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary helmet based on the Smelter Demon (Alt) Set.</text>
+<text id="12621">An illusionary emblem that will disguise your own armor as another.
+
+Applies illusionary armor based on the Smelter Demon (Alt) Set.</text>
 <text id="40000">A crumbling token.
 
 Exchange with the Fire Keeper for weaponry and spells</text>
@@ -6852,6 +6892,20 @@ Offering blood is yet another form of devoutness in the eyes of some gods.</text
 Spew blood corrupted with parasites from one's mouth, inflicting 20 Bleed every second for 5 seconds. 
 Consecutive attacks do not stack.
 Inflicts 30 Bleed to Self.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4320000">Hex taught in the Cathedral of the Deep.
+
+Drench target with one's own blood and crystallize it, causing lacerating damage.
+Inflicts 40 Bleed to enemy.
+Inflicts 20 Bleed to self.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4320010">Hex taught in the Cathedral of the Deep.
+
+Drench target with one's own blood and crystallize it, causing lacerating damage.
+Inflicts 60 Bleed to enemy.
+Inflicts 30 Bleed to self.
 
 Offering blood is yet another form of devoutness in the eyes of some gods.</text>
 </entries>

@@ -3345,7 +3345,6 @@ Enables an additional chance for a Primordial Fragment.</text>
 <text id="99002531">Inspect</text>
 <text id="99002532">Affixes</text>
 <text id="99003500">Bestow Lordvessel</text>
-
 <text id="99003600">Give the Blood of the Dark Soul</text>
 <text id="99004000">Lethal: reduces weapon stamina consumption by 15%.
 Magic: gains additional Bloodthirst charges on hit.
@@ -4310,6 +4309,7 @@ to commune with the fallen knight.</text>
 <text id="99050043">Bloodthirsty Resonance</text>
 <text id="99050044">Lingering Blood Orb</text>
 <text id="99050045">Great Blood Corruption</text>
+<text id="99050046">Great Blood Crystallization</text>
 <text id="99051000">Ascend from Deep Barb?</text>
 <text id="99051001">Ascend from Deep Soul?</text>
 <text id="99051002">Ascend from Great Deep Soul?</text>
@@ -4356,6 +4356,7 @@ to commune with the fallen knight.</text>
 <text id="99051043">Ascend from Blood Resonance?</text>
 <text id="99051044">Ascend from Blood Orb?</text>
 <text id="99051045">Ascend from Blood Corruption?</text>
+<text id="99051046">Ascend from Blood Crystallization?</text>
 <text id="99052000">Bloodthirsty Deep Barb crafted</text>
 <text id="99052001">Deep Overflow crafted</text>
 <text id="99052002">Weakening Deep Soul crafted</text>
@@ -4402,6 +4403,7 @@ to commune with the fallen knight.</text>
 <text id="99052043">Bloodthirsty Resonance crafted</text>
 <text id="99052044">Lingering Blood Orb crafted</text>
 <text id="99052045">Great Blood Corruption crafted</text>
+<text id="99052046">Great Blood Crystallization crafted</text>
 <text id="99060000">Configure Journey</text>
 <text id="99060001">Summary</text>
 <text id="99060002">Enable</text>
@@ -4819,22 +4821,18 @@ Completing the Memory will reward Primordial Fragments.</text>
 <text id="99092006">Knight</text>
 <text id="99092007">Watcher</text>
 <text id="99092008">Gargoyle</text>
-
 <text id="99093000">Achievements</text>
 <text id="99093001">Current Journey</text>
 <text id="99093002">Requirement</text>
 <text id="99093003">Reward</text>
 <text id="99093004">Request Absolution</text>
-
 <text id="99093010">Reset failed achievements?</text>
 <text id="99093011">Failed achievements are now possible again.</text>
-
 <text id="99093100">Defying Death</text>
 <text id="99093101">Untouchable</text>
 <text id="99093102">Flameless</text>
 <text id="99093103">Sword and Board</text>
 <text id="99093104">Stormageddon</text>
-
 <text id="99093200">To complete Defying Death you need to:
 - Kill the Soul of Cinder.
 - Refrain from dying.</text>
@@ -4857,7 +4855,6 @@ You are allowed the following:
 - Never roll, backstep or jump.</text>
 <text id="99093204">To complete Stormageddon you need to:
 - Kill the Nameless King with Restraint: Run enabled.</text>
-
 <text id="99093300">Completing Defying Death will reward you with:
 Relic of Eternity: reduces weapon stamina consumption massively</text>
 <text id="99093301">Completing Untouchable will reward you with:
@@ -4868,13 +4865,11 @@ Relic of Sanctification: boosts HP, FP and Max Stamina massively</text>
 Relic of Protection: boosts all absorptions massively</text>
 <text id="99093304">Completing Stormageddon will reward you with:
 1 Titanite Slab</text>
-
 <text id="99093400">Defying Death has been completed.</text>
 <text id="99093401">Untouchable has been completed.</text>
 <text id="99093402">Flameless has been completed.</text>
 <text id="99093403">Sword and Board has been completed.</text>
 <text id="99093404">Stormageddon has been completed.</text>
-
 <text id="99093500">Defying Death has failed.
 
 Can be reset via Request Absolution.</text>
@@ -4890,16 +4885,13 @@ Can be reset via Request Absolution.</text>
 <text id="99093504">Stormageddon has failed.
  
 Can be reset via Request Absolution.</text>
-
 <text id="99094000">Journey Type</text>
 <text id="99094001">Journey Progression</text>
-
 <text id="99094100">You are currently in Standard Mode.</text>
 <text id="99094101">You are currently in Wanderer Mode.</text>
 <text id="99094102">You are currently in Mythic Mode.</text>
 <text id="99094103">You are currently in Gauntlet Mode.</text>
 <text id="99094104">You are currently in Explorer Mode.</text>
-
 <text id="99094200">You are currently in Journey 1.</text>
 <text id="99094201">You are currently in Journey 2.</text>
 <text id="99094202">You are currently in Journey 3.</text>
@@ -4908,7 +4900,6 @@ Can be reset via Request Absolution.</text>
 <text id="99094205">You are currently in Journey 6</text>
 <text id="99094206">You are currently in Journey 7.</text>
 <text id="99094207">You are currently in Journey 8.</text>
-
 <text id="99095000">Magical Restraints</text>
 <text id="99095010">Enable Restraint: Roll</text>
 <text id="99095011">Enable Restraint: Sprint</text>
@@ -4916,50 +4907,42 @@ Can be reset via Request Absolution.</text>
 <text id="99095013">Enable Restraint: Backstep</text>
 <text id="99095014">Enable Restraint: Jump</text>
 <text id="99095015">Enable Restraint: Kick</text>
-
 <text id="99095020">Disable Restraint: Roll</text>
 <text id="99095021">Disable Restraint: Sprint</text>
 <text id="99095022">Disable Restraint: Run</text>
 <text id="99095023">Disable Restraint: Backstep</text>
 <text id="99095024">Disable Restraint: Jump</text>
 <text id="99095025">Disable Restraint: Kick</text>
-
 <text id="99095100">You will be able to roll again.</text>
 <text id="99095101">You will be able to sprint again.</text>
 <text id="99095102">You will be able to run again.</text>
 <text id="99095103">You will be able to backstep again.</text>
 <text id="99095104">You will be able to jump again.</text>
 <text id="99095105">You will be able to kick again.</text>
-
 <text id="99095200">You will no longer be able to roll.</text>
 <text id="99095201">You will no longer be able to sprint.</text>
 <text id="99095202">You will no longer be able to run.</text>
 <text id="99095203">You will no longer be able to backstep.</text>
 <text id="99095204">You will no longer be able to jump.</text>
 <text id="99095205">You will no longer be able to kick.</text>
-
 <text id="99096000">Soul Coalescence</text>
 <text id="99096010">Coalesce Strength</text>
 <text id="99096011">Coalesce Dexterity</text>
 <text id="99096012">Coalesce Intelligence</text>
 <text id="99096013">Coalesce Faith</text>
 <text id="99096014">Coalesce Luck</text>
-
 <text id="99096020">Coalescence of Strength</text>
 <text id="99096021">Coalescence of Dexterity</text>
 <text id="99096022">Coalescence of Intelligence</text>
 <text id="99096023">Coalescence of Faith</text>
 <text id="99096024">Coalescence of Luck</text>
-
 <text id="99096030">Coalescence complete.</text>
 <text id="99096031">Begin coalescence?</text>
-
 <text id="99096040">You must have 99 Strength to coalesce.</text>
 <text id="99096041">You must have 99 Dexterity to coalesce.</text>
 <text id="99096042">You must have 99 Intelligence to coalesce.</text>
 <text id="99096043">You must have 99 Faith to coalesce.</text>
 <text id="99096044">You must have 99 Luck to coalesce.</text>
-
 <text id="99096050">Coalescence of Strength
 
 Grants you a boon, boosting maximum equipment load by 30%.</text>
@@ -4975,6 +4958,5 @@ Grants you a boon, boosting max HP by 30%.</text>
 <text id="99096054">Coalescence of Luck
 
 Grants you a boon, boosting soul absorption by 30%.</text>
-
 </entries>
 </fmg>

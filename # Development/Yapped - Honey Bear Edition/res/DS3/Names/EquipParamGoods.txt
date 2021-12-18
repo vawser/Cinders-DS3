@@ -1012,6 +1012,19 @@
 12531 Overgrown Lothric Knight Emblem
 12540 Herald (Alt) Insignia
 12550 Undead Legion (Alt) Insignia
+12560 Carthus Swordsman Insignia
+12561 Carthus Swordsman Emblem
+12570 Royal Swordsman Insignia
+12571 Royal Swordsman Emblem
+12580 Vordt's Insignia
+12581 Vordt's Emblem
+12590 Throne Watcher Insignia
+12591 Throne Watcher Emblem
+12600 Throne Defender Insignia
+12601 Throne Defender Emblem
+12610 Mirrah (Alt) Insignia
+12620 Smelter Demon (Alt) Insignia
+12621 Smelter Demon (Alt) Emblem
 39999 ### Gauntlet Tokens ###
 40000 Weapon Token
 40001 Armor Token
@@ -1407,3 +1420,5 @@
 4318010 Adjacent Black Star
 4319000 Blood Corruption
 4319010 Great Blood Corruption
+4320000 Blood Crystallization
+4320010 Great Blood Crystallization

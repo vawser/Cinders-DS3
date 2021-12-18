@@ -645,7 +645,6 @@
 <text id="5033">Revive the Fallen Protector</text>
 <text id="5034"></text>
 <text id="5035">Revive the Marauder</text>
-
 <text id="5100">Grants strength essence boon</text>
 <text id="5101">Grants strength essence boon</text>
 <text id="5102">Grants strength essence boon</text>
@@ -671,7 +670,6 @@
 <text id="5142">Grants luck essence boon</text>
 <text id="5143">Grants luck essence boon</text>
 <text id="5144">Grants luck essence boon</text>
-
 <text id="5400">Explodes, inflicting fire damage</text>
 <text id="5401">Explodes, inflicting fire damage</text>
 <text id="5402">Explodes, inflicting physical damage and reducing all absorptions</text>
@@ -1057,6 +1055,7 @@
 <text id="11940">Applies a helmet illusion</text>
 <text id="11941">Applies an armor illusion</text>
 <text id="11951">Applies an armor illusion</text>
+<text id="11960">Applies a helmet illusion</text>
 <text id="11961">Applies an armor illusion</text>
 <text id="11970">Applies a helmet illusion</text>
 <text id="11980">Applies a helmet illusion</text>
@@ -1164,6 +1163,19 @@
 <text id="12531">Applies an armor illusion</text>
 <text id="12540">Applies a helmet illusion</text>
 <text id="12550">Applies a helmet illusion</text>
+<text id="12560">Applies a helmet illusion</text>
+<text id="12561">Applies an armor illusion</text>
+<text id="12570">Applies a helmet illusion</text>
+<text id="12571">Applies an armor illusion</text>
+<text id="12580">Applies a helmet illusion</text>
+<text id="12581">Applies an armor illusion</text>
+<text id="12590">Applies a helmet illusion</text>
+<text id="12591">Applies an armor illusion</text>
+<text id="12600">Applies a helmet illusion</text>
+<text id="12601">Applies an armor illusion</text>
+<text id="12610">Applies a helmet illusion</text>
+<text id="12620">Applies a helmet illusion</text>
+<text id="12621">Applies an armor illusion</text>
 <text id="40000">Exchange with the Fire Keeper for weaponry and spells</text>
 <text id="40001">Exchange with the Fire Keeper for armor</text>
 <text id="40002">Exchange with the Fire Keeper for accessories</text>
@@ -1544,5 +1556,7 @@
 <text id="4318010">Create a star that emits a beam of black fire</text>
 <text id="4319000">Spew blood corrupted with parasites from one's mouth</text>
 <text id="4319010">Spew blood corrupted with parasites from one's mouth</text>
+<text id="4320000">Drench target with one's own blood and crystallize it</text>
+<text id="4320010">Drench target with one's own blood and crystallize it</text>
 </entries>
 </fmg>

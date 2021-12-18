@@ -331,8 +331,9 @@ dmy:
 903000 Slicing Wind
 
 904000 Cyclone Blast (Projectile)
-904100 Cyclone Blast (Impact)
-904200 Explosive Cyclone Blast
+904100 Explosive Cyclone Blast (Impact)
+
+905000 Blood Crystallization
 
 #------------------------
 # Frostfall

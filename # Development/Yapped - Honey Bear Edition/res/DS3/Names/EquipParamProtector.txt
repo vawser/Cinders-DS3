@@ -144,6 +144,11 @@
 1613000 Overgrown Lothric Knight - Legs
 1620000 Herald - Head (Lowered Visor)
 1630000 Undead Legion - Head
+1640000 Mirrah Hat - Head
+1650000 Smelter Demon (Alt) - Head
+1651000 Smelter Demon (Alt) - Body
+1652000 Smelter Demon (Alt) - Hands
+1653000 Smelter Demon (Alt) - Legs
 10000001 ### Armor ###
 10010000 Gough's Helm
 10011000 Gough's Armor
@@ -298,7 +303,7 @@
 10492000 Carthus Swordsman Bracer
 10493000 Carthus Swordsman Anklets
 10500000 Royal Swordsman Sallet
-10501000 Royal Swordsman Breastplate
+10501000 Royal Swordsman Cuirass
 10502000 Royal Swordsman Gauntlets
 10503000 Royal Swordsman Leggings
 10510000 Vordt's Helm
