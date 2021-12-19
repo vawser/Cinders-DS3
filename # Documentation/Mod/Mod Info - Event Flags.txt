@@ -1687,6 +1687,18 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007115 Weapon Emission: Wind (Right)
 25007116 Weapon Emission: Psychedelic (Right)
 25007117 Weapon Emission: Brume (Right)
+25007118 Weapon Emission: Infusion (Right)
+25007119
+25007120
+25007121
+25007122
+25007123
+25007124
+25007125
+25007126
+25007127
+25007128
+25007129
 
 25007130 Weapon Emission: Magic (Left)
 25007131 Weapon Emission: Fire (Left)
@@ -1706,6 +1718,18 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007145 Weapon Emission: Wind (Left)
 25007146 Weapon Emission: Psychedelic (Left)
 25007147 Weapon Emission: Brume (Left)
+25007148
+25007149
+25007150
+25007151
+25007152
+25007153
+25007154
+25007155
+25007156
+25007157
+25007158
+25007159
 
 # Player - Body Emission
 25007200 Body Emission: UNUSED
@@ -1726,6 +1750,18 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007215 Body Emission: Water
 25007216 Body Emission: Holy
 25007217 Body Emission: Smouldering
+25007218
+25007219
+25007220
+25007221
+25007222
+25007223
+25007224
+25007225
+25007226
+25007227
+25007228
+25007229
 
 # Player - Eye Emission
 25007250 Eye Emission: Red Glow
@@ -1735,9 +1771,51 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007254 Eye Emission: Golden Glow
 25007255 Eye Emission: Green Glow 
 25007256 Eye Emission: Purple Glow 
+25007257
+25007258
+25007259
+25007260
+25007261
+25007262
+25007263
+25007264
+25007265
+25007266
+25007267
+25007268
+25007269
 
 # Player - Head Emission
 25007270 Head Emission: Mass of Humanity
+25007271
+25007272
+25007273
+25007274
+25007275
+25007276
+25007277
+25007278
+25007279
+25007280
+25007281
+25007282
+25007283
+25007284
+25007285
+25007286
+25007287
+25007288
+25007289
+25007290
+25007291
+25007292
+25007293
+25007294
+25007295
+25007296
+25007297
+25007298
+25007299
 
 # Player - Body Aura
 25007300 Body Aura: Ethereal Phantom
@@ -1753,6 +1831,13 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007310 Body Aura: Red Phantom
 25007311 Body Aura: Demonic Phantom
 25007312 Body Aura: Psychedelic Phantom
+25007313
+25007314
+25007315
+25007316
+25007317
+25007318
+25007319
 
 # Player - Body Tint
 25007320 Body Tint: Red

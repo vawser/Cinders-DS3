@@ -50,6 +50,8 @@ Event(0, Default, function() {
     InitializeEvent(0, 20204, 0); // Clear Body Armor Transformations
     
     InitializeEvent(0, 20210, 0); // Weapon Emission - Monitor
+    InitializeEvent(0, 20211, 0); // Infusion Emission - Monitor
+    
     InitializeEvent(0, 20220, 0); // Body Emission - Monitor
     InitializeEvent(0, 20230, 0); // Eye Emission - Monitor
     InitializeEvent(0, 20240, 0); // Body Aura - Monitor
@@ -5405,6 +5407,129 @@ Event(20210, Default, function() {
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007147);
     ClearSpEffect(10000, 160709155);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Infusion Emission - Monitor
+//----------------------------------------------
+Event(20211, Default, function() {
+    WaitFixedTimeSeconds(1.0);
+
+    // Skip if Infusion emission ON is not toggled
+    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, 25007118)
+    
+    //--------------------
+    // ON
+    //--------------------
+    // Curse
+    SkipIfCharacterHasSpEffect(1, 10000, 200000200, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709350);
+    
+    // Poison
+    SkipIfCharacterHasSpEffect(1, 10000, 200000300, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709351);
+    
+    // Bleed
+    SkipIfCharacterHasSpEffect(1, 10000, 200000400, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709352);
+    
+    // Frost
+    SkipIfCharacterHasSpEffect(1, 10000, 200000500, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709353);
+    
+    // Magic
+    SkipIfCharacterHasSpEffect(1, 10000, 200000600, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709354);
+    
+    // Fire
+    SkipIfCharacterHasSpEffect(1, 10000, 200000700, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709355);
+    
+    // Lightning
+    SkipIfCharacterHasSpEffect(1, 10000, 200000800, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709356);
+    
+    // Dark
+    SkipIfCharacterHasSpEffect(1, 10000, 200000900, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709357);
+    
+    // Lucky
+    SkipIfCharacterHasSpEffect(1, 10000, 200001000, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709358);
+    
+    // Enchanted
+    SkipIfCharacterHasSpEffect(1, 10000, 200001100, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709359);
+    
+    // Holy
+    SkipIfCharacterHasSpEffect(1, 10000, 200001200, false, ComparisonType.Equal, 1);
+    SetSpEffect(10000, 160709360);
+    
+    Label0()
+    
+    //--------------------
+    // OFF
+    //--------------------
+    
+    // Curse
+    SkipIfCharacterHasSpEffect(1, 10000, 200000200, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709350);
+    
+    // Poison
+    SkipIfCharacterHasSpEffect(1, 10000, 200000300, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709351);
+    
+    // Bleed
+    SkipIfCharacterHasSpEffect(1, 10000, 200000400, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709352);
+    
+    // Frost
+    SkipIfCharacterHasSpEffect(1, 10000, 200000500, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709353);
+    
+    // Magic
+    SkipIfCharacterHasSpEffect(1, 10000, 200000600, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709354);
+    
+    // Fire
+    SkipIfCharacterHasSpEffect(1, 10000, 200000700, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709355);
+    
+    // Lightning
+    SkipIfCharacterHasSpEffect(1, 10000, 200000800, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709356);
+    
+    // Dark
+    SkipIfCharacterHasSpEffect(1, 10000, 200000900, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709357);
+    
+    // Lucky
+    SkipIfCharacterHasSpEffect(1, 10000, 200001000, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709358);
+    
+    // Enchanted
+    SkipIfCharacterHasSpEffect(1, 10000, 200001100, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709359);
+    
+    // Holy
+    SkipIfCharacterHasSpEffect(1, 10000, 200001200, true, ComparisonType.Equal, 1);
+    ClearSpEffect(10000, 160709360);
+
+    // Clear VFX if toggled off
+    SkipIfEventFlag(10, ON, TargetEventFlagType.EventFlag, 25007118);
+    ClearSpEffect(10000, 160709350);
+    ClearSpEffect(10000, 160709351);
+    ClearSpEffect(10000, 160709352);
+    ClearSpEffect(10000, 160709353);
+    ClearSpEffect(10000, 160709354);
+    ClearSpEffect(10000, 160709355);
+    ClearSpEffect(10000, 160709356);
+    ClearSpEffect(10000, 160709357);
+    ClearSpEffect(10000, 160709358);
+    ClearSpEffect(10000, 160709359);
+    ClearSpEffect(10000, 160709360);
     
     EndUnconditionally(EventEndType.Restart);
 });

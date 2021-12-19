@@ -1992,7 +1992,9 @@ Persisting will transform you into a grub.</text>
 
 <text id="15003120">Transformation applied.</text>
 <text id="15003121">Transformation removed.</text>
-<text id="15003122">Reload the map to restore access to Transformation Effects.</text>
+<text id="15003122">Transformation applied.
+Current visual is determined by weapon infusion.</text>
+
 <text id="15003200">None</text>
 <text id="15003201">Magic</text>
 <text id="15003202">Fire</text>
@@ -2012,6 +2014,7 @@ Persisting will transform you into a grub.</text>
 <text id="15003216">Wind</text>
 <text id="15003217">Psychedelic</text>
 <text id="15003218">Brume</text>
+<text id="15003219">Infusion</text>
 <text id="15003300"></text>
 <text id="15003301">Magical Crystals</text>
 <text id="15003302">Invisibility</text>
@@ -5013,7 +5016,7 @@ Grants you a boon, boosting soul absorption by 30%.</text>
 <text id="99097138">Executioner</text>
 <text id="99097139">Dragonslayer</text>
 <text id="99097140">Lothric Knight</text>
-<text id="99097141">Iron Keeper</text>
+<text id="99097141">Iron Keeper Helm</text>
 <text id="99097142">Heide Mask</text>
 <text id="99097143">Harald Legion</text>
 <text id="99097144">Exile</text>
@@ -5028,7 +5031,7 @@ Grants you a boon, boosting soul absorption by 30%.</text>
 <text id="99097153">Gloom</text>
 <text id="99097154">Ruin</text>
 <text id="99097155">Rampart Golem</text>
-<text id="99097156">Gargoyle Head</text>
+<text id="99097156">Gargoyle Helm</text>
 <text id="99097157">Gargoyle</text>
 <text id="99097158">Crab Helmet</text>
 <text id="99097159">Horned Samurai Helm</text>
