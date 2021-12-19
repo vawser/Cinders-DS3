@@ -62,6 +62,8 @@ Finish following weapons:
 # Changelog
 #------------------------------
 
+# Bugfixes
+- Cleaned up old usage of the removed transformation items.
 
 #------------------------------
 # TODO
