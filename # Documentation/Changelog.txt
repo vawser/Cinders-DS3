@@ -89,10 +89,7 @@ Finish following weapons:
 - Tweaked Sorcerer armor.
 
 # Transformations
-- Removed Writs.
-- Removed Elixirs.
-- Removed Oils.
-- Added "Transformation Effects" menu to Jiji.
+- Added "Visual Transformation" menu to Jiji.
  - This allows you to select the old writ/elixir/oil effects.
  - These selections persist through loading.
  - Added Body Tint effects: these change the specular color, basically a more subdued phantom aura.
@@ -101,17 +98,27 @@ Finish following weapons:
  - Writ effects that affected the head are categorised under "Head Emission".
  - Writ effects that affected the eyes are categorised under "Eye Emission".
  - Elixir effects that affected phantom color are categorised under "Body Aura".
- - Elixir effects that affected humanity form are categorised under "Humanity Aura."
-- Added Insignia/Emblems for the following set:
- - Wanderer Set
- - Carthus Swordsman Set
- - Royal Swordsman Set
- - Vordt's Set
- - Throne Watcher Set
- - Throne Defender Set
- - Mirrah Hat (Unique Headpiece), can be found in Company of Champions' covenant shop.
- - Smelter Demon (Alt), can be found in Company of Champions' covenant shop.
+ - Elixir effects that affected humanity form are categorised under "Humanity Aura.
+
+- Added "Armor Transformation" menu to Jiji.
+ - This allows you to select a head and body armor override.
+ - These selections persist through loading.
+ - Added following armor transformations:
+  - Wanderer Set
+  - Carthus Swordsman Set
+  - Royal Swordsman Set
+  - Vordt's Set
+  - Throne Watcher Set
+  - Throne Defender Set
+  - Mirrah Cap
+  - Smelter Demon
  
+- Removed Writ items.
+- Removed Elixir  items.
+- Removed Oil items. 
+- Removed Insignia items.
+- Removed Emblem items.
+
 # Blade of Champions
 - Blade of Champions is found near to the Firelink Shrine bonfire.
 - Added Curent Journey information, telling you which mode you selected and the current journey count.
@@ -434,5 +441,3 @@ Finish following weapons:
 #------------------------------
 Add Solaire as summon to Soul of Cinder
 
-
-    

@@ -44,7 +44,11 @@ Event(0, Default, function() {
     //--------------------
     // Visual Effects
     //--------------------
-    InitializeEvent(0, 20201, 0); // Clear Transformations
+    InitializeEvent(0, 20201, 0); // Clear Visual Transformations
+    InitializeEvent(0, 20202, 0); // Clear Armor Transformations
+    InitializeEvent(0, 20203, 0); // Clear Head Armor Transformations
+    InitializeEvent(0, 20204, 0); // Clear Body Armor Transformations
+    
     InitializeEvent(0, 20210, 0); // Weapon Emission - Monitor
     InitializeEvent(0, 20220, 0); // Body Emission - Monitor
     InitializeEvent(0, 20230, 0); // Eye Emission - Monitor
@@ -52,6 +56,8 @@ Event(0, Default, function() {
     InitializeEvent(0, 20250, 0); // Humanity Aura - Monitor
     InitializeEvent(0, 20260, 0); // Head Emission - Monitor
     InitializeEvent(0, 20270, 0); // Body Tint - Monitor
+    InitializeEvent(0, 20280, 0); // Head Armor - Monitor
+    InitializeEvent(0, 20290, 0); // Body Armor - Monitor
     
     //--------------------
     // Curses - Add Player Effects
@@ -3548,9 +3554,11 @@ Event(20060, Default, function(X0_4) {
     IfCharacterHasSpeffect(AND_01, X0_4, 160710000, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
     
-    ChangeCharacterEnableState(4000899, Enabled);
-    SetCharacterAnimationState(4000899, Enabled);
-    SetCharacterAIState(4000899, Enabled);
+    SetEventFlag(24007000, ON);
+    
+    //ChangeCharacterEnableState(4000899, Enabled);
+    //SetCharacterAnimationState(4000899, Enabled);
+    //SetCharacterAIState(4000899, Enabled);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -5089,12 +5097,51 @@ Event(20135, Restart, function() {
 });
 
 //----------------------------------------------
-// Clear Transformations
+// Clear Visual Transformations
 //----------------------------------------------
 Event(20201, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007398);
     
     BatchSetEventFlags(25007100, 25007399, OFF);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Clear Armor Transformations
+//----------------------------------------------
+Event(20202, Default, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007399);
+    
+    BatchSetEventFlags(24007000, 24007999, OFF);
+    
+    SetEventFlag(25007399, OFF);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Clear Head Armor Transformations
+//----------------------------------------------
+Event(20203, Default, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007396);
+    
+    BatchSetEventFlags(24007000, 24007499, OFF);
+    
+    SetEventFlag(25007396, OFF);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Clear Body Armor Transformations
+//----------------------------------------------
+Event(20204, Default, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007397);
+    
+    BatchSetEventFlags(24007500, 24007999, OFF);
+    
+    SetEventFlag(25007397, OFF);
     
     EndUnconditionally(EventEndType.Restart);
 });
@@ -5762,6 +5809,3335 @@ Event(20270, Default, function() {
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007331);
     ClearSpEffect(10000, 160709748);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Head Armor - Monitor
+//----------------------------------------------
+Event(20280, Default, function() {
+    WaitFixedTimeSeconds(1.0);
+    
+    // Dragonform (DS3)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007000);
+    SetSpEffect(10000, 160703100);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007000);
+    ClearSpEffect(10000, 160703100);
+
+    // Bloodborne Hunter
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007001);
+    SetSpEffect(10000, 160703110);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007001);
+    ClearSpEffect(10000, 160703110);
+
+    // Skeleton (Normal)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007002);
+    SetSpEffect(10000, 160703160);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007002);
+    ClearSpEffect(10000, 160703160);
+
+    // Skeleton (Tree)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007003);
+    SetSpEffect(10000, 160703170);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007003);
+    ClearSpEffect(10000, 160703170);
+
+    // Skeleton (Peasant)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007004);
+    SetSpEffect(10000, 160703180);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007004);
+    ClearSpEffect(10000, 160703180);
+
+    // Skeleton (Overgrown)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007005);
+    SetSpEffect(10000, 160703190);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007005);
+    ClearSpEffect(10000, 160703190);
+
+    // Capra Demon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007006);
+    SetSpEffect(10000, 160703120);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007006);
+    ClearSpEffect(10000, 160703120);
+
+    // Titanite Demon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007007);
+    SetSpEffect(10000, 160703130);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007007);
+    ClearSpEffect(10000, 160703130);
+
+    // Murkman
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007008);
+    SetSpEffect(10000, 160703140);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007008);
+    ClearSpEffect(10000, 160703140);
+
+    // Waxed Head
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007009);
+    SetSpEffect(10000, 160703200);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007009);
+    ClearSpEffect(10000, 160703200);
+
+    // Humanity Sprite
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007010);
+    SetSpEffect(10000, 160703150);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007010);
+    ClearSpEffect(10000, 160703150);
+
+    // Havel's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007011);
+    SetSpEffect(10000, 160704000);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007011);
+    ClearSpEffect(10000, 160704000);
+
+    // Giant-horned Helmet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007012);
+    SetSpEffect(10000, 160704010);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007012);
+    ClearSpEffect(10000, 160704010);
+
+    // Fang Boar Helm
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007013);
+    SetSpEffect(10000, 160704020);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007013);
+    ClearSpEffect(10000, 160704020);
+
+    // Golem
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007014);
+    SetSpEffect(10000, 160704030);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007014);
+    ClearSpEffect(10000, 160704030);
+
+    // Giant's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007015);
+    SetSpEffect(10000, 160704040);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007015);
+    ClearSpEffect(10000, 160704040);
+
+    // Pursuer's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007016);
+    SetSpEffect(10000, 160704050);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007016);
+    ClearSpEffect(10000, 160704050);
+
+    // Smough's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007017);
+    SetSpEffect(10000, 160704060);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007017);
+    ClearSpEffect(10000, 160704060);
+
+    // Gundyr's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007018);
+    SetSpEffect(10000, 160704070);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007018);
+    ClearSpEffect(10000, 160704070);
+
+    // Brushwood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007019);
+    SetSpEffect(10000, 160704080);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007019);
+    ClearSpEffect(10000, 160704080);
+
+    // Winged Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007020);
+    SetSpEffect(10000, 160704090);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007020);
+    ClearSpEffect(10000, 160704090);
+
+    // Snail Shell
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007021);
+    SetSpEffect(10000, 160704100);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007021);
+    ClearSpEffect(10000, 160704100);
+
+    // Millwood Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007022);
+    SetSpEffect(10000, 160704110);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007022);
+    ClearSpEffect(10000, 160704110);
+
+    // Mirror Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007023);
+    SetSpEffect(10000, 160704120);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007023);
+    ClearSpEffect(10000, 160704120);
+
+    // Dragonrider
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007024);
+    SetSpEffect(10000, 160704130);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007024);
+    ClearSpEffect(10000, 160704130);
+
+    // Catarina
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007025);
+    SetSpEffect(10000, 160704140);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007025);
+    ClearSpEffect(10000, 160704140);
+
+    // Stone
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007026);
+    SetSpEffect(10000, 160704150);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007026);
+    ClearSpEffect(10000, 160704150);
+
+    // Guardian
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007027);
+    SetSpEffect(10000, 160704160);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007027);
+    ClearSpEffect(10000, 160704160);
+
+    // Steel
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007028);
+    SetSpEffect(10000, 160704170);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007028);
+    ClearSpEffect(10000, 160704170);
+
+    // Cathedral Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007029);
+    SetSpEffect(10000, 160704180);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007029);
+    ClearSpEffect(10000, 160704180);
+
+    // Dragon Hunter
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007030);
+    SetSpEffect(10000, 160704190);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007030);
+    ClearSpEffect(10000, 160704190);
+
+    // Black Iron
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007031);
+    SetSpEffect(10000, 160704200);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007031);
+    ClearSpEffect(10000, 160704200);
+
+    // Iron Dragonslayer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007032);
+    SetSpEffect(10000, 160704210);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007032);
+    ClearSpEffect(10000, 160704210);
+
+    // Lapp
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007033);
+    SetSpEffect(10000, 160704220);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007033);
+    ClearSpEffect(10000, 160704220);
+
+    // Penetrator
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007034);
+    SetSpEffect(10000, 160704230);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007034);
+    ClearSpEffect(10000, 160704230);
+
+    // Morne's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007035);
+    SetSpEffect(10000, 160704240);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007035);
+    ClearSpEffect(10000, 160704240);
+
+    // Paladin
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007036);
+    SetSpEffect(10000, 160704250);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007036);
+    ClearSpEffect(10000, 160704250);
+
+    // Quicksilver
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007037);
+    SetSpEffect(10000, 160704260);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007037);
+    ClearSpEffect(10000, 160704260);
+
+    // Executioner
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007038);
+    SetSpEffect(10000, 160704270);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007038);
+    ClearSpEffect(10000, 160704270);
+
+    // Dragonslayer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007039);
+    SetSpEffect(10000, 160704280);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007039);
+    ClearSpEffect(10000, 160704280);
+
+    // Lothric Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007040);
+    SetSpEffect(10000, 160704290);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007040);
+    ClearSpEffect(10000, 160704290);
+
+    // Iron Keeper
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007041);
+    SetSpEffect(10000, 160704300);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007041);
+    ClearSpEffect(10000, 160704300);
+
+    // Heide Mask
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007042);
+    SetSpEffect(10000, 160704310);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007042);
+    ClearSpEffect(10000, 160704310);
+
+    // Harald Legion
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007043);
+    SetSpEffect(10000, 160704320);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007043);
+    ClearSpEffect(10000, 160704320);
+
+    // Exile
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007044);
+    SetSpEffect(10000, 160704330);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007044);
+    ClearSpEffect(10000, 160704330);
+
+    // Overseer's Mask
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007045);
+    SetSpEffect(10000, 160704340);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007045);
+    ClearSpEffect(10000, 160704340);
+
+    // Raime's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007046);
+    SetSpEffect(10000, 160704350);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007046);
+    ClearSpEffect(10000, 160704350);
+
+    // Black Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007047);
+    SetSpEffect(10000, 160704360);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007047);
+    ClearSpEffect(10000, 160704360);
+
+    // Silver Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007048);
+    SetSpEffect(10000, 160704370);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007048);
+    ClearSpEffect(10000, 160704370);
+
+    // Tarnished Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007049);
+    SetSpEffect(10000, 160704380);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007049);
+    ClearSpEffect(10000, 160704380);
+
+    // Heide Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007050);
+    SetSpEffect(10000, 160704390);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007050);
+    ClearSpEffect(10000, 160704390);
+
+    // Syan Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007051);
+    SetSpEffect(10000, 160704400);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007051);
+    ClearSpEffect(10000, 160704400);
+
+    // Alonne Captain
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007052);
+    SetSpEffect(10000, 160704410);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007052);
+    ClearSpEffect(10000, 160704410);
+
+    // Gloom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007053);
+    SetSpEffect(10000, 160704420);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007053);
+    ClearSpEffect(10000, 160704420);
+
+    // Ruin
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007054);
+    SetSpEffect(10000, 160704430);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007054);
+    ClearSpEffect(10000, 160704430);
+
+    // Rampart Golem
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007055);
+    SetSpEffect(10000, 160704440);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007055);
+    ClearSpEffect(10000, 160704440);
+
+    // Lost Gargoyle
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007056);
+    SetSpEffect(10000, 160704450);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007056);
+    ClearSpEffect(10000, 160704450);
+
+    // Gargoyle
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007057);
+    SetSpEffect(10000, 160704460);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007057);
+    ClearSpEffect(10000, 160704460);
+
+    // Crab Helmet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007058);
+    SetSpEffect(10000, 160704470);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007058);
+    ClearSpEffect(10000, 160704470);
+
+    // Horned Samurai Helm
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007060);
+    SetSpEffect(10000, 160704490);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007060);
+    ClearSpEffect(10000, 160704490);
+
+    // Ornate Samurai Helm
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007061);
+    SetSpEffect(10000, 160704500);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007061);
+    ClearSpEffect(10000, 160704500);
+
+    // Lorian
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007062);
+    SetSpEffect(10000, 160704510);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007062);
+    ClearSpEffect(10000, 160704510);
+
+    // Great Lord
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007063);
+    SetSpEffect(10000, 160704520);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007063);
+    ClearSpEffect(10000, 160704520);
+
+    // Ludleth's Crown
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007064);
+    SetSpEffect(10000, 160704530);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007064);
+    ClearSpEffect(10000, 160704530);
+
+    // Symbol of Avarice
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007065);
+    SetSpEffect(10000, 160704540);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007065);
+    ClearSpEffect(10000, 160704540);
+
+    // Giant Slave Helmet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007066);
+    SetSpEffect(10000, 160704550);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007066);
+    ClearSpEffect(10000, 160704550);
+
+    // Old Demon King's Crown
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007067);
+    SetSpEffect(10000, 160704560);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007067);
+    ClearSpEffect(10000, 160704560);
+
+    // Pygmy King's Crown
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007068);
+    SetSpEffect(10000, 160704570);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007068);
+    ClearSpEffect(10000, 160704570);
+
+    // Drakeblood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007069);
+    SetSpEffect(10000, 160704580);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007069);
+    ClearSpEffect(10000, 160704580);
+
+    // Barrel
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007070);
+    SetSpEffect(10000, 160704590);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007070);
+    ClearSpEffect(10000, 160704590);
+
+    // Gough's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007071);
+    SetSpEffect(10000, 160704600);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007071);
+    ClearSpEffect(10000, 160704600);
+
+    // Mad Warrior
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007072);
+    SetSpEffect(10000, 160704610);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007072);
+    ClearSpEffect(10000, 160704610);
+
+    // Imperious
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007073);
+    SetSpEffect(10000, 160704620);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007073);
+    ClearSpEffect(10000, 160704620);
+
+    // Vengarl
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007074);
+    SetSpEffect(10000, 160704630);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007074);
+    ClearSpEffect(10000, 160704630);
+
+    // Mask of Sin
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007075);
+    SetSpEffect(10000, 160704640);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007075);
+    ClearSpEffect(10000, 160704640);
+
+    // Pot
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007076);
+    SetSpEffect(10000, 160704650);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007076);
+    ClearSpEffect(10000, 160704650);
+
+    // Black Dragon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007077);
+    SetSpEffect(10000, 160704660);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007077);
+    ClearSpEffect(10000, 160704660);
+
+    // Ringed Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007078);
+    SetSpEffect(10000, 160704670);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007078);
+    ClearSpEffect(10000, 160704670);
+
+    // Grave Keeper
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007079);
+    SetSpEffect(10000, 160704680);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007079);
+    ClearSpEffect(10000, 160704680);
+
+    // Ivory King
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007080);
+    SetSpEffect(10000, 160704690);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007080);
+    ClearSpEffect(10000, 160704690);
+
+    // Yhorm
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007081);
+    SetSpEffect(10000, 160704700);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007081);
+    ClearSpEffect(10000, 160704700);
+
+    // Smelter Demon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007082);
+    SetSpEffect(10000, 160704710);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007082);
+    ClearSpEffect(10000, 160704710);
+
+    // Firelink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007083);
+    SetSpEffect(10000, 160704720);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007083);
+    ClearSpEffect(10000, 160704720);
+
+    // Gold Ardeo
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007084);
+    SetSpEffect(10000, 160704730);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007084);
+    ClearSpEffect(10000, 160704730);
+
+    // Iron Cage
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007085);
+    SetSpEffect(10000, 160704740);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007085);
+    ClearSpEffect(10000, 160704740);
+
+    // Corvian Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007086);
+    SetSpEffect(10000, 160704750);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007086);
+    ClearSpEffect(10000, 160704750);
+
+    // Eastern
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007087);
+    SetSpEffect(10000, 160704760);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007087);
+    ClearSpEffect(10000, 160704760);
+
+    // Alonne
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007088);
+    SetSpEffect(10000, 160704770);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007088);
+    ClearSpEffect(10000, 160704770);
+
+    // Brass
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007089);
+    SetSpEffect(10000, 160704780);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007089);
+    ClearSpEffect(10000, 160704780);
+
+    // Charred Loyce
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007090);
+    SetSpEffect(10000, 160704790);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007090);
+    ClearSpEffect(10000, 160704790);
+
+    // Loyce
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007091);
+    SetSpEffect(10000, 160704800);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007091);
+    ClearSpEffect(10000, 160704800);
+
+    // Favored
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007092);
+    SetSpEffect(10000, 160704810);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007092);
+    ClearSpEffect(10000, 160704810);
+
+    // King's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007093);
+    SetSpEffect(10000, 160704820);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007093);
+    ClearSpEffect(10000, 160704820);
+
+    // Lord's Blade
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007094);
+    SetSpEffect(10000, 160704830);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007094);
+    ClearSpEffect(10000, 160704830);
+
+    // Sunset
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007095);
+    SetSpEffect(10000, 160704840);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007095);
+    ClearSpEffect(10000, 160704840);
+
+    // Wolf Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007096);
+    SetSpEffect(10000, 160704850);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007096);
+    ClearSpEffect(10000, 160704850);
+
+    // Winged Helm of Ridoh
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007097);
+    SetSpEffect(10000, 160704860);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007097);
+    ClearSpEffect(10000, 160704860);
+
+    // Artificial Helmet
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007098);
+    SetSpEffect(10000, 160704870);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007098);
+    ClearSpEffect(10000, 160704870);
+
+    // Ancient King
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007099);
+    SetSpEffect(10000, 160704880);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007099);
+    ClearSpEffect(10000, 160704880);
+
+    // Filianore's Crown
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007100);
+    SetSpEffect(10000, 160704890);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007100);
+    ClearSpEffect(10000, 160704890);
+
+    // Holy King's Crown
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007101);
+    SetSpEffect(10000, 160704900);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007101);
+    ClearSpEffect(10000, 160704900);
+
+    // Elite Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007102);
+    SetSpEffect(10000, 160704910);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007102);
+    ClearSpEffect(10000, 160704910);
+
+    // Bucket
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007103);
+    SetSpEffect(10000, 160704920);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007103);
+    ClearSpEffect(10000, 160704920);
+
+    // Burial Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007104);
+    SetSpEffect(10000, 160704930);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007104);
+    ClearSpEffect(10000, 160704930);
+
+    // Adventurer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007105);
+    SetSpEffect(10000, 160704940);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007105);
+    ClearSpEffect(10000, 160704940);
+
+    // Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007106);
+    SetSpEffect(10000, 160704950);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007106);
+    ClearSpEffect(10000, 160704950);
+
+    // Thorn
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007107);
+    SetSpEffect(10000, 160704960);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007107);
+    ClearSpEffect(10000, 160704960);
+
+    // Nameless Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007108);
+    SetSpEffect(10000, 160704970);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007108);
+    ClearSpEffect(10000, 160704970);
+
+    // Mask of the Father
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007109);
+    SetSpEffect(10000, 160704980);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007109);
+    ClearSpEffect(10000, 160704980);
+
+    // Mask of the Mother
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007110);
+    SetSpEffect(10000, 160704990);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007110);
+    ClearSpEffect(10000, 160704990);
+
+    // Mask of the Child
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007111);
+    SetSpEffect(10000, 160705000);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007111);
+    ClearSpEffect(10000, 160705000);
+
+    // Demon Cleric Mask
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007112);
+    SetSpEffect(10000, 160705010);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007112);
+    ClearSpEffect(10000, 160705010);
+
+    // Mask of Horror
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007113);
+    SetSpEffect(10000, 160705020);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007113);
+    ClearSpEffect(10000, 160705020);
+
+    // Mask of Cruelty
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007114);
+    SetSpEffect(10000, 160705030);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007114);
+    ClearSpEffect(10000, 160705030);
+
+    // Mask of Serenity
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007115);
+    SetSpEffect(10000, 160705040);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007115);
+    ClearSpEffect(10000, 160705040);
+
+    // Mask of War
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007116);
+    SetSpEffect(10000, 160705050);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007116);
+    ClearSpEffect(10000, 160705050);
+
+    // Faraam
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007117);
+    SetSpEffect(10000, 160705060);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007117);
+    ClearSpEffect(10000, 160705060);
+
+    // Alva
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007118);
+    SetSpEffect(10000, 160705070);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007118);
+    ClearSpEffect(10000, 160705070);
+
+    // Attendant
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007119);
+    SetSpEffect(10000, 160705080);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007119);
+    ClearSpEffect(10000, 160705080);
+
+    // Footman
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007120);
+    SetSpEffect(10000, 160705090);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007120);
+    ClearSpEffect(10000, 160705090);
+
+    // Outrider
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007121);
+    SetSpEffect(10000, 160705100);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007121);
+    ClearSpEffect(10000, 160705100);
+
+    // Dark
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007122);
+    SetSpEffect(10000, 160705110);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007122);
+    ClearSpEffect(10000, 160705110);
+
+    // Skull Mask
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007123);
+    SetSpEffect(10000, 160705120);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007123);
+    ClearSpEffect(10000, 160705120);
+
+    // Suspicious Gold Mask
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007124);
+    SetSpEffect(10000, 160705130);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007124);
+    ClearSpEffect(10000, 160705130);
+
+    // Undead Legion
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007125);
+    SetSpEffect(10000, 160705140);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007125);
+    ClearSpEffect(10000, 160705140);
+
+    // Fallen Mirrah
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007126);
+    SetSpEffect(10000, 160705150);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007126);
+    ClearSpEffect(10000, 160705150);
+
+    // Herald
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007127);
+    SetSpEffect(10000, 160705160);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007127);
+    ClearSpEffect(10000, 160705160);
+
+    // Fallen Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007128);
+    SetSpEffect(10000, 160705170);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007128);
+    ClearSpEffect(10000, 160705170);
+
+    // Hallowed Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007129);
+    SetSpEffect(10000, 160705180);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007129);
+    ClearSpEffect(10000, 160705180);
+
+    // Forlorn
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007130);
+    SetSpEffect(10000, 160705190);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007130);
+    ClearSpEffect(10000, 160705190);
+
+    // Aurous
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007131);
+    SetSpEffect(10000, 160705200);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007131);
+    ClearSpEffect(10000, 160705200);
+
+    // Sun
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007132);
+    SetSpEffect(10000, 160705210);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007132);
+    ClearSpEffect(10000, 160705210);
+
+    // Fire Witch
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007133);
+    SetSpEffect(10000, 160705220);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007133);
+    ClearSpEffect(10000, 160705220);
+
+    // Channeler
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007134);
+    SetSpEffect(10000, 160705230);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007134);
+    ClearSpEffect(10000, 160705230);
+
+    // Chain
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007135);
+    SetSpEffect(10000, 160705240);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007135);
+    ClearSpEffect(10000, 160705240);
+
+    // Vilhelm
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007136);
+    SetSpEffect(10000, 160705250);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007136);
+    ClearSpEffect(10000, 160705250);
+
+    // Bone Ash
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007137);
+    SetSpEffect(10000, 160705260);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007137);
+    ClearSpEffect(10000, 160705260);
+
+    // Varangian
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007138);
+    SetSpEffect(10000, 160705270);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007138);
+    ClearSpEffect(10000, 160705270);
+
+    // Thorolund
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007139);
+    SetSpEffect(10000, 160705280);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007139);
+    ClearSpEffect(10000, 160705280);
+
+    // Bear
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007140);
+    SetSpEffect(10000, 160705290);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007140);
+    ClearSpEffect(10000, 160705290);
+
+    // Wolnir's Crown
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007141);
+    SetSpEffect(10000, 160705300);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007141);
+    ClearSpEffect(10000, 160705300);
+
+    // Crown of Illusions
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007142);
+    SetSpEffect(10000, 160705310);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007142);
+    ClearSpEffect(10000, 160705310);
+
+    // Northern
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007143);
+    SetSpEffect(10000, 160705320);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007143);
+    ClearSpEffect(10000, 160705320);
+
+    // Slave Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007144);
+    SetSpEffect(10000, 160705330);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007144);
+    ClearSpEffect(10000, 160705330);
+
+    // Nameless King
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007145);
+    SetSpEffect(10000, 160705340);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007145);
+    ClearSpEffect(10000, 160705340);
+
+    // Courtier
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007146);
+    SetSpEffect(10000, 160705350);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007146);
+    ClearSpEffect(10000, 160705350);
+
+    // Follower
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007147);
+    SetSpEffect(10000, 160705360);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007147);
+    ClearSpEffect(10000, 160705360);
+
+    // Royal Soldier
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007148);
+    SetSpEffect(10000, 160705370);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007148);
+    ClearSpEffect(10000, 160705370);
+
+    // Pontiff Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007149);
+    SetSpEffect(10000, 160705380);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007149);
+    ClearSpEffect(10000, 160705380);
+
+    // Dancer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007150);
+    SetSpEffect(10000, 160705390);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007150);
+    ClearSpEffect(10000, 160705390);
+
+    // Evangelist
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007152);
+    SetSpEffect(10000, 160705410);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007152);
+    ClearSpEffect(10000, 160705410);
+
+    // Mirrah
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007153);
+    SetSpEffect(10000, 160705420);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007153);
+    ClearSpEffect(10000, 160705420);
+
+    // Hard Leather
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007154);
+    SetSpEffect(10000, 160705430);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007154);
+    ClearSpEffect(10000, 160705430);
+
+    // Jailer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007155);
+    SetSpEffect(10000, 160705440);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007155);
+    ClearSpEffect(10000, 160705440);
+
+    // Black
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007156);
+    SetSpEffect(10000, 160705450);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007156);
+    ClearSpEffect(10000, 160705450);
+
+    // Sellsword
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007157);
+    SetSpEffect(10000, 160705460);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007157);
+    ClearSpEffect(10000, 160705460);
+
+    // Vileblood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007158);
+    SetSpEffect(10000, 160705470);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007158);
+    ClearSpEffect(10000, 160705470);
+
+    // Sunless
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007159);
+    SetSpEffect(10000, 160705480);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007159);
+    ClearSpEffect(10000, 160705480);
+
+    // Leonhard
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007160);
+    SetSpEffect(10000, 160705490);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007160);
+    ClearSpEffect(10000, 160705490);
+
+    // Xanthous
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007161);
+    SetSpEffect(10000, 160705500);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007161);
+    ClearSpEffect(10000, 160705500);
+
+    // White Preacher
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007162);
+    SetSpEffect(10000, 160705510);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007162);
+    ClearSpEffect(10000, 160705510);
+
+    // Poisonhorn Cap
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007163);
+    SetSpEffect(10000, 160705520);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007163);
+    ClearSpEffect(10000, 160705520);
+
+    // Hollow Head
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007164);
+    SetSpEffect(10000, 160705530);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007164);
+    ClearSpEffect(10000, 160705530);
+
+    // Basilisk Cap
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007165);
+    SetSpEffect(10000, 160705540);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007165);
+    ClearSpEffect(10000, 160705540);
+
+    // Vagabond
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007166);
+    SetSpEffect(10000, 160705550);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007166);
+    ClearSpEffect(10000, 160705550);
+
+    // Raven Mask
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007167);
+    SetSpEffect(10000, 160705560);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007167);
+    ClearSpEffect(10000, 160705560);
+
+    // Deserter
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007168);
+    SetSpEffect(10000, 160705570);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007168);
+    ClearSpEffect(10000, 160705570);
+
+    // Deserter Helm
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007169);
+    SetSpEffect(10000, 160705580);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007169);
+    ClearSpEffect(10000, 160705580);
+
+    // Soldier's Hood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007170);
+    SetSpEffect(10000, 160705590);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007170);
+    ClearSpEffect(10000, 160705590);
+
+    // Black Leather
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007171);
+    SetSpEffect(10000, 160705600);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007171);
+    ClearSpEffect(10000, 160705600);
+
+    // Brigand
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007172);
+    SetSpEffect(10000, 160705610);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007172);
+    ClearSpEffect(10000, 160705610);
+
+    // Pharis
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007173);
+    SetSpEffect(10000, 160705620);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007173);
+    ClearSpEffect(10000, 160705620);
+
+    // Shira
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007174);
+    SetSpEffect(10000, 160705630);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007174);
+    ClearSpEffect(10000, 160705630);
+
+    // Black Hand
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007175);
+    SetSpEffect(10000, 160705640);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007175);
+    ClearSpEffect(10000, 160705640);
+
+    // Conjurator
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007176);
+    SetSpEffect(10000, 160705650);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007176);
+    ClearSpEffect(10000, 160705650);
+
+    // Jester
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007177);
+    SetSpEffect(10000, 160705660);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007177);
+    ClearSpEffect(10000, 160705660);
+
+    // Grotto
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007178);
+    SetSpEffect(10000, 160705670);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007178);
+    ClearSpEffect(10000, 160705670);
+
+    // Black Straw Hat
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007179);
+    SetSpEffect(10000, 160705680);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007179);
+    ClearSpEffect(10000, 160705680);
+
+    // Tan Straw Hat
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007180);
+    SetSpEffect(10000, 160705690);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007180);
+    ClearSpEffect(10000, 160705690);
+
+    // Cleric
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007181);
+    SetSpEffect(10000, 160705700);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007181);
+    ClearSpEffect(10000, 160705700);
+
+    // Velka's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007182);
+    SetSpEffect(10000, 160705710);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007182);
+    ClearSpEffect(10000, 160705710);
+
+    // Astrologist
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007183);
+    SetSpEffect(10000, 160705720);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007183);
+    ClearSpEffect(10000, 160705720);
+
+    // Worker
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007184);
+    SetSpEffect(10000, 160705730);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007184);
+    ClearSpEffect(10000, 160705730);
+
+    // Salvador's Hat
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007185);
+    SetSpEffect(10000, 160705740);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007185);
+    ClearSpEffect(10000, 160705740);
+
+    // Chester
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007186);
+    SetSpEffect(10000, 160705750);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007186);
+    ClearSpEffect(10000, 160705750);
+
+    // Binded
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007187);
+    SetSpEffect(10000, 160705760);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007187);
+    ClearSpEffect(10000, 160705760);
+
+    // Thrall Hood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007188);
+    SetSpEffect(10000, 160705770);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007188);
+    ClearSpEffect(10000, 160705770);
+
+    // Assassin
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007189);
+    SetSpEffect(10000, 160705780);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007189);
+    ClearSpEffect(10000, 160705780);
+
+    // Painting Guardian
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007190);
+    SetSpEffect(10000, 160705790);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007190);
+    ClearSpEffect(10000, 160705790);
+
+    // Serpentine
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007192);
+    SetSpEffect(10000, 160705810);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007192);
+    ClearSpEffect(10000, 160705810);
+
+    // Scholar
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007193);
+    SetSpEffect(10000, 160705820);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007193);
+    ClearSpEffect(10000, 160705820);
+
+    // Priest's Cap
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007194);
+    SetSpEffect(10000, 160705830);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007194);
+    ClearSpEffect(10000, 160705830);
+
+    // Pyromancer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007195);
+    SetSpEffect(10000, 160705840);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007195);
+    ClearSpEffect(10000, 160705840);
+
+    // Sack
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007196);
+    SetSpEffect(10000, 160705850);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007196);
+    ClearSpEffect(10000, 160705850);
+
+    // Dragon Acolyte
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007197);
+    SetSpEffect(10000, 160705860);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007197);
+    ClearSpEffect(10000, 160705860);
+
+    // Karla
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007198);
+    SetSpEffect(10000, 160705870);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007198);
+    ClearSpEffect(10000, 160705870);
+
+    // Black Witch
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007199);
+    SetSpEffect(10000, 160705880);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007199);
+    ClearSpEffect(10000, 160705880);
+
+    // Black Witch Veil
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007200);
+    SetSpEffect(10000, 160705890);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007200);
+    ClearSpEffect(10000, 160705890);
+
+    // Sorcerer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007202);
+    SetSpEffect(10000, 160705910);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007202);
+    ClearSpEffect(10000, 160705910);
+
+    // Court Sorcerer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007203);
+    SetSpEffect(10000, 160705920);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007203);
+    ClearSpEffect(10000, 160705920);
+
+    // Old Sorcerer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007204);
+    SetSpEffect(10000, 160705930);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007204);
+    ClearSpEffect(10000, 160705930);
+
+    // Venerable Sage
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007205);
+    SetSpEffect(10000, 160705940);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007205);
+    ClearSpEffect(10000, 160705940);
+
+    // Wanderer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007207);
+    SetSpEffect(10000, 160705960);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007207);
+    ClearSpEffect(10000, 160705960);
+
+    // Sage's Hat
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007208);
+    SetSpEffect(10000, 160705970);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007208);
+    ClearSpEffect(10000, 160705970);
+
+    // Moonlight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007209);
+    SetSpEffect(10000, 160705980);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007209);
+    ClearSpEffect(10000, 160705980);
+
+    // Gold-hemmed
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007210);
+    SetSpEffect(10000, 160705990);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007210);
+    ClearSpEffect(10000, 160705990);
+
+    // Crimson
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007211);
+    SetSpEffect(10000, 160706000);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007211);
+    ClearSpEffect(10000, 160706000);
+
+    // Pale Shade
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007212);
+    SetSpEffect(10000, 160706010);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007212);
+    ClearSpEffect(10000, 160706010);
+
+    // Shadow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007213);
+    SetSpEffect(10000, 160706020);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007213);
+    ClearSpEffect(10000, 160706020);
+
+    // Maiden
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007214);
+    SetSpEffect(10000, 160706030);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007214);
+    ClearSpEffect(10000, 160706030);
+
+    // Hexer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007215);
+    SetSpEffect(10000, 160706040);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007215);
+    ClearSpEffect(10000, 160706040);
+
+    // Cornyx's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007216);
+    SetSpEffect(10000, 160706050);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007216);
+    ClearSpEffect(10000, 160706050);
+
+    // Grave Warden
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007217);
+    SetSpEffect(10000, 160706060);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007217);
+    ClearSpEffect(10000, 160706060);
+
+    // Ordained
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007218);
+    SetSpEffect(10000, 160706070);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007218);
+    ClearSpEffect(10000, 160706070);
+
+    // Desert Pyromancer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007219);
+    SetSpEffect(10000, 160706080);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007219);
+    ClearSpEffect(10000, 160706080);
+
+    // Manikin
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007220);
+    SetSpEffect(10000, 160706090);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007220);
+    ClearSpEffect(10000, 160706090);
+
+    // Crude Manikin Mask
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007221);
+    SetSpEffect(10000, 160706100);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007221);
+    ClearSpEffect(10000, 160706100);
+
+    // Archdeacon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007222);
+    SetSpEffect(10000, 160706110);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007222);
+    ClearSpEffect(10000, 160706110);
+
+    // Prayer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007223);
+    SetSpEffect(10000, 160706120);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007223);
+    ClearSpEffect(10000, 160706120);
+
+    // Fire Keeper
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007224);
+    SetSpEffect(10000, 160706130);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007224);
+    ClearSpEffect(10000, 160706130);
+
+    // Blindfold Mask
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007225);
+    SetSpEffect(10000, 160706140);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007225);
+    ClearSpEffect(10000, 160706140);
+
+    // Carthus Blindfold
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007226);
+    SetSpEffect(10000, 160706150);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007226);
+    ClearSpEffect(10000, 160706150);
+
+    // Antiquated
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007227);
+    SetSpEffect(10000, 160706160);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007227);
+    ClearSpEffect(10000, 160706160);
+
+    // Master
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007229);
+    SetSpEffect(10000, 160706180);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007229);
+    ClearSpEffect(10000, 160706180);
+
+    // Saint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007231);
+    SetSpEffect(10000, 160706200);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007231);
+    ClearSpEffect(10000, 160706200);
+
+    // Gallant
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007232);
+    SetSpEffect(10000, 160706210);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007232);
+    ClearSpEffect(10000, 160706210);
+
+    // Warden
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007233);
+    SetSpEffect(10000, 160706220);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007233);
+    ClearSpEffect(10000, 160706220);
+
+    // Dull Gold
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007234);
+    SetSpEffect(10000, 160706230);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007234);
+    ClearSpEffect(10000, 160706230);
+
+    // Fluted
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007235);
+    SetSpEffect(10000, 160706240);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007235);
+    ClearSpEffect(10000, 160706240);
+
+    // Huntsman
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007236);
+    SetSpEffect(10000, 160706250);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007236);
+    ClearSpEffect(10000, 160706250);
+
+    // Mirdan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007237);
+    SetSpEffect(10000, 160706260);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007237);
+    ClearSpEffect(10000, 160706260);
+
+    // Sentinel
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007238);
+    SetSpEffect(10000, 160706270);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007238);
+    ClearSpEffect(10000, 160706270);
+
+    // Raggedy
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007239);
+    SetSpEffect(10000, 160706280);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007239);
+    ClearSpEffect(10000, 160706280);
+
+    // Charlatan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007240);
+    SetSpEffect(10000, 160706290);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007240);
+    ClearSpEffect(10000, 160706290);
+
+    // Pickpocket
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007242);
+    SetSpEffect(10000, 160706310);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007242);
+    ClearSpEffect(10000, 160706310);
+
+    // Nullus
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007244);
+    SetSpEffect(10000, 160706330);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007244);
+    ClearSpEffect(10000, 160706330);
+
+    // Ironclad
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007245);
+    SetSpEffect(10000, 160706340);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007245);
+    ClearSpEffect(10000, 160706340);
+
+    // Sanctum
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007246);
+    SetSpEffect(10000, 160706350);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007246);
+    ClearSpEffect(10000, 160706350);
+
+    // Imported
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007247);
+    SetSpEffect(10000, 160706360);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007247);
+    ClearSpEffect(10000, 160706360);
+
+    // Stalwart Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007248);
+    SetSpEffect(10000, 160706370);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007248);
+    ClearSpEffect(10000, 160706370);
+
+    // Okami
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007249);
+    SetSpEffect(10000, 160706380);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007249);
+    ClearSpEffect(10000, 160706380);
+
+    // Eastern General
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007250);
+    SetSpEffect(10000, 160706390);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007250);
+    ClearSpEffect(10000, 160706390);
+
+    // Fallen Prince
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007252);
+    SetSpEffect(10000, 160706410);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007252);
+    ClearSpEffect(10000, 160706410);
+
+    // Eastern Commander
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007253);
+    SetSpEffect(10000, 160706420);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007253);
+    ClearSpEffect(10000, 160706420);
+
+    // Lothric Knight (Blue)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007254);
+    SetSpEffect(10000, 160706430);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007254);
+    ClearSpEffect(10000, 160706430);
+
+    //  Lothric Knight Helm (Blue)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007255);
+    SetSpEffect(10000, 160706440);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007255);
+    ClearSpEffect(10000, 160706440);
+
+    //  Lothric Knight Helm
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007256);
+    SetSpEffect(10000, 160706460);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007256);
+    ClearSpEffect(10000, 160706460);
+
+    // Consumed King's Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007257);
+    SetSpEffect(10000, 160706460);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007257);
+    ClearSpEffect(10000, 160706460);
+
+    // Elite Soldier
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007259);
+    SetSpEffect(10000, 160706480);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007259);
+    ClearSpEffect(10000, 160706480);
+
+    // Gertrude's Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007260);
+    SetSpEffect(10000, 160706490);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007260);
+    ClearSpEffect(10000, 160706490);
+
+    // Worker (Red)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007261);
+    SetSpEffect(10000, 160706500);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007261);
+    ClearSpEffect(10000, 160706500);
+
+    // Profaned Handmaid
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007262);
+    SetSpEffect(10000, 160706510);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007262);
+    ClearSpEffect(10000, 160706510);
+
+    // Burned Firelink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007263);
+    SetSpEffect(10000, 160706520);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007263);
+    ClearSpEffect(10000, 160706520);
+
+    // Lothric Knight (Overgrown)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007264);
+    SetSpEffect(10000, 160706530);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007264);
+    ClearSpEffect(10000, 160706530);
+
+    // Herald Helm (Low Visor)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007265);
+    SetSpEffect(10000, 160706540);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007265);
+    ClearSpEffect(10000, 160706540);
+
+    // Undead Legion Cap
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007266);
+    SetSpEffect(10000, 160706550);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007266);
+    ClearSpEffect(10000, 160706550);
+
+    // Carthus Swordsman
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007267);
+    SetSpEffect(10000, 160706560);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007267);
+    ClearSpEffect(10000, 160706560);
+
+    // Royal Swordsman
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007268);
+    SetSpEffect(10000, 160706570);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007268);
+    ClearSpEffect(10000, 160706570);
+
+    // Vordt's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007269);
+    SetSpEffect(10000, 160706580);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007269);
+    ClearSpEffect(10000, 160706580);
+
+    // Throne Watcher
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007270);
+    SetSpEffect(10000, 160706590);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007270);
+    ClearSpEffect(10000, 160706590);
+
+    // Throne Defender
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007271);
+    SetSpEffect(10000, 160706600);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007271);
+    ClearSpEffect(10000, 160706600);
+
+    // Mirrah ALT
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007272);
+    SetSpEffect(10000, 160706610);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007272);
+    ClearSpEffect(10000, 160706610);
+
+    // Smelter Demon (Blue)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007273);
+    SetSpEffect(10000, 160706620);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007273);
+    ClearSpEffect(10000, 160706620);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Body Armor - Monitor
+//----------------------------------------------
+Event(20290, Default, function() {
+    WaitFixedTimeSeconds(1.0);
+    
+        // Dragonform (DS3)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007500);
+    SetSpEffect(10000, 160703101);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007500);
+    ClearSpEffect(10000, 160703101);
+
+    // Bloodborne Hunter
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007501);
+    SetSpEffect(10000, 160703111);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007501);
+    ClearSpEffect(10000, 160703111);
+
+    // Skeleton (Normal)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007502);
+    SetSpEffect(10000, 160703161);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007502);
+    ClearSpEffect(10000, 160703161);
+
+    // Skeleton (Tree)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007503);
+    SetSpEffect(10000, 160703171);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007503);
+    ClearSpEffect(10000, 160703171);
+
+    // Skeleton (Peasant)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007504);
+    SetSpEffect(10000, 160703181);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007504);
+    ClearSpEffect(10000, 160703181);
+
+    // Skeleton (Overgrown)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007505);
+    SetSpEffect(10000, 160703191);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007505);
+    ClearSpEffect(10000, 160703191);
+
+    // Capra Demon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007506);
+    SetSpEffect(10000, 160703121);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007506);
+    ClearSpEffect(10000, 160703121);
+
+    // Titanite Demon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007507);
+    SetSpEffect(10000, 160703131);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007507);
+    ClearSpEffect(10000, 160703131);
+
+    // Murkman
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007508);
+    SetSpEffect(10000, 160703141);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007508);
+    ClearSpEffect(10000, 160703141);
+
+    // Humanity Sprite
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007510);
+    SetSpEffect(10000, 160703151);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007510);
+    ClearSpEffect(10000, 160703151);
+
+    // Havel's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007511);
+    SetSpEffect(10000, 160704001);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007511);
+    ClearSpEffect(10000, 160704001);
+
+    // Golem
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007514);
+    SetSpEffect(10000, 160704031);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007514);
+    ClearSpEffect(10000, 160704031);
+
+    // Giant's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007515);
+    SetSpEffect(10000, 160704041);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007515);
+    ClearSpEffect(10000, 160704041);
+
+    // Pursuer's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007516);
+    SetSpEffect(10000, 160704051);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007516);
+    ClearSpEffect(10000, 160704051);
+
+    // Smough's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007517);
+    SetSpEffect(10000, 160704061);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007517);
+    ClearSpEffect(10000, 160704061);
+
+    // Gundyr's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007518);
+    SetSpEffect(10000, 160704071);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007518);
+    ClearSpEffect(10000, 160704071);
+
+    // Brushwood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007519);
+    SetSpEffect(10000, 160704081);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007519);
+    ClearSpEffect(10000, 160704081);
+
+    // Winged Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007520);
+    SetSpEffect(10000, 160704091);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007520);
+    ClearSpEffect(10000, 160704091);
+
+    // Millwood Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007522);
+    SetSpEffect(10000, 160704111);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007522);
+    ClearSpEffect(10000, 160704111);
+
+    // Mirror Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007523);
+    SetSpEffect(10000, 160704121);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007523);
+    ClearSpEffect(10000, 160704121);
+
+    // Dragonrider
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007524);
+    SetSpEffect(10000, 160704131);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007524);
+    ClearSpEffect(10000, 160704131);
+
+    // Catarina
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007525);
+    SetSpEffect(10000, 160704141);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007525);
+    ClearSpEffect(10000, 160704141);
+
+    // Stone
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007526);
+    SetSpEffect(10000, 160704151);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007526);
+    ClearSpEffect(10000, 160704151);
+
+    // Guardian
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007527);
+    SetSpEffect(10000, 160704161);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007527);
+    ClearSpEffect(10000, 160704161);
+
+    // Steel
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007528);
+    SetSpEffect(10000, 160704171);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007528);
+    ClearSpEffect(10000, 160704171);
+
+    // Cathedral Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007529);
+    SetSpEffect(10000, 160704181);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007529);
+    ClearSpEffect(10000, 160704181);
+
+    // Dragon Hunter
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007530);
+    SetSpEffect(10000, 160704191);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007530);
+    ClearSpEffect(10000, 160704191);
+
+    // Black Iron
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007531);
+    SetSpEffect(10000, 160704201);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007531);
+    ClearSpEffect(10000, 160704201);
+
+    // Iron Dragonslayer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007532);
+    SetSpEffect(10000, 160704211);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007532);
+    ClearSpEffect(10000, 160704211);
+
+    // Lapp
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007533);
+    SetSpEffect(10000, 160704221);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007533);
+    ClearSpEffect(10000, 160704221);
+
+    // Penetrator
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007534);
+    SetSpEffect(10000, 160704231);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007534);
+    ClearSpEffect(10000, 160704231);
+
+    // Morne's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007535);
+    SetSpEffect(10000, 160704241);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007535);
+    ClearSpEffect(10000, 160704241);
+
+    // Paladin
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007536);
+    SetSpEffect(10000, 160704251);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007536);
+    ClearSpEffect(10000, 160704251);
+
+    // Quicksilver
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007537);
+    SetSpEffect(10000, 160704261);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007537);
+    ClearSpEffect(10000, 160704261);
+
+    // Executioner
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007538);
+    SetSpEffect(10000, 160704271);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007538);
+    ClearSpEffect(10000, 160704271);
+
+    // Dragonslayer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007539);
+    SetSpEffect(10000, 160704281);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007539);
+    ClearSpEffect(10000, 160704281);
+
+    // Lothric Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007540);
+    SetSpEffect(10000, 160704291);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007540);
+    ClearSpEffect(10000, 160704291);
+
+    // Harald Legion
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007543);
+    SetSpEffect(10000, 160704321);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007543);
+    ClearSpEffect(10000, 160704321);
+
+    // Exile
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007544);
+    SetSpEffect(10000, 160704331);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007544);
+    ClearSpEffect(10000, 160704331);
+
+    // Raime's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007546);
+    SetSpEffect(10000, 160704351);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007546);
+    ClearSpEffect(10000, 160704351);
+
+    // Black Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007547);
+    SetSpEffect(10000, 160704361);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007547);
+    ClearSpEffect(10000, 160704361);
+
+    // Silver Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007548);
+    SetSpEffect(10000, 160704371);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007548);
+    ClearSpEffect(10000, 160704371);
+
+    // Tarnished Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007549);
+    SetSpEffect(10000, 160704381);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007549);
+    ClearSpEffect(10000, 160704381);
+
+    // Heide Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007550);
+    SetSpEffect(10000, 160704391);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007550);
+    ClearSpEffect(10000, 160704391);
+
+    // Syan Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007551);
+    SetSpEffect(10000, 160704401);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007551);
+    ClearSpEffect(10000, 160704401);
+
+    // Alonne Captain
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007552);
+    SetSpEffect(10000, 160704411);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007552);
+    ClearSpEffect(10000, 160704411);
+
+    // Gloom
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007553);
+    SetSpEffect(10000, 160704421);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007553);
+    ClearSpEffect(10000, 160704421);
+
+    // Ruin
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007554);
+    SetSpEffect(10000, 160704431);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007554);
+    ClearSpEffect(10000, 160704431);
+
+    // Rampart Golem
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007555);
+    SetSpEffect(10000, 160704441);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007555);
+    ClearSpEffect(10000, 160704441);
+
+    // Gargoyle
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007557);
+    SetSpEffect(10000, 160704461);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007557);
+    ClearSpEffect(10000, 160704461);
+
+    // Lorian
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007562);
+    SetSpEffect(10000, 160704511);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007562);
+    ClearSpEffect(10000, 160704511);
+
+    // Great Lord
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007563);
+    SetSpEffect(10000, 160704521);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007563);
+    ClearSpEffect(10000, 160704521);
+
+    // Drakeblood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007569);
+    SetSpEffect(10000, 160704581);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007569);
+    ClearSpEffect(10000, 160704581);
+
+    // Gough's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007571);
+    SetSpEffect(10000, 160704601);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007571);
+    ClearSpEffect(10000, 160704601);
+
+    // Mad Warrior
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007572);
+    SetSpEffect(10000, 160704611);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007572);
+    ClearSpEffect(10000, 160704611);
+
+    // Imperious
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007573);
+    SetSpEffect(10000, 160704621);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007573);
+    ClearSpEffect(10000, 160704621);
+
+    // Vengarl
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007574);
+    SetSpEffect(10000, 160704631);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007574);
+    ClearSpEffect(10000, 160704631);
+
+    // Black Dragon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007577);
+    SetSpEffect(10000, 160704661);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007577);
+    ClearSpEffect(10000, 160704661);
+
+    // Ringed Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007578);
+    SetSpEffect(10000, 160704671);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007578);
+    ClearSpEffect(10000, 160704671);
+
+    // Grave Keeper
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007579);
+    SetSpEffect(10000, 160704681);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007579);
+    ClearSpEffect(10000, 160704681);
+
+    // Ivory King
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007580);
+    SetSpEffect(10000, 160704691);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007580);
+    ClearSpEffect(10000, 160704691);
+
+    // Yhorm
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007581);
+    SetSpEffect(10000, 160704701);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007581);
+    ClearSpEffect(10000, 160704701);
+
+    // Smelter Demon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007582);
+    SetSpEffect(10000, 160704711);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007582);
+    ClearSpEffect(10000, 160704711);
+
+    // Firelink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007583);
+    SetSpEffect(10000, 160704721);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007583);
+    ClearSpEffect(10000, 160704721);
+
+    // Corvian Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007586);
+    SetSpEffect(10000, 160704751);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007586);
+    ClearSpEffect(10000, 160704751);
+
+    // Eastern
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007587);
+    SetSpEffect(10000, 160704761);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007587);
+    ClearSpEffect(10000, 160704761);
+
+    // Alonne
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007588);
+    SetSpEffect(10000, 160704771);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007588);
+    ClearSpEffect(10000, 160704771);
+
+    // Brass
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007589);
+    SetSpEffect(10000, 160704781);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007589);
+    ClearSpEffect(10000, 160704781);
+
+    // Charred Loyce
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007590);
+    SetSpEffect(10000, 160704791);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007590);
+    ClearSpEffect(10000, 160704791);
+
+    // Loyce
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007591);
+    SetSpEffect(10000, 160704801);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007591);
+    ClearSpEffect(10000, 160704801);
+
+    // Favored
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007592);
+    SetSpEffect(10000, 160704811);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007592);
+    ClearSpEffect(10000, 160704811);
+
+    // King's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007593);
+    SetSpEffect(10000, 160704821);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007593);
+    ClearSpEffect(10000, 160704821);
+
+    // Lord's Blade
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007594);
+    SetSpEffect(10000, 160704831);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007594);
+    ClearSpEffect(10000, 160704831);
+
+    // Sunset
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007595);
+    SetSpEffect(10000, 160704841);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007595);
+    ClearSpEffect(10000, 160704841);
+
+    // Wolf Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007596);
+    SetSpEffect(10000, 160704851);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007596);
+    ClearSpEffect(10000, 160704851);
+
+    // Ancient King
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007599);
+    SetSpEffect(10000, 160704881);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007599);
+    ClearSpEffect(10000, 160704881);
+
+    // Elite Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007602);
+    SetSpEffect(10000, 160704911);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007602);
+    ClearSpEffect(10000, 160704911);
+
+    // Burial Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007604);
+    SetSpEffect(10000, 160704931);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007604);
+    ClearSpEffect(10000, 160704931);
+
+    // Adventurer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007605);
+    SetSpEffect(10000, 160704941);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007605);
+    ClearSpEffect(10000, 160704941);
+
+    // Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007606);
+    SetSpEffect(10000, 160704951);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007606);
+    ClearSpEffect(10000, 160704951);
+
+    // Thorn
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007607);
+    SetSpEffect(10000, 160704961);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007607);
+    ClearSpEffect(10000, 160704961);
+
+    // Nameless Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007608);
+    SetSpEffect(10000, 160704971);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007608);
+    ClearSpEffect(10000, 160704971);
+
+    // Faraam
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007617);
+    SetSpEffect(10000, 160705061);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007617);
+    ClearSpEffect(10000, 160705061);
+
+    // Alva
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007618);
+    SetSpEffect(10000, 160705071);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007618);
+    ClearSpEffect(10000, 160705071);
+
+    // Attendant
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007619);
+    SetSpEffect(10000, 160705081);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007619);
+    ClearSpEffect(10000, 160705081);
+
+    // Footman
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007620);
+    SetSpEffect(10000, 160705091);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007620);
+    ClearSpEffect(10000, 160705091);
+
+    // Outrider
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007621);
+    SetSpEffect(10000, 160705101);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007621);
+    ClearSpEffect(10000, 160705101);
+
+    // Dark
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007622);
+    SetSpEffect(10000, 160705111);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007622);
+    ClearSpEffect(10000, 160705111);
+
+    // Undead Legion
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007625);
+    SetSpEffect(10000, 160705141);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007625);
+    ClearSpEffect(10000, 160705141);
+
+    // Fallen Mirrah
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007626);
+    SetSpEffect(10000, 160705151);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007626);
+    ClearSpEffect(10000, 160705151);
+
+    // Herald
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007627);
+    SetSpEffect(10000, 160705161);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007627);
+    ClearSpEffect(10000, 160705161);
+
+    // Fallen Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007628);
+    SetSpEffect(10000, 160705171);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007628);
+    ClearSpEffect(10000, 160705171);
+
+    // Hallowed Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007629);
+    SetSpEffect(10000, 160705181);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007629);
+    ClearSpEffect(10000, 160705181);
+
+    // Forlorn
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007630);
+    SetSpEffect(10000, 160705191);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007630);
+    ClearSpEffect(10000, 160705191);
+
+    // Aurous
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007631);
+    SetSpEffect(10000, 160705201);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007631);
+    ClearSpEffect(10000, 160705201);
+
+    // Sun
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007632);
+    SetSpEffect(10000, 160705211);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007632);
+    ClearSpEffect(10000, 160705211);
+
+    // Fire Witch
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007633);
+    SetSpEffect(10000, 160705221);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007633);
+    ClearSpEffect(10000, 160705221);
+
+    // Channeler
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007634);
+    SetSpEffect(10000, 160705231);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007634);
+    ClearSpEffect(10000, 160705231);
+
+    // Chain
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007635);
+    SetSpEffect(10000, 160705241);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007635);
+    ClearSpEffect(10000, 160705241);
+
+    // Vilhelm
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007636);
+    SetSpEffect(10000, 160705251);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007636);
+    ClearSpEffect(10000, 160705251);
+
+    // Bone Ash
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007637);
+    SetSpEffect(10000, 160705261);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007637);
+    ClearSpEffect(10000, 160705261);
+
+    // Varangian
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007638);
+    SetSpEffect(10000, 160705271);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007638);
+    ClearSpEffect(10000, 160705271);
+
+    // Thorolund
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007639);
+    SetSpEffect(10000, 160705281);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007639);
+    ClearSpEffect(10000, 160705281);
+
+    // Bear
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007640);
+    SetSpEffect(10000, 160705291);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007640);
+    ClearSpEffect(10000, 160705291);
+
+    // Northern
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007643);
+    SetSpEffect(10000, 160705321);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007643);
+    ClearSpEffect(10000, 160705321);
+
+    // Slave Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007644);
+    SetSpEffect(10000, 160705331);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007644);
+    ClearSpEffect(10000, 160705331);
+
+    // Nameless King
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007645);
+    SetSpEffect(10000, 160705341);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007645);
+    ClearSpEffect(10000, 160705341);
+
+    // Courtier
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007646);
+    SetSpEffect(10000, 160705351);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007646);
+    ClearSpEffect(10000, 160705351);
+
+    // Follower
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007647);
+    SetSpEffect(10000, 160705361);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007647);
+    ClearSpEffect(10000, 160705361);
+
+    // Royal Soldier
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007648);
+    SetSpEffect(10000, 160705371);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007648);
+    ClearSpEffect(10000, 160705371);
+
+    // Pontiff Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007649);
+    SetSpEffect(10000, 160705381);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007649);
+    ClearSpEffect(10000, 160705381);
+
+    // Dancer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007650);
+    SetSpEffect(10000, 160705391);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007650);
+    ClearSpEffect(10000, 160705391);
+
+    // Evangelist
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007652);
+    SetSpEffect(10000, 160705411);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007652);
+    ClearSpEffect(10000, 160705411);
+
+    // Mirrah
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007653);
+    SetSpEffect(10000, 160705421);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007653);
+    ClearSpEffect(10000, 160705421);
+
+    // Hard Leather
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007654);
+    SetSpEffect(10000, 160705431);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007654);
+    ClearSpEffect(10000, 160705431);
+
+    // Jailer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007655);
+    SetSpEffect(10000, 160705441);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007655);
+    ClearSpEffect(10000, 160705441);
+
+    // Black
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007656);
+    SetSpEffect(10000, 160705451);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007656);
+    ClearSpEffect(10000, 160705451);
+
+    // Sellsword
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007657);
+    SetSpEffect(10000, 160705461);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007657);
+    ClearSpEffect(10000, 160705461);
+
+    // Vileblood
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007658);
+    SetSpEffect(10000, 160705471);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007658);
+    ClearSpEffect(10000, 160705471);
+
+    // Sunless
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007659);
+    SetSpEffect(10000, 160705481);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007659);
+    ClearSpEffect(10000, 160705481);
+
+    // Leonhard
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007660);
+    SetSpEffect(10000, 160705491);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007660);
+    ClearSpEffect(10000, 160705491);
+
+    // Xanthous
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007661);
+    SetSpEffect(10000, 160705501);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007661);
+    ClearSpEffect(10000, 160705501);
+
+    // Deserter
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007668);
+    SetSpEffect(10000, 160705571);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007668);
+    ClearSpEffect(10000, 160705571);
+
+    // Black Leather
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007671);
+    SetSpEffect(10000, 160705601);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007671);
+    ClearSpEffect(10000, 160705601);
+
+    // Brigand
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007672);
+    SetSpEffect(10000, 160705611);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007672);
+    ClearSpEffect(10000, 160705611);
+
+    // Pharis
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007673);
+    SetSpEffect(10000, 160705621);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007673);
+    ClearSpEffect(10000, 160705621);
+
+    // Shira
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007674);
+    SetSpEffect(10000, 160705631);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007674);
+    ClearSpEffect(10000, 160705631);
+
+    // Black Hand
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007675);
+    SetSpEffect(10000, 160705641);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007675);
+    ClearSpEffect(10000, 160705641);
+
+    // Conjurator
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007676);
+    SetSpEffect(10000, 160705651);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007676);
+    ClearSpEffect(10000, 160705651);
+
+    // Jester
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007677);
+    SetSpEffect(10000, 160705661);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007677);
+    ClearSpEffect(10000, 160705661);
+
+    // Grotto
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007678);
+    SetSpEffect(10000, 160705671);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007678);
+    ClearSpEffect(10000, 160705671);
+
+    // Cleric
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007681);
+    SetSpEffect(10000, 160705701);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007681);
+    ClearSpEffect(10000, 160705701);
+
+    // Velka's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007682);
+    SetSpEffect(10000, 160705711);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007682);
+    ClearSpEffect(10000, 160705711);
+
+    // Astrologist
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007683);
+    SetSpEffect(10000, 160705721);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007683);
+    ClearSpEffect(10000, 160705721);
+
+    // Worker
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007684);
+    SetSpEffect(10000, 160705731);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007684);
+    ClearSpEffect(10000, 160705731);
+
+    // Chester
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007686);
+    SetSpEffect(10000, 160705751);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007686);
+    ClearSpEffect(10000, 160705751);
+
+    // Binded
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007687);
+    SetSpEffect(10000, 160705761);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007687);
+    ClearSpEffect(10000, 160705761);
+
+    // Assassin
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007689);
+    SetSpEffect(10000, 160705781);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007689);
+    ClearSpEffect(10000, 160705781);
+
+    // Painting Guardian
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007690);
+    SetSpEffect(10000, 160705791);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007690);
+    ClearSpEffect(10000, 160705791);
+
+    // Drang
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007691);
+    SetSpEffect(10000, 160705801);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007691);
+    ClearSpEffect(10000, 160705801);
+
+    // Serpentine
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007692);
+    SetSpEffect(10000, 160705811);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007692);
+    ClearSpEffect(10000, 160705811);
+
+    // Scholar
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007693);
+    SetSpEffect(10000, 160705821);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007693);
+    ClearSpEffect(10000, 160705821);
+
+    // Pyromancer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007695);
+    SetSpEffect(10000, 160705841);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007695);
+    ClearSpEffect(10000, 160705841);
+
+    // Dragon Acolyte
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007697);
+    SetSpEffect(10000, 160705861);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007697);
+    ClearSpEffect(10000, 160705861);
+
+    // Karla
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007698);
+    SetSpEffect(10000, 160705871);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007698);
+    ClearSpEffect(10000, 160705871);
+
+    // Black Witch
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007699);
+    SetSpEffect(10000, 160705881);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007699);
+    ClearSpEffect(10000, 160705881);
+
+    // Rosaria's Dress
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007701);
+    SetSpEffect(10000, 160705901);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007701);
+    ClearSpEffect(10000, 160705901);
+
+    // Sorcerer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007702);
+    SetSpEffect(10000, 160705911);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007702);
+    ClearSpEffect(10000, 160705911);
+
+    // Court Sorcerer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007703);
+    SetSpEffect(10000, 160705921);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007703);
+    ClearSpEffect(10000, 160705921);
+
+    // Old Sorcerer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007704);
+    SetSpEffect(10000, 160705931);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007704);
+    ClearSpEffect(10000, 160705931);
+
+    // Venerable Sage
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007705);
+    SetSpEffect(10000, 160705941);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007705);
+    ClearSpEffect(10000, 160705941);
+
+    // Clandestine Coat
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007706);
+    SetSpEffect(10000, 160705951);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007706);
+    ClearSpEffect(10000, 160705951);
+
+    // Wanderer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007707);
+    SetSpEffect(10000, 160705961);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007707);
+    ClearSpEffect(10000, 160705961);
+
+    // Moonlight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007709);
+    SetSpEffect(10000, 160705981);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007709);
+    ClearSpEffect(10000, 160705981);
+
+    // Gold-hemmed
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007710);
+    SetSpEffect(10000, 160705991);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007710);
+    ClearSpEffect(10000, 160705991);
+
+    // Crimson
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007711);
+    SetSpEffect(10000, 160706001);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007711);
+    ClearSpEffect(10000, 160706001);
+
+    // Pale Shade
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007712);
+    SetSpEffect(10000, 160706011);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007712);
+    ClearSpEffect(10000, 160706011);
+
+    // Shadow
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007713);
+    SetSpEffect(10000, 160706021);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007713);
+    ClearSpEffect(10000, 160706021);
+
+    // Maiden
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007714);
+    SetSpEffect(10000, 160706031);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007714);
+    ClearSpEffect(10000, 160706031);
+
+    // Hexer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007715);
+    SetSpEffect(10000, 160706041);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007715);
+    ClearSpEffect(10000, 160706041);
+
+    // Cornyx's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007716);
+    SetSpEffect(10000, 160706051);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007716);
+    ClearSpEffect(10000, 160706051);
+
+    // Grave Warden
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007717);
+    SetSpEffect(10000, 160706061);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007717);
+    ClearSpEffect(10000, 160706061);
+
+    // Ordained
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007718);
+    SetSpEffect(10000, 160706071);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007718);
+    ClearSpEffect(10000, 160706071);
+
+    // Desert Pyromancer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007719);
+    SetSpEffect(10000, 160706081);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007719);
+    ClearSpEffect(10000, 160706081);
+
+    // Manikin
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007720);
+    SetSpEffect(10000, 160706091);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007720);
+    ClearSpEffect(10000, 160706091);
+
+    // Archdeacon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007722);
+    SetSpEffect(10000, 160706111);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007722);
+    ClearSpEffect(10000, 160706111);
+
+    // Prayer
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007723);
+    SetSpEffect(10000, 160706121);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007723);
+    ClearSpEffect(10000, 160706121);
+
+    // Fire Keeper
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007724);
+    SetSpEffect(10000, 160706131);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007724);
+    ClearSpEffect(10000, 160706131);
+
+    // Antiquated
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007727);
+    SetSpEffect(10000, 160706161);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007727);
+    ClearSpEffect(10000, 160706161);
+
+    // Antiquated Plain
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007728);
+    SetSpEffect(10000, 160706171);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007728);
+    ClearSpEffect(10000, 160706171);
+
+    // Master
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007729);
+    SetSpEffect(10000, 160706181);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007729);
+    ClearSpEffect(10000, 160706181);
+
+    // Deacon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007730);
+    SetSpEffect(10000, 160706191);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007730);
+    ClearSpEffect(10000, 160706191);
+
+    // Saint
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007731);
+    SetSpEffect(10000, 160706201);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007731);
+    ClearSpEffect(10000, 160706201);
+
+    // Gallant
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007732);
+    SetSpEffect(10000, 160706211);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007732);
+    ClearSpEffect(10000, 160706211);
+
+    // Warden
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007733);
+    SetSpEffect(10000, 160706221);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007733);
+    ClearSpEffect(10000, 160706221);
+
+    // Dull Gold
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007734);
+    SetSpEffect(10000, 160706231);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007734);
+    ClearSpEffect(10000, 160706231);
+
+    // Fluted
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007735);
+    SetSpEffect(10000, 160706241);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007735);
+    ClearSpEffect(10000, 160706241);
+
+    // Huntsman
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007736);
+    SetSpEffect(10000, 160706251);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007736);
+    ClearSpEffect(10000, 160706251);
+
+    // Mirdan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007737);
+    SetSpEffect(10000, 160706261);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007737);
+    ClearSpEffect(10000, 160706261);
+
+    // Sentinel
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007738);
+    SetSpEffect(10000, 160706271);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007738);
+    ClearSpEffect(10000, 160706271);
+
+    // Raggedy
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007739);
+    SetSpEffect(10000, 160706281);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007739);
+    ClearSpEffect(10000, 160706281);
+
+    // Charlatan
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007740);
+    SetSpEffect(10000, 160706291);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007740);
+    ClearSpEffect(10000, 160706291);
+
+    // Martyr
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007741);
+    SetSpEffect(10000, 160706301);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007741);
+    ClearSpEffect(10000, 160706301);
+
+    // Pickpocket
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007742);
+    SetSpEffect(10000, 160706311);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007742);
+    ClearSpEffect(10000, 160706311);
+
+    // Magician
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007743);
+    SetSpEffect(10000, 160706321);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007743);
+    ClearSpEffect(10000, 160706321);
+
+    // Nullus
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007744);
+    SetSpEffect(10000, 160706331);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007744);
+    ClearSpEffect(10000, 160706331);
+
+    // Ironclad
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007745);
+    SetSpEffect(10000, 160706341);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007745);
+    ClearSpEffect(10000, 160706341);
+
+    // Sanctum
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007746);
+    SetSpEffect(10000, 160706351);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007746);
+    ClearSpEffect(10000, 160706351);
+
+    // Imported
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007747);
+    SetSpEffect(10000, 160706361);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007747);
+    ClearSpEffect(10000, 160706361);
+
+    // Stalwart Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007748);
+    SetSpEffect(10000, 160706371);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007748);
+    ClearSpEffect(10000, 160706371);
+
+    // Okami
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007749);
+    SetSpEffect(10000, 160706381);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007749);
+    ClearSpEffect(10000, 160706381);
+
+    // Eastern General
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007750);
+    SetSpEffect(10000, 160706391);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007750);
+    ClearSpEffect(10000, 160706391);
+
+    // Eastern Wolf
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007751);
+    SetSpEffect(10000, 160706401);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007751);
+    ClearSpEffect(10000, 160706401);
+
+    // Fallen Prince
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007752);
+    SetSpEffect(10000, 160706411);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007752);
+    ClearSpEffect(10000, 160706411);
+
+    // Eastern Commander
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007753);
+    SetSpEffect(10000, 160706421);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007753);
+    ClearSpEffect(10000, 160706421);
+
+    // Lothric Knight (Blue)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007754);
+    SetSpEffect(10000, 160706431);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007754);
+    ClearSpEffect(10000, 160706431);
+
+    // Consumed King's Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007757);
+    SetSpEffect(10000, 160706461);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007757);
+    ClearSpEffect(10000, 160706461);
+
+    // Elite Deacon
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007758);
+    SetSpEffect(10000, 160706471);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007758);
+    ClearSpEffect(10000, 160706471);
+
+    // Elite Soldier
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007759);
+    SetSpEffect(10000, 160706481);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007759);
+    ClearSpEffect(10000, 160706481);
+
+    // Gertrude's Knight
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007760);
+    SetSpEffect(10000, 160706491);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007760);
+    ClearSpEffect(10000, 160706491);
+
+    // Worker (Red)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007761);
+    SetSpEffect(10000, 160706501);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007761);
+    ClearSpEffect(10000, 160706501);
+
+    // Profaned Handmaid
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007762);
+    SetSpEffect(10000, 160706511);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007762);
+    ClearSpEffect(10000, 160706511);
+
+    // Burned Firelink
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007763);
+    SetSpEffect(10000, 160706521);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007763);
+    ClearSpEffect(10000, 160706521);
+
+    // Lothric Knight (Overgrown)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007764);
+    SetSpEffect(10000, 160706531);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007764);
+    ClearSpEffect(10000, 160706531);
+
+    // Carthus Swordsman
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007767);
+    SetSpEffect(10000, 160706561);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007767);
+    ClearSpEffect(10000, 160706561);
+
+    // Royal Swordsman
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007768);
+    SetSpEffect(10000, 160706571);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007768);
+    ClearSpEffect(10000, 160706571);
+
+    // Vordt's
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007769);
+    SetSpEffect(10000, 160706581);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007769);
+    ClearSpEffect(10000, 160706581);
+
+    // Throne Watcher
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007770);
+    SetSpEffect(10000, 160706591);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007770);
+    ClearSpEffect(10000, 160706591);
+
+    // Throne Defender
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007771);
+    SetSpEffect(10000, 160706601);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007771);
+    ClearSpEffect(10000, 160706601);
+
+    // Smelter Demon (Blue)
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007773);
+    SetSpEffect(10000, 160706621);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007773);
+    ClearSpEffect(10000, 160706621);
     
     EndUnconditionally(EventEndType.Restart);
 });

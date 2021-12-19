@@ -5074,640 +5074,555 @@
 160703170 Hunter - Body
 160703180 Dragonform (DS3) - Head
 160703190 Dragonform (DS3) - Body
-160703200 Humanity Sprite - Head and Body
+160703200 Humanity Sprite - Head
+160703201 Humanity Sprite - Body
 160703999 ### Armor Illusions ###
-160704000 Havel's Insignia
-160704001 Havel's Emblem
-160704010 Giant-horn Insignia
-160704020 Fang Boar Insignia
-160704030 Golem Insignia
-160704031 Golem Emblem
-160704040 Giant's Insignia
-160704041 Giant's Emblem
-160704050 Pursuer's Insignia
-160704051 Pursuer's Emblem
-160704060 Smough's Insignia
-160704061 Smough's Emblem
-160704070 Gundyr's Insignia
-160704071 Gundyr's Emblem
-160704080 Brushwood Insignia
-160704081 Brushwood Emblem
-160704090 Winged Knight Insignia
-160704091 Winged Knight Emblem
-160704100 Snail Shell Insignia
-160704110 Millwood Knight Insignia
-160704111 Millwood Knight Emblem
-160704120 Mirror Knight Insignia
-160704121 Mirror Knight Emblem
-160704130 Dragonrider Insignia
-160704131 Dragonrider Emblem
-160704140 Catarina Insignia
-160704141 Catarina Emblem
-160704150 Stone Insignia
-160704151 Stone Emblem
-160704160 Guardian Insignia
-160704161 Guardian Emblem
-160704170 Steel Insignia
-160704171 Steel Emblem
-160704180 Cathedral Knight Insignia
-160704181 Cathedral Knight Emblem
-160704190 Dragon Hunter Insignia
-160704191 Dragon Hunter Emblem
-160704200 Black Iron Insignia
-160704201 Black Iron Emblem
-160704210 Iron Dragonslayer Insignia
-160704211 Iron Dragonslayer Emblem
-160704220 Lapp Insignia
-160704221 Lapp Emblem
-160704230 Penetrator Insignia
-160704231 Penetrator Emblem
-160704240 Morne's Insignia
-160704241 Morne's Emblem
-160704250 Paladin Insignia
-160704251 Paladin Emblem
-160704260 Quicksilver Insignia
-160704261 Quicksilver Emblem
-160704270 Executioner Insignia
-160704271 Executioner Emblem
-160704280 Dragonslayer Insignia
-160704281 Dragonslayer Emblem
-160704290 Lothric Knight Insignia
-160704291 Lothric Knight Emblem
-160704300 Iron Keeper Insignia
-160704310 Lost Heide Insignia
-160704320 Harald Legion Insignia
-160704321 Harald Legion Emblem
-160704330 Exile Insignia
-160704331 Exile Emblem
-160704340 Overseer's Insignia
-160704350 Raime's Insignia
-160704351 Raime's Emblem
-160704360 Black Knight Insignia
-160704361 Black Knight Emblem
-160704370 Silver Knight Insignia
-160704371 Silver Knight Emblem
-160704380 Tarnished Knight Insignia
-160704381 Tarnished Knight Emblem
-160704390 Heide Knight Insignia
-160704391 Heide Knight Emblem
-160704400 Syan Knight Insignia
-160704401 Syan Knight Emblem
-160704410 Alonne Captain Insignia
-160704411 Alonne Captain Emblem
-160704420 Gloom Insignia
-160704421 Gloom Emblem
-160704430 Ruin Insignia
-160704431 Ruin Emblem
-160704440 Rampart Golem Insignia
-160704441 Rampart Golem Emblem
-160704450 Lost Gargoyle Insignia
-160704460 Gargoyle Insignia
-160704461 Gargoyle Emblem
-160704470 Crab Insignia
-160704480 Imperial Samurai Insignia
-160704490 Horned Samurai Insignia
-160704500 Ornate Samurai Insignia
-160704510 Lorian's Insignia
-160704511 Lorian's Emblem
-160704520 Great Lord Insignia
-160704521 Great Lord Emblem
-160704530 Ludleth's Insignia
-160704540 Avaricious Insignia
-160704550 Giant Slave Insignia
-160704560 Old Demon King's Insignia
-160704570 Pygmy King's Insignia
-160704580 Drakeblood Insignia
-160704581 Drakeblood Emblem
-160704590 Barrel Insignia
-160704600 Gough's Insignia
-160704601 Gough's Emblem
-160704610 Mad Warrior Insignia
-160704611 Mad Warrior Emblem
-160704620 Imperious Insignia
-160704621 Imperious Emblem
-160704630 Vengarl's Insignia
-160704631 Vengarl's Emblem
-160704640 Sinner's Insignia
-160704650 Pot Insignia
-160704660 Black Dragon Insignia
-160704661 Black Dragon Emblem
-160704670 Ringed Knight Insignia
-160704671 Ringed Knight Emblem
-160704680 Gravekeeper Insignia
-160704681 Gravekeeper Emblem
-160704690 Ivory King's Insignia
-160704691 Ivory King's Emblem
-160704700 Yhorm's Insignia
-160704701 Yhorm's Emblem
-160704710 Smelter Demon Insignia
-160704711 Smelter Demon Emblem
-160704720 Firelink Insignia
-160704721 Firelink Emblem
-160704730 Gold Ardeo Insignia
-160704740 Iron Cage Insignia
-160704750 Corvian Knight Insignia
-160704751 Corvian Knight Emblem
-160704760 Eastern Insignia
-160704761 Eastern Emblem
-160704770 Alonne Insignia
-160704771 Alonne Emblem
-160704780 Brass Insignia
-160704781 Brass Emblem
-160704790 Charred Loyce Insignia
-160704791 Charred Louce Emblem
-160704800 Loyce Insignia
-160704801 Loyce Emblem
-160704810 Favored Insignia
-160704811 Favored Emblem
-160704820 King's Insignia
-160704821 King's Emblem
-160704830 Lord's Blade Insignia
-160704831 Lord's Blade Emblem
-160704840 Sunset Insignia
-160704841 Sunset Emblem
-160704850 Wolf Knight Insignia
-160704851 Wolf Knight Emblem
-160704860 Ridoh's Insignia
-160704870 Artificial Insignia
-160704880 Ancient King Insignia
-160704881 Ancient King Emblem
-160704890 Filianore's Insignia
-160704900 Holy King's Insignia
-160704910 Elite Knight Insignia
-160704911 Elite Knight Emblem
-160704920 Bucket Insignia
-160704930 Burial Knight Insignia
-160704931 Burial Knight Emblem
-160704940 Adventurer's Insignia
-160704941 Adventurer's Emblem
-160704950 Knight Insignia
-160704951 Knight Emblem
-160704960 Thorn Insignia
-160704961 Thorn Emblem
-160704970 Nameless Knight Insignia
-160704971 Nameless Knight Emblem
-160704980 Father's Insignia
-160704990 Mother's Insignia
-160705000 Child's Insignia
-160705010 Demon Cleric Insignia
-160705020 Horror Insignia
-160705030 Cruelty Insignia
-160705040 Serenity Insignia
-160705050 War Insignia
-160705060 Faraam Insignia
-160705061 Faraam Emblem
-160705070 Alva Insignia
-160705071 Alva Emblem
-160705080 Attendant Insignia
-160705081 Attendant Emblem
-160705090 Footman Insignia
-160705091 Footman Emblem
-160705100 Outrider Insignia
-160705101 Outrider Emblem
-160705110 Dark Insignia
-160705111 Dark Emblem
-160705120 Skull Insignia
-160705130 Suspicious Insignia
-160705140 Undead Legion Insignia
-160705141 Undead Legion Emblem
-160705150 Fallen Mirrah Insignia
-160705151 Fallen Mirrah Emblem
-160705160 Herald Insignia
-160705161 Herald Emblem
-160705170 Fallen Knight Insignia
-160705171 Fallen Knight Emblem
-160705180 Hallowed Knight Insignia
-160705181 Hallowed Knight Emblem
-160705190 Forlorn Insignia
-160705191 Forlorn Emblem
-160705200 Aurous Insignia
-160705201 Aurous Emblem
-160705210 Sun Insignia
-160705211 Sun Emblem
-160705220 Fire Witch Insignia
-160705221 Fire Witch Emblem
-160705230 Channeler Insignia
-160705231 Channeler Emblem
-160705240 Chain Insignia
-160705241 Chain Emblem
-160705250 Vilhelm Insignia
-160705251 Vilhelm Emblem
-160705260 Bone Ash Insignia
-160705261 Bone Ash Emblem
-160705270 Varangian Insignia
-160705271 Varangian Emblem
-160705280 Thorolund Insignia
-160705281 Thorolund Emblem
-160705290 Bear Insignia
-160705291 Bear Emblem
-160705300 Wolnir's Insignia
-160705310 Illusionary Insignia
-160705320 Northern Insignia
-160705321 Northern Emblem
-160705330 Slave Knight Insignia
-160705331 Slave Knight Emblem
-160705340 Nameless King Insignia
-160705341 Nameless King Emblem
-160705350 Courtier Insignia
-160705351 Courtier Emblem
-160705360 Follower Insignia
-160705361 Follower Emblem
-160705370 Royal Soldier Insignia
-160705371 Royal Soldier Emblem
-160705380 Pontiff Knight Insignia
-160705381 Pontiff Knight Emblem
-160705390 Dancer Insignia
-160705391 Dancer Emblem
-160705400 Vordt's Insignia
-160705410 Evangelist Insignia
-160705411 Evangelist Emblem
-160705420 Mirrah Insignia
-160705421 Mirrah Emblem
-160705430 Hard Leather Insignia
-160705431 Hard Leather Emblem
-160705440 Jailer Insignia
-160705441 Jailer Emblem
-160705450 Black Insignia
-160705451 Black Emblem
-160705460 Sellsword Insignia
-160705461 Sellsword Emblem
-160705470 Vileblood Insignia
-160705471 Vileblood Emblem
-160705480 Sunless Insignia
-160705481 Sunless Emblem
-160705490 Leonhard's Insignia
-160705491 Leonhard's Emblem
-160705500 Xanthous Insignia
-160705501 Xanthous Emblem
-160705510 White Preacher's Insignia
-160705520 Poisonhorn Insignia
-160705530 Hollow's Insignia
-160705540 Basilisk Insignia
-160705550 Vagabond Insignia
-160705560 Raven Insignia
-160705570 Deserter's Insignia
-160705571 Deserter's Emblem
-160705580 Defender's Insignia
-160705590 Soldier's Insignia
-160705600 Black Leather Insignia
-160705601 Black Leather Emblem
-160705610 Brigand Insignia
-160705611 Brigand Emblem
-160705620 Pharis's Insignia
-160705621 Pharis's Emblem
-160705630 Shira's Insignia
-160705631 Shira's Emblem
-160705640 Black Hand Insignia
-160705641 Black Hand Emblem
-160705650 Conjurator Insignia
-160705651 Conjurator Emblem
-160705660 Jester Insignia
-160705661 Jester Emblem
-160705670 Grotto Insignia
-160705671 Grotto Emblem
-160705680 Black Straw Insignia
-160705690 Tan Straw Insignia
-160705700 Cleric's Insignia
-160705701 Cleric's Emblem
-160705710 Black Cleric's Insignia
-160705711 Black Cleric's Emblem
-160705720 Astrologist Insignia
-160705721 Astrologist Emblem
-160705730 Worker Insignia
-160705731 Worker Emblem
-160705740 Salvador's Insignia
-160705750 Chester's Insignia
-160705751 Chester's Emblem
-160705760 Binded Insignia
-160705761 Binded Emblem
-160705770 Thrall Insignia
-160705780 Assassin Insignia
-160705781 Assassin Emblem
-160705790 Painting Guardian Insignia
-160705791 Painting Guardian Emblem
-160705801 Drang Emblem
-160705810 Serpentine Insignia
-160705811 Serpentine Emblem
-160705820 Scholar Insignia
-160705821 Scholar Emblem
-160705830 Priestly Insignia
-160705840 Pyromancer Insignia
-160705841 Pyromancer Emblem
-160705850 Sack Insignia
-160705860 Dragon Acolyte Insignia
-160705861 Dragon Acolyte Emblem
-160705870 Karla's Insignia
-160705871 Karla's Emblem
-160705880 Black Witch Insignia
-160705881 Black Witch Emblem
-160705890 Veiled Witch Insignia
-160705901 Rosaria's Emblem
-160705910 Sorcerer Insignia
-160705911 Sorcerer Emblem
-160705920 Court Sorcerer Insignia
-160705921 Court Sorcerer Emblem
-160705930 Old Sorcerer Insignia
-160705931 Old Sorcerer Emblem
-160705940 Venerable Sage's Insignia
-160705941 Venerable Sage's Emblem
-160705951 Clandestine Emblem
-160705960 Wanderer Insignia
-160705961 Wanderer Emblem
-160705970 Sage's Insignia
-160705980 Moonlight Insignia
-160705981 Moonlight Emblem
-160705990 Gold-hemmed Insignia
-160705991 Gold-hemmed Emblem
-160706000 Crimson Insignia
-160706001 Crimson Emblem
-160706010 Pale Shade Insignia
-160706011 Pale Shade Emblem
-160706020 Shadow Insignia
-160706021 Shadow Emblem
-160706030 Maiden Insignia
-160706031 Maiden Emblem
-160706040 Hexer Insignia
-160706041 Hexer Emblem
-160706050 Cornyx's Insignia
-160706051 Cornyx's Emblem
-160706060 Grave Warden Insignia
-160706061 Grave Warden Emblem
-160706070 Ordained Insignia
-160706071 Ordained Emblem
-160706080 Desert Pyromancer Insignia
-160706081 Desert Pyromancer Emblem
-160706090 Manikin Insignia
-160706091 Manikin Emblem
-160706100 Crude Manikin Insignia
-160706110 Archdeacon Insignia
-160706111 Archdeacon Emblem
-160706120 Prayer Insignia
-160706121 Prayer Emblem
-160706130 Fire Kepeer Insignia
-160706131 Fire Keeper Emblem
-160706140 Blindfold Insignia
-160706150 Carthus Insignia
-160706160 Antiquated Insignia
-160706161 Antiquated Emblem
-160706171 Plain Emblem
-160706180 Master's Insignia
-160706181 Master's Emblem
-160706191 Deacon Emblem
-160706200 Saint Insignia
-160706201 Saint Emblem
-160706210 Gallant Insignia
-160706211 Gallant Emblem
-160706220 Warden Insignia
-160706221 Warden Emblem
-160706230 Dull Gold Insignia
-160706231 Dull Gold Emblem
-160706240 Fluted Insignia
-160706241 Fluted Emblem
-160706250 Huntsman's Insignia
-160706251 Huntsman's Emblem
-160706260 Mirdan Insignia
-160706261 Mirdan Emblem
-160706270 Sentinel Insignia
-160706271 Sentinel Emblem
-160706280 Raggedy Insignia
-160706281 Raggedy Emblem
-160706290 Charlatan Insignia
-160706291 Charlatan Emblem
-160706301 Martyr Emblem
-160706310 Pickpocket Insignia
-160706311 Pickpocket Emblem
-160706321 Magician Emblem
-160706330 Nullus Insignia
-160706331 Nullus Emblem
-160706340 Ironclad Insignia
-160706341 Ironclad Emblem
-160706350 Sanctum Knight Insignia
-160706351 Sanctum Knight Emblem
-160706360 Imported Insignia
+160704000 Havel's - Head
+160704001 Havel's - Body
+160704010 Giant-horn - Head
+160704020 Fang Boar - Head
+160704030 Golem - Head
+160704031 Golem - Body
+160704040 Giant's - Head
+160704041 Giant's - Body
+160704050 Pursuer's - Head
+160704051 Pursuer's - Body
+160704060 Smough's - Head
+160704061 Smough's - Body
+160704070 Gundyr's - Head
+160704071 Gundyr's - Body
+160704080 Brushwood - Head
+160704081 Brushwood - Body
+160704090 Winged Knight - Head
+160704091 Winged Knight - Body
+160704100 Snail Shell - Head
+160704110 Millwood Knight - Head
+160704111 Millwood Knight - Body
+160704120 Mirror Knight - Head
+160704121 Mirror Knight - Body
+160704130 Dragonrider - Head
+160704131 Dragonrider - Body
+160704140 Catarina - Head
+160704141 Catarina - Body
+160704150 Stone - Head
+160704151 Stone - Body
+160704160 Guardian - Head
+160704161 Guardian - Body
+160704170 Steel - Head
+160704171 Steel - Body
+160704180 Cathedral Knight - Head
+160704181 Cathedral Knight - Body
+160704190 Dragon Hunter - Head
+160704191 Dragon Hunter - Body
+160704200 Black Iron - Head
+160704201 Black Iron - Body
+160704210 Iron Dragonslayer - Head
+160704211 Iron Dragonslayer - Body
+160704220 Lapp - Head
+160704221 Lapp - Body
+160704230 Penetrator - Head
+160704231 Penetrator - Body
+160704240 Morne's - Head
+160704241 Morne's - Body
+160704250 Paladin - Head
+160704251 Paladin - Body
+160704260 Quicksilver - Head
+160704261 Quicksilver - Body
+160704270 Executioner - Head
+160704271 Executioner - Body
+160704280 Dragonslayer - Head
+160704281 Dragonslayer - Body
+160704290 Lothric Knight - Head
+160704291 Lothric Knight - Body
+160704300 Iron Keeper - Head
+160704310 Lost Heide - Head
+160704320 Harald Legion - Head
+160704321 Harald Legion - Body
+160704330 Exile - Head
+160704331 Exile - Body
+160704340 Overseer's - Head
+160704350 Raime's - Head
+160704351 Raime's - Body
+160704360 Black Knight - Head
+160704361 Black Knight - Body
+160704370 Silver Knight - Head
+160704371 Silver Knight - Body
+160704380 Tarnished Knight - Head
+160704381 Tarnished Knight - Body
+160704390 Heide Knight - Head
+160704391 Heide Knight - Body
+160704400 Syan Knight - Head
+160704401 Syan Knight - Body
+160704410 Alonne Captain - Head
+160704411 Alonne Captain - Body
+160704420 Gloom - Head
+160704421 Gloom - Body
+160704430 Ruin - Head
+160704431 Ruin - Body
+160704440 Rampart Golem - Head
+160704441 Rampart Golem - Body
+160704450 Lost Gargoyle - Head
+160704460 Gargoyle - Head
+160704461 Gargoyle - Body
+160704470 Crab - Head
+160704480 Imperial Samurai - Head
+160704490 Horned Samurai - Head
+160704500 Ornate Samurai - Head
+160704510 Lorian's - Head
+160704511 Lorian's - Body
+160704520 Great Lord - Head
+160704521 Great Lord - Body
+160704530 Ludleth's - Head
+160704540 Avaricious - Head
+160704550 Giant Slave - Head
+160704560 Old Demon King's - Head
+160704570 Pygmy King's - Head
+160704580 Drakeblood - Head
+160704581 Drakeblood - Body
+160704590 Barrel - Head
+160704600 Gough's - Head
+160704601 Gough's - Body
+160704610 Mad Warrior - Head
+160704611 Mad Warrior - Body
+160704620 Imperious - Head
+160704621 Imperious - Body
+160704630 Vengarl's - Head
+160704631 Vengarl's - Body
+160704640 Sinner's - Head
+160704650 Pot - Head
+160704660 Black Dragon - Head
+160704661 Black Dragon - Body
+160704670 Ringed Knight - Head
+160704671 Ringed Knight - Body
+160704680 Gravekeeper - Head
+160704681 Gravekeeper - Body
+160704690 Ivory King's - Head
+160704691 Ivory King's - Body
+160704700 Yhorm's - Head
+160704701 Yhorm's - Body
+160704710 Smelter Demon - Head
+160704711 Smelter Demon - Body
+160704720 Firelink - Head
+160704721 Firelink - Body
+160704730 Gold Ardeo - Head
+160704740 Iron Cage - Head
+160704750 Corvian Knight - Head
+160704751 Corvian Knight - Body
+160704760 Eastern - Head
+160704761 Eastern - Body
+160704770 Alonne - Head
+160704771 Alonne - Body
+160704780 Brass - Head
+160704781 Brass - Body
+160704790 Charred Loyce - Head
+160704791 Charred Louce - Body
+160704800 Loyce - Head
+160704801 Loyce - Body
+160704810 Favored - Head
+160704811 Favored - Body
+160704820 King's - Head
+160704821 King's - Body
+160704830 Lord's Blade - Head
+160704831 Lord's Blade - Body
+160704840 Sunset - Head
+160704841 Sunset - Body
+160704850 Wolf Knight - Head
+160704851 Wolf Knight - Body
+160704860 Ridoh's - Head
+160704870 Artificial - Head
+160704880 Ancient King - Head
+160704881 Ancient King - Body
+160704890 Filianore's - Head
+160704900 Holy King's - Head
+160704910 Elite Knight - Head
+160704911 Elite Knight - Body
+160704920 Bucket - Head
+160704930 Burial Knight - Head
+160704931 Burial Knight - Body
+160704940 Adventurer's - Head
+160704941 Adventurer's - Body
+160704950 Knight - Head
+160704951 Knight - Body
+160704960 Thorn - Head
+160704961 Thorn - Body
+160704970 Nameless Knight - Head
+160704971 Nameless Knight - Body
+160704980 Father's - Head
+160704990 Mother's - Head
+160705000 Child's - Head
+160705010 Demon Cleric - Head
+160705020 Horror - Head
+160705030 Cruelty - Head
+160705040 Serenity - Head
+160705050 War - Head
+160705060 Faraam - Head
+160705061 Faraam - Body
+160705070 Alva - Head
+160705071 Alva - Body
+160705080 Attendant - Head
+160705081 Attendant - Body
+160705090 Footman - Head
+160705091 Footman - Body
+160705100 Outrider - Head
+160705101 Outrider - Body
+160705110 Dark - Head
+160705111 Dark - Body
+160705120 Skull - Head
+160705130 Suspicious - Head
+160705140 Undead Legion - Head
+160705141 Undead Legion - Body
+160705150 Fallen Mirrah - Head
+160705151 Fallen Mirrah - Body
+160705160 Herald - Head
+160705161 Herald - Body
+160705170 Fallen Knight - Head
+160705171 Fallen Knight - Body
+160705180 Hallowed Knight - Head
+160705181 Hallowed Knight - Body
+160705190 Forlorn - Head
+160705191 Forlorn - Body
+160705200 Aurous - Head
+160705201 Aurous - Body
+160705210 Sun - Head
+160705211 Sun - Body
+160705220 Fire Witch - Head
+160705221 Fire Witch - Body
+160705230 Channeler - Head
+160705231 Channeler - Body
+160705240 Chain - Head
+160705241 Chain - Body
+160705250 Vilhelm - Head
+160705251 Vilhelm - Body
+160705260 Bone Ash - Head
+160705261 Bone Ash - Body
+160705270 Varangian - Head
+160705271 Varangian - Body
+160705280 Thorolund - Head
+160705281 Thorolund - Body
+160705290 Bear - Head
+160705291 Bear - Body
+160705300 Wolnir's - Head
+160705310 Illusionary - Head
+160705320 Northern - Head
+160705321 Northern - Body
+160705330 Slave Knight - Head
+160705331 Slave Knight - Body
+160705340 Nameless King - Head
+160705341 Nameless King - Body
+160705350 Courtier - Head
+160705351 Courtier - Body
+160705360 Follower - Head
+160705361 Follower - Body
+160705370 Royal Soldier - Head
+160705371 Royal Soldier - Body
+160705380 Pontiff Knight - Head
+160705381 Pontiff Knight - Body
+160705390 Dancer - Head
+160705391 Dancer - Body
+160705400 Vordt's - Head
+160705410 Evangelist - Head
+160705411 Evangelist - Body
+160705420 Mirrah - Head
+160705421 Mirrah - Body
+160705430 Hard Leather - Head
+160705431 Hard Leather - Body
+160705440 Jailer - Head
+160705441 Jailer - Body
+160705450 Black - Head
+160705451 Black - Body
+160705460 Sellsword - Head
+160705461 Sellsword - Body
+160705470 Vileblood - Head
+160705471 Vileblood - Body
+160705480 Sunless - Head
+160705481 Sunless - Body
+160705490 Leonhard's - Head
+160705491 Leonhard's - Body
+160705500 Xanthous - Head
+160705501 Xanthous - Body
+160705510 White Preacher's - Head
+160705520 Poisonhorn - Head
+160705530 Hollow's - Head
+160705540 Basilisk - Head
+160705550 Vagabond - Head
+160705560 Raven - Head
+160705570 Deserter's - Head
+160705571 Deserter's - Body
+160705580 Defender's - Head
+160705590 Soldier's - Head
+160705600 Black Leather - Head
+160705601 Black Leather - Body
+160705610 Brigand - Head
+160705611 Brigand - Body
+160705620 Pharis's - Head
+160705621 Pharis's - Body
+160705630 Shira's - Head
+160705631 Shira's - Body
+160705640 Black Hand - Head
+160705641 Black Hand - Body
+160705650 Conjurator - Head
+160705651 Conjurator - Body
+160705660 Jester - Head
+160705661 Jester - Body
+160705670 Grotto - Head
+160705671 Grotto - Body
+160705680 Black Straw - Head
+160705690 Tan Straw - Head
+160705700 Cleric's - Head
+160705701 Cleric's - Body
+160705710 Black Cleric's - Head
+160705711 Black Cleric's - Body
+160705720 Astrologist - Head
+160705721 Astrologist - Body
+160705730 Worker - Head
+160705731 Worker - Body
+160705740 Salvador's - Head
+160705750 Chester's - Head
+160705751 Chester's - Body
+160705760 Binded - Head
+160705761 Binded - Body
+160705770 Thrall - Head
+160705780 Assassin - Head
+160705781 Assassin - Body
+160705790 Painting Guardian - Head
+160705791 Painting Guardian - Body
+160705801 Drang - Body
+160705810 Serpentine - Head
+160705811 Serpentine - Body
+160705820 Scholar - Head
+160705821 Scholar - Body
+160705830 Priestly - Head
+160705840 Pyromancer - Head
+160705841 Pyromancer - Body
+160705850 Sack - Head
+160705860 Dragon Acolyte - Head
+160705861 Dragon Acolyte - Body
+160705870 Karla's - Head
+160705871 Karla's - Body
+160705880 Black Witch - Head
+160705881 Black Witch - Body
+160705890 Veiled Witch - Head
+160705901 Rosaria's - Body
+160705910 Sorcerer - Head
+160705911 Sorcerer - Body
+160705920 Court Sorcerer - Head
+160705921 Court Sorcerer - Body
+160705930 Old Sorcerer - Head
+160705931 Old Sorcerer - Body
+160705940 Venerable Sage's - Head
+160705941 Venerable Sage's - Body
+160705951 Clandestine - Body
+160705960 Wanderer - Head
+160705961 Wanderer - Body
+160705970 Sage's - Head
+160705980 Moonlight - Head
+160705981 Moonlight - Body
+160705990 Gold-hemmed - Head
+160705991 Gold-hemmed - Body
+160706000 Crimson - Head
+160706001 Crimson - Body
+160706010 Pale Shade - Head
+160706011 Pale Shade - Body
+160706020 Shadow - Head
+160706021 Shadow - Body
+160706030 Maiden - Head
+160706031 Maiden - Body
+160706040 Hexer - Head
+160706041 Hexer - Body
+160706050 Cornyx's - Head
+160706051 Cornyx's - Body
+160706060 Grave Warden - Head
+160706061 Grave Warden - Body
+160706070 Ordained - Head
+160706071 Ordained - Body
+160706080 Desert Pyromancer - Head
+160706081 Desert Pyromancer - Body
+160706090 Manikin - Head
+160706091 Manikin - Body
+160706100 Crude Manikin - Head
+160706110 Archdeacon - Head
+160706111 Archdeacon - Body
+160706120 Prayer - Head
+160706121 Prayer - Body
+160706130 Fire Kepeer - Head
+160706131 Fire Keeper - Body
+160706140 Blindfold - Head
+160706150 Carthus - Head
+160706160 Antiquated - Head
+160706161 Antiquated - Body
+160706171 Plain - Body
+160706180 Master's - Head
+160706181 Master's - Body
+160706191 Deacon - Body
+160706200 Saint - Head
+160706201 Saint - Body
+160706210 Gallant - Head
+160706211 Gallant - Body
+160706220 Warden - Head
+160706221 Warden - Body
+160706230 Dull Gold - Head
+160706231 Dull Gold - Body
+160706240 Fluted - Head
+160706241 Fluted - Body
+160706250 Huntsman's - Head
+160706251 Huntsman's - Body
+160706260 Mirdan - Head
+160706261 Mirdan - Body
+160706270 Sentinel - Head
+160706271 Sentinel - Body
+160706280 Raggedy - Head
+160706281 Raggedy - Body
+160706290 Charlatan - Head
+160706291 Charlatan - Body
+160706301 Martyr - Body
+160706310 Pickpocket - Head
+160706311 Pickpocket - Body
+160706321 Magician - Body
+160706330 Nullus - Head
+160706331 Nullus - Body
+160706340 Ironclad - Head
+160706341 Ironclad - Body
+160706350 Sanctum Knight - Head
+160706351 Sanctum Knight - Body
+160706360 Imported - Head
 160706361 Imported Embelm
-160706370 Stalwart Knight Insignia
-160706371 Stalwart Knight Emblem
-160706380 Okami Insignia
-160706381 Okami Emblem
-160706390 Eastern General Insignia
-160706391 Eastern General Emblem
-160706401 Eastern Wolf Emblem
-160706410 Fallen Prince's Insignia
-160706411 Fallen Prince's Emblem
-160706420 Eastern Commander Insignia
-160706421 Eastern Commander Emblem
-160706430 Blue Lothric Knight Insignia
-160706431 Blue Lothric Knight Emblem
-160706440 Blue Lothric Knight Insignia (Open Helm)
-160706450 Lothric Knight Insignia (Open Helm)
-160706460 Consumed King's Knight Insignia
-160706461 Consumed King's Knight Emblem
-160706471 Elite Deacon Emblem
-160706480 Elite Soldier Insignia
-160706481 Elite Soldier Emblem
-160706490 Gertrude's Knight Insignia
-160706491 Gertrude's Knight Emblem
-160706500 Red Worker Insignia
-160706501 Red Worker Emblem
-160706510 Profaned Capital Handmaid Insignia
-160706511 Profaned Capital Handmaid Emblem
-160706520 Burned Firelink Insignia
-160706521 Burned Firelink Emblem
-160706530 Overgrown Lothric Knight Insignia
-160706531 Overgrown Lothric Knight Emblem
-160706540 Herald Insignia (Lowered Visor)
-160706550 Undead Legion Insignia (Only Cap)
-160706560 Carthus Swordsman Insignia
-160706561 Carthus Swordsman Emblem
-160706570 Royal Swordsman Insignia
-160706571 Royal Swordsman Emblem
-160706580 Vordt Insignia
-160706581 Vordt Emblem
-160706590 Throne Watcher Insignia
-160706591 Throne Watcher Emblem
-160706600 Throne Defender Insignia
-160706601 Throne Defender Emblem
-160706610 Mirrah (Alt) Insignia
-160706620 Smelter Demon (Alt) Insignia
-160706621 Smelter Demon (Alt) Emblem
+160706370 Stalwart Knight - Head
+160706371 Stalwart Knight - Body
+160706380 Okami - Head
+160706381 Okami - Body
+160706390 Eastern General - Head
+160706391 Eastern General - Body
+160706401 Eastern Wolf - Body
+160706410 Fallen Prince's - Head
+160706411 Fallen Prince's - Body
+160706420 Eastern Commander - Head
+160706421 Eastern Commander - Body
+160706430 Blue Lothric Knight - Head
+160706431 Blue Lothric Knight - Body
+160706440 Blue Lothric Knight - Head (Open Helm)
+160706450 Lothric Knight - Head (Open Helm)
+160706460 Consumed King's Knight - Head
+160706461 Consumed King's Knight - Body
+160706471 Elite Deacon - Body
+160706480 Elite Soldier - Head
+160706481 Elite Soldier - Body
+160706490 Gertrude's Knight - Head
+160706491 Gertrude's Knight - Body
+160706500 Red Worker - Head
+160706501 Red Worker - Body
+160706510 Profaned Capital Handmaid - Head
+160706511 Profaned Capital Handmaid - Body
+160706520 Burned Firelink - Head
+160706521 Burned Firelink - Body
+160706530 Overgrown Lothric Knight - Head
+160706531 Overgrown Lothric Knight - Body
+160706540 Herald - Head (Lowered Visor)
+160706550 Undead Legion - Head (Only Cap)
+160706560 Carthus Swordsman - Head
+160706561 Carthus Swordsman - Body
+160706570 Royal Swordsman - Head
+160706571 Royal Swordsman - Body
+160706580 Vordt - Head
+160706581 Vordt - Body
+160706590 Throne Watcher - Head
+160706591 Throne Watcher - Body
+160706600 Throne Defender - Head
+160706601 Throne Defender - Body
+160706610 Mirrah (Alt) - Head
+160706620 Smelter Demon (Alt) - Head
+160706621 Smelter Demon (Alt) - Body
 160708999 ### Weapon Emission ###
 160709010 Magic - Right
-160709011 Magic - Right (Preview)
 160709015 Magic - Left
-160709016 Magic - Left (Preview)
 160709020 Fire - Right
-160709021 Fire - Right (Preview)
 160709025 Fire - Left
-160709026 Fire - Left (Preview)
 160709030 Lightning - Right
-160709031 Lightning - Right (Preview)
 160709035 Lightning - Left
-160709036 Lightning - Left (Preview)
 160709040 Abyss - Right
-160709041 Abyss - Right (Preview)
 160709045 Abyss - Left
-160709046 Abyss - Left (Preview)
 160709050 Poison - Right
-160709051 Poison - Right (Preview)
 160709055 Poison - Left
-160709056 Poison - Left (Preview)
 160709060 Blood - Right
-160709061 Blood - Right (Preview)
 160709065 Blood - Left
-160709066 Blood - Left (Preview)
 160709070 Frost - Right
-160709071 Frost - Right (Preview)
 160709075 Frost - Left
-160709076 Frost - Left (Preview)
 160709080 Moonlight - Right
-160709081 Moonlight - Right (Preview)
 160709085 Moonlight - Left
-160709086 Moonlight - Left (Preview)
 160709090 Divine - Right
-160709091 Divine - Right (Preview)
 160709095 Divine - Left
-160709096 Divine - Left (Preview)
 160709100 Black Fire - Right
-160709101 Black Fire - Right (Preview)
 160709105 Black Fire - Left
-160709106 Black Fire - Left (Preview)
 160709110 Scorched - Right
-160709111 Scorched - Right (Preview)
 160709115 Scorched - Left
-160709116 Scorched - Left (Preview)
 160709120 Rotten - Right
-160709121 Rotten - Right (Preview)
 160709125 Rotten - Left
-160709126 Rotten - Left (Preview)
 160709130 Wind - Right
-160709131 Wind - Right (Preview)
 160709135 Wind - Left
-160709136 Wind - Left (Preview)
 160709140 Psychedelic - Right
-160709141 Psychedelic - Right (Preview)
 160709145 Psychedelic - Left
-160709146 Psychedelic - Left (Preview)
 160709150 Brume - Right
-160709151 Brume - Right (Preview)
 160709155 Brume - Left
-160709156 Brume - Left (Preview)
 160709160 Enchanted - Right
-160709161 Enchanted - Right (Preview)
 160709165 Enchanted - Left
-160709166 Enchanted - Left (Preview)
 160709170 Sunlight - Right
-160709171 Sunlight - Right (Preview)
 160709175 Sunlight - Left
-160709176 Sunlight - Left (Preview)
 160709180 Bolt - Right
-160709181 Bolt - Right (Preview)
 160709185 Bolt - Left
-160709186 Bolt - Left (Preview)
 160709399 ### Head Emission ###
 160709400 Mass of Humanity
-160709401 Mass of Humanity (Preview)
 160709499 ### Body Emission ###
 160709502 Magical Crystals
-160709503 Magical Crystals (Preview)
 160709504 Invisibility
-160709505 Invisibility (Preview)
 160709506 Stoneform
-160709507 Stoneform (Preview)
 160709508 Maggots
-160709509 Maggots (Preview)
 160709510 Lightning
-160709511 Lightning (Preview)
 160709512 White Stars
-160709513 White Stars (Preview)
 160709514 Prismatic Stars
-160709515 Prismatic Stars (Preview)
 160709516 Corrupted Crystals
-160709517 Corrupted Crystals (Preview)
 160709518 Dung
-160709519 Dung (Preview)
 160709520 Barrier Wards
-160709521 Barrier Wards (Preview)
 160709522 Poison
-160709523 Poison (Preview)
 160709524 Frost
-160709525 Frost (Preview)
 160709526 Flame
-160709527 Flame (Preview)
 160709528 Dust
-160709529 Dust (Preview)
 160709530 Water
-160709531 Water (Preview)
 160709532 Holy
-160709533 Holy (Preview)
 160709534 Smouldering
-160709535 Smouldering (Preview)
 160709599 ### Eye Emission ###
 160709600 Red Glow
-160709601 Red Glow (Preview)
 160709602 Burning Red Glow
-160709603 Burning Red Glow (Preview)
 160709604 White Glow
-160709605 White Glow (Preview)
 160709606 Blue Glow
-160709607 Blue Glow (Preview)
 160709608 Golden Glow
-160709609 Golden Glow (Preview)
 160709610 Green Glow
-160709611 Green Glow (Preview)
 160709612 Purple Glow
-160709613 Purple Glow (Preview)
 160709699 ### Body Aura ###
 160709700 Ethereal Phantom
-160709701 Ethereal Phantom (Preview)
 160709706 Psychedelic Phantom
-160709707 Psychedelic Phantom (Preview)
 160709708 White Phantom
-160709709 White Phantom (Preview)
 160709710 Darkmoon Phantom
-160709711 Darkmoon Phantom (Preview)
 160709712 Holy Phantom
-160709713 Holy Phantom (Preview)
 160709714 Swamp Phantom
-160709715 Swamp Phantom (Preview)
 160709716 Abyssal Phantom
-160709717 Abyssal Phantom (Preview)
 160709718 Sunlight Phantom
-160709719 Sunlight Phantom (Preview)
 160709720 Mad Phantom
-160709721 Mad Phantom (Preview)
 160709722 Red Phantom
-160709723 Red Phantom (Preview)
 160709724 Demonic Phantom
-160709725 Demonic Phantom (Preview)
 160709726 Red Tint
-160709727 Red Tint (Preview)
 160709728 Orange Tint
-160709729 Orange Tint (Preview)
 160709730 Yellow Tint
-160709731 Yellow Tint (Preview)
 160709732 Green Tint
-160709733 Green Tint (Preview)
 160709734 Cyan Tint
-160709735 Cyan Tint (Preview)
 160709736 Blue Tint
-160709737 Blue Tint (Preview)
 160709738 Indigo Tint
-160709739 Indigo Tint (Preview)
 160709740 Violet Tint
-160709741 Violet Tint (Preview)
 160709742 Pink Tint
-160709743 Pink Tint (Preview)
 160709744 White Tint
-160709745 White Tint (Preview)
 160709746 Black Tint
-160709747 Black Tint (Preview)
 160709748 Psychedelic Tint
-160709749 Psychedelic Tint (Preview)
 160709799 ### Humanity Aura ###
 160709800 Human
-160709801 Human (Preview)
 160709802 Hollow
-160709803 Hollow (Preview)
 160709999 ### Developer Items ###
 160710000 Detection - Event Flag Tool
 160710101 Effect - God Tool

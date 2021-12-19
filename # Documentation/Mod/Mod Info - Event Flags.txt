@@ -1615,815 +1615,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002503 Restraint: Backstep
 25002504 Restraint: Jump
 25002505 Restraint: Kick
- 
-#------------------------
-# Head Armor
-#------------------------
-25002600 Head - Dragonform (DS3)
-25002601 Head - Bloodborne Hunter
-25002602 Head - Skeleton (Normal)
-25002603 Head - Skeleton (Tree)
-25002604 Head - Skeleton (Peasant)
-25002605 Head - Skeleton (Overgrown)
-25002606 Head - Capra Demon
-25002607 Head - Titanite Demon
-25002608 Head - Murkman
-25002609 Head - Wax Mould #HEAD ONLY
-25002610 Head - Humanity Sprite
-25002611 Head - Havel's
-25002612 Head - Giant-horned Helmet #HEAD ONLY
-25002613 Head - Fang Boar Helm #HEAD ONLY
-25002614 Head - Golem
-25002615 Head - Giant's
-25002616 Head - Pursuer's
-25002617 Head - Smough's
-25002618 Head - Gundyr's
-25002619 Head - Brushwood
-25002620 Head - Winged Knight
-25002621 Head - Snail Shell #HEAD ONLY
-25002622 Head - Millwood Knight
-25002623 Head - Mirror Knight
-25002624 Head - Dragonrider
-25002625 Head - Catarina
-25002626 Head - Stone
-25002627 Head - Guardian
-25002628 Head - Steel
-25002629 Head - Cathedral Knight
-25002630 Head - Dragon Hunter
-25002631 Head - Black Iron
-25002632 Head - Iron Dragonslayer
-25002633 Head - Lapp
-25002634 Head - Penetrator
-25002635 Head - Morne's
-25002636 Head - Paladin
-25002637 Head - Quicksilver
-25002638 Head - Executioner
-25002639 Head - Dragonslayer
-25002640 Head - Lothric Knight
-25002641 Head - Iron Keeper #HEAD ONLY
-25002642 Head - Heide Mask #HEAD ONLY
-25002643 Head - Harald Legion
-25002644 Head - Exile
-25002645 Head - Overseer's Mask #HEAD ONLY
-25002646 Head - Raime's
-25002647 Head - Black Knight
-25002648 Head - Silver Knight
-25002649 Head - Tarnished Knight
-25002650 Head - Heide Knight
-25002651 Head - Syan Knight
-25002652 Head - Alonne Captain
-25002653 Head - Gloom
-25002654 Head - Ruin
-25002655 Head - Rampart Golem
-25002656 Head - Lost Gargoyle
-25002657 Head - Gargoyle
-25002658 Head - Crab Helmet #HEAD ONLY
-25002659 
-25002660 Head - Horned Samurai Helm #HEAD ONLY
-25002661 Head - Ornate Samurai Helm #HEAD ONLY
-25002662 Head - Lorian
-25002663 Head - Great Lord
-25002664 Head - Ludleth's Crown #HEAD ONLY
-25002665 Head - Symbol of Avarice #HEAD ONLY
-25002666 Head - Giant Slave Helmet #HEAD ONLY
-25002667 Head - Old Demon King's Crown #HEAD ONLY
-25002668 Head - Pygmy King's Crown #HEAD ONLY
-25002669 Head - Drakeblood
-25002670 Head - Barrel #HEAD ONLY
-25002671 Head - Gough's
-25002672 Head - Mad Warrior
-25002673 Head - Imperious
-25002674 Head - Vengarl
-25002675 Head - Mask of Sin #HEAD ONLY
-25002676 Head - Pot #HEAD ONLY
-25002677 Head - Black Dragon
-25002678 Head - Ringed Knight
-25002679 Head - Grave Keeper
-25002680 Head - Ivory King
-25002681 Head - Yhorm
-25002682 Head - Smelter Demon
-25002683 Head - Firelink
-25002684 Head - Gold Ardeo #HEAD ONLY
-25002685 Head - Iron Cage #HEAD ONLY
-25002686 Head - Corvian Knight
-25002687 Head - Eastern
-25002688 Head - Alonne
-25002689 Head - Brass
-25002690 Head - Charred Loyce
-25002691 Head - Loyce
-25002692 Head - Favor
-25002693 Head - King's
-25002694 Head - Lord's Blade
-25002695 Head - Sunset
-25002696 Head - Wolf Knight
-25002697 Head - Winged Helm of Ridoh #HEAD ONLY
-25002698 Head - Artificial Helmet #HEAD ONLY
-25002699 Head - Ancient King
-25002700 Head - Filianore's Crown #HEAD ONLY
-25002701 Head - Holy King's Crown #HEAD ONLY
-25002702 Head - Elite Knight
-25002703 Head - Bucket #HEAD ONLY
-25002704 Head - Burial Knight
-25002705 Head - Adventurer
-25002706 Head - Knight
-25002707 Head - Thorn
-25002708 Head - Nameless Knight
-25002709 Head - Mask of the Father #HEAD ONLY
-25002710 Head - Mask of the Mother #HEAD ONLY
-25002711 Head - Mask of the Child #HEAD ONLY
-25002712 Head - Demon Cleric Mask #HEAD ONLY
-25002713 Head - Mask of Horror #HEAD ONLY
-25002714 Head - Mask of Cruelty #HEAD ONLY
-25002715 Head - Mask of Serenity #HEAD ONLY
-25002716 Head - Mask of War #HEAD ONLY
-25002717 Head - Faraam
-25002718 Head - Alva
-25002719 Head - Attendant
-25002720 Head - Footman
-25002721 Head - Outrider
-25002722 Head - Dark
-25002723 Head - Skull Mask #HEAD ONLY
-25002724 Head - Suspicious Gold Mask #HEAD ONLY
-25002725 Head - Undead Legion
-25002726 Head - Fallen Mirrah
-25002727 Head - Herald
-25002728 Head - Fallen Knight
-25002729 Head - Hallowed Knight
-25002730 Head - Forlorn
-25002731 Head - Aurous
-25002732 Head - Sun
-25002733 Head - Fire Witch
-25002734 Head - Channeler
-25002735 Head - Chain
-25002736 Head - Vilhelm
-25002737 Head - Bone Ash
-25002738 Head - Varangian
-25002739 Head - Thorolund
-25002740 Head - Bear
-25002741 Head - Wolnir's Crown #HEAD ONLY
-25002742 Head - Crown of Illusions #HEAD ONLY
-25002743 Head - Northern
-25002744 Head - Slave Knight
-25002745 Head - Nameless King
-25002746 Head - Courtier
-25002747 Head - Follower
-25002748 Head - Royal Soldier
-25002749 Head - Pontiff Knight
-25002750 Head - Dancer
-25002751 
-25002752 Head - Evangelist
-25002753 Head - Mirrah
-25002754 Head - Hard Leather
-25002755 Head - Jailer
-25002756 Head - Black
-25002757 Head - Sellsword
-25002758 Head - Vileblood
-25002759 Head - Sunless
-25002760 Head - Leonhard
-25002761 Head - Xanthous
-25002762 Head - White Preacher #HEAD ONLY
-25002763 Head - Poisonhorn Cap #HEAD ONLY
-25002764 Head - Hollow Head #HEAD ONLY
-25002765 Head - Basilisk Cap #HEAD ONLY
-25002766 Head - Vagabond #HEAD ONLY
-25002767 Head - Raven Mask #HEAD ONLY
-25002768 Head - Deserter
-25002769 Head - Deserter Helm #HEAD ONLY
-25002770 Head - Soldier's Hood #HEAD ONLY
-25002771 Head - Black Leather
-25002772 Head - Brigand
-25002773 Head - Pharis
-25002774 Head - Shira
-25002775 Head - Black Hand
-25002776 Head - Conjurator
-25002777 Head - Jester
-25002778 Head - Grotto
-25002779 Head - Black Straw Hat #HEAD ONLY
-25002780 Head - Tan Straw Hat #HEAD ONLY
-25002781 Head - Cleric
-25002782 Head - Black Cleric
-25002783 Head - Astrologist
-25002784 Head - Worker
-25002785 Head - Salvador's Hat #HEAD ONLY
-25002786 Head - Chester
-25002787 Head - Binded
-25002788 Head - Thrall Hood #HEAD ONLY
-25002789 Head - Assassin
-25002790 Head - Painting Guardian
-25002791 Head - Drang #BODY ONLY 
-25002792 Head - Serpentine
-25002793 Head - Scholar
-25002794 Head - Priest's Cap #HEAD ONLY
-25002795 Head - Pyromancer
-25002796 Head - Sack #HEAD ONLY
-25002797 Head - Dragon Acolyte
-25002798 Head - Karla
-25002799 Head - Black Witch
-25002800 Head - Black Witch Veil #HEAD ONLY
-25002801 Head - Rosaria's Dress #BODY ONLY  
-25002802 Head - Sorcerer
-25002803 Head - Court Sorcerer
-25002804 Head - Old Sorcerer
-25002805 Head - Venerable Sage
-25002806 Head - Clandestine Coat #BODY ONLY
-25002807 Head - Wanderer
-25002808 Head - Sage's Hat #HEAD ONLY
-25002809 Head - Moonlight
-25002810 Head - Gold-hemmed
-25002811 Head - Crimson
-25002812 Head - Pale Shade
-25002813 Head - Shadow
-25002814 Head - Maiden 
-25002815 Head - Hexer
-25002816 Head - Cornyx's
-25002817 Head - Grave Warden
-25002818 Head - Ordained
-25002819 Head - Desert Pyromancer
-25002820 Head - Manikin
-25002821 Head - Crude Manikin Mask #HEAD ONLY
-25002822 Head - Archdeacon
-25002823 Head - Prayer
-25002824 Head - Fire Keeper
-25002825 Head - Blindfold Mask #HEAD ONLY
-25002826 Head - Carthus Blindfold #HEAD ONLY
-25002827 Head - Antiquated
-25002828 Head - Antiquated Plain #BODY ONLY
-25002829 Head - Master
-25002830 Head - Deacon #BODY ONLY
-25002831 Head - Saint
-25002832 Head - Gallant
-25002833 Head - Warden
-25002834 Head - Dull Gold
-25002835 Head - Fluted
-25002836 Head - Huntsman
-25002837 Head - Mirdan
-25002838 Head - Sentinel
-25002839 Head - Raggedy
-25002840 Head - Charlatan
-25002841 Head - Martyr #BODY ONLY
-25002842 Head - Pickpocket
-25002843 Head - Magician #BODY ONLY
-25002844 Head - Nullus
-25002845 Head - Ironclad
-25002846 Head - Sanctum
-25002847 Head - Imported
-25002848 Head - Stalwart Knight
-25002849 Head - Okami
-25002850 Head - Eastern General
-25002851 Head - Eastern Wolf #BODY ONLY
-25002852 Head - Fallen Prince
-25002853 Head - Eastern Commander
-25002854 Head - Blue Lothric Knight
-25002855 Head - Blue Lothric Knight Open Helm #HEAD ONLY
-25002856 Head - Lothric Knight Open Helm #HEAD ONLY
-25002857 Head - Consumed King's Knight
-25002858 Head - Elite Deacon #BODY ONLY
-25002859 Head - Elite Soldier
-25002860 Head - Gertrude's Knight
-25002861 Head - Red Worker
-25002862 Head - Profaned Capital Handmaid
-25002863 Head - Burned Firelink
-25002864 Head - Overgrown Lothric Knight
-25002865 Head - Herald Helm (Lower Visor) #HEAD ONLY
-25002866 Head - Undead Legion Cap #HEAD ONLY
-25002867 Head - Carthus Swordsman
-25002868 Head - Royal Swordsman
-25002869 Head - Vordt's
-25002870 Head - Throne Watcher
-25002871 Head - Throne Defender
-25002872 Head - Mirrah ALT #HEAD ONLY
-25002873 Head - Blue Smelter Demon
-25002874
-25002875
-25002876
-25002877
-25002878
-25002879
-25002880
-25002881
-25002882
-25002883
-25002884
-25002885
-25002886
-25002887
-25002888
-25002889
-25002890
-25002891
-25002892
-25002893
-25002894
-25002895
-25002896
-25002897
-25002898
-25002899
-25002900
-25002901
-25002902
-25002903
-25002904
-25002905
-25002906
-25002907
-25002908
-25002909
-25002910
-25002911
-25002912
-25002913
-25002914
-25002915
-25002916
-25002917
-25002918
-25002919
-25002920
-25002921
-25002922
-25002923
-25002924
-25002925
-25002926
-25002927
-25002928
-25002929
-25002930
-25002931
-25002932
-25002933
-25002934
-25002935
-25002936
-25002937
-25002938
-25002939
-25002940
-25002941
-25002942
-25002943
-25002944
-25002945
-25002946
-25002947
-25002948
-25002949
-25002950
-25002951
-25002952
-25002953
-25002954
-25002955
-25002956
-25002957
-25002958
-25002959
-25002960
-25002961
-25002962
-25002963
-25002964
-25002965
-25002966
-25002967
-25002968
-25002969
-25002970
-25002971
-25002972
-25002973
-25002974
-25002975
-25002976
-25002977
-25002978
-25002979
-25002980
-25002981
-25002982
-25002983
-25002984
-25002985
-25002986
-25002987
-25002988
-25002989
-25002990
-25002991
-25002992
-25002993
-25002994
-25002995
-25002996
-25002997
-25002998
-25002999
-
-#------------------------
-# Head Armor
-#------------------------
-25003600 Body - Dragonform (DS3)
-25003601 Body - Bloodborne Hunter
-25003602 Body - Skeleton (Normal)
-25003603 Body - Skeleton (Tree)
-25003604 Body - Skeleton (Peasant)
-25003605 Body - Skeleton (Overgrown)
-25003606 Body - Capra Demon
-25003607 Body - Titanite Demon
-25003608 Body - Murkman
-25003609 Body - Wax Mould #HEAD ONLY
-25003610 Body - Humanity Sprite
-25003611 Body - Havel's
-25003612 Body - Giant-horned Helmet #HEAD ONLY
-25003613 Body - Fang Boar Helm #HEAD ONLY
-25003614 Body - Golem
-25003615 Body - Giant's
-25003616 Body - Pursuer's
-25003617 Body - Smough's
-25003618 Body - Gundyr's
-25003619 Body - Brushwood
-25003620 Body - Winged Knight
-25003621 Body - Snail Shell #HEAD ONLY
-25003622 Body - Millwood Knight
-25003623 Body - Mirror Knight
-25003624 Body - Dragonrider
-25003625 Body - Catarina
-25003626 Body - Stone
-25003627 Body - Guardian
-25003628 Body - Steel
-25003629 Body - Cathedral Knight
-25003630 Body - Dragon Hunter
-25003631 Body - Black Iron
-25003632 Body - Iron Dragonslayer
-25003633 Body - Lapp
-25003634 Body - Penetrator
-25003635 Body - Morne's
-25003636 Body - Paladin
-25003637 Body - Quicksilver
-25003638 Body - Executioner
-25003639 Body - Dragonslayer
-25003640 Body - Lothric Knight
-25003641 Body - Iron Keeper #HEAD ONLY
-25003642 Body - Heide Mask #HEAD ONLY
-25003643 Body - Harald Legion
-25003644 Body - Exile
-25003645 Body - Overseer's Mask #HEAD ONLY
-25003646 Body - Raime's
-25003647 Body - Black Knight
-25003648 Body - Silver Knight
-25003649 Body - Tarnished Knight
-25003650 Body - Heide Knight
-25003651 Body - Syan Knight
-25003652 Body - Alonne Captain
-25003653 Body - Gloom
-25003654 Body - Ruin
-25003655 Body - Rampart Golem
-25003656 Body - Lost Gargoyle
-25003657 Body - Gargoyle
-25003658 Body - Crab Helmet #HEAD ONLY
-25003659 
-25003660 Body - Horned Samurai Helm #HEAD ONLY
-25003661 Body - Ornate Samurai Helm #HEAD ONLY
-25003662 Body - Lorian
-25003663 Body - Great Lord
-25003664 Body - Ludleth's Crown #HEAD ONLY
-25003665 Body - Symbol of Avarice #HEAD ONLY
-25003666 Body - Giant Slave Helmet #HEAD ONLY
-25003667 Body - Old Demon King's Crown #HEAD ONLY
-25003668 Body - Pygmy King's Crown #HEAD ONLY
-25003669 Body - Drakeblood
-25003670 Body - Barrel #HEAD ONLY
-25003671 Body - Gough's
-25003672 Body - Mad Warrior
-25003673 Body - Imperious
-25003674 Body - Vengarl
-25003675 Body - Mask of Sin #HEAD ONLY
-25003676 Body - Pot #HEAD ONLY
-25003677 Body - Black Dragon
-25003678 Body - Ringed Knight
-25003679 Body - Grave Keeper
-25003680 Body - Ivory King
-25003681 Body - Yhorm
-25003682 Body - Smelter Demon
-25003683 Body - Firelink
-25003684 Body - Gold Ardeo #HEAD ONLY
-25003685 Body - Iron Cage #HEAD ONLY
-25003686 Body - Corvian Knight
-25003687 Body - Eastern
-25003688 Body - Alonne
-25003689 Body - Brass
-25003690 Body - Charred Loyce
-25003691 Body - Loyce
-25003692 Body - Favor
-25003693 Body - King's
-25003694 Body - Lord's Blade
-25003695 Body - Sunset
-25003696 Body - Wolf Knight
-25003697 Body - Winged Helm of Ridoh #HEAD ONLY
-25003698 Body - Artificial Helmet #HEAD ONLY
-25003699 Body - Ancient King
-25003700 Body - Filianore's Crown #HEAD ONLY
-25003701 Body - Holy King's Crown #HEAD ONLY
-25003702 Body - Elite Knight
-25003703 Body - Bucket #HEAD ONLY
-25003704 Body - Burial Knight
-25003705 Body - Adventurer
-25003706 Body - Knight
-25003707 Body - Thorn
-25003708 Body - Nameless Knight
-25003709 Body - Mask of the Father #HEAD ONLY
-25003710 Body - Mask of the Mother #HEAD ONLY
-25003711 Body - Mask of the Child #HEAD ONLY
-25003712 Body - Demon Cleric Mask #HEAD ONLY
-25003713 Body - Mask of Horror #HEAD ONLY
-25003714 Body - Mask of Cruelty #HEAD ONLY
-25003715 Body - Mask of Serenity #HEAD ONLY
-25003716 Body - Mask of War #HEAD ONLY
-25003717 Body - Faraam
-25003718 Body - Alva
-25003719 Body - Attendant
-25003720 Body - Footman
-25003721 Body - Outrider
-25003722 Body - Dark
-25003723 Body - Skull Mask #HEAD ONLY
-25003724 Body - Suspicious Gold Mask #HEAD ONLY
-25003725 Body - Undead Legion
-25003726 Body - Fallen Mirrah
-25003727 Body - Herald
-25003728 Body - Fallen Knight
-25003729 Body - Hallowed Knight
-25003730 Body - Forlorn
-25003731 Body - Aurous
-25003732 Body - Sun
-25003733 Body - Fire Witch
-25003734 Body - Channeler
-25003735 Body - Chain
-25003736 Body - Vilhelm
-25003737 Body - Bone Ash
-25003738 Body - Varangian
-25003739 Body - Thorolund
-25003740 Body - Bear
-25003741 Body - Wolnir's Crown #HEAD ONLY
-25003742 Body - Crown of Illusions #HEAD ONLY
-25003743 Body - Northern
-25003744 Body - Slave Knight
-25003745 Body - Nameless King
-25003746 Body - Courtier
-25003747 Body - Follower
-25003748 Body - Royal Soldier
-25003749 Body - Pontiff Knight
-25003750 Body - Dancer
-25003751 
-25003752 Body - Evangelist
-25003753 Body - Mirrah
-25003754 Body - Hard Leather
-25003755 Body - Jailer
-25003756 Body - Black
-25003757 Body - Sellsword
-25003758 Body - Vileblood
-25003759 Body - Sunless
-25003760 Body - Leonhard
-25003761 Body - Xanthous
-25003762 Body - White Preacher #HEAD ONLY
-25003763 Body - Poisonhorn Cap #HEAD ONLY
-25003764 Body - Hollow Head #HEAD ONLY
-25003765 Body - Basilisk Cap #HEAD ONLY
-25003766 Body - Vagabond #HEAD ONLY
-25003767 Body - Raven Mask #HEAD ONLY
-25003768 Body - Deserter
-25003769 Body - Deserter Helm #HEAD ONLY
-25003770 Body - Soldier's Hood #HEAD ONLY
-25003771 Body - Black Leather
-25003772 Body - Brigand
-25003773 Body - Pharis
-25003774 Body - Shira
-25003775 Body - Black Hand
-25003776 Body - Conjurator
-25003777 Body - Jester
-25003778 Body - Grotto
-25003779 Body - Black Straw Hat #HEAD ONLY
-25003780 Body - Tan Straw Hat #HEAD ONLY
-25003781 Body - Cleric
-25003782 Body - Black Cleric
-25003783 Body - Astrologist
-25003784 Body - Worker
-25003785 Body - Salvador's Hat #HEAD ONLY
-25003786 Body - Chester
-25003787 Body - Binded
-25003788 Body - Thrall Hood #HEAD ONLY
-25003789 Body - Assassin
-25003790 Body - Painting Guardian
-25003791 Body - Drang #BODY ONLY 
-25003792 Body - Serpentine
-25003793 Body - Scholar
-25003794 Body - Priest's Cap #HEAD ONLY
-25003795 Body - Pyromancer
-25003796 Body - Sack #HEAD ONLY
-25003797 Body - Dragon Acolyte
-25003798 Body - Karla
-25003799 Body - Black Witch
-25003800 Body - Black Witch Veil #HEAD ONLY
-25003801 Body - Rosaria's Dress #BODY ONLY  
-25003802 Body - Sorcerer
-25003803 Body - Court Sorcerer
-25003804 Body - Old Sorcerer
-25003805 Body - Venerable Sage
-25003806 Body - Clandestine Coat #BODY ONLY
-25003807 Body - Wanderer
-25003808 Body - Sage's Hat #HEAD ONLY
-25003809 Body - Moonlight
-25003810 Body - Gold-hemmed
-25003811 Body - Crimson
-25003812 Body - Pale Shade
-25003813 Body - Shadow
-25003814 Body - Maiden 
-25003815 Body - Hexer
-25003816 Body - Cornyx's
-25003817 Body - Grave Warden
-25003818 Body - Ordained
-25003819 Body - Desert Pyromancer
-25003820 Body - Manikin
-25003821 Body - Crude Manikin Mask #HEAD ONLY
-25003822 Body - Archdeacon
-25003823 Body - Prayer
-25003824 Body - Fire Keeper
-25003825 Body - Blindfold Mask #HEAD ONLY
-25003826 Body - Carthus Blindfold #HEAD ONLY
-25003827 Body - Antiquated
-25003828 Body - Antiquated Plain #BODY ONLY
-25003829 Body - Master
-25003830 Body - Deacon #BODY ONLY
-25003831 Body - Saint
-25003832 Body - Gallant
-25003833 Body - Warden
-25003834 Body - Dull Gold
-25003835 Body - Fluted
-25003836 Body - Huntsman
-25003837 Body - Mirdan
-25003838 Body - Sentinel
-25003839 Body - Raggedy
-25003840 Body - Charlatan
-25003841 Body - Martyr #BODY ONLY
-25003842 Body - Pickpocket
-25003843 Body - Magician #BODY ONLY
-25003844 Body - Nullus
-25003845 Body - Ironclad
-25003846 Body - Sanctum
-25003847 Body - Imported
-25003848 Body - Stalwart Knight
-25003849 Body - Okami
-25003850 Body - Eastern General
-25003851 Body - Eastern Wolf #BODY ONLY
-25003852 Body - Fallen Prince
-25003853 Body - Eastern Commander
-25003854 Body - Blue Lothric Knight
-25003855 Body - Blue Lothric Knight Open Helm #HEAD ONLY
-25003856 Body - Lothric Knight Open Helm #HEAD ONLY
-25003857 Body - Consumed King's Knight
-25003858 Body - Elite Deacon #BODY ONLY
-25003859 Body - Elite Soldier
-25003860 Body - Gertrude's Knight
-25003861 Body - Red Worker
-25003862 Body - Profaned Capital Handmaid
-25003863 Body - Burned Firelink
-25003864 Body - Overgrown Lothric Knight
-25003865 Body - Herald Helm (Lower Visor) #HEAD ONLY
-25003866 Body - Undead Legion Cap #HEAD ONLY
-25003867 Body - Carthus Swordsman
-25003868 Body - Royal Swordsman
-25003869 Body - Vordt's
-25003870 Body - Throne Watcher
-25003871 Body - Throne Defender
-25003872 Body - Mirrah ALT #HEAD ONLY
-25003873 Body - Blue Smelter Demon
-25003874
-25003875
-25003876
-25003877
-25003878
-25003879
-25003880
-25003881
-25003882
-25003883
-25003884
-25003885
-25003886
-25003887
-25003888
-25003889
-25003890
-25003891
-25003892
-25003893
-25003894
-25003895
-25003896
-25003897
-25003898
-25003899
-25003900
-25003901
-25003902
-25003903
-25003904
-25003905
-25003906
-25003907
-25003908
-25003909
-25003910
-25003911
-25003912
-25003913
-25003914
-25003915
-25003916
-25003917
-25003918
-25003919
-25003920
-25003921
-25003922
-25003923
-25003924
-25003925
-25003926
-25003927
-25003928
-25003929
-25003930
-25003931
-25003932
-25003933
-25003934
-25003935
-25003936
-25003937
-25003938
-25003939
-25003940
-25003941
-25003942
-25003943
-25003944
-25003945
-25003946
-25003947
-25003948
-25003949
-25003950
-25003951
-25003952
-25003953
-25003954
-25003955
-25003956
-25003957
-25003958
-25003959
-25003960
-25003961
-25003962
-25003963
-25003964
-25003965
-25003966
-25003967
-25003968
-25003969
-25003970
-25003971
-25003972
-25003973
-25003974
-25003975
-25003976
-25003977
-25003978
-25003979
-25003980
-25003981
-25003982
-25003983
-25003984
-25003985
-25003986
-25003987
-25003988
-25003989
-25003990
-25003991
-25003992
-25003993
-25003994
-25003995
-25003996
-25003997
-25003998
-25003999
-
 
 #------------------------
 # 
@@ -2590,8 +1781,10 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007351 Humanity Aura: Hollow
 
 # Utility
-25007398 Disable all transformation flags
-25007399 
+25007396 Disable head armor
+25007397 Disable body armor
+25007398 Disable visual transformation flags
+25007399 Disable armor transformation flags
 
 #------------------------
 # Spell Summon
@@ -2951,6 +2144,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009831 Ringed City
 25009840 Random location
 
+
 #------------------------
 # Other
 #------------------------
@@ -2958,3 +2152,1010 @@ xxx5750 Enemies enabled by Curse of Attraction
 75003010 Stone-humped Hag 1
 75003020 Stone-humped Hag 1
 
+#------------------------
+# Head Armor
+#------------------------
+24007000 Head - Dragonform (DS3)
+24007001 Head - Bloodborne Hunter
+24007002 Head - Skeleton (Normal)
+24007003 Head - Skeleton (Tree)
+24007004 Head - Skeleton (Peasant)
+24007005 Head - Skeleton (Overgrown)
+24007006 Head - Capra Demon
+24007007 Head - Titanite Demon
+24007008 Head - Murkman
+24007009 Head - Wax Mould #HEAD ONLY
+24007010 Head - Humanity Sprite
+24007011 Head - Havel's
+24007012 Head - Giant-horned Helmet #HEAD ONLY
+24007013 Head - Fang Boar Helm #HEAD ONLY
+24007014 Head - Golem
+24007015 Head - Giant's
+24007016 Head - Pursuer's
+24007017 Head - Smough's
+24007018 Head - Gundyr's
+24007019 Head - Brushwood
+24007020 Head - Winged Knight
+24007021 Head - Snail Shell #HEAD ONLY
+24007022 Head - Millwood Knight
+24007023 Head - Mirror Knight
+24007024 Head - Dragonrider
+24007025 Head - Catarina
+24007026 Head - Stone
+24007027 Head - Guardian
+24007028 Head - Steel
+24007029 Head - Cathedral Knight
+24007030 Head - Dragon Hunter
+24007031 Head - Black Iron
+24007032 Head - Iron Dragonslayer
+24007033 Head - Lapp
+24007034 Head - Penetrator
+24007035 Head - Morne's
+24007036 Head - Paladin
+24007037 Head - Quicksilver
+24007038 Head - Executioner
+24007039 Head - Dragonslayer
+24007040 Head - Lothric Knight
+24007041 Head - Iron Keeper #HEAD ONLY
+24007042 Head - Heide Mask #HEAD ONLY
+24007043 Head - Harald Legion
+24007044 Head - Exile
+24007045 Head - Overseer's Mask #HEAD ONLY
+24007046 Head - Raime's
+24007047 Head - Black Knight
+24007048 Head - Silver Knight
+24007049 Head - Tarnished Knight
+24007050 Head - Heide Knight
+24007051 Head - Syan Knight
+24007052 Head - Alonne Captain
+24007053 Head - Gloom
+24007054 Head - Ruin
+24007055 Head - Rampart Golem
+24007056 Head - Lost Gargoyle #HEAD ONLY
+24007057 Head - Gargoyle
+24007058 Head - Crab Helmet #HEAD ONLY
+24007059 
+24007060 Head - Horned Samurai Helm #HEAD ONLY
+24007061 Head - Ornate Samurai Helm #HEAD ONLY
+24007062 Head - Lorian
+24007063 Head - Great Lord
+24007064 Head - Ludleth's Crown #HEAD ONLY
+24007065 Head - Symbol of Avarice #HEAD ONLY
+24007066 Head - Giant Slave Helmet #HEAD ONLY
+24007067 Head - Old Demon King's Crown #HEAD ONLY
+24007068 Head - Pygmy King's Crown #HEAD ONLY
+24007069 Head - Drakeblood
+24007070 Head - Barrel #HEAD ONLY
+24007071 Head - Gough's
+24007072 Head - Mad Warrior
+24007073 Head - Imperious
+24007074 Head - Vengarl
+24007075 Head - Mask of Sin #HEAD ONLY
+24007076 Head - Pot #HEAD ONLY
+24007077 Head - Black Dragon
+24007078 Head - Ringed Knight
+24007079 Head - Grave Keeper
+24007080 Head - Ivory King
+24007081 Head - Yhorm
+24007082 Head - Smelter Demon
+24007083 Head - Firelink
+24007084 Head - Gold Ardeo #HEAD ONLY
+24007085 Head - Iron Cage #HEAD ONLY
+24007086 Head - Corvian Knight
+24007087 Head - Eastern
+24007088 Head - Alonne
+24007089 Head - Brass
+24007090 Head - Charred Loyce
+24007091 Head - Loyce
+24007092 Head - Favor
+24007093 Head - King's
+24007094 Head - Lord's Blade
+24007095 Head - Sunset
+24007096 Head - Wolf Knight
+24007097 Head - Winged Helm of Ridoh #HEAD ONLY
+24007098 Head - Artificial Helmet #HEAD ONLY
+24007099 Head - Ancient King
+24007100 Head - Filianore's Crown #HEAD ONLY
+24007101 Head - Holy King's Crown #HEAD ONLY
+24007102 Head - Elite Knight
+24007103 Head - Bucket #HEAD ONLY
+24007104 Head - Burial Knight
+24007105 Head - Adventurer
+24007106 Head - Knight
+24007107 Head - Thorn
+24007108 Head - Nameless Knight
+24007109 Head - Mask of the Father #HEAD ONLY
+24007110 Head - Mask of the Mother #HEAD ONLY
+24007111 Head - Mask of the Child #HEAD ONLY
+24007112 Head - Demon Cleric Mask #HEAD ONLY
+24007113 Head - Mask of Horror #HEAD ONLY
+24007114 Head - Mask of Cruelty #HEAD ONLY
+24007115 Head - Mask of Serenity #HEAD ONLY
+24007116 Head - Mask of War #HEAD ONLY
+24007117 Head - Faraam
+24007118 Head - Alva
+24007119 Head - Attendant
+24007120 Head - Footman
+24007121 Head - Outrider
+24007122 Head - Dark
+24007123 Head - Skull Mask #HEAD ONLY
+24007124 Head - Suspicious Gold Mask #HEAD ONLY
+24007125 Head - Undead Legion
+24007126 Head - Fallen Mirrah
+24007127 Head - Herald
+24007128 Head - Fallen Knight
+24007129 Head - Hallowed Knight
+24007130 Head - Forlorn
+24007131 Head - Aurous
+24007132 Head - Sun
+24007133 Head - Fire Witch
+24007134 Head - Channeler
+24007135 Head - Chain
+24007136 Head - Vilhelm
+24007137 Head - Bone Ash
+24007138 Head - Varangian
+24007139 Head - Thorolund
+24007140 Head - Bear
+24007141 Head - Wolnir's Crown #HEAD ONLY
+24007142 Head - Crown of Illusions #HEAD ONLY
+24007143 Head - Northern
+24007144 Head - Slave Knight
+24007145 Head - Nameless King
+24007146 Head - Courtier
+24007147 Head - Follower
+24007148 Head - Royal Soldier
+24007149 Head - Pontiff Knight
+24007150 Head - Dancer
+24007151 
+24007152 Head - Evangelist
+24007153 Head - Mirrah
+24007154 Head - Hard Leather
+24007155 Head - Jailer
+24007156 Head - Black
+24007157 Head - Sellsword
+24007158 Head - Vileblood
+24007159 Head - Sunless
+24007160 Head - Leonhard
+24007161 Head - Xanthous
+24007162 Head - White Preacher #HEAD ONLY
+24007163 Head - Poisonhorn Cap #HEAD ONLY
+24007164 Head - Hollow Head #HEAD ONLY
+24007165 Head - Basilisk Cap #HEAD ONLY
+24007166 Head - Vagabond #HEAD ONLY
+24007167 Head - Raven Mask #HEAD ONLY
+24007168 Head - Deserter
+24007169 Head - Deserter Helm #HEAD ONLY
+24007170 Head - Soldier's Hood #HEAD ONLY
+24007171 Head - Black Leather
+24007172 Head - Brigand
+24007173 Head - Pharis
+24007174 Head - Shira
+24007175 Head - Black Hand
+24007176 Head - Conjurator
+24007177 Head - Jester
+24007178 Head - Grotto
+24007179 Head - Black Straw Hat #HEAD ONLY
+24007180 Head - Tan Straw Hat #HEAD ONLY
+24007181 Head - Cleric
+24007182 Head - Black Cleric
+24007183 Head - Astrologist
+24007184 Head - Worker
+24007185 Head - Salvador's Hat #HEAD ONLY
+24007186 Head - Chester
+24007187 Head - Binded
+24007188 Head - Thrall Hood #HEAD ONLY
+24007189 Head - Assassin
+24007190 Head - Painting Guardian
+24007191 Head - Drang #BODY ONLY 
+24007192 Head - Serpentine
+24007193 Head - Scholar
+24007194 Head - Priest's Cap #HEAD ONLY
+24007195 Head - Pyromancer
+24007196 Head - Sack #HEAD ONLY
+24007197 Head - Dragon Acolyte
+24007198 Head - Karla
+24007199 Head - Black Witch
+24007200 Head - Black Witch Veil #HEAD ONLY
+24007201 Head - Rosaria's Dress #BODY ONLY  
+24007202 Head - Sorcerer
+24007203 Head - Court Sorcerer
+24007204 Head - Old Sorcerer
+24007205 Head - Venerable Sage
+24007206 Head - Clandestine Coat #BODY ONLY
+24007207 Head - Wanderer
+24007208 Head - Sage's Hat #HEAD ONLY
+24007209 Head - Moonlight
+24007210 Head - Gold-hemmed
+24007211 Head - Crimson
+24007212 Head - Pale Shade
+24007213 Head - Shadow
+24007214 Head - Maiden 
+24007215 Head - Hexer
+24007216 Head - Cornyx's
+24007217 Head - Grave Warden
+24007218 Head - Ordained
+24007219 Head - Desert Pyromancer
+24007220 Head - Manikin
+24007221 Head - Crude Manikin Mask #HEAD ONLY
+24007222 Head - Archdeacon
+24007223 Head - Prayer
+24007224 Head - Fire Keeper
+24007225 Head - Blindfold Mask #HEAD ONLY
+24007226 Head - Carthus Blindfold #HEAD ONLY
+24007227 Head - Antiquated
+24007228 Head - Antiquated Plain #BODY ONLY
+24007229 Head - Master
+24007230 Head - Deacon #BODY ONLY
+24007231 Head - Saint
+24007232 Head - Gallant
+24007233 Head - Warden
+24007234 Head - Dull Gold
+24007235 Head - Fluted
+24007236 Head - Huntsman
+24007237 Head - Mirdan
+24007238 Head - Sentinel
+24007239 Head - Raggedy
+24007240 Head - Charlatan
+24007241 Head - Martyr #BODY ONLY
+24007242 Head - Pickpocket
+24007243 Head - Magician #BODY ONLY
+24007244 Head - Nullus
+24007245 Head - Ironclad
+24007246 Head - Sanctum
+24007247 Head - Imported
+24007248 Head - Stalwart Knight
+24007249 Head - Okami
+24007250 Head - Eastern General
+24007251 Head - Eastern Wolf #BODY ONLY
+24007252 Head - Fallen Prince
+24007253 Head - Eastern Commander
+24007254 Head - Blue Lothric Knight
+24007255 Head - Blue Lothric Knight Open Helm #HEAD ONLY
+24007256 Head - Lothric Knight Open Helm #HEAD ONLY
+24007257 Head - Consumed King's Knight
+24007258 Head - Elite Deacon #BODY ONLY
+24007259 Head - Elite Soldier
+24007260 Head - Gertrude's Knight
+24007261 Head - Red Worker
+24007262 Head - Profaned Capital Handmaid
+24007263 Head - Burned Firelink
+24007264 Head - Overgrown Lothric Knight
+24007265 Head - Herald Helm (Lower Visor) #HEAD ONLY
+24007266 Head - Undead Legion Cap #HEAD ONLY
+24007267 Head - Carthus Swordsman
+24007268 Head - Royal Swordsman
+24007269 Head - Vordt's
+24007270 Head - Throne Watcher
+24007271 Head - Throne Defender
+24007272 Head - Mirrah ALT #HEAD ONLY
+24007273 Head - Blue Smelter Demon
+24007274
+24007275
+24007276
+24007277
+24007278
+24007279
+24007280
+24007281
+24007282
+24007283
+24007284
+24007285
+24007286
+24007287
+24007288
+24007289
+24007290
+24007291
+24007292
+24007293
+24007294
+24007295
+24007296
+24007297
+24007298
+24007299
+24007300
+24007301
+24007302
+24007303
+24007304
+24007305
+24007306
+24007307
+24007308
+24007309
+24007310
+24007311
+24007312
+24007313
+24007314
+24007315
+24007316
+24007317
+24007318
+24007319
+24007320
+24007321
+24007322
+24007323
+24007324
+24007325
+24007326
+24007327
+24007328
+24007329
+24007330
+24007331
+24007332
+24007333
+24007334
+24007335
+24007336
+24007337
+24007338
+24007339
+24007340
+24007341
+24007342
+24007343
+24007344
+24007345
+24007346
+24007347
+24007348
+24007349
+24007350
+24007351
+24007352
+24007353
+24007354
+24007355
+24007356
+24007357
+24007358
+24007359
+24007360
+24007361
+24007362
+24007363
+24007364
+24007365
+24007366
+24007367
+24007368
+24007369
+24007370
+24007371
+24007372
+24007373
+24007374
+24007375
+24007376
+24007377
+24007378
+24007379
+24007380
+24007381
+24007382
+24007383
+24007384
+24007385
+24007386
+24007387
+24007388
+24007389
+24007390
+24007391
+24007392
+24007393
+24007394
+24007395
+24007396
+24007397
+24007398
+24007399
+24007400
+24007401
+24007402
+24007403
+24007404
+24007405
+24007406
+24007407
+24007408
+24007409
+24007410
+24007411
+24007412
+24007413
+24007414
+24007415
+24007416
+24007417
+24007418
+24007419
+24007420
+24007421
+24007422
+24007423
+24007424
+24007425
+24007426
+24007427
+24007428
+24007429
+24007430
+24007431
+24007432
+24007433
+24007434
+24007435
+24007436
+24007437
+24007438
+24007439
+24007440
+24007441
+24007442
+24007443
+24007444
+24007445
+24007446
+24007447
+24007448
+24007449
+24007450
+24007451
+24007452
+24007453
+24007454
+24007455
+24007456
+24007457
+24007458
+24007459
+24007460
+24007461
+24007462
+24007463
+24007464
+24007465
+24007466
+24007467
+24007468
+24007469
+24007470
+24007471
+24007472
+24007473
+24007474
+24007475
+24007476
+24007477
+24007478
+24007479
+24007480
+24007481
+24007482
+24007483
+24007484
+24007485
+24007486
+24007487
+24007488
+24007489
+24007490
+24007491
+24007492
+24007493
+24007494
+24007495
+24007496
+24007497
+24007498
+24007499
+
+#------------------------
+# Body Armor
+#------------------------
+24007500 Body - Dragonform (DS3)
+24007501 Body - Bloodborne Hunter
+24007502 Body - Skeleton (Normal)
+24007503 Body - Skeleton (Tree)
+24007504 Body - Skeleton (Peasant)
+24007505 Body - Skeleton (Overgrown)
+24007506 Body - Capra Demon
+24007507 Body - Titanite Demon
+24007508 Body - Murkman
+24007509 Body - Wax Mould #HEAD ONLY
+24007510 Body - Humanity Sprite
+24007511 Body - Havel's
+24007512 Body - Giant-horned Helmet #HEAD ONLY
+24007513 Body - Fang Boar Helm #HEAD ONLY
+24007514 Body - Golem
+24007515 Body - Giant's
+24007516 Body - Pursuer's
+24007517 Body - Smough's
+24007518 Body - Gundyr's
+24007519 Body - Brushwood
+24007520 Body - Winged Knight
+24007521 Body - Snail Shell #HEAD ONLY
+24007522 Body - Millwood Knight
+24007523 Body - Mirror Knight
+24007524 Body - Dragonrider
+24007525 Body - Catarina
+24007526 Body - Stone
+24007527 Body - Guardian
+24007528 Body - Steel
+24007529 Body - Cathedral Knight
+24007530 Body - Dragon Hunter
+24007531 Body - Black Iron
+24007532 Body - Iron Dragonslayer
+24007533 Body - Lapp
+24007534 Body - Penetrator
+24007535 Body - Morne's
+24007536 Body - Paladin
+24007537 Body - Quicksilver
+24007538 Body - Executioner
+24007539 Body - Dragonslayer
+24007540 Body - Lothric Knight
+24007541 Body - Iron Keeper #HEAD ONLY
+24007542 Body - Heide Mask #HEAD ONLY
+24007543 Body - Harald Legion
+24007544 Body - Exile
+24007545 Body - Overseer's Mask #HEAD ONLY
+24007546 Body - Raime's
+24007547 Body - Black Knight
+24007548 Body - Silver Knight
+24007549 Body - Tarnished Knight
+24007550 Body - Heide Knight
+24007551 Body - Syan Knight
+24007552 Body - Alonne Captain
+24007553 Body - Gloom
+24007554 Body - Ruin
+24007555 Body - Rampart Golem
+24007556 Body - Lost Gargoyle
+24007557 Body - Gargoyle
+24007558 Body - Crab Helmet #HEAD ONLY
+24007559 
+24007560 Body - Horned Samurai Helm #HEAD ONLY
+24007561 Body - Ornate Samurai Helm #HEAD ONLY
+24007562 Body - Lorian
+24007563 Body - Great Lord
+24007564 Body - Ludleth's Crown #HEAD ONLY
+24007565 Body - Symbol of Avarice #HEAD ONLY
+24007566 Body - Giant Slave Helmet #HEAD ONLY
+24007567 Body - Old Demon King's Crown #HEAD ONLY
+24007568 Body - Pygmy King's Crown #HEAD ONLY
+24007569 Body - Drakeblood
+24007570 Body - Barrel #HEAD ONLY
+24007571 Body - Gough's
+24007572 Body - Mad Warrior
+24007573 Body - Imperious
+24007574 Body - Vengarl
+24007575 Body - Mask of Sin #HEAD ONLY
+24007576 Body - Pot #HEAD ONLY
+24007577 Body - Black Dragon
+24007578 Body - Ringed Knight
+24007579 Body - Grave Keeper
+24007580 Body - Ivory King
+24007581 Body - Yhorm
+24007582 Body - Smelter Demon
+24007583 Body - Firelink
+24007584 Body - Gold Ardeo #HEAD ONLY
+24007585 Body - Iron Cage #HEAD ONLY
+24007586 Body - Corvian Knight
+24007587 Body - Eastern
+24007588 Body - Alonne
+24007589 Body - Brass
+24007590 Body - Charred Loyce
+24007591 Body - Loyce
+24007592 Body - Favor
+24007593 Body - King's
+24007594 Body - Lord's Blade
+24007595 Body - Sunset
+24007596 Body - Wolf Knight
+24007597 Body - Winged Helm of Ridoh #HEAD ONLY
+24007598 Body - Artificial Helmet #HEAD ONLY
+24007599 Body - Ancient King
+24007600 Body - Filianore's Crown #HEAD ONLY
+24007601 Body - Holy King's Crown #HEAD ONLY
+24007602 Body - Elite Knight
+24007603 Body - Bucket #HEAD ONLY
+24007604 Body - Burial Knight
+24007605 Body - Adventurer
+24007606 Body - Knight
+24007607 Body - Thorn
+24007608 Body - Nameless Knight
+24007609 Body - Mask of the Father #HEAD ONLY
+24007610 Body - Mask of the Mother #HEAD ONLY
+24007611 Body - Mask of the Child #HEAD ONLY
+24007612 Body - Demon Cleric Mask #HEAD ONLY
+24007613 Body - Mask of Horror #HEAD ONLY
+24007614 Body - Mask of Cruelty #HEAD ONLY
+24007615 Body - Mask of Serenity #HEAD ONLY
+24007616 Body - Mask of War #HEAD ONLY
+24007617 Body - Faraam
+24007618 Body - Alva
+24007619 Body - Attendant
+24007620 Body - Footman
+24007621 Body - Outrider
+24007622 Body - Dark
+24007623 Body - Skull Mask #HEAD ONLY
+24007624 Body - Suspicious Gold Mask #HEAD ONLY
+24007625 Body - Undead Legion
+24007626 Body - Fallen Mirrah
+24007627 Body - Herald
+24007628 Body - Fallen Knight
+24007629 Body - Hallowed Knight
+24007630 Body - Forlorn
+24007631 Body - Aurous
+24007632 Body - Sun
+24007633 Body - Fire Witch
+24007634 Body - Channeler
+24007635 Body - Chain
+24007636 Body - Vilhelm
+24007637 Body - Bone Ash
+24007638 Body - Varangian
+24007639 Body - Thorolund
+24007640 Body - Bear
+24007641 Body - Wolnir's Crown #HEAD ONLY
+24007642 Body - Crown of Illusions #HEAD ONLY
+24007643 Body - Northern
+24007644 Body - Slave Knight
+24007645 Body - Nameless King
+24007646 Body - Courtier
+24007647 Body - Follower
+24007648 Body - Royal Soldier
+24007649 Body - Pontiff Knight
+24007650 Body - Dancer
+24007651 
+24007652 Body - Evangelist
+24007653 Body - Mirrah
+24007654 Body - Hard Leather
+24007655 Body - Jailer
+24007656 Body - Black
+24007657 Body - Sellsword
+24007658 Body - Vileblood
+24007659 Body - Sunless
+24007660 Body - Leonhard
+24007661 Body - Xanthous
+24007662 Body - White Preacher #HEAD ONLY
+24007663 Body - Poisonhorn Cap #HEAD ONLY
+24007664 Body - Hollow Head #HEAD ONLY
+24007665 Body - Basilisk Cap #HEAD ONLY
+24007666 Body - Vagabond #HEAD ONLY
+24007667 Body - Raven Mask #HEAD ONLY
+24007668 Body - Deserter
+24007669 Body - Deserter Helm #HEAD ONLY
+24007670 Body - Soldier's Hood #HEAD ONLY
+24007671 Body - Black Leather
+24007672 Body - Brigand
+24007673 Body - Pharis
+24007674 Body - Shira
+24007675 Body - Black Hand
+24007676 Body - Conjurator
+24007677 Body - Jester
+24007678 Body - Grotto
+24007679 Body - Black Straw Hat #HEAD ONLY
+24007680 Body - Tan Straw Hat #HEAD ONLY
+24007681 Body - Cleric
+24007682 Body - Black Cleric
+24007683 Body - Astrologist
+24007684 Body - Worker
+24007685 Body - Salvador's Hat #HEAD ONLY
+24007686 Body - Chester
+24007687 Body - Binded
+24007688 Body - Thrall Hood #HEAD ONLY
+24007689 Body - Assassin
+24007690 Body - Painting Guardian
+24007691 Body - Drang #BODY ONLY 
+24007692 Body - Serpentine
+24007693 Body - Scholar
+24007694 Body - Priest's Cap #HEAD ONLY
+24007695 Body - Pyromancer
+24007696 Body - Sack #HEAD ONLY
+24007697 Body - Dragon Acolyte
+24007698 Body - Karla
+24007699 Body - Black Witch
+24007700 Body - Black Witch Veil #HEAD ONLY
+24007701 Body - Rosaria's Dress #BODY ONLY  
+24007702 Body - Sorcerer
+24007703 Body - Court Sorcerer
+24007704 Body - Old Sorcerer
+24007705 Body - Venerable Sage
+24007706 Body - Clandestine Coat #BODY ONLY
+24007707 Body - Wanderer
+24007708 Body - Sage's Hat #HEAD ONLY
+24007709 Body - Moonlight
+24007710 Body - Gold-hemmed
+24007711 Body - Crimson
+24007712 Body - Pale Shade
+24007713 Body - Shadow
+24007714 Body - Maiden 
+24007715 Body - Hexer
+24007716 Body - Cornyx's
+24007717 Body - Grave Warden
+24007718 Body - Ordained
+24007719 Body - Desert Pyromancer
+24007720 Body - Manikin
+24007721 Body - Crude Manikin Mask #HEAD ONLY
+24007722 Body - Archdeacon
+24007723 Body - Prayer
+24007724 Body - Fire Keeper
+24007725 Body - Blindfold Mask #HEAD ONLY
+24007726 Body - Carthus Blindfold #HEAD ONLY
+24007727 Body - Antiquated
+24007728 Body - Antiquated Plain #BODY ONLY
+24007729 Body - Master
+24007730 Body - Deacon #BODY ONLY
+24007731 Body - Saint
+24007732 Body - Gallant
+24007733 Body - Warden
+24007734 Body - Dull Gold
+24007735 Body - Fluted
+24007736 Body - Huntsman
+24007737 Body - Mirdan
+24007738 Body - Sentinel
+24007739 Body - Raggedy
+24007740 Body - Charlatan
+24007741 Body - Martyr #BODY ONLY
+24007742 Body - Pickpocket
+24007743 Body - Magician #BODY ONLY
+24007744 Body - Nullus
+24007745 Body - Ironclad
+24007746 Body - Sanctum
+24007747 Body - Imported
+24007748 Body - Stalwart Knight
+24007749 Body - Okami
+24007750 Body - Eastern General
+24007751 Body - Eastern Wolf #BODY ONLY
+24007752 Body - Fallen Prince
+24007753 Body - Eastern Commander
+24007754 Body - Blue Lothric Knight
+24007755 Body - Blue Lothric Knight Open Helm #HEAD ONLY
+24007756 Body - Lothric Knight Open Helm #HEAD ONLY
+24007757 Body - Consumed King's Knight
+24007758 Body - Elite Deacon #BODY ONLY
+24007759 Body - Elite Soldier
+24007760 Body - Gertrude's Knight
+24007761 Body - Red Worker
+24007762 Body - Profaned Capital Handmaid
+24007763 Body - Burned Firelink
+24007764 Body - Overgrown Lothric Knight
+24007765 Body - Herald Helm (Lower Visor) #HEAD ONLY
+24007766 Body - Undead Legion Cap #HEAD ONLY
+24007767 Body - Carthus Swordsman
+24007768 Body - Royal Swordsman
+24007769 Body - Vordt's
+24007770 Body - Throne Watcher
+24007771 Body - Throne Defender
+24007772 Body - Mirrah ALT #HEAD ONLY
+24007773 Body - Blue Smelter Demon
+24007774
+24007775
+24007776
+24007777
+24007778
+24007779
+24007780
+24007781
+24007782
+24007783
+24007784
+24007785
+24007786
+24007787
+24007788
+24007789
+24007790
+24007791
+24007792
+24007793
+24007794
+24007795
+24007796
+24007797
+24007798
+24007799
+24007300
+24007301
+24007302
+24007303
+24007304
+24007305
+24007306
+24007307
+24007308
+24007309
+24007310
+24007311
+24007312
+24007313
+24007314
+24007315
+24007316
+24007317
+24007318
+24007319
+24007320
+24007321
+24007322
+24007323
+24007324
+24007325
+24007326
+24007327
+24007328
+24007329
+24007330
+24007331
+24007332
+24007333
+24007334
+24007335
+24007336
+24007337
+24007338
+24007339
+24007340
+24007341
+24007342
+24007343
+24007344
+24007345
+24007346
+24007347
+24007348
+24007349
+24007350
+24007351
+24007352
+24007353
+24007354
+24007355
+24007356
+24007357
+24007358
+24007359
+24007360
+24007361
+24007362
+24007363
+24007364
+24007365
+24007366
+24007367
+24007368
+24007369
+24007370
+24007371
+24007372
+24007373
+24007374
+24007375
+24007376
+24007377
+24007378
+24007379
+24007380
+24007381
+24007382
+24007383
+24007384
+24007385
+24007386
+24007387
+24007388
+24007389
+24007390
+24007391
+24007392
+24007393
+24007394
+24007395
+24007396
+24007397
+24007398
+24007399
+24007400
+24007401
+24007402
+24007403
+24007404
+24007405
+24007406
+24007407
+24007408
+24007409
+24007410
+24007411
+24007412
+24007413
+24007414
+24007415
+24007416
+24007417
+24007418
+24007419
+24007420
+24007421
+24007422
+24007423
+24007424
+24007425
+24007426
+24007427
+24007428
+24007429
+24007430
+24007431
+24007432
+24007433
+24007434
+24007435
+24007436
+24007437
+24007438
+24007439
+24007440
+24007441
+24007442
+24007443
+24007444
+24007445
+24007446
+24007447
+24007448
+24007449
+24007450
+24007451
+24007452
+24007453
+24007454
+24007455
+24007456
+24007457
+24007458
+24007459
+24007460
+24007461
+24007462
+24007463
+24007464
+24007465
+24007466
+24007467
+24007468
+24007469
+24007470
+24007471
+24007472
+24007473
+24007474
+24007475
+24007476
+24007477
+24007478
+24007479
+24007480
+24007481
+24007482
+24007483
+24007484
+24007485
+24007486
+24007487
+24007488
+24007489
+24007490
+24007491
+24007492
+24007493
+24007494
+24007495
+24007496
+24007497
+24007498
+24007499
