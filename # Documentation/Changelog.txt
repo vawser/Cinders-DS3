@@ -68,6 +68,7 @@ Finish following weapons:
 
 # Bugfixes
 - Cleaned up old usage of the removed transformation items.
+- Fixed Slicing Wind not working when casted from the left hand.
 
 #------------------------------
 # TODO
