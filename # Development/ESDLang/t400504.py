@@ -1036,7 +1036,7 @@ def t400504_x41():
             return 0
         # Grufudd's Signet
         elif GetTalkListEntryResult() == 112:
-            assert t400504_x50(32200, 32201, 1, -2)
+            assert t400504_x50(32300, 32301, 1, -2)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
