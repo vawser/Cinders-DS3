@@ -187,7 +187,8 @@ Event(0, Default, function() {
     //--------------------
     //InitializeEvent(0, 20045, 160700310, 20001); // Devil's Trumpet
     //InitializeEvent(1, 20045, 160700320, 20002); // Moonflower
-    InitializeEvent(0, 20601, 0); // Numbness
+    InitializeEvent(0, 20601, 0); // Handle Flags
+    InitializeEvent(0, 20602, 0); // Numbness
     
     //--------------------
     // Debug Tools
@@ -2000,6 +2001,9 @@ Event(20001, Default, function(X0_4, X4_4) {
     SetEventFlag(13100004, ON); // Undead Settlement
     SetEventFlag(13000000, ON); // High Wall of Lothric
 
+    // No Perspective override set
+    SetEventFlag(25007370, ON); 
+    
     SetEventFlag(25000099, ON); // Execution flag
 });
 
@@ -9205,78 +9209,164 @@ Event(20290, Default, function() {
 });
 
 //----------------------------------------------
-// FOV - Monitor
+// Perspective - Monitor
 //----------------------------------------------
 Event(20600, Default, function() {
     WaitFixedTimeSeconds(1.0);
     
-    // Default - This toggles itself off since it is a 'reset' option
-    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007360);
-    ChangeCamera(-1, -1);
-    SetEventFlag(25007360, OFF);
+    // Wait for Numbness to expire if it has been used
+    IfCharacterHasSpEffect(MAIN, 10000, 160500060, false, ComparisonType.Equal, 1);
     
-    // 10
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007361);
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007371);
+    ChangeCamera(-1, -1);
+    SetEventFlag(25007371, OFF);
+    
+    // Skip if no override is set
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, 25007370);
+    
+    // Standard 
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007360);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007365);
+    ChangeCamera(30000, 30000);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007360);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007366);
+    ChangeCamera(30001, 30001);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007360);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007367);
+    ChangeCamera(30002, 30002);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007360);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007368);
+    ChangeCamera(30003, 30003);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007360);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007369);
+    ChangeCamera(30004, 30004);
+    
+    // Narrow
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007361);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007365);
     ChangeCamera(30010, 30010);
-
-    // 20
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007362);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007361);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007366);
     ChangeCamera(30011, 30011);
     
-    // 30
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007363);
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007361);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007367);
     ChangeCamera(30012, 30012);
     
-    // 40
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007364);
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007361);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007368);
     ChangeCamera(30013, 30013);
     
-    // 50
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007365);
-    ChangeCamera(30014, 30014);
-    
-    // 60
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007366);
-    ChangeCamera(30015, 30015);
-    
-    // 70
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007367);
-    ChangeCamera(30016, 30016);
-    
-    // 80
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007368);
-    ChangeCamera(30017, 30017);
-    
-    // 90
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007361);
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007369);
-    ChangeCamera(30018, 30018);
-    
-    // 100
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007370);
-    ChangeCamera(30019, 30019);
-    
-    // 110
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007371);
+    ChangeCamera(30014, 30014);
+
+    // Very Narrow
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007362);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007365);
     ChangeCamera(30020, 30020);
-        
-    // 120
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007372);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007362);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007366);
     ChangeCamera(30021, 30021);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007362);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007367);
+    ChangeCamera(30022, 30022);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007362);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007368);
+    ChangeCamera(30023, 30023);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007362);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007369);
+    ChangeCamera(30024, 30024);
+    
+    // Wide
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007363);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007365);
+    ChangeCamera(30030, 30030);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007363);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007366);
+    ChangeCamera(30031, 30031);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007363);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007367);
+    ChangeCamera(30032, 30032);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007363);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007368);
+    ChangeCamera(30033, 30033);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007363);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007369);
+    ChangeCamera(30034, 30034);
+    
+    // Very Wide
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007364);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007365);
+    ChangeCamera(30040, 30040);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007364);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007366);
+    ChangeCamera(30041, 30041);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007364);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007367);
+    ChangeCamera(30042, 30042);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007364);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007368);
+    ChangeCamera(30043, 30043);
+    
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007364);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007369);
+    ChangeCamera(30044, 30044);
+    
+    Label0()
     
     EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
-// FOV - Numbness
+// Perspective - Add Standard FOV flag if only Camera Distance is set
 //----------------------------------------------
 Event(20601, Default, function() {
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 25007360);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 25007361);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 25007362);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 25007363);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 25007364);
+    IfConditionGroup(MAIN, PASS, AND_01);
+    
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25007365);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25007366);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25007367);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25007368);
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25007369);
+    IfConditionGroup(MAIN, PASS, OR_01);
+    
+    SetEventFlag(25007360, ON);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Perspective - Numbness
+//----------------------------------------------
+Event(20602, Default, function() {
     IfCharacterHasSpEffect(MAIN, 10000, 160500060, true, ComparisonType.Equal, 1);
     
-    SetEventFlag(25007363, ON);
+    ChangeCamera(20000, 20000);
     
     IfCharacterHasSpEffect(MAIN, 10000, 160500060, false, ComparisonType.Equal, 1);
     
-    SetEventFlag(25007363, OFF);
     SetEventFlag(25007360, ON);
     
     EndUnconditionally(EventEndType.Restart);

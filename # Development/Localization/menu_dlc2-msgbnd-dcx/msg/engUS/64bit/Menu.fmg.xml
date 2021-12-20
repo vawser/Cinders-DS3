@@ -5254,19 +5254,19 @@ Grants you a boon, boosting soul absorption by 30%.</text>
 <text id="99097373">No Armor</text>
 
 <text id="99098000">Field of View</text>
-<text id="99098010">Default</text>
-<text id="99098011">10</text>
-<text id="99098012">20</text>
-<text id="99098013">30</text>
-<text id="99098014">40</text>
-<text id="99098015">50</text>
-<text id="99098016">60</text>
-<text id="99098017">70</text>
-<text id="99098018">80</text>
-<text id="99098019">90</text>
-<text id="99098020">100</text>
-<text id="99098021">110</text>
-<text id="99098022">120</text>
+<text id="99098001">Camera Distance</text>
+
+<text id="99098010">Standard</text>
+<text id="99098011">Very Narrow</text>
+<text id="99098012">Narrow</text>
+<text id="99098013">Wide</text>
+<text id="99098014">Very Wide</text>
+
+<text id="99098020">Standard</text>
+<text id="99098021">Close</text>
+<text id="99098022">Far</text>
+<text id="99098023">Very Far</text>
+<text id="99098024">Extremely Far</text>
 
 </entries>
 </fmg>

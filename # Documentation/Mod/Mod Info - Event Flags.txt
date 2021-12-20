@@ -1866,19 +1866,18 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007351 Humanity Aura: Hollow
 
 # FOV
-25007360 FOV Default
-25007361 FOV 10
-25007362 FOV 20
-25007363 FOV 30
-25007364 FOV 40
-25007365 FOV 50
-25007366 FOV 60
-25007367 FOV 70
-25007368 FOV 80
-25007369 FOV 90
-25007370 FOV 100
-25007371 FOV 110
-25007372 FOV 120
+25007360 FOV: Standard
+25007361 FOV: Narrow
+25007362 FOV: Very Narrow
+25007363 FOV: Wide
+25007364 FOV: Very Wide
+25007365 Camera Distance: Standard
+25007366 Camera Distance: Near
+25007367 Camera Distance: Far
+25007368 Camera Distance: Very Far
+25007369 Camera Distance: Extremely Far
+25007370 None
+25007371 Remove Camera Effects
 
 # Utility
 25007396 Disable head armor

@@ -242,6 +242,9 @@ def t400505_x12():
         # Field of View
         AddTalkListData(1, 99098000, -1)
         
+        # Camera Distance
+        AddTalkListData(2, 99098001, -1)
+        
         # Clear Transformations
         AddTalkListData(10, 15003110, -1)
 
@@ -255,10 +258,16 @@ def t400505_x12():
         if GetTalkListEntryResult() == 1:
             assert t400505_x13()
             continue
+        # Camera Distance
+        elif GetTalkListEntryResult() == 2:
+            assert t400505_x14()
+            continue
         # Clear Transformations
         elif GetTalkListEntryResult() == 10:
+            assert t400505_x18()
             assert t400505_x19()
-            SetEventState(25007360, 1)
+            SetEventState(25007370, 1)
+            SetEventState(25007371, 1)
             assert t400505_x50(15003121)
             return 0
         # Leave
@@ -275,45 +284,21 @@ def t400505_x13():
     
     while True:
         ClearTalkListData()
+        
+        # Very Narrow
+        AddTalkListData(3, 99098011, -1)
+        
+        # Narrow
+        AddTalkListData(2, 99098012, -1)
 
-        # Default
+        # Standard
         AddTalkListData(1, 99098010, -1)
         
-        # 10
-        AddTalkListData(2, 99098011, -1)
-        
-        # 20
-        AddTalkListData(3, 99098012, -1)
-        
-        # 30
+        # Wide
         AddTalkListData(4, 99098013, -1)
         
-        # 40
+        # Very Wide
         AddTalkListData(5, 99098014, -1)
-        
-        # 50
-        AddTalkListData(6, 99098015, -1)
-        
-        # 60
-        AddTalkListData(7, 99098016, -1)
-        
-        # 70
-        AddTalkListData(8, 99098017, -1)
-        
-        # 80
-        AddTalkListData(9, 99098018, -1)
-        
-        # 90
-        AddTalkListData(10, 99098019, -1)
-        
-        # 100
-        AddTalkListData(11, 99098020, -1)
-        
-        # 110
-        AddTalkListData(12, 99098021, -1)
-        
-        # 120
-        AddTalkListData(13, 99098022, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -321,83 +306,101 @@ def t400505_x13():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Default
+        # Standard
+        if GetTalkListEntryResult() == 1:
+            assert t400505_x18()
+            SetEventState(25007360, 1)
+            assert t400505_x50(15003120)
+            continue
+        # Narrow
+        elif GetTalkListEntryResult() == 2:
+            assert t400505_x18()
+            SetEventState(25007361, 1)
+            assert t400505_x50(15003120)
+            continue
+        # Very Narrow
+        elif GetTalkListEntryResult() == 3:
+            assert t400505_x18()
+            SetEventState(25007362, 1)
+            assert t400505_x50(15003120)
+            continue
+        # Wide
+        elif GetTalkListEntryResult() == 4:
+            assert t400505_x18()
+            SetEventState(25007363, 1)
+            assert t400505_x50(15003120)
+            continue
+        # Very Wide
+        elif GetTalkListEntryResult() == 5:
+            assert t400505_x18()
+            SetEventState(25007364, 1)
+            assert t400505_x50(15003120)
+            continue
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+           
+# Camera Distance
+def t400505_x14():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        # Near
+        AddTalkListData(2, 99098021, -1)
+        
+        # Standard
+        AddTalkListData(1, 99098020, -1)
+        
+        # Far
+        AddTalkListData(3, 99098022, -1)
+
+        # Very Far
+        AddTalkListData(4, 99098023, -1)
+        
+        # Extremely Far
+        AddTalkListData(5, 99098024, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Standard
         if GetTalkListEntryResult() == 1:
             assert t400505_x19()
-            SetEventState(25007360, 1)
-            assert t400505_x50(15003121)
+            SetEventState(25007365, 1)
+            assert t400505_x50(15003120)
             continue
-        # 10
+        # Near
         elif GetTalkListEntryResult() == 2:
             assert t400505_x19()
-            SetEventState(25007361, 1)
-            assert t400505_x50(15003121)
+            SetEventState(25007366, 1)
+            assert t400505_x50(15003120)
             continue
-        # 20
+        # Far
         elif GetTalkListEntryResult() == 3:
             assert t400505_x19()
-            SetEventState(25007362, 1)
-            assert t400505_x50(15003121)
+            SetEventState(25007367, 1)
+            assert t400505_x50(15003120)
             continue
-        # 30
+        # Very Far
         elif GetTalkListEntryResult() == 4:
             assert t400505_x19()
-            SetEventState(25007363, 1)
-            assert t400505_x50(15003121)
+            SetEventState(25007368, 1)
+            assert t400505_x50(15003120)
             continue
-        # 40
+        # Extremely Far
         elif GetTalkListEntryResult() == 5:
             assert t400505_x19()
-            SetEventState(25007364, 1)
-            assert t400505_x50(15003121)
-            continue
-        # 50
-        elif GetTalkListEntryResult() == 6:
-            assert t400505_x19()
-            SetEventState(25007365, 1)
-            assert t400505_x50(15003121)
-            continue
-        # 60
-        elif GetTalkListEntryResult() == 7:
-            assert t400505_x19()
-            SetEventState(25007366, 1)
-            assert t400505_x50(15003121)
-            continue
-        # 70
-        elif GetTalkListEntryResult() == 8:
-            assert t400505_x19()
-            SetEventState(25007367, 1)
-            assert t400505_x50(15003121)
-            continue
-        # 80
-        elif GetTalkListEntryResult() == 9:
-            assert t400505_x19()
-            SetEventState(25007368, 1)
-            assert t400505_x50(15003121)
-            continue
-        # 90
-        elif GetTalkListEntryResult() == 10:
-            assert t400505_x19()
             SetEventState(25007369, 1)
-            assert t400505_x50(15003121)
-            continue
-        # 100
-        elif GetTalkListEntryResult() == 11:
-            assert t400505_x19()
-            SetEventState(25007370, 1)
-            assert t400505_x50(15003121)
-            continue
-        # 110
-        elif GetTalkListEntryResult() == 12:
-            assert t400505_x19()
-            SetEventState(25007371, 1)
-            assert t400505_x50(15003121)
-            continue
-        # 120
-        elif GetTalkListEntryResult() == 13:
-            assert t400505_x19()
-            SetEventState(25007372, 1)
-            assert t400505_x50(15003121)
+            assert t400505_x50(15003120)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
@@ -407,21 +410,27 @@ def t400505_x13():
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
-# Clear Perspective flags
-def t400505_x19():
+# Clear FOV flags
+def t400505_x18():
     SetEventState(25007360, 0)
     SetEventState(25007361, 0)
     SetEventState(25007362, 0)
     SetEventState(25007363, 0)
     SetEventState(25007364, 0)
+    SetEventState(25007370, 0)
+    
+    assert GetCurrentStateElapsedFrames() > 10
+    
+    return 0
+      
+# Clear Distance flags
+def t400505_x19():
     SetEventState(25007365, 0)
     SetEventState(25007366, 0)
     SetEventState(25007367, 0)
     SetEventState(25007368, 0)
     SetEventState(25007369, 0)
     SetEventState(25007370, 0)
-    SetEventState(25007371, 0)
-    SetEventState(25007372, 0)
     
     assert GetCurrentStateElapsedFrames() > 10
     
@@ -497,7 +506,7 @@ def t400505_x30():
         # Clear Transformations
         elif GetTalkListEntryResult() == 10:
             SetEventState(25007398, 1)
-            assert t400505_x50(15003121)
+            assert t400505_x50(15003120)
             return 0
         # Leave
         elif GetTalkListEntryResult() == 99:

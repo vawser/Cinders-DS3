@@ -64,7 +64,7 @@ Finish following weapons:
 
 # Transformations
 - Added Perspective Transformations:
- - Allows you to adjust your camera FOV with Jiji.
+ - Allows you to adjust your camera FOV and distance with Jiji.
 
 # Spells
 - Blood Orb is now transposed from the Soul of the Maiden.
@@ -91,3 +91,7 @@ Demote Cathedral Guardian to miniboss
 Demote Twisted Knight to miniboss (move to Dreg Heap?)
 Yhorm the Giant: remove the silly rockstorm, perhaps add some firey bullets to adds. Add minor mechanic that summons in Siegward irrespective of the quest.
 The Marauder: add more red fire flair to attacks, perhaps add healing bonfire mechanic, where you need to destroy the bonfire to stop it healing the Marauder
+
+Change Moonflower/Devil's Trumphet
+
+Add Camera Distance option, use flag to select from group of different FOV/distance params
