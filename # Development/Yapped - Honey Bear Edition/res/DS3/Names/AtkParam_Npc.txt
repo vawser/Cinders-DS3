@@ -4748,11 +4748,11 @@
 7700190 [Fallen Protector] Turn Right -> Full Slash
 7700200 [Fallen Protector] Turn Left -> Full Slash
 7700210 [Fallen Protector] Upwards Slash
-7700700 [Fallen Protector] Affinity
-7700702 [Fallen Protector] Affinity
+7700700 [Fallen Protector] Corrupted Blood
+7700702 [Fallen Protector] Corrupted Blood
 7700710 [Fallen Protector] Maiden Revival
-7700720 [Fallen Protector] Dreg Cone
-7700740 [Fallen Protector] Great Soul Dregs
+7700720 [Fallen Protector] Crystal Blood Cone
+7700740 [Fallen Protector] Blood Orb
 7701900 [Fair Maiden]
 7710100 [Titanite Abomination]
 7710110 [Titanite Abomination]

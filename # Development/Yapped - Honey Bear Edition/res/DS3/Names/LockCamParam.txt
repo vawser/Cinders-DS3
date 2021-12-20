@@ -109,6 +109,19 @@
 20000 Numbness
 20001 Devil's Trumpet
 20002 Moonflower
+30000 FOV: Default
+30010 FOV: 10
+30011 FOV: 20
+30012 FOV: 30
+30013 FOV: 40
+30014 FOV: 50
+30015 FOV: 60
+30016 FOV: 70
+30017 FOV: 80
+30018 FOV: 90
+30019 FOV: 100
+30020 FOV: 110
+30021 FOV: 120
 90000 Covert Camera-Zoom in
 90001 Covert Camera-Zoom Out
 90010 Monster House Boss Camera
