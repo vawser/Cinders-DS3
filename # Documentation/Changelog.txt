@@ -62,6 +62,10 @@ Finish following weapons:
 # Changelog
 #------------------------------
 
+# Bosses
+- Fallen Protector
+ - Added a visual effect to the teleport moves.
+
 # Transformations
 - Added "Infusion" weapon emission for the right-hand.
  - The visual emission used will be determined by the infusion in the right-hand.
@@ -77,6 +81,5 @@ Add Solaire as summon to Soul of Cinder
 
 Demote Cathedral Guardian to miniboss
 Demote Twisted Knight to miniboss (move to Dreg Heap?)
-Fallen Protector: add some kind of AOE bullet that appears when they warp and attack
 Yhorm the Giant: remove the silly rockstorm, perhaps add some firey bullets to adds. Add minor mechanic that summons in Siegward irrespective of the quest.
 The Marauder: add more red fire flair to attacks, perhaps add healing bonfire mechanic, where you need to destroy the bonfire to stop it healing the Marauder

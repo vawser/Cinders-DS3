@@ -5052,30 +5052,28 @@
 160701019 Cleansing Potion - Clear 132
 160701020 Cleansing Potion - Clear 133
 160702999 ### Illusions ###
-160703010 Wax Form - Head
 160703011 Wax Form - Head - Grand Archives
-160703020 Capra Demon - Head
-160703030 Capra Demon - Body
-160703040 Titanite Demon - Head
-160703050 Titanite Demon - Body
-160703060 Murkman - Head
-160703070 Murkman - Body
-160703075 Skeleton Head - Trigger
-160703076 Skeleton Body - Trigger
-160703080 Skeleton (Normal) - Head
-160703090 Skeleton (Normal) - Body
-160703100 Skeleton (Tree) - Head
-160703110 Skeleton (Tree) - Body
-160703120 Skeleton (Peasant) - Head
-160703130 Skeleton (Peasant) - Body
-160703140 Skeleton (Overgrown) - Head
-160703150 Skeleton (Overgrown) - Body
-160703160 Hunter - Head
-160703170 Hunter - Body
-160703180 Dragonform (DS3) - Head
-160703190 Dragonform (DS3) - Body
-160703200 Humanity Sprite - Head
-160703201 Humanity Sprite - Body
+160703100 Dragonform (DS3) - Head
+160703101 Dragonform (DS3) - Body
+160703110 Hunter - Head
+160703111 Hunter - Body
+160703120 Capra Demon - Head
+160703121 Capra Demon - Body
+160703130 Titanite Demon - Head
+160703131 Titanite Demon - Body
+160703140 Murkman - Head
+160703141 Murkman - Body
+160703150 Humanity Sprite - Head
+160703151 Humanity Sprite - Body
+160703160 Skeleton (Normal) - Head
+160703161 Skeleton (Normal) - Body
+160703170 Skeleton (Tree) - Head
+160703171 Skeleton (Tree) - Body
+160703180 Skeleton (Peasant) - Head
+160703181 Skeleton (Peasant) - Body
+160703190 Skeleton (Overgrown) - Head
+160703191 Skeleton (Overgrown) - Body
+160703200 Wax Form - Head
 160703999 ### Armor Illusions ###
 160704000 Havel's - Head
 160704001 Havel's - Body
@@ -5301,8 +5299,8 @@
 160705281 Thorolund - Body
 160705290 Bear - Head
 160705291 Bear - Body
-160705300 Wolnir's - Head
-160705310 Illusionary - Head
+160705300 Wolnir's Crown - Head
+160705310 Crown of Illusions - Head
 160705320 Northern - Head
 160705321 Northern - Body
 160705330 Slave Knight - Head
@@ -5319,7 +5317,6 @@
 160705381 Pontiff Knight - Body
 160705390 Dancer - Head
 160705391 Dancer - Body
-160705400 Vordt's - Head
 160705410 Evangelist - Head
 160705411 Evangelist - Body
 160705420 Mirrah - Head
@@ -5348,8 +5345,8 @@
 160705560 Raven - Head
 160705570 Deserter's - Head
 160705571 Deserter's - Body
-160705580 Defender's - Head
-160705590 Soldier's - Head
+160705580 Deserter Helm - Head
+160705590 Soldier's Hood - Head
 160705600 Black Leather - Head
 160705601 Black Leather - Body
 160705610 Brigand - Head
@@ -5366,8 +5363,8 @@
 160705661 Jester - Body
 160705670 Grotto - Head
 160705671 Grotto - Body
-160705680 Black Straw - Head
-160705690 Tan Straw - Head
+160705680 Black Straw Hat - Head
+160705690 Tan Straw Hat - Head
 160705700 Cleric's - Head
 160705701 Cleric's - Body
 160705710 Black Cleric's - Head
@@ -5376,7 +5373,7 @@
 160705721 Astrologist - Body
 160705730 Worker - Head
 160705731 Worker - Body
-160705740 Salvador's - Head
+160705740 Salvador's Hat - Head
 160705750 Chester's - Head
 160705751 Chester's - Body
 160705760 Binded - Head
@@ -5446,8 +5443,8 @@
 160706121 Prayer - Body
 160706130 Fire Kepeer - Head
 160706131 Fire Keeper - Body
-160706140 Blindfold - Head
-160706150 Carthus - Head
+160706140 Blindfold Mask - Head
+160706150 Carthus Blindfold - Head
 160706160 Antiquated - Head
 160706161 Antiquated - Body
 160706171 Plain - Body
@@ -5568,6 +5565,18 @@
 160709175 Sunlight - Left
 160709180 Bolt - Right
 160709185 Bolt - Left
+160709349 ### Infusion Weapon Emission ###
+160709350 Infusion - Curse - Right
+160709351 Infusion - Poison - Right
+160709352 Infusion - Bleed - Right
+160709353 Infusion - Frost - Right
+160709354 Infusion - Magic - Right
+160709355 Infusion - Fire - Right
+160709356 Infusion - Lightning - Right
+160709357 Infusion - Dark - Right
+160709358 Infusion - Lucky - Right
+160709359 Infusion - Enchanted - Right
+160709360 Infusion - Holy - Right
 160709399 ### Head Emission ###
 160709400 Mass of Humanity
 160709499 ### Body Emission ###
