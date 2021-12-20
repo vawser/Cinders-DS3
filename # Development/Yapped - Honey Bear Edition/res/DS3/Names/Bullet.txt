@@ -2498,22 +2498,26 @@
 7670655 [Dismal Knight] Delayed Explosion
 7670656 [Dismal Knight] Delayed Explosion
 7670657 [Dismal Knight] Delayed Explosion
-7700700 [Fallen Protector] Affinity
-7700701 [Fallen Protector] Affinity [Hit]
-7700702 [Fallen Protector] Affinity
-7700703 [Fallen Protector] Affinity [Hit]
+7700700 [Fallen Protector] Corrupted Blood
+7700701 [Fallen Protector] Corrupted Blood [Hit]
+7700702 [Fallen Protector] Corrupted Blood
+7700703 [Fallen Protector] Corrupted Blood [Hit]
 7700710 [Fallen Protector] Maiden Revival
-7700720 [Fallen Protector] Dreg Cone
-7700721 [Fallen Protector] Dreg Cone [Hit]
-7700722 [Fallen Protector] Dreg Cone
-7700723 [Fallen Protector] Dreg Cone
-7700724 [Fallen Protector] Dreg Cone
-7700725 [Fallen Protector] Dreg Cone
-7700726 [Fallen Protector] Dreg Cone
-7700727 [Fallen Protector] Dreg Cone
-7700728 [Fallen Protector] Dreg Cone
-7700729 [Fallen Protector] Dreg Cone
-7700740 [Fallen Protector] Great Soul Dregs
+7700711 [Fallen Protector] Maiden Revival
+7700712 [Fallen Protector] Maiden Revival [Hit]
+7700720 [Fallen Protector] Crystal Blood Cone
+7700721 [Fallen Protector] Crystal Blood Cone [Hit]
+7700722 [Fallen Protector] Crystal Blood Cone
+7700723 [Fallen Protector] Crystal Blood Cone
+7700724 [Fallen Protector] Crystal Blood Cone
+7700725 [Fallen Protector] Crystal Blood Cone
+7700726 [Fallen Protector] Crystal Blood Cone
+7700727 [Fallen Protector] Crystal Blood Cone
+7700728 [Fallen Protector] Crystal Blood Cone
+7700729 [Fallen Protector] Crystal Blood Cone
+7700740 [Fallen Protector] Blood Orb
+7700741 [Fallen Protector] Blood Orb [Hit]
+7700742 [Fallen Protector] Blood Orb
 7700750 [Fallen Protector] Teleport
 7710700 [Titanite Abomination] Forward Breath
 7710701 [Titanite Abomination]

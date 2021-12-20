@@ -66,9 +66,13 @@ Finish following weapons:
 - Added Perspective Transformations:
  - Allows you to adjust your camera FOV with Jiji.
 
+# Spells
+- Blood Orb is now transposed from the Soul of the Maiden.
+
 # Bosses
 - Fallen Protector
  - Added a visual effect to the teleport moves.
+ - Changed the spells used by the Fallen Protector and the Fair Maiden to be blood themed. Unlike Blood Miracles, they do not inflict Bleed, only Dark damage.
 
 # Transformations
 - Added "Infusion" weapon emission for the right-hand.
