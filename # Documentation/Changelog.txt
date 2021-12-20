@@ -69,7 +69,13 @@ Finish following weapons:
 # Spells
 - Blood Orb is now transposed from the Soul of the Maiden.
 
+# Infusions
+- Shield and Catalysts infusions now use Magical Essence to infuse/revert infusions.
+
 # Items
+- Renamed Infusing Essence into Magical Essence.
+- Removed Smouldering Stone.
+- Removed Degrading Essence.
 - Devil's Trumpet: now boosts rolling distance by 300% for 30 seconds.
 - Moonflower: now boosts jumping distance by 500% for 30 seconds.
 
@@ -83,6 +89,11 @@ Finish following weapons:
  - Devil's Trumpet
  - Moonflower
  - Henbane
+ 
+- Andre now sells the following at a very high markup:
+ - Every Gem
+ - Shriving Stone
+ - Magical Essence
 
 # Bosses
 - Fallen Protector
@@ -107,8 +118,6 @@ Demote Twisted Knight to miniboss (move to Dreg Heap?)
 Yhorm the Giant: remove the silly rockstorm, perhaps add some firey bullets to adds. Add minor mechanic that summons in Siegward irrespective of the quest.
 The Marauder: add more red fire flair to attacks, perhaps add healing bonfire mechanic, where you need to destroy the bonfire to stop it healing the Marauder
 
-Change Moonflower/Devil's Trumphet
+4020 Smouldering Stone
 
-4017 Devil's Trumpet
-4018 Moonflower
-4019 Henbane
+2200 Magical Essence 
