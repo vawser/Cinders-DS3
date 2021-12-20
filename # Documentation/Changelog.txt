@@ -62,6 +62,10 @@ Finish following weapons:
 # Changelog
 #------------------------------
 
+# Bosses
+- Fallen Protector
+ - Added a visual effect to the teleport moves.
+
 # Transformations
 - Added "Infusion" weapon emission for the right-hand.
  - The visual emission used will be determined by the infusion in the right-hand.
