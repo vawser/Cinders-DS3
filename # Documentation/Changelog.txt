@@ -62,6 +62,10 @@ Finish following weapons:
 # Changelog
 #------------------------------
 
+# Transformations
+- Added Perspective Transformations:
+ - Allows you to adjust your camera FOV with Jiji.
+
 # Bosses
 - Fallen Protector
  - Added a visual effect to the teleport moves.

@@ -1977,8 +1977,11 @@ Persisting will transform you into a grub.</text>
 <text id="15003046">Disable Aggressive Dummy</text>
 <text id="15003050">Train Outside</text>
 <text id="15003051">Train Inside</text>
+
 <text id="15003060">Armor Transformation</text>
 <text id="15003061">Visual Transformation</text>
+<text id="15003062">Perspective Transformation</text>
+
 <text id="15003100">Weapon Emission</text>
 <text id="15003101">Right Weapon</text>
 <text id="15003102">Left Weapon</text>
@@ -5250,6 +5253,20 @@ Grants you a boon, boosting soul absorption by 30%.</text>
 <text id="99097372">No Helmet</text>
 <text id="99097373">No Armor</text>
 
+<text id="99098000">Field of View</text>
+<text id="99098010">Default</text>
+<text id="99098011">10</text>
+<text id="99098012">20</text>
+<text id="99098013">30</text>
+<text id="99098014">40</text>
+<text id="99098015">50</text>
+<text id="99098016">60</text>
+<text id="99098017">70</text>
+<text id="99098018">80</text>
+<text id="99098019">90</text>
+<text id="99098020">100</text>
+<text id="99098021">110</text>
+<text id="99098022">120</text>
 
 </entries>
 </fmg>

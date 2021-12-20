@@ -61,6 +61,8 @@ Event(0, Default, function() {
     InitializeEvent(0, 20280, 0); // Head Armor - Monitor
     InitializeEvent(0, 20290, 0); // Body Armor - Monitor
     
+    InitializeEvent(0, 20600, 0); // FOV - Monitor
+    
     //--------------------
     // Curses - Add Player Effects
     //--------------------
@@ -177,17 +179,15 @@ Event(0, Default, function() {
     // Items
     //--------------------
     InitializeEvent(0, 20040, 0); // Crown of the Great Lord
-    InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame
-    InitializeEvent(0, 20046, 0); // Illusion - Skeleton Form - Head
-    InitializeEvent(0, 20047, 0); // Illusion - Skeleton Form - Body      
+    InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame    
     InitializeEvent(0, 20048, 0); // Frostbite Removal
     
     //--------------------
     // Camera Effects
     //--------------------
-    InitializeEvent(0, 20045, 160700310, 20001); // Devil's Trumpet
-    InitializeEvent(1, 20045, 160700320, 20002); // Moonflower
-    InitializeEvent(2, 20045, 160500060, 20000); // Numbness
+    //InitializeEvent(0, 20045, 160700310, 20001); // Devil's Trumpet
+    //InitializeEvent(1, 20045, 160700320, 20002); // Moonflower
+    InitializeEvent(0, 20601, 0); // Numbness
     
     //--------------------
     // Debug Tools
@@ -2394,75 +2394,13 @@ Event(20045, Default, function(X0_4, X4_4) {
     SetNetworkSyncState(Disabled);
     
     // Add camera effect if trigger effect is present
-    SkipIfCharacterHasSpEffect(1, 10000, X0_4, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpEffect(MAIN, 10000, X0_4, false, ComparisonType.Equal, 1);
     ChangeCamera(X4_4, X4_4);
 
     // Remove if trigger effect has been removed
-    SkipIfCharacterHasSpEffect(1, 10000, X0_4, true, ComparisonType.Equal, 1);
-    ChangeCamera(-1, -1);
-    
-    // Remove if Cleansing Potion is used
-    SkipIfCharacterHasSpEffect(1, 10000, 160701000, false, ComparisonType.Equal, 1);
+    IfCharacterHasSpEffect(MAIN, 10000, X0_4, true, ComparisonType.Equal, 1);
     ChangeCamera(-1, -1);
 
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//------------------------------------------------
-// Skeleton Illusion - Head
-//------------------------------------------------
-Event(20046, Default, function() {
-    SetNetworkSyncState(Disabled);
-    
-    IfCharacterHasSpeffect(MAIN, 10000, 160703075, true, ComparisonType.Equal, 1);
-    
-    SetEventFlag(9690, OFF);
-    SetEventFlag(9691, OFF);
-    SetEventFlag(9692, OFF);
-    SetEventFlag(9693, OFF);
-    RandomlySetEventFlagInRange(9690, 9693, ON);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9690);
-    SetSpeffect(10000, 160703080);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9691);
-    SetSpeffect(10000, 160703100);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9692);
-    SetSpeffect(10000, 160703120);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9693);
-    SetSpeffect(10000, 160703140);
-    
-    EndUnconditionally(EventEndType.Restart);
-});
-
-//------------------------------------------------
-// Skeleton Illusion - Body
-//------------------------------------------------
-Event(20047, Default, function() {
-    SetNetworkSyncState(Disabled);
-    
-    IfCharacterHasSpeffect(MAIN, 10000, 160703076, true, ComparisonType.Equal, 1);
-    
-    SetEventFlag(9690, OFF);
-    SetEventFlag(9691, OFF);
-    SetEventFlag(9692, OFF);
-    SetEventFlag(9693, OFF);
-    RandomlySetEventFlagInRange(9690, 9693, ON);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9690);
-    SetSpeffect(10000, 160703090);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9691);
-    SetSpeffect(10000, 160703110);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9692);
-    SetSpeffect(10000, 160703130);
-    
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 9693);
-    SetSpeffect(10000, 160703150);
-    
     EndUnconditionally(EventEndType.Restart);
 });
 
@@ -3622,7 +3560,6 @@ Event(20063, Default, function(X0_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
-
 
 //----------------------------------------------
 // Boss Revival - Corrupted Gundyr
@@ -7794,7 +7731,7 @@ Event(20280, Default, function() {
 Event(20290, Default, function() {
     WaitFixedTimeSeconds(1.0);
     
-        // Dragonform (DS3)
+    // Dragonform (DS3)
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007500);
     SetSpEffect(10000, 160703101);
 
@@ -9267,13 +9204,91 @@ Event(20290, Default, function() {
     EndUnconditionally(EventEndType.Restart);
 });
 
+//----------------------------------------------
+// FOV - Monitor
+//----------------------------------------------
+Event(20600, Default, function() {
+    WaitFixedTimeSeconds(1.0);
+    
+    // Default - This toggles itself off since it is a 'reset' option
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25007360);
+    ChangeCamera(-1, -1);
+    SetEventFlag(25007360, OFF);
+    
+    // 10
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007361);
+    ChangeCamera(30010, 30010);
+
+    // 20
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007362);
+    ChangeCamera(30011, 30011);
+    
+    // 30
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007363);
+    ChangeCamera(30012, 30012);
+    
+    // 40
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007364);
+    ChangeCamera(30013, 30013);
+    
+    // 50
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007365);
+    ChangeCamera(30014, 30014);
+    
+    // 60
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007366);
+    ChangeCamera(30015, 30015);
+    
+    // 70
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007367);
+    ChangeCamera(30016, 30016);
+    
+    // 80
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007368);
+    ChangeCamera(30017, 30017);
+    
+    // 90
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007369);
+    ChangeCamera(30018, 30018);
+    
+    // 100
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007370);
+    ChangeCamera(30019, 30019);
+    
+    // 110
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007371);
+    ChangeCamera(30020, 30020);
+        
+    // 120
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007372);
+    ChangeCamera(30021, 30021);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// FOV - Numbness
+//----------------------------------------------
+Event(20601, Default, function() {
+    IfCharacterHasSpEffect(MAIN, 10000, 160500060, true, ComparisonType.Equal, 1);
+    
+    SetEventFlag(25007363, ON);
+    
+    IfCharacterHasSpEffect(MAIN, 10000, 160500060, false, ComparisonType.Equal, 1);
+    
+    SetEventFlag(25007363, OFF);
+    SetEventFlag(25007360, ON);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
 //------------------------------------------------
 // Setup Achievements
 //------------------------------------------------
 Event(20300, Restart, function() {
     InitializeEvent(0, 20310, 0); // Failed Achievement: Defying Death
     InitializeEvent(0, 20311, 0); // Failed Achievement: Untouchable
-    InitializeEvent(0, 20312, 0); // Failed Achievement: Untouchable
+    InitializeEvent(0, 20312, 0); // Failed Achievement: Flameless
     InitializeEvent(0, 20313, 0); // Failed Achievement: Sword and Board
     
     InitializeEvent(0, 20320, 0); // Achievement: Defying Death
@@ -9563,3 +9578,4 @@ Event(20510, Restart, function(X0_4, X4_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
+
