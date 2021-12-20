@@ -7498,6 +7498,11 @@ function Rolling_onUpdate()
         end
     end
     
+    -- Devil's Trumpet
+    if env(1116, 116200) == TRUE then
+        base_move_mult = base_move_mult + 3.0
+    end 
+    
     act(2001, math.abs(base_move_mult + addratio * math.abs(math.sin(math.rad(2 * rolling_angle)))))
     
     if sp_kind == 272 then
@@ -7702,6 +7707,11 @@ function Jump_onUpdate()
     -- Weapon Jump Boost
     if env(1116, 112591) == TRUE then
         base_distance_adjustment = base_distance_adjustment + 0.25
+    end
+    
+    -- Moonflower
+    if env(1116, 116300) == TRUE then
+        base_distance_adjustment = base_distance_adjustment + 5.0
     end
     
     -- Apply root motion modifier

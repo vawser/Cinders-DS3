@@ -69,6 +69,21 @@ Finish following weapons:
 # Spells
 - Blood Orb is now transposed from the Soul of the Maiden.
 
+# Items
+- Devil's Trumpet: now boosts rolling distance by 300% for 30 seconds.
+- Moonflower: now boosts jumping distance by 500% for 30 seconds.
+
+# Merchants
+- Marvelous Chester now sells:
+ - Devil's Trumpet
+ - Moonflower
+ - Henbane
+ 
+- Jiji/Old Hag no longer sells:
+ - Devil's Trumpet
+ - Moonflower
+ - Henbane
+
 # Bosses
 - Fallen Protector
  - Added a visual effect to the teleport moves.
@@ -94,4 +109,6 @@ The Marauder: add more red fire flair to attacks, perhaps add healing bonfire me
 
 Change Moonflower/Devil's Trumphet
 
-Add Camera Distance option, use flag to select from group of different FOV/distance params
+4017 Devil's Trumpet
+4018 Moonflower
+4019 Henbane
