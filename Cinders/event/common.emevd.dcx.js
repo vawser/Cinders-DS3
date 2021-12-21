@@ -5202,6 +5202,13 @@ Event(20210, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007117);
     ClearSpEffect(10000, 160709150);
     
+    // Pale MAgic
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007119);
+    SetSpEffect(10000, 160709190);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007119);
+    ClearSpEffect(10000, 160709190);
+    
     // Left
     // Magic
     SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007130);
@@ -5328,6 +5335,13 @@ Event(20210, Default, function() {
     
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007147);
     ClearSpEffect(10000, 160709155);
+    
+    // Pale Magic
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007149);
+    SetSpEffect(10000, 160709195);
+    
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007149);
+    ClearSpEffect(10000, 160709195);
     
     EndUnconditionally(EventEndType.Restart);
 });

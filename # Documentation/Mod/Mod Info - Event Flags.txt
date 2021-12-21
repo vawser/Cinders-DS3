@@ -1690,7 +1690,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007116 Weapon Emission: Psychedelic (Right)
 25007117 Weapon Emission: Brume (Right)
 25007118 Weapon Emission: Infusion (Right)
-25007119
+25007119 Weapon Emission: Pale Magic (Right)
 25007120
 25007121
 25007122
@@ -1720,8 +1720,8 @@ xxx5750 Enemies enabled by Curse of Attraction
 25007145 Weapon Emission: Wind (Left)
 25007146 Weapon Emission: Psychedelic (Left)
 25007147 Weapon Emission: Brume (Left)
-25007148
-25007149
+25007148 
+25007149 Weapon Emission: Pale Magic (Right)
 25007150
 25007151
 25007152

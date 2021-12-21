@@ -565,8 +565,14 @@ def t400505_x32():
         # None
         AddTalkListData(1, 15003200, -1)
         
+        # Infusion
+        AddTalkListData(20, 15003219, -1)
+        
         # Magic
         AddTalkListData(2, 15003201, -1)
+        
+        # Pale Magic
+        AddTalkListData(21, 15003220, -1)
 
         # Fire
         AddTalkListData(3, 15003202, -1)
@@ -618,9 +624,6 @@ def t400505_x32():
         
         # Brume
         AddTalkListData(19, 15003218, -1)
-        
-        # Infusion
-        AddTalkListData(20, 15003219, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -747,6 +750,12 @@ def t400505_x32():
             SetEventState(25007118, 1)
             assert t400505_x50(15003122)
             continue
+        # Pale Magic
+        elif GetTalkListEntryResult() == 21:
+            assert t400505_x53()
+            SetEventState(25007119, 1)
+            assert t400505_x50(15003120)
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -769,6 +778,9 @@ def t400505_x33():
         
         # Magic
         AddTalkListData(2, 15003201, -1)
+        
+        # Pale Magic
+        AddTalkListData(21, 15003220, -1)
 
         # Fire
         AddTalkListData(3, 15003202, -1)
@@ -938,6 +950,12 @@ def t400505_x33():
         elif GetTalkListEntryResult() == 19:
             assert t400505_x54()
             SetEventState(25007147, 1)
+            assert t400505_x50(15003120)
+            continue
+        # Pale Magic
+        elif GetTalkListEntryResult() == 21:
+            assert t400505_x54()
+            SetEventState(25007149, 1)
             assert t400505_x50(15003120)
             continue
         # Leave
