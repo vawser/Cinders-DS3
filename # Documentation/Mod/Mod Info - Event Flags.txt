@@ -1587,7 +1587,8 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002101 Achievement: Untouchable
 25002102 Achievement: Flameless
 25002103 Achievement: Sword and Board
-25002103 Achievement: Stormageddon
+25002104 Achievement: Stormageddon
+25002105 Achievement: Master of Corruption
 
 25002200 Failed Achievement: Defying Death
 25002201 Failed Achievement: Untouchable
@@ -1600,6 +1601,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25002302 Reward Given: Flameless
 25002303 Reward Given: Sword and Board
 25002304 Reward Given: Stormageddon
+25002305 Reward Given: Master of Corruption
 
 25002400 Completion Monitor: Stormageddon Done
 25002401 Completion Monitor: Stormageddon In Progress
@@ -2228,6 +2230,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009812 Mythic mode
 25009813 Gauntlet mode
 25009814 Explorer mode
+25009815 Onslaught mode
 
 25009820 Untended Graves
 25009821 Archdragon Peak
@@ -2243,6 +2246,9 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009831 Ringed City
 25009840 Random location
 
+25009850 Gauntlet Features activated
+25009851 Boon features activated
+25009852 Malus features activated
 
 #------------------------
 # Other

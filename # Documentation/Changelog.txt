@@ -21,7 +21,7 @@
 53702160 Irithyll of the Boreal Valley / Anor Londo
 53802181 Catacombs of Carthus / Smouldering Lake
 53902125 Irithyll Dungeon / Profaned Capital
-54002087 Cemetery of Ash / Unturned Graves
+54002200 Cemetery of Ash / Unturned Graves
 54102014 Kiln of the First Flame
 54502091 Painted World of Ariandel
 55002071 Dreg Heap
@@ -61,11 +61,33 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+# Journey Configuration
+- Made the descriptions for each journey clearer and used common terminology between them.
+- Added Onslaught Mode: gauntlet mode, but with Wanderer mode features.
+
+- Adjusted Wanderer mode:
+ - Each boss now grants both a baseline damage boost and an unique bonus based on them as a boss.
+ - Progression is now represented via items called Boons, found in the key item category. These are what 'give' you the bonus for each boss killed in Wanderer mode.
 
 # Transformations
 - Added Perspective Transformations:
  - Allows you to adjust your camera FOV and distance with Jiji.
 
+# Achievements
+- Sword and Board now only requires you not to roll or backstep.
+- Changed the achievement detection for Sword and Board so it will only every fail if you roll or backstep.
+
+- Added Master of Corruption achivement:
+ - Enable Corruption.
+ - Defeat every boss whilst Corruption is enabled.
+ - Corruption is a mechanic you can enable in the sub-menu for this achievement
+ - It causes all bosses to give you a "Malus of X" item, with each being unique to the boss. Similar to Scorched Contract from DS1.
+ - Once the achievement is completed, all maluses will be removed.
+ - You are awarded the Relic of Corruption upon completion.
+ 
+# Rings
+- Relic of Corruption: Boosts all damage by 30%.
+ 
 # Spells
 - Blood Orb is now transposed from the Soul of the Maiden.
 
@@ -95,6 +117,9 @@ Finish following weapons:
  - Shriving Stone
  - Magical Essence
 
+- Greirat now sells:
+ - Henbane
+
 # Bosses
 - Fallen Protector
  - Added a visual effect to the teleport moves.
@@ -107,17 +132,13 @@ Finish following weapons:
 # Bugfixes
 - Cleaned up old usage of the removed transformation items.
 - Fixed Slicing Wind not working when casted from the left hand.
+- Grufudd's Signet affix for +1 should now work correctly
 
 #------------------------------
 # TODO
 #------------------------------
 Add Solaire as summon to Soul of Cinder
 
-Demote Cathedral Guardian to miniboss
-Demote Twisted Knight to miniboss (move to Dreg Heap?)
 Yhorm the Giant: remove the silly rockstorm, perhaps add some firey bullets to adds. Add minor mechanic that summons in Siegward irrespective of the quest.
 The Marauder: add more red fire flair to attacks, perhaps add healing bonfire mechanic, where you need to destroy the bonfire to stop it healing the Marauder
 
-4020 Smouldering Stone
-
-2200 Magical Essence 

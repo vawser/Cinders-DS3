@@ -5383,7 +5383,7 @@ Event(20006033, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X16_4);
     
     // End if not in Gauntlet mode
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 25009813);
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 25009850);
 
     
     // Goto label based on selection arg
@@ -5878,9 +5878,9 @@ Event(20009100, Default, function(X0_4, X4_1) {
 
 //----------------------------------------------
 // Boss Kill 
-// <boss kill flag>, <first boss kill flag>, <base itemlot>, <special itemlot>, <base soul SpEffect>, <repeat soul SpEffect
+// <boss kill flag>, <first boss kill flag>, <base itemlot>, <special itemlot>, <wanderer itemlot>, <corrupted itemlot>
 //----------------------------------------------
-Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
+Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     // Skip Primordial Fragment reward if this is the first kill
     GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X4_4);
     
@@ -5914,8 +5914,16 @@ Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetEventFlag(X0_4, ON); // Boss Killed
     SetEventFlag(X4_4, ON); // First Boss Kill
     
-    // End if not in Gauntlet mode
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 25009813);
+    // Boon item
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009851);
+    AwardItemLot(X16_4);
+    
+    // Malus item
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009852);
+    AwardItemLot(X20_4);
+    
+    // End if not in Gauntlet feature mode
+    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 25009850);
     
     AwardItemLot(800002000); // Token drop
     
@@ -6056,7 +6064,7 @@ Event(20020116, Default, function() {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
     // Skip if not in Gauntlet mode
-    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25009813);
+    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25009850);
     IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
     SetMapCeremony(40, 0, 0);
 });
@@ -6987,7 +6995,7 @@ Event(20090601, Restart, function(X0_4) {
 // <id>
 // ----------------------------------------
 Event(20090800, Restart, function(X0_4) {
-    var flag_GauntletMode = 25009813;
+    var flag_GauntletMode = 25009850;
    
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
     
@@ -7002,7 +7010,7 @@ Event(20090800, Restart, function(X0_4) {
 // <id>
 // ----------------------------------------
 Event(20090810, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    var flag_GauntletMode = 25009813;
+    var flag_GauntletMode = 25009850;
     
     // Disable Gauntlet fogwalls
     DeactivateObject(X0_4, Disabled);

@@ -165,10 +165,10 @@ def t400130_x10(goods1=2135, z1=390, weapon1=6260000, weapon2=6280000):
         """ State 2 """
 
         # Transpose
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15003000, 74000171)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 1, 15003000, 74000171)
         
         # Transpose brothers' blades
-        AddTalkListDataIf(GetEventStatus(25009813) == 0 and GetEventStatus(74000171) == 1 and GetEventStatus(74000182) == 1, 3, 15003002, -1)   
+        AddTalkListDataIf(GetEventStatus(25009850) == 0 and GetEventStatus(74000171) == 1 and GetEventStatus(74000182) == 1, 3, 15003002, -1)   
          
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008100) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)

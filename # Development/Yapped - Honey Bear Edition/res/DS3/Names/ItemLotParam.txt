@@ -728,13 +728,13 @@
 90240 [Gift - Occultist Grudore] Moonflower
 90250 [Gift - Erstwhile George] Awestone
 91000 [Script] Ring of Betrothal
-99999 ### Script - Achievements
+99999 ### Script - Achievements ###
 100000 Relic of Swiftness
 100010 Relic of Protection
 100020 Relic of Eternity
 100030 Relic of Sanctification
 100040 Titanite Slab
-109999 ### Script - Memories
+109999 ### Script - Memories ###
 110000 [Memory of Endurance - Easy] Titanite Shard
 110010 [Memory of Endurance - Normal] Large Titanite Shard
 110020 [Memory of Endurance - Hard] Titanite Chunk
@@ -745,7 +745,77 @@
 110120 [Memory of Strength - Hard] Titanite Chunk
 110130 [Memory of Strength - Very Hard] Titanite Slab
 110140 [Memory of Strength - Mythic] Primordial Fragment
-199999 ### Nestling
+119999 ### Script - Boon Items ###
+120000 Boon of the Fallen
+120010 Boon of the Frigid Knight
+120020 Boon of the Rotted Greatwood
+120030 Boon of the Sage
+120040 Boon of the Deep
+120050 Boon of the Legion
+120060 Boon of the High Lord
+120070 Boon of the Demon King
+120080 Boon of the Pontiff
+120090 Boon of the Beast
+120100 Boon of the Giant
+120110 Boon of the Dancer
+120120 Boon of the Consumed
+120130 Boon of the Dragonslayer
+120140 Boon of the Wyvern
+120150 Boon of the Lost Son
+120160 Boon of the Champion
+120170 Boon of the Twins
+120180 Boon of Cinders
+120190 Boon of the Ordained
+120200 Boon of the Demon Prince
+120210 Boon of the Darkeater
+120220 Boon of the Slave Knight
+120230 Boon of the Judicators
+120240 Boon of the Fallen Prince
+120250 Boon of the Guardian
+120260 Boon of the Mirror Knight
+120270 Boon of Aborr
+120280 Boon of the Princess
+120290 Boon of the Explorers
+120300 Boon of the Twisted Knight
+120310 Boon of the Fallen Protector
+120320 Boon of the Marauder
+120330 Boon of the Remnants
+120999 #### Script - Malus Items ###
+121000 Malus of the Fallen
+121010 Malus of the Frigid Knight
+121020 Malus of the Rotted Greatwood
+121030 Malus of the Sage
+121040 Malus of the Deep
+121050 Malus of the Legion
+121060 Malus of the High Lord
+121070 Malus of the Demon King
+121080 Malus of the Pontiff
+121090 Malus of the Beast
+121100 Malus of the Giant
+121110 Malus of the Dancer
+121120 Malus of the Consumed
+121130 Malus of the Dragonslayer
+121140 Malus of the Wyvern
+121150 Malus of the Lost Son
+121160 Malus of the Champion
+121170 Malus of the Twins
+121180 Malus of Cinders
+121190 Malus of the Ordained
+121200 Malus of the Demon Prince
+121210 Malus of the Darkeater
+121220 Malus of the Slave Knight
+121230 Malus of the Judicators
+121240 Malus of the Fallen Prince
+121250 Malus of the Guardian
+121260 Malus of the Mirror Knight
+121270 Corrption of Aborr
+121280 Malus of the Princess
+121290 Malus of the Explorers
+121300 Malus of the Twisted Knight
+121310 Malus of the Fallen Protector
+121320 Malus of the Marauder
+121330 Malus of the Remnants
+199999 ### Nestling ###
 200000 Goods - Singing Stone
 200010 Goods - Warbling Stone
 200020 Goods - Chanting Stone
@@ -1195,7 +1265,7 @@
 3300090 [Corpse] Soul of an Unknown Traveler
 3300091 [Corpse] Titanite Shard
 3300100 [Corpse] Soul of an Unknown Traveler
-3300101 [Corpse] Titanite Shard
+3300101 [Corpse] Magical Essence
 3300110 [Corpse] Soul of an Unknown Traveler
 3300111 [Corpse] Tarnished Coin
 3300120 [Corpse] Soul of an Unknown Traveler
@@ -1382,7 +1452,7 @@
 3410070 [Corpse] Soul of a Nameless Soldier
 3410071 [Corpse] Cursed Tarnished Coin
 3410080 [Corpse] Soul of a Nameless Soldier
-3410081 [Corpse] Crimson Water
+3410081 [Corpse] Magical Essence
 3410090 [Corpse] Large Soul of a Nameless Soldier
 3410091 [Corpse] Lightning Urn
 3410100 [Corpse] Soul of a Crestfallen Knight
@@ -2607,7 +2677,7 @@
 13200001 [Default] Enchanted Gem
 13200002 [Default] Crystal Fragment
 13200003 [Default] Exotic Souls
-13200004 [Default] Smouldering Stone
+13200004 [Default] Magical Essence
 13200005 [Default] Crimson Water
 13200006 [Default] Titanite Slab
 13399999 ### Archive Scholar ###
@@ -2615,7 +2685,7 @@
 13400001 [Default] Magic Gem
 13400002 [Default] Enchanted Gem
 13400003 [Default] Crystal Fragment
-13400004 [Default] Smouldering Stone
+13400004 [Default] Magical Essence
 13400005 [Default] Rouge Water
 13400006 [Default] Celeritas Stem
 13400007 [Default] Titanite Shard
@@ -2666,7 +2736,7 @@
 14400001 [Default] Firebomb
 14400002 [Default] Magic Gem
 14400003 [Default] Enchanted Gem
-14400004 [Default] Smouldering Stone
+14400004 [Default] Magical Essence
 14400005 [Default] Rouge Water
 14400006 [Default] Titanite Shard
 14400999 ### Devout of the Deep ###
@@ -2687,7 +2757,7 @@
 14460000 [Default] Old Radiant Lifegem
 14460001 [Default] Magic Gem
 14460002 [Default] Enchanted Gem
-14460004 [Default] Smouldering Stone
+14460004 [Default] Magical Essence
 14460005 [Default] Crimson Water
 14460006 [Default] Celeritas Stem
 14460007 [Default] Large Titanite Shard

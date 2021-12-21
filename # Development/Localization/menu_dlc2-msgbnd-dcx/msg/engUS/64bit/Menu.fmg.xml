@@ -4421,33 +4421,60 @@ to commune with the fallen knight.</text>
 <text id="99060007">Begin Journey</text>
 <text id="99060008">Starting Location</text>
 <text id="99060009">Modify Journey</text>
+
 <text id="99060010">Standard Mode</text>
 <text id="99060011">Wanderer Mode</text>
 <text id="99060012">Mythic Mode</text>
 <text id="99060013">Gauntlet Mode</text>
 <text id="99060014">Explorer Mode</text>
+<text id="99060015">Onslaught Mode</text>
+
 <text id="99060020">Standard mode applies the following effects:
-- None</text>
+Standard Reinforcement:
+- Weapons, shields and catalysts can be reinforced.
+</text>
 <text id="99060021">Wanderer mode applies the following effects:
-- Weaponry and shields can no longer be reinforced.
-- Bosses bestow a permanent small damage boost when first killed.</text>
+No Reinforcement:
+- Weapons, shields and catalysts cannot be reinforced.
+
+Lessons of the Wanderer:
+- Every boss grants a permanent boost to baseline damage.
+- Every boss grants a permanent and unique boon.</text>
 <text id="99060022">Mythic mode applies the following effects:
-- Weaponry and shields can no longer be reinforced.
-- World is populated by more enemies.
-- Reduces absorptions by 33%.
-- Reduces aux resistances by 33%.</text>
+No Reinforcement:
+- Weapons, shields and catalysts cannot be reinforced.
+
+Adventurer's Plight:
+- Player absorptions are reduced by 33%.
+- Player resistances are reduced  by 33%.
+- World is populated by more enemies.</text>
 <text id="99060023">Gauntlet mode applies the following effects:
-- You will face a gauntlet comprised of every boss.
-- Each boss will drop a Weapon, Armor or Accessory token.
-- Spend tokens at the Fire Keeper.
-- Defeat all bosses to complete the gauntlet.</text>
+Standard Reinforcement:
+- Weapons, shields and catalysts can be reinforced.
+
+Gauntlet:
+- Face each boss in a gauntlet of your choosing.</text>
 <text id="99060024">Explorer mode applies the following effects:
+Standard Reinforcement:
+- Weapons, shields and catalysts can be reinforced.
+
+Explorer's Crutch:
 - Increases absorptions by 33%.
 - Grants passive HP regeneration, restoring 1% every second.
 - Grants 30 stamina recovery.
 - Reduces soul absorption by 25%.
-- Invalidates challenge run rewards from Magnum Ursus.
-- Prevents Magnum Ursus from affixing accessories.</text>
+- Blocks achievement rewards and affixing of accessories.</text>
+<text id="99060025">Onslaught mode applies the following effects:
+No Reinforcement:
+- Weapons, shields and catalysts cannot be reinforced.
+
+Lessons of the Wanderer:
+- Every boss grants a permanent boost to baseline damage.
+- Every boss grants a permanent unique bonus.
+
+Gauntlet:
+- Face each boss in a gauntlet of your choosing.</text>
+
 <text id="99060030">Cemetery of Ash</text>
 <text id="99060031">Untended Graves</text>
 <text id="99060032">Archdragon Peak</text>
@@ -4833,13 +4860,25 @@ Completing the Memory will reward Primordial Fragments.</text>
 <text id="99093002">Requirement</text>
 <text id="99093003">Reward</text>
 <text id="99093004">Request Absolution</text>
+<text id="99093005">Enable Corruption</text>
+<text id="99093006">WARNING
+
+You will need to complete this achievement, 
+or enter a new journey to remove any acquired maluses.</text>
+<text id="99093007">Corruption enabled.
+
+All bosses will now afflict you with Maluses upon their defeat.</text>
+
 <text id="99093010">Reset failed achievements?</text>
 <text id="99093011">Failed achievements are now possible again.</text>
+
 <text id="99093100">Defying Death</text>
 <text id="99093101">Untouchable</text>
 <text id="99093102">Flameless</text>
 <text id="99093103">Sword and Board</text>
 <text id="99093104">Stormageddon</text>
+<text id="99093105">Master of Corruption</text>
+
 <text id="99093200">To complete Defying Death you need to:
 - Kill the Soul of Cinder.
 - Refrain from dying.</text>
@@ -4859,9 +4898,13 @@ You are allowed the following:
  - Chamber of the Princess</text>
 <text id="99093203">To complete Sword and Board you need to:
 - Kill the Soul of Cinder.
-- Never roll, backstep or jump.</text>
+- Never roll or backstep.</text>
 <text id="99093204">To complete Stormageddon you need to:
 - Kill the Nameless King with Restraint: Run enabled.</text>
+<text id="99093205">To complete Master of Corruption you need to:
+- Enable Corruption.
+- Defeat every boss whilst Corruption is enabled.</text>
+
 <text id="99093300">Completing Defying Death will reward you with:
 Relic of Eternity: reduces weapon stamina consumption massively</text>
 <text id="99093301">Completing Untouchable will reward you with:
@@ -4872,11 +4915,18 @@ Relic of Sanctification: boosts HP, FP and Max Stamina massively</text>
 Relic of Protection: boosts all absorptions massively</text>
 <text id="99093304">Completing Stormageddon will reward you with:
 1 Titanite Slab</text>
+<text id="99093305">Completing Master of Corruption will reward you with:
+Relic of Corruption: boosts all damage by 30%.
+
+All Maluses will be cleansed.</text>
+
 <text id="99093400">Defying Death has been completed.</text>
 <text id="99093401">Untouchable has been completed.</text>
 <text id="99093402">Flameless has been completed.</text>
 <text id="99093403">Sword and Board has been completed.</text>
 <text id="99093404">Stormageddon has been completed.</text>
+<text id="99093405">Master of Corruption has been completed.</text>
+
 <text id="99093500">Defying Death has failed.
 
 Can be reset via Request Absolution.</text>
@@ -4892,6 +4942,7 @@ Can be reset via Request Absolution.</text>
 <text id="99093504">Stormageddon has failed.
  
 Can be reset via Request Absolution.</text>
+
 <text id="99094000">Journey Type</text>
 <text id="99094001">Journey Progression</text>
 <text id="99094100">You are currently in Standard Mode.</text>
@@ -4899,6 +4950,7 @@ Can be reset via Request Absolution.</text>
 <text id="99094102">You are currently in Mythic Mode.</text>
 <text id="99094103">You are currently in Gauntlet Mode.</text>
 <text id="99094104">You are currently in Explorer Mode.</text>
+<text id="99094105">You are currently in Onslaught Mode.</text>
 <text id="99094200">You are currently in Journey 1.</text>
 <text id="99094201">You are currently in Journey 2.</text>
 <text id="99094202">You are currently in Journey 3.</text>

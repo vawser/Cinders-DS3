@@ -37,10 +37,10 @@ def t400131_x1(weapon1=6260000, weapon2=6280000):
         """ State 2 """
         
         # Transpose
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15003000, 74000171)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 1, 15003000, 74000171)
         
         # Transpose brothers' blades
-        AddTalkListDataIf(GetEventStatus(25009813) == 0 and GetEventStatus(74000171) == 1 and GetEventStatus(74000182) == 1, 3, 15003002,
+        AddTalkListDataIf(GetEventStatus(25009850) == 0 and GetEventStatus(74000171) == 1 and GetEventStatus(74000182) == 1, 3, 15003002,
                           -1)
         # Leave
         AddTalkListData(99, 15000005, -1)

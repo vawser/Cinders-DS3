@@ -2280,6 +2280,9 @@
 112923 Restraint: Backstep
 112924 Restraint: Jump
 112925 Restraint: Kick
+112930 Trigger: Roll
+112931 Trigger: Jump
+112932 Trigger: Backstep
 112999 ### FP Pause ###
 113000 Base Interval
 113001 Seconds: 1
@@ -2514,6 +2517,8 @@
 116101 Henbane - Damage 1
 116102 Henbane - Damage 10
 116103 Henbane - Damage 100
+116200 Devil's Trumpet
+116300 Moonflower
 119999 ### Base Behavior ###
 120000 [Weapon Art] Axe: War cry
 120010 [Weapon Art] Axe: War cry [Lack of FP]
@@ -4982,8 +4987,6 @@
 160700260 Goldenfruit Balm
 160700270 Purging Stone
 160700290 Aged Dragon Stone
-160700310 Devil's Trumpet
-160700320 Moonflower
 160700400 Soul of a Fallen Paladin
 160700410 Soul of a Fallen Sentinel
 160700420 Soul of a Fallen Sage
@@ -6605,7 +6608,7 @@
 260100350 UNUSED
 260100360 The Marauder
 260100370 Spurned Shade
-260109999 ### Wanderer Mode - Damage Boost ###
+260109999 ### Boon - Damage Boost ###
 260110000 Corrupted Gundyr
 260110001 Vordt of the Boreal Valley
 260110002 Curse-rotted Greatwood
@@ -6639,8 +6642,77 @@
 260110030 Trio of Explorers
 260110031 Twisted Knight
 260110032 Fallen Protector
-260110033 UNUSED
-260110034 The Marauder
+260110033 The Marauder
+260110099 ### Boon - Effect ###
+260110100 Corrupted Gundyr
+260110101 Vordt of the Boreal Valley
+260110102 Curse-rotted Greatwood
+260110103 Crystal Sage
+260110104 Deacons of the Deep
+260110105 Abyss Watchers
+260110106 High Lord Wolnir
+260110107 Old Demon King
+260110108 Pontiff Sulyvahn
+260110109 Aldrich, Devourer of Gods
+260110110 Yhorm the Giant
+260110111 Dancer of the Boreal Valley
+260110112 Oceiros, the Consumed King
+260110113 Dragonslayer Armour
+260110114 Ancient Wyvern
+260110115 Nameless King
+260110116 Champion Gundyr
+260110117 Twin Princes
+260110118 Soul of Cinder
+260110119 Sister Friede
+260110120 Lordran Remnants
+260110121 Demon Prince
+260110122 Darkeater Midir
+260110123 Slave Knight Gael
+260110124 Halflight, Spear of the Church
+260110125 Princess Yngvil
+260110126 Cathedral Guardian
+260110127 Mirror Knight
+260110128 Aborr
+260110129 Prince Dorthinus
+260110130 Trio of Explorers
+260110131 Twisted Knight
+260110132 Fallen Protector
+260110133 The Marauder
+260110999 ### Malus ###
+260111000 Corrupted Gundyr
+260111001 Vordt of the Boreal Valley
+260111002 Curse-rotted Greatwood
+260111003 Crystal Sage
+260111004 Deacons of the Deep
+260111005 Abyss Watchers
+260111006 High Lord Wolnir
+260111007 Old Demon King
+260111008 Pontiff Sulyvahn
+260111009 Aldrich, Devourer of Gods
+260111010 Yhorm the Giant
+260111011 Dancer of the Boreal Valley
+260111012 Oceiros, the Consumed King
+260111013 Dragonslayer Armour
+260111014 Ancient Wyvern
+260111015 Nameless King
+260111016 Champion Gundyr
+260111017 Twin Princes
+260111018 Soul of Cinder
+260111019 Sister Friede
+260111020 Lordran Remnants
+260111021 Demon Prince
+260111022 Darkeater Midir
+260111023 Slave Knight Gael
+260111024 Halflight, Spear of the Church
+260111025 Princess Yngvil
+260111026 Cathedral Guardian
+260111027 Mirror Knight
+260111028 Aborr
+260111029 Prince Dorthinus
+260111030 Trio of Explorers
+260111031 Twisted Knight
+260111032 Fallen Protector
+260111033 The Marauder
 260119999 ### Gauntlet Mode ###
 260120000 Ordered Trigger
 260120010 Random Trigger

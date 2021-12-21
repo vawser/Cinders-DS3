@@ -160,7 +160,7 @@ def t400513_x9():
         ClearTalkListData()
        
         # Covenant
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 99062000, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 1, 99062000, -1)
         
         # Talk
         AddTalkListData(2, 15000000, -1)

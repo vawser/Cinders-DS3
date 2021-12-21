@@ -109,19 +109,31 @@
 20000 Numbness
 20001 Devil's Trumpet
 20002 Moonflower
-30000 FOV: Default
-30010 FOV: 10
-30011 FOV: 20
-30012 FOV: 30
-30013 FOV: 40
-30014 FOV: 50
-30015 FOV: 60
-30016 FOV: 70
-30017 FOV: 80
-30018 FOV: 90
-30019 FOV: 100
-30020 FOV: 110
-30021 FOV: 120
+30000 FOV: Default/Default
+30001 FOV: Default/Near
+30002 FOV: Default/Far
+30003 FOV: Default/Very Far
+30004 FOV: Default/Extremely Far
+30010 FOV: Narrow/Default
+30011 FOV: Narrow/Near
+30012 FOV: Narrow/Far
+30013 FOV: Narrow/Very Far
+30014 FOV: Narrow/Extremely Far
+30020 FOV: Very Narrow/Default
+30021 FOV: Very Narrow/Near
+30022 FOV: Very Narrow/Far
+30023 FOV: Very Narrow/Very Far
+30024 FOV: Very Narrow/Extremely Far
+30030 FOV: Wide/Default
+30031 FOV: Wide/Near
+30032 FOV: Wide/Far
+30033 FOV: Wide/Very Far
+30034 FOV: Wide/Extremely Far
+30040 FOV: Very Wide/Default
+30041 FOV: Very Wide/Near
+30042 FOV: Very Wide/Far
+30043 FOV: Very Wide/Very Far
+30044 FOV: Very Wide/Extremely Far
 90000 Covert Camera-Zoom in
 90001 Covert Camera-Zoom Out
 90010 Monster House Boss Camera

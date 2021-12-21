@@ -164,7 +164,7 @@ def t400503_x9():
         ClearTalkListData()
        
         # Learn the Dark Arts
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15003023, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 1, 15003023, -1)
         
         # Magical Restraints
         AddTalkListData(2, 99095000, -1)

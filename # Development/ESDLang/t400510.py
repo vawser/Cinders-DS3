@@ -247,6 +247,9 @@ def t400510_x10():
         # Gauntlet Mode
         AddTalkListData(5, 99060013, -1)
         
+        # Onslaught Mode
+        AddTalkListData(7, 99060015, -1)
+        
         # Leave
         AddTalkListData(99, 15000190, -1)
         
@@ -274,6 +277,10 @@ def t400510_x10():
         elif GetTalkListEntryResult() == 6:
             assert t400510_x15()
             continue 
+        # Onslaught Mode
+        elif GetTalkListEntryResult() == 7:
+            assert t400510_x16()
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -317,6 +324,7 @@ def t400510_x11():
             SetEventState(25009812, 0)
             SetEventState(25009813, 0)
             SetEventState(25009814, 0)
+            SetEventState(25009815, 0)
             continue 
         # Unset
         elif GetTalkListEntryResult() == 3:
@@ -368,6 +376,7 @@ def t400510_x12():
             SetEventState(25009812, 0)
             SetEventState(25009813, 0)
             SetEventState(25009814, 0)
+            SetEventState(25009815, 0)
             continue 
         # Unset
         elif GetTalkListEntryResult() == 3:
@@ -419,6 +428,7 @@ def t400510_x13():
             SetEventState(25009812, 1)
             SetEventState(25009813, 0)
             SetEventState(25009814, 0)
+            SetEventState(25009815, 0)
             continue 
         # Unset
         elif GetTalkListEntryResult() == 3:
@@ -467,6 +477,7 @@ def t400510_x14():
             SetEventState(25009812, 0)
             SetEventState(25009813, 1)
             SetEventState(25009814, 0)
+            SetEventState(25009815, 0)
             SetEventState(25003200, 1) # Set Order by default, changable in Firelink
             continue 
         # Unset
@@ -516,6 +527,7 @@ def t400510_x15():
             SetEventState(25009812, 0)
             SetEventState(25009813, 0)
             SetEventState(25009814, 1)
+            SetEventState(25009815, 0)
             continue 
         # Unset
         elif GetTalkListEntryResult() == 3:
@@ -524,6 +536,53 @@ def t400510_x15():
         # Starting Location
         elif GetTalkListEntryResult() == 4:
             assert t400510_x40()
+        # Leave
+        elif GetTalkListEntryResult() == 99:
+            ReportConversationEndToHavokBehavior()
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+           
+# Onslaught Mode
+def t400510_x16():
+    c1110()
+    while True:
+        ClearTalkListData()
+       
+        # Description
+        AddTalkListData(1, 99060001, -1)
+        
+        # Set
+        AddTalkListDataIf(GetEventStatus(25009815) == 0, 2, 99060002, -1)
+        
+        # Unset
+        AddTalkListDataIf(GetEventStatus(25009815) == 1, 3, 99060003, -1)
+
+        # Leave
+        AddTalkListData(99, 15000190, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
+                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Description
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99060025, 0, 0, 0)
+            continue
+        # Set
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25009810, 0)
+            SetEventState(25009811, 0)
+            SetEventState(25009812, 0)
+            SetEventState(25009813, 0)
+            SetEventState(25009814, 0)
+            SetEventState(25009815, 1)
+            SetEventState(25003200, 1) # Set Order by default, changable in Firelink
+            continue 
+        # Unset
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25009815, 0)
+            continue
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -594,14 +653,8 @@ def t400510_x30():
             else:
                 pass
                 
-            # Fallback to Standard Mode if none are set
-            if GetEventStatus(25009810) == 0 and GetEventStatus(25009811) == 0 and GetEventStatus(25009812) == 0 and GetEventStatus(25009813) == 0 and GetEventStatus(25009814) == 0:
-                SetEventState(25009810, 1)
-                SetEventState(25009800, 1)
-                SetEventState(25009802, 1)
-            else:
-                SetEventState(25009800, 1)
-                SetEventState(25009802, 1)
+            SetEventState(25009800, 1)
+            SetEventState(25009802, 1)
             return 0
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

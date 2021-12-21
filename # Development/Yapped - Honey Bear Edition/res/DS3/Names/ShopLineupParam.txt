@@ -368,8 +368,7 @@
 36014 [Bonfire - Firelink Shrine] Blunt Gem
 36024 [Bonfire - Grand Archives] Divine Blessing
 36025 [Bonfire - Grand Archives] Hidden Blessing
-36028 [Bonfire - Sage's Overlook] Infusing Essence
-36029 [Bonfire - Sage's Overlook] Degrading Essence
+36028 [Bonfire - Halfway Fortress] Magical Essence
 36030 [Bonfire - Old King's Antechamber] Brightbug
 36038 [Bonfire - Cliff Underside] Repair Powder
 36039 [Bonfire - Cliff Underside] Green Blossom
@@ -462,7 +461,6 @@
 36142 [Bonfire - Old King's Antechamber] Old Radiant Lifegem
 36143 [Bonfire - Earthen Peak Ruins] Elizabeth Mushroom
 36144 [Bonfire - Irithyll Dungeon] Dried Root
-36145 [Bonfire - Grand Archives] Smouldering Stone
 36146 [Bonfire - Old King's Antechamber] Titanite Fragment
 36147 [Bonfire - Catacombs of Carthus] Inferi Petal
 36148 [Bonfire - Old King's Antechamber] Combustum Petal
@@ -539,6 +537,22 @@
 100060 [Andre] Blacksmith Hammer
 100061 [Andre] Torch
 100062 [Andre] Warrior's Round Shield
+100070 [Andre] Magical Essence
+100071 [Andre] Lethal Gem
+100072 [Andre] Curse Gem
+100073 [Andre] Poison Gem
+100074 [Andre] Blood Gem
+100075 [Andre] Frost Gem
+100076 [Andre] Magic Gem
+100077 [Andre] Fire Gem
+100078 [Andre] Lightning Gem
+100079 [Andre] Dark Gem
+100080 [Andre] Lucky Gem
+100081 [Andre] Enchanted Gem
+100082 [Andre] Holy Gem
+100083 [Andre] Sharp Gem
+100084 [Andre] Blunt Gem
+100085 [Andre] Shriving Stone
 100100 [Andre - Curse-rotted Greatwood] Harpe
 100101 [Andre - Curse-rotted Greatwood] Flamberge
 100102 [Andre - Curse-rotted Greatwood] Brigand Axe
@@ -766,6 +780,7 @@
 120017 [Greirat] Set-up Firebomb
 120018 [Greirat] Throwing Knife
 120019 [Greirat] Ember
+120020 [Greirat] Henbane
 120100 [Greirat - Curse-rotted Greatwood] Estoc
 120101 [Greirat - Curse-rotted Greatwood] Zweihander
 120102 [Greirat - Curse-rotted Greatwood] Warpick
@@ -998,6 +1013,9 @@
 220030 [Marvelous Chester] Draconic Bolt
 220031 [Marvelous Chester] Silvercat Ring
 220032 [Marvelous Chester] Manikin Claws
+220033 [Marvelous Chester] Devil's Trumphet
+220034 [Marvelous Chester] Moonflower
+220035 [Marvelous Chester] Henbane
 230000 [Crestfallen Merchant] Steel Helm
 230001 [Crestfallen Merchant] Steel Armor
 230002 [Crestfallen Merchant] Steel Gauntlets
@@ -1037,9 +1055,6 @@
 240066 [Astrologer Lillian - Hexes] Nibble
 240067 [Astrologer Lillian - Hexes] Gnaw
 240068 [Astrologer Lillian - Hexes] Dead Again
-250001 [Alchemist Jiji - Shop] Devil's Trumpet
-250002 [Alchemist Jiji - Shop] Moonflower
-250003 [Alchemist Jiji - Shop] Henbane
 250015 [Alchemist Jiji - Shop] Scroll of Ethereality
 250016 [Alchemist Jiji - Shop] Scroll of Hollowing
 250017 [Alchemist Jiji - Shop] Scroll of Humanity
@@ -1171,11 +1186,9 @@
 310001 [Solaire of Astora] Radiant Lifegem
 310002 [Solaire of Astora] Old Radiant Lifegem
 310003 [Solaire of Astora] Rouge Water
-760001 [Stone-humped Hag] Devil's Trumpet
-760002 [Stone-humped Hag] Moonflower
-760003 [Stone-humped Hag] Henbane
-760004 [Stone-humped Hag] Old Radiant Lifegem
-760005 [Stone-humped Hag] Dried Root
+760000 [Stone-humped Hag] Henbane
+760001 [Stone-humped Hag] Old Radiant Lifegem
+760002 [Stone-humped Hag] Dried Root
 800001 [Gauntlet Weapon] Dagger
 800002 [Gauntlet Weapon] Bandit's Knife
 800003 [Gauntlet Weapon] Parrying Dagger
@@ -2996,12 +3009,10 @@
 804021 [Gauntlet Item] Crystal Shard
 804022 [Gauntlet Item] Dragon Eye
 804023 [Gauntlet Item] Human Effigy
-804024 [Gauntlet Item] Devil's Trumpet
+804024 [Gauntlet Item] Devil's Trumphet
 804025 [Gauntlet Item] Moonflower
 804026 [Gauntlet Item] Henbane
-804027 [Gauntlet Item] Smouldering Stone
-804028 [Gauntlet Item] Infusing Essence
-804029 [Gauntlet Item] Degrading Essence
+804028 [Gauntlet Item] Magical Essence
 804030 [Gauntlet Item] Tarnished Coin
 804031 [Gauntlet Item] Cursed Tarnished Coin
 804032 [Gauntlet Item] Hexing Urn

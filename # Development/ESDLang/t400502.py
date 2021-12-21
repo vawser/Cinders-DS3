@@ -263,6 +263,8 @@ def t400502_x20():
                 OpenGenericDialog(1, 99094103, 0, 0, 0)
             elif GetEventStatus(25009814) == 1:
                 OpenGenericDialog(1, 99094104, 0, 0, 0)
+            elif GetEventStatus(25009815) == 1:
+                OpenGenericDialog(1, 99094105, 0, 0, 0)
             else:
                 OpenGenericDialog(1, 99094100, 0, 0, 0)
                 
@@ -297,6 +299,9 @@ def t400502_x21():
         # Stormageddon
         AddTalkListData(5, 99093104, -1)
         
+        # Master of Corruption
+        AddTalkListData(6, 99093105, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -322,6 +327,10 @@ def t400502_x21():
         # Stormageddon
         elif GetTalkListEntryResult() == 5:
             assert t400502_x30(25002104, 25002204, 25002304, 99093204, 99093304, 99093404, 99093504, 100040)
+            continue
+        # Master of Corruption
+        elif GetTalkListEntryResult() == 6:
+            assert t400502_x31()
             continue
         # Request Absolution
         elif GetTalkListEntryResult() == 90:
@@ -387,7 +396,7 @@ def t400502_x30(achievement_flag=_, failed_flag=_, reward_flag=_, requirement_te
         # Reward
         elif GetTalkListEntryResult() == 2:
             OpenGenericDialog(1, reward_text, 0, 0, 0)
-            return 0
+            continue
         # Requirement (DONE)
         elif GetTalkListEntryResult() == 10:
             OpenGenericDialog(1, requirement_done_text, 0, 0, 0)
@@ -400,6 +409,84 @@ def t400502_x30(achievement_flag=_, failed_flag=_, reward_flag=_, requirement_te
         # Requirement (FAILED)
         elif GetTalkListEntryResult() == 12:
             OpenGenericDialog(1, requirement_failed_text, 0, 0, 0)
+            continue
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+#----------------------------------------------------------
+# Achievement: Master of Corruption
+#----------------------------------------------------------
+def t400502_x31():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        # Requirement
+        AddTalkListDataIf(GetEventStatus(25002105) == 0 , 1, 99093002, -1)
+        
+        # Reward
+        AddTalkListDataIf(GetEventStatus(25002105) == 0 and GetEventStatus(25002305) == 0, 2, 99093003, -1)
+        
+        # Requirement (DONE)
+        AddTalkListDataIf(GetEventStatus(25002105) == 1, 10, 99093002, -1)
+        
+        # Reward (DONE)
+        AddTalkListDataIf(GetEventStatus(25002105) == 1 and GetEventStatus(25002305) == 0, 11, 99093003, -1)
+        
+        # Enable Corruption
+        AddTalkListDataIf(GetEventStatus(25009852) == 0, 20, 99093005, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Requirement
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99093205, 0, 0, 0)
+            continue
+        # Reward
+        elif GetTalkListEntryResult() == 2:
+            OpenGenericDialog(1, 99093305, 0, 0, 0)
+            continue
+        # Requirement (DONE)
+        elif GetTalkListEntryResult() == 10:
+            OpenGenericDialog(1, 99093405, 0, 0, 0)
+            continue
+        # Reward (DONE)
+        elif GetTalkListEntryResult() == 11:
+            SetEventState(25002305, 1)
+            GetItemFromItemLot(100050)
+            return 0
+        # Enable Corruption
+        elif GetTalkListEntryResult() == 20:
+            OpenGenericDialog(1, 99093006, 0, 0, 0)
+            assert t400502_x32()
+            continue
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+def t400502_x32():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        # Enable Corruption
+        AddTalkListDataIf(GetEventStatus(25009852) == 0, 1, 99093005, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Enable Corruption
+        if GetTalkListEntryResult() == 1:
+            OpenGenericDialog(1, 99093007, 0, 0, 0)
+            SetEventState(25009852, 1)
             continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0

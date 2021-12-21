@@ -371,7 +371,7 @@
 2176 Abyssal Tome
 2177 Angelic Braille Divine Tome
 2178 Heavenly Braille Divine Tome
-2200 Infusing Essence
+2200 Magical Essence
 2201 Degrading Essence
 2300 Singing Stone
 2301 Warbling Stone
@@ -560,6 +560,76 @@
 40000 Weapon Token
 40001 Armor Token
 40002 Accessory Token
+40999 ### Wanderer Boon ###
+41000 Boon of the Fallen - Corrupted Gundyr
+41001 Boon of the Frigid Knight - Vordt
+41002 Boon of the Rotted Greatwood - Curse-rotted Greatwood
+41003 Boon of the Sage - Crystal Sage
+41004 Boon of the Deep - Deacons
+41005 Boon of the Legion - Abyss Watchers
+41006 Boon of the High Lord - High Lord Wolnir
+41007 Boon of the Demon King - Old Demon King
+41008 Boon of the Pontiff - Pontiff Sulyvahn
+41009 Boon of the Beast - Aldrich
+41010 Boon of the Giant - Yhorm
+41011 Boon of the Dancer - Dancer
+41012 Boon of the Consumed - Oceiros
+41013 Boon of the Dragonslayer - Dragonslayer Armour
+41014 Boon of the Wyvern - Ancient Wyvern
+41015 Boon of the Lost Son - Nameless King
+41016 Boon of the Champion - Champion Gundyr
+41017 Boon of the Twins - Twin Princes
+41018 Boon of Cinders - Soul of Cinder
+41019 Boon of the Ordained - Sister Friede
+41020 Boon of the Demon Prince - Demon Prince
+41021 Boon of the Darkeater - Darkeater Midir
+41022 Boon of the Slave Knight - Slave Knight Gael
+41023 Boon of the Judicators - Halflight
+41024 Boon of the Fallen Prince - Prince Dorthinus
+41025 Boon of the Guardian - Cathedral Guardian
+41026 Boon of the Mirror Knight - Mirror Knight
+41027 Boon of Aborr - Aborr
+41028 Boon of the Princess - Princess Yngvil
+41029 Boon of the Explorers - Trio of Explorers
+41030 Boon of the Twisted Knight- Twisted Knight
+41031 Boon of the Fallen Protector - Fallen Protector
+41032 Boon of the Marauder - The Marauder
+41033 Boon of the Remnants - Lordran Remnants
+41999 ### Corruption Malus ###
+42000 Malus of the Fallen - Corrupted Gundyr
+42001 Malus of the Frigid Knight - Vordt
+42002 Malus of the Rotted Greatwood - Curse-rotted Greatwood
+42003 Malus of the Sage - Crystal Sage
+42004 Malus of the Deep - Deacons
+42005 Malus of the Legion - Abyss Watchers
+42006 Malus of the High Lord - High Lord Wolnir
+42007 Malus of the Demon King - Old Demon King
+42008 Malus of the Pontiff - Pontiff Sulyvahn
+42009 Malus of the Beast - Aldrich
+42010 Malus of the Giant - Yhorm
+42011 Malus of the Dancer - Dancer
+42012 Malus of the Consumed - Oceiros
+42013 Malus of the Dragonslayer - Dragonslayer Armour
+42014 Malus of the Wyvern - Ancient Wyvern
+42015 Malus of the Lost Son - Nameless King
+42016 Malus of the Champion - Champion Gundyr
+42017 Malus of the Twins - Twin Princes
+42018 Malus of Cinders - Soul of Cinder
+42019 Malus of the Ordained - Sister Friede
+42020 Malus of the Demon Prince - Demon Prince
+42021 Malus of the Darkeater - Darkeater Midir
+42022 Malus of the Slave Knight - Slave Knight Gael
+42023 Malus of the Judicators - Halflight
+42024 Malus of the Fallen Prince - Prince Dorthinus
+42025 Malus of the Guardian - Cathedral Guardian
+42026 Malus of the Mirror Knight - Mirror Knight
+42027 Malus of Aborr - Aborr
+42028 Malus of the Princess - Princess Yngvil
+42029 Malus of the Explorers - Trio of Explorers
+42030 Malus of the Twisted Knight- Twisted Knight
+42031 Malus of the Fallen Protector - Fallen Protector
+42032 Malus of the Marauder - The Marauder
+42033 Malus of the Remnants - Lordran Remnants
 1199999 ### Sorcery ###
 1200000 Farron Dart
 1200010 Bloodthirsty Farron Dart

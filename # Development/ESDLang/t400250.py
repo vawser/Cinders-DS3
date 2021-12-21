@@ -130,10 +130,10 @@ def t400250_x6(goods1=2130, goods2=2131, goods3=2144, goods4=2145, goods5=2000, 
         """ State 2 """
         
         # Learn Dark Sorceries
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15015000, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 1, 15015000, -1)
         
         # Covenant
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 7, 99062000, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 7, 99062000, -1)
         
         # Give Grave Warden Pyromancy Tome
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1, 3, 15015020, -1)

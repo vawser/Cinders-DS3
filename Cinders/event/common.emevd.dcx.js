@@ -217,16 +217,91 @@ Event(0, Default, function() {
     InitializeEvent(0, 20050, 0); // Standard Mode
     InitializeEvent(0, 20051, 0); // Wanderer Mode
     InitializeEvent(0, 20052, 0); // Mythic Mode
-    InitializeEvent(0, 20053, 0); // Starting Location
     InitializeEvent(0, 20054, 0); // Explorer Mode
+    InitializeEvent(0, 20055, 0); // Gauntlet Mode
+    InitializeEvent(0, 20056, 0); // Onslaught Mode
     
-    // Gauntlet Mode
+    InitializeEvent(0, 20059, 0); // Starting Location
+    
+    // Gauntlet Features
     InitializeEvent(0, 20070, 0); // Gauntlet Mode
     InitializeEvent(0, 20071, 0); // Gauntlet Mode - Set/Endless Gauntlet
     InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Gauntlet
     InitializeEvent(0, 20073, 0); // Gauntlet Mode - Set/Endless Gauntlet - Reverse
     
     InitializeEvent(0, 20079, 0); // Gauntlet Mode - Reset Progress
+    
+    // Boon Effects
+    InitializeEvent(0, 20081, 41000, 260110000, 260110100); // Corrupted Gundyr
+    InitializeEvent(1, 20081, 41001, 260110001, 260110101); // Vordt
+    InitializeEvent(2, 20081, 41002, 260110002, 260110102); // Rotted Greatwood
+    InitializeEvent(3, 20081, 41003, 260110003, 260110103); // Crystal Sage
+    InitializeEvent(4, 20081, 41004, 260110004, 260110104); // Deacons of the Deep
+    InitializeEvent(5, 20081, 41005, 260110005, 260110105); // Abyss Watchers
+    InitializeEvent(6, 20081, 41006, 260110006, 260110106); // High Lord Wolnir
+    InitializeEvent(7, 20081, 41007, 260110007, 260110107); // Old Demon King
+    InitializeEvent(8, 20081, 41008, 260110008, 260110108); // Pontiff Sulyvahn
+    InitializeEvent(9, 20081, 41009, 260110009, 260110109); // Aldrich
+    InitializeEvent(10, 20081, 41010, 260110010, 260110110); // Yhorm
+    InitializeEvent(11, 20081, 41011, 260110011, 260110111); // Dancer
+    InitializeEvent(12, 20081, 41012, 260110012, 260110112); // Oceiros
+    InitializeEvent(13, 20081, 41013, 260110013, 260110113); // Dragonslayer Armour
+    InitializeEvent(14, 20081, 41014, 260110014, 260110114); // Ancient Wyvern
+    InitializeEvent(15, 20081, 41015, 260110015, 260110115); // Nameless King
+    InitializeEvent(16, 20081, 41016, 260110016, 260110116); // Champion Gundyr
+    InitializeEvent(17, 20081, 41017, 260110017, 260110117); // Twin Princes
+    InitializeEvent(18, 20081, 41018, 260110018, 260110118); // Soul of Cinder
+    InitializeEvent(19, 20081, 41019, 260110019, 260110119); // Sister Friede
+    InitializeEvent(20, 20081, 41020, 260110020, 260110120); // Demon Prince
+    InitializeEvent(21, 20081, 41021, 260110021, 260110121); // Midir
+    InitializeEvent(22, 20081, 41022, 260110022, 260110122); // Slave Knight Gael
+    InitializeEvent(23, 20081, 41023, 260110023, 260110123); // Halflight
+    InitializeEvent(24, 20081, 41024, 260110029, 260110129); // Prince Dorthinus
+    InitializeEvent(25, 20081, 41025, 260110026, 260110126); // Cathedral Guardian
+    InitializeEvent(26, 20081, 41026, 260110027, 260110127); // Mirror Knight
+    InitializeEvent(27, 20081, 41027, 260110028, 260110128); // Aborr
+    InitializeEvent(28, 20081, 41028, 260110025, 260110125); // Princess Yngvil
+    InitializeEvent(29, 20081, 41029, 260110030, 260110130); // Trio of Explorers
+    InitializeEvent(30, 20081, 41030, 260110031, 260110131); // Twisted Knight
+    InitializeEvent(31, 20081, 41031, 260110032, 260110132); // Fallen Protector
+    InitializeEvent(32, 20081, 41032, 260110033, 260110133); // Marauder
+    InitializeEvent(33, 20081, 41033, 260110020, 260110120); // Lordran Remnants
+    
+    // Malus Effects
+    InitializeEvent(0, 20082, 42000, 260111000); // Corrupted Gundyr
+    InitializeEvent(1, 20082, 42001, 260111001); // Vordt
+    InitializeEvent(2, 20082, 42002, 260111002); // Rotted Greatwood
+    InitializeEvent(3, 20082, 42003, 260111003); // Crystal Sage
+    InitializeEvent(4, 20082, 42004, 260111004); // Deacons of the Deep
+    InitializeEvent(5, 20082, 42005, 260111005); // Abyss Watchers
+    InitializeEvent(6, 20082, 42006, 260111006); // High Lord Wolnir
+    InitializeEvent(7, 20082, 42007, 260111007); // Old Demon King
+    InitializeEvent(8, 20082, 42008, 260111008); // Pontiff Sulyvahn
+    InitializeEvent(9, 20082, 42009, 260111009); // Aldrich
+    InitializeEvent(10, 20082, 42010, 260111010); // Yhorm
+    InitializeEvent(11, 20082, 42011, 260111011); // Dancer
+    InitializeEvent(12, 20082, 42012, 260111012); // Oceiros
+    InitializeEvent(13, 20082, 42013, 260111013); // Dragonslayer Armour
+    InitializeEvent(14, 20082, 42014, 260111014); // Ancient Wyvern
+    InitializeEvent(15, 20082, 42015, 260111015); // Nameless King
+    InitializeEvent(16, 20082, 42016, 260111016); // Champion Gundyr
+    InitializeEvent(17, 20082, 42017, 260111017); // Twin Princes
+    InitializeEvent(18, 20082, 42018, 260111018); // Soul of Cinder
+    InitializeEvent(19, 20082, 42019, 260111019); // Sister Friede
+    InitializeEvent(20, 20082, 42020, 260111020); // Demon Prince
+    InitializeEvent(21, 20082, 42021, 260111021); // Midir
+    InitializeEvent(22, 20082, 42022, 260111022); // Slave Knight Gael
+    InitializeEvent(23, 20082, 42023, 260111023); // Halflight
+    InitializeEvent(24, 20082, 42024, 260111029); // Prince Dorthinus
+    InitializeEvent(25, 20082, 42025, 260111026); // Cathedral Guardian
+    InitializeEvent(26, 20082, 42026, 260111027); // Mirror Knight
+    InitializeEvent(27, 20082, 42027, 260111028); // Aborr
+    InitializeEvent(28, 20082, 42028, 260111025); // Princess Yngvil
+    InitializeEvent(29, 20082, 42029, 260111030); // Trio of Explorers
+    InitializeEvent(30, 20082, 42030, 260111031); // Twisted Knight
+    InitializeEvent(31, 20082, 42031, 260111032); // Fallen Protector
+    InitializeEvent(32, 20082, 42032, 260111033); // Marauder
+    InitializeEvent(33, 20082, 42033, 260111020); // Lordran Remnants
     
     //--------------------
     // Boss Revival
@@ -2448,170 +2523,25 @@ Event(20040, Default, function() {
 // Standard Mode
 //----------------------------------------------
 Event(20050, Restart, function() {
-    var flag_StandardMode = 25009810;
-    
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_StandardMode);
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009810);
 });
 
 //----------------------------------------------
 // Wanderer Mode
 //----------------------------------------------
 Event(20051, Restart, function() {
-    var flag_WandererMode = 25009811;
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009811);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_WandererMode);
+    SetEventFlag(25009851, ON); // Wanderer features activated
     SetEventFlag(25000055, ON); // Disable Reinforcement
-    
-    // Corrupted Gundyr
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002001);
-    SetSpEffect(10000, 260110000);
-    
-    // Vordt
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002002);
-    SetSpEffect(10000, 260110001);
-    
-    // Curse-rotted Greatwood
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002003);
-    SetSpEffect(10000, 260110002);
-    
-    // Crystal Sage
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002004);
-    SetSpEffect(10000, 260110003);
-    
-    // Deacons
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002005);
-    SetSpEffect(10000, 260110004);
-    
-    // Abyss Watchers
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002006);
-    SetSpEffect(10000, 260110005);
-    
-    // High Lord Wolnir
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002007);
-    SetSpEffect(10000, 260110006);
-    
-    // Old Demon King
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002008);
-    SetSpEffect(10000, 260110007);
-    
-    // Pontiff Sulyvahn
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002009);
-    SetSpEffect(10000, 260110008);
-    
-    // Aldrich
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002010);
-    SetSpEffect(10000, 260110009);
-    
-    // Yhorm
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002011);
-    SetSpEffect(10000, 260110010);
-    
-    // Dancer
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002012);
-    SetSpEffect(10000, 260110011);
-    
-    // Oceiros
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002013);
-    SetSpEffect(10000, 260110012);
-    
-    // Dragonslayer Armour
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002014);
-    SetSpEffect(10000, 260110013);
-    
-    // Ancient Wyvern
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002015);
-    SetSpEffect(10000, 260110014);
-    
-    // Nameless King
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002016);
-    SetSpEffect(10000, 260110015);
-    
-    // Champion Gundyr
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002017);
-    SetSpEffect(10000, 260110016);
-    
-    // Twin Princes
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002018);
-    SetSpEffect(10000, 260110017);
-    
-    // Soul of Cinder
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002019);
-    SetSpEffect(10000, 260110018);
-    
-    // Sister Friede
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002020);
-    SetSpEffect(10000, 260110019);
-    
-    // Lordran Remnants
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002021);
-    SetSpEffect(10000, 260110020);
-    
-    // Demon Prince
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002022);
-    SetSpEffect(10000, 260110021);
-    
-    // Darkeater Midir
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002023);
-    SetSpEffect(10000, 260110022);
-    
-    // Slave Knight Gael
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002024);
-    SetSpEffect(10000, 260110023);
-    
-    // Halflight
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002025);
-    SetSpEffect(10000, 260110024);
-    
-    // Prince Dorthinus
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002026);
-    SetSpEffect(10000, 260110025);
-    
-    // Cathedral Guardian
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002027);
-    SetSpEffect(10000, 260110026);
-    
-    // Mirror Knight
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002028);
-    SetSpEffect(10000, 260110027);
-    
-    // Aborr
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002029);
-    SetSpEffect(10000, 260110028);
-    
-    // Princess Yngvil
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002030);
-    SetSpEffect(10000, 260110029);
-    
-    // Trio of Explorers
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002031);
-    SetSpEffect(10000, 260110030);
-    
-    // Twisted Knight
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002032);
-    SetSpEffect(10000, 260110031);
-    
-    // Fallen Protector
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002033);
-    SetSpEffect(10000, 260110032);
-    
-    // UNUSED
-    //SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002034);
-    //SetSpEffect(10000, 260110033);
-    
-    // The Marauder
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25002035);
-    SetSpEffect(10000, 260110034);
 });
 
 //----------------------------------------------
 // Mythic Mode
 //----------------------------------------------
 Event(20052, Restart, function() {
-    var flag_MythicMode                    = 25009812;
-    var flag_Mythic_Weaponry_Standard      = 25009850;
-    var flag_Mythic_Weaponry_Wanderer = 25009851;
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009812);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_MythicMode);
     SetSpEffect(10000, 250000100);
     SetSpEffect(10000, 250000101);
     SetSpEffect(10000, 250000102);
@@ -2623,9 +2553,39 @@ Event(20052, Restart, function() {
 });
 
 //----------------------------------------------
+// Explorer Mode
+//----------------------------------------------
+Event(20054, Restart, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009814);
+    
+    SetSpEffect(10000, 250000200);
+    SetSpEffect(10000, 250000201);
+});
+
+//----------------------------------------------
+// Gauntlet Mode
+//----------------------------------------------
+Event(20055, Restart, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009813);
+    
+    SetEventFlag(25009850, ON); // Gauntlet features activated
+});
+
+//----------------------------------------------
+// Onslaught Mode
+//----------------------------------------------
+Event(20056, Restart, function() {
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009815);
+    
+    SetEventFlag(25009850, ON); // Gauntlet features activated
+    SetEventFlag(25009851, ON); // Wanderer features activated
+    SetEventFlag(25000055, ON); // Disable Reinforcement
+});
+
+//----------------------------------------------
 // Starting Location
 //----------------------------------------------
-Event(20053, Restart, function() {
+Event(20059, Restart, function() {
     var flag_GameConfiguration_Set        = 25009800;
     var flag_Location_UntendedGraves      = 25009820;
     var flag_Location_ArchdragonPeak      = 25009821;
@@ -2647,7 +2607,7 @@ Event(20053, Restart, function() {
     SetEventFlag(14000000, ON); // Firelink Shrine
     
     // Skip if in Gauntlet mode
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, 25009813);
+    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, 25009850);
     
     // Random
     SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, flag_Location_Random);
@@ -2733,7 +2693,7 @@ Event(20053, Restart, function() {
     Label0();
     
     // Skip to Firelink Shrine if in Gauntlet mode
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009813);
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009850);
     WarpPlayer(40, 0, 4000970); // Firelink Shrine
     
     // Set setup flag
@@ -2741,22 +2701,43 @@ Event(20053, Restart, function() {
 });
 
 //----------------------------------------------
-// Explorer Mode
+// Boon - Monitor
 //----------------------------------------------
-Event(20054, Restart, function() {
-    var flag_ExplorerMode = 25009814;
+Event(20081, Restart, function(X0_4, X4_4, X8_4) {
+    // Boon features activated
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009851);
     
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_ExplorerMode);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, X0_4, OwnershipState.Owns);
     
-    SetSpEffect(10000, 250000200);
-    SetSpEffect(10000, 250000201);
+    SetSpEffect(10000, X4_4);
+    SetSpEffect(10000, X8_4);
+    
+    WaitFixedTimeSeconds(1.0);
+    
+    EndUnconditionally(EventEndType.Restart);
+});
+
+//----------------------------------------------
+// Malus - Monitor
+//----------------------------------------------
+Event(20082, Restart, function(X0_4, X4_4) {
+    // Malus features activated
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009852);
+    
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, X0_4, OwnershipState.Owns);
+    
+    SetSpEffect(10000, X4_4);
+    
+    WaitFixedTimeSeconds(1.0);
+    
+    EndUnconditionally(EventEndType.Restart);
 });
 
 //----------------------------------------------
 // Gauntlet Mode - Setup
 //----------------------------------------------
 Event(20070, Restart, function() {
-    var flag_GauntletMode             = 25009813;
+    var flag_GauntletMode             = 25009850;
     var flag_Gauntlet_Setup_Completed = 25009804;
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
@@ -2799,7 +2780,7 @@ Event(20070, Restart, function() {
     BatchSetEventFlags(55100000, 55102999, ON);
     BatchSetEventFlags(55110000, 55112999, ON);
     
-    SetEventFlag(flag_Gauntlet_Setup_Completed, ON);
+    SetEventFlag(25009804, ON);
 
 });
 
@@ -2807,7 +2788,7 @@ Event(20070, Restart, function() {
 // Gauntlet Mode - Set/Endless Gauntlet
 //----------------------------------------------
 Event(20071, Restart, function() {
-    var flag_GauntletMode     = 25009813;
+    var flag_GauntletMode     = 25009850;
     var flag_SetGauntlet      = 25003200;
     var flag_EndlessGauntlet  = 25003202;
     var flag_DisableDLCBosses = 25009805;
@@ -3010,7 +2991,7 @@ Event(20071, Restart, function() {
 // Gauntlet Mode - Random Gauntlet
 //----------------------------------------------
 Event(20072, Restart, function() {
-    var flag_GauntletMode = 25009813;
+    var flag_GauntletMode = 25009850;
     var flag_RandomOrder  = 25003201;
     var flag_DisableDLCBosses = 25009805;
     
@@ -3277,7 +3258,7 @@ Event(20072, Restart, function() {
 // Gauntlet Mode - Reverse Set/Endless Gauntlet
 //----------------------------------------------
 Event(20073, Restart, function() {
-    var flag_GauntletMode   = 25009813;
+    var flag_GauntletMode   = 25009850;
     var flag_SetReverse     = 25003203;
     var flag_EndlessReverse = 25003204;
     var flag_DisableDLCBosses = 25009805;
@@ -3480,7 +3461,7 @@ Event(20073, Restart, function() {
 // Gauntlet Mode - Reset Progress
 //----------------------------------------------
 Event(20079, Restart, function() {
-    var flag_GauntletMode = 25009813;
+    var flag_GauntletMode = 25009850;
     
     EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
     
@@ -3488,7 +3469,6 @@ Event(20079, Restart, function() {
     
     BatchSetEventFlags(25002000, 25002050, OFF);
 });
-
 
 //----------------------------------------------
 // Script Tool
@@ -3573,7 +3553,7 @@ Event(20100, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100010, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001001);
     
     SetEventFlag(14000800, 0);
@@ -3590,7 +3570,7 @@ Event(20100, Restart, function() {
     WarpPlayer(40, 0, 4000980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001001);
     DisplayEpitaphMessage(99030100);
     
@@ -3605,7 +3585,7 @@ Event(20101, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100020, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001002);
     
     SetEventFlag(13000800, 0);
@@ -3622,7 +3602,7 @@ Event(20101, Restart, function() {
     WarpPlayer(30, 0, 3000982);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001002);
     DisplayEpitaphMessage(99030101);
     
@@ -3637,7 +3617,7 @@ Event(20102, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100030, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001003);
     
     SetEventFlag(13100800, 0);
@@ -3655,7 +3635,7 @@ Event(20102, Restart, function() {
     WarpPlayer(31, 0, 3100980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001003);
     DisplayEpitaphMessage(99030102);
     
@@ -3670,7 +3650,7 @@ Event(20103, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100040, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001004);
     
     SetEventFlag(13300850, 0);
@@ -3687,7 +3667,7 @@ Event(20103, Restart, function() {
     WarpPlayer(33, 0, 3300980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001004);
     DisplayEpitaphMessage(99030103);
     
@@ -3702,7 +3682,7 @@ Event(20104, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100050, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001005);
     
     SetEventFlag(13500800, 0);
@@ -3719,7 +3699,7 @@ Event(20104, Restart, function() {
     WarpPlayer(35, 0, 3500980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001005);
     DisplayEpitaphMessage(99030104);
     
@@ -3734,7 +3714,7 @@ Event(20105, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100060, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001006);
     
     SetEventFlag(13300800, 0);
@@ -3752,7 +3732,7 @@ Event(20105, Restart, function() {
     WarpPlayer(33, 0, 3300981);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001006);
     DisplayEpitaphMessage(99030105);
     
@@ -3767,7 +3747,7 @@ Event(20106, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100070, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001007);
     
     SetEventFlag(13800800, 0);
@@ -3786,7 +3766,7 @@ Event(20106, Restart, function() {
     WarpPlayer(38, 0, 3800980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001007);
     DisplayEpitaphMessage(99030106);
     
@@ -3801,7 +3781,7 @@ Event(20107, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100080, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001008);
     
     SetEventFlag(13800830, 0);
@@ -3818,7 +3798,7 @@ Event(20107, Restart, function() {
     WarpPlayer(38, 0, 3800981);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001008);
     DisplayEpitaphMessage(99030107);
     
@@ -3833,7 +3813,7 @@ Event(20108, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100090, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001009);
     
     SetEventFlag(13700850, 0);
@@ -3853,7 +3833,7 @@ Event(20108, Restart, function() {
     WarpPlayer(37, 0, 3700980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001009);
     DisplayEpitaphMessage(99030108);
     
@@ -3868,7 +3848,7 @@ Event(20109, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100100, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001010);
     
     SetEventFlag(13700800, 0);
@@ -3886,7 +3866,7 @@ Event(20109, Restart, function() {
     WarpPlayer(37, 0, 3700981);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001010);
     DisplayEpitaphMessage(99030109);
     
@@ -3901,7 +3881,7 @@ Event(20110, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100110, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001011);
     
     SetEventFlag(13900800, 0);
@@ -3918,7 +3898,7 @@ Event(20110, Restart, function() {
     WarpPlayer(39, 0, 3900980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001011);
     DisplayEpitaphMessage(99030110);
     
@@ -3933,7 +3913,7 @@ Event(20111, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100120, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001012);
     
     SetEventFlag(13000890, 0);
@@ -3951,7 +3931,7 @@ Event(20111, Restart, function() {
     WarpPlayer(30, 0, 3000981);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001012);
     DisplayEpitaphMessage(99030111);
     
@@ -3966,7 +3946,7 @@ Event(20112, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100130, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001013);
     
     SetEventFlag(13000830, 0);
@@ -3983,7 +3963,7 @@ Event(20112, Restart, function() {
     WarpPlayer(30, 0, 3000983);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001013);
     DisplayEpitaphMessage(99030112);
     
@@ -3998,7 +3978,7 @@ Event(20113, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100140, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001014);
     
     SetEventFlag(13010800, 0);
@@ -4015,7 +3995,7 @@ Event(20113, Restart, function() {
     WarpPlayer(30, 1, 3010980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001014);
     DisplayEpitaphMessage(99030113);
     
@@ -4030,7 +4010,7 @@ Event(20114, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100150, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001015);
     
     SetEventFlag(13200800, 0);
@@ -4047,7 +4027,7 @@ Event(20114, Restart, function() {
     WarpPlayer(32, 0, 3200980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001015);
     DisplayEpitaphMessage(99030114);
     
@@ -4062,7 +4042,7 @@ Event(20115, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100160, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001016);
     
     SetEventFlag(13200850, 0);
@@ -4084,7 +4064,7 @@ Event(20115, Restart, function() {
     WarpPlayer(32, 0, 3200981);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001016);
     DisplayEpitaphMessage(99030115);
     
@@ -4099,7 +4079,7 @@ Event(20116, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100170, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001017);
     
     SetEventFlag(14000830, 0);
@@ -4119,7 +4099,7 @@ Event(20116, Restart, function() {
     WarpPlayer(40, 0, 4000981);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001017);
     DisplayEpitaphMessage(99030116);
     
@@ -4134,7 +4114,7 @@ Event(20117, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100180, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001018);
     
     SetEventFlag(13410830, 0);
@@ -4152,7 +4132,7 @@ Event(20117, Restart, function() {
     WarpPlayer(34, 1, 3410980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001018);
     DisplayEpitaphMessage(99030117);
     
@@ -4167,7 +4147,7 @@ Event(20118, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100190, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001019);
     
     SetEventFlag(14100800, 0);
@@ -4186,7 +4166,7 @@ Event(20118, Restart, function() {
     WarpPlayer(41, 0, 4100980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001019);
     DisplayEpitaphMessage(99030118);
     
@@ -4201,7 +4181,7 @@ Event(20119, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100200, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001020);
     
     SetEventFlag(14500800, OFF);
@@ -4221,7 +4201,7 @@ Event(20119, Restart, function() {
     WarpPlayer(45, 0, 4500980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001020);
     DisplayEpitaphMessage(99030119);
     
@@ -4253,7 +4233,7 @@ Event(20120, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -4272,7 +4252,7 @@ Event(20120, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -4287,7 +4267,7 @@ Event(20121, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100220, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001022);
     
     SetEventFlag(15000800, 0);
@@ -4305,7 +4285,7 @@ Event(20121, Restart, function() {
     WarpPlayer(50, 0, 5000980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001022);
     DisplayEpitaphMessage(99030121);
     
@@ -4321,7 +4301,7 @@ Event(20122, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100230, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001023);
     
     SetEventFlag(15100850, 0);
@@ -4339,7 +4319,7 @@ Event(20122, Restart, function() {
     WarpPlayer(51, 0, 5100980);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001023);
     DisplayEpitaphMessage(99030122);
     
@@ -4354,7 +4334,7 @@ Event(20123, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100240, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001024);
     
     SetEventFlag(15110800, 0);
@@ -4371,7 +4351,7 @@ Event(20123, Restart, function() {
     
     WarpPlayer(51, 1, 5110980);
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001024);
     DisplayEpitaphMessage(99030123);
     
@@ -4386,7 +4366,7 @@ Event(20124, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100250, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001025);
     
     SetEventFlag(15100800, 0);
@@ -4404,7 +4384,7 @@ Event(20124, Restart, function() {
     WarpPlayer(51, 0, 5100981);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25001025);
     DisplayEpitaphMessage(99030124);
     
@@ -4564,7 +4544,7 @@ Event(20126, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, 260100270, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, 25001026);
     
     SetEventFlag(14500960, 0);
@@ -4582,7 +4562,7 @@ Event(20126, Restart, function() {
     WarpPlayer(45, 0, 4500982);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25002026);
     DisplayEpitaphMessage(99030125);
     
@@ -4614,7 +4594,7 @@ Event(20127, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -4632,7 +4612,7 @@ Event(20127, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -4664,7 +4644,7 @@ Event(20128, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -4682,7 +4662,7 @@ Event(20128, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -4714,7 +4694,7 @@ Event(20129, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -4732,7 +4712,7 @@ Event(20129, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -4764,7 +4744,7 @@ Event(20130, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -4782,7 +4762,7 @@ Event(20130, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -4814,7 +4794,7 @@ Event(20131, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -4832,7 +4812,7 @@ Event(20131, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -4864,7 +4844,7 @@ Event(20132, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -4882,7 +4862,7 @@ Event(20132, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -4914,7 +4894,7 @@ Event(20133, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -4932,7 +4912,7 @@ Event(20133, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -4964,7 +4944,7 @@ Event(20134, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -4982,7 +4962,7 @@ Event(20134, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -5014,7 +4994,7 @@ Event(20135, Restart, function() {
     IfCharacterHasSpeffect(AND_01, 10000, param_SpEffect_Trigger, true, ComparisonType.Equal, 1);
     IfConditionGroup(MAIN, PASS, AND_01);
 
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, flag_BossKilled);
     
     SetEventFlag(flag_BossDefeated, OFF);
@@ -5032,7 +5012,7 @@ Event(20135, Restart, function() {
     WarpPlayer(mapID, blockID, entity_PlayerPoint);
     
     Label1();
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009813); // Ignore this check in Gauntlet mode
+    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, 25009850); // Ignore this check in Gauntlet mode
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, flag_BossKilled);
     DisplayEpitaphMessage(text_BossNotKilled);
     
@@ -9386,6 +9366,7 @@ Event(20300, Restart, function() {
     InitializeEvent(0, 20322, 0); // Achievement: Flameless
     InitializeEvent(0, 20323, 0); // Achievement: Sword and Board
     InitializeEvent(0, 20324, 0); // Achievement: Stormageddon
+    InitializeEvent(0, 20325, 0); // Achievement: Master of Corruption
     
     EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25002499);
     
@@ -9394,6 +9375,7 @@ Event(20300, Restart, function() {
     SetEventFlag(25002102, OFF); // Achievement: Flameless
     SetEventFlag(25002103, OFF); // Achievement: Sword and Board
     SetEventFlag(25002104, OFF); // Achievement: Stormageddon
+    SetEventFlag(25002105, OFF); // Achievement: Master of Corruption
     
     SetEventFlag(25002200, OFF); // Failed Achievement: Defying Death
     SetEventFlag(25002201, OFF); // Failed Achievement: Untouchable
@@ -9509,7 +9491,9 @@ Event(20312, Restart, function() {
 Event(20313, Restart, function() {
     SetNetworkSyncState(Disabled);
     
-    IfCharacterHasSpeffect(MAIN, 10000, 440, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 112930, true, ComparisonType.Equal, 1);
+    IfCharacterHasSpeffect(OR_01, 10000, 112932, true, ComparisonType.Equal, 1);
+    IfConditionGroup(MAIN, PASS, OR_01);
 
     SetEventFlag(25002203, ON);
 });
@@ -9573,6 +9557,91 @@ Event(20324, Default, function() {
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25002400); // Nameless King killed with Restraint: Run on
     
     SetEventFlag(25002104, ON);
+});
+
+//------------------------------------------------
+// Achievement: Master of Corruption
+//------------------------------------------------
+Event(20324, Default, function() {
+    SetNetworkSyncState(Disabled);
+    
+    // Malus enabled
+    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009852); 
+    
+    // Malus items
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42000, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42001, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42002, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42003, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42004, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42005, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42006, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42007, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42008, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42009, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42010, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42011, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42012, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42013, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42014, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42015, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42016, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42017, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42018, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42019, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42020, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42021, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42022, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42023, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42024, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42025, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42026, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42027, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42028, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42029, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42030, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42031, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42032, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42033, OwnershipState.Owns);
+    
+    SetEventFlag(25002105, ON);
+    
+    RemoveItemFromPlayer(ItemType.Goods, 42000, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42001, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42002, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42003, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42004, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42005, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42006, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42007, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42008, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42009, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42010, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42011, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42012, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42013, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42014, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42015, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42016, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42017, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42018, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42019, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42020, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42021, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42022, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42023, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42024, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42025, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42026, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42027, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42028, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42029, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42028, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42029, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42030, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42031, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42032, -99);
+    RemoveItemFromPlayer(ItemType.Goods, 42033, -99);
 });
 
 //------------------------------------------------
@@ -9668,4 +9737,3 @@ Event(20510, Restart, function(X0_4, X4_4) {
     
     EndUnconditionally(EventEndType.Restart);
 });
-

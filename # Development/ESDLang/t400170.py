@@ -148,7 +148,7 @@ def t400170_x8():
         assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
 
         # Covenant
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 7, 99062000, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 7, 99062000, -1)
         
         # Talk
         AddTalkListData(3, 15000000, -1)

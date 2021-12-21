@@ -1734,6 +1734,11 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
         end
     end
     
+    -- Twin Princes Boon
+    if env(1116, 112592) == TRUE then
+        shatter_chance = shatter_chance + 2
+    end
+    
     -- Apply Shatter if lucky
     if roll < shatter_chance then
          act(2002, 113510)
@@ -4098,6 +4103,10 @@ function ExecEvasion(backstep_limit, estep, is_usechainrecover)
         if env(1116, 112920) == TRUE then
             return FALSE
         end
+        
+        -- Trigger: Roll
+        act(2002, 112930)
+        
         -- Ring of Momentum/BB Dash override
         if IsRingOfMomentum() == TRUE or IsBBDashWeapon() == TRUE then 
             local index = GetWeightIndex(FALSE)
@@ -4267,6 +4276,9 @@ function ExecEvasion(backstep_limit, estep, is_usechainrecover)
             return FALSE
         end
         
+        -- Trigger: Jump
+        act(2002, 112931)
+        
         AddStamina(c_StaminaCostJump)
         ExecEventAllBody("W_Jump")
     elseif request == ATTACK_REQUEST_BACKSTEP then
@@ -4274,6 +4286,9 @@ function ExecEvasion(backstep_limit, estep, is_usechainrecover)
         if env(1116, 112923) == TRUE then
             return FALSE
         end
+        
+        -- Trigger: Backstep
+        act(2002, 112932)
         
         ResetDamageCount()
         local index = GetWeightIndex(FALSE)
@@ -7503,6 +7518,16 @@ function Rolling_onUpdate()
         base_move_mult = base_move_mult + 3.0
     end 
     
+    -- Trio of Explorers Boon
+    if env(1116, 112594) == TRUE then
+        base_move_mult = base_move_mult + 0.2
+    end
+    
+    -- Yhorm Malus
+    if env(1116, 112620) == TRUE then
+        base_move_mult = 0.25
+    end
+    
     act(2001, math.abs(base_move_mult + addratio * math.abs(math.sin(math.rad(2 * rolling_angle)))))
     
     if sp_kind == 272 then
@@ -7591,6 +7616,11 @@ function RollingSelftrans_onUpdate()
         elseif env(1116, 114109) == TRUE then
             base_move_mult = base_move_mult + 0.5
         end
+    end
+    
+    -- Soul of Cinder Boon
+    if env(1116, 112593) == TRUE then
+        base_move_mult = base_move_mult + 0.1
     end
     
     act(2001, math.abs(base_move_mult + addratio * math.abs(math.sin(math.rad(2 * rolling_angle)))))
@@ -7887,6 +7917,11 @@ function Move_onUpdate()
         elseif env(1116, 114109) == TRUE then
             base_move_mult = base_move_mult + 0.5
         end
+    end
+    
+    -- Nameless King Malus
+    if env(1116, 112621) == TRUE then
+        base_move_mult = base_move_mult - 0.5
     end
     
     act(2001, base_move_mult)
@@ -17863,7 +17898,7 @@ function UpdateFP()
     local skip_base = false
     local cooldown = false
     
-    if env(1116, 113000) == TRUE then
+    if env(1116, 113000) == TRUE or env(1116, 113070) == TRUE then
         cooldown = true
     end
     
@@ -17878,7 +17913,11 @@ function UpdateFP()
         end
         
         if skip == false then
-            act(2002, 113000) -- Base Interval
+            if env(1116, 112622) == TRUE then
+                act(2002, 113070) -- Base Interval
+            else
+                act(2002, 113000) -- Base Interval
+            end
             
             -- Attunement Mastery
             if env(1116, 112430) == TRUE then

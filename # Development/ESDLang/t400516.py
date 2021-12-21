@@ -163,7 +163,7 @@ def t400516_x9():
         AddTalkListData(1, 15003040, -1)
         
         # Train Outside
-        AddTalkListDataIf(GetEventStatus(25009813) == 0 and GetEventStatus(25009793) == 0, 2, 15003050, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0 and GetEventStatus(25009793) == 0, 2, 15003050, -1)
         
         # Train Inside
         AddTalkListDataIf(GetEventStatus(25009793) == 1, 3, 15003051, -1)

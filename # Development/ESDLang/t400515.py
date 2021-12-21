@@ -162,7 +162,7 @@ def t400515_x9():
         ClearTalkListData()
        
         # Face the Spurned Shade
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15003034, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 1, 15003034, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)

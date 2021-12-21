@@ -243,7 +243,7 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
         AddTalkListData(8, 15002003, -1)
     
         # Purchase Item
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 15, 15003018, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 15, 15003018, -1)
         
         # Learn Gesture
         AddTalkListDataIf(GetEventStatus(6074) == 0, 9, 99000960, -1)

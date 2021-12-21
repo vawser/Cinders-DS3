@@ -2821,6 +2821,383 @@ Exchange with the Fire Keeper for armor.</text>
 <text id="40002">A crumbling token.
 
 Exchange with the Fire Keeper for accessories.</text>
+
+<text id="41000">A boon of strength given by a fallen great soul.
+This boon belonged to Corrupted Gundyr.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Curse resistance by 25%.</text>
+<text id="41001">A boon of strength given by a fallen great soul.
+This boon belonged to Vordt of the Boreal Valley.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Frost resistance by 25%.</text>
+<text id="41002">A boon of strength given by a fallen great soul.
+This boon belonged to the Curse-rotted Greatwood.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts max HP by 10%.</text>
+<text id="41003">A boon of strength given by a fallen great soul.
+This boon belonged to the Crystal Sage.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts max FP by 10%.</text>
+<text id="41004">A boon of strength given by a fallen great soul.
+This boon belonged to the Deacons of the Deep.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts soul absorption by 10%.</text>
+<text id="41005">A boon of strength given by a fallen great soul.
+This boon belonged to the Abyss Watchers.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Reduces weapon stamina consumption by 10%.</text>
+<text id="41006">A boon of strength given by a fallen great soul.
+This boon belonged to High Lord Wolnir.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts damage against Undead enemies by 10%.</text>
+<text id="41007">A boon of strength given by a fallen great soul.
+This boon belonged to Old Demon King.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts damage against Demonic enemies by 10%.</text>
+<text id="41008">A boon of strength given by a fallen great soul.
+This boon belonged to Pontiff Sulyvahn.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Magic and Fire absorption by 5%.</text>
+<text id="41009">A boon of strength given by a fallen great soul.
+This boon belonged to Aldrich.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Physical, Magic, Fire, Lightning and Dark defence by 10%.</text>
+<text id="41010">A boon of strength given by a fallen great soul.
+This boon belonged to Yhorm the Giant.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Reduces weapon FP cost by 10%.</text>
+<text id="41011">A boon of strength given by a fallen great soul.
+This boon belonged to the Dancer of the Boreal Valley.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Reduces miracle FP cost by 10%.</text>
+<text id="41012">A boon of strength given by a fallen great soul.
+This boon belonged to Consumed King Oceiros.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Reduces sorcery FP cost by 10%.</text>
+<text id="41013">A boon of strength given by a fallen great soul.
+This boon belonged to the Dragonslayer Armour.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts physical absorption by 10%.</text>
+<text id="41014">A boon of strength given by a fallen great soul.
+This boon belonged to the Ancient Wyvern.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts maximum equipment load by 10%.</text>
+<text id="41015">A boon of strength given by a fallen great soul.
+This boon belonged to the Nameless King.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Restores 10 HP every second.</text>
+<text id="41016">A boon of strength given by a fallen great soul.
+This boon belonged to Champion Gundyr.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts damage against Hollow enemies by 10%.</text>
+<text id="41017">A boon of strength given by a fallen great soul.
+This boon belonged to the Twin Princes.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Grants 2% chance to shatter enemy with every attack.</text>
+<text id="41018">A boon of strength given by a fallen great soul.
+This boon belonged to the Soul of Cinder.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Grants 10% movement speed.</text>
+<text id="41019">A boon of strength given by a fallen great soul.
+This boon belonged to Sister Friede.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Physical, Magic, Fire, Lightning and Dark defence by 100% whilst below 30% HP.</text>
+<text id="41020">A boon of strength given by a fallen great soul.
+This boon belonged to the Demon Prince.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Fire absorption by 10%.</text>
+<text id="41021">A boon of strength given by a fallen great soul.
+This boon belonged to Darkeater Midir.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Dark absorption by 10%.</text>
+<text id="41022">A boon of strength given by a fallen great soul.
+This boon belonged to Slave Knight Gael.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts max HP, FP and Stamina by 5%.</text>
+<text id="41023">A boon of strength given by a fallen great soul.
+This boon belonged to Halflight, Spear of the Church.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Increases HP recovery effectiveness by 10%.</text>
+<text id="41024">A boon of strength given by a fallen great soul.
+This boon belonged to Prince Dorthinus.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Increases stamina damage by 20%.</text>
+<text id="41025">A boon of strength given by a fallen great soul.
+This boon belonged to the Cathedral Guardian.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts shield stability by 5%.</text>
+<text id="41026">A boon of strength given by a fallen great soul.
+This boon belonged to the Mirror Knight.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Lightning absorption by 10%.</text>
+<text id="41027">A boon of strength given by a fallen great soul.
+This boon belonged to Aborr.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Item Discovery by 25.</text>
+<text id="41028">A boon of strength given by a fallen great soul.
+This boon belonged to Princess Yngvil.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Strike damage by 10%.</text>
+<text id="41029">A boon of strength given by a fallen great soul.
+This boon belonged to the Trio of Explorers.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Increases roll distance by 20%.</text>
+<text id="41030">A boon of strength given by a fallen great soul.
+This boon belonged to the Twisted Knight.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts max Stamina by 10%.</text>
+<text id="41031">A boon of strength given by a fallen great soul.
+This boon belonged to the Fallen Protector.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts Poison and Toxic resistance by 25%.</text>
+<text id="41032">A boon of strength given by a fallen great soul.
+This boon belonged to the Marauder.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Boosts poise by 25%.</text>
+<text id="41033">A boon of strength given by a fallen great soul.
+This boon belonged to the Lordran Remnants.
+
+Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
+
+Increases stamina recovery by 10.</text>
+
+<text id="42000">A malus of weakness given by a fallen great soul.
+This malus belonged to Corrupted Gundyr.
+
+Accursed One:
+Reduces Curse resistance by 90%.</text>
+<text id="42001">A malus of weakness given by a fallen great soul.
+This malus belonged to Vordt of the Boreal Valley.
+
+Lumbering Oaf:
+Reduces max equipment load by 25%.</text>
+<text id="42002">A malus of weakness given by a fallen great soul.
+This malus belonged to the Curse-rotted Greatwood.
+
+Rotted Sacs:
+Reduces Poison and Toxic resistance by 90%.</text>
+<text id="42003">A malus of weakness given by a fallen great soul.
+This malus belonged to the Crystal Sage.
+
+Mind Melt:
+Reduces max FP by 25%.</text>
+<text id="42004">A malus of weakness given by a fallen great soul.
+This malus belonged to the Deacons of the Deep.
+
+Depths of the Deep:
+Reduces HP restoration effectiveness by 25%.</text>
+<text id="42005">A malus of weakness given by a fallen great soul.
+This malus belonged to the Abyss Watchers.
+
+Fatigued Arms:
+Reduces max Stamina by 25%.</text>
+<text id="42006">A malus of weakness given by a fallen great soul.
+This malus belonged to High Lord Wolnir.
+
+Feeble-minded:
+Reduces stamina recovery by 15.</text>
+<text id="42007">A malus of weakness given by a fallen great soul.
+This malus belonged to Old Demon King.
+
+Demonic Touch:
+Reduces Fire absorption by 50%.</text>
+<text id="42008">A malus of weakness given by a fallen great soul.
+This malus belonged to Pontiff Sulyvahn.
+
+Pontiff's Arrogance:
+Increases FP cost of sorceries by 50%.</text>
+<text id="42009">A malus of weakness given by a fallen great soul.
+This malus belonged to Aldrich.
+
+Consumption:
+Reduces max HP by 25%.</text>
+<text id="42010">A malus of weakness given by a fallen great soul.
+This malus belonged to Yhorm the Giant.
+
+Rolling Boulder:
+Reduces distance of rolls massively.</text>
+<text id="42011">A malus of weakness given by a fallen great soul.
+This malus belonged to the Dancer of the Boreal Valley.
+
+Disgraceful Strikes:
+Increases weapon stamina consumption by 50%.</text>
+<text id="42012">A malus of weakness given by a fallen great soul.
+This malus belonged to Consumed King Oceiros.
+
+Hungering Mind:
+Lose 10 HP every second.</text>
+<text id="42013">A malus of weakness given by a fallen great soul.
+This malus belonged to the Dragonslayer Armour.
+
+Weak Stance:
+Reduces shield stability by 50%.</text>
+<text id="42014">A malus of weakness given by a fallen great soul.
+This malus belonged to the Ancient Wyvern.
+
+Wyvern's Cut:
+Reduces soul absorption by 50%.</text>
+<text id="42015">A malus of weakness given by a fallen great soul.
+This malus belonged to the Nameless King.
+
+Headwind:
+Reduces movement speed by 50%.</text>
+<text id="42016">A malus of weakness given by a fallen great soul.
+This malus belonged to Champion Gundyr.
+
+Champion's Foil:
+Reduces max HP, FP and Stamina by 20%.</text>
+<text id="42017">A malus of weakness given by a fallen great soul.
+This malus belonged to the Twin Princes.
+
+Prince's Curse:
+Reduces physical absorption by 50%.</text>
+<text id="42018">A malus of weakness given by a fallen great soul.
+This malus belonged to the Soul of Cinder.
+
+Soul Drain:
+Reduces all stats by 10.</text>
+<text id="42019">A malus of weakness given by a fallen great soul.
+This malus belonged to Sister Friede.
+
+Frostbitten:
+Falling damage is much higher.</text>
+<text id="42020">A malus of weakness given by a fallen great soul.
+This malus belonged to the Demon Prince.
+
+Demon's Meddling:
+Increases FP cost of pyromancies by 50%.</text>
+<text id="42021">A malus of weakness given by a fallen great soul.
+This malus belonged to Darkeater Midir.
+
+Calamity:
+Whilst above 90% HP, all absorptions are reduced by 200%.</text>
+<text id="42022">A malus of weakness given by a fallen great soul.
+This malus belonged to Slave Knight Gael.
+
+Brand of the Dark Soul:
+Reduces max HP, FP and Stamina by 50%.</text>
+<text id="42023">A malus of weakness given by a fallen great soul.
+This malus belonged to Halflight, Spear of the Church.
+
+Halflight's Curse:
+Prevents usage of Estus Flasks.</text>
+<text id="42024">A malus of weakness given by a fallen great soul.
+This malus belonged to Prince Dorthinus.
+
+Prince's Folly:
+Increases FP cost of weapon skills by 50%.</text>
+<text id="42025">A malus of weakness given by a fallen great soul.
+This malus belonged to the Cathedral Guardian.
+
+Cathedral Nightmares:
+Increases FP cost of miracles by 50%.</text>
+<text id="42026">A malus of weakness given by a fallen great soul.
+This malus belonged to the Mirror Knight.
+
+Lightning Rod:
+Reduces Lightning absorption by 100%.</text>
+<text id="42027">A malus of weakness given by a fallen great soul.
+This malus belonged to Aborr.
+
+Rusty Weaponry:
+Reduces max durability for weapons by 10.</text>
+<text id="42028">A malus of weakness given by a fallen great soul.
+This malus belonged to Princess Yngvil.
+
+Chilled to the Bone:
+Reduces Frost resistance by 90%.</text>
+<text id="42029">A malus of weakness given by a fallen great soul.
+This malus belonged to the Trio of Explorers.
+
+Pathetic Strikes:
+Reduces stamina damage by 50%.</text>
+<text id="42030">A malus of weakness given by a fallen great soul.
+This malus belonged to the Twisted Knight.
+
+Bloodcursed:
+Damage taken from Bleed increased by 100%.</text>
+<text id="42031">A malus of weakness given by a fallen great soul.
+This malus belonged to the Fallen Protector.
+
+Magical Rot:
+FP takes three times as long to regenerate.</text>
+<text id="42032">A malus of weakness given by a fallen great soul.
+This malus belonged to the Marauder.
+
+Power Drain:
+Reduces all damage by 25%.</text>
+<text id="42033">A malus of weakness given by a fallen great soul.
+This malus belonged to the Lordran Remnants.
+
+Ethereal Blows:
+Reduces all defences by 20%.</text>
+
 <text id="1200000">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.
 

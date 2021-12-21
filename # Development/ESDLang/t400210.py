@@ -545,10 +545,10 @@ def t400210_x15(goods1=2107, goods2=2108, goods3=2109, goods4=2110, goods5=2111,
         AddTalkListData(3, 99096000, -1)
         
         # Purchase Item
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 1, 15011020, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 1, 15011020, -1)
         
         # Sell Item
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 2, 15000012, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 2, 15000012, -1)
         # Form Betrothal
         AddTalkListDataIf(GetEventStatus(25008140) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
         

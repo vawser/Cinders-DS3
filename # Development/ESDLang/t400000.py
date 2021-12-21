@@ -320,7 +320,7 @@ def t400000_x12():
         AddTalkListData(19, 15010003, -1)
         
         # Purchase Item
-        AddTalkListDataIf(GetEventStatus(25009813) == 0, 20, 15010005, -1)
+        AddTalkListDataIf(GetEventStatus(25009850) == 0, 20, 15010005, -1)
         
         # Sell Item
         AddTalkListData(21, 15010006, -1)
