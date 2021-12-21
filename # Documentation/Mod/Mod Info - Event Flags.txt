@@ -2250,6 +2250,17 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009851 Boon features activated
 25009852 Malus features activated
 
+25009860 Malus flag 1
+25009861 Malus flag 2
+25009862 Malus flag 3
+25009863 Malus flag 4
+25009864 Malus flag 5
+25009865 Malus flag 6
+25009866 Malus flag 7
+25009867 Malus flag 8
+25009868 Malus flag 9
+25009869 Malus flag 10
+
 #------------------------
 # Other
 #------------------------

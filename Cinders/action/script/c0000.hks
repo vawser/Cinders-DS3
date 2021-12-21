@@ -7515,7 +7515,7 @@ function Rolling_onUpdate()
     
     -- Devil's Trumpet
     if env(1116, 116200) == TRUE then
-        base_move_mult = base_move_mult + 3.0
+        base_move_mult = base_move_mult + 1.0
     end 
     
     -- Trio of Explorers Boon
