@@ -367,6 +367,9 @@ def t350500_x20():
         # Static Field
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3830000, 4, 1, 0) == 1, 51, 99047050, -1)
         
+        # Tailwind
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3831000, 4, 1, 0) == 1, 52, 99047051, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -572,6 +575,10 @@ def t350500_x20():
         # Lingering Static Field
         elif GetTalkListEntryResult() == 51:
             assert t350500_x50(82500, 1090, 9, -10, 99048050, 99049050, 99040020)
+            continue
+        # Lingering Tailwind
+        elif GetTalkListEntryResult() == 52:
+            assert t350500_x50(82510, 1090, 9, -10, 99048051, 99049051, 99040020)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

@@ -7893,6 +7893,11 @@ function Move_onUpdate()
         base_move_mult = base_move_mult + 0.1
     end
     
+    -- Tailwind
+    if env(1116, 112800) == TRUE or env(1116, 112801) == TRUE then
+        base_move_mult = base_move_mult + 0.2
+    end
+    
     -- Fool's Sigil
     if IsFoolsSigil() == TRUE then
         -- Randomise movement speed

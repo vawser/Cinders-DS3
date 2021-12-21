@@ -90,6 +90,7 @@ Finish following weapons:
  
 # Spells
 - Blood Orb is now transposed from the Soul of the Maiden.
+- Added Tailwind: boosts movement speed by 20% for 30 seconds. Ascends into Lingering Tailwind, extends duration to 45 seconds.
 
 # Infusions
 - Shield and Catalysts infusions now use Magical Essence to infuse/revert infusions.
@@ -119,6 +120,9 @@ Finish following weapons:
 
 - Greirat now sells:
  - Henbane
+
+- Dragon Remnants covenant now sells:
+ - Tailwind
 
 # Bosses
 - Fallen Protector
