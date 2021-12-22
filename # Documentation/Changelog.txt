@@ -68,13 +68,17 @@ Finish following weapons:
 - Adjusted Wanderer mode:
  - Each boss now grants both a baseline damage boost and an unique bonus based on them as a boss.
  - Progression is now represented via items called Boons, found in the key item category. These are what 'give' you the bonus for each boss killed in Wanderer mode.
-
+ - Note that the effect is only given if you are in a mode that enables Lessons of the Wanderer.
+ 
 # Transformations
 - Added Perspective Transformations:
  - Allows you to adjust your camera FOV and distance with Jiji.
 
 - Weapon Emissions:
  - Added Pale Magic emission.
+ 
+- Armor Transformations:
+ - Added Dragonform (DS1) transform.
 
 # Achievements
 - Sword and Board now only requires you not to roll or backstep.
@@ -157,3 +161,7 @@ Add Solaire as summon to Soul of Cinder
 Yhorm the Giant: remove the silly rockstorm, perhaps add some firey bullets to adds. Add minor mechanic that summons in Siegward irrespective of the quest.
 The Marauder: add more red fire flair to attacks, perhaps add healing bonfire mechanic, where you need to destroy the bonfire to stop it healing the Marauder
 
+1020000
+
+24006774 Head - Dragonform DS1
+24007774 Body - Dragonform DS1

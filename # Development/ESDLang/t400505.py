@@ -1979,6 +1979,9 @@ def t400505_x70():
         # Dragonform (DS3)
         AddTalkListData(2, 99097100, -1)
 
+        # Dragonform (DS1)
+        AddTalkListData(14, 99097374, -1)
+        
         # Bloodborne Hunter
         AddTalkListData(3, 99097101, -1)
 
@@ -2093,6 +2096,12 @@ def t400505_x70():
         elif GetTalkListEntryResult() == 13:
             assert t400505_x51()
             SetEventState(24007244, 1)
+            assert t400505_x50(15003120)
+            continue
+        # Dragonfrom (DS1)
+        elif GetTalkListEntryResult() == 14:
+            assert t400505_x51()
+            SetEventState(24007274, 1)
             assert t400505_x50(15003120)
             continue
         # Leave
@@ -4659,6 +4668,9 @@ def t400505_x80():
         # Dragonform (DS3)
         AddTalkListData(2, 99097100, -1)
 
+        # Dragonform (DS1)
+        AddTalkListData(14, 99097374, -1)
+        
         # Bloodborne Hunter
         AddTalkListData(3, 99097101, -1)
 
@@ -4764,6 +4776,12 @@ def t400505_x80():
         elif GetTalkListEntryResult() == 12:
             assert t400505_x52()
             SetEventState(24007744, 1)
+            assert t400505_x50(15003120)
+            continue
+        # Dragonform (DS1)
+        elif GetTalkListEntryResult() == 14:
+            assert t400505_x52()
+            SetEventState(24007774, 1)
             assert t400505_x50(15003120)
             continue
         # Leave

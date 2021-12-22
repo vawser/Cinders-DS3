@@ -7720,6 +7720,13 @@ Event(20280, Default, function() {
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007273);
     ClearSpEffect(10000, 160706620);
     
+    // Dragonform DS1
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007274);
+    SetSpEffect(10000, 160703210);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007274);
+    ClearSpEffect(10000, 160703210);
+    
     EndUnconditionally(EventEndType.Restart);
 });
 
@@ -9198,6 +9205,13 @@ Event(20290, Default, function() {
 
     SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007773);
     ClearSpEffect(10000, 160706621);
+    
+    // Dragonform DS1
+    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 24007774);
+    SetSpEffect(10000, 160703211);
+
+    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 24007774);
+    ClearSpEffect(10000, 160703211);
     
     EndUnconditionally(EventEndType.Restart);
 });
