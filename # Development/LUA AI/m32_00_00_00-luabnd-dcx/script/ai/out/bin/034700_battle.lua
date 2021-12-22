@@ -39,11 +39,13 @@ Goal.Activate = function (self, ai, goal)
     ----------------------------------
     -- Act Distribution
     ----------------------------------
-    if distance >= 2 then
+    if distance >= 6 then
         actChanceList[1] = 0 -- Right Light Attack + Approach
         actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Stance -> Slide
+        actChanceList[6] = 0 -- WA: Stance -> Punch
         
         actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
@@ -52,17 +54,40 @@ Goal.Activate = function (self, ai, goal)
         actChanceList[14] = 0 -- Back Roll + Basic Light Attack
         actChanceList[15] = 0 -- Strafe
         actChanceList[16] = 0 -- Backstep
-        actChanceList[17] = 20 -- Approach
+        actChanceList[17] = 100 -- Approach
         
         actChanceList[20] = 0 -- Use Item (Slot 0) - Spellbound Draconic Fire
         actChanceList[21] = 0 -- Use Item (Slot 1) - Spellbound Draconic Might
         actChanceList[22] = 0 -- Use Item (Slot 2) - Spellbound Draconic Fire Orbs
         actChanceList[23] = 0 -- Use Item (Slot 3) - Spellbound Draconic Fury
-    else
-        actChanceList[1] = 25 -- Right Light Attack + Approach
-        actChanceList[2] = 15 -- Right Heavy Attack + Approach
+    elseif distance >= 3 then
+        actChanceList[1] = 0 -- Right Light Attack + Approach
+        actChanceList[2] = 0 -- Right Heavy Attack + Approach
         actChanceList[3] = 0 -- Kick + Approach
         actChanceList[4] = 0 -- Jump Attack + Approach
+        actChanceList[5] = 0 -- WA: Stance -> Slide
+        actChanceList[6] = 0 -- WA: Stance -> Punch
+        
+        actChanceList[10] = 0 -- Approach + Running Attack
+        actChanceList[11] = 0 -- Backstep Roll
+        actChanceList[12] = 0 -- Forward Roll + Run + Basic Light Attack
+        actChanceList[13] = 0 -- Side Roll + Run + Basic Light Attack
+        actChanceList[14] = 0 -- Back Roll + Basic Light Attack
+        actChanceList[15] = 0 -- Strafe
+        actChanceList[16] = 0 -- Backstep
+        actChanceList[17] = 50 -- Approach
+        
+        actChanceList[20] = 10 -- Use Item (Slot 0) - Spellbound Draconic Fire
+        actChanceList[21] = 10 -- Use Item (Slot 1) - Spellbound Draconic Might
+        actChanceList[22] = 10 -- Use Item (Slot 2) - Spellbound Draconic Fire Orbs
+        actChanceList[23] = 10 -- Use Item (Slot 3) - Spellbound Draconic Fury
+    else
+        actChanceList[1] = 20 -- Right Light Attack + Approach
+        actChanceList[2] = 10 -- Right Heavy Attack + Approach
+        actChanceList[3] = 5 -- Kick + Approach
+        actChanceList[4] = 5 -- Jump Attack + Approach
+        actChanceList[5] = 5 -- WA: Stance -> Slide
+        actChanceList[6] = 10 -- WA: Stance -> Punch
         
         actChanceList[10] = 0 -- Approach + Running Attack
         actChanceList[11] = 0 -- Backstep Roll
@@ -150,6 +175,8 @@ Goal.Activate = function (self, ai, goal)
     actFuncList[2] = REGIST_FUNC(ai, goal, NPC_DragonCultist_Act02) -- Right Heavy Attack + Approach
     actFuncList[3] = REGIST_FUNC(ai, goal, NPC_DragonCultist_Act03) -- Kick + Approach
     actFuncList[4] = REGIST_FUNC(ai, goal, NPC_DragonCultist_Act04) -- Jump Attack + Approach
+    actFuncList[5] = REGIST_FUNC(ai, goal, NPC_DragonCultist_Act05) -- WA: Stance -> Slide
+    actFuncList[6] = REGIST_FUNC(ai, goal, NPC_DragonCultist_Act06) -- WA: Stance -> Punch
     
     -- Utility
     actFuncList[10] = REGIST_FUNC(ai, goal, NPC_DragonCultist_Act10) -- Approach + Running Attack
@@ -182,6 +209,11 @@ function NPC_DragonCultist_Act01(self, ai, goal)
     
     local max_attack_distance = 1.0
     local roll_b   = 100
+    
+    -- Switch to 2H
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 1.0
@@ -258,6 +290,11 @@ function NPC_DragonCultist_Act02(self, ai, goal)
     local stamina = self:GetSp(TARGET_SELF)
     local max_attack_distance = 1.0
     local roll_c = 100
+    
+    -- Switch to 2H
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 1.0
@@ -342,6 +379,11 @@ function NPC_DragonCultist_Act03(self, ai, goal)
     local max_attack_distance = 1.0
     local roll_c = 0
     
+    -- Switch to 2H
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+    end
+    
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 1.0
         roll_c = 0
@@ -372,6 +414,11 @@ function NPC_DragonCultist_Act04(self, ai, goal)
     local max_attack_distance = 2.0
     local roll_c = 100
     
+    -- Switch to 2H
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+    end
+    
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 2.0
         roll_c = 0
@@ -400,6 +447,11 @@ function NPC_DragonCultist_Act10(self, ai, goal)
     local roll_b = self:GetRandam_Int(1, 100)
     local max_attack_distance = 2.0
     local const_a = 4
+    
+    -- Switch to 2H
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+    end
     
     if self:IsBothHandMode(TARGET_SELF) then
         max_attack_distance = 2.0
@@ -445,6 +497,76 @@ function NPC_DragonCultist_Act10(self, ai, goal)
         ai:AddSubGoal(GOAL_COMMON_DashTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, const_a)   -- Dash to Enemy
         ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_R2, TARGET_ENE_0, 999, 0, 0)               -- Right Heavy Attack + Approach
     end
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- WA: Stance -> Slide
+function NPC_EXAMPLE_Act07(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    local max_attack_distance = 10.0
+    
+    local start_approach_distance_close = 10.0
+    local start_approach_distance_mid = start_approach_distance_close + 0
+    local start_approach_distance_far = start_approach_distance_close + 2
+    
+    local roll_for_mid_distance_to_use_duration_far = 100
+    local roll_for_L1_use = 0
+    
+    local approach_duration_close = 1.8
+    local approach_duration_far = 2.0
+
+    local approach_anim = -1 -- NPC_ATK_L1Hold
+    
+    -- Switch to 2H to use primary WA
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+    end
+    
+    -- Approach if enemy exceeds approach distance
+    NPC_Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+    
+    -- WA
+    ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, approach_anim)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R1, TARGET_ENE_0, 999, 0, 0)
+    
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
+
+-- WA: Stance -> Punch
+function NPC_EXAMPLE_Act08(self, ai, goal)
+    local distance = self:GetDist(TARGET_ENE_0)
+    local stamina = self:GetSp(TARGET_SELF)
+    
+    local max_attack_distance = 3.0
+    
+    local start_approach_distance_close = 3.0
+    local start_approach_distance_mid = start_approach_distance_close + 0
+    local start_approach_distance_far = start_approach_distance_close + 2
+    
+    local roll_for_mid_distance_to_use_duration_far = 100
+    local roll_for_L1_use = 0
+    
+    local approach_duration_close = 1.8
+    local approach_duration_far = 2.0
+
+    local approach_anim = -1 -- NPC_ATK_L1Hold
+    
+    -- Switch to 2H to use primary WA
+    if not self:IsBothHandMode(TARGET_SELF) then
+        ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonTriangle, TARGET_ENE_0, 999, 0, 0)
+    end
+    
+    -- Approach if enemy exceeds approach distance
+    NPC_Approach_Act_Flex(self, ai, start_approach_distance_close, start_approach_distance_mid, start_approach_distance_far, roll_for_mid_distance_to_use_duration_far, roll_for_L1_use, approach_duration_close, approach_duration_far)
+    
+    -- WA
+    ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 3, TARGET_ENE_0, max_attack_distance, TARGET_SELF, false, approach_anim)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_L2Hold_R2, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -674,7 +796,7 @@ end
 function NPC_DragonCultist_Act20(self, ai, goal)
     self:ChangeEquipItem(0)
     
-    ai:AddSubGoal(GOAL_COMMON_ComboTunable_SuccessAngle180, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
+    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
     
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
@@ -695,7 +817,7 @@ function NPC_DragonCultist_Act22(self, ai, goal)
     self:ChangeEquipItem(2)
     
     ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, NPC_ATK_ButtonSquare, TARGET_ENE_0, 999, 0, 0)
-    
+
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end

@@ -140,6 +140,9 @@ Finish following weapons:
  - Added a visual effect to the teleport moves.
  - Changed the spells used by the Fallen Protector and the Fair Maiden to be blood themed. Unlike Blood Miracles, they do not inflict Bleed, only Dark damage.
 
+# Enemies
+- Dragon Cultists now use the DS1 dragonform and use the flashier Caestus moveset for their punch attacks.
+
 # Transformations
 - Added "Infusion" weapon emission for the right-hand.
  - The visual emission used will be determined by the infusion in the right-hand.
