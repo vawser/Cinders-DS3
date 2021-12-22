@@ -1663,6 +1663,17 @@
 #---- Lingering Static Field
 - Increases duration to 10 seconds.
 
+#--------------------------------
+# Tailwind
+#--------------------------------
+- FP Cost: 100
+- FTH Req: 26
+- Slot Use: 1
+- Base Effect: increases movement speed by 20% for 30 seconds.
+
+#---- Lingering Tailwind
+- Increases duration to 45 seconds.
+
 #--------------------------------------------------------------------------
 # Hexes - Offensive
 #--------------------------------------------------------------------------

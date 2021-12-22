@@ -139,7 +139,10 @@ Finish following weapons:
 # Bugfixes
 - Cleaned up old usage of the removed transformation items.
 - Fixed Slicing Wind not working when casted from the left hand.
-- Grufudd's Signet affix for +1 should now work correctly
+- Grufudd's Signet affix for +1 should now work correctly.
+- Fixed some item descriptions.
+- Added the explanation menu text to curse for weapons and ammunition.
+- Other stat menu text fixes.
 
 #------------------------------
 # TODO
