@@ -126,6 +126,7 @@
 22720 [Dragon Remnants] Bloodthirsty Draconic Fury
 22721 [Dragon Remnants] Squall
 22722 [Dragon Remnants] Gale Force
+22723 [Dragon Remnants] Tailwind
 22800 [Way of White] Holy Gem
 22801 [Way of White] Divine Blessing
 22802 [Way of White] Hidden Blessing
@@ -2985,6 +2986,8 @@
 803362 [Gauntlet Spell] Bloodthirsty Resonance
 803363 [Gauntlet Spell] Blood Orb
 803364 [Gauntlet Spell] Lingering Blood Orb
+803365 [Gauntlet Spell] Tailwind
+803366 [Gauntlet Spell] Lingering Tailwind
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal

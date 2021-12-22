@@ -591,6 +591,10 @@
 3830006 Static Field [Luck]
 3830010 Lingering Static Field
 3830016 Lingering Static Field [Luck]
+3831000 Tailwind
+3831006 Tailwind [Luck]
+3831010 Lingering Tailwind
+3831016 Lingering Tailwind [Luck]
 4099999 ### Hexes ###
 4100000 Deep Barb
 4100006 Deep Barb [Luck]

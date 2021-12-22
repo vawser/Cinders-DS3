@@ -2232,9 +2232,13 @@
 112570 [Behavior] Relic of Swiftness - Trigger
 112590 [Behavior] Weapon - Movement Speed Boost
 112591 [Behavior] Weapon - Jump Distance Boost
-112599 ### AI Behavior Trigger ###
-112600 Effect - Weapon Skill Cooldown
-112610 Effect - Disable AI
+112592 [Behavior] Twin Princes Boon - Shatter
+112593 [Behavior] Soul of Cinder Boon - Movement Speed
+112594 [Behavior] Trio of Explorers Boon - Roll Distance
+112610 [Behavior] Disable AI
+112620 [Behavior] Yhorm Malus
+112621 [Behavior] Nameless King Malus
+112622 [Behavior] Fallen Protector Malus
 112699 ### Critical Damage ###
 112700 [Behavior] Hornet Ring +0 - Trigger
 112701 [Behavior] Hornet Ring +1 - Trigger
@@ -2272,6 +2276,9 @@
 112753 [Behavior] Elden Ring +3 - Damage Boost
 112754 [Behavior] Elden Ring +4 - Damage Boost
 112755 [Behavior] Elden Ring +5 - Damage Boost
+112799 ### Spells ###
+112800 Tailwind
+112801 Lingering Tailwind
 112899 ### Misc ###
 112910 Firearm Parry Duration
 112920 Restraint: Roll
@@ -2309,6 +2316,7 @@
 113050 Seconds: 50
 113055 Seconds: 55
 113060 Cast and Character Action FP Pause
+113070 Malus: Extended Cooldown
 113099 ### FP Restoration ###
 113100 [Behavior] Restore FP - Base - 10 per second
 113101 [Behavior] Restore FP - Enchanted - 2 per second
@@ -4700,6 +4708,7 @@
 160601545 Wolf Ring+5
 160601740 Relic of Swiftness
 160601750 Relic of Protection
+160601760 Relic of Corruption
 160602000 Ring of Retaliation
 160602001 Ring of Retaliation - Kick
 160602002 Ring of Retaliation [CycleOccurance]
@@ -5568,6 +5577,8 @@
 160709175 Sunlight - Left
 160709180 Bolt - Right
 160709185 Bolt - Left
+160709190 Pale Magic - Right
+160709195 Pale Magic - Left
 160709349 ### Infusion Weapon Emission ###
 160709350 Infusion - Curse - Right
 160709351 Infusion - Poison - Right

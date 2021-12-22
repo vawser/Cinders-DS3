@@ -128,6 +128,10 @@ Finish following weapons:
  - Tailwind
 
 # Bosses
+- Cathedral Guardian:
+ - The horizontal swipe attacks now leave a trail of floating holy mines that explode after 2.5 seconds, dealing very low damage but pushing you down to the floor.
+ - The overhead vertical slams now emit wrath of the gods on impact with the ground.
+
 - Fallen Protector
  - Added a visual effect to the teleport moves.
  - Changed the spells used by the Fallen Protector and the Fair Maiden to be blood themed. Unlike Blood Miracles, they do not inflict Bleed, only Dark damage.

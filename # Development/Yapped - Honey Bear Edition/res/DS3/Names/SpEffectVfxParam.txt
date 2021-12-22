@@ -1017,6 +1017,7 @@
 75023 Body Emission - Smouldering
 75024 Eye Emission - Green Glow
 75025 Eye Emission - Purple Glow
+75026 Body Emission - Wind
 75100 Spell Summon - Restoration Ritual
 75110 Spell Summon - Ferverous Ritual
 76000 Body Aura - Psychedelic Phantom - Red
@@ -1086,6 +1087,8 @@
 76231 Weapon Emission - Brume - Left
 76232 Weapon Emission - Sunlight - Right
 76233 Weapon Emission - Sunlight - Left
+76234 Weapon Emission - Pale Magic - Right
+76235 Weapon Emission - Pale Magic - Left
 77000 Repel
 80000 Conjuration - Body Emission - Fire
 80001 Conjuration - Body Emission -
