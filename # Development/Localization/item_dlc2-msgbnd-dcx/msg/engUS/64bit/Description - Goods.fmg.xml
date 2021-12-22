@@ -2863,7 +2863,7 @@ This boon belonged to High Lord Wolnir.
 
 Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
 
-Boosts damage against Undead enemies by 10%.</text>
+Boosts damage against Undead enemies by 10% and prevents skeleton reassembly.</text>
 <text id="41007">A boon of strength given by a fallen great soul.
 This boon belonged to Old Demon King.
 
@@ -2881,13 +2881,13 @@ This boon belonged to Aldrich.
 
 Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
 
-Boosts Physical, Magic, Fire, Lightning and Dark defence by 10%.</text>
+Boosts Physical, Magic, Fire, Lightning and Dark defense by 10%.</text>
 <text id="41010">A boon of strength given by a fallen great soul.
 This boon belonged to Yhorm the Giant.
 
 Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
 
-Reduces weapon FP cost by 10%.</text>
+Reduces weapon art FP cost by 10%.</text>
 <text id="41011">A boon of strength given by a fallen great soul.
 This boon belonged to the Dancer of the Boreal Valley.
 
@@ -2941,7 +2941,7 @@ This boon belonged to Sister Friede.
 
 Boosts Physical, Magic, Fire, Lightning and Dark damage by 1%.
 
-Boosts Physical, Magic, Fire, Lightning and Dark defence by 100% whilst below 30% HP.</text>
+Boosts Physical, Magic, Fire, Lightning and Dark defense by 100% whilst below 30% HP.</text>
 <text id="41020">A boon of strength given by a fallen great soul.
 This boon belonged to the Demon Prince.
 
@@ -3196,7 +3196,7 @@ Reduces all damage by 25%.</text>
 This malus belonged to the Lordran Remnants.
 
 Ethereal Blows:
-Reduces all defences by 20%.</text>
+Reduces all defenses by 20%.</text>
 
 <text id="1200000">Variation of Soul Arrow developed
 by sorcerers of the Undead Legion of Farron.

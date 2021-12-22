@@ -836,9 +836,9 @@
 2108 Pharros Lockstone (Unassigned)
 2109 Old Branch of Yore (Unassigned)
 2110 Petrified Something
-2111 Bonfire Ascetic
-2112 Ash Knuckle Ring
-2113 Bracing Knuckle Ring
+2111 Bonfire Ascetic (Unassigned)
+2112 Ash Knuckle Ring (Unassigned)
+2113 Bracing Knuckle Ring (Unassigned)
 2114 Ring of Blades
 2115 Stone Ring
 2116 Giant's ring (Unassigned)
@@ -1378,7 +1378,7 @@
 3496 Ringed Knight T
 3497 USED
 3498 USED
-3499 Tiny Mass of Humanity
+3499 Tiny Mass of Humanity (Unassigned)
 3500 Halflight (F) T
 3501 Halflight (F) L
 3502 Desert Pyromancer (F) T
@@ -1610,7 +1610,7 @@
 4148 Lightning Arrow
 4149 Projected Heal
 4150 Shockwave
-4151 Tablet (Unassigned)
+4151 Boon Tablet
 4152 Focus Souls (Unassigned)
 4153 Soul Bolt (Unassigned)
 4154 Soul Flash (Unassigned)
@@ -1659,7 +1659,7 @@
 4197 Armor of the Bear
 4198 USED
 4199 USED
-4200 Hunter's Mark
+4200 Hunter's Mark (Unassigned)
 4201 Cannon
 4202 Church Cannon
 4203 Hunter's Pistol
@@ -1704,9 +1704,9 @@
 4242 Salvador's Hat
 4243 Snail Shell
 4244 Willem's Cap
-4245 Rattling Skull
-4246 Murky Skull
-4247 Hunter's Emblem
+4245 Rattling Skull (Unassigned)
+4246 Murky Skull (Unassigned)
+4247 Hunter's Emblem (Unassigned)
 4248 Accursed Sigil
 4249 Tainted Chalice
 4250 Lifegem
@@ -1977,10 +1977,10 @@
 6077 Primordial Slab
 6078 Beckoning Incense
 6079 Dark Dance
-6080 Forgotten Tablet
-6081 Demonic Claw
-6082 Forgotten Seal
-6083 Demonic Skull
+6080 Forgotten Tablet (Unassigned)
+6081 Demonic Claw (Unassigned)
+6082 Forgotten Seal (Unassigned)
+6083 Demonic Skull (Unassigned)
 6084 Pink Crystal (Unassigned)
 6085 Cinder (Unassigned)
 6086 Frost Gem

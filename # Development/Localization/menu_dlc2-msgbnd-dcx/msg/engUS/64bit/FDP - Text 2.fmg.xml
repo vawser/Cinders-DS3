@@ -307,16 +307,17 @@ lightning and bleeding.</text>
 Also determines number of
 attunement slots.</text>
 <text id="30403">Attribute required to wield powerful and
-heavy weapons. Also governs resistance
-to fire and improves attack strength.</text>
+heavy weapons. Also governs physical and 
+fire defense, improves attack strength and 
+improves the stability of certain weapons.</text>
 <text id="30404">Attribute required to wield advanced
 weapons. Also improves attack strength,
-reduces spellcasting time, and reduces
-damage taken when falling.</text>
-<text id="30405">Attribute governing physical defense,
-though this is also affected by other
-attributes. Also governs maximum
-equip load and poison resistance.</text>
+reduces spellcasting time, and improves 
+the guard absorption of certain weapons.</text>
+<text id="30405">Attribute governing physical defense. 
+Also governs maximum equip load, 
+poison and toxic resistances and 
+reduces damage taken when falling.</text>
 <text id="30406">Attribute required to cast sorceries and
 pyromancies. Increases spell potency.
 (Pyromancy is affected by both faith
@@ -328,15 +329,16 @@ pyromancies. Increases spell potency.
 and intelligence.) Dark defense is
 also calculated from this attribute.</text>
 <text id="30408">%null%</text>
-<text id="30409">Attribute governing item discovery.
+<text id="30409">Attribute governing item discovery 
+and the damage of throwable items.
 Also governs resistance to curses.</text>
 <text id="30500">One's mettle, or will to live.
 Character dies when this reaches zero.
 Use the Estus Flask,
 or rest at a bonfire to replenish.</text>
 <text id="30501">Required to use spells and Skills. 
-Use the Ashen Estus Flask,
-or rest at a bonfire to replenish.</text>
+Depletes when actions are taken,
+but recovers automatically.</text>
 <text id="30502">Required for various actions.
 Depletes when actions are taken,
 but recovers automatically.</text>
