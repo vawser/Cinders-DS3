@@ -95,7 +95,7 @@ def t330360_x5():
     """ State 5 """
     # lot:62600:Blue Sentinels
     assert t330360_x4(lot1=62600)
-    SetEventState(25009730, 1)
+    SetEventState(25009730, 1) # Knight Lun appears
     """ State 6 """
     return 0
 

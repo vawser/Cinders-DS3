@@ -515,11 +515,11 @@ def t400260_x20():
         else:
             """ State 2 """
             SetEventState(74000371, 0)
-            SetEventState(740001090, 0)
+            SetEventState(74000372, 0)
             SetEventState(74000373, 0)
             """ State 7 """
             # talk:26002300: 
-            assert t400260_x3(text3=26002300, z3=740001090, flag3=0, mode3=1)
+            assert t400260_x3(text3=26002300, z3=74000372, flag3=0, mode3=1)
     else:
         """ State 5 """
         if not GetEventStatus(74000373):
@@ -529,7 +529,7 @@ def t400260_x20():
         else:
             """ State 1 """
             SetEventState(74000371, 0)
-            SetEventState(740001090, 0)
+            SetEventState(74000372, 0)
             SetEventState(74000373, 0)
             """ State 9 """
             # talk:26002500:Please, stop this, sweet Champion!

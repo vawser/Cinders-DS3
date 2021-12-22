@@ -138,6 +138,7 @@ def t310311_x7(z5=_, z6=_, flag6=_):
 
 def t310311_x8():
     """ State 0,1 """
+	# QDEBUG: WAS 13100500
     if not GetEventStatus(13100831):
         """ State 2 """
         # talk:31000300:Hmm... Mmm..., talk:31000400:On some days, I begin to doubt myself., talk:31000500:I could try talking some sense into him...

@@ -124,7 +124,7 @@ def t400190_x6(lot1=_):
     """ State 2 """
     return 0
 
-def t400190_x7(z1=_, z2=_, flag1=_):
+def t400190_x7(z1=28, z2=9029, flag1=6078):
     """ State 0,1 """
     if GetEventStatus(flag1) == 1:
         """ State 2 """

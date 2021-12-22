@@ -692,6 +692,10 @@ Event(700, Default, function() {
     SetEventFlag(50006020, ON); // Firelink Shrine Music - Eyes of a Fire Keeper turns this OFF 
     SetEventFlag(9215, ON);     // Firelink Shrine - Lit    
     
+	SetEventFlag(70000125, ON);
+    SetEventFlag(70000128, ON);
+    SetEventFlag(70000129, ON);
+
     IfPlayersClass(OR_15, 18);
     SkipIfConditionGroupStateUncompiled(1, FAIL, OR_15);
     SetEventFlag(74000587, ON); // Is Sorcerer class
@@ -1682,18 +1686,26 @@ Event(9103, Default, function(X0_4) {
 Event(9104, Default, function(X0_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     SetEventFlag(X0_4, OFF);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 1301); 
+    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 1301);
     IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 1303);
     IfConditionGroup(AND_01, PASS, OR_01);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1295); // "Passive"
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1298); // "Killed"
+    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1295);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 73101710);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 73101720);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 73101730);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 73101740);
+    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 73101750);
     IfConditionGroup(MAIN, PASS, AND_01);
     SetEventFlag(X0_4, ON);
     IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 1301);
     IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 1303);
     IfConditionGroup(AND_02, PASS, OR_02);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 1295); // "Passive"
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1298); // "Killed"
+    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, 1295);
+    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 73101710);
+    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 73101720);
+    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 73101730);
+    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 73101740);
+    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 73101750);
     IfConditionGroup(MAIN, FAIL, AND_02);
     EndUnconditionally(EventEndType.Restart);
 });
