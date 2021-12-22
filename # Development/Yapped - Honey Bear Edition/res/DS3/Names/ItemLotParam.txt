@@ -648,6 +648,7 @@
 82480 [Miracle] Weakening Gale Force
 82490 [Miracle] Explosive Cyclone Blast
 82500 [Miracle] Lingering Static Field
+82510 [Miracle] Lingering Tailwind
 83000 [Hex] Bloodthirsty Deep Barb
 83010 [Hex] Deep Overflow
 83020 [Hex] Weakening Deep Soul
@@ -734,6 +735,7 @@
 100020 Relic of Eternity
 100030 Relic of Sanctification
 100040 Titanite Slab
+100050 Relic of Corruption
 109999 ### Script - Memories ###
 110000 [Memory of Endurance - Easy] Titanite Shard
 110010 [Memory of Endurance - Normal] Large Titanite Shard
@@ -808,7 +810,7 @@
 121240 Malus of the Fallen Prince
 121250 Malus of the Guardian
 121260 Malus of the Mirror Knight
-121270 Corrption of Aborr
+121270 Malus of Aborr
 121280 Malus of the Princess
 121290 Malus of the Explorers
 121300 Malus of the Twisted Knight

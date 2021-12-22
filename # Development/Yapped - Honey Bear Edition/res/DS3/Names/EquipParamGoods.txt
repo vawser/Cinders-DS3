@@ -928,6 +928,8 @@
 3829010 Explosive Cyclone Blast
 3830000 Static Field
 3830010 Lingering Static Field
+3831000 Tailwind
+3831010 Lingering Tailwind
 4099999 ### Hexes ###
 4100000 Deep Barb
 4100010 Bloodthirsty Deep Barb
