@@ -3627,7 +3627,7 @@ However, the wearer is cursed, and will have 50% less HP.</text>
 <text id="30520">A ring of red stone.
 The stone is misshaped, however imperceptibly.
 
-Increases all melee damage by 10%.
+Taking damage will boost all damage dealt by 50% for 5 seconds.
 However, the wearer is cursed, and will have 50% less HP.</text>
 <text id="30521">%null%</text>
 <text id="30522">%null%</text>

@@ -1122,7 +1122,7 @@
 <text id="30504">Increases shield stability</text>
 <text id="30505">Increases shield stability</text>
 <text id="30510">Reduces the stamina cost of evasive movements, reduces max HP</text>
-<text id="30520">Increases all melee damage, reduces max HP</text>
+<text id="30520">Taking damage will boost all damage dealt massively for a short duration, reduces max HP</text>
 <text id="30530">Randomly deflects spells, reduces max HP</text>
 <text id="30540">Emits a confusion aura, allowing enemies to harm one another, reduces max HP</text>
 <text id="30560">Hits taken increase stamina recovery, and increases enemy target priority of player</text>

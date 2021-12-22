@@ -4862,6 +4862,13 @@ function ExecDamage(is_parry, is_attackwhileguard)
         end
     end
     
+    -- Cursed Ring of Vengeance
+    if env(1116, 115100) == TRUE then
+        if is_damaged == TRUE then
+            act(2002, 115101)
+        end
+    end
+    
     -- Redeye Ring
     if env(1116, 112520) == TRUE then
         act(2002, 112521)

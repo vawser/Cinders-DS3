@@ -94,6 +94,7 @@ Finish following weapons:
  
 # Rings
 - Relic of Corruption: Boosts all damage by 30%.
+- Cursed Ring of Vengeance: upon taking damage, boosts damage dealt to enemies by 50% for 5 seconds.
  
 # Spells
 - Blood Orb is now transposed from the Soul of the Maiden.
@@ -164,7 +165,3 @@ Add Solaire as summon to Soul of Cinder
 Yhorm the Giant: remove the silly rockstorm, perhaps add some firey bullets to adds. Add minor mechanic that summons in Siegward irrespective of the quest.
 The Marauder: add more red fire flair to attacks, perhaps add healing bonfire mechanic, where you need to destroy the bonfire to stop it healing the Marauder
 
-1020000
-
-24006774 Head - Dragonform DS1
-24007774 Body - Dragonform DS1
