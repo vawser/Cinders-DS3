@@ -142,6 +142,7 @@ Finish following weapons:
 
 # Bugfixes
 - Cleaned up old usage of the removed transformation items.
+- Fixed the appearance of Tomb Raider Dyfan and the Dragon Cultists.
 - Fixed Slicing Wind not working when casted from the left hand.
 - Grufudd's Signet affix for +1 should now work correctly.
 - Fixed some item descriptions.
