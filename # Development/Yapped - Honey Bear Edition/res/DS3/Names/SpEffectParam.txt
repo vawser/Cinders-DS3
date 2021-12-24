@@ -2478,6 +2478,8 @@
 115093 [Behavior] Sigil of Darkness+3 - Effect
 115094 [Behavior] Sigil of Darkness+4 - Effect
 115095 [Behavior] Sigil of Darkness+5 - Effect
+115100 [Behavior] Cursed Ring of Vengeance - Trigger
+115101 [Behavior] Cursed Ring of Vengeance - Vengeance Boost
 115999 ### Items ###
 116000 Lifegem - Trigger
 116001 Lifegem - Stack 1
@@ -5086,6 +5088,8 @@
 160703190 Skeleton (Overgrown) - Head
 160703191 Skeleton (Overgrown) - Body
 160703200 Wax Form - Head
+160703210 Dragonform (DS1) - Head
+160703211 Dragonform (DS1) - Body
 160703999 ### Armor Illusions ###
 160704000 Havel's - Head
 160704001 Havel's - Body
@@ -5784,6 +5788,7 @@
 160741900 Mirror Knight - Phantom Setup
 160741901 Mirror Knight - Immunity
 160741902 Mirror Knight - Phantom Cleanup
+160741903 Mirror Knight - Weapon Buff Effect VFX
 160742000 Princess Yngvil - Kneeling Stage
 160742010 Akseliane - HP Removal
 160742300 Cathedral Guardian - Immunity
@@ -6689,6 +6694,7 @@
 260110131 Twisted Knight
 260110132 Fallen Protector
 260110133 The Marauder
+260110200 Aldrich, Devourer of Gods [DeathOccurance]
 260110999 ### Malus ###
 260111000 Corrupted Gundyr
 260111001 Vordt of the Boreal Valley

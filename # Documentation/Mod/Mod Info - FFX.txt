@@ -338,6 +338,9 @@ dmy:
 906000 Fallen Protector Teleport
 
 907000 Cathedral Guardian Holy Mine
+907100 Cathedral Guardian Holy Mine [Hit]
+
+908000 Mirror Knight Lightning Weapon Buff
 
 #------------------------
 # Frostfall

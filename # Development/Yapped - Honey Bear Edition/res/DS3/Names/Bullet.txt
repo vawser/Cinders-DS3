@@ -1445,23 +1445,10 @@
 3140770 [Ancient Wyvern] ?
 3160700 [Dragonslayer Armour] Wind Shockwave
 3161700 [Cathedral Guardian] Wrath of the Gods
-3161710 [Cathedral Guardian] Trail of Wrath
-3161711 [Cathedral Guardian] Trail of Wrath - Explosion
-3161712 [Cathedral Guardian] Trail of Wrath [Hit]
-3161713 [Cathedral Guardian] Trail of Wrath [Hit]
-3161714 [Cathedral Guardian] Trail of Wrath [Hit]
-3161715 [Cathedral Guardian] Trail of Wrath [Hit]
-3161716 [Cathedral Guardian] Trail of Wrath [Hit]
-3161717 [Cathedral Guardian] Trail of Wrath [Hit]
-3161718 [Cathedral Guardian] Trail of Wrath [Hit]
-3161719 [Cathedral Guardian] Trail of Wrath [Hit]
-3161720 [Cathedral Guardian] Trail of Wrath [Hit]
-3161721 [Cathedral Guardian] Trail of Wrath [Hit]
-3161722 [Cathedral Guardian] Trail of Wrath [Hit]
-3161723 [Cathedral Guardian] Trail of Wrath [Hit]
-3161724 [Cathedral Guardian] Trail of Wrath [Hit]
 3161800 [Cathedral Guardian] Floating Holy Mine
 3161801 [Cathedral Guardian] Floating Holy Mine [Hit]
+3162400 [Mirror Knight] Thunder Strike
+3162500 [Mirror Knight] Shield Spell Deflect
 3210020 [Poisonhorn Bug] Toxic Mist
 3220040 [Rock Lizard] Flame Breath
 3230010 [?] ?
@@ -3474,6 +3461,7 @@
 104931650 Carthus Shotel
 104999999 ### Spells ###
 105002000 [Sorcery] Soul Wave
+105002001 [Sorcery] Soul Wave [Hit]
 105002100 [Sorcery] Swift Soul Wave
 105003000 [Sorcery] Mass Hidden Body
 105004100 [Miracle] Halo
@@ -3997,6 +3985,7 @@
 109577110 [Miracle] Bloodthirsty Squall
 109577120 [Miracle] Bloodthirsty Squall [Hit]
 109578000 [Miracle] Slicing Wind
+109578001 [Miracle] Slicing Wind [Hit]
 109578100 [Miracle] Swift Slicing Wind
 109579000 [Miracle] Gale Force
 109579100 [Miracle] Weakening Gale Force
@@ -4083,8 +4072,7 @@
 210002101 Hands of God - Emit Force [Hit]
 210003000 King's Mirror - Reflect Spells
 210004010 Thorned Greatsword - Lightning Imbue
-210004020 Thorned Greatsword - Stomp - Sunlight Spear
-210004021 Thorned Greatsword - Stomp - Sunlight Spear - Sparks
+210004020 Thorned Greatsword - Thunder Strike
 210005000 Breaking Wheel - Power Within
 210006000 Crystal Ring Shield - Unleash Moonlight [Hit]
 210007000 Runelock - Shield Bash - Bullet

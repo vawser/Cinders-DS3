@@ -6,6 +6,10 @@
 1011000 DS2 Dragon Body
 1012000 DS2 Dragon Arms
 1013000 DS2 Dragon Legs
+1020000 DS1 Dragon Head
+1021000 DS1 Dragon Body
+1022000 DS1 Dragon Arms
+1023000 DS1 Dragon Legs
 1120000 Skeleton Head
 1121000 Skeleton Body
 1122000 Skeleton Hands
