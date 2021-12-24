@@ -137,7 +137,7 @@ Finish following weapons:
  - Changed the spells used by the Fallen Protector and the Fair Maiden to be blood themed. Unlike Blood Miracles, they do not inflict Bleed, only Dark damage.
 
 - Mirror Knight
- - Changed the lightning to blue lightning (right now it's yellow + blue).
+ - Changed the lightning to blue lightning.
  - The overhead vertical slams and two handed jump attack emit a thunder strike on impact with the ground.
  - His block and shield bash attacks can now deflect spells.
  
