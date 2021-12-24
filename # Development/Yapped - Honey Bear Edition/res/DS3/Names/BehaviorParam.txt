@@ -2597,6 +2597,45 @@
 231610700 [Cathedral Guardian] Wrath of the Gods
 231610800 [Cathedral Guardian] Floating Holy Mine
 231610900 [Cathedral Guardian] Guard
+231620010 [Mirror Knight] advancethe
+231620020 [Mirror Knight] Crossing _1
+231620021 [Mirror Knight] cross-stage
+231620030 [Mirror Knight] Shield bash
+231620031 [Mirror Knight] Axe Swing
+231620040 [Mirror Knight] Axe turned attack
+231620041 [Mirror Knight]
+231620050 [Mirror Knight] Shield turned attack
+231620060 [Mirror Knight]
+231620061 [Mirror Knight]
+231620070 [Mirror Knight]
+231620080 [Mirror Knight]
+231620090 [Mirror Knight]
+231620100 [Mirror Knight]
+231620110 [Mirror Knight]
+231620120 [Mirror Knight]
+231620130 [Mirror Knight]
+231620131 [Mirror Knight]
+231620140 [Mirror Knight]
+231620150 [Mirror Knight]
+231620160 [Mirror Knight]
+231620170 [Mirror Knight]
+231620180 [Mirror Knight]
+231620190 [Mirror Knight]
+231620200 [Mirror Knight] Heat up - Jump Shield knocked back against
+231620210 [Mirror Knight] Heat up - Derived Sword
+231620220 [Mirror Knight] Heat up - Shield knocked back against
+231620230 [Mirror Knight] Heat up - Shield Bash added
+231620240 [Mirror Knight] Heat up - Shield Combo 1
+231620250 [Mirror Knight] Heat up - Shield guillotine
+231620260 [Mirror Knight] Heat up - Gurdcancell Bash
+231620270 [Mirror Knight] Arts _ Rush Dragon Hunt: Assault
+231620280 [Mirror Knight] arts _ extensive whack
+231620290 [Mirror Knight] the Arts _ Shockwave: Axe
+231620300 [Mirror Knight] arts _ Jump Guillotine
+231620400 [Mirror Knight] Thunder Strike
+231620500 [Mirror Knight] Shield Spell Deflect
+231620700 [Mirror Knight] Shockwave
+231620900 [Mirror Knight] Guard
 231700010 [Darkwraith] Slashing 1
 231700011 [Darkwraith] Slashing 2
 231700012 [Darkwraith] Slashing 3

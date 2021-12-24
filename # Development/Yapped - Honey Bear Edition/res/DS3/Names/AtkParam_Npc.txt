@@ -2344,8 +2344,46 @@
 3161290 [Cathedral Guardian]
 3161300 [Cathedral Guardian]
 3161700 [Cathedral Guardian] Wrath of the Gods
-3161710 [Cathedral Guardian] Mini-Explosion
 3161800 [Cathedral Guardian] Floating Holy Mine
+3162010 [Mirror Knight] advancethe
+3162020 [Mirror Knight] Crossing _1
+3162021 [Mirror Knight] cross-stage
+3162030 [Mirror Knight] Shield bash
+3162031 [Mirror Knight] Axe Swing
+3162040 [Mirror Knight] Axe turned attack
+3162041 [Mirror Knight]
+3162050 [Mirror Knight] Shield turned attack
+3162060 [Mirror Knight]
+3162061 [Mirror Knight]
+3162070 [Mirror Knight]
+3162080 [Mirror Knight]
+3162090 [Mirror Knight]
+3162100 [Mirror Knight]
+3162110 [Mirror Knight]
+3162120 [Mirror Knight]
+3162130 [Mirror Knight]
+3162131 [Mirror Knight]
+3162140 [Mirror Knight]
+3162150 [Mirror Knight]
+3162160 [Mirror Knight]
+3162170 [Mirror Knight]
+3162180 [Mirror Knight]
+3162190 [Mirror Knight]
+3162200 [Mirror Knight] Heat up - Jump Shield knocked back against
+3162210 [Mirror Knight] Heat up - Derived Sword
+3162220 [Mirror Knight] Heat up - Shield knocked back against
+3162230 [Mirror Knight] Heat up - Shield Bash added
+3162240 [Mirror Knight] Heat up - Shield Combo 1
+3162250 [Mirror Knight] Heat up - Shield guillotine
+3162260 [Mirror Knight] Heat up - Gurdcancell Bash
+3162270 [Mirror Knight] Arts _ Rush Dragon Hunt: Assault
+3162280 [Mirror Knight] arts _ extensive whack
+3162290 [Mirror Knight] the Arts _ Shockwave: Axe
+3162300 [Mirror Knight] arts _ Jump Guillotine
+3162400 [Mirror Knight] Thunder Strike
+3162500 [Mirror Knight] Shield Spell Deflect
+3162700 [Mirror Knight] Shockwave
+3162900 [Mirror Knight] Guard
 3170010 [Darkwraith] Slashing 1
 3170011 [Darkwraith] Slashing 2
 3170012 [Darkwraith] Slashing 3

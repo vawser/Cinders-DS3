@@ -486,6 +486,7 @@
 50591 [Princess Yngvil] Blizzard Sound
 50592 [Princess Yngvil] Blizzard Sound
 50593 [Princess Yngvil] Mini-Boss Trio Enhance
+51000 Mirror Knight - Weapon Buff Effect VFX
 60100 Sister Friede -
 60110 Sister Friede -
 62000 Slave Knight Gael -
@@ -991,6 +992,8 @@
 72720 Mirrah Hat - Head
 72730 Smelter Demon (Alt) - Head
 72731 Smelter Demon (Alt) - Body
+72740 DS1 Dragonform - Head
+72741 DS1 Dragonform - Body
 75000 Head Emission - Mass of Humanity
 75001 Eye Emission - Red Glow
 75002 Body Emission - Magical Crystals

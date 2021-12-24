@@ -70,16 +70,6 @@ Finish following weapons:
  - Progression is now represented via items called Boons, found in the key item category. These are what 'give' you the bonus for each boss killed in Wanderer mode.
  - Note that the effect is only given if you are in a mode that enables Lessons of the Wanderer.
  
-# Transformations
-- Added Perspective Transformations:
- - Allows you to adjust your camera FOV and distance with Jiji.
-
-- Weapon Emissions:
- - Added Pale Magic emission.
- 
-- Armor Transformations:
- - Added Dragonform (DS1) transform.
-
 # Achievements
 - Sword and Board now only requires you not to roll or backstep.
 - Changed the achievement detection for Sword and Board so it will only every fail if you roll or backstep.
@@ -92,6 +82,9 @@ Finish following weapons:
  - Once the achievement is completed, all maluses will be removed.
  - You are awarded the Relic of Corruption upon completion.
  
+# Weapons
+- Changed the Lightning Stomp weapon art.
+
 # Rings
 - Relic of Corruption: Boosts all damage by 30%.
 - Cursed Ring of Vengeance: upon taking damage, boosts damage dealt to enemies by 50% for 5 seconds.
@@ -99,6 +92,8 @@ Finish following weapons:
 # Spells
 - Blood Orb is now transposed from the Soul of the Maiden.
 - Added Tailwind: boosts movement speed by 20% for 30 seconds. Ascends into Lingering Tailwind, extends duration to 45 seconds.
+- Removed the wall penetration of Slicing Wind.
+- Tweaked Soul Wave's hit radius.
 
 # Infusions
 - Shield and Catalysts infusions now use Magical Essence to infuse/revert infusions.
@@ -141,18 +136,33 @@ Finish following weapons:
  - Added a visual effect to the teleport moves.
  - Changed the spells used by the Fallen Protector and the Fair Maiden to be blood themed. Unlike Blood Miracles, they do not inflict Bleed, only Dark damage.
 
+- Mirror Knight
+ - Changed the lightning to blue lightning (right now it's yellow + blue).
+ - The overhead vertical slams and two handed jump attack emit a thunder strike on impact with the ground.
+ - His block and shield bash attacks can now deflect spells.
+ 
 # Enemies
 - Dragon Cultists now use the DS1 dragonform and use the flashier Caestus moveset for their punch attacks.
 
 # Transformations
-- Added "Infusion" weapon emission for the right-hand.
- - The visual emission used will be determined by the infusion in the right-hand.
+- Added Perspective Transformations:
+ - Allows you to adjust your camera FOV and distance with Jiji.
+
+- Weapon Emissions:
+ - Added Pale Magic emission.
+ - Added "Infusion" weapon emission for the right-hand.
+  - The visual emission used will be determined by the infusion in the right-hand.
+ 
+- Armor Transformations:
+ - Added Dragonform (DS1) transform.
 
 # Bugfixes
 - Cleaned up old usage of the removed transformation items.
 - Fixed the appearance of Tomb Raider Dyfan and the Dragon Cultists.
 - Fixed Slicing Wind not working when casted from the left hand.
 - Grufudd's Signet affix for +1 should now work correctly.
+- Fixed Explosive Crystal Orb's name.
+- Removed the loud noises of Slicing Wind.
 - Fixed some item descriptions.
 - Added the explanation menu text to curse for weapons and ammunition.
 - Other stat menu text fixes.
