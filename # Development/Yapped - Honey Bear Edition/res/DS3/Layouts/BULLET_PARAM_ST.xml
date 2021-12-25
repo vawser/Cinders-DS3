@@ -17,6 +17,7 @@
     <item value="7" name="Petrify" />
     <item value="8" name="Crystallize" />
     <item value="9" name="Dark" />
+    <item value="10" name="Blue Lightning" />
     <item value="255" name="None" />
   </enum>
   <enum name="LaunchType" type="u8">

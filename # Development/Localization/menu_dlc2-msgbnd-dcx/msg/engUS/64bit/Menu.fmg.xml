@@ -4933,21 +4933,11 @@ All Maluses will be cleansed.</text>
 <text id="99093404">Stormageddon has been completed.</text>
 <text id="99093405">Master of Corruption has been completed.</text>
 
-<text id="99093500">Defying Death has failed.
-
-Can be reset via Request Absolution.</text>
-<text id="99093501">Untouchable has failed.
- 
-Can be reset via Request Absolution.</text>
-<text id="99093502">Flameless has failed.
- 
-Cannot be reset via Request Absolution.</text>
-<text id="99093503">Sword and Board has failed.
- 
-Can be reset via Request Absolution.</text>
-<text id="99093504">Stormageddon has failed.
- 
-Can be reset via Request Absolution.</text>
+<text id="99093500">Defying Death has failed.</text>
+<text id="99093501">Untouchable has failed.</text>
+<text id="99093502">Flameless has failed.</text>
+<text id="99093503">Sword and Board has failed.</text>
+<text id="99093504">Stormageddon has failed.</text>
 
 <text id="99094000">Journey Type</text>
 <text id="99094001">Journey Progression</text>
