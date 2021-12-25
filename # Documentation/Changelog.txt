@@ -162,6 +162,8 @@ Finish following weapons:
 - Fixed Slicing Wind not working when casted from the left hand.
 - Grufudd's Signet affix for +1 should now work correctly.
 - Fixed Explosive Crystal Orb's name.
+- Removed the failed achievements menu text mentioning reseting the achievement through absolution.
+- Changed some on hit lightning visual effects to blue.
 - Removed the loud noises of Slicing Wind.
 - Fixed some item descriptions.
 - Added the explanation menu text to curse for weapons and ammunition.

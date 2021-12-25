@@ -264,6 +264,7 @@
     <item value="7" name="7 - Petrify" />
     <item value="8" name="8 - Crystallize" />
     <item value="9" name="9 - Dark" />
+    <item value="10" name="10 - Blue Lightning" />
   </enum>
   <enum name="DamageLevel" type="u8">
     <item value="0" name="0 - None" />
