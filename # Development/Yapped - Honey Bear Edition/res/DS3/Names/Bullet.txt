@@ -3900,13 +3900,14 @@
 109565040 [Pyromancy] Black Star
 109565050 [Pyromancy] Black Star
 109565060 [Pyromancy] Black Star [Hit]
-109565100 [Pyromancy] Adjacent Black Star
-109565110 [Pyromancy] Adjacent Black Star
-109565120 [Pyromancy] Adjacent Black Star
-109565130 [Pyromancy] Adjacent Black Star [Hit]
-109565140 [Pyromancy] Adjacent Black Star
-109565150 [Pyromancy] Adjacent Black Star
-109565160 [Pyromancy] Adjacent Black Star [Hit]
+109565100 [Pyromancy] Homing Black Star
+109565105 [Pyromancy] Homing Black Star
+109565110 [Pyromancy] Homing Black Star
+109565120 [Pyromancy] Homing Black Star
+109565130 [Pyromancy] Homing Black Star [Hit]
+109565140 [Pyromancy] Homing Black Star
+109565150 [Pyromancy] Homing Black Star
+109565160 [Pyromancy] Homing Black Star [Hit]
 109566000 [Pyromancy] Geyser
 109566010 [Pyromancy] Geyser
 109566020 [Pyromancy] Geyser [Hit]

@@ -65,6 +65,9 @@ Finish following weapons:
 # Weapons
 - Adjusted the base damage and weapon art damage multipliers of several spell tools.
 
+# Spells
+- Changed Adjacent Black Star to Homing Black Star.
+
 # Bugfixes
 - Slicing Wind should properly work now.
 - Fixed the grab of the Abyss Walker.

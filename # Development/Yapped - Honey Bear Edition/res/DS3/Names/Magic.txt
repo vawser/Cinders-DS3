@@ -774,8 +774,8 @@
 4317016 Lingering Blood Orb [Luck]
 4318000 Black Star
 4318006 Black Star [Luck]
-4318010 Adjacent Black Star
-4318016 Adjacent Black Star [Luck]
+4318010 Homing Black Star
+4318016 Homing Black Star [Luck]
 4319000 Blood Corruption
 4319006 Blood Corruption [Luck]
 4319010 Great Blood Corruption
