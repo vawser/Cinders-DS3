@@ -62,6 +62,12 @@ Finish following weapons:
 # Changelog
 #------------------------------
 
+# Weapons
+- Adjusted the base damage and weapon art damage multipliers of several spell tools.
+
+# Bugfixes
+- Slicing Wind should properly work now.
+- Fixed the grab of the Abyss Walker.
 
 #------------------------------
 # TODO
