@@ -211,6 +211,9 @@ Great Geyser 121951
 Heave Earth 122000
 Homing Heave Earth 122001
 
+Maelstrom 122050
+Lingering Maelstrom 122051
+
 Earthquake 122100
 Quickened Earthquake 122101
 

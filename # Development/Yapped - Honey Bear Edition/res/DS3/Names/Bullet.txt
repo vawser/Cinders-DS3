@@ -4005,6 +4005,168 @@
 109583010 [Miracle] Blood Crystallization [Hit]
 109583100 [Miracle] Great Blood Crystallization
 109583110 [Miracle] Great Blood Crystallization [Hit]
+109584000 [Pyromancy] Maelstrom Inner Front Spawner
+109584010 [Pyromancy] Maelstrom Inner Back Spawner
+109584020 [Pyromancy] Maelstrom Outer Right Spawner
+109584030 [Pyromancy] Maelstrom Outer Left Spawner
+109584040 [Pyromancy] Maelstrom Inner Circle
+109584050 [Pyromancy] Maelstrom Outer Circle
+109584060 [Pyromancy] Maelstrom Inner Burst
+109584070 [Pyromancy] Maelstrom Outer Burst
+109584100 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584101 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584102 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584103 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584104 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584105 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584106 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584107 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584108 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584109 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584110 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584111 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584112 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584113 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584114 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584115 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584116 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584117 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584118 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584119 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584120 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584121 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584122 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584123 [Pyromancy] Maelstrom Inner Spawners Follow-up
+109584200 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584201 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584202 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584203 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584204 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584205 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584206 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584207 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584208 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584209 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584210 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584211 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584212 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584213 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584214 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584215 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584216 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584217 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584218 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584219 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584220 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584221 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584222 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109584223 [Pyromancy] Maelstrom Outer Spawners Follow-up
+109585000 [Pyromancy] Lingering Maelstrom Inner Front Spawner
+109585010 [Pyromancy] Lingering Maelstrom Inner Back Spawner
+109585020 [Pyromancy] Lingering Maelstrom Outer Right Spawner
+109585030 [Pyromancy] Lingering Maelstrom Outer Left Spawner
+109585040 [Pyromancy] Lingering Maelstrom Inner Circle
+109585050 [Pyromancy] Lingering Maelstrom Outer Circle
+109585060 [Pyromancy] Lingering Maelstrom Inner Burst
+109585070 [Pyromancy] Lingering Maelstrom Outer Burst
+109585100 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585101 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585102 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585103 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585104 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585105 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585106 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585107 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585108 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585109 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585110 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585111 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585112 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585113 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585114 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585115 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585116 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585117 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585118 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585119 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585120 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585121 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585122 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585123 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585124 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585125 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585126 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585127 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585128 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585129 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585130 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585131 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585132 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585133 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585134 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585135 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585136 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585137 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585138 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585139 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585140 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585141 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585142 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585143 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585144 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585145 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585146 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585147 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585148 [Pyromancy] Lingering Maelstrom Inner Spawners Follow-up
+109585200 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585201 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585202 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585203 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585204 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585205 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585206 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585207 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585208 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585209 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585210 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585211 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585212 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585213 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585214 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585215 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585216 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585217 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585218 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585219 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585220 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585221 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585222 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585223 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585224 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585225 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585226 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585227 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585228 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585229 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585230 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585231 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585232 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585233 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585234 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585235 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585236 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585237 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585238 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585239 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585240 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585241 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585242 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585243 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585244 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585245 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585246 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585247 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109585248 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
 109999999 ### Spell Summons ###
 110000000 Conjure Skeleton
 110000100 Conjure Hollow

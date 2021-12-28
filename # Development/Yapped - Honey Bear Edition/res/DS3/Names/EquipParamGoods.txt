@@ -811,6 +811,8 @@
 2726010 Lingering Drizzle
 2727000 Pulsating Mud
 2727010 Bloodthirsty Pulsating Mud
+2728000 Maelstrom
+2728010 Lingering Maelstrom
 2730000 Conjure Skeleton
 2731000 Conjure Hollow
 2732000 Conjure Hound

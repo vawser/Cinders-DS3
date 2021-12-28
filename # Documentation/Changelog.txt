@@ -67,6 +67,11 @@ Finish following weapons:
 
 # Spells
 - Changed Adjacent Black Star to Homing Black Star.
+- Slightly increased the radius of Pulsating Mud.
+
+- Added new spells:
+ - Pyromancy: 
+  - Maelstrom. Found in Irithyll of the Boreal Valley.
 
 # Bugfixes
 - Slicing Wind should properly work now.
