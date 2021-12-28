@@ -376,7 +376,7 @@
 - Base Effect: Deals damage 0.7 second for 5 seconds.
 
 #---- Lingering Soul Instability
-- Duration increased to 10 seconds.
+- Increases duration to 10 seconds.
 
 #--------------------------------------------------------------------------
 # Sorceries - Effects
@@ -865,6 +865,17 @@
 
 #---- Bubble Prison
 - Changes the spell to build a prison of bubbles around targeted enemy for 5 seconds.
+
+#--------------------------------
+# Maelstrom
+#--------------------------------
+- FP Cost: 100
+- Slot Use: 2
+- Physical Damage: 35 {105}
+- Base Effect: lasts for 5 seconds.
+
+#---- Lingering Maelstrom
+- Increases duration to 10 seconds.
 
 #--------------------------------
 # Conjure Skeleton

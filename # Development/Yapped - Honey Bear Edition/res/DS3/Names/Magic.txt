@@ -358,6 +358,10 @@
 2727006 Pulsating Mud [Luck]
 2727010 Bloodthirsty Pulsating Mud
 2727016 Bloodthirsty Pulsating Mud [Luck]
+2728000 Maelstrom
+2728006 Maelstrom [Luck]
+2728010 Lingering Maelstrom
+2728016 Lingering Maelstrom [Luck]
 2730000 Conjure Skeleton
 2730006 Conjure Skeleton [Luck]
 2731000 Conjure Hollow

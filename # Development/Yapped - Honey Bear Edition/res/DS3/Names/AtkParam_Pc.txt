@@ -5353,6 +5353,8 @@
 13739010 [Miracle] Blood Crystallization [Hit]
 13739100 [Miracle] Great Blood Crystallization
 13739110 [Miracle] Great Blood Crystallization [Hit]
+13740000 [Pyromancy] Maelstrom
+13740010 [Pyromancy] Maelstrom Burst
 13999999 ### Weapons ###
 14000000 Blessing of Rosaria (Old)
 14000001 Blessing of Rosaria (Old)

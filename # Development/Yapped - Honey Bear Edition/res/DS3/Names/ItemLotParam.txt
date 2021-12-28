@@ -598,6 +598,7 @@
 81390 [Pyromancy] Lingering Drizzle
 81400 [Pyromancy] Bloodthirsty Pulsating Mud
 81410 [Pyromancy] Bubble Prison
+81420 [Pyromancy] Lingering Maelstrom
 82000 [Miracle] Bloodthirsty Lightning Arrow
 82010 [Miracle] Lightning Surge
 82020 [Miracle] Storm Spear
@@ -1678,7 +1679,7 @@
 3700180 [Corpse] Soul of a Nameless Soldier
 3700181 [Corpse] Large Titanite Shard
 3700190 [Corpse] Soul of a Nameless Soldier
-3700191 [Corpse] Dried Root
+3700191 [Corpse] Maelstrom
 3700200 [Corpse] Soul of a Nameless Soldier
 3700201 [Corpse] Fecal Expulsion
 3700210 [Corpse] Soul of a Nameless Soldier
