@@ -7625,9 +7625,19 @@ function RollingSelftrans_onUpdate()
         end
     end
     
-    -- Soul of Cinder Boon
-    if env(1116, 112593) == TRUE then
-        base_move_mult = base_move_mult + 0.1
+    -- Devil's Trumpet
+    if env(1116, 116200) == TRUE then
+        base_move_mult = base_move_mult + 1.0
+    end 
+    
+    -- Trio of Explorers Boon
+    if env(1116, 112594) == TRUE then
+        base_move_mult = base_move_mult + 0.2
+    end
+    
+    -- Yhorm Malus
+    if env(1116, 112620) == TRUE then
+        base_move_mult = 0.25
     end
     
     act(2001, math.abs(base_move_mult + addratio * math.abs(math.sin(math.rad(2 * rolling_angle)))))

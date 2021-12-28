@@ -288,10 +288,10 @@ Event(0, Default, function() {
     InitializeEvent(17, 20082, 42017, 260111017); // Twin Princes
     InitializeEvent(18, 20082, 42018, 260111018); // Soul of Cinder
     InitializeEvent(19, 20082, 42019, 260111019); // Sister Friede
-    InitializeEvent(20, 20082, 42020, 260111020); // Demon Prince
-    InitializeEvent(21, 20082, 42021, 260111021); // Midir
-    InitializeEvent(22, 20082, 42022, 260111022); // Slave Knight Gael
-    InitializeEvent(23, 20082, 42023, 260111023); // Halflight
+    InitializeEvent(20, 20082, 42020, 260111021); // Demon Prince
+    InitializeEvent(21, 20082, 42021, 260111022); // Midir
+    InitializeEvent(22, 20082, 42022, 260111023); // Slave Knight Gael
+    InitializeEvent(23, 20082, 42023, 260111024); // Halflight
     InitializeEvent(24, 20082, 42024, 260111029); // Prince Dorthinus
     InitializeEvent(25, 20082, 42025, 260111026); // Cathedral Guardian
     InitializeEvent(26, 20082, 42026, 260111027); // Mirror Knight
@@ -692,7 +692,7 @@ Event(700, Default, function() {
     SetEventFlag(50006020, ON); // Firelink Shrine Music - Eyes of a Fire Keeper turns this OFF 
     SetEventFlag(9215, ON);     // Firelink Shrine - Lit    
     
-	SetEventFlag(70000125, ON);
+    SetEventFlag(70000125, ON);
     SetEventFlag(70000128, ON);
     SetEventFlag(70000129, ON);
 
@@ -9602,47 +9602,48 @@ Event(20324, Default, function() {
 //------------------------------------------------
 // Achievement: Master of Corruption
 //------------------------------------------------
-Event(20324, Default, function() {
+Event(20325, Default, function() {
     SetNetworkSyncState(Disabled);
     
     // Malus enabled
     IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25009852); 
     
     // Malus items
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42000, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42001, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42002, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42003, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42004, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42005, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42006, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42007, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42008, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42009, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42010, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42011, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42012, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42013, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42014, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42015, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42016, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42017, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42018, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42019, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42020, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42021, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42022, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42023, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42024, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42025, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42026, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42027, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42028, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42029, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42030, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42031, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42032, OwnershipState.Owns);
-    IfPlayerHasdoesntHaveItemIncludingBbox(MAIN, ItemType.Goods, 42033, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42000, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42001, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42002, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42003, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42004, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42005, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42006, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42007, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42008, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42009, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42010, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42011, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42012, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42013, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42014, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42015, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42016, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42017, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42018, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42019, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42020, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42021, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42022, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42023, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42024, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42025, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42026, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42027, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42028, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42029, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42030, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42031, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42032, OwnershipState.Owns);
+    IfPlayerHasdoesntHaveItemIncludingBbox(AND_01, ItemType.Goods, 42033, OwnershipState.Owns);
+    IfConditionGroup(MAIN, PASS, AND_01);
     
     SetEventFlag(25002105, ON);
     
@@ -9674,8 +9675,6 @@ Event(20324, Default, function() {
     RemoveItemFromPlayer(ItemType.Goods, 42025, -99);
     RemoveItemFromPlayer(ItemType.Goods, 42026, -99);
     RemoveItemFromPlayer(ItemType.Goods, 42027, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42028, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42029, -99);
     RemoveItemFromPlayer(ItemType.Goods, 42028, -99);
     RemoveItemFromPlayer(ItemType.Goods, 42029, -99);
     RemoveItemFromPlayer(ItemType.Goods, 42030, -99);

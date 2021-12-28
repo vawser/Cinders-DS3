@@ -71,6 +71,10 @@ Finish following weapons:
 # Bugfixes
 - Slicing Wind should properly work now.
 - Fixed the grab of the Abyss Walker.
+- Fixed Grufudd's Signet affixing.
+- Fixed Demon Prince, Midir, Slave Knight Gael and Halflight maluses giving the wrong SpEffect.
+- Master of Corruption achievement will now actually complete once you've acquired all the maluses.
+- Fixed a few instances of roll distance modifiers not applying on the secondary rolls.
 
 #------------------------------
 # TODO
@@ -80,9 +84,3 @@ Add Solaire as summon to Soul of Cinder
 Yhorm the Giant: remove the silly rockstorm, perhaps add some firey bullets to adds. Add minor mechanic that summons in Siegward irrespective of the quest.
 The Marauder: add more red fire flair to attacks, perhaps add healing bonfire mechanic, where you need to destroy the bonfire to stop it healing the Marauder
 
-For information on changes, installation, etc, read the wiki here: http://ds3-cinders.wikidot.com/
-
-##
-Models used for new weapons and armor.
-
-Used with Main versions: 2.14

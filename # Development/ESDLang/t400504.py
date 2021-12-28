@@ -1723,7 +1723,7 @@ def t400504_x42():
             return 0
         # Grufudd's Signet
         elif GetTalkListEntryResult() == 112:
-            assert t400504_x50(32201, 32202, 3, -4)
+            assert t400504_x50(32301, 32302, 3, -4)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
@@ -2410,7 +2410,7 @@ def t400504_x43():
             return 0
         # Grufudd's Signet
         elif GetTalkListEntryResult() == 112:
-            assert t400504_x50(32202, 32203, 5, -6)
+            assert t400504_x50(32302, 32303, 5, -6)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
@@ -3097,7 +3097,7 @@ def t400504_x44():
             return 0
         # Grufudd's Signet
         elif GetTalkListEntryResult() == 112:
-            assert t400504_x50(32204, 32205, 7, -8)
+            assert t400504_x50(32303, 32304, 7, -8)
             return 0
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
