@@ -6785,6 +6785,8 @@ Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
     // End if not in own world
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
     
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009850); // End if in Gauntlet Mode
+    
     // Player is embered
     IfCharacterHasSpeffect(MAIN, 10000, 490, true, ComparisonType.Equal, 1);
     
@@ -6809,13 +6811,14 @@ Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
-    
     // Skip if no invaders are present
     SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
     SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
     
     // End if not in own world
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009850); // End if in Gauntlet Mode
     
     // Delay the following checks so the summoned flag is reset before they are checked
     WaitFixedTimeSeconds(1.0);
@@ -6865,6 +6868,8 @@ Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
 Event(20090102, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
     
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009850); // End if in Gauntlet Mode
+    
     WaitFixedTimeSeconds(1.0);
     
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
@@ -6882,6 +6887,8 @@ Event(20090102, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 //-------------------------------------------
 Event(20090103, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009850); // End if in Gauntlet Mode
     
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
     IfConditionGroup(MAIN, PASS, AND_01);
@@ -6905,6 +6912,8 @@ Event(20090104, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAIState(X8_4, Disabled);
     
     EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
+    
+    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009850); // End if in Gauntlet Mode
     
     IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
     IfConditionGroup(MAIN, PASS, AND_01);
