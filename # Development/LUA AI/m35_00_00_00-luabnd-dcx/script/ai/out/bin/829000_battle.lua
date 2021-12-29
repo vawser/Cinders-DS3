@@ -1,438 +1,554 @@
 RegisterTableGoal(GOAL_CathedralGuardian_829000_Battle, "GOAL_CathedralGuardian_829000_Battle")
-
 REGISTER_GOAL_NO_SUB_GOAL(GOAL_CathedralGuardian_829000_Battle, true)
-Goal.Initialize = function (self, ai, goal, arg3)
+Goal.Initialize = function (arg0, arg1, arg2, arg3)
     return 
 end
 
-Goal.Activate = function (self, ai, goal)
-    Init_Pseudo_Global(ai, goal)
-    
-    ai:SetStringIndexedNumber("Dist_SideStep", 5)
-    ai:SetStringIndexedNumber("Dist_BackStep", 5)
-    
-    local actChanceList = {}
-    local actFuncList = {}
-    local actTblList = {}
-    
-    Common_Clear_Param(actChanceList, actFuncList, actTblList)
-    
-    local distance = ai:GetDist(TARGET_ENE_0)
-
-    if ai:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_B, 120) then
-        if distance <= 4 then
-            if ai:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 180) then
-                actChanceList[4] = 60 -- Turn and Swipe
-                actChanceList[20] = 40 -- Turn
+Goal.Activate = function (arg0, arg1, arg2)
+    Init_Pseudo_Global(arg1, arg2)
+    arg1:SetStringIndexedNumber("Dist_SideStep", 5)
+    arg1:SetStringIndexedNumber("Dist_BackStep", 5)
+    local local0 = {}
+    local local1 = {}
+    local local2 = {}
+    Common_Clear_Param(local0, local1, local2)
+    local local3 = arg1:GetDist(TARGET_ENE_0)
+    local local4 = arg1:GetRandam_Int(1, 100)
+    local local5 = arg1:GetExcelParam(AI_EXCEL_THINK_PARAM_TYPE__thinkattr_doAdmirer)
+    local local6 = arg1:GetEventRequest()
+    local local7 = arg1:GetHpRate(TARGET_SELF)
+    if arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_B, 120) then
+        if local3 <= 4 then
+            if arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 180) then
+                local0[4] = 60
+                local0[20] = 40
             else
-                actChanceList[5] = 60 -- Turn and Shield Smash
-                actChanceList[20] = 40 -- Turn
+                local0[5] = 60
+                local0[20] = 40
             end
         else
-            actChanceList[6] = 40 -- Run and Shield Smash
-            actChanceList[20] = 60 -- Turn
+            local0[6] = 40
+            local0[20] = 60
         end
-    elseif SpaceCheck(ai, goal, 0, 4) == false and 4 < distance then
-        actChanceList[24] = 100 -- Approach
-    elseif 8 <= distance then
-        actChanceList[1] = 40 -- Forward Smash -> Shield Combo
-        actChanceList[2] = 0 -- Side Swipe -> Shield Combo
-        actChanceList[3] = 0 -- Shield Bash
-        actChanceList[6] = 30 -- Run and Shield Smash
-        actChanceList[8] = 0 -- Shield Swipe Combo
-        actChanceList[9] = 0 -- Shield Smash
-        actChanceList[10] = 0 -- Heavy Smash
-        actChanceList[21] = 0 -- Strafe
-        actChanceList[22] = 0 -- Backstep
-        actChanceList[23] = 0 -- Run and Smash
-    elseif 1.5 <= distance then
-        actChanceList[1] = 0 -- Forward Smash -> Shield Combo
-        actChanceList[2] = 50 -- Side Swipe -> Shield Combo
-        actChanceList[3] = 10 -- Shield Bash
-        actChanceList[6] = 0 -- Run and Shield Smash
-        actChanceList[8] = 5 -- Shield Swipe Combo
-        actChanceList[9] = 0 -- Shield Smash
-        actChanceList[10] = 0 -- Heavy Smash
-        actChanceList[21] = 25 -- Strafe
-        actChanceList[22] = 0 -- Backstep
-        actChanceList[23] = 0 -- Run and Smash
+    elseif SpaceCheck(arg1, arg2, 0, 4) == false and 4 < local3 then
+        local0[24] = 100
+    elseif 8 <= local3 then
+        local0[1] = 40
+        local0[2] = 0
+        local0[3] = 0
+        local0[6] = 30
+        local0[7] = 30
+        local0[8] = 0
+        local0[9] = 0
+        local0[10] = 0
+        local0[21] = 0
+        local0[22] = 0
+        local0[23] = 0
+    elseif 1.5 <= local3 then
+        local0[1] = 0
+        local0[2] = 50
+        local0[3] = 10
+        local0[6] = 0
+        local0[7] = 10
+        local0[8] = 5
+        local0[9] = 0
+        local0[10] = 0
+        local0[21] = 25
+        local0[22] = 0
+        local0[23] = 0
     else
-        actChanceList[1] = 0 -- Forward Smash -> Shield Combo
-        actChanceList[2] = 10 -- Side Swipe -> Shield Combo
-        actChanceList[3] = 10 -- Shield Bash
-        actChanceList[6] = 0 -- Run and Shield Smash
-        actChanceList[8] = 10 -- Shield Swipe Combo
-        actChanceList[9] = 10 -- Shield Smash
-        actChanceList[10] = 10 -- Heavy Smash
-        actChanceList[11] = 0 -- Raise Hammer for Spell
-        actChanceList[21] = 20 -- Strafe
-        actChanceList[22] = 0 -- Backstep
-        actChanceList[23] = 0 -- Run and Smash
+        local0[1] = 0
+        local0[2] = 10
+        local0[3] = 10
+        local0[6] = 0
+        local0[7] = 10
+        local0[8] = 10
+        local0[9] = 10
+        local0[10] = 10
+        local0[11] = 10
+        local0[21] = 20
+        local0[22] = 10
+        local0[23] = 10
     end
-    
-    actFuncList[1] = REGIST_FUNC(ai, goal, CathedralGuardian_Act01)
-    actFuncList[2] = REGIST_FUNC(ai, goal, CathedralGuardian_Act02)
-    actFuncList[3] = REGIST_FUNC(ai, goal, CathedralGuardian_Act03)
-    actFuncList[4] = REGIST_FUNC(ai, goal, CathedralGuardian_Act04)
-    actFuncList[5] = REGIST_FUNC(ai, goal, CathedralGuardian_Act05)
-    actFuncList[6] = REGIST_FUNC(ai, goal, CathedralGuardian_Act06)
-    actFuncList[8] = REGIST_FUNC(ai, goal, CathedralGuardian_Act08)
-    actFuncList[9] = REGIST_FUNC(ai, goal, CathedralGuardian_Act09)
-    actFuncList[10] = REGIST_FUNC(ai, goal, CathedralGuardian_Act10)
-    actFuncList[11] = REGIST_FUNC(ai, goal, CathedralGuardian_Act11)
-    actFuncList[20] = REGIST_FUNC(ai, goal, CathedralGuardian_Act20)
-    actFuncList[21] = REGIST_FUNC(ai, goal, CathedralGuardian_Act21)
-    actFuncList[22] = REGIST_FUNC(ai, goal, CathedralGuardian_Act22)
-    actFuncList[23] = REGIST_FUNC(ai, goal, CathedralGuardian_Act23)
-    actFuncList[24] = REGIST_FUNC(ai, goal, CathedralGuardian_Act24)
-    actFuncList[25] = REGIST_FUNC(ai, goal, CathedralGuardian_Act25)
-    
-    Common_Battle_Activate(ai, goal, actChanceList, actFuncList, REGIST_FUNC(ai, goal, CathedralGuardian_ActAfter_AdjustSpace), actTblList)
+    local0[1] = SetCoolTime(arg1, arg2, 3000, 6, local0[1], 1)
+    local0[2] = SetCoolTime(arg1, arg2, 3001, 6, local0[2], 1)
+    local0[2] = SetCoolTime(arg1, arg2, 3003, 6, local0[2], 1)
+    local0[3] = SetCoolTime(arg1, arg2, 3004, 6, local0[3], 1)
+    local0[4] = SetCoolTime(arg1, arg2, 3005, 6, local0[4], 1)
+    local0[5] = SetCoolTime(arg1, arg2, 3006, 6, local0[5], 1)
+    local0[6] = SetCoolTime(arg1, arg2, 3015, 6, local0[6], 1)
+    local0[8] = SetCoolTime(arg1, arg2, 3019, 6, local0[8], 1)
+    local0[9] = SetCoolTime(arg1, arg2, 3021, 6, local0[9], 1)
+    local0[10] = SetCoolTime(arg1, arg2, 3023, 20, local0[10], 1)
+    local0[11] = SetCoolTime(arg1, arg2, 3007, 20, local0[11], 1)
+    if arg1:HasSpecialEffectId(TARGET_SELF, 11300) == false then
+        local0[7] = 0
+    end
+    local1[1] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act01)
+    local1[2] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act02)
+    local1[3] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act03)
+    local1[4] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act04)
+    local1[5] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act05)
+    local1[6] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act06)
+    local1[7] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act07)
+    local1[8] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act08)
+    local1[9] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act09)
+    local1[10] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act10)
+    local1[11] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act11)
+    local1[20] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act20)
+    local1[21] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act21)
+    local1[22] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act22)
+    local1[23] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act23)
+    local1[24] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act24)
+    local1[25] = REGIST_FUNC(arg1, arg2, CathedralGuardian_316000_Act25)
+    Common_Battle_Activate(arg1, arg2, local0, local1, REGIST_FUNC(arg1, arg2, CathedralGuardian_ActAfter_AdjustSpace), local2)
     return 
 end
 
--- Forward Smash -> Shield Combo
-function CathedralGuardian_Act01(self, ai, goal)
-    Approach_Act_Flex(self, ai, 12.68, 12.68 + 2, 12.68 + 2, 0, 100, 2, 2)
-    
-    local anim_ForwardSmash = 3000
-    local anim_PreparedShieldSmash = 3017
-    local anim_ShieldSwipeIntoStance = 3025
-    local anim_ShieldSwipeReturn = 3020
-    
-    local max_attack_distance = 2.24
-    local roll = self:GetRandam_Int(1, 100)
-    
-    self:AddObserveSpecialEffectAttribute(TARGET_SELF, 5030)
-    
-    if roll < 40 then
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, anim_ForwardSmash, TARGET_ENE_0, 999, 0, 0, 0, 0)
-    elseif roll <= 70 then
-        ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ForwardSmash, TARGET_ENE_0, max_attack_distance, 0, 0, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 999, 0, 0)
-    -- Heatup
-    elseif self:HasSpecialEffectId(TARGET_SELF, 11300) == true then
-        ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ForwardSmash, TARGET_ENE_0, max_attack_distance, 0, 0, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 10, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_ShieldSwipeIntoStance, TARGET_ENE_0, 999, 0, 0)
+function CathedralGuardian_316000_Act01(arg0, arg1, arg2)
+    Approach_Act_Flex(arg0, arg1, 12.68, 12.68 + 2, 12.68 + 2, 0, 100, 2, 2)
+    local local0 = 3000
+    local local1 = 3017
+    local local2 = 2.24
+    local local3 = ATT3025_DIST_MAX
+    local local4 = 999
+    local local5 = 0
+    local local6 = 0
+    local local7 = arg0:GetRandam_Int(1, 100)
+    arg0:AddObserveSpecialEffectAttribute(TARGET_SELF, 5030)
+    if local7 < 40 then
+        arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, local0, TARGET_ENE_0, local4, local5, local6, 0, 0)
+    elseif local7 <= 70 then
+        arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local0, TARGET_ENE_0, local2, local5, local6, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, local1, TARGET_ENE_0, local4, 0, 0)
+    elseif arg0:HasSpecialEffectId(TARGET_SELF, 11300) == true then
+        arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local0, TARGET_ENE_0, local2, local5, local6, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, local1, TARGET_ENE_0, 10, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, 3025, TARGET_ENE_0, 999, 0, 0)
     else
-        ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ForwardSmash, TARGET_ENE_0, max_attack_distance, 0, 0, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 2.12, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_ShieldSwipeReturn, TARGET_ENE_0, 999, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local0, TARGET_ENE_0, local2, local5, local6, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, local1, TARGET_ENE_0, 2.12, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3020, TARGET_ENE_0, 999, 0, 0)
     end
-    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Side Swipe -> Shield Combo
-function CathedralGuardian_Act02(self, ai, goal)
-    local roll = self:GetRandam_Int(1, 100)
-    
-    local anim_SideSwipe1 = 3001
-    local anim_SideSwipe3 = 3003
-    local anim_SideSwipe2 = 3002
-    local anim_PreparedShieldSmash = 3017
-    local anim_StepAndShieldSmash = 3018
-    local anim_ShieldSwipe = 3019
-    local anim_ShieldSwipeReturn = 3020
-    
-    self:AddObserveSpecialEffectAttribute(TARGET_SELF, 5025)
-    
-    if self:GetDist(TARGET_ENE_0) <= 2.9 then
-        if roll <= 70 then
-            ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_SideSwipe1, TARGET_ENE_0, 7, 0, 0, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, anim_SideSwipe2, TARGET_ENE_0, 999, 0, 0)
-        elseif roll <= 80 then
-            ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_SideSwipe1, TARGET_ENE_0, 4, 0, 0, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 999, 0, 0)
-        elseif roll <= 85 then
-            ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_SideSwipe3, TARGET_ENE_0, 4, 0, 0, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 5, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_StepAndShieldSmash, TARGET_ENE_0, 999, 0, 0)
-        elseif roll <= 90 then
-            ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_SideSwipe3, TARGET_ENE_0, 4, 0, 0, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 5, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_StepAndShieldSmash, TARGET_ENE_0, 5, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_ShieldSwipe, TARGET_ENE_0, 999, 0, 0)
+function CathedralGuardian_316000_Act02(arg0, arg1, arg2)
+    local local0 = 4.54
+    local local1 = 4.54 + 2
+    local local2 = 4.54 + 2
+    local local3 = 0
+    local local4 = 0
+    local local5 = 2
+    local local6 = 2
+    local local7 = arg0:GetRandam_Int(1, 100)
+    local local8 = 3001
+    local local9 = 3003
+    local local10 = 3002
+    local local11 = 3017
+    local local12 = 3018
+    local local13 = 3019
+    local local14 = 0
+    local local15 = 0
+    arg0:AddObserveSpecialEffectAttribute(TARGET_SELF, 5025)
+    if arg0:GetDist(TARGET_ENE_0) <= 2.9 then
+        if local7 <= 70 then
+            arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local8, TARGET_ENE_0, 7, 0, 0, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, local10, TARGET_ENE_0, 999, 0, 0)
+        elseif local7 <= 80 then
+            arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local8, TARGET_ENE_0, 4, 0, 0, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, local11, TARGET_ENE_0, 999, 0, 0)
+        elseif local7 <= 85 then
+            arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local9, TARGET_ENE_0, 4, 0, 0, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, local11, TARGET_ENE_0, 5, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, local12, TARGET_ENE_0, 999, 0, 0)
+        elseif local7 <= 90 then
+            arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local9, TARGET_ENE_0, 4, 0, 0, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, local11, TARGET_ENE_0, 5, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, local12, TARGET_ENE_0, 5, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, local13, TARGET_ENE_0, 999, 0, 0)
         else
-            ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_SideSwipe3, TARGET_ENE_0, 4, 0, 0, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 5, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_StepAndShieldSmash, TARGET_ENE_0, 5, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_ShieldSwipe, TARGET_ENE_0, 5, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_ShieldSwipeReturn, TARGET_ENE_0, 999, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local9, TARGET_ENE_0, 4, 0, 0, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, local11, TARGET_ENE_0, 5, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, local12, TARGET_ENE_0, 5, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, local13, TARGET_ENE_0, 5, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3020, TARGET_ENE_0, 999, 0, 0)
         end
-    elseif roll <= 80 then
-        Approach_Act_Flex(self, ai, 4.54, 4.54 + 2, 4.54 + 2, 0, 0, 2, 2)
-        ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_SideSwipe3, TARGET_ENE_0, 7, 0, 0, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, anim_SideSwipe2, TARGET_ENE_0, 999, 0, 0)
-    elseif roll <= 90 then
-        Approach_Act_Flex(self, ai, 4.54, 4.54 + 2, 4.54 + 2, 0, 0, 2, 2)
-        ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_SideSwipe3, TARGET_ENE_0, 4, 0, 0, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 999, 0, 0)
+    elseif local7 <= 80 then
+        Approach_Act_Flex(arg0, arg1, local0, local1, local2, local3, local4, local5, local6)
+        arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local9, TARGET_ENE_0, 7, 0, 0, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, local10, TARGET_ENE_0, 999, 0, 0)
+    elseif local7 <= 90 then
+        Approach_Act_Flex(arg0, arg1, local0, local1, local2, local3, local4, local5, local6)
+        arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local9, TARGET_ENE_0, 4, 0, 0, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, local11, TARGET_ENE_0, 999, 0, 0)
     else
-        Approach_Act_Flex(self, ai, 4.54, 4.54 + 2, 4.54 + 2, 0, 0, 2, 2)
-        ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_SideSwipe3, TARGET_ENE_0, 4, 0, 0, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 5, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_StepAndShieldSmash, TARGET_ENE_0, 999, 0, 0)
+        Approach_Act_Flex(arg0, arg1, local0, local1, local2, local3, local4, local5, local6)
+        arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local9, TARGET_ENE_0, 4, 0, 0, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, local11, TARGET_ENE_0, 5, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, local12, TARGET_ENE_0, 999, 0, 0)
     end
-    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Shield Bash
-function CathedralGuardian_Act03(self, ai, goal)
-    Approach_Act_Flex(self, ai, 2.95, 2.95 + 2, 2.95 + 2, 0, 100, 2, 2)
-    
-    local anim_ShieldBash = 3004
-
-    if self:GetRandam_Int(1, 100) < 70 then
-        ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, anim_ShieldBash, TARGET_ENE_0, 999, 0, 0, 0, 0)
+function CathedralGuardian_316000_Act03(arg0, arg1, arg2)
+    local local0 = arg0:GetDist(TARGET_ENE_0)
+    Approach_Act_Flex(arg0, arg1, 2.95, 2.95 + 2, 2.95 + 2, 0, 100, 2, 2)
+    local local1 = 3004
+    local local2 = 0
+    local local3 = 0
+    local local4 = arg0:GetDist(TARGET_ENE_0)
+    if arg0:GetRandam_Int(1, 100) < 70 then
+        arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, local1, TARGET_ENE_0, 999, local2, local3, 0, 0)
     else
-        ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ShieldBash, TARGET_ENE_0, 4.42, 0, 0, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3018, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local1, TARGET_ENE_0, 4.42, local2, local3, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3018, TARGET_ENE_0, 5 - arg0:GetMapHitRadius(TARGET_SELF), 0, 0)
     end
-    
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Turn and Swipe
-function CathedralGuardian_Act04(self, ai, goal)
-    local anim_TurnAndSwipe = 3005
-    
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, anim_TurnSwipe, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
-    
+function CathedralGuardian_316000_Act04(arg0, arg1, arg2)
+    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3005, TARGET_ENE_0, 5 - arg0:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Turn and Shield Smash
-function CathedralGuardian_Act05(self, ai, goal)
-    local anim_TurnAndShieldSmash = 3006
-    
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, anim_TurnAndShieldSmash, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
-    
+function CathedralGuardian_316000_Act05(arg0, arg1, arg2)
+    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3006, TARGET_ENE_0, 5 - arg0:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Run and Shield Smash
-function CathedralGuardian_Act06(self, ai, goal)
-    local anim_RunAndShieldSmash = 3015
-    
-    Approach_Act_Flex(self, ai, 12.18, 12.18 + 2, 12.18 + 2, 0, 0, 2, 2)
-    
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, anim_RunAndShieldSmash, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
-    
+function CathedralGuardian_316000_Act06(arg0, arg1, arg2)
+    local local0 = arg0:GetDist(TARGET_ENE_0)
+    Approach_Act_Flex(arg0, arg1, 12.18, 12.18 + 2, 12.18 + 2, 0, 0, 2, 2)
+    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3015, TARGET_ENE_0, 5 - arg0:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Shield Swipe Combo
-function CathedralGuardian_Act08(self, ai, goal)
-    Approach_Act_Flex(self, ai, 2.65, 2.65 + 2, 2.65 + 2, 0, 100, 2, 2)
-    
-    local anim_PreparedShieldSmash = 3017
-    local anim_ShieldSwipe = 3019
-    local anim_ShieldSwipeReturn = 3020
-    local anim_ShieldSwipeIntoStance = 3025
+function CathedralGuardian_316000_Act07(arg0, arg1, arg2)
+    arg0:SetTimer(1, 20)
+    local local0 = arg0:GetDist(TARGET_ENE_0)
+    local local1 = arg0:GetRandam_Int(1, 100)
+    local local2 = 999
+    local local3 = 0
+    local local4 = 0
+    local local5 = {}
+    local local6 = 0
+    local local7 = 0
+    local local8 = 0
+    if 15 <= local0 then
+        local5[1] = 0
+        local5[2] = 100
+        local5[3] = 0
+        local5[4] = 0
+    elseif 7.5 <= local0 then
+        local5[1] = 20
+        local5[2] = 80
+        local5[3] = 0
+        local5[4] = 0
+    elseif 5 <= local0 then
+        local5[1] = 20
+        local5[2] = 60
+        local5[3] = 20
+        local5[4] = 0
+    elseif 2.5 <= local0 then
+        local5[1] = 60
+        local5[2] = 0
+        local5[3] = 40
+        local5[4] = 0
+    else
+        local5[1] = 60
+        local5[2] = 0
+        local5[3] = 0
+        local5[4] = 40
+    end
+    local5[1] = 0
+    local5[2] = 100
+    local5[3] = 0
+    local5[4] = 0
+    local local9 = 1
+    for local10 = 1 - local9, 4, local9 do
+        local6 = local6 + local5[local10]
+    end
+    if local6 ~= 0 then
+        local local11 = 1
+        for local12 = 1 - local11, 4, local11 do
+            local7 = local7 + local5[local12]
+            if arg0:GetRandam_Int(0, local6) <= local7 then
+                if local12 ~= 1 then
+                    if local12 == 2 then
+                        local local13 = arg1:AddSubGoal(GOAL_COMMON_ApproachTarget_AlwaysGuard, 1.8, TARGET_ENE_0, 0, TARGET_SELF, true, 9920)
+                        local13:SetLifeEndSuccess(true)
+                        break
+                    elseif local12 == 3 then
+                        local local13 = arg1:AddSubGoal(GOAL_COMMON_SidewayMove, 1.8, TARGET_ENE_0, arg0:GetRandam_Int(0, 1), 60, true, true, 9920)
+                        local13:SetLifeEndSuccess(true)
+                        break
+                    else
+                        local local13 = arg1:AddSubGoal(GOAL_COMMON_LeaveTarget, 1.8, TARGET_ENE_0, 999, TARGET_ENE_0, true, 9920)
+                        local13:SetLifeEndSuccess(true)
+                        break
+                    end
+                else
+                    arg1:AddSubGoal(GOAL_CathedralGuardian_829000_AttackStance, 10)
+                    GetWellSpace_Odds = 100
+                    return GetWellSpace_Odds
+                end
+            end
+        end
+    end
+    arg1:AddSubGoal(GOAL_CathedralGuardian_829000_AttackStance, 10)
+    GetWellSpace_Odds = 100
+    return GetWellSpace_Odds
+end
 
-    local roll = self:GetRandam_Int(1, 100)
-    
-    self:AddObserveSpecialEffectAttribute(TARGET_SELF, 5030)
-    
-    if self:HasSpecialEffectId(TARGET_SELF, 11300) == false then
-        if roll <= 50 then
-            ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ShieldSwipe, TARGET_ENE_0, 2.12, 0, 0, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_ShieldSwipeReturn, TARGET_ENE_0, 999, 0, 0)
+function CathedralGuardian_316000_Act08(arg0, arg1, arg2)
+    Approach_Act_Flex(arg0, arg1, 2.65, 2.65 + 2, 2.65 + 2, 0, 100, 2, 2)
+    local local0 = 3019
+    local local1 = 3020
+    local local2 = 2.12
+    local local3 = 999
+    local local4 = 0
+    local local5 = 0
+    local local6 = arg0:GetRandam_Int(1, 100)
+    arg0:AddObserveSpecialEffectAttribute(TARGET_SELF, 5030)
+    if arg0:HasSpecialEffectId(TARGET_SELF, 11300) == false then
+        if local6 <= 50 then
+            arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local0, TARGET_ENE_0, local2, local4, local5, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, local1, TARGET_ENE_0, 999, 0, 0)
         else
-            ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ShieldSwipe, TARGET_ENE_0, 2.12, 0, 0, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, anim_ShieldSwipeReturn, TARGET_ENE_0, 2.24, 0, 0)
-            ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 999, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local0, TARGET_ENE_0, local2, local4, local5, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, local1, TARGET_ENE_0, 2.24, 0, 0)
+            arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3017, TARGET_ENE_0, 999, 0, 0)
         end
-    elseif roll <= 40 then
-        ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ShieldSwipe, TARGET_ENE_0, 2.12, 0, 0, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_ShieldSwipeReturn, TARGET_ENE_0, 999, 0, 0)
+    elseif local6 <= 40 then
+        arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local0, TARGET_ENE_0, local2, local4, local5, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboFinal, 10, local1, TARGET_ENE_0, 999, 0, 0)
     else
-        ai:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, anim_ShieldSwipe, TARGET_ENE_0, 2.12, 0, 0, 0, 0)
-        ai:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_ShieldSwipeIntoStance, TARGET_ENE_0, 999, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboAttackTunableSpin, 10, local0, TARGET_ENE_0, local2, local4, local5, 0, 0)
+        arg1:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, 3025, TARGET_ENE_0, 999, 0, 0)
     end
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Shield Smash
-function CathedralGuardian_Act09(self, ai, goal)
-    local anim_ShieldSmash = 3021
-    
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, anim_ShieldSmash, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
-    
+function CathedralGuardian_316000_Act09(arg0, arg1, arg2)
+    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3021, TARGET_ENE_0, 5 - arg0:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Heavy Smash
-function CathedralGuardian_Act10(self, ai, goal)
-    local anim_HeavySmash = 3023
-    
-    Approach_Act_Flex(self, ai, 5.87, 5.87 + 2, 5.87 + 2, 0, 0, 2, 2)
-    
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, anim_HeavySmash, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
-    
+function CathedralGuardian_316000_Act10(arg0, arg1, arg2)
+    Approach_Act_Flex(arg0, arg1, 5.87, 5.87 + 2, 5.87 + 2, 0, 0, 2, 2)
+    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3023, TARGET_ENE_0, 5 - arg0:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Raise Hammer for Spell
-function CathedralGuardian_Act11(self, ai, goal)
-    local anim_RaiseHammer = 3007
-    
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, anim_RaiseHammer, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
-    
+function CathedralGuardian_316000_Act11(arg0, arg1, arg2)
+    arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3007, TARGET_ENE_0, 5 - arg0:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
     GetWellSpace_Odds = 100
     return GetWellSpace_Odds
 end
 
--- Turn
-function CathedralGuardian_Act20(self, ai, goal)
-    ai:AddSubGoal(GOAL_COMMON_Turn, 2, TARGET_ENE_0, 90)
-    
+function CathedralGuardian_316000_Act20(arg0, arg1, arg2)
+    arg1:AddSubGoal(GOAL_COMMON_Turn, 2, TARGET_ENE_0, 90)
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
--- Strafe
-function CathedralGuardian_Act21(self, ai, goal)
-    if self:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 180) then
-        ai:AddSubGoal(GOAL_COMMON_SidewayMove, 2.4, TARGET_ENE_0, 0, 60, true, true, 9910)
+function CathedralGuardian_316000_Act21(arg0, arg1, arg2)
+    local local0 = arg0:GetDist(TARGET_ENE_0)
+    if arg0:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_R, 180) then
+        arg1:AddSubGoal(GOAL_COMMON_SidewayMove, 2.4, TARGET_ENE_0, 0, 60, true, true, 9910)
     else
-        ai:AddSubGoal(GOAL_COMMON_SidewayMove, 2.4, TARGET_ENE_0, 1, 60, true, true, 9910)
+        arg1:AddSubGoal(GOAL_COMMON_SidewayMove, 2.4, TARGET_ENE_0, 1, 60, true, true, 9910)
     end
-    
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
--- Backstep
-function CathedralGuardian_Act22(self, ai, goal)
-    ai:AddSubGoal(GOAL_COMMON_SpinStep, 5, 6001, TARGET_ENE_0, 0, AI_DIR_TYPE_B, 0)
-    
+function CathedralGuardian_316000_Act22(arg0, arg1, arg2)
+    arg1:AddSubGoal(GOAL_COMMON_SpinStep, 5, 6001, TARGET_ENE_0, 0, AI_DIR_TYPE_B, 0)
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
--- Run and Smash
-function CathedralGuardian_Act23(self, ai, goal)
-    local anim_RunAndShieldSmash = 3015
-    
-    local roll = self:GetRandam_Int(1, 100)
-    
-    ai:AddSubGoal(GOAL_COMMON_LeaveTarget, 1.8, TARGET_ENE_0, 5.5, TARGET_ENE_0, true, 9910)
-    
-    ai:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, anim_RunAndShieldSmash, TARGET_ENE_0, 5 - self:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
-    
+function CathedralGuardian_316000_Act23(arg0, arg1, arg2)
+    local local0 = arg0:GetRandam_Int(1, 100)
+    arg1:AddSubGoal(GOAL_COMMON_LeaveTarget, 1.8, TARGET_ENE_0, 5.5, TARGET_ENE_0, true, 9910)
+    if local0 < 40 and arg0:IsFinishTimer(1) == true and arg0:HasSpecialEffectId(TARGET_SELF, 11300) == true then
+        CathedralGuardian_316000_Act07(arg0, arg1, arg2)
+    elseif local0 < 60 then
+        arg1:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3015, TARGET_ENE_0, 5 - arg0:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+    end
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
--- Approach
-function CathedralGuardian_Act24(self, ai, goal)
-    ai:AddSubGoal(GOAL_COMMON_ApproachTarget, 5, TARGET_ENE_0, 3, TARGET_SELF, false, 9910)
-    
+function CathedralGuardian_316000_Act24(arg0, arg1, arg2)
+    arg1:AddSubGoal(GOAL_COMMON_ApproachTarget, 5, TARGET_ENE_0, 3, TARGET_SELF, false, 9910)
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
--- Wait
-function CathedralGuardian_Act25(self, ai, goal)
-    ai:AddSubGoal(GOAL_COMMON_Wait, 0.5, TARGET_NONE, 0, 0, 0)
-    
+function CathedralGuardian_316000_Act25(arg0, arg1, arg2)
+    arg1:AddSubGoal(GOAL_COMMON_Wait, 0.5, TARGET_NONE, 0, 0, 0)
     GetWellSpace_Odds = 0
     return GetWellSpace_Odds
 end
 
-Goal.Update = function (self, ai, goal)
-    return Update_Default_NoSubGoal(self, ai, goal)
+Goal.Update = function (arg0, arg1, arg2)
+    return Update_Default_NoSubGoal(arg0, arg1, arg2)
 end
 
-Goal.Terminate = function (self, ai, goal)
+Goal.Terminate = function (arg0, arg1, arg2)
     return 
 end
 
-Goal.Interrupt = function (self, ai, goal)
-    local distance = ai:GetDist(TARGET_ENE_0)
-    local roll = ai:GetRandam_Int(1, 100)
-    
-    local anim_ShieldBash = 3022
-    local anim_HeavySmash = 3023
-    local anim_PreparedShieldSmash = 3017
-    local anim_PreparedForwardSmash = 3016
-    local anim_HeavySwipe = 3011
-    local anim_DroppedHeavySwipe = 3012
-    local anim_JumpAndSmash = 3013
-    local anim_HammerDragAndSlash = 3010
-    
-    if ai:IsInterupt(INTERUPT_SuccessGuard) then
-        -- Shield Bash
-        if distance < 4 and roll <= 50 and ai:HasSpecialEffectId(TARGET_SELF, 11300) == false then
-            goal:ClearSubGoal()
-            goal:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, anim_ShieldBash, TARGET_ENE_0, 5 - ai:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
+Goal.Interrupt = function (arg0, arg1, arg2)
+    local local0 = arg1:GetDist(TARGET_ENE_0)
+    local local1 = arg1:GetRandam_Int(1, 100)
+    local local2 = arg1:GetHpRate(TARGET_SELF)
+    if arg1:IsInterupt(INTERUPT_SuccessGuard) then
+        if local0 < 4 and local1 <= 50 and arg1:HasSpecialEffectId(TARGET_SELF, 11300) == false then
+            arg2:ClearSubGoal()
+            arg2:AddSubGoal(GOAL_COMMON_AttackTunableSpin, 10, 3022, TARGET_ENE_0, 5 - arg1:GetMapHitRadius(TARGET_SELF), 0, 0, 0, 0)
             return true
-        -- Approach
+        elseif local1 <= 50 and arg1:HasSpecialEffectId(TARGET_SELF, 11300) == true then
+            local local3 = 5 - arg1:GetMapHitRadius(TARGET_SELF)
+            arg2:ClearSubGoal()
+            arg2:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, 3026, TARGET_ENE_0, 999, 0, 0, 0, 0)
+            return true
         else
-            goal:ClearSubGoal()
-            goal:AddSubGoal(GOAL_COMMON_ApproachTarget, 2, TARGET_ENE_0, 5, TARGET_SELF, false, 9910)
+            arg2:ClearSubGoal()
+            arg2:AddSubGoal(GOAL_COMMON_ApproachTarget, 2, TARGET_ENE_0, 5, TARGET_SELF, false, 9910)
             return true
         end
-    elseif ai:GetSpecialEffectActivateInterruptType(0) == 5025 then
-        if distance <= 4 and roll <= 20 then
-            goal:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_HeavySmash, TARGET_ENE_0, 999, 0, 0, 0, 0)
-        elseif distance <= 4 and roll <= 40 then
-            goal:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, anim_HeavySmash, TARGET_ENE_0, 5, 0, 0, 0, 0)
-            goal:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_PreparedShieldSmash, TARGET_ENE_0, 999, 0, 0, 0, 0)
-        elseif 4 <= distance then
-            goal:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_PreparedForwardSmash, TARGET_ENE_0, 999, 0, 0, 0, 0)
+    elseif arg1:GetSpecialEffectActivateInterruptType(0) == 5025 then
+        if local0 <= 4 and local1 <= 20 then
+            arg2:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3023, TARGET_ENE_0, 999, 0, 0, 0, 0)
+        elseif local0 <= 4 and local1 <= 40 then
+            arg2:AddSubGoal(GOAL_COMMON_ComboRepeat, 10, 3023, TARGET_ENE_0, 5, 0, 0, 0, 0)
+            arg2:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3017, TARGET_ENE_0, 999, 0, 0, 0, 0)
+        elseif 4 <= local0 then
+            arg2:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3016, TARGET_ENE_0, 999, 0, 0, 0, 0)
         end
         return true
     else
-        ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 5026)
-        
-        if ai:GetSpecialEffectActivateInterruptType(0) == 5026 and ai:HasSpecialEffectAttribute(TARGET_ENE_0, SP_EFFECT_TYPE_TARGET_DOWN) == false and roll <= 60 then
-            if distance <= 4 or ai:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_F, 180) then
-                goal:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_HeavySmash, TARGET_ENE_0, 999, 0, 0, 0, 0)
+        arg1:AddObserveSpecialEffectAttribute(TARGET_SELF, 5026)
+        if arg1:GetSpecialEffectActivateInterruptType(0) == 5026 and arg1:HasSpecialEffectAttribute(TARGET_ENE_0, SP_EFFECT_TYPE_TARGET_DOWN) == false and local1 <= 60 then
+            if local0 <= 4 or arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_F, 180) then
+                arg2:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3023, TARGET_ENE_0, 999, 0, 0, 0, 0)
             else
-                goal:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_PreparedForwardSmash, TARGET_ENE_0, 999, 0, 0, 0, 0)
+                arg2:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3016, TARGET_ENE_0, 999, 0, 0, 0, 0)
             end
             return true
         else
-            ai:AddObserveSpecialEffectAttribute(TARGET_SELF, 5030)
-            
-            if ai:GetSpecialEffectActivateInterruptType(0) == 5030 then
-                if distance <= 4 and ai:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_F, 60) then
-                    if roll <= 50 then
-                        goal:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_HeavySwipe, TARGET_ENE_0, 999, 0, 0, 0, 0)
+            arg1:AddObserveSpecialEffectAttribute(TARGET_SELF, 5030)
+            if arg1:GetSpecialEffectActivateInterruptType(0) == 5030 then
+                if local0 <= 4 and arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_F, 60) then
+                    if local1 <= 50 then
+                        arg2:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, 3011, TARGET_ENE_0, 999, 0, 0, 0, 0)
                     else
-                        goal:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_DroppedHeavySwipe, TARGET_ENE_0, 999, 0, 0, 0, 0)
+                        arg2:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3012, TARGET_ENE_0, 999, 0, 0, 0, 0)
                     end
-                elseif roll <= 50 then
-                    goal:AddSubGoal(GOAL_COMMON_ComboFinal, 10, anim_JumpAndSmash, TARGET_ENE_0, 999, 0, 0, 0, 0)
+                elseif local1 <= 50 then
+                    arg2:AddSubGoal(GOAL_COMMON_ComboFinal, 10, 3013, TARGET_ENE_0, 999, 0, 0, 0, 0)
                 else
-                    goal:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, anim_HammerDragAndSlash, TARGET_ENE_0, 999, 0, 0, 0, 0)
+                    arg2:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, 3010, TARGET_ENE_0, 999, 0, 0, 0, 0)
                 end
                 return true
+            else
+                arg1:AddObserveSpecialEffectAttribute(TARGET_SELF, 5031)
+                if arg1:GetSpecialEffectActivateInterruptType(0) == 5031 then
+                    arg2:ClearSubGoal()
+                    CathedralGuardian_316000_Act07(arg1, arg2, paramTbl)
+                    return true
+                else
+                    return false
+                end
             end
         end
     end
 end
 
-function CathedralGuardian_ActAfter_AdjustSpace(self, ai, goal)
+function CathedralGuardian_ActAfter_AdjustSpace(arg0, arg1, arg2)
     return 
 end
 
-Goal.Update = function (self, ai, goal)
-    return Update_Default_NoSubGoal(self, ai, goal)
+RegisterTableGoal(GOAL_CathedralGuardian_829000_AttackStance, "GOAL_CathedralGuardian_829000_AttackStance")
+REGISTER_GOAL_NO_SUB_GOAL(GOAL_CathedralGuardian_829000_AttackStance, true)
+Goal.Activate = function (arg0, arg1, arg2)
+    local local0 = 3
+    local local1 = 999
+    local local2 = 0
+    local local3 = 0
+    local local4 = arg1:GetDist(TARGET_ENE_0)
+    local local5 = {}
+    local local6 = 0
+    local local7 = 0
+    local local8 = 0
+    if 15 <= local4 then
+        local5[1] = 0
+        local5[2] = 0
+        local5[3] = 100
+        local5[4] = 0
+    elseif 8 <= local4 then
+        local5[1] = 80
+        local5[2] = 0
+        local5[3] = 20
+        local5[4] = 0
+    elseif 5 <= local4 then
+        local5[1] = 0
+        local5[2] = 50
+        local5[3] = 20
+        local5[4] = 30
+    elseif arg1:IsInsideTarget(TARGET_ENE_0, AI_DIR_TYPE_F, 45) then
+        local5[1] = 0
+        local5[2] = 60
+        local5[3] = 40
+        local5[4] = 0
+    else
+        local5[1] = 0
+        local5[2] = 100
+        local5[3] = 0
+        local5[4] = 0
+    end
+    local local9 = 1
+    for local10 = 1 - local9, 4, local9 do
+        local6 = local6 + local5[local10]
+    end
+    local local11 = 1
+    for local12 = 1 - local11, 4, local11 do
+        local7 = local7 + local5[local12]
+        if arg1:GetRandam_Int(0, local6) <= local7 then
+            arg1:SetNumber(0, local12)
+            if local12 == 1 then
+                arg2:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, 3200, TARGET_ENE_0, 999, local2, local3, 0, 0)
+                break
+            elseif local12 == 2 then
+                arg2:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, 3201, TARGET_ENE_0, 999, local2, local3, 0, 0)
+                break
+            elseif local12 == 3 then
+                arg2:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, 3202, TARGET_ENE_0, 999, local2, local3, 0, 0)
+                break
+            else
+                arg2:AddSubGoal(GOAL_COMMON_ComboRepeat_SuccessAngle180, 10, 3203, TARGET_ENE_0, 999, local2, local3, 0, 0)
+                break
+            end
+        end
+    end
+    return 
+end
+
+Goal.Update = function (arg0, arg1, arg2)
+    return Update_Default_NoSubGoal(arg0, arg1, arg2)
 end
 
 return 
