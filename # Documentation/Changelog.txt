@@ -80,6 +80,7 @@ Finish following weapons:
 - Fixed Demon Prince, Midir, Slave Knight Gael and Halflight maluses giving the wrong SpEffect.
 - Master of Corruption achievement will now actually complete once you've acquired all the maluses.
 - Fixed a few instances of roll distance modifiers not applying on the secondary rolls.
+- Adjusted the wax attacks from the Archive Scholars to make them not so extreme.
 
 #------------------------------
 # TODO
