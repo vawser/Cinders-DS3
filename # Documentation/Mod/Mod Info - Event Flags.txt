@@ -2139,11 +2139,11 @@ xxx5750 Enemies enabled by Curse of Attraction
 #------------------------
 # Soul Coalescence
 #------------------------
-25009400 Strength Coalescence
-25009410 Dexterity Coalescence
-25009420 Intelligence Coalescence
-25009430 Faith Coalescence
-25009440 Luck Coalescence
+25009410 Strength Coalescence
+25009411 Dexterity Coalescence
+25009412 Intelligence Coalescence
+25009413 Faith Coalescence
+25009414 Luck Coalescence
 
 #------------------------
 #

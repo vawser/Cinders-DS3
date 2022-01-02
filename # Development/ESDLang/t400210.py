@@ -717,34 +717,34 @@ def t400210_x30():
         ClearTalkListData()
         
         # Coalesce Strength
-        AddTalkListDataIf(GetEventStatus(25009400) == 0, 1, 99096010, -1)
+        AddTalkListDataIf(GetEventStatus(25009410) == 0, 1, 99096010, -1)
         
         # Coalesce Dexterity
-        AddTalkListDataIf(GetEventStatus(25009401) == 0, 2, 99096011, -1)
+        AddTalkListDataIf(GetEventStatus(25009411) == 0, 2, 99096011, -1)
         
         # Coalesce Intelligence
-        AddTalkListDataIf(GetEventStatus(25009402) == 0, 3, 99096012, -1)
+        AddTalkListDataIf(GetEventStatus(25009412) == 0, 3, 99096012, -1)
         
         # Coalesce Faith
-        AddTalkListDataIf(GetEventStatus(25009403) == 0, 4, 99096013, -1)
+        AddTalkListDataIf(GetEventStatus(25009413) == 0, 4, 99096013, -1)
         
         # Coalesce Luck
-        AddTalkListDataIf(GetEventStatus(25009404) == 0, 5, 99096014, -1)
+        AddTalkListDataIf(GetEventStatus(25009414) == 0, 5, 99096014, -1)
         
         # Coalescence of Strength
-        AddTalkListDataIf(GetEventStatus(25009400) == 1, 1, 99096020, -1)
+        AddTalkListDataIf(GetEventStatus(25009410) == 1, 1, 99096020, -1)
         
         # Coalescence of Dexterity
-        AddTalkListDataIf(GetEventStatus(25009401) == 1, 2, 99096021, -1)
+        AddTalkListDataIf(GetEventStatus(25009411) == 1, 2, 99096021, -1)
         
         # Coalescence of Intelligence
-        AddTalkListDataIf(GetEventStatus(25009402) == 1, 3, 99096022, -1)
+        AddTalkListDataIf(GetEventStatus(25009412) == 1, 3, 99096022, -1)
         
         # Coalescence of Faith
-        AddTalkListDataIf(GetEventStatus(25009403) == 1, 4, 99096023, -1)
+        AddTalkListDataIf(GetEventStatus(25009413) == 1, 4, 99096023, -1)
         
         # Coalescence of Luck
-        AddTalkListDataIf(GetEventStatus(25009404) == 1, 5, 99096024, -1)
+        AddTalkListDataIf(GetEventStatus(25009414) == 1, 5, 99096024, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -754,61 +754,61 @@ def t400210_x30():
         
         # Sacrifice Strength
         if GetTalkListEntryResult() == 1:
-            if GetEventStatus(25009400) == 0:
+            if GetEventStatus(25009410) == 0:
                 if ComparePlayerStatus(3, 4, 99) == 1:
-                    assert t400210_x50(25009400)
+                    assert t400210_x50(25009410)
                 else:
                     # Lack stats
                     OpenGenericDialog(1, 99096040, 0, 0, 0)
-            elif GetEventStatus(25009400) == 1:
+            elif GetEventStatus(25009410) == 1:
                 # Completed, show bonus
                 OpenGenericDialog(1, 99096050, 0, 0, 0)
             return 0
         # Sacrifice Dexterity
         elif GetTalkListEntryResult() == 2:
-            if GetEventStatus(25009401) == 0:
+            if GetEventStatus(25009411) == 0:
                 if ComparePlayerStatus(4, 4, 99) == 1:
-                    assert t400210_x50(25009401)
+                    assert t400210_x50(25009411)
                 else:
                     # Lack stats
                     OpenGenericDialog(1, 99096041, 0, 0, 0)
-            elif GetEventStatus(25009401) == 1:
+            elif GetEventStatus(25009411) == 1:
                 # Completed, show bonus
                 OpenGenericDialog(1, 99096051, 0, 0, 0)
             return 0
         # Sacrifice Intelligence
         elif GetTalkListEntryResult() == 3:
-            if GetEventStatus(25009402) == 0:
+            if GetEventStatus(25009412) == 0:
                 if ComparePlayerStatus(5, 4, 99) == 1:
-                    assert t400210_x50(25009402)
+                    assert t400210_x50(25009412)
                 else:
                     # Lack stats
                     OpenGenericDialog(1, 99096042, 0, 0, 0)
-            elif GetEventStatus(25009402) == 1:
+            elif GetEventStatus(25009412) == 1:
                 # Completed, show bonus
                 OpenGenericDialog(1, 99096052, 0, 0, 0)
             return 0
         # Sacrifice Faith
         elif GetTalkListEntryResult() == 4:
-            if GetEventStatus(25009403) == 0:
+            if GetEventStatus(25009413) == 0:
                 if ComparePlayerStatus(6, 4, 99) == 1:
-                    assert t400210_x50(25009403)
+                    assert t400210_x50(25009413)
                 else:
                     # Lack stats
                     OpenGenericDialog(1, 99096043, 0, 0, 0)
-            elif GetEventStatus(25009403) == 1:
+            elif GetEventStatus(25009413) == 1:
                 # Completed, show bonus
                 OpenGenericDialog(1, 99096053, 0, 0, 0)
             return 0
         # Sacrifice Luck
         elif GetTalkListEntryResult() == 5:
-            if GetEventStatus(25009404) == 0:
+            if GetEventStatus(25009414) == 0:
                 if ComparePlayerStatus(7, 4, 99) == 1:
-                    assert t400210_x50(25009404)
+                    assert t400210_x50(25009414)
                 else:
                     # Lack stats
                     OpenGenericDialog(1, 99096044, 0, 0, 0)
-            elif GetEventStatus(25009404) == 1:
+            elif GetEventStatus(25009414) == 1:
                 # Completed, show bonus
                 OpenGenericDialog(1, 99096054, 0, 0, 0)
             return 0

@@ -9742,20 +9742,20 @@ Event(20400, Restart, function() {
 // Setup Soul Coalescence
 //----------------------------------------------
 Event(20500, Restart, function() {
-     // Strength
-    InitializeEvent(0, 20510, 25009400, 260130000);
+    // Strength
+    InitializeEvent(0, 20510, 25009410, 260130000);
     
     // Dexterity
-    InitializeEvent(1, 20510, 25009401, 260130010);
+    InitializeEvent(1, 20510, 25009411, 260130010);
     
     // Intelligence
-    InitializeEvent(2, 20510, 25009402, 260130020);
+    InitializeEvent(2, 20510, 25009412, 260130020);
     
     // Faith
-    InitializeEvent(3, 20510, 25009403, 260130030);
+    InitializeEvent(3, 20510, 25009413, 260130030);
     
     // Luck
-    InitializeEvent(4, 20510, 25009404, 260130040);
+    InitializeEvent(4, 20510, 25009414, 260130040);
 });
 
 //----------------------------------------------
