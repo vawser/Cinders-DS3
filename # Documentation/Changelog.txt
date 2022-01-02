@@ -17,7 +17,7 @@
 53202081 Archdragon Peak
 53302185 Road of Sacrifices / Farron Keep
 53412137 Grand Archives
-53502086 Cathedral of the Deep
+53502087 Cathedral of the Deep
 53702160 Irithyll of the Boreal Valley / Anor Londo
 53802181 Catacombs of Carthus / Smouldering Lake
 53902125 Irithyll Dungeon / Profaned Capital
@@ -75,6 +75,10 @@ Finish following weapons:
 - Added new spells:
  - Pyromancy: 
   - Maelstrom. Found in Irithyll of the Boreal Valley.
+  
+# Treasure
+- Deacons of the Deep now drop the Small Doll.
+- The Skeleton Ball that dropped the Small Doll now drops a Titanite Slab.
 
 # Bugfixes
 - Slicing Wind should properly work now.
