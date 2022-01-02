@@ -343,6 +343,9 @@ def t380501_x20():
         # Bubble Wall
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2724000, 4, 1, 0) == 1, 42, 99044041, -1)
         
+        # Maelstrom
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2728000, 4, 1, 0) == 1, 43, 99044042, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -516,6 +519,10 @@ def t380501_x20():
         # Bubble Prison
         elif GetTalkListEntryResult() == 42:
             assert t380501_x50(81410, 1060, 9, -10, 99045041, 99046041, 99040040)
+            continue
+        # Lingering Maelstrom
+        elif GetTalkListEntryResult() == 43:
+            assert t380501_x50(81420, 1060, 9, -10, 99045042, 99046042, 99040040)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
