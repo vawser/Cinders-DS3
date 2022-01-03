@@ -4205,7 +4205,7 @@
 160500450 [Pyromancy] Lingering Rockflesh
 160500451 [Pyromancy] Lingering Rockflesh [CycleOccurance]
 160500452 [Pyromancy] Lingering Rockflesh [CycleOccurance]
-160500460 [Various Spells] Bloodthirsty Flashsword - Dark Edge - Path of Frost - Throw Dust - Blood Sacrifice - Squall
+160500460 [Various Spells] Bloodthirsty Flashsword - Dark Edge - Path of Frost - Throw Dust - Blood Sacrifice - Squall - Ice Burn
 160500470 [Various Spells] Bloodthirsty Farron Dart - Lightning Arrow - Way of White Corona - Deep Barb - Nibble - Surging Deep - Blood Sacrifice
 160500480 [Pyromancy] Bloodthirsty Flame Fan
 160500490 [Pyromancy] Bloodthirsty Lingering Chaos
@@ -6006,6 +6006,10 @@
 170000580 Bleed - Blood Resonance
 170000590 Bleed - Blood Crystallization
 170000600 Bleed - Great Blood Crystallization
+170000610 Frost - Ice Burn
+170000620 Frost - Frigid Orbs
+170000630 Frost - Frozen Chaos
+170000640 Frost - Rupturing Frostfire
 179999999 ### Poison - Weapons ###
 180000000 Poison - Normal (Infusion)
 180000001 Poison - Quick (Infusion)

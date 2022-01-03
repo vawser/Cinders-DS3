@@ -64,13 +64,20 @@ Finish following weapons:
 
 # Weapons
 - Adjusted the base damage and weapon art damage multipliers of several spell tools.
+- Changed the damage self buff of Frostfall from Fire to Magic.
 
 # Bosses
 - Removed Yhorm's rubble rain.
+- Changed the Fire damage portion of the attacks from Princess Yngvil to Magic damage.
+
+# Enemies
+- Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
 
 # Spells
 - Changed Adjacent Black Star to Homing Black Star.
 - Slightly increased the radius of Pulsating Mud.
+- Reduced the INT requirement of Piercing Ice to 10.
+- Changed the casting animation SFX of some Cryomancies.
 
 - Added new spells:
  - Pyromancy: 
@@ -89,6 +96,8 @@ Finish following weapons:
 - Fixed a few instances of roll distance modifiers not applying on the secondary rolls.
 - Adjusted the wax attacks from the Archive Scholars to make them not so extreme.
 - Fixed a few boss fogwalls so they use the correct invalidation flag. This fixes issues where they were randomly not working.
+- Added some missing items to the Gauntlet Mode shop.
+- Removed the old unused Crystal Shard item from the Gauntlet Mode shop.
 
 #------------------------------
 # TODO

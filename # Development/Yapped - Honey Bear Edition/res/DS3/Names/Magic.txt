@@ -189,6 +189,22 @@
 1812006 Soul Instability [Luck]
 1812010 Lingering Soul Instability
 1812016 Lingering Soul Instability [Luck]
+1813000 Ice Burn
+1813006 Ice Burn [Luck]
+1813010 Bloodthirsty Ice Burn
+1813016 Bloodthirsty Ice Burn [Luck]
+1814000 Frigid Orbs
+1814006 Frigid Orbs [Luck]
+1814010 Lingering Frigid Orbs
+1814016 Lingering Frigid Orbs [Luck]
+1815000 Frozen Chaos
+1815006 Frozen Chaos [Luck]
+1815010 Quickened Frozen Chaos
+1815016 Quickened Frozen Chaos [Luck]
+1816000 Rupturing Frostfire
+1816006 Rupturing Frostfire [Luck]
+1816010 Great Rupturing Frostfire
+1816016 Great Rupturing Frostfire [Luck]
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400006 Fireball [Luck]

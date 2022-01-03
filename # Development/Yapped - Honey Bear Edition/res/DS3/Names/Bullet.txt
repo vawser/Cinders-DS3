@@ -4167,6 +4167,49 @@
 109585246 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
 109585247 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
 109585248 [Pyromancy] Lingering Maelstrom Outer Spawners Follow-up
+109586000 [Sorcery] Ice Burn
+109586010 [Sorcery] Ice Burn [Hit]
+109586100 [Sorcery] Bloodthirsty Ice Burn
+109586110 [Sorcery] Bloodthirsty Ice Burn [Hit]
+109587000 [Sorcery] Frigid Orbs
+109587010 [Sorcery] Frigid Orbs
+109587020 [Sorcery] Frigid Orbs
+109587030 [Sorcery] Frigid Orbs
+109587040 [Sorcery] Frigid Orbs
+109587050 [Sorcery] Frigid Orbs
+109587060 [Sorcery] Frigid Orbs
+109587070 [Sorcery] Frigid Orbs
+109587080 [Sorcery] Frigid Orbs
+109587090 [Sorcery] Frigid Orbs
+109587100 [Sorcery] Lingering Frigid Orbs
+109587110 [Sorcery] Lingering Frigid Orbs
+109587120 [Sorcery] Lingering Frigid Orbs
+109587130 [Sorcery] Lingering Frigid Orbs
+109587140 [Sorcery] Lingering Frigid Orbs
+109587150 [Sorcery] Lingering Frigid Orbs
+109587160 [Sorcery] Lingering Frigid Orbs
+109587170 [Sorcery] Lingering Frigid Orbs
+109587180 [Sorcery] Lingering Frigid Orbs
+109587190 [Sorcery] Lingering Frigid Orbs
+109587200 [Sorcery] Lingering Frigid Orbs
+109587210 [Sorcery] Lingering Frigid Orbs
+109587220 [Sorcery] Lingering Frigid Orbs
+109587230 [Sorcery] Lingering Frigid Orbs
+109587240 [Sorcery] Lingering Frigid Orbs
+109587250 [Sorcery] Lingering Frigid Orbs
+109587260 [Sorcery] Lingering Frigid Orbs
+109587270 [Sorcery] Lingering Frigid Orbs
+109587280 [Sorcery] Lingering Frigid Orbs
+109587290 [Sorcery] Lingering Frigid Orbs
+109588000 [Sorcery] Frozen Chaos
+109588010 [Sorcery] Frozen Chaos [Hit]
+109588020 [Sorcery] Frozen Chaos [Hit]
+109589000 [Sorcery] Rupturing Frostfire
+109589010 [Sorcery] Rupturing Frostfire
+109589020 [Sorcery] Rupturing Frostfire [Hit]
+109589100 [Sorcery] Great Rupturing Frostfire
+109589110 [Sorcery] Great Rupturing Frostfire
+109589120 [Sorcery] Great Rupturing Frostfire [Hit]
 109999999 ### Spell Summons ###
 110000000 Conjure Skeleton
 110000100 Conjure Hollow

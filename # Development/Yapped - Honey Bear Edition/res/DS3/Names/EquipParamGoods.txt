@@ -726,6 +726,14 @@
 1811010 Explosive Crystal Orb
 1812000 Soul Instability
 1812010 Lingering Soul Instability
+1813000 Ice Burn
+1813010 Bloodthirsty Ice Burn
+1814000 Frigid Orbs
+1814010 Lingering Frigid Orbs
+1815000 Frozen Chaos
+1815010 Quickened Frozen Chaos
+1816000 Rupturing Frostfire
+1816010 Great Rupturing Frostfire
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400010 Incendiary Fireball
