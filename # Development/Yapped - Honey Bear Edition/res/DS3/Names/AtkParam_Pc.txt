@@ -5355,6 +5355,16 @@
 13739110 [Miracle] Great Blood Crystallization [Hit]
 13740000 [Pyromancy] Maelstrom
 13740010 [Pyromancy] Maelstrom Burst
+13741000 [Sorcery] Ice Burn
+13741010 [Sorcery] Ice Burn [Hit]
+13742000 [Sorcery] Frigid Orbs
+13743000 [Sorcery] Frozen Chaos
+13743010 [Sorcery] Frozen Chaos [Hit]
+13743020 [Sorcery] Frozen Chaos [Hit]
+13744000 [Sorcery] Rupturing Frostfire
+13744010 [Sorcery] Rupturing Frostfire [Hit]
+13744100 [Sorcery] Great Rupturing Frostfire
+13744110 [Sorcery] Great Rupturing Frostfire [Hit]
 13999999 ### Weapons ###
 14000000 Blessing of Rosaria (Old)
 14000001 Blessing of Rosaria (Old)

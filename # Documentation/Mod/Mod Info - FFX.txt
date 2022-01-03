@@ -342,6 +342,14 @@ dmy:
 
 908000 Mirror Knight Lightning Weapon Buff
 
+909000 Frigid Orbs
+
+910000 Ice Burn (Projectile)
+910100 Ice Burn (Impact)
+
+911000 Rupturing Frostfire
+911100 Great Rupturing Frostfire
+
 #------------------------
 # Frostfall
 #------------------------

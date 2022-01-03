@@ -55,62 +55,59 @@
 9401 Messenger Tombstone (already ignited) * Text difference
 9410 Messenger Tombstone (not ignited)
 9411 Messenger Tombstone (already ignited) * Text difference
-9997 Find out (Ojo 1 saloon)
-9999 Inspect (for City/bridge warp obj)
-10000 Traverse the fog
-20000 Hop
-20001 Leap
-30000 Enter - Door
-30001 Commune - Big Object
-30002 Commune - Small Object
-30003 Destroy
-40010 Trigger Memory
-40014 Peer into the Past
-40015 Revive
-40100 Toss Petrified Something
-50000 Interaction Point - Seek Blessing
-50001 Interaction Point - Harvest
-50002 Interaction Point - Extract Draconic Essence
-60000 Summon - Sellsword Luet
-60001 Summon - Maldron the Assassin
-60002 Summon - Sword Master
-60003 Summon - Huntmaster Ava
-3000250 For the treasure corpse that broke from the vase
-3001800 Entering the wall of light (Ojo 1 Full Armor Beast)
-3001830 Entering the wall of light (Ojo 1 dragon)
-3001890 Entering the wall of Light (Ojo 1 E3 version Tracker)
-3011800 Entering the wall of Light (Ojo 2 Dragon's Guardian Knight)
-3011850 Fogwall - Twisted Knight
-3100000 Should probably rely to servant
-3100870 Fogwall - Aborr
-3101800 Entering the wall of Light (city)
-3201800 Entering the wall of Light (bridge _ The nest of a flying dragon)
-3201850 Entering the wall of Light (bridge _ on the bridge)
-3201870 Fogwall - Trio of Explorers
-3301800 Entering the wall of light (Poison swamp forest)
-3301850 Entering the wall of light (elders of the Forest of poisonous swamp crystals)
-3411830 Entering the wall of Light (Ojo 2)
-3411860 Entering the wall of Light (Ojo 2)
-3411870 Mirror Knight - Fogwall
-3411875 Mirror Knight - Taunt
-3501800 Entering the wall of Light (Basilica Church _ Cardinal)
-3501850 Cathedral Guardian - Fogwall
-3501855 Cathedral Guardian - Taunt
-3501860 Entering the wall of Light (Basilica Church _ Rosalia)
-3601800 Entering the wall of the light (God's Tomb _ the Angel of the Dragon)
-3701800 Entering the wall of light (Anole _ Saliva)
-3701820 Fogwall - Guardians of Anor Londo
-3701850 Entering the wall of Light (anole _ landmark Church)
-3701870 Fogwall - Lordran Remnants
-3801800 Entering the wall of light (disused city _ Hallec)
-3801830 Entering the wall of light (waste city _ sand Worm)
-3801860 Entering the wall of light (disused city _ the demon of Ashes)
-3901800 Entering the wall of Ligh
-4001800 Fogwall - Corrupted Gundyr
-4001830 Fogwall - Champion Gundyr
-4001850 Fogwall - The Marauder
-4001860 Entering the wall of light (stronghold _ Russ Boss)
-4501860 Princess Yngvil - Fog Wall
-4501860 Princess Yngvil - Fog Wall
-4501960 Prince Dorthinus - Fogwall
-9990800 Entering the wall of Light (test)
+10000 [Interaction] Traverse the fog
+20000 [Interaction] Hop
+20001 [Interaction] Leap
+30000 [Interaction] Enter (Door)
+30001 [Interaction] Commune (Big)
+30002 [Interaction] Commune (Small)
+30003 [Interaction] Destroy
+40010 [Interaction] Trigger Memory
+40014 [Interaction] Peer into the Past
+40015 [Interaction] Revive
+40100 [Interaction] Toss Petrified Something
+50000 [Interaction] Seek Blessing
+50001 [Interaction] Harvest
+50002 [Interaction] Extract Draconic Essence
+60000 [Summon] Sellsword Luet
+60001 [Summon] Maldron the Assassin
+60002 [Summon] Sword Master
+60003 [Summon] Huntmaster Ava
+3001800 [Fogwall] Vordt of the Boreal Valley
+3001830 [Fogwall] Oceiros
+3001890 [Fogwall] Dancer of the Boreal Valley
+3011800 [Fogwall] Dragonslayer Armour
+3011850 [Fogwall] Twisted Knight
+3100870 [Fogwall] Aborr
+3101510 [Fogwall] Transition Doorway
+3101800 [Fogwall] Curse-rotted Greatwood
+3201800 [Fogwall] Ancient Wyvern
+3201850 [Fogwall] Nameless King
+3201870 [Fogwall] Trio of Explorers
+3301800 [Fogwall] Abyss Watchers
+3301850 [Fogwall] Crystal Sage
+3411830 [Fogwall] Twin Princes
+3411870 [Fogwall] Mirror Knight
+3411875 [Interaction] Mirror Knight - Taunt
+3501800 [Fogwall] Deacons of the Deep
+3501850 [Fogwall] Cathedral Guardian
+3501855 [Interaction] Cathedral Guardian - Taunt
+3501860 [Fogwall] Rosaria's Chamber
+3701800 [Fogwall] Aldrich
+3701850 [Fogwall] Pontiff Sulyvahn
+3701870 [Fogwall] Lordran Remnants
+3801800 [Fogwall] High Lord Wolnir
+3801830 [Fogwall] Old Demon King
+3901800 [Fogwall] Yhorm the Giant
+4001800 [Fogwall] Corrupted Gundyr
+4001830 [Fogwall] Champion Gundyr
+4001850 [Fogwall] The Marauder
+4101800 [Fogwall] Soul of Cinder
+4501800 [Fogwall] Sister Friede
+4501860 [Fogwall] Princess Yngvil
+4501960 [Fogwall] Prince Dorthinus
+5001800 [Fogwall] Demon Prince
+5101800 [Fogwall] Halflight
+5101850 [Fogwall] Darkeater Midir
+5111800 [Fogwall] Slave Knight Gael
+5111850 [Fogwall] Shira Encounter

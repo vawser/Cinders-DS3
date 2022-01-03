@@ -72,8 +72,8 @@
 22211 [Rosaria's Fingers] Leggings of Thorns
 22213 [Rosaria's Fingers] Rosaria's Soul
 22214 [Rosaria's Fingers] Silver Mask
-22400 [Spears of the Church] Young Grass Dew
-22401 [Spears of the Church] Divine Spear Fragment
+22400 [Spears of the Church] Bloodthirsty Grass Dew
+22401 [Spears of the Church] Bloodthirsty Spear Fragment
 22402 [Spears of the Church] Lethal Gem
 22404 [Spears of the Church] Ritual Spear Fragment
 22406 [Spears of the Church] Sacred Chime of Filianore
@@ -2988,6 +2988,16 @@
 803364 [Gauntlet Spell] Lingering Blood Orb
 803365 [Gauntlet Spell] Tailwind
 803366 [Gauntlet Spell] Lingering Tailwind
+803367 [Gauntlet Spell] Cyclone Blast
+803368 [Gauntlet Spell] Explosive Cyclone Blast
+803369 [Gauntlet Spell] Gale Force
+803370 [Gauntlet Spell] Weakening Gale Force
+803371 [Gauntlet Spell] Slicing Wind
+803372 [Gauntlet Spell] Swift Slicing Wind
+803373 [Gauntlet Spell] Squall
+803374 [Gauntlet Spell] Bloodthirsty Squall
+803375 [Gauntlet Spell] Maelstrom
+803376 [Gauntlet Spell] Lingering Maelstrom
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal
@@ -3009,7 +3019,6 @@
 804018 [Gauntlet Item] Holy Gem
 804019 [Gauntlet Item] Sharp Gem
 804020 [Gauntlet Item] Blunt Gem
-804021 [Gauntlet Item] Crystal Shard
 804022 [Gauntlet Item] Dragon Eye
 804023 [Gauntlet Item] Human Effigy
 804024 [Gauntlet Item] Devil's Trumphet
@@ -3025,7 +3034,7 @@
 804036 [Gauntlet Item] Blackweed Balm
 804037 [Gauntlet Item] Goldenfruit Balm
 804038 [Gauntlet Item] Brightbug
-804039 [Gauntlet Item] Young Grass Dew
+804039 [Gauntlet Item] Bloodthirsty Grass Dew
 804040 [Gauntlet Item] Undead Bone Shard
 804041 [Gauntlet Item] Estus Shard
 804042 [Gauntlet Item] Titanite Shard
@@ -3102,6 +3111,12 @@
 804117 [Gauntlet Item] Frigid Knife
 804118 [Gauntlet Item] Blessed Pine Resin
 804119 [Gauntlet Item] Cursed Pine Resin
+804120 [Gauntlet Item] Ritual Spear Fragment
+804121 [Gauntlet Item] Bloodthirsty Spear Fragment
+804122 [Gauntlet Item] Bloodthirsty Draconic Fire
+804123 [Gauntlet Item] Bloodthirsty Draconic Might
+804124 [Gauntlet Item] Bloodthirsty Draconic Fire Orbs
+804125 [Gauntlet Item] Bloodthirsty Draconic Fury
 804200 [Gauntlet Ammunition] Standard Arrow
 804201 [Gauntlet Ammunition] Fire Arrow
 804202 [Gauntlet Ammunition] Poison Arrow

@@ -22,6 +22,7 @@
 2102 [Boss - Abyss Watchers] Tome: Abyss Watchers
 2110 [Boss - Deacons of the Deep] Soul of the Deacons of the Deep
 2111 [Boss - Deacons of the Deep] Tome: Deacons of the Deep
+2112 [Boss - Deacons of the Deep] Small Doll
 2120 [Boss - Pontiff Sulyvahn] Soul of Pontiff Sulyvahn
 2121 [Boss - Pontiff Sulyvahn] Tome: Pontiff Sulyvahn
 2130 [Boss - Aldrich] Cinders of a Lord
@@ -556,6 +557,10 @@
 80460 [Sorcery] Soul Explosion
 80470 [Sorcery] Explosive Crystal Orb
 80480 [Sorcery] Lingering Soul Instability
+80490 [Sorcery] Bloodthirsty Ice Burn
+80500 [Sorcery] Lingering Frigid Orbs
+80510 [Sorcery] Quickened Frozen Chaos
+80520 [Sorcery] Great Rupturing Frostfire
 81000 [Pyromancy] Incendiary Fireball
 81010 [Pyromancy] Weakening Fire Orb
 81020 [Pyromancy] Homing Chaos Fire Orb
@@ -1911,7 +1916,7 @@
 3800810 [Unique - Old Demon King] Quelaag's Fury Sword
 3800820 [Unique - High Lord Wolnir] Unholy Remains
 3800830 [Unique - Skeleton Ball - Upper] Undead Bone Shard
-3800840 [Unique - Skeleton Ball - Lower] Small Doll
+3800840 [Unique - Skeleton Ball - Lower] Titanite Slab
 3801000 [Mimic] Greatshield of Glory
 3801010 [Mimic] Witch's Ring
 3801020 [Mimic] Smelter Hammer
