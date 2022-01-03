@@ -98,6 +98,7 @@ Finish following weapons:
 - Fixed a few boss fogwalls so they use the correct invalidation flag. This fixes issues where they were randomly not working.
 - Added some missing items to the Gauntlet Mode shop.
 - Removed the old unused Crystal Shard item from the Gauntlet Mode shop.
+- Fixed the throwing knives/kukris from the Crow Quills and Carthus Shotel Weapon Arts not inflicting the aux effect of the weapon.
 
 #------------------------------
 # TODO
