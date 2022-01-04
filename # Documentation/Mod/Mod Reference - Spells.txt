@@ -2056,8 +2056,8 @@
 - Slot Use: 2
 - Dark Damage: 40 {120} per tick for the beam, 275 {825} for the explosion
 
-#---- Adjacent Black Star
-- Changes the angle to shoot straight down.
+#---- Homing Black Star
+- It now shoots the beam to the targeted enemy.
 
 #--------------------------------
 # Nibble
