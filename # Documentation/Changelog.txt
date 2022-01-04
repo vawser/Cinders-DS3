@@ -78,11 +78,20 @@ Finish following weapons:
 - Slightly increased the radius of Pulsating Mud.
 - Reduced the INT requirement of Piercing Ice to 10.
 - Changed the casting animation SFX of some Cryomancies.
+- Changed the cast animation of Soul Eruption and Soul Explosion to Wrath of the Gods, reduced their damage to 80 per hit and adjusted how they work.
 
 - Added new spells:
+ - Sorcery:
+  - Ice Burn. Found in the Painted World of Ariandel.
+  - Frigid Orbs. Dropped by one of the Frigid Attendants in the Painted World of Ariandel.
+  - Frozen Chaos. Dropped by one of the Frigid Attendants in the Painted World of Ariandel.
+  - Rupturing Frostfire. Dropped by one of the Frigid Attendants in the Painted World of Ariandel.
  - Pyromancy: 
   - Maelstrom. Found in Irithyll of the Boreal Valley.
   
+# Items
+- Yngvil's Crystal now boosts Magic absorption.
+
 # Treasure
 - Deacons of the Deep now drop the Small Doll.
 - The Skeleton Ball that dropped the Small Doll now drops a Titanite Slab.
@@ -99,6 +108,7 @@ Finish following weapons:
 - Added some missing items to the Gauntlet Mode shop.
 - Removed the old unused Crystal Shard item from the Gauntlet Mode shop.
 - Fixed the throwing knives/kukris from the Crow Quills and Carthus Shotel Weapon Arts not inflicting the aux effect of the weapon.
+- Fixed the stat requirements of the Dark and Lucky infused Murky Hand Scythe.
 
 #------------------------------
 # TODO

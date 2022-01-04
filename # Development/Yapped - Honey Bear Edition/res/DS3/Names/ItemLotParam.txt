@@ -2194,7 +2194,7 @@
 4500150 [Corpse] Soul of a Weary Warrior
 4500151 [Corpse] Large Titanite Shard
 4500160 [Corpse] Soul of a Nameless Soldier
-4500161 [Corpse] Goldenfruit Balm
+4500161 [Corpse] Ice Burn
 4500170 [Corpse] Soul of a Nameless Soldier
 4500171 [Corpse] Large Titanite Shard
 4500180 [Corpse] Large Soul of a Nameless Soldier
@@ -2276,6 +2276,9 @@
 4502030 [OTD - Millwood Knight] Millwood Greatbow
 4502040 [OTD - Millwood Knight] Millwood Battle Axe
 4502041 [OTD - Millwood Knight] Ethereal Oak Shield
+4502050 [OTD - Frigid Attendant] Frigid Orbs
+4502060 [OTD - Frigid Attendant] Rupturing Frostfire
+4502070 [OTD - Frigid Attendant] Frozen Chaos
 4999999 ### Treasure - Dreg Heap
 5000000 [Corpse] Soul of a Nameless Soldier
 5000001 [Corpse] Prism Stone
