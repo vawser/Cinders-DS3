@@ -308,7 +308,7 @@
 # Piercing Ice
 #--------------------------------
 - FP Cost: 40
-- INT Req: 20
+- INT Req: 10
 - Slot Use: 1
 - Magic Damage: 125 {375}
 - Frost Inflict: 50
@@ -377,6 +377,55 @@
 
 #---- Lingering Soul Instability
 - Increases duration to 10 seconds.
+
+#--------------------------------
+# Ice Burn
+#--------------------------------
+- FP Cost: 70
+- INT Req: 20
+- Slot Use: 1
+- Magic Damage: 175 {525}
+- Frost Inflict: 70
+
+#---- Bloodthirsty Ice Burn
+- Gives 5 bloodthirst charges on hit.
+
+#--------------------------------
+# Frigid Orbs
+#--------------------------------
+- FP Cost: 120
+- INT Req: 50
+- Slot Use: 2
+- Magic Damage: 40 {120}
+- Base Effect: Lasts 5 seconds.
+- Frost Inflict: 10
+
+#---- Lingering Frigid Orbs
+- Increases duration to 10 seconds.
+
+#--------------------------------
+# Frozen Chaos
+#--------------------------------
+- FP Cost: 100
+- INT Req: 30
+- Slot Use: 2
+- Magic Damage: 250 {750} [50 {150}] [50 {150}]
+- Frost Inflict: 80
+
+#---- Quickened Frozen Chaos
+- Changes cast animation to Farron Dart.
+
+#--------------------------------
+# Rupturing Frostfire
+#--------------------------------
+- FP Cost: 80
+- INT Req: 40
+- Slot Use: 1
+- Magic Damage: 275 {825}
+- Frost Inflict: 40
+
+#---- Great Rupturing Frostfire
+- Increases Poise Damage to 100 and the explosion range.
 
 #--------------------------------------------------------------------------
 # Sorceries - Effects

@@ -2998,6 +2998,14 @@
 803374 [Gauntlet Spell] Bloodthirsty Squall
 803375 [Gauntlet Spell] Maelstrom
 803376 [Gauntlet Spell] Lingering Maelstrom
+803377 [Gauntlet Spell] Ice Burn
+803378 [Gauntlet Spell] Bloodthirsty Ice Burn
+803379 [Gauntlet Spell] Frigid Orbs
+803380 [Gauntlet Spell] Lingering Frigid Orbs
+803381 [Gauntlet Spell] Rupturing Frostfire
+803382 [Gauntlet Spell] Great Rupturing Frostfire
+803383 [Gauntlet Spell] Frozen Chaos
+803384 [Gauntlet Spell] Quickened Frozen Chaos
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal

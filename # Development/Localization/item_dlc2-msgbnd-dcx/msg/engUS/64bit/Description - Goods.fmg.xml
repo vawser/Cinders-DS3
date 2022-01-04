@@ -3917,6 +3917,58 @@ Release a soul orb that creates a vortex of fierce energies for 5 seconds.</text
 Known as the Dark Sun, Gwyndolin was a master of sorcery and commanded unfathomable skill over all forms of it.
 
 Release a Lingering soul orb that creates a vortex of fierce energies for 10 seconds.</text>
+<text id="1813000">A sorcery taught to all sorcerers of the Painted World.
+
+Fire ice that burns on contact.
+Inflicts 70 Frost.
+
+Manipulation of the environment is key for sorcerers in the Painted World.
+That environment is ice.</text>
+<text id="1813010">A sorcery taught to all sorcerers of the Painted World.
+
+Fire ice that burns on contact.
+Inflicts 70 Frost.
+Grants 5 Bloodthirst charges.
+
+Manipulation of the environment is key for sorcerers in the Painted World.
+That environment is ice.</text>
+<text id="1814000">A sorcery derived from the vestiges of an Old Chaos.
+
+Cast erratic frost orbs that last 5 seconds.
+Inflicts 10 Frost.
+
+Once a failed experiment, now a distinct amalgamation of chaotic frostfire.</text>
+<text id="1814010">A sorcery derived from the vestiges of an Old Chaos.
+
+Cast lingering erratic frost orbs that last for 10 seconds.
+Inflicts 10 Frost.
+
+Once a failed experiment, now a distinct amalgamation of chaotic frostfire.</text>
+<text id="1815000">A sorcery derived from the vestiges of an Old Chaos.
+
+Cast frostfire that scorches vicinity.
+Inflicts 80 Frost.
+
+Once a failed experiment, now a distinct amalgamation of chaotic frostfire.</text>
+<text id="1815010">A sorcery derived from the vestiges of an Old Chaos.
+
+Cast frostfire that scorches vicinity.
+Inflicts 80 Frost.
+
+Once a failed experiment, now a distinct amalgamation of chaotic frostfire.</text>
+<text id="1816000">A sorcery derived from the vestiges of an Old Chaos.
+
+Cast orb that contains an uncontrolable frostfire force, which eventually breaks loose.
+Inflicts 40 Frost.
+
+Once a failed experiment, now a distinct amalgamation of chaotic frostfire.</text>
+<text id="1816010">A sorcery derived from the vestiges of an Old Chaos.
+
+Cast orb that contains an uncontrolable frostfire force, which eventually breaks loose.
+Inflicts 40 Frost.
+Increases Poise Damage to 100.
+
+Once a failed experiment, now a distinct amalgamation of chaotic frostfire.</text>
 <text id="2400000">Elementary pyromancy that is often the first learned.
 Hurls a fireball.
 
