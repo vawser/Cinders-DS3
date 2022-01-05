@@ -51,7 +51,7 @@
 - FP Cost: 100
 - INT Req: 20
 - Slot Use: 1
-- Magic Damage: 100 {300}
+- Magic Damage: 80 {240}
 - Emit soul projectiles from body. (3 rows of 10)
 
 #---- Soul Explosion
