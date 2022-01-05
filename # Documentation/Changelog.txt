@@ -109,6 +109,7 @@ Finish following weapons:
 - Removed the old unused Crystal Shard item from the Gauntlet Mode shop.
 - Fixed the throwing knives/kukris from the Crow Quills and Carthus Shotel Weapon Arts not inflicting the aux effect of the weapon.
 - Fixed the stat requirements of the Dark and Lucky infused Murky Hand Scythe.
+- Fixed the stat requirements of the Lucky and non-infused Golem Axe.
 
 #------------------------------
 # TODO
