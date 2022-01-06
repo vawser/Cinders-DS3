@@ -3006,6 +3006,16 @@
 803382 [Gauntlet Spell] Great Rupturing Frostfire
 803383 [Gauntlet Spell] Frozen Chaos
 803384 [Gauntlet Spell] Quickened Frozen Chaos
+803385 [Gauntlet Spell] Soul Instability
+803386 [Gauntlet Spell] Lingering Soul Instability
+803387 [Gauntlet Spell] Bubble Wall
+803388 [Gauntlet Spell] Bubble Prison
+803389 [Gauntlet Spell] Static Field
+803390 [Gauntlet Spell] Lingering Static Field
+803391 [Gauntlet Spell] Blood Corruption
+803392 [Gauntlet Spell] Great Blood Corruption
+803393 [Gauntlet Spell] Blood Crystallization
+803394 [Gauntlet Spell] Great Blood Crystallization
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal
