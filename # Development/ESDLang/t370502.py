@@ -355,6 +355,18 @@ def t370502_x20():
         # Soul Instability
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1812000, 4, 1, 0) == 1, 49, 99041048, -1)
         
+        # Ice Burn
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1813000, 4, 1, 0) == 1, 50, 99041049, -1)
+        
+        # Frigid Orbs
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1814000, 4, 1, 0) == 1, 51, 99041050, -1)
+        
+        # Frozen Chaos
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1815000, 4, 1, 0) == 1, 52, 99041051, -1)
+        
+        # Rupturing Frostfire
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 1816000, 4, 1, 0) == 1, 53, 99041052, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -544,6 +556,22 @@ def t370502_x20():
         # Lingering Soul Instability
         elif GetTalkListEntryResult() == 49:
             assert t370502_x50(80480, 1070, 14, -15, 99042048, 99043048, 99040011)
+            continue
+        # Bloodthirsty Ice Burn
+        elif GetTalkListEntryResult() == 50:
+            assert t370502_x50(80490, 1070, 14, -15, 99042049, 99043049, 99040011)
+            continue
+        # Lingering Frigid Orbs
+        elif GetTalkListEntryResult() == 51:
+            assert t370502_x50(80500, 1070, 14, -15, 99042050, 99043050, 99040011)
+            continue
+        # Quickened Frozen Chaos
+        elif GetTalkListEntryResult() == 52:
+            assert t370502_x50(80510, 1070, 14, -15, 99042051, 99043051, 99040011)
+            continue
+        # Great Rupturing Frostfire
+        elif GetTalkListEntryResult() == 53:
+            assert t370502_x50(80520, 1070, 14, -15, 99042052, 99043052, 99040011)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
