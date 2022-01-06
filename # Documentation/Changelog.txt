@@ -64,6 +64,7 @@ Finish following weapons:
 
 # Weapons
 - Adjusted the base damage and weapon art damage multipliers of several spell tools.
+- Adjusted the grab of the Dark Hand.
 - Changed the damage self buff of Frostfall from Fire to Magic.
 
 # Bosses
