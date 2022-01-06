@@ -245,6 +245,11 @@ def t350020_x8(goods1=373, goods2=728, lot1=4268, lot2=4267):
                 assert GetCurrentStateElapsedTime() > 1
                 """ State 13 """
                 c1113()
+                SetEventState(25009410, 0)
+                SetEventState(25009411, 0)
+                SetEventState(25009412, 0)
+                SetEventState(25009413, 0)
+                SetEventState(25009414, 0)
                 
                 ClearTalkActionState()
                 def ExitPause():
