@@ -66,6 +66,7 @@ Finish following weapons:
 - Adjusted the base damage and weapon art damage multipliers of several spell tools.
 - Adjusted the grab of the Dark Hand.
 - Changed the damage self buff of Frostfall from Fire to Magic.
+- Blind now completely bypasses the shield guard of enemies.
 
 # Bosses
 - Removed Yhorm's rubble rain.
