@@ -3421,18 +3421,14 @@ Effect duration can be extended.
 After much experimentation, Logan found the
 crystal medium facilitated a stronger bond
 between weapon and soul.</text>
-<text id="1312010">Further sharpens Crystal Magic Weapon.
-Reinforces right weapon with crystal.
+<text id="1312010">Legendary sorcery associated with Seath the paledrake, which imbues weapons with a pure magic power.
+Reinforces right weapon with moonlight.
 
 Increases Magic damage by 100 for 120 seconds.
 Fatigues focus, increasing FP consumption costs by 30% while active.
 
 Scales with Spell Buff.
-Effect duration can be extended.
-
-After much experimentation, Logan found the
-crystal medium facilitated a stronger bond
-between weapon and soul.</text>
+Effect duration can be extended.</text>
 <text id="1330000">Sorcery for casters who wield swords.
 Reinforces left shield with magic.
 
@@ -4153,8 +4149,8 @@ Scales with Spell Buff.
 Effect duration can be extended.
 
 Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
-<text id="2435010">Pyromancy of Carthus of the Sands.
-Reinforces right weapon with flame.
+<text id="2435010">Art of the Flame of Chaos, from Ancient Izalith.
+Reinforces right weapon with chaos flame.
 
 Increases Fire damage by 100, reduces Stamina Consumption by 20% for 60 seconds.
 Fatigues focus, increasing FP consumption costs by 30% while active.
@@ -4162,7 +4158,7 @@ Fatigues focus, increasing FP consumption costs by 30% while active.
 Scales with Spell Buff.
 Effect duration can be extended.
 
-Warriors of Carthus favored supplemental pyromancies such as this, which was used to enhance the curved blades of its swordsmen.</text>
+The Witch of Izalith and her daughters birthed the Flame of Chaos, but it devoured them along with their home.</text>
 <text id="2436000">Advanced pyromancy of Quelana,
 a daughter of the Witch of Izalith.
 
@@ -5709,7 +5705,7 @@ Fatigues focus, increasing FP consumption costs by 25% while active.
 Scales with Spell Buff.
 Effect duration can be extended.
 </text>
-<text id="4210010">An echo of Elfriede's black flame, the eldest amongst her sisters and leader of the Sable Church.
+<text id="4210010">Formless black flames from the dark void known as the Abyss, which indiscriminately consume all.
 
 Imbue right weapon with black flame, adding 100 Dark damage and boosting damage against Demons by 20% for 60 seconds.
 Fatigues focus, increasing FP consumption costs by 25% while active.

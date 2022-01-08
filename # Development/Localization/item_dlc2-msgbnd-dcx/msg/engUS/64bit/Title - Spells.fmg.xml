@@ -1127,7 +1127,7 @@
 <text id="1310000">Magic Weapon</text>
 <text id="1311000">Great Magic Weapon</text>
 <text id="1312000">Crystal Magic Weapon</text>
-<text id="1312010">Supreme Magic Weapon</text>
+<text id="1312010">Moonlight Weapon</text>
 <text id="1330000">Magic Shield</text>
 <text id="1331000">Great Magic Shield</text>
 <text id="1331010">Supreme Magic Shield</text>
@@ -1222,7 +1222,7 @@
 <text id="2431000">Flash Sweat</text>
 <text id="2431010">Great Flash Sweat</text>
 <text id="2435000">Carthus Flame Arc</text>
-<text id="2435010">Supreme Carthus Flame Arc</text>
+<text id="2435010">Chaos Flame Arc</text>
 <text id="2436000">Rapport</text>
 <text id="2436010">Fortified Rapport</text>
 <text id="2440000">Power Within</text>
@@ -1348,7 +1348,7 @@
 <text id="3720000">Divine Pillars of Light</text>
 <text id="3720010">Repeating Pillars of Light</text>
 <text id="3760000">Blessed Weapon</text>
-<text id="3760010">Supreme Blessed Weapon</text>
+<text id="3760010">Holy Weapon</text>
 <text id="3802000">Heavenly Thunder</text>
 <text id="3802010">Repeating Heavenly Thunder</text>
 <text id="3803000">Halo</text>
@@ -1447,7 +1447,7 @@
 <text id="4209000">Mournful Flames</text>
 <text id="4209010">Scorching Mournful Flames</text>
 <text id="4210000">Black Flame Arc</text>
-<text id="4210010">Supreme Black Flame Arc</text>
+<text id="4210010">Void Flame Arc</text>
 <text id="4301000">Nibble</text>
 <text id="4301010">Bloodthirsty Nibble</text>
 <text id="4302000">Gnaw</text>
@@ -1467,7 +1467,7 @@
 <text id="4309000">Vow of Silence</text>
 <text id="4309010">Curse of Silence</text>
 <text id="4310000">Dark Blade</text>
-<text id="4310010">Supreme Dark Blade</text>
+<text id="4310010">Abyssal Blade</text>
 <text id="4311000">Dead Again</text>
 <text id="4311010">Refined Dead Again</text>
 <text id="4312000">Lifehunt Scythe</text>

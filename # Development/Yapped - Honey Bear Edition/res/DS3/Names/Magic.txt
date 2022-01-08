@@ -45,8 +45,8 @@
 1311006 Great Magic Weapon [Luck]
 1312000 Crystal Magic Weapon
 1312006 Crystal Magic Weapon [Luck]
-1312010 Supreme Magic Weapon
-1312016 Supreme Magic Weapon [Luck]
+1312010 Moonlight Weapon
+1312016 Moonlight Weapon [Luck]
 1313000 Frozen Weapon
 1313006 Frozen Weapon [Luck]
 1313010 Supreme Frozen Weapon
@@ -248,8 +248,8 @@
 2431016 Great Flash Sweat [Luck]
 2435000 Carthus Flame Arc
 2435006 Carthus Flame Arc [Luck]
-2435010 Supreme Carthus Flame Arc
-2435016 Supreme Carthus Flame Arc [Luck]
+2435010 Chaos Flame Arc
+2435016 Chaos Flame Arc [Luck]
 2436000 Rapport
 2436006 Rapport [Luck]
 2436010 Fortified Rapport
@@ -525,8 +525,8 @@
 3720016 Repeating Pillars of Light [Luck]
 3760000 Blessed Weapon
 3760006 Blessed Weapon [Luck]
-3760010 Supreme Blessed Weapon
-3760016 Supreme Blessed Weapon [Luck]
+3760010 Holy Weapon
+3760016 Holy Weapon [Luck]
 3802000 Heavenly Thunder
 3802006 Heavenly Thunder [Luck]
 3802010 Repeating Heavenly Thunder
@@ -722,8 +722,8 @@
 4209016 Scorching Mournful Flames [Luck]
 4210000 Black Flame Arc
 4210006 Black Flame Arc [Luck]
-4210010 Supreme Black Flame Arc
-4210016 Supreme Black Flame Arc [Luck]
+4210010 Void Flame Arc
+4210016 Void Flame Arc [Luck]
 4301000 Nibble
 4301006 Nibble [Luck]
 4301010 Bloodthirsty Nibble
@@ -762,8 +762,8 @@
 4309016 Curse of Silence [Luck]
 4310000 Dark Blade
 4310006 Dark Blade [Luck]
-4310010 Supreme Dark Blade
-4310016 Supreme Dark Blade [Luck]
+4310010 Abyssal Blade
+4310016 Abyssal Blade [Luck]
 4311000 Dead Again
 4311006 Dead Again [Luck]
 4311010 Refined Dead Again

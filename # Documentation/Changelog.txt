@@ -75,6 +75,12 @@ Finish following weapons:
 - Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
 
 # Spells
+- Renamed Supreme Magic Weapon to Moonlight Weapon. Changed its visual effect.
+- Renamed Supreme Carthus Flame Arc to Chaos Flame Arc. Changed its visual effect.
+- Renamed Supreme Black Flame Arc to Void Flame Arc. Changed its visual effect.
+- Renamed Supreme Blessed Weapon to Holy Weapon. Changed its visual effect.
+- Renamed Supreme Dark Blade to Abyssal Blade. Changed its visual effect.
+- Changed the visual effect of Supreme Darkmoon Blade.
 - Changed Adjacent Black Star to Homing Black Star.
 - Slightly increased the radius of Pulsating Mud.
 - Reduced the INT requirement of Piercing Ice to 10.
