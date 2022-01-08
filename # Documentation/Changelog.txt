@@ -117,6 +117,7 @@ Finish following weapons:
 - Fixed the throwing knives/kukris from the Crow Quills and Carthus Shotel Weapon Arts not inflicting the aux effect of the weapon.
 - Fixed the stat requirements of the Dark and Lucky infused Murky Hand Scythe.
 - Fixed the stat requirements of the Lucky and non-infused Golem Axe.
+- Fixed the damage boost of the Calamity Ring.
 
 #------------------------------
 # TODO
