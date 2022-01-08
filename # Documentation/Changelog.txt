@@ -66,6 +66,7 @@ Finish following weapons:
 - Adjusted the base damage and weapon art damage multipliers of several spell tools.
 - Adjusted the grab of the Dark Hand.
 - Changed the damage self buff of Frostfall from Fire to Magic.
+- Blind now completely bypasses the shield guard of enemies.
 
 # Bosses
 - Removed Yhorm's rubble rain.
@@ -75,6 +76,12 @@ Finish following weapons:
 - Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
 
 # Spells
+- Renamed Supreme Magic Weapon to Moonlight Weapon. Changed its visual effect.
+- Renamed Supreme Carthus Flame Arc to Chaos Flame Arc. Changed its visual effect.
+- Renamed Supreme Black Flame Arc to Void Flame Arc. Changed its visual effect.
+- Renamed Supreme Blessed Weapon to Holy Weapon. Changed its visual effect.
+- Renamed Supreme Dark Blade to Abyssal Blade. Changed its visual effect.
+- Changed the visual effect of Supreme Darkmoon Blade.
 - Changed Adjacent Black Star to Homing Black Star.
 - Slightly increased the radius of Pulsating Mud.
 - Reduced the INT requirement of Piercing Ice to 10.
@@ -111,6 +118,7 @@ Finish following weapons:
 - Fixed the throwing knives/kukris from the Crow Quills and Carthus Shotel Weapon Arts not inflicting the aux effect of the weapon.
 - Fixed the stat requirements of the Dark and Lucky infused Murky Hand Scythe.
 - Fixed the stat requirements of the Lucky and non-infused Golem Axe.
+- Fixed the damage boost of the Calamity Ring.
 
 #------------------------------
 # TODO

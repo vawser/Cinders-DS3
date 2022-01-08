@@ -2902,7 +2902,7 @@
 101310000 [Sorcery] Magic Weapon
 101311000 [Sorcery] Great Magic Weapon
 101312000 [Sorcery] Crystal Magic Weapon
-101312010 [Sorcery] Supreme Magic Weapon
+101312010 [Sorcery] Moonlight Weapon
 101313000 [Sorcery] Frozen Weapon
 101313010 [Sorcery] Supreme Frozen Weapon
 101330000 [Sorcery] Magic Shield
@@ -2931,7 +2931,7 @@
 102431000 [Pyromancy] Flash Sweat
 102431010 [Pyromancy] Great Flash Sweat
 102435000 [Pyromancy] Carthus Flame Arc
-102435100 [Pyromancy] Supreme Carthus Flame Arc
+102435100 [Pyromancy] Chaos Flame Arc
 102436000 [Pyromancy] Rapport
 102436001 [Pyromancy] Fortified Rapport
 102436010 [Pyromancy] Rapport
@@ -2991,14 +2991,14 @@
 103591010 [Miracle] Supreme Darkmoon Blade
 103640000 [Miracle] Dark Blade
 103640001 [Miracle] Dark Blade - Absorption
-103640010 [Miracle] Supreme Dark Blade
-103640011 [Miracle] Supreme Dark Blade - Absorption
+103640010 [Miracle] Abyssal Blade
+103640011 [Miracle] Abyssal Blade - Absorption
 103700000 [Miracle] Dead Again
 103700100 GameSystemParam - DeadChrFinder - SpEffect
 103730000 [Miracle] Lifehunt Scythe
 103731000 [Miracle] Lifehunt Scythe - HP Gain
 103760000 [Miracle] Blessed Weapon
-103760010 [Miracle] Supreme Blessed Weapon
+103760010 [Miracle] Holy Weapon
 103770000 [Miracle] Deep Protection
 103770100 [Miracle] Deep Protection [CycleOccurance]
 103770200 [Miracle] Deep Protection [CycleOccurance]
@@ -4193,7 +4193,7 @@
 160500380 [Pyromancy] Incendiary DoT 5
 160500385 [Pyromancy] Incendiary DoT 2
 160500390 [Pyromancy] Incendiary DoT 1
-160500400 [Pyromancy] Supreme Black Flame Arc
+160500400 [Pyromancy] Void Flame Arc
 160500410 [Sorcery] Lingering Numbness
 160500420 [Various Spells] Maggot debuff  - Myiatic Blade
 160500421 [Various Spells] Maggot debuff [AttackOccurance] - Myiatic Blade - Blood Corruption
@@ -4224,7 +4224,7 @@
 160510000 Magic Weapon
 160510010 Great Magic Weapon
 160510020 Crystal Magic Weapon
-160510030 Supreme Magic Weapon
+160510030 Moonlight Weapon
 160510040 Magic Shield
 160510050 Great Magic Shield
 160510060 Supreme Magic Shield
@@ -4235,7 +4235,7 @@
 160510110 Lingering Iron Flesh
 160510120 Flash Sweat
 160510130 Carthus Flame Arc
-160510140 Supreme Carthus Flame Arc
+160510140 Chaos Flame Arc
 160510150 Power Within
 160510160 Lingering Power Within
 160510170 Warmth
@@ -4256,7 +4256,7 @@
 160510360 Lightning Blade
 160510370 Darkmoon Blade
 160510380 Blessed Weapon
-160510390 Supreme Blessed Weapon
+160510390 Holy Weapon
 160510400 Perseverance
 160510410 Lingering Perseverance
 160510420 Numbness
@@ -4267,7 +4267,7 @@
 160510470 Atonement
 160510480 Lingering Atonement
 160510490 Dark Blade
-160510500 Supreme Dark Blade
+160510500 Abyssal Blade
 160510520 Frozen Weapon
 160510530 Supreme Frozen Weapon
 160510540 Pungent Blade

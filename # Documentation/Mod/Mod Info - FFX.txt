@@ -350,6 +350,12 @@ dmy:
 911000 Rupturing Frostfire
 911100 Great Rupturing Frostfire
 
+912000 Void Flame Arc
+
+913000 Chaos Flame Arc
+
+914000 Holy Weapon
+
 #------------------------
 # Frostfall
 #------------------------

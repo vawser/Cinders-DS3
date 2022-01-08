@@ -501,7 +501,7 @@
 <text id="1310000">Reinforce right weapon with magic</text>
 <text id="1311000">Greatly reinforce right weapon with magic</text>
 <text id="1312000">Reinforce right weapon with crystal magic</text>
-<text id="1312010">Reinforce right weapon with crystal magic</text>
+<text id="1312010">Reinforce right weapon with moonlight</text>
 <text id="1330000">Reinforce left shield with magic</text>
 <text id="1331000">Greatly reinforce left shield with magic</text>
 <text id="1331010">Greatly reinforce left shield with magic</text>
@@ -600,7 +600,7 @@
 <text id="2431000">Intense sweating increases fire damage absorption</text>
 <text id="2431010">Intense sweating greatly increases fire damage absorption</text>
 <text id="2435000">Reinforce right weapon with flame</text>
-<text id="2435010">Reinforce right weapon with flame</text>
+<text id="2435010">Reinforce right weapon with chaos flame</text>
 <text id="2436000">Charm the enemy, making them a temporary ally</text>
 <text id="2436010">Charm the enemy, making them a temporary ally</text>
 <text id="2440000">Temporarily boost attack, but gradually lose HP</text>

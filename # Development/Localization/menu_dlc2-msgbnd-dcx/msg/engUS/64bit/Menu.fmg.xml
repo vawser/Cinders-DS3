@@ -3885,7 +3885,7 @@ to commune with the fallen knight.</text>
 <text id="99041024">Impenetrable Wall of Light</text>
 <text id="99041025">Refined Aural Decoy</text>
 <text id="99041026">Skilled Repair</text>
-<text id="99041029">Supreme Magic Weapon</text>
+<text id="99041029">Moonlight Weapon</text>
 <text id="99041030">Supreme Frozen Weapon</text>
 <text id="99041031">Refined Hidden Weapon</text>
 <text id="99041033">Supreme Magic Shield</text>
@@ -3985,7 +3985,7 @@ to commune with the fallen knight.</text>
 <text id="99043024">Refined Impenetrable Wall of Light crafted</text>
 <text id="99043025">Refined Refined Aural Decoy crafted</text>
 <text id="99043026">Refined Skilled Repair crafted</text>
-<text id="99043029">Supreme Magic Weapon crafted</text>
+<text id="99043029">Moonlight Weapon crafted</text>
 <text id="99043030">Supreme Frozen Weapon crafted</text>
 <text id="99043031">Refined Hidden Weapon crafted</text>
 <text id="99043033">Supreme Magic Shield crafted</text>
@@ -4037,7 +4037,7 @@ to commune with the fallen knight.</text>
 <text id="99044026">Lingering Immolation</text>
 <text id="99044027">Fortified Rapport</text>
 <text id="99044028">Fond Warmth</text>
-<text id="99044029">Supreme Carthus Flame Arc</text>
+<text id="99044029">Chaos Flame Arc</text>
 <text id="99044030">Lingering Carthus Beacon</text>
 <text id="99044031">Lingering Power Within</text>
 <text id="99044032">Great Flash Sweat</text>
@@ -4123,7 +4123,7 @@ to commune with the fallen knight.</text>
 <text id="99046026">Lingering Immolation crafted</text>
 <text id="99046027">Fortified Rapport crafted</text>
 <text id="99046028">Fond Warmth crafted</text>
-<text id="99046029">Supreme Carthus Flame Arc crafted</text>
+<text id="99046029">Chaos Flame Arc crafted</text>
 <text id="99046030">Lingering Carthus Beacon crafted</text>
 <text id="99046031">Lingering Power Within crafted</text>
 <text id="99046032">Great Flash Sweat crafted</text>
@@ -4170,7 +4170,7 @@ to commune with the fallen knight.</text>
 <text id="99047030">Lingering Bountiful Sunlight</text>
 <text id="99047031">Quickened Caressing Tears</text>
 <text id="99047032">Sunlight Blade</text>
-<text id="99047033">Supreme Blessed Weapon</text>
+<text id="99047033">Holy Weapon</text>
 <text id="99047034">Supreme Darkmoon Blade</text>
 <text id="99047036">Supreme Magic Barrier</text>
 <text id="99047037">Extended Sacred Oath</text>
@@ -4273,7 +4273,7 @@ to commune with the fallen knight.</text>
 <text id="99049030">Lingering Bountiful Sunlight crafted</text>
 <text id="99049031">Quickened Caressing Tears crafted</text>
 <text id="99049032">Sunlight Blade crafted</text>
-<text id="99049033">Supreme Blessed Weapon crafted</text>
+<text id="99049033">Holy Weapon crafted</text>
 <text id="99049034">Supreme Darkmoon Blade crafted</text>
 <text id="99049036">Supreme Magic Barrier crafted</text>
 <text id="99049037">Extended Sacred Oath crafted</text>
@@ -4325,8 +4325,8 @@ to commune with the fallen knight.</text>
 <text id="99050031">Echo of Despair</text>
 <text id="99050032">Lingering Repel</text>
 <text id="99050033">Curse of Silence</text>
-<text id="99050034">Supreme Black Flame Arc</text>
-<text id="99050035">Supreme Dark Blade</text>
+<text id="99050034">Void Flame Arc</text>
+<text id="99050035">Abyssal Blade</text>
 <text id="99050036">Noxious Blade</text>
 <text id="99050037">Myiatic Blade</text>
 <text id="99050038">Lingering Numbness</text>
@@ -4419,8 +4419,8 @@ to commune with the fallen knight.</text>
 <text id="99052031">Echo of Despair crafted</text>
 <text id="99052032">Lingering Repel crafted</text>
 <text id="99052033">Curse of Silence crafted</text>
-<text id="99052034">Supreme Black Flame Arc crafted</text>
-<text id="99052035">Supreme Dark Blade crafted</text>
+<text id="99052034">Void Flame Arc crafted</text>
+<text id="99052035">Abyssal Blade crafted</text>
 <text id="99052036">Noxious Blade crafted</text>
 <text id="99052037">Myiatic Blade crafted</text>
 <text id="99052038">Lingering Numbness crafted</text>

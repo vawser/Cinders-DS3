@@ -538,7 +538,7 @@
 80240 [Sorcery] Impenetrable Wall of Light
 80250 [Sorcery] Refined Aural Decoy
 80260 [Sorcery] Skilled Repair
-80290 [Sorcery] Supreme Magic Weapon
+80290 [Sorcery] Moonlight Weapon
 80300 [Sorcery] Supreme Frozen Weapon
 80310 [Sorcery] Refined Hidden Weapon
 80330 [Sorcery] Supreme Magic Shield
@@ -590,7 +590,7 @@
 81260 [Pyromancy] Lingering Immolation
 81270 [Pyromancy] Fortified Rapport
 81280 [Pyromancy] Fond Warmth
-81290 [Pyromancy] Supreme Carthus Flame Arc
+81290 [Pyromancy] Chaos Flame Arc
 81300 [Pyromancy] Lingering Carthus Beacon
 81310 [Pyromancy] Lingering Power Within
 81320 [Pyromancy] Great Flash Sweat
@@ -637,7 +637,7 @@
 82300 [Miracle] Lingering Bountiful Sunlight
 82310 [Miracle] Quickened Caressing Tears
 82320 [Miracle] Supreme Lightning Blade
-82330 [Miracle] Supreme Blessed Weapon
+82330 [Miracle] Holy Weapon
 82340 [Miracle] Supreme Darkmoon Blade
 82360 [Miracle] Supreme Magic Barrier
 82370 [Miracle] Extended Sacred Oath
@@ -689,8 +689,8 @@
 83310 [Hex] Echo of Despair
 83320 [Hex] Lingering Repel
 83330 [Hex] Curse of Silence
-83340 [Hex] Supreme Black Flame Arc
-83350 [Hex] Supreme Dark Blade
+83340 [Hex] Void Flame Arc
+83350 [Hex] Abyssal Blade
 83360 [Hex] Noxious Blade
 83370 [Hex] Myiatic Blade
 83380 [Hex] Lingering Numbness

@@ -654,7 +654,7 @@
 1310000 Magic Weapon
 1311000 Great Magic Weapon
 1312000 Crystal Magic Weapon
-1312010 Supreme Magic Weapon
+1312010 Moonlight Weapon
 1313000 Frozen Weapon
 1313010 Supreme Frozen Weapon
 1330000 Magic Shield
@@ -756,7 +756,7 @@
 2431000 Flash Sweat
 2431010 Great Flash Sweat
 2435000 Carthus Flame Arc
-2435010 Supreme Carthus Flame Arc
+2435010 Chaos Flame Arc
 2436000 Rapport
 2436010 Fortified Rapport
 2440000 Power Within
@@ -895,7 +895,7 @@
 3720000 Divine Pillars of Light
 3720010 Repeating Pillars of Light
 3760000 Blessed Weapon
-3760010 Supreme Blessed Weapon
+3760010 Holy Weapon
 3802000 Heavenly Thunder
 3802010 Repeating Heavenly Thunder
 3803000 Halo
@@ -994,7 +994,7 @@
 4209000 Mournful Flames
 4209010 Scorching Mournful Flames
 4210000 Black Flame Arc
-4210010 Supreme Black Flame Arc
+4210010 Void Flame Arc
 4301000 Nibble
 4301010 Refined Nibble
 4302000 Gnaw
@@ -1014,7 +1014,7 @@
 4309000 Vow of Silence
 4309010 Curse of Silence
 4310000 Dark Blade
-4310010 Supreme Dark Blade
+4310010 Abyssal Blade
 4311000 Dead Again
 4311010 Refined Dead Again
 4312000 Lifehunt Scythe

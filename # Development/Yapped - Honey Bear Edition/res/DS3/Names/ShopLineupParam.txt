@@ -2644,7 +2644,7 @@
 803020 [Gauntlet Spell] Magic Weapon
 803021 [Gauntlet Spell] Great Magic Weapon
 803022 [Gauntlet Spell] Crystal Magic Weapon
-803023 [Gauntlet Spell] Supreme Magic Weapon
+803023 [Gauntlet Spell] Moonlight Weapon
 803024 [Gauntlet Spell] Frozen Weapon
 803025 [Gauntlet Spell] Supreme Frozen Weapon
 803026 [Gauntlet Spell] Magic Shield
@@ -2717,7 +2717,7 @@
 803093 [Gauntlet Spell] Flash Sweat
 803094 [Gauntlet Spell] Great Flash Sweat
 803095 [Gauntlet Spell] Carthus Flame Arc
-803096 [Gauntlet Spell] Supreme Carthus Flame Arc
+803096 [Gauntlet Spell] Chaos Flame Arc
 803097 [Gauntlet Spell] Rapport
 803098 [Gauntlet Spell] Fortified Rapport
 803099 [Gauntlet Spell] Power Within
@@ -2826,7 +2826,7 @@
 803202 [Gauntlet Spell] Divine Pillars of Light
 803203 [Gauntlet Spell] Repeating Pillars of Light
 803204 [Gauntlet Spell] Blessed Weapon
-803205 [Gauntlet Spell] Supreme Blessed Weapon
+803205 [Gauntlet Spell] Holy Weapon
 803206 [Gauntlet Spell] Heavenly Thunder
 803207 [Gauntlet Spell] Repeating Heavenly Thunder
 803208 [Gauntlet Spell] Halo
@@ -2904,7 +2904,7 @@
 803280 [Gauntlet Spell] Mournful Flames
 803281 [Gauntlet Spell] Scorching Mournful Flames
 803282 [Gauntlet Spell] Black Flame Arc
-803283 [Gauntlet Spell] Supreme Black Flame Arc
+803283 [Gauntlet Spell] Void Flame Arc
 803284 [Gauntlet Spell] Nibble
 803285 [Gauntlet Spell] Bloodthirsty Nibble
 803286 [Gauntlet Spell] Gnaw
@@ -2924,7 +2924,7 @@
 803300 [Gauntlet Spell] Vow of Silence
 803301 [Gauntlet Spell] Curse of Silence
 803302 [Gauntlet Spell] Dark Blade
-803303 [Gauntlet Spell] Supreme Dark Blade
+803303 [Gauntlet Spell] Abyssal Blade
 803304 [Gauntlet Spell] Dead Again
 803305 [Gauntlet Spell] Refined Dead Again
 803306 [Gauntlet Spell] Lifehunt Scythe

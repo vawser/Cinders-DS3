@@ -1144,6 +1144,7 @@
 90013100 Spell - Magic Weapon - Magic Enchantment
 90013110 Spell - Great Magic Weapon - Magic Enchantment
 90013120 Spell - Crystal Magic Weapon - Magic Enchantment
+90013125 Spell - Moonlight Weapon - Magic Enchantment
 90013130 Spell - Frozen Weapon - Frost Aura
 90013140 Spell - Supreme Frozen Weapon - Frost Aura
 90013300 Spell - Magic Shield - Magic Enchantment
@@ -1158,7 +1159,7 @@
 90024300 Spell - Iron Flesh
 90024310 Spell - Flash Sweat
 90024350 Spell - Carthus Flame Arc
-90024355 Spell - Supreme Carthus Flame Arc
+90024355 Spell - Chaos Flame Arc
 90024360 Spell - Rapport
 90024361 Spell - Rapport
 90024400 Spell - Power Within
@@ -1183,9 +1184,12 @@
 90035900 Spell - Lightning Blade
 90035905 Spell - Sunlight Blade
 90035910 Spell - Darkmoon Blade
+90035915 Spell - Supreme Darkmoon Blade
 90036400 Spell - Dark Blade
+90036410 Spell - Abyssal Blade
 90037300 Spell - Lifehunt Scythe
 90037600 Spell - Blessed Weapon
+90037601 Spell - Holy Weapon
 90037700 Spell - Deep Protection
 90037800 Spell - Atonement
 90037900 Spell - Projected Heal
@@ -1325,6 +1329,7 @@
 99941000 Spell: Pulsating Blade
 99942000 Spell: Pungent Blade
 99943000 Spell: Black Flame Arc
+99943010 Spell: Void Flame Arc
 99944000 Spell: Noxious Blade
 99950000 Phantom: Default
 99950001 Phantom: Human
