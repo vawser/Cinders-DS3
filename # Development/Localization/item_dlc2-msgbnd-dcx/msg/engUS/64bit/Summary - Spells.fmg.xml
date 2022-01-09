@@ -505,8 +505,8 @@
 <text id="1330000">Reinforce left shield with magic</text>
 <text id="1331000">Greatly reinforce left shield with magic</text>
 <text id="1331010">Greatly reinforce left shield with magic</text>
-<text id="1340000">Turn right weapon invisible</text>
-<text id="1340010">Turn right weapon invisible with no focus cost</text>
+<text id="1340000">Turn right weapon invisible and reduces target priority</text>
+<text id="1340010">Turn right weapon invisible and reduces target priority with no focus cost</text>
 <text id="1341000">Turn body nearly invisible</text>
 <text id="1341010">Turn body nearly invisible</text>
 <text id="1350000">Cast light to illuminate surroundings</text>
@@ -802,8 +802,8 @@
 <text id="4112010">Fire powerful explosive soul dreg</text>
 <text id="4113000">Cast dark manifestation of humanity</text>
 <text id="4113010">Cast dark manifestation of humanity</text>
-<text id="4114000">Cast projectile towards foe, inflicting Curse</text>
-<text id="4114010">Cast projectile towards foe, inflicting Curse</text>
+<text id="4114000">Cast projectile towards foe, dealing high stamina damage and inflicting Curse</text>
+<text id="4114010">Cast projectile towards foe, dealing high stamina damage and inflicting Curse</text>
 <text id="4115000">Become immune to damage temporarily</text>
 <text id="4115010">Become immune to damage temporarily</text>
 <text id="4116000">Become numb to damage temporarily, narrowing vision</text>

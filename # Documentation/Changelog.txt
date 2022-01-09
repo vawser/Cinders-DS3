@@ -72,6 +72,10 @@ Finish following weapons:
 - Removed Yhorm's rubble rain.
 - Changed the Fire damage portion of the attacks from Princess Yngvil to Magic damage.
 
+- The Marauder:
+ - Changed all his attacks to use a more vivid red/orange color.
+ - Changed the visual effect of his combustion spell and increased the amount of bullets.
+
 # Enemies
 - Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
 
@@ -87,6 +91,9 @@ Finish following weapons:
 - Reduced the INT requirement of Piercing Ice to 10.
 - Changed the casting animation SFX of some Cryomancies.
 - Changed the cast animation of Soul Eruption and Soul Explosion to Wrath of the Gods, reduced their damage to 80 per hit and adjusted how they work.
+- Hidden weapon now also reduces enemy target priority of the player.
+- Aural Decoy now has the same effect as Alluring Skull.
+- Increased the Stamina damage of Whisper of Despair.
 
 - Added new spells:
  - Sorcery:
@@ -119,6 +126,7 @@ Finish following weapons:
 - Fixed the stat requirements of the Dark and Lucky infused Murky Hand Scythe.
 - Fixed the stat requirements of the Lucky and non-infused Golem Axe.
 - Fixed the damage boost of the Calamity Ring.
+- Changed the cast animation of White Dragon Breath to Very Slow Soul Arrow to fix the weird shooting angle of the laser.
 
 #------------------------------
 # TODO

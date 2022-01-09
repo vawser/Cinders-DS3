@@ -487,6 +487,7 @@
 50592 [Princess Yngvil] Blizzard Sound
 50593 [Princess Yngvil] Mini-Boss Trio Enhance
 51000 Mirror Knight - Weapon Buff Effect VFX
+52000 Marauder - Power Within
 60100 Sister Friede -
 60110 Sister Friede -
 62000 Slave Knight Gael -
@@ -1092,6 +1093,16 @@
 76233 Weapon Emission - Sunlight - Left
 76234 Weapon Emission - Pale Magic - Right
 76235 Weapon Emission - Pale Magic - Left
+76236 Weapon Emission - Moonlight - Right
+76237 Weapon Emission - Moonlight - Left
+76238 Weapon Emission - Chaos Flame - Right
+76239 Weapon Emission - Chaos Flame - Left
+76240 Weapon Emission - Void Flame - Right
+76241 Weapon Emission - Void Flame - Left
+76242 Weapon Emission - Radiant - Right
+76243 Weapon Emission - Radiant - Left
+76244 Weapon Emission - Miasma - Right
+76245 Weapon Emission - Miasma - Left
 77000 Repel
 80000 Conjuration - Body Emission - Fire
 80001 Conjuration - Body Emission -

@@ -5582,6 +5582,16 @@
 160709185 Bolt - Left
 160709190 Pale Magic - Right
 160709195 Pale Magic - Left
+160709200 Moonlight - Right
+160709205 Moonlight - Left
+160709210 Chaos Flame - Right
+160709215 Chaos Flame - Left
+160709220 Void Flame - Right
+160709225 Void Flame - Left
+160709230 Radiant - Right
+160709235 Radiant - Left
+160709240 Miasma - Right
+160709245 Miasma - Left
 160709349 ### Infusion Weapon Emission ###
 160709350 Infusion - Curse - Right
 160709351 Infusion - Poison - Right
@@ -5794,6 +5804,7 @@
 160742310 Boss - Kill Automatically
 160742320 Enemy - 50% Damage
 160742321 Enemy - 75% Damage
+160742400 Marauder - Power Within
 160749999 ### Map ###
 160750000 Object - Estus Pot Drink
 160750010 Object - Poisoned Estus Pot

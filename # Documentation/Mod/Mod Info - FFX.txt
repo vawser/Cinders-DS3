@@ -439,6 +439,34 @@ dmy:
 854925: Cleric Frostfire Combustion
 
 #------------------------
+# The Marauder
+#------------------------
+
+- FFX used in Bullets
+950102 Black-orange Fireball (Big)
+950103 Black-orange Fireball (Big Impact)
+950104 Black-orange Fireball (Small)
+950105 Black-orange Fireball (Small Impact)
+950280 Combustion
+950867 Power Within
+
+- FFX used in TAE
+950795
+950796
+950797
+950802
+950810
+950812
+950813
+950816
+950817
+950890
+950891
+950895
+950896
+950897
+
+#------------------------
 # Resource Bin
 #------------------------
 

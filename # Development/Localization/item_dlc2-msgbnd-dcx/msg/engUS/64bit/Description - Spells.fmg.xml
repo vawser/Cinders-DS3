@@ -671,7 +671,7 @@ Only sorcerer-swordsmen with special duties are permitted the use of this spell,
 <text id="1340000">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Turns right weapon invisible for 120 seconds.
+Turns right weapon invisible and reduces enemy target priority of player for 120 seconds.
 Fatigues focus, increasing FP consumption costs by 10% while active.
 
 Effect duration can be extended.
@@ -682,7 +682,7 @@ is reliant upon the ingenuity of its caster.</text>
 <text id="1340010">Lost sorcery from Oolacile,
 land of ancient golden sorceries.
 
-Turns right weapon invisible for 120 seconds with no focus cost.
+Turns right weapon invisible and reduces enemy target priority of player for 120 seconds with no focus cost.
 Fatigues focus, increasing FP consumption costs by 10% while active.
 
 Effect duration can be extended.
@@ -2765,13 +2765,13 @@ Casts a dark manifestation of humanity.
 It appears to be an expression of envy, or perhaps love towards another, that will tenaciously pursue its target. Even if, like so many human desires, it amounts to nothing but misfortune.</text>
 <text id="4114000">A hex that releases verbose darkness.
 
-The darkness echoes words of despair, inflicting 50 Curse.
+The darkness echoes words of despair, dealing high Stamina damage and inflicting 50 Curse.
 
 The Dark blankets the world in black. A thing of tranquillity, a thing serene.
 </text>
 <text id="4114010">A hex that releases verbose darkness.
 
-The darkness echoes words of despair, inflicting 100 Curse.
+The darkness echoes words of despair, dealing high Stamina damage and inflicting 100 Curse.
 
 The Dark blankets the world in black. A thing of tranquillity, a thing serene.
 </text>
