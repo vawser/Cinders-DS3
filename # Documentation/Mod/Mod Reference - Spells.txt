@@ -500,7 +500,7 @@
 - FP Cost: 50
 - INT Req: 20
 - Slot Use: 1
-- Base Effect: hides main weapon for 120 seconds.
+- Base Effect: hides main weapon and reduces target priority by 0.5 for 120 seconds.
 - Fatigues focus, increasing FP consumption costs by 10% while active.
 
 #---- Refined Hidden Weapon
@@ -569,7 +569,7 @@
 - FP Cost: 30
 - INT Req: 20
 - Slot Use: 1
-- Base Effect: shoots decoy orb that distracts enemies for 3 seconds.
+- Base Effect: shoots decoy orb that distracts enemies for 3 seconds, same effect as Alluring Skull.
 
 #---- Refined Aural Decoy
 - FP consumption reduced to 0.

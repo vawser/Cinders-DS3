@@ -356,6 +356,12 @@ dmy:
 
 914000 Holy Weapon
 
+915000 Explosive Crystal Orb Burst
+915100 Explosive Crystal Orb Burst (Required for 915000)
+
+916000 Hail of Blades (Projectile)
+916100 Hail of Blades (Impact)
+
 #------------------------
 # Frostfall
 #------------------------

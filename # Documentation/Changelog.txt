@@ -94,6 +94,9 @@ Finish following weapons:
 - Hidden weapon now also reduces enemy target priority of the player.
 - Aural Decoy now has the same effect as Alluring Skull.
 - Increased the Stamina damage of Whisper of Despair.
+- Removed the wall penetration of Chaos Beam and reduced its glow.
+- Increased the size of the burst visual effect from Explosive Crystal Orb.
+- Reduced the amount of blades spawned from Hail of Blades and adjusted its visual/sound effects.
 
 - Added new spells:
  - Sorcery:
