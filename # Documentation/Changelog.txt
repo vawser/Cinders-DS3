@@ -94,6 +94,9 @@ Finish following weapons:
 - Hidden weapon now also reduces enemy target priority of the player.
 - Aural Decoy now has the same effect as Alluring Skull.
 - Increased the Stamina damage of Whisper of Despair.
+- Removed the wall penetration of Chaos Beam and reduced its glow.
+- Increased the size of the burst visual effect from Explosive Crystal Orb.
+- Reduced the amount of blades spawned from Hail of Blades and adjusted its visual/sound effects.
 
 - Added new spells:
  - Sorcery:
@@ -127,6 +130,7 @@ Finish following weapons:
 - Fixed the stat requirements of the Lucky and non-infused Golem Axe.
 - Fixed the damage boost of the Calamity Ring.
 - Changed the cast animation of White Dragon Breath to Very Slow Soul Arrow to fix the weird shooting angle of the laser.
+- Restored the missing sound files of the Abyss Walker and the Lord's Blade.
 
 #------------------------------
 # TODO
