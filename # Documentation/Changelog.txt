@@ -71,6 +71,7 @@ Finish following weapons:
 # Bosses
 - Removed Yhorm's rubble rain.
 - Changed the Fire damage portion of the attacks from Princess Yngvil to Magic damage.
+- Added a few lightning visual effects to the attacks of the Fallen Abominations and changed their damage to be split Physical + Lightning damage.
 
 - The Marauder:
  - Changed all his attacks to use a more vivid red/orange color.
