@@ -130,6 +130,7 @@ Finish following weapons:
 - Fixed the stat requirements of the Lucky and non-infused Golem Axe.
 - Fixed the damage boost of the Calamity Ring.
 - Changed the cast animation of White Dragon Breath to Very Slow Soul Arrow to fix the weird shooting angle of the laser.
+- Restored the missing sound files of the Abyss Walker and the Lord's Blade.
 
 #------------------------------
 # TODO
