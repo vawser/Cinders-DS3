@@ -362,6 +362,15 @@ dmy:
 916000 Hail of Blades (Projectile)
 916100 Hail of Blades (Impact)
 
+917000 Magic Smelter Sword Buff
+917100 Magic Smelter Sword Burst
+
+918000 Fume Ultra Greatsword/Fume Slated Swords Buff
+918100 Fume Slated Swords Weapon Art Projectile
+918200 Fume Ultra Greatsword Fireball
+
+919000 Dark Branding Iron
+
 #------------------------
 # Frostfall
 #------------------------

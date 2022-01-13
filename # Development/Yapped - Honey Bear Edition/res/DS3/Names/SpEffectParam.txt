@@ -3320,6 +3320,10 @@
 130069601 [Lothric's Holy Sword] Sacred Lothric Light - Right [CycleOccurance]
 130069650 [Lothric's Holy Sword] Sacred Lothric Light - Left
 130069651 [Lothric's Holy Sword] Sacred Lothric Light - Left [CycleOccurance]
+130069700 [Lorian's Greatsword] Dark Flame of Lorian - Right
+130069701 [Lorian's Greatsword] Dark Flame of Lorian - Right [CycleOccurance]
+130069750 [Lorian's Greatsword] Dark Flame of Lorian - Left
+130069751 [Lorian's Greatsword] Dark Flame of Lorian - Left [CycleOccurance]
 130070100 [Millwood Battle Axe] Warcry - Right
 130070110 [Millwood Battle Axe] Warcry - Right
 130070150 [Millwood Battle Axe] Warcry - Left
@@ -3789,6 +3793,14 @@
 160202060 Fire Bolt - 1 Stamina Recovery Boost
 160202070 Demonic Greatarrow - 20 Stamina Recovery Boost
 160202080 Demonic Greatarrow - 10 Stamina Recovery Boost
+160202090 Smelter Sword - Weapon Buff - Right
+160202091 Smelter Sword - Weapon Buff - Right [CycleOccurance]
+160202095 Smelter Sword - Weapon Buff - Left
+160202096 Smelter Sword - Weapon Buff - Left [CycleOccurance]
+160202100 Magic Smelter Sword - Weapon Buff - Right
+160202101 Magic Smelter Sword - Weapon Buff - Right [CycleOccurance]
+160202105 Magic Smelter Sword - Weapon Buff - Left
+160202106 Magic Smelter Sword - Weapon Buff - Left [CycleOccurance]
 160208999 ### Catalysts ###
 160209000 Storyteller's Staff
 160209001 Sunlight Talisman
@@ -5592,6 +5604,8 @@
 160709235 Radiant - Left
 160709240 Miasma - Right
 160709245 Miasma - Left
+160709250 Magic Flame - Right
+160709255 Magic Flame - Left
 160709349 ### Infusion Weapon Emission ###
 160709350 Infusion - Curse - Right
 160709351 Infusion - Poison - Right

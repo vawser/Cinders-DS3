@@ -3440,6 +3440,26 @@
 104930710 [Follower Torch - Holy] Breathe Fire
 104930711 [Follower Torch - Holy] Breathe Fire [Hit]
 104931000 [Fume Ultra Greatsword] Black Fire Balls
+104931001 [Fume Ultra Greatsword] Black Fire Balls
+104931002 [Fume Ultra Greatsword] Black Fire Balls
+104931003 [Fume Ultra Greatsword] Black Fire Balls
+104931004 [Fume Ultra Greatsword] Black Fire Balls
+104931005 [Fume Ultra Greatsword] Black Fire Balls
+104931006 [Fume Ultra Greatsword] Black Fire Balls
+104931007 [Fume Ultra Greatsword] Black Fire Balls
+104931008 [Fume Ultra Greatsword] Black Fire Balls
+104931009 [Fume Ultra Greatsword] Black Fire Balls
+104931010 [Fume Ultra Greatsword] Black Fire Balls
+104931011 [Fume Ultra Greatsword] Black Fire Balls
+104931012 [Fume Ultra Greatsword] Black Fire Balls
+104931013 [Fume Ultra Greatsword] Black Fire Balls
+104931014 [Fume Ultra Greatsword] Black Fire Balls
+104931015 [Fume Ultra Greatsword] Black Fire Balls
+104931016 [Fume Ultra Greatsword] Black Fire Balls
+104931017 [Fume Ultra Greatsword] Black Fire Balls
+104931018 [Fume Ultra Greatsword] Black Fire Balls
+104931019 [Fume Ultra Greatsword] Black Fire Balls
+104931020 [Fume Ultra Greatsword] Black Fire Balls
 104931050 [Fume Ultra Greatsword] Kick - Bullet
 104931055 [Fume Ultra Greatsword] Kick - Bullet
 104931100 [Fume Slated Swords] Burst
@@ -4265,12 +4285,9 @@
 210001610 Smouldering Talisman - Immolate - Lava Spawner
 210001611 Smouldering Talisman - Immolate - Lava
 210001700 Smelter Sword - Smelter's Fury
-210001701 Smelter Sword - Smelter's Fury [Hit]
-210001702 Smelter Sword - Smelter's Fury [Hit]
-210001703 Smelter Sword - Smelter's Fury [Hit]
-210001704 Smelter Sword - Smelter's Fury [Hit]
-210001705 Smelter Sword - Smelter's Fury [Hit]
-210001706 Smelter Sword - Smelter's Fury [Hit]
+210001701 Smelter Sword - Smelter's Fury
+210001750 Magic Smelter Sword - Smelter's Fury
+210001751 Magic Smelter Sword - Smelter's Fury
 210001800 Crypt Blacksword - Undead Wrath
 210002000 Demon's Fist - Fireball
 210002001 Demon's Fist - Fireball [Hit]

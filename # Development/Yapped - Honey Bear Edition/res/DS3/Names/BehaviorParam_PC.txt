@@ -1149,6 +1149,8 @@
 102603835 Astora Greatsword
 102604300 Lorian's Greatsword - 2H Heavy #1
 102604305 Lorian's Greatsword
+102604310 Lorian's Greatsword - Weapon Buff Right
+102604315 Lorian's Greatsword - Weapon Buff Left
 102604720 Lorian's Greatsword
 102604725 Lorian's Greatsword
 102605100 Zweihander - 1H Heavy #1
@@ -1186,6 +1188,12 @@
 102607851 Ivory King UGS - Conjure Ice
 102607852 Ivory King UGS - Conjure Ice
 102607860 Ivory King UGS - Frost Beam
+102608300 Dark Lorian's Greatsword - 2H Heavy #1
+102608305 Dark Lorian's Greatsword
+102608310 Dark Lorian's Greatsword - Weapon Buff Right
+102608315 Dark Lorian's Greatsword - Weapon Buff Left
+102608720 Dark Lorian's Greatsword
+102608725 Dark Lorian's Greatsword
 102610000 Fume Ultra Greatsword
 102610001 Fume Ultra Greatsword
 102610005 Fume Slated Sword - 2H Light #1
@@ -1359,8 +1367,16 @@
 102623705 Abyssal Blade - Abyssal Burst
 102624300 Smelter Sword - 2H Heavy #1
 102624305 Smelter Sword - 2H Heavy #1 Max
+102624310 Smelter Sword - Weapon Buff Right
+102624315 Smelter Sword - Weapon Buff Left
 102624720 Smelter Sword - Smelter's Fury
 102624725 Smelter Sword - Smelter's Fury
+102625300 Magic Smelter Sword - 2H Heavy #1
+102625305 Magic Smelter Sword - 2H Heavy #1 Max
+102625310 Magic Smelter Sword - Weapon Buff Right
+102625315 Magic Smelter Sword - Weapon Buff Left
+102625720 Magic Smelter Sword - Smelter's Fury
+102625725 Magic Smelter Sword - Smelter's Fury
 102700000 Rapier - 1H Light #1
 102700010 Rapier - 1H Light #2
 102700020 Rapier - 1H Light #3
