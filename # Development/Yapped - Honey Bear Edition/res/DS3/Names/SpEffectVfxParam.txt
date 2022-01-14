@@ -1103,6 +1103,8 @@
 76243 Weapon Emission - Radiant - Left
 76244 Weapon Emission - Miasma - Right
 76245 Weapon Emission - Miasma - Left
+76246 Weapon Emission - Magic Flame - Right
+76247 Weapon Emission - Magic Flame - Left
 77000 Repel
 80000 Conjuration - Body Emission - Fire
 80001 Conjuration - Body Emission -
@@ -1299,6 +1301,10 @@
 95007050 Weapon Art - Endless Winter - Frostfire Buff Left
 95007100 [Frostfall] Stability Aura
 95008000 Weapon Art - Fume UGS - Buff
+95009000 Weapon Art - Smelter Sword - Right
+95009010 Weapon Art - Smelter Sword - Left
+95009020 Weapon Art - Magic Smelter Sword - Right
+95009030 Weapon Art - Magic Smelter Sword - Right
 99910110 Pacify VFX - Right
 99910111 Pacify VFX - Left
 99911000 Script: Proximity Invisibility - Enemies

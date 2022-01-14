@@ -67,6 +67,14 @@ Finish following weapons:
 - Adjusted the grab of the Dark Hand.
 - Changed the damage self buff of Frostfall from Fire to Magic.
 - Blind now completely bypasses the shield guard of enemies.
+- Changed the Smelter's Fury Weapon Art and it now changes when the weapon is Magic infused.
+- Changed the visual effects of the Fume Ultra Greatsword and Fume Slated Swords' Weapon Arts to match those used by the Marauder.
+- Changed the Raime's Fury Weapon Art.
+
+- Added some of El Fonz0's black flame models to the following infused weapons:
+ - Dark Dancer's Enchanted Swords
+ - Dark Lorian's Greatsword (the infusion also changes its Weapon Art to black flame)
+ - Dark Branding Iron
 
 # Bosses
 - Removed Yhorm's rubble rain.
