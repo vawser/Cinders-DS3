@@ -89,7 +89,7 @@ Finish following weapons:
 - Added a few lightning visual effects to the attacks of the Fallen Abominations and changed their damage to be split Physical + Lightning damage.
 
 - Yhorm the Giant:
- - His machete attacks now create delayed gound explosions.
+ - His machete attacks now create delayed ground explosions.
  - Removed the rubble rain.
  - Reduced the damage of the rock/fire pillars that spawn at the sides of the arena.
 
