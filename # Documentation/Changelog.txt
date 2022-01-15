@@ -70,6 +70,14 @@ Finish following weapons:
 - Changed the Smelter's Fury Weapon Art and it now changes when the weapon is Magic infused.
 - Changed the visual effects of the Fume Ultra Greatsword and Fume Slated Swords' Weapon Arts to match those used by the Marauder.
 - Changed the Raime's Fury Weapon Art.
+- Added a rock explosion Yhorm's Great Machete's charged R2 attacks while Warcry is active. It also changes when the weapon is Fire infused.
+- Improved the visuals of the Darkmoon Arrow Weapon Art.
+
+- The Weapon Arts of the following weapons pause FP recovery during their attack animations:
+ - Winged Knight Halberd
+ - Winged Knight Twinaxes
+ - Dancer's Enchanted Swords
+- Adjusted the FP recovery pauses of Bows, Greatbows and Crossbows.
 
 - Added some of El Fonz0's black flame models to the following infused weapons:
  - Dark Dancer's Enchanted Swords
@@ -77,9 +85,13 @@ Finish following weapons:
  - Dark Branding Iron
 
 # Bosses
-- Removed Yhorm's rubble rain.
 - Changed the Fire damage portion of the attacks from Princess Yngvil to Magic damage.
 - Added a few lightning visual effects to the attacks of the Fallen Abominations and changed their damage to be split Physical + Lightning damage.
+
+- Yhorm the Giant:
+ - His machete attacks now create delayed ground explosions.
+ - Removed the rubble rain.
+ - Reduced the damage of the rock/fire pillars that spawn at the sides of the arena.
 
 - The Marauder:
  - Changed all his attacks to use a more vivid red/orange color.
@@ -140,12 +152,14 @@ Finish following weapons:
 - Fixed the damage boost of the Calamity Ring.
 - Changed the cast animation of White Dragon Breath to Very Slow Soul Arrow to fix the weird shooting angle of the laser.
 - Restored the missing sound files of the Abyss Walker and the Lord's Blade.
+- Fixed the Black Scorpion Stinger and Sanctum Mace's Weapon Arts not inflicting the status effect of the weapons when infused.
+- Removed the Poison self inflict from the Sanctum Mace when Bleed/Frost/Curse infused.
 
 #------------------------------
 # TODO
 #------------------------------
 Add Solaire as summon to Soul of Cinder
 
-Yhorm the Giant: remove the silly rockstorm, perhaps add some firey bullets to adds. Add minor mechanic that summons in Siegward irrespective of the quest.
-The Marauder: add more red fire flair to attacks, perhaps add healing bonfire mechanic, where you need to destroy the bonfire to stop it healing the Marauder
+Yhorm the Giant: Add minor mechanic that summons in Siegward irrespective of the quest.
+The Marauder: perhaps add healing bonfire mechanic, where you need to destroy the bonfire to stop it healing the Marauder
 
