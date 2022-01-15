@@ -1450,6 +1450,8 @@
 3162400 [Mirror Knight] Thunder Strike
 3162500 [Mirror Knight] Shield Spell Deflect
 3210020 [Poisonhorn Bug] Toxic Mist
+3210917 Yhorm's Great Machete - Charged Strong Attack Rock Explosion
+3210918 Yhorm's Great Machete - Charged Strong Attack Fire Explosion
 3220040 [Rock Lizard] Flame Breath
 3230010 [?] ?
 3230020 [?] ?
@@ -1787,6 +1789,10 @@
 5260702 [Yhorm the Giant] Rubble Rain [Hit]
 5260710 [Yhorm the Giant] Earth Pillar
 5260730 [Yhorm the Giant] Flame Pillar
+5260900 [Yhorm the Giant] Earth Mine
+5260901 [Yhorm the Giant] Earth Mine [Hit]
+5260920 [Yhorm the Giant] Fire Mine
+5260921 [Yhorm the Giant] Fire Mine [Hit]
 5270140 [Dancer] Explosion
 5270151 [Dancer] Fire Pillar
 5270152 [Dancer] Fire Pillar [Hit]
