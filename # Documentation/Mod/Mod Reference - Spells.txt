@@ -154,8 +154,8 @@
 - Slot Use: 1
 - Magic Damage: 70 {210} {*20, shared}
 
-#---- Homing Farron Hail
-- Increases projectile homing to 45 degrees.
+#---- Farron Swarm
+- Increases the duration, homing, and the darts are now affected by gravity.
 
 #--------------------------------
 # Crystal Hail
@@ -925,6 +925,16 @@
 
 #---- Lingering Maelstrom
 - Increases duration to 10 seconds.
+
+#--------------------------------
+# Dance of Fire
+#--------------------------------
+- FP Cost: 100
+- Slot Use: 2
+- Fire Damage: 250 {750}
+
+#---- Repeating Dance of Fire
+- Adds an additional back line of fire.
 
 #--------------------------------
 # Conjure Skeleton

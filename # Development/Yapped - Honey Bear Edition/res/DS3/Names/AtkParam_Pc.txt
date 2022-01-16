@@ -5377,6 +5377,8 @@
 13744010 [Sorcery] Rupturing Frostfire [Hit]
 13744100 [Sorcery] Great Rupturing Frostfire
 13744110 [Sorcery] Great Rupturing Frostfire [Hit]
+13745000 [Pyromancy] Dance of Fire
+13745010 [Pyromancy] Dance of Fire [Hit]
 13999999 ### Weapons ###
 14000000 Blessing of Rosaria (Old)
 14000001 Blessing of Rosaria (Old)

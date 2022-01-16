@@ -352,6 +352,7 @@
 30451 [Ludleth - The Marauder] Fume Ultra Greatsword
 30452 [Ludleth - The Marauder] Knight Slayer's Ring
 30453 [Ludleth - The Marauder] Conjure Knight
+30454 [Ludleth - The Marauder] Dance of Fire
 36000 [Bonfire - Firelink Shrine] Shriving Stone
 36001 [Bonfire - Firelink Shrine] Lethal Gem
 36002 [Bonfire - Untended Graves] Curse Gem
@@ -2667,7 +2668,7 @@
 803043 [Gauntlet Spell] White Dragon Breath
 803044 [Gauntlet Spell] Extended White Dragon Breath
 803045 [Gauntlet Spell] Farron Hail
-803046 [Gauntlet Spell] Homing Farron Hail
+803046 [Gauntlet Spell] Farron Swarm
 803047 [Gauntlet Spell] Crystal Hail
 803048 [Gauntlet Spell] Focused Crystal Hail
 803049 [Gauntlet Spell] Soul Greatsword
@@ -3016,6 +3017,8 @@
 803392 [Gauntlet Spell] Great Blood Corruption
 803393 [Gauntlet Spell] Blood Crystallization
 803394 [Gauntlet Spell] Great Blood Crystallization
+803395 [Gauntlet Spell] Dance of Fire
+803396 [Gauntlet Spell] Repeating Dance of Fire
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal
