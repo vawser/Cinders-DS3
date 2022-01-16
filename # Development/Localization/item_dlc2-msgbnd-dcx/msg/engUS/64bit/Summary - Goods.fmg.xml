@@ -815,7 +815,7 @@
 <text id="1370000">Emit crystal breath of Seath the Scaleless, inflicting Curse.</text>
 <text id="1370010">Emit extended crystal breath of Seath the Scaleless, inflicting Curse.</text>
 <text id="1372000">Fire cascade of soul darts</text>
-<text id="1372010">Fire cascade of homing soul darts</text>
+<text id="1372010">Fire swarm of soul darts</text>
 <text id="1373000">Cast cascade of small crystal soulmasses from sky</text>
 <text id="1373010">Cast focused cascade of small crystal soulmasses from sky</text>
 <text id="1374000">Attack with a greatsword formed from souls</text>
@@ -952,6 +952,8 @@
 <text id="2727010">Create pool of pulsating mud that quickly grows in intensity</text>
 <text id="2728000">Summon whirlpool of water</text>
 <text id="2728010">Summon lingering whirlpool of water</text>
+<text id="2729000">Cast flame in a sweeping motion across a targeted area</text>
+<text id="2729010">Cast flame in a sweeping motion across a targeted area</text>
 <text id="2730000">Conjure friendly skeleton to assist in battle</text>
 <text id="2731000">Conjure friendly hollow to assist in battle</text>
 <text id="2732000">Conjure friendly hound to assist in battle</text>

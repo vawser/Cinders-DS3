@@ -3877,7 +3877,7 @@ to commune with the fallen knight.</text>
 <text id="99041010">Weakening Crystal Soulmass</text>
 <text id="99041011">Repeating Soul Orb</text>
 <text id="99041012">Repeating Crystal Orb</text>
-<text id="99041013">Homing Farron Hail</text>
+<text id="99041013">Farron Swarm</text>
 <text id="99041014">Focused Crystal Hail</text>
 <text id="99041015">Swift Orbs of Judgment</text>
 <text id="99041016">Repeating Crystal Storm</text>
@@ -3977,7 +3977,7 @@ to commune with the fallen knight.</text>
 <text id="99043010">Weakening Crystal Soulmass crafted</text>
 <text id="99043011">Repeating Soul Orb crafted</text>
 <text id="99043012">Repeating Crystal Orb crafted</text>
-<text id="99043013">Homing Farron Hail crafted</text>
+<text id="99043013">Farron Swarm crafted</text>
 <text id="99043014">Focused Crystal Hail crafted</text>
 <text id="99043015">Swift Orbs of Judgment crafted</text>
 <text id="99043016">Repeating Crystal Storm crafted</text>
@@ -4057,6 +4057,7 @@ to commune with the fallen knight.</text>
 <text id="99044040">Bloodthirsty Pulsating Mud</text>
 <text id="99044041">Bubble Prison</text>
 <text id="99044042">Lingering Maelstrom</text>
+<text id="99044043">Repeating Dance of Fire</text>
 <text id="99045000">Ascend from Fireball?</text>
 <text id="99045001">Ascend from Fire Orb?</text>
 <text id="99045002">Ascend from Chaos Fire Orb?</text>
@@ -4100,6 +4101,7 @@ to commune with the fallen knight.</text>
 <text id="99045040">Ascend from Pulsating Mud?</text>
 <text id="99045041">Ascend from Bubble Wall?</text>
 <text id="99045042">Ascend from Maelstrom?</text>
+<text id="99045043">Ascend from Dance of Fire?</text>
 <text id="99046000">Incendiary Fireball crafted</text>
 <text id="99046001">Weakening Fire Orb crafted</text>
 <text id="99046002">Homing Chaos Fire Orb crafted</text>
@@ -4142,7 +4144,8 @@ to commune with the fallen knight.</text>
 <text id="99046039">Lingering Drizzle crafted</text>
 <text id="99046040">Bloodthirsty Pulsating Mud crafted</text>
 <text id="99046041">Bubble Prison crafted</text>
-<text id="99046042">Lingering Maelstrom</text>
+<text id="99046042">Lingering Maelstrom crafted</text>
+<text id="99046043">Repeating Dance of Fire crafted</text>
 <text id="99047000">Bloodthirsty Lightning Arrow</text>
 <text id="99047001">Lightning Surge</text>
 <text id="99047002">Storm Spear</text>

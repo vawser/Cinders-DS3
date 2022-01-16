@@ -859,7 +859,7 @@
 <text id="1370000">White Dragon Breath</text>
 <text id="1370010">Extended White Dragon Breath</text>
 <text id="1372000">Farron Hail</text>
-<text id="1372010">Homing Farron Hail</text>
+<text id="1372010">Farron Swarm</text>
 <text id="1373000">Crystal Hail</text>
 <text id="1373010">Focused Crystal Hail</text>
 <text id="1374000">Soul Greatsword</text>
@@ -992,6 +992,8 @@
 <text id="2727010">Bloodthirsty Pulsating Mud</text>
 <text id="2728000">Maelstrom</text>
 <text id="2728010">Lingering Maelstrom</text>
+<text id="2729000">Dance of Fire</text>
+<text id="2729010">Repeating Dance of Fire</text>
 <text id="2730000">Conjure Skeleton</text>
 <text id="2731000">Conjure Hollow</text>
 <text id="2732000">Conjure Hound</text>

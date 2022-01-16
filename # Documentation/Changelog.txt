@@ -88,6 +88,9 @@ Finish following weapons:
 - Changed the Fire damage portion of the attacks from Princess Yngvil to Magic damage.
 - Added a few lightning visual effects to the attacks of the Fallen Abominations and changed their damage to be split Physical + Lightning damage.
 
+- Cathedral Guardian:
+ - Adjusted some of his attacks.
+
 - Yhorm the Giant:
  - His machete attacks now create delayed ground explosions.
  - Removed the rubble rain.
@@ -118,6 +121,7 @@ Finish following weapons:
 - Removed the wall penetration of Chaos Beam and reduced its glow.
 - Increased the size of the burst visual effect from Explosive Crystal Orb.
 - Reduced the amount of blades spawned from Hail of Blades and adjusted its visual/sound effects.
+- Changed Homing Farron Hail to Farron Swarm.
 
 - Added new spells:
  - Sorcery:
@@ -127,6 +131,7 @@ Finish following weapons:
   - Rupturing Frostfire. Dropped by one of the Frigid Attendants in the Painted World of Ariandel.
  - Pyromancy: 
   - Maelstrom. Found in Irithyll of the Boreal Valley.
+  - Dance of Fire. Transposed from the Soul of the Marauder.
   
 # Items
 - Yngvil's Crystal now boosts Magic absorption.

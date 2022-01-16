@@ -524,7 +524,7 @@
 80100 [Sorcery] Weakening Crystal Soulmass
 80110 [Sorcery] Repeating Soul Orb
 80120 [Sorcery] Repeating Crystal Orb
-80130 [Sorcery] Homing Farron Hail
+80130 [Sorcery] Farron Swarm
 80140 [Sorcery] Focused Crystal Hail
 80150 [Sorcery] Swift Orbs of Judgment
 80160 [Sorcery] Repeating Crystal Storm
@@ -604,6 +604,7 @@
 81400 [Pyromancy] Bloodthirsty Pulsating Mud
 81410 [Pyromancy] Bubble Prison
 81420 [Pyromancy] Lingering Maelstrom
+81430 [Pyromancy] Repeating Dance of Fire
 82000 [Miracle] Bloodthirsty Lightning Arrow
 82010 [Miracle] Lightning Surge
 82020 [Miracle] Storm Spear

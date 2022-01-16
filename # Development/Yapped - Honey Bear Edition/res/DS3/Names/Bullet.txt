@@ -2644,8 +2644,8 @@
 11371250 [Sorcery] Extended White Dragon Breath [Hit]
 11372000 [Sorcery] Farron Hail
 11372100 [Sorcery] Farron Hail
-11372200 [Sorcery] Homing Farron Hail
-11372300 [Sorcery] Homing Farron Hail
+11372200 [Sorcery] Farron Swarm
+11372300 [Sorcery] Farron Swarm
 11373000 [Sorcery] Crystal Hail
 11373100 [Sorcery] Crystal Hail [Emitter]
 11373200 [Sorcery] Crystal Hail [Emitter Hit]
@@ -4236,6 +4236,10 @@
 109589100 [Sorcery] Great Rupturing Frostfire
 109589110 [Sorcery] Great Rupturing Frostfire
 109589120 [Sorcery] Great Rupturing Frostfire [Hit]
+109590000 [Pyromancy] Dance of Fire
+109590010 [Pyromancy] Dance of Fire [Hit]
+109590100 [Pyromancy] Repeating Dance of Fire
+109590110 [Pyromancy] Repeating Dance of Fire [Hit]
 109999999 ### Spell Summons ###
 110000000 Conjure Skeleton
 110000100 Conjure Hollow
