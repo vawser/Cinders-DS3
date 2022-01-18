@@ -373,6 +373,16 @@ dmy:
 
 920000 Darkmoon Longbow Weapon Art Arrow Release
 
+921000 Crystalline Stars Weapon and Body Emission
+
+922000 Fulgurant Sunlight Spear (Projectile)
+922100 Fulgurant Sunlight Spear (Impact)
+
+923000 Shredding Winds
+
+924000 Explosive Lacerating Ring
+924100 Explosive Lacerating Ring (Required for 924000)
+
 #------------------------
 # Frostfall
 #------------------------

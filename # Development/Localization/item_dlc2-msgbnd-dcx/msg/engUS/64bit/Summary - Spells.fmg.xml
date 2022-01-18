@@ -714,7 +714,7 @@
 <text id="3551000">Hurl giant lightning spear</text>
 <text id="3551010">Hurl storm spear</text>
 <text id="3552000">Hurl sunlight spear</text>
-<text id="3552010">Hurl homing sunlight spear</text>
+<text id="3552010">Hurl fulgurant sunlight spear</text>
 <text id="3553000">Call forth furious bolts of lightning</text>
 <text id="3553010">Call forth furious bolts of sunlight</text>
 <text id="3560000">Increase magic damage absorption with coating</text>
@@ -776,6 +776,8 @@
 <text id="3830010">Cast a lingering lightning orb that pulls enemies to it</text>
 <text id="3831000">Beckon tailwind</text>
 <text id="3831010">Beckon lingering tailwind</text>
+<text id="3832000">Emit stationary wind orb which shreds enemies</text>
+<text id="3832010">Emit lingering stationary wind orb which shreds enemies</text>
 <text id="4100000">Hurl darkened soul sediment</text>
 <text id="4100010">Hurl darkened soul sediment</text>
 <text id="4101000">Fire darkened soul sediment</text>
@@ -870,5 +872,7 @@
 <text id="4319010">Spew blood corrupted with parasites from one's mouth</text>
 <text id="4320000">Drench target with one's own blood and crystallize it</text>
 <text id="4320010">Drench target with one's own blood and crystallize it</text>
+<text id="4321000">Hurl clot of blood that bursts on impact and crystallizes around target</text>
+<text id="4321010">Hurl clot of blood that bursts on impact, crystallizes and explodes around target</text>
 </entries>
 </fmg>

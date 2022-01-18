@@ -5379,6 +5379,11 @@
 13744110 [Sorcery] Great Rupturing Frostfire [Hit]
 13745000 [Pyromancy] Dance of Fire
 13745010 [Pyromancy] Dance of Fire [Hit]
+13746000 [Miracle] Shredding Winds
+13746010 [Miracle] Shredding Winds [Hit]
+13747000 [Miracle] Lacerating Ring [Hit]
+13747010 [Miracle] Lacerating Ring
+13747020 [Miracle] Lacerating Ring [Hit]
 13999999 ### Weapons ###
 14000000 Blessing of Rosaria (Old)
 14000001 Blessing of Rosaria (Old)

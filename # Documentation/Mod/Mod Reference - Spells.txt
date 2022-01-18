@@ -1226,8 +1226,8 @@
 - FTH Req: 40
 - Slot Use: 2
 
-#---- Homing Sunlight Spear
-- Increases projectile homing to 180 degrees.
+#---- Fulgurant Sunlight Spear
+- Adds an AoE on impact.
 
 #--------------------------------
 # Lightning Arrow
@@ -1256,12 +1256,12 @@
 # Lightning Stake
 #--------------------------------
 - FP Cost: 60
-- Lightning Damage: 200 {600} [100 {300}] 
+- Lightning Damage: 200 {600} [100 {300}] [100 {300}] 
 - FTH Req: 40
 - Slot Use: 2
 
 #---- Sunlight Stake
-- Increases the radius of each of the hits.
+- Increases the radius of each of the hits and their damage to 250 {750} [150 {450}] [100 {300}].
 
 #--------------------------------
 # Divine Pillars of Light
@@ -1484,6 +1484,18 @@
 
 #---- Explosive Cyclone Blast
 - Adds an area of effect explosion on impact.
+
+#--------------------------------
+# Shredding Winds
+#--------------------------------
+- FP Cost: 100
+- Physical Damage: 20 {60} per tick
+- FTH Req: 50
+- Slot Use: 1
+- Base Effect: Lasts 5 seconds.
+
+#---- Lingering Shredding Winds
+- Increases duration to 10 seconds.
 
 #--------------------------------------------------------------------------
 # Miracles - Effects
@@ -2200,10 +2212,10 @@
 #--------------------------------
 # Blood Orb
 #--------------------------------
-- FP Cost: 60
+- FP Cost: 100
 - Dark Damage: 75 {225}
-- INT Req: 25
-- FTH Req: 25
+- INT Req: 30
+- FTH Req: 30
 - Slot Use: 1
 - Base Effect: Self inflicts 80 Bleed.
 
@@ -2235,6 +2247,19 @@
 
 #---- Great Blood Crystallization
 - Increases damage to 200, Bleed to 60 and self inflicted Bleed to 30.
+
+#--------------------------------
+# Lacerating Ring
+#--------------------------------
+- FP Cost: 70
+- Lightning Damage: 200 {600} [150 {300}]
+- INT Req: 20
+- FTH Req: 20
+- Slot Use: 1
+- Base Effect: Inflicts 30 Bleed. Self inflicts 70 Bleed.
+
+#---- Explosive Lacerating Ring
+- The crystals explode for additional 150 {300} damage.
 
 #--------------------------------------------------------------------------
 # Hexes - Effect

@@ -608,7 +608,7 @@
 82000 [Miracle] Bloodthirsty Lightning Arrow
 82010 [Miracle] Lightning Surge
 82020 [Miracle] Storm Spear
-82030 [Miracle] Homing Sunlight Spear
+82030 [Miracle] Fulgurant Sunlight Spear
 82040 [Miracle] Weakening Wrathful Orbs
 82050 [Miracle] Wrathful Wave
 82060 [Miracle] Quickened Schism
@@ -656,6 +656,7 @@
 82490 [Miracle] Explosive Cyclone Blast
 82500 [Miracle] Lingering Static Field
 82510 [Miracle] Lingering Tailwind
+82520 [Miracle] Shredding Winds
 83000 [Hex] Bloodthirsty Deep Barb
 83010 [Hex] Deep Overflow
 83020 [Hex] Weakening Deep Soul
@@ -703,6 +704,7 @@
 83440 [Hex] Lingering Blood Orb
 83450 [Hex] Great Blood Corruption
 83460 [Hex] Great Blood Crystallization
+83470 [Hex] Explosive Lacerating Ring
 89999 ### Script - Relationship
 90000 [Gift - Karla] Yearning Dregs
 90010 [Gift - Fire Keeper] Divine Blessing

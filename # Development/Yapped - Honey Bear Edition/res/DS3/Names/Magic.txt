@@ -487,8 +487,8 @@
 3551016 Storm Spear [Luck]
 3552000 Sunlight Spear
 3552006 Sunlight Spear [Luck]
-3552010 Homing Sunlight Spear
-3552016 Homing Sunlight Spear [Luck]
+3552010 Fulgurant Sunlight Spear
+3552016 Fulgurant Sunlight Spear [Luck]
 3553000 Lightning Storm
 3553006 Lightning Storm [Luck]
 3553010 Sunlight Storm
@@ -619,6 +619,10 @@
 3831006 Tailwind [Luck]
 3831010 Lingering Tailwind
 3831016 Lingering Tailwind [Luck]
+3832000 Shredding Winds
+3832006 Shredding Winds [Luck]
+3832010 Lingering Shredding Winds
+3832016 Lingering Shredding Winds [Luck]
 4099999 ### Hexes ###
 4100000 Deep Barb
 4100006 Deep Barb [Luck]
@@ -808,4 +812,8 @@
 4320006 Blood Crystallization [Luck]
 4320010 Great Blood Crystallization
 4320016 Great Blood Crystallization [Luck]
+4321000 Lacerating Ring
+4321006 Lacerating Ring [Luck]
+4321010 Explosive Lacerating Ring
+4321016 Explosive Lacerating Ring [Luck]
 5200000 ### Below are NPC versions of the above spells

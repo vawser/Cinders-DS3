@@ -4232,6 +4232,7 @@
 160500590 [Miracle] Blood Corruption - Self Inflict
 160500600 [Miracle] Blood Crystallization - Self Inflict
 160500601 [Miracle] Great Blood Crystallization - Self Inflict
+160500610 [Miracle] Lacerating Ring - Self Inflict
 160509999 ### Spells - Drawbacks ###
 160510000 Magic Weapon
 160510010 Great Magic Weapon
@@ -5606,6 +5607,8 @@
 160709245 Miasma - Left
 160709250 Magic Flame - Right
 160709255 Magic Flame - Left
+160709260 Crystalline Stars - Right
+160709265 Crystalline Stars - Left
 160709349 ### Infusion Weapon Emission ###
 160709350 Infusion - Curse - Right
 160709351 Infusion - Poison - Right
@@ -5638,6 +5641,7 @@
 160709530 Water
 160709532 Holy
 160709534 Smouldering
+160709535 Crystalline Stars
 160709599 ### Eye Emission ###
 160709600 Red Glow
 160709602 Burning Red Glow
@@ -6034,6 +6038,7 @@
 170000620 Frost - Frigid Orbs
 170000630 Frost - Frozen Chaos
 170000640 Frost - Rupturing Frostfire
+170000650 Bleed - Lacerating Ring
 179999999 ### Poison - Weapons ###
 180000000 Poison - Normal (Infusion)
 180000001 Poison - Quick (Infusion)

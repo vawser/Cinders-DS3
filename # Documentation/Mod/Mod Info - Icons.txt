@@ -118,8 +118,8 @@
 113 Oozing Charm Berry (Unassigned)
 114 Oozing Charm Berry (Unassigned)
 115 Mossfruit
-116 Spirit Amethyst (Unassigned)
-117 Holy Remains
+116 Shredding Winds
+117 Unholy Remains
 118 Heavy Gem
 119 Sharp Gem
 120 Refined Gem
@@ -296,7 +296,7 @@
 #------------------------
 # BLOCK 1
 #------------------------
-1000 [Unassigned]
+1000 Lacerating Ring
 1001 Dagger
 1002 Bandit's Knife
 1003 Parrying Dagger

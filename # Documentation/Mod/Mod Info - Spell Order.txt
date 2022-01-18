@@ -366,8 +366,11 @@ Weakening Gale Force 132215
 Cyclone Blast 132216
 Explosive Cyclone Blast 132217
 
-Blast Wave 132225
-Distant Blast Wave 132226
+Shredding Winds 132220
+Lingering Shredding Winds 132221
+
+Blast Wave 132224
+Distant Blast Wave 132225
 
 Squall 132231
 Bloodthirsty Squall 132232
@@ -531,6 +534,9 @@ Gravelord Sword 142901
 
 Vow of Agony 143000
 Curse of Agony 143001
+
+Lacerating Ring 143009
+Explosive Lacerating Ring 143010
 
 Blood Orb 143011
 Lingering Orb 143012
