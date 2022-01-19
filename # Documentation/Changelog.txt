@@ -61,7 +61,6 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
-
 # Weapons
 - Adjusted the base damage and weapon art damage multipliers of several spell tools.
 - Adjusted the grab of the Dark Hand.
@@ -83,6 +82,10 @@ Finish following weapons:
  - Dark Dancer's Enchanted Swords.
  - Dark Lorian's Greatsword (the infusion also changes its Weapon Art to black flame).
  - Dark Branding Iron.
+
+- Pistols can now parry any enemy.
+ - The way it works is independent of the bullet, rather a straight line of 'parry orbs' is emitted from the centre of the player over a few metres.
+- Blunderbuss can now parry any enemy. It has a shorter range than the Pistols though. 
 
 # Bosses
 - Changed the Fire damage portion of the attacks from Princess Yngvil to Magic damage.
@@ -177,3 +180,4 @@ Add Solaire as summon to Soul of Cinder
 Yhorm the Giant: Add minor mechanic that summons in Siegward irrespective of the quest.
 The Marauder: perhaps add healing bonfire mechanic, where you need to destroy the bonfire to stop it healing the Marauder
 
+430 - 448
