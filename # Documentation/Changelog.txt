@@ -122,6 +122,9 @@ Finish following weapons:
 - Increased the size of the burst visual effect from Explosive Crystal Orb.
 - Reduced the amount of blades spawned from Hail of Blades and adjusted its visual/sound effects.
 - Changed Homing Farron Hail to Farron Swarm.
+- Increased the FP cost and INT/FTH requirements of Blood Orb.
+- Changed Homing Sunlight Spear to Fulgurant Sunlight Spear.
+- Increased the damage of Sunlight Stake.
 
 - Added new spells:
  - Sorcery:
@@ -132,9 +135,15 @@ Finish following weapons:
  - Pyromancy: 
   - Maelstrom. Found in Irithyll of the Boreal Valley.
   - Dance of Fire. Transposed from the Soul of the Marauder.
+ - Miracles:
+  - Shredding Winds. Sold in the Dragon Remnants covenant.
+  - Lacerating Ring. Sold in the Pilgrims of Dark covenant.
   
 # Items
 - Yngvil's Crystal now boosts Magic absorption.
+
+# Transformation
+- Added Crystalline Stars effect to Weapon and Body Emissions.
 
 # Treasure
 - Deacons of the Deep now drop the Small Doll.

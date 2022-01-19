@@ -2025,6 +2025,7 @@ Current visual is determined by weapon infusion.</text>
 <text id="15003224">Radiant</text>
 <text id="15003225">Miasma</text>
 <text id="15003226">Magic Flame</text>
+<text id="15003227">Crystalline Stars</text>
 
 <text id="15003300"></text>
 <text id="15003301">Magical Crystals</text>
@@ -2044,6 +2045,7 @@ Current visual is determined by weapon infusion.</text>
 <text id="15003315">Water</text>
 <text id="15003316">Holy</text>
 <text id="15003317">Smouldering</text>
+<text id="15003318">Crystalline Stars</text>
 <text id="15003400">Red Glow</text>
 <text id="15003401">Burning Red Glow</text>
 <text id="15003402">White Glow</text>
@@ -4057,7 +4059,7 @@ to commune with the fallen knight.</text>
 <text id="99044040">Bloodthirsty Pulsating Mud</text>
 <text id="99044041">Bubble Prison</text>
 <text id="99044042">Lingering Maelstrom</text>
-<text id="99044043">Repeating Dance of Fire</text>
+<text id="99044043">Distant Dance of Fire</text>
 <text id="99045000">Ascend from Fireball?</text>
 <text id="99045001">Ascend from Fire Orb?</text>
 <text id="99045002">Ascend from Chaos Fire Orb?</text>
@@ -4145,11 +4147,11 @@ to commune with the fallen knight.</text>
 <text id="99046040">Bloodthirsty Pulsating Mud crafted</text>
 <text id="99046041">Bubble Prison crafted</text>
 <text id="99046042">Lingering Maelstrom crafted</text>
-<text id="99046043">Repeating Dance of Fire crafted</text>
+<text id="99046043">Distant Dance of Fire crafted</text>
 <text id="99047000">Bloodthirsty Lightning Arrow</text>
 <text id="99047001">Lightning Surge</text>
 <text id="99047002">Storm Spear</text>
-<text id="99047003">Homing Sunlight Spear</text>
+<text id="99047003">Fulgurant Sunlight Spear</text>
 <text id="99047004">Weakening Wrathful Orbs</text>
 <text id="99047005">Wrathful Wave</text>
 <text id="99047006">Quickened Holy Schism</text>
@@ -4197,6 +4199,7 @@ to commune with the fallen knight.</text>
 <text id="99047049">Explosive Cyclone Blast</text>
 <text id="99047050">Lingering Static Field</text>
 <text id="99047051">Lingering Tailwind</text>
+<text id="99047052">Lingering Shredding Winds</text>
 
 <text id="99048000">Ascend from Lightning Arrow?</text>
 <text id="99048001">Ascend from Lightning Spear?</text>
@@ -4249,10 +4252,11 @@ to commune with the fallen knight.</text>
 <text id="99048049">Ascend from Cyclone Blast?</text>
 <text id="99048050">Ascend from Static Field?</text>
 <text id="99048051">Ascend from Tailwind?</text>
+<text id="99048052">Ascend from Shredding Winds?</text>
 <text id="99049000">Bloodthirsty Lightning Arrow crafted</text>
 <text id="99049001">Lightning Surge crafted</text>
 <text id="99049002">Storm Spear crafted</text>
-<text id="99049003">Homing Sunlight Spear crafted</text>
+<text id="99049003">Fulgurant Sunlight Spear crafted</text>
 <text id="99049004">Weakening Wrathful Orbs crafted</text>
 <text id="99049005">Wrathful Wave crafted</text>
 <text id="99049006">Quickened Holy Schism crafted</text>
@@ -4300,6 +4304,7 @@ to commune with the fallen knight.</text>
 <text id="99049049">Explosive Cyclone Blast crafted</text>
 <text id="99049050">Lingering Static Field crafted</text>
 <text id="99049051">Lingering Tailwind crafted</text>
+<text id="99049052">Lingering Shredding Winds crafted</text>
 <text id="99050000">Bloodthirsty Deep Barb</text>
 <text id="99050001">Deep Overflow</text>
 <text id="99050002">Weakening Deep Soul</text>
@@ -4347,6 +4352,7 @@ to commune with the fallen knight.</text>
 <text id="99050044">Lingering Blood Orb</text>
 <text id="99050045">Great Blood Corruption</text>
 <text id="99050046">Great Blood Crystallization</text>
+<text id="99050047">Explosive Lacerating Ring</text>
 <text id="99051000">Ascend from Deep Barb?</text>
 <text id="99051001">Ascend from Deep Soul?</text>
 <text id="99051002">Ascend from Great Deep Soul?</text>
@@ -4394,6 +4400,7 @@ to commune with the fallen knight.</text>
 <text id="99051044">Ascend from Blood Orb?</text>
 <text id="99051045">Ascend from Blood Corruption?</text>
 <text id="99051046">Ascend from Blood Crystallization?</text>
+<text id="99051047">Ascend from Lacerating Ring?</text>
 <text id="99052000">Bloodthirsty Deep Barb crafted</text>
 <text id="99052001">Deep Overflow crafted</text>
 <text id="99052002">Weakening Deep Soul crafted</text>
@@ -4441,6 +4448,7 @@ to commune with the fallen knight.</text>
 <text id="99052044">Lingering Blood Orb crafted</text>
 <text id="99052045">Great Blood Corruption crafted</text>
 <text id="99052046">Great Blood Crystallization crafted</text>
+<text id="99052047">Explosive Lacerating Ring crafted</text>
 <text id="99060000">Configure Journey</text>
 <text id="99060001">Summary</text>
 <text id="99060002">Enable</text>

@@ -822,7 +822,7 @@
 2728000 Maelstrom
 2728010 Lingering Maelstrom
 2729000 Dance of Fire
-2729010 Repeating Dance of Fire
+2729010 Distant Dance of Fire
 2730000 Conjure Skeleton
 2731000 Conjure Hollow
 2732000 Conjure Hound
@@ -876,7 +876,7 @@
 3551000 Great Lightning Spear
 3551010 Storm Spear
 3552000 Sunlight Spear
-3552010 Homing Sunlight Spear
+3552010 Fulgurant Sunlight Spear
 3553000 Lightning Storm
 3553010 Sunlight Storm
 3556000 Way of White Corona
@@ -942,6 +942,8 @@
 3830010 Lingering Static Field
 3831000 Tailwind
 3831010 Lingering Tailwind
+3832000 Shredding Winds
+3832010 Lingering Shredding Winds
 4099999 ### Hexes ###
 4100000 Deep Barb
 4100010 Bloodthirsty Deep Barb
@@ -1037,3 +1039,5 @@
 4319010 Great Blood Corruption
 4320000 Blood Crystallization
 4320010 Great Blood Crystallization
+4321000 Lacerating Ring
+4321010 Explosive Lacerating Ring

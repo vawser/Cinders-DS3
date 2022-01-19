@@ -993,7 +993,7 @@
 <text id="2728000">Maelstrom</text>
 <text id="2728010">Lingering Maelstrom</text>
 <text id="2729000">Dance of Fire</text>
-<text id="2729010">Repeating Dance of Fire</text>
+<text id="2729010">Distant Dance of Fire</text>
 <text id="2730000">Conjure Skeleton</text>
 <text id="2731000">Conjure Hollow</text>
 <text id="2732000">Conjure Hound</text>
@@ -1044,7 +1044,7 @@
 <text id="3551000">Great Lightning Spear</text>
 <text id="3551010">Storm Spear</text>
 <text id="3552000">Sunlight Spear</text>
-<text id="3552010">Homing Sunlight Spear</text>
+<text id="3552010">Fulgurant Sunlight Spear</text>
 <text id="3553000">Lightning Storm</text>
 <text id="3553010">Sunlight Storm</text>
 <text id="3560000">Magic Barrier</text>
@@ -1106,6 +1106,8 @@
 <text id="3830010">Lingering Static Field</text>
 <text id="3831000">Tailwind</text>
 <text id="3831010">Lingering Tailwind</text>
+<text id="3832000">Shredding Winds</text>
+<text id="3832010">Lingering Shredding Winds</text>
 
 <text id="4100000">Deep Barb</text>
 <text id="4100010">Bloodthirsty Deep Barb</text>
@@ -1201,5 +1203,7 @@
 <text id="4319010">Great Blood Corruption</text>
 <text id="4320000">Blood Crystallization</text>
 <text id="4320010">Great Blood Crystallization</text>
+<text id="4321000">Lacerating Ring</text>
+<text id="4321010">Explosive Lacerating Ring</text>
 </entries>
 </fmg>

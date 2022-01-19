@@ -2905,8 +2905,9 @@
 13551380 [Miracle] Storm Spear
 13552000 [Miracle] Sunlight Spear
 13552100 [Miracle] Sunlight Spear [Projectile]
-13552200 [Miracle] Homing Sunlight Spear
-13552300 [Miracle] Homing Sunlight Spear [Projectile]
+13552200 [Miracle] Fulgurant Sunlight Spear
+13552300 [Miracle] Fulgurant Sunlight Spear [Projectile]
+13552310 [Miracle] Fulgurant Sunlight Spear [Hit]
 13553000 [Miracle] Lightning Storm
 13553100 [Miracle] Lightning Storm
 13553200 [Miracle] Lightning Storm [Hit]
@@ -4236,10 +4237,34 @@
 109589100 [Sorcery] Great Rupturing Frostfire
 109589110 [Sorcery] Great Rupturing Frostfire
 109589120 [Sorcery] Great Rupturing Frostfire [Hit]
-109590000 [Pyromancy] Dance of Fire
-109590010 [Pyromancy] Dance of Fire [Hit]
-109590100 [Pyromancy] Repeating Dance of Fire
-109590110 [Pyromancy] Repeating Dance of Fire [Hit]
+109590000 [Pyromancy] Dance of Fire Right
+109590010 [Pyromancy] Dance of Fire Right
+109590020 [Pyromancy] Dance of Fire Right [Hit]
+109590030 [Pyromancy] Dance of Fire Right [Hit]
+109590100 [Pyromancy] Dance of Fire Left
+109590110 [Pyromancy] Dance of Fire Left
+109590120 [Pyromancy] Dance of Fire Left [Hit]
+109590130 [Pyromancy] Dance of Fire Left [Hit]
+109590200 [Pyromancy] Distant Dance of Fire Right
+109590210 [Pyromancy] Distant Dance of Fire Right
+109590220 [Pyromancy] Distant Dance of Fire Right [Hit]
+109590230 [Pyromancy] Distant Dance of Fire Right [Hit]
+109590300 [Pyromancy] Distant Dance of Fire Left
+109590310 [Pyromancy] Distant Dance of Fire Left
+109590320 [Pyromancy] Distant Dance of Fire Left [Hit]
+109590330 [Pyromancy] Distant Dance of Fire Left [Hit]
+109591000 [Miracle] Shredding Winds
+109591010 [Miracle] Shredding Winds [Hit]
+109591100 [Miracle] Lingering Shredding Winds
+109592000 [Miracle] Lacerating Ring [Hit]
+109592010 [Miracle] Lacerating Ring
+109592020 [Miracle] Lacerating Ring
+109592030 [Miracle] Lacerating Ring [Hit]
+109592100 [Miracle] Explosive Lacerating Ring [Hit]
+109592110 [Miracle] Explosive Lacerating Ring
+109592120 [Miracle] Explosive Lacerating Ring
+109592130 [Miracle] Explosive Lacerating Ring [Hit]
+109592140 [Miracle] Explosive Lacerating Ring [Hit]
 109999999 ### Spell Summons ###
 110000000 Conjure Skeleton
 110000100 Conjure Hollow

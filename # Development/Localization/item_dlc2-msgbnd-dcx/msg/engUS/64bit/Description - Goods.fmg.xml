@@ -4593,7 +4593,7 @@ The fire seems to dance, and makes its victims dance with it.</text>
 <text id="2729010">Pyromancy created by the magus Eygil, 
 loyal follower of the Old Iron King.
 
-Cast flame in a sweeping motion across a targeted area.
+Cast distant flame in a sweeping motion across a targeted area.
 
 The fire seems to dance, and makes its victims dance with it.</text>
 <text id="2730000">An eclectic pyromancy created by an elusive conjurator.
@@ -5017,7 +5017,7 @@ Hurls a sunlight spear.
 The tales of Gwyn's Archdragon hunts describe
 the inception of the Age of Fire.</text>
 <text id="3552010">Miracle of Gwyn, the First Lord.
-Hurls a homing sunlight spear.
+Hurls a fulgurant sunlight spear.
 
 The tales of Gwyn's Archdragon hunts describe
 the inception of the Age of Fire.</text>
@@ -5413,6 +5413,16 @@ Controlling the winds is no common feat, as such, only those close to godhood an
 <text id="3831010">Miracle of those most devoted to the dragons.
 
 Beckon a tailwind, increasing movement speed by 20% for 45 seconds.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3832000">Miracle of those most devoted to the dragons.
+
+Emit stationary wind orb which shreds enemies that dare touch it. Lasts 5 seconds.
+
+Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
+<text id="3832010">Miracle of those most devoted to the dragons.
+
+Emit lingering stationary wind orb which shreds enemies that dare touch it. Lasts 10 seconds.
 
 Controlling the winds is no common feat, as such, only those close to godhood and dragons can manipulate it at will.</text>
 
@@ -5991,6 +6001,20 @@ Offering blood is yet another form of devoutness in the eyes of some gods.</text
 Drench target with one's own blood and crystallize it, causing lacerating damage.
 Inflicts 60 Bleed to enemy.
 Inflicts 30 Bleed to self.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4321000">Hex taught in the Cathedral of the Deep.
+
+Hurl clot of blood that bursts on impact and crystallizes around target, causing lacerating damage to enemies next to it.
+The blood crystals inflict 30 Bleed to enemy.
+Inflicts 70 Bleed to self.
+
+Offering blood is yet another form of devoutness in the eyes of some gods.</text>
+<text id="4321010">Hex taught in the Cathedral of the Deep.
+
+Hurl clot of blood that bursts on impact, crystallizes and explodes around target, causing lacerating damage to enemies next to it.
+The blood crystals inflict 30 Bleed to enemy.
+Inflicts 70 Bleed to self.
 
 Offering blood is yet another form of devoutness in the eyes of some gods.</text>
 </entries>

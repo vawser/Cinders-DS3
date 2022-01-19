@@ -107,6 +107,7 @@
 22615 [Pilgrims of Dark] Whisper of Despair
 22617 [Pilgrims of Dark] Dark Gem
 22618 [Pilgrims of Dark] Sanctum Shield
+22619 [Pilgrims of Dark] Lacerating Ring
 22700 [Dragon Remnants] Farron Ring
 22701 [Dragon Remnants] Hawkwood's Shield
 22702 [Dragon Remnants] Dragon Bone Smasher
@@ -127,6 +128,7 @@
 22721 [Dragon Remnants] Squall
 22722 [Dragon Remnants] Gale Force
 22723 [Dragon Remnants] Tailwind
+22724 [Dragon Remnants] Shredding Winds
 22800 [Way of White] Holy Gem
 22801 [Way of White] Divine Blessing
 22802 [Way of White] Hidden Blessing
@@ -2806,7 +2808,7 @@
 803181 [Gauntlet Spell] Great Lightning Spear
 803182 [Gauntlet Spell] Storm Spear
 803183 [Gauntlet Spell] Sunlight Spear
-803184 [Gauntlet Spell] Homing Sunlight Spear
+803184 [Gauntlet Spell] Fulgurant Sunlight Spear
 803185 [Gauntlet Spell] Lightning Storm
 803186 [Gauntlet Spell] Sunlight Storm
 803187 [Gauntlet Spell] Way of White Corona
@@ -3018,7 +3020,11 @@
 803393 [Gauntlet Spell] Blood Crystallization
 803394 [Gauntlet Spell] Great Blood Crystallization
 803395 [Gauntlet Spell] Dance of Fire
-803396 [Gauntlet Spell] Repeating Dance of Fire
+803396 [Gauntlet Spell] Distant Dance of Fire
+803397 [Gauntlet Spell] Shredding Winds
+803398 [Gauntlet Spell] Lingering Shredding Winds
+803399 [Gauntlet Spell] Lacerating Ring
+803400 [Gauntlet Spell] Explosive Lacerating Ring
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal
