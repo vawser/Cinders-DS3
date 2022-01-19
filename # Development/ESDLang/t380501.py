@@ -346,6 +346,9 @@ def t380501_x20():
         # Maelstrom
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2728000, 4, 1, 0) == 1, 43, 99044042, -1)
         
+        # Dance of Fire
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2729000, 4, 1, 0) == 1, 44, 99044043, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -523,6 +526,10 @@ def t380501_x20():
         # Lingering Maelstrom
         elif GetTalkListEntryResult() == 43:
             assert t380501_x50(81420, 1060, 9, -10, 99045042, 99046042, 99040040)
+            continue
+        # Distant Dance of Fire
+        elif GetTalkListEntryResult() == 44:
+            assert t380501_x50(81430, 1060, 9, -10, 99045043, 99046043, 99040040)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

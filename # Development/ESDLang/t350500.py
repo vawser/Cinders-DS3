@@ -370,6 +370,9 @@ def t350500_x20():
         # Tailwind
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3831000, 4, 1, 0) == 1, 52, 99047051, -1)
         
+        # Shredding Winds
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3832000, 4, 1, 0) == 1, 53, 99047052, -1)
+        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -579,6 +582,10 @@ def t350500_x20():
         # Lingering Tailwind
         elif GetTalkListEntryResult() == 52:
             assert t350500_x50(82510, 1090, 9, -10, 99048051, 99049051, 99040020)
+            continue
+        # Lingering Shredding Winds
+        elif GetTalkListEntryResult() == 53:
+            assert t350500_x50(82520, 1090, 9, -10, 99048052, 99049052, 99040020)
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:
