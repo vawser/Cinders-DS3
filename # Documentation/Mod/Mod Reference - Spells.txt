@@ -933,8 +933,8 @@
 - Slot Use: 2
 - Fire Damage: 250 {750}
 
-#---- Repeating Dance of Fire
-- Adds an additional back line of fire.
+#---- Distant Dance of Fire
+- The cast can now reach unlimited range.
 
 #--------------------------------
 # Conjure Skeleton

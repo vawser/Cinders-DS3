@@ -4237,10 +4237,22 @@
 109589100 [Sorcery] Great Rupturing Frostfire
 109589110 [Sorcery] Great Rupturing Frostfire
 109589120 [Sorcery] Great Rupturing Frostfire [Hit]
-109590000 [Pyromancy] Dance of Fire
-109590010 [Pyromancy] Dance of Fire [Hit]
-109590100 [Pyromancy] Repeating Dance of Fire
-109590110 [Pyromancy] Repeating Dance of Fire [Hit]
+109590000 [Pyromancy] Dance of Fire Right
+109590010 [Pyromancy] Dance of Fire Right
+109590020 [Pyromancy] Dance of Fire Right [Hit]
+109590030 [Pyromancy] Dance of Fire Right [Hit]
+109590100 [Pyromancy] Dance of Fire Left
+109590110 [Pyromancy] Dance of Fire Left
+109590120 [Pyromancy] Dance of Fire Left [Hit]
+109590130 [Pyromancy] Dance of Fire Left [Hit]
+109590200 [Pyromancy] Distant Dance of Fire Right
+109590210 [Pyromancy] Distant Dance of Fire Right
+109590220 [Pyromancy] Distant Dance of Fire Right [Hit]
+109590230 [Pyromancy] Distant Dance of Fire Right [Hit]
+109590300 [Pyromancy] Distant Dance of Fire Left
+109590310 [Pyromancy] Distant Dance of Fire Left
+109590320 [Pyromancy] Distant Dance of Fire Left [Hit]
+109590330 [Pyromancy] Distant Dance of Fire Left [Hit]
 109591000 [Miracle] Shredding Winds
 109591010 [Miracle] Shredding Winds [Hit]
 109591100 [Miracle] Lingering Shredding Winds
