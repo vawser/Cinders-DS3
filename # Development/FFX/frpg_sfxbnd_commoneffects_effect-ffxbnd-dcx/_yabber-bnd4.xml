@@ -36012,9 +36012,27 @@
     </file>
     <file>
       <flags>0x40</flags>
-      <id>28484</id>
+      <id>28485</id>
       <root>N:\FDP\data\INTERROOT_win64\</root>
       <path>sfx\effect\f000924100.fxr</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28486</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\effect\f000925000.fxr</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28487</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\effect\f000926000.fxr</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28488</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>sfx\effect\f000927000.fxr</path>
     </file>
   </files>
 </bnd4>

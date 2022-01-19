@@ -65,6 +65,7 @@ Finish following weapons:
 - Adjusted the base damage and weapon art damage multipliers of several spell tools.
 - Adjusted the grab of the Dark Hand.
 - Changed the damage self buff of Frostfall from Fire to Magic.
+- Changed the damage self buff the Ivory King Ultra Greatsword from Fire to Magic.
 - Blind now completely bypasses the shield guard of enemies.
 - Changed the Smelter's Fury Weapon Art and it now changes when the weapon is Magic infused.
 - Changed the visual effects of the Fume Ultra Greatsword and Fume Slated Swords' Weapon Arts to match those used by the Marauder.
@@ -121,7 +122,7 @@ Finish following weapons:
 - Hidden weapon now also reduces enemy target priority of the player.
 - Aural Decoy now has the same effect as Alluring Skull.
 - Increased the Stamina damage of Whisper of Despair.
-- Removed the wall penetration of Chaos Beam and reduced its glow.
+- Removed the wall penetration of Chaos Beam.
 - Increased the size of the burst visual effect from Explosive Crystal Orb.
 - Reduced the amount of blades spawned from Hail of Blades and adjusted its visual/sound effects.
 - Changed Homing Farron Hail to Farron Swarm.
@@ -144,6 +145,14 @@ Finish following weapons:
   
 # Items
 - Yngvil's Crystal now boosts Magic absorption.
+
+# FFX
+- Reduced the glow/brightness of:
+ - Chaos Beam.
+ - The lingering flames of Spellbound Draconic Fury.
+ - The beam of the Ivory King Ultra Greatsword Weapon Art.
+ - The impact burst of Frozen Chaos.
+ - The stake of Sunlight Stake.
 
 # Transformation
 - Added Crystalline Stars effect to Weapon and Body Emissions.
@@ -171,6 +180,7 @@ Finish following weapons:
 - Restored the missing sound files of the Abyss Walker and the Lord's Blade.
 - Fixed the Black Scorpion Stinger and Sanctum Mace's Weapon Arts not inflicting the status effect of the weapons when infused.
 - Removed the Poison self inflict from the Sanctum Mace when Bleed/Frost/Curse infused.
+- Fixed some descriptions.
 
 #------------------------------
 # TODO
