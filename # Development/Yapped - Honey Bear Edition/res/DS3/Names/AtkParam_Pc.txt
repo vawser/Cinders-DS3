@@ -4371,10 +4371,42 @@
 4603400 Church Cannon - Bullet
 4603410 Church Cannon - Explosion
 4604400 Hunter's Pistol - Bullet
+4604450 Pistol - Parry Orb
+4604451 Pistol - Parry Orb
+4604452 Pistol - Parry Orb
+4604453 Pistol - Parry Orb
+4604454 Pistol - Parry Orb
+4604455 Pistol - Parry Orb
+4604456 Pistol - Parry Orb
+4604457 Pistol - Parry Orb
+4604458 Pistol - Parry Orb
+4604459 Pistol - Parry Orb
+4604460 Pistol - Parry Orb
+4604461 Pistol - Parry Orb
+4604462 Pistol - Parry Orb
+4604463 Pistol - Parry Orb
+4604464 Pistol - Parry Orb
+4604465 Pistol - Parry Orb
+4604466 Pistol - Parry Orb
+4604467 Pistol - Parry Orb
+4604468 Pistol - Parry Orb
+4604469 Pistol - Parry Orb
+4604470 Pistol - Parry Orb
 4605400 Repeating Pistol - Bullet 1
 4605401 Repeating Pistol - Bullet 2
 4606400 Evelynn - Bullet
 4607400 Hunter's Blunderbuss - Bullet
+4607450 Hunter's Blunderbuss - Parry Orb
+4607451 Hunter's Blunderbuss - Parry Orb
+4607452 Hunter's Blunderbuss - Parry Orb
+4607453 Hunter's Blunderbuss - Parry Orb
+4607454 Hunter's Blunderbuss - Parry Orb
+4607455 Hunter's Blunderbuss - Parry Orb
+4607456 Hunter's Blunderbuss - Parry Orb
+4607457 Hunter's Blunderbuss - Parry Orb
+4607458 Hunter's Blunderbuss - Parry Orb
+4607459 Hunter's Blunderbuss - Parry Orb
+4607460 Hunter's Blunderbuss - Parry Orb
 4608400 Rosamarius - Bullet
 4608401 Maledicinus - Bullet
 4608402 Venenus - Bullet
@@ -4384,7 +4416,10 @@
 4608406 Fulgurius - Bullet
 4608407 Vitainus - Bullet
 4620400 Fist of Gratia - Punch
-4620410 Fist of Gratia - Punch - No FP
+4620401 Fist of Gratia - Punch
+4620410 Fist of Gratia - Punch - No Stamina
+4620411 Fist of Gratia - Punch - No Stamina
+4620450 Fist of Gratia - Parry Orb
 4700000 Large Shield - 1H Light #1
 4700001 Large Shield
 4700030 Large Shield - 1H Jump

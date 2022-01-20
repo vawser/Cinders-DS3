@@ -4474,10 +4474,84 @@
 104603400 Church Cannon - Bullet
 104603410 Church Cannon - Explosion
 104604400 Hunter's Pistol - Bullet
+104604450 Hunter's Pistol - Parry Orb
+104604451 Hunter's Pistol - Parry Orb
+104604452 Hunter's Pistol - Parry Orb
+104604453 Hunter's Pistol - Parry Orb
+104604454 Hunter's Pistol - Parry Orb
+104604455 Hunter's Pistol - Parry Orb
+104604456 Hunter's Pistol - Parry Orb
+104604457 Hunter's Pistol - Parry Orb
+104604458 Hunter's Pistol - Parry Orb
+104604459 Hunter's Pistol - Parry Orb
+104604460 Hunter's Pistol - Parry Orb
+104604461 Hunter's Pistol - Parry Orb
+104604462 Hunter's Pistol - Parry Orb
+104604463 Hunter's Pistol - Parry Orb
+104604464 Hunter's Pistol - Parry Orb
+104604465 Hunter's Pistol - Parry Orb
+104604466 Hunter's Pistol - Parry Orb
+104604467 Hunter's Pistol - Parry Orb
+104604468 Hunter's Pistol - Parry Orb
+104604469 Hunter's Pistol - Parry Orb
+104604470 Hunter's Pistol - Parry Orb
 104605400 Repeating Pistol - Bullet 1
 104605401 Repeating Pistol - Bullet 2
+104605450 Repeating Pistol - Parry Orb
+104605451 Repeating Pistol - Parry Orb
+104605452 Repeating Pistol - Parry Orb
+104605453 Repeating Pistol - Parry Orb
+104605454 Repeating Pistol - Parry Orb
+104605455 Repeating Pistol - Parry Orb
+104605456 Repeating Pistol - Parry Orb
+104605457 Repeating Pistol - Parry Orb
+104605458 Repeating Pistol - Parry Orb
+104605459 Repeating Pistol - Parry Orb
+104605460 Repeating Pistol - Parry Orb
+104605461 Repeating Pistol - Parry Orb
+104605462 Repeating Pistol - Parry Orb
+104605463 Repeating Pistol - Parry Orb
+104605464 Repeating Pistol - Parry Orb
+104605465 Repeating Pistol - Parry Orb
+104605466 Repeating Pistol - Parry Orb
+104605467 Repeating Pistol - Parry Orb
+104605468 Repeating Pistol - Parry Orb
+104605469 Repeating Pistol - Parry Orb
+104605470 Repeating Pistol - Parry Orb
 104606400 Evelynn - Bullet
+104606450 Evelynn - Parry Orb
+104606451 Evelynn - Parry Orb
+104606452 Evelynn - Parry Orb
+104606453 Evelynn - Parry Orb
+104606454 Evelynn - Parry Orb
+104606455 Evelynn - Parry Orb
+104606456 Evelynn - Parry Orb
+104606457 Evelynn - Parry Orb
+104606458 Evelynn - Parry Orb
+104606459 Evelynn - Parry Orb
+104606460 Evelynn - Parry Orb
+104606461 Evelynn - Parry Orb
+104606462 Evelynn - Parry Orb
+104606463 Evelynn - Parry Orb
+104606464 Evelynn - Parry Orb
+104606465 Evelynn - Parry Orb
+104606466 Evelynn - Parry Orb
+104606467 Evelynn - Parry Orb
+104606468 Evelynn - Parry Orb
+104606469 Evelynn - Parry Orb
+104606470 Evelynn - Parry Orb
 104607400 Hunter's Blunderbuss - Bullet
+104607450 Hunter's Blunderbuss - Parry Orb
+104607451 Hunter's Blunderbuss - Parry Orb
+104607452 Hunter's Blunderbuss - Parry Orb
+104607453 Hunter's Blunderbuss - Parry Orb
+104607454 Hunter's Blunderbuss - Parry Orb
+104607455 Hunter's Blunderbuss - Parry Orb
+104607456 Hunter's Blunderbuss - Parry Orb
+104607457 Hunter's Blunderbuss - Parry Orb
+104607458 Hunter's Blunderbuss - Parry Orb
+104607459 Hunter's Blunderbuss - Parry Orb
+104607460 Hunter's Blunderbuss - Parry Orb
 104608400 Rosamarius - Bullet
 104609400 Maledicinus - Bullet
 104610400 Venenus - Bullet
@@ -4495,7 +4569,10 @@
 104619400 Cannon (Dark) - Bullet
 104619410 Cannon (Dark) - Explosion
 104620400 Fist of Gratia - Punch
-104620401 Fist of Gratia - Punch - Low Stamina
+104620401 Fist of Gratia - Punch
+104620410 Fist of Gratia - No Stamina - Punch
+104620411 Fist of Gratia - No Stamina - Punch
+104620450 Fist of Gratia - Parry Orb
 104700000 Large Shield - 1H Light #1
 104700001 Large Shield
 104700010 Large Shield - 1H Light #2

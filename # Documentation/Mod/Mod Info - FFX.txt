@@ -383,6 +383,14 @@ dmy:
 924000 Explosive Lacerating Ring
 924100 Explosive Lacerating Ring (Required for 924000)
 
+925000 Sunlight Stake (Projectile)
+
+926000 Frozen Chaos (Impact)
+
+927000 Spellbound Draconic Fury Lingering Ground Fire
+
+928000 Larger Undead Hunter Charm Mist
+
 #------------------------
 # Frostfall
 #------------------------
