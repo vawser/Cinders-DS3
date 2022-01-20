@@ -927,9 +927,9 @@
 1100821 [Hollow Soldier] Firebomb [Hit]
 1100822 [Hollow Soldier] Firebomb [Hit]
 1100823 [Hollow Soldier] Firebomb [Hit]
-1100830 [Hollow Soldier] ?
-1100831 [Hollow Soldier] ?
-1100832 [Hollow Soldier] ?
+1100830 [Hollow Soldier] Undead Hunter Charm
+1100831 [Hollow Soldier] Undead Hunter Charm [Hit]
+1100832 [Hollow Soldier] Undead Hunter Charm
 1105210 [Large Hollow Soldier] ?
 1105220 [Large Hollow Soldier] ?
 1130700 [Rotten Slug] Vomiting
@@ -4785,7 +4785,8 @@
 230010010 Remnants of Lordran - Gough's Arrow [Emitter]
 230010020 Remnants of Lordran - Gough's Arrow [Hit]
 230011000 Remnants of Lordran - Boss Entry
-230012000 Remnants of Lordran - Ciaran's Soul Dreg
+230012000 Remnants of Lordran - Ciaran's Undead Hunter Mist
+230012001 Remnants of Lordran - Ciaran's Undead Hunter Mist [Hit]
 230020000 Irithyll - Freezing Wind [Emitter]
 230020020 Irithyll - Freezing Wind - Line [Hit]
 230020030 Irithyll - Freezing Wind - Initial Point [Hit]

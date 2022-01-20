@@ -100,12 +100,18 @@ Finish following weapons:
  - Removed the rubble rain.
  - Reduced the damage of the rock/fire pillars that spawn at the sides of the arena.
 
+- The Lordran Remnants:
+ - The Lord's Blade:
+  - Removed her grunt noises.
+  - Replaced her Great Soul Dregs attack with a mist that applies the same effects as the Undead Hunter Charm.
+
 - The Marauder:
  - Changed all his attacks to use a more vivid red/orange color.
  - Changed the visual effect of his combustion spell and increased the amount of bullets.
 
 # Enemies
 - Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
+- The Undead Hunter Charms thrown by Hollow Soldiers now apply the same effects as the player's version.
 
 # Spells
 - Renamed Supreme Magic Weapon to Moonlight Weapon. Changed its visual effect.
@@ -180,6 +186,7 @@ Finish following weapons:
 - Restored the missing sound files of the Abyss Walker and the Lord's Blade.
 - Fixed the Black Scorpion Stinger and Sanctum Mace's Weapon Arts not inflicting the status effect of the weapons when infused.
 - Removed the Poison self inflict from the Sanctum Mace when Bleed/Frost/Curse infused.
+- Fixed the Torch and Follower Torch being upgradeable past +10.
 - Fixed some descriptions.
 
 #------------------------------

@@ -250,8 +250,8 @@
 211000811 [Hollow]  oil pots tossed _ landed
 211000820 [Hollow]  flame Pots
 211000821 [Hollow]  Flame Pots _ Landed
-211000830 [Hollow]
-211000832 [Hollow]
+211000830 [Hollow] Undead Hunter Charm
+211000832 [Hollow] Undead Hunter Charm
 211050010 [Large Hollow] Greataxe - Swung down: Right tilted single-shot
 211050011 [Large Hollow] Greataxe - shaken down: Left tilted first stage
 211050012 [Large Hollow] Greataxe - Swung down: right tilted two

@@ -965,6 +965,7 @@
 10563 [Hollow Soldier] Estus Recovery
 10564 [Hollow Soldier]
 10565 [Hollow Soldier]
+10566 [Hollow Soldier]
 10570 [Ghru] Slow
 10571 [Ghru] Recovery
 10572 [Ghru] Self-Enhancement
@@ -2280,7 +2281,7 @@
 112800 Tailwind
 112801 Lingering Tailwind
 112899 ### Misc ###
-112910 Firearm Parry Duration
+112910 Firearm Parry Duration - OLD
 112920 Restraint: Roll
 112921 Restraint: Sprint
 112922 Restraint: Run
