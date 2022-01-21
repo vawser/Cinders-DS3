@@ -2314,6 +2314,9 @@
 6402100 [Gundyr] Corrupted Fist - Bullet
 6402200 [Gundyr] Corrupted Bite - Bullet
 6402300 [Gundyr] Corrupted Tear
+7510920 [The Abyss Walker] Thrust Bullet
+7510930 [The Abyss Walker] Slam Dreg Explosion
+7510940 [The Abyss Walker] Kick Dreg Explosion
 7530081 [The Marauder]
 7530190 [The Marauder] Wrath of the Gods
 7530240 [The Marauder] Combustion

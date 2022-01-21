@@ -4903,6 +4903,9 @@
 275100903 [The Abyss Walker]
 275100904 [The Abyss Walker]
 275100910 [The Abyss Walker]
+275100920 [The Abyss Walker] Thrust Bullet
+275100930 [The Abyss Walker] Slam Dreg Explosion
+275100940 [The Abyss Walker] Kick Dreg Explosion
 275100990 [The Abyss Walker]
 275100991 [The Abyss Walker]
 275200010 [The Dragonslayer] Whack: Sword damage

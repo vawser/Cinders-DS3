@@ -4436,6 +4436,9 @@
 7510902 [The Abyss Walker]
 7510903 [The Abyss Walker]
 7510904 [The Abyss Walker]
+7510920 [The Abyss Walker] Thrust Bullet
+7510930 [The Abyss Walker] Slam Dreg Explosion
+7510940 [The Abyss Walker] Kick Dreg Explosion
 7510990 [The Abyss Walker]
 7510991 [The Abyss Walker]
 7520010 [The Dragonslayer] a3000_ Storm whack: Sword damage

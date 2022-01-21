@@ -91,9 +91,7 @@ Finish following weapons:
 # Bosses
 - Changed the Fire damage portion of the attacks from Princess Yngvil to Magic damage.
 - Added a few lightning visual effects to the attacks of the Fallen Abominations and changed their damage to be split Physical + Lightning damage.
-
-- Cathedral Guardian:
- - Adjusted some of his attacks.
+- Adjusted some attacks of the Cathedral Guardian and the Mirror Knight.
 
 - Yhorm the Giant:
  - His machete attacks now create delayed ground explosions.
@@ -104,6 +102,10 @@ Finish following weapons:
  - The Lord's Blade:
   - Removed her grunt noises.
   - Replaced her Great Soul Dregs attack with a mist that applies the same effects as the Undead Hunter Charm.
+ - The Abyss Walker:
+  - Added a few visual effects to his attacks.
+  - Added a dreg burst to his overhead slam and kick.
+  - His thrust attacks now emit a projectile.
 
 - The Marauder:
  - Changed all his attacks to use a more vivid red/orange color.
