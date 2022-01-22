@@ -72,6 +72,7 @@ Finish following weapons:
 - Changed the Raime's Fury Weapon Art.
 - Added a rock explosion to Yhorm's Great Machete's charged R2 attacks while Warcry is active. It also changes when the weapon is Fire infused.
 - Improved the visuals of the Darkmoon Arrow Weapon Art.
+- The discs from Coronal Cascade now slightly shoot in random directions.
 
 - The Weapon Arts of the following weapons pause FP recovery during their attack animations:
  - Winged Knight Halberd.
@@ -110,6 +111,7 @@ Finish following weapons:
 - The Marauder:
  - Changed all his attacks to use a more vivid red/orange color.
  - Changed the visual effect of his combustion spell and increased the amount of bullets.
+ - Replaced with final explosion of the combo attack with a similar attack as the new Fume Ultra Greatsword Weapon Art.
 
 # Enemies
 - Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
