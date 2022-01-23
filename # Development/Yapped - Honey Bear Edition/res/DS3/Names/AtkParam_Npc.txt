@@ -4704,6 +4704,12 @@
 7630050 [Red Crystal Lizard] Roll
 7630060 [Red Crystal Lizard] Death Explosion
 7640800 [Twisted Knight] Occult Energies
+7640810 [Twisted Knight] Throw Dust
+7640811 [Twisted Knight] Throw Dust [Hit]
+7640820 [Twisted Knight] Fire Orb
+7640821 [Twisted Knight] Fire Orb [Hit]
+7640830 [Twisted Knight] Ice Dart
+7640840 [Twisted Knight] Lightning Daggers
 7650010 [The Rock]
 7650020 [The Rock]
 7650021 [The Rock]

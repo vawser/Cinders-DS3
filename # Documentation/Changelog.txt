@@ -107,6 +107,11 @@ Finish following weapons:
   - Added a few visual effects to his attacks.
   - Added a dreg burst to his overhead slam and kick.
   - His thrust attacks now emit a projectile.
+ - The Dragonslayer:
+  - Replaced his wind attacks with a lightning version of them.
+
+- Twisted Knight:
+ - Changed his projectiles to different types.
 
 - The Marauder:
  - Changed all his attacks to use a more vivid red/orange color.
@@ -118,6 +123,7 @@ Finish following weapons:
 - The Undead Hunter Charms thrown by Hollow Soldiers now apply the same effects as the player's version.
 
 # Spells
+- Changed the INT/FTH requirements of Dark Sorceries and Dark Miracles.
 - Renamed Supreme Magic Weapon to Moonlight Weapon. Changed its visual effect.
 - Renamed Supreme Carthus Flame Arc to Chaos Flame Arc. Changed its visual effect.
 - Renamed Supreme Black Flame Arc to Void Flame Arc. Changed its visual effect.

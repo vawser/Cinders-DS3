@@ -5284,9 +5284,11 @@
 276400340 [Twisted Knight]
 276400341 [Twisted Knight]
 276400350 [Twisted Knight]
-276400700 [Twisted Knight] Bullet
-276400710 [Twisted Knight] Bullet
-276400720 [Twisted Knight] Bullet
+276400700 [Twisted Knight] Dark Bullet
+276400710 [Twisted Knight] Physical Bullet
+276400720 [Twisted Knight] Fire Bullet
+276400730 [Twisted Knight] Magic Bullet
+276400740 [Twisted Knight] Lightning Bullet
 276500010 [The Rock]
 276500020 [The Rock]
 276500021 [The Rock]

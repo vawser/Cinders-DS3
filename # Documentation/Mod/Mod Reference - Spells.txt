@@ -1765,8 +1765,8 @@
 - FP Cost: 30
 - Dark Damage: 70 {210}
 - Base Effect: inflicts 10 Curse.
-- INT Req: 5
-- FTH Req: 5
+- INT Req: 8
+- FTH Req: 2
 - Slot Use: 1
 
 #---- Bloodthirsty Deep Barb
@@ -1777,8 +1777,8 @@
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 120 {360}
-- INT Req: 5
-- FTH Req: 5
+- INT Req: 8
+- FTH Req: 2
 - Slot Use: 1
 - Base Effect: inflicts 20 Curse.
 
@@ -1790,8 +1790,8 @@
 #--------------------------------
 - FP Cost: 75
 - Dark Damage: 175 {525}
-- INT Req: 10
-- FTH Req: 10
+- INT Req: 15
+- FTH Req: 5
 - Slot Use: 1
 - Base Effect: inflicts 30 Curse.
 
@@ -1803,8 +1803,8 @@
 #--------------------------------
 - FP Cost: 100
 - Dark Damage: 250 {700} 
-- INT Req: 15
-- FTH Req: 15
+- INT Req: 22
+- FTH Req: 7
 - Slot Use: 2
 - Base Effect: inflicts 40 Curse.
 
@@ -1816,8 +1816,8 @@
 #--------------------------------
 - FP Cost: 30
 - Dark Damage: 100 {300}
-- INT Req: 5
-- FTH Req: 5
+- INT Req: 8
+- FTH Req: 2
 - Slot Use: 1
 - Base Effect: inflicts 10 Curse.
 
@@ -1829,8 +1829,8 @@
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 200 {600}  
-- INT Req: 15
-- FTH Req: 15
+- INT Req: 22
+- FTH Req: 7
 - Slot Use: 1
 - Base Effect: inflicts 30 Curse.
 
@@ -1842,8 +1842,8 @@
 #--------------------------------
 - FP Cost: 80
 - Dark Damage: 50 {150} {*7, individual}
-- INT Req: 30
-- FTH Req: 30
+- INT Req: 45
+- FTH Req: 15
 - Slot Use: 2
 
 #---- Great Dark Bead
@@ -1854,8 +1854,8 @@
 #--------------------------------
 - FP Cost: 20
 - Dark Damage: 80 {240}
-- INT Req: 15
-- FTH Req: 15
+- INT Req: 22
+- FTH Req: 7
 - Slot Use: 1
 - Base Effect: inflicts 8 Curse.
 
@@ -1867,8 +1867,8 @@
 #--------------------------------
 - FP Cost: 80
 - Dark Damage: 25 {75} {*50, individual}
-- INT Req: 20
-- FTH Req: 20
+- INT Req: 30
+- FTH Req: 10
 - Slot Use: 2
 - Base Effect: inflicts 10 Curse per bullet.
 
@@ -1880,8 +1880,8 @@
 #--------------------------------
 - FP Cost: 5 (5)
 - Dark Damage: 200 {600} {*5, shared}
-- INT Req: 25
-- FTH Req: 25
+- INT Req: 37
+- FTH Req: 12
 - Slot Use: 1
 - Base Effect: inflicts 60 Curse per pillar.
 
@@ -1893,8 +1893,8 @@
 #--------------------------------
 - FP Cost: 80
 - Dark Damage: 25 {75} {*25, individual}
-- INT Req: 10
-- FTH Req: 10
+- INT Req: 15
+- FTH Req: 5
 - Slot Use: 1
 - Base Effect: inflicts 10 Curse per bullet.
 
@@ -1906,8 +1906,8 @@
 #--------------------------------
 - FP Cost: 80
 - Dark Damage: 135 {405} [275 {825}] 
-- INT Req: 25
-- FTH Req: 25
+- INT Req: 30
+- FTH Req: 10
 - Slot Use: 1
 - Base Effect: inflicts 30 Curse.
 
@@ -1919,8 +1919,8 @@
 #--------------------------------
 - FP Cost: 70
 - Dark Damage: 225 {675} 
-- INT Req: 20
-- FTH Req: 20
+- INT Req: 30
+- FTH Req: 10
 - Slot Use: 1
 - Base Effect: inflicts 20 Curse.
 
@@ -1932,20 +1932,20 @@
 #--------------------------------
 - FP Cost: 100
 - Dark Damage: 60 {180} {*5, individual}
-- INT Req: 20
-- FTH Req: 20
+- INT Req: 30
+- FTH Req: 10
 - Slot Use: 2
 - Base Effect: inflicts 10 Curse.
 
 #---- Pursuers
-- Changes the attack to shoot 20 bullets with firestorm cast animation. Increases the FP cost to 150. Each bullet does 40 {120} Dark damage and no curse build up. Requirements increased to 30 INT and 30 FTH.
+- Changes the attack to shoot 20 bullets with firestorm cast animation. Increases the FP cost to 150. Each bullet does 40 {120} Dark damage and no curse build up. Requirements increased to 45 INT and 15 FTH.
 
 #--------------------------------
 # Whisper of Despair
 #--------------------------------
 - FP Cost: 50
-- INT Req: 15
-- FTH Req: 15
+- INT Req: 22
+- FTH Req: 7
 - Slot Use: 1
 - Base Effect: inflicts 50 Curse.
 
@@ -2085,8 +2085,8 @@
 # Nibble
 #--------------------------------
 - FP Cost: 20
-- INT Req: 5
-- FTH Req: 5
+- INT Req: 2
+- FTH Req: 8
 - Slot Use: 1
 - Dark Damage: 50 {150}
 - Base Effect: inflicts 10 Bleed
@@ -2098,8 +2098,8 @@
 # Gnaw
 #--------------------------------
 - FP Cost: 40
-- INT Req: 5
-- FTH Req: 5
+- INT Req: 2
+- FTH Req: 8
 - Slot Use: 1
 - Dark Damage: 100 {300}
 - Base Effect: inflicts 20 Bleed
@@ -2111,8 +2111,8 @@
 # Dorhys' Gnawing
 #--------------------------------
 - FP Cost: 60
-- INT Req: 15
-- FTH Req: 15
+- INT Req: 7
+- FTH Req: 22
 - Slot Use: 2
 - Dark Damage: 175 {450}
 - Base Effect: inflicts 30 Bleed
@@ -2124,8 +2124,8 @@
 # Lifehunt Scythe
 #--------------------------------
 - FP Cost: 70
-- INT Req: 20
-- FTH Req: 20
+- INT Req: 10
+- FTH Req: 30
 - Slot Use: 1
 - Dark Damage: 250 {750}
 - Base Effect: absorbs 10% HP on hit.
@@ -2137,8 +2137,8 @@
 # Devouring Swarm
 #--------------------------------
 - FP Cost: 80
-- INT Req: 20
-- FTH Req: 20
+- INT Req: 10
+- FTH Req: 30
 - Slot Use: 2
 - Dark Damage: 25 {75} {*25, individual}
 - Base Effect: inflicts 10 Bleed
@@ -2150,8 +2150,8 @@
 # Dead Again
 #--------------------------------
 - FP Cost: 50
-- INT Req: 10
-- FTH Req: 10
+- INT Req: 5
+- FTH Req: 15
 - Slot Use: 1
 - Base Effect: causes corpses to explode, dealing damage to foes.
 
@@ -2162,8 +2162,8 @@
 # Vow of Agony
 #--------------------------------
 - FP Cost: 75
-- INT Req: 30
-- FTH Req: 30
+- INT Req: 15
+- FTH Req: 45
 - Slot Use: 1
 - Dark Damage: 50 {150} (per tick)
 
@@ -2174,8 +2174,8 @@
 # Gravelord Sword Dance
 #--------------------------------
 - FP Cost: 5 (5)
-- INT Req: 25
-- FTH Req: 25
+- INT Req: 12
+- FTH Req: 37
 - Slot Use: 1
 - Dark Damage: 200 {600} {*1, shared}
 - Base Effect: inflicts 60 Toxic.
@@ -2188,8 +2188,8 @@
 #--------------------------------
 - FP Cost: 80
 - Dark Damage: 300 {900}
-- INT Req: 30
-- FTH Req: 30
+- INT Req: 15
+- FTH Req: 45
 - Slot Use: 1
 - Base Effect: Self inflicts 50 Bleed.
 
@@ -2201,8 +2201,8 @@
 #--------------------------------
 - FP Cost: 20
 - Dark Damage: 80 {240}
-- INT Req: 15
-- FTH Req: 15
+- INT Req: 7
+- FTH Req: 22
 - Slot Use: 1
 - Base Effect: inflicts 8 Bleed.
 
@@ -2214,8 +2214,8 @@
 #--------------------------------
 - FP Cost: 100
 - Dark Damage: 75 {225}
-- INT Req: 30
-- FTH Req: 30
+- INT Req: 15
+- FTH Req: 45
 - Slot Use: 1
 - Base Effect: Self inflicts 80 Bleed.
 
@@ -2227,8 +2227,8 @@
 #--------------------------------
 - FP Cost: 50
 - Dark Damage: 20 {60}
-- INT Req: 25
-- FTH Req: 25
+- INT Req: 12
+- FTH Req: 37
 - Slot Use: 1
 - Base Effect: Inflicts maggot debuff. Self inflicts 30 Bleed.
 
@@ -2240,8 +2240,8 @@
 #--------------------------------
 - FP Cost: 40
 - Dark Damage: 150 {450}
-- INT Req: 15
-- FTH Req: 15
+- INT Req: 7
+- FTH Req: 22
 - Slot Use: 1
 - Base Effect: Inflicts 40 Bleed. Self inflicts 20 Bleed.
 
@@ -2253,8 +2253,8 @@
 #--------------------------------
 - FP Cost: 70
 - Lightning Damage: 200 {600} [150 {300}]
-- INT Req: 20
-- FTH Req: 20
+- INT Req: 10
+- FTH Req: 30
 - Slot Use: 1
 - Base Effect: Inflicts 30 Bleed. Self inflicts 70 Bleed.
 
@@ -2268,8 +2268,8 @@
 # Repel
 #--------------------------------
 - FP Cost: 30
-- INT Req: 20
-- FTH Req: 20
+- INT Req: 30
+- FTH Req: 10
 - Slot Use: 1
 - Base Effect: increases absorption to 100% for 2 seconds
 
@@ -2280,8 +2280,8 @@
 # Numbness
 #--------------------------------
 - FP Cost: 120
-- INT Req: 25
-- FTH Req: 25
+- INT Req: 37
+- FTH Req: 12
 - Slot Use: 1
 - Base Effect: increases absorption by 35% for 60 seconds but reduces camera FOV to 20 for 60 seconds.
 - Fatigues focus, increasing FP consumption costs by 15% while active.
@@ -2319,8 +2319,8 @@
 # Deep Protection
 #--------------------------------
 - FP Cost: 100
-- INT Req: 15
-- FTH Req: 15
+- INT Req: 7
+- FTH Req: 22
 - Slot Use: 1
 - Base Effect: increases damage and absorption by 5%. Increases Poison, Toxic, Bleed, Curse and Frost resistance by 50. Increases stamina recovery by 10. Lasts 60 seconds.
 - Fatigues focus, increasing FP consumption costs by 15% while active.
@@ -2332,8 +2332,8 @@
 # Dark Blade
 #--------------------------------
 - FP Cost: 100
-- INT Req: 25
-- FTH Req: 25
+- INT Req: 12
+- FTH Req: 37
 - Slot Use: 1
 - Base Effect: adds 60 Dark damage to main weapon and increases Dark absorption by 10%.
 - Fatigues focus, increasing FP consumption costs by 25% while active.
@@ -2345,8 +2345,8 @@
 # Atonement
 #--------------------------------
 - FP Cost: 100
-- INT Req: 15
-- FTH Req: 15
+- INT Req: 7
+- FTH Req: 22
 - Slot Use: 1
 - Base Effect: boosts Magic, Fire, Lightning, Dark absorption by 50%, but reduces Physical absorption by 50%. Lasts 30 seconds.
 - Fatigues focus, increasing FP consumption costs by 15% while active.
@@ -2358,8 +2358,8 @@
 # Vow of Silence
 #--------------------------------
 - FP Cost: 100
-- INT Req: 20
-- FTH Req: 20
+- INT Req: 10
+- FTH Req: 30
 - Slot Use: 1
 - Base Effect: silence self and target for 15 seconds.
 
@@ -2370,8 +2370,8 @@
 # Pulsating Blade
 #--------------------------------
 - FP Cost: 100
-- INT Req: 25
-- FTH Req: 25
+- INT Req: 12
+- FTH Req: 37
 - Slot Use: 1
 - Base Effect: Adds 30 Bleed inflict to main weapon for 60 seconds.
 - Fatigues focus, increasing FP consumption costs by 15% while active.
