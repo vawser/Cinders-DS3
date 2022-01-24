@@ -61,34 +61,6 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
-# Weapons
-- Adjusted the base damage and weapon art damage multipliers of several spell tools.
-- Adjusted the grab of the Dark Hand.
-- Changed the damage self buff of Frostfall from Fire to Magic.
-- Changed the damage self buff the Ivory King Ultra Greatsword from Fire to Magic.
-- Blind now completely bypasses the shield guard of enemies.
-- Changed the Smelter's Fury Weapon Art and it now changes when the weapon is Magic infused.
-- Changed the visual effects of the Fume Ultra Greatsword and Fume Slated Swords' Weapon Arts to match those used by the Marauder.
-- Changed the Raime's Fury Weapon Art.
-- Added a rock explosion to Yhorm's Great Machete's charged R2 attacks while Warcry is active. It also changes when the weapon is Fire infused.
-- Improved the visuals of the Darkmoon Arrow Weapon Art.
-- The discs from Coronal Cascade now slightly shoot in random directions.
-
-- The Weapon Arts of the following weapons pause FP recovery during their attack animations:
- - Winged Knight Halberd.
- - Winged Knight Twinaxes.
- - Dancer's Enchanted Swords.
-- Adjusted the FP recovery pauses of Bows, Greatbows and Crossbows.
-
-- Added some of El Fonz0's black flame models to the following infused weapons:
- - Dark Dancer's Enchanted Swords.
- - Dark Lorian's Greatsword (the infusion also changes its Weapon Art to black flame).
- - Dark Branding Iron.
-
-- Pistols can now parry any enemy.
- - The way it works is independent of the bullet, rather a straight line of 'parry orbs' is emitted from the centre of the player over a few metres.
-- Blunderbuss can now parry any enemy. It has a shorter range than the Pistols though. 
-
 # Bosses
 - Changed the Fire damage portion of the attacks from Princess Yngvil to Magic damage.
 - Added a few lightning visual effects to the attacks of the Fallen Abominations and changed their damage to be split Physical + Lightning damage.
@@ -121,6 +93,34 @@ Finish following weapons:
 # Enemies
 - Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
 - The Undead Hunter Charms thrown by Hollow Soldiers now apply the same effects as the player's version.
+
+# Weapons
+- Adjusted the base damage and weapon art damage multipliers of several spell tools and hybrid spell tools.
+- Adjusted the grab of the Dark Hand.
+- Changed the damage self buff of Frostfall from Fire to Magic.
+- Changed the damage self buff the Ivory King Ultra Greatsword from Fire to Magic.
+- Blind now completely bypasses the shield guard of enemies.
+- Changed the Smelter's Fury Weapon Art and it now changes when the weapon is Magic infused.
+- Changed the visual effects of the Fume Ultra Greatsword and Fume Slated Swords' Weapon Arts to match those used by the Marauder.
+- Changed the Raime's Fury Weapon Art.
+- Added a rock explosion to Yhorm's Great Machete's charged R2 attacks while Warcry is active. It also changes when the weapon is Fire infused.
+- Improved the visuals of the Darkmoon Arrow Weapon Art.
+- The discs from Coronal Cascade now slightly shoot in random directions.
+
+- The Weapon Arts of the following weapons pause FP recovery during their attack animations:
+ - Winged Knight Halberd.
+ - Winged Knight Twinaxes.
+ - Dancer's Enchanted Swords.
+- Adjusted the FP recovery pauses of Bows, Greatbows and Crossbows.
+
+- Added some of El Fonz0's black flame models to the following infused weapons:
+ - Dark Dancer's Enchanted Swords.
+ - Dark Lorian's Greatsword (the infusion also changes its Weapon Art to black flame).
+ - Dark Branding Iron.
+
+- Pistols can now parry any enemy.
+ - The way it works is independent of the bullet, rather a straight line of 'parry orbs' is emitted from the centre of the player over a few metres.
+- Blunderbuss can now parry any enemy. It has a shorter range than the Pistols though. 
 
 # Spells
 - Changed the INT/FTH requirements of Dark Sorceries and Dark Miracles.
@@ -197,6 +197,7 @@ Finish following weapons:
 - Fixed the Black Scorpion Stinger and Sanctum Mace's Weapon Arts not inflicting the status effect of the weapons when infused.
 - Removed the Poison self inflict from the Sanctum Mace when Bleed/Frost/Curse infused.
 - Fixed the Torch and Follower Torch being upgradeable past +10.
+- Fixed the FTH scaling of the Golden Ritual Spear not being applied to its Magic damage.
 - Fixed some descriptions.
 
 #------------------------------
