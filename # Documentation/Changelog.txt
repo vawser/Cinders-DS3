@@ -96,6 +96,7 @@ Finish following weapons:
 
 # Weapons
 - Adjusted the base damage and weapon art damage multipliers of several spell tools and hybrid spell tools.
+- Changed the INT requirement of the Golden Ritual Spear to FTH.
 - Adjusted the grab of the Dark Hand.
 - Changed the damage self buff of Frostfall from Fire to Magic.
 - Changed the damage self buff the Ivory King Ultra Greatsword from Fire to Magic.
