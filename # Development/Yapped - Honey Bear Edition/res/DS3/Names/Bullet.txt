@@ -948,6 +948,12 @@
 1180710 [Carthus Swordsman - Shotel] Knife throwing
 1180720 [Carthus Swordsman - Shotel] Step knife throwing
 1180800 [Twisted Knight] Occult Energies
+1180810 [Twisted Knight] Throw Dust
+1180811 [Twisted Knight] Throw Dust [Hit]
+1180820 [Twisted Knight] Fire Orb
+1180821 [Twisted Knight] Fire Orb [Hit]
+1180830 [Twisted Knight] Ice Dart
+1180840 [Twisted Knight] Lightning Daggers
 1190010 [Cathedral Knight] Bash AOE
 1190170 [Cathedral Knight] Miracle Attack
 1190180 [Cathedral Knight] Miracle Recovery
@@ -2314,6 +2320,20 @@
 6402100 [Gundyr] Corrupted Fist - Bullet
 6402200 [Gundyr] Corrupted Bite - Bullet
 6402300 [Gundyr] Corrupted Tear
+7510920 [The Abyss Walker] Thrust Bullet
+7510930 [The Abyss Walker] Slam Dreg Explosion
+7510940 [The Abyss Walker] Kick Dreg Explosion
+7520700 [The Dragonslayer] Lightning Line [Hit]
+7520701 [The Dragonslayer] Lightning Line
+7520702 [The Dragonslayer] Lightning Line - Added Lightning
+7520710 [The Dragonslayer] Lightning Wall [Hit]
+7520711 [The Dragonslayer] Lightning Wall
+7520712 [The Dragonslayer] Lightning Wall - Added Lightning
+7520720 [The Dragonslayer] Lightning Pillars
+7520721 [The Dragonslayer] Lightning Pillars - Added Lightning
+7520730 [The Dragonslayer] Lightning Wave
+7520731 [The Dragonslayer] Lightning Wave [Hit]
+7520732 [The Dragonslayer] Lightning Wave - Added Lightning
 7530081 [The Marauder]
 7530190 [The Marauder] Wrath of the Gods
 7530240 [The Marauder] Combustion
@@ -2343,6 +2363,32 @@
 7530558 [The Marauder]
 7530559 [The Marauder] Heavenly Thunder - Low
 7530604 [The Marauder]
+7530700 [The Marauder] Circle of Fireballs
+7530701 [The Marauder] Circle of Fireballs
+7530702 [The Marauder] Circle of Fireballs
+7530703 [The Marauder] Circle of Fireballs
+7530704 [The Marauder] Circle of Fireballs
+7530705 [The Marauder] Circle of Fireballs
+7530706 [The Marauder] Circle of Fireballs
+7530707 [The Marauder] Circle of Fireballs
+7530708 [The Marauder] Circle of Fireballs
+7530709 [The Marauder] Circle of Fireballs
+7530710 [The Marauder] Circle of Fireballs
+7530711 [The Marauder] Circle of Fireballs
+7530712 [The Marauder] Circle of Fireballs
+7530713 [The Marauder] Circle of Fireballs
+7530714 [The Marauder] Circle of Fireballs
+7530715 [The Marauder] Circle of Fireballs
+7530716 [The Marauder] Circle of Fireballs
+7530717 [The Marauder] Circle of Fireballs
+7530718 [The Marauder] Circle of Fireballs
+7530719 [The Marauder] Circle of Fireballs
+7530720 [The Marauder] Circle of Fireballs
+7530721 [The Marauder] Circle of Fireballs
+7530722 [The Marauder] Circle of Fireballs
+7530723 [The Marauder] Circle of Fireballs
+7530724 [The Marauder] Circle of Fireballs
+7530725 [The Marauder] Circle of Fireballs
 7530800 [The Marauder] Bursting Fireball
 7530801 [The Marauder] Bursting Fireball [Hit]
 7530802 [The Marauder] Bursting Fireball [Hit]

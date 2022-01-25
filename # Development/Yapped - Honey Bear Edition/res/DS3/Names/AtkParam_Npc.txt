@@ -4436,6 +4436,9 @@
 7510902 [The Abyss Walker]
 7510903 [The Abyss Walker]
 7510904 [The Abyss Walker]
+7510920 [The Abyss Walker] Thrust Bullet
+7510930 [The Abyss Walker] Slam Dreg Explosion
+7510940 [The Abyss Walker] Kick Dreg Explosion
 7510990 [The Abyss Walker]
 7510991 [The Abyss Walker]
 7520010 [The Dragonslayer] a3000_ Storm whack: Sword damage
@@ -4604,6 +4607,7 @@
 7530602 [The Marauder]
 7530603 [The Marauder]
 7530604 [The Marauder]
+7530700 [The Marauder] Circle of Fireballs
 7530800 [The Marauder] Chaos Beam
 7530900 [The Marauder]
 7530901 [The Marauder]
@@ -4700,6 +4704,12 @@
 7630050 [Red Crystal Lizard] Roll
 7630060 [Red Crystal Lizard] Death Explosion
 7640800 [Twisted Knight] Occult Energies
+7640810 [Twisted Knight] Throw Dust
+7640811 [Twisted Knight] Throw Dust [Hit]
+7640820 [Twisted Knight] Fire Orb
+7640821 [Twisted Knight] Fire Orb [Hit]
+7640830 [Twisted Knight] Ice Dart
+7640840 [Twisted Knight] Lightning Daggers
 7650010 [The Rock]
 7650020 [The Rock]
 7650021 [The Rock]
