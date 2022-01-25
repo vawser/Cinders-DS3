@@ -1491,7 +1491,7 @@
 - FP Cost: 100
 - Physical Damage: 20 {60} per tick
 - FTH Req: 50
-- Slot Use: 1
+- Slot Use: 2
 - Base Effect: Lasts 5 seconds.
 
 #---- Lingering Shredding Winds

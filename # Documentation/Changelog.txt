@@ -199,6 +199,7 @@ Finish following weapons:
 - Removed the Poison self inflict from the Sanctum Mace when Bleed/Frost/Curse infused.
 - Fixed the Torch and Follower Torch being upgradeable past +10.
 - Fixed the FTH scaling of the Golden Ritual Spear not being applied to its Magic damage.
+- Changed the Sort ID of weapons, spell tools and shields to fix overlapping IDs.
 - Fixed some descriptions.
 
 #------------------------------
