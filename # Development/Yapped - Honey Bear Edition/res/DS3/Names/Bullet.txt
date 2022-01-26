@@ -4378,7 +4378,8 @@
 210004010 Thorned Greatsword - Lightning Imbue
 210004020 Thorned Greatsword - Thunder Strike
 210005000 Breaking Wheel - Power Within
-210006000 Crystal Ring Shield - Unleash Moonlight [Hit]
+210006000 Crystal Ring Shield - Unleash Moonlight
+210006001 Crystal Ring Shield - Unleash Moonlight
 210007000 Runelock - Shield Bash - Bullet
 210008000 Hands of Sin - Inner Turmoil
 210009000 Twinspears of the Forlorn - Vestiges of Aldia

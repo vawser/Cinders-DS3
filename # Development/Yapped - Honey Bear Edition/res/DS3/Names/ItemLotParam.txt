@@ -487,7 +487,9 @@
 62499 ### Script - Tower Giant
 62500 [Inital Meeting] Young White Branch
 62501 [Inital Meeting] Hawk Ring
+62502 [Inital Meeting] Giant's Bow
 62510 [Killed] Hawk Ring
+62511 [Killed] Giant's Bow
 62599 ### Script - Horace the Hushed
 62600 [Inital Meeting] Blue Sentinels
 62999 ### Script - Londor Pilgrim
@@ -1377,6 +1379,7 @@
 3300561 [Chest] Guardian Armor
 3300562 [Chest] Guardian Gauntlets
 3300563 [Chest] Guardian Leggings
+3300564 [Chest] Stone Greataxe
 3300570 [Chest] Farron Coal
 3300580 [Chest] Fallen Knight Helm
 3300581 [Chest] Fallen Knight Armor

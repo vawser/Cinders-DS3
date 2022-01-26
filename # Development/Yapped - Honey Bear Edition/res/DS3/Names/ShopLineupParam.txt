@@ -630,7 +630,7 @@
 110042 [Shrine Handmaid] Pyromancy Flame
 110043 [Shrine Handmaid] Heretic's Staff
 110044 [Shrine Handmaid] Corrupted Talisman
-110045 [Shrine Handmaid] Black Flame
+110045 [Shrine Handmaid] Dark Flame
 110046 [Shrine Handmaid] Ring of Sacrifice
 110047 [Shrine Handmaid] Throwing Frying Pan
 110056 [Shrine Handmaid - Aborr] Grave Key
@@ -1444,7 +1444,7 @@
 800249 [Gauntlet Weapon] Corrupted Talisman
 800250 [Gauntlet Weapon] Talisman of Beasts
 800251 [Gauntlet Weapon] Insanity Catalyst
-800252 [Gauntlet Weapon] Black Flame
+800252 [Gauntlet Weapon] Dark Flame
 800253 [Gauntlet Weapon] Cleric's Candlestick
 800254 [Gauntlet Weapon] Pilgrim's Spontoon
 800255 [Gauntlet Weapon] Preacher's Right Arm
@@ -1686,6 +1686,8 @@
 800491 [Gauntlet Weapon] Aldia Hammer
 800492 [Gauntlet Weapon] Sanctum Shield
 800493 [Gauntlet Weapon] Disc Chime
+800494 [Gauntlet Weapon] Stone Greataxe
+800495 [Gauntlet Weapon] Giant's Bow
 801000 [Gauntlet Armor] Gough's Helm
 801001 [Gauntlet Armor] Gough's Armor
 801002 [Gauntlet Armor] Gough's Gloves

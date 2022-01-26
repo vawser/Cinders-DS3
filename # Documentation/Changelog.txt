@@ -94,9 +94,15 @@ Finish following weapons:
 - Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
 - The Undead Hunter Charms thrown by Hollow Soldiers now apply the same effects as the player's version.
 
+# Starting Classes
+- Adjusted the Guardian class.
+- Adjusted the Royal Warden class.
+
 # Weapons
 - Adjusted the base damage and weapon art damage multipliers of several spell tools and hybrid spell tools.
 - Changed the INT requirement of the Golden Ritual Spear to FTH.
+- Renamed the Black Flame spell tool to Dark Flame.
+- Increased the STR requirement of the Stone Greatshield to 40.
 - Adjusted the grab of the Dark Hand.
 - Changed the damage self buff of Frostfall from Fire to Magic.
 - Changed the damage self buff the Ivory King Ultra Greatsword from Fire to Magic.
@@ -107,6 +113,11 @@ Finish following weapons:
 - Added a rock explosion to Yhorm's Great Machete's charged R2 attacks while Warcry is active. It also changes when the weapon is Fire infused.
 - Improved the visuals of the Darkmoon Arrow Weapon Art.
 - The discs from Coronal Cascade now slightly shoot in random directions.
+- Improved the projectile of the Crystal Ring Shield Weapon Art.
+
+- Added new weapons
+ - Stone Greataxe. Found in Farron Keep.
+ - Giant's Bow. Obtained from the Undead Settlement Giant.
 
 - The Weapon Arts of the following weapons pause FP recovery during their attack animations:
  - Winged Knight Halberd.
@@ -161,6 +172,7 @@ Finish following weapons:
   - Lacerating Ring. Sold in the Pilgrims of Dark covenant.
   
 # Items
+- Changed the sell value of some items.
 - Yngvil's Crystal now boosts Magic absorption.
 
 # FFX
