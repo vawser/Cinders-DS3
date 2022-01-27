@@ -1652,6 +1652,8 @@
 5150753 [Aldrich] ?
 5150754 [Aldrich] ?
 5150760 [Aldrich] Purple Orb [Emitter]
+5160040 [Wolnir] Black Flames
+5160041 [Wolnir] Black Flames [Hit]
 5160060 [Wolnir] Miasma breath (before HU)
 5160061 [Wolnir] Miasma breath (before HU)
 5160062 [Wolnir] ?
@@ -3113,6 +3115,13 @@
 100062613 [Lorian's Greatsword] Flame of Lorian [Hit]
 100062614 [Lorian's Greatsword] Flame of Lorian [Hit]
 100062615 [Lorian's Greatsword] Flame of Lorian [Hit]
+100062625 [Dark Lorian's Greatsword] Flame of Lorian
+100062626 [Dark Lorian's Greatsword] Flame of Lorian [Hit]
+100062627 [Dark Lorian's Greatsword] Flame of Lorian [Hit]
+100062628 [Dark Lorian's Greatsword] Flame of Lorian [Hit]
+100062629 [Dark Lorian's Greatsword] Flame of Lorian [Hit]
+100062630 [Dark Lorian's Greatsword] Flame of Lorian [Hit]
+100062631 [Dark Lorian's Greatsword] Flame of Lorian [Hit]
 100062650 [Great Lord Greatsword] Flame of the Great Lord
 100062651 [Great Lord Greatsword] Flame of the Great Lord [Hit]
 100062652 [Great Lord Greatsword] Flame of the Great Lord [Hit]

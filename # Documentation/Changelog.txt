@@ -66,6 +66,9 @@ Finish following weapons:
 - Added a few lightning visual effects to the attacks of the Fallen Abominations and changed their damage to be split Physical + Lightning damage.
 - Adjusted some attacks of the Cathedral Guardian and the Mirror Knight.
 
+- High Lord Wolnir:
+ - Changed the attack he used to summon his skeletons to spawn a wave of black flames.
+
 - Yhorm the Giant:
  - His machete attacks now create delayed ground explosions.
  - Removed the rubble rain.
@@ -180,7 +183,6 @@ Finish following weapons:
  - Chaos Beam.
  - The lingering flames of Spellbound Draconic Fury.
  - The beam of the Ivory King Ultra Greatsword Weapon Art.
- - The impact burst of Frozen Chaos.
  - The stake of Sunlight Stake.
 
 # Transformation
@@ -201,7 +203,7 @@ Finish following weapons:
 - Fixed a few boss fogwalls so they use the correct invalidation flag. This fixes issues where they were randomly not working.
 - Added some missing items to the Gauntlet Mode shop.
 - Removed the old unused Crystal Shard item from the Gauntlet Mode shop.
-- Fixed the throwing knives/kukris from the Crow Quills and Carthus Shotel Weapon Arts not inflicting the aux effect of the weapon.
+- Fixed the throwing knives/kukris from the Crow Quills and Carthus Shotel Weapon Arts not inflicting the aux effect of the weapons when infused.
 - Fixed the stat requirements of the Dark and Lucky infused Murky Hand Scythe.
 - Fixed the stat requirements of the Lucky and non-infused Golem Axe.
 - Fixed the damage boost of the Calamity Ring.
@@ -211,7 +213,7 @@ Finish following weapons:
 - Removed the Poison self inflict from the Sanctum Mace when Bleed/Frost/Curse infused.
 - Fixed the Torch and Follower Torch being upgradeable past +10.
 - Fixed the FTH scaling of the Golden Ritual Spear not being applied to its Magic damage.
-- Changed the Sort ID of weapons, spell tools and shields to fix overlapping IDs.
+- Changed the Sort ID of weapons, spell tools, shields and rings to fix overlapping IDs.
 - Fixed some descriptions.
 
 #------------------------------
