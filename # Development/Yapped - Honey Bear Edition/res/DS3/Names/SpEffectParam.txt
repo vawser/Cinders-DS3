@@ -4205,6 +4205,7 @@
 160500350 [Spell] FP Restore Debuff - 30 Seconds
 160500351 [Spell] FP Restore Debuff - 60 Seconds
 160500360 [Pyromancy] Weakening Fire Orb
+160500365 [Pyromancy] Incendiary DoT 20
 160500370 [Pyromancy] Incendiary DoT 10
 160500380 [Pyromancy] Incendiary DoT 5
 160500385 [Pyromancy] Incendiary DoT 2

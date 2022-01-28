@@ -563,19 +563,19 @@
 80500 [Sorcery] Lingering Frigid Orbs
 80510 [Sorcery] Quickened Frozen Chaos
 80520 [Sorcery] Great Rupturing Frostfire
-81000 [Pyromancy] Incendiary Fireball
+81000 [Pyromancy] Brume Fireball
 81010 [Pyromancy] Weakening Fire Orb
 81020 [Pyromancy] Homing Chaos Fire Orb
-81030 [Pyromancy] Incendiary Bursting Fireball
+81030 [Pyromancy] Brume Bursting Fireball
 81040 [Pyromancy] Distant Profaned Flame
 81050 [Pyromancy] Chaos Vortex
 81060 [Pyromancy] Great Seething Chaos
 81070 [Pyromancy] Bloodthirsty Flame Fan
-81080 [Pyromancy] Incendiary Combustion
+81080 [Pyromancy] Brume Combustion
 81090 [Pyromancy] Bloodthirsty Fire Surge
-81100 [Pyromancy] Incendiary Fire Whip
+81100 [Pyromancy] Chaos Fire Whip
 81110 [Pyromancy] Bloodthirsty Sacred Flame
-81120 [Pyromancy] Repeating Firestorm
+81120 [Pyromancy] Outcry
 81130 [Pyromancy] Repeating Chaos Storm
 81140 [Pyromancy] Bloodthirsty Lingering Chaos
 81150 [Pyromancy] Lingering Floating Chaos

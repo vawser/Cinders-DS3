@@ -2702,15 +2702,15 @@
 803073 [Gauntlet Spell] Blinding Light
 803074 [Gauntlet Spell] Refined Blinding Light
 803075 [Gauntlet Spell] Fireball
-803076 [Gauntlet Spell] Incendiary Fireball
+803076 [Gauntlet Spell] Brume Fireball
 803077 [Gauntlet Spell] Fire Orb
 803078 [Gauntlet Spell] Weakening Fire Orb
 803079 [Gauntlet Spell] Firestorm
-803080 [Gauntlet Spell] Repeating Firestorm
+803080 [Gauntlet Spell] Outcry
 803081 [Gauntlet Spell] Fire Surge
 803082 [Gauntlet Spell] Bloodthirsty Fire Surge
 803083 [Gauntlet Spell] Great Combustion
-803084 [Gauntlet Spell] Incendiary Combustion
+803084 [Gauntlet Spell] Brume Combustion
 803085 [Gauntlet Spell] Poison Mist
 803086 [Gauntlet Spell] Lingering Poison Mist
 803087 [Gauntlet Spell] Toxic Mist
@@ -2732,7 +2732,7 @@
 803103 [Gauntlet Spell] Chaos Storm
 803104 [Gauntlet Spell] Repeating Chaos Storm
 803105 [Gauntlet Spell] Fire Whip
-803106 [Gauntlet Spell] Incendiary Fire Whip
+803106 [Gauntlet Spell] Chaos Fire Whip
 803107 [Gauntlet Spell] Profaned Flame
 803108 [Gauntlet Spell] Distant Profaned Flame
 803109 [Gauntlet Spell] Chaos Bed Vestiges
@@ -2746,7 +2746,7 @@
 803117 [Gauntlet Spell] Profuse Sweat
 803118 [Gauntlet Spell] Refined Profuse Sweat
 803119 [Gauntlet Spell] Bursting Fireball
-803120 [Gauntlet Spell] Incendiary Bursting Fireball
+803120 [Gauntlet Spell] Brume Bursting Fireball
 803121 [Gauntlet Spell] Boulder Heave
 803122 [Gauntlet Spell] Swift Boulder Heave
 803123 [Gauntlet Spell] Sacred Flame

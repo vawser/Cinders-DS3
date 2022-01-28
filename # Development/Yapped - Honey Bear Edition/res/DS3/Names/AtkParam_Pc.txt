@@ -5269,6 +5269,13 @@
 12403400 [Pyromancy] Firestorm
 12403500 [Pyromancy] Firestorm
 12403600 [Pyromancy] Firestorm [HitBullet]
+12404000 [Pyromancy] Outcry
+12404100 [Pyromancy] Outcry [HitBullet]
+12404200 [Pyromancy] Outcry [HitBullet]
+12404300 [Pyromancy] Outcry [HitBullet]
+12404400 [Pyromancy] Outcry
+12404500 [Pyromancy] Outcry
+12404600 [Pyromancy] Outcry [HitBullet]
 12405000 [Pyromancy] Fire Surge
 12407000 [Pyromancy] Black Serpent
 12407010 [Pyromancy] Black Serpent [EmittedBullet]
@@ -5294,6 +5301,8 @@
 12451600 [Pyromancy] Chaos Storm [HitBullet]
 12451700 [Pyromancy] Chaos Storm [HitBullet]
 12452000 [Pyromancy] Fire Whip
+12452100 [Pyromancy] Chaos Fire Whip [Hit]
+12452220 [Pyromancy] Chaos Fire Whip [Hit]
 12453000 [Pyromancy] Black Flame
 12453100 [Pyromancy] Black Flame [HitBullet]
 12453200 [Pyromancy] Black Flame [HitBullet]

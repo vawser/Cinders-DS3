@@ -736,15 +736,15 @@
 1816010 Great Rupturing Frostfire
 2399999 ### Pyromancies ###
 2400000 Fireball
-2400010 Incendiary Fireball
+2400010 Brume Fireball
 2402000 Fire Orb
 2402010 Weakening Fire Orb
 2403000 Firestorm
-2403010 Repeating Firestorm
+2403010 Outcry
 2405000 Fire Surge
 2405010 Bloodthirsty Fire Surge
 2411000 Great Combustion
-2411010 Incendiary Combustion
+2411010 Brume Combustion
 2420000 Poison Mist
 2420010 Lingering Poison Mist
 2421000 Toxic Mist
@@ -766,7 +766,7 @@
 2451000 Chaos Storm
 2451010 Repeating Chaos Storm
 2452000 Fire Whip
-2452010 Incendiary Fire Whip
+2452010 Chaos Fire Whip
 2455000 Profaned Flame
 2455010 Distant Profaned Flame
 2456000 Chaos Bed Vestiges
@@ -780,7 +780,7 @@
 2562000 Profuse Sweat
 2562010 Refined Profuse Sweat
 2620000 Bursting Fireball
-2620010 Incendiary Bursting Fireball
+2620010 Brume Bursting Fireball
 2630000 Boulder Heave
 2630010 Swift Boulder Heave
 2640000 Sacred Flame

@@ -208,24 +208,24 @@
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400006 Fireball [Luck]
-2400010 Incendiary Fireball
-2400016 Incendiary Fireball [Luck]
+2400010 Brume Fireball
+2400016 Brume Fireball [Luck]
 2402000 Fire Orb
 2402006 Fire Orb [Luck]
 2402010 Weakening Fire Orb
 2402016 Weakening Fire Orb [Luck]
 2403000 Firestorm
 2403006 Firestorm [Luck]
-2403010 Repeating Firestorm
-2403016 Repeating Firestorm [Luck]
+2403010 Outcry
+2403016 Outcry [Luck]
 2405000 Fire Surge
 2405006 Fire Surge [Luck]
 2405010 Bloodthirsty Fire Surge
 2405016 Bloodthirsty Fire Surge [Luck]
 2411000 Great Combustion
 2411006 Great Combustion [Luck]
-2411010 Incendiary Combustion
-2411016 Incendiary Combustion [Luck]
+2411010 Brume Combustion
+2411016 Brume Combustion [Luck]
 2420000 Poison Mist
 2420006 Poison Mist [Luck]
 2420010 Lingering Poison Mist
@@ -268,8 +268,8 @@
 2451016 Repeating Chaos Storm [Luck]
 2452000 Fire Whip
 2452006 Fire Whip [Luck]
-2452010 Incendiary Whip
-2452016 Incendiary Whip [Luck]
+2452010 Chaos Fire Whip
+2452016 Chaos Fire Whip [Luck]
 2455000 Profaned Flame
 2455006 Profaned Flame [Luck]
 2455010 Distant Profaned Flame
@@ -296,8 +296,8 @@
 2562016 Refined Profuse Sweat [Luck]
 2620000 Bursting Fireball
 2620006 Bursting Fireball [Luck]
-2620010 Incendiary Bursting Fireball
-2620016 Incendiary Bursting Fireball [Luck]
+2620010 Brume Bursting Fireball
+2620016 Brume Bursting Fireball [Luck]
 2630000 Boulder Heave
 2630006 Boulder Heave [Luck]
 2630010 Swift Boulder Heave

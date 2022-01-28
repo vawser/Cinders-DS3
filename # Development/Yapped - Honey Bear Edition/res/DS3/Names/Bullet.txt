@@ -2745,8 +2745,8 @@
 11740430 [Sorcery] Lingering Snap Freeze [Hit]
 12400000 [Pyromancy] Fireball
 12400100 [Pyromancy] Fireball [Hit]
-12400200 [Pyromancy] Incendiary Fireball
-12400300 [Pyromancy] Incendiary Fireball [Hit]
+12400200 [Pyromancy] Brume Fireball
+12400300 [Pyromancy] Brume Fireball [Hit]
 12402000 [Pyromancy] Fire Orb
 12402100 [Pyromancy] Fire Orb [Hit]
 12402200 [Pyromancy] Weakening Fire Orb
@@ -2757,12 +2757,13 @@
 12403030 [Pyromancy] Firestorm [Hit]
 12403050 [Pyromancy] Firestorm
 12403060 [Pyromancy] Firestorm [Hit]
-12403100 [Pyromancy] Repeating Firestorm
-12403110 [Pyromancy] Repeating Firestorm [Hit]
-12403120 [Pyromancy] Repeating Firestorm [Hit]
-12403130 [Pyromancy] Repeating Firestorm [Hit]
-12403150 [Pyromancy] Repeating Firestorm
-12403160 [Pyromancy] Repeating Firestorm [Hit]
+12403100 [Pyromancy] Outcry
+12403110 [Pyromancy] Outcry [Hit]
+12403120 [Pyromancy] Outcry [Hit]
+12403130 [Pyromancy] Outcry [Hit]
+12403140 [Pyromancy] Outcry [Hit]
+12403150 [Pyromancy] Outcry
+12403160 [Pyromancy] Outcry [Hit]
 12405000 [Pyromancy] Fire Surge
 12405100 [Pyromancy] Bloodthirsty Fire Surge
 12407000 [Pyromancy] Black Serpent
@@ -2783,9 +2784,8 @@
 12411000 [Pyromancy] Great Combustion
 12411100 [Pyromancy] Great Combustion [Hit]
 12411200 [Pyromancy] Great Combustion [Hit]
-12411300 [Pyromancy] Incendiary Combustion
-12411400 [Pyromancy] Incendiary Combustion [Hit]
-12411500 [Pyromancy] Incendiary Combustion [Hit]
+12411300 [Pyromancy] Brume Combustion
+12411310 [Pyromancy] Brume Combustion [Hit]
 12420000 [Pyromancy] Poison Mist
 12420100 [Pyromancy] Lingering Poison Mist
 12420110 [Pyromancy] Lingering Poison Mist
@@ -2826,7 +2826,10 @@
 12451160 [Pyromancy] Repeating Chaos Storm [Hit]
 12451170 [Pyromancy] Repeating Chaos Storm [Hit]
 12452000 [Pyromancy] Fire Whip
-12452100 [Pyromancy] Incendiary Whip
+12452100 [Pyromancy] Chaos Fire Whip
+12452200 [Pyromancy] Chaos Fire Whip
+12452210 [Pyromancy] Chaos Fire Whip [Hit]
+12452220 [Pyromancy] Chaos Fire Whip [Hit]
 12453000 [Pyromancy] Black Flame
 12453100 [Pyromancy] Black Flame [Hit]
 12453200 [Pyromancy] Black Flame [Hit]
@@ -2870,9 +2873,9 @@
 12620000 [Pyromancy] Bursting Fireball
 12620100 [Pyromancy] Bursting Fireballl [Hit]
 12620200 [Pyromancy] Bursting Fireball [Hit]
-12621000 [Pyromancy] Incendiary Bursting Fireball
-12621100 [Pyromancy] Incendiary Bursting Fireballl [Hit]
-12621200 [Pyromancy] Incendiary Bursting Fireballl [Hit]
+12621000 [Pyromancy] Brume Bursting Fireball
+12621100 [Pyromancy] Brume Bursting Fireballl [Hit]
+12621200 [Pyromancy] Brume Bursting Fireballl [Hit]
 12630000 [Pyromancy] Boulder Heave
 12630100 [Pyromancy] Boulder Heave [Hit]
 12630200 [Pyromancy] Swift Boulder Heave

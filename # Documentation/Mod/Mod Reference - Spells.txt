@@ -616,8 +616,8 @@
 - Slot Use: 1
 - Fire Damage: 100 {300} [50 {150}]
 
-#---- Incendiary Fireball
-- Deals 10 damage per second for 10 seconds. Stacks.
+#---- Brume Fireball
+- Deals 20 damage per second for 10 seconds. Stacks.
 
 #--------------------------------
 # Fire Orb
@@ -636,8 +636,8 @@
 - Slot Use: 1
 - Fire Damage: 180 {520} {*5, shared}
 
-#---- Repeating Firestorm
-- Doubles the amount of bullets emitted.
+#---- Outcry
+- Doubles the amount of bullets emitted and increases damage to 300. Increases FP cost to 5 and attunement slots required to 2.
 
 #--------------------------------
 # Fire Surge
@@ -656,7 +656,7 @@
 - Slot Use: 1
 - Fire Damage: 150 {450} [50 {150}]
 
-#---- Incendiary Combustion
+#---- Brume Combustion
 - Slightly increases the burst range and deals 10 damage per second for 10 seconds. Stacks.
 
 #--------------------------------
@@ -686,8 +686,8 @@
 - Slot Use: 2
 - Fire Damage: 40 {120} {*20, individual}
 
-#---- Incendiary Fire Whip
-- Deals 1 damage per hit every second for 10 seconds. Stacks.
+#---- Chaos Fire Whip
+- Adds lava that deals 50 {150} Fire damage per tick.
 
 #--------------------------------
 # Profaned Flame
@@ -736,7 +736,7 @@
 - Slot Use: 1
 - Fire Damage: 40 {120} {*5, shared per added wave)
 
-#---- Incendiary Bursting Fireball
+#---- Brume Bursting Fireball
 - Deals 2 damage per second for 10 seconds. Stacks.
 
 #--------------------------------
