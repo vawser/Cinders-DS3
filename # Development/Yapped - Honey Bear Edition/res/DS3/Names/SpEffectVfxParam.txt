@@ -462,7 +462,9 @@
 50353 Irithyllian Slave -
 50354 Irithyllian Slave -
 50355 Irithyllian Slave -
-50360 Irithyllian Slave -
+50360 Crystal Lizzard Sparkles
+50361 Red Crystal Lizzard Sparkles
+50362 Large Red Crystal Lizzard Sparkles
 50370 Lorian -
 50371 Lorian -
 50372 Lorian -
@@ -1351,6 +1353,7 @@
 99943000 Spell: Black Flame Arc
 99943010 Spell: Void Flame Arc
 99944000 Spell: Noxious Blade
+99945000 Spell: Brume Pyromancies - DOT
 99950000 Phantom: Default
 99950001 Phantom: Human
 99950002 Phantom: Black Tiger

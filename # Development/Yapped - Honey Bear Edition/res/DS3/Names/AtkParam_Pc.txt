@@ -2337,6 +2337,71 @@
 3205700 Earth Seeker
 3205710 Earth Seeker
 3205712 Earth Seeker
+3206000 Stone Greataxe - 1H Light #1
+3206001 Stone Greataxe - 1H Light #1 Range
+3206010 Stone Greataxe - 1H Light #2
+3206020 Stone Greataxe - 1H Light #3
+3206030 Stone Greataxe - 1H Jump
+3206040 Stone Greataxe - 1H Fall Loop
+3206050 Stone Greataxe - 1H Fall Landing
+3206100 Stone Greataxe - 1H Heavy #1
+3206101 Stone Greataxe - 1H Round
+3206105 Stone Greataxe - 1H Heavy #1 Max
+3206110 Stone Greataxe - 1H Heavy #2
+3206115 Stone Greataxe - 1H Heavy #2 Max
+3206200 Stone Greataxe - 2H Light #1
+3206210 Stone Greataxe - 2H Light #2
+3206220 Stone Greataxe - 2H Light #3
+3206230 Stone Greataxe - 2H Jump
+3206240 Stone Greataxe - 2H Fall Loop
+3206250 Stone Greataxe - 2H Fall Landing
+3206300 Stone Greataxe - 2H Heavy #1
+3206301 Stone Greataxe
+3206305 Stone Greataxe - 2H Heavy #1 Max
+3206310 Stone Greataxe - 2H Heavy #2
+3206315 Stone Greataxe - 2H Heavy #2 Max
+3206400 Stone Greataxe - Left Hand
+3206402 Stone Greataxe
+3206404 Stone Greataxe
+3206406 Stone Greataxe
+3206410 Stone Greataxe - 1H Kick
+3206420 Stone Greataxe - 2H Kick
+3206430 Stone Greataxe - 1H Guard
+3206440 Stone Greataxe - 2H Guard
+3206450 Stone Greataxe - Parry
+3206470 Stone Greataxe - Large Throw
+3206490 Stone Greataxe - Falling Throw
+3206500 Stone Greataxe - Backstab - Sub
+3206501 Stone Greataxe - Backstab
+3206505 Stone Greataxe - Backstab (Hornet Ring) - Sub
+3206506 Stone Greataxe - Backstab (Hornet Ring)
+3206510 Stone Greataxe - Riposte - Sub
+3206511 Stone Greataxe - Riposte
+3206515 Stone Greataxe - Riposte (Hornet Ring) - Sub
+3206516 Stone Greataxe - Riposte (Hornet Ring) - Sub
+3206517 Stone Greataxe - Riposte (Hornet Ring)
+3206520 Stone Greataxe - 1H Backstep
+3206530 Stone Greataxe - 2H Backstep
+3206540 Stone Greataxe - 1H Roll
+3206580 Stone Greataxe - 2H Roll
+3206600 Stone Greataxe - Parry
+3206610 Stone Greataxe - Backstab Transition
+3206615 Stone Greataxe - Missed Backstab Transition
+3206620 Stone Greataxe
+3206700 Stone Greataxe - Weapon Art
+3206701 Stone Greataxe - Weapon Art
+3206702 Stone Greataxe - Weapon Art
+3206710 Stone Greataxe - Weapon Art
+3206711 Stone Greataxe - Weapon Art
+3206712 Stone Greataxe - Weapon Art
+3206713 Stone Greataxe - Weapon Art
+3206800 Stone Greataxe
+3206805 Stone Greataxe
+3206806 Stone Greataxe
+3206807 Stone Greataxe
+3206808 Stone Greataxe
+3206810 Stone Greataxe
+3206815 Stone Greataxe
 3210000 Yhorm's Great Machete
 3210001 Yhorm's Great Machete
 3210010 Yhorm's Great Machete
@@ -5204,6 +5269,13 @@
 12403400 [Pyromancy] Firestorm
 12403500 [Pyromancy] Firestorm
 12403600 [Pyromancy] Firestorm [HitBullet]
+12404000 [Pyromancy] Outcry
+12404100 [Pyromancy] Outcry [HitBullet]
+12404200 [Pyromancy] Outcry [HitBullet]
+12404300 [Pyromancy] Outcry [HitBullet]
+12404400 [Pyromancy] Outcry
+12404500 [Pyromancy] Outcry
+12404600 [Pyromancy] Outcry [HitBullet]
 12405000 [Pyromancy] Fire Surge
 12407000 [Pyromancy] Black Serpent
 12407010 [Pyromancy] Black Serpent [EmittedBullet]
@@ -5229,6 +5301,8 @@
 12451600 [Pyromancy] Chaos Storm [HitBullet]
 12451700 [Pyromancy] Chaos Storm [HitBullet]
 12452000 [Pyromancy] Fire Whip
+12452100 [Pyromancy] Chaos Fire Whip [Hit]
+12452220 [Pyromancy] Chaos Fire Whip [Hit]
 12453000 [Pyromancy] Black Flame
 12453100 [Pyromancy] Black Flame [HitBullet]
 12453200 [Pyromancy] Black Flame [HitBullet]
@@ -5318,9 +5392,12 @@
 13551170 [Miracle] Storm Spear [HitBullet]
 13551180 [Miracle] Storm Spear [HitBullet]
 13552000 [Miracle] Sunlight Spear [Ranged]
-13552001 [Miracle] Sunlight Spear [Ranged] - Ascended
 13552010 [Miracle] Sunlight Spear
 13552100 [Miracle] Sunlight Spear [Proximity]
+13552500 [Miracle] Fulgurant Sunlight Spear [Ranged]
+13552510 [Miracle] Fulgurant Sunlight Spear
+13552600 [Miracle] Fulgurant Sunlight Spear [Proximity]
+13552700 [Miracle] Fulgurant Sunlight Spear [AoE]
 13553000 [Miracle] Lightning Storm
 13553100 [Miracle] Lightning Storm
 13553200 [Miracle] Lightning Storm [HitBullet]

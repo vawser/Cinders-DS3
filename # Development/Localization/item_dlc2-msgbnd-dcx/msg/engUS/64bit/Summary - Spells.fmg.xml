@@ -577,16 +577,16 @@
 <text id="1816000">Cast orb that contains an uncontrolable frostfire force</text>
 <text id="1816010">Cast orb that contains an uncontrolable frostfire force</text>
 <text id="2400000">Hurl fireball</text>
-<text id="2400010">Hurl incendiary fireball</text>
+<text id="2400010">Hurl brume fireball</text>
 <text id="2402000">Hurl giant fire orb</text>
 <text id="2402010">Hurl weakening giant fire orb</text>
 <text id="2403000">Erect multiple fire pillars in vicinity</text>
-<text id="2403010">Erect multiple fire pillars in vicinity</text>
+<text id="2403010">Erect multiple brume fire pillars in vicinity</text>
 <text id="2404000">%null%</text>
 <text id="2405000">Emit a constant stream of fire</text>
 <text id="2405010">Emit a constant stream of fire</text>
 <text id="2411000">Create powerful, giant flame in hand</text>
-<text id="2411010">Create powerful, giant incendiary flame in hand</text>
+<text id="2411010">Create powerful, giant brume flame in hand</text>
 <text id="2415000">%null%</text>
 <text id="2416000">%null%</text>
 <text id="2420000">Create poison mist</text>
@@ -610,7 +610,7 @@
 <text id="2451000">Erect multiple chaos fire pillars in vicinity</text>
 <text id="2451010">Erect multiple chaos fire pillars in vicinity</text>
 <text id="2452000">Sweep foes with fire whip</text>
-<text id="2452010">Sweep foes with incendiary fire whip</text>
+<text id="2452010">Sweep foes with chaos fire whip</text>
 <text id="2455000">Engulf foes at range and burn them to ashes</text>
 <text id="2455010">Engulf foes at very long range and burn them to ashes</text>
 <text id="2456000">Hurl chaos flame that scorches vicinity</text>
@@ -621,7 +621,7 @@
 <text id="2562000">Profuse sweating temporarily boosts all resistances</text>
 <text id="2562010">Profuse sweating temporarily boosts all resistances with no focus cost</text>
 <text id="2620000">Hurl a bursting fireball</text>
-<text id="2620010">Hurl an incendiary bursting fireball</text>
+<text id="2620010">Hurl a brume bursting fireball</text>
 <text id="2630000">Spew a boulder from one's mouth</text>
 <text id="2630010">Spew a boulder from one's mouth</text>
 <text id="2640000">Flame burrows inside foes and ignites</text>

@@ -1342,6 +1342,9 @@
 12153 [Irithyllian Slave]
 12155 [Irithyllian Slave]
 12156 [Irithyllian Slave]
+12170 [Crystal Lizard] Sparkles
+12171 [Red Crystal Lizard] Sparkles
+12172 [Large Red Crystal Lizard] Sparkles
 12200 [Demon Cleric]
 12201 [Demon Cleric]
 12202 [Demon Cleric]
@@ -4202,6 +4205,7 @@
 160500350 [Spell] FP Restore Debuff - 30 Seconds
 160500351 [Spell] FP Restore Debuff - 60 Seconds
 160500360 [Pyromancy] Weakening Fire Orb
+160500365 [Pyromancy] Incendiary DoT 20
 160500370 [Pyromancy] Incendiary DoT 10
 160500380 [Pyromancy] Incendiary DoT 5
 160500385 [Pyromancy] Incendiary DoT 2

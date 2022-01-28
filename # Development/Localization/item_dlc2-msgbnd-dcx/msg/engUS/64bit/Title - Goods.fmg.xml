@@ -913,15 +913,15 @@
 <text id="1816000">Rupturing Frostfire</text>
 <text id="1816010">Great Rupturing Frostfire</text>
 <text id="2400000">Fireball</text>
-<text id="2400010">Incendiary Fireball</text>
+<text id="2400010">Brume Fireball</text>
 <text id="2402000">Fire Orb</text>
 <text id="2402010">Weakening Fire Orb</text>
 <text id="2403000">Firestorm</text>
-<text id="2403010">Repeating Firestorm</text>
+<text id="2403010">Outcry</text>
 <text id="2405000">Fire Surge</text>
 <text id="2405010">Bloodthirsty Fire Surge</text>
 <text id="2411000">Great Combustion</text>
-<text id="2411010">Incendiary Combustion</text>
+<text id="2411010">Brume Combustion</text>
 <text id="2420000">Poison Mist</text>
 <text id="2420010">Lingering Poison Mist</text>
 <text id="2421000">Toxic Mist</text>
@@ -943,7 +943,7 @@
 <text id="2451000">Chaos Storm</text>
 <text id="2451010">Repeating Chaos Storm</text>
 <text id="2452000">Fire Whip</text>
-<text id="2452010">Incendiary Fire Whip</text>
+<text id="2452010">Chaos Fire Whip</text>
 <text id="2455000">Profaned Flame</text>
 <text id="2455010">Distant Profaned Flame</text>
 <text id="2456000">Chaos Bed Vestiges</text>
@@ -953,7 +953,7 @@
 <text id="2562000">Profuse Sweat</text>
 <text id="2562010">Refined Profuse Sweat</text>
 <text id="2620000">Bursting Fireball</text>
-<text id="2620010">Incendiary Bursting Fireball</text>
+<text id="2620010">Brume Bursting Fireball</text>
 <text id="2630000">Boulder Heave</text>
 <text id="2630010">Swift Boulder Heave</text>
 <text id="2640000">Sacred Flame</text>

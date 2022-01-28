@@ -66,6 +66,9 @@ Finish following weapons:
 - Added a few lightning visual effects to the attacks of the Fallen Abominations and changed their damage to be split Physical + Lightning damage.
 - Adjusted some attacks of the Cathedral Guardian and the Mirror Knight.
 
+- High Lord Wolnir:
+ - Changed the attack he used to summon his skeletons to spawn a wave of black flames.
+
 - Yhorm the Giant:
  - His machete attacks now create delayed ground explosions.
  - Removed the rubble rain.
@@ -93,10 +96,17 @@ Finish following weapons:
 # Enemies
 - Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
 - The Undead Hunter Charms thrown by Hollow Soldiers now apply the same effects as the player's version.
+- Added red sparkles to Red Crystal Lizards.
+
+# Starting Classes
+- Adjusted the Guardian class.
+- Adjusted the Royal Warden class.
 
 # Weapons
 - Adjusted the base damage and weapon art damage multipliers of several spell tools and hybrid spell tools.
 - Changed the INT requirement of the Golden Ritual Spear to FTH.
+- Renamed the Black Flame spell tool to Dark Flame.
+- Increased the STR requirement of the Stone Greatshield to 40.
 - Adjusted the grab of the Dark Hand.
 - Changed the damage self buff of Frostfall from Fire to Magic.
 - Changed the damage self buff the Ivory King Ultra Greatsword from Fire to Magic.
@@ -107,6 +117,11 @@ Finish following weapons:
 - Added a rock explosion to Yhorm's Great Machete's charged R2 attacks while Warcry is active. It also changes when the weapon is Fire infused.
 - Improved the visuals of the Darkmoon Arrow Weapon Art.
 - The discs from Coronal Cascade now slightly shoot in random directions.
+- Improved the projectile of the Crystal Ring Shield Weapon Art.
+
+- Added new weapons
+ - Stone Greataxe. Found in Farron Keep.
+ - Giant's Bow. Obtained from the Undead Settlement Giant.
 
 - The Weapon Arts of the following weapons pause FP recovery during their attack animations:
  - Winged Knight Halberd.
@@ -146,6 +161,10 @@ Finish following weapons:
 - Increased the FP cost and INT/FTH requirements of Blood Orb.
 - Changed Homing Sunlight Spear to Fulgurant Sunlight Spear.
 - Increased the damage of Sunlight Stake.
+- Changed the 'Incendiary' ascended Pyromancies to 'Brume'.
+- Increased the damage over time from Brume Fireball to 20.
+- Changed Incendiary Fire Whip to Chaos Fire Whip.
+- Changed Repeating Firestorm to Outcry.
 
 - Added new spells:
  - Sorcery:
@@ -161,6 +180,7 @@ Finish following weapons:
   - Lacerating Ring. Sold in the Pilgrims of Dark covenant.
   
 # Items
+- Changed the sell value of some items.
 - Yngvil's Crystal now boosts Magic absorption.
 
 # FFX
@@ -168,7 +188,6 @@ Finish following weapons:
  - Chaos Beam.
  - The lingering flames of Spellbound Draconic Fury.
  - The beam of the Ivory King Ultra Greatsword Weapon Art.
- - The impact burst of Frozen Chaos.
  - The stake of Sunlight Stake.
 
 # Transformation
@@ -189,7 +208,7 @@ Finish following weapons:
 - Fixed a few boss fogwalls so they use the correct invalidation flag. This fixes issues where they were randomly not working.
 - Added some missing items to the Gauntlet Mode shop.
 - Removed the old unused Crystal Shard item from the Gauntlet Mode shop.
-- Fixed the throwing knives/kukris from the Crow Quills and Carthus Shotel Weapon Arts not inflicting the aux effect of the weapon.
+- Fixed the throwing knives/kukris from the Crow Quills and Carthus Shotel Weapon Arts not inflicting the aux effect of the weapons when infused.
 - Fixed the stat requirements of the Dark and Lucky infused Murky Hand Scythe.
 - Fixed the stat requirements of the Lucky and non-infused Golem Axe.
 - Fixed the damage boost of the Calamity Ring.
@@ -199,7 +218,7 @@ Finish following weapons:
 - Removed the Poison self inflict from the Sanctum Mace when Bleed/Frost/Curse infused.
 - Fixed the Torch and Follower Torch being upgradeable past +10.
 - Fixed the FTH scaling of the Golden Ritual Spear not being applied to its Magic damage.
-- Changed the Sort ID of weapons, spell tools and shields to fix overlapping IDs.
+- Changed the Sort ID of weapons, spell tools, shields, armors and rings to fix overlapping IDs.
 - Fixed some descriptions.
 
 #------------------------------

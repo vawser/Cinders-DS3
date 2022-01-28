@@ -2345,6 +2345,72 @@
 103205710 Earth Seeker
 103205711 Earth Seeker
 103205712 Earth Seeker
+103206000 Stone Greataxe - 1H Light #1
+103206001 Stone Greataxe - 1H Light #1 Range
+103206010 Stone Greataxe - 1H Light #2
+103206020 Stone Greataxe - 1H Light #3
+103206030 Stone Greataxe - 1H Jump
+103206040 Stone Greataxe - 1H Fall Loop
+103206050 Stone Greataxe - 1H Fall Landing
+103206100 Stone Greataxe - 1H Heavy #1
+103206101 Stone Greataxe - 1H Round
+103206105 Stone Greataxe - 1H Heavy #1 Max
+103206110 Stone Greataxe - 1H Heavy #2
+103206115 Stone Greataxe - 1H Heavy #2 Max
+103206200 Stone Greataxe - 2H Light #1
+103206210 Stone Greataxe - 2H Light #2
+103206220 Stone Greataxe - 2H Light #3
+103206230 Stone Greataxe - 2H Jump
+103206240 Stone Greataxe - 2H Fall Loop
+103206250 Stone Greataxe - 2H Fall Landing
+103206300 Stone Greataxe - 2H Heavy #1
+103206305 Stone Greataxe - 2H Heavy #1 Max
+103206310 Stone Greataxe - 2H Heavy #2
+103206315 Stone Greataxe - 2H Heavy #2 Max
+103206400 Stone Greataxe - Left Hand
+103206402 Stone Greataxe
+103206404 Stone Greataxe
+103206406 Stone Greataxe
+103206410 Stone Greataxe - 1H Kick
+103206420 Stone Greataxe - 2H Kick
+103206430 Stone Greataxe - 1H Guard
+103206440 Stone Greataxe - 2H Guard
+103206450 Stone Greataxe - Parry
+103206470 Stone Greataxe - Large Throw
+103206490 Stone Greataxe - Falling Throw
+103206500 Stone Greataxe - Backstab
+103206501 Stone Greataxe - Backstab
+103206505 Stone Greataxe - Backstab (Hornet Ring)
+103206506 Stone Greataxe - Backstab (Hornet Ring)
+103206510 Stone Greataxe - Riposte
+103206511 Stone Greataxe - Riposte
+103206515 Stone Greataxe - Riposte (Hornet Ring)
+103206516 Stone Greataxe - Riposte (Hornet Ring)
+103206517 Stone Greataxe - Riposte (Hornet Ring)
+103206520 Stone Greataxe - 1H Backstep
+103206530 Stone Greataxe - 2H Backstep
+103206540 Stone Greataxe - 1H Roll
+103206580 Stone Greataxe - 2H Roll
+103206600 Stone Greataxe - Parry
+103206610 Stone Greataxe - Backstab Transition
+103206615 Stone Greataxe - Missed Backstab Transition
+103206620 Stone Greataxe
+103206700 Stone Greataxe - Weapon Art
+103206701 Stone Greataxe - Weapon Art
+103206702 Stone Greataxe - Weapon Art
+103206710 Stone Greataxe - Weapon Art
+103206711 Stone Greataxe - Weapon Art
+103206712 Stone Greataxe - Weapon Art
+103206713 Stone Greataxe - Weapon Art
+103206800 Stone Greataxe
+103206805 Stone Greataxe
+103206806 Stone Greataxe
+103206807 Stone Greataxe
+103206808 Stone Greataxe
+103206810 Stone Greataxe
+103206815 Stone Greataxe
+103206990 Stone Greataxe - Quickstep
+103206995 Stone Greataxe - BB Dash
 103209000 Fire Yhorm's Great Machete
 103209001 Fire Yhorm's Great Machete
 103209010 Fire Yhorm's Great Machete

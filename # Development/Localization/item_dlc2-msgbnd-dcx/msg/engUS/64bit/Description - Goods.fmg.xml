@@ -3971,7 +3971,8 @@ Hurls a fireball.
 To use pyromancies, equip a pyromancy flame
 and attune a pyromancy at a bonfire.</text>
 <text id="2400010">Elementary pyromancy that is often the first learned.
-Hurls an incendiary fireball.
+Hurls a brume fireball.
+Deals 20 damage per second for 10 seconds. Stacks.
 
 To use pyromancies, equip a pyromancy flame
 and attune a pyromancy at a bonfire.</text>
@@ -4002,13 +4003,13 @@ Surrounds the caster with multiple pillars of flame.
 
 The raging storm is indiscriminate;
 such is the intrinsic horror of the flame.</text>
-<text id="2403010">Primal pyromancy taught by Quelana,
-a daughter of the Witch of Izalith.
+<text id="2403010">A Pyromancy of Nadalia, Bride of Ash.
+Spouts multiple Brume Flames.
 
-Surrounds the caster with multiple pillars of flame.
-
-The raging storm is indiscriminate;
-such is the intrinsic horror of the flame.</text>
+This Child of Dark, bearing inconceivable
+strength, found herself in a kingless land
+devoid of souls. And in journeying there, has
+all but condemned herself to a fate most wretched.</text>
 <text id="2404000">%null%</text>
 <text id="2405000">Pyromancy of Cornyx of the Great Swamp.
 Emits a constant stream of fire.
@@ -4028,7 +4029,7 @@ Pyromancy is to at once know fear and longing,
 the resultant power of which depends on
 both the caster's intelligence and faith.</text>
 <text id="2411010">Pyromancy which improves upon Combustion.
-Creates a powerful, giant indenciary flame in hand.
+Creates a powerful, giant brume flame in hand.
 
 A very powerful, yet simple spell to use.
 Causes 10 damage per second for 10 seconds. Stacks.
@@ -4240,9 +4241,7 @@ Pyromancy is at once the knowledge of controlling
 flame, and the knowledge that control is impossible.</text>
 <text id="2452010">Primal pyromancy taught by Quelana,
 daughter of the Witch of Izalith.
-Sweeps foes with an incendiary fire whip.
-
-Deals 1 damage per hit every second for 10 seconds. Stacks.
+Sweeps foes with a chaos fire whip.
 
 The caster manipulates the flames at will,
 making this an extremely difficult spell to use.
@@ -4330,7 +4329,7 @@ renowned for its difficulty.</text>
 <text id="2620010">Pyromancy of old restored by Cornyx.
 One of the Great Swamp's more advanced spells.
 
-Hurls an incendiary exploding fireball.
+Hurls a brume exploding fireball.
 Deals 2 damage per second for 10 seconds. Stacks.
 
 The amount of fireballs is increased with Intelligence.

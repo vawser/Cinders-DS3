@@ -17396,7 +17396,13 @@ Effect: increases max FP by 5%.
 
 Skill: Rapid Fire
 Swiftly nocks arrows with finesse after drawing the bow, allowing for consecutive shots.</text>
-<text id="14220000">Giant's Bow</text>
+<text id="14220000">Greatbow used by the Giant of the Undead Settlement.
+
+This bow is larger than even those used by the famed Dragonslayers.
+Only specialized great arrows can be fired from the bow.
+
+Skill: Pierce Earth
+Fire a greatarrow with a burst of strength and a prayer that violently shakes its target and explodes on impact.</text>
 <text id="14230000">Model Ballista</text>
 <text id="14400000">Large prototype firearm fashioned by Master Benjin. 
 
@@ -47227,21 +47233,92 @@ Leap backwards with a great slash and imbue the weapon with Frostfire, granting 
 
 This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
 
-Skill:</text>
-<text id="31680100">Lethal Stone Greataxe</text>
-<text id="31680200">Cursed Stone Greataxe</text>
-<text id="31680300">Poison Stone Greataxe</text>
-<text id="31680400">Blood Stone Greataxe</text>
-<text id="31680500">Frost Stone Greataxe</text>
-<text id="31680600">Magic Stone Greataxe</text>
-<text id="31680700">Fire Stone Greataxe</text>
-<text id="31680800">Lightning Stone Greataxe</text>
-<text id="31680900">Dark Stone Greataxe</text>
-<text id="31681000">Lucky Stone Greataxe</text>
-<text id="31681100">Enchanted Stone Greataxe</text>
-<text id="31681200">Holy Stone Greataxe</text>
-<text id="31681300">Sharp Stone Greataxe</text>
-<text id="31681400">Blunt Stone Greataxe</text>
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31680100">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31680200">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31680300">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31680400">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31680500">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31680600">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31680700">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31680800">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31680900">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31681000">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31681100">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31681200">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31681300">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
+<text id="31681400">Greataxe borne by the stone knights who once guarded the forest sanctuary.
+
+This greataxe, requiring inhuman strength to wield and more fitted to manual labor than battle, is nevertheless completely lethal.
+
+Skill: Quake
+Burrow axe head into the ground with a great slam, and use strong attack to upheave earth, creating a shockwave that rumbles like a mighty warcry.</text>
 <text id="31690000">Halberd of the bell gargoyles that once protected a bell above an undead church.
 Perfectly standard bronze halberd, imbued with the power of a gargoyle.
 

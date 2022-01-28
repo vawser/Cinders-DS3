@@ -487,7 +487,9 @@
 62499 ### Script - Tower Giant
 62500 [Inital Meeting] Young White Branch
 62501 [Inital Meeting] Hawk Ring
+62502 [Inital Meeting] Giant's Bow
 62510 [Killed] Hawk Ring
+62511 [Killed] Giant's Bow
 62599 ### Script - Horace the Hushed
 62600 [Inital Meeting] Blue Sentinels
 62999 ### Script - Londor Pilgrim
@@ -561,19 +563,19 @@
 80500 [Sorcery] Lingering Frigid Orbs
 80510 [Sorcery] Quickened Frozen Chaos
 80520 [Sorcery] Great Rupturing Frostfire
-81000 [Pyromancy] Incendiary Fireball
+81000 [Pyromancy] Brume Fireball
 81010 [Pyromancy] Weakening Fire Orb
 81020 [Pyromancy] Homing Chaos Fire Orb
-81030 [Pyromancy] Incendiary Bursting Fireball
+81030 [Pyromancy] Brume Bursting Fireball
 81040 [Pyromancy] Distant Profaned Flame
 81050 [Pyromancy] Chaos Vortex
 81060 [Pyromancy] Great Seething Chaos
 81070 [Pyromancy] Bloodthirsty Flame Fan
-81080 [Pyromancy] Incendiary Combustion
+81080 [Pyromancy] Brume Combustion
 81090 [Pyromancy] Bloodthirsty Fire Surge
-81100 [Pyromancy] Incendiary Fire Whip
+81100 [Pyromancy] Chaos Fire Whip
 81110 [Pyromancy] Bloodthirsty Sacred Flame
-81120 [Pyromancy] Repeating Firestorm
+81120 [Pyromancy] Outcry
 81130 [Pyromancy] Repeating Chaos Storm
 81140 [Pyromancy] Bloodthirsty Lingering Chaos
 81150 [Pyromancy] Lingering Floating Chaos
@@ -1377,6 +1379,7 @@
 3300561 [Chest] Guardian Armor
 3300562 [Chest] Guardian Gauntlets
 3300563 [Chest] Guardian Leggings
+3300564 [Chest] Stone Greataxe
 3300570 [Chest] Farron Coal
 3300580 [Chest] Fallen Knight Helm
 3300581 [Chest] Fallen Knight Armor
