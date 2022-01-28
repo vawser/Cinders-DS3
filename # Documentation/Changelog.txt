@@ -96,6 +96,7 @@ Finish following weapons:
 # Enemies
 - Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
 - The Undead Hunter Charms thrown by Hollow Soldiers now apply the same effects as the player's version.
+- Added red sparkles to Red Crystal Lizards.
 
 # Starting Classes
 - Adjusted the Guardian class.
@@ -213,7 +214,7 @@ Finish following weapons:
 - Removed the Poison self inflict from the Sanctum Mace when Bleed/Frost/Curse infused.
 - Fixed the Torch and Follower Torch being upgradeable past +10.
 - Fixed the FTH scaling of the Golden Ritual Spear not being applied to its Magic damage.
-- Changed the Sort ID of weapons, spell tools, shields and rings to fix overlapping IDs.
+- Changed the Sort ID of weapons, spell tools, shields, armors and rings to fix overlapping IDs.
 - Fixed some descriptions.
 
 #------------------------------

@@ -15,6 +15,15 @@ Physical
     20700	Steel Set
     20800	arnished Knight Set
 	
+Standard	
+	21000	Royal Swordsman Set
+	
+Slash	
+	23000	Carthus Swordsman Set
+	
+Thrust	
+	24000	Royal Soldier Set
+	
 Magic	
     25000	Dragon Acolyte Set
     25100	Dragonrider Set
@@ -89,6 +98,7 @@ Physical
 Magic
     70000	Ordained Set
     70100	Rampart Golem Set
+    70200	Throne Watcher Set
 	
 Fire
     75000	Black Iron Set
@@ -101,6 +111,7 @@ Fire
 	
 Lightning
     80000	Dragon Hunter Set
+    80100	Throne Defender Set
 	
 Dark
     85000	Cathedral Knight Set
@@ -188,7 +199,6 @@ HP restoration effectiveness
     135600	Manikin Set
     135700	Painting Guardian Set
     135800	Penetrator Set
-    135900	Royal Soldier Set
     136000	Slave Knight Set
     136100	Vengarl's Set
 
@@ -222,12 +232,12 @@ Endurance
 Strength
     160000	Brigand Set
     160100	Fang Boar Helm
-    160200	Footman Set
     160300	Frigid Valley Mask
     160400	Giant Slave Helmet
     160500	Horned Samurai Helm
     160600	Millwood Knight Set
     160700	Syan Knight Set
+    160800	Vordt's Set
 	
 Dexterity
     165000	Black Hand Set
@@ -298,6 +308,7 @@ Max Stamina
     190400	Lothric Knight Armor Set
     190500	Nameless Knight Set
     190600	Soldier's Hood
+	190650	Wanderer Set
     190700	Winged Helm of Ridoh
     190800	Wolnir’s Crown
 	
@@ -358,7 +369,6 @@ Poise Boost
     220500	Symbol of Avarice
     220600	Thrall Hood
     220700	Varangian Set
-    220800	Wanderer’s Coat
 
 ------------------------------------------------------------------
 
@@ -388,6 +398,7 @@ Roll/kick damage
     245000	Adventurer’s Set
     245100	Black Dragon Set
     245200	Crown of Illusions
+    245250	Footman Set
     245300	Great Lord Set
     245400	Iron Keeper Helm
 	245450	Ironclad Set
