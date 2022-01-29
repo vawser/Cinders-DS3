@@ -406,6 +406,14 @@ dmy:
 934000 Brume Pyromancies DoT and Casting
 934100 Brume Pyromancies DoT and Casting (Required for 934000)
 
+935000 Frostfire Volley (Projectile)
+935100 Frostfire Volley (Projectile)
+935200 Frostfire Volley (Impact)
+
+936000 Red Crystal Lizard Beam
+936100 Red Crystal Lizard Beam (Required for 936000)
+936200 Red Crystal Lizard Beam (Required for 936100)
+
 #------------------------
 # Frostfall
 #------------------------

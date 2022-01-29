@@ -563,6 +563,7 @@
 80500 [Sorcery] Lingering Frigid Orbs
 80510 [Sorcery] Quickened Frozen Chaos
 80520 [Sorcery] Great Rupturing Frostfire
+80530 [Sorcery] Great Frostfire Volley
 81000 [Pyromancy] Brume Fireball
 81010 [Pyromancy] Weakening Fire Orb
 81020 [Pyromancy] Homing Chaos Fire Orb

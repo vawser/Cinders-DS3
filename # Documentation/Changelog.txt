@@ -96,7 +96,11 @@ Finish following weapons:
 # Enemies
 - Changed the Fire damage portion of the attacks from the Frigid Attendants to Magic damage.
 - The Undead Hunter Charms thrown by Hollow Soldiers now apply the same effects as the player's version.
-- Added red sparkles to Red Crystal Lizards.
+
+- Red Crystal Lizard:
+ - Added red sparkles to them.
+ - Changed the damage of the explosion to Magic.
+ - Changed its fire breath with a Magic red beam.
 
 # Starting Classes
 - Adjusted the Guardian class.
@@ -172,6 +176,7 @@ Finish following weapons:
   - Frigid Orbs. Dropped by one of the Frigid Attendants in the Painted World of Ariandel.
   - Frozen Chaos. Dropped by one of the Frigid Attendants in the Painted World of Ariandel.
   - Rupturing Frostfire. Dropped by one of the Frigid Attendants in the Painted World of Ariandel.
+  - Frostfire Volley. Transposed from the Soul of Princess Yngvil.
  - Pyromancy: 
   - Maelstrom. Found in Irithyll of the Boreal Valley.
   - Dance of Fire. Transposed from the Soul of the Marauder.

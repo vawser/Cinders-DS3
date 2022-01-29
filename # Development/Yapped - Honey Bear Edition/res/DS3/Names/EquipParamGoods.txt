@@ -734,6 +734,8 @@
 1815010 Quickened Frozen Chaos
 1816000 Rupturing Frostfire
 1816010 Great Rupturing Frostfire
+1817000 Frostfire Volley
+1817010 Great Frostfire Volley
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400010 Brume Fireball

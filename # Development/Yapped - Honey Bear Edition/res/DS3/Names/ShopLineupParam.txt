@@ -337,6 +337,7 @@
 30392 [Ludleth - Princess Yngvil] Frostflower Ring
 30393 [Ludleth - Princess Yngvil] Ivory King Ultra Greatsword
 30394 [Ludleth - Princess Yngvil] Rime
+30395 [Ludleth - Princess Yngvil] Frostfire Volley
 30400 [Ludleth - Twisted Knight] Cursed Ring of Evasion
 30401 [Ludleth - Twisted Knight] Cursed Ring of Vengeance
 30402 [Ludleth - Twisted Knight] Cursed Ring of Deflection
@@ -3027,6 +3028,8 @@
 803398 [Gauntlet Spell] Lingering Shredding Winds
 803399 [Gauntlet Spell] Lacerating Ring
 803400 [Gauntlet Spell] Explosive Lacerating Ring
+803401 [Gauntlet Spell] Frostfire Volley
+803402 [Gauntlet Spell] Great Frostfire Volley
 804000 [Gauntlet Item] Titanite Fragment
 804001 [Gauntlet Item] Inferi Petal
 804002 [Gauntlet Item] Combustum Petal
