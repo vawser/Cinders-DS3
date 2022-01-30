@@ -2512,8 +2512,9 @@
 7570720 [Frigid Attendant] Frostfire Combustion
 7570900 [Frigid Attendant] Spawn Explosion
 7571700 [Frigid Attendant - Orb] Frostfire-ball
-7630040 [Furious Lizard] Deathly Breath
-7630060 [Furious Lizard] Death Explosion
+7630040 [Red Crystal Lizard] Beam
+7630041 [Red Crystal Lizard] Beam [Hit]
+7630060 [Red Crystal Lizard] Death Explosion
 7650080 [The Rock] Earth Split
 7650081 [The Rock] Earth Split [Hit]
 7650082 [The Rock] Earth Split [Hit]
@@ -4323,6 +4324,14 @@
 109592120 [Miracle] Explosive Lacerating Ring
 109592130 [Miracle] Explosive Lacerating Ring [Hit]
 109592140 [Miracle] Explosive Lacerating Ring [Hit]
+109593000 [Sorcery] Frostfire Volley - Search
+109593010 [Sorcery] Frostfire Volley - Search [Hit]
+109593020 [Sorcery] Frostfire Volley - Search [Hit]
+109593030 [Sorcery] Frostfire Volley [Hit]
+109593100 [Sorcery] Great Frostfire Volley - Search
+109593110 [Sorcery] Great Frostfire Volley - Search [Hit]
+109593120 [Sorcery] Great Frostfire Volley - Search [Hit]
+109593130 [Sorcery] Great Frostfire Volley [Hit]
 109999999 ### Spell Summons ###
 110000000 Conjure Skeleton
 110000100 Conjure Hollow

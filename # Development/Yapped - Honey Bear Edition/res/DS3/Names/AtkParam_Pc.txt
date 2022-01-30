@@ -5496,6 +5496,8 @@
 13747000 [Miracle] Lacerating Ring [Hit]
 13747010 [Miracle] Lacerating Ring
 13747020 [Miracle] Lacerating Ring [Hit]
+13748000 [Sorcery] Frostfire Volley
+13748100 [Sorcery] Great Frostfire Volley
 13999999 ### Weapons ###
 14000000 Blessing of Rosaria (Old)
 14000001 Blessing of Rosaria (Old)

@@ -427,6 +427,18 @@
 #---- Great Rupturing Frostfire
 - Increases Poise Damage to 100 and the explosion range.
 
+#--------------------------------
+# Frostfire Volley
+#--------------------------------
+- FP Cost: 120
+- INT Req: 60
+- Slot Use: 2
+- Magic Damage: 40 {120}
+- Frost Inflict: 20
+
+#---- Great Frostfire Volley
+- Increases damage to 50 {150} and Frost inflict to 30.
+
 #--------------------------------------------------------------------------
 # Sorceries - Effects
 #--------------------------------------------------------------------------

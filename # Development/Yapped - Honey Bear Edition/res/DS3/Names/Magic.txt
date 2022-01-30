@@ -205,6 +205,10 @@
 1816006 Rupturing Frostfire [Luck]
 1816010 Great Rupturing Frostfire
 1816016 Great Rupturing Frostfire [Luck]
+1817000 Frostfire Volley
+1817006 Frostfire Volley [Luck]
+1817010 Great Frostfire Volley
+1817016 Great Frostfire Volley [Luck]
 2399999 ### Pyromancies ###
 2400000 Fireball
 2400006 Fireball [Luck]

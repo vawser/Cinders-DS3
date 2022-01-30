@@ -6045,6 +6045,8 @@
 170000630 Frost - Frozen Chaos
 170000640 Frost - Rupturing Frostfire
 170000650 Bleed - Lacerating Ring
+170000660 Frost - Frostfire Volley
+170000670 Frost - Great Frostfire Volley
 179999999 ### Poison - Weapons ###
 180000000 Poison - Normal (Infusion)
 180000001 Poison - Quick (Infusion)
