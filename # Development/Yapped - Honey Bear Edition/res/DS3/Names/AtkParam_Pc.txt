@@ -1285,6 +1285,52 @@
 2608720 Dark Lorian's Greatsword
 2608725 Dark Lorian's Greatsword [Bullet]
 2608726 Dark Lorian's Greatsword [Bullet]
+2609000 Meat Cleaver - 1H Light #1
+2609001 Meat Cleaver - 1H Light #1 Range
+2609010 Meat Cleaver - 1H Light #2
+2609020 Meat Cleaver - 1H Light #3
+2609030 Meat Cleaver - 1H Jump
+2609040 Meat Cleaver - 1H Fall Loop
+2609050 Meat Cleaver - 1H Fall Landing
+2609100 Meat Cleaver - 1H Heavy #1
+2609105 Meat Cleaver - 1H Heavy #1 Max
+2609110 Meat Cleaver - 1H Heavy #2
+2609115 Meat Cleaver - 1H Heavy #2 Max
+2609200 Meat Cleaver - 2H Light #1
+2609210 Meat Cleaver - 2H Light #2
+2609220 Meat Cleaver - 2H Light #3
+2609230 Meat Cleaver - 2H Jump
+2609240 Meat Cleaver - 2H Fall Loop
+2609250 Meat Cleaver - 2H Fall Landing
+2609300 Meat Cleaver - 2H Heavy #1
+2609305 Meat Cleaver - 2H Heavy #1 Max
+2609310 Meat Cleaver - 2H Heavy #2
+2609315 Meat Cleaver - 2H Heavy #2 Max
+2609400 Meat Cleaver - Left Hand
+2609402 Meat Cleaver
+2609404 Meat Cleaver
+2609406 Meat Cleaver
+2609450 Meat Cleaver - Parry
+2609490 Meat Cleaver - Falling Throw
+2609500 Meat Cleaver - Backstab - Sub
+2609501 Meat Cleaver - Backstab
+2609505 Meat Cleaver - Backstab (Hornet Ring) - Sub
+2609506 Meat Cleaver - Backstab (Hornet Ring)
+2609510 Meat Cleaver - Riposte - Sub
+2609511 Meat Cleaver - Riposte
+2609515 Meat Cleaver - Riposte (Hornet Ring) - Sub
+2609516 Meat Cleaver - Riposte (Hornet Ring) - Sub
+2609517 Meat Cleaver - Riposte (Hornet Ring)
+2609520 Meat Cleaver - 1H Backstep
+2609530 Meat Cleaver - 2H Backstep
+2609600 Meat Cleaver - Parry
+2609610 Meat Cleaver - Backstab Transition
+2609615 Meat Cleaver - Missed Backstab Transition
+2609700 Meat Cleaver - Tread Weak
+2609701 Meat Cleaver - Tread Strong
+2609702 Meat Cleaver - Tread
+2609780 Meat Cleaver - Blow
+2609790 Meat Cleaver - Directed Slam
 2610000 Fume Ultra Greatsword
 2610001 Fume Ultra Greatsword
 2610005 Fume Slated Sword - 2H Light #1

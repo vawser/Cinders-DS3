@@ -1194,6 +1194,52 @@
 102608315 Dark Lorian's Greatsword - Weapon Buff Left
 102608720 Dark Lorian's Greatsword
 102608725 Dark Lorian's Greatsword
+102609000 Meat Cleaver - 1H Light #1
+102609001 Meat Cleaver - 1H Light #1 Range
+102609010 Meat Cleaver - 1H Light #2
+102609020 Meat Cleaver - 1H Light #3
+102609030 Meat Cleaver - 1H Jump
+102609040 Meat Cleaver - 1H Fall Loop
+102609050 Meat Cleaver - 1H Fall Landing
+102609100 Meat Cleaver - 1H Heavy #1
+102609105 Meat Cleaver - 1H Heavy #1 Max
+102609110 Meat Cleaver - 1H Heavy #2
+102609115 Meat Cleaver - 1H Heavy #2 Max
+102609200 Meat Cleaver - 2H Light #1
+102609210 Meat Cleaver - 2H Light #2
+102609220 Meat Cleaver - 2H Light #3
+102609230 Meat Cleaver - 2H Jump
+102609240 Meat Cleaver - 2H Fall Loop
+102609250 Meat Cleaver - 2H Fall Landing
+102609300 Meat Cleaver - 2H Heavy #1
+102609305 Meat Cleaver - 2H Heavy #1 Max
+102609310 Meat Cleaver - 2H Heavy #2
+102609315 Meat Cleaver - 2H Heavy #2 Max
+102609400 Meat Cleaver - Left Hand
+102609402 Meat Cleaver
+102609404 Meat Cleaver
+102609406 Meat Cleaver
+102609450 Meat Cleaver - Parry
+102609490 Meat Cleaver - Falling Throw
+102609500 Meat Cleaver - Backstab
+102609501 Meat Cleaver - Backstab
+102609505 Meat Cleaver - Backstab (Hornet Ring)
+102609506 Meat Cleaver - Backstab (Hornet Ring)
+102609510 Meat Cleaver - Riposte
+102609511 Meat Cleaver - Parry
+102609515 Meat Cleaver - Boosted Parry
+102609516 Meat Cleaver - Boosted Parry
+102609517 Meat Cleaver - Boosted Parry
+102609520 Meat Cleaver - 1H Backstep
+102609530 Meat Cleaver - 2H Backstep
+102609600 Meat Cleaver - Parry
+102609610 Meat Cleaver - Backstab Transition
+102609615 Meat Cleaver - Missed Backstab Transition
+102609700 Meat Cleaver - Tread Weak
+102609701 Meat Cleaver - Tread Strong
+102609702 Meat Cleaver - Tread
+102609780 Meat Cleaver - Blow
+102609790 Meat Cleaver - Directed Slam
 102610000 Fume Ultra Greatsword
 102610001 Fume Ultra Greatsword
 102610005 Fume Slated Sword - 2H Light #1
