@@ -493,6 +493,7 @@ Fire damage, which differs from physical damage, is highly effective against cre
 <text id="293">Dried fecal waste material, moist on the inside.
 
 Throw at enemy to inflict 65 Toxic against them and 55 yourself.
+Does not scale with any stat.
 
 Though the stench makes it difficult to carry on one's person, inflicting toxins on an enemy yields high damage over time. Perhaps some Undead have fond memories of waste. Or, perhaps not.</text>
 <text id="294">A skull resplendent in the scent of souls. Prepared by evangelists of the Cathedral of the Deep.
@@ -547,6 +548,7 @@ adjusting to one's circumstances.</text>
 plant stalk that was not properly digested.
 
 Throw behind at enemies to inflict 65 Toxic against them and 55 yourself.
+Does not scale with any stat.
 
 Strictly speaking, this consists of different material than the dung pie, but waste is waste, no sense in splitting hairs.</text>
 <text id="304">Tool used in duels of judgment. Nulls effects
@@ -2078,13 +2080,16 @@ Effect duration can be extended.
 A rich man lost his fortune, but it returned to him twofold. He was swift to squander his retrieved fortune, smugly confident that it was bound to double once again.</text>
 <text id="3018">Powerful bisque urn filled with dark energies. 
 
-Explodes, inflicting 200 dark damage.</text>
+Explodes, inflicting 200 dark damage.
+Scales with Luck.</text>
 <text id="3019">Powerful bisque urn filled with holy water. 
 
-Explodes, inflicting 300 physical damage and reducing all absorptions by 10% for 10 seconds.</text>
+Explodes, inflicting 300 physical damage and reducing all absorptions by 10% for 10 seconds.
+Scales with Luck.</text>
 <text id="3020">Powerful bisque urn filled with magical energies. 
 
-Explodes, inflicting 300 magic damage.</text>
+Explodes, inflicting 300 magic damage.
+Scales with Luck.</text>
 <text id="3021">A balm extracted from a rare plant.
 
 Increases strength by 10 for 300 seconds.

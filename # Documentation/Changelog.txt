@@ -65,6 +65,7 @@ Finish following weapons:
 - Changed the Fire damage portion of the attacks from Princess Yngvil to Magic damage.
 - Added a few lightning visual effects to the attacks of the Fallen Abominations and changed their damage to be split Physical + Lightning damage.
 - Adjusted some attacks of the Cathedral Guardian and the Mirror Knight.
+- Increased the damage of the Afflicted Graverobber.
 
 - High Lord Wolnir:
  - Changed the attack he used to summon his skeletons to spawn a wave of black flames.
@@ -224,6 +225,7 @@ Finish following weapons:
 - Fixed the Torch and Follower Torch being upgradeable past +10.
 - Fixed the FTH scaling of the Golden Ritual Spear not being applied to its Magic damage.
 - Fixed the INT requirement of Hail of Blades and Lingering Hail of Blades.
+- Fixed the Meat Cleaver not dealing Slash damage.
 - Changed the Sort ID of weapons, spell tools, shields, armors and rings to fix overlapping IDs.
 - Fixed some descriptions.
 
