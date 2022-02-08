@@ -202,6 +202,7 @@ Finish following weapons:
 # Treasure
 - Deacons of the Deep now drop the Small Doll.
 - The Skeleton Ball that dropped the Small Doll now drops a Titanite Slab.
+- Added back the Pot drop from Pot King Greg.
 
 # Bugfixes
 - Slicing Wind should properly work now.
