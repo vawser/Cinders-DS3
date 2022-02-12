@@ -228,6 +228,7 @@ Finish following weapons:
 - Fixed the FTH scaling of the Golden Ritual Spear not being applied to its Magic damage.
 - Fixed the INT requirement of Hail of Blades and Lingering Hail of Blades.
 - Fixed the Meat Cleaver not dealing Slash damage.
+- Fixed Wolnir gaining aux immunities after waking up.
 - Changed the Sort ID of weapons, spell tools, shields, armors and rings to fix overlapping IDs.
 - Fixed some descriptions.
 
