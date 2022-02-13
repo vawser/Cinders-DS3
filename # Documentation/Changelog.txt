@@ -170,6 +170,7 @@ Finish following weapons:
 - Increased the damage over time from Brume Fireball to 20.
 - Changed Incendiary Fire Whip to Chaos Fire Whip.
 - Changed Repeating Firestorm to Outcry.
+- Adjusted several spells to be affected or not by spell deflection.
 
 - Added new spells:
  - Sorcery:
@@ -207,6 +208,7 @@ Finish following weapons:
 
 # Bugfixes
 - Slicing Wind should properly work now.
+- Fixed the arrows from Ghostly Assault and Extended Ghostly Assault going through walls.
 - Fixed the grab of the Abyss Walker.
 - Fixed Grufudd's Signet affixing.
 - Fixed Demon Prince, Midir, Slave Knight Gael and Halflight maluses giving the wrong SpEffect.
