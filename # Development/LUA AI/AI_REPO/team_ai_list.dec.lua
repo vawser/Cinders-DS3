@@ -1,5 +1,0 @@
-TEAM_AI__009000TeamRound = 9000
-TEAM_AI__009900_TEST = 9900
-DarkBloodSlug_TeamAi = 113000
-TEAM_AI_BLUES = 121099
-return 
