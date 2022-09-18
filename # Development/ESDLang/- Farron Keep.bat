@@ -1,3 +1,0 @@
-e:
-cd "E:\Program Files (x86)\SteamLibrary\steamapps\common\DARK SOULS III\Modding\Mods\Cinders\Mod\# Development\ESDLang"
-esdtool.exe -ds3 -i t330000.py t330001.py t330002.py t330003.py t330004.py t330005.py t330006.py t330007.py t330008.py t330020.py t330170.py t330230.py t330290.py t330291.py t330295.py t330360.py t330500.py t330501.py t330502.py t330503.py t330504.py t330505.py t330506.py t330507.py t330508.py t330509.py -writebnd mymod
