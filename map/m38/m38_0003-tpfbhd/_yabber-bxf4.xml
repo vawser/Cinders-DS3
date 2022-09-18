@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bxf4>
+  <bhd>
+    <filename>m38_0003.tpfbhd</filename>
+    <timestamp>07D7R6</timestamp>
+    <format>0x74</format>
+    <unicode>True</unicode>
+    <bigendian>False</bigendian>
+    <flag1>False</flag1>
+    <flag2>False</flag2>
+    <extended>0x04</extended>
+  </bhd>
+  <bdt>
+    <filename>m38_0003.tpfbdt</filename>
+    <timestamp>07D7R6</timestamp>
+    <bigendian>False</bigendian>
+    <flag1>False</flag1>
+    <flag2>False</flag2>
+    <unk1>0x0000000000000030</unk1>
+  </bdt>
+  <files>
+    <file>
+      <flags>0x40</flags>
+      <id>1</id>
+      <root />
+      <path>m33_00_Base_60_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>2</id>
+      <root />
+      <path>m33_00_Base_60_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>3</id>
+      <root />
+      <path>m33_00_base_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>4</id>
+      <root />
+      <path>m33_00_base_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>5</id>
+      <root />
+      <path>m33_00_base_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>6</id>
+      <root />
+      <path>m33_00_base_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>7</id>
+      <root />
+      <path>m33_00_base_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>8</id>
+      <root />
+      <path>m33_00_base_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>9</id>
+      <root />
+      <path>m33_00_o331303_wallsection_01_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>10</id>
+      <root />
+      <path>m33_00_o331303_wallsection_01_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>11</id>
+      <root />
+      <path>m33_00_o331303_wallsection_01_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>12</id>
+      <root />
+      <path>m33_00_o331303_wallsection_01_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>13</id>
+      <root />
+      <path>m33_00_o331303_wallsection_01_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>14</id>
+      <root />
+      <path>m33_00_o331303_wallsection_01_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>15</id>
+      <root />
+      <path>m33_00_o331303_wall_mask_01.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>16</id>
+      <root />
+      <path>m33_00_o331303_wall_mask_01_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>17</id>
+      <root />
+      <path>m33_00_o331305_edge_01_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>18</id>
+      <root />
+      <path>m33_00_o331305_edge_01_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>19</id>
+      <root />
+      <path>m33_00_o331305_edge_01_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>20</id>
+      <root />
+      <path>m33_00_o331305_edge_01_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>21</id>
+      <root />
+      <path>m33_00_o331305_edge_01_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>22</id>
+      <root />
+      <path>m33_00_o331305_edge_01_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>23</id>
+      <root />
+      <path>m33_00_o331306_edge_01_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>24</id>
+      <root />
+      <path>m33_00_o331306_edge_01_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>25</id>
+      <root />
+      <path>m33_00_o331306_edge_01_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>26</id>
+      <root />
+      <path>m33_00_o331306_edge_01_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>27</id>
+      <root />
+      <path>m33_00_o331306_edge_01_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28</id>
+      <root />
+      <path>m33_00_o331306_edge_01_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>29</id>
+      <root />
+      <path>m33_00_o331306_floor_01_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>30</id>
+      <root />
+      <path>m33_00_o331306_floor_01_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>31</id>
+      <root />
+      <path>m33_00_o331306_floor_01_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>32</id>
+      <root />
+      <path>m33_00_o331306_floor_01_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>33</id>
+      <root />
+      <path>m33_00_o331306_floor_01_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>34</id>
+      <root />
+      <path>m33_00_o331306_floor_01_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>35</id>
+      <root />
+      <path>m33_00_o331306_floor_02_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>36</id>
+      <root />
+      <path>m33_00_o331306_floor_02_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>37</id>
+      <root />
+      <path>m33_00_o331306_wall_01_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>38</id>
+      <root />
+      <path>m33_00_o331306_wall_01_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>39</id>
+      <root />
+      <path>m33_00_o331306_wall_01_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>40</id>
+      <root />
+      <path>m33_00_o331306_wall_01_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>41</id>
+      <root />
+      <path>m33_00_o331306_wall_01_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>42</id>
+      <root />
+      <path>m33_00_o331306_wall_01_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>43</id>
+      <root />
+      <path>m33_00_o331306_wall_02_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>44</id>
+      <root />
+      <path>m33_00_o331306_wall_02_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>45</id>
+      <root />
+      <path>m33_00_o331306_wall_02_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>46</id>
+      <root />
+      <path>m33_00_o331306_wall_02_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>47</id>
+      <root />
+      <path>m33_00_o331306_wall_02_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>48</id>
+      <root />
+      <path>m33_00_o331306_wall_02_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>49</id>
+      <root />
+      <path>m33_00_o331309_edge_01_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>50</id>
+      <root />
+      <path>m33_00_o331309_edge_01_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>51</id>
+      <root />
+      <path>m33_00_o331309_edge_01_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>52</id>
+      <root />
+      <path>m33_00_o331309_edge_01_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>53</id>
+      <root />
+      <path>m33_00_o331309_edge_01_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>54</id>
+      <root />
+      <path>m33_00_o331309_edge_01_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>55</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_01_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>56</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_01_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>57</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_01_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>58</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_01_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>59</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_01_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>60</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_01_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>61</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_02_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>62</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_02_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>63</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_02_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>64</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_02_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>65</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_02_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>66</id>
+      <root />
+      <path>m33_00_o331320_ruinsplant_02_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>67</id>
+      <root />
+      <path>m33_00_o9027_body_01_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>68</id>
+      <root />
+      <path>m33_00_o9027_body_01_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>69</id>
+      <root />
+      <path>m33_00_o9027_body_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>70</id>
+      <root />
+      <path>m33_00_o9027_body_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>71</id>
+      <root />
+      <path>m33_00_o9027_body_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>72</id>
+      <root />
+      <path>m33_00_o9027_body_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>73</id>
+      <root />
+      <path>m33_00_o9027_body_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>74</id>
+      <root />
+      <path>m33_00_o9027_body_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>75</id>
+      <root />
+      <path>m33_00_plant_02_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>76</id>
+      <root />
+      <path>m33_00_plant_02_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>77</id>
+      <root />
+      <path>m33_00_plant_02_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>78</id>
+      <root />
+      <path>m33_00_plant_02_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>79</id>
+      <root />
+      <path>m33_00_plant_02_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>80</id>
+      <root />
+      <path>m33_00_plant_02_r_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>81</id>
+      <root />
+      <path>m33_00_spawn_00_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>82</id>
+      <root />
+      <path>m33_00_spawn_00_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>83</id>
+      <root />
+      <path>m33_00_spawn_00_m.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>84</id>
+      <root />
+      <path>m33_00_spawn_00_m_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>85</id>
+      <root />
+      <path>m33_00_spawn_00_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>86</id>
+      <root />
+      <path>m33_00_spawn_00_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>87</id>
+      <root />
+      <path>m33_leaf_000_a.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>88</id>
+      <root />
+      <path>m33_leaf_000_a_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>89</id>
+      <root />
+      <path>m33_leaf_000_n.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>90</id>
+      <root />
+      <path>m33_leaf_000_n_l.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>91</id>
+      <root />
+      <path>m33_leaf_000_r.tpf.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>92</id>
+      <root />
+      <path>m33_leaf_000_r_l.tpf.dcx</path>
+    </file>
+  </files>
+</bxf4>
