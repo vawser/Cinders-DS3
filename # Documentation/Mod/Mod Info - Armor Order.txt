@@ -1,0 +1,408 @@
+Armor Sets/Pieces Sort ID by Effects
+
+------------------------------------------------------------------
+
+- Damage Boost
+	
+Physical	
+    20000	Carthus Blindfold
+    20100	Chester's Set
+    20200	Giant-horned Helmet
+    20300	Lord's Blade Set
+    20400	Mad Warrior Set
+    20500	Magician Set
+    20600	Mask of War
+    20700	Steel Set
+    20800	arnished Knight Set
+	
+Standard	
+	21000	Royal Swordsman Set
+	
+Slash	
+	23000	Carthus Swordsman Set
+	
+Thrust	
+	24000	Royal Soldier Set
+	
+Magic	
+    25000	Dragon Acolyte Set
+    25100	Dragonrider Set
+    25200	Mask of Serenity
+    25300	Pontiff Knight Set
+    25400	Scholar Set
+    25500	Serpentine Set
+    25600	Sunless Set
+	
+Fire
+    30000	Cornyx's Set
+    30100	Desert Pyromancer Set
+    30200	Fire Witch Set
+    30300	Lorian's Set
+    30400	Mask of Cruelty
+    30500	Raime's Set
+    30600	Smelter Demon Set
+	
+Lightning
+    35000	Dragonslayer Set
+    35100	Mirror Knight Set
+    35200	Nameless King Set
+    35250	Okami Set
+    35300	Silver Knight Set
+    35400	Vagabond Cowl
+	
+Dark
+    40000	Archdeacon Set
+    40100	Black Witch Set
+    40200	Skull Mask
+    40300	Dark Set
+    40350	Fallen Prince's Set
+    40400	Forlorn Set
+    40500	Harald Legion Set
+    40600	Iron Dragonslayer Set
+    40700	Mask of Horror
+    40800	Vilhelm's Set
+
+------------------------------------------------------------------
+
+- Enemy Type Bonus Damage
+	
+Hollow
+    45000	Binded Set
+    45100	Pale Shade Set
+    45200	Pursuer's Set
+	
+Undead
+    50000	Gravekeeper Set
+    50100	Hallowed Knight Set
+	
+Demon
+    55000	Black Knight Set
+    55100	Fallen Knight Set
+    55200	Ivory King Set
+	
+Abyssal
+    60000	Quicksilver Set
+    60100	Ringed Knight Set
+
+------------------------------------------------------------------
+
+- Defense Boost
+	
+Physical
+    65000	Gallant Set
+    65100	Golem Set
+    65200	Havel's Set
+    65300	Imperious Set
+    65400	Stone Knight Set
+	
+Magic
+    70000	Ordained Set
+    70100	Rampart Golem Set
+    70200	Throne Watcher Set
+	
+Fire
+    75000	Black Iron Set
+    75100	Bone Ash Set
+    75200	Brushwood Set
+    75300	Gargoyle Helm
+    75400	Gargoyle Set
+    75500	Gold-Hemmed Black Set
+    75600	Pyromancer Set
+	
+Lightning
+    80000	Dragon Hunter Set
+    80100	Throne Defender Set
+	
+Dark
+    85000	Cathedral Knight Set
+    85100	Crimson Set
+    85200	Deacon Set
+    85300	Undead Legion Set
+
+------------------------------------------------------------------
+
+- Resistance Boost
+	
+Poison/Toxic
+    90000	Grotto Set
+    90100	Poisonhorn Cap
+	
+Bleed
+    95000	Burial Knight Set
+    95100	Corvian Knight Set
+	
+Frost
+    100000	Loyce Set
+    100100	Northern Set
+	
+Curse
+    105000	Ancient King's Set
+    105100	Basilisk Cap
+    105200	Grave Warden Set
+    105300	Pygmy Crown
+
+------------------------------------------------------------------
+
+- HP Recovery
+	
+HP on kill
+    115000	Black Set
+    115100	Bloodstained Gauntlets
+    115200	Crab Helmet
+    115300	Gold Ardeo
+    115400	Smough's Set
+    115500	Vileblood Set
+	
+HP restoration effectiveness
+    119000	Armor of the Sun Set
+    120000	Crown of Filianore
+    120100	Dull Gold Set
+    120200	Maiden Set
+    120300	Prayer Set
+    120400	Pot
+    120500	Rosaria’s Dress
+    120600	Winged Knight Set
+
+------------------------------------------------------------------
+
+- Stamina Damage
+	
+    125000	Alva Set
+    125400	Eastern General Set
+    125700	Follower Set
+    125800	Overseer’s Mask
+    129000	Sunset Set
+
+------------------------------------------------------------------
+
+- Stamina Recovery
+	
+    130000	Assassin Set
+    130100	Black Leather Set
+    130200	Heide Knight Mask
+    130300	Heide Knight Set
+    130400	Mask of the Child
+    130500	Mirrah Set
+    130600	Warden Set
+    130700	Wolf Knight Set
+
+------------------------------------------------------------------
+
+- Stamina Consumption
+	
+    135000	Eastern Armor Set
+    135100	Faraam Armor Set
+    135200	Fluted Set
+    135300	Gundyr Set
+    135400	Leonhard's Set
+    135500	Crude Manikin Mask
+    135600	Manikin Set
+    135700	Painting Guardian Set
+    135800	Penetrator Set
+    136000	Slave Knight Set
+    136100	Vengarl's Set
+
+------------------------------------------------------------------
+
+- FP Consumption
+	
+WA cost reduction
+    145000	Alonne Captain Set
+    145100	Drakeblood Set
+    145200	Drang Set
+    145300	Elite Knight Set
+    145400	Mirrah Chain Set
+
+------------------------------------------------------------------
+
+- Primary Attribute Boost
+	
+Attunement
+    150000	Priestly Cap
+	
+Endurance
+    155000	Chain Armor Set
+    155100	Charred Loyce Set
+    155200	Exile Armor Set
+    155300	Hard Leather Set
+    155400	Knight Set
+    155500	Ornate Samurai Helm
+    155600	Worker Set
+	
+Strength
+    160000	Brigand Set
+    160100	Fang Boar Helm
+    160300	Frigid Valley Mask
+    160400	Giant Slave Helmet
+    160500	Horned Samurai Helm
+    160600	Millwood Knight Set
+    160700	Syan Knight Set
+    160800	Vordt's Set
+	
+Dexterity
+    165000	Black Hand Set
+    165100	Black Metal Hat
+    165200	Dancer Set
+    165300	Eastern Commander Set
+    165351	Eastern Wolf Set
+    165400	Master's Set
+    165500	Outrider Knight Armor Set
+    165600	Sellsword Set
+    165700	Tan Straw Hat
+	
+Intelligence
+    170000	Channeler Set
+    170100	Raggedy Set
+	
+Faith	
+    175000	Evangelist Set
+    175100	Martyr Set
+    175200	Morne's Set
+    175300	Thorolund Set
+
+------------------------------------------------------------------
+
+- Secondary Attribute Boost
+	
+Max HP
+    180000	Artificial Helmet
+    180100	Cleric Set
+    180200	Crown of the Holy King
+    180300	Giant Set
+    180400	Guardian Knight Set
+    180500	Ludleth’s Crown
+    180600	Mask of the Mother
+    180700	Mirdan Set
+    180800	Paladin Set
+    180900	Ruin Set
+    181000	Saint Set
+    181100	Yhorm's Set
+	
+Max FP
+    185000	Antiquated Plain Set
+    185100	Antiquated Set
+    185200	Astrologist Set
+    185300	Brass Set
+    185400	Conjurator Set
+    185500	Executioner Set
+    185600	Gloom Set
+    185700	Iron Cage
+    185800	Karla's Set
+    185850	Pontiff's Set
+    185900	Old Sorcerer Set
+    186000	Raven Mask
+    186100	Sage’s Big Hat
+    186200	Snail Shell
+    186300	Sorcerer Set
+    186400	Velka's Set
+    186500	Venerable Sage's Set
+    186600	White Preacher Head
+    186700	Xanthous Set
+	
+Max Stamina
+    190000	Alonne's Set
+    190100	Deserter Helm
+    190200	Deserter Set
+    190300	Herald Set
+    190350	Imported Set
+    190400	Lothric Knight Armor Set
+    190500	Nameless Knight Set
+    190600	Soldier's Hood
+	190650	Wanderer Set
+    190700	Winged Helm of Ridoh
+    190800	Wolnir’s Crown
+	
+Max HP, FP and Stamina
+    195000	Armor of Favor Set
+    195100	Bear Set
+    195200	Firelink Set
+	
+Equipment Load
+    200000	Aurous Set
+    200100	Mask of the Father
+    200200	Sentinel Set
+	
+Poise Boost
+    201000	Stalwart Knight Set
+
+------------------------------------------------------------------
+
+- Cast Speed
+	
+    205000	Attendant Set
+    205100	Court Sorcerer Set
+    205200	Demon Cleric Mask
+    205300	Hexer Set
+    205400	Old Demon King’s Crown
+
+------------------------------------------------------------------
+
+- Effect Duration
+	
+    210000	Black Witch Veil
+    210100	Moonlight Set
+    210200	Shira's Set
+
+------------------------------------------------------------------
+
+- Soul Gain
+	
+    215000	Barrel
+    215100	Blindfold Mask
+    215200	Charlatan Set
+    215300	Courtier Set
+    215400	Fire Keeper Set
+    215500	Hollow Head
+    215600	King's Set
+    215700	Lapp's Set
+    215800	Mask of Sin
+
+------------------------------------------------------------------
+
+- Item Discovery
+	
+    220000	Bucket
+    220100	Jailer Set
+    220200	Sack
+    220300	Salvador’s Hat
+    220400	Suspicious Gold Mask
+    220500	Symbol of Avarice
+    220600	Thrall Hood
+    220700	Varangian Set
+
+------------------------------------------------------------------
+
+- Extra Range / Falloff Damage
+	
+    225000	Gough's Set
+    225100	Huntsman Set
+    225200	Leather Set
+
+------------------------------------------------------------------
+
+- Other Effects
+	
+Attack Deflection
+    230000	Catarina Set
+	
+Silence
+    235000	Clandestine Coat
+	
+Roll/kick damage
+    240000	Armor of Thorns
+
+------------------------------------------------------------------
+
+- Armor/Sets with multiple effects
+	
+    245000	Adventurer’s Set
+    245100	Black Dragon Set
+    245200	Crown of Illusions
+    245250	Footman Set
+    245300	Great Lord Set
+    245400	Iron Keeper Helm
+	245450	Ironclad Set
+    245500	Jester's Set
+    245600	Pickpocket Set
+    245650	Sanctum Knight Set
+    245700	Shadow Set

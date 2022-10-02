@@ -1,0 +1,79 @@
+﻿#------------------------------
+# Item ID ranges
+#------------------------------
+# Proper
+# Map - Enemies: xxx0000
+# Map - Players: xxx0900
+# Map - Object: xxx1000
+# Map - MSBRegions: xxx2000
+# Map - MSBEvents: xxA10000
+# Map - Collision: xxx4000
+# Map - Chest ObjAct: xxx4300
+
+# These need to be used for new treasures in each area
+53002112 High Wall of Lothric / Consumed King's Garden
+53012092 Lothric Castle
+53102097 Undead Settlement
+53202081 Archdragon Peak
+53302185 Road of Sacrifices / Farron Keep
+53412137 Grand Archives
+53502087 Cathedral of the Deep
+53702160 Irithyll of the Boreal Valley / Anor Londo
+53802181 Catacombs of Carthus / Smouldering Lake
+53902125 Irithyll Dungeon / Profaned Capital
+54002200 Cemetery of Ash / Unturned Graves
+54102014 Kiln of the First Flame
+54502091 Painted World of Ariandel
+55002071 Dreg Heap
+55102068 The Ringed City
+
+#------------------------------
+# Weapons
+#------------------------------
+Finish following weapons:
+ - ID
+ - Behavior/Resident SpEffects
+ - Reinforcement/Material Set
+ - Infusion Flags
+ - Correction Types (Fire/Dark)
+ - Attack Element Correct ID
+ - Scaling/Damage
+    
+31550000 Malformed Skull                 - Great Club
+    Dragon Roar WA
+    
+31610000 Roaring Halberd                 - Halberd
+    Dark Roar WA
+        
+31630000 Spider's Silk                   - Rapier
+    Guard bypass
+    
+31470000 Dragonrider Twinblade           - Splitleaf Greatsword
+31530000 Giant Warrior Club              - Great Club 
+31650000 Syan's Halberd                  - Halberd
+31660000 Warped Sword                    - Falchion
+
+# Lost Cat
+- Shield Catalyst - Vessel Shield (Pyromancies)
+- Finish Kirkhammer/Sunlight GS/Serpentine Chain-axe.
+
+#------------------------------
+# Changelog
+#------------------------------
+- Adjusted FP regeneration:
+ - Base interval is now 1 seconds (2 with Malus)
+ - Base Gain is 2
+ - Enchanted is 2
+ - Clarity is 2
+ - Pulsating is 2
+ - Darkmoon Ring is 1/2/3/4/5/6
+ - Focusing Ring is 3/4/5/6/7/8, but it applies a -50% absorption debuff too.
+ - Darkmoon Faithful is 1/2/3/4/5
+ - Attunment Mastery is 3
+
+- Adjusted spell/item FP costs to account for the FP change.
+
+#------------------------------
+# TODO
+#------------------------------
+Nomad's Journey

@@ -17915,6 +17915,7 @@ function UpdateFP()
     local skip_base = false
     local cooldown = false
     
+    -- Base Cooldown
     if env(1116, 113000) == TRUE or env(1116, 113070) == TRUE then
         cooldown = true
     end
@@ -17930,6 +17931,7 @@ function UpdateFP()
         end
         
         if skip == false then
+            -- Malus: Base Cooldown Increase
             if env(1116, 112622) == TRUE then
                 act(2002, 113070) -- Base Interval
             else

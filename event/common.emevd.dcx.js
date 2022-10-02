@@ -1,9 +1,10 @@
 // ==EMEVD==
 // @docs    ds3-common.emedf.json
-// @compress    DarkSouls3
+// @compress    DCX_DFLT_10000_44_9
 // @game    DarkSouls3
 // @string    
 // @linked    []
+// @version    3.3.2
 // ==/EMEVD==
 
 //----------------------------------------------
