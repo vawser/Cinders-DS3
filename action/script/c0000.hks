@@ -1434,51 +1434,131 @@ function ExecGuard(event, blend_type)
             if IsSidearm() == TRUE and style ~= HAND_RIGHT_BOTH then
                 l1 = "W_AttackLeftLight1"
                 
+                local weapon_jam_roll               = math.random(0, 100)
+                local cannon_jam_chance             = 0
+                local church_cannon_jam_chance      = 0
+                local hunter_pistol_jam_chance      = 5
+                local repeating_pistol_jam_chance   = 10
+                local evelynn_jam_chance            = 5
+                local blunderbuss_jam_chance        = 20
+                local rosamarinus_jam_chance        = 25
+                
+                -- Weapon Jam Roll Adjustment
+                if env(1116, 112630) == TRUE then
+                    weapon_jam_roll = weapon_jam_roll - 5
+                    
+                    -- Additional penalty to Blunderbuss
+                    if IsBlunderbuss() == TRUE then
+                        weapon_jam_roll = weapon_jam_roll - 2
+                    end
+                elseif env(1116, 112631) == TRUE then
+                    weapon_jam_roll = weapon_jam_roll - 5
+                    
+                    -- Additional penalty to Blunderbuss
+                    if IsBlunderbuss() == TRUE then
+                        weapon_jam_roll = weapon_jam_roll - 2
+                    end
+                elseif env(1116, 112632) == TRUE then
+                    weapon_jam_roll = weapon_jam_roll - 5
+                    
+                    -- Additional penalty to Blunderbuss
+                    if IsBlunderbuss() == TRUE then
+                        weapon_jam_roll = weapon_jam_roll - 2
+                    end
+                elseif env(1116, 112633) == TRUE then
+                    weapon_jam_roll = weapon_jam_roll - 5
+                    
+                    -- Additional penalty to Blunderbuss
+                    if IsBlunderbuss() == TRUE then
+                        weapon_jam_roll = weapon_jam_roll - 2
+                    end
+                elseif env(1116, 112634) == TRUE then
+                    weapon_jam_roll = weapon_jam_roll - 5
+                    
+                    -- Additional penalty to Blunderbuss
+                    if IsBlunderbuss() == TRUE then
+                        weapon_jam_roll = weapon_jam_roll - 2
+                    end
+                end
+                
+                -- Weapon Jam Chance Growth
+                if env(1116, 112630) == FALSE then
+                    act(2002, 112630)
+                elseif env(1116, 112631) == FALSE then
+                    act(2002, 112631)
+                elseif env(1116, 112632) == FALSE then
+                    act(2002, 112632)
+                elseif env(1116, 112633) == FALSE then
+                    act(2002, 112633)
+                elseif env(1116, 112634) == FALSE then
+                    act(2002, 112634)
+                end
+                
+                -- Weapon Jam Grace
+                if env(1116, 112635) == TRUE then
+                    weapon_jam_roll = 100 -- Prevent jamming during grace period
+                end
+                
+                -- Recent Use
+                -- If this is the first shot in 30 seconds, don't allow it to jam
+                if env(1116, 112636) == FALSE then
+                    act(2002, 112636)
+                    weapon_jam_roll = 100 -- Prevent jamming during grace period
+                end
+                
                 -- Bone Marrow Ash
                 if env(1116, 112440) == TRUE then
                     act(2002, 112441)
+                    weapon_jam_roll = 100 -- Prevent jamming on the Bone Marrow Ash shots
                 end
 
                 -- Per Sidearm Effects
                 if IsCannon() == TRUE then
-                    if 80 > env(1001) then
+                    if 80 > env(1001) or weapon_jam_roll < cannon_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
+                        act(2002, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsChurchCannon() == TRUE then
-                    if 80 > env(1001) then
+                    if 80 > env(1001) or weapon_jam_roll < church_cannon_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
+                        act(2002, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsHunterPistol() == TRUE then
-                    if 30 > env(1001) then
+                    if 30 > env(1001) or weapon_jam_roll < hunter_pistol_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
+                        act(2002, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsRepeatingPistol() == TRUE then
-                    if 35 > env(1001) then
+                    if 35 > env(1001) or weapon_jam_roll < repeating_pistol_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
+                        act(2002, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsEvelynn() == TRUE then
-                    if 40 > env(1001) then
+                    if 40 > env(1001) or weapon_jam_roll < evelynn_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
+                        act(2002, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsBlunderbuss() == TRUE then
-                    if 50 > env(1001) then
+                    if 50 > env(1001) or weapon_jam_roll < blunderbuss_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
+                        act(2002, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsRosamarinus() == TRUE then
-                    if 15 > env(1001) then
+                    if 15 > env(1001) or weapon_jam_roll < rosamarinus_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
+                        act(2002, 112635) -- Grace period after a jam
                     end
                 end
                 
@@ -1493,7 +1573,7 @@ function ExecGuard(event, blend_type)
                     l1 = "W_AttackLeftLight1"
                     
                     -- Boost AI damage with sidearms
-                    act(2002, 112450)
+                    -- act(2002, 112450)
                 end
                 
                 -- FP Pause

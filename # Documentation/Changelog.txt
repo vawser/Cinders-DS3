@@ -74,6 +74,29 @@ Finish following weapons:
 - Adjusted spell/item FP costs to account for the FP change.
 - Curses no longer grant additional soul absorption.
 
+- Hunter's Pistol is now purely a parrying tool. It no longer emits a bullet, and thus will more reliably causes parries. But it no longer deals any damage.
+ - Adjusted the force parry window to make the pistol easier to parry with.
+- Removed the parry frames from the other sidearms.
+- Boosted the base damage of the other pistol sidearms, as they are now intended for damage.
+- Reduced the stamina cost of the pistol/spray sidearms.
+- Reduced the cancel window for the 'cannot fire' animations for the pistols.
+
+- Added weapon jam mechanic to the pistol/spray sidearms:
+ - There is now a base chance to play the 'cannot fire' animation each time the pistol is used.
+  - Hunter's Pistol: 5%
+  - Repeating Pistol: 10%
+  - Evelynn: 5%
+  - Blunderbuss: 20%
+  - Rosamarinus: 10%
+ - Rapid attacks will boost the jam chance, stacking up to 5 times. Each stack decays after 5 seconds.
+  - Shot 1: +5%
+  - Shot 2: +5%
+  - Shot 3: +5%
+  - Shot 4: +5%
+  - Shot 5: +5%
+ - After a jam, there is a grace period of 4 seconds where you cannot get another jam.
+ - The first shot (if you have not shot for 30 seconds or more) will never jam.
+ 
 #------------------------------
 # TODO
 #------------------------------
