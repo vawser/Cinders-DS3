@@ -72,6 +72,7 @@ Finish following weapons:
  - Attunment Mastery is 3
 
 - Adjusted spell/item FP costs to account for the FP change.
+- Curses no longer grant additional soul absorption.
 
 #------------------------------
 # TODO
