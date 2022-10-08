@@ -5122,6 +5122,8 @@ function ExecDamage(is_parry, is_attackwhileguard)
             return FALSE
         end
     end
+    
+    
     if env(334, 5) == TRUE then -- GetBehaviorID
         Replanning()
         local blend_type, lower_state = GetHalfBlendInfo()
@@ -5146,59 +5148,286 @@ function ExecDamage(is_parry, is_attackwhileguard)
         end
     end
     
-    -- Fake Poise System --
-    if env(1007) == TRUE then -- IsCOMPlayer
-        if is_damaged == TRUE and damage_level ~= DAMAGE_LEVEL_NONE then -- Is hit by attack that isn't set to Damage Level 0
-            -- Skip if already in stagger state
-            if env(1116, 112300) == FALSE then 
-                -- No Stagger Threshold
-                if env(1116, 112351) == FALSE and env(1116, 112352) == FALSE and env(1116, 112353) == FALSE then
-                    act(2002, 112300) -- Easy stagger
+    ------------------------------------
+    -- Stagger System
+    ------------------------------------
+    -- This system works by applying 'stacks' for each enemy hit.
+    -- If there is space for a stack, the hit is returned as false and no stagger occurs. A stack is then added.
+    -- If there is no space for a stack, stagger occurs.
+    -- The duration of each stack varies, lowering for the 'higher' stacks. This creates an ebb and flow to stagger resistance.
+    
+    -- There are 5 stack groups:
+    --  Armor
+    --  Wolf Ring
+    --  Item Boost
+    --  Spell Boost
+    --  Weapon Boost
+    -- Within there group, additional sources do not stack, but each group will work with each other, e.g. You get 5 layers of protection if you have all 5 active.
+    
+    -- Stagger Resist: Wolf Ring
+    if HasWolfRing() == TRUE then
+        -- Wolf Ring+5
+        if env(1116, 112814) == TRUE then
+            -- Stack 2
+            if env(1116, 112674) == FALSE then
+                act(2002, 112674)
+                
+                return FALSE
+            end
+        end
+        -- Wolf Ring+4
+        if env(1116, 112813) == TRUE then
+            -- Stack 2
+            if env(1116, 112673) == FALSE then
+                act(2002, 112673)
+            
+                -- For a powerful attack, apply 2 stacks per hit
+                if IsPowerfulHit(damage_level) then
+                    act(2002, 112674)
                 end
                 
-                -- Stagger Threshold: 1
-                if env(1116, 112351) == TRUE then
-                    if env(1116, 112301) == FALSE then
-                        act(2002, 112301) -- Hit 1
-                    elseif env(1116, 112301) == TRUE then
-                        act(2002, 112300) -- Easy stagger
-                    end
+                return FALSE
+            end
+        end
+        -- Wolf Ring+3
+        if env(1116, 112812) == TRUE then
+            -- Stack 2
+            if env(1116, 112672) == FALSE then
+                act(2002, 112672)
+            
+                -- For a powerful attack, apply 2 stacks per hit
+                if IsPowerfulHit(damage_level) then
+                    act(2002, 112673)
                 end
                 
-                -- Stagger Threshold: 2
-                if env(1116, 112352) == TRUE then
-                    if env(1116, 112301) == FALSE then
-                        act(2002, 112301) -- Hit 1
-                    elseif env(1116, 112301) == TRUE and env(1116, 112302) == FALSE then
-                        act(2002, 112302) -- Hit 2
-                    elseif env(1116, 112302) == TRUE then
-                        act(2002, 112300) -- Easy stagger
-                    end
+                return FALSE
+            end
+        end
+        -- Wolf Ring+1
+        if env(1116, 112811) == TRUE then
+            -- Stack 2
+            if env(1116, 112671) == FALSE then
+                act(2002, 112671)
+            
+                -- For a powerful attack, apply 2 stacks per hit
+                if IsPowerfulHit(damage_level) then
+                    act(2002, 112672)
                 end
                 
-                -- Stagger Threshold: 3
-                if env(1116, 112353) == TRUE then
-                    if env(1116, 112301) == FALSE then
-                        act(2002, 112301) -- Hit 1
-                    elseif env(1116, 112301) == TRUE and env(1116, 112302) == FALSE then
-                        act(2002, 112302) -- Hit 2
-                    elseif env(1116, 112302) == TRUE and env(1116, 112303) == FALSE then
-                        act(2002, 112303) -- Hit 3
-                    elseif env(1116, 112303) == TRUE then
-                        act(2002, 112300) -- Easy stagger
-                    end
+                return FALSE
+            end
+        end
+        -- Wolf Ring
+        if env(1116, 112810) == TRUE then
+            -- Stack 1
+            if env(1116, 112670) == FALSE then
+                act(2002, 112670)
+            
+                -- For a powerful attack, apply 2 stacks per hit
+                if IsPowerfulHit(damage_level) then
+                    act(2002, 112671)
                 end
+                
+                return FALSE
             end
         end
     end
     
-    -- Damage Level Shift: Light Armor
-    if env(1116, 112300) == TRUE then 
-        if damage_level == DAMAGE_LEVEL_NONE then
-            damage_level = DAMAGE_LEVEL_MIDDLE
+    -- Stagger Resist: Weapon Boost
+    if HasStaggerResistBoost_Weapon() == TRUE then
+        -- Stack 1
+        if env(1116, 112690) == FALSE then
+            act(2002, 112690)
+        
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112691)
+            end
+            
+            return FALSE
+        -- Stack 2
+        elseif env(1116, 112691) == FALSE then
+            act(2002, 112691)
+        
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112692)
+            end
+            
+            return FALSE
+        -- Stack 3
+        elseif env(1116, 112692) == FALSE then
+            act(2002, 112692)
+            
+            return FALSE
         end
     end
-
+    
+    -- Stagger Resist: Spell Boost
+    if HasStaggerResistBoost_Spell() == TRUE then
+        -- Stack 1
+        if env(1116, 112685) == FALSE then
+            act(2002, 112685)
+        
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112686)
+            end
+            
+            return FALSE
+        -- Stack 2
+        elseif env(1116, 112686) == FALSE then
+            act(2002, 112686)
+        
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112687)
+            end
+            
+            return FALSE
+        -- Stack 3
+        elseif env(1116, 112687) == FALSE then
+            act(2002, 112687)
+            
+            return FALSE
+        end
+    end
+    
+    -- Stagger Resist: Item Boost
+    if HasStaggerResistBoost_Item() == TRUE then
+        -- Stack 1
+        if env(1116, 112680) == FALSE then
+            act(2002, 112680)
+        
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112681)
+            end
+            
+            return FALSE
+        -- Stack 2
+        elseif env(1116, 112681) == FALSE then
+            act(2002, 112681)
+        
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112682)
+            end
+            
+            return FALSE
+        -- Stack 3
+        elseif env(1116, 112682) == FALSE then
+            act(2002, 112682)
+            
+            return FALSE
+        end
+    end
+    
+    -- Stagger Resist: Armor - High
+    if env(1116, 112650) == TRUE then
+        -- Stagger Block
+        -- 5 levels for High resist
+        if env(1116, 112660) == FALSE then
+            act(2002, 112660)
+            
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112661)
+            end
+            
+            return FALSE
+        elseif env(1116, 112661) == FALSE then
+            act(2002, 112661)
+            
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112662)
+            end
+            
+            return FALSE
+        elseif env(1116, 112662) == FALSE then
+            act(2002, 112662)
+            
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112663)
+            end
+            
+            return FALSE
+        elseif env(1116, 112663) == FALSE then
+            act(2002, 112663)
+            
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112664)
+            end
+            
+            return FALSE
+        elseif env(1116, 112664) == FALSE then
+            act(2002, 112664)
+            
+            return FALSE
+        end
+    end
+    
+    -- Stagger Resist: Armor - Medium
+    if env(1116, 112651) == TRUE then
+        -- Stagger Block
+        -- 3 levels for Medium resist
+        if env(1116, 112660) == FALSE then
+            act(2002, 112660)
+            
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112661)
+            end
+            
+            return FALSE
+        elseif env(1116, 112661) == FALSE then
+            act(2002, 112661)
+            
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112662)
+            end
+            
+            return FALSE
+        elseif env(1116, 112662) == FALSE then
+            act(2002, 112662)
+            
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112663)
+            end
+            
+            return FALSE
+        end
+    end
+    
+    -- Stagger Resist: Armor - Weak
+    if env(1116, 112652) == TRUE then
+        -- Stagger Block
+        -- 1 level for Weak resist
+        if env(1116, 112660) == FALSE then
+            act(2002, 112660)
+            
+            -- For a powerful attack, apply 2 stacks per hit
+            if IsPowerfulHit(damage_level) then
+                act(2002, 112661)
+            end
+            
+            return FALSE
+        end
+    end
+    
+    -- Stagger Resist: Armor - None
+    if env(1116, 112653) == TRUE then
+        -- None
+    end
+    
+    ------------------------------------
+    -- Determine Damage Level Animation
+    ------------------------------------
     if env(265) == TRUE then -- GetIsWeakPoint
         CalcDamageCount()
         SetVariable("DamageDirection", damage_angle)
@@ -5296,6 +5525,65 @@ function ExecDamage(is_parry, is_attackwhileguard)
     else
         return FALSE
     end
+end
+
+function IsPowerfulHit(damage_level)
+    if damage_level == DAMAGE_LEVEL_LARGE or damage_level == DAMAGE_LEVEL_EXLARGE or damage_level == DAMAGE_LEVEL_EX_BLAST or damage_level == DAMAGE_LEVEL_UPPER or damage_level == DAMAGE_LEVEL_FLING then
+        return TRUE
+    end
+    
+    return FALSE
+end
+
+function HasStaggerResistBoost_Weapon()
+    -- Weapon Boost
+    if env(1116, 112640) == TRUE then
+        return TRUE
+    end
+    
+    return FALSE
+end
+
+function HasStaggerResistBoost_Spell()
+    -- Perseverance
+    if env(1116, 112802) == TRUE then
+        return TRUE
+    end
+    
+    -- Lingering Perseverance
+    if env(1116, 112803) == TRUE then
+        return TRUE
+    end
+    
+    return FALSE
+end
+
+function HasStaggerResistBoost_Item()
+    -- Soul of a Fallen Sentinel
+    if env(1116, 112820) == TRUE then
+        return TRUE
+    end
+    
+    -- Titanite Fragment
+    if env(1116, 112821) == TRUE then
+        return TRUE
+    end
+    
+    -- Boon of the Marauder 
+    if env(1116, 112822) == TRUE then
+        return TRUE
+    end
+
+    return FALSE
+end
+
+function HasWolfRing()
+    -- Wolf Ring
+    if env(1116, 112810) == TRUE or env(1116, 112811) == TRUE or env(1116, 112812) == TRUE or env(1116, 112813) == TRUE or env(1116, 112814) == TRUE then
+        return TRUE
+    end
+    
+    return FALSE
 end
 
 -----------------------------------------------

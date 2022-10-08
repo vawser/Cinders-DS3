@@ -1,33 +1,4 @@
 ﻿#------------------------------
-# Item ID ranges
-#------------------------------
-# Proper
-# Map - Enemies: xxx0000
-# Map - Players: xxx0900
-# Map - Object: xxx1000
-# Map - MSBRegions: xxx2000
-# Map - MSBEvents: xxA10000
-# Map - Collision: xxx4000
-# Map - Chest ObjAct: xxx4300
-
-# These need to be used for new treasures in each area
-53002112 High Wall of Lothric / Consumed King's Garden
-53012092 Lothric Castle
-53102097 Undead Settlement
-53202081 Archdragon Peak
-53302185 Road of Sacrifices / Farron Keep
-53412137 Grand Archives
-53502087 Cathedral of the Deep
-53702160 Irithyll of the Boreal Valley / Anor Londo
-53802181 Catacombs of Carthus / Smouldering Lake
-53902125 Irithyll Dungeon / Profaned Capital
-54002200 Cemetery of Ash / Unturned Graves
-54102014 Kiln of the First Flame
-54502091 Painted World of Ariandel
-55002071 Dreg Heap
-55102068 The Ringed City
-
-#------------------------------
 # Weapons
 #------------------------------
 Finish following weapons:
@@ -87,7 +58,7 @@ Finish following weapons:
   - Repeating Pistol: 10%
   - Evelynn: 5%
   - Blunderbuss: 20%
-  - Rosamarinus: 10%
+  - Rosamarinus: 25%
  - Rapid attacks will boost the jam chance, stacking up to 5 times. Each stack decays after 5 seconds.
   - Shot 1: +5%
   - Shot 2: +5%
@@ -97,6 +68,21 @@ Finish following weapons:
  - After a jam, there is a grace period of 4 seconds where you cannot get another jam.
  - The first shot (if you have not shot for 30 seconds or more) will never jam.
  
+- Changed the poise system:
+ - Removed the DS3 'toughness' system.
+ - Implemented a custom system within the HKS that emulates the feel of DS1 poise.
+ - Chest Armor provides stagger resistance. (Heavy to Medium only)
+ - Wolf Ring now provides its own stagger resistance. This stack with the other stagger resistances.
+ - Weapons that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
+ - Spells that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
+ - Items that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
+
 #------------------------------
 # TODO
 #------------------------------
+Bulk out the Curse of Attraction additions
+ - Made it more like ascended in enemy count
+
+xxx5750
+
+ 
