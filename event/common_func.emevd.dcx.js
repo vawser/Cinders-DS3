@@ -1,48 +1,41 @@
 // ==EMEVD==
 // @docs    ds3-common.emedf.json
-// @compress    DarkSouls3
+// @compress    DCX_DFLT_10000_44_9
 // @game    DarkSouls3
 // @string    
 // @linked    []
+// @version    3.3.2
 // ==/EMEVD==
 
 //--------------------------------------
 // Wakeup - Alerted by Player in Region
 //--------------------------------------
-Event(20005110, Restart, function(X0_4, X4_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005110, Restart, function(X0_4, X4_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    WaitFor(
+        CharacterDamagedBy(X0_4, 10000)
+            || (InArea(10000, X4_4)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
     SetCharacterAIState(X0_4, Enabled);
 });
 
 //--------------------------------------
 // Wakeup - Alerted by Player in Region - Play Animation on Alert
 //--------------------------------------
-Event(20005111, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005111, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X8_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    WaitFor(
+        CharacterDamagedBy(X0_4, 10000)
+            || (InArea(10000, X8_4)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
     ForceAnimationPlayback(X0_4, X4_4, false, false, true, 0, 1);
     SetCharacterAIState(X0_4, Enabled);
 });
@@ -50,21 +43,17 @@ Event(20005111, Restart, function(X0_4, X4_4, X8_4) {
 //--------------------------------------
 // Wakeup - Alerted by Player in Region - Enable Gravity on Alert
 //--------------------------------------
-Event(20005112, Restart, function(X0_4, X4_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005112, Restart, function(X0_4, X4_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterGravity(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    WaitFor(
+        CharacterDamagedBy(X0_4, 10000)
+            || (InArea(10000, X4_4)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
 });
@@ -72,24 +61,20 @@ Event(20005112, Restart, function(X0_4, X4_4) {
 //--------------------------------------
 // Wakeup - Alerted by Player in Region - Delayed Alert, Enable Gravity on Alert, Unknown Effect
 //--------------------------------------
-Event(20005113, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005113, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterGravity(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    areaChrSp = InArea(10000, X4_4)
+        && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+            || CharacterType(10000, TargetType.Alive)
+            || CharacterType(10000, TargetType.Hollow)
+            || CharacterType(10000, TargetType.WhitePhantom));
+    WaitFor(CharacterDamagedBy(X0_4, 10000) || areaChrSp);
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X8_4);
+    if (areaChrSp.Passed) {
+        WaitFixedTimeSeconds(X8_4);
+    }
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
 });
@@ -97,43 +82,35 @@ Event(20005113, Restart, function(X0_4, X4_4, X8_4) {
 //--------------------------------------
 // Wakeup - Alerted by Player in Region - Delayed Alert, Unknown Effect
 //--------------------------------------
-Event(20005114, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005114, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    areaChrSp = InArea(10000, X4_4)
+        && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+            || CharacterType(10000, TargetType.Alive)
+            || CharacterType(10000, TargetType.Hollow)
+            || CharacterType(10000, TargetType.WhitePhantom));
+    WaitFor(CharacterDamagedBy(X0_4, 10000) || areaChrSp);
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X8_4);
+    if (areaChrSp.Passed) {
+        WaitFixedTimeSeconds(X8_4);
+    }
     SetCharacterAIState(X0_4, Enabled);
 });
 
 //--------------------------------------
 // Wakeup - Alerted by Player in Region - Play Animation
 //--------------------------------------
-Event(20005115, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005115, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X8_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    WaitFor(
+        CharacterDamagedBy(X0_4, 10000)
+            || (InArea(10000, X8_4)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
     ForceAnimationPlayback(X0_4, X4_4, false, false, true, 0, 1);
     SetCharacterAIState(X0_4, Enabled);
 });
@@ -141,96 +118,84 @@ Event(20005115, Restart, function(X0_4, X4_4, X8_4) {
 //--------------------------------------
 // Wakeup - Alerted by Player in Multiple Regions
 //--------------------------------------
-Event(20005119, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005119, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X4_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X8_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X8_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X12_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X16_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X16_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X20_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X24_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X28_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X28_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area |= InArea(10000, X4_4);
+    if (X8_4 != 0) {
+        area |= InArea(10000, X8_4);
+    }
+    if (X12_4 != 0) {
+        area |= InArea(10000, X12_4);
+    }
+    if (X16_4 != 0) {
+        area |= InArea(10000, X16_4);
+    }
+    if (X20_4 != 0) {
+        area |= InArea(10000, X20_4);
+    }
+    if (X24_4 != 0) {
+        area |= InArea(10000, X24_4);
+    }
+    if (X28_4 != 0) {
+        area |= InArea(10000, X28_4);
+    }
+    WaitFor((chrSp && area) || CharacterDamagedBy(X0_4, 10000));
     SetCharacterAIState(X0_4, Enabled);
 });
 
 //--------------------------------------
 // Wakeup - Alerted by Player at Distance
 //--------------------------------------
-Event(20005120, Restart, function(X0_4, X4_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005120, Restart, function(X0_4, X4_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    WaitFor(
+        CharacterDamagedBy(X0_4, 10000)
+            || (EntityInRadiusOfEntity(10000, X0_4, X4_4, 1)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
     SetCharacterAIState(X0_4, Enabled);
 });
 
 //--------------------------------------
 // Wakeup - Alerted by Player at Distance - Delayed Alert
 //--------------------------------------
-Event(20005121, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005121, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    areaChrSp = EntityInRadiusOfEntity(10000, X0_4, X4_4, 1)
+        && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+            || CharacterType(10000, TargetType.Alive)
+            || CharacterType(10000, TargetType.Hollow)
+            || CharacterType(10000, TargetType.WhitePhantom));
+    WaitFor(CharacterDamagedBy(X0_4, 10000) || areaChrSp);
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X8_4);
+    if (areaChrSp.Passed) {
+        WaitFixedTimeSeconds(X8_4);
+    }
     SetCharacterAIState(X0_4, Enabled);
 });
 
 //--------------------------------------
 // Wakeup - Alerted by Player at Distance - Play Animation
 //--------------------------------------
-Event(20005122, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005122, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X8_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    WaitFor(
+        CharacterDamagedBy(X0_4, 10000)
+            || (EntityInRadiusOfEntity(10000, X0_4, X8_4, 1)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
     ForceAnimationPlayback(X0_4, X4_4, false, false, true, 0, 1);
     SetCharacterAIState(X0_4, Enabled);
 });
@@ -238,42 +203,34 @@ Event(20005122, Restart, function(X0_4, X4_4, X8_4) {
 //--------------------------------------
 // Wakeup - Alerted by Player at Distance AND In Region
 //--------------------------------------
-Event(20005130, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005130, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X4_4, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X8_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    WaitFor(
+        CharacterDamagedBy(X0_4, 10000)
+            || (EntityInRadiusOfEntity(10000, X0_4, X4_4, 1)
+                && InArea(10000, X8_4)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
     SetCharacterAIState(X0_4, Enabled);
 });
 
 //--------------------------------------
 // Wakeup - Alerted by Player at Distance AND In Region - Play Animation
 //-------------------------------------- 
-Event(20005131, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005131, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X8_4, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    WaitFor(
+        CharacterDamagedBy(X0_4, 10000)
+            || (EntityInRadiusOfEntity(10000, X0_4, X8_4, 1)
+                && InArea(10000, X12_4)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
     ForceAnimationPlayback(X0_4, X4_4, false, false, true, 0, 1);
     SetCharacterAIState(X0_4, Enabled);
 });
@@ -281,44 +238,30 @@ Event(20005131, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 //--------------------------------------
 // Wakeup - Alerted by Player at Distance OR In Region
 //--------------------------------------
-Event(20005132, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005132, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(OR_02, InsideOutsideState.Inside, 10000, X0_4, X4_4, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X8_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area = EntityInRadiusOfEntity(10000, X0_4, X4_4, 1) || InArea(10000, X8_4);
+    WaitFor(CharacterDamagedBy(X0_4, 10000) || (area && chrSp));
     SetCharacterAIState(X0_4, Enabled);
 });
 
 //--------------------------------------
 // Wakeup - Alerted by Player at Distance OR In Region - Play Animation
 //--------------------------------------
-Event(20005133, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005133, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(OR_02, InsideOutsideState.Inside, 10000, X0_4, X8_4, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area = EntityInRadiusOfEntity(10000, X0_4, X8_4, 1) || InArea(10000, X12_4);
+    WaitFor(CharacterDamagedBy(X0_4, 10000) || (area && chrSp));
     ForceAnimationPlayback(X0_4, X4_4, false, false, true, 0, 1);
     SetCharacterAIState(X0_4, Enabled);
 });
@@ -326,137 +269,113 @@ Event(20005133, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 //--------------------------------------
 // Wakeup - Alerted by Player at Distance OR In Region - Play Animation if not in secondary region
 //--------------------------------------
-Event(20005134, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005134, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(OR_02, InsideOutsideState.Inside, 10000, X0_4, X8_4, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_04, X0_4, 10000);
-    IfConditionGroup(OR_04, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_04);
-    IfInoutsideArea(OR_09, InsideOutsideState.Inside, 10000, X12_4, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_09);
-    ForceAnimationPlayback(X0_4, X4_4, false, false, true, 0, 1);
-    Label0();
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area = EntityInRadiusOfEntity(10000, X0_4, X8_4, 1) || InArea(10000, X12_4);
+    WaitFor(CharacterDamagedBy(X0_4, 10000) || (area && chrSp));
+    if (InArea(10000, X12_4)) {
+        ForceAnimationPlayback(X0_4, X4_4, false, false, true, 0, 1);
+    }
+L0:
     SetCharacterAIState(X0_4, Enabled);
 });
 
 //--------------------------------------
 // Wakeup - Alerted by Player in Region
 //--------------------------------------
-Event(20005140, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005140, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterAIState(OR_03, X8_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    WaitFor(
+        CharacterAIState(X8_4, AIStateType.Combat)
+            || CharacterDamagedBy(X0_4, 10000)
+            || (InArea(10000, X4_4)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
     SetCharacterAIState(X0_4, Enabled);
 });
 
 //--------------------------------------
 // Wakeup - Alerted by Damage
 //--------------------------------------
-Event(20005150, Restart, function(X0_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005150, Restart, function(X0_4) {
+    EndIf(ThisEventSlot());
     SetCharacterAIState(X0_4, Disabled);
-    IfCharacterDamagedBy(MAIN, X0_4, 10000);
+    WaitFor(CharacterDamagedBy(X0_4, 10000));
     SetCharacterAIState(X0_4, Enabled);
 });
 
 //--------------------------------------
 // Remove Sight - Restore if Player is in Region
 //--------------------------------------
-Event(20005192, Restart, function(X0_4, X4_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    SetSpeffect(X0_4, 99006);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    ClearSpeffect(X0_4, 99006);
+$Event(20005192, Restart, function(X0_4, X4_4) {
+    EndIf(ThisEventSlot());
+    SetSpEffect(X0_4, 99006);
+    WaitFor(
+        CharacterDamagedBy(X0_4, 10000)
+            || (InArea(10000, X4_4)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
+    ClearSpEffect(X0_4, 99006);
 });
 
 
 //--------------------------------------
 // Remove Sight - Restore if Player is at Distance
 //--------------------------------------
-Event(20005190, Restart, function(X0_4, X4_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    SetSpeffect(X0_4, 99006);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    ClearSpeffect(X0_4, 99006);
+$Event(20005190, Restart, function(X0_4, X4_4) {
+    EndIf(ThisEventSlot());
+    SetSpEffect(X0_4, 99006);
+    WaitFor(
+        CharacterDamagedBy(X0_4, 10000)
+            || (EntityInRadiusOfEntity(10000, X0_4, X4_4, 1)
+                && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))));
+    ClearSpEffect(X0_4, 99006);
 });
 
 //--------------------------------------
 // Remove Sight - Restore if Damaged
 //--------------------------------------
-Event(20005191, Restart, function(X0_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    SetSpeffect(X0_4, 99006);
-    IfCharacterDamagedBy(MAIN, X0_4, 10000);
-    ClearSpeffect(X0_4, 99006);
+$Event(20005191, Restart, function(X0_4) {
+    EndIf(ThisEventSlot());
+    SetSpEffect(X0_4, 99006);
+    WaitFor(CharacterDamagedBy(X0_4, 10000));
+    ClearSpEffect(X0_4, 99006);
 });
 
 //--------------------------------------
 // Loop Animation - Remove if Player is in Region
 //--------------------------------------
-Event(20005200, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005200, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    
+
+    WaitFor(
+        (InArea(10000, X12_4)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450)
+            && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom)))
+            || CharacterDamagedBy(X0_4, 10000));
+
     WaitFixedTimeSeconds(0.1);
-    
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
-    
+
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
+
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
@@ -464,33 +383,28 @@ Event(20005200, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 //--------------------------------------
 // Loop Animation - Remove if Player is in Region - Unknown Effect
 //--------------------------------------
-Event(20005201, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005201, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    
+
+    areaChrSp = InArea(10000, X12_4)
+        && CharacterBackreadStatus(X0_4)
+        && CharacterHasSpEffect(X0_4, 5450)
+        && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+            || CharacterType(10000, TargetType.Alive)
+            || CharacterType(10000, TargetType.Hollow)
+            || CharacterType(10000, TargetType.WhitePhantom));
+    WaitFor(areaChrSp || CharacterDamagedBy(X0_4, 10000));
+
     WaitFixedTimeSeconds(0.1);
-    
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
-    
+
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
+
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X16_4);
-    
+    if (areaChrSp.Passed) {
+        WaitFixedTimeSeconds(X16_4);
+    }
+
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
@@ -498,32 +412,28 @@ Event(20005201, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 //--------------------------------------
 // Hang Animation - Remove if Player is in Region
 //--------------------------------------
-Event(20005202, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005202, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, true, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    WaitFor(
+        (InArea(10000, X12_4)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450)
+            && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom)))
+            || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
@@ -531,194 +441,175 @@ Event(20005202, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 //--------------------------------------
 // Loop Animation - Remove if Player is in Multiple Regions
 //--------------------------------------
-Event(20005203, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005203, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X16_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X16_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X20_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X24_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X28_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X28_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X32_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X32_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area |= InArea(10000, X12_4);
+    if (X16_4 != 0) {
+        area |= InArea(10000, X16_4);
+    }
+    if (X20_4 != 0) {
+        area |= InArea(10000, X20_4);
+    }
+    if (X24_4 != 0) {
+        area |= InArea(10000, X24_4);
+    }
+    if (X28_4 != 0) {
+        area |= InArea(10000, X28_4);
+    }
+    if (X32_4 != 0) {
+        area |= InArea(10000, X32_4);
+    }
+    WaitFor(
+        (area && CharacterBackreadStatus(X0_4) && CharacterHasSpEffect(X0_4, 5450) && chrSp)
+            || CharacterDamagedBy(X0_4, 10000));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
 // Enemy - Wake-up
-Event(20005204, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005204, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X24_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area = InArea(10000, X12_4) || InArea(10000, X24_4);
+    areaChrSp = area && CharacterBackreadStatus(X0_4) && CharacterHasSpEffect(X0_4, 5450) && chrSp;
+    areaChrSpDmg = areaChrSp || CharacterDamagedBy(X0_4, 10000);
+    WaitFor(area);
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    IfInoutsideArea(OR_04, InsideOutsideState.Inside, 10000, X24_4, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_04);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X16_4);
-    ForceAnimationPlayback(X0_4, X8_4, false, true, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X28_4);
+    if (!InArea(10000, X24_4)) {
+        if (areaChrSp.Passed) {
+            WaitFixedTimeSeconds(X16_4);
+        }
+        ForceAnimationPlayback(X0_4, X8_4, false, true, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
+    if (areaChrSp.Passed) {
+        WaitFixedTimeSeconds(X28_4);
+    }
     ForceAnimationPlayback(X0_4, X20_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 // Enemy - Hang until triggered
-Event(20005205, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005205, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X16_4);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    areaChrSp = InArea(10000, X12_4)
+        && CharacterBackreadStatus(X0_4)
+        && CharacterHasSpEffect(X0_4, 5450)
+        && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+            || CharacterType(10000, TargetType.Alive)
+            || CharacterType(10000, TargetType.Hollow)
+            || CharacterType(10000, TargetType.WhitePhantom));
+    WaitFor(areaChrSp || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
+        if (areaChrSp.Passed) {
+            WaitFixedTimeSeconds(X16_4);
+        }
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005206, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005206, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X16_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X16_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X20_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X24_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X28_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X28_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X32_4, 0);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X32_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area |= InArea(10000, X12_4);
+    if (X16_4 != 0) {
+        area |= InArea(10000, X16_4);
+    }
+    if (X20_4 != 0) {
+        area |= InArea(10000, X20_4);
+    }
+    if (X24_4 != 0) {
+        area |= InArea(10000, X24_4);
+    }
+    if (X28_4 != 0) {
+        area |= InArea(10000, X28_4);
+    }
+    if (X32_4 != 0) {
+        area |= InArea(10000, X32_4);
+    }
+    WaitFor(
+        (area && CharacterBackreadStatus(X0_4) && CharacterHasSpEffect(X0_4, 5450) && chrSp)
+            || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005207, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005207, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X24_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL1, PASS, AND_02);
-    SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    IfInoutsideArea(OR_04, InsideOutsideState.Inside, 10000, X24_4, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_04);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X16_4);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, true, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X28_4);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X20_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label1();
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area = InArea(10000, X12_4) || InArea(10000, X24_4);
+    areaChrSp = area && CharacterBackreadStatus(X0_4) && CharacterHasSpEffect(X0_4, 5450) && chrSp;
+    WaitFor(areaChrSp || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
+        if (!InArea(10000, X24_4)) {
+            if (areaChrSp.Passed) {
+                WaitFixedTimeSeconds(X16_4);
+            }
+            SetCharacterGravity(X0_4, Enabled);
+            SetCharacterMaphit(X0_4, false);
+            ForceAnimationPlayback(X0_4, X8_4, false, true, false, 0, 1);
+            RequestCharacterAIReplan(X0_4);
+            EndEvent();
+        }
+L0:
+        if (areaChrSp.Passed) {
+            WaitFixedTimeSeconds(X28_4);
+        }
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X20_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L1:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
@@ -726,993 +617,904 @@ Event(20005207, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 //--------------------------------------
 // Loop Animation/Toggle AI - Remove if Player is in Region
 //--------------------------------------
-Event(20005208, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    
+$Event(20005208, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
+
     SetCharacterAIState(X0_4, Disabled);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
 
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    
+    WaitFor(
+        (InArea(10000, X12_4)
+            && CharacterBackreadStatus(X0_4)
+            && (CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom)))
+            || CharacterDamagedBy(X0_4, 10000));
+
     WaitFixedTimeSeconds(0.1);
-    
+
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     SetCharacterAIState(X0_4, Enabled);
     RequestCharacterAIReplan(X0_4);
 });
 
+// Enemy - Hang until triggered - Curse of Duplication
+$Event(20005209, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
+    EndIf(!EventFlag(25000440));
+    
+    SetCharacterGravity(X0_4, Disabled);
+    SetCharacterMaphit(X0_4, true);
+    ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
+    areaChrSp = InArea(10000, X12_4)
+        && CharacterBackreadStatus(X0_4)
+        && CharacterHasSpEffect(X0_4, 5450)
+        && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+            || CharacterType(10000, TargetType.Alive)
+            || CharacterType(10000, TargetType.Hollow)
+            || CharacterType(10000, TargetType.WhitePhantom));
+    WaitFor(areaChrSp || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
+        if (areaChrSp.Passed) {
+            WaitFixedTimeSeconds(X16_4);
+        }
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
+    SetCharacterGravity(X0_4, Enabled);
+    SetCharacterMaphit(X0_4, false);
+});
+
 // Enemy - Animate on wakeup
-Event(20005210, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005210, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    WaitFor(
+        (EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450)
+            && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom)))
+            || CharacterDamagedBy(X0_4, 10000));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
-Event(20005211, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005211, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    areaChrSp = EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+        && CharacterBackreadStatus(X0_4)
+        && CharacterHasSpEffect(X0_4, 5450)
+        && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+            || CharacterType(10000, TargetType.Alive)
+            || CharacterType(10000, TargetType.Hollow)
+            || CharacterType(10000, TargetType.WhitePhantom));
+    WaitFor(areaChrSp || CharacterDamagedBy(X0_4, 10000));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X16_4);
+    if (areaChrSp.Passed) {
+        WaitFixedTimeSeconds(X16_4);
+    }
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
 // Enemy - Wake-up
-Event(20005212, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005212, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X16_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    WaitFor(
+        (EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+            && InArea(10000, X16_4)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450)
+            && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom)))
+            || CharacterDamagedBy(X0_4, 10000));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
 // Enemy - Wake-up
-Event(20005213, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005213, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(OR_02, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X16_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area = EntityInRadiusOfEntity(10000, X0_4, X12_4, 1) || InArea(10000, X16_4);
+    WaitFor(
+        (area && CharacterBackreadStatus(X0_4) && CharacterHasSpEffect(X0_4, 5450) && chrSp)
+            || CharacterDamagedBy(X0_4, 10000));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
 // Enemy -Toggle Gravity
-Event(20005214, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005214, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    WaitFor(
+        (EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450)
+            && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom)))
+            || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
 // Enemy - Toggle Gravity
-Event(20005215, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005215, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
+    areaChrSp = EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+        && CharacterBackreadStatus(X0_4)
+        && CharacterHasSpEffect(X0_4, 5450)
+        && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+            || CharacterType(10000, TargetType.Alive)
+            || CharacterType(10000, TargetType.Hollow)
+            || CharacterType(10000, TargetType.WhitePhantom));
+    WaitFor(areaChrSp || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
+        if (areaChrSp.Passed) {
+            WaitFixedTimeSeconds(X16_4);
+        }
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
+    SetCharacterGravity(X0_4, Enabled);
+    SetCharacterMaphit(X0_4, false);
+});
+
+// Enemy - Toggle Gravity
+$Event(20005216, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
+    SetCharacterGravity(X0_4, Disabled);
+    SetCharacterMaphit(X0_4, true);
+    ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
+    WaitFor(
+        (EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+            && InArea(10000, X16_4)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450)
+            && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom)))
+            || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
+    SetCharacterGravity(X0_4, Enabled);
+    SetCharacterMaphit(X0_4, false);
+});
+
+// Enemy - Toggle Gravity
+$Event(20005217, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
+    SetCharacterGravity(X0_4, Disabled);
+    SetCharacterMaphit(X0_4, true);
+    ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area = EntityInRadiusOfEntity(10000, X0_4, X12_4, 1) || InArea(10000, X16_4);
+    WaitFor(
+        (area && CharacterBackreadStatus(X0_4) && CharacterHasSpEffect(X0_4, 5450) && chrSp)
+            || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
+    SetCharacterGravity(X0_4, Enabled);
+    SetCharacterMaphit(X0_4, false);
+});
+
+// Enemy - Toggle Gravity
+$Event(20005218, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    EndIf(ThisEventSlot());
+    SetCharacterGravity(X0_4, Disabled);
+    SetCharacterMaphit(X0_4, true);
+    ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
+    areaChrSp = EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+        && InArea(10000, X16_4)
+        && CharacterBackreadStatus(X0_4)
+        && CharacterHasSpEffect(X0_4, 5450)
+        && ((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+            || CharacterType(10000, TargetType.Alive)
+            || CharacterType(10000, TargetType.Hollow)
+            || CharacterType(10000, TargetType.WhitePhantom));
+    WaitFor(areaChrSp || CharacterDamagedBy(X0_4, 10000));
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X16_4);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-});
-
-// Enemy - Toggle Gravity
-Event(20005216, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    SetCharacterGravity(X0_4, Disabled);
-    SetCharacterMaphit(X0_4, true);
-    ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X16_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        if (areaChrSp.Passed) {
+            WaitFixedTimeSeconds(X20_4);
+        }
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
 // Enemy - Toggle Gravity
-Event(20005217, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005219, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(OR_02, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X16_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-});
-
-// Enemy - Toggle Gravity
-Event(20005218, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    SetCharacterGravity(X0_4, Disabled);
-    SetCharacterMaphit(X0_4, true);
-    ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X16_4, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_02, PASS, AND_01);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
+    chrSp = (CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+        || CharacterType(10000, TargetType.Alive)
+        || CharacterType(10000, TargetType.Hollow)
+        || CharacterType(10000, TargetType.WhitePhantom);
+    area = EntityInRadiusOfEntity(10000, X0_4, X12_4, 1) || InArea(10000, X16_4);
+    areaChrSp = area && CharacterBackreadStatus(X0_4) && CharacterHasSpEffect(X0_4, 5450) && chrSp;
+    WaitFor(areaChrSp || CharacterDamagedBy(X0_4, 10000));
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X20_4);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-});
-
-// Enemy - Toggle Gravity
-Event(20005219, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    SetCharacterGravity(X0_4, Disabled);
-    SetCharacterMaphit(X0_4, true);
-    ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(OR_02, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X16_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SkipIfConditionGroupStateCompiled(1, FAIL, AND_01);
-    WaitFixedTimeSeconds(X20_4);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        if (areaChrSp.Passed) {
+            WaitFixedTimeSeconds(X20_4);
+        }
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
 // Enemy - Idle State (Attack)
-Event(20005220, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005220, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Combat))
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || CharacterDamagedBy(X0_4, 10000));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
 // Enemy - Idle State (Attack/Area)
-Event(20005221, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005221, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_01, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_01, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_02, PASS, AND_09);
-    IfCharacterType(OR_02, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfEntityInoutsideRadiusOfEntity(AND_02, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfCharacterBackreadStatus(AND_02, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_03, PASS, AND_01);
-    IfConditionGroup(AND_03, PASS, AND_02);
-    IfConditionGroup(OR_03, PASS, AND_03);
-    IfDamageType(OR_03, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Combat))
+            && (((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom))
+                && EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+                && CharacterBackreadStatus(X0_4)
+                && CharacterHasSpEffect(X0_4, 5450)))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_03, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_03);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
 // Enemy - Idle State
-Event(20005222, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005222, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_01, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_01, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_02, PASS, AND_09);
-    IfCharacterType(OR_02, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfEntityInoutsideRadiusOfEntity(AND_02, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfCharacterBackreadStatus(AND_02, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_03, PASS, AND_01);
-    IfConditionGroup(AND_03, PASS, AND_02);
-    IfConditionGroup(OR_03, PASS, AND_03);
-    IfDamageType(OR_03, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Combat))
+            && (((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom))
+                && EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+                && CharacterBackreadStatus(X0_4)
+                && CharacterHasSpEffect(X0_4, 5450)))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_04, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_04);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     WaitFixedTimeSeconds(X16_4);
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
 // Enemy - Idle State
-Event(20005223, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005223, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Combat))
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || CharacterDamagedBy(X0_4, 10000));
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     WaitFixedTimeSeconds(X12_4);
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
 // Enemy - Idle State
-Event(20005224, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005224, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Alert, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Alert)
+            || CharacterAIState(X0_4, AIStateType.Combat))
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || CharacterDamagedBy(X0_4, 10000));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
-Event(20005225, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005225, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Combat))
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005226, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005226, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_01, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_01, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterType(OR_02, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfEntityInoutsideRadiusOfEntity(AND_02, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfCharacterBackreadStatus(AND_02, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_03, PASS, AND_01);
-    IfConditionGroup(AND_03, PASS, AND_02);
-    IfConditionGroup(OR_03, PASS, AND_03);
-    IfDamageType(OR_03, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Combat))
+            && ((CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom))
+                && EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+                && CharacterBackreadStatus(X0_4)
+                && CharacterHasSpEffect(X0_4, 5450)))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005227, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005227, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_01, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_01, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterType(OR_02, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfEntityInoutsideRadiusOfEntity(AND_02, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfCharacterBackreadStatus(AND_02, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_03, PASS, AND_01);
-    IfConditionGroup(AND_03, PASS, AND_02);
-    IfConditionGroup(OR_03, PASS, AND_03);
-    IfDamageType(OR_03, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Combat))
+            && ((CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom))
+                && EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)
+                && CharacterBackreadStatus(X0_4)
+                && CharacterHasSpEffect(X0_4, 5450)))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    WaitFixedTimeSeconds(X16_4);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-});
-
-Event(20005228, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    SetCharacterGravity(X0_4, Disabled);
-    SetCharacterMaphit(X0_4, true);
-    ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    WaitFixedTimeSeconds(X12_4);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        WaitFixedTimeSeconds(X16_4);
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005229, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005228, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Alert, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Combat))
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        WaitFixedTimeSeconds(X12_4);
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005270, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005229, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_02, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(OR_02, X0_4, X12_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_03, PASS, AND_01);
-    IfCharacterDamagedBy(OR_03, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Alert)
+            || CharacterAIState(X0_4, AIStateType.Combat))
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || CharacterDamagedBy(X0_4, 10000));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
+    SetCharacterGravity(X0_4, Enabled);
+    SetCharacterMaphit(X0_4, false);
+});
+
+$Event(20005270, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
+    SetCharacterGravity(X0_4, Disabled);
+    SetCharacterMaphit(X0_4, true);
+    ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
+    WaitFor(
+        ((CharacterAIState(X0_4, AIStateType.Recognition)
+            || CharacterAIState(X0_4, AIStateType.Combat)
+            || CharacterHasSpEffect(X0_4, X12_4))
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || CharacterDamagedBy(X0_4, 10000));
     SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005230, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfObjectDestroyed(EventEndType.End, DestructionState.Destroyed, X12_4, ComparisonType.Equal, 1);
+$Event(20005230, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ObjectDestroyed(X12_4));
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfObjectDestroyed(AND_01, DestructionState.Destroyed, X12_4, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfDamageType(OR_01, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    WaitFor(
+        (ObjectDestroyed(X12_4)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
-Event(20005231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfObjectDestroyed(EventEndType.End, DestructionState.Destroyed, X12_4, ComparisonType.Equal, 1);
+$Event(20005231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ObjectDestroyed(X12_4));
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfObjectDestroyed(AND_01, DestructionState.Destroyed, X12_4, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfDamageType(OR_01, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    WaitFor(
+        (ObjectDestroyed(X12_4)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005240, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005240, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, X12_4, true, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfDamageType(OR_01, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    WaitFor(
+        (CharacterHasSpEffect(X0_4, X12_4)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
-Event(20005241, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005241, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, X12_4, true, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfDamageType(OR_01, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    WaitFor(
+        (CharacterHasSpEffect(X0_4, X12_4)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005243, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005243, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, false, false, false, 0, 1);
-    IfCharacterHasSpeffect(AND_01, X12_4, X16_4, true, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfDamageType(OR_01, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    spChr = CharacterHasSpEffect(X12_4, X16_4)
+        && CharacterBackreadStatus(X0_4)
+        && CharacterHasSpEffect(X0_4, 5450);
+    WaitFor(spChr || HasDamageType(X0_4, 10000, DamageType.Unspecified));
     SetAutogeneratedEventspecificEventFlag1Unknown200373(2, 1);
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
-    GotoIfConditionGroupStateCompiled(Label.LABEL0, FAIL, AND_01);
-    WaitFixedTimeSeconds(X20_4);
-    IfCharacterHasSpeffect(OR_03, X0_4, 5450, false, ComparisonType.Equal, 1);
-    IfCharacterDeadalive(OR_03, X12_4, DeathState.Dead, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, OR_03);
-    Label0();
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
+    if (spChr.Passed) {
+        WaitFixedTimeSeconds(X20_4);
+        EndIf(!CharacterHasSpEffect(X0_4, 5450) || CharacterDead(X12_4));
+    }
+L0:
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
 // Enemy - Wake-up
-Event(20005260, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005260, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(AND_01, X12_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfDamageType(OR_01, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    WaitFor(
+        (CharacterAIState(X12_4, AIStateType.Combat)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
-Event(20005261, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005261, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterAIState(AND_01, X12_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfDamageType(OR_01, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    WaitFor(
+        (CharacterAIState(X12_4, AIStateType.Combat)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005265, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005265, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfCharacterHasSpeffect(AND_01, X12_4, 5450, false, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X12_4, true, ComparisonType.Equal, 1);
-    IfCharacterAIState(AND_01, X12_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, 5450, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfDamageType(OR_01, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    WaitFor(
+        (!CharacterHasSpEffect(X12_4, 5450)
+            && CharacterBackreadStatus(X12_4)
+            && CharacterAIState(X12_4, AIStateType.Combat)
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, 5450))
+            || HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
 // Enemy - Play Animation, Wakeup when attacked
-Event(20005290, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005290, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
-Event(20005291, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005291, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_02);
+    EndIf(!CharacterHasSpEffect(X0_4, 5450));
     ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X0_4);
 });
 
-Event(20005292, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005292, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005293, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005293, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterMaphit(X0_4, true);
     ForceAnimationPlayback(X0_4, X4_4, true, false, false, 0, 1);
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
-    IfCharacterHasSpeffect(AND_02, X0_4, 5450, false, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    SetCharacterGravity(X0_4, Enabled);
-    SetCharacterMaphit(X0_4, false);
-    ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
-    RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
+    if (CharacterHasSpEffect(X0_4, 5450)) {
+        SetCharacterGravity(X0_4, Enabled);
+        SetCharacterMaphit(X0_4, false);
+        ForceAnimationPlayback(X0_4, X8_4, false, false, false, 0, 1);
+        RequestCharacterAIReplan(X0_4);
+        EndEvent();
+    }
+L0:
     SetCharacterGravity(X0_4, Enabled);
     SetCharacterMaphit(X0_4, false);
 });
 
-Event(20005300, Restart, function(X0_4) {
-    IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+$Event(20005300, Restart, function(X0_4) {
+    WaitFor(CharacterDead(X0_4));
     SetCharacterAIState(X0_4, Disabled);
     ClearCharactersAITarget(X0_4);
 });
 
-Event(2005310, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    ClearSpeffect(X0_4, X8_4);
-    IfCharacterHasSpeffect(MAIN, X0_4, X4_4, false, ComparisonType.Equal, 1);
-    Label0();
-    SetSpeffect(X0_4, X8_4);
+$Event(2005310, Restart, function(X0_4, X4_4, X8_4) {
+    if (!ThisEventSlot()) {
+        ClearSpEffect(X0_4, X8_4);
+        WaitFor(!CharacterHasSpEffect(X0_4, X4_4));
+    }
+L0:
+    SetSpEffect(X0_4, X8_4);
 });
 
 // Patrol - Update based on Area
-Event(20005320, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    Label0();
+$Event(20005320, Restart, function(X0_4, X4_4, X8_4) {
+    if (!ThisEventSlot()) {
+        WaitFor(
+            (CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.WhitePhantom))
+                && InArea(10000, X4_4));
+    }
+L0:
     ChangeCharacterPatrolBehavior(X0_4, X8_4);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
-Event(20005321, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    Label0();
+$Event(20005321, Restart, function(X0_4, X4_4, X8_4) {
+    if (!ThisEventSlot()) {
+        WaitFor(
+            (CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.WhitePhantom))
+                && InArea(10000, X4_4));
+    }
+L0:
     ChangeCharacterPatrolBehavior(X0_4, X8_4);
-    SetSpeffect(X0_4, 5000);
-    EndUnconditionally(EventEndType.End);
+    SetSpEffect(X0_4, 5000);
+    EndEvent();
 });
 
-Event(20005322, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    IfInoutsideArea(AND_02, InsideOutsideState.Inside, 10000, X4_4, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_02);
-    ChangeCharacterPatrolBehavior(X0_4, X16_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20005322, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
+    WaitFor(
+        (CharacterType(10000, TargetType.Alive) || CharacterType(10000, TargetType.WhitePhantom))
+            && (InArea(10000, X4_4) || InArea(10000, X12_4)));
+    if (!InArea(10000, X4_4)) {
+        ChangeCharacterPatrolBehavior(X0_4, X16_4);
+        EndEvent();
+    }
+L0:
     ChangeCharacterPatrolBehavior(X0_4, X8_4);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 // Enemy - Wake up and run into combat
-Event(20005330, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X8_4);
-    SetCharacterAIState(X0_4, Disabled);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfConditionGroup(AND_02, PASS, OR_01);
-    IfConditionGroup(AND_02, PASS, AND_01);
-    IfConditionGroup(OR_02, PASS, AND_02);
-    IfCharacterDamagedBy(OR_02, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    Label0();
+$Event(20005330, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
+    if (!EventFlag(X8_4)) {
+        SetCharacterAIState(X0_4, Disabled);
+        WaitFor(
+            (((CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710))
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom))
+                && InArea(10000, X4_4))
+                || CharacterDamagedBy(X0_4, 10000));
+    }
+L0:
     SetEventFlag(X8_4, ON);
-    SetSpeffect(X0_4, 5000);
+    SetSpEffect(X0_4, 5000);
     SetCharacterAIState(X0_4, Enabled);
-    IfCharacterAIState(MAIN, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    ClearSpeffect(X0_4, 5000);
+    WaitFor(CharacterAIState(X0_4, AIStateType.Combat));
+    ClearSpEffect(X0_4, 5000);
 });
 
-Event(20005331, Restart, function(X0_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    SetSpeffect(X0_4, 5000);
-    IfCharacterAIState(MAIN, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    ClearSpeffect(X0_4, 5000);
+$Event(20005331, Restart, function(X0_4) {
+    EndIf(ThisEventSlot());
+    SetSpEffect(X0_4, 5000);
+    WaitFor(CharacterAIState(X0_4, AIStateType.Combat));
+    ClearSpEffect(X0_4, 5000);
 });
 
 //-----------------------------------
 // Enemy - Disable on Kill
 // <defeated flag>, <entity id>
 //-----------------------------------
-Event(20005340, Restart, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if not defeated
-    
-    // Disable enemy
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    ForceCharacterDeath(X4_4, false);
-    EndUnconditionally(EventEndType.End);
-    
+$Event(20005340, Restart, function(X0_4, X4_4) {
+    if (EventFlag(X0_4)) { // Goto Label 0 if not defeated
+
+        // Disable enemy
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        ForceCharacterDeath(X4_4, false);
+        EndEvent();
+    }
+
     // Set defeated flag if enemy is killed
-    Label0();
-    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+L0:
+    WaitFor(CharacterDead(X4_4));
     SetEventFlag(X0_4, ON);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //-----------------------------------
 // Enemy - Disable on Kill, Award Item on Kill
 // <defeated flag>, <entity id>, <itemlot>
 //-----------------------------------
-Event(20005341, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if not defeated
-    
-    // Disable enemy
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    ForceCharacterDeath(X4_4, false);
-    EndUnconditionally(EventEndType.End);
-    
+$Event(20005341, Restart, function(X0_4, X4_4, X8_4) {
+    if (EventFlag(X0_4)) { // Goto Label 0 if not defeated
+
+        // Disable enemy
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        ForceCharacterDeath(X4_4, false);
+        EndEvent();
+    }
+
     // Award item if enemy is killed
-    Label0();
-    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+L0:
+    WaitFor(CharacterDead(X4_4));
     SetEventFlag(X0_4, ON);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndIf(PlayerIsNotInOwnWorld());
     AwardItemLot(X8_4);
-    
-    EndUnconditionally(EventEndType.End);
+
+    EndEvent();
 });
 
 //-----------------------------------
 // Enemy - Disable on Kill, Force Treasure on reload
 // <defeated flag>, <entity id>
 //-----------------------------------
-Event(20005342, Restart, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if not defeated
-    
-    // Disable enemy, force treasure
-    ChangeCharacterEnableState(X4_4, Disabled);
-    ForceCharacterTreasure(X4_4);
-    EndUnconditionally(EventEndType.End);
-    
+$Event(20005342, Restart, function(X0_4, X4_4) {
+    if (EventFlag(X0_4)) { // Goto Label 0 if not defeated
+
+        // Disable enemy, force treasure
+        ChangeCharacterEnableState(X4_4, Disabled);
+        ForceCharacterTreasure(X4_4);
+        EndEvent();
+    }
+
     // Set defeated flag if enemy is killed
-    Label0();
-    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+L0:
+    WaitFor(CharacterDead(X4_4));
     SetEventFlag(X0_4, ON);
 });
 
@@ -1720,23 +1522,25 @@ Event(20005342, Restart, function(X0_4, X4_4) {
 // Enemy - Disable on Kill, Force Treasure on reload if not already taken
 // <defeated flag>, <entity id>, <itemlot flag>
 //-----------------------------------
-Event(20000343, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if not defeated
-    
-    // Disable enemy
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    
-    // Skip force treasure if itemlot has already been taken
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, X8_4);
-    ForceCharacterTreasure(X4_4);
-    
-    ForceCharacterDeath(X4_4, false);
-    EndUnconditionally(EventEndType.End);
-    
+$Event(20000343, Restart, function(X0_4, X4_4, X8_4) {
+    if (EventFlag(X0_4)) { // Goto Label 0 if not defeated
+
+        // Disable enemy
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+
+        // Skip force treasure if itemlot has already been taken
+        if (!EventFlag(X8_4)) {
+            ForceCharacterTreasure(X4_4);
+        }
+
+        ForceCharacterDeath(X4_4, false);
+        EndEvent();
+    }
+
     // Set defeated flag if enemy is killed
-    Label0();
-    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+L0:
+    WaitFor(CharacterDead(X4_4));
     SetEventFlag(X0_4, ON);
 });
 
@@ -1744,125 +1548,113 @@ Event(20000343, Restart, function(X0_4, X4_4, X8_4) {
 // Enemy - Award Itemlot on initial kill
 // <enemy>, <itemlot>, <itemlot flag>
 //-----------------------------------
-Event(20005350, Default, function(X0_4, X4_4, X8_4) {
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_01);
-    IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+$Event(20005350, Default, function(X0_4, X4_4, X8_4) {
+    EndIf(EventFlag(X8_4));
+    WaitFor(CharacterDead(X0_4));
     AwardItemLot(X4_4);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //-----------------------------------
 // Enemy - Award Itemlot on initial kill with delay
 // <enemy>, <itemlot>, <itemlot flag>, <seconds>
 //-----------------------------------
-Event(20005351, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
+$Event(20005351, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(EventFlag(X8_4));
+    WaitFor(CharacterDead(X0_4));
     WaitFixedTimeSeconds(X12_4);
     AwardItemLot(X4_4);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //-----------------------------------
 // Enemy - Set Event Target
 //-----------------------------------
-Event(20005360, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfCharacterHasSpeffect(AND_01, X0_4, X8_4, true, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20005360, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(ThisEventSlot());
+    WaitFor(CharacterHasSpEffect(X0_4, X8_4) && CharacterBackreadStatus(X0_4));
     SetCharacterEventTarget(X0_4, X4_4);
 });
 
 //-----------------------------------
 // Enemy - Set Event Target
 //-----------------------------------
-Event(20005361, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfCharacterAIState(OR_01, X0_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_01, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterHasSpeffect(AND_01, X0_4, X12_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    Label0();
-    SetSpeffect(X4_4, X16_4);
+$Event(20005361, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    if (!ThisEventSlot()) {
+        WaitFor(
+            (CharacterAIState(X0_4, AIStateType.Recognition)
+                || CharacterAIState(X0_4, AIStateType.Combat))
+                && CharacterHasSpEffect(X0_4, X12_4));
+        SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
+    }
+L0:
+    SetSpEffect(X4_4, X16_4);
     SetCharacterEventTarget(X4_4, X8_4);
 });
 
-Event(20005380, Restart, function(X0_4, X4_4, X8_1, X9_1) {
+$Event(20005380, Restart, function(X0_4, X4_4, X8_1, X9_1) {
     SetNetworkSyncState(Disabled);
-    IfCharacterDeadalive(AND_15, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_15);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfPlayerInoutMap(AND_01, true, X8_1, X9_1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetCharacterDefaultBackreadState(X0_4, Enabled);
-    WaitFixedTimeSeconds(2);
-    IfInoutsideArea(OR_01, InsideOutsideState.Outside, 10000, X4_4, 1);
-    IfPlayerInoutMap(OR_01, false, X8_1, X9_1);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    if (!CharacterDead(X0_4)) {
+        WaitFor(InArea(10000, X4_4) && PlayerInMap(X8_1, X9_1));
+        SetCharacterDefaultBackreadState(X0_4, Enabled);
+        WaitFixedTimeSeconds(2);
+        WaitFor(!InArea(10000, X4_4) || !PlayerInMap(X8_1, X9_1));
+        SetCharacterDefaultBackreadState(X0_4, Disabled);
+        WaitFixedTimeSeconds(2);
+        RestartEvent();
+    }
+L0:
     SetCharacterDefaultBackreadState(X0_4, Disabled);
-    WaitFixedTimeSeconds(2);
-    EndUnconditionally(EventEndType.Restart);
-    Label0();
-    SetCharacterDefaultBackreadState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
-Event(20005381, Restart, function(X0_4, X4_4, X8_1, X9_1) {
+$Event(20005381, Restart, function(X0_4, X4_4, X8_1, X9_1) {
     SetNetworkSyncState(Disabled);
-    IfCharacterDeadalive(AND_15, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_15);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfPlayerInoutMap(AND_01, true, X8_1, X9_1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
-    WaitFixedTimeSeconds(2);
-    IfInoutsideArea(OR_01, InsideOutsideState.Outside, 10000, X4_4, 1);
-    IfPlayerInoutMap(OR_01, false, X8_1, X9_1);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    if (!CharacterDead(X0_4)) {
+        WaitFor(InArea(10000, X4_4) && PlayerInMap(X8_1, X9_1));
+        SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
+        WaitFixedTimeSeconds(2);
+        WaitFor(!InArea(10000, X4_4) || !PlayerInMap(X8_1, X9_1));
+        SetNetworkUpdateRate(X0_4, false, CharacterUpdateFrequency.NoUpdate);
+        WaitFixedTimeSeconds(2);
+        RestartEvent();
+    }
+L0:
     SetNetworkUpdateRate(X0_4, false, CharacterUpdateFrequency.NoUpdate);
-    WaitFixedTimeSeconds(2);
-    EndUnconditionally(EventEndType.Restart);
-    Label0();
-    SetNetworkUpdateRate(X0_4, false, CharacterUpdateFrequency.NoUpdate);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //-----------------------------------
 // Mimic - Enable Open Action
 //-----------------------------------
-Event(20005400, Default, function(X0_4) {
-    IfCharacterHasSpeffect(AND_01, X0_4, 11700, true, ComparisonType.Equal, 1);
-    IfActionButtonInArea(AND_01, 8010, X0_4);
-    IfCharacterType(OR_01, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, FAIL, OR_01);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20005400, Default, function(X0_4) {
+    WaitFor(
+        CharacterHasSpEffect(X0_4, 11700)
+            && ActionButtonInArea(8010, X0_4)
+            && !CharacterType(10000, TargetType.BlackPhantom));
     WarpCharacterAndCopyFloor(10000, TargetEntityType.Character, X0_4, 100, 10000);
     ForceAnimationPlayback(10000, 60080, false, false, false, 0, 1);
-    GotoIfCharacterHasSpeffect(Label.LABEL1, X0_4, 5020, true, ComparisonType.Equal, 1);
-    GotoIfCharacterHasSpeffect(Label.LABEL2, X0_4, 5021, true, ComparisonType.Equal, 1);
-    EndUnconditionally(EventEndType.End);
-    Label1();
+    GotoIf(L1, CharacterHasSpEffect(X0_4, 5020));
+    GotoIf(L2, CharacterHasSpEffect(X0_4, 5021));
+    EndEvent();
+L1:
     ForceAnimationPlayback(X0_4, 3000, false, false, false, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
-    Label2();
+    RestartEvent();
+L2:
     RequestCharacterAIReplan(X0_4);
     RequestCharacterAICommand(X0_4, 10, 0);
-    IfCharacterHasSpeffect(MAIN, X0_4, 5404, true, ComparisonType.Equal, 1);
+    WaitFor(CharacterHasSpEffect(X0_4, 5404));
     RequestCharacterAICommand(X0_4, -1, 0);
     RequestCharacterAIReplan(X0_4);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //-----------------------------------
 // Enemy - Dragon Trap
 //-----------------------------------
-Event(20005410, Restart, function(X0_4, X4_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfCharacterAIState(MAIN, X0_4, AIStateType.Combat, ComparisonType.Equal, 1);
+$Event(20005410, Restart, function(X0_4, X4_4) {
+    EndIf(ThisEventSlot());
+    WaitFor(CharacterAIState(X0_4, AIStateType.Combat));
     ForceAnimationPlayback(X0_4, X4_4, false, false, false, 0, 1);
     RequestCharacterAICommand(X0_4, 1, 0);
     WaitFixedTimeSeconds(5);
@@ -1872,14 +1664,15 @@ Event(20005410, Restart, function(X0_4, X4_4) {
 //-----------------------------------
 // Enemy - Ladder Gank
 //-----------------------------------
-Event(20005411, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005411, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(ThisEventSlot());
     ForceAnimationPlayback(X4_4, X8_4, false, false, false, 0, 1);
-    IfCharacterHasEventMessage(MAIN, X0_4, 20, true, ComparisonType.Equal, 1);
+    WaitFor(CharacterHasEventMessage(X0_4, 20));
     WaitFixedTimeSeconds(X16_4);
-    GotoIfCharacterHasSpeffect(Label.LABEL0, X4_4, 5450, true, ComparisonType.Equal, 1);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    if (!CharacterHasSpEffect(X4_4, 5450)) {
+        EndEvent();
+    }
+L0:
     ForceAnimationPlayback(X4_4, X12_4, false, false, false, 0, 1);
     RequestCharacterAIReplan(X4_4);
 });
@@ -1887,7 +1680,7 @@ Event(20005411, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 //-----------------------------------
 // Pus of Man Setup - End Flag, Entity ID, Entity ID, Anim ID 1, Anim ID 2, Area Entity ID, Label1 Flag, Label0 Flag
 //-----------------------------------
-Event(20005415, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+$Event(20005415, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     CreateNPCPart(X8_4, 10, NPCPartType.Part1, 9999, 1, 1, false, false);
     CreateNPCPart(X8_4, 20, NPCPartType.Part2, 9999, 1, 1, false, false);
     CreateNPCPart(X8_4, 30, NPCPartType.Part3, 9999, 1, 1, false, false);
@@ -1900,56 +1693,54 @@ Event(20005415, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetCharacterAnimationState(X8_4, Disabled);
     SetCharacterGravity(X8_4, Disabled);
     SetCharacterHPBarDisplay(X8_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X28_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X24_4);
-    ForceAnimationPlayback(X4_4, X12_4, false, false, true, 0, 1);
-    IfCharacterAIState(OR_01, X4_4, AIStateType.Recognition, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_01, X4_4, AIStateType.Alert, ComparisonType.Equal, 1);
-    IfCharacterAIState(OR_01, X4_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfCharacterBackreadStatus(AND_01, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    IfCharacterHasSpeffect(AND_09, X4_4, 5450, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_09);
-    ForceAnimationPlayback(X4_4, X16_4, false, true, true, 0, 1);
-    SetNetworkconnectedEventFlag(X24_4, ON);
-    Label1();
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_02, PASS, AND_09);
-    IfCharacterType(OR_02, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfEntityInoutsideRadiusOfEntity(AND_02, InsideOutsideState.Inside, X4_4, 10000, 5, 1);
-    IfConditionGroup(OR_03, PASS, AND_02);
-    IfCharacterHPRatio(OR_03, X4_4, ComparisonType.Equal, 0, ComparisonType.Equal, 1);
-    IfDamageType(OR_03, X4_4, -1, DamageType.Unspecified);
-    IfElapsedSeconds(OR_03, 8);
-    IfConditionGroup(AND_03, PASS, OR_03);
-    IfCharacterBackreadStatus(AND_03, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_03);
-    ForceAnimationPlayback(X4_4, 3010, false, false, true, 0, 1);
-    SetCharacterHPBarDisplay(X4_4, Disabled);
-    IfCharacterHasEventMessage(AND_04, X4_4, 100, true, ComparisonType.Equal, 1);
-    IfCharacterDeadalive(AND_04, X4_4, DeathState.Alive, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_04, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_04);
-    SetNetworkconnectedEventFlag(X28_4, ON);
-    ChangeCharacterEnableState(X8_4, Enabled);
-    SetCharacterGravity(X8_4, Enabled);
-    SetCharacterAnimationState(X8_4, Enabled);
-    SetCharacterHPBarDisplay(X8_4, Enabled);
-    WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Character, X4_4, 110, X4_4);
-    ForceAnimationPlayback(X8_4, 3010, false, false, true, 0, 1);
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    WaitFixedTimeFrames(1);
-    SetCharacterHome(X8_4, X20_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    EndIf(EventFlag(X0_4));
+    if (!EventFlag(X28_4)) {
+        EndIf(ThisEventSlot());
+        if (!EventFlag(X24_4)) {
+            ForceAnimationPlayback(X4_4, X12_4, false, false, true, 0, 1);
+            WaitFor(
+                (CharacterAIState(X4_4, AIStateType.Recognition)
+                    || CharacterAIState(X4_4, AIStateType.Alert)
+                    || CharacterAIState(X4_4, AIStateType.Combat))
+                    && CharacterBackreadStatus(X4_4));
+            spChr &= !CharacterHasSpEffect(X4_4, 5450);
+            if (!spChr) {
+                ForceAnimationPlayback(X4_4, X16_4, false, true, true, 0, 1);
+            }
+            SetNetworkconnectedEventFlag(X24_4, ON);
+        }
+L1:
+        spChr &= CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710);
+        WaitFor(
+            (((spChr
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom))
+                && EntityInRadiusOfEntity(X4_4, 10000, 5, 1))
+                || HPRatio(X4_4) == 0
+                || HasDamageType(X4_4, -1, DamageType.Unspecified)
+                || ElapsedSeconds(8))
+                && CharacterBackreadStatus(X4_4));
+        ForceAnimationPlayback(X4_4, 3010, false, false, true, 0, 1);
+        SetCharacterHPBarDisplay(X4_4, Disabled);
+        WaitFor(
+            CharacterHasEventMessage(X4_4, 100)
+                && !CharacterDead(X4_4)
+                && CharacterBackreadStatus(X4_4));
+        SetNetworkconnectedEventFlag(X28_4, ON);
+        ChangeCharacterEnableState(X8_4, Enabled);
+        SetCharacterGravity(X8_4, Enabled);
+        SetCharacterAnimationState(X8_4, Enabled);
+        SetCharacterHPBarDisplay(X8_4, Enabled);
+        WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Character, X4_4, 110, X4_4);
+        ForceAnimationPlayback(X8_4, 3010, false, false, true, 0, 1);
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        WaitFixedTimeFrames(1);
+        SetCharacterHome(X8_4, X20_4);
+        EndEvent();
+    }
+L0:
     ChangeCharacterEnableState(X8_4, Enabled);
     SetCharacterGravity(X8_4, Enabled);
     SetCharacterAnimationState(X8_4, Enabled);
@@ -1958,28 +1749,27 @@ Event(20005415, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
     SetCharacterHome(X8_4, X20_4);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
-Event(20005416, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    ForceCharacterDeath(X4_4, false);
-    ChangeCharacterEnableState(X8_4, Disabled);
-    SetCharacterAnimationState(X8_4, Disabled);
-    ForceCharacterDeath(X8_4, false);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    IfCharacterDeadalive(OR_01, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
-    IfCharacterDeadalive(OR_01, X8_4, DeathState.Dead, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, OR_01);
+$Event(20005416, Restart, function(X0_4, X4_4, X8_4) {
+    if (EventFlag(X0_4)) {
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        ForceCharacterDeath(X4_4, false);
+        ChangeCharacterEnableState(X8_4, Disabled);
+        SetCharacterAnimationState(X8_4, Disabled);
+        ForceCharacterDeath(X8_4, false);
+        EndEvent();
+    }
+L0:
+    WaitFor(CharacterDead(X4_4) || CharacterDead(X8_4));
     SetEventFlag(X0_4, ON);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 // Pus of Man Setup
-Event(20005417, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+$Event(20005417, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     CreateNPCPart(X8_4, 10, NPCPartType.Part1, 9999, 1, 1, false, false);
     CreateNPCPart(X8_4, 20, NPCPartType.Part2, 9999, 1, 1, false, false);
     CreateNPCPart(X8_4, 30, NPCPartType.Part3, 9999, 1, 1, false, false);
@@ -1992,62 +1782,59 @@ Event(20005417, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     SetCharacterAnimationState(X8_4, Disabled);
     SetCharacterGravity(X8_4, Disabled);
     SetCharacterHPBarDisplay(X8_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X28_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X24_4);
-    ForceAnimationPlayback(X4_4, X12_4, false, false, true, 0, 1);
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_09);
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X32_4, 1);
-    IfCharacterBackreadStatus(AND_01, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_11, PASS, AND_01);
-    IfCharacterDamagedBy(OR_11, X4_4, 10000);
-    IfConditionGroup(MAIN, PASS, OR_11);
-    IfCharacterHasSpeffect(AND_09, X4_4, 5450, false, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_09);
-    ForceAnimationPlayback(X4_4, X16_4, false, true, true, 0, 1);
-    SetNetworkconnectedEventFlag(X24_4, ON);
-    Label1();
-    IfCharacterType(AND_09, 10000, TargetType.BlackPhantom, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_09, 10000, 3710, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_02, PASS, AND_09);
-    IfCharacterType(OR_02, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfCharacterType(OR_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfEntityInoutsideRadiusOfEntity(AND_02, InsideOutsideState.Inside, X4_4, 10000, 5, 1);
-    IfConditionGroup(OR_03, PASS, AND_02);
-    IfCharacterHPRatio(OR_03, X4_4, ComparisonType.Equal, 0, ComparisonType.Equal, 1);
-    IfDamageType(OR_03, X4_4, -1, DamageType.Unspecified);
-    IfElapsedSeconds(OR_03, 8);
-    IfConditionGroup(AND_03, PASS, OR_03);
-    IfCharacterBackreadStatus(AND_03, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_03);
-    ForceAnimationPlayback(X4_4, 3010, false, false, true, 0, 1);
-    SetCharacterHPBarDisplay(X4_4, Disabled);
-    IfCharacterHasEventMessage(AND_04, X4_4, 100, true, ComparisonType.Equal, 1);
-    IfCharacterDeadalive(AND_04, X4_4, DeathState.Alive, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_04, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_04);
-    SetNetworkconnectedEventFlag(X28_4, ON);
-    ChangeCharacterEnableState(X8_4, Enabled);
-    SetCharacterGravity(X8_4, Enabled);
-    SetCharacterAnimationState(X8_4, Enabled);
-    SetCharacterHPBarDisplay(X8_4, Enabled);
-    WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Character, X4_4, 110, X4_4);
-    ForceAnimationPlayback(X8_4, 3010, false, false, true, 0, 1);
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    WaitFixedTimeFrames(1);
-    SetCharacterHome(X8_4, X20_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    EndIf(EventFlag(X0_4));
+    if (!EventFlag(X28_4)) {
+        EndIf(ThisEventSlot());
+        if (!EventFlag(X24_4)) {
+            ForceAnimationPlayback(X4_4, X12_4, false, false, true, 0, 1);
+            WaitFor(
+                ((spChr
+                    || CharacterType(10000, TargetType.Alive)
+                    || CharacterType(10000, TargetType.Hollow)
+                    || CharacterType(10000, TargetType.WhitePhantom))
+                    && InArea(10000, X32_4)
+                    && CharacterBackreadStatus(X4_4))
+                    || CharacterDamagedBy(X4_4, 10000));
+            spChr &= !CharacterHasSpEffect(X4_4, 5450)
+                && CharacterType(10000, TargetType.BlackPhantom)
+                && CharacterHasSpEffect(10000, 3710);
+            if (!spChr) {
+                ForceAnimationPlayback(X4_4, X16_4, false, true, true, 0, 1);
+            }
+            SetNetworkconnectedEventFlag(X24_4, ON);
+        }
+L1:
+        spChr &= CharacterType(10000, TargetType.BlackPhantom) && CharacterHasSpEffect(10000, 3710);
+        WaitFor(
+            (((spChr
+                || CharacterType(10000, TargetType.Alive)
+                || CharacterType(10000, TargetType.Hollow)
+                || CharacterType(10000, TargetType.WhitePhantom))
+                && EntityInRadiusOfEntity(X4_4, 10000, 5, 1))
+                || HPRatio(X4_4) == 0
+                || HasDamageType(X4_4, -1, DamageType.Unspecified)
+                || ElapsedSeconds(8))
+                && CharacterBackreadStatus(X4_4));
+        ForceAnimationPlayback(X4_4, 3010, false, false, true, 0, 1);
+        SetCharacterHPBarDisplay(X4_4, Disabled);
+        WaitFor(
+            CharacterHasEventMessage(X4_4, 100)
+                && !CharacterDead(X4_4)
+                && CharacterBackreadStatus(X4_4));
+        SetNetworkconnectedEventFlag(X28_4, ON);
+        ChangeCharacterEnableState(X8_4, Enabled);
+        SetCharacterGravity(X8_4, Enabled);
+        SetCharacterAnimationState(X8_4, Enabled);
+        SetCharacterHPBarDisplay(X8_4, Enabled);
+        WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Character, X4_4, 110, X4_4);
+        ForceAnimationPlayback(X8_4, 3010, false, false, true, 0, 1);
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        WaitFixedTimeFrames(1);
+        SetCharacterHome(X8_4, X20_4);
+        EndEvent();
+    }
+L0:
     ChangeCharacterEnableState(X8_4, Enabled);
     SetCharacterGravity(X8_4, Enabled);
     SetCharacterAnimationState(X8_4, Enabled);
@@ -2056,96 +1843,91 @@ Event(20005417, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
     SetCharacterHome(X8_4, X20_4);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
-Event(20005430, Restart, function(X0_4) {
-    IfNPCPartHP(AND_01, X0_4, 50, 0, ComparisonType.LessOrEqual);
-    IfNPCPartHP(AND_02, X0_4, 80, 0, ComparisonType.LessOrEqual);
-    IfNPCPartHP(AND_03, X0_4, 90, 0, ComparisonType.LessOrEqual);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfConditionGroup(OR_01, PASS, AND_02);
-    IfConditionGroup(OR_01, PASS, AND_03);
-    IfConditionGroup(AND_04, PASS, OR_01);
-    IfCharacterBackreadStatus(AND_04, X0_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_04);
-    GotoIfConditionGroupStateCompiled(Label.LABEL0, PASS, AND_01);
-    GotoIfConditionGroupStateCompiled(Label.LABEL1, PASS, AND_03);
-    WaitFixedTimeFrames(1);
-    SetNPCPartHP(X0_4, 80, 99999, false);
-    EndUnconditionally(EventEndType.Restart);
-    Label1();
-    WaitFixedTimeFrames(1);
-    SetNPCPartHP(X0_4, 90, 99999, false);
-    EndUnconditionally(EventEndType.Restart);
-    Label0();
+$Event(20005430, Restart, function(X0_4) {
+    hp = NPCPartHP(X0_4, 50) <= 0;
+    hp2 = NPCPartHP(X0_4, 80) <= 0;
+    hp3 = NPCPartHP(X0_4, 90) <= 0;
+    WaitFor((hp || hp2 || hp3) && CharacterBackreadStatus(X0_4));
+    if (!hp.Passed) {
+        if (!hp3.Passed) {
+            WaitFixedTimeFrames(1);
+            SetNPCPartHP(X0_4, 80, 99999, false);
+            RestartEvent();
+        }
+L1:
+        WaitFixedTimeFrames(1);
+        SetNPCPartHP(X0_4, 90, 99999, false);
+        RestartEvent();
+    }
+L0:
     WaitFixedTimeFrames(1);
     SetNPCPartHP(X0_4, 50, 99999, false);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
-Event(20005431, Restart, function(X0_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfCharacterBackreadStatus(MAIN, X0_4, true, ComparisonType.Equal, 1);
-    CreateNPCPart(X0_4, 50, NPCPartType.Part5, 300, 1, 1, false, false);
-    CreateNPCPart(X0_4, 80, NPCPartType.Part8, 90, 1, 1, false, false);
-    CreateNPCPart(X0_4, 90, NPCPartType.Part9, 90, 1, 1, false, false);
-    GotoIfCharacterHasSpeffect(Label.LABEL0, X0_4, 5405, false, ComparisonType.Equal, 1);
-    ChangeCharacterHitmask(X0_4, 1, ON);
-    Label0();
-    IfNPCPartHP(AND_05, X0_4, 50, 0, ComparisonType.LessOrEqual);
-    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_05);
-    SetNPCPartHP(X0_4, 50, 99999, false);
-    IfNPCPartHP(AND_08, X0_4, 80, 0, ComparisonType.LessOrEqual);
-    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_08);
-    SetNPCPartHP(X0_4, 80, 99999, false);
-    IfNPCPartHP(AND_09, X0_4, 90, 0, ComparisonType.LessOrEqual);
-    SkipIfConditionGroupStateUncompiled(1, FAIL, AND_09);
-    SetNPCPartHP(X0_4, 90, 99999, false);
-    IfNPCPartHP(AND_01, X0_4, 50, 0, ComparisonType.LessOrEqual);
-    IfNPCPartHP(AND_02, X0_4, 80, 0, ComparisonType.LessOrEqual);
-    IfNPCPartHP(AND_03, X0_4, 90, 0, ComparisonType.LessOrEqual);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfConditionGroup(OR_01, PASS, AND_02);
-    IfConditionGroup(OR_01, PASS, AND_03);
-    IfConditionGroup(AND_04, PASS, OR_01);
-    IfCharacterHasSpeffect(AND_04, X0_4, 30, false, ComparisonType.Equal, 1);
-    IfCharacterHPRatio(AND_04, X0_4, ComparisonType.Greater, 0, ComparisonType.Equal, 1);
-    IfCharacterDeadalive(AND_04, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_04);
-    SetSpeffect(X0_4, 6050);
-    GotoIfConditionGroupStateCompiled(Label.LABEL1, PASS, AND_01);
-    GotoIfConditionGroupStateCompiled(Label.LABEL2, PASS, AND_02);
-    GotoIfConditionGroupStateCompiled(Label.LABEL3, PASS, AND_03);
-    Label1();
+$Event(20005431, Restart, function(X0_4) {
+    if (!ThisEventSlot()) {
+        WaitFor(CharacterBackreadStatus(X0_4));
+        CreateNPCPart(X0_4, 50, NPCPartType.Part5, 300, 1, 1, false, false);
+        CreateNPCPart(X0_4, 80, NPCPartType.Part8, 90, 1, 1, false, false);
+        CreateNPCPart(X0_4, 90, NPCPartType.Part9, 90, 1, 1, false, false);
+        if (CharacterHasSpEffect(X0_4, 5405)) {
+            ChangeCharacterHitmask(X0_4, 1, ON);
+        }
+    }
+L0:
+    if (NPCPartHP(X0_4, 50) <= 0) {
+        SetNPCPartHP(X0_4, 50, 99999, false);
+    }
+    if (NPCPartHP(X0_4, 80) <= 0) {
+        SetNPCPartHP(X0_4, 80, 99999, false);
+    }
+    if (NPCPartHP(X0_4, 90) <= 0) {
+        SetNPCPartHP(X0_4, 90, 99999, false);
+    }
+    hp = NPCPartHP(X0_4, 50) <= 0;
+    hp2 = NPCPartHP(X0_4, 80) <= 0;
+    hp3 = NPCPartHP(X0_4, 90) <= 0;
+    WaitFor(
+        (hp || hp2 || hp3)
+            && !CharacterHasSpEffect(X0_4, 30)
+            && HPRatio(X0_4) > 0
+            && !CharacterDead(X0_4));
+    SetSpEffect(X0_4, 6050);
+    GotoIf(L1, hp.Passed);
+    GotoIf(L2, hp2.Passed);
+    GotoIf(L3, hp3.Passed);
+L1:
     ForceAnimationPlayback(X0_4, 20011, false, true, true, 0, 1);
-    GotoUnconditionally(Label.LABEL4);
-    Label2();
+    Goto(L4);
+L2:
     ForceAnimationPlayback(X0_4, 20010, false, true, true, 0, 1);
-    GotoUnconditionally(Label.LABEL4);
-    Label3();
+    Goto(L4);
+L3:
     ForceAnimationPlayback(X0_4, 20005, false, true, true, 0, 1);
-    Label4();
-    IfCharacterHasEventMessage(MAIN, X0_4, 10, true, ComparisonType.Equal, 1);
-    EndUnconditionally(EventEndType.Restart);
+L4:
+    WaitFor(CharacterHasEventMessage(X0_4, 10));
+    RestartEvent();
 });
 
-Event(20005432, Restart, function(X0_4) {
-    IfCharacterBackreadStatus(MAIN, X0_4, true, ComparisonType.Equal, 1);
+$Event(20005432, Restart, function(X0_4) {
+    WaitFor(CharacterBackreadStatus(X0_4));
     CreateNPCPart(X0_4, 10, NPCPartType.Part1, 450, 1, 1, false, false);
-    IfCharacterDeadalive(AND_01, X0_4, DeathState.Alive, ComparisonType.Equal, 1);
-    IfNPCPartHP(AND_01, X0_4, 10, 0, ComparisonType.LessOrEqual);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    WaitFor(!CharacterDead(X0_4) && NPCPartHP(X0_4, 10) <= 0);
     ForceAnimationPlayback(X0_4, 20000, false, true, true, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
-Event(20005434, Restart, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventIDSlotNumber, 0);
-    SetCharacterInvincibility(X4_4, Disabled);
-    ForceAnimationPlayback(X4_4, 30000, true, false, false, 0, 1);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20005434, Restart, function(X0_4, X4_4) {
+    if (ThisEventSlot()) {
+        SetCharacterInvincibility(X4_4, Disabled);
+        ForceAnimationPlayback(X4_4, 30000, true, false, false, 0, 1);
+        EndEvent();
+    }
+L0:
     ChangeCharacterDispmask(X0_4, 0, ON);
     ChangeCharacterDispmask(X0_4, 1, OFF);
     ChangeCharacterDispmask(X0_4, 2, OFF);
@@ -2158,14 +1940,12 @@ Event(20005434, Restart, function(X0_4, X4_4) {
     SetCharacterAIState(X4_4, Disabled);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
-    IfCharacterBackreadStatus(MAIN, X0_4, true, ComparisonType.Equal, 1);
+    WaitFor(CharacterBackreadStatus(X0_4));
     CreateNPCPart(X0_4, 30, NPCPartType.Part3, 800, 1, 1, false, false);
     CreateNPCPart(X0_4, 40, NPCPartType.Part4, 800, 1, 1, false, false);
-    IfNPCPartHP(OR_01, X0_4, 30, 0, ComparisonType.LessOrEqual);
-    IfNPCPartHP(OR_02, X0_4, 40, 0, ComparisonType.LessOrEqual);
-    IfConditionGroup(OR_03, PASS, OR_01);
-    IfConditionGroup(OR_03, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, OR_03);
+    hp = NPCPartHP(X0_4, 30) <= 0;
+    hp2 = NPCPartHP(X0_4, 40) <= 0;
+    WaitFor(hp || hp2);
     WaitFixedTimeFrames(1);
     ChangeCharacterDispmask(X0_4, 0, OFF);
     ChangeCharacterDispmask(X0_4, 1, ON);
@@ -2177,83 +1957,91 @@ Event(20005434, Restart, function(X0_4, X4_4) {
     ChangeCharacterDispmask(X4_4, 1, OFF);
     ChangeCharacterDispmask(X4_4, 2, ON);
     ChangeCharacterDispmask(X4_4, 3, OFF);
-    GotoIfConditionGroupStateCompiled(Label.LABEL1, PASS, OR_01);
-    GotoIfConditionGroupStateCompiled(Label.LABEL2, PASS, OR_02);
-    Label1();
+    GotoIf(L1, hp.Passed);
+    GotoIf(L2, hp2.Passed);
+L1:
     ForceAnimationPlayback(X4_4, 20000, false, false, false, 0, 1);
     ForceAnimationPlayback(X0_4, 20000, false, true, false, 0, 1);
-    EndUnconditionally(EventEndType.End);
-    Label2();
+    EndEvent();
+L2:
     ForceAnimationPlayback(X4_4, 20001, false, false, false, 0, 1);
     ForceAnimationPlayback(X0_4, 20001, false, true, false, 0, 1);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 // Enemy - Toggle Gravity and Warp on activation
-Event(20005440, Restart, function(X0_4, X4_4, X8_4) {
+$Event(20005440, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterGravity(X4_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+    EndIf(ThisEventSlot());
     ChangeCharacterEnableState(X4_4, Disabled);
-    IfCharacterHasEventMessage(MAIN, X0_4, X8_4, true, ComparisonType.Equal, 1);
-    Label1();
+    WaitFor(CharacterHasEventMessage(X0_4, X8_4));
+L1:
     ChangeCharacterEnableState(X4_4, Enabled);
     WaitFixedTimeFrames(1);
     WarpCharacterAndCopyFloor(X4_4, TargetEntityType.Character, X0_4, 100, X0_4);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // Enemy - Kill if main enemy is dead
-Event(20005441, Restart, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
-    Label0();
+$Event(20005441, Restart, function(X0_4, X4_4) {
+    if (!ThisEventSlot()) {
+        WaitFor(CharacterDead(X0_4));
+    }
+L0:
     ForceCharacterDeath(X4_4, false);
 });
 
-Event(20005490, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4, X48_4) {
+$Event(20005490, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4, X48_4) {
     SetNetworkSyncState(Disabled);
-    IfCharacterAIState(AND_01, X4_4, AIStateType.Combat, ComparisonType.Equal, 1);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9031);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X48_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(9030, ON);
-    SetNetworkconnectedEventFlag(X48_4, ON);
+    WaitFor(
+        (CharacterAIState(X4_4, AIStateType.Combat) && EventFlag(9031) && !PlayerIsNotInOwnWorld())
+            || EventFlag(X48_4));
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkconnectedEventFlag(9030, ON);
+        SetNetworkconnectedEventFlag(X48_4, ON);
+    }
     SetEventFlag(X48_4, OFF);
     ForceAnimationPlayback(X8_4, 20, false, false, false, 0, 1);
     WaitFixedTimeSeconds(2.5);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 50);
-    ShootBullet(X0_4, X12_4, X16_4, X20_4, 0, 0, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 51);
-    ShootBullet(X0_4, X12_4, X16_4, X24_4, 0, 0, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 52);
-    ShootBullet(X0_4, X12_4, X16_4, X28_4, 0, 0, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 53);
-    ShootBullet(X0_4, X12_4, X16_4, X32_4, 0, 0, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 54);
-    ShootBullet(X0_4, X12_4, X16_4, X36_4, 0, 0, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 55);
-    ShootBullet(X0_4, X12_4, X16_4, X40_4, 0, 0, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 56);
-    ShootBullet(X0_4, X12_4, X16_4, X44_4, 0, 0, 0);
+    if (EventFlag(50)) {
+        ShootBullet(X0_4, X12_4, X16_4, X20_4, 0, 0, 0);
+    }
+    if (EventFlag(51)) {
+        ShootBullet(X0_4, X12_4, X16_4, X24_4, 0, 0, 0);
+    }
+    if (EventFlag(52)) {
+        ShootBullet(X0_4, X12_4, X16_4, X28_4, 0, 0, 0);
+    }
+    if (EventFlag(53)) {
+        ShootBullet(X0_4, X12_4, X16_4, X32_4, 0, 0, 0);
+    }
+    if (EventFlag(54)) {
+        ShootBullet(X0_4, X12_4, X16_4, X36_4, 0, 0, 0);
+    }
+    if (EventFlag(55)) {
+        ShootBullet(X0_4, X12_4, X16_4, X40_4, 0, 0, 0);
+    }
+    if (EventFlag(56)) {
+        ShootBullet(X0_4, X12_4, X16_4, X44_4, 0, 0, 0);
+    }
     WaitFixedTimeSeconds(1);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(9030, OFF);
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkconnectedEventFlag(9030, OFF);
+    }
     WaitFixedTimeSeconds(2);
     ForceAnimationPlayback(X8_4, 0, true, false, false, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // NPC - 
-Event(20005491, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+$Event(20005491, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Enabled);
-    
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(9031, OFF);
-    SetNetworkconnectedEventFlag(X12_4, OFF);
-    
+
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkconnectedEventFlag(9031, OFF);
+        SetNetworkconnectedEventFlag(X12_4, OFF);
+    }
+
     SetCharacterBackreadState(X0_4, true);
     SetCharacterBackreadState(X4_4, true);
     ChangeCharacterEnableState(X0_4, Disabled);
@@ -2268,18 +2056,16 @@ Event(20005491, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkUpdateRate(X4_4, false, CharacterUpdateFrequency.AlwaysUpdate);
     RequestCharacterAIReplan(X0_4);
     RequestCharacterAIReplan(X4_4);
-    
-    IfBatchEventFlags(AND_01, LogicalOperationType.NotAllOFF, TargetEventFlagType.EventFlag, 1460, 1461);
-    IfBatchEventFlags(AND_01, LogicalOperationType.NotAllOFF, TargetEventFlagType.EventFlag, 1475, 1477);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X8_4, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(9031, ON);
-    SetNetworkconnectedEventFlag(X12_4, ON);
-    
+
+    WaitFor(
+        (AnyBatchEventFlags(1460, 1461) && AnyBatchEventFlags(1475, 1477) && InArea(10000, X8_4))
+            || EventFlag(X12_4));
+
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkconnectedEventFlag(9031, ON);
+        SetNetworkconnectedEventFlag(X12_4, ON);
+    }
+
     SetCharacterBackreadState(X0_4, false);
     SetCharacterBackreadState(X4_4, false);
     ChangeCharacterEnableState(X0_4, Enabled);
@@ -2294,206 +2080,219 @@ Event(20005491, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkUpdateRate(X4_4, true, CharacterUpdateFrequency.AlwaysUpdate);
     RequestCharacterAIReplan(X0_4);
     RequestCharacterAIReplan(X4_4);
-    
+
     WaitFixedTimeSeconds(1);
-    
+
     SetNetworkSyncState(Disabled);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false);
-    
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, 9030);
-    IfBatchEventFlags(OR_02, LogicalOperationType.AllOFF, TargetEventFlagType.EventFlag, 1460, 1461);
-    IfBatchEventFlags(OR_02, LogicalOperationType.AllOFF, TargetEventFlagType.EventFlag, 1475, 1477);
-    IfAllPlayersInoutsideArea(OR_02, InsideOutsideState.Outside, X8_4);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfConditionGroup(OR_03, PASS, AND_02);
-    IfEventFlag(OR_03, OFF, TargetEventFlagType.EventFlag, X12_4);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    WaitFor(
+        (!PlayerIsNotInOwnWorld()
+            && !EventFlag(9030)
+            && (!AnyBatchEventFlags(1460, 1461)
+                || !AnyBatchEventFlags(1475, 1477)
+                || !AllPlayersInArea(X8_4)))
+            || !EventFlag(X12_4));
+
+    RestartEvent();
 });
 
-Event(20005492, Restart, function(X0_4) {
+$Event(20005492, Restart, function(X0_4) {
     SetNetworkSyncState(Disabled);
-    IfCharacterHasSpeffect(MAIN, 10000, 12035, true, ComparisonType.Equal, 1);
+    WaitFor(CharacterHasSpEffect(10000, 12035));
     SetCameraVibration(104, TargetEntityType.Area, X0_4, -1, 999, 999);
     WaitFixedTimeSeconds(1.5);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
-Event(20005493, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 1475);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 50006250);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 50006250);
-    IfBatchEventFlags(AND_01, LogicalOperationType.NotAllOFF, TargetEventFlagType.EventFlag, 1476, 1477);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfConditionGroupStateCompiled(Label.LABEL10, PASS, AND_01);
-    SetCharacterTeamType(X0_4, TeamType.CoopNPC);
-    SetCharacterTeamType(X4_4, TeamType.CoopNPC);
-    RequestCharacterAIReplan(X0_4);
-    RequestCharacterAIReplan(X4_4);
-    SetNetworkconnectedEventFlag(X8_4, ON);
-    EndUnconditionally(EventEndType.Restart);
-    Label10();
+$Event(20005493, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(EventFlag(1475));
+    if (!EventFlag(50006250)) {
+        flag |= EventFlag(50006250);
+    }
+    flag2 = AnyBatchEventFlags(1476, 1477);
+    flag |= flag2;
+    WaitFor(flag);
+    if (!flag2.Passed) {
+        SetCharacterTeamType(X0_4, TeamType.CoopNPC);
+        SetCharacterTeamType(X4_4, TeamType.CoopNPC);
+        RequestCharacterAIReplan(X0_4);
+        RequestCharacterAIReplan(X4_4);
+        SetNetworkconnectedEventFlag(X8_4, ON);
+        RestartEvent();
+    }
+L10:
     SetCharacterTeamType(X0_4, TeamType.Indiscriminate);
     SetCharacterTeamType(X4_4, TeamType.Indiscriminate);
     RequestCharacterAIReplan(X0_4);
     RequestCharacterAIReplan(X4_4);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
-Event(20005494, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, 1475);
-    IfBatchEventFlags(OR_01, LogicalOperationType.NotAllOFF, TargetEventFlagType.EventFlag, 1462, 1474);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, OR_01);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53100010);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53100620);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53100630);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53100640);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53100650);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53100660);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53300680);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53300690);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53300700);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53300710);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53300960);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53300970);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53300980);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53500040);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53500320);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53500330);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53500340);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53500860);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 53500870);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20005494, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
+    EndIf(!EventFlag(1475) || AnyBatchEventFlags(1462, 1474));
+    WaitFor(
+        EventFlag(53100010)
+            && EventFlag(53100620)
+            && EventFlag(53100630)
+            && EventFlag(53100640)
+            && EventFlag(53100650)
+            && EventFlag(53100660)
+            && EventFlag(53300680)
+            && EventFlag(53300690)
+            && EventFlag(53300700)
+            && EventFlag(53300710)
+            && EventFlag(53300960)
+            && EventFlag(53300970)
+            && EventFlag(53300980)
+            && EventFlag(53500040)
+            && EventFlag(53500320)
+            && EventFlag(53500330)
+            && EventFlag(53500340)
+            && EventFlag(53500860)
+            && EventFlag(53500870));
     BatchSetNetworkconnectedEventFlags(1460, 1474, OFF);
     SetNetworkconnectedEventFlag(1462, ON);
 });
 
-Event(20005495, Restart, function(X0_4, X4_4, X8_4) {
+$Event(20005495, Restart, function(X0_4, X4_4, X8_4) {
     SetCharacterGravity(X0_4, Disabled);
     SetCharacterGravity(X4_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterAIState(X4_4, Disabled);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
-    SetNetworkUpdateAuthority(X4_4, AuthorityLevel.Forced);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 1476);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, 70000075);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, X8_4);
-    SkipIfConditionGroupStateUncompiled(3, PASS, OR_01);
-    SetCharacterTeamType(X0_4, TeamType.CoopNPC);
-    SetCharacterTeamType(X4_4, TeamType.CoopNPC);
-    EndUnconditionally(EventEndType.End);
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
+        SetNetworkUpdateAuthority(X4_4, AuthorityLevel.Forced);
+    }
+    flag &= EventFlag(1476);
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        flag &= !EventFlag(70000075);
+    }
+    if (!(flag || !EventFlag(X8_4))) {
+        SetCharacterTeamType(X0_4, TeamType.CoopNPC);
+        SetCharacterTeamType(X4_4, TeamType.CoopNPC);
+        EndEvent();
+    }
     SetCharacterTeamType(X0_4, TeamType.Indiscriminate);
     SetCharacterTeamType(X4_4, TeamType.Indiscriminate);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
-Event(20005496, Default, function(X0_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 1478);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 1478);
+$Event(20005496, Default, function(X0_4) {
+    EndIf(EventFlag(1478));
+    WaitFor(EventFlag(1478));
     DeactivateObject(X0_4, Disabled);
 });
 
 // Register Bonfire - After Event Flag
-Event(20005500, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    DeactivateObject(X12_4, Disabled);
-    ChangeCharacterEnableState(X8_4, Disabled);
-    WaitFixedTimeSeconds(1);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
-    SpawnOneshotSFX(TargetEntityType.Object, X12_4, 200, 1060);
-    WaitFixedTimeSeconds(0.5);
-    DeactivateObject(X12_4, Enabled);
-    ChangeCharacterEnableState(X8_4, Enabled);
-    Label0();
+$Event(20005500, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    if (!EventFlag(X0_4)) {
+        DeactivateObject(X12_4, Disabled);
+        ChangeCharacterEnableState(X8_4, Disabled);
+        WaitFixedTimeSeconds(1);
+        WaitFor(EventFlag(X0_4));
+        SpawnOneshotSFX(TargetEntityType.Object, X12_4, 200, 1060);
+        WaitFixedTimeSeconds(0.5);
+        DeactivateObject(X12_4, Enabled);
+        ChangeCharacterEnableState(X8_4, Enabled);
+    }
+L0:
     RegisterBonfire(X4_4, X12_4, 5, 180, 0);
 });
 
-Event(20005510, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X20_4);
-    DeleteObjectfollowingSFX(X4_4, true);
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, X0_4);
-    CreateObjectfollowingSFX(X4_4, 10, 82);
-    SkipUnconditionally(1);
-    CreateObjectfollowingSFX(X4_4, 10, 83);
-    Label0();
+$Event(20005510, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    if (!EventFlag(X20_4)) {
+        DeleteObjectfollowingSFX(X4_4, true);
+        if (!EventFlag(X0_4)) {
+            CreateObjectfollowingSFX(X4_4, 10, 82);
+        } else {
+            CreateObjectfollowingSFX(X4_4, 10, 83);
+        }
+    }
+L0:
     SetEventFlag(X20_4, OFF);
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfActionButtonInArea(AND_01, X12_4, X4_4);
-    SkipUnconditionally(1);
-    IfActionButtonInArea(AND_01, X16_4, X4_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X0_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    RotateCharacter(10000, X4_4, 60800, false);
-    WaitFixedTimeSeconds(2.1);
-    DeleteObjectfollowingSFX(X4_4, true);
-    SpawnOneshotSFX(TargetEntityType.Object, X4_4, 10, 84);
-    CreateObjectfollowingSFX(X4_4, 10, 83);
-    SetEventFlag(X0_4, ON);
-    Label1();
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    DisplayEpitaphMessage(X8_4);
+    if (!EventFlag(X0_4)) {
+        actOnline &= ActionButtonInArea(X12_4, X4_4);
+    } else {
+        actOnline &= ActionButtonInArea(X16_4, X4_4);
+    }
+    actOnline &= !PlayerIsNotInOwnWorld();
+    WaitFor(actOnline);
+    if (!EventFlag(X0_4)) {
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            RotateCharacter(10000, X4_4, 60800, false);
+        }
+        WaitFixedTimeSeconds(2.1);
+        DeleteObjectfollowingSFX(X4_4, true);
+        SpawnOneshotSFX(TargetEntityType.Object, X4_4, 10, 84);
+        CreateObjectfollowingSFX(X4_4, 10, 83);
+        SetEventFlag(X0_4, ON);
+    }
+L1:
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        DisplayEpitaphMessage(X8_4);
+    }
     SetEventFlag(X20_4, ON);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
-Event(20005511, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X20_4);
-    DeleteObjectfollowingSFX(X4_4, true);
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, X0_4);
-    CreateObjectfollowingSFX(X4_4, 10, X24_4);
-    SkipUnconditionally(1);
-    CreateObjectfollowingSFX(X4_4, 10, X28_4);
-    Label0();
+$Event(20005511, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+    if (!EventFlag(X20_4)) {
+        DeleteObjectfollowingSFX(X4_4, true);
+        if (!EventFlag(X0_4)) {
+            CreateObjectfollowingSFX(X4_4, 10, X24_4);
+        } else {
+            CreateObjectfollowingSFX(X4_4, 10, X28_4);
+        }
+    }
+L0:
     SetEventFlag(X20_4, OFF);
-    SkipIfEventFlag(2, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfActionButtonInArea(AND_01, X12_4, X4_4);
-    SkipUnconditionally(1);
-    IfActionButtonInArea(AND_01, X16_4, X4_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X0_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    RotateCharacter(10000, X4_4, 60800, false);
-    WaitFixedTimeSeconds(2.1);
-    DeleteObjectfollowingSFX(X4_4, true);
-    SpawnOneshotSFX(TargetEntityType.Object, X4_4, 10, X32_4);
-    CreateObjectfollowingSFX(X4_4, 10, X28_4);
-    SetEventFlag(X0_4, ON);
-    Label1();
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    DisplayEpitaphMessage(X8_4);
+    if (!EventFlag(X0_4)) {
+        actOnline &= ActionButtonInArea(X12_4, X4_4);
+    } else {
+        actOnline &= ActionButtonInArea(X16_4, X4_4);
+    }
+    actOnline &= !PlayerIsNotInOwnWorld();
+    WaitFor(actOnline);
+    if (!EventFlag(X0_4)) {
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            RotateCharacter(10000, X4_4, 60800, false);
+        }
+        WaitFixedTimeSeconds(2.1);
+        DeleteObjectfollowingSFX(X4_4, true);
+        SpawnOneshotSFX(TargetEntityType.Object, X4_4, 10, X32_4);
+        CreateObjectfollowingSFX(X4_4, 10, X28_4);
+        SetEventFlag(X0_4, ON);
+    }
+L1:
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        DisplayEpitaphMessage(X8_4);
+    }
     SetEventFlag(X20_4, ON);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //------------------------
 // Chest - Setup
 // <used flag>, <object id>, <ObjAct id>
 //------------------------
-Event(20005520, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
-    
-    // Used chest
-    ReproduceObjectAnimation(X4_4, 1); // Open the chest
-    SetObjactState(X4_4, -1, Disabled); // Disable interaction
-    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
-    EndUnconditionally(EventEndType.End);
-    
+$Event(20005520, Restart, function(X0_4, X4_4, X8_4) {
+    if (EventFlag(X0_4)) { // Goto Label 0 if previously used
+
+        // Used chest
+        ReproduceObjectAnimation(X4_4, 1); // Open the chest
+        SetObjactState(X4_4, -1, Disabled); // Disable interaction
+        SetObjectTreasureState(X4_4, Enabled); // Enable treasure
+        EndEvent();
+    }
+
     // Unused chest
-    Label0();
+L0:
     SetObjectTreasureState(X4_4, Disabled); // Disable treasure
-    IfObjactEventFlag(MAIN, X8_4); // Wait for object activation flag
+    WaitFor(ObjActEventFlag(X8_4)); // Wait for object activation flag
     WaitFixedTimeFrames(10);
     SetObjectTreasureState(X4_4, Enabled); // Enable treasure
     SetEventFlag(X0_4, ON);
@@ -2503,39 +2302,41 @@ Event(20005520, Restart, function(X0_4, X4_4, X8_4) {
 // Pot Treasure - Setup
 // <used flag>, <flag>, <object id>, <treasure object id>, <itemlot>
 //------------------------
-Event(20005521, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfObjectDestroyed(MAIN, DestructionState.Destroyed, X8_4, ComparisonType.Equal, 1);
-    SetNetworkconnectedEventFlag(X4_4, ON);
-    ForceAnimationPlayback(X12_4, 101, false, false, false, 0, 1);
-    SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    CreateObjectfollowingSFX(X12_4, 90, 60);
-    IfActionButtonInArea(MAIN, 4200, X12_4);
-    ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
-    AwardItemLot(X16_4);
-    DeleteObjectfollowingSFX(X12_4, true);
-    SetEventFlag(X0_4, ON);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20005521, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    if (!EventFlag(X4_4)) {
+        WaitFor(ObjectDestroyed(X8_4));
+        SetNetworkconnectedEventFlag(X4_4, ON);
+        ForceAnimationPlayback(X12_4, 101, false, false, false, 0, 1);
+        SetNetworkSyncState(Disabled);
+        EndIf(EventFlag(X0_4));
+        EndIf(PlayerIsNotInOwnWorld());
+        CreateObjectfollowingSFX(X12_4, 90, 60);
+        WaitFor(ActionButtonInArea(4200, X12_4));
+        ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
+        AwardItemLot(X16_4);
+        DeleteObjectfollowingSFX(X12_4, true);
+        SetEventFlag(X0_4, ON);
+        EndEvent();
+    }
+L0:
     ReproduceObjectAnimation(X12_4, 101);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //------------------------
 // Destructible Treasure - Setup
 // <used flag>, <object id>, <ObjAct id>
 //------------------------
-Event(20005522, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventIDSlotNumber, 0);
-    ReproduceObjectAnimation(X4_4, 1);
-    SetObjactState(X4_4, -1, Disabled);
-    SetObjectTreasureState(X4_4, Enabled);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20005522, Restart, function(X0_4, X4_4, X8_4) {
+    if (ThisEventSlot()) {
+        ReproduceObjectAnimation(X4_4, 1);
+        SetObjactState(X4_4, -1, Disabled);
+        SetObjectTreasureState(X4_4, Enabled);
+        EndEvent();
+    }
+L0:
     SetObjectTreasureState(X4_4, Disabled);
-    IfObjectDestroyed(MAIN, DestructionState.Destroyed, X8_4, ComparisonType.Equal, 1);
+    WaitFor(ObjectDestroyed(X8_4));
     SetEventFlag(X0_4, ON);
     ForceAnimationPlayback(X4_4, 101, false, false, false, 0, 1);
     SetObjectTreasureState(X4_4, Enabled);
@@ -2545,13 +2346,13 @@ Event(20005522, Restart, function(X0_4, X4_4, X8_4) {
 // NG+ Treasure - Setup
 // <object>, <cycle>
 //------------------------
-Event(20005523, Restart, function(X0_4, X4_1) {
-    IfGameCycle(AND_01, ComparisonType.GreaterOrEqual, X4_1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
-    DeactivateObject(X0_4, Disabled);
-    SetObjectTreasureState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20005523, Restart, function(X0_4, X4_1) {
+    if (GameCycle() < X4_1) {
+        DeactivateObject(X0_4, Disabled);
+        SetObjectTreasureState(X0_4, Disabled);
+        EndEvent();
+    }
+L0:
     DeactivateObject(X0_4, Enabled);
     SetObjectTreasureState(X0_4, Enabled);
 });
@@ -2560,16 +2361,17 @@ Event(20005523, Restart, function(X0_4, X4_1) {
 // Event Treasure - Setup
 // <object>, <conditional flag>
 //------------------------
-Event(20005524, Restart, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X4_4); // Goto Label 0 if conditional flag is ON
-    
-    // Disable treasure object
-    DeactivateObject(X0_4, Disabled);
-    SetObjectTreasureState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
-    
+$Event(20005524, Restart, function(X0_4, X4_4) {
+    if (!EventFlag(X4_4)) { // Goto Label 0 if conditional flag is ON
+
+        // Disable treasure object
+        DeactivateObject(X0_4, Disabled);
+        SetObjectTreasureState(X0_4, Disabled);
+        EndEvent();
+    }
+
     // Enable treasure object if conditional flag is ON
-    Label0();
+L0:
     DeactivateObject(X0_4, Enabled);
     SetObjectTreasureState(X0_4, Enabled);
 });
@@ -2578,14 +2380,14 @@ Event(20005524, Restart, function(X0_4, X4_4) {
 // FFX Treasure - Custom FFX
 // <used flag>, <itemlot>, <object>, <ffx>
 //------------------------
-Event(20005525, Default, function(X0_4, X4_4, X8_4, X12_4) {
+$Event(20005525, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if previously used
-    
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is client
+    EndIf(EventFlag(X0_4)); // End if previously used
+
     // Award item to player when used
     CreateObjectfollowingSFX(X8_4, 90, X12_4);
-    IfActionButtonInArea(MAIN, 9700, X8_4);
+    WaitFor(ActionButtonInArea(9700, X8_4));
     ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
     DeleteObjectfollowingSFX(X8_4, true);
     AwardItemLot(X4_4);
@@ -2595,21 +2397,22 @@ Event(20005525, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // FFX Treasure - Custom FFX, Conditional Visibility
 // <used flag>, <itemlot>, <object>, <ffx>, <conditional flag>
 //------------------------
-Event(20005526, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+$Event(20005526, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if previously used
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X16_4); // Enable if condition flag is ON
-    
-    // Disable object
-    DeactivateObject(X4_4, Disabled);
-    EndUnconditionally(EventEndType.End);
-    
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is client
+    EndIf(EventFlag(X0_4)); // End if previously used
+    if (!EventFlag(X16_4)) { // Enable if condition flag is ON
+
+        // Disable object
+        DeactivateObject(X4_4, Disabled);
+        EndEvent();
+    }
+
     // Award item to player when used
-    Label0();
+L0:
     DeactivateObject(X4_4, Enabled);
     CreateObjectfollowingSFX(X8_4, 90, X12_4);
-    IfActionButtonInArea(MAIN, 9700, X8_4);
+    WaitFor(ActionButtonInArea(9700, X8_4));
     ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
     DeleteObjectfollowingSFX(X8_4, true);
     AwardItemLot(X4_4);
@@ -2619,66 +2422,70 @@ Event(20005526, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // FFX Treasure - Custom Action Button, Selector FFX
 // <used flag>, <itemlot>, <object>, <selector>, <action button>
 //------------------------
-Event(20005527, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+$Event(20005527, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if previously used
-    
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is client
+    EndIf(EventFlag(X0_4)); // End if previously used
+
     // Select intensity of FFX based on selector arg
-    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, X12_4, 0);
-    GotoIfComparison(Label.LABEL1, ComparisonType.Equal, X12_4, 1);
-    GotoIfComparison(Label.LABEL2, ComparisonType.Equal, X12_4, 2);
-    
-    Label0();
+    GotoIf(L0, X12_4 == 0);
+    GotoIf(L1, X12_4 == 1);
+    GotoIf(L2, X12_4 == 2);
+
+L0:
     CreateObjectfollowingSFX(X8_4, 90, 60); // Rarity 0
-    GotoUnconditionally(Label.LABEL9);
-    
-    Label1();
+    Goto(L9);
+
+L1:
     CreateObjectfollowingSFX(X8_4, 90, 61); // Rarity 1
-    GotoUnconditionally(Label.LABEL9);
-    
-    Label2();
+    Goto(L9);
+
+L2:
     CreateObjectfollowingSFX(X8_4, 90, 62); // Rarity 2
-    GotoUnconditionally(Label.LABEL9);
-    
+    Goto(L9);
+
     // Award item to player when used
-    Label9();
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfActionButtonInArea(AND_01, X16_4, X8_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
+L9:
+    WaitFor(!PlayerIsNotInOwnWorld() && ActionButtonInArea(X16_4, X8_4));
     ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
     DeleteObjectfollowingSFX(X8_4, true);
     AwardItemLot(X4_4);
 });
 
-Event(20005530, Restart, function(X0_4, X4_4) {
+$Event(20005530, Restart, function(X0_4, X4_4) {
     WaitFixedTimeFrames(1);
-    EndIfObjectDestroyed(EventEndType.End, DestructionState.Destroyed, X4_4, ComparisonType.Equal, 1);
-    IfDamageType(OR_01, X4_4, -1, DamageType.Fire);
-    IfDamageType(OR_01, X4_4, 10000, DamageType.Fire);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    EndIf(ObjectDestroyed(X4_4));
+    WaitFor(
+        HasDamageType(X4_4, -1, DamageType.Fire) || HasDamageType(X4_4, 10000, DamageType.Fire));
     WaitFixedTimeFrames(1);
     SpawnOneshotSFX(TargetEntityType.Object, X4_4, 10, 810010);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 50);
-    CreateDamagingObject(X0_4, X4_4, 10, 7000, DamageTargetType.Character, 3.5, 0.8, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 51);
-    CreateDamagingObject(X0_4, X4_4, 10, 7001, DamageTargetType.Character, 3.5, 0.8, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 52);
-    CreateDamagingObject(X0_4, X4_4, 10, 7002, DamageTargetType.Character, 3.5, 0.8, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 53);
-    CreateDamagingObject(X0_4, X4_4, 10, 7003, DamageTargetType.Character, 3.5, 0.8, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 54);
-    CreateDamagingObject(X0_4, X4_4, 10, 7004, DamageTargetType.Character, 3.5, 0.8, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 55);
-    CreateDamagingObject(X0_4, X4_4, 10, 7005, DamageTargetType.Character, 3.5, 0.8, 0);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 56);
-    CreateDamagingObject(X0_4, X4_4, 10, 7006, DamageTargetType.Character, 3.5, 0.8, 0);
+    if (EventFlag(50)) {
+        CreateDamagingObject(X0_4, X4_4, 10, 7000, DamageTargetType.Character, 3.5, 0.8, 0);
+    }
+    if (EventFlag(51)) {
+        CreateDamagingObject(X0_4, X4_4, 10, 7001, DamageTargetType.Character, 3.5, 0.8, 0);
+    }
+    if (EventFlag(52)) {
+        CreateDamagingObject(X0_4, X4_4, 10, 7002, DamageTargetType.Character, 3.5, 0.8, 0);
+    }
+    if (EventFlag(53)) {
+        CreateDamagingObject(X0_4, X4_4, 10, 7003, DamageTargetType.Character, 3.5, 0.8, 0);
+    }
+    if (EventFlag(54)) {
+        CreateDamagingObject(X0_4, X4_4, 10, 7004, DamageTargetType.Character, 3.5, 0.8, 0);
+    }
+    if (EventFlag(55)) {
+        CreateDamagingObject(X0_4, X4_4, 10, 7005, DamageTargetType.Character, 3.5, 0.8, 0);
+    }
+    if (EventFlag(56)) {
+        CreateDamagingObject(X0_4, X4_4, 10, 7006, DamageTargetType.Character, 3.5, 0.8, 0);
+    }
 });
 
-Event(20005531, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+$Event(20005531, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     WaitFixedTimeFrames(1);
-    EndIfObjectDestroyed(EventEndType.End, DestructionState.Destroyed, X4_4, ComparisonType.Equal, 1);
-    IfObjectDestroyed(MAIN, DestructionState.Destroyed, X4_4, ComparisonType.Equal, 1);
+    EndIf(ObjectDestroyed(X4_4));
+    WaitFor(ObjectDestroyed(X4_4));
     WaitFixedTimeFrames(1);
     SpawnOneshotSFX(TargetEntityType.Object, X4_4, X8_4, X16_4);
     CreateDamagingObject(X0_4, X4_4, X12_4, X20_4, DamageTargetType.Character, X24_4, X28_4, 0);
@@ -2688,88 +2495,96 @@ Event(20005531, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // Burning Object
 // <event flag>, <entity id>, <dummy poly>, <behavior>, <radius>, <lifespan>, <loop count>
 //----------------------------------------------------
-Event(20005540, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+$Event(20005540, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     DeleteObjectEvent(X0_4);
     CreateDamagingObject(X0_4, X4_4, X8_4, X12_4, DamageTargetType.Character, X16_4, X20_4, X24_4);
 });
 
-Event(20005541, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+$Event(20005541, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     DeleteObjectfollowingSFX(X4_4, true);
     CreateObjectfollowingSFX(X4_4, X32_4, X28_4);
     DeleteObjectEvent(X0_4);
     CreateDamagingObject(X0_4, X4_4, X8_4, X12_4, DamageTargetType.Character, X16_4, X20_4, X24_4);
 });
 
-Event(20005542, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+$Event(20005542, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     DeleteObjectEvent(X0_4);
-    EndIfObjectDestroyed(EventEndType.End, DestructionState.Destroyed, X4_4, ComparisonType.Equal, 1);
+    EndIf(ObjectDestroyed(X4_4));
     CreateDamagingObject(X0_4, X4_4, X8_4, X12_4, DamageTargetType.Character, X16_4, X20_4, X24_4);
-    IfObjectDestroyed(MAIN, DestructionState.Destroyed, X4_4, ComparisonType.Equal, 1);
+    WaitFor(ObjectDestroyed(X4_4));
     DeleteObjectEvent(X0_4);
 });
 
-Event(20005550, Restart, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X8_4, 1);
-    ForceAnimationPlayback(X0_4, X4_4, false, true, false, 0, 1);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20005550, Restart, function(X0_4, X4_4, X8_4) {
+    if (!ThisEventSlot()) {
+        WaitFor(InArea(10000, X8_4));
+        ForceAnimationPlayback(X0_4, X4_4, false, true, false, 0, 1);
+        EndEvent();
+    }
+L0:
     ReproduceObjectAnimation(X0_4, X4_4);
 });
 
-Event(20005551, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X8_4, 1);
-    WaitRandomTimeSeconds(X12_4, X16_4);
-    ForceAnimationPlayback(X0_4, X4_4, false, true, false, 0, 1);
-    SkipIfComparison(1, ComparisonType.NotEqual, X20_4, 1);
-    DeactivateObject(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20005551, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    if (!ThisEventSlot()) {
+        WaitFor(InArea(10000, X8_4));
+        WaitRandomTimeSeconds(X12_4, X16_4);
+        ForceAnimationPlayback(X0_4, X4_4, false, true, false, 0, 1);
+        if (X20_4 == 1) {
+            DeactivateObject(X0_4, Disabled);
+        }
+        EndEvent();
+    }
+L0:
     ReproduceObjectAnimation(X0_4, X4_4);
-    SkipIfComparison(1, ComparisonType.NotEqual, X20_4, 1);
+    if (X20_4 == 1) {
+        DeactivateObject(X0_4, Disabled);
+    }
+});
+
+$Event(20005552, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    if (!ThisEventSlot()) {
+        WaitFor(InArea(10000, X8_4));
+        SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
+        WaitRandomTimeSeconds(X12_4, X16_4);
+        ForceAnimationPlayback(X0_4, X4_4, false, true, false, 0, 1);
+        EndEvent();
+    }
+L0:
+    ReproduceObjectAnimation(X0_4, X4_4);
+});
+
+$Event(20005553, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    if (!ThisEventSlot()) {
+        WaitRandomTimeSeconds(X16_4, X20_4);
+        ForceAnimationPlayback(X0_4, X4_4, true, false, true, 0, 1);
+        WaitFor(InArea(10000, X12_4));
+        SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
+        WaitRandomTimeSeconds(X24_4, X28_4);
+        ForceAnimationPlayback(X0_4, X8_4, false, true, false, 0, 1);
+        DeactivateObject(X0_4, Disabled);
+        EndEvent();
+    }
+L0:
+    ReproduceObjectAnimation(X0_4, X4_4);
     DeactivateObject(X0_4, Disabled);
 });
 
-Event(20005552, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X8_4, 1);
-    SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    WaitRandomTimeSeconds(X12_4, X16_4);
-    ForceAnimationPlayback(X0_4, X4_4, false, true, false, 0, 1);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    ReproduceObjectAnimation(X0_4, X4_4);
-});
-
-Event(20005553, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    WaitRandomTimeSeconds(X16_4, X20_4);
-    ForceAnimationPlayback(X0_4, X4_4, true, false, true, 0, 1);
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X12_4, 1);
-    SetAutogeneratedEventspecificEventFlag2Unknown200375(2, 1);
-    WaitRandomTimeSeconds(X24_4, X28_4);
-    ForceAnimationPlayback(X0_4, X8_4, false, true, false, 0, 1);
-    DeactivateObject(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    ReproduceObjectAnimation(X0_4, X4_4);
-    DeactivateObject(X0_4, Disabled);
-});
-
-Event(20005580, Restart, function(X0_4, X4_4) {
+$Event(20005580, Restart, function(X0_4, X4_4) {
     SetNetworkSyncState(Disabled);
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL0, true);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    if (!PlayerIsNotInOwnWorld()) {
+        EndEvent();
+    }
+L0:
     SetObjactState(X0_4, X4_4, Disabled);
 });
 
-Event(20005581, Restart, function(X0_4, X4_4) {
+$Event(20005581, Restart, function(X0_4, X4_4) {
     SetNetworkSyncState(Disabled);
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL0, true);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+    if (!PlayerIsNotInOwnWorld()) {
+        EndEvent();
+    }
+L0:
     DeactivateObjactAssignIdx(X0_4, X4_4, 0, Disabled);
     DeactivateObjactAssignIdx(X0_4, X4_4, 1, Disabled);
     DeactivateObjactAssignIdx(X0_4, X4_4, 2, Disabled);
@@ -2780,65 +2595,64 @@ Event(20005581, Restart, function(X0_4, X4_4) {
 // Door - Setup Interaction Area
 // <used flag>, <region 1>, <region 2>
 //-----------------------------------
-Event(20005610, Default, function(X0_4, X4_4, X8_4) {
+$Event(20005610, Default, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X0_4); // Goto Label 1 if door was previously opened
-    
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X4_4, 1); // Player is in region 1
-    
-    IfCharacterType(OR_01, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
-    IfCharacterType(OR_01, 10000, TargetType.Hollow, ComparisonType.Equal, 1); // Player is hollow
-    SkipIfConditionGroupStateUncompiled(1, FAIL, OR_01); // Skip if player isn't alive or hollow
-    SetSpeffect(10000, 4150); // Allow door usage
-    
-    WaitFixedTimeSeconds(3);
-    
-    EndUnconditionally(EventEndType.Restart);
-    
+    if (!EventFlag(X0_4)) { // Goto Label 1 if door was previously opened
+
+        WaitFor(InArea(10000, X4_4)); // Player is in region 1
+
+        if (CharacterType(10000, TargetType.Alive) || CharacterType(10000, TargetType.Hollow)) { // Skip if player isn't alive or hollow // Player is hollow // Player is alive
+            SetSpEffect(10000, 4150); // Allow door usage
+        }
+
+        WaitFixedTimeSeconds(3);
+
+        RestartEvent();
+    }
+
     // Door was opened, both sides may be used
-    Label1();
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X4_4, 1); // Player is in region 1
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X8_4, 1); // Player is in region 2
-    IfConditionGroup(MAIN, PASS, OR_01);
-    SetSpeffect(10000, 4150); // Allow door usage
+L1:
+    WaitFor(InArea(10000, X4_4) || InArea(10000, X8_4)); // Player is in region 2 // Player is in region 1
+    SetSpEffect(10000, 4150); // Allow door usage
     WaitFixedTimeSeconds(3);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 //-----------------------------------
 // Door - Handle Door State
 // <used flag>, <object activated flag>, <object>, <ObjAct param row>
 //-----------------------------------
-Event(20005611, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if door was not previously opened
-    
-    // Disable door
-    DeactivateObjactAssignIdx(X8_4, X12_4, 0, Disabled);
-    DeactivateObjactAssignIdx(X8_4, X12_4, 1, Disabled);
-    DeactivateObjactAssignIdx(X8_4, X12_4, 2, Disabled);
-    DeactivateObjactAssignIdx(X8_4, X12_4, 3, Disabled);
-    EndUnconditionally(EventEndType.End);
-    
-    
-    Label0();
-    IfObjactEventFlag(MAIN, X4_4); // Wait for object activated flag (+2000 of entity ID)
+$Event(20005611, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    if (EventFlag(X0_4)) { // Goto Label 0 if door was not previously opened
+
+        // Disable door
+        DeactivateObjactAssignIdx(X8_4, X12_4, 0, Disabled);
+        DeactivateObjactAssignIdx(X8_4, X12_4, 1, Disabled);
+        DeactivateObjactAssignIdx(X8_4, X12_4, 2, Disabled);
+        DeactivateObjactAssignIdx(X8_4, X12_4, 3, Disabled);
+        EndEvent();
+    }
+
+
+L0:
+    WaitFor(ObjActEventFlag(X4_4)); // Wait for object activated flag (+2000 of entity ID)
     SetEventFlag(X0_4, ON); // Set object used flag
     WaitFixedTimeSeconds(2);
-    
+
     // Disable door
     DeactivateObjactAssignIdx(X8_4, X12_4, 0, Disabled);
     DeactivateObjactAssignIdx(X8_4, X12_4, 1, Disabled);
     DeactivateObjactAssignIdx(X8_4, X12_4, 2, Disabled);
     DeactivateObjactAssignIdx(X8_4, X12_4, 3, Disabled);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //-----------------------------------
 // Door - UNUSED
 //-----------------------------------
-Event(20005612, Default, function(X0_4, X4_4) {
-    IfObjactEventFlag(MAIN, X4_4);
+$Event(20005612, Default, function(X0_4, X4_4) {
+    WaitFor(ObjActEventFlag(X4_4));
     SetEventFlag(X0_4, ON);
 });
 
@@ -2846,36 +2660,33 @@ Event(20005612, Default, function(X0_4, X4_4) {
 // Door - Show Message on Usage
 // <used flag>, <object activated flag>, <object>, <ObjAct param row>, <message ID>
 //-----------------------------------
-Event(20005613, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
-    
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if door was previously used
-    
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // Player is in own world
-    IfObjactEventFlag(AND_01, X4_4); // Object has been activated
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    DisplayGenericDialog(X16_4, PromptType.OKCANCEL, NumberofOptions.NoButtons, X8_4, 3); // Show message on activation
-    SetEventFlag(X0_4, ON); // Set used flag
-    
-    Label0();
+$Event(20005613, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
+
+    if (!EventFlag(X0_4)) { // Goto Label 0 if door was previously used
+
+        WaitFor(!PlayerIsNotInOwnWorld() && ObjActEventFlag(X4_4)); // Object has been activated // Player is in own world
+
+        DisplayGenericDialog(X16_4, PromptType.OKCANCEL, NumberofOptions.NoButtons, X8_4, 3); // Show message on activation
+        SetEventFlag(X0_4, ON); // Set used flag
+    }
+
+L0:
     SetObjactState(X8_4, X12_4, Disabled); // Disable object activation
 });
 
 //-----------------------------------
 // Door - Show Wrong Side Message
 //-----------------------------------
-Event(20005614, Default, function(X0_4, X4_4) {
+$Event(20005614, Default, function(X0_4, X4_4) {
     SetNetworkSyncState(Disabled);
-    IfActionButtonInArea(OR_01, 7101, X0_4); // Check if door is used
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4); // Chec if conditional flag is ON
-    IfConditionGroup(MAIN, PASS, OR_01);
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // End if conditional flag is set
-    
+    WaitFor(ActionButtonInArea(7101, X0_4) || EventFlag(X4_4)); // Chec if conditional flag is ON // Check if door is used
+
+    EndIf(EventFlag(X4_4)); // End if conditional flag is set
+
     DisplayGenericDialog(10010161, PromptType.OKCANCEL, NumberofOptions.OneButton, -1, 3); // Does no open from this side
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 //-----------------------------------
@@ -2888,22 +2699,24 @@ Event(20005614, Default, function(X0_4, X4_4) {
 //  OFF: at top
 // flag: prefix 1 to base ID, +1001 to base ID
 //-----------------------------------
-Event(20005620, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0); // Skip if no invaders are present
-    SetEventFlag(X20_4, OFF); // Set flag off (disables usage?)
-    
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
-    
-    ForceAnimationPlayback(X8_4, 20, false, false, true, 0, 1); // Move up
-    SetEventFlag(X4_4, OFF);
-    SetObjactState(X12_4, -1, Disabled); // Disable lever 1
-    EndUnconditionally(EventEndType.End);
-    
-    Label0();
+$Event(20005620, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) { // Skip if no invaders are present
+        SetEventFlag(X20_4, OFF); // Set flag off (disables usage?)
+    }
+
+    if (!EventFlag(X0_4)) { // Goto Label 0 if previously used
+
+        ForceAnimationPlayback(X8_4, 20, false, false, true, 0, 1); // Move up
+        SetEventFlag(X4_4, OFF);
+        SetObjactState(X12_4, -1, Disabled); // Disable lever 1
+        EndEvent();
+    }
+
+L0:
     ForceAnimationPlayback(X8_4, 10, false, false, true, 0, 1); // Move down
     SetEventFlag(X4_4, ON);
     SetObjactState(X16_4, -1, Disabled); // Disable lever 2
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //-----------------------------------
@@ -2913,415 +2726,383 @@ Event(20005620, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
 // <top region>, <bottom region>
 // <unknown flag 1>, <unknown flag 2>, <unknown flag 3>
 //-----------------------------------
-Event(20005621, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
-    IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X0_4); // Used flag
-    IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X4_4); // State flag: TOP
-    IfConditionGroup(OR_15, PASS, AND_13);
-    IfEventFlag(AND_14, OFF, TargetEventFlagType.EventFlag, X0_4); // Used flag
-    IfEventFlag(AND_14, OFF, TargetEventFlagType.EventFlag, X4_4); // State flag: BOTTOM
-    IfConditionGroup(OR_15, PASS, AND_14);
-    IfConditionGroup(AND_15, PASS, OR_15);
-    IfEventFlag(AND_15, ON, TargetEventFlagType.EventFlag, X36_4); // Check if unknown flag 1 is ON
-    GotoIfConditionGroupStateUncompiled(Label.LABEL9, PASS, AND_15); // Goto Label 9 if unknown flag 1 is ON
-    
-    GotoIfEventFlag(Label.LABEL2, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X20_4, -1, Enabled);
-    SetObjactState(X12_4, -1, Disabled);
-    IfObjactEventFlag(OR_01, X24_4);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfInoutsideArea(AND_03, InsideOutsideState.Inside, 10000, X28_4, 1);
-    IfCharacterHasSpeffect(AND_03, 10000, 4800, false, ComparisonType.Equal, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X44_4, 0);
-    IfEventFlag(AND_03, ON, TargetEventFlagType.EventFlag, X44_4);
-    IfConditionGroup(OR_04, PASS, OR_01);
-    IfConditionGroup(OR_04, PASS, OR_02);
-    IfConditionGroup(OR_04, PASS, AND_03);
-    IfConditionGroup(MAIN, PASS, OR_04);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X20_4, -1, Disabled);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, ON);
-    SetNetworkconnectedEventFlag(X0_4, ON);
-    SetEventFlag(X4_4, ON);
-    GotoIfConditionGroupStateCompiled(Label.LABEL0, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X40_4);
-    ForceAnimationPlayback(X8_4, 21, false, true, true, 0, 1);
-    GotoUnconditionally(Label.LABEL1);
-    
-    Label0();
-    SetNetworkconnectedEventFlag(X40_4, ON);
-    WaitFixedTimeSeconds(2);
-    ForceAnimationPlayback(X8_4, 21, false, true, true, 0, 1);
-    ForceAnimationPlayback(X20_4, 3, false, false, true, 0, 1);
-    SetNetworkconnectedEventFlag(X40_4, OFF);
-    
-    Label1();
-    IfAllPlayersInoutsideArea(OR_10, InsideOutsideState.Outside, X32_4);
-    IfEventFlag(OR_10, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(AND_01, PASS, OR_10);
-    IfObjectBackread(AND_01, X8_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SkipIfNumberOfClientsOfType(3, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, OFF);
-    ForceAnimationPlayback(X8_4, 110, false, false, true, 0, 1);
-    SkipUnconditionally(1);
-    ForceAnimationPlayback(X8_4, 110, false, true, true, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
-    
-    Label2();
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X12_4, -1, Enabled);
-    SetObjactState(X20_4, -1, Disabled);
-    IfObjactEventFlag(OR_05, X16_4);
-    IfEventFlag(OR_06, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfInoutsideArea(AND_07, InsideOutsideState.Inside, 10000, X32_4, 1);
-    IfCharacterHasSpeffect(AND_07, 10000, 4800, false, ComparisonType.Equal, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X44_4, 0);
-    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X44_4);
-    IfConditionGroup(OR_08, PASS, OR_05);
-    IfConditionGroup(OR_08, PASS, OR_06);
-    IfConditionGroup(OR_08, PASS, AND_07);
-    IfConditionGroup(MAIN, PASS, OR_08);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X12_4, -1, Disabled);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, ON);
-    SetNetworkconnectedEventFlag(X0_4, OFF);
-    SetEventFlag(X4_4, OFF);
-    GotoIfConditionGroupStateCompiled(Label.LABEL3, PASS, OR_05);
-    GotoIfEventFlag(Label.LABEL3, ON, TargetEventFlagType.EventFlag, X40_4);
-    ForceAnimationPlayback(X8_4, 12, false, true, true, 0, 1);
-    GotoUnconditionally(Label.LABEL4);
-    
-    Label3();
-    SetNetworkconnectedEventFlag(X40_4, ON);
-    WaitFixedTimeSeconds(2);
-    ForceAnimationPlayback(X8_4, 12, false, true, true, 0, 1);
-    ForceAnimationPlayback(X12_4, 3, false, false, true, 0, 1);
-    SetNetworkconnectedEventFlag(X40_4, OFF);
-    
-    Label4();
-    IfAllPlayersInoutsideArea(OR_11, InsideOutsideState.Outside, X28_4);
-    IfEventFlag(OR_11, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(AND_02, PASS, OR_11);
-    IfObjectBackread(AND_02, X8_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_02);
-    SkipIfNumberOfClientsOfType(3, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, OFF);
-    ForceAnimationPlayback(X8_4, 120, false, false, true, 0, 1);
-    SkipUnconditionally(1);
-    ForceAnimationPlayback(X8_4, 120, false, true, true, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
-    
-    Label9();
-    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X36_4);
-    EndUnconditionally(EventEndType.Restart);
+$Event(20005621, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
+    if (!(((EventFlag(X0_4) && EventFlag(X4_4)) || (!EventFlag(X0_4) && !EventFlag(X4_4)))
+        && EventFlag(X36_4))) { // Goto Label 9 if unknown flag 1 is ON // Check if unknown flag 1 is ON // State flag: BOTTOM // Used flag // State flag: TOP // Used flag
+
+        if (!EventFlag(X4_4)) {
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetObjactState(X20_4, -1, Enabled);
+                SetObjactState(X12_4, -1, Disabled);
+            }
+            obj = ObjActEventFlag(X24_4);
+            flag = EventFlag(X0_4);
+            areaSpFlag &= InArea(10000, X28_4) && !CharacterHasSpEffect(10000, 4800);
+            if (X44_4 != 0) {
+                areaSpFlag &= EventFlag(X44_4);
+            }
+            WaitFor(obj || flag || areaSpFlag);
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetObjactState(X20_4, -1, Disabled);
+            }
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetNetworkconnectedEventFlag(X36_4, ON);
+                SetNetworkconnectedEventFlag(X0_4, ON);
+            }
+            SetEventFlag(X4_4, ON);
+            if (!obj.Passed) {
+                GotoIf(L0, EventFlag(X40_4));
+                ForceAnimationPlayback(X8_4, 21, false, true, true, 0, 1);
+            } else {
+
+L0:
+                SetNetworkconnectedEventFlag(X40_4, ON);
+                WaitFixedTimeSeconds(2);
+                ForceAnimationPlayback(X8_4, 21, false, true, true, 0, 1);
+                ForceAnimationPlayback(X20_4, 3, false, false, true, 0, 1);
+                SetNetworkconnectedEventFlag(X40_4, OFF);
+            }
+
+L1:
+            WaitFor((!AllPlayersInArea(X32_4) || !EventFlag(X0_4)) && ObjectBackread(X8_4));
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetNetworkconnectedEventFlag(X36_4, OFF);
+                ForceAnimationPlayback(X8_4, 110, false, false, true, 0, 1);
+            } else {
+                ForceAnimationPlayback(X8_4, 110, false, true, true, 0, 1);
+            }
+            RestartEvent();
+        }
+
+L2:
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetObjactState(X12_4, -1, Enabled);
+            SetObjactState(X20_4, -1, Disabled);
+        }
+        obj2 = ObjActEventFlag(X16_4);
+        flag2 = !EventFlag(X0_4);
+        areaSpFlag2 &= InArea(10000, X32_4) && !CharacterHasSpEffect(10000, 4800);
+        if (X44_4 != 0) {
+            areaSpFlag2 &= EventFlag(X44_4);
+        }
+        WaitFor(obj2 || flag2 || areaSpFlag2);
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetObjactState(X12_4, -1, Disabled);
+        }
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetNetworkconnectedEventFlag(X36_4, ON);
+            SetNetworkconnectedEventFlag(X0_4, OFF);
+        }
+        SetEventFlag(X4_4, OFF);
+        if (!obj2.Passed) {
+            GotoIf(L3, EventFlag(X40_4));
+            ForceAnimationPlayback(X8_4, 12, false, true, true, 0, 1);
+        } else {
+
+L3:
+            SetNetworkconnectedEventFlag(X40_4, ON);
+            WaitFixedTimeSeconds(2);
+            ForceAnimationPlayback(X8_4, 12, false, true, true, 0, 1);
+            ForceAnimationPlayback(X12_4, 3, false, false, true, 0, 1);
+            SetNetworkconnectedEventFlag(X40_4, OFF);
+        }
+
+L4:
+        WaitFor((!AllPlayersInArea(X28_4) || EventFlag(X0_4)) && ObjectBackread(X8_4));
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetNetworkconnectedEventFlag(X36_4, OFF);
+            ForceAnimationPlayback(X8_4, 120, false, false, true, 0, 1);
+        } else {
+            ForceAnimationPlayback(X8_4, 120, false, true, true, 0, 1);
+        }
+        RestartEvent();
+    }
+
+L9:
+    WaitFor(!EventFlag(X36_4));
+    RestartEvent();
 });
 
 //-----------------------------------
 // Lift - Small - Setup 1
 //-----------------------------------
-Event(20005622, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetEventFlag(X20_4, OFF);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    ForceAnimationPlayback(X8_4, 1000020, false, false, true, 0, 1);
-    SetEventFlag(X4_4, OFF);
-    SetObjactState(X12_4, -1, Disabled);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20005622, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetEventFlag(X20_4, OFF);
+    }
+    if (!EventFlag(X0_4)) {
+        ForceAnimationPlayback(X8_4, 1000020, false, false, true, 0, 1);
+        SetEventFlag(X4_4, OFF);
+        SetObjactState(X12_4, -1, Disabled);
+        EndEvent();
+    }
+L0:
     ForceAnimationPlayback(X8_4, 1000010, false, false, true, 0, 1);
     SetEventFlag(X4_4, ON);
     SetObjactState(X16_4, -1, Disabled);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //-----------------------------------
 // Lift -
 //-----------------------------------
-Event(20005623, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
-    IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfConditionGroup(OR_15, PASS, AND_13);
-    IfEventFlag(AND_14, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_14, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfConditionGroup(OR_15, PASS, AND_14);
-    IfConditionGroup(AND_15, PASS, OR_15);
-    IfEventFlag(AND_15, ON, TargetEventFlagType.EventFlag, X36_4);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL9, PASS, AND_15);
-    GotoIfEventFlag(Label.LABEL2, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X20_4, -1, Enabled);
-    SetObjactState(X12_4, -1, Disabled);
-    IfObjactEventFlag(OR_01, X24_4);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfInoutsideArea(AND_03, InsideOutsideState.Inside, 10000, X28_4, 1);
-    IfCharacterHasSpeffect(AND_03, 10000, 4800, false, ComparisonType.Equal, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X44_4, 0);
-    IfEventFlag(AND_03, ON, TargetEventFlagType.EventFlag, X44_4);
-    IfConditionGroup(OR_04, PASS, OR_01);
-    IfConditionGroup(OR_04, PASS, OR_02);
-    IfConditionGroup(OR_04, PASS, AND_03);
-    IfConditionGroup(MAIN, PASS, OR_04);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X20_4, -1, Disabled);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, ON);
-    SetNetworkconnectedEventFlag(X0_4, ON);
-    SetEventFlag(X4_4, ON);
-    GotoIfConditionGroupStateCompiled(Label.LABEL0, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X40_4);
-    ForceAnimationPlayback(X8_4, 1000021, false, true, true, 0, 1);
-    GotoUnconditionally(Label.LABEL1);
-    Label0();
-    SetNetworkconnectedEventFlag(X40_4, ON);
-    WaitFixedTimeSeconds(2);
-    ForceAnimationPlayback(X8_4, 1000021, false, true, true, 0, 1);
-    ForceAnimationPlayback(X20_4, 3, false, false, true, 0, 1);
-    SetNetworkconnectedEventFlag(X40_4, OFF);
-    Label1();
-    IfAllPlayersInoutsideArea(OR_10, InsideOutsideState.Outside, X32_4);
-    IfEventFlag(OR_10, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(AND_01, PASS, OR_10);
-    IfObjectBackread(AND_01, X8_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SkipIfNumberOfClientsOfType(3, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, OFF);
-    ForceAnimationPlayback(X8_4, 1000110, false, false, true, 0, 1);
-    SkipUnconditionally(1);
-    ForceAnimationPlayback(X8_4, 1000110, false, true, true, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
-    Label2();
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X12_4, -1, Enabled);
-    SetObjactState(X20_4, -1, Disabled);
-    IfObjactEventFlag(OR_05, X16_4);
-    IfEventFlag(OR_06, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfInoutsideArea(AND_07, InsideOutsideState.Inside, 10000, X32_4, 1);
-    IfCharacterHasSpeffect(AND_07, 10000, 4800, false, ComparisonType.Equal, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X44_4, 0);
-    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X44_4);
-    IfConditionGroup(OR_08, PASS, OR_05);
-    IfConditionGroup(OR_08, PASS, OR_06);
-    IfConditionGroup(OR_08, PASS, AND_07);
-    IfConditionGroup(MAIN, PASS, OR_08);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X12_4, -1, Disabled);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, ON);
-    SetNetworkconnectedEventFlag(X0_4, OFF);
-    SetEventFlag(X4_4, OFF);
-    GotoIfConditionGroupStateCompiled(Label.LABEL3, PASS, OR_05);
-    GotoIfEventFlag(Label.LABEL3, ON, TargetEventFlagType.EventFlag, X40_4);
-    ForceAnimationPlayback(X8_4, 1000012, false, true, true, 0, 1);
-    GotoUnconditionally(Label.LABEL4);
-    Label3();
-    SetNetworkconnectedEventFlag(X40_4, ON);
-    WaitFixedTimeSeconds(2);
-    ForceAnimationPlayback(X8_4, 1000012, false, true, true, 0, 1);
-    ForceAnimationPlayback(X12_4, 3, false, false, true, 0, 1);
-    SetNetworkconnectedEventFlag(X40_4, OFF);
-    Label4();
-    IfAllPlayersInoutsideArea(OR_11, InsideOutsideState.Outside, X28_4);
-    IfEventFlag(OR_11, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(AND_02, PASS, OR_11);
-    IfObjectBackread(AND_02, X8_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_02);
-    SkipIfNumberOfClientsOfType(3, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, OFF);
-    ForceAnimationPlayback(X8_4, 1000120, false, false, true, 0, 1);
-    SkipUnconditionally(1);
-    ForceAnimationPlayback(X8_4, 1000120, false, true, true, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
-    Label9();
-    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X36_4);
-    EndUnconditionally(EventEndType.Restart);
+$Event(20005623, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
+    if (!(((EventFlag(X0_4) && EventFlag(X4_4)) || (!EventFlag(X0_4) && !EventFlag(X4_4)))
+        && EventFlag(X36_4))) {
+        if (!EventFlag(X4_4)) {
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetObjactState(X20_4, -1, Enabled);
+                SetObjactState(X12_4, -1, Disabled);
+            }
+            obj = ObjActEventFlag(X24_4);
+            flag = EventFlag(X0_4);
+            areaSpFlag &= InArea(10000, X28_4) && !CharacterHasSpEffect(10000, 4800);
+            if (X44_4 != 0) {
+                areaSpFlag &= EventFlag(X44_4);
+            }
+            WaitFor(obj || flag || areaSpFlag);
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetObjactState(X20_4, -1, Disabled);
+            }
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetNetworkconnectedEventFlag(X36_4, ON);
+                SetNetworkconnectedEventFlag(X0_4, ON);
+            }
+            SetEventFlag(X4_4, ON);
+            if (!obj.Passed) {
+                GotoIf(L0, EventFlag(X40_4));
+                ForceAnimationPlayback(X8_4, 1000021, false, true, true, 0, 1);
+            } else {
+L0:
+                SetNetworkconnectedEventFlag(X40_4, ON);
+                WaitFixedTimeSeconds(2);
+                ForceAnimationPlayback(X8_4, 1000021, false, true, true, 0, 1);
+                ForceAnimationPlayback(X20_4, 3, false, false, true, 0, 1);
+                SetNetworkconnectedEventFlag(X40_4, OFF);
+            }
+L1:
+            WaitFor((!AllPlayersInArea(X32_4) || !EventFlag(X0_4)) && ObjectBackread(X8_4));
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetNetworkconnectedEventFlag(X36_4, OFF);
+                ForceAnimationPlayback(X8_4, 1000110, false, false, true, 0, 1);
+            } else {
+                ForceAnimationPlayback(X8_4, 1000110, false, true, true, 0, 1);
+            }
+            RestartEvent();
+        }
+L2:
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetObjactState(X12_4, -1, Enabled);
+            SetObjactState(X20_4, -1, Disabled);
+        }
+        obj2 = ObjActEventFlag(X16_4);
+        flag2 = !EventFlag(X0_4);
+        areaSpFlag2 &= InArea(10000, X32_4) && !CharacterHasSpEffect(10000, 4800);
+        if (X44_4 != 0) {
+            areaSpFlag2 &= EventFlag(X44_4);
+        }
+        WaitFor(obj2 || flag2 || areaSpFlag2);
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetObjactState(X12_4, -1, Disabled);
+        }
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetNetworkconnectedEventFlag(X36_4, ON);
+            SetNetworkconnectedEventFlag(X0_4, OFF);
+        }
+        SetEventFlag(X4_4, OFF);
+        if (!obj2.Passed) {
+            GotoIf(L3, EventFlag(X40_4));
+            ForceAnimationPlayback(X8_4, 1000012, false, true, true, 0, 1);
+        } else {
+L3:
+            SetNetworkconnectedEventFlag(X40_4, ON);
+            WaitFixedTimeSeconds(2);
+            ForceAnimationPlayback(X8_4, 1000012, false, true, true, 0, 1);
+            ForceAnimationPlayback(X12_4, 3, false, false, true, 0, 1);
+            SetNetworkconnectedEventFlag(X40_4, OFF);
+        }
+L4:
+        WaitFor((!AllPlayersInArea(X28_4) || EventFlag(X0_4)) && ObjectBackread(X8_4));
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetNetworkconnectedEventFlag(X36_4, OFF);
+            ForceAnimationPlayback(X8_4, 1000120, false, false, true, 0, 1);
+        } else {
+            ForceAnimationPlayback(X8_4, 1000120, false, true, true, 0, 1);
+        }
+        RestartEvent();
+    }
+L9:
+    WaitFor(!EventFlag(X36_4));
+    RestartEvent();
 });
 
 //-----------------------------------
 // Lift -
 //-----------------------------------
-Event(20005624, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetEventFlag(X20_4, OFF);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    ForceAnimationPlayback(X8_4, 2000020, false, false, true, 0, 1);
-    SetEventFlag(X4_4, OFF);
-    SetObjactState(X12_4, -1, Disabled);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20005624, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetEventFlag(X20_4, OFF);
+    }
+    if (!EventFlag(X0_4)) {
+        ForceAnimationPlayback(X8_4, 2000020, false, false, true, 0, 1);
+        SetEventFlag(X4_4, OFF);
+        SetObjactState(X12_4, -1, Disabled);
+        EndEvent();
+    }
+L0:
     ForceAnimationPlayback(X8_4, 2000010, false, false, true, 0, 1);
     SetEventFlag(X4_4, ON);
     SetObjactState(X16_4, -1, Disabled);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //---------------------------------
 // Setup Lift
 //---------------------------------
-Event(20005625, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
-    IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_13, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfConditionGroup(OR_15, PASS, AND_13);
-    IfEventFlag(AND_14, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_14, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfConditionGroup(OR_15, PASS, AND_14);
-    IfConditionGroup(AND_15, PASS, OR_15);
-    IfEventFlag(AND_15, ON, TargetEventFlagType.EventFlag, X36_4);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL9, PASS, AND_15);
-    GotoIfEventFlag(Label.LABEL2, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X20_4, -1, Enabled);
-    SetObjactState(X12_4, -1, Disabled);
-    IfObjactEventFlag(OR_01, X24_4);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfInoutsideArea(AND_03, InsideOutsideState.Inside, 10000, X28_4, 1);
-    IfCharacterHasSpeffect(AND_03, 10000, 4800, false, ComparisonType.Equal, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X44_4, 0);
-    IfEventFlag(AND_03, ON, TargetEventFlagType.EventFlag, X44_4);
-    IfConditionGroup(OR_04, PASS, OR_01);
-    IfConditionGroup(OR_04, PASS, OR_02);
-    IfConditionGroup(OR_04, PASS, AND_03);
-    IfConditionGroup(MAIN, PASS, OR_04);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X20_4, -1, Disabled);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, ON);
-    SetNetworkconnectedEventFlag(X0_4, ON);
-    SetEventFlag(X4_4, ON);
-    GotoIfConditionGroupStateCompiled(Label.LABEL0, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X40_4);
-    ForceAnimationPlayback(X8_4, 2000021, false, true, true, 0, 1);
-    GotoUnconditionally(Label.LABEL1);
-    Label0();
-    SetNetworkconnectedEventFlag(X40_4, ON);
-    WaitFixedTimeSeconds(2);
-    ForceAnimationPlayback(X8_4, 2000021, false, true, true, 0, 1);
-    ForceAnimationPlayback(X20_4, 3, false, false, true, 0, 1);
-    SetNetworkconnectedEventFlag(X40_4, OFF);
-    Label1();
-    IfAllPlayersInoutsideArea(OR_10, InsideOutsideState.Outside, X32_4);
-    IfEventFlag(OR_10, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(AND_01, PASS, OR_10);
-    IfObjectBackread(AND_01, X8_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SkipIfNumberOfClientsOfType(3, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, OFF);
-    ForceAnimationPlayback(X8_4, 2000110, false, false, true, 0, 1);
-    SkipUnconditionally(1);
-    ForceAnimationPlayback(X8_4, 2000110, false, true, true, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
-    Label2();
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X12_4, -1, Enabled);
-    SetObjactState(X20_4, -1, Disabled);
-    IfObjactEventFlag(OR_05, X16_4);
-    IfEventFlag(OR_06, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfInoutsideArea(AND_07, InsideOutsideState.Inside, 10000, X32_4, 1);
-    IfCharacterHasSpeffect(AND_07, 10000, 4800, false, ComparisonType.Equal, 1);
-    SkipIfComparison(1, ComparisonType.Equal, X44_4, 0);
-    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X44_4);
-    IfConditionGroup(OR_08, PASS, OR_05);
-    IfConditionGroup(OR_08, PASS, OR_06);
-    IfConditionGroup(OR_08, PASS, AND_07);
-    IfConditionGroup(MAIN, PASS, OR_08);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetObjactState(X12_4, -1, Disabled);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, ON);
-    SetNetworkconnectedEventFlag(X0_4, OFF);
-    SetEventFlag(X4_4, OFF);
-    GotoIfConditionGroupStateCompiled(Label.LABEL3, PASS, OR_05);
-    GotoIfEventFlag(Label.LABEL3, ON, TargetEventFlagType.EventFlag, X40_4);
-    ForceAnimationPlayback(X8_4, 2000012, false, true, true, 0, 1);
-    GotoUnconditionally(Label.LABEL4);
-    Label3();
-    SetNetworkconnectedEventFlag(X40_4, ON);
-    WaitFixedTimeSeconds(2);
-    ForceAnimationPlayback(X8_4, 2000012, false, true, true, 0, 1);
-    ForceAnimationPlayback(X12_4, 3, false, false, true, 0, 1);
-    SetNetworkconnectedEventFlag(X40_4, OFF);
-    Label4();
-    IfAllPlayersInoutsideArea(OR_11, InsideOutsideState.Outside, X28_4);
-    IfEventFlag(OR_11, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(AND_02, PASS, OR_11);
-    IfObjectBackread(AND_02, X8_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_02);
-    SkipIfNumberOfClientsOfType(3, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X36_4, OFF);
-    ForceAnimationPlayback(X8_4, 2000120, false, false, true, 0, 1);
-    SkipUnconditionally(1);
-    ForceAnimationPlayback(X8_4, 2000120, false, true, true, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
-    Label9();
-    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X36_4);
-    EndUnconditionally(EventEndType.Restart);
+$Event(20005625, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
+    if (!(((EventFlag(X0_4) && EventFlag(X4_4)) || (!EventFlag(X0_4) && !EventFlag(X4_4)))
+        && EventFlag(X36_4))) {
+        if (!EventFlag(X4_4)) {
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetObjactState(X20_4, -1, Enabled);
+                SetObjactState(X12_4, -1, Disabled);
+            }
+            obj = ObjActEventFlag(X24_4);
+            flag = EventFlag(X0_4);
+            areaSpFlag &= InArea(10000, X28_4) && !CharacterHasSpEffect(10000, 4800);
+            if (X44_4 != 0) {
+                areaSpFlag &= EventFlag(X44_4);
+            }
+            WaitFor(obj || flag || areaSpFlag);
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetObjactState(X20_4, -1, Disabled);
+            }
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetNetworkconnectedEventFlag(X36_4, ON);
+                SetNetworkconnectedEventFlag(X0_4, ON);
+            }
+            SetEventFlag(X4_4, ON);
+            if (!obj.Passed) {
+                GotoIf(L0, EventFlag(X40_4));
+                ForceAnimationPlayback(X8_4, 2000021, false, true, true, 0, 1);
+            } else {
+L0:
+                SetNetworkconnectedEventFlag(X40_4, ON);
+                WaitFixedTimeSeconds(2);
+                ForceAnimationPlayback(X8_4, 2000021, false, true, true, 0, 1);
+                ForceAnimationPlayback(X20_4, 3, false, false, true, 0, 1);
+                SetNetworkconnectedEventFlag(X40_4, OFF);
+            }
+L1:
+            WaitFor((!AllPlayersInArea(X32_4) || !EventFlag(X0_4)) && ObjectBackread(X8_4));
+            if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+                SetNetworkconnectedEventFlag(X36_4, OFF);
+                ForceAnimationPlayback(X8_4, 2000110, false, false, true, 0, 1);
+            } else {
+                ForceAnimationPlayback(X8_4, 2000110, false, true, true, 0, 1);
+            }
+            RestartEvent();
+        }
+L2:
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetObjactState(X12_4, -1, Enabled);
+            SetObjactState(X20_4, -1, Disabled);
+        }
+        obj2 = ObjActEventFlag(X16_4);
+        flag2 = !EventFlag(X0_4);
+        areaSpFlag2 &= InArea(10000, X32_4) && !CharacterHasSpEffect(10000, 4800);
+        if (X44_4 != 0) {
+            areaSpFlag2 &= EventFlag(X44_4);
+        }
+        WaitFor(obj2 || flag2 || areaSpFlag2);
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetObjactState(X12_4, -1, Disabled);
+        }
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetNetworkconnectedEventFlag(X36_4, ON);
+            SetNetworkconnectedEventFlag(X0_4, OFF);
+        }
+        SetEventFlag(X4_4, OFF);
+        if (!obj2.Passed) {
+            GotoIf(L3, EventFlag(X40_4));
+            ForceAnimationPlayback(X8_4, 2000012, false, true, true, 0, 1);
+        } else {
+L3:
+            SetNetworkconnectedEventFlag(X40_4, ON);
+            WaitFixedTimeSeconds(2);
+            ForceAnimationPlayback(X8_4, 2000012, false, true, true, 0, 1);
+            ForceAnimationPlayback(X12_4, 3, false, false, true, 0, 1);
+            SetNetworkconnectedEventFlag(X40_4, OFF);
+        }
+L4:
+        WaitFor((!AllPlayersInArea(X28_4) || EventFlag(X0_4)) && ObjectBackread(X8_4));
+        if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+            SetNetworkconnectedEventFlag(X36_4, OFF);
+            ForceAnimationPlayback(X8_4, 2000120, false, false, true, 0, 1);
+        } else {
+            ForceAnimationPlayback(X8_4, 2000120, false, true, true, 0, 1);
+        }
+        RestartEvent();
+    }
+L9:
+    WaitFor(!EventFlag(X36_4));
+    RestartEvent();
 });
 
 //-----------------------------------
 // Lift -
 //-----------------------------------
-Event(20000627, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+$Event(20000627, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
-    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, X8_4, 0);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4);
-    IfActionButtonInArea(AND_01, 8300, X12_4);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, X8_4);
-    IfActionButtonInArea(AND_02, 8300, X16_4);
-    IfConditionGroup(OR_01, PASS, AND_02);
-    IfEventFlag(AND_03, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_05, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    DisplayGenericDialog(10010170, PromptType.OKCANCEL, NumberofOptions.OneButton, -1, 3);
-    EndUnconditionally(EventEndType.Restart);
-    Label0();
-    EndUnconditionally(EventEndType.End);
+    if (X8_4 != 0) {
+        flagAct = (!EventFlag(X8_4) && ActionButtonInArea(8300, X12_4))
+            || (!EventFlag(X8_4) && ActionButtonInArea(8300, X16_4));
+        flag = !EventFlag(X0_4);
+        flag2 = EventFlag(X4_4);
+        WaitFor(flagAct);
+        DisplayGenericDialog(10010170, PromptType.OKCANCEL, NumberofOptions.OneButton, -1, 3);
+        RestartEvent();
+    }
+L0:
+    EndEvent();
 });
 
 //-----------------------------------
 // Lift -
 //-----------------------------------
-Event(20005628, Restart, function(X0_4, X4_4, X8_4) {
+$Event(20005628, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+    EndIf(EventFlag(X0_4));
     WaitFixedTimeFrames(2);
     SetObjactState(X4_4, -1, Disabled);
-    IfCharacterType(OR_15, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfCharacterType(OR_15, 10000, TargetType.Hollow, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_13, InsideOutsideState.Inside, 10000, X8_4, 1);
-    IfConditionGroup(AND_13, PASS, OR_15);
-    IfConditionGroup(OR_01, PASS, AND_13);
-    IfActionButtonInArea(OR_02, 8300, X4_4);
-    IfConditionGroup(OR_03, PASS, OR_01);
-    IfConditionGroup(OR_03, PASS, OR_02);
-    IfEventFlag(OR_03, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    GotoIfConditionGroupStateCompiled(Label.LABEL0, PASS, OR_01);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    DisplayGenericDialog(10010170, PromptType.OKCANCEL, NumberofOptions.OneButton, -1, 3);
-    EndUnconditionally(EventEndType.Restart);
-    Label0();
+    areaChr = InArea(10000, X8_4)
+        && (CharacterType(10000, TargetType.Alive) || CharacterType(10000, TargetType.Hollow));
+    WaitFor(areaChr || ActionButtonInArea(8300, X4_4) || EventFlag(X0_4));
+    if (!areaChr.Passed) {
+        EndIf(EventFlag(X0_4));
+        DisplayGenericDialog(10010170, PromptType.OKCANCEL, NumberofOptions.OneButton, -1, 3);
+        RestartEvent();
+    }
+L0:
     SetNetworkconnectedEventFlag(X0_4, ON);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //---------------------------------
 // Ladder - Setup Kick Ladder
 //---------------------------------
-Event(20005640, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
-    ReproduceObjectAnimation(X4_4, 2);
-    RegisterLadder(X8_4, X12_4, X4_4);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfActionButtonInArea(AND_01, 9200, X4_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20005640, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    if (EventFlag(X0_4)) {
+        ReproduceObjectAnimation(X4_4, 2);
+        RegisterLadder(X8_4, X12_4, X4_4);
+        EndEvent();
+    }
+L0:
+    WaitFor(!PlayerIsNotInOwnWorld() && ActionButtonInArea(9200, X4_4));
     SetNetworkconnectedEventFlag(X0_4, ON);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    RotateCharacter(10000, X4_4, 60210, false);
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        RotateCharacter(10000, X4_4, 60210, false);
+    }
     ForceAnimationPlayback(X4_4, 1, false, true, false, 0, 1);
     RegisterLadder(X8_4, X12_4, X4_4);
 });
@@ -3330,57 +3111,48 @@ Event(20005640, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // Illusory Wall - Setup
 // <used flag>, <object>
 //---------------------------------
-Event(20005650, Restart, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4); // Goto Label0 if used flag is ON
-    
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // Is player in own world
-    IfDamageType(AND_01, X4_4, 10000, DamageType.Unspecified); // Has the object taken a damage event from the player
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    SetNetworkconnectedEventFlag(X0_4, ON); // Set used flag
-    
-    ForceAnimationPlayback(X4_4, 1, false, true, false, 0, 1); // Play fade animation
-    
-    Label0();
+$Event(20005650, Restart, function(X0_4, X4_4) {
+    if (!EventFlag(X0_4)) { // Goto Label0 if used flag is ON
+
+        WaitFor(!PlayerIsNotInOwnWorld() && HasDamageType(X4_4, 10000, DamageType.Unspecified)); // Has the object taken a damage event from the player // Is player in own world
+
+        SetNetworkconnectedEventFlag(X0_4, ON); // Set used flag
+
+        ForceAnimationPlayback(X4_4, 1, false, true, false, 0, 1); // Play fade animation
+    }
+
+L0:
     DeactivateObject(X4_4, Disabled); // Disable object if previously destroyed
 });
 
-Event(20005660, Default, function(X0_4, X4_1, X5_1, X8_4) {
+$Event(20005660, Default, function(X0_4, X4_1, X5_1, X8_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndIf(PlayerIsNotInOwnWorld());
     SetEventFlag(X0_4, OFF);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    WaitFor(EventFlag(X0_4));
     SetEventFlag(X0_4, OFF);
     ForceAnimationPlayback(10000, 68101, false, false, false, 0, 1);
     WaitFixedTimeSeconds(4);
     WarpPlayer(X4_1, X5_1, X8_4);
 });
 
-Event(20005670, Restart, function(X0_1, X1_1, X4_4) {
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9412);
-    IfPlayerInoutMap(AND_01, true, X0_1, X1_1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20005670, Restart, function(X0_1, X1_1, X4_4) {
+    WaitFor(EventFlag(9412) && PlayerInMap(X0_1, X1_1));
     DeleteMapSFX(X4_4, false);
 });
 
-Event(20005671, Restart, function(X0_1, X1_1, X4_4) {
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9413);
-    IfPlayerInoutMap(AND_01, true, X0_1, X1_1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20005671, Restart, function(X0_1, X1_1, X4_4) {
+    WaitFor(EventFlag(9413) && PlayerInMap(X0_1, X1_1));
     DeleteMapSFX(X4_4, false);
 });
 
-Event(20005672, Restart, function(X0_1, X1_1, X4_4) {
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9414);
-    IfPlayerInoutMap(AND_01, true, X0_1, X1_1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20005672, Restart, function(X0_1, X1_1, X4_4) {
+    WaitFor(EventFlag(9414) && PlayerInMap(X0_1, X1_1));
     DeleteMapSFX(X4_4, false);
 });
 
-Event(20005673, Restart, function(X0_1, X1_1, X4_4) {
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 9415);
-    IfPlayerInoutMap(AND_01, true, X0_1, X1_1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20005673, Restart, function(X0_1, X1_1, X4_4) {
+    WaitFor(EventFlag(9415) && PlayerInMap(X0_1, X1_1));
     DeleteMapSFX(X4_4, false);
 });
 
@@ -3388,21 +3160,22 @@ Event(20005673, Restart, function(X0_1, X1_1, X4_4) {
 // Summon Setup - Basic
 // <boss flag>, <summon flag>, <dismiss flag>, <entity id>, <spawnpoint id>
 //-------------------------------------------
-Event(20005700, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+$Event(20005700, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     // Skip if no invaders are present
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
-    
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
+    }
+
     // End function if boss has already been killed
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    
+    EndIf(EventFlag(X0_4));
+
     // Check summon sign conditions
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // Player is in own world
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Player is embered
-    IfCharacterBackreadStatus(AND_01, X12_4, true, ComparisonType.Equal, 1); // Summon is loaded
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, X12_4, 10000, 10, 1); // Summon position is near player
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+    WaitFor(
+        !PlayerIsNotInOwnWorld()
+            && CharacterHasSpEffect(10000, 490)
+            && CharacterBackreadStatus(X12_4)
+            && EntityInRadiusOfEntity(X12_4, 10000, 10, 1)); // Summon position is near player // Player is in own world // Player is embered // Summon is loaded
+
     // Place summon sign
     PlaceNPCSummonSign(SummonSignType.WhiteSign, X12_4, X16_4, X4_4, X8_4);
 });
@@ -3411,31 +3184,35 @@ Event(20005700, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // Summon Setup - Triggered by Flag
 // <boss flag>, <summon flag>, <dismiss flag>, <entity id>, <spawnpoint id>, <trigger flag>
 //-------------------------------------------
-Event(20005701, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+$Event(20005701, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     // Skip if no invaders are present
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
-    
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
+    }
+
     // Useless?
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X8_4);
-    Label0();
-    Label1();
-    
+    if (!EventFlag(X8_4)) {
+    }
+L0:
+L1:
+
     // End if boss is defeated, or skip check if arg is set to 0
-    SkipIfComparison(1, ComparisonType.Equal, X0_4, 0);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    
+    if (X0_4 != 0) {
+        EndIf(EventFlag(X0_4));
+    }
+
     // Check if triggering flag is ON, or skip check if arg is set to 0
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X20_4);
-    
+    if (X20_4 != 0) {
+        flagOnlineSpChrArea &= EventFlag(X20_4);
+    }
+
     // Check summon sign conditions
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // Player is in own world
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Player is embered
-    IfCharacterBackreadStatus(AND_01, X12_4, true, ComparisonType.Equal, 1); // Summon is loaded
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, X12_4, 10000, 10, 1); // Summon position is near player
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+    flagOnlineSpChrArea &= !PlayerIsNotInOwnWorld()
+        && CharacterHasSpEffect(10000, 490)
+        && CharacterBackreadStatus(X12_4)
+        && EntityInRadiusOfEntity(X12_4, 10000, 10, 1); // Summon position is near player // Player is in own world // Player is embered // Summon is loaded
+    WaitFor(flagOnlineSpChrArea);
+
     // Place summon sign
     PlaceNPCSummonSign(SummonSignType.WhiteSign, X12_4, X16_4, X4_4, X8_4);
 });
@@ -3443,19 +3220,20 @@ Event(20005701, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
 //-------------------------------------------
 // Summon Setup - UNUSED
 //-------------------------------------------
-Event(20005702, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
-    
-    SkipIfEventFlag(3, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_02, true);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfConditionGroupStateUncompiled(1, PASS, AND_02);
-    
+$Event(20005702, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkUpdateAuthority(X12_4, AuthorityLevel.Forced);
+    }
+
+    GotoIf(S0, EventFlag(X8_4));
+    GotoIf(S1, PlayerIsNotInOwnWorld() && EventFlag(X4_4));
+
+S0:
     ChangeCharacterEnableState(X12_4, Disabled);
+S1:
     SetCharacterAnimationState(X12_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfCharacterAIState(MAIN, X12_4, AIStateType.Combat, ComparisonType.Equal, 1);
+    EndIf(EventFlag(X0_4));
+    WaitFor(CharacterAIState(X12_4, AIStateType.Combat));
     SetCharacterAnimationState(X12_4, Enabled);
 });
 
@@ -3463,28 +3241,24 @@ Event(20005702, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // Summon - Fogwall Handler
 // <summon flag>, <boss inbattle flag> <entity id>, <region id>, <region id>
 //-------------------------------------------
-Event(20005710, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss fight is in progress
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20005710, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
+
+    WaitFor(EventFlag(X0_4) && EventFlag(X4_4)); // Boss fight is in progress // Summon is active
+
     // Adjust AI of summon for fogwall traversal
     RequestCharacterAICommand(X8_4, 10, 0);
     RequestCharacterAIReplan(X8_4);
-    
+
     // Check if AI in is in the entrance zone
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, X8_4, X16_4, 1);
+    WaitFor(InArea(X8_4, X16_4));
     RotateCharacter(X8_4, X12_4, 60060, true); // Move through fogwall
-    
+    time = ElapsedSeconds(3);
+
     // Check if the AI has passed through the fogwall and is in the exit zone
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, X8_4, X12_4, 1);
-    IfElapsedSeconds(OR_01, 3);
-    IfConditionGroup(OR_02, PASS, OR_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01); // Restart if AI hasn't touched exit zone within 3 seconds
-    
+    WaitFor(InArea(X8_4, X12_4) || time);
+    RestartIf(time.Passed); // Restart if AI hasn't touched exit zone within 3 seconds
+
     // Adjust AI of summon back to normal
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
@@ -3495,30 +3269,24 @@ Event(20005710, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // Summon - Fogwall Handler - Conditional Entry
 // <summon flag>, <boss inbattle flag> <entity id>, <region id>, <region id>, <conditional flag>
 //-------------------------------------------
-Event(20005711, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss fight is in progress
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20005711, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
+
+    WaitFor(EventFlag(X0_4) && EventFlag(X4_4)); // Boss fight is in progress // Summon is active
+
     // Adjust AI of summon for fogwall traversal
     RequestCharacterAICommand(X8_4, 10, 0);
     RequestCharacterAIReplan(X8_4);
-    
+
     // Check if AI in is in the entrance zone and conditional flag is ON
-    IfInoutsideArea(AND_02, InsideOutsideState.Inside, X8_4, X16_4, 1);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X20_4);
-    IfConditionGroup(MAIN, PASS, AND_02);
+    WaitFor(InArea(X8_4, X16_4) && EventFlag(X20_4));
     RotateCharacter(X8_4, X12_4, 60060, true); // Move through fogwall
-    
+    time = ElapsedSeconds(3);
+
     // Check if the AI has passed through the fogwall and is in the exit zone
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, X8_4, X12_4, 1);
-    IfElapsedSeconds(OR_01, 3);
-    IfConditionGroup(OR_02, PASS, OR_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01); // Restart if AI hasn't touched exit zone within 3 seconds
-    
+    WaitFor(InArea(X8_4, X12_4) || time);
+    RestartIf(time.Passed); // Restart if AI hasn't touched exit zone within 3 seconds
+
     // Adjust AI of summon back to normal
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
@@ -3528,69 +3296,58 @@ Event(20005711, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
 //-------------------------------------------
 // Summon - Fogwall Handler - Client
 //-------------------------------------------
-Event(20005716, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL0, true); // Goto Label 0 if a client
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss fight is in progress
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    // Adjust AI of summon for fogwall traversal
-    RequestCharacterAICommand(X8_4, 10, 0);
-    RequestCharacterAIReplan(X8_4);
-    
-    // Check if AI in is in the entrance zone and conditional flag is ON
-    IfInoutsideArea(AND_02, InsideOutsideState.Inside, X8_4, X16_4, 1);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X20_4);
-    IfConditionGroup(MAIN, PASS, AND_02);
-    
-    SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
-    WaitFixedTimeSeconds(0.5);
-    RotateCharacter(X8_4, X12_4, 60060, true); // Move through fogwall
-    
-    // Check if the AI has passed through the fogwall and is in the exit zone
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, X8_4, X12_4, 1);
-    IfElapsedSeconds(OR_01, 3);
-    IfConditionGroup(OR_02, PASS, OR_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01); // Restart if AI hasn't touched exit zone within 3 seconds
-    
-    // Adjust AI of summon back to normal
-    RequestCharacterAICommand(X8_4, -1, 0);
-    RequestCharacterAIReplan(X8_4);
-    
-    Label0();
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+$Event(20005716, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    if (!PlayerIsNotInOwnWorld()) { // Goto Label 0 if a client
+
+        WaitFor(EventFlag(X0_4) && EventFlag(X4_4)); // Boss fight is in progress // Summon is active
+
+        // Adjust AI of summon for fogwall traversal
+        RequestCharacterAICommand(X8_4, 10, 0);
+        RequestCharacterAIReplan(X8_4);
+
+        // Check if AI in is in the entrance zone and conditional flag is ON
+        WaitFor(InArea(X8_4, X16_4) && EventFlag(X20_4));
+
+        SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
+        WaitFixedTimeSeconds(0.5);
+        RotateCharacter(X8_4, X12_4, 60060, true); // Move through fogwall
+        time = ElapsedSeconds(3);
+
+        // Check if the AI has passed through the fogwall and is in the exit zone
+        WaitFor(InArea(X8_4, X12_4) || time);
+        RestartIf(time.Passed); // Restart if AI hasn't touched exit zone within 3 seconds
+
+        // Adjust AI of summon back to normal
+        RequestCharacterAICommand(X8_4, -1, 0);
+        RequestCharacterAIReplan(X8_4);
+    }
+
+L0:
+    WaitFor(ThisEventSlot());
     SetNetworkUpdateRate(X8_4, true, CharacterUpdateFrequency.AlwaysUpdate);
 });
 
 //-------------------------------------------
 // Summon -  Fogwall Handler - Custom AI Command
 //-------------------------------------------
-Event(20005712, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss fight is in progress
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20005712, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
+
+    WaitFor(EventFlag(X0_4) && EventFlag(X4_4)); // Boss fight is in progress // Summon is active
+
     // Adjust AI of summon for fogwall traversal
     RequestCharacterAICommand(X8_4, 10, 0);
     RequestCharacterAIReplan(X8_4);
-    
+
     // Check if AI in is in the entrance zone and conditional flag is ON
-    IfInoutsideArea(AND_02, InsideOutsideState.Inside, X8_4, X16_4, 1);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X20_4);
-    IfConditionGroup(MAIN, PASS, AND_02);
+    WaitFor(InArea(X8_4, X16_4) && EventFlag(X20_4));
     RotateCharacter(X8_4, X12_4, 60060, true); // Move through fogwall
-    
+    time = ElapsedSeconds(3);
+
     // Check if the AI has passed through the fogwall and is in the exit zone
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, X8_4, X12_4, 1);
-    IfElapsedSeconds(OR_01, 3);
-    IfConditionGroup(OR_02, PASS, OR_01);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01); // Restart if AI hasn't touched exit zone within 3 seconds
-    
+    WaitFor(InArea(X8_4, X12_4) || time);
+    RestartIf(time.Passed); // Restart if AI hasn't touched exit zone within 3 seconds
+
     // Adjust AI of summon back to normal
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAICommand(X8_4, X24_4, 0);
@@ -3602,17 +3359,13 @@ Event(20005712, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
 // Summon - Set Flag if present for Boss Kill
 // <flag>, <boss flag>, <summon flag>, <dismiss flag>, <entity>
 //-------------------------------------------
-Event(20005713, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+$Event(20005713, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // End if boss is defeated
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4); // Is summoned
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X12_4); // Is not dismissed
-    IfCharacterHPRatio(AND_01, X16_4, ComparisonType.NotEqual, 0, ComparisonType.Equal, 1); // Summon is not dead
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss has been defeated
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
+
+    EndIf(EventFlag(X0_4)); // End if boss is defeated
+    WaitFor(EventFlag(X8_4) && !EventFlag(X12_4) && HPRatio(X16_4) != 0 && EventFlag(X4_4)); // Boss has been defeated // Is summoned // Is not dismissed // Summon is not dead
+
     SetEventFlag(X0_4, ON);
 });
 
@@ -3620,142 +3373,127 @@ Event(20005713, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // Summon - Handle Summon AI - One Region
 // <summon flag>, <dismiss flag>, <entity id>, <region>, <conditional flag>
 //-------------------------------------------
-Event(20005714, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X16_4); // End if condition flag is ON
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // End if dismissed
-    
-    IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1); // Player is in region
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01); // Uncompiled means this function continues even if this condition check fails
-    
-    IfCharacterType(AND_02, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
-    IfInoutsideArea(AND_02, InsideOutsideState.Inside, 10000, X12_4, 1);  // Player is in region
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    IfConditionGroup(MAIN, PASS, AND_02);
-    
-    // Adjust AI of summon and restart
-    RequestCharacterAICommand(X8_4, 10, 0);
-    RequestCharacterAIReplan(X8_4);
-    EndUnconditionally(EventEndType.Restart);
-    
-    Label0();
-    IfCharacterType(AND_03, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
-    IfInoutsideArea(AND_03, InsideOutsideState.Outside, 10000, X12_4, 1); // Player is not in region
-    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X4_4); // Summon is dismissed
-    IfEventFlag(AND_05, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    
+$Event(20005714, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(EventFlag(X16_4)); // End if condition flag is ON
+    EndIf(EventFlag(X4_4)); // End if dismissed
+
+    if (!(CharacterType(10000, TargetType.Alive) && InArea(10000, X12_4) && EventFlag(X0_4))) { // Uncompiled means this function continues even if this condition check fails // Summon is active // Player is alive // Player is in region
+
+        WaitFor(CharacterType(10000, TargetType.Alive) && InArea(10000, X12_4) && EventFlag(X0_4)); // Summon is active // Player is alive // Player is in region
+
+        // Adjust AI of summon and restart
+        RequestCharacterAICommand(X8_4, 10, 0);
+        RequestCharacterAIReplan(X8_4);
+        RestartEvent();
+    }
+
+L0:
+    chrArea = CharacterType(10000, TargetType.Alive) && !InArea(10000, X12_4); // Player is not in region // Player is alive
+    flag = EventFlag(X4_4); // Summon is dismissed
+    flag2 = EventFlag(X0_4); // Summon is active
+
     // Check if player is not near summon or summon is dismissed
-    IfConditionGroup(OR_01, PASS, AND_03);
-    IfConditionGroup(OR_01, PASS, AND_04);
-    
+    chrAreaFlag = chrArea || flag;
+
     // Check if previous check is valid or summon is active
-    IfConditionGroup(AND_06, PASS, OR_01);
-    IfConditionGroup(AND_06, PASS, AND_05);
-    IfConditionGroup(MAIN, PASS, AND_06);
-    
-    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X4_4); // Check if summon dismissed
-    
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_07); // Uncompiled means this function continues even if this condition check fails
-    
+    WaitFor(chrAreaFlag && flag2);
+
+
+    EndIf(EventFlag(X4_4)); // Uncompiled means this function continues even if this condition check fails // Check if summon dismissed
+
     // Adjust AI of summon and restart
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
     WaitFixedTimeFrames(1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //-------------------------------------------
 // Summon - Handle Summon AI - Multiple Regions
 // <summon flag>, <dismiss flag>, <entity id>, <region 1>, <conditional flag>, <region 2>, <region 3>
 //-------------------------------------------
-Event(20005715, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X16_4); // End if condition flag is ON
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // End if dismissed
-    
+$Event(20005715, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+    EndIf(EventFlag(X16_4)); // End if condition flag is ON
+    EndIf(EventFlag(X4_4)); // End if dismissed
+
     // Check if player is in region(s)
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X12_4, 1); // Player is in region 1
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0); // Skip if region 2 arg is set to 0
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X20_4, 1); // Player is in region 2
-    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0); // Skip if region 3 arg is set to 0
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X24_4, 1); // Player is in region 3
-    IfConditionGroup(AND_01, PASS, OR_01);
-    
-    IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01); // Uncompiled means this function continues even if this condition check fails
-    
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X12_4, 1); // Player is in region 1
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0); // Skip if region 2 arg is set to 0
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X20_4, 1); // Player is in region 2
-    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0); // Skip if region 3 arg is set to 0
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, X24_4, 1); // Player is in region 3
-    IfConditionGroup(AND_02, PASS, OR_02);
-    
-    IfCharacterType(AND_02, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    IfConditionGroup(MAIN, PASS, AND_02);
-    
-    // Adjust AI of summon and restart
-    RequestCharacterAICommand(X8_4, 10, 0);
-    RequestCharacterAIReplan(X8_4);
-    EndUnconditionally(EventEndType.Restart);
-    
-    Label0();
-    IfInoutsideArea(OR_03, InsideOutsideState.Inside, 10000, X12_4, 1); // Player is in region 1
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0); // Skip if region 2 arg is set to 0
-    IfInoutsideArea(OR_03, InsideOutsideState.Inside, 10000, X20_4, 1); // Player is in region 2
-    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0); // Skip if region 3 arg is set to 0
-    IfInoutsideArea(OR_03, InsideOutsideState.Inside, 10000, X24_4, 1); // Player is in region 3
-    IfConditionGroup(AND_03, FAIL, OR_03);
-    
-    IfCharacterType(AND_03, 10000, TargetType.Alive, ComparisonType.Equal, 1); // Player is alive
-    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X4_4); // Summon is dismissed
-    IfEventFlag(AND_05, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    
+    area |= InArea(10000, X12_4); // Player is in region 1
+    if (X20_4 != 0) { // Skip if region 2 arg is set to 0
+        area |= InArea(10000, X20_4); // Player is in region 2
+    }
+    if (X24_4 != 0) { // Skip if region 3 arg is set to 0
+        area |= InArea(10000, X24_4); // Player is in region 3
+    }
+
+    if (!(area && CharacterType(10000, TargetType.Alive) && EventFlag(X0_4))) { // Uncompiled means this function continues even if this condition check fails // Summon is active // Player is alive
+
+        area2 |= InArea(10000, X12_4); // Player is in region 1
+        if (X20_4 != 0) { // Skip if region 2 arg is set to 0
+            area2 |= InArea(10000, X20_4); // Player is in region 2
+        }
+        if (X24_4 != 0) { // Skip if region 3 arg is set to 0
+            area2 |= InArea(10000, X24_4); // Player is in region 3
+        }
+
+        WaitFor(area2 && CharacterType(10000, TargetType.Alive) && EventFlag(X0_4)); // Summon is active // Player is alive
+
+        // Adjust AI of summon and restart
+        RequestCharacterAICommand(X8_4, 10, 0);
+        RequestCharacterAIReplan(X8_4);
+        RestartEvent();
+    }
+
+L0:
+    area3 |= InArea(10000, X12_4); // Player is in region 1
+    if (X20_4 != 0) { // Skip if region 2 arg is set to 0
+        area3 |= InArea(10000, X20_4); // Player is in region 2
+    }
+    if (X24_4 != 0) { // Skip if region 3 arg is set to 0
+        area3 |= InArea(10000, X24_4); // Player is in region 3
+    }
+
+    areaChr = !area3 && CharacterType(10000, TargetType.Alive); // Player is alive
+    flag = EventFlag(X4_4); // Summon is dismissed
+    flag2 = EventFlag(X0_4); // Summon is active
+
     // Check if player is not near summon or summon is dismissed
-    IfConditionGroup(OR_04, PASS, AND_03);
-    IfConditionGroup(OR_04, PASS, AND_04);
-    
+    areaChrFlag = areaChr || flag;
+
     // Check if previous check is valid or summon is active
-    IfConditionGroup(AND_06, PASS, OR_04);
-    IfConditionGroup(AND_06, PASS, AND_05);
-    IfConditionGroup(MAIN, PASS, AND_06);
-    
-    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X4_4); // Check if summon dismissed
-    
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_07); // Uncompiled means this function continues even if this condition check fails
-    
+    WaitFor(areaChrFlag && flag2);
+
+
+    EndIf(EventFlag(X4_4)); // Uncompiled means this function continues even if this condition check fails // Check if summon dismissed
+
     // Adjust AI of summon and restart
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
     WaitFixedTimeFrames(1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //-------------------------------------------
 // Summon - Handle Character State 1
 // <summon flag>, <dismiss flag>, <boss flag>, <entity>
 //-------------------------------------------
-Event(20005720, Default, function(X0_4, X4_4, X8_4, X12_4) {
+$Event(20005720, Default, function(X0_4, X4_4, X8_4, X12_4) {
     // Disable summon
     ChangeCharacterEnableState(X12_4, Disabled);
     SetCharacterAnimationState(X12_4, Disabled);
     SetCharacterAIState(X12_4, Disabled);
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // Summon is dismissed
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4); // Boss is defeated
-    
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);  // Check if summon has been summoned
-    IfConditionGroup(MAIN, PASS, OR_01);
-    
+
+    EndIf(EventFlag(X4_4)); // Summon is dismissed
+    EndIf(EventFlag(X8_4)); // Boss is defeated
+
+    WaitFor(EventFlag(X0_4)); // Check if summon has been summoned
+
     // Enable summon
     ChangeCharacterEnableState(X12_4, Enabled);
     SetCharacterAnimationState(X12_4, Enabled);
     SetCharacterAIState(X12_4, Enabled);
     SetCharacterDefaultBackreadState(X12_4, Enabled);
-    
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4); // Check if summon has been dismissed
+
+    WaitFor(EventFlag(X4_4)); // Check if summon has been dismissed
     SetCharacterDefaultBackreadState(X12_4, Disabled);
 });
 
@@ -3763,24 +3501,23 @@ Event(20005720, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // Summon - Handle Character State 2
 // <summon flag>, <dismiss flag>, <boss flag>, <entity>
 //-------------------------------------------
-Event(20005721, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+$Event(20005721, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     // Disable summon
     ChangeCharacterEnableState(X12_4, Disabled);
     SetCharacterAnimationState(X12_4, Disabled);
     SetCharacterAIState(X12_4, Disabled);
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4); // Summon is dismissed
 
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4); // Check if summon has been summoned
-    IfConditionGroup(MAIN, PASS, OR_01);
-    
+    EndIf(EventFlag(X8_4)); // Summon is dismissed
+
+    WaitFor(EventFlag(X0_4)); // Check if summon has been summoned
+
     // Enable summon
     ChangeCharacterEnableState(X12_4, Enabled);
     SetCharacterAnimationState(X12_4, Enabled);
     SetCharacterAIState(X12_4, Enabled);
     SetCharacterDefaultBackreadState(X12_4, Enabled);
-    
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4); // Check if summon has been dismissed
+
+    WaitFor(EventFlag(X4_4)); // Check if summon has been dismissed
     SetCharacterDefaultBackreadState(X12_4, Disabled);
 });
 
@@ -3789,16 +3526,14 @@ Event(20005721, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // Summon - Warp to Player on Boss Start
 // <summon flag>, <dismiss flag>, <boss flag>, <entity>, <progress flag>
 //-------------------------------------------
-Event(20005730, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // Summon is dismissed
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4); // Boss is killed
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);  // Check if summon has been summoned
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X16_4);  // Check if boss fight has started
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20005730, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(EventFlag(X4_4)); // Summon is dismissed
+    EndIf(EventFlag(X8_4)); // Boss is killed
+
+    WaitFor(EventFlag(X0_4) && EventFlag(X16_4)); // Check if boss fight has started // Check if summon has been summoned
+
     WaitFixedTimeSeconds(2.0);
-    
+
     WarpCharacterAndCopyFloor(X12_4, TargetEntityType.Character, 10000, 271, 10000);
 });
 
@@ -3807,125 +3542,125 @@ Event(20005730, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // <boss flag>, <defeated flag>, <summon flag>, <dismissal flag>, 
 // <entity id>, <spawnpoint id>, <region id>, <invasion delay>, <conditional flag>
 //-------------------------------------------
-Event(20005750, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+$Event(20005750, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     SetNetworkSyncState(Disabled);
-    
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4); // Boss defeated
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4); // Is summoned
-    
+
+    EndIf(PlayerIsNotInOwnWorld());
+    EndIf(EventFlag(X0_4)); // Boss defeated
+    EndIf(EventFlag(X4_4)); // Is summoned
+
     // Conditional flag check
-    SkipIfComparison(1, ComparisonType.Equal, X32_4, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X32_4);
-    
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4); // Not defeated
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4); // Not summoned
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X24_4, 1); // In region
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Embered
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+    if (X32_4 != 0) {
+        flagOnlineAreaSp &= EventFlag(X32_4);
+    }
+
+    flagOnlineAreaSp &= !PlayerIsNotInOwnWorld()
+        && !EventFlag(X4_4)
+        && !EventFlag(X8_4)
+        && InArea(10000, X24_4)
+        && CharacterHasSpEffect(10000, 490); // Embered // Not defeated // Not summoned // In region
+    WaitFor(flagOnlineAreaSp);
+
     WaitFixedTimeSeconds(X28_4);
-    
+
     PlaceNPCSummonSign(SummonSignType.BlackSign, X16_4, X20_4, X8_4, X12_4);
-    
+
     WaitFixedTimeSeconds(1);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
-Event(20005751, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+$Event(20005751, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfComparison(1, ComparisonType.Equal, X32_4, 0);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X32_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventIDSlotNumber, 0);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X24_4, 1);
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    EndIf(PlayerIsNotInOwnWorld());
+    EndIf(EventFlag(X0_4));
+    EndIf(EventFlag(X4_4));
+    if (X32_4 != 0) {
+        flagOnlineAreaSp &= !EventFlag(X32_4);
+    }
+    flagOnlineAreaSp &= !PlayerIsNotInOwnWorld() && !EventFlag(X4_4) && !EventFlag(X8_4);
+    if (!ThisEventSlot()) {
+        flagOnlineAreaSp &= InArea(10000, X24_4);
+    }
+    flagOnlineAreaSp &= CharacterHasSpEffect(10000, 490);
+    WaitFor(flagOnlineAreaSp);
     WaitFixedTimeSeconds(X28_4);
     PlaceNPCSummonSign(SummonSignType.BlackSign, X16_4, X20_4, X8_4, X12_4);
     WaitFixedTimeSeconds(1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
-Event(20005752, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
+$Event(20005752, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4, X44_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfComparison(1, ComparisonType.Equal, X32_4, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X32_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X24_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, 0, X36_4);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X36_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, 0, X40_4);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X40_4, 1);
-    SkipIfComparison(1, ComparisonType.Equal, 0, X44_4);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X44_4, 1);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    EndIf(PlayerIsNotInOwnWorld());
+    EndIf(EventFlag(X0_4));
+    EndIf(EventFlag(X4_4));
+    if (X32_4 != 0) {
+        flagOnlineArea &= EventFlag(X32_4);
+    }
+    flagOnlineArea &= !PlayerIsNotInOwnWorld() && !EventFlag(X4_4) && !EventFlag(X8_4);
+    area |= InArea(10000, X24_4);
+    if (0 != X36_4) {
+        area |= InArea(10000, X36_4);
+    }
+    if (0 != X40_4) {
+        area |= InArea(10000, X40_4);
+    }
+    if (0 != X44_4) {
+        area |= InArea(10000, X44_4);
+    }
+    flagOnlineArea &= area;
+    WaitFor(flagOnlineArea);
     WaitFixedTimeSeconds(X28_4);
     PlaceNPCSummonSignWorksForNonemberedPlayers(SummonSignType.BlackSign, X16_4, X20_4, X8_4, X12_4);
     WaitFixedTimeSeconds(1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //-------------------------------------------
 // Invader - Death
 // <defeated flag>, <summon flag>, <dismissal flag>, <entity id>
 //-------------------------------------------
-Event(20005760, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, X8_4);
-    IfCharacterDeadalive(AND_01, X12_4, DeathState.Dead, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20005760, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(EventFlag(X0_4));
+    flag = !EventFlag(X8_4);
+
+    WaitFor(EventFlag(X4_4) && CharacterDead(X12_4));
+
     SetEventFlag(X0_4, ON);
 });
 
 // Handle Transition Fog Wall
-Event(20005780, Default, function(X0_4, X4_4) {
+$Event(20005780, Default, function(X0_4, X4_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X0_4, Disabled);
     DeleteObjectfollowingSFX(X0_4, true);
-    IfMultiplayerState(OR_01, MultiplayerState.TryingtoJoinSession);
-    IfMultiplayerState(OR_01, MultiplayerState.TryingtoCreateSession);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    WaitFor(
+        HasMultiplayerState(MultiplayerState.TryingtoJoinSession)
+            || HasMultiplayerState(MultiplayerState.TryingtoCreateSession));
     DeactivateObject(X0_4, Enabled);
     CreateObjectfollowingSFX(X0_4, 101, X4_4);
-    IfMultiplayerState(OR_02, MultiplayerState.TryingtoJoinSession);
-    IfMultiplayerState(OR_02, MultiplayerState.TryingtoCreateSession);
-    IfConditionGroup(MAIN, FAIL, OR_02);
-    EndUnconditionally(EventEndType.Restart);
+    WaitFor(
+        !(HasMultiplayerState(MultiplayerState.TryingtoJoinSession)
+            || HasMultiplayerState(MultiplayerState.TryingtoCreateSession)));
+    RestartEvent();
 });
 
-Event(20005781, Restart, function(X0_4, X4_4, X8_4) {
+$Event(20005781, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X0_4, Disabled);
     DeleteObjectfollowingSFX(X0_4, true);
-    IfMultiplayerState(OR_01, MultiplayerState.TryingtoJoinSession);
-    IfMultiplayerState(OR_01, MultiplayerState.TryingtoCreateSession);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    WaitFor(
+        HasMultiplayerState(MultiplayerState.TryingtoJoinSession)
+            || HasMultiplayerState(MultiplayerState.TryingtoCreateSession)
+            || EventFlag(X8_4));
     DeactivateObject(X0_4, Enabled);
     CreateObjectfollowingSFX(X0_4, 101, X4_4);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4);
-    IfMultiplayerState(OR_02, MultiplayerState.TryingtoJoinSession);
-    IfMultiplayerState(OR_02, MultiplayerState.TryingtoCreateSession);
-    IfConditionGroup(AND_01, FAIL, OR_02);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    EndUnconditionally(EventEndType.Restart);
+    WaitFor(
+        !EventFlag(X8_4)
+            && !(HasMultiplayerState(MultiplayerState.TryingtoJoinSession)
+                || HasMultiplayerState(MultiplayerState.TryingtoCreateSession)));
+    RestartEvent();
 });
 
 // ----------------------------------------
@@ -3933,129 +3668,132 @@ Event(20005781, Restart, function(X0_4, X4_4, X8_4) {
 // Args: <boss_defeat_flag_id>, <fogwall_id>, <entrance_trigger_id>, <started_flag_id>, <action_id>, <boss_entity_id>, 
 // <skip_flag_id>, <entrance_trigger_id>
 // ----------------------------------------
-Event(20005800, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    var flag_Boss_Defeated   = X0_4;
-    var flag_Boss_InBattle   = X12_4;
-    var flag_Boss_Skip       = X24_4;
-    
-    var obj_Fogwall          = X4_4;
-    
-    var trigger_FogwallZone  = X8_4;
-    var trigger_EntranceZone = X28_4;
-    
-    var param_ActionButton   = X16_4;
-    var entity_Boss          = X20_4;
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    
-    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, flag_Boss_Skip, 0);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, flag_Boss_Skip);
-    
-    SkipIfComparison(1, ComparisonType.Equal, trigger_EntranceZone, 0);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, trigger_EntranceZone, 1);
-    
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, flag_Boss_Skip);
-    IfConditionGroup(AND_01, PASS, OR_01); 
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    GotoUnconditionally(Label.LABEL1);
-    
+$Event(20005800, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    const  flag_Boss_Defeated   = X0_4;
+    const  flag_Boss_InBattle   = X12_4;
+    const  flag_Boss_Skip       = X24_4;
+
+    const  obj_Fogwall          = X4_4;
+
+    const  trigger_FogwallZone  = X8_4;
+    const  trigger_EntranceZone = X28_4;
+
+    const  param_ActionButton   = X16_4;
+    const  entity_Boss          = X20_4;
+
+    EndIf(EventFlag(flag_Boss_Defeated));
+
+    if (flag_Boss_Skip != 0) {
+        GotoIf(L0, EventFlag(flag_Boss_Skip));
+
+        if (trigger_EntranceZone != 0) {
+            areaFlag |= InArea(10000, trigger_EntranceZone);
+        }
+
+        areaFlag |= EventFlag(flag_Boss_Skip);
+        cond &= areaFlag && !PlayerIsNotInOwnWorld();
+        WaitFor(cond);
+
+        Goto(L1);
+    }
+
     // Host entrance
-    Label0();
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL3, true);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    IfActionButtonInArea(AND_01, param_ActionButton, obj_Fogwall);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL2, true);
-    RotateCharacter(10000, trigger_FogwallZone, 60060, true);
-    
+L0:
+    if (!PlayerIsNotInOwnWorld()) {
+        cond &= !PlayerIsNotInOwnWorld()
+            && !EventFlag(flag_Boss_Defeated)
+            && ActionButtonInArea(param_ActionButton, obj_Fogwall);
+        WaitFor(cond);
+        GotoIf(L2, PlayerIsNotInOwnWorld());
+        RotateCharacter(10000, trigger_FogwallZone, 60060, true);
+    }
+
     // Client entrance
-    Label3();
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, flag_Boss_InBattle);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, trigger_FogwallZone, 1);
-    IfElapsedSeconds(OR_03, 3);
-    IfConditionGroup(OR_02, PASS, OR_03);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, AND_02);
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_03);
-    
+L3:
+    GotoIf(L1, EventFlag(flag_Boss_InBattle));
+    time = ElapsedSeconds(3);
+    WaitFor(
+        !PlayerIsNotInOwnWorld()
+            && !EventFlag(flag_Boss_Defeated)
+            && (InArea(10000, trigger_FogwallZone) || time));
+    RestartIf(time.Passed);
+
     // Boss start
-    Label1();
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL2, true);
-    IssueBossRoomEntryNotification(0);
-    SetNetworkUpdateAuthority(entity_Boss, AuthorityLevel.Forced);
-    
-    Label2();
+L1:
+    if (!PlayerIsNotInOwnWorld()) {
+        IssueBossRoomEntryNotification(0);
+        SetNetworkUpdateAuthority(entity_Boss, AuthorityLevel.Forced);
+    }
+
+L2:
     ActivateMultiplayerdependantBuffs(entity_Boss);
     SetNetworkconnectedEventFlag(flag_Boss_InBattle, ON);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndUnconditionally(EventEndType.Restart);
+    EndIf(PlayerIsNotInOwnWorld());
+    RestartEvent();
 });
 
 // ----------------------------------------
 // Client - Enter Boss Room
 // ----------------------------------------
-Event(20005801, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    var flag_Boss_Defeated = X0_4;
-    var flag_Boss_InBattle = X12_4;
-    var flag_ClientEnter   = X20_4;
-    
-    var obj_Fogwall          = X4_4;
-    
-    var trigger_FogwallZone = X8_4;
-    
-    var param_ActionButton = X16_4;
-    
+$Event(20005801, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    const  flag_Boss_Defeated = X0_4;
+    const  flag_Boss_InBattle = X12_4;
+    const  flag_ClientEnter   = X20_4;
+
+    const  obj_Fogwall          = X4_4;
+
+    const  trigger_FogwallZone = X8_4;
+
+    const  param_ActionButton = X16_4;
+
     SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetEventFlag(flag_Boss_InBattle, OFF);
-    
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_Boss_InBattle);
-    IfCharacterType(AND_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfActionButtonInArea(AND_01, param_ActionButton, obj_Fogwall);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+    EndIf(EventFlag(flag_Boss_Defeated));
+
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetEventFlag(flag_Boss_InBattle, OFF);
+    }
+
+    WaitFor(
+        !EventFlag(flag_Boss_Defeated)
+            && EventFlag(flag_Boss_InBattle)
+            && CharacterType(10000, TargetType.WhitePhantom)
+            && ActionButtonInArea(param_ActionButton, obj_Fogwall));
+
     RotateCharacter(10000, trigger_FogwallZone, 60060, true);
-    
-    IfCharacterType(AND_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, trigger_FogwallZone, 1);
-    IfElapsedSeconds(OR_01, 3);
-    IfConditionGroup(OR_02, PASS, OR_01);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, AND_02);
-    
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01);
-    
+    time = ElapsedSeconds(3);
+
+    WaitFor(
+        CharacterType(10000, TargetType.WhitePhantom)
+            && (InArea(10000, trigger_FogwallZone) || time));
+
+    RestartIf(time.Passed);
+
     SetEventFlag(flag_ClientEnter, ON);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // ----------------------------------------
 // ???
 // ----------------------------------------
-Event(20005802, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X8_4, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    Label0();
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL1, true);
-    IssueBossRoomEntryNotification(0);
-    Label1();
+$Event(20005802, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+    if (!EventFlag(X4_4)) {
+        WaitFor(!EventFlag(X0_4) && InArea(10000, X8_4));
+    }
+L0:
+    if (!PlayerIsNotInOwnWorld()) {
+        IssueBossRoomEntryNotification(0);
+    }
+L1:
     ActivateMultiplayerdependantBuffs(X12_4);
-    SkipIfComparison(1, ComparisonType.Equal, X16_4, 0);
-    ActivateMultiplayerdependantBuffs(X16_4);
-    SkipIfComparison(1, ComparisonType.Equal, X20_4, 0);
-    ActivateMultiplayerdependantBuffs(X20_4);
-    SkipIfComparison(1, ComparisonType.Equal, X24_4, 0);
-    ActivateMultiplayerdependantBuffs(X24_4);
+    if (X16_4 != 0) {
+        ActivateMultiplayerdependantBuffs(X16_4);
+    }
+    if (X20_4 != 0) {
+        ActivateMultiplayerdependantBuffs(X20_4);
+    }
+    if (X24_4 != 0) {
+        ActivateMultiplayerdependantBuffs(X24_4);
+    }
     SetEventFlag(X4_4, ON);
 });
 
@@ -4064,188 +3802,173 @@ Event(20005802, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
 // Args: <boss_defeat_flag_id>, <zone_id>, <entrance_trigger_id>, <started_flag_id>, <action_id>, <boss_entity_id>, 
 // <skip_flag_id>, <entrance_trigger_id>
 // ----------------------------------------
-Event(20005805, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    var flag_Boss_Defeated   = X0_4;
-    var flag_Boss_InBattle   = X12_4;
-    var flag_Boss_Skip       = X24_4;
-    
-    var trigger_StartZone = X4_4;
-    
-    var trigger_FogwallZone  = X8_4;
-    var trigger_EntranceZone = X28_4;
-    
-    var param_ActionButton   = X16_4;
-    var entity_Boss          = X20_4;
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    
-    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, flag_Boss_Skip, 0);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, flag_Boss_Skip);
-    
-    SkipIfComparison(1, ComparisonType.Equal, trigger_EntranceZone, 0);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, trigger_EntranceZone, 1);
-    
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, flag_Boss_Skip);
-    IfConditionGroup(AND_01, PASS, OR_01); 
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    GotoUnconditionally(Label.LABEL1);
-    
+$Event(20005805, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    const  flag_Boss_Defeated   = X0_4;
+    const  flag_Boss_InBattle   = X12_4;
+    const  flag_Boss_Skip       = X24_4;
+
+    const  trigger_StartZone = X4_4;
+
+    const  trigger_FogwallZone  = X8_4;
+    const  trigger_EntranceZone = X28_4;
+
+    const  param_ActionButton   = X16_4;
+    const  entity_Boss          = X20_4;
+
+    EndIf(EventFlag(flag_Boss_Defeated));
+
+    if (flag_Boss_Skip != 0) {
+        GotoIf(L0, EventFlag(flag_Boss_Skip));
+
+        if (trigger_EntranceZone != 0) {
+            areaFlag |= InArea(10000, trigger_EntranceZone);
+        }
+
+        areaFlag |= EventFlag(flag_Boss_Skip);
+        cond &= areaFlag && !PlayerIsNotInOwnWorld();
+        WaitFor(cond);
+
+        Goto(L1);
+    }
+
     // Host entrance
-    Label0();
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL3, true);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, trigger_StartZone, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL2, true);
-    
+L0:
+    if (!PlayerIsNotInOwnWorld()) {
+        cond &= !PlayerIsNotInOwnWorld()
+            && !EventFlag(flag_Boss_Defeated)
+            && InArea(10000, trigger_StartZone);
+        WaitFor(cond);
+        GotoIf(L2, PlayerIsNotInOwnWorld());
+    }
+
     // Client entrance
-    Label3();
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, flag_Boss_InBattle);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, trigger_FogwallZone, 1);
-    IfElapsedSeconds(OR_03, 3);
-    IfConditionGroup(OR_02, PASS, OR_03);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, AND_02);
-    EndIfConditionGroupStateCompiled(EventEndType.End, PASS, OR_03);
-    
+L3:
+    GotoIf(L1, EventFlag(flag_Boss_InBattle));
+    time = ElapsedSeconds(3);
+    WaitFor(
+        !PlayerIsNotInOwnWorld()
+            && !EventFlag(flag_Boss_Defeated)
+            && (InArea(10000, trigger_FogwallZone) || time));
+    EndIf(time.Passed);
+
     // Boss start
-    Label1();
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL2, true);
-    IssueBossRoomEntryNotification(0);
-    SetNetworkUpdateAuthority(entity_Boss, AuthorityLevel.Forced);
-    
-    Label2();
+L1:
+    if (!PlayerIsNotInOwnWorld()) {
+        IssueBossRoomEntryNotification(0);
+        SetNetworkUpdateAuthority(entity_Boss, AuthorityLevel.Forced);
+    }
+
+L2:
     ActivateMultiplayerdependantBuffs(entity_Boss);
     SetNetworkconnectedEventFlag(flag_Boss_InBattle, ON);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndUnconditionally(EventEndType.End);
+    EndIf(PlayerIsNotInOwnWorld());
+    EndEvent();
 });
 
 // ----------------------------------------
 // Client - Enter Boss Zone
 // ----------------------------------------
-Event(20005806, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    var flag_Boss_Defeated = X0_4;
-    var flag_Boss_InBattle = X12_4;
-    var flag_ClientEnter   = X20_4;
-    
-    var trigger_StartZone = X4_4;
-    
-    var trigger_FogwallZone = X8_4;
-    
-    var param_ActionButton = X16_4;
-    
+$Event(20005806, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    const  flag_Boss_Defeated = X0_4;
+    const  flag_Boss_InBattle = X12_4;
+    const  flag_ClientEnter   = X20_4;
+
+    const  trigger_StartZone = X4_4;
+
+    const  trigger_FogwallZone = X8_4;
+
+    const  param_ActionButton = X16_4;
+
     SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetEventFlag(flag_Boss_InBattle, OFF);
-    
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_Boss_InBattle);
-    IfCharacterType(AND_01, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, trigger_StartZone, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+    EndIf(EventFlag(flag_Boss_Defeated));
+
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetEventFlag(flag_Boss_InBattle, OFF);
+    }
+
+    WaitFor(
+        !EventFlag(flag_Boss_Defeated)
+            && EventFlag(flag_Boss_InBattle)
+            && CharacterType(10000, TargetType.WhitePhantom)
+            && InArea(10000, trigger_StartZone));
+
     RotateCharacter(10000, trigger_FogwallZone, 60060, true);
-    
-    IfCharacterType(AND_02, 10000, TargetType.WhitePhantom, ComparisonType.Equal, 1);
-    IfInoutsideArea(OR_02, InsideOutsideState.Inside, 10000, trigger_FogwallZone, 1);
-    IfElapsedSeconds(OR_01, 3);
-    IfConditionGroup(OR_02, PASS, OR_01);
-    IfConditionGroup(AND_02, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, AND_02);
-    
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_01);
-    
+    time = ElapsedSeconds(3);
+
+    WaitFor(
+        CharacterType(10000, TargetType.WhitePhantom)
+            && (InArea(10000, trigger_FogwallZone) || time));
+
+    RestartIf(time.Passed);
+
     SetEventFlag(flag_ClientEnter, ON);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 // ----------------------------------------
 // Boss - Enter Fogwall
 // ----------------------------------------
-Event(20005810, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    var flag_Boss_Defeated  = X0_4;
-    
-    var obj_Fogwall         = X4_4;
-    
-    var trigger_FogwallZone = X8_4;
-    
-    var param_ActionButton = X12_4;
-    
+$Event(20005810, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    const  flag_Boss_Defeated  = X0_4;
+
+    const  obj_Fogwall         = X4_4;
+
+    const  trigger_FogwallZone = X8_4;
+
+    const  param_ActionButton = X12_4;
+
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_Boss_Defeated);
-    IfMultiplayerState(OR_01, MultiplayerState.TryingtoCreateSession);
-    IfMultiplayerState(OR_01, MultiplayerState.TryingtoJoinSession);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfActionButtonInArea(AND_01, param_ActionButton, obj_Fogwall);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(
+        !PlayerIsNotInOwnWorld()
+            && EventFlag(flag_Boss_Defeated)
+            && (HasMultiplayerState(MultiplayerState.TryingtoCreateSession)
+                || HasMultiplayerState(MultiplayerState.TryingtoJoinSession))
+            && ActionButtonInArea(param_ActionButton, obj_Fogwall));
     RotateCharacter(10000, trigger_FogwallZone, 60060, true);
     SendAllPhantomsHome(0);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // ----------------------------------------
 // Boss - Toggle Fogwall State
 // Args: <boss_flag_id>, <fogwall_id>, <ffx_id>, <flag_id>
 // ----------------------------------------
-Event(20005820, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+$Event(20005820, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X4_4, Disabled);
     DeleteObjectfollowingSFX(X4_4, true);
-    
-    IfPlayerIsNotInOwnWorldExcludesArena(OR_01, true);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfParameterComparison(OR_02, ComparisonType.Equal, X12_4, 0);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfMultiplayerState(OR_03, MultiplayerState.TryingtoCreateSession);
-    IfMultiplayerState(OR_03, MultiplayerState.TryingtoJoinSession);
-    IfConditionGroup(AND_02, PASS, OR_03);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(OR_04, PASS, OR_01);
-    IfConditionGroup(OR_04, PASS, AND_01);
-    IfConditionGroup(OR_04, PASS, AND_02);
-    IfConditionGroup(MAIN, PASS, OR_04);
-    
+
+    WaitFor(
+        PlayerIsNotInOwnWorld()
+            || ((EventFlag(X12_4) || X12_4 == 0) && !EventFlag(X0_4))
+            || ((HasMultiplayerState(MultiplayerState.TryingtoCreateSession)
+                || HasMultiplayerState(MultiplayerState.TryingtoJoinSession))
+                && EventFlag(X0_4)));
+
     DeactivateObject(X4_4, Enabled);
     DeleteObjectfollowingSFX(X4_4, true);
     CreateObjectfollowingSFX(X4_4, 101, X8_4);
-    
-    IfPlayerIsNotInOwnWorldExcludesArena(OR_05, true);
-    IfEventFlag(OR_06, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfParameterComparison(OR_06, ComparisonType.Equal, X12_4, 0);
-    IfConditionGroup(AND_03, PASS, OR_06);
-    IfEventFlag(AND_03, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfMultiplayerState(OR_07, MultiplayerState.TryingtoCreateSession);
-    IfMultiplayerState(OR_07, MultiplayerState.TryingtoJoinSession);
-    IfConditionGroup(AND_04, PASS, OR_07);
-    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(AND_05, FAIL, OR_05);
-    IfConditionGroup(AND_05, FAIL, AND_03);
-    IfConditionGroup(AND_05, FAIL, AND_04);
-    IfConditionGroup(MAIN, PASS, AND_05);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    WaitFor(
+        !PlayerIsNotInOwnWorld()
+            && !((EventFlag(X12_4) || X12_4 == 0) && !EventFlag(X0_4))
+            && !((HasMultiplayerState(MultiplayerState.TryingtoCreateSession)
+                || HasMultiplayerState(MultiplayerState.TryingtoJoinSession))
+                && EventFlag(X0_4)));
+
+    RestartEvent();
 });
 
 // ----------------------------------------
 // ???
 // ----------------------------------------
-Event(20005821, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+$Event(20005821, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(EventFlag(X0_4));
     ChangeCharacterEnableState(X8_4, Disabled);
     DeactivateObject(X12_4, Disabled);
     WaitFixedTimeSeconds(1);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    WaitFor(EventFlag(X0_4));
     ChangeCharacterEnableState(X8_4, Enabled);
     DeactivateObject(X12_4, Enabled);
     RegisterBonfire(X4_4, X12_4, 5, 180, 0);
@@ -4255,124 +3978,97 @@ Event(20005821, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // Boss - Toggle Fogwall State
 // Args: <boss_flag_id>, <fogwall_id>, <ffx_id>
 // ----------------------------------------
-Event(20005822, Restart, function(X0_4, X4_4, X8_4) {
+$Event(20005822, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X4_4, Disabled);
     DeleteObjectfollowingSFX(X4_4, true);
-    
-    IfPlayerIsNotInOwnWorldExcludesArena(OR_01, true);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfMultiplayerState(OR_03, MultiplayerState.TryingtoCreateSession);
-    IfMultiplayerState(OR_03, MultiplayerState.TryingtoJoinSession);
-    IfConditionGroup(AND_02, PASS, OR_03);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(OR_04, PASS, OR_01);
-    IfConditionGroup(OR_04, PASS, AND_01);
-    IfConditionGroup(OR_04, PASS, AND_02);
-    IfConditionGroup(MAIN, PASS, OR_04);
-    
+
+    WaitFor(
+        PlayerIsNotInOwnWorld()
+            || !EventFlag(X0_4)
+            || ((HasMultiplayerState(MultiplayerState.TryingtoCreateSession)
+                || HasMultiplayerState(MultiplayerState.TryingtoJoinSession))
+                && EventFlag(X0_4)));
+
     DeactivateObject(X4_4, Enabled);
     DeleteObjectfollowingSFX(X4_4, true);
     CreateObjectfollowingSFX(X4_4, 101, X8_4);
-    
-    IfPlayerIsNotInOwnWorldExcludesArena(OR_05, true);
-    IfEventFlag(AND_03, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfMultiplayerState(OR_07, MultiplayerState.TryingtoCreateSession);
-    IfMultiplayerState(OR_07, MultiplayerState.TryingtoJoinSession);
-    IfConditionGroup(AND_04, PASS, OR_07);
-    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(AND_05, FAIL, OR_05);
-    IfConditionGroup(AND_05, FAIL, AND_03);
-    IfConditionGroup(AND_05, FAIL, AND_04);
-    IfConditionGroup(MAIN, PASS, AND_05);
 
-    EndUnconditionally(EventEndType.Restart);
+    WaitFor(
+        !PlayerIsNotInOwnWorld()
+            && EventFlag(X0_4)
+            && !((HasMultiplayerState(MultiplayerState.TryingtoCreateSession)
+                || HasMultiplayerState(MultiplayerState.TryingtoJoinSession))
+                && EventFlag(X0_4)));
+
+    RestartEvent();
 });
 
 // ----------------------------------------
 // Boss - Toggle Fogwall State - zone
 // Args: <boss_flag_id>, <fogwall_id>, <ffx_id>
 // ----------------------------------------
-Event(20005823, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+$Event(20005823, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X4_4, Disabled);
     DeleteObjectfollowingSFX(X4_4, true);
 
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+    WaitFor(!EventFlag(X0_4) && InArea(10000, X12_4));
+
     DeactivateObject(X4_4, Enabled);
     DeleteObjectfollowingSFX(X4_4, true);
     CreateObjectfollowingSFX(X4_4, 101, X8_4);
-    
-    IfPlayerIsNotInOwnWorldExcludesArena(OR_05, true);
-    IfEventFlag(AND_03, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfMultiplayerState(OR_07, MultiplayerState.TryingtoCreateSession);
-    IfMultiplayerState(OR_07, MultiplayerState.TryingtoJoinSession);
-    IfConditionGroup(AND_04, PASS, OR_07);
-    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(AND_05, FAIL, OR_05);
-    IfConditionGroup(AND_05, FAIL, AND_03);
-    IfConditionGroup(AND_05, FAIL, AND_04);
-    IfConditionGroup(MAIN, PASS, AND_05);
 
-    EndUnconditionally(EventEndType.Restart);
+    WaitFor(
+        !PlayerIsNotInOwnWorld()
+            && EventFlag(X0_4)
+            && !((HasMultiplayerState(MultiplayerState.TryingtoCreateSession)
+                || HasMultiplayerState(MultiplayerState.TryingtoJoinSession))
+                && EventFlag(X0_4)));
+
+    RestartEvent();
 });
 
 // ----------------------------------------
 // ???
 // ----------------------------------------
-Event(20005825, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+$Event(20005825, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     DeactivateObject(X4_4, Disabled);
     DeleteObjectfollowingSFX(X4_4, true);
-    IfPlayerIsNotInOwnWorldExcludesArena(OR_01, true);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfParameterComparison(OR_02, ComparisonType.Equal, X12_4, 0);
-    IfConditionGroup(AND_01, PASS, OR_02);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfMultiplayerState(OR_03, MultiplayerState.TryingtoCreateSession);
-    IfMultiplayerState(OR_03, MultiplayerState.TryingtoJoinSession);
-    IfConditionGroup(AND_02, PASS, OR_03);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(OR_04, PASS, OR_01);
-    IfConditionGroup(OR_04, PASS, AND_01);
-    IfConditionGroup(OR_04, PASS, AND_02);
-    IfConditionGroup(MAIN, PASS, OR_04);
+    WaitFor(
+        PlayerIsNotInOwnWorld()
+            || ((EventFlag(X12_4) || X12_4 == 0) && !EventFlag(X0_4))
+            || ((HasMultiplayerState(MultiplayerState.TryingtoCreateSession)
+                || HasMultiplayerState(MultiplayerState.TryingtoJoinSession))
+                && EventFlag(X0_4)));
     DeactivateObject(X4_4, Enabled);
     DeleteObjectfollowingSFX(X4_4, true);
     CreateObjectfollowingSFX(X4_4, X16_4, X8_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(OR_05, true);
-    IfEventFlag(OR_06, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfParameterComparison(OR_06, ComparisonType.Equal, X12_4, 0);
-    IfConditionGroup(AND_03, PASS, OR_06);
-    IfEventFlag(AND_03, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfMultiplayerState(OR_07, MultiplayerState.TryingtoCreateSession);
-    IfMultiplayerState(OR_07, MultiplayerState.TryingtoJoinSession);
-    IfConditionGroup(AND_04, PASS, OR_07);
-    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(AND_05, FAIL, OR_05);
-    IfConditionGroup(AND_05, FAIL, AND_03);
-    IfConditionGroup(AND_05, FAIL, AND_04);
-    IfConditionGroup(MAIN, PASS, AND_05);
-    EndUnconditionally(EventEndType.Restart);
+    WaitFor(
+        !PlayerIsNotInOwnWorld()
+            && !((EventFlag(X12_4) || X12_4 == 0) && !EventFlag(X0_4))
+            && !((HasMultiplayerState(MultiplayerState.TryingtoCreateSession)
+                || HasMultiplayerState(MultiplayerState.TryingtoJoinSession))
+                && EventFlag(X0_4)));
+    RestartEvent();
 });
 
 // ----------------------------------------
 // Boss - Sound State
 // ----------------------------------------
-Event(20005830, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+$Event(20005830, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    EndIf(EventFlag(X0_4));
+    flagArea &= EventFlag(X4_4);
+    if (NumberOfClientsOfType(ClientType.Coop) != 0) {
+        flagArea &= EventFlag(X8_4);
+    }
+    flagArea &= InArea(10000, X12_4);
+    WaitFor(flagArea);
     EnableBossMapSound(X16_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    WaitFor(EventFlag(X0_4));
     EnableBossMapSound(-1, Disabled);
 });
 
@@ -4380,632 +4076,595 @@ Event(20005830, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // Boss - Boss Sound State
 // Args: <boss_flag_id>, <fogwall_id>, <flag_id>, <start_area_id>, <bgm_id>, <bgm_flag_id>, <flag>
 // ----------------------------------------
-Event(20005831, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+$Event(20005831, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
     SetMapSoundState(X20_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    EndIf(EventFlag(X0_4));
+    flagArea &= EventFlag(X4_4);
+    if (NumberOfClientsOfType(ClientType.Coop) != 0) {
+        flagArea &= EventFlag(X8_4);
+    }
+    flagArea &= InArea(10000, X12_4);
+    WaitFor(flagArea);
     EnableBossMapSound(X16_4, Enabled);
     Unknown201007(X20_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X24_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    EnableBossMapSound(X20_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
-    Label0();
+    WaitFor(EventFlag(X24_4) || EventFlag(X0_4));
+    if (!EventFlag(X0_4)) {
+        EnableBossMapSound(X20_4, Enabled);
+        WaitFor(EventFlag(X0_4));
+    }
+L0:
     EnableBossMapSound(-1, Disabled);
 });
 
 // ----------------------------------------
 // Boss - Sound State
 // ----------------------------------------
-Event(20005832, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+$Event(20005832, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
     SetMapSoundState(X20_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    EndIf(EventFlag(X0_4));
+    flagArea &= EventFlag(X4_4);
+    if (NumberOfClientsOfType(ClientType.Coop) != 0) {
+        flagArea &= EventFlag(X8_4);
+    }
+    flagArea &= InArea(10000, X12_4);
+    WaitFor(flagArea);
     EnableBossMapSound(X16_4, Enabled);
     Unknown201007(X20_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X24_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    EnableBossMapSound(X20_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X28_4);
-    Label0();
+    WaitFor(EventFlag(X24_4) || EventFlag(X0_4));
+    if (!EventFlag(X0_4)) {
+        EnableBossMapSound(X20_4, Enabled);
+        WaitFor(EventFlag(X28_4));
+    }
+L0:
     EnableBossMapSound(-1, Disabled);
 });
 
 // ----------------------------------------
 // Boss - Sound State
 // ----------------------------------------
-Event(20005833, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+$Event(20005833, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
     SetMapSoundState(X20_4, Disabled);
     SetMapSoundState(X24_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    EndIf(EventFlag(X0_4));
+    flagArea &= EventFlag(X4_4);
+    if (NumberOfClientsOfType(ClientType.Coop) != 0) {
+        flagArea &= EventFlag(X8_4);
+    }
+    flagArea &= InArea(10000, X12_4);
+    WaitFor(flagArea);
     EnableBossMapSound(X16_4, Enabled);
     Unknown201007(X20_4);
     Unknown201007(X24_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X28_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X32_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X32_4);
-    EnableBossMapSound(X20_4, Enabled);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X32_4);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    Label1();
-    EnableBossMapSound(X24_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
-    Label0();
+    WaitFor(EventFlag(X28_4) || EventFlag(X32_4) || EventFlag(X0_4));
+    if (!EventFlag(X0_4)) {
+        if (!EventFlag(X32_4)) {
+            EnableBossMapSound(X20_4, Enabled);
+            WaitFor(EventFlag(X32_4) || EventFlag(X0_4));
+            GotoIf(L0, EventFlag(X0_4));
+        }
+L1:
+        EnableBossMapSound(X24_4, Enabled);
+        WaitFor(EventFlag(X0_4));
+    }
+L0:
     EnableBossMapSound(-1, Disabled);
 });
 
 // ----------------------------------------
 // Boss - Sound - Basic
 // ----------------------------------------
-Event(20001834, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    var flag_BossDefeated = X0_4;
-    var flag_BossInBattle = X4_4;
-    var flag_BossStart    = X8_4;
-    
-    var sound_BossBGM = X12_4;
-    
+$Event(20001834, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    const  flag_BossDefeated = X0_4;
+    const  flag_BossInBattle = X4_4;
+    const  flag_BossStart    = X8_4;
+
+    const  sound_BossBGM = X12_4;
+
     SetNetworkSyncState(Disabled);
     SetMapSoundState(sound_BossBGM, Disabled);
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, flag_BossDefeated);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_BossInBattle);
-    
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, flag_BossStart);
-    
-    IfConditionGroup(MAIN, PASS, AND_01);
+
+    EndIf(EventFlag(flag_BossDefeated));
+    flag &= EventFlag(flag_BossInBattle);
+
+    if (NumberOfClientsOfType(ClientType.Coop) != 0) {
+        flag &= EventFlag(flag_BossStart);
+    }
+
+    WaitFor(flag);
     EnableBossMapSound(sound_BossBGM, Enabled);
-    
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, flag_BossDefeated);
+
+    WaitFor(EventFlag(flag_BossDefeated));
     EnableBossMapSound(-1, Disabled);
 });
 
 // ----------------------------------------
 // Boss - Sound State
 // ----------------------------------------
-Event(20001835, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+$Event(20001835, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    EndIf(EventFlag(X0_4));
+    flag &= EventFlag(X4_4);
+    if (NumberOfClientsOfType(ClientType.Coop) != 0) {
+        flag &= EventFlag(X8_4);
+    }
+    flag &= EventFlag(X12_4);
+    WaitFor(flag);
     EnableBossMapSound(X16_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    WaitFor(EventFlag(X0_4));
     EnableBossMapSound(-1, Disabled);
 });
 
 // ----------------------------------------
 // Boss - Sound State
 // ----------------------------------------
-Event(20001836, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+$Event(20001836, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
-    
-    SetMapSoundState(X16_4, Disabled);
-    SetMapSoundState(X20_4, Disabled);
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    EnableBossMapSound(X16_4, Enabled);
-    Unknown201007(X20_4);
-    
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X24_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    
-    EnableBossMapSound(X20_4, Enabled);
-    
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
-    
-    Label0();
-    
-    EnableBossMapSound(-1, Disabled);
-});
 
-// ----------------------------------------
-// Boss - Sound State
-// ----------------------------------------
-Event(20001837, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
     SetMapSoundState(X20_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
+
+    EndIf(EventFlag(X0_4));
+
+    flag &= EventFlag(X4_4);
+    if (NumberOfClientsOfType(ClientType.Coop) != 0) {
+        flag &= EventFlag(X8_4);
+    }
+    flag &= EventFlag(X12_4);
+    WaitFor(flag);
+
     EnableBossMapSound(X16_4, Enabled);
     Unknown201007(X20_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X24_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    EnableBossMapSound(X20_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X28_4);
-    Label0();
+
+    WaitFor(EventFlag(X24_4) || EventFlag(X0_4));
+    if (!EventFlag(X0_4)) {
+
+        EnableBossMapSound(X20_4, Enabled);
+
+        WaitFor(EventFlag(X0_4));
+    }
+
+L0:
+
     EnableBossMapSound(-1, Disabled);
 });
 
 // ----------------------------------------
 // Boss - Sound State
 // ----------------------------------------
-Event(20001838, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+$Event(20001837, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    SetNetworkSyncState(Disabled);
+    SetMapSoundState(X16_4, Disabled);
+    SetMapSoundState(X20_4, Disabled);
+    EndIf(EventFlag(X0_4));
+    flag &= EventFlag(X4_4);
+    if (NumberOfClientsOfType(ClientType.Coop) != 0) {
+        flag &= EventFlag(X8_4);
+    }
+    flag &= EventFlag(X12_4);
+    WaitFor(flag);
+    EnableBossMapSound(X16_4, Enabled);
+    Unknown201007(X20_4);
+    WaitFor(EventFlag(X24_4) || EventFlag(X0_4));
+    if (!EventFlag(X0_4)) {
+        EnableBossMapSound(X20_4, Enabled);
+        WaitFor(EventFlag(X28_4));
+    }
+L0:
+    EnableBossMapSound(-1, Disabled);
+});
+
+// ----------------------------------------
+// Boss - Sound State
+// ----------------------------------------
+$Event(20001838, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     SetNetworkSyncState(Disabled);
     SetMapSoundState(X16_4, Disabled);
     SetMapSoundState(X20_4, Disabled);
     SetMapSoundState(X24_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Coop, ComparisonType.Equal, 0);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    EndIf(EventFlag(X0_4));
+    flag &= EventFlag(X4_4);
+    if (NumberOfClientsOfType(ClientType.Coop) != 0) {
+        flag &= EventFlag(X8_4);
+    }
+    flag &= EventFlag(X12_4);
+    WaitFor(flag);
     EnableBossMapSound(X16_4, Enabled);
     Unknown201007(X20_4);
     Unknown201007(X24_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X28_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X32_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    GotoIfEventFlag(Label.LABEL1, ON, TargetEventFlagType.EventFlag, X32_4);
-    EnableBossMapSound(X20_4, Enabled);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X32_4);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    Label1();
-    EnableBossMapSound(X24_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
-    Label0();
+    WaitFor(EventFlag(X28_4) || EventFlag(X32_4) || EventFlag(X0_4));
+    if (!EventFlag(X0_4)) {
+        if (!EventFlag(X32_4)) {
+            EnableBossMapSound(X20_4, Enabled);
+            WaitFor(EventFlag(X32_4) || EventFlag(X0_4));
+            GotoIf(L0, EventFlag(X0_4));
+        }
+L1:
+        EnableBossMapSound(X24_4, Enabled);
+        WaitFor(EventFlag(X0_4));
+    }
+L0:
     EnableBossMapSound(-1, Disabled);
 });
 
 // ----------------------------------------
 // ???
 // ----------------------------------------
-Event(20005837, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+$Event(20005837, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X20_4);
-    SkipUnconditionally(1);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X24_4);
+    EndIf(EventFlag(X0_4));
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        WaitFor(EventFlag(X20_4));
+    } else {
+        WaitFor(EventFlag(X24_4));
+    }
     ChangeCamera(-1, -1);
-    IfEntityInoutsideRadiusOfEntity(OR_01, InsideOutsideState.Inside, X4_4, 10000, X8_4, 1);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    ChangeCamera(X12_4, X16_4);
-    WaitFixedTimeSeconds(0.5);
-    IfEntityInoutsideRadiusOfEntity(OR_02, InsideOutsideState.Outside, X4_4, 10000, X8_4, 1);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    Label0();
+    WaitFor(EntityInRadiusOfEntity(X4_4, 10000, X8_4, 1) || EventFlag(X0_4));
+    if (!EventFlag(X0_4)) {
+        ChangeCamera(X12_4, X16_4);
+        WaitFixedTimeSeconds(0.5);
+        WaitFor(!EntityInRadiusOfEntity(X4_4, 10000, X8_4, 1) || EventFlag(X0_4));
+    }
+L0:
     ChangeCamera(-1, -1);
     WaitFixedTimeSeconds(0.5);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // ----------------------------------------
 // ???
 // ----------------------------------------
-Event(20005838, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+$Event(20005838, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X20_4);
-    SkipUnconditionally(1);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X24_4);
+    EndIf(EventFlag(X0_4));
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        WaitFor(EventFlag(X20_4));
+    } else {
+        WaitFor(EventFlag(X24_4));
+    }
     ChangeCamera(X12_4, X12_4);
-    IfEntityInoutsideRadiusOfEntity(OR_01, InsideOutsideState.Inside, X4_4, 10000, X8_4, 1);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    ChangeCamera(X16_4, X16_4);
-    WaitFixedTimeSeconds(0.5);
-    IfEntityInoutsideRadiusOfEntity(OR_02, InsideOutsideState.Outside, X4_4, 10000, X8_4, 1);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    Label0();
+    WaitFor(EntityInRadiusOfEntity(X4_4, 10000, X8_4, 1) || EventFlag(X0_4));
+    if (!EventFlag(X0_4)) {
+        ChangeCamera(X16_4, X16_4);
+        WaitFixedTimeSeconds(0.5);
+        WaitFor(!EntityInRadiusOfEntity(X4_4, 10000, X8_4, 1) || EventFlag(X0_4));
+    }
+L0:
     ChangeCamera(-1, -1);
     WaitFixedTimeSeconds(0.5);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // ----------------------------------------
 // ???
 // ----------------------------------------
-Event(20005839, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+$Event(20005839, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    SkipIfNumberOfClientsOfType(2, ClientType.Invader, ComparisonType.Equal, 0);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X20_4);
-    SkipUnconditionally(1);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X24_4);
+    EndIf(EventFlag(X0_4));
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        WaitFor(EventFlag(X20_4));
+    } else {
+        WaitFor(EventFlag(X24_4));
+    }
     ChangeCamera(X12_4, X12_4);
-    IfInoutsideArea(AND_01, InsideOutsideState.Outside, 10000, X28_4, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfEntityInoutsideRadiusOfEntity(OR_01, InsideOutsideState.Inside, X4_4, 10000, X8_4, 1);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfEventFlag(Label.LABEL0, ON, TargetEventFlagType.EventFlag, X0_4);
-    GotoIfConditionGroupStateCompiled(Label.LABEL1, PASS, AND_01);
+    area = !InArea(10000, X28_4);
+    WaitFor(area || EntityInRadiusOfEntity(X4_4, 10000, X8_4, 1) || EventFlag(X0_4));
+    GotoIf(L0, EventFlag(X0_4));
+    GotoIf(L1, area.Passed);
     ChangeCamera(X16_4, X16_4);
     WaitFixedTimeSeconds(0.5);
-    IfInoutsideArea(AND_02, InsideOutsideState.Outside, 10000, X28_4, 1);
-    IfConditionGroup(OR_02, PASS, AND_02);
-    IfEntityInoutsideRadiusOfEntity(OR_02, InsideOutsideState.Outside, X4_4, 10000, X8_4, 1);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_02);
-    GotoIfConditionGroupStateCompiled(Label.LABEL1, PASS, AND_02);
-    Label0();
+    area2 = !InArea(10000, X28_4);
+    WaitFor(area2 || !EntityInRadiusOfEntity(X4_4, 10000, X8_4, 1) || EventFlag(X0_4));
+    GotoIf(L1, area2.Passed);
+L0:
     ChangeCamera(-1, -1);
     WaitFixedTimeSeconds(0.5);
-    EndUnconditionally(EventEndType.Restart);
-    Label1();
+    RestartEvent();
+L1:
     ChangeCamera(-1, -1);
     WaitFixedTimeSeconds(0.5);
-    IfInoutsideArea(OR_03, InsideOutsideState.Inside, 10000, X28_4, 1);
-    IfEventFlag(OR_03, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    EndUnconditionally(EventEndType.Restart);
+    WaitFor(InArea(10000, X28_4) || EventFlag(X0_4));
+    RestartEvent();
 });
 
 // Handle Fog Wall for Player
-Event(20005840, Restart, function(X0_4) {
-    IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, 5, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20005840, Restart, function(X0_4) {
+    WaitFor(CharacterType(10000, TargetType.Alive) && EntityInRadiusOfEntity(10000, X0_4, 5, 1));
     Unknown200459(10000, Disabled);
     WaitFixedTimeSeconds(1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // Handle Fog Wall for Client Player
-Event(20005841, Restart, function(X0_4) {
-    IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Outside, 10000, X0_4, 5, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, 8, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20005841, Restart, function(X0_4) {
+    WaitFor(
+        CharacterType(10000, TargetType.Alive)
+            && !EntityInRadiusOfEntity(10000, X0_4, 5, 1)
+            && EntityInRadiusOfEntity(10000, X0_4, 8, 1));
     Unknown200459(10000, Enabled);
     WaitFixedTimeSeconds(1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // Set Flag based on Flag
-Event(20005900, Restart, function(X0_4, X4_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+$Event(20005900, Restart, function(X0_4, X4_4) {
+    WaitFor(EventFlag(X0_4));
     SetEventFlag(X4_4, ON);
 });
 
-Event(20005060, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+$Event(20005060, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndIf(PlayerIsNotInOwnWorld());
     SetEventFlag(X4_4, OFF);
     SetEventFlag(X12_4, OFF);
     DeleteObjectfollowingSFX(X28_4, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfMultiplayerState(OR_01, MultiplayerState.TryingtoJoinSession);
-    IfMultiplayerState(OR_01, MultiplayerState.TryingtoCreateSession);
-    IfConditionGroup(AND_01, FAIL, OR_01);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    EndIf(EventFlag(X0_4));
+    WaitFor(
+        EventFlag(X8_4)
+            && !PlayerIsNotInOwnWorld()
+            && !(HasMultiplayerState(MultiplayerState.TryingtoJoinSession)
+                || HasMultiplayerState(MultiplayerState.TryingtoCreateSession)));
     CreateObjectfollowingSFX(X28_4, 0, X32_4);
-    IfMultiplayerState(OR_02, MultiplayerState.TryingtoJoinSession);
-    IfMultiplayerState(OR_02, MultiplayerState.TryingtoCreateSession);
-    IfConditionGroup(OR_03, PASS, OR_02);
-    IfActionButtonInArea(OR_03, X24_4, X28_4);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    EndIfConditionGroupStateCompiled(EventEndType.Restart, PASS, OR_02);
+    online = HasMultiplayerState(MultiplayerState.TryingtoJoinSession)
+        || HasMultiplayerState(MultiplayerState.TryingtoCreateSession);
+    WaitFor(online || ActionButtonInArea(X24_4, X28_4));
+    RestartIf(online.Passed);
     DisplayGenericDialogAndSetEventFlags(X20_4, PromptType.YESNO, NumberofOptions.TwoButtons, X28_4, 2, X12_4, X16_4, X16_4);
-    EndIfEventFlag(EventEndType.Restart, OFF, TargetEventFlagType.EventFlag, X12_4);
+    RestartIf(!EventFlag(X12_4));
     SetEventFlag(X4_4, ON);
-    SetSpeffect(10000, 15);
+    SetSpEffect(10000, 15);
     WaitFixedTimeSeconds(20);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
-Event(20005061, Restart, function(X0_4, X4_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+$Event(20005061, Restart, function(X0_4, X4_4) {
+    EndIf(EventFlag(X0_4));
+    WaitFor(CharacterDead(X4_4));
     SetEventFlag(X0_4, ON);
     HandleBossDefeatAndDisplayBanner(X4_4, TextBannerType.DutyFulfilled);
 });
 
-Event(20005062, Restart, function(X0_4, X4_4) {
+$Event(20005062, Restart, function(X0_4, X4_4) {
     SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    EndIf(EventFlag(X4_4));
+    EndIf(!EventFlag(X0_4));
+    WaitFor(EventFlag(X0_4));
     SetEventFlag(X4_4, ON);
 });
 
 // Hollow Arena - Setup
-Event(20005920, Restart, function(X0_1, X4_4, X8_4, X12_4) {
+$Event(20005920, Restart, function(X0_1, X4_4, X8_4, X12_4) {
     SetAreaWelcomeMessageState(Disabled);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfHollowArenaMatchReadyState(AND_01, true);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    WaitFor(!PlayerIsNotInOwnWorld() && HollowArenaMatchReady());
     WaitFixedTimeSeconds(5);
     DisplayHollowArenaPvpMessage(X8_4, 1, Enabled);
     DisplayBanner(TextBannerType.BeginMatch);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    WaitHollowArenaHalfTimeStayparamLookup(X0_1, false);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false);
-    IfEventFlag(AND_02, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfConditionGroup(MAIN, PASS, AND_02);
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        WaitHollowArenaHalfTimeStayparamLookup(X0_1, false);
+    }
+    WaitFor(!PlayerIsNotInOwnWorld() && !EventFlag(X4_4));
     DisplayHollowArenaPvpMessage(X12_4, 2, Enabled);
-    SetSpeffect(10000, 1420060);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    WaitHollowArenaHalfTimeStayparamLookup(X0_1, true);
-    IfPlayerIsNotInOwnWorldExcludesArena(MAIN, false);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X4_4, ON);
+    SetSpEffect(10000, 1420060);
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        WaitHollowArenaHalfTimeStayparamLookup(X0_1, true);
+    }
+    WaitFor(!PlayerIsNotInOwnWorld());
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkconnectedEventFlag(X4_4, ON);
+    }
 });
 
 // Hollow Arena - Duel
-Event(20005930, Restart, function(X0_4) {
-    IfHollowArenaSoloScoreComparison(OR_01, ComparisonType.Equal, 0);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkconnectedEventFlag(X0_4, ON);
+$Event(20005930, Restart, function(X0_4) {
+    WaitFor(HollowArenaSoloScore(0) == 0 || EventFlag(X0_4));
+    EndIf(EventFlag(X0_4));
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkconnectedEventFlag(X0_4, ON);
+    }
 });
 
 // Hollow Arena - Cleanup
-Event(20005940, Restart, function(X0_4) {
+$Event(20005940, Restart, function(X0_4) {
     SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    WaitFor(EventFlag(X0_4));
     SetCharacterInvincibility(10000, Enabled);
     DisplayHollowArenaPvpMessage(10020020, 0, Enabled);
     WaitFixedTimeFrames(1);
     WaitFixedTimeSeconds(5);
     Unknown200379(0);
-    GotoIfHollowArenaMatchType(Label.LABEL9, HollowArenaMatchType.TwoVersusThree);
-    GotoIfHollowArenaMatchType(Label.LABEL9, HollowArenaMatchType.ThreeVersusThree);
-    IfHollowArenaSoloResults(OR_01, HollowArenaResult.Win);
-    IfHollowArenaSoloResults(OR_02, HollowArenaResult.Draw);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL1, PASS, OR_02);
-    GotoUnconditionally(Label.LABEL2);
-    Label9();
-    IfHollowArenaTeamResults(OR_01, HollowArenaResult.Win);
-    IfHollowArenaTeamResults(OR_02, HollowArenaResult.Draw);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL1, PASS, OR_02);
-    GotoUnconditionally(Label.LABEL2);
-    Label0();
+    GotoIf(L9, HasHollowArenaMatchType(HollowArenaMatchType.TwoVersusThree));
+    GotoIf(L9, HasHollowArenaMatchType(HollowArenaMatchType.ThreeVersusThree));
+    online |= HollowArenaSoloResults(HollowArenaResult.Win);
+    online2 |= HollowArenaSoloResults(HollowArenaResult.Draw);
+    GotoIf(L0, online);
+    GotoIf(L1, online2);
+    Goto(L2);
+L9:
+    online |= HollowArenaTeamResults(HollowArenaResult.Win);
+    online2 |= HollowArenaTeamResults(HollowArenaResult.Draw);
+    GotoIf(L0, online);
+    GotoIf(L1, online2);
+    Goto(L2);
+L0:
     DisplayBanner(TextBannerType.HollowArenaWin);
-    SetSpeffect(10000, 1420040);
+    SetSpEffect(10000, 1420040);
     WaitFixedTimeSeconds(5);
     DisplayHollowArenaPvpMessage(10020030, 0, Enabled);
     WaitFixedTimeSeconds(0.5);
     SendAllPhantomsHomeAndUpdateServerPvpStats(0);
-    EndUnconditionally(EventEndType.End);
-    Label1();
+    EndEvent();
+L1:
     DisplayBanner(TextBannerType.HollowArenaDraw);
-    SetSpeffect(10000, 1420050);
+    SetSpEffect(10000, 1420050);
     WaitFixedTimeSeconds(5);
     DisplayHollowArenaPvpMessage(10020031, 0, Enabled);
     WaitFixedTimeSeconds(0.5);
     SendAllPhantomsHomeAndUpdateServerPvpStats(0);
-    EndUnconditionally(EventEndType.End);
-    Label2();
+    EndEvent();
+L2:
     DisplayBanner(TextBannerType.HollowArenaLoss);
     WaitFixedTimeSeconds(5);
     DisplayHollowArenaPvpMessage(10020032, 0, Enabled);
     WaitFixedTimeSeconds(0.5);
     SendAllPhantomsHomeAndUpdateServerPvpStats(0);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 // Hollow Arena - Duel
-Event(20005941, Restart, function(X0_4) {
+$Event(20005941, Restart, function(X0_4) {
     SetNetworkSyncState(Disabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    WaitFor(EventFlag(X0_4));
     SetCharacterInvincibility(10000, Enabled);
-    IfHollowArenaSoloResults(OR_03, HollowArenaResult.Draw);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_03);
-    DisplayHollowArenaPvpMessage(10020020, 0, Enabled);
-    WaitFixedTimeSeconds(3.5);
+    if (HollowArenaSoloResults(HollowArenaResult.Draw)) {
+        DisplayHollowArenaPvpMessage(10020020, 0, Enabled);
+        WaitFixedTimeSeconds(3.5);
+    }
     WaitFixedTimeSeconds(1);
     Unknown200379(0);
     WaitFixedTimeFrames(1);
-    IfHollowArenaSoloResults(OR_01, HollowArenaResult.Win);
-    IfHollowArenaSoloResults(OR_02, HollowArenaResult.Draw);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL1, PASS, OR_02);
-    GotoUnconditionally(Label.LABEL2);
-    Label0();
+    online = HollowArenaSoloResults(HollowArenaResult.Win);
+    online2 = HollowArenaSoloResults(HollowArenaResult.Draw);
+    GotoIf(L0, online);
+    GotoIf(L1, online2);
+    Goto(L2);
+L0:
     DisplayBanner(TextBannerType.HollowArenaWin);
-    SetSpeffect(10000, 1420040);
+    SetSpEffect(10000, 1420040);
     WaitFixedTimeSeconds(5);
     DisplayHollowArenaPvpMessage(10020030, 0, Enabled);
     WaitFixedTimeSeconds(0.5);
     SendAllPhantomsHomeAndUpdateServerPvpStats(0);
-    EndUnconditionally(EventEndType.End);
-    Label1();
+    EndEvent();
+L1:
     DisplayBanner(TextBannerType.HollowArenaDraw);
     WaitFixedTimeSeconds(5);
     DisplayHollowArenaPvpMessage(10020031, 0, Enabled);
     WaitFixedTimeSeconds(0.5);
     SendAllPhantomsHomeAndUpdateServerPvpStats(0);
-    EndUnconditionally(EventEndType.End);
-    Label2();
+    EndEvent();
+L2:
     DisplayBanner(TextBannerType.HollowArenaLoss);
     WaitFixedTimeSeconds(5);
     DisplayHollowArenaPvpMessage(10020032, 0, Enabled);
     WaitFixedTimeSeconds(0.5);
     SendAllPhantomsHomeAndUpdateServerPvpStats(0);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //-----------------------------------
 // Character - Set Hosility Flags
 //-----------------------------------
-Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
-    
+$Event(20006000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+    EndIf(EventFlag(X4_4));
+    EndIf(EventFlag(X8_4));
+
     SetEventFlag(X12_4, OFF);
-   
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4);
-    IfCharacterHPRatio(AND_01, X0_4, ComparisonType.Greater, 0, ComparisonType.Equal, 1);
-    IfDamageType(AND_02, X0_4, 10000, DamageType.Unspecified);
-    IfCharacterHPRatio(AND_02, X0_4, ComparisonType.Less, X16_4, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_02);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
-   
+
+    WaitFor(
+        !EventFlag(X4_4)
+            && !EventFlag(X8_4)
+            && HPRatio(X0_4) > 0
+            && ((HasDamageType(X0_4, 10000, DamageType.Unspecified) && HPRatio(X0_4) < X16_4)
+                || EventFlag(X12_4)));
+
+    EndIf(EventFlag(X4_4));
+    EndIf(EventFlag(X8_4));
+
     SetCharacterTeamType(X0_4, TeamType.HostileNPC);
-    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, 1, X28_4);
-    BatchSetNetworkconnectedEventFlags(X20_4, X24_4, OFF);
-    SetNetworkconnectedEventFlag(X4_4, ON);
-    GotoUnconditionally(Label.LABEL9);
-    
-    Label0();
-    BatchSetNetworkconnectedEventFlags(X20_4, X24_4, OFF);
-    SetNetworkconnectedEventFlag(X8_4, ON);
-    
-    Label9();
+    if (1 != X28_4) {
+        BatchSetNetworkconnectedEventFlags(X20_4, X24_4, OFF);
+        SetNetworkconnectedEventFlag(X4_4, ON);
+    } else {
+
+L0:
+        BatchSetNetworkconnectedEventFlags(X20_4, X24_4, OFF);
+        SetNetworkconnectedEventFlag(X8_4, ON);
+    }
+
+L9:
     SaveRequest(0);
     WaitFixedTimeFrames(1);
-    IfCharacterHasSpeffect(AND_03, X0_4, 159, true, ComparisonType.Equal, 1);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, FAIL, AND_03);
+    EndIf(!CharacterHasSpEffect(X0_4, 159));
     ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
 });
 
 //-----------------------------------
 // Character - Hostility Monitor
 //-----------------------------------
-Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
+$Event(20006001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+
     WaitFixedTimeFrames(1);
-    
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X8_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
-   
-    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, 9, X16_4);
-    GotoIfComparison(Label.LABEL1, ComparisonType.Equal, 8, X16_4);
-    GotoIfComparison(Label.LABEL2, ComparisonType.Equal, 7, X16_4);
-    GotoIfComparison(Label.LABEL3, ComparisonType.Equal, 6, X16_4);
-    GotoIfComparison(Label.LABEL4, ComparisonType.Equal, 5, X16_4);
-    GotoIfComparison(Label.LABEL5, ComparisonType.Equal, 4, X16_4);
-    GotoIfComparison(Label.LABEL6, ComparisonType.Equal, 3, X16_4);
-    GotoIfComparison(Label.LABEL7, ComparisonType.Equal, 2, X16_4);
-    GotoIfComparison(Label.LABEL8, ComparisonType.Equal, 1, X16_4);
-   
-    IfDamageType(AND_02, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, AND_02);
+
+    WaitFor(!EventFlag(X4_4) && !EventFlag(X8_4));
+
+    GotoIf(L0, 9 == X16_4);
+    GotoIf(L1, 8 == X16_4);
+    GotoIf(L2, 7 == X16_4);
+    GotoIf(L3, 6 == X16_4);
+    GotoIf(L4, 5 == X16_4);
+    GotoIf(L5, 4 == X16_4);
+    GotoIf(L6, 3 == X16_4);
+    GotoIf(L7, 2 == X16_4);
+    GotoIf(L8, 1 == X16_4);
+
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeFrames(1);
-    
-    Label0();
-    IfDamageType(AND_03, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, AND_03);
+
+L0:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeFrames(1);
-   
-    Label1();
-    IfDamageType(AND_04, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, AND_04);
+
+L1:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeFrames(1);
-   
-    Label2();
-    IfDamageType(AND_05, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, AND_05);
+
+L2:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeFrames(1);
-    
-    Label3();
-    IfDamageType(AND_06, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, AND_06);
+
+L3:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeFrames(1);
-    
-    Label4();
-    IfDamageType(AND_07, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, AND_07);
+
+L4:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeFrames(1);
-   
-    Label5();
-    IfDamageType(AND_08, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, AND_08);
+
+L5:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeFrames(1);
-    
-    Label6();
-    IfDamageType(AND_09, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, AND_09);
+
+L6:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeFrames(1);
-    
-    Label7();
-    IfDamageType(AND_10, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, AND_10);
+
+L7:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeFrames(1);
-    
-    Label8();
-    IfDamageType(AND_11, X0_4, 10000, DamageType.Unspecified);
-    IfConditionGroup(MAIN, PASS, AND_11);
+
+L8:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     SetEventFlag(X12_4, ON);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //-----------------------------------
 // Character - Set Flags upon Death
 //-----------------------------------
 // <entity id>, <defeated flag>, <flag range start>, <flag range end>
-Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
-   
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4); // Check if entity has not been defeated previously
-    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1); // Check if entity is dead
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is client
+
+    WaitFor(!EventFlag(X4_4) && CharacterDead(X0_4)); // Check if entity is dead // Check if entity has not been defeated previously
+
     BatchSetNetworkconnectedEventFlags(X8_4, X12_4, OFF); // Set flag range to OFF
     SetNetworkconnectedEventFlag(X4_4, ON); // Set defeated flag
     SaveRequest(0);
@@ -5015,36 +4674,39 @@ Event(20006002, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // Character - Setup Appearance in Host/Client world
 //-----------------------------------
 // <entity id>, <flag>, <hostility flag>, <dead flag>, <in host world flag>, <npc flag range start>, <npc flag range end>
-Event(20006003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetEventFlag(X4_4, OFF);
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfCharacterHPRatio(AND_01, X0_4, ComparisonType.NotEqual, 0, ComparisonType.Equal, 1);
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    GotoIfPlayerIsNotInOwnWorldExcludesArena(Label.LABEL10, true);
-    
-    SetEventFlag(X4_4, OFF);
-    BatchSetNetworkconnectedEventFlags(X20_4, X24_4, OFF);
-    SetNetworkconnectedEventFlag(X16_4, ON);
-    SaveRequest(0);
-    
+$Event(20006003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetEventFlag(X4_4, OFF);
+    }
+
+    WaitFor(
+        EventFlag(X4_4)
+            && EventFlag(X8_4)
+            && EventFlag(X12_4)
+            && HPRatio(X0_4) != 0
+            && !PlayerIsNotInOwnWorld());
+
+    if (!PlayerIsNotInOwnWorld()) {
+
+        SetEventFlag(X4_4, OFF);
+        BatchSetNetworkconnectedEventFlags(X20_4, X24_4, OFF);
+        SetNetworkconnectedEventFlag(X16_4, ON);
+        SaveRequest(0);
+    }
+
     // Disable if world isn't host world
-    Label10();
+L10:
     SetCharacterInvincibility(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    
+
     WaitFixedTimeSeconds(0.5);
-    
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetSpeffect(X0_4, 4640);
-    
+
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetSpEffect(X0_4, 4640);
+    }
+
     WaitFixedTimeSeconds(5);
-    
+
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterBackreadState(X0_4, true);
 });
@@ -5053,15 +4715,15 @@ Event(20006003, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
 // Character - Setup Appearance in Host/Client world
 // <entity id>, <flag>, <hostility flag>, <dead flag>, <in host world flag>, <anim id>, <npc flag range start>, <npc flag range end>, <speffect>
 //----------------------------------
-Event(20006004, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20006004, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+    EndIf(PlayerIsNotInOwnWorld());
     SetEventFlag(X4_4, OFF);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfCharacterHPRatio(AND_01, X0_4, ComparisonType.NotEqual, 0, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_01, X0_4, X32_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    WaitFor(
+        EventFlag(X4_4)
+            && EventFlag(X8_4)
+            && EventFlag(X12_4)
+            && HPRatio(X0_4) != 0
+            && CharacterHasSpEffect(X0_4, X32_4));
     SetEventFlag(X4_4, OFF);
     BatchSetNetworkconnectedEventFlags(X24_4, X28_4, OFF);
     SetNetworkconnectedEventFlag(X16_4, ON);
@@ -5075,245 +4737,233 @@ Event(20006004, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // Character - Animation Handler
 // <entity id>, <flag>, <flag>, <int>, <hex to dec float>, <anim>, <anim>, <speffect>
 //----------------------------------
-Event(20006005, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+$Event(20006005, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
-    GotoIfComparison(Label.LABEL0, ComparisonType.NotEqual, X12_4, 0);
-    
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X16_4, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL9, PASS, AND_01);
-    
-    RotateCharacter(10000, X0_4, 69070, false);
-    WaitFixedTimeFrames(1);
-    IfEntityInoutsideRadiusOfEntity(OR_01, InsideOutsideState.Inside, 10000, X0_4, X16_4, 1);
-    GotoUnconditionally(Label.LABEL8);
-    
-    Label0();
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL9, PASS, AND_01);
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(EventFlag(X4_4));
+    if (X12_4 == 0) {
+
+        area &= EntityInRadiusOfEntity(10000, X0_4, X16_4, 1);
+        GotoIf(L9, area);
+
+        RotateCharacter(10000, X0_4, 69070, false);
+        WaitFixedTimeFrames(1);
+        areaSpFlagTime |= EntityInRadiusOfEntity(10000, X0_4, X16_4, 1);
+        Goto(L8);
+    }
+
+L0:
+    area &= InArea(10000, X12_4);
+    GotoIf(L9, area);
     RotateCharacter(10000, X12_4, 69070, false);
     WaitFixedTimeFrames(1);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    GotoUnconditionally(Label.LABEL8);
-    
-    Label8();
-    IfCharacterHasSpeffect(AND_02, 10000, 150, false, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_02);
-    IfEventFlag(OR_02, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfElapsedFrames(OR_02, 89);
-    IfConditionGroup(OR_01, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    GotoIfConditionGroupStateCompiled(Label.LABEL20, PASS, AND_02);
-    GotoIfConditionGroupStateCompiled(Label.LABEL19, PASS, OR_02);
-    
-    Label9();
-    RotateCharacter(10000, X0_4, X20_4, true);
-    WaitFixedTimeFrames(1);
-    SetEventFlag(X8_4, ON);
-    IfEventFlag(OR_03, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfCharacterHasSpeffect(AND_03, 10000, 150, false, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_03, PASS, AND_03);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    GotoIfConditionGroupStateCompiled(Label.LABEL20, PASS, AND_03);
-    GotoIfComparison(Label.LABEL10, ComparisonType.Equal, X28_4, -1);
-    IfCharacterHasSpeffect(OR_04, 10000, X28_4, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(AND_04, 10000, 150, false, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_04, PASS, AND_04);
-    IfConditionGroup(MAIN, PASS, OR_04);
-    GotoIfConditionGroupStateCompiled(Label.LABEL20, PASS, AND_04);
-    
-    Label10();
-    SetEventFlag(X8_4, OFF);
-    ForceAnimationPlayback(10000, X24_4, false, true, false, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
-    
-    Label19();
-    ForceAnimationPlayback(10000, 0, false, false, false, 0, 1);
-    SetEventFlag(X4_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
-    
-    Label20();
+    areaSpFlagTime |= InArea(10000, X12_4);
+    Goto(L8);
+
+L8:
+    sp = !CharacterHasSpEffect(10000, 150);
+    flagTime = !EventFlag(X4_4) || ElapsedFrames(89);
+    areaSpFlagTime |= sp || flagTime;
+    WaitFor(areaSpFlagTime);
+    if (!sp.Passed) {
+        if (!flagTime.Passed) {
+
+L9:
+            RotateCharacter(10000, X0_4, X20_4, true);
+            WaitFixedTimeFrames(1);
+            SetEventFlag(X8_4, ON);
+            sp2 = !CharacterHasSpEffect(10000, 150);
+            WaitFor(!EventFlag(X4_4) || sp2);
+            if (!sp2.Passed) {
+                if (X28_4 != -1) {
+                    sp3 = !CharacterHasSpEffect(10000, 150);
+                    WaitFor(CharacterHasSpEffect(10000, X28_4) || sp3);
+                    GotoIf(L20, sp3.Passed);
+                }
+
+L10:
+                SetEventFlag(X8_4, OFF);
+                ForceAnimationPlayback(10000, X24_4, false, true, false, 0, 1);
+                RestartEvent();
+            }
+        }
+
+L19:
+        ForceAnimationPlayback(10000, 0, false, false, false, 0, 1);
+        SetEventFlag(X4_4, OFF);
+        RestartEvent();
+    }
+
+L20:
     SetEventFlag(X4_4, OFF);
     SetEventFlag(X8_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //----------------------------------
 // Character - 
 //----------------------------------
-Event(20006006, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+$Event(20006006, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(EventFlag(X4_4));
     SetEventFlag(X8_4, ON);
-    GotoIfComparison(Label.LABEL0, ComparisonType.Equal, X20_4, 1);
-    ForceAnimationPlayback(X0_4, X12_4, false, false, false, 0, 1);
-    GotoUnconditionally(Label.LABEL20);
-    Label0();
-    RotateCharacter(X0_4, 10000, X12_4, true);
-    Label20();
-    IfEventFlag(AND_01, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfCharacterHasSpeffect(AND_01, X0_4, 155, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_01);
-    IfCharacterHasSpeffect(OR_02, X0_4, 150, true, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    SkipIfConditionGroupStateCompiled(2, FAIL, OR_02);
-    SetEventFlag(X8_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
+    if (X20_4 != 1) {
+        ForceAnimationPlayback(X0_4, X12_4, false, false, false, 0, 1);
+    } else {
+L0:
+        RotateCharacter(X0_4, 10000, X12_4, true);
+    }
+L20:
+    flagSp = !EventFlag(X4_4) && CharacterHasSpEffect(X0_4, 155);
+    sp = CharacterHasSpEffect(X0_4, 150);
+    WaitFor(flagSp || sp);
+    if (sp.Passed) {
+        SetEventFlag(X8_4, OFF);
+        RestartEvent();
+    }
     ForceAnimationPlayback(X0_4, X16_4, false, true, false, 0, 1);
     SetEventFlag(X8_4, OFF);
     WaitFixedTimeSeconds(X24_4);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //----------------------------------
 // Character - 
 //----------------------------------
-Event(20006007, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+$Event(20006007, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL20, PASS, AND_01);
-    RotateCharacter(10000, X0_4, 69070, false);
-    WaitFixedTimeFrames(1);
-    IfEntityInoutsideRadiusOfEntity(OR_01, InsideOutsideState.Inside, 10000, X0_4, X12_4, 1);
-    IfCharacterHasSpeffect(AND_02, 10000, 150, false, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_02);
-    IfEventFlag(OR_02, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfElapsedFrames(OR_02, 89);
-    IfConditionGroup(OR_01, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    SkipIfConditionGroupStateCompiled(2, FAIL, AND_02);
-    SetEventFlag(X4_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
-    SkipIfConditionGroupStateCompiled(3, FAIL, OR_02);
-    ForceAnimationPlayback(10000, 0, false, false, false, 0, 1);
-    SetEventFlag(X4_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
-    Label20();
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(EventFlag(X4_4));
+    if (!EntityInRadiusOfEntity(10000, X0_4, X12_4, 1)) {
+        RotateCharacter(10000, X0_4, 69070, false);
+        WaitFixedTimeFrames(1);
+        sp = !CharacterHasSpEffect(10000, 150);
+        flagTime = !EventFlag(X4_4) || ElapsedFrames(89);
+        WaitFor(EntityInRadiusOfEntity(10000, X0_4, X12_4, 1) || sp || flagTime);
+        if (sp.Passed) {
+            SetEventFlag(X4_4, OFF);
+            RestartEvent();
+        }
+        if (flagTime.Passed) {
+            ForceAnimationPlayback(10000, 0, false, false, false, 0, 1);
+            SetEventFlag(X4_4, OFF);
+            RestartEvent();
+        }
+    }
+L20:
     RotateCharacter(10000, X0_4, X16_4, true);
     WaitFixedTimeFrames(1);
     SetEventFlag(X8_4, ON);
-    IfEventFlag(OR_03, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfCharacterHasSpeffect(AND_03, 10000, 150, false, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_03, PASS, AND_03);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    SkipIfConditionGroupStateCompiled(3, FAIL, AND_03);
-    SetEventFlag(X4_4, OFF);
-    SetEventFlag(X8_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
+    sp2 = !CharacterHasSpEffect(10000, 150);
+    WaitFor(!EventFlag(X4_4) || sp2);
+    if (sp2.Passed) {
+        SetEventFlag(X4_4, OFF);
+        SetEventFlag(X8_4, OFF);
+        RestartEvent();
+    }
     SetEventFlag(X8_4, OFF);
     ForceAnimationPlayback(10000, X20_4, false, true, false, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //----------------------------------
 // Character - 
 //----------------------------------
-Event(20006008, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+$Event(20006008, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     SetNetworkSyncState(Disabled);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X0_4, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL20, PASS, AND_01);
-    RotateCharacter(10000, X0_4, 69070, false);
-    WaitFixedTimeFrames(1);
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, 10000, X0_4, 1);
-    IfCharacterHasSpeffect(AND_02, 10000, 150, false, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_01, PASS, AND_02);
-    IfEventFlag(OR_02, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfElapsedFrames(OR_02, 89);
-    IfConditionGroup(OR_01, PASS, OR_02);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    SkipIfConditionGroupStateCompiled(2, FAIL, AND_02);
-    SetEventFlag(X4_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
-    SkipIfConditionGroupStateCompiled(3, FAIL, OR_02);
-    ForceAnimationPlayback(10000, 0, false, false, false, 0, 1);
-    SetEventFlag(X4_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
-    Label20();
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(EventFlag(X4_4));
+    if (!InArea(10000, X0_4)) {
+        RotateCharacter(10000, X0_4, 69070, false);
+        WaitFixedTimeFrames(1);
+        sp = !CharacterHasSpEffect(10000, 150);
+        flagTime = !EventFlag(X4_4) || ElapsedFrames(89);
+        WaitFor(InArea(10000, X0_4) || sp || flagTime);
+        if (sp.Passed) {
+            SetEventFlag(X4_4, OFF);
+            RestartEvent();
+        }
+        if (flagTime.Passed) {
+            ForceAnimationPlayback(10000, 0, false, false, false, 0, 1);
+            SetEventFlag(X4_4, OFF);
+            RestartEvent();
+        }
+    }
+L20:
     RotateCharacter(10000, X12_4, X16_4, true);
     WaitFixedTimeFrames(1);
     SetEventFlag(X8_4, ON);
-    IfEventFlag(OR_03, OFF, TargetEventFlagType.EventFlag, X4_4);
-    IfCharacterHasSpeffect(AND_03, 10000, 150, false, ComparisonType.Equal, 1);
-    IfConditionGroup(OR_03, PASS, AND_03);
-    IfConditionGroup(MAIN, PASS, OR_03);
-    SkipIfConditionGroupStateCompiled(3, FAIL, AND_03);
-    SetEventFlag(X4_4, OFF);
-    SetEventFlag(X8_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
+    sp2 = !CharacterHasSpEffect(10000, 150);
+    WaitFor(!EventFlag(X4_4) || sp2);
+    if (sp2.Passed) {
+        SetEventFlag(X4_4, OFF);
+        SetEventFlag(X8_4, OFF);
+        RestartEvent();
+    }
     SetEventFlag(X8_4, OFF);
     ForceAnimationPlayback(10000, X20_4, false, true, false, 0, 1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //----------------------------------
 // Character - Force Animation on Player
 //----------------------------------
-Event(20006010, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20006010, Default, function(X0_4, X4_4) {
+    EndIf(PlayerIsNotInOwnWorld());
     SetEventFlag(X0_4, OFF);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    WaitFor(EventFlag(X0_4));
     ForceAnimationPlayback(10000, X4_4, false, true, false, 0, 1);
     SetEventFlag(X0_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //----------------------------------
 // Character - Spawn FFX on Player
 //---------------------------------- 
-Event(20006011, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20006011, Default, function(X0_4, X4_4) {
+    EndIf(PlayerIsNotInOwnWorld());
     SetEventFlag(X0_4, OFF);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X0_4);
+    WaitFor(EventFlag(X0_4));
     SpawnOneshotSFX(TargetEntityType.Character, 10000, 200, X4_4);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //----------------------------------
 // Character - Set Flag
 //----------------------------------
-Event(20006020, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
+$Event(20006020, Default, function(X0_4, X4_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(EventFlag(X0_4) && EventFlag(X4_4));
     SetEventFlag(X0_4, OFF);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //----------------------------------
 // Character - Spawn Treasure
 // <invisible entity>, <action button>, <selection value>, <itemlot>, <flag range start>, <flag range end>, <npc flag>
 //----------------------------------
-Event(20006030, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X24_4); // NPC quest flag is ON
-    IfBatchEventFlags(AND_01, LogicalOperationType.NotAllON, TargetEventFlagType.EventFlag, X16_4, X20_4); // Flag range is not all ON
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20006030, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is client
+    WaitFor(EventFlag(X24_4) && !AllBatchEventFlags(X16_4, X20_4)); // Flag range is not all ON // NPC quest flag is ON
+
     // Goto label based on selection arg
-    GotoIfComparison(Label.LABEL1, ComparisonType.Equal, 1, X8_4);
-    GotoIfComparison(Label.LABEL2, ComparisonType.Equal, 2, X8_4);
-    
+    GotoIf(L1, 1 == X8_4);
+    GotoIf(L2, 2 == X8_4);
+
     CreateObjectfollowingSFX(X0_4, 90, 60); // Rarity 0
-    GotoUnconditionally(Label.LABEL20);
-    
-    Label1();
+    Goto(L20);
+
+L1:
     CreateObjectfollowingSFX(X0_4, 90, 61); // Rarity 1
-    GotoUnconditionally(Label.LABEL20);
-    
-    Label2();
+    Goto(L20);
+
+L2:
     CreateObjectfollowingSFX(X0_4, 90, 62); // Rarity 2
-    
+
     // Setup treasure pickup for player
-    Label20();
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+L20:
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
     ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
     AwardItemLot(X12_4);
     DeleteObjectfollowingSFX(X0_4, true);
@@ -5322,51 +4972,49 @@ Event(20006030, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) 
 //----------------------------------
 // Region - Set Flag in proximity
 //----------------------------------
-Event(20006031, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
-    
+$Event(20006031, Default, function(X0_4, X4_4) {
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is client
+
     SetEventFlag(X0_4, OFF);
-    
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X4_4, 1); // Check if player is in region
-    
+
+    WaitFor(InArea(10000, X4_4)); // Check if player is in region
+
     SetEventFlag(X0_4, ON);
     WaitFixedTimeSeconds(1);
-    
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1); 
-    IfConditionGroup(MAIN, FAIL, AND_01); // Check if player is no longer in region
-    
+
+    WaitFor(!InArea(10000, X4_4)); // Check if player is no longer in region
+
     SetEventFlag(X0_4, OFF);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 // Patches - Handle Treasure based on Quest Progression
-Event(20006032, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
+$Event(20006032, Default, function(X0_4, X4_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+
     // Patches is 0 HP
-    IfCharacterHPRatio(OR_15, X0_4, ComparisonType.Equal, 0, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_15);
-    
-    // Patches is dead
-    IfCharacterDeadalive(MAIN, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
-    
-    Label0();
+    if (HPRatio(X0_4) != 0) {
+
+        // Patches is dead
+        WaitFor(CharacterDead(X0_4));
+    }
+
+L0:
     WarpObjectToCharacter(X4_4, X0_4, 236);
-    
+
     // Returned Catarina Armor
-    IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, 73501050);
-    IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, 73501010);
-    IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, 73501020);
-    IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, 73501030);
-    IfEventFlag(OR_01, OFF, TargetEventFlagType.EventFlag, 73501040);
-    IfConditionGroup(AND_01, PASS, OR_01);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, 50006202);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+    WaitFor(
+        (!EventFlag(73501050)
+            || !EventFlag(73501010)
+            || !EventFlag(73501020)
+            || !EventFlag(73501030)
+            || !EventFlag(73501040))
+            && EventFlag(50006202));
+
     // Spawn Treasure
     CreateObjectfollowingSFX(X4_4, 90, 61);
-    IfActionButtonInArea(MAIN, 4000, X4_4);
+    WaitFor(ActionButtonInArea(4000, X4_4));
     ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
     AwardItemLot(52020);
     DeleteObjectfollowingSFX(X4_4, true);
@@ -5376,33 +5024,33 @@ Event(20006032, Default, function(X0_4, X4_4) {
 // Gauntlet - Spawn Treasure
 // <invisible entity>, <action button>, <selection value>, <itemlot>, <loot flag>
 //----------------------------------
-Event(20006033, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is client
-    
-    // End if loot has been picked up
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X16_4);
-    
-    // End if not in Gauntlet mode
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 25009850);
+$Event(20006033, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is client
 
-    
+    // End if loot has been picked up
+    EndIf(EventFlag(X16_4));
+
+    // End if not in Gauntlet mode
+    EndIf(!EventFlag(25009850));
+
+
     // Goto label based on selection arg
-    GotoIfComparison(Label.LABEL1, ComparisonType.Equal, 1, X8_4);
-    GotoIfComparison(Label.LABEL2, ComparisonType.Equal, 2, X8_4);
-    
+    GotoIf(L1, 1 == X8_4);
+    GotoIf(L2, 2 == X8_4);
+
     CreateObjectfollowingSFX(X0_4, 90, 60); // Rarity 0
-    GotoUnconditionally(Label.LABEL20);
-    
-    Label1();
+    Goto(L20);
+
+L1:
     CreateObjectfollowingSFX(X0_4, 90, 61); // Rarity 1
-    GotoUnconditionally(Label.LABEL20);
-    
-    Label2();
+    Goto(L20);
+
+L2:
     CreateObjectfollowingSFX(X0_4, 90, 62); // Rarity 2
-    
+
     // Setup treasure pickup for player
-    Label20();
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+L20:
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
     ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1);
     AwardItemLot(X12_4);
     DeleteObjectfollowingSFX(X0_4, true);
@@ -5411,68 +5059,66 @@ Event(20006033, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 //----------------------------------------------
 // Character - Warp Entity on SpEffect Trigger
 //----------------------------------------------
-Event(20006040, Default, function(X0_4, X4_4, X8_4) {
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false); // If player is not a client
-    IfCharacterBackreadStatus(AND_01, X0_4, true, ComparisonType.Equal, 1); // Entity is loaded
-    IfCharacterHasSpeffect(AND_01, X0_4, X8_4, true, ComparisonType.Equal, 1); // Entity has SpEffect
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20006040, Default, function(X0_4, X4_4, X8_4) {
+    WaitFor(
+        !PlayerIsNotInOwnWorld()
+            && CharacterBackreadStatus(X0_4)
+            && CharacterHasSpEffect(X0_4, X8_4)); // Entity has SpEffect // If player is not a client // Entity is loaded
+
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X4_4, -1, X0_4); // Warp entity
-    
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_02, false); // If player is not a client
-    IfCharacterBackreadStatus(AND_02, X0_4, false, ComparisonType.Equal, 1); // Entity is not loaded
-    IfConditionGroup(MAIN, PASS, AND_02);
-    
-    EndUnconditionally(EventEndType.Restart);
-    
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+
+    WaitFor(!PlayerIsNotInOwnWorld() && !CharacterBackreadStatus(X0_4)); // Entity is not loaded // If player is not a client
+
+    RestartEvent();
+
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
 });
 
 //----------------------------------------------
 // NG+ Rings
 //----------------------------------------------
-Event(20008000, Restart, function(X0_4, X4_1, X8_4) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+$Event(20008000, Restart, function(X0_4, X4_1, X8_4) {
+    if (GameCycle() < X4_1) {
+        ChangeCharacterEnableState(X0_4, Disabled);
+        SetCharacterAnimationState(X0_4, Disabled);
+    } else {
+
+L0:
+        ChangeCharacterEnableState(X0_4, Enabled);
+        SetCharacterAnimationState(X0_4, Enabled);
+        SetCharacterAIState(X0_4, Enabled);
+        SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
+        Goto(L1);
+    }
+
+L1:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
     RequestCharacterAIReplan(X0_4);
-    
-    IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
+
+    WaitFor(HPRatio(X0_4) <= 0);
     AwardItemLot(X8_4);
 });
 
 //----------------------------------------------
 // NG+ Enemies
 //----------------------------------------------
-Event(20008001, Restart, function(X0_4, X4_1) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+$Event(20008001, Restart, function(X0_4, X4_1) {
+    if (GameCycle() < X4_1) {
+        ChangeCharacterEnableState(X0_4, Disabled);
+        SetCharacterAnimationState(X0_4, Disabled);
+    } else {
+
+L0:
+        ChangeCharacterEnableState(X0_4, Enabled);
+        SetCharacterAnimationState(X0_4, Enabled);
+        SetCharacterAIState(X0_4, Enabled);
+        SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
+        Goto(L1);
+    }
+
+L1:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
     RequestCharacterAIReplan(X0_4);
 });
@@ -5480,50 +5126,48 @@ Event(20008001, Restart, function(X0_4, X4_1) {
 //----------------------------------------------
 // NG+ Rings - Abyss Watchers
 //----------------------------------------------
-Event(20008002, Restart, function(X0_4, X4_1, X8_4) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X4_1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+$Event(20008002, Restart, function(X0_4, X4_1, X8_4) {
+    if (GameCycle() < X4_1) {
+        ChangeCharacterEnableState(X0_4, Disabled);
+        SetCharacterAnimationState(X0_4, Disabled);
+    } else {
+
+L0:
+        ChangeCharacterEnableState(X0_4, Enabled);
+        SetCharacterAnimationState(X0_4, Enabled);
+        SetCharacterAIState(X0_4, Enabled);
+        SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
+        Goto(L1);
+    }
+
+L1:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
     RequestCharacterAIReplan(X0_4);
-    
-    IfCharacterHasSpeffect(OR_01, X0_4, 12243, true, ComparisonType.Equal, 1);
-    IfCharacterHasSpeffect(OR_01, X0_4, 12244, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, OR_01);
+
+    WaitFor(CharacterHasSpEffect(X0_4, 12243) || CharacterHasSpEffect(X0_4, 12244));
     AwardItemLot(X8_4);
 });
 
 //----------------------------------------------
 // Spawn Control - Event Flag
 //----------------------------------------------
-Event(20008010, Restart, function(X0_4, X4_4) {
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+$Event(20008010, Restart, function(X0_4, X4_4) {
+    if (!EventFlag(X4_4)) {
+        ChangeCharacterEnableState(X0_4, Disabled);
+        SetCharacterAnimationState(X0_4, Disabled);
+    } else {
+
+L0:
+        ChangeCharacterEnableState(X0_4, Enabled);
+        SetCharacterAnimationState(X0_4, Enabled);
+        SetCharacterAIState(X0_4, Enabled);
+        SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
+        Goto(L1);
+    }
+
+L1:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
     RequestCharacterAIReplan(X0_4);
 });
@@ -5531,23 +5175,22 @@ Event(20008010, Restart, function(X0_4, X4_4) {
 //----------------------------------------------
 // Spawn Control - NG+ and Event Flag
 //----------------------------------------------
-Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X8_1);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+$Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
+    if (!(GameCycle() >= X8_1 || EventFlag(X4_4))) {
+        ChangeCharacterEnableState(X0_4, Disabled);
+        SetCharacterAnimationState(X0_4, Disabled);
+    } else {
+
+L0:
+        ChangeCharacterEnableState(X0_4, Enabled);
+        SetCharacterAnimationState(X0_4, Enabled);
+        SetCharacterAIState(X0_4, Enabled);
+        SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
+        Goto(L1);
+    }
+
+L1:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
     RequestCharacterAIReplan(X0_4);
 });
@@ -5555,7 +5198,7 @@ Event(20008020, Restart, function(X0_4, X4_4, X8_1) {
 //----------------------------------------------
 // Spawn Control - Disable By Default
 //----------------------------------------------
-Event(20008030, Restart, function(X0_4) {
+$Event(20008030, Restart, function(X0_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
 });
@@ -5563,22 +5206,22 @@ Event(20008030, Restart, function(X0_4) {
 //----------------------------------------------
 // Spawn Control - UNUSED
 //----------------------------------------------
-Event(20008040, Restart, function(X0_4) {
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25000005);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate)
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+$Event(20008040, Restart, function(X0_4) {
+    if (!EventFlag(25000005)) {
+        ChangeCharacterEnableState(X0_4, Disabled);
+        SetCharacterAnimationState(X0_4, Disabled);
+    } else {
+
+L0:
+        ChangeCharacterEnableState(X0_4, Enabled);
+        SetCharacterAnimationState(X0_4, Enabled);
+        SetCharacterAIState(X0_4, Enabled);
+        SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
+        Goto(L1);
+    }
+
+L1:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
     RequestCharacterAIReplan(X0_4);
 });
@@ -5586,114 +5229,117 @@ Event(20008040, Restart, function(X0_4) {
 //----------------------------------------------
 // Spawn Control - OTE - With Itemlot
 //----------------------------------------------
-Event(20008100, Default, function(X0_4, X4_4, X8_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    ForceCharacterDeath(X4_4, false);
-    EndUnconditionally(EventEndType.End);
-    Label0();
-    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+$Event(20008100, Default, function(X0_4, X4_4, X8_4) {
+    if (EventFlag(X0_4)) {
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        ForceCharacterDeath(X4_4, false);
+        EndEvent();
+    }
+L0:
+    WaitFor(CharacterDead(X4_4));
     SetEventFlag(X0_4, ON);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndIf(PlayerIsNotInOwnWorld());
     AwardItemLot(X8_4);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //----------------------------------------------
 // Spawn Control - OTE - NG+ - With Itemlot
 //----------------------------------------------
-Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
-    IfGameCycle(OR_01, ComparisonType.GreaterOrEqual, X12_1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    ForceCharacterDeath(X4_4, false);
-    EndUnconditionally(EventEndType.End);
-    
-    Label0();
-    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, X0_4);
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    ForceCharacterDeath(X4_4, false);
-    EndUnconditionally(EventEndType.End);
-    
-    Label1();
-    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+$Event(20008101, Default, function(X0_4, X4_4, X8_4, X12_1) {
+    if (GameCycle() < X12_1) {
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        ForceCharacterDeath(X4_4, false);
+        EndEvent();
+    }
+
+L0:
+    if (EventFlag(X0_4)) {
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        ForceCharacterDeath(X4_4, false);
+        EndEvent();
+    }
+
+L1:
+    WaitFor(CharacterDead(X4_4));
     SetEventFlag(X0_4, ON);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndIf(PlayerIsNotInOwnWorld());
     AwardItemLot(X8_4);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //----------------------------------------------
 // Spawn Control - OTE - Event Flag - With Itemlot
 //----------------------------------------------
-Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    ForceCharacterDeath(X4_4, false);
-    EndUnconditionally(EventEndType.End);
-    
-    Label0();
-    GotoIfEventFlag(Label.LABEL1, OFF, TargetEventFlagType.EventFlag, X0_4);
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    ForceCharacterDeath(X4_4, false);
-    EndUnconditionally(EventEndType.End);
-    
-    Label1();
-    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+$Event(20008102, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    if (!EventFlag(X12_4)) {
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        ForceCharacterDeath(X4_4, false);
+        EndEvent();
+    }
+
+L0:
+    if (EventFlag(X0_4)) {
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        ForceCharacterDeath(X4_4, false);
+        EndEvent();
+    }
+
+L1:
+    WaitFor(CharacterDead(X4_4));
     SetEventFlag(X0_4, ON);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+    EndIf(PlayerIsNotInOwnWorld());
     AwardItemLot(X8_4);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //----------------------------------------------
 // Spawn Control - OTE - No Itemlot
 //----------------------------------------------
-Event(20008150, Default, function(X0_4, X4_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4);
-    
-    ChangeCharacterEnableState(X4_4, Disabled);
-    SetCharacterAnimationState(X4_4, Disabled);
-    ForceCharacterDeath(X4_4, false);
-    EndUnconditionally(EventEndType.End);
-    
-    Label0();
-    IfCharacterDeadalive(MAIN, X4_4, DeathState.Dead, ComparisonType.Equal, 1);
+$Event(20008150, Default, function(X0_4, X4_4) {
+    if (EventFlag(X0_4)) {
+
+        ChangeCharacterEnableState(X4_4, Disabled);
+        SetCharacterAnimationState(X4_4, Disabled);
+        ForceCharacterDeath(X4_4, false);
+        EndEvent();
+    }
+
+L0:
+    WaitFor(CharacterDead(X4_4));
     SetEventFlag(X0_4, ON);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    EndUnconditionally(EventEndType.End);
+    EndIf(PlayerIsNotInOwnWorld());
+    EndEvent();
 });
 
 //------------------------
 // Warp Enemy to Player
 //------------------------
-Event(20008160, Restart, function(X0_4) {
-    IfCharacterHasSpEffect(MAIN, X0_4, 160500530, true, ComparisonType.Equal, 1);
+$Event(20008160, Restart, function(X0_4) {
+    WaitFor(CharacterHasSpEffect(X0_4, 160500530));
     IssueShortWarpRequest(X0_4, TargetEntityType.Character, 10000, 270);
-    
+
     // Spawn FFX
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 270, 1060);
-    
+
     WaitFixedTimeSeconds(1.0);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Warp to Location 
 //----------------------------------------------
-Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfActionButtonInArea(AND_01, X4_4, X0_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
+
     //IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
     //SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
     //DisplayEpitaphMessage(X28_4);
@@ -5701,20 +5347,19 @@ Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, 
     RotateCharacter(10000, X0_4, X16_4, false);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Warp to Location - DLC1
 //----------------------------------------------
-Event(20008203, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 6951);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfActionButtonInArea(AND_01, X4_4, X0_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20008203, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIf(!EventFlag(6951));
+    EndIf(PlayerIsNotInOwnWorld());
+
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
+
     //IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
     //SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
     //DisplayEpitaphMessage(X28_4);
@@ -5722,20 +5367,19 @@ Event(20008203, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, 
     RotateCharacter(10000, X0_4, X16_4, false);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Warp to Location - DLC2
 //----------------------------------------------
-Event(20008204, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 6952);
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfActionButtonInArea(AND_01, X4_4, X0_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20008204, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIf(!EventFlag(6952));
+    EndIf(PlayerIsNotInOwnWorld());
+
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
+
     //IfPlayerHasdoesntHaveItemIncludingBbox(AND_02, ItemType.Goods, X24_4, OwnershipState.Owns);
     //SkipIfConditionGroupStateUncompiled(1, PASS, AND_02); // If they have the item, skip
     //DisplayEpitaphMessage(X28_4);
@@ -5743,19 +5387,18 @@ Event(20008204, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, 
     RotateCharacter(10000, X0_4, X16_4, false);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Warp to Location - Master Key Support
 //----------------------------------------------
-Event(20008206, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfActionButtonInArea(AND_01, X4_4, X0_4);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20008206, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
+
     //IfPlayerHasdoesntHaveItemIncludingBbox(OR_02, ItemType.Goods, X24_4, OwnershipState.Owns);
     //IfPlayerHasdoesntHaveItemIncludingBbox(OR_02, ItemType.Goods, 2100, OwnershipState.Owns);
     //SkipIfConditionGroupStateUncompiled(1, PASS, OR_02); // If they have the item, skip
@@ -5764,29 +5407,29 @@ Event(20008206, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4, 
     RotateCharacter(10000, X0_4, X16_4, false);
     WarpPlayer(X8_1, 0, X12_4);
     SetPlayerRespawnPoint(X20_4);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Warp to Location - Wait for Flag
 //----------------------------------------------
-Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20008201, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+    EndIf(PlayerIsNotInOwnWorld());
     WaitForEventFlag(ON, TargetEventFlagType.EventFlag, X16_4);
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
     WaitFixedTimeSeconds(3);
-    WarpPlayer(X8_1, 0, X12_4)
+    WarpPlayer(X8_1, 0, X12_4);
 });
 
 //----------------------------------------------
 // Warp to Location, set Flag
 //----------------------------------------------
-Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+$Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
     WaitFixedTimeSeconds(3);
@@ -5797,9 +5440,9 @@ Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
 //----------------------------------------------
 // Warp to Location - Firelink Shrine
 //----------------------------------------------
-Event(20008205, Restart, function(X0_4, X4_4, X8_1, X12_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+$Event(20008205, Restart, function(X0_4, X4_4, X8_1, X12_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
     SendAllPhantomsHome(0);
     WaitFixedTimeSeconds(1);
     WarpPlayer(X8_1, 0, X12_4);
@@ -5808,9 +5451,9 @@ Event(20008205, Restart, function(X0_4, X4_4, X8_1, X12_4) {
 //----------------------------------------------
 // Warp to Location - Untended Graves
 //----------------------------------------------
-Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+$Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
     WaitFixedTimeSeconds(3);
@@ -5821,9 +5464,9 @@ Event(20008210, Default, function(X0_4, X4_4, X8_1, X12_4) {
 //----------------------------------------------
 // Trial - Warp To
 //----------------------------------------------
-Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+$Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
     WaitFixedTimeSeconds(3);
@@ -5835,9 +5478,9 @@ Event(20008220, Default, function(X0_4, X4_4, X8_1, X12_4) {
 // Trial - Warp From
 // <object id>, <action button id>, <map id>, <warp point id>, <flag>
 //----------------------------------------------
-Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
+$Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
     SetEventFlag(X16_4, OFF);
     RotateCharacter(10000, X0_4, 91040, false);
     SendAllPhantomsHome(0);
@@ -5850,13 +5493,13 @@ Event(20008221, Default, function(X0_4, X4_4, X8_1, X12_4, X16_4) {
 // Treasure Control - NG+ = X
 // <object id>, <game cycle value>
 //----------------------------------------------
-Event(20009000, Default, function(X0_4, X4_1) {
-    IfGameCycle(AND_01, ComparisonType.Equal, X4_1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
-    DeactivateObject(X0_4, Disabled);
-    SetObjectTreasureState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20009000, Default, function(X0_4, X4_1) {
+    if (GameCycle() != X4_1) {
+        DeactivateObject(X0_4, Disabled);
+        SetObjectTreasureState(X0_4, Disabled);
+        EndEvent();
+    }
+L0:
     DeactivateObject(X0_4, Enabled);
     SetObjectTreasureState(X0_4, Enabled);
 });
@@ -5865,13 +5508,13 @@ Event(20009000, Default, function(X0_4, X4_1) {
 // Treasure Control - NG+ => X
 // <object id>, <game cycle value>
 //----------------------------------------------
-Event(20009100, Default, function(X0_4, X4_1) {
-    IfGameCycle(AND_01, ComparisonType.GreaterOrEqual, X4_1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
-    DeactivateObject(X0_4, Disabled);
-    SetObjectTreasureState(X0_4, Disabled);
-    EndUnconditionally(EventEndType.End);
-    Label0();
+$Event(20009100, Default, function(X0_4, X4_1) {
+    if (GameCycle() < X4_1) {
+        DeactivateObject(X0_4, Disabled);
+        SetObjectTreasureState(X0_4, Disabled);
+        EndEvent();
+    }
+L0:
     DeactivateObject(X0_4, Enabled);
     SetObjectTreasureState(X0_4, Enabled);
 });
@@ -5880,336 +5523,341 @@ Event(20009100, Default, function(X0_4, X4_1) {
 // Boss Kill 
 // <boss kill flag>, <first boss kill flag>, <base itemlot>, <special itemlot>, <wanderer itemlot>, <corrupted itemlot>
 //----------------------------------------------
-Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+$Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
     // Skip Primordial Fragment reward if this is the first kill
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X4_4);
-    
-    // Default
-    AwardItemLot(X8_4);
-    
-    // No Hit Reward
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25000040);
-    AwardItemLot(X12_4);
-    
-    // Curse of Valor
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000510);
-    AwardItemLot(X12_4);
-    
-    // NG+1 Drop
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000011);
-    AwardItemLot(X8_4);
-    
-    // NG+2 Drop
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000012);
-    AwardItemLot(X8_4);
-    
-    // NG+3 Drop
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000013);
-    AwardItemLot(X8_4);
-    
-    Label0();
+    if (EventFlag(X4_4)) {
+
+        // Default
+        AwardItemLot(X8_4);
+
+        // No Hit Reward
+        if (!EventFlag(25000040)) {
+            AwardItemLot(X12_4);
+        }
+
+        // Curse of Valor
+        if (EventFlag(25000510)) {
+            AwardItemLot(X12_4);
+        }
+
+        // NG+1 Drop
+        if (EventFlag(25000011)) {
+            AwardItemLot(X8_4);
+        }
+
+        // NG+2 Drop
+        if (EventFlag(25000012)) {
+            AwardItemLot(X8_4);
+        }
+
+        // NG+3 Drop
+        if (EventFlag(25000013)) {
+            AwardItemLot(X8_4);
+        }
+    }
+
+L0:
     // Don't set flags if a client player
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
+    EndIf(PlayerIsNotInOwnWorld());
+
     SetEventFlag(X0_4, ON); // Boss Killed
     SetEventFlag(X4_4, ON); // First Boss Kill
-    
+
     // Boon item
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009851);
-    AwardItemLot(X16_4);
-    
+    if (EventFlag(25009851)) {
+        AwardItemLot(X16_4);
+    }
+
     // Malus item
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25009852);
-    AwardItemLot(X20_4);
-    
+    if (EventFlag(25009852)) {
+        AwardItemLot(X20_4);
+    }
+
     // End if not in Gauntlet feature mode
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, 25009850);
-    
+    EndIf(!EventFlag(25009850));
+
     AwardItemLot(800002000); // Token drop
-    
+
     // In Set/Random Gauntlet, return to Shrine
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25003200); // Ordered
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25003201); // Random
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25003203); // Reverse Ordered
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25003205); // Boss Select
-    SkipIfConditionGroupStateUncompiled(3, FAIL, OR_01); 
-    WaitFixedTimeSeconds(15.0);
-    SetMapCeremony(40, 0, 0); // Ceremony fix
-    WarpPlayer(40, 0, 4000970); // Firelink Shrine
-    
+    if (EventFlag(25003200) || EventFlag(25003201) || EventFlag(25003203) || EventFlag(25003205)) { // Boss Select // Ordered // Random // Reverse Ordered
+        WaitFixedTimeSeconds(15.0);
+        SetMapCeremony(40, 0, 0); // Ceremony fix
+        WarpPlayer(40, 0, 4000970); // Firelink Shrine
+    }
+
     // In Endless Gauntlet, progress boss order
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25003202); // Endless
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25003204); // Reverse Endless
-    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_02);
-    WaitFixedTimeSeconds(10.0);
-    SetSpEffect(10000, 260120000);
+    if (EventFlag(25003202) || EventFlag(25003204)) { // Reverse Endless // Endless
+        WaitFixedTimeSeconds(10.0);
+        SetSpEffect(10000, 260120000);
+    }
 });
 
 //----------------------------------------------
 // Corrupted Gundyr - Boss Start
 //----------------------------------------------
-Event(20020100, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020100, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Vordt of the Boreal Valley - Boss Start
 //----------------------------------------------
-Event(20020101, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020101, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Curse-rotted Greatwood - Boss Start
 //----------------------------------------------
-Event(20020102, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020102, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Crystal Sage - Boss Start
 //----------------------------------------------
-Event(20020103, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020103, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Deacons of the Deep - Boss Start
 //----------------------------------------------
-Event(20020104, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020104, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Abyss Watchers - Boss Start
 //----------------------------------------------
-Event(20020105, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020105, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // High Lord Wolnir - Boss Start
 //----------------------------------------------
-Event(20020106, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020106, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Old Demon King - Boss Start
 //----------------------------------------------
-Event(20020107, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020107, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Pontiff Sulyvahn - Boss Start
 //----------------------------------------------
-Event(20020108, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020108, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Aldrich, Devourer of Gods - Boss Start
 //----------------------------------------------
-Event(20020109, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020109, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Yhorm the Giant - Boss Start
 //----------------------------------------------
-Event(20020110, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020110, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Dancer of the Boreal Valley - Boss Start
 //----------------------------------------------
-Event(20020111, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020111, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Oceiros, the Consumed King - Boss Start
 //----------------------------------------------
-Event(20020112, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020112, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Dragonslayer Armour - Boss Start
 //----------------------------------------------
-Event(20020113, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020113, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Ancient Wyvern - Boss Start
 //----------------------------------------------
-Event(20020114, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020114, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Nameless King - Boss Start
 //----------------------------------------------
-Event(20020115, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020115, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 });
 
 //----------------------------------------------
 // Champion Gundyr - Boss Start
 //----------------------------------------------
-Event(20020116, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
+$Event(20020116, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
+
     // Skip if not in Gauntlet mode
-    SkipIfEventFlag(2, OFF, TargetEventFlagType.EventFlag, 25009850);
-    IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
-    SetMapCeremony(40, 0, 0);
+    if (EventFlag(25009850)) {
+        WaitFor(HPRatio(10000) <= 0);
+        SetMapCeremony(40, 0, 0);
+    }
 });
 
 //----------------------------------------------
 // Twin Princes - Boss Start
 //----------------------------------------------
-Event(20020117, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
+$Event(20020117, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
+
 });
 
 //----------------------------------------------
 // Soul of Cinder - Boss Start
 //----------------------------------------------
-Event(20020118, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020118, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Sister Friede - Boss Start
 //----------------------------------------------
-Event(20020119, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
- 
+$Event(20020119, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
+
 });
 
 //----------------------------------------------
 // Lordran Remnants - Boss Start
 //----------------------------------------------
-Event(20020120, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
+$Event(20020120, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
+
 });
 
 //----------------------------------------------
 // Demon Prince - Boss Start
 //----------------------------------------------
-Event(20020121, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020121, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Darkeater Midir - Boss Start
 //----------------------------------------------
-Event(20020122, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
+$Event(20020122, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
+
 });
 
 //----------------------------------------------
 // Slave Knight Gael - Boss Start
 //----------------------------------------------
-Event(20020123, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020123, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Halflight - Boss Start
 //----------------------------------------------
-Event(20020124, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020124, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Prince Dorthinus - Boss Start
 //----------------------------------------------
-Event(20020125, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020125, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Cathedral Guardian - Boss Start
 //----------------------------------------------
-Event(20020126, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020126, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Mirror Knight - Boss Start
 //----------------------------------------------
-Event(20020127, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020127, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Aborr - Boss Start
 //----------------------------------------------
-Event(20020128, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020128, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Princess Yngvil - Boss Start
 //----------------------------------------------
-Event(20020129, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020129, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Trio of Explorers - Boss Start
 //----------------------------------------------
-Event(20020130, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020130, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Twisted Knight - Boss Start
 //----------------------------------------------
-Event(20020131, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020131, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // Fallen Protector - Boss Start
 //----------------------------------------------
-Event(20020132, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020132, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // UNUSED - Boss Start
 //----------------------------------------------
-Event(20020133, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020133, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
 //----------------------------------------------
 // The Marauder - Boss Start
 //----------------------------------------------
-Event(20020134, Default, function() {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20020134, Default, function() {
+    EndIf(PlayerIsNotInOwnWorld());
 
 });
 
@@ -6217,104 +5865,100 @@ Event(20020134, Default, function() {
 // Region Warp
 // <entity id>, <warp point id>, <trigger region id>, <ffx id>, <dummy poly id>
 //----------------------------------------------
-Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, X0_4, X8_4, 1)
-    IfConditionGroup(MAIN, PASS, OR_01);
-    
-    SetCharacterGravity(X0_4, Disabled)
+$Event(20021000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    WaitFor(InArea(X0_4, X8_4));
+
+    SetCharacterGravity(X0_4, Disabled);
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X4_4, -1, X0_4);
     WaitFixedTimeSeconds(0.1);
-    
+
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, X16_4, X12_4);
-    SetCharacterGravity(X0_4, Enabled)
-    
-    EndUnconditionally(EventEndType.Restart)
+    SetCharacterGravity(X0_4, Enabled);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Object Warp
 // <entity id>, <object id>, <action param id>, <warp point id>, <ffx id>, <dummy poly id>
 //----------------------------------------------
-Event(20021001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    IfActionButtonInArea(OR_01, X8_4, X4_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    
-    SetCharacterGravity(X0_4, Disabled)
+$Event(20021001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    WaitFor(ActionButtonInArea(X8_4, X4_4));
+
+    SetCharacterGravity(X0_4, Disabled);
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X12_4, -1, X0_4);
     WaitFixedTimeSeconds(0.1);
-    
+
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, X20_4, X16_4);
-    SetCharacterGravity(X0_4, Enabled)
-    
-    EndUnconditionally(EventEndType.Restart)
+    SetCharacterGravity(X0_4, Enabled);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Damage Warp
 // <entity id>, <warp point id>, <target id>, <ffx id>, <dummy poly id>
 //----------------------------------------------
-Event(20021002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    IfCharacterDamagedBy(OR_01, X8_4, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    
-    SetCharacterGravity(X0_4, Disabled)
+$Event(20021002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    WaitFor(CharacterDamagedBy(X8_4, X0_4));
+
+    SetCharacterGravity(X0_4, Disabled);
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X4_4, -1, X0_4);
     WaitFixedTimeSeconds(0.1);
-    
+
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, X16_4, X12_4);
-    SetCharacterGravity(X0_4, Enabled)
-    
-    EndUnconditionally(EventEndType.Restart)
+    SetCharacterGravity(X0_4, Enabled);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Region Warp - Trial
 // <entity id>, <warp point id>, <trigger region id>
 //----------------------------------------------
-Event(20021005, Restart, function(X0_4, X4_4, X8_4) {
-    IfInoutsideArea(OR_01, InsideOutsideState.Inside, X0_4, X8_4, 1)
-    IfConditionGroup(MAIN, PASS, OR_01);
+$Event(20021005, Restart, function(X0_4, X4_4, X8_4) {
+    WaitFor(InArea(X0_4, X8_4));
     WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Area, X4_4, -1, X0_4);
     WaitFixedTimeSeconds(0.1);
-    
-    EndUnconditionally(EventEndType.Restart)
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Estus Pot
 // <object id>, <area entity id>, <ffx id>, <ffx drink id>, <speffect id>
 //----------------------------------------------
-Event(20040000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
+$Event(20040000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    EndIf(PlayerIsNotInOwnWorld());
     SetNetworkSyncState(Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventIDSlotNumber, 0);
+    EndIf(ThisEventSlot());
     CreateObjectfollowingSFX(X0_4, 200, X8_4);
     CreateObjectfollowingSFX(X0_4, 200, 60);
-    IfActionButtonInArea(MAIN, 9600, X4_4);
+    WaitFor(ActionButtonInArea(9600, X4_4));
     ForceAnimationPlayback(10000, 60070, false, false, false, 0, 1); // Drink
     WaitFixedTimeSeconds(0.2);
     SpawnOneshotSFX(TargetEntityType.Character, 10000, 220, X12_4);
     PlaySE(10000, SoundType.c_CharacterMotion, 999999988);
-    SetSpeffect(10000, X16_4);
+    SetSpEffect(10000, X16_4);
     DeleteObjectfollowingSFX(X0_4, true);
 });
 
 //----------------------------------------------
 // Read Engraving
 //----------------------------------------------
-Event(20050010, Restart, function(X0_4, X4_4, X8_4) {
+$Event(20050010, Restart, function(X0_4, X4_4, X8_4) {
     SetNetworkSyncState(Disabled);
-    IfActionButtonInArea(MAIN, X8_4, X4_4);
+    WaitFor(ActionButtonInArea(X8_4, X4_4));
     DisplayEpitaphMessage(X0_4);
     WaitFixedTimeSeconds(3);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Check Player Death for Firelink Return
 //----------------------------------------------
-Event(20060001, Restart, function() {
-    IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
+$Event(20060001, Restart, function() {
+    WaitFor(HPRatio(10000) <= 0);
     SetMapCeremony(40, 0, 0);
 });
 
@@ -6322,16 +5966,17 @@ Event(20060001, Restart, function() {
 // Summon Setup
 // <summon flag, <dismiss flag>, <entity id>, <spawn point id>
 //----------------------------------------------
-Event(20070000, Default, function(X0_4, X4_4, X8_4, X12_4) {
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X8_4, AuthorityLevel.Forced);
-    
-    IfPlayerIsNotInOwnWorldExcludesArena(AND_01, false);
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1);
-    IfCharacterBackreadStatus(AND_01, X8_4, true, ComparisonType.Equal, 1);
-    IfEntityInoutsideRadiusOfEntity(AND_01, InsideOutsideState.Inside, X8_4, 10000, 10, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20070000, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkUpdateAuthority(X8_4, AuthorityLevel.Forced);
+    }
+
+    WaitFor(
+        !PlayerIsNotInOwnWorld()
+            && CharacterHasSpEffect(10000, 490)
+            && CharacterBackreadStatus(X8_4)
+            && EntityInRadiusOfEntity(X8_4, 10000, 10, 1));
+
     PlaceNPCSummonSign(SummonSignType.WhiteSign, X8_4, X12_4, X0_4, X4_4);
 });
 
@@ -6339,18 +5984,17 @@ Event(20070000, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // Summon Setup - Apperance
 // <summon flag, <dismiss flag>, <trigger flag>, <entity id>
 //----------------------------------------------
-Event(20070001, Default, function(X0_4, X4_4, X8_4) {
+$Event(20070001, Default, function(X0_4, X4_4, X8_4) {
     ChangeCharacterEnableState(X8_4, Disabled);
     SetCharacterAnimationState(X8_4, Disabled);
     SetCharacterAIState(X8_4, Disabled);
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
+    EndIf(EventFlag(X4_4));
+    WaitFor(EventFlag(X0_4));
     ChangeCharacterEnableState(X8_4, Enabled);
     SetCharacterAnimationState(X8_4, Enabled);
     SetCharacterAIState(X8_4, Enabled);
     SetCharacterDefaultBackreadState(X8_4, Enabled);
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
+    WaitFor(EventFlag(X4_4));
     SetCharacterDefaultBackreadState(X8_4, Disabled);
 });
 
@@ -6358,58 +6002,48 @@ Event(20070001, Default, function(X0_4, X4_4, X8_4) {
 // Summon Setup - Player Check (If Dead)
 // 
 //----------------------------------------------
-Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfCharacterType(AND_01, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, AND_01);
-    IfCharacterType(AND_02, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_02, InsideOutsideState.Inside, 10000, X12_4, 1);
-    IfEventFlag(AND_02, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(MAIN, PASS, AND_02);
-    RequestCharacterAICommand(X8_4, 10, 0);
-    RequestCharacterAIReplan(X8_4);
-    EndUnconditionally(EventEndType.Restart);
-    Label0();
-    IfCharacterType(AND_03, 10000, TargetType.Alive, ComparisonType.Equal, 1);
-    IfInoutsideArea(AND_03, InsideOutsideState.Outside, 10000, X12_4, 1);
-    IfEventFlag(AND_04, ON, TargetEventFlagType.EventFlag, X4_4);
-    IfEventFlag(AND_05, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfConditionGroup(OR_01, PASS, AND_03);
-    IfConditionGroup(OR_01, PASS, AND_04);
-    IfConditionGroup(AND_06, PASS, OR_01);
-    IfConditionGroup(AND_06, PASS, AND_05);
-    IfConditionGroup(MAIN, PASS, AND_06);
-    IfEventFlag(AND_07, ON, TargetEventFlagType.EventFlag, X4_4);
-    EndIfConditionGroupStateUncompiled(EventEndType.End, PASS, AND_07);
+$Event(20070002, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(EventFlag(X4_4));
+    if (!(CharacterType(10000, TargetType.Alive) && InArea(10000, X12_4) && EventFlag(X0_4))) {
+        WaitFor(CharacterType(10000, TargetType.Alive) && InArea(10000, X12_4) && EventFlag(X0_4));
+        RequestCharacterAICommand(X8_4, 10, 0);
+        RequestCharacterAIReplan(X8_4);
+        RestartEvent();
+    }
+L0:
+    chrArea = CharacterType(10000, TargetType.Alive) && !InArea(10000, X12_4);
+    flag = EventFlag(X4_4);
+    flag2 = EventFlag(X0_4);
+    chrAreaFlag = chrArea || flag;
+    WaitFor(chrAreaFlag && flag2);
+    EndIf(EventFlag(X4_4));
     RequestCharacterAICommand(X8_4, -1, 0);
     RequestCharacterAIReplan(X8_4);
     WaitFixedTimeFrames(1);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Curse - Curse of Attraction
 // <entity id>, <trigger flag>
 //----------------------------------------------
-Event(20081000, Restart, function(X0_4, X4_4) {
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X4_4);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label0();
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-    SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
+$Event(20081000, Restart, function(X0_4, X4_4) {
+    if (!EventFlag(X4_4)) {
+        ChangeCharacterEnableState(X0_4, Disabled);
+        SetCharacterAnimationState(X0_4, Disabled);
+    } else {
 
-    GotoUnconditionally(Label.LABEL1)
-    
-    Label1();
-    IfDamageType(MAIN, X0_4, 10000, DamageType.Unspecified);
+L0:
+        ChangeCharacterEnableState(X0_4, Enabled);
+        SetCharacterAnimationState(X0_4, Enabled);
+        SetCharacterAIState(X0_4, Enabled);
+        SetNetworkUpdateRate(X0_4, true, CharacterUpdateFrequency.AlwaysUpdate);
+
+        Goto(L1);
+    }
+
+L1:
+    WaitFor(HasDamageType(X0_4, 10000, DamageType.Unspecified));
     WaitFixedTimeSeconds(0.1);
     RequestCharacterAIReplan(X0_4);
 });
@@ -6418,8 +6052,8 @@ Event(20081000, Restart, function(X0_4, X4_4) {
 // Curse - Disabled Enemies
 // <entity id>, <trigger flag>
 //----------------------------------------------
-Event(20081001, Restart, function(X0_4, X4_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
+$Event(20081001, Restart, function(X0_4, X4_4) {
+    WaitFor(EventFlag(X4_4));
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterBackreadState(X0_4, true);
@@ -6429,94 +6063,89 @@ Event(20081001, Restart, function(X0_4, X4_4) {
 // Curse - Add SpEffect
 // <entity id>, <speffect id>, <trigger flag>
 //----------------------------------------------
-Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
-    SetSpeffect(X0_4, X4_4);
-    
-    IfEventFlag(MAIN, OFF, TargetEventFlagType.EventFlag, X8_4);
-    ClearSpeffect(X0_4, X4_4);
-    
-    EndUnconditionally(EventEndType.Restart);
+$Event(20081010, Restart, function(X0_4, X4_4, X8_4) {
+    WaitFor(EventFlag(X8_4));
+    SetSpEffect(X0_4, X4_4);
+
+    WaitFor(!EventFlag(X8_4));
+    ClearSpEffect(X0_4, X4_4);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Curse - Add Random SpEffect
 // <entity id>, <speffect id>, <trigger flag>
 //----------------------------------------------
-Event(20081011, Restart, function(X0_4, X4_4, X8_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
-    SetSpeffect(X0_4, X4_4);
-    EndUnconditionally(EventEndType.Restart);
+$Event(20081011, Restart, function(X0_4, X4_4, X8_4) {
+    WaitFor(EventFlag(X8_4));
+    SetSpEffect(X0_4, X4_4);
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Company of Champions - Add SpEffect
 // <entity id>, <speffect id>, <trigger flag>
 //----------------------------------------------
-Event(20081020, Restart, function(X0_4, X4_4, X8_4) {
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    SetSpeffect(X0_4, X8_4);
-    
-    IfCharacterHasSpeffect(AND_02, 10000, X4_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, FAIL, AND_02);
-    ClearSpeffect(X0_4, X8_4);
-    
-    EndUnconditionally(EventEndType.Restart);
+$Event(20081020, Restart, function(X0_4, X4_4, X8_4) {
+    WaitFor(CharacterHasSpEffect(10000, X4_4));
+    SetSpEffect(X0_4, X8_4);
+
+    WaitFor(!CharacterHasSpEffect(10000, X4_4));
+    ClearSpEffect(X0_4, X8_4);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Enemy - Award Itemlot - Special Boss Case
 // <entity id>, <itemlot id>, <speffect id>
 //----------------------------------------------
-Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
-    IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0, ComparisonType.Equal, 1);
-    
+$Event(20005352, Restart, function(X0_4, X4_4, X8_4) {
+    WaitFor(HPRatio(X0_4) <= 0);
+
     WaitFixedTimeSeconds(5);
-    
+
     AwardItemLot(X4_4);
-    SetSpeffect(10000, X8_4);
-    
-    EndUnconditionally(EventEndType.End);
+    SetSpEffect(10000, X8_4);
+
+    EndEvent();
 });
 
 //----------------------------------------------
 // Boss - Warp System
 // <boss defeat flag>, <player>, <entity>, <trap zone>, <player zone>, <warp spot>
 //----------------------------------------------
-Event(20005353, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, X4_4, X16_4, 1); // Player is in player zone
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, X8_4, X12_4, 1); // Entity is in trap zone
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20005353, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+    EndIf(EventFlag(X0_4));
+
+    WaitFor(InArea(X4_4, X16_4) && InArea(X8_4, X12_4)); // Entity is in trap zone // Player is in player zone
+
     // Allow a grace period
     WaitFixedTimeSeconds(3.0);
-    
+
     // If player/boss has moved, reset loop
-    IfInoutsideArea(OR_01, InsideOutsideState.Outside, X4_4, X16_4, 1); // Player is in player zone
-    IfInoutsideArea(OR_01, InsideOutsideState.Outside, X8_4, X12_4, 1); // Entity is in trap zone
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, PASS, OR_01);
-    
-    // Otherwise, warp boss to spot
-    SpawnOneshotSFX(TargetEntityType.Character, X8_4, X24_4, X28_4);
-    WaitFixedTimeSeconds(0.1);
-    
-    WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Area, X20_4, -1, X20_4);
-    
-    WaitFixedTimeSeconds(0.1);
-    SpawnOneshotSFX(TargetEntityType.Character, X8_4, X24_4, X28_4);
-    
-    Label0();
-    EndUnconditionally(EventEndType.Restart);
+    if (!(!InArea(X4_4, X16_4) || !InArea(X8_4, X12_4))) { // Entity is in trap zone // Player is in player zone
+
+        // Otherwise, warp boss to spot
+        SpawnOneshotSFX(TargetEntityType.Character, X8_4, X24_4, X28_4);
+        WaitFixedTimeSeconds(0.1);
+
+        WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Area, X20_4, -1, X20_4);
+
+        WaitFixedTimeSeconds(0.1);
+        SpawnOneshotSFX(TargetEntityType.Character, X8_4, X24_4, X28_4);
+    }
+
+L0:
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Talk Menu - Setup
 // <entity id>
 //----------------------------------------------
-Event(20081030, Default, function(X0_4) {
+$Event(20081030, Default, function(X0_4) {
     SetCharacterAIState(X0_4, Disabled);
     SetCharacterGravity(X0_4, Disabled);
     ChangeCharacterDispmask(X0_4, 0, OFF);
@@ -6544,94 +6173,103 @@ Event(20081030, Default, function(X0_4) {
 // Primordial Drops - Guaranteed, Hard, Med, Easy
 // <itemlot id>, <itemlot id>, <itemlot id>, <itemlot id>
 //----------------------------------------------
-Event(20081100, Default, function(X0_4, X4_4, X8_4, X12_4) {
+$Event(20081100, Default, function(X0_4, X4_4, X8_4, X12_4) {
     // Curse of Obscurity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000001);
-    AwardItemLot(X4_4);
-    
+    if (EventFlag(25000001)) {
+        AwardItemLot(X4_4);
+    }
+
     // Curse of Vitality
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000002);
-    AwardItemLot(X4_4);
-    
+    if (EventFlag(25000002)) {
+        AwardItemLot(X4_4);
+    }
+
     // Curse of Pride
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000004);
-    AwardItemLot(X4_4);
-    
+    if (EventFlag(25000004)) {
+        AwardItemLot(X4_4);
+    }
+
     // Curse of Fortitude
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000006);
-    AwardItemLot(X4_4);
-    
+    if (EventFlag(25000006)) {
+        AwardItemLot(X4_4);
+    }
+
     // Curse of Wrath
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000003);
-    AwardItemLot(X8_4);
+    if (EventFlag(25000003)) {
+        AwardItemLot(X8_4);
+    }
 
     // Curse of Gluttony
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000007);
-    AwardItemLot(X8_4);
-    
+    if (EventFlag(25000007)) {
+        AwardItemLot(X8_4);
+    }
+
     // Curse of Frailty
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000008);
-    AwardItemLot(X8_4);
-    
+    if (EventFlag(25000008)) {
+        AwardItemLot(X8_4);
+    }
+
     // Curse of Simplicity
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000005);
-    AwardItemLot(X12_4);
+    if (EventFlag(25000005)) {
+        AwardItemLot(X12_4);
+    }
 
     // Curse of Enfeeblement
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000009);
-    AwardItemLot(X4_4);
-    
+    if (EventFlag(25000009)) {
+        AwardItemLot(X4_4);
+    }
+
     // Curse of Impermanence
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25000020);
-    AwardItemLot(X12_4);
+    if (EventFlag(25000020)) {
+        AwardItemLot(X12_4);
+    }
 });
 
 //----------------------------------------------
 // Merchant - Idle Pose
 // <disabled flag>, <entity id>, <anim id>
 //----------------------------------------------
-Event(20081200, Default, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
+$Event(20081200, Default, function(X0_4, X4_4, X8_4) {
+    EndIf(EventFlag(X0_4));
     ForceAnimationPlayback(X4_4, X8_4, false, false, false, 0, 1);
-    EndUnconditionally(EventEndType.End);
+    EndEvent();
 });
 
 //----------------------------------------------
 // Merchant - Hostility
 // <disabled flag>, <entity id>, <anim id>
 //----------------------------------------------
-Event(20081210, Default, function(X0_4, X4_4) {
+$Event(20081210, Default, function(X0_4, X4_4) {
     SetCharacterAIState(X4_4, Disabled);
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    IfCharacterDamagedBy(AND_01, X4_4, 10000);
-    IfConditionGroup(MAIN, PASS, AND_01);
+
+    EndIf(EventFlag(X0_4));
+    WaitFor(CharacterDamagedBy(X4_4, 10000));
 
     SpawnOneshotSFX(TargetEntityType.Character, X4_4, 100, 105);
 
     // Disable
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
-    
+
     WaitFixedTimeSeconds(5.0);
-    
+
     SpawnOneshotSFX(TargetEntityType.Character, X4_4, 100, 105);
-    
+
     ChangeCharacterEnableState(X4_4, Enabled);
     SetCharacterAnimationState(X4_4, Enabled);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Merchant - Disable based on flag
 // <sent flag>, <entity id>
 //----------------------------------------------
-Event(20081220, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
-    
+$Event(20081220, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(EventFlag(X0_4));
+
+    WaitFor(EventFlag(X8_4));
+
     SetCharacterAIState(X4_4, Disabled);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
@@ -6641,15 +6279,15 @@ Event(20081220, Restart, function(X0_4, X4_4, X8_4) {
 // Merchant - Enable based on flag
 // <sent flag>, <entity id>
 //----------------------------------------------
-Event(20081230, Restart, function(X0_4, X4_4, X8_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    
+$Event(20081230, Restart, function(X0_4, X4_4, X8_4) {
+    EndIf(EventFlag(X0_4));
+
     SetCharacterAIState(X4_4, Disabled);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
-    
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X8_4);
-    
+
+    WaitFor(EventFlag(X8_4));
+
     SetCharacterAIState(X4_4, Enabled);
     ChangeCharacterEnableState(X4_4, Enabled);
     SetCharacterAnimationState(X4_4, Enabled);
@@ -6659,17 +6297,15 @@ Event(20081230, Restart, function(X0_4, X4_4, X8_4) {
 // Merchant - Benjin - Enable based on flag
 // <sent flag>, <entity id>
 //----------------------------------------------
-Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X0_4);
-    
+$Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(EventFlag(X0_4));
+
     SetCharacterAIState(X4_4, Disabled);
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
-    
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X8_4);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, X12_4);
-    IfConditionGroup(MAIN, PASS, OR_01);
-    
+
+    WaitFor(EventFlag(X8_4) || EventFlag(X12_4));
+
     SetCharacterAIState(X4_4, Enabled);
     ChangeCharacterEnableState(X4_4, Enabled);
     SetCharacterAnimationState(X4_4, Enabled);
@@ -6679,37 +6315,34 @@ Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // Intruder - Setup
 // <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>
 //----------------------------------------------
-Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+$Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    
+
     // End if X has been killed once already
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X28_4);
-    
+    EndIf(EventFlag(X28_4));
+
     // Trigger Invader if in region
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1); // Is in Region
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Player is embered
-    IfConditionGroup(MAIN, PASS, AND_01);
+    WaitFor(InArea(10000, X4_4) && CharacterHasSpEffect(10000, 490)); // Player is embered // Is in Region
     WaitRandomTimeSeconds(1, 3);
-    
+
     DisplayMessage(X20_4, 1);
-    
+
     // Spawn
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X8_4);
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterDefaultBackreadState(X0_4, Enabled);
     ForceAnimationPlayback(X0_4, X12_4, false, false, false, 0, 1);
-    
+
     // Killed
-    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+    WaitFor(CharacterDead(X0_4));
+
     DisplayMessage(X24_4, 1);
-    
+
     AwardItemLot(X16_4);
     SetCharacterDefaultBackreadState(X0_4, Disabled);
-    
+
     SetEventFlag(X28_4, ON);
 });
 
@@ -6717,38 +6350,34 @@ Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // Intruder - Setup - Conditional
 // <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <conditional flag>
 //----------------------------------------------
-Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+$Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
-    
+
     // End if X has been killed once already
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X28_4);
-    
+    EndIf(EventFlag(X28_4));
+
     // Trigger Invader if in region
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X32_4); // Has conditional flag
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1); // Is in Region
-    IfCharacterHasSpeffect(AND_01, 10000, 490, true, ComparisonType.Equal, 1); // Player is embered
-    IfConditionGroup(MAIN, PASS, AND_01);
+    WaitFor(EventFlag(X32_4) && InArea(10000, X4_4) && CharacterHasSpEffect(10000, 490)); // Player is embered // Has conditional flag // Is in Region
     WaitRandomTimeSeconds(1, 3);
-    
+
     DisplayMessage(X20_4, 1);
-    
+
     // Spawn
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X8_4);
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterDefaultBackreadState(X0_4, Enabled);
     ForceAnimationPlayback(X0_4, X12_4, false, false, false, 0, 1);
-    
+
     // Killed
-    IfCharacterDeadalive(AND_01, X0_4, DeathState.Dead, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+    WaitFor(CharacterDead(X0_4));
+
     DisplayMessage(X24_4, 1);
-    
+
     AwardItemLot(X16_4);
     SetCharacterDefaultBackreadState(X0_4, Disabled);
-    
+
     SetEventFlag(X28_4, ON);
 });
 
@@ -6756,14 +6385,14 @@ Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // Intruder - Kill Emote
 // <entity id>, <animation id>
 //----------------------------------------------
-Event(20090020, Default, function(X0_4, X4_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfCharacterDeadalive(MAIN, 10000, DeathState.Dead, ComparisonType.Equal, 1);
+$Event(20090020, Default, function(X0_4, X4_4) {
+    EndIf(PlayerIsNotInOwnWorld());
+
+    WaitFor(CharacterDead(10000));
     ForceAnimationPlayback(X0_4, X4_4, false, false, false, 0, 1);
-    
+
     WaitFixedTimeSeconds(5);
-    
+
     ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
 });
 
@@ -6771,33 +6400,34 @@ Event(20090020, Default, function(X0_4, X4_4) {
 // Phantom - Setup Summon
 // <obj id>, <summoned flag>, <boss flag>, <action param>
 //-------------------------------------------
-Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
+$Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
-    
+
     // Reset summoned flag
     SetEventFlag(X4_4, OFF);
-    
+
     // Skip boss check if -1
-    SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
-    // End function if boss has already been killed
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X8_4);
-    
+    if (X8_4 != -1) {
+        // End function if boss has already been killed
+        EndIf(EventFlag(X8_4));
+    }
+
     // End if not in own world
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009850); // End if in Gauntlet Mode
-    
+    EndIf(PlayerIsNotInOwnWorld());
+
+    EndIf(EventFlag(25009850)); // End if in Gauntlet Mode
+
     // Player is embered
-    IfCharacterHasSpeffect(MAIN, 10000, 490, true, ComparisonType.Equal, 1);
-    
+    WaitFor(CharacterHasSpEffect(10000, 490));
+
     CreateObjectfollowingSFX(X0_4, 1, 30020);
-    
+
     // Player has used prompt
-    IfActionButtonInArea(MAIN, X12_4, X0_4);
-    
+    WaitFor(ActionButtonInArea(X12_4, X0_4));
+
     DeleteObjectfollowingSFX(X0_4, true);
     DeactivateObject(X4_4, Disabled);
-    
+
     SetEventFlag(X4_4, ON);
 });
 
@@ -6805,33 +6435,34 @@ Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // Phantom - Setup Phantom
 // <entity id>, <summoned flag>, <gesture>, <msg>
 //-------------------------------------------
-Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
+$Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetNetworkSyncState(Disabled);
     // Disable by default
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
     // Skip if no invaders are present
-    SkipIfNumberOfClientsOfType(1, ClientType.Invader, ComparisonType.Equal, 0);
-    SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
-    
+    if (NumberOfClientsOfType(ClientType.Invader) != 0) {
+        SetNetworkUpdateAuthority(X0_4, AuthorityLevel.Forced);
+    }
+
     // End if not in own world
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009850); // End if in Gauntlet Mode
-    
+    EndIf(PlayerIsNotInOwnWorld());
+
+    EndIf(EventFlag(25009850)); // End if in Gauntlet Mode
+
     // Delay the following checks so the summoned flag is reset before they are checked
     WaitFixedTimeSeconds(1.0);
-    
+
     // Player is embered
-    IfCharacterHasSpeffect(MAIN, 10000, 490, true, ComparisonType.Equal, 1);
+    WaitFor(CharacterHasSpEffect(10000, 490));
 
     // Show illusion form
     //ChangeCharacterEnableState(X0_4, Disabled);
     //SetSpEffect(X0_4, 160803000);
-    
+
     // Phantom is summoned
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, X4_4);
+    WaitFor(EventFlag(X4_4));
 
     // Spawn Phantom
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, 30320);
@@ -6839,25 +6470,26 @@ Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterDefaultBackreadState(X0_4, Enabled);
     ForceAnimationPlayback(X0_4, 63010, false, false, false, 0, 1);
-    
+
     ClearSpEffect(X0_4, 160803000);
     SetSpEffect(X0_4, 160803010);
-    
-    SkipIfComparison(1, ComparisonType.Equal, X12_4, -1);
-    SetSpEffect(X0_4, X12_4);
-    
+
+    if (X12_4 != -1) {
+        SetSpEffect(X0_4, X12_4);
+    }
+
     WaitFixedTimeSeconds(5.3);
-    
+
     //ForceAnimationPlayback(X0_4, 80600, false, false, false, 0, 1);
-    
+
     //WaitFixedTimeSeconds(3.7);
-    
+
     ForceAnimationPlayback(X0_4, 0, false, false, false, 0, 1);
-    
+
     SetCharacterAIState(X0_4, Enabled);
-    
-    IfCharacterHPRatio(MAIN, X0_4, ComparisonType.LessOrEqual, 0.0, ComparisonType.Equal, 1);
-    
+
+    WaitFor(HPRatio(X0_4) <= 0.0);
+
     DisplayMessage(X8_4, 1);
 });
 
@@ -6865,19 +6497,17 @@ Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
 // Phantom - Boss Warp
 // <summon flag>, <boss in battle flag>, <entity id>, <point id>
 //-------------------------------------------
-Event(20090102, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009850); // End if in Gauntlet Mode
-    
+$Event(20090102, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
+
+    EndIf(EventFlag(25009850)); // End if in Gauntlet Mode
+
     WaitFixedTimeSeconds(1.0);
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X4_4); // Boss fight is in progress
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+
+    WaitFor(EventFlag(X0_4) && EventFlag(X4_4)); // Boss fight is in progress // Summon is active
+
     WaitFixedTimeSeconds(2.0);
-    
+
     WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Area, X12_4, 0, X12_4);
 });
 
@@ -6885,68 +6515,65 @@ Event(20090102, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // Phantom - Collision Transition Warp
 // <summon flag>, <entity id>, <region id>, <point id>
 //-------------------------------------------
-Event(20090103, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009850); // End if in Gauntlet Mode
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, X4_4, X8_4, 1);
-    
+$Event(20090103, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
+
+    EndIf(EventFlag(25009850)); // End if in Gauntlet Mode
+
+    WaitFor(EventFlag(X0_4)); // Summon is active
+
+    WaitFor(InArea(X4_4, X8_4));
+
     WarpCharacterAndCopyFloor(X4_4, TargetEntityType.Area, X12_4, 0, X12_4);
-    
+
     WaitFixedTimeSeconds(2.0);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 //-------------------------------------------
 // Phantom - Betray Player
 // <summon flag>, <entity id>, <betrayer entity id>, <hp value>, 
 //-------------------------------------------
-Event(20090104, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+$Event(20090104, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     ChangeCharacterEnableState(X8_4, Disabled);
     SetCharacterAnimationState(X8_4, Disabled);
     SetCharacterAIState(X8_4, Disabled);
-    
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true); // End if player is a client
-    
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, 25009850); // End if in Gauntlet Mode
-    
-    IfEventFlag(AND_01, ON, TargetEventFlagType.EventFlag, X0_4); // Summon is active
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+
+    EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
+
+    EndIf(EventFlag(25009850)); // End if in Gauntlet Mode
+
+    WaitFor(EventFlag(X0_4)); // Summon is active
+
     // Player is below 50% HP
-    IfCharacterHPRatio(MAIN, 10000, ComparisonType.LessOrEqual, 0.3, ComparisonType.Equal, 1);
-    
+    WaitFor(HPRatio(10000) <= 0.3);
+
     DisplayMessage(X12_4, 1);
-    
+
     ChangeCharacterEnableState(X4_4, Disabled);
     SetCharacterAnimationState(X4_4, Disabled);
     SetCharacterAIState(X4_4, Disabled);
-    
+
     ChangeCharacterEnableState(X8_4, Enabled);
     SetCharacterAnimationState(X8_4, Enabled);
     SetCharacterDefaultBackreadState(X8_4, Enabled);
-    
+
     SetSpEffect(X8_4, 160803020);
     SetCharacterAIState(X8_4, Enabled);
-    
+
     // Play FFX on player
     SpawnOneshotSFX(TargetEntityType.Character, 10000, 233, 527006);
-    
+
     WarpCharacterAndCopyFloor(X8_4, TargetEntityType.Character, 10000, 271, 10000);
 });
 
 //----------------------------------------------
 // NPC - Talk Toggle
 //----------------------------------------------
-Event(20090300, Default, function(X0_4, X4_4) {
-    IfCharacterDamagedBy(AND_01, X0_4, 10000);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20090300, Default, function(X0_4, X4_4) {
+    WaitFor(CharacterDamagedBy(X0_4, 10000));
+
     ChangeCharacterEnableState(X4_4, Disabled);
 });
 
@@ -6954,62 +6581,60 @@ Event(20090300, Default, function(X0_4, X4_4) {
 // Gesture - Item Treasure
 // <gesture speffect>, <trigger ID>, <itemlot>, <item flag>
 // ----------------------------------------
-Event(20090400, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    EndIfEventFlag(EventEndType.End, ON, TargetEventFlagType.EventFlag, X12_4);
-    
-    IfInoutsideArea(AND_01, InsideOutsideState.Inside, 10000, X4_4, 1);
-    IfCharacterHasSpeffect(AND_01, 10000, X0_4, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
-    
+$Event(20090400, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    EndIf(EventFlag(X12_4));
+
+    WaitFor(InArea(10000, X4_4) && CharacterHasSpEffect(10000, X0_4));
+
     AwardItemLot(X8_4);
-    
-    EndUnconditionally(EventEndType.End);
+
+    EndEvent();
 });
 
 // ----------------------------------------
 // Trigger Zone - Apply SpEffect
 // <trigger zone id>, <SpEffect ID>
 // ----------------------------------------
-Event(20090500, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X0_4, 1);
-    SetSpeffect(10000, X4_4);
+$Event(20090500, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    WaitFor(InArea(10000, X0_4));
+    SetSpEffect(10000, X4_4);
     WaitFixedTimeSeconds(0.8);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // ----------------------------------------
 // Hop Point
 // <mantle obj id>
 // ----------------------------------------
-Event(20090600, Restart, function(X0_4) {
+$Event(20090600, Restart, function(X0_4) {
     SetNetworkSyncState(Disabled);
-    IfActionButtonInArea(MAIN, 20000, X0_4);
+    WaitFor(ActionButtonInArea(20000, X0_4));
     SetSpEffect(10000, 112410);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // ----------------------------------------
 // Leap Point
 // <mantle obj id>
 // ----------------------------------------
-Event(20090601, Restart, function(X0_4) {
+$Event(20090601, Restart, function(X0_4) {
     SetNetworkSyncState(Disabled);
-    IfActionButtonInArea(MAIN, 20001, X0_4);
+    WaitFor(ActionButtonInArea(20001, X0_4));
     SetSpEffect(10000, 112411);
-    EndUnconditionally(EventEndType.Restart);
+    RestartEvent();
 });
 
 // ----------------------------------------
 // Gauntlet - Return Zone
 // <id>
 // ----------------------------------------
-Event(20090800, Restart, function(X0_4) {
-    var flag_GauntletMode = 25009850;
-   
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
-    
-    IfInoutsideArea(MAIN, InsideOutsideState.Inside, 10000, X0_4, 1);
-    
+$Event(20090800, Restart, function(X0_4) {
+    const  flag_GauntletMode = 25009850;
+
+    EndIf(!EventFlag(flag_GauntletMode));
+
+    WaitFor(InArea(10000, X0_4));
+
     SetMapCeremony(40, 0, 0);
     WarpPlayer(40, 0, 4000970); // Firelink Shrine
 });
@@ -7018,9 +6643,9 @@ Event(20090800, Restart, function(X0_4) {
 // Gauntlet - Firelink Setup
 // <id>
 // ----------------------------------------
-Event(20090810, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    var flag_GauntletMode = 25009850;
-    
+$Event(20090810, Restart, function(X0_4, X4_4, X8_4, X12_4) {
+    const  flag_GauntletMode = 25009850;
+
     // Disable Gauntlet fogwalls
     DeactivateObject(X0_4, Disabled);
     DeleteObjectfollowingSFX(X0_4, true);
@@ -7030,11 +6655,11 @@ Event(20090810, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     DeleteObjectfollowingSFX(X8_4, true);
     DeactivateObject(X12_4, Disabled);
     DeleteObjectfollowingSFX(X12_4, true);
-    
-    EndIfEventFlag(EventEndType.End, OFF, TargetEventFlagType.EventFlag, flag_GauntletMode);
-    
+
+    EndIf(!EventFlag(flag_GauntletMode));
+
     SetPlayerRespawnPoint(4002950);
-    
+
     // Enable Gauntlet fogwalls
     DeactivateObject(X0_4, Enabled);
     DeleteObjectfollowingSFX(X0_4, true);
@@ -7055,102 +6680,95 @@ Event(20090810, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 // <entity id>
 // This handles forced desummoning for a spell summon
 //----------------------------------------------
-Event(20080000, Restart, function(X0_4) {
+$Event(20080000, Restart, function(X0_4) {
     // Check if the companion has none of the activity timers
-    IfCharacterHasSpeffect(AND_01, X0_4, 160761600, false, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_01);
+    WaitFor(!CharacterHasSpEffect(X0_4, 160761600));
 
     // Disable companion
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
     SetCharacterAIState(X0_4, Disabled);
-    
+
     //SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 524023); // Spawn FFX
-    
+
     // Wait until timer is reapplied
-    IfCharacterHasSpeffect(AND_02, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    IfConditionGroup(MAIN, PASS, AND_02);
-    
-    EndUnconditionally(EventEndType.Restart);
+    WaitFor(CharacterHasSpEffect(X0_4, 160761600));
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Bonfire Rest
 //----------------------------------------------
-Event(20080001, Restart, function(X0_4) {
+$Event(20080001, Restart, function(X0_4) {
     // Reset activity timers if the player rests at a bonfire
-    ClearSpeffect(X0_4, 160761600);
+    ClearSpEffect(X0_4, 160761600);
 });
 
 //----------------------------------------------
 // Spell Summon - Summoning
 // <entity id>, <trigger speffect>, <level scaling speffect>, <map id>, <block id>
 //----------------------------------------------
-Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
-    EndIfPlayerIsNotInOwnWorldExcludesArena(EventEndType.End, true);
-    
-    IfPlayerInoutMap(AND_01, true, X12_1, X16_1);
-    IfCharacterHasSpeffect(AND_01, 10000, X4_4, true, ComparisonType.Equal, 1); // Item used
-    WaitForConditionGroupState(PASS, AND_01);
-    
+$Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    EndIf(PlayerIsNotInOwnWorld());
+
+    WaitFor(PlayerInMap(X12_1, X16_1) && CharacterHasSpEffect(10000, X4_4)); // Item used
+
     // Conjurator's Pact boost
-    SkipIfCharacterHasSpeffect(2, 10000, 160101702, false, ComparisonType.Equal, 1);
-    SetSpeffect(X0_4, 160761100);
-    GotoUnconditionally(Label.LABEL2);
-    
-    SkipIfCharacterHasSpeffect(2, 10000, 160101712, false, ComparisonType.Equal, 1);
-    SetSpeffect(X0_4, 160761101);
-    GotoUnconditionally(Label.LABEL2);
-    
-    SkipIfCharacterHasSpeffect(2, 10000, 160101722, false, ComparisonType.Equal, 1);
-    SetSpeffect(X0_4, 160761102);
-    GotoUnconditionally(Label.LABEL2);
-    
-    SkipIfCharacterHasSpeffect(2, 10000, 160101732, false, ComparisonType.Equal, 1);
-    SetSpeffect(X0_4, 160761103);
-    GotoUnconditionally(Label.LABEL2);
-    
-    SkipIfCharacterHasSpeffect(2, 10000, 160101742, false, ComparisonType.Equal, 1);
-    SetSpeffect(X0_4, 160761104);
-    GotoUnconditionally(Label.LABEL2);
+    if (CharacterHasSpEffect(10000, 160101702)) {
+        SetSpEffect(X0_4, 160761100);
 
-    Label2();
-    
+    } else if (CharacterHasSpEffect(10000, 160101712)) {
+        SetSpEffect(X0_4, 160761101);
+
+    } else if (CharacterHasSpEffect(10000, 160101722)) {
+        SetSpEffect(X0_4, 160761102);
+
+    } else if (CharacterHasSpEffect(10000, 160101732)) {
+        SetSpEffect(X0_4, 160761103);
+
+    } else if (CharacterHasSpEffect(10000, 160101742)) {
+        SetSpEffect(X0_4, 160761104);
+        Goto(L2);
+    }
+
+L2:
+
     // Disabled at 0% HP
-    IfCharacterHPRatio(AND_02, X0_4, ComparisonType.LessOrEqual, 0.0, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    DisplayEpitaphMessage(99030020);
-    GotoUnconditionally(Label.LABEL1); // Skip setup if at 0 HP
+    if (HPRatio(X0_4) <= 0.0) {
+        DisplayEpitaphMessage(99030020);
+    } else {
 
-    WaitFixedTimeSeconds(0.1);
+        WaitFixedTimeSeconds(0.1);
 
-    // Duration - Normal
-    IfCharacterHasSpeffect(OR_02, 10000, 160603700, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, PASS, OR_02);
-    
-    // Duration - Baseline
-    SetSpEffect(X0_4, 160761600); // Activity Timer
-    SetSpEffect(10000, 160761700); // Player - Spell Summon Active
-    
-    // Summon
-    SetCharacterAIState(X0_4, Enabled);
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    
-    SetSpeffect(X0_4, X8_4);        // Damage scaling
-    SetSpeffect(X0_4, 160761000);   // Summon effect
-    SetSpeffect(10000, 113010);     // FP Pause
-    
-    // Warp companion to player location
-    WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
-    
-    WaitFixedTimeSeconds(0.1);
-    
+        // Duration - Normal
+        if (!CharacterHasSpEffect(10000, 160603700)) {
+
+            // Duration - Baseline
+            SetSpEffect(X0_4, 160761600); // Activity Timer
+            SetSpEffect(10000, 160761700); // Player - Spell Summon Active
+        }
+
+        // Summon
+        SetCharacterAIState(X0_4, Enabled);
+        ChangeCharacterEnableState(X0_4, Enabled);
+        SetCharacterAnimationState(X0_4, Enabled);
+
+        SetSpEffect(X0_4, X8_4); // Damage scaling
+        SetSpEffect(X0_4, 160761000); // Summon effect
+        SetSpEffect(10000, 113010); // FP Pause
+
+        // Warp companion to player location
+        WarpCharacterAndCopyFloor(X0_4, TargetEntityType.Character, 10000, 271, 10000);
+
+        WaitFixedTimeSeconds(0.1);
+    }
+
     //SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 524023); // Spawn FFX
     //PlaySE(10000, SoundType.v_Voice, 444444442); // Thud Shwing
-    
-    Label1();
-    EndUnconditionally(EventEndType.Restart);
+
+L1:
+    RestartEvent();
 });
 
 //----------------------------------------------
@@ -7158,45 +6776,45 @@ Event(20080004, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
 // <entity id>
 // This handles the interaction spells have with a spell summon
 //----------------------------------------------
-Event(20080002, Restart, function(X0_4) {
+$Event(20080002, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Ferverous Ritual 
-    IfCharacterHasSpeffect(AND_02, 10000, 160762010, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_02);
-    SetSpeffect(X0_4, 160762110);
-    SetSpeffect(10000, 113010); // FP Pause
-    
-    // Major Restoration Ritual
-    IfCharacterHasSpeffect(AND_03, 10000, 160762020, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_03);
-    SetSpeffect(X0_4, 160762120);
-    SetSpeffect(10000, 113010); // FP Pause
-    
-    // Minor Restoration Ritual
-    IfCharacterHasSpeffect(AND_04, 10000, 160762030, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_04);
-    SetSpeffect(X0_4, 160762130);
-    SetSpeffect(10000, 113003); // FP Pause
-    
-    // Sacrificial Ritual
-    IfCharacterHasSpeffect(AND_05, 10000, 160762040, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(3, FAIL, AND_05);
-    SetSpeffect(X0_4, 160762140);
-    SetSpeffect(10000, 160762141);
-    SetSpeffect(10000, 113005); // FP Pause
-    
-    // Banishing Ritual
-    IfCharacterHasSpeffect(AND_06, 10000, 160762050, true, ComparisonType.Equal, 1);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, AND_06);
-    ClearSpeffect(X0_4, 160761600);
-    SetSpeffect(10000, 113003); // FP Pause
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Ferverous Ritual 
+        if (CharacterHasSpEffect(10000, 160762010)) {
+            SetSpEffect(X0_4, 160762110);
+            SetSpEffect(10000, 113010); // FP Pause
+        }
+
+        // Major Restoration Ritual
+        if (CharacterHasSpEffect(10000, 160762020)) {
+            SetSpEffect(X0_4, 160762120);
+            SetSpEffect(10000, 113010); // FP Pause
+        }
+
+        // Minor Restoration Ritual
+        if (CharacterHasSpEffect(10000, 160762030)) {
+            SetSpEffect(X0_4, 160762130);
+            SetSpEffect(10000, 113003); // FP Pause
+        }
+
+        // Sacrificial Ritual
+        if (CharacterHasSpEffect(10000, 160762040)) {
+            SetSpEffect(X0_4, 160762140);
+            SetSpEffect(10000, 160762141);
+            SetSpEffect(10000, 113005); // FP Pause
+        }
+
+        // Banishing Ritual
+        if (CharacterHasSpEffect(10000, 160762050)) {
+            ClearSpEffect(X0_4, 160761600);
+            SetSpEffect(10000, 113003); // FP Pause
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
@@ -7204,1858 +6822,2366 @@ Event(20080002, Restart, function(X0_4) {
 // <entity id>
 // This handles the ring effects that boost a Spell Summon
 //----------------------------------------------
-Event(20080003, Restart, function(X0_4) {
+$Event(20080003, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Ring of Conjuration - ON
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603711, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603712, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603713, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603714, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603715, false, ComparisonType.Equal, 1); // Skip if missing
-    SetSpeffect(X0_4, 160764005);
-    
-    // Ring of Conjuration - OFF
-    SkipIfCharacterHasSpeffect(1, 10000, 160603710, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764000);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603711, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764001);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603712, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764002);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603713, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764003);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603714, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764004);
-    
-    SkipIfCharacterHasSpeffect(1, 10000, 160603715, true, ComparisonType.Equal, 1); // Skip if present
-    ClearSpeffect(X0_4, 160764005);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
 
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+        // Ring of Conjuration - ON
+        if (CharacterHasSpEffect(10000, 160603710)) { // Skip if missing
+            SetSpEffect(X0_4, 160764000);
+        }
+
+        if (CharacterHasSpEffect(10000, 160603711)) { // Skip if missing
+            SetSpEffect(X0_4, 160764001);
+        }
+
+        if (CharacterHasSpEffect(10000, 160603712)) { // Skip if missing
+            SetSpEffect(X0_4, 160764002);
+        }
+
+        if (CharacterHasSpEffect(10000, 160603713)) { // Skip if missing
+            SetSpEffect(X0_4, 160764003);
+        }
+
+        if (CharacterHasSpEffect(10000, 160603714)) { // Skip if missing
+            SetSpEffect(X0_4, 160764004);
+        }
+
+        if (CharacterHasSpEffect(10000, 160603715)) { // Skip if missing
+            SetSpEffect(X0_4, 160764005);
+        }
+
+        // Ring of Conjuration - OFF
+        if (!CharacterHasSpEffect(10000, 160603710)) { // Skip if present
+            ClearSpEffect(X0_4, 160764000);
+        }
+
+        if (!CharacterHasSpEffect(10000, 160603711)) { // Skip if present
+            ClearSpEffect(X0_4, 160764001);
+        }
+
+        if (!CharacterHasSpEffect(10000, 160603712)) { // Skip if present
+            ClearSpEffect(X0_4, 160764002);
+        }
+
+        if (!CharacterHasSpEffect(10000, 160603713)) { // Skip if present
+            ClearSpEffect(X0_4, 160764003);
+        }
+
+        if (!CharacterHasSpEffect(10000, 160603714)) { // Skip if present
+            ClearSpEffect(X0_4, 160764004);
+        }
+
+        if (!CharacterHasSpEffect(10000, 160603715)) { // Skip if present
+            ClearSpEffect(X0_4, 160764005);
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Skeleton
 //----------------------------------------------
-Event(20080010, Restart, function(X0_4) {
+$Event(20080010, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Mark of Attraction - Force Replan
-    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
-    RequestCharacterAIReplan(X0_4);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Mark of Attraction - Force Replan
+        if (CharacterHasSpEffect(10000, 160762151)) {
+            RequestCharacterAIReplan(X0_4);
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Skeleton - Visual Emission/Visual Arua
 //----------------------------------------------
-Event(20080011, Restart, function(X0_4) {
+$Event(20080011, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Visual Emission: Fire
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007700);
-    SetSpEffect(X0_4, 160760400);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007701);
-    SetSpEffect(X0_4, 160760401);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007702);
-    SetSpEffect(X0_4, 160760402);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007703);
-    SetSpEffect(X0_4, 160760403);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007704);
-    SetSpEffect(X0_4, 160760404);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007705);
-    SetSpEffect(X0_4, 160760405);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007706);
-    SetSpEffect(X0_4, 160760406);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007707);
-    SetSpEffect(X0_4, 160760407);
-    
-    // Visual Emission:
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007708);
-    SetSpEffect(X0_4, 160760408);
-    
-    // Visual Aura: Red
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007710);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760450);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760520);
-    
-    // Visual Aura: Orange
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007711);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760451);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760521);
-    
-    // Visual Aura: Yellow
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007712);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760452);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760522);
-    
-    // Visual Aura: Green
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007713);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760453);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760523);
-    
-    // Visual Aura: Cyan
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007714);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760454);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760524);
-    
-    // Visual Aura: Blue
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007715);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760455);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760525);
-    
-    // Visual Aura: Indigo
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007716);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760456);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760526);
-    
-    // Visual Aura: Violet
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007717);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760457);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760527);
-    
-    // Visual Aura: Pink
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007718);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760458);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760528);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Visual Emission: Fire
+        if (EventFlag(25007700)) {
+            SetSpEffect(X0_4, 160760400);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007701)) {
+            SetSpEffect(X0_4, 160760401);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007702)) {
+            SetSpEffect(X0_4, 160760402);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007703)) {
+            SetSpEffect(X0_4, 160760403);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007704)) {
+            SetSpEffect(X0_4, 160760404);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007705)) {
+            SetSpEffect(X0_4, 160760405);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007706)) {
+            SetSpEffect(X0_4, 160760406);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007707)) {
+            SetSpEffect(X0_4, 160760407);
+        }
+
+        // Visual Emission:
+        if (EventFlag(25007708)) {
+            SetSpEffect(X0_4, 160760408);
+        }
+
+        // Visual Aura: Red
+        if (EventFlag(25007710)) {
+            if (!EventFlag(25007709)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760450);
+            }
+            if (EventFlag(25007709)) { // Toggle ON
+                SetSpEffect(X0_4, 160760520);
+            }
+        }
+
+        // Visual Aura: Orange
+        if (EventFlag(25007711)) {
+            if (!EventFlag(25007709)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760451);
+            }
+            if (EventFlag(25007709)) { // Toggle ON
+                SetSpEffect(X0_4, 160760521);
+            }
+        }
+
+        // Visual Aura: Yellow
+        if (EventFlag(25007712)) {
+            if (!EventFlag(25007709)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760452);
+            }
+            if (EventFlag(25007709)) { // Toggle ON
+                SetSpEffect(X0_4, 160760522);
+            }
+        }
+
+        // Visual Aura: Green
+        if (EventFlag(25007713)) {
+            if (!EventFlag(25007709)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760453);
+            }
+            if (EventFlag(25007709)) { // Toggle ON
+                SetSpEffect(X0_4, 160760523);
+            }
+        }
+
+        // Visual Aura: Cyan
+        if (EventFlag(25007714)) {
+            if (!EventFlag(25007709)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760454);
+            }
+            if (EventFlag(25007709)) { // Toggle ON
+                SetSpEffect(X0_4, 160760524);
+            }
+        }
+
+        // Visual Aura: Blue
+        if (EventFlag(25007715)) {
+            if (!EventFlag(25007709)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760455);
+            }
+            if (EventFlag(25007709)) { // Toggle ON
+                SetSpEffect(X0_4, 160760525);
+            }
+        }
+
+        // Visual Aura: Indigo
+        if (EventFlag(25007716)) {
+            if (!EventFlag(25007709)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760456);
+            }
+            if (EventFlag(25007709)) { // Toggle ON
+                SetSpEffect(X0_4, 160760526);
+            }
+        }
+
+        // Visual Aura: Violet
+        if (EventFlag(25007717)) {
+            if (!EventFlag(25007709)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760457);
+            }
+            if (EventFlag(25007709)) { // Toggle ON
+                SetSpEffect(X0_4, 160760527);
+            }
+        }
+
+        // Visual Aura: Pink
+        if (EventFlag(25007718)) {
+            if (!EventFlag(25007709)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760458);
+            }
+            if (EventFlag(25007709)) { // Toggle ON
+                SetSpEffect(X0_4, 160760528);
+            }
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Skeleton - Rainbow Visual Aura
 //----------------------------------------------
-Event(20080012, Restart, function(X0_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007719);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760470);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760520);
+$Event(20080012, Restart, function(X0_4) {
+    WaitFor(EventFlag(25007719));
+
+    if (!EventFlag(25007709)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760470);
+    }
+    if (EventFlag(25007709)) { // Toggle ON
+        SetSpEffect(X0_4, 160760520);
+    }
 
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760471);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760521);
-    
+
+    if (!EventFlag(25007709)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760471);
+    }
+    if (EventFlag(25007709)) { // Toggle ON
+        SetSpEffect(X0_4, 160760521);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760472);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760522);
-    
+
+    if (!EventFlag(25007709)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760472);
+    }
+    if (EventFlag(25007709)) { // Toggle ON
+        SetSpEffect(X0_4, 160760522);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760473);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760523);
-    
+
+    if (!EventFlag(25007709)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760473);
+    }
+    if (EventFlag(25007709)) { // Toggle ON
+        SetSpEffect(X0_4, 160760523);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760474);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760524);
-    
+
+    if (!EventFlag(25007709)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760474);
+    }
+    if (EventFlag(25007709)) { // Toggle ON
+        SetSpEffect(X0_4, 160760524);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760475);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760525);
-    
+
+    if (!EventFlag(25007709)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760475);
+    }
+    if (EventFlag(25007709)) { // Toggle ON
+        SetSpEffect(X0_4, 160760525);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760476);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760526);
-    
+
+    if (!EventFlag(25007709)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760476);
+    }
+    if (EventFlag(25007709)) { // Toggle ON
+        SetSpEffect(X0_4, 160760526);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760477);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760527);
-    
+
+    if (!EventFlag(25007709)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760477);
+    }
+    if (EventFlag(25007709)) { // Toggle ON
+        SetSpEffect(X0_4, 160760527);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007709); // Toggle OFF
-    SetSpEffect(X0_4, 160760478);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007709); // Toggle ON
-    SetSpEffect(X0_4, 160760528);
-    
+
+    if (!EventFlag(25007709)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760478);
+    }
+    if (EventFlag(25007709)) { // Toggle ON
+        SetSpEffect(X0_4, 160760528);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Hollow
 //----------------------------------------------
-Event(20080020, Restart, function(X0_4) {
+$Event(20080020, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Mark of Attraction - Force Replan
-    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
-    RequestCharacterAIReplan(X0_4);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Mark of Attraction - Force Replan
+        if (CharacterHasSpEffect(10000, 160762151)) {
+            RequestCharacterAIReplan(X0_4);
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Hollow - Visual Emission/Visual Arua
 //----------------------------------------------
-Event(20080021, Restart, function(X0_4) {
+$Event(20080021, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Visual Emission: Fire
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007720);
-    SetSpEffect(X0_4, 160760400);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007721);
-    SetSpEffect(X0_4, 160760401);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007722);
-    SetSpEffect(X0_4, 160760402);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007723);
-    SetSpEffect(X0_4, 160760403);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007724);
-    SetSpEffect(X0_4, 160760404);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007725);
-    SetSpEffect(X0_4, 160760405);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007726);
-    SetSpEffect(X0_4, 160760406);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007727);
-    SetSpEffect(X0_4, 160760407);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007728);
-    SetSpEffect(X0_4, 160760408);
-    
-    // Visual Aura: Red
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007730);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760450);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760500);
-    
-    // Visual Aura: Orange
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007731);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760451);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760501);
-    
-    // Visual Aura: Yellow
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007732);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760452);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760502);
-    
-    // Visual Aura: Green
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007733);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760453);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760503);
-    
-    // Visual Aura: Cyan
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007734);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760454);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760504);
-    
-    // Visual Aura: Blue
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007735);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760455);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760505);
-    
-    // Visual Aura: Indigo
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007736);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760456);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760506);
-    
-    // Visual Aura: Violet
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007737);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760457);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760507);
-    
-    // Visual Aura: Pink
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007738);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760458);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760508);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Visual Emission: Fire
+        if (EventFlag(25007720)) {
+            SetSpEffect(X0_4, 160760400);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007721)) {
+            SetSpEffect(X0_4, 160760401);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007722)) {
+            SetSpEffect(X0_4, 160760402);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007723)) {
+            SetSpEffect(X0_4, 160760403);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007724)) {
+            SetSpEffect(X0_4, 160760404);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007725)) {
+            SetSpEffect(X0_4, 160760405);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007726)) {
+            SetSpEffect(X0_4, 160760406);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007727)) {
+            SetSpEffect(X0_4, 160760407);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007728)) {
+            SetSpEffect(X0_4, 160760408);
+        }
+
+        // Visual Aura: Red
+        if (EventFlag(25007730)) {
+            if (!EventFlag(25007729)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760450);
+            }
+            if (EventFlag(25007729)) { // Toggle ON
+                SetSpEffect(X0_4, 160760500);
+            }
+        }
+
+        // Visual Aura: Orange
+        if (EventFlag(25007731)) {
+            if (!EventFlag(25007729)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760451);
+            }
+            if (EventFlag(25007729)) { // Toggle ON
+                SetSpEffect(X0_4, 160760501);
+            }
+        }
+
+        // Visual Aura: Yellow
+        if (EventFlag(25007732)) {
+            if (!EventFlag(25007729)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760452);
+            }
+            if (EventFlag(25007729)) { // Toggle ON
+                SetSpEffect(X0_4, 160760502);
+            }
+        }
+
+        // Visual Aura: Green
+        if (EventFlag(25007733)) {
+            if (!EventFlag(25007729)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760453);
+            }
+            if (EventFlag(25007729)) { // Toggle ON
+                SetSpEffect(X0_4, 160760503);
+            }
+        }
+
+        // Visual Aura: Cyan
+        if (EventFlag(25007734)) {
+            if (!EventFlag(25007729)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760454);
+            }
+            if (EventFlag(25007729)) { // Toggle ON
+                SetSpEffect(X0_4, 160760504);
+            }
+        }
+
+        // Visual Aura: Blue
+        if (EventFlag(25007735)) {
+            if (!EventFlag(25007729)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760455);
+            }
+            if (EventFlag(25007729)) { // Toggle ON
+                SetSpEffect(X0_4, 160760505);
+            }
+        }
+
+        // Visual Aura: Indigo
+        if (EventFlag(25007736)) {
+            if (!EventFlag(25007729)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760456);
+            }
+            if (EventFlag(25007729)) { // Toggle ON
+                SetSpEffect(X0_4, 160760506);
+            }
+        }
+
+        // Visual Aura: Violet
+        if (EventFlag(25007737)) {
+            if (!EventFlag(25007729)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760457);
+            }
+            if (EventFlag(25007729)) { // Toggle ON
+                SetSpEffect(X0_4, 160760507);
+            }
+        }
+
+        // Visual Aura: Pink
+        if (EventFlag(25007738)) {
+            if (!EventFlag(25007729)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760458);
+            }
+            if (EventFlag(25007729)) { // Toggle ON
+                SetSpEffect(X0_4, 160760508);
+            }
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Hollow - Rainbow Visual Aura
 //----------------------------------------------
-Event(20080022, Restart, function(X0_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007739);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760470);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760520);
+$Event(20080022, Restart, function(X0_4) {
+    WaitFor(EventFlag(25007739));
+
+    if (!EventFlag(25007729)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760470);
+    }
+    if (EventFlag(25007729)) { // Toggle ON
+        SetSpEffect(X0_4, 160760520);
+    }
 
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760471);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760521);
-    
+
+    if (!EventFlag(25007729)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760471);
+    }
+    if (EventFlag(25007729)) { // Toggle ON
+        SetSpEffect(X0_4, 160760521);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760472);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760522);
-    
+
+    if (!EventFlag(25007729)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760472);
+    }
+    if (EventFlag(25007729)) { // Toggle ON
+        SetSpEffect(X0_4, 160760522);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760473);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760523);
-    
+
+    if (!EventFlag(25007729)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760473);
+    }
+    if (EventFlag(25007729)) { // Toggle ON
+        SetSpEffect(X0_4, 160760523);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760474);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760524);
-    
+
+    if (!EventFlag(25007729)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760474);
+    }
+    if (EventFlag(25007729)) { // Toggle ON
+        SetSpEffect(X0_4, 160760524);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760475);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760525);
-    
+
+    if (!EventFlag(25007729)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760475);
+    }
+    if (EventFlag(25007729)) { // Toggle ON
+        SetSpEffect(X0_4, 160760525);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760476);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760526);
-    
+
+    if (!EventFlag(25007729)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760476);
+    }
+    if (EventFlag(25007729)) { // Toggle ON
+        SetSpEffect(X0_4, 160760526);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760477);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760527);
-    
+
+    if (!EventFlag(25007729)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760477);
+    }
+    if (EventFlag(25007729)) { // Toggle ON
+        SetSpEffect(X0_4, 160760527);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007729); // Toggle OFF
-    SetSpEffect(X0_4, 160760478);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007729); // Toggle ON
-    SetSpEffect(X0_4, 160760528);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    if (!EventFlag(25007729)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760478);
+    }
+    if (EventFlag(25007729)) { // Toggle ON
+        SetSpEffect(X0_4, 160760528);
+    }
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Hound
 //----------------------------------------------
-Event(20080030, Restart, function(X0_4) {
+$Event(20080030, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Mark of Attraction - Force Replan
-    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
-    RequestCharacterAIReplan(X0_4);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Mark of Attraction - Force Replan
+        if (CharacterHasSpEffect(10000, 160762151)) {
+            RequestCharacterAIReplan(X0_4);
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Hound - Visual Emission/Visual Arua
 //----------------------------------------------
-Event(20080031, Restart, function(X0_4) {
+$Event(20080031, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Visual Emission: Fire
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007740);
-    SetSpEffect(X0_4, 160760400);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007741);
-    SetSpEffect(X0_4, 160760401);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007742);
-    SetSpEffect(X0_4, 160760402);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007743);
-    SetSpEffect(X0_4, 160760403);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007744);
-    SetSpEffect(X0_4, 160760404);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007745);
-    SetSpEffect(X0_4, 160760405);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007746);
-    SetSpEffect(X0_4, 160760406);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007747);
-    SetSpEffect(X0_4, 160760407);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007748);
-    SetSpEffect(X0_4, 160760408);
-    
-    // Visual Aura: Red
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007750);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760450);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760500);
-    
-    // Visual Aura: Orange
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007751);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760451);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760501);
-    
-    // Visual Aura: Yellow
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007752);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760452);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760502);
-    
-    // Visual Aura: Green
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007753);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760453);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760503);
-    
-    // Visual Aura: Cyan
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007754);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760454);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760504);
-    
-    // Visual Aura: Blue
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007755);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760455);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760505);
-    
-    // Visual Aura: Indigo
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007756);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760456);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760506);
-    
-    // Visual Aura: Violet
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007757);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760457);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760507);
-    
-    // Visual Aura: Pink
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007758);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760458);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760508);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Visual Emission: Fire
+        if (EventFlag(25007740)) {
+            SetSpEffect(X0_4, 160760400);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007741)) {
+            SetSpEffect(X0_4, 160760401);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007742)) {
+            SetSpEffect(X0_4, 160760402);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007743)) {
+            SetSpEffect(X0_4, 160760403);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007744)) {
+            SetSpEffect(X0_4, 160760404);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007745)) {
+            SetSpEffect(X0_4, 160760405);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007746)) {
+            SetSpEffect(X0_4, 160760406);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007747)) {
+            SetSpEffect(X0_4, 160760407);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007748)) {
+            SetSpEffect(X0_4, 160760408);
+        }
+
+        // Visual Aura: Red
+        if (EventFlag(25007750)) {
+            if (!EventFlag(25007749)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760450);
+            }
+            if (EventFlag(25007749)) { // Toggle ON
+                SetSpEffect(X0_4, 160760500);
+            }
+        }
+
+        // Visual Aura: Orange
+        if (EventFlag(25007751)) {
+            if (!EventFlag(25007749)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760451);
+            }
+            if (EventFlag(25007749)) { // Toggle ON
+                SetSpEffect(X0_4, 160760501);
+            }
+        }
+
+        // Visual Aura: Yellow
+        if (EventFlag(25007752)) {
+            if (!EventFlag(25007749)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760452);
+            }
+            if (EventFlag(25007749)) { // Toggle ON
+                SetSpEffect(X0_4, 160760502);
+            }
+        }
+
+        // Visual Aura: Green
+        if (EventFlag(25007753)) {
+            if (!EventFlag(25007749)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760453);
+            }
+            if (EventFlag(25007749)) { // Toggle ON
+                SetSpEffect(X0_4, 160760503);
+            }
+        }
+
+        // Visual Aura: Cyan
+        if (EventFlag(25007754)) {
+            if (!EventFlag(25007749)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760454);
+            }
+            if (EventFlag(25007749)) { // Toggle ON
+                SetSpEffect(X0_4, 160760504);
+            }
+        }
+
+        // Visual Aura: Blue
+        if (EventFlag(25007755)) {
+            if (!EventFlag(25007749)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760455);
+            }
+            if (EventFlag(25007749)) { // Toggle ON
+                SetSpEffect(X0_4, 160760505);
+            }
+        }
+
+        // Visual Aura: Indigo
+        if (EventFlag(25007756)) {
+            if (!EventFlag(25007749)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760456);
+            }
+            if (EventFlag(25007749)) { // Toggle ON
+                SetSpEffect(X0_4, 160760506);
+            }
+        }
+
+        // Visual Aura: Violet
+        if (EventFlag(25007757)) {
+            if (!EventFlag(25007749)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760457);
+            }
+            if (EventFlag(25007749)) { // Toggle ON
+                SetSpEffect(X0_4, 160760507);
+            }
+        }
+
+        // Visual Aura: Pink
+        if (EventFlag(25007758)) {
+            if (!EventFlag(25007749)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760458);
+            }
+            if (EventFlag(25007749)) { // Toggle ON
+                SetSpEffect(X0_4, 160760508);
+            }
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Hound - Rainbow Visual Aura
 //----------------------------------------------
-Event(20080032, Restart, function(X0_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007759);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760470);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760520);
+$Event(20080032, Restart, function(X0_4) {
+    WaitFor(EventFlag(25007759));
+
+    if (!EventFlag(25007749)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760470);
+    }
+    if (EventFlag(25007749)) { // Toggle ON
+        SetSpEffect(X0_4, 160760520);
+    }
 
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760471);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760521);
-    
+
+    if (!EventFlag(25007749)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760471);
+    }
+    if (EventFlag(25007749)) { // Toggle ON
+        SetSpEffect(X0_4, 160760521);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760472);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760522);
-    
+
+    if (!EventFlag(25007749)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760472);
+    }
+    if (EventFlag(25007749)) { // Toggle ON
+        SetSpEffect(X0_4, 160760522);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760473);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760523);
-    
+
+    if (!EventFlag(25007749)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760473);
+    }
+    if (EventFlag(25007749)) { // Toggle ON
+        SetSpEffect(X0_4, 160760523);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760474);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760524);
-    
+
+    if (!EventFlag(25007749)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760474);
+    }
+    if (EventFlag(25007749)) { // Toggle ON
+        SetSpEffect(X0_4, 160760524);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760475);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760525);
-    
+
+    if (!EventFlag(25007749)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760475);
+    }
+    if (EventFlag(25007749)) { // Toggle ON
+        SetSpEffect(X0_4, 160760525);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760476);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760526);
-    
+
+    if (!EventFlag(25007749)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760476);
+    }
+    if (EventFlag(25007749)) { // Toggle ON
+        SetSpEffect(X0_4, 160760526);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760477);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760527);
-    
+
+    if (!EventFlag(25007749)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760477);
+    }
+    if (EventFlag(25007749)) { // Toggle ON
+        SetSpEffect(X0_4, 160760527);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007749); // Toggle OFF
-    SetSpEffect(X0_4, 160760478);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007749); // Toggle ON
-    SetSpEffect(X0_4, 160760528);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    if (!EventFlag(25007749)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760478);
+    }
+    if (EventFlag(25007749)) { // Toggle ON
+        SetSpEffect(X0_4, 160760528);
+    }
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Warrior
 //----------------------------------------------
-Event(20080040, Restart, function(X0_4) {
+$Event(20080040, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Mark of Attraction - Force Replan
-    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
-    RequestCharacterAIReplan(X0_4);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Mark of Attraction - Force Replan
+        if (CharacterHasSpEffect(10000, 160762151)) {
+            RequestCharacterAIReplan(X0_4);
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Warrior - Visual Emission/Visual Arua
 //----------------------------------------------
-Event(20080041, Restart, function(X0_4) {
+$Event(20080041, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Visual Emission: Fire
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007760);
-    SetSpEffect(X0_4, 160760400);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007761);
-    SetSpEffect(X0_4, 160760401);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007762);
-    SetSpEffect(X0_4, 160760402);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007763);
-    SetSpEffect(X0_4, 160760403);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007764);
-    SetSpEffect(X0_4, 160760404);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007765);
-    SetSpEffect(X0_4, 160760405);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007766);
-    SetSpEffect(X0_4, 160760406);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007767);
-    SetSpEffect(X0_4, 160760407);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007768);
-    SetSpEffect(X0_4, 160760408);
-    
-    // Visual Aura: Red
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007770);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760450);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760500);
-    
-    // Visual Aura: Orange
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007771);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760451);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760501);
-    
-    // Visual Aura: Yellow
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007772);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760452);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760502);
-    
-    // Visual Aura: Green
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007773);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760453);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760503);
-    
-    // Visual Aura: Cyan
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007774);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760454);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760504);
-    
-    // Visual Aura: Blue
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007775);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760455);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760505);
-    
-    // Visual Aura: Indigo
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007776);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760456);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760506);
-    
-    // Visual Aura: Violet
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007777);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760457);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760507);
-    
-    // Visual Aura: Pink
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007778);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760458);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760508);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Visual Emission: Fire
+        if (EventFlag(25007760)) {
+            SetSpEffect(X0_4, 160760400);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007761)) {
+            SetSpEffect(X0_4, 160760401);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007762)) {
+            SetSpEffect(X0_4, 160760402);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007763)) {
+            SetSpEffect(X0_4, 160760403);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007764)) {
+            SetSpEffect(X0_4, 160760404);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007765)) {
+            SetSpEffect(X0_4, 160760405);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007766)) {
+            SetSpEffect(X0_4, 160760406);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007767)) {
+            SetSpEffect(X0_4, 160760407);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007768)) {
+            SetSpEffect(X0_4, 160760408);
+        }
+
+        // Visual Aura: Red
+        if (EventFlag(25007770)) {
+            if (!EventFlag(25007769)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760450);
+            }
+            if (EventFlag(25007769)) { // Toggle ON
+                SetSpEffect(X0_4, 160760500);
+            }
+        }
+
+        // Visual Aura: Orange
+        if (EventFlag(25007771)) {
+            if (!EventFlag(25007769)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760451);
+            }
+            if (EventFlag(25007769)) { // Toggle ON
+                SetSpEffect(X0_4, 160760501);
+            }
+        }
+
+        // Visual Aura: Yellow
+        if (EventFlag(25007772)) {
+            if (!EventFlag(25007769)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760452);
+            }
+            if (EventFlag(25007769)) { // Toggle ON
+                SetSpEffect(X0_4, 160760502);
+            }
+        }
+
+        // Visual Aura: Green
+        if (EventFlag(25007773)) {
+            if (!EventFlag(25007769)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760453);
+            }
+            if (EventFlag(25007769)) { // Toggle ON
+                SetSpEffect(X0_4, 160760503);
+            }
+        }
+
+        // Visual Aura: Cyan
+        if (EventFlag(25007774)) {
+            if (!EventFlag(25007769)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760454);
+            }
+            if (EventFlag(25007769)) { // Toggle ON
+                SetSpEffect(X0_4, 160760504);
+            }
+        }
+
+        // Visual Aura: Blue
+        if (EventFlag(25007775)) {
+            if (!EventFlag(25007769)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760455);
+            }
+            if (EventFlag(25007769)) { // Toggle ON
+                SetSpEffect(X0_4, 160760505);
+            }
+        }
+
+        // Visual Aura: Indigo
+        if (EventFlag(25007776)) {
+            if (!EventFlag(25007769)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760456);
+            }
+            if (EventFlag(25007769)) { // Toggle ON
+                SetSpEffect(X0_4, 160760506);
+            }
+        }
+
+        // Visual Aura: Violet
+        if (EventFlag(25007777)) {
+            if (!EventFlag(25007769)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760457);
+            }
+            if (EventFlag(25007769)) { // Toggle ON
+                SetSpEffect(X0_4, 160760507);
+            }
+        }
+
+        // Visual Aura: Pink
+        if (EventFlag(25007778)) {
+            if (!EventFlag(25007769)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760458);
+            }
+            if (EventFlag(25007769)) { // Toggle ON
+                SetSpEffect(X0_4, 160760508);
+            }
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Warrior - Rainbow Visual Aura
 //----------------------------------------------
-Event(20080042, Restart, function(X0_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007779);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760470);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760520);
+$Event(20080042, Restart, function(X0_4) {
+    WaitFor(EventFlag(25007779));
+
+    if (!EventFlag(25007769)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760470);
+    }
+    if (EventFlag(25007769)) { // Toggle ON
+        SetSpEffect(X0_4, 160760520);
+    }
 
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760471);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760521);
-    
+
+    if (!EventFlag(25007769)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760471);
+    }
+    if (EventFlag(25007769)) { // Toggle ON
+        SetSpEffect(X0_4, 160760521);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760472);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760522);
-    
+
+    if (!EventFlag(25007769)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760472);
+    }
+    if (EventFlag(25007769)) { // Toggle ON
+        SetSpEffect(X0_4, 160760522);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760473);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760523);
-    
+
+    if (!EventFlag(25007769)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760473);
+    }
+    if (EventFlag(25007769)) { // Toggle ON
+        SetSpEffect(X0_4, 160760523);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760474);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760524);
-    
+
+    if (!EventFlag(25007769)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760474);
+    }
+    if (EventFlag(25007769)) { // Toggle ON
+        SetSpEffect(X0_4, 160760524);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760475);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760525);
-    
+
+    if (!EventFlag(25007769)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760475);
+    }
+    if (EventFlag(25007769)) { // Toggle ON
+        SetSpEffect(X0_4, 160760525);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760476);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760526);
-    
+
+    if (!EventFlag(25007769)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760476);
+    }
+    if (EventFlag(25007769)) { // Toggle ON
+        SetSpEffect(X0_4, 160760526);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760477);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760527);
-    
+
+    if (!EventFlag(25007769)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760477);
+    }
+    if (EventFlag(25007769)) { // Toggle ON
+        SetSpEffect(X0_4, 160760527);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007769); // Toggle OFF
-    SetSpEffect(X0_4, 160760478);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007769); // Toggle ON
-    SetSpEffect(X0_4, 160760528);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    if (!EventFlag(25007769)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760478);
+    }
+    if (EventFlag(25007769)) { // Toggle ON
+        SetSpEffect(X0_4, 160760528);
+    }
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Sentinel
 //----------------------------------------------
-Event(20080050, Restart, function(X0_4) {
+$Event(20080050, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Mark of Attraction - Force Replan
-    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
-    RequestCharacterAIReplan(X0_4);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Mark of Attraction - Force Replan
+        if (CharacterHasSpEffect(10000, 160762151)) {
+            RequestCharacterAIReplan(X0_4);
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Sentinel - Visual Emission/Visual Arua
 //----------------------------------------------
-Event(20080051, Restart, function(X0_4) {
+$Event(20080051, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Visual Emission: Fire
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007780);
-    SetSpEffect(X0_4, 160760400);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007781);
-    SetSpEffect(X0_4, 160760401);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007782);
-    SetSpEffect(X0_4, 160760402);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007783);
-    SetSpEffect(X0_4, 160760403);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007784);
-    SetSpEffect(X0_4, 160760404);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007785);
-    SetSpEffect(X0_4, 160760405);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007786);
-    SetSpEffect(X0_4, 160760406);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007787);
-    SetSpEffect(X0_4, 160760407);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007788);
-    SetSpEffect(X0_4, 160760408);
-    
-    // Visual Aura: Red
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007790);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760450);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760500);
-    
-    // Visual Aura: Orange
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007791);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760451);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760501);
-    
-    // Visual Aura: Yellow
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007792);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760452);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760502);
-    
-    // Visual Aura: Green
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007793);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760453);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760503);
-    
-    // Visual Aura: Cyan
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007794);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760454);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760504);
-    
-    // Visual Aura: Blue
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007795);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760455);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760505);
-    
-    // Visual Aura: Indigo
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007796);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760456);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760506);
-    
-    // Visual Aura: Violet
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007797);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760457);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760507);
-    
-    // Visual Aura: Pink
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007798);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760458);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760508);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Visual Emission: Fire
+        if (EventFlag(25007780)) {
+            SetSpEffect(X0_4, 160760400);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007781)) {
+            SetSpEffect(X0_4, 160760401);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007782)) {
+            SetSpEffect(X0_4, 160760402);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007783)) {
+            SetSpEffect(X0_4, 160760403);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007784)) {
+            SetSpEffect(X0_4, 160760404);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007785)) {
+            SetSpEffect(X0_4, 160760405);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007786)) {
+            SetSpEffect(X0_4, 160760406);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007787)) {
+            SetSpEffect(X0_4, 160760407);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007788)) {
+            SetSpEffect(X0_4, 160760408);
+        }
+
+        // Visual Aura: Red
+        if (EventFlag(25007790)) {
+            if (!EventFlag(25007789)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760450);
+            }
+            if (EventFlag(25007789)) { // Toggle ON
+                SetSpEffect(X0_4, 160760500);
+            }
+        }
+
+        // Visual Aura: Orange
+        if (EventFlag(25007791)) {
+            if (!EventFlag(25007789)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760451);
+            }
+            if (EventFlag(25007789)) { // Toggle ON
+                SetSpEffect(X0_4, 160760501);
+            }
+        }
+
+        // Visual Aura: Yellow
+        if (EventFlag(25007792)) {
+            if (!EventFlag(25007789)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760452);
+            }
+            if (EventFlag(25007789)) { // Toggle ON
+                SetSpEffect(X0_4, 160760502);
+            }
+        }
+
+        // Visual Aura: Green
+        if (EventFlag(25007793)) {
+            if (!EventFlag(25007789)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760453);
+            }
+            if (EventFlag(25007789)) { // Toggle ON
+                SetSpEffect(X0_4, 160760503);
+            }
+        }
+
+        // Visual Aura: Cyan
+        if (EventFlag(25007794)) {
+            if (!EventFlag(25007789)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760454);
+            }
+            if (EventFlag(25007789)) { // Toggle ON
+                SetSpEffect(X0_4, 160760504);
+            }
+        }
+
+        // Visual Aura: Blue
+        if (EventFlag(25007795)) {
+            if (!EventFlag(25007789)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760455);
+            }
+            if (EventFlag(25007789)) { // Toggle ON
+                SetSpEffect(X0_4, 160760505);
+            }
+        }
+
+        // Visual Aura: Indigo
+        if (EventFlag(25007796)) {
+            if (!EventFlag(25007789)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760456);
+            }
+            if (EventFlag(25007789)) { // Toggle ON
+                SetSpEffect(X0_4, 160760506);
+            }
+        }
+
+        // Visual Aura: Violet
+        if (EventFlag(25007797)) {
+            if (!EventFlag(25007789)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760457);
+            }
+            if (EventFlag(25007789)) { // Toggle ON
+                SetSpEffect(X0_4, 160760507);
+            }
+        }
+
+        // Visual Aura: Pink
+        if (EventFlag(25007798)) {
+            if (!EventFlag(25007789)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760458);
+            }
+            if (EventFlag(25007789)) { // Toggle ON
+                SetSpEffect(X0_4, 160760508);
+            }
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Sentinel - Rainbow Visual Aura
 //----------------------------------------------
-Event(20080052, Restart, function(X0_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007799);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760470);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760520);
+$Event(20080052, Restart, function(X0_4) {
+    WaitFor(EventFlag(25007799));
+
+    if (!EventFlag(25007789)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760470);
+    }
+    if (EventFlag(25007789)) { // Toggle ON
+        SetSpEffect(X0_4, 160760520);
+    }
 
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760471);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760521);
-    
+
+    if (!EventFlag(25007789)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760471);
+    }
+    if (EventFlag(25007789)) { // Toggle ON
+        SetSpEffect(X0_4, 160760521);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760472);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760522);
-    
+
+    if (!EventFlag(25007789)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760472);
+    }
+    if (EventFlag(25007789)) { // Toggle ON
+        SetSpEffect(X0_4, 160760522);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760473);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760523);
-    
+
+    if (!EventFlag(25007789)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760473);
+    }
+    if (EventFlag(25007789)) { // Toggle ON
+        SetSpEffect(X0_4, 160760523);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760474);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760524);
-    
+
+    if (!EventFlag(25007789)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760474);
+    }
+    if (EventFlag(25007789)) { // Toggle ON
+        SetSpEffect(X0_4, 160760524);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760475);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760525);
-    
+
+    if (!EventFlag(25007789)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760475);
+    }
+    if (EventFlag(25007789)) { // Toggle ON
+        SetSpEffect(X0_4, 160760525);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760476);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760526);
-    
+
+    if (!EventFlag(25007789)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760476);
+    }
+    if (EventFlag(25007789)) { // Toggle ON
+        SetSpEffect(X0_4, 160760526);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760477);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760527);
-    
+
+    if (!EventFlag(25007789)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760477);
+    }
+    if (EventFlag(25007789)) { // Toggle ON
+        SetSpEffect(X0_4, 160760527);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007789); // Toggle OFF
-    SetSpEffect(X0_4, 160760478);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007789); // Toggle ON
-    SetSpEffect(X0_4, 160760528);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    if (!EventFlag(25007789)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760478);
+    }
+    if (EventFlag(25007789)) { // Toggle ON
+        SetSpEffect(X0_4, 160760528);
+    }
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Lycanthrope
 //----------------------------------------------
-Event(20080060, Restart, function(X0_4) {
+$Event(20080060, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Mark of Attraction - Force Replan
-    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
-    RequestCharacterAIReplan(X0_4);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Mark of Attraction - Force Replan
+        if (CharacterHasSpEffect(10000, 160762151)) {
+            RequestCharacterAIReplan(X0_4);
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Lycanthrope - Visual Emission/Visual Arua
 //----------------------------------------------
-Event(20080061, Restart, function(X0_4) {
+$Event(20080061, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Visual Emission: Fire
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007800);
-    SetSpEffect(X0_4, 160760400);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007801);
-    SetSpEffect(X0_4, 160760401);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007802);
-    SetSpEffect(X0_4, 160760402);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007803);
-    SetSpEffect(X0_4, 160760403);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007804);
-    SetSpEffect(X0_4, 160760404);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007805);
-    SetSpEffect(X0_4, 160760405);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007806);
-    SetSpEffect(X0_4, 160760406);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007807);
-    SetSpEffect(X0_4, 160760407);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007808);
-    SetSpEffect(X0_4, 160760408);
-    
-    // Visual Aura: Red
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007810);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760450);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760500);
-    
-    // Visual Aura: Orange
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007811);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760451);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760501);
-    
-    // Visual Aura: Yellow
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007812);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760452);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760502);
-    
-    // Visual Aura: Green
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007813);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760453);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760503);
-    
-    // Visual Aura: Cyan
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007814);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760454);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760504);
-    
-    // Visual Aura: Blue
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007815);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760455);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760505);
-    
-    // Visual Aura: Indigo
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007816);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760456);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760506);
-    
-    // Visual Aura: Violet
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007817);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760457);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760507);
-    
-    // Visual Aura: Pink
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007818);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760458);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760508);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Visual Emission: Fire
+        if (EventFlag(25007800)) {
+            SetSpEffect(X0_4, 160760400);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007801)) {
+            SetSpEffect(X0_4, 160760401);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007802)) {
+            SetSpEffect(X0_4, 160760402);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007803)) {
+            SetSpEffect(X0_4, 160760403);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007804)) {
+            SetSpEffect(X0_4, 160760404);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007805)) {
+            SetSpEffect(X0_4, 160760405);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007806)) {
+            SetSpEffect(X0_4, 160760406);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007807)) {
+            SetSpEffect(X0_4, 160760407);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007808)) {
+            SetSpEffect(X0_4, 160760408);
+        }
+
+        // Visual Aura: Red
+        if (EventFlag(25007810)) {
+            if (!EventFlag(25007809)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760450);
+            }
+            if (EventFlag(25007809)) { // Toggle ON
+                SetSpEffect(X0_4, 160760500);
+            }
+        }
+
+        // Visual Aura: Orange
+        if (EventFlag(25007811)) {
+            if (!EventFlag(25007809)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760451);
+            }
+            if (EventFlag(25007809)) { // Toggle ON
+                SetSpEffect(X0_4, 160760501);
+            }
+        }
+
+        // Visual Aura: Yellow
+        if (EventFlag(25007812)) {
+            if (!EventFlag(25007809)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760452);
+            }
+            if (EventFlag(25007809)) { // Toggle ON
+                SetSpEffect(X0_4, 160760502);
+            }
+        }
+
+        // Visual Aura: Green
+        if (EventFlag(25007813)) {
+            if (!EventFlag(25007809)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760453);
+            }
+            if (EventFlag(25007809)) { // Toggle ON
+                SetSpEffect(X0_4, 160760503);
+            }
+        }
+
+        // Visual Aura: Cyan
+        if (EventFlag(25007814)) {
+            if (!EventFlag(25007809)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760454);
+            }
+            if (EventFlag(25007809)) { // Toggle ON
+                SetSpEffect(X0_4, 160760504);
+            }
+        }
+
+        // Visual Aura: Blue
+        if (EventFlag(25007815)) {
+            if (!EventFlag(25007809)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760455);
+            }
+            if (EventFlag(25007809)) { // Toggle ON
+                SetSpEffect(X0_4, 160760505);
+            }
+        }
+
+        // Visual Aura: Indigo
+        if (EventFlag(25007816)) {
+            if (!EventFlag(25007809)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760456);
+            }
+            if (EventFlag(25007809)) { // Toggle ON
+                SetSpEffect(X0_4, 160760506);
+            }
+        }
+
+        // Visual Aura: Violet
+        if (EventFlag(25007817)) {
+            if (!EventFlag(25007809)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760457);
+            }
+            if (EventFlag(25007809)) { // Toggle ON
+                SetSpEffect(X0_4, 160760507);
+            }
+        }
+
+        // Visual Aura: Pink
+        if (EventFlag(25007818)) {
+            if (!EventFlag(25007809)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760458);
+            }
+            if (EventFlag(25007809)) { // Toggle ON
+                SetSpEffect(X0_4, 160760508);
+            }
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Lycanthrope - Rainbow Visual Aura
 //----------------------------------------------
-Event(20080062, Restart, function(X0_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007819);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760470);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760520);
+$Event(20080062, Restart, function(X0_4) {
+    WaitFor(EventFlag(25007819));
+
+    if (!EventFlag(25007809)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760470);
+    }
+    if (EventFlag(25007809)) { // Toggle ON
+        SetSpEffect(X0_4, 160760520);
+    }
 
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760471);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760521);
-    
+
+    if (!EventFlag(25007809)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760471);
+    }
+    if (EventFlag(25007809)) { // Toggle ON
+        SetSpEffect(X0_4, 160760521);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760472);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760522);
-    
+
+    if (!EventFlag(25007809)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760472);
+    }
+    if (EventFlag(25007809)) { // Toggle ON
+        SetSpEffect(X0_4, 160760522);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760473);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760523);
-    
+
+    if (!EventFlag(25007809)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760473);
+    }
+    if (EventFlag(25007809)) { // Toggle ON
+        SetSpEffect(X0_4, 160760523);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760474);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760524);
-    
+
+    if (!EventFlag(25007809)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760474);
+    }
+    if (EventFlag(25007809)) { // Toggle ON
+        SetSpEffect(X0_4, 160760524);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760475);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760525);
-    
+
+    if (!EventFlag(25007809)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760475);
+    }
+    if (EventFlag(25007809)) { // Toggle ON
+        SetSpEffect(X0_4, 160760525);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760476);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760526);
-    
+
+    if (!EventFlag(25007809)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760476);
+    }
+    if (EventFlag(25007809)) { // Toggle ON
+        SetSpEffect(X0_4, 160760526);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760477);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760527);
-    
+
+    if (!EventFlag(25007809)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760477);
+    }
+    if (EventFlag(25007809)) { // Toggle ON
+        SetSpEffect(X0_4, 160760527);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007809); // Toggle OFF
-    SetSpEffect(X0_4, 160760478);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007809); // Toggle ON
-    SetSpEffect(X0_4, 160760528);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    if (!EventFlag(25007809)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760478);
+    }
+    if (EventFlag(25007809)) { // Toggle ON
+        SetSpEffect(X0_4, 160760528);
+    }
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Knight
 //----------------------------------------------
-Event(20080070, Restart, function(X0_4) {
+$Event(20080070, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Mark of Attraction - Force Replan
-    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
-    RequestCharacterAIReplan(X0_4);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Mark of Attraction - Force Replan
+        if (CharacterHasSpEffect(10000, 160762151)) {
+            RequestCharacterAIReplan(X0_4);
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Knight - Visual Emission/Visual Arua
 //----------------------------------------------
-Event(20080071, Restart, function(X0_4) {
+$Event(20080071, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Visual Emission: Fire
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007820);
-    SetSpEffect(X0_4, 160760400);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007821);
-    SetSpEffect(X0_4, 160760401);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007822);
-    SetSpEffect(X0_4, 160760402);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007823);
-    SetSpEffect(X0_4, 160760403);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007824);
-    SetSpEffect(X0_4, 160760404);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007825);
-    SetSpEffect(X0_4, 160760405);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007826);
-    SetSpEffect(X0_4, 160760406);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007827);
-    SetSpEffect(X0_4, 160760407);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007828);
-    SetSpEffect(X0_4, 160760408);
-    
-    // Visual Aura: Red
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007830);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760450);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760500);
-    
-    // Visual Aura: Orange
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007831);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760451);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760501);
-    
-    // Visual Aura: Yellow
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007832);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760452);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760502);
-    
-    // Visual Aura: Green
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007833);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760453);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760503);
-    
-    // Visual Aura: Cyan
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007834);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760454);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760504);
-    
-    // Visual Aura: Blue
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007835);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760455);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760505);
-    
-    // Visual Aura: Indigo
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007836);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760456);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760506);
-    
-    // Visual Aura: Violet
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007837);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760457);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760507);
-    
-    // Visual Aura: Pink
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007838);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760458);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760508);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Visual Emission: Fire
+        if (EventFlag(25007820)) {
+            SetSpEffect(X0_4, 160760400);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007821)) {
+            SetSpEffect(X0_4, 160760401);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007822)) {
+            SetSpEffect(X0_4, 160760402);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007823)) {
+            SetSpEffect(X0_4, 160760403);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007824)) {
+            SetSpEffect(X0_4, 160760404);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007825)) {
+            SetSpEffect(X0_4, 160760405);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007826)) {
+            SetSpEffect(X0_4, 160760406);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007827)) {
+            SetSpEffect(X0_4, 160760407);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007828)) {
+            SetSpEffect(X0_4, 160760408);
+        }
+
+        // Visual Aura: Red
+        if (EventFlag(25007830)) {
+            if (!EventFlag(25007829)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760450);
+            }
+            if (EventFlag(25007829)) { // Toggle ON
+                SetSpEffect(X0_4, 160760500);
+            }
+        }
+
+        // Visual Aura: Orange
+        if (EventFlag(25007831)) {
+            if (!EventFlag(25007829)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760451);
+            }
+            if (EventFlag(25007829)) { // Toggle ON
+                SetSpEffect(X0_4, 160760501);
+            }
+        }
+
+        // Visual Aura: Yellow
+        if (EventFlag(25007832)) {
+            if (!EventFlag(25007829)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760452);
+            }
+            if (EventFlag(25007829)) { // Toggle ON
+                SetSpEffect(X0_4, 160760502);
+            }
+        }
+
+        // Visual Aura: Green
+        if (EventFlag(25007833)) {
+            if (!EventFlag(25007829)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760453);
+            }
+            if (EventFlag(25007829)) { // Toggle ON
+                SetSpEffect(X0_4, 160760503);
+            }
+        }
+
+        // Visual Aura: Cyan
+        if (EventFlag(25007834)) {
+            if (!EventFlag(25007829)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760454);
+            }
+            if (EventFlag(25007829)) { // Toggle ON
+                SetSpEffect(X0_4, 160760504);
+            }
+        }
+
+        // Visual Aura: Blue
+        if (EventFlag(25007835)) {
+            if (!EventFlag(25007829)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760455);
+            }
+            if (EventFlag(25007829)) { // Toggle ON
+                SetSpEffect(X0_4, 160760505);
+            }
+        }
+
+        // Visual Aura: Indigo
+        if (EventFlag(25007836)) {
+            if (!EventFlag(25007829)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760456);
+            }
+            if (EventFlag(25007829)) { // Toggle ON
+                SetSpEffect(X0_4, 160760506);
+            }
+        }
+
+        // Visual Aura: Violet
+        if (EventFlag(25007837)) {
+            if (!EventFlag(25007829)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760457);
+            }
+            if (EventFlag(25007829)) { // Toggle ON
+                SetSpEffect(X0_4, 160760507);
+            }
+        }
+
+        // Visual Aura: Pink
+        if (EventFlag(25007838)) {
+            if (!EventFlag(25007829)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760458);
+            }
+            if (EventFlag(25007829)) { // Toggle ON
+                SetSpEffect(X0_4, 160760508);
+            }
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Knight - Rainbow Visual Aura
 //----------------------------------------------
-Event(20080072, Restart, function(X0_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007839);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760470);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760520);
+$Event(20080072, Restart, function(X0_4) {
+    WaitFor(EventFlag(25007839));
+
+    if (!EventFlag(25007829)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760470);
+    }
+    if (EventFlag(25007829)) { // Toggle ON
+        SetSpEffect(X0_4, 160760520);
+    }
 
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760471);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760521);
-    
+
+    if (!EventFlag(25007829)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760471);
+    }
+    if (EventFlag(25007829)) { // Toggle ON
+        SetSpEffect(X0_4, 160760521);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760472);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760522);
-    
+
+    if (!EventFlag(25007829)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760472);
+    }
+    if (EventFlag(25007829)) { // Toggle ON
+        SetSpEffect(X0_4, 160760522);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760473);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760523);
-    
+
+    if (!EventFlag(25007829)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760473);
+    }
+    if (EventFlag(25007829)) { // Toggle ON
+        SetSpEffect(X0_4, 160760523);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760474);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760524);
-    
+
+    if (!EventFlag(25007829)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760474);
+    }
+    if (EventFlag(25007829)) { // Toggle ON
+        SetSpEffect(X0_4, 160760524);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760475);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760525);
-    
+
+    if (!EventFlag(25007829)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760475);
+    }
+    if (EventFlag(25007829)) { // Toggle ON
+        SetSpEffect(X0_4, 160760525);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760476);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760526);
-    
+
+    if (!EventFlag(25007829)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760476);
+    }
+    if (EventFlag(25007829)) { // Toggle ON
+        SetSpEffect(X0_4, 160760526);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760477);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760527);
-    
+
+    if (!EventFlag(25007829)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760477);
+    }
+    if (EventFlag(25007829)) { // Toggle ON
+        SetSpEffect(X0_4, 160760527);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007829); // Toggle OFF
-    SetSpEffect(X0_4, 160760478);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007829); // Toggle ON
-    SetSpEffect(X0_4, 160760528);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    if (!EventFlag(25007829)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760478);
+    }
+    if (EventFlag(25007829)) { // Toggle ON
+        SetSpEffect(X0_4, 160760528);
+    }
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Watcher
 //----------------------------------------------
-Event(20080080, Restart, function(X0_4) {
+$Event(20080080, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Mark of Attraction - Force Replan
-    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
-    RequestCharacterAIReplan(X0_4);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Mark of Attraction - Force Replan
+        if (CharacterHasSpEffect(10000, 160762151)) {
+            RequestCharacterAIReplan(X0_4);
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Watcher - Visual Emission/Visual Arua
 //----------------------------------------------
-Event(20080081, Restart, function(X0_4) {
+$Event(20080081, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Visual Emission: Fire
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007840);
-    SetSpEffect(X0_4, 160760400);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007841);
-    SetSpEffect(X0_4, 160760401);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007842);
-    SetSpEffect(X0_4, 160760402);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007843);
-    SetSpEffect(X0_4, 160760403);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007844);
-    SetSpEffect(X0_4, 160760404);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007845);
-    SetSpEffect(X0_4, 160760405);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007846);
-    SetSpEffect(X0_4, 160760406);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007847);
-    SetSpEffect(X0_4, 160760407);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007848);
-    SetSpEffect(X0_4, 160760408);
-    
-    // Visual Aura: Red
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007850);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760450);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760500);
-    
-    // Visual Aura: Orange
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007851);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760451);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760501);
-    
-    // Visual Aura: Yellow
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007852);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760452);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760502);
-    
-    // Visual Aura: Green
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007853);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760453);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760503);
-    
-    // Visual Aura: Cyan
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007854);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760454);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760504);
-    
-    // Visual Aura: Blue
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007855);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760455);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760505);
-    
-    // Visual Aura: Indigo
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007856);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760456);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760506);
-    
-    // Visual Aura: Violet
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007857);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760457);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760507);
-    
-    // Visual Aura: Pink
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007858);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760458);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760508);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Visual Emission: Fire
+        if (EventFlag(25007840)) {
+            SetSpEffect(X0_4, 160760400);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007841)) {
+            SetSpEffect(X0_4, 160760401);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007842)) {
+            SetSpEffect(X0_4, 160760402);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007843)) {
+            SetSpEffect(X0_4, 160760403);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007844)) {
+            SetSpEffect(X0_4, 160760404);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007845)) {
+            SetSpEffect(X0_4, 160760405);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007846)) {
+            SetSpEffect(X0_4, 160760406);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007847)) {
+            SetSpEffect(X0_4, 160760407);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007848)) {
+            SetSpEffect(X0_4, 160760408);
+        }
+
+        // Visual Aura: Red
+        if (EventFlag(25007850)) {
+            if (!EventFlag(25007849)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760450);
+            }
+            if (EventFlag(25007849)) { // Toggle ON
+                SetSpEffect(X0_4, 160760500);
+            }
+        }
+
+        // Visual Aura: Orange
+        if (EventFlag(25007851)) {
+            if (!EventFlag(25007849)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760451);
+            }
+            if (EventFlag(25007849)) { // Toggle ON
+                SetSpEffect(X0_4, 160760501);
+            }
+        }
+
+        // Visual Aura: Yellow
+        if (EventFlag(25007852)) {
+            if (!EventFlag(25007849)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760452);
+            }
+            if (EventFlag(25007849)) { // Toggle ON
+                SetSpEffect(X0_4, 160760502);
+            }
+        }
+
+        // Visual Aura: Green
+        if (EventFlag(25007853)) {
+            if (!EventFlag(25007849)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760453);
+            }
+            if (EventFlag(25007849)) { // Toggle ON
+                SetSpEffect(X0_4, 160760503);
+            }
+        }
+
+        // Visual Aura: Cyan
+        if (EventFlag(25007854)) {
+            if (!EventFlag(25007849)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760454);
+            }
+            if (EventFlag(25007849)) { // Toggle ON
+                SetSpEffect(X0_4, 160760504);
+            }
+        }
+
+        // Visual Aura: Blue
+        if (EventFlag(25007855)) {
+            if (!EventFlag(25007849)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760455);
+            }
+            if (EventFlag(25007849)) { // Toggle ON
+                SetSpEffect(X0_4, 160760505);
+            }
+        }
+
+        // Visual Aura: Indigo
+        if (EventFlag(25007856)) {
+            if (!EventFlag(25007849)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760456);
+            }
+            if (EventFlag(25007849)) { // Toggle ON
+                SetSpEffect(X0_4, 160760506);
+            }
+        }
+
+        // Visual Aura: Violet
+        if (EventFlag(25007857)) {
+            if (!EventFlag(25007849)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760457);
+            }
+            if (EventFlag(25007849)) { // Toggle ON
+                SetSpEffect(X0_4, 160760507);
+            }
+        }
+
+        // Visual Aura: Pink
+        if (EventFlag(25007858)) {
+            if (!EventFlag(25007849)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760458);
+            }
+            if (EventFlag(25007849)) { // Toggle ON
+                SetSpEffect(X0_4, 160760508);
+            }
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Watcher - Rainbow Visual Aura
 //----------------------------------------------
-Event(20080082, Restart, function(X0_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007859);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760470);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760520);
+$Event(20080082, Restart, function(X0_4) {
+    WaitFor(EventFlag(25007859));
+
+    if (!EventFlag(25007849)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760470);
+    }
+    if (EventFlag(25007849)) { // Toggle ON
+        SetSpEffect(X0_4, 160760520);
+    }
 
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760471);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760521);
-    
+
+    if (!EventFlag(25007849)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760471);
+    }
+    if (EventFlag(25007849)) { // Toggle ON
+        SetSpEffect(X0_4, 160760521);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760472);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760522);
-    
+
+    if (!EventFlag(25007849)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760472);
+    }
+    if (EventFlag(25007849)) { // Toggle ON
+        SetSpEffect(X0_4, 160760522);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760473);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760523);
-    
+
+    if (!EventFlag(25007849)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760473);
+    }
+    if (EventFlag(25007849)) { // Toggle ON
+        SetSpEffect(X0_4, 160760523);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760474);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760524);
-    
+
+    if (!EventFlag(25007849)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760474);
+    }
+    if (EventFlag(25007849)) { // Toggle ON
+        SetSpEffect(X0_4, 160760524);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760475);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760525);
-    
+
+    if (!EventFlag(25007849)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760475);
+    }
+    if (EventFlag(25007849)) { // Toggle ON
+        SetSpEffect(X0_4, 160760525);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760476);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760526);
-    
+
+    if (!EventFlag(25007849)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760476);
+    }
+    if (EventFlag(25007849)) { // Toggle ON
+        SetSpEffect(X0_4, 160760526);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760477);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760527);
-    
+
+    if (!EventFlag(25007849)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760477);
+    }
+    if (EventFlag(25007849)) { // Toggle ON
+        SetSpEffect(X0_4, 160760527);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007849); // Toggle OFF
-    SetSpEffect(X0_4, 160760478);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007849); // Toggle ON
-    SetSpEffect(X0_4, 160760528);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    if (!EventFlag(25007849)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760478);
+    }
+    if (EventFlag(25007849)) { // Toggle ON
+        SetSpEffect(X0_4, 160760528);
+    }
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Gargoyle
 //----------------------------------------------
-Event(20080090, Restart, function(X0_4) {
+$Event(20080090, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Mark of Attraction - Force Replan
-    SkipIfCharacterHasSpEffect(1, 10000, 160762151, false, ComparisonType.Equal, 1);
-    RequestCharacterAIReplan(X0_4);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Mark of Attraction - Force Replan
+        if (CharacterHasSpEffect(10000, 160762151)) {
+            RequestCharacterAIReplan(X0_4);
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Gargoyle - Visual Emission/Visual Arua
 //----------------------------------------------
-Event(20080091, Restart, function(X0_4) {
+$Event(20080091, Restart, function(X0_4) {
     // If Spell Summon isn't active, just jump to loop restart.
-    IfCharacterHasSpeffect(OR_01, X0_4, 160761600, true, ComparisonType.Equal, 1);
-    GotoIfConditionGroupStateUncompiled(Label.LABEL0, FAIL, OR_01);
-    
-    // Visual Emission: Fire
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007860);
-    SetSpEffect(X0_4, 160760400);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007861);
-    SetSpEffect(X0_4, 160760401);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007862);
-    SetSpEffect(X0_4, 160760402);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007863);
-    SetSpEffect(X0_4, 160760403);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007864);
-    SetSpEffect(X0_4, 160760404);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007865);
-    SetSpEffect(X0_4, 160760405);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007866);
-    SetSpEffect(X0_4, 160760406);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007867);
-    SetSpEffect(X0_4, 160760407);
-    
-    // Visual Emission: 
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007868);
-    SetSpEffect(X0_4, 160760408);
-    
-    // Visual Aura: Red
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007870);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760450);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760500);
-    
-    // Visual Aura: Orange
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007871);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760451);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760501);
-    
-    // Visual Aura: Yellow
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007872);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760452);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760502);
-    
-    // Visual Aura: Green
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007873);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760453);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760503);
-    
-    // Visual Aura: Cyan
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007874);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760454);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760504);
-    
-    // Visual Aura: Blue
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007875);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760455);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760505);
-    
-    // Visual Aura: Indigo
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007876);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760456);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760506);
-    
-    // Visual Aura: Violet
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007877);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760457);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760507);
-    
-    // Visual Aura: Pink
-    SkipIfEventFlag(4, OFF, TargetEventFlagType.EventFlag, 25007878);
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760458);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760508);
-    
-    Label0();
-    
-    EndUnconditionally(EventEndType.Restart);
+    if (CharacterHasSpEffect(X0_4, 160761600)) {
+
+        // Visual Emission: Fire
+        if (EventFlag(25007860)) {
+            SetSpEffect(X0_4, 160760400);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007861)) {
+            SetSpEffect(X0_4, 160760401);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007862)) {
+            SetSpEffect(X0_4, 160760402);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007863)) {
+            SetSpEffect(X0_4, 160760403);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007864)) {
+            SetSpEffect(X0_4, 160760404);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007865)) {
+            SetSpEffect(X0_4, 160760405);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007866)) {
+            SetSpEffect(X0_4, 160760406);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007867)) {
+            SetSpEffect(X0_4, 160760407);
+        }
+
+        // Visual Emission: 
+        if (EventFlag(25007868)) {
+            SetSpEffect(X0_4, 160760408);
+        }
+
+        // Visual Aura: Red
+        if (EventFlag(25007870)) {
+            if (!EventFlag(25007869)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760450);
+            }
+            if (EventFlag(25007869)) { // Toggle ON
+                SetSpEffect(X0_4, 160760500);
+            }
+        }
+
+        // Visual Aura: Orange
+        if (EventFlag(25007871)) {
+            if (!EventFlag(25007869)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760451);
+            }
+            if (EventFlag(25007869)) { // Toggle ON
+                SetSpEffect(X0_4, 160760501);
+            }
+        }
+
+        // Visual Aura: Yellow
+        if (EventFlag(25007872)) {
+            if (!EventFlag(25007869)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760452);
+            }
+            if (EventFlag(25007869)) { // Toggle ON
+                SetSpEffect(X0_4, 160760502);
+            }
+        }
+
+        // Visual Aura: Green
+        if (EventFlag(25007873)) {
+            if (!EventFlag(25007869)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760453);
+            }
+            if (EventFlag(25007869)) { // Toggle ON
+                SetSpEffect(X0_4, 160760503);
+            }
+        }
+
+        // Visual Aura: Cyan
+        if (EventFlag(25007874)) {
+            if (!EventFlag(25007869)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760454);
+            }
+            if (EventFlag(25007869)) { // Toggle ON
+                SetSpEffect(X0_4, 160760504);
+            }
+        }
+
+        // Visual Aura: Blue
+        if (EventFlag(25007875)) {
+            if (!EventFlag(25007869)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760455);
+            }
+            if (EventFlag(25007869)) { // Toggle ON
+                SetSpEffect(X0_4, 160760505);
+            }
+        }
+
+        // Visual Aura: Indigo
+        if (EventFlag(25007876)) {
+            if (!EventFlag(25007869)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760456);
+            }
+            if (EventFlag(25007869)) { // Toggle ON
+                SetSpEffect(X0_4, 160760506);
+            }
+        }
+
+        // Visual Aura: Violet
+        if (EventFlag(25007877)) {
+            if (!EventFlag(25007869)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760457);
+            }
+            if (EventFlag(25007869)) { // Toggle ON
+                SetSpEffect(X0_4, 160760507);
+            }
+        }
+
+        // Visual Aura: Pink
+        if (EventFlag(25007878)) {
+            if (!EventFlag(25007869)) { // Toggle OFF
+                SetSpEffect(X0_4, 160760458);
+            }
+            if (EventFlag(25007869)) { // Toggle ON
+                SetSpEffect(X0_4, 160760508);
+            }
+        }
+    }
+
+L0:
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Spell Summon - Gargoyle - Rainbow Visual Aura
 //----------------------------------------------
-Event(20080092, Restart, function(X0_4) {
-    IfEventFlag(MAIN, ON, TargetEventFlagType.EventFlag, 25007879);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760470);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760520);
+$Event(20080092, Restart, function(X0_4) {
+    WaitFor(EventFlag(25007879));
+
+    if (!EventFlag(25007869)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760470);
+    }
+    if (EventFlag(25007869)) { // Toggle ON
+        SetSpEffect(X0_4, 160760520);
+    }
 
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760471);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760521);
-    
+
+    if (!EventFlag(25007869)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760471);
+    }
+    if (EventFlag(25007869)) { // Toggle ON
+        SetSpEffect(X0_4, 160760521);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760472);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760522);
-    
+
+    if (!EventFlag(25007869)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760472);
+    }
+    if (EventFlag(25007869)) { // Toggle ON
+        SetSpEffect(X0_4, 160760522);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760473);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760523);
-    
+
+    if (!EventFlag(25007869)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760473);
+    }
+    if (EventFlag(25007869)) { // Toggle ON
+        SetSpEffect(X0_4, 160760523);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760474);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760524);
-    
+
+    if (!EventFlag(25007869)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760474);
+    }
+    if (EventFlag(25007869)) { // Toggle ON
+        SetSpEffect(X0_4, 160760524);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760475);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760525);
-    
+
+    if (!EventFlag(25007869)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760475);
+    }
+    if (EventFlag(25007869)) { // Toggle ON
+        SetSpEffect(X0_4, 160760525);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760476);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760526);
-    
+
+    if (!EventFlag(25007869)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760476);
+    }
+    if (EventFlag(25007869)) { // Toggle ON
+        SetSpEffect(X0_4, 160760526);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760477);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760527);
-    
+
+    if (!EventFlag(25007869)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760477);
+    }
+    if (EventFlag(25007869)) { // Toggle ON
+        SetSpEffect(X0_4, 160760527);
+    }
+
     WaitFixedTimeSeconds(0.6);
-    
-    SkipIfEventFlag(1, ON, TargetEventFlagType.EventFlag, 25007869); // Toggle OFF
-    SetSpEffect(X0_4, 160760478);
-    SkipIfEventFlag(1, OFF, TargetEventFlagType.EventFlag, 25007869); // Toggle ON
-    SetSpEffect(X0_4, 160760528);
-    
-    EndUnconditionally(EventEndType.Restart);
+
+    if (!EventFlag(25007869)) { // Toggle OFF
+        SetSpEffect(X0_4, 160760478);
+    }
+    if (EventFlag(25007869)) { // Toggle ON
+        SetSpEffect(X0_4, 160760528);
+    }
+
+    RestartEvent();
 });
 
 //----------------------------------------------
 // Interaction Point - Guaranteed Action
 // <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>
 //----------------------------------------------
-Event(20085000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+$Event(20085000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     // Skip FFX if -1 is arg
-    SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
-    SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
-    
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
-    
+    if (X8_4 != -1) {
+        SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
+    }
+
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
+
     SetSpEffect(10000, X12_4);
     DisplayEpitaphMessage(X16_4);
 });
@@ -9064,108 +9190,113 @@ Event(20085000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // Interaction Point - Random A/B
 // <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>, <debuff id>, <debuff msg>
 //----------------------------------------------
-Event(20085001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+$Event(20085001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
     // Skip FFX if -1 is arg
-    SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
-    SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
-    
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
-    
+    if (X8_4 != -1) {
+        SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
+    }
+
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
+
     BatchSetEventFlags(25009000, 25009009, OFF);
     RandomlySetEventFlagInRange(25009000, 25009009, ON);
-    
+
     // Good - 50%
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009000);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009001);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009002);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009003);
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009004);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_01);
-    SetSpEffect(10000, X12_4);
-    DisplayEpitaphMessage(X16_4);
-    
+    if (EventFlag(25009000)
+        || EventFlag(25009001)
+        || EventFlag(25009002)
+        || EventFlag(25009003)
+        || EventFlag(25009004)) {
+        SetSpEffect(10000, X12_4);
+        DisplayEpitaphMessage(X16_4);
+    }
+
     // Bad - 50%
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009005);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009006);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009007);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009008);
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009009);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_02);
-    SetSpEffect(10000, X20_4);
-    DisplayEpitaphMessage(X24_4);
+    if (EventFlag(25009005)
+        || EventFlag(25009006)
+        || EventFlag(25009007)
+        || EventFlag(25009008)
+        || EventFlag(25009009)) {
+        SetSpEffect(10000, X20_4);
+        DisplayEpitaphMessage(X24_4);
+    }
 });
     
 //----------------------------------------------
 // Interaction Point - Random Pool
 // <entity id>, <action id>, <sfx id>
 //----------------------------------------------
-Event(20085002, Restart, function(X0_4, X4_4, X8_4) {
+$Event(20085002, Restart, function(X0_4, X4_4, X8_4) {
     // Skip FFX if -1 is arg
-    SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
-    SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
-    
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
-    
+    if (X8_4 != -1) {
+        SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
+    }
+
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
+
     BatchSetEventFlags(25009000, 25009005, OFF);
     RandomlySetEventFlagInRange(25009000, 25009005, ON);
-    
+
     // Buff - HP
-    IfEventFlag(OR_01, ON, TargetEventFlagType.EventFlag, 25009000);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_01);
-    SetSpEffect(10000, 160751000);
-    DisplayEpitaphMessage(99070100);
-    
+    if (EventFlag(25009000)) {
+        SetSpEffect(10000, 160751000);
+        DisplayEpitaphMessage(99070100);
+    }
+
     // Buff - FP
-    IfEventFlag(OR_02, ON, TargetEventFlagType.EventFlag, 25009001);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_02);
-    SetSpEffect(10000, 160751001);
-    DisplayEpitaphMessage(99070101);
-    
+    if (EventFlag(25009001)) {
+        SetSpEffect(10000, 160751001);
+        DisplayEpitaphMessage(99070101);
+    }
+
     // Buff - Stamina
-    IfEventFlag(OR_03, ON, TargetEventFlagType.EventFlag, 25009002);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_03);
-    SetSpEffect(10000, 160751002);
-    DisplayEpitaphMessage(99070102);
-    
+    if (EventFlag(25009002)) {
+        SetSpEffect(10000, 160751002);
+        DisplayEpitaphMessage(99070102);
+    }
+
     // Buff - Damage
-    IfEventFlag(OR_04, ON, TargetEventFlagType.EventFlag, 25009003);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_04);
-    SetSpEffect(10000, 160751003);
-    DisplayEpitaphMessage(99070103);
-    
+    if (EventFlag(25009003)) {
+        SetSpEffect(10000, 160751003);
+        DisplayEpitaphMessage(99070103);
+    }
+
     // Buff - Absorption
-    IfEventFlag(OR_05, ON, TargetEventFlagType.EventFlag, 25009004);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_05);
-    SetSpEffect(10000, 160751004);
-    DisplayEpitaphMessage(99070104);
-    
+    if (EventFlag(25009004)) {
+        SetSpEffect(10000, 160751004);
+        DisplayEpitaphMessage(99070104);
+    }
+
     // Buff - Stamina Recovery
-    IfEventFlag(OR_06, ON, TargetEventFlagType.EventFlag, 25009005);
-    SkipIfConditionGroupStateUncompiled(2, FAIL, OR_06);
-    SetSpEffect(10000, 160751005);
-    DisplayEpitaphMessage(99070105);
+    if (EventFlag(25009005)) {
+        SetSpEffect(10000, 160751005);
+        DisplayEpitaphMessage(99070105);
+    }
 });
 
 //----------------------------------------------
 // Interaction Point - Covenant Specific
 // <entity id>, <action id>, <sfx id>, <buff id>, <buff msg>, <debuff id>, <debuff msg>, <covenant speffect>
 //----------------------------------------------
-Event(20085003, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+$Event(20085003, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     // Skip FFX if -1 is arg
-    SkipIfComparison(1, ComparisonType.Equal, X8_4, -1);
-    SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
-    
-    IfActionButtonInArea(MAIN, X4_4, X0_4);
-    
+    if (X8_4 != -1) {
+        SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);
+    }
+
+    WaitFor(ActionButtonInArea(X4_4, X0_4));
+
     // Has correct covenant accessory equipped
-    SkipIfCharacterHasSpEffect(2, 10000, X28_4, false, ComparisonType.Equal, 1);
-    SetSpEffect(10000, X12_4);
-    DisplayEpitaphMessage(X16_4);
-    
+    if (CharacterHasSpEffect(10000, X28_4)) {
+        SetSpEffect(10000, X12_4);
+        DisplayEpitaphMessage(X16_4);
+    }
+
     // Has wrong covenant accessory equipped
-    SkipIfCharacterHasSpEffect(2, 10000, X28_4, true, ComparisonType.Equal, 1);
-    SetSpEffect(10000, X20_4);
-    DisplayEpitaphMessage(X24_4);
+    if (!CharacterHasSpEffect(10000, X28_4)) {
+        SetSpEffect(10000, X20_4);
+        DisplayEpitaphMessage(X24_4);
+    }
 });
 
 //------------------------
@@ -9173,19 +9304,20 @@ Event(20085003, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 // <used flag>, <object id>, <ObjAct id>, <bullet spawner id>, <behavior id>
 // InitializeCommonEvent(20086000, 14001620, 4001620, 4004620, 4000620, 280002020); // Poison Cloud
 //------------------------
-Event(20086000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
-    
-    // Used chest
-    ReproduceObjectAnimation(X4_4, 1); // Open the chest
-    SetObjactState(X4_4, -1, Disabled); // Disable interaction
-    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
-    EndUnconditionally(EventEndType.End);
-    
+$Event(20086000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
+    if (EventFlag(X0_4)) { // Goto Label 0 if previously used
+
+        // Used chest
+        ReproduceObjectAnimation(X4_4, 1); // Open the chest
+        SetObjactState(X4_4, -1, Disabled); // Disable interaction
+        SetObjectTreasureState(X4_4, Enabled); // Enable treasure
+        EndEvent();
+    }
+
     // Unused chest
-    Label0();
+L0:
     SetObjectTreasureState(X4_4, Disabled); // Disable treasure
-    IfObjactEventFlag(MAIN, X8_4); // Wait for object activation flag
+    WaitFor(ObjActEventFlag(X8_4)); // Wait for object activation flag
     WaitFixedTimeFrames(10);
     SetObjectTreasureState(X4_4, Enabled); // Enable treasure
     SetEventFlag(X0_4, ON);
@@ -9198,52 +9330,59 @@ Event(20086000, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
 // Trapped Chest - Spawn Enemies
 // <used flag>, <object id>, <ObjAct id>, <enemy 1 id>, <enemy 2 id>, <enemy 3 id>, 
 //------------------------
-Event(20086001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    SkipIfComparison(3, ComparisonType.Equal, X12_4, -1);
-    ChangeCharacterEnableState(X12_4, Disabled);
-    SetCharacterAnimationState(X12_4, Disabled);
-    SetCharacterAIState(X12_4, Disabled);
-    
-    SkipIfComparison(3, ComparisonType.Equal, X16_4, -1);
-    ChangeCharacterEnableState(X16_4, Disabled);
-    SetCharacterAnimationState(X16_4, Disabled);
-    SetCharacterAIState(X16_4, Disabled);
-    
-    SkipIfComparison(3, ComparisonType.Equal, X20_4, -1);
-    ChangeCharacterEnableState(X20_4, Disabled);
-    SetCharacterAnimationState(X20_4, Disabled);
-    SetCharacterAIState(X20_4, Disabled);
-    
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
-    
-    // Used chest
-    ReproduceObjectAnimation(X4_4, 1); // Open the chest
-    SetObjactState(X4_4, -1, Disabled); // Disable interaction
-    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
-    EndUnconditionally(EventEndType.End);
-    
+$Event(20086001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    if (X12_4 != -1) {
+        ChangeCharacterEnableState(X12_4, Disabled);
+        SetCharacterAnimationState(X12_4, Disabled);
+        SetCharacterAIState(X12_4, Disabled);
+    }
+
+    if (X16_4 != -1) {
+        ChangeCharacterEnableState(X16_4, Disabled);
+        SetCharacterAnimationState(X16_4, Disabled);
+        SetCharacterAIState(X16_4, Disabled);
+    }
+
+    if (X20_4 != -1) {
+        ChangeCharacterEnableState(X20_4, Disabled);
+        SetCharacterAnimationState(X20_4, Disabled);
+        SetCharacterAIState(X20_4, Disabled);
+    }
+
+    if (EventFlag(X0_4)) { // Goto Label 0 if previously used
+
+        // Used chest
+        ReproduceObjectAnimation(X4_4, 1); // Open the chest
+        SetObjactState(X4_4, -1, Disabled); // Disable interaction
+        SetObjectTreasureState(X4_4, Enabled); // Enable treasure
+        EndEvent();
+    }
+
     // Unused chest
-    Label0();
+L0:
     SetObjectTreasureState(X4_4, Disabled); // Disable treasure
-    IfObjactEventFlag(MAIN, X8_4); // Wait for object activation flag
+    WaitFor(ObjActEventFlag(X8_4)); // Wait for object activation flag
     WaitFixedTimeFrames(10);
-    
+
     // Spawn enemies
-    SkipIfComparison(3, ComparisonType.Equal, X12_4, -1);
-    ChangeCharacterEnableState(X12_4, Enabled);
-    SetCharacterAnimationState(X12_4, Enabled);
-    SetCharacterAIState(X12_4, Enabled);
-    
-    SkipIfComparison(3, ComparisonType.Equal, X16_4, -1);
-    ChangeCharacterEnableState(X16_4, Enabled);
-    SetCharacterAnimationState(X16_4, Enabled);
-    SetCharacterAIState(X16_4, Enabled);
-    
-    SkipIfComparison(3, ComparisonType.Equal, X20_4, -1);
-    ChangeCharacterEnableState(X20_4, Enabled);
-    SetCharacterAnimationState(X20_4, Enabled);
-    SetCharacterAIState(X20_4, Enabled);
-    
+    if (X12_4 != -1) {
+        ChangeCharacterEnableState(X12_4, Enabled);
+        SetCharacterAnimationState(X12_4, Enabled);
+        SetCharacterAIState(X12_4, Enabled);
+    }
+
+    if (X16_4 != -1) {
+        ChangeCharacterEnableState(X16_4, Enabled);
+        SetCharacterAnimationState(X16_4, Enabled);
+        SetCharacterAIState(X16_4, Enabled);
+    }
+
+    if (X20_4 != -1) {
+        ChangeCharacterEnableState(X20_4, Enabled);
+        SetCharacterAnimationState(X20_4, Enabled);
+        SetCharacterAIState(X20_4, Enabled);
+    }
+
     SetObjectTreasureState(X4_4, Enabled); // Enable treasure
     SetEventFlag(X0_4, ON);
 });
@@ -9254,46 +9393,47 @@ Event(20086001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
 // 700, 1700 for skeletons
 // InitializeCommonEvent(20086002, 14001620, 4001620, 4004620, 4000621, 4000622, 4000623, 700, 1700); // Skeletons
 //------------------------
-Event(20086002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+$Event(20086002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
     SetCharacterAnimationState(X12_4, Disabled);
     SetCharacterAIState(X12_4, Disabled);
     ForceAnimationPlayback(X12_4, X24_4, true, false, false, 0, 1);
-    
+
     SetCharacterAnimationState(X16_4, Disabled);
     SetCharacterAIState(X16_4, Disabled);
     ForceAnimationPlayback(X16_4, X24_4, true, false, false, 0, 1);
-    
+
     SetCharacterAnimationState(X20_4, Disabled);
     SetCharacterAIState(X20_4, Disabled);
     ForceAnimationPlayback(X20_4, X24_4, true, false, false, 0, 1);
-    
-    GotoIfEventFlag(Label.LABEL0, OFF, TargetEventFlagType.EventFlag, X0_4); // Goto Label 0 if previously used
-    
-    // Used chest
-    ReproduceObjectAnimation(X4_4, 1); // Open the chest
-    SetObjactState(X4_4, -1, Disabled); // Disable interaction
-    SetObjectTreasureState(X4_4, Enabled); // Enable treasure
-    EndUnconditionally(EventEndType.End);
-    
+
+    if (EventFlag(X0_4)) { // Goto Label 0 if previously used
+
+        // Used chest
+        ReproduceObjectAnimation(X4_4, 1); // Open the chest
+        SetObjactState(X4_4, -1, Disabled); // Disable interaction
+        SetObjectTreasureState(X4_4, Enabled); // Enable treasure
+        EndEvent();
+    }
+
     // Unused chest
-    Label0();
+L0:
     SetObjectTreasureState(X4_4, Disabled); // Disable treasure
-    IfObjactEventFlag(MAIN, X8_4); // Wait for object activation flag
+    WaitFor(ObjActEventFlag(X8_4)); // Wait for object activation flag
     WaitFixedTimeFrames(10);
-    
+
     // Spawn enemies
     SetCharacterAnimationState(X12_4, Enabled);
     SetCharacterAIState(X12_4, Enabled);
     ForceAnimationPlayback(X12_4, X28_4, true, false, false, 0, 1);
-    
+
     SetCharacterAnimationState(X16_4, Enabled);
     SetCharacterAIState(X16_4, Enabled);
     ForceAnimationPlayback(X16_4, X28_4, true, false, false, 0, 1);
-    
+
     SetCharacterAnimationState(X20_4, Enabled);
     SetCharacterAIState(X20_4, Enabled);
     ForceAnimationPlayback(X20_4, X28_4, true, false, false, 0, 1);
-    
+
     SetObjectTreasureState(X4_4, Enabled); // Enable treasure
     SetEventFlag(X0_4, ON);
 });
@@ -9301,11 +9441,12 @@ Event(20086002, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, 
 //------------------------
 // Enable Wave Enemy
 //------------------------
-Event(20087100, Restart, function(X0_4) {
+$Event(20087100, Restart, function(X0_4) {
     ChangeCharacterEnableState(X0_4, Enabled);
     SetCharacterAnimationState(X0_4, Enabled);
     SetCharacterAIState(X0_4, Enabled);
-    
+
     // Spawn FFX
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 1060);
 });
+

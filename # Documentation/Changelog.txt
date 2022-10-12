@@ -45,7 +45,7 @@ Finish following weapons:
 - Adjusted spell/item FP costs to account for the FP change.
 - Curses no longer grant additional soul absorption.
 
-- Hunter's Pistol is now purely a parrying tool. It no longer emits a bullet, and thus will more reliably causes parries. But it no longer deals any damage.
+- Hunter's Pistol is now purely a parrying tool. It no longer emits a bullet, and thus will more reliably cause parries. However it no longer deals any damage.
  - Adjusted the force parry window to make the pistol easier to parry with.
 - Removed the parry frames from the other sidearms.
 - Boosted the base damage of the other pistol sidearms, as they are now intended for damage.
@@ -77,12 +77,28 @@ Finish following weapons:
  - Spells that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
  - Items that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
 
+- Bosses:
+ - Sister Friede poise reduced to 0.
+ - Reduced the health of the Lordran Remnants.
+ - Fixed the Abyss Walker AI weights so he uses his grab much less, and doesn't leap if the player is already close.
+  
 #------------------------------
 # TODO
 #------------------------------
+Curse of Collusion:
+ Add additional enemies or traps to boss encounters
+
 Bulk out the Curse of Attraction additions
  - Made it more like ascended in enemy count
 
+# NG+
+xxx5775
+xxx5776
+xxx5777
+
+# Attraction
 xxx5750
 
- 
+626200 # Ringed Knight - Sword
+626210 # Ringed Knight - Spear
+626220 # Ringed Knight - Paired Greatsword

@@ -254,8 +254,8 @@
 - Souls: 75000
 
 # The Lord's Blade (Ciaran)
-- NG0 HP: 6000
-- NG+ HP: 7200
+- NG0 HP: 4000
+- NG+ HP: 4800
 - Absorption: Standard:     20%
 - Absorption: Slash:        20%
 - Absorption: Strike:       15%
@@ -267,8 +267,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # The Abyss Walker (Artorias)
-- NG0 HP: 7000
-- NG+ HP: 8400
+- NG0 HP: 5000
+- NG+ HP: 6000
 - Absorption: Standard:     25%
 - Absorption: Slash:        25%
 - Absorption: Strike:       20%
@@ -280,8 +280,8 @@
 - Affected by: Poison, Bleed, Frost
 
 # The Dragonslayer (Ornstein)
-- NG0 HP: 8000
-- NG+ HP: 9600
+- NG0 HP: 6000
+- NG+ HP: 7200
 - Absorption: Standard:     30%
 - Absorption: Slash:        30%
 - Absorption: Strike:       20%

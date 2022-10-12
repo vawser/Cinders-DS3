@@ -9,7 +9,7 @@
       "LockAspectRatioDuringRemo": true,
       "Name": null,
       "CameraLocationInWorld": {
-        "Position": "4.5447793, 2.4153273, 2.681603",
+        "Position": "12.855084, 4.2170987, 9.163033",
         "Rotation": {
           "X": -0.07707125,
           "Y": 0.46003228,
@@ -37,7 +37,7 @@
         }
       },
       "CameraLocationInWorld_CloserForSound": {
-        "Position": "4.5447793, 2.4153273, 2.681603",
+        "Position": "12.855084, 4.2170987, 9.163033",
         "Rotation": {
           "X": -0.07707125,
           "Y": 0.46003228,
@@ -65,7 +65,7 @@
         }
       },
       "RootMotionFollow_EnableWrap": true,
-      "RootMotionFollow_Translation": "0, 0, 0",
+      "RootMotionFollow_Translation": "-0.08664743, 0, -21.602673",
       "RootMotionFollow_Rotation": -0.0,
       "CameraOrbitOrigin": "0, 0, 0",
       "CameraOrbitOriginOffset": "0.5106725, 1.5497109, -0.14270012",
@@ -77,13 +77,13 @@
         "W": 0.8836404
       },
       "OrbitCamEuler": "-0.17399997, 0.9599991, 0",
-      "OrbitCamDistanceInput": 5.0,
+      "OrbitCamDistanceInput": 15.407448,
       "ProjectionVerticalFoV": 43.0,
       "ProjectionSkyboxVerticalFov": 70.0,
       "ProjectionNearClipDist": 0.1,
       "ProjectionFarClipDist": 10000.0,
       "Matrix_Projection": {
-        "M11": 2.5925088,
+        "M11": 3.3348186,
         "M12": 0.0,
         "M13": 0.0,
         "M14": 0.0,
@@ -101,7 +101,7 @@
         "M44": 0.0
       },
       "Matrix_Projection_Skybox": {
-        "M11": 1.4584482,
+        "M11": 1.8760438,
         "M12": 0.0,
         "M13": 0.0,
         "M14": 0.0,
@@ -138,20 +138,20 @@
       },
       "Matrix_View": {
         "M11": 0.5735207,
-        "M12": -0.14182106,
+        "M12": -0.14182107,
         "M13": 0.8068214,
         "M14": 0.0,
-        "M21": -7.450581E-09,
+        "M21": -7.455238E-09,
         "M22": 0.9849002,
-        "M23": 0.17312329,
+        "M23": 0.17312331,
         "M24": 0.0,
         "M31": -0.81919104,
-        "M32": -0.09928979,
+        "M32": -0.099289805,
         "M33": 0.56486064,
         "M34": 0.0,
-        "M41": -0.40978003,
-        "M42": -1.468055,
-        "M43": -5.5997066,
+        "M41": 0.13361692,
+        "M42": -1.4205039,
+        "M43": -16.277672,
         "M44": 1.0
       },
       "Matrix_View_Skybox": {
@@ -172,23 +172,23 @@
         "M43": 0.0,
         "M44": 1.0
       },
-      "DisableAllInput": false,
+      "DisableAllInput": true,
       "RequestRecenter": false,
       "FollowingLockon": false,
       "FollowingLockonDummyPoly": 220,
       "AngleSnap": 0.7853982,
       "AngleSnapEnable": false,
       "PivotPrimIsEnabled": false,
-      "OrbitCamCenter_DummyPolyFollowRefPoint": "0.007292092, 0.6463197, -0.040434666",
+      "OrbitCamCenter_DummyPolyFollowRefPoint": "0.08836728, 1.3063883, -0.092996925",
       "OrbitCamCenter_DummyPolyFollowRefPoint_Init": "0, 0, 0",
       "OverallMouseSpeedMult": 1.0,
       "CameraTurnSpeedMouse": 1.0,
       "CameraMoveSpeed": 1.0,
-      "RootMotionFollow_Translation_WrappedIfApplicable": "0, 0, 0",
-      "OrbitCamDistance": 5.0,
+      "RootMotionFollow_Translation_WrappedIfApplicable": "-0.08664743, 0, -0.6026726",
+      "OrbitCamDistance": 15.407448,
       "ProjectionIsOrthographic": false,
       "ProjectionVerticalFovRatio": 1.0,
-      "PivotPrimVisRatio": 0.9796659
+      "PivotPrimVisRatio": 0.0
     }
   ]
 }
