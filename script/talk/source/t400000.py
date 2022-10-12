@@ -298,8 +298,11 @@ def t400000_x12():
     while True:
         ClearTalkListData()
         """ State 2 """
+        # Submit
+        AddTalkListDataIf(GetEventStatus(25009853) == 1, 30, 99060070, -1)
+        
         # Travel
-        AddTalkListData(1, 15000150, -1)
+        AddTalkListDataIf(GetEventStatus(25009853) == 0, 1, 15000150, -1)
         
         # Level Up
         AddTalkListData(10, 15002000, -1)
@@ -491,6 +494,10 @@ def t400000_x12():
             """State 97,98"""
             OpenEstusAllotMenu()
             assert not (CheckSpecificPersonMenuIsOpen(14, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
+            continue
+        # Submit
+        elif GetTalkListEntryResult() == 30:
+            assert t400000_x30()
             continue
         elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             """ State 45 """
@@ -800,3 +807,43 @@ def t400000_x20():
     """ State 13 """
     return 0
 
+# Submit
+def t400000_x30():
+    c1110()
+    
+    while True:
+        ClearTalkListData()
+        
+        # To the Fire
+        AddTalkListData(1, 99060071, -1)
+        
+        # To the Cold
+        AddTalkListDataIf(GetEventStatus(6951) == 1, 2, 99060072, -1)
+        
+        # To the Dark
+        AddTalkListDataIf(GetEventStatus(6952) == 1, 3, 99060073, -1)
+        
+        # Leave
+        AddTalkListData(99, 15000005, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # To the Fire
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25009854, 1)
+            SetEventState(25009855, 1)
+            return 0
+        # To the Cold
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25009854, 1)
+            SetEventState(25009856, 1)
+            return 0
+        # To the Dark
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25009854, 1)
+            SetEventState(25009857, 1)
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            

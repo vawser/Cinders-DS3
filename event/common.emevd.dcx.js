@@ -222,6 +222,7 @@ $Event(0, Default, function() {
     InitializeEvent(0, 20054, 0); // Explorer Mode
     InitializeEvent(0, 20055, 0); // Gauntlet Mode
     InitializeEvent(0, 20056, 0); // Onslaught Mode
+    InitializeEvent(0, 20057, 0); // Corruption Mode
 
     InitializeEvent(0, 20059, 0); // Starting Location
 
@@ -2393,6 +2394,133 @@ $Event(20056, Restart, function() {
     SetEventFlag(25009850, ON); // Gauntlet features activated
     SetEventFlag(25009851, ON); // Wanderer features activated
     SetEventFlag(25000055, ON); // Disable Reinforcement
+});
+
+//----------------------------------------------
+// Corruption Mode - Submit
+//----------------------------------------------
+$Event(20057, Restart, function() {
+    WaitFor(EventFlag(25009854));
+
+    // To the Fire
+    if(EventFlag(25009855))
+    {
+        SetEventFlag(25009855, 0);
+        
+        BatchSetEventFlags(25009000, 25009009, OFF);
+        RandomlySetEventFlagInRange(25009000, 25009009, ON);
+        
+        // Untended Graves
+        if (EventFlag(25009000)) {
+            SetEventFlag(14000003, ON); // Untended Graves
+            WarpPlayer(40, 0, 4000973);
+            SetPlayerRespawnPoint(4000973);
+            SetMapCeremony(40, 0, 10);
+        }
+
+        // Archdragon Peak
+        if (EventFlag(25009001)) {
+            SetEventFlag(13200000, ON); // Archdragon Peak
+            WarpPlayer(32, 0, 3200970);
+            SetPlayerRespawnPoint(3200970);
+        }
+
+        // Farron Keep
+        if (EventFlag(25009002)) {
+            SetEventFlag(13300000, ON); // Halfway Fortress
+            WarpPlayer(33, 0, 3300970);
+            SetPlayerRespawnPoint(3300970);
+        }
+
+        // Catacombs of Carthus
+        if (EventFlag(25009003)) {
+            SetEventFlag(13800006, ON); // Catacombs of Carthus
+            WarpPlayer(38, 0, 3800976);
+            SetPlayerRespawnPoint(3800976);
+        }
+
+        // Irithyll of the Boreal Valley
+        if (EventFlag(25009004)) {
+            SetEventFlag(13700004, ON); // Central Irithyll
+            WarpPlayer(37, 0, 3700974);
+            SetPlayerRespawnPoint(3700974);
+        }
+
+        // Profaned Capital
+        if (EventFlag(25009005)) {
+            SetEventFlag(13900001, ON); // Church of Sin
+            WarpPlayer(39, 0, 3900970);
+            SetPlayerRespawnPoint(3900970);
+        }
+
+        // Consumed King's Garden
+        if (EventFlag(25009006)) {
+            SetEventFlag(13000001, ON); // Consumed King's Garden
+            WarpPlayer(30, 0, 3000971);
+            SetPlayerRespawnPoint(3000971);
+        }
+
+        // Lothric Castle
+        if (EventFlag(25009007)) {
+            SetEventFlag(13010000, ON); // Lothric Castle
+            WarpPlayer(30, 1, 3010972);
+            SetPlayerRespawnPoint(3010972);
+        }
+
+        // Cathedral of the Deep
+        if (EventFlag(25009008)) {
+            SetEventFlag(13500000, ON); // Cleaning Chapel
+            WarpPlayer(35, 0, 3500970);
+            SetPlayerRespawnPoint(3500970);
+        }
+    }
+    
+    // To the Cold
+    if(EventFlag(25009856))
+    {
+        SetEventFlag(25009856, 0);
+        
+        BatchSetEventFlags(25009000, 25009000, OFF);
+        RandomlySetEventFlagInRange(25009000, 25009000, ON);
+        
+        // Ariandel
+        if (EventFlag(6951)) {
+            if (EventFlag(25009000)) {
+                SetEventFlag(14500001, ON); // Snowfield
+                WarpPlayer(45, 0, 4500971);
+                SetPlayerRespawnPoint(4500971);
+            }
+        }
+    }
+
+    // To the Dark
+    if (EventFlag(25009857))
+    {
+        SetEventFlag(25009857, 0);
+        
+        BatchSetEventFlags(25009000, 25009001, OFF);
+        RandomlySetEventFlagInRange(25009000, 25009001, ON);
+        
+        // Dreg Heap
+        if (EventFlag(6952)) {
+            if (EventFlag(25009000)) {
+                SetEventFlag(15000001, ON); // The Dreg Heap
+                WarpPlayer(50, 0, 5000971);
+                SetPlayerRespawnPoint(5000971);
+            }
+        }
+
+        // Ringed City
+        if (EventFlag(6952)) {
+            if (EventFlag(25009001)) {
+                SetEventFlag(15100002, ON); // Mausoleum Lookout
+                WarpPlayer(51, 0, 5100972);
+                SetPlayerRespawnPoint(5100972);
+            }
+        }
+    }
+    
+    RestartEvent();
 });
 
 //----------------------------------------------

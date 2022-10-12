@@ -34,6 +34,11 @@ Finish following weapons:
 - Corruption:
  - Corruption Mode is now an journey type (replaces the toggle).
  - You can no longer sell the Maluses.
+ - Blocks usage of the Travel option at all bonfires.
+ - Adds a Submit option at the Firelink bonfire:
+  - To the Fire: will select a vanilla location to warp you to.
+  - To the Cold: will select a Ariandel location to warp you to.
+  - To the Dark: will select a Drag Heap/Ringed City location to warp you to.
 
 - Adjusted FP regeneration:
  - Base interval is now 1 seconds (2 with Malus)

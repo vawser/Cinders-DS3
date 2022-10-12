@@ -112,7 +112,7 @@ def t511000_x5():
         ClearTalkListData()
         """ State 2 """
         # Travel
-        AddTalkListData(1, 15000150, -1)
+        AddTalkListDataIf(GetEventStatus(25009853) == 0, 1, 15000150, -1)
         
         # Level Up
         AddTalkListData(10, 15002000, -1)

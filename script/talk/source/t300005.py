@@ -175,7 +175,7 @@ def t300005_x9():
         ClearTalkListData()
         """ State 2 """
         # action:15000150:Travel
-        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 1, 15000150, -1)
+        AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1 and GetEventStatus(25009853) == 0, 1, 15000150, -1)
         
         # action:15002000:Level Up
         AddTalkListDataIf(GetEventStatus(14000101) == 1 or GetEventStatus(2050) == 1, 10, 15002000, -1)

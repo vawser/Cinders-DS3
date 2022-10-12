@@ -1091,6 +1091,12 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009850 Gauntlet Features activated
 25009851 Boon features activated
 25009852 Malus features activated
+25009853 Warp Block activated
+
+25009854 Corruption - Submit used
+25009855 Corruption - To the Fire
+25009856 Corruption - To the Cold
+25009857 Corruption - To the Dark
 
 25009860 Malus flag 1
 25009861 Malus flag 2

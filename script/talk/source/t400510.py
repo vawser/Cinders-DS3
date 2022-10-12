@@ -651,11 +651,13 @@ def t400510_x17():
             SetEventState(25009815, 0)
             SetEventState(25009816, 1)
             SetEventState(25009852, 1) # Malus enabled
+            SetEventState(25009853, 1) # Warp block enabled
             continue 
         # Unset
         elif GetTalkListEntryResult() == 3:
             SetEventState(25009816, 0)
             SetEventState(25009852, 0) # Malus disabled
+            SetEventState(25009853, 0) # Warp block disabled
             continue
         # Leave
         elif GetTalkListEntryResult() == 99:

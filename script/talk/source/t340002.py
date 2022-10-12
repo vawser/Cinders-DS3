@@ -156,7 +156,7 @@ def t340002_x9():
         ClearTalkListData()
         """ State 2 """
         # action:15000150:Travel
-        AddTalkListData(1, 15000150, -1)
+        AddTalkListDataIf(GetEventStatus(25009853) == 0, 1, 15000150, -1)
         # action:15000130:Attune Spell
         AddTalkListData(4, 15000130, -1)
         # action:15000005:Leave

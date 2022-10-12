@@ -162,7 +162,7 @@ def t410010_x8():
         ClearTalkListData()
         """ State 2 """
         # action:15000150:Travel
-        AddTalkListData(1, 15000150, -1)
+        AddTalkListDataIf(GetEventStatus(25009853) == 0, 1, 15000150, -1)
         # action:15000130:Attune Spell
         AddTalkListData(2, 15000130, -1)
         # action:15000220:Organize Storage Box
