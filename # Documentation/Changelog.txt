@@ -31,6 +31,10 @@ Finish following weapons:
 #------------------------------
 # Changelog
 #------------------------------
+- Corruption:
+ - Corruption Mode is now an journey type (replaces the toggle).
+ - You can no longer sell the Maluses.
+
 - Adjusted FP regeneration:
  - Base interval is now 1 seconds (2 with Malus)
  - Base Gain is 2

@@ -11,6 +11,7 @@
 // Constructor
 //----------------------------------------------
 $Event(0, Default, function() {
+    
     //-----------------------------------
     // Run for Host and Clients
     //-----------------------------------
@@ -10842,6 +10843,8 @@ $Event(20324, Default, function() {
 $Event(20325, Default, function() {
     SetNetworkSyncState(Disabled);
 
+    // Corruption mode
+    WaitFor(EventFlag(25009816));
     // Malus enabled
     WaitFor(EventFlag(25009852));
 
@@ -11027,4 +11030,3 @@ $Event(20510, Restart, function(X0_4, X4_4) {
 
     RestartEvent();
 });
-
