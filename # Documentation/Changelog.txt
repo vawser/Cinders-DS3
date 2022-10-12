@@ -90,7 +90,8 @@ Finish following weapons:
  - Sister Friede poise reduced to 0.
  - Reduced the health of the Lordran Remnants.
  - Fixed the Abyss Walker AI weights so he uses his grab much less, and doesn't leap if the player is already close.
-  
+ - Reduced the part HP of Wolnir's bracelets.
+ 
 #------------------------------
 # TODO
 #------------------------------
@@ -111,3 +112,5 @@ xxx5750
 626200 # Ringed Knight - Sword
 626210 # Ringed Knight - Spear
 626220 # Ringed Knight - Paired Greatsword
+
+Add toggle for covenant drops
