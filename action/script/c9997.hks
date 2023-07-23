@@ -10,7 +10,7 @@ IS_INITIALIZED_TURMOIL = FALSE
 function TurmoilEffect()
     if IS_INITIALIZED_TURMOIL == TRUE then
         return
-    elseif env(GetSpEffectID, 114000) == TRUE or env(GetSpEffectID, 114001) == TRUE then
+    elseif env(GetSpEffectID, 111200) == TRUE or env(GetSpEffectID, 111201) == TRUE then
         IS_INITIALIZED_TURMOIL = TRUE
         return
     end
@@ -19,32 +19,32 @@ function TurmoilEffect()
     local turmoil_chance = 0
     
     -- 100%
-    if env(GetSpEffectID, 114016) == TRUE then
+    if env(GetSpEffectID, 111216) == TRUE then
         turmoil_chance = 1000
     -- 10%
-    elseif env(GetSpEffectID, 114015) == TRUE then
+    elseif env(GetSpEffectID, 111215) == TRUE then
         turmoil_chance = 100
     -- 5%
-    elseif env(GetSpEffectID, 114014) == TRUE then
+    elseif env(GetSpEffectID, 111214) == TRUE then
         turmoil_chance = 50
     -- 4%
-    elseif env(GetSpEffectID, 114013) == TRUE then
+    elseif env(GetSpEffectID, 111213) == TRUE then
         turmoil_chance = 40
     -- 3%
-    elseif env(GetSpEffectID, 114012) == TRUE then
+    elseif env(GetSpEffectID, 111212) == TRUE then
         turmoil_chance = 30
     -- 2%
-    elseif env(GetSpEffectID, 114011) == TRUE then
+    elseif env(GetSpEffectID, 111211) == TRUE then
         turmoil_chance = 20
     -- 1%
-    elseif env(GetSpEffectID, 114010) == TRUE then
+    elseif env(GetSpEffectID, 111210) == TRUE then
         turmoil_chance = 10
     end
     
     if turmoil_chance > 0 and turmoil_roll <= turmoil_chance then
-        act(AddSpEffect, 114000)
+        act(AddSpEffect, 111200)
     else
-        act(AddSpEffect, 114001)
+        act(AddSpEffect, 111201)
     end
     
     IS_INITIALIZED_TURMOIL = TRUE
@@ -1564,49 +1564,33 @@ function ExecMove(move_type, is_on_cancel)
     local movement_speed_mult = 1.0
     
     -- Alacrity
-    if env(GetSpEffectID, 113000) == TRUE then
+    if env(GetSpEffectID, 111112) == TRUE then
         movement_speed_mult = 1.5
-    end
-    
-    -- Painter's Pendant
-    if env(GetSpEffectID, 113020) == TRUE then
-        movement_speed_mult = 0.25
     end
     
     -- Movement Speed
-    if env(GetSpEffectID, 115000) == TRUE then
+    if env(GetSpEffectID, 111300) == TRUE then
         movement_speed_mult = 1.1
-    elseif env(GetSpEffectID, 115001) == TRUE then
+    elseif env(GetSpEffectID, 111301) == TRUE then
         movement_speed_mult = 1.2
-    elseif env(GetSpEffectID, 115002) == TRUE then
+    elseif env(GetSpEffectID, 111302) == TRUE then
         movement_speed_mult = 1.3
-    elseif env(GetSpEffectID, 115003) == TRUE then
+    elseif env(GetSpEffectID, 111303) == TRUE then
         movement_speed_mult = 1.4
-    elseif env(GetSpEffectID, 115004) == TRUE then
+    elseif env(GetSpEffectID, 111304) == TRUE then
         movement_speed_mult = 1.5
-    elseif env(GetSpEffectID, 115005) == TRUE then
+    elseif env(GetSpEffectID, 111305) == TRUE then
         movement_speed_mult = 1.6
-    elseif env(GetSpEffectID, 115006) == TRUE then
+    elseif env(GetSpEffectID, 111306) == TRUE then
         movement_speed_mult = 1.7
-    elseif env(GetSpEffectID, 115007) == TRUE then
+    elseif env(GetSpEffectID, 111307) == TRUE then
         movement_speed_mult = 1.8
-    elseif env(GetSpEffectID, 115008) == TRUE then
+    elseif env(GetSpEffectID, 111308) == TRUE then
         movement_speed_mult = 1.9
-    elseif env(GetSpEffectID, 115009) == TRUE then
+    elseif env(GetSpEffectID, 111309) == TRUE then
         movement_speed_mult = 2.0
-    elseif env(GetSpEffectID, 115010) == TRUE then
+    elseif env(GetSpEffectID, 111310) == TRUE then
         movement_speed_mult = 3.0
-    end
-    
-    -- Rite of Tardus
-    if env(GetSpEffectID, 101050) == TRUE then
-        movement_speed_mult = movement_speed_mult * 0.85
-    elseif env(GetSpEffectID, 101051) == TRUE then
-        movement_speed_mult = movement_speed_mult * 0.8
-    elseif env(GetSpEffectID, 101052) == TRUE then
-        movement_speed_mult = movement_speed_mult * 0.75
-    elseif env(GetSpEffectID, 101053) == TRUE then
-        movement_speed_mult = movement_speed_mult * 0.7
     end
     
     -- Apply movement speed change

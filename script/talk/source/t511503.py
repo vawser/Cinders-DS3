@@ -842,11 +842,11 @@ def t511503_x100(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, teleport_flag=_):
         # Resurrect
         if GetTalkListEntryResult() == 1:
             # Resurrect
-            if ComparePlayerInventoryNumber(3, 2160, 4, 1, 0) == 1:
+            if ComparePlayerInventoryNumber(3, 2180, 4, 1, 0) == 1:
                 call = t511503_x110(80051000)
                 
                 if call.Done() and GetGenericDialogButtonResult() == 1:
-                    PlayerEquipmentQuantityChange(3, 2160, -1)
+                    PlayerEquipmentQuantityChange(3, 2180, -1)
                     SetEventState(flag1, 0)
                     SetEventState(flag2, 0)
                     SetEventState(flag3, 0)

@@ -325,7 +325,7 @@ def t511501_x50():
             # Yes
             if GetTalkListEntryResult() == 1:
                 SetEventState(25000100, 1)
-                PlayerEquipmentQuantityChange(3, 2160, -8)
+                PlayerEquipmentQuantityChange(3, 2180, -8)
                 return 0
             # Cancel
             elif GetTalkListEntryResult() == 2:
@@ -434,7 +434,7 @@ def t511501_x52():
         # AddTalkListData(8, 80000205, -1)
         
         # Souls
-        AddTalkListDataIf(GetEventStatus(25000112) == 0 and ComparePlayerInventoryNumber(3, 2160, 4, 1, 0) == 1 , 9, 80000206, -1)
+        AddTalkListDataIf(GetEventStatus(25000112) == 0 and ComparePlayerInventoryNumber(3, 2180, 4, 1, 0) == 1 , 9, 80000206, -1)
         
         # Level Up
         AddTalkListData(10, 80000207, -1)
@@ -602,7 +602,7 @@ def t511501_x62():
     if GetTalkListEntryResult() == 1:
         SetEventState(25000112, 1)
         GiveSpEffectToPlayer(200000100)
-        PlayerEquipmentQuantityChange(3, 2160, -1)
+        PlayerEquipmentQuantityChange(3, 2180, -1)
         assert t511501_x60(80000211)
         
         return 0

@@ -340,7 +340,7 @@ def t511000_x12():
         AddTalkListData(4, 15000160, -1)
         
         # Allot Estus
-        AddTalkListData(5, 15002002, -1)
+        # AddTalkListData(5, 15002002, -1)
         
         # Begin journey <?nextLoopCount?>
         AddTalkListDataIf(GetEventStatus(25000130) == 1, 20, 15000331, -1)
