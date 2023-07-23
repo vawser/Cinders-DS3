@@ -62,3 +62,5 @@
  - Fixed the Abyss Walker AI weights so he uses his grab much less, and doesn't leap if the player is already close.
  - Reduced the part HP of Wolnir's bracelets.
  
+# TODO
+Add enemy group ID: 3605800

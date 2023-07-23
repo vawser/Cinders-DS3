@@ -1,0 +1,1010 @@
+﻿function SetVariable(name, value)
+    act(SetHavokVariable, name, value)
+end
+
+function ExecEvent(state)
+    act(DebugLogOutput, "イベント実行[" .. state .. "]")
+    hkbFireEvent(state)
+end
+
+function CallActionState(action_type)
+    act(SetAIAttackState, action_type)
+end
+
+function ExecAICommonAction(event_name, action_number)
+    g_ActionNumber = action_number
+    CallActionState(action_number)
+    ExecEvent(event_name)
+end
+
+function ExecAIAttack(action_number)
+    g_ActionNumber = action_number
+    CallActionState(action_number)
+    ExecEvent("W_Attack" .. action_number)
+end
+
+function ExecAIStep(action_number)
+    g_ActionNumber = action_number
+    CallActionState(0)
+    SetVariable("StepNumber", action_number)
+    ExecEvent("W_Step" .. g_ActionNumber)
+end
+
+function ExecAIAction()
+    local action_type = env(GetAIActionType)
+    if action_type <= 0 then
+        return FALSE
+    elseif action_type ~= 9910 and g_IsGuard == TRUE then
+        g_IsGuard = FALSE
+        SetVariable("IdleIndex", STATE_DEFAULT)
+        SetVariable("MoveIndex", STATE_DEFAULT)
+        ExecEvent("W_GuardEnd")
+        return TRUE
+    elseif not (action_type < 700 or action_type >= 800) or action_type >= 6000 and action_type < 6010 then
+        ExecAIStep(action_type)
+        return TRUE
+    elseif action_type >= 1300 and action_type <= 1303 then
+        ExecAICommonAction("W_WeaponChange1", action_type)
+        return TRUE
+    elseif action_type >= 3000 and action_type < 4000 then
+        ExecAIAttack(action_type)
+        return TRUE
+    elseif action_type == 4600 then
+        ExecAICommonAction("W_EstStart", 4600)
+        return TRUE
+    elseif action_type == LADDER_REQUEST_START_BOTTOM then
+        ExecEvent("W_LadderStartBottom")
+        return TRUE
+    elseif action_type == LADDER_REQUEST_START_TOP then
+        ExecEvent("W_LadderStartTop")
+        return TRUE
+    elseif action_type == 9910 and FALSE == g_IsGuard then
+        g_IsGuard = TRUE
+        SetVariable("IdleIndex", STATE_GUARD)
+        SetVariable("MoveIndex", STATE_GUARD)
+        ExecEvent("W_GuardStart")
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function ExecTurn()
+    local turn_angle = hkbGetVariable("TurnAngle")
+    if math.abs(turn_angle) < 45 then
+        return FALSE
+    elseif g_IsGuard == TRUE then
+        return FALSE
+    elseif turn_angle >= -135 and turn_angle < -45 then
+        act(SetTurnAnimCorrectionRate, 90)
+        SetVariable("TurnIndex", 0)
+    elseif turn_angle >= 45 and turn_angle < 135 then
+        act(SetTurnAnimCorrectionRate, 90)
+        SetVariable("TurnIndex", 1)
+    elseif turn_angle >= -180 and turn_angle < -135 then
+        act(SetTurnAnimCorrectionRate, 180)
+        SetVariable("TurnIndex", 2)
+    elseif turn_angle >= 135 and turn_angle <= 180 then
+        act(SetTurnAnimCorrectionRate, 180)
+        SetVariable("TurnIndex", 3)
+    end
+    act(SetIsTurnAnimInProgress)
+    ExecEvent("W_Turn")
+    return TRUE
+end
+
+function ExecAICancelAction()
+    local action_type = env(GetAIChainStepType)
+    if action_type > 0 and (not (action_type < 700 or action_type >= 800) or action_type >= 6000 and action_type < 6010) then
+        ExecAIStep(action_type)
+        return TRUE
+    end
+    action_type = env(GetAIAtkCancelType)
+    if action_type > 0 and action_type ~= 9910 and TRUE == g_IsGuard then
+        g_IsGuard = FALSE
+        SetVariable("IdleIndex", STATE_DEFAULT)
+        SetVariable("MoveIndex", STATE_DEFAULT)
+        ExecEvent("W_GuardEnd")
+        return TRUE
+    elseif action_type > 0 then
+        if action_type >= 3000 and action_type < 4000 then
+            ExecAIAttack(action_type)
+            return TRUE
+        elseif action_type == 4600 then
+            ExecAICommonAction("W_EstStart", 4600)
+            return TRUE
+        end
+    end
+    action_type = env(GetAIChainActionType)
+    if action_type > 0 then
+        if action_type >= 3000 and action_type < 4000 then
+            ExecAIAttack(action_type)
+            return TRUE
+        elseif action_type == 4600 then
+            ExecAICommonAction("W_EstStart", 4600)
+            return TRUE
+        end
+    end
+    if action_type == 9910 and g_IsGuard == FALSE then
+        g_IsGuard = TRUE
+        SetVariable("IdleIndex", STATE_GUARD)
+        SetVariable("MoveIndex", STATE_GUARD)
+        ExecEvent("W_GuardStart")
+        return TRUE
+    elseif env(IsMoveCancelPossible) == TRUE and TRUE == MoveStart() then
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function ExecGuardAction()
+    local guard_damage = env(GetGuardLevelAction)
+    if guard_damage <= GUARD_LEVEL_NONE then
+        return FALSE
+    elseif guard_damage == GUARD_LEVEL_SMALL then
+        SetVariable("GuardIndex", 0)
+    elseif guard_damage == GUARD_LEVEL_MIDDLE then
+        SetVariable("GuardIndex", 0)
+    elseif guard_damage == GUARD_LEVEL_LARGE then
+        SetVariable("GuardIndex", 1)
+    elseif guard_damage == GUARD_LEVEL_EXLARGE then
+        SetVariable("GuardIndex", 1)
+    end
+    ExecEvent("W_Guard")
+    return TRUE
+end
+
+function MoveStart()
+    if g_MoveSpeedLevel <= 0 then
+        return FALSE
+    elseif -45 <= g_MoveAngle and g_MoveAngle < 45 then
+        if g_MoveSpeedLevel > 0.75 then
+            g_MoveState = MOVE_RUN
+            ExecEvent("W_Run")
+            return TRUE
+        else
+            g_MoveState = MOVE_WALK_FRONT
+            ExecEvent("W_WalkFront")
+            return TRUE
+        end
+    elseif g_MoveAngle >= 45 and g_MoveAngle < 135 then
+        g_MoveState = MOVE_WALK_RIGHT
+        ExecEvent("W_WalkRight")
+        return TRUE
+    elseif not (g_MoveAngle < 135 or g_MoveAngle > 180) or g_MoveAngle >= -180 and g_MoveAngle <= -135 then
+        g_MoveState = MOVE_WALK_BACK
+        ExecEvent("W_WalkBack")
+        return TRUE
+    elseif g_MoveAngle >= -135 and -45 > g_MoveAngle then
+        g_MoveState = MOVE_WALK_LEFT
+        ExecEvent("W_WalkLeft")
+        return TRUE
+    else
+        return FALSE
+    end
+end
+
+function MoveUpdate()
+    if g_MoveSpeedLevel <= 0 then
+        ExecEvent("W_Idle")
+        g_MoveState = MOVE_STOP
+        return TRUE
+    elseif -45 <= g_MoveAngle and g_MoveAngle < 45 then
+        if g_MoveSpeedLevel > 0.75 and g_MoveState ~= MOVE_RUN then
+            g_MoveState = MOVE_RUN
+            ExecEvent("W_Run")
+            return TRUE
+        elseif g_MoveState ~= MOVE_WALK_FRONT and g_MoveSpeedLevel < 0.75 then
+            g_MoveState = MOVE_WALK_FRONT
+            ExecEvent("W_WalkFront")
+            return TRUE
+        end
+    elseif g_MoveState ~= MOVE_WALK_RIGHT and g_MoveAngle >= 45 and g_MoveAngle < 135 then
+        g_MoveState = MOVE_WALK_RIGHT
+        ExecEvent("W_WalkRight")
+        return TRUE
+    elseif g_MoveState ~= MOVE_WALK_BACK and (not (g_MoveAngle < 135 or g_MoveAngle > 180) or g_MoveAngle >= -180 and g_MoveAngle <= -135) then
+        g_MoveState = MOVE_WALK_BACK
+        ExecEvent("W_WalkBack")
+        return TRUE
+    elseif g_MoveState ~= MOVE_WALK_LEFT and g_MoveAngle >= -135 and -45 > g_MoveAngle then
+        g_MoveState = MOVE_WALK_LEFT
+        ExecEvent("W_WalkLeft")
+        return TRUE
+    end
+    return FALSE
+end
+
+function ExecDamage()
+    local damage_level = env(GetDamageLevel)
+    local damage_type = env(GetReceivedDamageType)
+    if damage_type == 5 then
+        ExecEvent("W_DamageParry")
+        return TRUE
+    elseif damage_level <= 0 then
+        return FALSE
+    else
+        local hp = env(GetHP)
+        local is_weak = env(GetIsWeakPoint)
+        if is_weak == TRUE then
+            if damage_type == DAMAGE_TYPE_DEATH then
+                SetVariable("DeathIndex", DEATH_INDEX_WEAK)
+                ExecEvent("W_Death")
+                return TRUE
+            else
+                ExecEvent("W_DamageWeak")
+                return TRUE
+            end
+        elseif damage_type == DAMAGE_TYPE_SKYDEATH or env(IsFlying) == TRUE and hp <= 0 then
+            SetVariable("DeathIndex", DEATH_INDEX_SKY)
+            ExecEvent("W_Death")
+            return TRUE
+        elseif damage_type == DAMAGE_TYPE_DEATH or hp <= 0 then
+            if damage_level == 4 or damage_level == 7 or damage_level == 9 or damage_level == 10 or damage_level == 11 then
+                SetVariable("DeathIndex", DEATH_INDEX_BLAST)
+                ExecEvent("W_Death")
+                return TRUE
+            elseif damage_level == 6 then
+                SetVariable("DeathIndex", DEATH_INDEX_DUSTER)
+                ExecEvent("W_Death")
+                return TRUE
+            else
+                SetVariable("DeathIndex", DEATH_INDEX_DEFAULT)
+                ExecEvent("W_Death")
+                return TRUE
+            end
+        else
+            act(InterruptAttack)
+            local damage_direction = env(GetReceivedDamageDirection)
+            SetVariable("DamageDirection", damage_direction)
+            if damage_level == DAMAGE_LEVEL_SMALL then
+                ExecEvent("W_DamageSmall")
+                return TRUE
+            elseif damage_level == DAMAGE_LEVEL_MIDDLE then
+                ExecEvent("W_DamageMiddle")
+                return TRUE
+            elseif damage_level == DAMAGE_LEVEL_LARGE then
+                ExecEvent("W_DamageLarge")
+                return TRUE
+            elseif damage_level == DAMAGE_LEVEL_EXLARGE then
+                act(BlowDamageTurn)
+                ExecEvent("W_DamageLarge")
+                return TRUE
+            elseif damage_level == DAMAGE_LEVEL_PUSHED then
+                ExecEvent("W_DamagePushed")
+                return TRUE
+            elseif damage_level == DAMAGE_LEVEL_DUSTERED then
+                ExecEvent("W_DamageDuster")
+                return TRUE
+            elseif damage_level == DAMAGE_LEVEL_BLAST then
+                act(BlowDamageTurn)
+                ExecEvent("W_DamageBlast")
+                return TRUE
+            elseif damage_level == DAMAGE_LEVEL_MINIMUM then
+                ExecEvent("W_DamageMinimum")
+                return TRUE
+            else
+                return FALSE
+            end
+        end
+    end
+end
+
+function ExecFall()
+    if env(IsFalling) == FALSE then
+        return FALSE
+    else
+        SetVariable("FallIndex", FALL_INDEX_DEFAULT)
+        ExecEvent("W_Fall")
+        return TRUE
+    end
+end
+
+function ExecLand()
+    if env(IsLanding) == FALSE then
+        return FALSE
+    else
+        local height = env(GetFallHeight) / 100
+        local hp = env(GetHP)
+        local fall_type = hkbGetVariable("FallIndex")
+        if fall_type == FALL_INDEX_DEFAULT then
+            if height > 20 then
+                SetVariable("DeathIndex", DEATH_INDEX_LAND)
+                ExecEvent("W_Death")
+                return TRUE
+            elseif height > 5 then
+                SetVariable("LandIndex", LAND_INDEX_HEAVY)
+                ExecEvent("W_Land")
+                return TRUE
+            elseif height > 2 then
+                SetVariable("LandIndex", LAND_INDEX_DEFAULT)
+                ExecEvent("W_Land")
+                return TRUE
+            else
+                ExecEvent("W_Idle")
+                return TRUE
+            end
+        elseif fall_type == FALL_INDEX_FRONT then
+            if height > 20 or hp <= 0 then
+                SetVariable("DeathIndex", DEATH_INDEX_LANDFRONT)
+                ExecEvent("W_Death")
+                return TRUE
+            else
+                SetVariable("LandIndex", LAND_INDEX_FRONT)
+                ExecEvent("W_Land")
+                return TRUE
+            end
+        elseif fall_type == FALL_INDEX_BACK then
+            if height > 20 or hp <= 0 then
+                SetVariable("DeathIndex", DEATH_INDEX_LANDBACK)
+                ExecEvent("W_Death")
+                return TRUE
+            else
+                SetVariable("LandIndex", LAND_INDEX_BACK)
+                ExecEvent("W_Land")
+                return TRUE
+            end
+        else
+            return FALSE
+        end
+    end
+end
+
+function ExecFallDamage()
+    if env(IsFalling) == FALSE then
+        return FALSE
+    end
+    local damage_direction = env(GetReceivedDamageDirection)
+    if damage_direction >= DAMAGE_DIRECTION_LEFT and damage_direction <= DAMAGE_DIRECTION_FRONT then
+        SetVariable("FallIndex", FALL_INDEX_FRONT)
+    elseif damage_direction == DAMAGE_DIRECTION_BACK then
+        SetVariable("FallIndex", FALL_INDEX_BACK)
+    else
+        SetVariable("FallIndex", FALL_INDEX_DEFAULT)
+    end
+    ExecEvent("W_Fall")
+    return TRUE
+end
+
+function SetIdleFlag()
+    act(SetLadderActionState, -1)
+    act(ForceCancelThrowAnim)
+    act(RequestThrowAnimInterrupt)
+    act(SetAllowedThrowAttackType, 255)
+    act(SetAIBusyDoingAction, FALSE)
+    act(SwitchMotion, TRUE)
+    act(SetAttackType, -1)
+    act(SetAllowedThrowAttackType, 1)
+    act(SetAllowedThrowDefenseType, 0)
+    CallActionState(0)
+end
+
+function IdleCommonFunction()
+    act(SwitchMotion, TRUE)
+    if TRUE == env(HasThrowRequest) then
+        return
+    elseif TRUE == ExecGuardAction() then
+        return
+    elseif TRUE == ExecDamage() then
+        return
+    elseif TRUE == ExecFall() then
+        return
+    elseif TRUE == ExecAIAction() then
+        return
+    elseif TRUE == MoveStart() then
+        return
+    elseif TRUE == ExecTurn() then
+    end
+end
+
+function GuardCommonTransFunction()
+    if env(HasThrowRequest) == TRUE then
+        return
+    end
+    env(GetAIActionType)
+    if TRUE == ExecGuardAction() then
+        return
+    elseif TRUE == ExecDamage() then
+        return
+    elseif TRUE == ExecFall() then
+        return
+    elseif TRUE == ExecAICancelAction() then
+    end
+end
+
+function MoveCommonFunction()
+    act(SwitchMotion, TRUE)
+    if TRUE == env(HasThrowRequest) then
+        return
+    elseif TRUE == ExecGuardAction() then
+        return
+    elseif TRUE == ExecDamage() then
+        return
+    elseif TRUE == ExecFall() then
+        return
+    elseif TRUE == ExecAIAction() then
+        return
+    elseif TRUE == MoveUpdate() then
+    end
+end
+
+function AttackCommonFunction()
+    CallActionState(g_ActionNumber)
+    if env(HasThrowRequest) == TRUE then
+        return
+    elseif TRUE == ExecDamage() then
+        return
+    elseif TRUE == ExecFall() then
+        return
+    elseif TRUE == ExecAICancelAction() then
+        CallActionState(0)
+        return
+    elseif env(IsMoveCancelPossible) == TRUE and TRUE == MoveStart() then
+        CallActionState(0)
+        return TRUE
+    else
+    end
+end
+
+function StepCommonFunction()
+    CallActionState(g_ActionNumber)
+    if env(HasThrowRequest) == TRUE then
+        return
+    elseif TRUE == ExecDamage() then
+        return
+    elseif TRUE == ExecFall() then
+        return
+    elseif TRUE == ExecAICancelAction() then
+        CallActionState(0)
+        return
+    elseif env(IsMoveCancelPossible) == TRUE and TRUE == MoveStart() then
+        return TRUE
+    else
+    end
+end
+
+function DamageCommonFunction()
+    if env(HasThrowRequest) == TRUE then
+        return
+    elseif TRUE == ExecFallDamage() then
+        return
+    elseif TRUE == ExecDamage() then
+        return
+    elseif TRUE == ExecFall() then
+        return
+    elseif TRUE == ExecAICancelAction() then
+        return
+    elseif env(IsMoveCancelPossible) == TRUE and TRUE == MoveStart() then
+        return TRUE
+    else
+    end
+end
+
+function FallCommonFunction()
+    if env(HasThrowRequest) == TRUE then
+        return
+    elseif TRUE == ExecLand() then
+    end
+end
+
+function LandCommonFunction()
+    CallActionState(g_ActionNumber)
+    if env(HasThrowRequest) == TRUE then
+        return
+    elseif TRUE == ExecDamage() then
+        return
+    elseif TRUE == ExecFall() then
+        return
+    elseif TRUE == ExecAICancelAction() then
+        return
+    elseif env(IsMoveCancelPossible) == TRUE and TRUE == MoveStart() then
+        return TRUE
+    else
+    end
+end
+
+function CommonThrowDefFunction()
+    act(SetIsEventAnim)
+    act(SetAllowedThrowDefenseType, IS_THROW_INVALID)
+    act(SetAllowedThrowAttackType, IS_THROW_INVALID)
+    if env(GetGeneralTAEFlag, 1) == TRUE then
+        local hp = env(GetHP)
+        if hp <= 0 then
+            ExecEvent("W_ThrowDeath")
+        end
+    end
+    if env(IsMoveCancelPossible) == TRUE and TRUE == MoveStart() then
+        return TRUE
+    else
+    end
+end
+
+function IncNum(num)
+    local f27_local0 = nil
+    if num < 10 then
+        f27_local0 = "Debug0"
+    else
+        f27_local0 = "Debug"
+    end
+    vector = hkbGetVariable(f27_local0 .. num)
+    vector[0] = vector[0] + 1
+    vector[1] = g_FrameCount
+    SetVariable(f27_local0 .. num, vector)
+end
+
+function DebugPrint(pos, val)
+    local f28_local0 = nil
+    if pos < 10 then
+        f28_local0 = "Debug0"
+    else
+        f28_local0 = "Debug"
+    end
+    vector = hkbGetVariable(f28_local0 .. pos)
+    vector[0] = val
+    vector[1] = g_FrameCount
+    SetVariable(f28_local0 .. pos, vector)
+end
+
+function DebugPrintNext(val)
+    g_DebugCounter = g_DebugCounter + 1
+    if g_DebugCounter > 10 then
+        g_DebugCounter = 1
+    end
+    DebugPrint(g_DebugCounter, val)
+end
+
+function DebugPrints(val)
+    g_DebugCounterSub = g_DebugCounterSub + 1
+    if g_DebugCounterSub > 4 then
+        g_DebugCounterSub = 1
+        g_DebugCounter = g_DebugCounter + 1
+        if g_DebugCounter > 10 then
+            g_DebugCounter = 1
+        end
+    end
+    local f30_local0 = nil
+    if g_DebugCounter < 10 then
+        f30_local0 = "Debug0"
+    else
+        f30_local0 = "Debug"
+    end
+    vector = hkbGetVariable(f30_local0 .. g_DebugCounter)
+    vector[g_DebugCounterSub - 1] = val
+    SetVariable(f30_local0 .. g_DebugCounter, vector)
+end
+
+function PrintArray(val, num, index)
+    local f31_local0 = nil
+    if num < 10 then
+        f31_local0 = "Debug0"
+    else
+        f31_local0 = "Debug"
+    end
+    vector = hkbGetVariable(f31_local0 .. num)
+    vector[index] = val
+    SetVariable(f31_local0 .. num, vector)
+end
+
+function PrintString(str)
+    act(DebugLogOutput, str)
+end
+
+function Update()
+    g_FrameCount = g_FrameCount + 1
+    g_MoveSpeedLevel = hkbGetVariable("MoveSpeedLevel")
+    g_MoveAngle = hkbGetVariable("MoveAngle")
+    act(SwitchMotion, FALSE)
+end
+
+function Initialize()
+end
+
+------------------------
+-- Conditions 
+-- env( <condition>, <args> )
+-- *<args> are optional
+------------------------
+IsGeneralAnimEnd = 0
+IsAttackAnimEnd = 1
+AnimIDOffset = 9
+AdditiveBlendAnim = 10
+AdditiveBlendAnimOfSlot = 11
+
+IsAtkRequest = 100 -- args: <attack request index>
+IsAtkReleaseRequest = 101
+IsChainAtkRequest = 102
+GetAtkDuration = 103
+GetWeaponSwitchRequest = 104
+GetCommandIDFromEvent = 105
+GetAIActionType = 106
+GetAIChainActionType = 107
+GetChainEvadeRequest = 108
+GetWeaponChangeRequest = 109
+GetAnimIDFromMoveParam = 110
+IsThereAnyAtkRequest = 111
+IsThereAnyChainAtkRequest = 112
+IsItemUseMenuOpening = 113
+IsMagicUseMenuOpening = 114
+IsItemUseMenuOpened = 115
+IsMagicUseMenuOpened = 116
+GetBlendAnimIDFromMoveParam = 117
+GetAIChainStepType = 118
+GetTransitionToSpecialStayAnimID = 119
+GetAIAtkCancelType = 120
+GetWeaponCancelType = 121 -- args: <hand index>
+IsWeaponCancelPossible = 122 
+GetAIDefenseCancelType = 123
+GetAIVersusBackstabCancelType = 124
+
+IsFalling = 200
+IsLanding = 201
+GetReceivedDamageType = 202
+IsActiveActionValid = 203
+GetActionEventNumber = 204
+IsNormalDmgPassThroughDuringThrow = 205
+IsThrowing = 206
+GetWeaponSwitchState = 207
+IsEquipmentSwitchPossible = 209
+IsAnimCancelPossibleInAtkRelease = 210
+IsEmergencyStopAnimPlaying = 211
+GetLockRangeState = 212
+GetLockAngleState = 213
+IsAnimCancelPossibleInDamageHit = 214
+IsChangeToScrapeAtk = 215
+IsChangeToDeflectAtk = 216
+IsChangeToAfterParrySuccess = 217
+IsChangeFromNormalToBigAtk = 218
+GetMovementType = 219
+IsLargeAtkComboPossible = 220
+IsMapActionPossible = 221
+GetReceivedDamageDirection = 222
+GetMapActionID = 223
+GetFallHeight = 224
+GetEquipWeaponCategory = 225 -- args: <hand index>
+IsHoldingBow = 226
+GetMagicAnimType = 227
+WasNotLargeAtk = 228
+IsBackAtkPossible = 229
+IsAfterParryAtkPossible = 230
+GetItemAnimType = 231
+IsMagicUseable = 232 -- args: <hand index>, <unknown index>
+IsItemUseable = 233
+IsPrecisionShoot = 234
+IsFireDamaged = 235
+GetDamageLevel = 236
+GetGuardLevelAction = 237
+IsNewLeftHandAtkFromStay = 238
+IsParryFromIdle = 239
+IsGuardFromIdle = 240
+IsNewLeftHandAtkFromAtkCancel = 241
+IsParryFromAtkCancel = 242
+IsGuardFromAtkCancel = 243
+IsTiedUp = 244
+IsOutOfAmmo = 245 -- args: <slot index> # 1 is left slot, 0 is right slot
+IsUseCatLanding = 246
+GetHoverMoveState = 247
+IsTruelyLanding = 248
+IsRightHandMagic = 249
+IsChangeToSpecialStayAnim = 250
+GetSpecialStayAnimID = 251
+AcquireSpecialDamageAnimationID = 252
+IsRunTurnAnimPlaying = 253
+IsGenerateAction = 254
+GetSpecialStayCancelAnimID = 255
+HasReceivedAnyDamage = 256
+GetMoveAnimParamID = 257
+GetGuardLevel = 258
+IsRequestTurnAnimStart = 259
+IsTurningWithAnim = 260
+IsFlying = 261
+IsAbilityInsufficient = 262 -- args: <hand index>
+GetEquipWeightRatioForFalling = 263
+GetFlightMotionState = 264
+GetIsWeakPoint = 265
+GetMoveAnimBlendRatio = 266
+GetLadderActionState = 267
+IsInDisguise = 268
+IsCoopWait = 269
+IsCoop = 270
+IsSpecialTransitionPossible = 271
+GetLandingAnimBlendRatio = 272
+GetThrowAnimID = 273
+DidOpponentDieFromThrow = 274
+HasThrowEnded = 275
+IsThrowSelfDeath = 276
+IsThrowSuccess = 277
+GetGuardMotionCategory = 278 -- args: <hand index>
+IsBeingThrown = 279
+IsSelfThrow = 280
+IsThrowDeathState = 281
+GetNewLockState = 282
+IsOnLadder = 283
+GetPhysicalAttribute = 284
+GetSpecialAttribute = 285
+GetSpecialStayDeathAnimID = 286
+HasReceivedAnyDamage_AnimEnd = 287
+EggGrowth_IsHeadScratch = 288
+EggGrowth_IsBecomeEggHead = 289
+IsStop = 290
+IsSomeoneOnLadder = 291 -- args: <check distance>, <unknown index>
+IsSomeoneUnderLadder = 292 -- args: <check distance>, <unknown index>
+GetLadderHandState = 293
+DoesLadderHaveCharacters = 294 -- args: <check distance>, <unknown index>, <unknown index>
+IsLadderRightHandStayState = 295
+IsDescendingToFloor = 296
+IsInputDirectionMatch = 297
+IsSpecialTransition2Possible = 298
+IsVersusDivineDamage = 299
+
+IsGeneralAnimCancelPossible = 300
+GetEventEzStateFlag = 301 -- args: <EzState command id>
+IsLadderEventEnd = 302
+IsReachBottomOfLadder = 303
+IsReachTopOfLadder = 304
+GetStateChangeType = 305 -- args: <state change id>
+IsOnLastRungOfLadder = 306
+GetWeaponDurability = 311
+IsWeaponBroken = 312
+IsAnimEndBySkillCancel = 313
+EggGrowth_IsBecomeEgghead_SecondStage = 314
+IsHamariFallDeath = 315 -- args: <unknown index>
+IsClient = 316
+IsSlope = 317
+IsSwitchState = 318
+IsPressUpKey = 319
+IsSpecialTurning = 320
+GetIntValueForTest = 321
+IsObjActInterpolatedMotion = 322
+GetObjActTargetDirection = 323
+GetObjActRemainingInterpolateTime = 324
+IsGap = 325
+GetWeaponID = 326 -- args: <hand index>
+IsMovingLaterally = 327
+IsNet = 328
+HasBrokenSA = 329
+IsEmergencyQuickTurnActivated = 330
+IsDoubleChantPossible = 331
+IsAnimOver = 332
+ObtainedDT = 333
+GetBehaviorID = 334 -- args: <hand index>
+IsTwoHandPossible = 335 -- args: <hand index>
+IsPartDamageAdditiveBlendInvalid = 336
+IsThrowPosRealign = 337
+GetBoltLoadingState = 338 -- args: <slot index>
+IsAnimEnd = 339 -- args: <unknown index>
+IsTwinSwords = 340 -- args: <hand index>
+GetTurnAngleForDelayedTurn = 341
+GetThrowDefenseCount = 342
+IsEmergencyEvasionPossible = 343 -- args: <unknown index>
+HasEnoughArtsPoints = 344 -- args: <button index>, <hand index>
+GetEquipWeaponSpecialCategoryNumber = 345 -- args: <hand index>
+CheckForEventAnimPlaybackRequest = 346
+IsFemale = 347
+GetDelayTurnAngleDifference = 348
+IsDamageMotionOff = 349
+HasReachedStatsNeededForWeapon = 350 -- args: <hand index>  -- Checks for the attainmentWepStatus fields in EquipParamWeapon
+UpperArmControlOuterAngle = 351
+UpperArmControlTopAndBottomAngle = 352
+CompleteLadderSlideDown = 353
+GetLadderRungCount = 354
+GetNumberOfRungsBelowOnLadder = 355
+GetBowAndArrowSlot = 356
+GetWeaponStorageSpotType = 357 -- args: <hand index>
+GetStayAnimCategory = 358
+GetWeaponSwitchStatus = 359
+IsEquipmentMenuOpen = 360
+GetRemainingArrowCount = 361
+
+GetHP = 1000
+GetStamina = 1001
+IsGhost = 1002
+GetRandomInt = 1003
+GetRandomFloat = 1004
+IsUnableToDie = 1005
+IsResurrectionPossible = 1006
+IsCOMPlayer = 1007
+GetAITargetAwareState = 1008
+IsAIChangeToAwareState = 1009
+GetAITargetAwareStatePreviousFrame = 1010
+
+GetTestDamageAnimID = 1100
+IsInvincibleDebugMode = 1101
+WasGameLaunchedInPGTestMode = 1102
+IsTiltingStick = 1103
+GetGestureRequestNumber = 1104
+IsStayState = 1105
+ActionRequest = 1106 -- args: <action arm index>
+ActionCancelRequest = 1107 -- args: <action arm index>
+ActionDuration = 1108 -- args: <action arm index>
+HasActionRequest = 1109
+MovementRequest = 1110
+MovementRequestDuration = 1111
+HasThrowRequest = 1112
+IsGuardCancelPossible = 1113
+DoesAnimExist = 1114 -- args: <anim id>, *<anim id>
+GetAIMovementType = 1115
+GetSpEffectID = 1116
+IsConversationEnd = 1117
+IsLocked = 1118
+GetAtkDirection = 1119
+GetPartGroup = 1120
+GetKnockbackDistance = 1121
+
+IsMoveCancelPossible = 2000
+GetSpecialMovementType = 2002
+GetGeneralTAEFlag = 2003 -- args: <flag>
+IsSwingHitTarget = 2004
+GetCeremonyState = 2005
+GetSuccessiveGuardCount = 2006
+GetMinLuck = 2007
+GetAccumulatedLuck = 2008
+GetMaxLuck = 2009
+GetMaxStamina = 2010
+GetGeneralMSBParameter = 2011
+IsHitWall = 2012
+GetSafetyDirection = 2013
+IsInCeremony = 2014
+IsDoingCorpseCarryKeyframe = 2015
+GetFP = 2016
+IsCeremonyComplete = 2017
+IsCeremonyInterrupt = 2018
+
+GetSwordArtsCancelType = "剣戟キャンセルタイプを取得"
+IsWoman = "女性か"
+IsAnimationOver = "アニメ終了か"
+GetAmmunitionSlot = "弓矢スロット取得"
+GetWeaponAbilityReleaseStatus = "武器能力開放ステータス値到達か"
+CanCancelSwordArtsStance = "剣戟キャンセル可能か"
+IsCultCeremonyInterrupted = "儀式中断か"
+IsCultCeremonyComplete = "儀式完了か"
+
+------------------------
+-- Commands
+-- act( <command>, <args> )
+-- *<args> are optional
+------------------------
+ChangeGeneralAnim = 0
+ChangeUpperBodyAnim = 1
+ChangeStayAnim = 2
+ChangeGeneralAnimCategorized = 3 -- args: <anim category>, <anim id>, <layer index>, <blend>, <isLoop>
+ChangeUpperBodyAnimCategorized = 4
+ChangeGeneralAnimAdditiveCategorized = 5
+ChangeUpperBodyAnimAdditiveCategorized = 6
+ChangeGeneralAnimCategorizedMatchPlaybackTime = 7
+ChangeUpperBodyAnimCategorizedMatchPlaybackTime = 8
+SetAnimIDOffset = 9
+SetAdditiveBlendAnimation = 10
+SetAdditiveBlendAnimationSlotted = 11
+ChangeBlendAnimationCategorized = 12
+ChangeUpperAndLowerBodySyncedAnimCategorized = 13
+
+SetActiveActionState = 100
+SwitchMotion = 101 -- args: <bool> 
+SetAllowedThrowAttackType = 102 -- args: <index> # ENUM: THROW_STATE
+SetAllowedThrowDefenseType = 103 -- args: <index> # ENUM: THROW_STATE
+SwitchEquippedWeapon = 104 -- args: <slot index>
+SetReadyForAtkFinish = 105
+SetEquipmentChangeable = 106
+SetUnableToFall = 107
+SendMessageIDToEvents = 108 -- args: <event call>
+SetAttackType = 109 -- args: <index> # -1
+SetStaminaRecoveryDisabled = 110
+SetAIBusyDoingAction = 111
+BowTurn = 112
+SetBowStance = 113
+SetPreciseAimMode = 114
+SetSpecialMovement = 115
+SetIsWeaponChanging = 116
+SetIsItemInUse = 117 -- args: <bool>
+SetIsMagicInUse = 118 -- args: <bool>
+SetHoverState = 119
+RemoveBinoculars = 120
+ChangeToSpecialStay = 121
+SetIsHeadTurnPossible = 122
+OpenMenuWhenUsingItem = 123
+OpenMenuWhenUsingMagic = 124 -- args: <action arm index>
+BlowDamageTurn = 125
+SetDeathStay = 126 -- args: <bool> # TRUE, FALSE
+CloseMenuWhenUsingItem = 127
+CloseMenuWhenUsingMagic = 128
+DisallowAdditiveTurning = 129 -- args: <bool>
+ChangeFlightStatus = 130
+ShowFixedYAxisDirectionDisplay = 131
+WhiffPossibility = 132
+SetLadderActionState = 133 -- args: <index>
+SetInsufficientStrengthAnimID = 134
+ForceCancelThrowAnim = 135
+SetThrowState = 136 -- args: <index> # ENUM: THROW_TYPE
+StartSlidingDownLadder = 137
+SetIsEventActionPossible = 138 -- args: <bool>
+RequestThrowAnimInterrupt = 139
+SetHandStateOfLadder = 140
+SetDamageAnimType = 141 -- args: <index> # ENUM: DAMAGE_FLAG
+DownwardSlideTurn = 142 -- args: <index>
+InterruptAttack = 143
+SkyDeathWarp = 144
+ClearSlopeInfo = 145
+ReceiveStateInput = 146
+SetIsEquipmentChangeableFromMenu = 147
+SetHavokVariable = 148 -- args: <string>, <value>
+AimAtSelfPosition = 149
+SetIsItemAnimationPlaying = 150
+DoAIReplanningAtCancelTiming = 151
+DenyEventAnimPlaybackRequest = 152
+InvokeBackstab = 153
+WeaponParameterReference = 154 -- args: <hand index>
+AINotifyAttackType = 155 -- args: <index>
+SetAutoCaptureTarget = 156
+ClearAutoCaptureTarget = 157
+RequestAIReplanning = 158
+TurnTowardAttacker = 159
+SetThrowPossibilityState_Attacker = 160 -- args: <index>
+SetThrowPossibilityState_Defender = 161 -- args: <index>
+MarkOfGreedyPersonSlipDamageDisable = 162
+
+StateIdentifier = 200
+
+ChangeHP = 1000 -- args: <value>
+ChangeStamina = 1001 -- args: <value> # ENUM: STAMINA_REDUCE
+
+SyncAtInit_Active = 1100
+SyncAtInit_Passive = 1101
+
+SetMovementScaleMult = 2001 -- args: <value>
+AddSpEffect = 2002 -- args: <id>
+SetFastStealthThrowEnabled = 2003
+SetTurnSpeed = 2004 -- args: <degrees>
+SetCeremonyState = 2005
+SetDamageMotionBlendRatio = 2006 -- args: <value>
+SetForceTurnTarget = 2007
+ForceTurn = 2008
+SpecialTurn = 2009
+SetInSpecialGuard = 2010
+SetWeaponCancelType = 2011 -- args: <index>
+SetIsPreciseShootingPossible = 2012
+ChooseBowAndArrowSlot = 2013 -- args: <slot index> # 0, 1
+Set4DirectionMovementThreshold = 2014 -- args: <front right angle>, <front left angle>, <back left angle>, <back right angle> #
+LockonSystemUnableToTurnAngle = 2015 -- args: <angle>, <angle>
+ReserveArtsPointsUse = 2016 -- args: <button index>, <hand index>
+SetArtsPointFEDisplayState = 2017 -- args: <value> # 0, 1
+LockonFixedAngleCancel = 2018
+TurnToLockonTargetImmediately = 2019 -- args: *<value>
+SetSpecialInterpolation = 2020 -- args: <value>, <bool>
+LadderSlideDownCancel = 2021
+DisableMagicIDSwitching = 2022
+DisableToolIDSwitching = 2023
+UseItemDecision = 2024
+
+DebugLogOutput = 9000
+Test_SpEffectDelete = 9001
+Test_SpEffectTypeSpecifyDelete = 9002
+MarkerStart = 9003
+MarkerEnd = 9004
+
+Wait = 9100
+ResetInputQueue = 9101
+SetIsEventAnim = 9102
+SetAIAttackState = 9103 -- args: <index>
+SetIsTurnAnimInProgress = 9104
+SetTurnAnimCorrectionRate = 9105 -- args: <degrees>
+
+-- Japanese Strings
+ClearAutoLockOnTarget = "自動捕捉対象クリア"
+AutoLockOnTargetSetting = "自動捕捉対象設定"
+PrecisionShootPossible = "精密射撃可能か"
+AIReplanRequest = "AIへのリプランニング要求"
+BonfireReset = "貪欲者の印スリップダメージ無効"
+
+------------------------------------------
+-- Must be last for the global variables to be read
+------------------------------------------
+
+global = {["__index"] = function (table, element)
+    return dummy
+end}
+
+function dummy()
+end
+
+setmetatable(_G, global)

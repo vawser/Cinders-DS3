@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bnd4>
+  <filename>o005260.objbnd.dcx</filename>
+  <compression>DarkSouls3</compression>
+  <timestamp>07D7R6</timestamp>
+  <format>0x74</format>
+  <bigendian>False</bigendian>
+  <flag1>False</flag1>
+  <flag2>False</flag2>
+  <unicode>True</unicode>
+  <extended>0x04</extended>
+  <files>
+    <file>
+      <flags>0x40</flags>
+      <id>100</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>obj\o00\o005260\o005260.tpf</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>200</id>
+      <root>N:\FDP\data\INTERROOT_win64\</root>
+      <path>obj\o00\o005260\o005260.flver</path>
+    </file>
+  </files>
+</bnd4>

@@ -4,7 +4,7 @@
 // @game    DarkSouls3
 // @string    
 // @linked    []
-// @version    3.3.2
+// @version    3.4.1
 // ==/EMEVD==
 
 //----------------------------------------------
@@ -20,6 +20,30 @@ $Event(0, Default, function() {
     InitializeEvent(0, 9570, 4500, 3740); // Forked Pale Tongue
     InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
 
+    // Kill Tracker
+    SetSpEffect(10000, 200000010);
+    
+    // Estus Charge
+    SetSpEffect(10000, 200000020);
+    SetSpEffect(10000, 200000021);
+    
+    InitializeEvent(0, 10000, 0); // Darksign Warp
+    InitializeEvent(0, 10001, 0); // Effect: Player
+    InitializeEvent(0, 10002, 0); // Effect: Enemy
+    
+    InitializeEvent(0, 10004, 0); // Slave Knight Gael - Warp
+    InitializeEvent(0, 10005, 0); // Slave Knight Gael - Unlock Boss Fight
+    
+    //InitializeEvent(0, 10020, 0); // Imbued Artifacts
+    //InitializeEvent(0, 10021, 0); // Imbued Artifacts
+    //InitializeEvent(0, 10022, 0); // Imbued Artifacts
+    //InitializeEvent(0, 10023, 0); // Imbued Artifacts
+    
+    // Restrictions
+    InitializeEvent(0, 15000, 0);
+    InitializeEvent(0, 15001, 0);
+    InitializeEvent(0, 15002, 0);
+    
     // Trackers
     InitializeEvent(0, 20006, 0); // Baseline SpEffects
 
@@ -27,22 +51,59 @@ $Event(0, Default, function() {
     InitializeEvent(0, 20007, 0); // Covenant Material Drops - 1
     InitializeEvent(0, 20008, 0); // Covenant Material Drops - 2
     InitializeEvent(0, 20009, 0); // Covenant Consumable Drops
-
+    
     //--------------------
-    // Achievements
+    // Boss Teleports
     //--------------------
-    InitializeEvent(0, 20300, 0); // Setup
-
-    //--------------------
-    // Restraints
-    //--------------------
-    InitializeEvent(0, 20400, 0); // Setup
-
-    //--------------------
-    // Soul Coalescence
-    //--------------------
-    InitializeEvent(0, 20500, 0);
-
+    InitializeEvent( 0, 10006, 25000151, 3000972, 3002952, 30, 0); // Vordt
+    InitializeEvent( 1, 10006, 25000152, 3000971, 3002951, 30, 0); // Oceiros
+    InitializeEvent( 2, 10006, 25000150, 3000974, 3002954, 30, 0); // Dancer
+    
+    InitializeEvent( 3, 10006, 25000153, 3100971, 3102951, 31, 0); // Curse-rotted Greatwood
+    // TO ADD: Aborr
+    
+    InitializeEvent( 4, 10006, 25000154, 3200972, 3202952, 32, 0); // Nameless King
+    InitializeEvent( 5, 10006, 25000155, 3200970, 3202950, 32, 0); // Ancient Wyvern
+    // TO ADD: Trio of Explorers
+    
+    InitializeEvent( 6, 10006, 25000156, 3300972, 3302952, 33, 0); // Crystal Sage
+    InitializeEvent( 7, 10006, 25000157, 3300971, 3302951, 33, 0); // Abyss Watchers
+    
+    InitializeEvent( 8, 10006, 25000158, 3010971, 3012951, 30, 1); // Dragonslayer Armour
+    InitializeEvent( 9, 10006, 25000159, 3410970, 3412950, 34, 1); // Twin Princes
+    // TO ADD: Twisted Knight
+    // TO ADD: Mirror Knight
+    
+    InitializeEvent(10, 10006, 25000160, 3500973, 3502953, 35, 0); // Deacons of the Deep
+    // TO ADD: Cathedral Guardian
+    
+    InitializeEvent(11, 10006, 25000161, 3700971, 3702951, 37, 0); // Pontiff Sulyvahn
+    InitializeEvent(12, 10006, 25000162, 3700972, 3702952, 37, 0); // Aldrich
+    // TO ADD: Lordran Remnants
+    
+    InitializeEvent(13, 10006, 25000163, 3800970, 3802950, 38, 0); // Wolnir
+    InitializeEvent(14, 10006, 25000164, 3800974, 3802954, 38, 0); // Old Demon King
+    
+    InitializeEvent(15, 10006, 25000165, 3900971, 3902951, 39, 0); // Yhorm
+    // TO ADD: Fallen Protector
+    
+    InitializeEvent(16, 10006, 25000166, 4500970, 4502950, 45, 0); // Sister Friede
+    // REMOVE InitializeEvent(17, 10006, 25000167, 4500976, 4502956, 45, 0); // Gravetender
+    // TO ADD: Prince Dorthinus
+    // TO ADD: Princess Yngvil
+    
+    InitializeEvent(18, 10006, 25000168, 5000973, 5002953, 50, 0); // Demon Prince
+    
+    InitializeEvent(19, 10006, 25000169, 5100970, 5102950, 51, 0); // Halflight
+    InitializeEvent(20, 10006, 25000170, 5100971, 5102951, 51, 0); // Midir
+    
+    InitializeEvent(21, 10006, 25000172, 4000976, 4002951, 40, 0); // Champion Gundyr
+    // TO ADD: The Marauder
+    
+    InitializeEvent(22, 10006, 25000173, 4100975, 4102955, 41, 0); // Soul of Cinder
+    
+    InitializeEvent(0, 10007, 25000171, 5110974, 5112954, 51, 1); // Gael
+    
     //--------------------
     // Visual Effects
     //--------------------
@@ -65,118 +126,39 @@ $Event(0, Default, function() {
 
     InitializeEvent(0, 20600, 0); // FOV - Monitor
 
-    //--------------------
-    // Curses - Add Player Effects
-    //--------------------
-    InitializeEvent(0, 20010, 25000400, 250001000, 250001010); // Curse of Pride - 10%
-    InitializeEvent(1, 20010, 25000401, 250001000, 250001011); // Curse of Pride - 20%
-    InitializeEvent(2, 20010, 25000402, 250001000, 250001012); // Curse of Pride - 30%
-    InitializeEvent(3, 20010, 25000403, 250001000, 250001013); // Curse of Pride - 40%
-    InitializeEvent(4, 20010, 25000404, 250001000, 250001014); // Curse of Pride - 50%
-    InitializeEvent(5, 20010, 25000405, 250001000, 250001015); // Curse of Pride - 60%
-    InitializeEvent(6, 20010, 25000406, 250001000, 250001016); // Curse of Pride - 70%
-    InitializeEvent(7, 20010, 25000407, 250001000, 250001017); // Curse of Pride - 80%
-    InitializeEvent(8, 20010, 25000408, 250001000, 250001018); // Curse of Pride - 90%
-    InitializeEvent(9, 20010, 25000409, 250001000, 250001019); // Curse of Pride - 100%
-
-    InitializeEvent(10, 20010, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
-    InitializeEvent(11, 20010, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
-    InitializeEvent(12, 20010, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
-    InitializeEvent(13, 20010, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
-    InitializeEvent(14, 20010, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
-    InitializeEvent(15, 20010, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
-    InitializeEvent(16, 20010, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
-    InitializeEvent(17, 20010, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
-    InitializeEvent(18, 20010, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
-    InitializeEvent(19, 20010, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
-
-    InitializeEvent(20, 20010, 25000420, 250001300, 250001310); // Curse of Vitality - 10
-    InitializeEvent(21, 20010, 25000421, 250001300, 250001311); // Curse of Vitality - 20
-    InitializeEvent(22, 20010, 25000422, 250001300, 250001312); // Curse of Vitality - 30
-    InitializeEvent(23, 20010, 25000423, 250001300, 250001313); // Curse of Vitality - 40
-    InitializeEvent(24, 20010, 25000424, 250001300, 250001314); // Curse of Vitality - 50
-    InitializeEvent(25, 20010, 25000425, 250001300, 250001315); // Curse of Vitality - 60
-    InitializeEvent(26, 20010, 25000426, 250001300, 250001316); // Curse of Vitality - 70
-    InitializeEvent(27, 20010, 25000427, 250001300, 250001317); // Curse of Vitality - 80
-    InitializeEvent(28, 20010, 25000428, 250001300, 250001318); // Curse of Vitality - 90
-    InitializeEvent(29, 20010, 25000429, 250001300, 250001319); // Curse of Vitality - 100
-
-    InitializeEvent(30, 20010, 25000430, 250001400, 250001410); // Curse of Wrath - 10
-    InitializeEvent(31, 20010, 25000431, 250001400, 250001411); // Curse of Wrath - 20
-    InitializeEvent(32, 20010, 25000432, 250001400, 250001412); // Curse of Wrath - 30
-    InitializeEvent(33, 20010, 25000433, 250001400, 250001413); // Curse of Wrath - 40
-    InitializeEvent(34, 20010, 25000434, 250001400, 250001414); // Curse of Wrath - 50
-    InitializeEvent(35, 20010, 25000435, 250001400, 250001415); // Curse of Wrath - 60
-    InitializeEvent(36, 20010, 25000436, 250001400, 250001416); // Curse of Wrath - 70
-    InitializeEvent(37, 20010, 25000437, 250001400, 250001417); // Curse of Wrath - 80
-    InitializeEvent(38, 20010, 25000438, 250001400, 250001418); // Curse of Wrath - 90
-    InitializeEvent(39, 20010, 25000439, 250001400, 250001419); // Curse of Wrath - 100
-
-    InitializeEvent(40, 20010, 25000440, 250001500, 250001510); // Curse of Attraction
-    InitializeEvent(41, 20010, 25000450, 250001600, 250001610); // Curse of Obscurity
-    InitializeEvent(42, 20010, 25000460, 250001700, 250001710); // Curse of Simplicity
-    InitializeEvent(43, 20010, 25000470, 250001800, 250001810); // Curse of Gluttony
-    InitializeEvent(44, 20010, 25000480, 250001900, 250001910); // Curse of Frailty
-    InitializeEvent(45, 20010, 25000490, 250002000, 250002010); // Curse of Enfeeblement
-    InitializeEvent(46, 20010, 25000500, 250002100, 250002110); // Curse of Impermanence
-    InitializeEvent(47, 20010, 25000501, 250002200, 250002210); // Curse of Valor
-
-    //--------------------
-    // Curses - Remove Player Effects
-    //--------------------
-    InitializeEvent(0, 20020, 25000400, 250001000, 250001010); // Curse of Pride - 10%
-    InitializeEvent(1, 20020, 25000401, 250001000, 250001011); // Curse of Pride - 20%
-    InitializeEvent(2, 20020, 25000402, 250001000, 250001012); // Curse of Pride - 30%
-    InitializeEvent(3, 20020, 25000403, 250001000, 250001013); // Curse of Pride - 40%
-    InitializeEvent(4, 20020, 25000404, 250001000, 250001014); // Curse of Pride - 50%
-    InitializeEvent(5, 20020, 25000405, 250001000, 250001015); // Curse of Pride - 60%
-    InitializeEvent(6, 20020, 25000406, 250001000, 250001016); // Curse of Pride - 70%
-    InitializeEvent(7, 20020, 25000407, 250001000, 250001017); // Curse of Pride - 80%
-    InitializeEvent(8, 20020, 25000408, 250001000, 250001018); // Curse of Pride - 90%
-    InitializeEvent(9, 20020, 25000409, 250001000, 250001019); // Curse of Pride - 100%
-
-    InitializeEvent(10, 20020, 25000410, 250001100, 250001110); // Curse of Fortitude - 5%
-    InitializeEvent(11, 20020, 25000411, 250001100, 250001111); // Curse of Fortitude - 10%
-    InitializeEvent(12, 20020, 25000412, 250001100, 250001112); // Curse of Fortitude - 15%
-    InitializeEvent(13, 20020, 25000413, 250001100, 250001113); // Curse of Fortitude - 20%
-    InitializeEvent(14, 20020, 25000414, 250001100, 250001114); // Curse of Fortitude - 25%
-    InitializeEvent(15, 20020, 25000415, 250001100, 250001115); // Curse of Fortitude - 30%
-    InitializeEvent(16, 20020, 25000416, 250001100, 250001116); // Curse of Fortitude - 35%
-    InitializeEvent(17, 20020, 25000417, 250001100, 250001117); // Curse of Fortitude - 40%
-    InitializeEvent(18, 20020, 25000418, 250001100, 250001118); // Curse of Fortitude - 45%
-    InitializeEvent(19, 20020, 25000419, 250001100, 250001119); // Curse of Fortitude - 50%
-
-    InitializeEvent(20, 20020, 25000420, 250001300, 250001310); // Curse of Vitality - 10
-    InitializeEvent(21, 20020, 25000421, 250001300, 250001311); // Curse of Vitality - 20
-    InitializeEvent(22, 20020, 25000422, 250001300, 250001312); // Curse of Vitality - 30
-    InitializeEvent(23, 20020, 25000423, 250001300, 250001313); // Curse of Vitality - 40
-    InitializeEvent(24, 20020, 25000424, 250001300, 250001314); // Curse of Vitality - 50
-    InitializeEvent(25, 20020, 25000425, 250001300, 250001315); // Curse of Vitality - 60
-    InitializeEvent(26, 20020, 25000426, 250001300, 250001316); // Curse of Vitality - 70
-    InitializeEvent(27, 20020, 25000427, 250001300, 250001317); // Curse of Vitality - 80
-    InitializeEvent(28, 20020, 25000428, 250001300, 250001318); // Curse of Vitality - 90
-    InitializeEvent(29, 20020, 25000429, 250001300, 250001319); // Curse of Vitality - 100
-
-    InitializeEvent(30, 20020, 25000430, 250001400, 250001410); // Curse of Wrath - 10
-    InitializeEvent(31, 20020, 25000431, 250001400, 250001411); // Curse of Wrath - 20
-    InitializeEvent(32, 20020, 25000432, 250001400, 250001412); // Curse of Wrath - 30
-    InitializeEvent(33, 20020, 25000433, 250001400, 250001413); // Curse of Wrath - 40
-    InitializeEvent(34, 20020, 25000434, 250001400, 250001414); // Curse of Wrath - 50
-    InitializeEvent(35, 20020, 25000435, 250001400, 250001415); // Curse of Wrath - 60
-    InitializeEvent(36, 20020, 25000436, 250001400, 250001416); // Curse of Wrath - 70
-    InitializeEvent(37, 20020, 25000437, 250001400, 250001417); // Curse of Wrath - 80
-    InitializeEvent(38, 20020, 25000438, 250001400, 250001418); // Curse of Wrath - 90
-    InitializeEvent(39, 20020, 25000439, 250001400, 250001419); // Curse of Wrath - 100
-
-    InitializeEvent(40, 20020, 25000440, 250001500, 250001510); // Curse of Attraction
-    InitializeEvent(41, 20020, 25000450, 250001600, 250001610); // Curse of Obscurity
-    InitializeEvent(42, 20020, 25000460, 250001700, 250001710); // Curse of Simplicity
-    InitializeEvent(43, 20020, 25000470, 250001800, 250001810); // Curse of Gluttony
-    InitializeEvent(44, 20020, 25000480, 250001900, 250001910); // Curse of Frailty
-    InitializeEvent(45, 20020, 25000490, 250002000, 250002010); // Curse of Enfeeblement
-    InitializeEvent(46, 20020, 25000500, 250002100, 250002110); // Curse of Impermanence
-    InitializeEvent(47, 20020, 25000501, 250002200, 250002210); // Curse of Valor
-
+    // Castigations
+    InitializeEvent(0, 14000, 0); // Castigations - Player
+    InitializeEvent(0, 14010, 0); // Castigations - Enemy
+    
+    InitializeEvent( 0, 14020, 25000900, 110); // Abyssal Maw
+    InitializeEvent( 1, 14020, 25000901, 110); // Brittle Bones
+    InitializeEvent( 2, 14020, 25000902, 120); // Fresh Meat
+    InitializeEvent( 3, 14020, 25000903, 120); // Fading Flasks
+    InitializeEvent( 4, 14020, 25000904, 120); // Lethargic Mind
+    InitializeEvent( 5, 14020, 25000905, 110); // Wounded Fury
+    InitializeEvent( 6, 14020, 25000906, 110); // Thick Hides
+    InitializeEvent( 7, 14020, 25000907, 110); // Stout Hearts
+    InitializeEvent( 8, 14020, 25000908, 110); // Regenerative Skin
+    InitializeEvent( 9, 14020, 25000909, 120); // Spectral Shift
+    InitializeEvent(10, 14020, 25000910, 120); // Relentlessness
+    InitializeEvent(11, 14020, 25000911, 120); // Alacrity
+    
+    // Ashes Unlocks
+    InitializeEvent(0, 10025, 2107, 70000100); // Mortician's Ashes
+    InitializeEvent(1, 10025, 2108, 70000101); // Dreamchaser's Ashes
+    InitializeEvent(2, 10025, 2109, 70000102); // Paladin's Ashes
+    InitializeEvent(3, 10025, 2110, 70000103); // Grave Warden's Ashes
+    InitializeEvent(4, 10025, 2146, 70000104); // Excrement-covered Ashes
+    InitializeEvent(5, 10025, 2147, 70000105); // Prisoner Chief's Ashes
+    InitializeEvent(6, 10025, 2148, 70000106); // Xanthous Ashes
+    InitializeEvent(7, 10025, 2149, 70000107); // Hollow's Ashes
+    InitializeEvent(8, 10025, 2151, 70000108); // Dragon Chaser's Ashes
+    InitializeEvent(9, 10025, 2152, 70000109); // Easterner's Ashes  
+    InitializeEvent(10, 10025, 2154, 70000120); // Captain's Ashes
+    
+    // Tome Unlocks
+    //InitializeEvent( 0, 10010, 200300100, 2174, 200); // Sage's Scroll
+    
     //--------------------
     // Items
     //--------------------
@@ -199,6 +181,58 @@ $Event(0, Default, function() {
     InitializeEvent(0, 20061, 10000); // Screenshot Tool
     InitializeEvent(0, 20062, 10000); // Treasure Tool
     InitializeEvent(0, 20063, 10000); // NG+ Tool
+    
+    //----------------------
+    // Accursed - Detriment System
+    //----------------------
+    InitializeEvent(0, 12000, 0); // Award Notes after Death
+    
+    InitializeEvent( 0, 12010, 8000, 200600000, 20000400); // HP Reduction
+    InitializeEvent( 1, 12010, 8001, 200600001, 20000410); // FP Reduction
+    InitializeEvent( 2, 12010, 8002, 200600002, 20000420); // Stamina Reduction
+    InitializeEvent( 3, 12010, 8003, 200600003, 20000430); // Equipment Load Reduction
+    InitializeEvent( 4, 12010, 8004, 200600004, 20000440); // HP Recovery Diminishment
+    
+    InitializeEvent( 5, 12010, 8005, 200600005, 20000450); // Vigor Loss
+    InitializeEvent( 6, 12010, 8006, 200600006, 20000460); // Attunement Loss
+    InitializeEvent( 7, 12010, 8007, 200600007, 20000470); // Vitality Loss
+    InitializeEvent( 7, 12010, 8008, 200600008, 20000480); // Endurance Loss
+    InitializeEvent( 8, 12010, 8009, 200600009, 20000490); // Strength Loss
+    InitializeEvent( 9, 12010, 8010, 200600010, 20000100); // Dexterity Loss
+    InitializeEvent(10, 12010, 8011, 200600011, 20000110); // Intelligence Loss
+    InitializeEvent(11, 12010, 8012, 200600012, 20000120); // Faith Loss
+    InitializeEvent(12, 12010, 8013, 200600013, 20000130); // Luck Loss
+    
+    InitializeEvent(13, 12010, 8014, 200600014, 20000140); // Stamina Drain
+    
+    InitializeEvent(14, 12010, 8015, 200600015, 20000150); // Physical Weakness
+    InitializeEvent(15, 12010, 8016, 200600016, 20000160); // Magic Weakness
+    InitializeEvent(16, 12010, 8017, 200600017, 20000170); // Fire Weakness
+    InitializeEvent(17, 12010, 8018, 200600018, 20000180); // Lightning Weakness
+    InitializeEvent(18, 12010, 8019, 200600019, 20000190); // Dark Weakness
+    
+    InitializeEvent(19, 12010, 8020, 200600020, 20000200); // Slash Frailty
+    InitializeEvent(20, 12010, 8021, 200600021, 20000210); // Strike Frailty
+    InitializeEvent(21, 12010, 8022, 200600022, 20000220); // Thrust Frailty
+    InitializeEvent(22, 12010, 8023, 200600023, 20000230); // Standard Frailty
+    InitializeEvent(23, 12010, 8024, 200600024, 20000240); // Magic Frailty
+    InitializeEvent(24, 12010, 8025, 200600025, 20000250); // Fire Frailty
+    InitializeEvent(25, 12010, 8026, 200600026, 20000260); // Lightning Frailty
+    InitializeEvent(26, 12010, 8028, 200600027, 20000270); // Dark Frailty
+    InitializeEvent(27, 12010, 8028, 200600028, 20000280); // Poise Frailty
+    
+    InitializeEvent(28, 12010, 8029, 200600029, 20000290); // Poison Vulnerability
+    InitializeEvent(29, 12010, 8030, 200600030, 20000300); // Bleed Vulnerability
+    InitializeEvent(30, 12010, 8031, 200600031, 20000310); // Frost Vulnerability
+    InitializeEvent(31, 12010, 8032, 200600032, 20000320); // Curse Vulnerability
+     
+    InitializeEvent(32, 12010, 8033, 200600033, 20000330); // Soul Drain
+    InitializeEvent(33, 12010, 8034, 200600034, 20000340); // Skill Confusion
+    InitializeEvent(34, 12010, 8035, 200600035, 20000350); // Sorcery Confusion
+    InitializeEvent(35, 12010, 8036, 200600036, 20000360); // Pyromancy Confusion
+    InitializeEvent(36, 12010, 8037, 200600037, 20000370); // Miracle Confusion
+    InitializeEvent(37, 12010, 8038, 200600038, 20000380); // Clumsy Form
+    InitializeEvent(38, 12010, 8039, 200600039, 20000390); // Tourist
 
     //-----------------------------------
     // Run for Host only
@@ -211,140 +245,6 @@ $Event(0, Default, function() {
     //--------------------
     InitializeEvent(0, 20001, 0); // Game Flags - Once
     InitializeEvent(0, 20002, 0); // Game Flags - On Load
-
-    //--------------------
-    // Journey Configuration
-    //--------------------
-    // Modes
-    InitializeEvent(0, 20050, 0); // Standard Mode
-    InitializeEvent(0, 20051, 0); // Wanderer Mode
-    InitializeEvent(0, 20052, 0); // Mythic Mode
-    InitializeEvent(0, 20054, 0); // Explorer Mode
-    InitializeEvent(0, 20055, 0); // Gauntlet Mode
-    InitializeEvent(0, 20056, 0); // Onslaught Mode
-    InitializeEvent(0, 20057, 0); // Corruption Mode
-
-    InitializeEvent(0, 20059, 0); // Starting Location
-
-    // Gauntlet Features
-    InitializeEvent(0, 20070, 0); // Gauntlet Mode
-    InitializeEvent(0, 20071, 0); // Gauntlet Mode - Set/Endless Gauntlet
-    InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Gauntlet
-    InitializeEvent(0, 20073, 0); // Gauntlet Mode - Set/Endless Gauntlet - Reverse
-
-    InitializeEvent(0, 20079, 0); // Gauntlet Mode - Reset Progress
-
-    // Boon Effects
-    InitializeEvent(0, 20081, 41000, 260110000, 260110100); // Corrupted Gundyr
-    InitializeEvent(1, 20081, 41001, 260110001, 260110101); // Vordt
-    InitializeEvent(2, 20081, 41002, 260110002, 260110102); // Rotted Greatwood
-    InitializeEvent(3, 20081, 41003, 260110003, 260110103); // Crystal Sage
-    InitializeEvent(4, 20081, 41004, 260110004, 260110104); // Deacons of the Deep
-    InitializeEvent(5, 20081, 41005, 260110005, 260110105); // Abyss Watchers
-    InitializeEvent(6, 20081, 41006, 260110006, 260110106); // High Lord Wolnir
-    InitializeEvent(7, 20081, 41007, 260110007, 260110107); // Old Demon King
-    InitializeEvent(8, 20081, 41008, 260110008, 260110108); // Pontiff Sulyvahn
-    InitializeEvent(9, 20081, 41009, 260110009, 260110109); // Aldrich
-    InitializeEvent(10, 20081, 41010, 260110010, 260110110); // Yhorm
-    InitializeEvent(11, 20081, 41011, 260110011, 260110111); // Dancer
-    InitializeEvent(12, 20081, 41012, 260110012, 260110112); // Oceiros
-    InitializeEvent(13, 20081, 41013, 260110013, 260110113); // Dragonslayer Armour
-    InitializeEvent(14, 20081, 41014, 260110014, 260110114); // Ancient Wyvern
-    InitializeEvent(15, 20081, 41015, 260110015, 260110115); // Nameless King
-    InitializeEvent(16, 20081, 41016, 260110016, 260110116); // Champion Gundyr
-    InitializeEvent(17, 20081, 41017, 260110017, 260110117); // Twin Princes
-    InitializeEvent(18, 20081, 41018, 260110018, 260110118); // Soul of Cinder
-    InitializeEvent(19, 20081, 41019, 260110019, 260110119); // Sister Friede
-    InitializeEvent(20, 20081, 41020, 260110020, 260110120); // Demon Prince
-    InitializeEvent(21, 20081, 41021, 260110021, 260110121); // Midir
-    InitializeEvent(22, 20081, 41022, 260110022, 260110122); // Slave Knight Gael
-    InitializeEvent(23, 20081, 41023, 260110023, 260110123); // Halflight
-    InitializeEvent(24, 20081, 41024, 260110029, 260110129); // Prince Dorthinus
-    InitializeEvent(25, 20081, 41025, 260110026, 260110126); // Cathedral Guardian
-    InitializeEvent(26, 20081, 41026, 260110027, 260110127); // Mirror Knight
-    InitializeEvent(27, 20081, 41027, 260110028, 260110128); // Aborr
-    InitializeEvent(28, 20081, 41028, 260110025, 260110125); // Princess Yngvil
-    InitializeEvent(29, 20081, 41029, 260110030, 260110130); // Trio of Explorers
-    InitializeEvent(30, 20081, 41030, 260110031, 260110131); // Twisted Knight
-    InitializeEvent(31, 20081, 41031, 260110032, 260110132); // Fallen Protector
-    InitializeEvent(32, 20081, 41032, 260110033, 260110133); // Marauder
-    InitializeEvent(33, 20081, 41033, 260110020, 260110120); // Lordran Remnants
-
-    // Malus Effects
-    InitializeEvent(0, 20082, 42000, 260111000); // Corrupted Gundyr
-    InitializeEvent(1, 20082, 42001, 260111001); // Vordt
-    InitializeEvent(2, 20082, 42002, 260111002); // Rotted Greatwood
-    InitializeEvent(3, 20082, 42003, 260111003); // Crystal Sage
-    InitializeEvent(4, 20082, 42004, 260111004); // Deacons of the Deep
-    InitializeEvent(5, 20082, 42005, 260111005); // Abyss Watchers
-    InitializeEvent(6, 20082, 42006, 260111006); // High Lord Wolnir
-    InitializeEvent(7, 20082, 42007, 260111007); // Old Demon King
-    InitializeEvent(8, 20082, 42008, 260111008); // Pontiff Sulyvahn
-    InitializeEvent(9, 20082, 42009, 260111009); // Aldrich
-    InitializeEvent(10, 20082, 42010, 260111010); // Yhorm
-    InitializeEvent(11, 20082, 42011, 260111011); // Dancer
-    InitializeEvent(12, 20082, 42012, 260111012); // Oceiros
-    InitializeEvent(13, 20082, 42013, 260111013); // Dragonslayer Armour
-    InitializeEvent(14, 20082, 42014, 260111014); // Ancient Wyvern
-    InitializeEvent(15, 20082, 42015, 260111015); // Nameless King
-    InitializeEvent(16, 20082, 42016, 260111016); // Champion Gundyr
-    InitializeEvent(17, 20082, 42017, 260111017); // Twin Princes
-    InitializeEvent(18, 20082, 42018, 260111018); // Soul of Cinder
-    InitializeEvent(19, 20082, 42019, 260111019); // Sister Friede
-    InitializeEvent(20, 20082, 42020, 260111021); // Demon Prince
-    InitializeEvent(21, 20082, 42021, 260111022); // Midir
-    InitializeEvent(22, 20082, 42022, 260111023); // Slave Knight Gael
-    InitializeEvent(23, 20082, 42023, 260111024); // Halflight
-    InitializeEvent(24, 20082, 42024, 260111029); // Prince Dorthinus
-    InitializeEvent(25, 20082, 42025, 260111026); // Cathedral Guardian
-    InitializeEvent(26, 20082, 42026, 260111027); // Mirror Knight
-    InitializeEvent(27, 20082, 42027, 260111028); // Aborr
-    InitializeEvent(28, 20082, 42028, 260111025); // Princess Yngvil
-    InitializeEvent(29, 20082, 42029, 260111030); // Trio of Explorers
-    InitializeEvent(30, 20082, 42030, 260111031); // Twisted Knight
-    InitializeEvent(31, 20082, 42031, 260111032); // Fallen Protector
-    InitializeEvent(32, 20082, 42032, 260111033); // Marauder
-    InitializeEvent(33, 20082, 42033, 260111020); // Lordran Remnants
-
-    //--------------------
-    // Boss Revival
-    //--------------------
-    InitializeEvent(0, 20100, 0); // Corrupted Gundyr
-    InitializeEvent(0, 20101, 0); // Vordt
-    InitializeEvent(0, 20102, 0); // Curse-rotted Greatwood
-    InitializeEvent(0, 20103, 0); // Crystal Sage
-    InitializeEvent(0, 20104, 0); // Deacons of the Deep
-    InitializeEvent(0, 20105, 0); // Abyss Watchers
-    InitializeEvent(0, 20106, 0); // High Lord Wolnir
-    InitializeEvent(0, 20107, 0); // Old Demon King
-    InitializeEvent(0, 20108, 0); // Pontiff Sulyvahn
-    InitializeEvent(0, 20109, 0); // Aldrich
-    InitializeEvent(0, 20110, 0); // Yhorm the Giant
-    InitializeEvent(0, 20111, 0); // Dancer
-    InitializeEvent(0, 20112, 0); // Oceiros
-    InitializeEvent(0, 20113, 0); // Dragonslayer Armour
-    InitializeEvent(0, 20114, 0); // Ancient Wyvern
-    InitializeEvent(0, 20115, 0); // Nameless King
-    InitializeEvent(0, 20116, 0); // Champion Gundyr
-    InitializeEvent(0, 20117, 0); // Twin Princes
-    InitializeEvent(0, 20118, 0); // Soul of Cinder
-    InitializeEvent(0, 20119, 0); // Sister Friede
-    InitializeEvent(0, 20120, 0); // Lordran Remnants
-    InitializeEvent(0, 20121, 0); // Demon Prince
-    InitializeEvent(0, 20122, 0); // Darkeater Midir
-    InitializeEvent(0, 20123, 0); // Slave Knight Gael
-    InitializeEvent(0, 20124, 0); // Halflight
-    InitializeEvent(0, 20125, 0); // Champions of Yore
-    InitializeEvent(0, 20126, 0); // Prince Dorthinus
-    InitializeEvent(0, 20127, 0); // Cathedral Guardian
-    InitializeEvent(0, 20128, 0); // Mirror Knight
-    InitializeEvent(0, 20129, 0); // Aborr
-    InitializeEvent(0, 20130, 0); // Princess Yngvil
-    InitializeEvent(0, 20131, 0); // Trio of Explorers
-    InitializeEvent(0, 20132, 0); // Twisted Knight
-    InitializeEvent(0, 20133, 0); // Fallen Protector
-    InitializeEvent(0, 20134, 0); // Titanite Abomination
-    InitializeEvent(0, 20135, 0); // The Marauder
 
     // Sin
     InitializeEvent(0, 9004, 9007); // Sin - Check Hostility
@@ -1835,9 +1735,6 @@ $Event(690, Default, function(X0_4, X4_4, X8_4, X12_4) {
     RestartEvent();
 });
 
-//----------------------------------------------
-//
-//----------------------------------------------
 $Event(840, Default, function(X0_4, X4_4, X8_4, X12_4) {
     SetEventFlag(X0_4, OFF);
     WaitFor(EventFlag(X0_4));
@@ -1856,15 +1753,521 @@ $Event(840, Default, function(X0_4, X4_4, X8_4, X12_4) {
     RestartEvent();
 });
 
-//----------------------------------------------
-//
-//----------------------------------------------
 $Event(870, Default, function(X0_1, X4_4) {
     WaitFor(PlayersCovenant(X0_1));
     SetEventFlag(X4_4, ON);
     WaitFor(!PlayersCovenant(X0_1));
     SetEventFlag(X4_4, OFF);
     RestartEvent();
+});
+
+// Darksign - Warp to World's End
+$Event(10000, Default, function(X0_1, X4_4) {
+    WaitFor(CharacterHasSpEffect(10000, 3227, ComparisonType.Equal, 1));
+    
+    // Deathless Prison
+    if(EventFlag(25000132))
+    {
+        WarpPlayer(51, 1, 5110975);
+        SetPlayerRespawnPoint(5112955);
+        EndEvent();
+    }
+    
+    // Normal
+    if(EventFlag(25000100))
+    {
+        WarpPlayer(51, 1, 5110970);
+        SetPlayerRespawnPoint(5112950);
+    }
+    else // Game Start
+    {
+        WarpPlayer(51, 1, 5110973);
+        SetPlayerRespawnPoint(5112953);
+    }
+});
+
+// Effect: Player
+$Event(10001, Default, function() {
+    // Hollow
+    if(EventFlag(25000101))
+    {
+        SetSpEffect(10000, 200100000);
+    }
+    
+    // Explorer
+    if(EventFlag(25000102))
+    {
+        SetSpEffect(10000, 200101000);
+    }
+    
+    // Conqueror
+    if(EventFlag(25000103))
+    {
+        SetSpEffect(10000, 200102000);
+    }
+    
+    // Accursed
+    if(EventFlag(25000104))
+    {
+        SetSpEffect(10000, 200103000);
+    }
+});
+
+// Effect: Enemy
+$Event(10002, Default, function() {
+    // Hollow
+    if(EventFlag(25000101))
+    {
+    }
+    
+    // Explorer
+    if(EventFlag(25000102))
+    {
+        SetSpEffect(3605800, 200101010);
+        SetSpEffect(3605800, 200101011);
+    }
+    
+    // Conqueror
+    if(EventFlag(25000103))
+    {
+        SetSpEffect(3605800, 200102010);
+    }
+    
+    // Accursed
+    if(EventFlag(25000104))
+    {
+        SetSpEffect(3605800, 200103010);
+    }
+    
+    // Rite of Tardus
+    if(CharacterHasSpEffect(10000, 113500000, ComparisonType.Equal, 1))
+    {
+        SetSpEffect(3605800, 101050);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 101050);
+    }
+    // Rite of Tardus +1
+    if(CharacterHasSpEffect(10000, 113500100, ComparisonType.Equal, 1))
+    {
+        SetSpEffect(3605800, 101051);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 101051);
+    }
+    // Rite of Tardus +2
+    if(CharacterHasSpEffect(10000, 113500200, ComparisonType.Equal, 1))
+    {
+        SetSpEffect(3605800, 101052);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 101052);
+    }
+    // Rite of Tardus +3
+    if(CharacterHasSpEffect(10000, 113500300, ComparisonType.Equal, 1))
+    {
+        SetSpEffect(3605800, 101053);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 101053);
+    }
+    
+    // Loops so generated enemies are given the SpEffects.
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+// Slave Knight Gael - Warp
+$Event(10004, Default, function() {
+    WaitFor(EventFlag(25000122));
+    
+    SetEventFlag(25000122, OFF);
+
+    WarpPlayer(51, 1, 5110974);
+});
+
+// Slave Knight Gael - Unlock Boss Fight
+$Event(10005, Default, function() {
+    WaitFor(EventFlag(9300)); // Dancer
+    WaitFor(EventFlag(9301)); // Vordt
+    WaitFor(EventFlag(9302)); // Oceiros
+    WaitFor(EventFlag(9303)); // Curse-rotted Greatwood
+    WaitFor(EventFlag(9304)); // Nameless King
+    WaitFor(EventFlag(9305)); // Ancient Wyvern
+    WaitFor(EventFlag(9306)); // Crystal Sage
+    WaitFor(EventFlag(9307)); // Abyss Watchers
+    WaitFor(EventFlag(9308)); // Dragonslayer Armour
+    WaitFor(EventFlag(9309)); // Twin Princes
+    WaitFor(EventFlag(9311)); // Deacons of the Deep
+    WaitFor(EventFlag(9313)); // Pontiff Sulyvahn
+    WaitFor(EventFlag(9314)); // Aldrich
+    WaitFor(EventFlag(9315)); // Wolnir
+    WaitFor(EventFlag(9317)); // Old Demon King
+    WaitFor(EventFlag(9318)); // Yhorm
+    WaitFor(EventFlag(9319)); // Champion Gundyr
+    WaitFor(EventFlag(9321)); // Soul of Cinder
+    WaitFor(EventFlag(9322)); // Sister Fride
+    WaitFor(EventFlag(9323)); // Gravetender
+    WaitFor(EventFlag(9324)); // Demon Prince
+    WaitFor(EventFlag(9325)); // Halflight
+    WaitFor(EventFlag(9326)); // Midir
+    
+    SetEventFlag(25000120, ON);
+});
+
+// Boss Teleport
+$Event(10006, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    WaitFor(EventFlag(X0_4));
+    SetEventFlag(X0_4, OFF);
+    
+    WaitFixedTimeSeconds(0.5);
+    
+    WarpPlayer(X12_1, X16_1, X4_4);
+    SetPlayerRespawnPoint(X8_4);
+});
+
+// Boss Teleport - Gael
+$Event(10007, Restart, function(X0_4, X4_4, X8_4, X12_1, X16_1) {
+    WaitFor(EventFlag(X0_4));
+    SetEventFlag(X0_4, OFF);
+    SetEventFlag(25000121, ON);
+    
+    WaitFixedTimeSeconds(0.5);
+    
+    WarpPlayer(X12_1, X16_1, X4_4);
+    SetPlayerRespawnPoint(X8_4);
+});
+
+// Tome Unlock
+$Event(10010, Default, function(X0_4, X4_4, X8_4) {
+    WaitFor(CharacterHasSpEffect(10000, X0_4, ComparisonType.Equal, 1));
+    
+    RemoveItemFromPlayer(ItemType.Goods, X4_4, -99);
+    AwardItemLot(X8_4);
+});
+
+// Ashes
+$Event(10025, Default, function(X0_4, X4_4) {
+    EndIf(EventFlag(X4_4));
+    
+    if(PlayerHasItem(ItemType.Goods, X0_4))
+    {
+        SetEventFlag(X4_4, ON);
+    }
+});
+
+//--------------------------------------
+// Castigations
+//--------------------------------------
+// Castigation - Player
+$Event(14000, Restart, function() {
+    // Abyssal Maw
+    if(EventFlag(25000900))
+    {
+        SetSpEffect(10000, 200400000);
+    }
+    else
+    {
+        ClearSpEffect(10000, 200400000);
+    }
+    // Brittle Bones
+    if(EventFlag(25000901))
+    {
+        SetSpEffect(10000, 200400100);
+    }
+    else
+    {
+        ClearSpEffect(10000, 200400100);
+    }
+    // Fresh Meat
+    if(EventFlag(25000902))
+    {
+        SetSpEffect(10000, 200400200);
+        SetSpEffect(10000, 200400201);
+        SetSpEffect(10000, 200400202);
+    }
+    else
+    {
+        ClearSpEffect(10000, 200400200);
+        ClearSpEffect(10000, 200400201);
+        ClearSpEffect(10000, 200400202);
+    }
+    // Fading Flasks
+    if(EventFlag(25000903))
+    {
+        SetSpEffect(10000, 200400300);
+    }
+    else
+    {
+        ClearSpEffect(10000, 200400300);
+    }
+    // Lethargic Mind
+    if(EventFlag(25000904))
+    {
+        SetSpEffect(10000, 200400400);
+    }
+    else
+    {
+        ClearSpEffect(10000, 200400400);
+    }
+    
+    WaitFixedTimeSeconds(1);
+    
+    RestartEvent();
+});
+
+// Castigation - Enemies
+$Event(14010, Restart, function() {
+    // Wounded Fury
+    if(EventFlag(25000905))
+    {
+        SetSpEffect(3605800, 200410000);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 200410000);
+    }
+    // Thick Hides
+    if(EventFlag(25000906))
+    {
+        SetSpEffect(3605800, 200410100);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 200410100);
+    }
+    // Stout Hearts
+    if(EventFlag(25000907))
+    {
+        SetSpEffect(3605800, 200410200);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 200410200);
+    }
+    // Regenerative Skin
+    if(EventFlag(25000908))
+    {
+        SetSpEffect(3605800, 200410300);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 200410300);
+    }
+    // Spectral Shift
+    if(EventFlag(25000909))
+    {
+        SetSpEffect(3605800, 200410400);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 200410400);
+    }
+    // Relentlessness
+    if(EventFlag(25000910))
+    {
+        SetSpEffect(3605800, 200410500);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 200410500);
+    }
+    // Alacrity
+    if(EventFlag(25000911))
+    {
+        SetSpEffect(3605800, 200410600);
+    }
+    else
+    {
+        ClearSpEffect(3605800, 200410600);
+    }
+    
+    WaitFixedTimeSeconds(1);
+    
+    RestartEvent();
+});
+
+// Castigation - Reward
+$Event(14020, Restart, function(X0_4, X4_4) {
+    WaitFor(CharacterHasSpEffect(10000, 200000011, ComparisonType.Equal, 1));
+    
+    if(!CharacterHasSpEffect(10000, 200499999, ComparisonType.Equal, 1))
+    {
+        SetSpEffect(10000, 200499999);
+        
+        if(EventFlag(X0_4))
+        {
+            AwardItemLot(X4_4);
+        }
+    }
+    
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+// Restriction - Flameless
+$Event(15000, Restart, function() {
+    EndIf(!EventFlag(25000140));
+    
+    SetSpEffect(10000, 200110000);
+});
+
+// Restriction - Deathless
+$Event(15001, Restart, function() {
+    EndIf(!EventFlag(25000141));
+    
+    SetSpEffect(10000, 200110100);
+    
+    WaitFor(CharacterHasSpEffect(10000, 113010, ComparisonType.Equal, 1));
+    
+    SetEventFlag(25000132, ON);
+    WarpPlayer(51, 1, 5110975);
+    SetPlayerRespawnPoint(5112955);
+});
+
+// Restriction - Hitless
+$Event(15002, Restart, function() {
+    EndIf(!EventFlag(25000142));
+    
+    SetSpEffect(10000, 200110200);
+    
+    WaitFor(CharacterHasSpEffect(10000, 112000, ComparisonType.Equal, 1));
+    
+    SetSpEffect(10000, 200110201);
+});
+
+//-------------------
+// Accursed - Detriment System
+//-------------------
+$Event(12000, Restart, function() {
+    EndIf(EventFlag(25000131)); // Accursed run completed
+    EndIf(!EventFlag(25000104));
+    
+    // Grant new debuff item if the player dies
+    WaitFor(CharacterHasSpEffect(10000, 113010, ComparisonType.Equal, 1));
+    
+    BatchSetEventFlags(20000900, 20000944, OFF);
+    RandomlySetEventFlagInRange(20000900, 20000944, ON);
+    
+    InitializeEvent( 0, 12001, 20000900, 20000901, 20000400, 8000, 3000, 10); // HP Reduction
+    InitializeEvent( 1, 12001, 20000901, 20000902, 20000410, 8001, 3010, 10); // FP Reduction
+    InitializeEvent( 2, 12001, 20000902, 20000903, 20000420, 8002, 3020, 10); // Stamina Reduction
+    InitializeEvent( 3, 12001, 20000903, 20000904, 20000430, 8003, 3030, 10); // Equipment Load Reduction
+    InitializeEvent( 4, 12001, 20000904, 20000905, 20000440, 8004, 3040, 10); // HP Recovery Diminishment
+
+    InitializeEvent( 5, 12001, 20000905, 20000906, 20000450, 8005, 3050, 10); // Vigor Loss
+    InitializeEvent( 6, 12001, 20000906, 20000907, 20000460, 8006, 3060, 10); // Attunement Loss
+    InitializeEvent( 7, 12001, 20000907, 20000908, 20000470, 8007, 3070, 10); // Vitality Loss
+    InitializeEvent( 8, 12001, 20000908, 20000909, 20000480, 8008, 3080, 10); // Endurance Loss
+    InitializeEvent( 9, 12001, 20000909, 20000910, 20000490, 8009, 3090, 10); // Strength Loss
+    InitializeEvent(10, 12001, 20000910, 20000911, 20000100, 8010, 3100, 10); // Dexterity Loss
+    InitializeEvent(11, 12001, 20000911, 20000912, 20000110, 8011, 3110, 10); // Intelligence Loss
+    InitializeEvent(12, 12001, 20000912, 20000913, 20000120, 8012, 3120, 10); // Faith Loss
+    InitializeEvent(12, 12001, 20000912, 20000913, 20000130, 8013, 3130, 10); // Luck Loss
+
+    InitializeEvent(15, 12001, 20000915, 20000916, 20000140, 8014, 3140, 10); // Stamina Drain
+
+    InitializeEvent(16, 12001, 20000916, 20000917, 20000150, 8015, 3150, 10); // Physical Weakness
+    InitializeEvent(17, 12001, 20000917, 20000918, 20000160, 8016, 3160, 10); // Magic Weakness
+    InitializeEvent(18, 12001, 20000918, 20000919, 20000170, 8017, 3170, 10); // Fire Weakness
+    InitializeEvent(19, 12001, 20000919, 20000920, 20000180, 8018, 3180, 10); // Lightning Weakness
+    InitializeEvent(20, 12001, 20000920, 20000921, 20000190, 8019, 3190, 10); // Dark Weakness
+
+    InitializeEvent(21, 12001, 20000921, 20000922, 20000200, 8020, 3200, 10); // Slash Frailty
+    InitializeEvent(22, 12001, 20000922, 20000923, 20000210, 8021, 3210, 10); // Strike Frailty
+    InitializeEvent(23, 12001, 20000923, 20000924, 20000220, 8022, 3220, 10); // Thrust Frailty
+    InitializeEvent(24, 12001, 20000924, 20000925, 20000230, 8023, 3230, 10); // Standard Frailty
+    InitializeEvent(25, 12001, 20000925, 20000926, 20000240, 8024, 3240, 10); // Magic Frailty
+    InitializeEvent(26, 12001, 20000926, 20000927, 20000250, 8025, 3250, 10); // Fire Frailty
+    InitializeEvent(27, 12001, 20000927, 20000928, 20000260, 8026, 3260, 10); // Lightning Frailty
+    InitializeEvent(28, 12001, 20000928, 20000929, 20000270, 8027, 3270, 10); // Dark Frailty
+    InitializeEvent(29, 12001, 20000929, 20000930, 20000280, 8028, 3280, 10); // Poise Frailty
+
+    InitializeEvent(30, 12001, 20000930, 20000931, 20000290, 8029, 3290, 10); // Poison Vulnerability
+    InitializeEvent(31, 12001, 20000931, 20000932, 20000300, 8030, 3300, 10); // Bleed Vulnerability
+    InitializeEvent(32, 12001, 20000932, 20000933, 20000310, 8031, 3310, 10); // Frost Vulnerability
+    InitializeEvent(33, 12001, 20000933, 20000934, 20000320, 8032, 3320, 10); // Curse Vulnerability
+
+    InitializeEvent(38, 12001, 20000938, 20000939, 20000330, 8033, 3330, 10); // Soul Drain
+    InitializeEvent(39, 12001, 20000939, 20000940, 20000340, 8034, 3340, 10); // Skill Confusion
+    InitializeEvent(40, 12001, 20000940, 20000941, 20000350, 8035, 3350, 10); // Sorcery Confusion
+    InitializeEvent(41, 12001, 20000941, 20000942, 20000360, 8036, 3360, 10); // Pyromancy Confusion
+    InitializeEvent(42, 12001, 20000942, 20000943, 20000370, 8037, 3370, 10); // Miracle Confusion
+    InitializeEvent(43, 12001, 20000943, 20000944, 20000380, 8038, 3380, 10); // Clumsy Form
+    InitializeEvent(44, 12001, 20000944, 20000944, 20000390, 8039, 3390, 10); // Tourist
+});
+
+// Accursed - Debuff Item
+$Event(12001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    // This debuff has been selected
+    if(EventFlag(X0_4))
+    {
+        StoreItemAmountHeldInEventValue(ItemType.Goods, X12_4, X8_4, 5); // Grab debuff item count
+        if(EventValue(X8_4, 5) >= X20_4)
+        {
+            SetEventFlag(X4_4, ON); // Select the next debuff in the list if at the max for this debuff
+        }
+        else
+        {
+            AwardItemLot(X16_4); // Award debuff item
+        }
+    }
+});
+
+// Accursed - Apply Debuffs (10)
+$Event(12010, Default, function(X0_4, X4_4, X8_4) {
+    EndIf(EventFlag(25000131)); // Accursed run completed
+    EndIf(!EventFlag(25000104));
+    
+    StoreItemAmountHeldInEventValue(ItemType.Goods, X0_4, X8_4, 5);
+    
+    // Apply upto 10 stacks
+    if(EventValue(X8_4, 5) >= 1)
+    {
+        SetSpEffect(10000, X4_4);
+    }
+    if(EventValue(X8_4, 5) >= 2)
+    {
+        SetSpEffect(10000, X4_4);
+    }
+    if(EventValue(X8_4, 5) >= 3)
+    {
+        SetSpEffect(10000, X4_4);
+    }
+    if(EventValue(X8_4, 5) >= 4)
+    {
+        SetSpEffect(10000, X4_4);
+    }
+    if(EventValue(X8_4, 5) >= 5)
+    {
+        SetSpEffect(10000, X4_4);
+    }
+    if(EventValue(X8_4, 5) >= 6)
+    {
+        SetSpEffect(10000, X4_4);
+    }
+    if(EventValue(X8_4, 5) >= 7)
+    {
+        SetSpEffect(10000, X4_4);
+    }
+    if(EventValue(X8_4, 5) >= 8)
+    {
+        SetSpEffect(10000, X4_4);
+    }
+    if(EventValue(X8_4, 5) >= 9)
+    {
+        SetSpEffect(10000, X4_4);
+    }
+    if(EventValue(X8_4, 5) >= 10)
+    {
+        SetSpEffect(10000, X4_4);
+    }
 });
 
 //------------------------------------------------
@@ -1891,8 +2294,8 @@ $Event(20001, Default, function(X0_4, X4_4) {
     SetEventFlag(flag_CoiledSword_Placed, ON);
 
     // Bonfire Unlocks
-    SetEventFlag(13100004, ON); // Undead Settlement
-    SetEventFlag(13000000, ON); // High Wall of Lothric
+    //SetEventFlag(13100004, ON); // Undead Settlement
+    //SetEventFlag(13000000, ON); // High Wall of Lothric
 
     // No Perspective override set
     SetEventFlag(25007370, ON);
@@ -10760,401 +11163,4 @@ $Event(20602, Default, function() {
     RestartEvent();
 });
 
-//------------------------------------------------
-// Setup Achievements
-//------------------------------------------------
-$Event(20300, Restart, function() {
-    InitializeEvent(0, 20310, 0); // Failed Achievement: Defying Death
-    InitializeEvent(0, 20311, 0); // Failed Achievement: Untouchable
-    InitializeEvent(0, 20312, 0); // Failed Achievement: Flameless
-    InitializeEvent(0, 20313, 0); // Failed Achievement: Sword and Board
 
-    InitializeEvent(0, 20320, 0); // Achievement: Defying Death
-    InitializeEvent(0, 20321, 0); // Achievement: Untouchable
-    InitializeEvent(0, 20322, 0); // Achievement: Flameless
-    InitializeEvent(0, 20323, 0); // Achievement: Sword and Board
-    InitializeEvent(0, 20324, 0); // Achievement: Stormageddon
-    InitializeEvent(0, 20325, 0); // Achievement: Master of Corruption
-
-    EndIf(EventFlag(25002499));
-
-    SetEventFlag(25002100, OFF); // Achievement: Defying Death
-    SetEventFlag(25002101, OFF); // Achievement: Untouchable
-    SetEventFlag(25002102, OFF); // Achievement: Flameless
-    SetEventFlag(25002103, OFF); // Achievement: Sword and Board
-    SetEventFlag(25002104, OFF); // Achievement: Stormageddon
-    SetEventFlag(25002105, OFF); // Achievement: Master of Corruption
-
-    SetEventFlag(25002200, OFF); // Failed Achievement: Defying Death
-    SetEventFlag(25002201, OFF); // Failed Achievement: Untouchable
-    SetEventFlag(25002202, OFF); // Failed Achievement: Flameless
-    SetEventFlag(25002203, OFF); // Failed Achievement: Sword and Board
-    SetEventFlag(25002204, OFF); // Failed Achievement: Stormageddon
-
-    SetEventFlag(25002499, ON);
-});
-
-//------------------------------------------------
-// Failed Achievement: Defying Death
-//------------------------------------------------
-$Event(20310, Restart, function() {
-    SetNetworkSyncState(Disabled);
-
-    WaitFor(CharacterDead(10000));
-
-    SetEventFlag(25002200, ON);
-});
-
-//------------------------------------------------
-// Failed Achievement: Untouchable
-//------------------------------------------------
-$Event(20311, Restart, function() {
-    SetNetworkSyncState(Disabled);
-
-    WaitFor(CharacterHasSpEffect(10000, 112101));
-
-    SetEventFlag(25002201, ON);
-});
-
-//------------------------------------------------
-// Failed Achievement: Flameless
-//------------------------------------------------
-$Event(20312, Restart, function() {
-    SetNetworkSyncState(Disabled);
-
-    WaitFor(
-        EventFlag(14000004)
-            || EventFlag(14000002)
-            || EventFlag(13000005)
-            || EventFlag(13000002)
-            || EventFlag(13000004)
-            || EventFlag(13000001)
-            || EventFlag(13010000)
-            || EventFlag(13010002)
-            || EventFlag(13410000)
-            || EventFlag(13410001)
-            || EventFlag(13100000)
-            || EventFlag(13100002)
-            || EventFlag(13100003)
-            || EventFlag(13200000)
-            || EventFlag(13200003)
-            || EventFlag(13200002)
-            || EventFlag(13200001)
-            || EventFlag(13300006)
-            || EventFlag(13300000)
-            || EventFlag(13300007)
-            || EventFlag(13300002)
-            || EventFlag(13300003)
-            || EventFlag(13300004)
-            || EventFlag(13300008)
-            || EventFlag(13300005)
-            || EventFlag(13300001)
-            || EventFlag(13500003)
-            || EventFlag(13500000)
-            || EventFlag(13500001)
-            || EventFlag(13500002)
-            || EventFlag(13700007)
-            || EventFlag(13700004)
-            || EventFlag(13700000)
-            || EventFlag(13700005)
-            || EventFlag(13700001)
-            || EventFlag(13700006)
-            || EventFlag(13700003)
-            || EventFlag(13700008)
-            || EventFlag(13800006)
-            || EventFlag(13800000)
-            || EventFlag(13800001)
-            || EventFlag(13800002)
-            || EventFlag(13800003)
-            || EventFlag(13800004)
-            || EventFlag(13900000)
-            || EventFlag(13900002)
-            || EventFlag(13900001)
-            || EventFlag(14500002)
-            || EventFlag(14500003)
-            || EventFlag(14500004)
-            || EventFlag(14500005)
-            || EventFlag(14500000)
-            || EventFlag(14500007)
-            || EventFlag(14500006)
-            || EventFlag(15000002)
-            || EventFlag(15000003)
-            || EventFlag(15000000)
-            || EventFlag(15100002)
-            || EventFlag(15100003)
-            || EventFlag(15100004)
-            || EventFlag(15100005)
-            || EventFlag(15100000)
-            || EventFlag(15100001)
-            || EventFlag(15110001)
-            || EventFlag(15110000)
-            || EventFlag(14500008));
-
-    SetEventFlag(25002202, ON);
-});
-
-//------------------------------------------------
-// Failed Achievement: Sword and Board
-//------------------------------------------------
-$Event(20313, Restart, function() {
-    SetNetworkSyncState(Disabled);
-
-    WaitFor(CharacterHasSpEffect(10000, 112930) || CharacterHasSpEffect(10000, 112932));
-
-    SetEventFlag(25002203, ON);
-});
-
-//------------------------------------------------
-// Achievement: Defying Death
-//------------------------------------------------
-$Event(20320, Default, function() {
-    SetNetworkSyncState(Disabled);
-
-    WaitFor(EventFlag(25002019)); // Soul of Cinder
-    WaitFor(!EventFlag(25002200));
-
-    SetEventFlag(25002100, ON);
-});
-
-//------------------------------------------------
-// Achievement: Untouchable
-//------------------------------------------------
-$Event(20321, Default, function() {
-    SetNetworkSyncState(Disabled);
-
-    WaitFor(EventFlag(25002019)); // Soul of Cinder
-    WaitFor(!EventFlag(25002201));
-
-    SetEventFlag(25002101, ON);
-});
-
-//------------------------------------------------
-// Achievement: Flameless
-//------------------------------------------------
-$Event(20322, Default, function() {
-    SetNetworkSyncState(Disabled);
-
-    WaitFor(EventFlag(25002019)); // Soul of Cinder
-    WaitFor(!EventFlag(25002202));
-
-    SetEventFlag(25002102, ON);
-});
-
-//------------------------------------------------
-// Achievement: Sword and Board
-//------------------------------------------------
-$Event(20323, Default, function() {
-    SetNetworkSyncState(Disabled);
-
-    WaitFor(EventFlag(25002019)); // Soul of Cinder
-    WaitFor(!EventFlag(25002203));
-
-    SetEventFlag(25002103, ON);
-});
-
-//------------------------------------------------
-// Achievement: Stormageddon
-//------------------------------------------------
-$Event(20324, Default, function() {
-    SetNetworkSyncState(Disabled);
-
-    SetEventFlag(25002401, OFF); // Reset Stormageddon In Progress flag
-
-    WaitFor(EventFlag(25002400)); // Nameless King killed with Restraint: Run on
-
-    SetEventFlag(25002104, ON);
-});
-
-//------------------------------------------------
-// Achievement: Master of Corruption
-//------------------------------------------------
-$Event(20325, Default, function() {
-    SetNetworkSyncState(Disabled);
-
-    // Corruption mode
-    WaitFor(EventFlag(25009816));
-    // Malus enabled
-    WaitFor(EventFlag(25009852));
-
-    // Malus items
-    WaitFor(
-        PlayerHasItemIncludingBBox(ItemType.Goods, 42000)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42001)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42002)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42003)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42004)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42005)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42006)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42007)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42008)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42009)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42010)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42011)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42012)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42013)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42014)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42015)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42016)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42017)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42018)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42019)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42020)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42021)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42022)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42023)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42024)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42025)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42026)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42027)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42028)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42029)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42030)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42031)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42032)
-            && PlayerHasItemIncludingBBox(ItemType.Goods, 42033));
-
-    SetEventFlag(25002105, ON);
-
-    RemoveItemFromPlayer(ItemType.Goods, 42000, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42001, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42002, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42003, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42004, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42005, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42006, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42007, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42008, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42009, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42010, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42011, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42012, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42013, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42014, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42015, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42016, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42017, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42018, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42019, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42020, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42021, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42022, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42023, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42024, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42025, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42026, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42027, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42028, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42029, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42030, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42031, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42032, -99);
-    RemoveItemFromPlayer(ItemType.Goods, 42033, -99);
-});
-
-//------------------------------------------------
-// Setup Restraints
-//------------------------------------------------
-$Event(20400, Restart, function() {
-    // Block Roll ON
-    if (EventFlag(25002500)) {
-        SetSpEffect(10000, 112920);
-    }
-
-    // Block Roll OFF
-    if (!EventFlag(25002500)) {
-        ClearSpEffect(10000, 112920);
-    }
-
-    // Block Sprinting
-    if (EventFlag(25002501)) {
-        SetSpEffect(10000, 112921);
-    }
-
-    // Block Sprinting
-    if (!EventFlag(25002501)) {
-        ClearSpEffect(10000, 112921);
-    }
-
-    // Block Sprinting
-    if (EventFlag(25002502)) {
-        SetSpEffect(10000, 112922);
-    }
-
-    // Block Sprinting
-    if (!EventFlag(25002502)) {
-        ClearSpEffect(10000, 112922);
-    }
-
-    // Block Backstep ON
-    if (EventFlag(25002503)) {
-        SetSpEffect(10000, 112923);
-    }
-
-    // Block Backstep OFF
-    if (!EventFlag(25002503)) {
-        ClearSpEffect(10000, 112923);
-    }
-
-    // Block Jump ON
-    if (EventFlag(25002504)) {
-        SetSpEffect(10000, 112924);
-    }
-
-    // Block Backstep OFF
-    if (!EventFlag(25002504)) {
-        ClearSpEffect(10000, 112924);
-    }
-
-    // Block Kick ON
-    if (EventFlag(25002505)) {
-        SetSpEffect(10000, 112925);
-    }
-
-    // Block Kick OFF
-    if (!EventFlag(25002505)) {
-        ClearSpEffect(10000, 112925);
-    }
-
-    RestartEvent();
-});
-
-//----------------------------------------------
-// Setup Soul Coalescence
-//----------------------------------------------
-$Event(20500, Restart, function() {
-    // Strength
-    InitializeEvent(0, 20510, 25009410, 260130000);
-
-    // Dexterity
-    InitializeEvent(1, 20510, 25009411, 260130010);
-
-    // Intelligence
-    InitializeEvent(2, 20510, 25009412, 260130020);
-
-    // Faith
-    InitializeEvent(3, 20510, 25009413, 260130030);
-
-    // Luck
-    InitializeEvent(4, 20510, 25009414, 260130040);
-});
-
-//----------------------------------------------
-// Coalescence
-//----------------------------------------------
-$Event(20510, Restart, function(X0_4, X4_4) {
-    SetNetworkSyncState(Disabled);
-
-    // ON
-    if (EventFlag(X0_4)) {
-        SetSpEffect(10000, X4_4);
-    }
-
-    // OFF
-    if (!EventFlag(X0_4)) {
-        ClearSpEffect(10000, X4_4);
-    }
-
-    WaitFixedTimeSeconds(1.0);
-
-    RestartEvent();
-});
