@@ -2373,151 +2373,91 @@ $Event(20007, Default, function() {
     WaitFor(!CharacterHasSpEffect(10000, 160010010) && CharacterHasSpEffect(10000, 160010001)); // Enemy has died // Is not in cooldown
 
     // Darkmoon Faithful
-    if (CharacterHasSpEffect(10000, 160100102)
-        || CharacterHasSpEffect(10000, 160100112)
-        || CharacterHasSpEffect(10000, 160100122)
-        || CharacterHasSpEffect(10000, 160100132)
-        || CharacterHasSpEffect(10000, 160100142)) {
+    if (CharacterHasSpEffect(10000, 160100102)) {
         AwardItemsIncludingClients(800011000);
         SetSpEffect(10000, 160010010);
     }
 
     // Watchdogs of Farron
-    if (CharacterHasSpEffect(10000, 160100202)
-        || CharacterHasSpEffect(10000, 160100212)
-        || CharacterHasSpEffect(10000, 160100222)
-        || CharacterHasSpEffect(10000, 160100232)
-        || CharacterHasSpEffect(10000, 160100242)) {
+    if (CharacterHasSpEffect(10000, 160100202)) {
         AwardItemsIncludingClients(800011010);
         SetSpEffect(10000, 160010010);
     }
 
     // Aldrich Faithful 
-    if (CharacterHasSpEffect(10000, 160100302)
-        || CharacterHasSpEffect(10000, 160100312)
-        || CharacterHasSpEffect(10000, 160100322)
-        || CharacterHasSpEffect(10000, 160100332)
-        || CharacterHasSpEffect(10000, 160100342)) {
+    if (CharacterHasSpEffect(10000, 160100302)) {
         AwardItemsIncludingClients(800011020);
         SetSpEffect(10000, 160010010);
     }
 
     // Warrior of Sunlight
-    if (CharacterHasSpEffect(10000, 160100402)
-        || CharacterHasSpEffect(10000, 160100412)
-        || CharacterHasSpEffect(10000, 160100422)
-        || CharacterHasSpEffect(10000, 160100432)
-        || CharacterHasSpEffect(10000, 160100442)) {
+    if (CharacterHasSpEffect(10000, 160100402)) {
         AwardItemsIncludingClients(800011030);
         SetSpEffect(10000, 160010010);
     }
 
     // Mound-makers
-    if (CharacterHasSpEffect(10000, 160100502)
-        || CharacterHasSpEffect(10000, 160100512)
-        || CharacterHasSpEffect(10000, 160100522)
-        || CharacterHasSpEffect(10000, 160100532)
-        || CharacterHasSpEffect(10000, 160100542)) {
+    if (CharacterHasSpEffect(10000, 160100502)) {
         AwardItemsIncludingClients(800011040);
         SetSpEffect(10000, 160010010);
     }
 
     // Thieves' Pact
-    if (CharacterHasSpEffect(10000, 160100602)
-        || CharacterHasSpEffect(10000, 160100612)
-        || CharacterHasSpEffect(10000, 160100622)
-        || CharacterHasSpEffect(10000, 160100632)
-        || CharacterHasSpEffect(10000, 160100642)) {
+    if (CharacterHasSpEffect(10000, 160100602)) {
         AwardItemsIncludingClients(800011050);
         SetSpEffect(10000, 160010010);
     }
 
     // Chaos Servant
-    if (CharacterHasSpEffect(10000, 160100702)
-        || CharacterHasSpEffect(10000, 160100712)
-        || CharacterHasSpEffect(10000, 160100722)
-        || CharacterHasSpEffect(10000, 160100732)
-        || CharacterHasSpEffect(10000, 160100742)) {
+    if (CharacterHasSpEffect(10000, 160100702)) {
         AwardItemsIncludingClients(800011060);
         SetSpEffect(10000, 160010010);
     }
 
     // Rosaria's Fingers
-    if (CharacterHasSpEffect(10000, 160100802)
-        || CharacterHasSpEffect(10000, 160100812)
-        || CharacterHasSpEffect(10000, 160100822)
-        || CharacterHasSpEffect(10000, 160100832)
-        || CharacterHasSpEffect(10000, 160100842)) {
+    if (CharacterHasSpEffect(10000, 160100802)) {
         AwardItemsIncludingClients(800011070);
         SetSpEffect(10000, 160010010);
     }
 
     // Spears of the Church
-    if (CharacterHasSpEffect(10000, 160101802)
-        || CharacterHasSpEffect(10000, 160101812)
-        || CharacterHasSpEffect(10000, 160101822)
-        || CharacterHasSpEffect(10000, 160101832)
-        || CharacterHasSpEffect(10000, 160101842)) {
+    if (CharacterHasSpEffect(10000, 160101802)) {
         AwardItemsIncludingClients(800011120);
         SetSpEffect(10000, 160010010);
     }
 
     // Vinheim Scholars 
-    if (CharacterHasSpEffect(10000, 160100902)
-        || CharacterHasSpEffect(10000, 160100912)
-        || CharacterHasSpEffect(10000, 160100922)
-        || CharacterHasSpEffect(10000, 160100932)
-        || CharacterHasSpEffect(10000, 160100942)) {
+    if (CharacterHasSpEffect(10000, 160100902)) {
         AwardItemsIncludingClients(800011080);
         SetSpEffect(10000, 160010010);
     }
 
     // Pilgrims of Dark
-    if (CharacterHasSpEffect(10000, 160101002)
-        || CharacterHasSpEffect(10000, 160101012)
-        || CharacterHasSpEffect(10000, 160101022)
-        || CharacterHasSpEffect(10000, 160101032)
-        || CharacterHasSpEffect(10000, 160101042)) {
+    if (CharacterHasSpEffect(10000, 160101002)) {
         AwardItemsIncludingClients(800011090);
         SetSpEffect(10000, 160010010);
     }
 
     // Way of White
-    if (CharacterHasSpEffect(10000, 160101102)
-        || CharacterHasSpEffect(10000, 160101112)
-        || CharacterHasSpEffect(10000, 160101122)
-        || CharacterHasSpEffect(10000, 160101132)
-        || CharacterHasSpEffect(10000, 160101142)) {
+    if (CharacterHasSpEffect(10000, 160101102)) {
         AwardItemsIncludingClients(800011100);
         SetSpEffect(10000, 160010010);
     }
 
     // Dragon Remnants
-    if (CharacterHasSpEffect(10000, 160101202)
-        || CharacterHasSpEffect(10000, 160101212)
-        || CharacterHasSpEffect(10000, 160101222)
-        || CharacterHasSpEffect(10000, 160101232)
-        || CharacterHasSpEffect(10000, 160101242)) {
+    if (CharacterHasSpEffect(10000, 160101202)) {
         AwardItemsIncludingClients(800011110);
         SetSpEffect(10000, 160010010);
     }
 
     // Blue Sentinels
-    if (CharacterHasSpEffect(10000, 160101302)
-        || CharacterHasSpEffect(10000, 160101312)
-        || CharacterHasSpEffect(10000, 160101322)
-        || CharacterHasSpEffect(10000, 160101332)
-        || CharacterHasSpEffect(10000, 160101342)) {
+    if (CharacterHasSpEffect(10000, 160101302)) {
         AwardItemsIncludingClients(800011000);
         SetSpEffect(10000, 160010010);
     }
 
     // Way of Blue
-    if (CharacterHasSpEffect(10000, 160101402)
-        || CharacterHasSpEffect(10000, 160101412)
-        || CharacterHasSpEffect(10000, 160101422)
-        || CharacterHasSpEffect(10000, 160101432)
-        || CharacterHasSpEffect(10000, 160101442)) {
+    if (CharacterHasSpEffect(10000, 160101402)) {
         AwardItemsIncludingClients(800011130);
         SetSpEffect(10000, 160010010);
     }
@@ -2534,31 +2474,19 @@ $Event(20008, Default, function() {
     WaitFor(!CharacterHasSpEffect(10000, 160010010) && CharacterHasSpEffect(10000, 160010001)); // Enemy has died // Is not in cooldown
 
     // Company of Champions
-    if (CharacterHasSpEffect(10000, 160101502)
-        || CharacterHasSpEffect(10000, 160101512)
-        || CharacterHasSpEffect(10000, 160101522)
-        || CharacterHasSpEffect(10000, 160101532)
-        || CharacterHasSpEffect(10000, 160101542)) {
+    if (CharacterHasSpEffect(10000, 160101502)) {
         AwardItemsIncludingClients(800011140);
         SetSpEffect(10000, 160010010);
     }
 
     // Servant of the Rat
-    if (CharacterHasSpEffect(10000, 160101602)
-        || CharacterHasSpEffect(10000, 160101612)
-        || CharacterHasSpEffect(10000, 160101622)
-        || CharacterHasSpEffect(10000, 160101632)
-        || CharacterHasSpEffect(10000, 160101642)) {
+    if (CharacterHasSpEffect(10000, 160101602)) {
         AwardItemsIncludingClients(800011150);
         SetSpEffect(10000, 160010010);
     }
 
     // Ritualist Pact
-    if (CharacterHasSpEffect(10000, 160101702)
-        || CharacterHasSpEffect(10000, 160101712)
-        || CharacterHasSpEffect(10000, 160101722)
-        || CharacterHasSpEffect(10000, 160101732)
-        || CharacterHasSpEffect(10000, 160101742)) {
+    if (CharacterHasSpEffect(10000, 160101702)) {
         AwardItemsIncludingClients(800011160);
         SetSpEffect(10000, 160010010);
     }
@@ -2575,21 +2503,13 @@ $Event(20009, Default, function() {
     WaitFor(!CharacterHasSpEffect(10000, 160010011) && CharacterHasSpEffect(10000, 160010001)); // Enemy has died // Is not in cooldown
 
     // Thieves' Pact
-    if (CharacterHasSpEffect(10000, 160100602)
-        || CharacterHasSpEffect(10000, 160100612)
-        || CharacterHasSpEffect(10000, 160100622)
-        || CharacterHasSpEffect(10000, 160100632)
-        || CharacterHasSpEffect(10000, 160100642)) {
+    if (CharacterHasSpEffect(10000, 160100602)) {
         AwardItemsIncludingClients(800020000);
         SetSpEffect(10000, 160010011);
     }
 
     // Way of Blue
-    if (CharacterHasSpEffect(10000, 160101402)
-        || CharacterHasSpEffect(10000, 160101412)
-        || CharacterHasSpEffect(10000, 160101422)
-        || CharacterHasSpEffect(10000, 160101432)
-        || CharacterHasSpEffect(10000, 160101442)) {
+    if (CharacterHasSpEffect(10000, 160101402)) {
         AwardItemsIncludingClients(800020010);
         SetSpEffect(10000, 160010011);
     }

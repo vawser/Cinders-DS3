@@ -3,8 +3,9 @@
 #------------------------------
 # System Changes
 - Replaced Curses with Castigations.
-- Removed Ring Affixing.
+- Removed Ring affixing.
 - Removed the Gauntlet and Corruption modes.
+- Removed Covenant bond levels.
 
 # Journey Configuration
 - The player now has the ability to select from 3 difficulties at game start:
@@ -157,6 +158,11 @@
   
  - Pygmy Merchant
   - Allows the player to buy and sell items. Acts like the Shrine Handmaid from vanilla.
+  - At X number of unique boss kills, reinforcement materials are added:
+   - 3: Titanite Shard
+   - 6: Large Titanite Shard
+   - 9: Titanite Chunk
+   - 12: Titanite Slab
   
  - Fallen Pygmy
   - Allows the player to transpose boss souls and to infuse their weapons.
@@ -202,8 +208,20 @@
  - Items that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
 
 #-------------------------------------------------
+# Weapons
+#-------------------------------------------------
+- Pulsating now grants 10% max FP.
+- Enchanted now grants 10% max FP.
+- Clarity now grants 10% max FP.
+
+#-------------------------------------------------
 # Items
 #-------------------------------------------------
 - Changed the Ashes items to instead instead be themed around skulls 
 - Now automatically unlock their item sets at the Pygmy Merchant without requiring a turn-in action.
 - Added more items to the item sets unlocked by certain Skulls.
+
+#-------------------------------------------------
+# Rings
+#-------------------------------------------------
+- Strength of all rings has been adjusted due to the removal of +1, +2, +3, +4 and +5 versions.

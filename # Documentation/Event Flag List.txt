@@ -383,6 +383,16 @@
 25000307 Gesture Acquired: Retch              - Archdeacon McDonnell
 25000308 Gesture Acquired: Confused           - Greirat
 
+# Boss Kill Counter
+25000400 -> 25000409 # Event Value 
+25000410 -> 25000419 # Event Value Operand
+
+25000450 Unique Boss Kills: 3
+25000451 Unique Boss Kills: 6
+25000452 Unique Boss Kills: 9
+25000453 Unique Boss Kills: 12
+25000454 Unique Boss Kills: 15
+
 # Castigation
 25000900 Abyssal Maw
 25000901 Brittle Bones

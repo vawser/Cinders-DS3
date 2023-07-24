@@ -57,7 +57,7 @@ Lucky:
 
 Enchanted:
 - Adds physical INT scaling.
-- Adds effect: grants 1% FP every second.
+- Adds effect: increases max FP by 10%.
 
 Holy:
 - Adds physical FTH scaling.

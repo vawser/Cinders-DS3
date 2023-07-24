@@ -3,7 +3,7 @@
 #------------------------
 # Clarity
 - Reduces Stability by 25%
-- Effect: Grants 1 FP every second.
+- Effect: increases max FP by 10%.
 
 # Rejuvenation
 - Reduces Stability by 25%

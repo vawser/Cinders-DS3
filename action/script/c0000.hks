@@ -19,11 +19,24 @@ function UpdateFP()
         if env(GetSpEffectID, 111000) == FALSE then    
             act(AddSpEffect, 111000) 
             
-            if env(GetFP) < 80 then
+            local fp_bounds_low = 80
+            local fp_bounds_medium = 160
+            
+            if env(GetSpEffectID, 160100102) == TRUE then
+                fp_bounds_low = fp_bounds_low - 20
+                fp_bounds_medium = fp_bounds_medium - 20
+            end
+            
+            if env(GetSpEffectID, 160600350) == TRUE then
+                fp_bounds_low = fp_bounds_low - 20
+                fp_bounds_medium = fp_bounds_medium - 20
+            end
+            
+            if env(GetFP) < fp_bounds_low then
                 act(AddSpEffect, 111003) 
-            elseif env(GetFP) >= 80 and env(GetFP) < 160 then
+            elseif env(GetFP) >= fp_bounds_low and env(GetFP) < fp_bounds_medium then
                 act(AddSpEffect, 111002) 
-            elseif env(GetFP) >= 160 then
+            elseif env(GetFP) >= fp_bounds_medium then
                 act(AddSpEffect, 111001) 
             end
         end
@@ -223,6 +236,32 @@ function FireBullet(deflect_type, bullet_effect)
 end
 
 --------------------
+-- Rings
+--------------------
+function UpdateFocusingRing()
+    -- Focusing Ring
+    if env(GetSpEffectID, 117020) == TRUE then
+        -- Is not moving
+        if GetVariable("MoveSpeedLevel") < 0.5 then
+            g_IsInConcentration = true
+            g_ConcentrationFrames = g_ConcentrationFrames + 1
+            
+            if g_ConcentrationFrames > 1000 then
+                g_ConcentrationFrames = 1000
+            end
+        else
+            g_IsInConcentration = false
+            g_ConcentrationFrames = 0
+        end
+        
+        -- Has stood still for approx. 3 seconds
+        if g_IsInConcentration == true and g_ConcentrationFrames > 100 then
+            act(AddSpEffect, 117021)
+        end
+    end
+end
+
+--------------------
 -- Pacts
 --------------------
 g_PactApplied = false
@@ -245,81 +284,57 @@ g_KillIncrement = 3
 
 function UpdatePact_Core()
     -- Barbarian's Pact
-    if env(GetSpEffectID, 116010) == TRUE then
-        act(AddSpEffect, 116950) -- Block Sorcery
-        act(AddSpEffect, 116951) -- Block Pyromancy
-        act(AddSpEffect, 116952) -- Block Miracles
-    end
-    
-    -- Sorcerer's Pact
-    if env(GetSpEffectID, 116020) == TRUE then
-        act(AddSpEffect, 116951) -- Block Pyromancy
-        act(AddSpEffect, 116952) -- Block Miracles
-    
-        -- Is not moving
-        if GetVariable("MoveSpeedLevel") < 0.5 then
-            g_IsInConcentration = true
-            g_ConcentrationFrames = g_ConcentrationFrames + 1
-            
-            if g_ConcentrationFrames > 1000 then
-                g_ConcentrationFrames = 1000
-            end
-        else
-            g_IsInConcentration = false
-            g_ConcentrationFrames = 0
-        end
-        
-        -- Has stood still for approx. 3 seconds
-        if g_IsInConcentration == true and g_ConcentrationFrames > 100 then
-            act(AddSpEffect, 116021)
-        end
+    if env(GetSpEffectID, 117010) == TRUE then
+        act(AddSpEffect, 117950) -- Block Sorcery
+        act(AddSpEffect, 117951) -- Block Pyromancy
+        act(AddSpEffect, 117952) -- Block Miracles
     end
     
     -- Pyromancer's Pact
-    if env(GetSpEffectID, 116030) == TRUE then
-        act(AddSpEffect, 116950) -- Block Sorcery
-        act(AddSpEffect, 116952) -- Block Miracles
+    if env(GetSpEffectID, 117030) == TRUE then
+        act(AddSpEffect, 117950) -- Block Sorcery
+        act(AddSpEffect, 117952) -- Block Miracles
     end
     
     -- Warrior's Pact
-    if env(GetSpEffectID, 116040) == TRUE then
-        act(AddSpEffect, 116950) -- Block Sorcery
-        act(AddSpEffect, 116951) -- Block Pyromancy
+    if env(GetSpEffectID, 117040) == TRUE then
+        act(AddSpEffect, 117950) -- Block Sorcery
+        act(AddSpEffect, 117951) -- Block Pyromancy
     end
     
     -- Cannibal's Pact
-    if env(GetSpEffectID, 116070) == TRUE then
+    if env(GetSpEffectID, 117070) == TRUE then
         -- Boost kill count on enemy death
-        if env(GetSpEffectID, 116071) == TRUE then
+        if env(GetSpEffectID, 117071) == TRUE then
             g_KillCount = g_KillCount + 1
         end
 
         -- Apply buff based on kill count
         if g_KillCount >= g_KillIncrement and g_KillCount < (g_KillIncrement*2) then
-            act(AddSpEffect, 116800)
+            act(AddSpEffect, 117800)
         elseif g_KillCount >= (g_KillIncrement*2) and g_KillCount < (g_KillIncrement*3) then
-            act(AddSpEffect, 116801)
+            act(AddSpEffect, 117801)
         elseif g_KillCount >= (g_KillIncrement*3) and g_KillCount < (g_KillIncrement*4) then
-            act(AddSpEffect, 116802)
+            act(AddSpEffect, 117802)
         elseif g_KillCount >= (g_KillIncrement*4) and g_KillCount < (g_KillIncrement*5) then
-            act(AddSpEffect, 116803)
+            act(AddSpEffect, 117803)
         elseif g_KillCount >= (g_KillIncrement*5) and g_KillCount < (g_KillIncrement*6) then
-            act(AddSpEffect, 116804)
+            act(AddSpEffect, 117804)
         elseif g_KillCount >= (g_KillIncrement*6) and g_KillCount < (g_KillIncrement*7) then
-            act(AddSpEffect, 116805)
+            act(AddSpEffect, 117805)
         elseif g_KillCount >= (g_KillIncrement*7) and g_KillCount < (g_KillIncrement*8) then
-            act(AddSpEffect, 116806)
+            act(AddSpEffect, 117806)
         elseif g_KillCount >= (g_KillIncrement*8) and g_KillCount < (g_KillIncrement*9) then
-            act(AddSpEffect, 116807)
+            act(AddSpEffect, 117807)
         elseif g_KillCount >= (g_KillIncrement*9) and g_KillCount < (g_KillIncrement*10) then
-            act(AddSpEffect, 116808)
+            act(AddSpEffect, 117808)
         elseif g_KillCount >= (g_KillIncrement*10) then
-            act(AddSpEffect, 116809)
+            act(AddSpEffect, 117809)
         end
         
         -- Lower kills by 1 every X seconds
-        if env(GetSpEffectID, 116072) == FALSE then
-            act(AddSpEffect, 116072)
+        if env(GetSpEffectID, 117072) == FALSE then
+            act(AddSpEffect, 117072)
             g_KillCount = g_KillCount - 1
             if g_KillCount < 0 then
                 g_KillCount = 0
@@ -331,28 +346,28 @@ function UpdatePact_Core()
     end
     
     -- Daredevil's Pact
-    if env(GetSpEffectID, 116080) == TRUE then
+    if env(GetSpEffectID, 117080) == TRUE then
         if env(GetHP) > 400 and env(GetHP) <= 500 then
-            act(AddSpEffect, 116810)
+            act(AddSpEffect, 117810)
         elseif env(GetHP) > 300 and env(GetHP) <= 400 then
-            act(AddSpEffect, 116811)
+            act(AddSpEffect, 117811)
         elseif env(GetHP) > 200 and env(GetHP) <= 300 then
-            act(AddSpEffect, 116812)
+            act(AddSpEffect, 117812)
         elseif env(GetHP) > 100 and env(GetHP) <= 200 then
-            act(AddSpEffect, 116813)
+            act(AddSpEffect, 117813)
         elseif env(GetHP) <= 100 then
-            act(AddSpEffect, 116814)
+            act(AddSpEffect, 117814)
         end
     end
     
     -- Pact Switch
-    if env(GetSpEffectID, 116992) == FALSE then
-        if env(GetSpEffectID, 116990) == TRUE then
+    if env(GetSpEffectID, 117992) == FALSE then
+        if env(GetSpEffectID, 117990) == TRUE then
             if g_PactApplied == true then
-                act(AddSpEffect, 116991)
+                act(AddSpEffect, 117991)
             end
         
-            act(AddSpEffect, 116992)
+            act(AddSpEffect, 117992)
             g_PactApplied = true
         end
     end
@@ -360,10 +375,10 @@ end
 
 function UpdateAttackType_Fighter()
     -- Fighter's Pact
-    if env(GetSpEffectID, 116000) == TRUE then
+    if env(GetSpEffectID, 117000) == TRUE then
         -- Apply buff if current attack is different to previous attack
         if g_CurrentAttackType ~= g_PreviousAttackType then
-            act(AddSpEffect, 116001)
+            act(AddSpEffect, 117001)
         end
         
         g_PreviousAttackType = g_CurrentAttackType
@@ -372,63 +387,63 @@ end
 
 function UpdateDamageStatus_Pyromancer()
     -- Pyromancer's Pact
-    if env(GetSpEffectID, 116030) == TRUE then
-        act(AddSpEffect, 116031)
+    if env(GetSpEffectID, 117030) == TRUE then
+        act(AddSpEffect, 117031)
     end
 end
 
 function UpdateStaggerImmunity_Warrior()
-    if env(GetSpEffectID, 116040) == TRUE then
-        act(AddSpEffect, 116041)
+    if env(GetSpEffectID, 117040) == TRUE then
+        act(AddSpEffect, 117041)
     end
 end
 
 function UpdateBoost_Warrior()
-    if env(GetSpEffectID, 116040) == TRUE then
-        if env(GetSpEffectID, 116043) == FALSE then
-            act(AddSpEffect, 116042)
-            act(AddSpEffect, 116043)
+    if env(GetSpEffectID, 117040) == TRUE then
+        if env(GetSpEffectID, 117043) == FALSE then
+            act(AddSpEffect, 117042)
+            act(AddSpEffect, 117043)
         end
     end
 end
 
 function UpdateBackstab_Assassin()
-    if env(GetSpEffectID, 116050) == TRUE then
-        act(AddSpEffect, 116051)
-        act(AddSpEffect, 116052)
-        act(AddSpEffect, 116054)
+    if env(GetSpEffectID, 117050) == TRUE then
+        act(AddSpEffect, 117051)
+        act(AddSpEffect, 117052)
+        act(AddSpEffect, 117054)
     end
 end
 
 function UpdateAmmoAttack_Hunter()
-    if env(GetSpEffectID, 116060) == TRUE then
-        act(AddSpEffect, 116062)
+    if env(GetSpEffectID, 117060) == TRUE then
+        act(AddSpEffect, 117062)
     end
 end
 
 function UpdateStartShot_Hunter()
-    if env(GetSpEffectID, 116060) == TRUE then
+    if env(GetSpEffectID, 117060) == TRUE then
         g_HeldShot = false
         g_HeldShotFrames = 0
     end
 end
 
 function UpdateHoldShot_Hunter()
-    if env(GetSpEffectID, 116060) == TRUE then
+    if env(GetSpEffectID, 117060) == TRUE then
         g_HeldShotFrames = g_HeldShotFrames + 1
         
         if g_HeldShotFrames > 99 then
             g_HeldShotFrames = 100
             g_HeldShot = true
-            act(AddSpEffect, 116064)
+            act(AddSpEffect, 117064)
         end
     end
 end
 
 function UpdateEndShot_Hunter()
-    if env(GetSpEffectID, 116060) == TRUE then
+    if env(GetSpEffectID, 117060) == TRUE then
         if g_HeldShot == true then
-            act(AddSpEffect, 116063)
+            act(AddSpEffect, 117063)
             g_HeldShot = false
             g_HeldShotFrames = 0
         end
@@ -566,142 +581,6 @@ function UpdateHenbaneEffect()
             act(2002, 116102)
         elseif env(1000) > 1 then
             act(2002, 116101)
-        end
-    end
-end
-
--- FP Regen
-function UpdateFP()
-    -- End if AI player
-    if env(1007) == TRUE then
-        return
-    end
-    
-    local skip = false
-    local skip_base = false
-    local cooldown = false
-    
-    -- Base Cooldown
-    if env(GetSpEffectID, 113000) == TRUE or env(GetSpEffectID, 113070) == TRUE then
-        cooldown = true
-    end
-    
-    if cooldown == false then
-        if env(GetSpEffectID, 113001) == TRUE or env(GetSpEffectID, 113002) == TRUE or env(GetSpEffectID, 113003) == TRUE or env(GetSpEffectID, 113004) == TRUE or env(GetSpEffectID, 113005) == TRUE or env(GetSpEffectID, 113006) == TRUE   or env(GetSpEffectID, 113007) == TRUE or env(GetSpEffectID, 113008) == TRUE or env(GetSpEffectID, 113009) == TRUE or env(GetSpEffectID, 113010) == TRUE or env(GetSpEffectID, 113011) == TRUE or env(GetSpEffectID, 113012) == TRUE or env(GetSpEffectID, 113013) == TRUE or env(GetSpEffectID, 113014) == TRUE or env(GetSpEffectID, 113015) == TRUE or env(GetSpEffectID, 113020) == TRUE or env(GetSpEffectID, 113025) == TRUE or env(GetSpEffectID, 113030) == TRUE or env(GetSpEffectID, 113035) == TRUE or env(GetSpEffectID, 113040) == TRUE or env(GetSpEffectID, 113045) == TRUE or env(GetSpEffectID, 113050) == TRUE or env(GetSpEffectID, 113055) == TRUE or env(GetSpEffectID, 113060) == TRUE then
-            skip = true
-        end
-        
-        -- Curse of Simplicity
-        if env(GetSpEffectID, 113205) == TRUE then
-            skip_base = true
-        end
-        
-        if skip == false then
-            -- Malus: Base Cooldown Increase
-            if env(GetSpEffectID, 112622) == TRUE then
-                act(2002, 113070) -- Base Interval
-            else
-                act(2002, 113000) -- Base Interval
-            end
-            
-            -- Attunement Mastery
-            if env(GetSpEffectID, 112430) == TRUE then
-                if skip_base == false then
-                    act(2002, 113130) -- Attunement Mastery - Base
-                end
-            else
-                if skip_base == false then
-                    act(2002, 113100) -- Normal - Base
-                end
-            end
-            
-            if env(GetSpEffectID, 113200) == TRUE then
-                act(2002, 113101) -- Enchanted
-            end
-            
-            if env(GetSpEffectID, 113201) == TRUE then
-                act(2002, 113102) -- Clarity
-            end
-                        
-            if env(GetSpEffectID, 113203) == TRUE then
-                act(2002, 113103) -- Pulsating
-            end
-            
-            if env(GetSpEffectID, 113210) == TRUE then
-                act(2002, 113110) -- Darkmoon Ring
-            end
-            
-            if env(GetSpEffectID, 113211) == TRUE then
-                act(2002, 113111) -- Darkmoon Ring+1
-            end
-            
-            if env(GetSpEffectID, 113212) == TRUE then
-                act(2002, 113112) -- Darkmoon Ring+2
-            end
-            
-            if env(GetSpEffectID, 113213) == TRUE then
-                act(2002, 113113) -- Darkmoon Ring+3
-            end
-            
-            if env(GetSpEffectID, 113214) == TRUE then
-                act(2002, 113114) -- Darkmoon Ring+4
-            end
-            
-            if env(GetSpEffectID, 113215) == TRUE then
-                act(2002, 113115) -- Darkmoon Ring+5
-            end
-            
-            -- Darkmoon Faithful
-            if env(GetSpEffectID, 113240) == TRUE then
-                act(2002, 113140) -- I
-            end
-            
-            if env(GetSpEffectID, 113241) == TRUE then
-                act(2002, 113141) -- II
-            end
-            
-            if env(GetSpEffectID, 113242) == TRUE then
-                act(2002, 113142) -- III
-            end
-            
-            if env(GetSpEffectID, 113243) == TRUE then
-                act(2002, 113143) -- IV
-            end
-            
-            if env(GetSpEffectID, 113244) == TRUE then
-                act(2002, 113144) -- V
-            end
-            
-            ---------------------
-            -- Focusing Ring
-            ---------------------
-            local stop_speed = GetVariable("MoveSpeedLevelReal")
-            
-            if stop_speed < 0.1 then
-                if env(GetSpEffectID, 113220) == TRUE then
-                    act(2002, 113120) -- Focusing Ring
-                end
-                
-                if env(GetSpEffectID, 113221) == TRUE then
-                    act(2002, 113121) -- Focusing Ring+1
-                end
-                
-                if env(GetSpEffectID, 113222) == TRUE then
-                    act(2002, 113122) -- Focusing Ring+2
-                end
-                
-                if env(GetSpEffectID, 113223) == TRUE then
-                    act(2002, 113123) -- Focusing Ring+3
-                end
-                
-                if env(GetSpEffectID, 113224) == TRUE then
-                    act(2002, 113124) -- Focusing Ring+4
-                end
-                
-                if env(GetSpEffectID, 113225) == TRUE then
-                    act(2002, 113125) -- Focusing Ring+5
-                end
-            end
         end
     end
 end
@@ -953,22 +832,6 @@ function UpdateDeepRingEffect()
             act(2002, 112173) -- Timer
             act(2002, 112167) -- Effect
         end
-    end
-end
-
-function AnimationMonitor()
-    -- End if AI player
-    if env(1007) == TRUE then
-        return
-    end
-    
-    -- Short Leap
-    if env(GetSpEffectID, 112410) == TRUE then
-        ExecEventAllBody("W_Event65030")
-    end
-    -- Long Leap
-    if env(GetSpEffectID, 112411) == TRUE then
-        ExecEventAllBody("W_Event60750")
     end
 end
 
@@ -3119,10 +2982,7 @@ function ExecGuard(event, blend_type)
                     -- Boost AI damage with sidearms
                     -- act(2002, 112450)
                 end
-                
-                -- FP Pause
-                act(2002, 113002) 
-                        
+                   
                 ExecEventAllBody(l1)
                 
                 return FALSE
@@ -21529,10 +21389,9 @@ function Update()
     UpdateDurability()
     TrackTimedBlock()
     UpdatePact_Core()
-    UpdatePact_Sorcerer()
+    UpdateFocusingRing()
 	
 	-- Cinders
-	AnimationMonitor()
     UpdateBloodthirstCharges()
     UpdateImpermanenceCurseEffect()
     PsychedelicPhantomEffect()

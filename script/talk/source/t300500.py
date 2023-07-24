@@ -282,25 +282,6 @@ def t300500_x50():
         # View Inventory
         AddTalkListData(2, 99062003, -1)
         
-        # Strengthen Bond - II
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10040) == 1, 3, 99062001, -1)
-        
-        # Strengthen Bond - III
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10041) == 1, 4, 99062001, -1)
-        
-        # Strengthen Bond - IV
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10042) == 1, 5, 99062001, -1)
-        
-        # Strengthen Bond - V
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10043) == 1, 6, 99062001, -1)
-        
-        # Strengthen Bond - None
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10040) == 0 and 
-        IsEquipmentIDEquipped(2, 10041) == 0 and 
-        IsEquipmentIDEquipped(2, 10042) == 0 and 
-        IsEquipmentIDEquipped(2, 10043) == 0 and 
-        IsEquipmentIDEquipped(2, 10044) == 0, 7, 99062001, -1)
-        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -315,31 +296,6 @@ def t300500_x50():
         elif GetTalkListEntryResult() == 2:
             c1111(21600, 21699)
             continue
-        # Strengthen Bond - II
-        elif GetTalkListEntryResult() == 3:
-            assert t300500_x60()
-            ReportConversationEndToHavokBehavior()
-            return 0
-        # Strengthen Bond - III
-        elif GetTalkListEntryResult() == 4:
-            assert t300500_x61()
-            ReportConversationEndToHavokBehavior()
-            return 0
-        # Strengthen Bond - IV
-        elif GetTalkListEntryResult() == 5:
-            assert t300500_x62()
-            ReportConversationEndToHavokBehavior()
-            return 0
-        # Strengthen Bond - V
-        elif GetTalkListEntryResult() == 6:
-            assert t300500_x63()
-            ReportConversationEndToHavokBehavior()
-            return 0
-        # Strengthen Bond - None
-        elif GetTalkListEntryResult() == 7:
-            assert t300500_x52(action1=99062005)
-            ReportConversationEndToHavokBehavior()
-            return 0
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -365,73 +321,5 @@ def t300500_x52(action1=_):
     OpenGenericDialog(7, action1, 1, 0, 1)
     assert not CheckSpecificPersonGenericDialogIsOpen(0)
     """ State 2 """
-    return 0
-    
-# Strengthen Bond - II
-def t300500_x60():
-    call = t300500_x51(action2=99062004)
-    
-    if call.Get() == 0:
-        if ComparePlayerInventoryNumber(3, 375, 3, 9, 0) == 1:
-            assert t300500_x52(action1=99062130)
-        else:
-            PlayerEquipmentQuantityChange(3, 375, -10)
-            PlayerEquipmentQuantityChange(2, 10040, -1)
-            PlayerEquipmentQuantityChange(2, 10041, 1)
-            
-            assert t300500_x52(action1=99062002)
-    elif call.Get() == 1:
-        pass
-    return 0
-    
-# Strengthen Bond - III
-def t300500_x61():
-    call = t300500_x51(action2=99062004)
-    
-    if call.Get() == 0:
-        if ComparePlayerInventoryNumber(3, 375, 3, 19, 0) == 1:
-            assert t300500_x52(action1=99062131)
-        else:
-            PlayerEquipmentQuantityChange(3, 375, -20)
-            PlayerEquipmentQuantityChange(2, 10041, -1)
-            PlayerEquipmentQuantityChange(2, 10042, 1)
-            
-            assert t300500_x52(action1=99062002)
-    elif call.Get() == 1:
-        pass
-    return 0
-    
-# Strengthen Bond - IV
-def t300500_x62():
-    call = t300500_x51(action2=99062004)
-    
-    if call.Get() == 0:
-        if ComparePlayerInventoryNumber(3, 375, 3, 29, 0) == 1:
-            assert t300500_x52(action1=99062132)
-        else:
-            PlayerEquipmentQuantityChange(3, 375, -30)
-            PlayerEquipmentQuantityChange(2, 10042, -1)
-            PlayerEquipmentQuantityChange(2, 10043, 1)
-            
-            assert t300500_x52(action1=99062002)
-    elif call.Get() == 1:
-        pass
-    return 0
-    
-# Strengthen Bond - V
-def t300500_x63():
-    call = t300500_x51(action2=99062004)
-    
-    if call.Get() == 0:
-        if ComparePlayerInventoryNumber(3, 375, 3, 49, 0) == 1:
-            assert t300500_x52(action1=99062133)
-        else:
-            PlayerEquipmentQuantityChange(3, 375, -50)
-            PlayerEquipmentQuantityChange(2, 10043, -1)
-            PlayerEquipmentQuantityChange(2, 10044, 1)
-            
-            assert t300500_x52(action1=99062002)
-    elif call.Get() == 1:
-        pass
     return 0
     

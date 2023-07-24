@@ -639,25 +639,6 @@ def t400230_x50():
         # View Inventory
         AddTalkListData(2, 99062003, -1)
         
-        # Strengthen Bond - II
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10100) == 1, 3, 99062001, -1)
-        
-        # Strengthen Bond - III
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10101) == 1, 4, 99062001, -1)
-        
-        # Strengthen Bond - IV
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10102) == 1, 5, 99062001, -1)
-        
-        # Strengthen Bond - V
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10103) == 1, 6, 99062001, -1)
-        
-        # Strengthen Bond - None
-        AddTalkListDataIf(IsEquipmentIDEquipped(2, 10100) == 0 and 
-        IsEquipmentIDEquipped(2, 10101) == 0 and 
-        IsEquipmentIDEquipped(2, 10102) == 0 and 
-        IsEquipmentIDEquipped(2, 10103) == 0 and 
-        IsEquipmentIDEquipped(2, 10104) == 0, 7, 99062001, -1)
-        
         # Leave
         AddTalkListData(99, 15000005, -1)
         
@@ -672,31 +653,6 @@ def t400230_x50():
         elif GetTalkListEntryResult() == 2:
             c1111(22500, 22599)
             continue
-        # Strengthen Bond - II
-        elif GetTalkListEntryResult() == 3:
-            assert t400230_x60()
-            ReportConversationEndToHavokBehavior()
-            return 0
-        # Strengthen Bond - III
-        elif GetTalkListEntryResult() == 4:
-            assert t400230_x61()
-            ReportConversationEndToHavokBehavior()
-            return 0
-        # Strengthen Bond - IV
-        elif GetTalkListEntryResult() == 5:
-            assert t400230_x62()
-            ReportConversationEndToHavokBehavior()
-            return 0
-        # Strengthen Bond - V
-        elif GetTalkListEntryResult() == 6:
-            assert t400230_x63()
-            ReportConversationEndToHavokBehavior()
-            return 0
-        # Strengthen Bond - None
-        elif GetTalkListEntryResult() == 7:
-            assert t400230_x52(action1=99062005)
-            ReportConversationEndToHavokBehavior()
-            return 0
         # Leave
         elif GetTalkListEntryResult() == 99:
             ReportConversationEndToHavokBehavior()
@@ -725,73 +681,5 @@ def t400230_x52(action1=_):
     OpenGenericDialog(7, action1, 1, 0, 1)
     assert not CheckSpecificPersonGenericDialogIsOpen(0)
     """ State 2 """
-    return 0
-    
-# Strengthen Bond - II
-def t400230_x60():
-    call = t400230_x51(action2=99062004)
-    
-    if call.Get() == 0:
-        if ComparePlayerInventoryNumber(3, 1070, 3, 9, 0) == 1:
-            assert t400230_x52(action1=99062190)
-        else:
-            PlayerEquipmentQuantityChange(3, 1070, -10)
-            PlayerEquipmentQuantityChange(2, 10100, -1)
-            PlayerEquipmentQuantityChange(2, 10101, 1)
-            
-            assert t400230_x52(action1=99062002)
-    elif call.Get() == 1:
-        pass
-    return 0
-    
-# Strengthen Bond - III
-def t400230_x61():
-    call = t400230_x51(action2=99062004)
-    
-    if call.Get() == 0:
-        if ComparePlayerInventoryNumber(3, 1070, 3, 19, 0) == 1:
-            assert t400230_x52(action1=99062191)
-        else:
-            PlayerEquipmentQuantityChange(3, 1070, -20)
-            PlayerEquipmentQuantityChange(2, 10101, -1)
-            PlayerEquipmentQuantityChange(2, 10102, 1)
-            
-            assert t400230_x52(action1=99062002)
-    elif call.Get() == 1:
-        pass
-    return 0
-    
-# Strengthen Bond - IV
-def t400230_x62():
-    call = t400230_x51(action2=99062004)
-    
-    if call.Get() == 0:
-        if ComparePlayerInventoryNumber(3, 1070, 3, 29, 0) == 1:
-            assert t400230_x52(action1=99062192)
-        else:
-            PlayerEquipmentQuantityChange(3, 1070, -30)
-            PlayerEquipmentQuantityChange(2, 10102, -1)
-            PlayerEquipmentQuantityChange(2, 10103, 1)
-            
-            assert t400230_x52(action1=99062002)
-    elif call.Get() == 1:
-        pass
-    return 0
-    
-# Strengthen Bond - V
-def t400230_x63():
-    call = t400230_x51(action2=99062004)
-    
-    if call.Get() == 0:
-        if ComparePlayerInventoryNumber(3, 1070, 3, 49, 0) == 1:
-            assert t400230_x52(action1=99062193)
-        else:
-            PlayerEquipmentQuantityChange(3, 1070, -50)
-            PlayerEquipmentQuantityChange(2, 10103, -1)
-            PlayerEquipmentQuantityChange(2, 10104, 1)
-            
-            assert t400230_x52(action1=99062002)
-    elif call.Get() == 1:
-        pass
     return 0
     

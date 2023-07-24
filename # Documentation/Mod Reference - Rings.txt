@@ -1,11 +1,11 @@
 ﻿#------------------------
 # Covenant Accessory Changes
 #------------------------
-# Thieves' Code
-- Boosts Item Discovery by 25
-
 # Darkmoon Faithful
-- Grants 1 FP per second.
+- Increases the rate of FP recovery.
+
+# Thieves' Code
+- Boosts Item Discovery by 50.
 
 # Spears of the Church
 - Grants 3 HP per second.
@@ -35,7 +35,7 @@
 - Increases cast speed by 15
 
 # Way of White
-- Increases HP restored through estus flasks by 10%.
+- Increases HP restored through estus flasks by 20%.
 
 # Dragon Remnants
 - Boosts stamina damage by 25%
@@ -59,39 +59,19 @@
 #------------------------
 # Life Ring
 - Weight: 1
-- [+0] Grants 10% increased Max HP
-- [+1] Grants 14% increased Max HP
-- [+2] Grants 18% increased Max HP
-- [+3] Grants 22% increased Max HP
-- [+4] Grants 26% increased Max HP
-- [+5] Grants 30% increased Max HP
+- [+0] Grants 20% increased Max HP
 
 # Chloranthy Ring
 - Weight: 1
 - [+0] Grants 20 Stamina Recovery
-- [+1] Grants 24 Stamina Recovery
-- [+2] Grants 28 Stamina Recovery
-- [+3] Grants 32 Stamina Recovery
-- [+4] Grants 36 Stamina Recovery
-- [+5] Grants 40 Stamina Recovery
 
 # Havel's Ring
 - Weight: 2
 - [+0] Grants 20% increased Max. Equip Load
-- [+1] Grants 24% increased Max. Equip Load
-- [+2] Grants 28% increased Max. Equip Load
-- [+3] Grants 32% increased Max. Equip Load
-- [+4] Grants 36% increased Max. Equip Load
-- [+5] Grants 40% increased Max. Equip Load
 
 # Ring of Favor
 - Weight: 1.5
 - [+0] Grants 7.5% increased Max HP, Max Stamina and Max. Equip Load.
-- [+1] Grants 10% increased Max HP, Max Stamina and Max. Equip Load.
-- [+2] Grants 12.5% increased Max HP, Max Stamina and Max. Equip Load.
-- [+3] Grants 15% increased Max HP, Max Stamina and Max. Equip Load.
-- [+4] Grants 17.5% increased Max HP, Max Stamina and Max. Equip Load.
-- [+5] Grants 20% increased Max HP, Max Stamina and Max. Equip Load.
 
 # Ring of Wisdom
 - Weight: 1
@@ -352,12 +332,7 @@
 
 # Darkmoon Ring
 - Weight: 0.5
-- [+0] Grants 5 FP every second.
-- [+1] Grants 6 FP every second.
-- [+2] Grants 7 FP every second.
-- [+3] Grants 8 FP every second.
-- [+4] Grants 9 FP every second.
-- [+5] Grants 10 FP every second.
+- [+0] Increases the rate of FP recovery.
 
 # Hawk Ring
 - Weight: 1
@@ -556,12 +531,7 @@
 
 # Focusing Ring
 - Weight: 1
-- [+0] Restores 5 FP while standing still.
-- [+1] Restores 6 FP while standing still.
-- [+2] Restores 7 FP while standing still.
-- [+3] Restores 8 FP while standing still.
-- [+4] Restores 9 FP while standing still.
-- [+5] Restores 10 FP while standing still.
+- [+0] Whilst standing still, Magic spell damage is increased by 20%.
 
 # Horsehoof Ring
 - Weight: 1
