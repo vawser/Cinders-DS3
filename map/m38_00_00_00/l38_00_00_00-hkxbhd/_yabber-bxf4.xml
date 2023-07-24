@@ -1,0 +1,935 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bxf4>
+  <bhd>
+    <filename>l38_00_00_00.hkxbhd</filename>
+    <timestamp>07D7R6</timestamp>
+    <format>0x74</format>
+    <unicode>True</unicode>
+    <bigendian>False</bigendian>
+    <flag1>False</flag1>
+    <flag2>False</flag2>
+    <extended>0x04</extended>
+  </bhd>
+  <bdt>
+    <filename>l38_00_00_00.hkxbdt</filename>
+    <timestamp>07D7R6</timestamp>
+    <bigendian>False</bigendian>
+    <flag1>False</flag1>
+    <flag2>False</flag2>
+    <unk1>0x0000000000000030</unk1>
+  </bdt>
+  <files>
+    <file>
+      <flags>0x40</flags>
+      <id>0</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>1</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001001.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>2</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>3</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>4</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>5</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>6</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>7</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001600.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>8</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001601.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>9</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001700.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>10</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001800.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>11</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001900.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>12</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_001901.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>13</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_002000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>14</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_002100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>15</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_002200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>16</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_002300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>17</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_002400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>18</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_002500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>19</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_002600.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>20</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_002700.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>21</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_002800.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>22</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_002900.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>23</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>24</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>25</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>26</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>27</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>28</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>29</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003600.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>30</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003700.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>31</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003800.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>32</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003900.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>33</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003910.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>34</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003920.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>35</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003930.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>36</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_003940.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>37</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>38</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>39</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>40</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>41</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>42</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>43</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004600.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>44</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004601.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>45</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004700.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>46</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004800.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>47</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_004900.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>48</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_005000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>49</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_005100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>50</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_005200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>51</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_005300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>52</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>53</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006001.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>54</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006002.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>55</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>56</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>57</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>58</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>59</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>60</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006600.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>61</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006700.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>62</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006800.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>63</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_006900.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>64</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_007000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>65</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_007100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>66</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_009000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>67</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_009100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>68</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_009200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>69</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_009300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>70</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_009400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>71</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_009500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>72</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_009600.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>73</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_009700.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>74</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_009800.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>75</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_009900.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>76</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_010000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>77</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_010100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>78</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_010200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>79</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_010300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>80</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_010400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>81</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_010500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>82</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_010600.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>83</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_010700.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>84</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_010800.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>85</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_010900.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>86</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_011000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>87</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>88</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>89</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>90</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>91</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>92</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>93</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012600.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>94</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012601.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>95</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012700.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>96</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012800.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>97</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_012900.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>98</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_013000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>99</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_013100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>100</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_013200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>101</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_013300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>102</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_013400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>103</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_013500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>104</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_013600.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>105</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_014000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>106</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_014100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>107</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_014200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>108</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_014300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>109</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_014400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>110</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_014500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>111</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>112</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>113</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016101.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>114</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016102.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>115</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016103.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>116</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016104.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>117</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016105.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>118</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016106.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>119</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>120</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>121</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>122</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016401.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>123</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_016402.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>124</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_018000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>125</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_018100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>126</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_018101.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>127</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_018102.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>128</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_019000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>129</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_019100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>130</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_019200.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>131</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_019300.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>132</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_019400.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>133</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_019401.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>134</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_019500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>135</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_019600.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>136</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_019700.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>137</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_019800.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>138</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_020000.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>139</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_020001.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>140</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_020002.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>141</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_020003.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>142</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_020004.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>143</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_020005.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>144</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_020006.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>145</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_020100.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>146</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_020101.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>147</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_000500.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>148</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_000501.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>149</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_000502.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>150</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_000503.hkx.dcx</path>
+    </file>
+    <file>
+      <flags>0x40</flags>
+      <id>151</id>
+      <root />
+      <path>m38_00_00_00\l38_00_00_00_000504.hkx.dcx</path>
+    </file>
+  </files>
+</bxf4>
