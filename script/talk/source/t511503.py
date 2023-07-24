@@ -275,7 +275,7 @@ def t511503_x50():
         ClearTalkListData()
         
         # Forge with Darkness
-        AddTalkListData(1, 80002000, -1)
+        # AddTalkListData(1, 80002000, -1)
         
         # Resurrection
         AddTalkListData(2, 80050000, -1)
@@ -456,10 +456,12 @@ def t511503_x53():
         
         # Dragonslayer Armour
         AddTalkListDataIf(GetEventStatus(9308) == 1, 1, 80050108, -1)
+        # Twisted Knight
+        AddTalkListDataIf(GetEventStatus(9345) == 1, 3, 80050126, -1)
+        # Mirror Knight
+        AddTalkListDataIf(GetEventStatus(9341) == 1, 4, 80050127, -1)
         # The Twin Princes
         AddTalkListDataIf(GetEventStatus(9309) == 1, 2, 80050109, -1)
-        # TO ADD: Twisted Knight - 9345
-        # TO ADD: Mirror Knight - 9341
         
         # Leave
         AddTalkListData(99, 80000999, -1)
@@ -475,6 +477,14 @@ def t511503_x53():
         elif GetTalkListEntryResult() == 2:
             assert t511503_x100(13410830, 0, 0, 0, 0, 25000159)
             return 0
+        # Twisted Knight
+        elif GetTalkListEntryResult() == 3:
+            assert t511503_x100(13010850, 0, 0, 0, 0, 25000177)
+            return 0
+        # Mirror Knight
+        elif GetTalkListEntryResult() == 4:
+            assert t511503_x100(13410870, 13410871, 13410872, 0, 0, 25000178)
+            return 0
         elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
             return 0
 
@@ -487,7 +497,8 @@ def t511503_x54():
         
         # Curse-rotted Greatwood
         AddTalkListDataIf(GetEventStatus(9303) == 1, 1, 80050103, -1)
-        # TO ADD: Aborr - 9342
+        # Aborr
+        AddTalkListDataIf(GetEventStatus(9342) == 1, 2, 80050124, -1)
         
         # Leave
         AddTalkListData(99, 80000999, -1)
@@ -498,6 +509,10 @@ def t511503_x54():
         # Curse-rotted Greatwood
         if GetTalkListEntryResult() == 1:
             assert t511503_x100(13100800, 0, 0, 0, 0, 25000153)
+            return 0
+        # Aborr
+        elif GetTalkListEntryResult() == 2:
+            assert t511503_x100(13100870, 13100871, 0, 0, 0, 25000175)
             return 0
         elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
             return 0
@@ -511,7 +526,8 @@ def t511503_x55():
         
         # Deacons of the Deep
         AddTalkListDataIf(GetEventStatus(9311) == 1, 1, 80050110, -1)
-        # TO ADD: Cathedral Guardian - 9340
+        # Cathedral Guardian
+        AddTalkListDataIf(GetEventStatus(9340) == 1, 2, 80050128, -1)
         
         # Leave
         AddTalkListData(99, 80000999, -1)
@@ -522,6 +538,10 @@ def t511503_x55():
         # Deacons of the Deep
         if GetTalkListEntryResult() == 1:
             assert t511503_x100(13500800, 0, 0, 0, 0, 25000160)
+            return 0
+        # Cathedral Guardian
+        elif GetTalkListEntryResult() == 2:
+            assert t511503_x100(13500810, 0, 0, 0, 0, 25000179)
             return 0
         elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
             return 0
@@ -595,7 +615,8 @@ def t511503_x58():
         AddTalkListDataIf(GetEventStatus(9313) == 1, 1, 80050111, -1)
         # Aldrich
         AddTalkListDataIf(GetEventStatus(9314) == 2, 2, 80050112, -1)
-        # TO ADD: Lordran Remnants - 9323
+        # Lordran Remnants
+        AddTalkListDataIf(GetEventStatus(9323) == 2, 3, 80050129, -1)
         
         # Leave
         AddTalkListData(99, 80000999, -1)
@@ -611,6 +632,10 @@ def t511503_x58():
         elif GetTalkListEntryResult() == 2:
             assert t511503_x100(13700800, 0, 0, 0, 0, 25000162)
             return 0
+        # Lordran Remnants
+        elif GetTalkListEntryResult() == 3:
+            assert t511503_x100(13700870, 13700871, 13700872, 13700873, 0, 25000180)
+            return 0
         elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
             return 0
 
@@ -623,7 +648,8 @@ def t511503_x59():
         
         # Yhorm the Giant
         AddTalkListDataIf(GetEventStatus(9318) == 1, 1, 80050115, -1)
-        # TO ADD: Fallen Protector - 9346
+        # Fallen Protector
+        AddTalkListDataIf(GetEventStatus(9346) == 1, 2, 80050130, -1)
         
         # Leave
         AddTalkListData(99, 80000999, -1)
@@ -631,9 +657,13 @@ def t511503_x59():
         ShowShopMessage(1)
         assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
-        #Dragonslayer Armour
+        # Yhorm the Giant
         if GetTalkListEntryResult() == 1:
             assert t511503_x100(13900800, 0, 0, 0, 0, 25000165)
+            return 0
+        # Fallen Protector
+        elif GetTalkListEntryResult() == 2:
+            assert t511503_x100(13900860, 13900862, 0, 0, 0, 25000181)
             return 0
         elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
             return 0
@@ -649,7 +679,8 @@ def t511503_x60():
         AddTalkListDataIf(GetEventStatus(9305) == 1, 1, 80050105, -1)
         # The Nameless King
         AddTalkListDataIf(GetEventStatus(9304) == 1, 2, 80050104, -1)
-        # TO ADD: Trio of Explorers - 9344
+        # Trio of Explorers
+        AddTalkListDataIf(GetEventStatus(9344) == 1, 3, 80050125, -1)
         
         # Leave
         AddTalkListData(99, 80000999, -1)
@@ -665,6 +696,10 @@ def t511503_x60():
         elif GetTalkListEntryResult() == 2:
             assert t511503_x100(13200850, 0, 0, 0, 0, 25000154)
             return 0
+        # Trio of Explorers
+        elif GetTalkListEntryResult() == 3:
+            assert t511503_x100(13200870, 13200871, 13200872, 0, 0, 25000176)
+            return 0
         elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
             return 0
 
@@ -677,10 +712,10 @@ def t511503_x61():
         
         # Sister Friede
         AddTalkListDataIf(GetEventStatus(9322) == 1, 1, 80050116, -1)
-        # REMOVE: Champion's Gravetender
-        AddTalkListDataIf(GetEventStatus(9323) == 1, 2, 80050117, -1)
-        # TO ADD: Princess Yngvil - 9343
-        # TO ADD: Prince Dorthinus - 9328
+        # Princess Yngvil
+        AddTalkListDataIf(GetEventStatus(9343) == 1, 2, 80050132, -1)
+        # Prince Dorthinus
+        AddTalkListDataIf(GetEventStatus(9328) == 1, 3, 80050131, -1)
         
         # Leave
         AddTalkListData(99, 80000999, -1)
@@ -692,9 +727,13 @@ def t511503_x61():
         if GetTalkListEntryResult() == 1:
             assert t511503_x100(14500800, 0, 0, 0, 0, 25000166)
             return 0
-        # Champion's Gravetender
+        # Princess Yngvil
         elif GetTalkListEntryResult() == 2:
-            assert t511503_x100(14500860, 0, 0, 0, 0, 25000167)
+            assert t511503_x100(14500860, 0, 0, 0, 0, 25000183)
+            return 0
+        # Prince Dorthinus
+        elif GetTalkListEntryResult() == 3:
+            assert t511503_x100(14500960, 0, 0, 0, 0, 25000182)
             return 0
         elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
             return 0
@@ -783,7 +822,8 @@ def t511503_x65():
         
         # Champion Gundyr
         AddTalkListDataIf(GetEventStatus(9319) == 1, 1, 80050122, -1)
-        # TO ADD: The Marauder - 9348
+        # The Marauder
+        AddTalkListDataIf(GetEventStatus(9348) == 1, 2, 80050133, -1)
         
         # Leave
         AddTalkListData(99, 80000999, -1)
@@ -794,6 +834,10 @@ def t511503_x65():
         # Champion Gundyr
         if GetTalkListEntryResult() == 1:
             assert t511503_x100(14000800, 0, 0, 0, 0, 25000172)
+            return 0
+        # The Marauder
+        elif GetTalkListEntryResult() == 2:
+            assert t511503_x100(14000850, 0, 0, 0, 0, 25000184)
             return 0
         elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
             return 0

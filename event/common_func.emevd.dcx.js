@@ -4,7 +4,7 @@
 // @game    DarkSouls3
 // @string    
 // @linked    []
-// @version    3.3.2
+// @version    3.4.1
 // ==/EMEVD==
 
 //--------------------------------------
@@ -5524,7 +5524,7 @@ L0:
 // <boss kill flag>, <first boss kill flag>, <base itemlot>, <special itemlot>, <wanderer itemlot>, <corrupted itemlot>
 //----------------------------------------------
 $Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    // Skip Primordial Fragment reward if this is the first kill
+    // Skip reward if this is the first kill
     if (EventFlag(X4_4)) {
 
         // Default
@@ -5532,11 +5532,6 @@ $Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
 
         // No Hit Reward
         if (!EventFlag(25000040)) {
-            AwardItemLot(X12_4);
-        }
-
-        // Curse of Valor
-        if (EventFlag(25000510)) {
             AwardItemLot(X12_4);
         }
 
@@ -5556,40 +5551,13 @@ $Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
         }
     }
 
-L0:
     // Don't set flags if a client player
     EndIf(PlayerIsNotInOwnWorld());
 
     SetEventFlag(X0_4, ON); // Boss Killed
     SetEventFlag(X4_4, ON); // First Boss Kill
-
-    // Boon item
-    if (EventFlag(25009851)) {
-        AwardItemLot(X16_4);
-    }
-
-    // Malus item
-    if (EventFlag(25009852)) {
-        AwardItemLot(X20_4);
-    }
-
-    // End if not in Gauntlet feature mode
-    EndIf(!EventFlag(25009850));
-
-    AwardItemLot(800002000); // Token drop
-
-    // In Set/Random Gauntlet, return to Shrine
-    if (EventFlag(25003200) || EventFlag(25003201) || EventFlag(25003203) || EventFlag(25003205)) { // Boss Select // Ordered // Random // Reverse Ordered
-        WaitFixedTimeSeconds(15.0);
-        SetMapCeremony(40, 0, 0); // Ceremony fix
-        WarpPlayer(40, 0, 4000970); // Firelink Shrine
-    }
-
-    // In Endless Gauntlet, progress boss order
-    if (EventFlag(25003202) || EventFlag(25003204)) { // Reverse Endless // Endless
-        WaitFixedTimeSeconds(10.0);
-        SetSpEffect(10000, 260120000);
-    }
+    
+    DisplayEpitaphMessage(80052000);
 });
 
 //----------------------------------------------
@@ -9449,4 +9417,3 @@ $Event(20087100, Restart, function(X0_4) {
     // Spawn FFX
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 1060);
 });
-

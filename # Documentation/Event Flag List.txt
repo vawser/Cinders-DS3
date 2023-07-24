@@ -349,6 +349,17 @@
 25000172 Champion Gundyr
 25000173 Soul of Cinder
 
+25000175 Aborr
+25000176 Trio of Explorers
+25000177 Twisted Knight
+25000178 Mirror Knight
+25000179 Cathedral Guardian
+25000180 Lordran Remnants
+25000181 Fallen Protector
+25000182 Prince Dorthinus
+25000183 Princess Yngvil
+25000184 The Marauder
+
 # Covenants
 25000200 Covenant Acquired: Thieves Pact           - Greirat
 25000201 Covenant Acquired: Chaos Servant          - Cornyx

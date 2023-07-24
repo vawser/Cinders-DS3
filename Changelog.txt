@@ -1,0 +1,220 @@
+﻿#-------------------------------------------------
+# WIP
+#-------------------------------------------------
+Write small action in MapBuddy to port Fate carthus parts + collision
+
+Sort out m40
+
+Re-add "Curse of Attraction" as castigation, link to the current COA enemies
+
+Add cinders boss to the hub VFX stuff
+
+#------------------------------
+# Changelog
+#------------------------------
+# System Changes
+- Replaced Curses with Castigations.
+- Removed Ring Affixing.
+- Removed the Gauntlet and Corruption modes.
+
+# Journey Configuration
+- The player now has the ability to select from 3 difficulties at game start:
+ - Explorer: +50% absorption for the player and enemies are less likely to spot the player.
+ - Hollow: standard journey.
+ - Conqueror: enemies have +25% damage and absorption.
+ - Accursed: enemies have +25% damage and absorption, and the player is given a persistent debuff for each death.
+
+- The player has the ability to select 3 restrictions at game start:
+ - Flameless: removes all bonfires except World's End. Increases soul absorption by 50%.
+ - Deathless: dying will condemn your character to a prison, ending your journey. Increases soul absorption by 100%.
+ - Hitless: being hit for damage will always be immediately fatal. Increases soul absorption by 50%.
+- These can all be active at the same time.
+
+# Boss Resurrection
+- Added the ability to resurrect bosses that have been defeated.
+ - Resurrection costs 1 Hollow Fragment.
+ - Travel allows the player to immediately warp to the boss bonfire by the entrance.
+ 
+# Castigations
+- Added the ability to apply debuffs to yourself, or buffs to enemies, in exchange for more chances at Hollow Fragments
+
+- Player castigations:
+ - Abyssal Maw
+  - Soul absorption is reduced by 50%.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+ - Brittle Bones
+  - Your absorption will be reduced by 30%.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+ - Fresh Meat
+  - Enemies will detect the player much easier, and will always prioritise the player first.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+ - Fading Flasks
+  - Your Estus Flask and Ashen Estus Flask will be 30% less effective.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+ - Lethargic Mind
+  - Your passive FP regeneration becomes 0.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+- Enemy castigations:
+ - Wounded Fury
+  - Enemies deal 30% more damage while below 50% HP.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+ - Thick Hides
+  - Enemies take 30% less damage while above 50% HP.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+ - Stout Hearts
+  - Enemies have 50% more HP.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+ - Regenerative Skin
+  - Enemies will regenerate 1% HP plus 25 HP every 2 seconds.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+ - Spectral Shift
+  - Enemies are now invisible until damaged.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+ - Relentlessness
+  - Enemies will no longer act passive when fighting together as a group.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+
+ - Alacrity
+  - Enemies will move 50% faster.
+  - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+  
+#-------------------------------------------------
+# Player
+#-------------------------------------------------
+- The player now regenerates FP passively.
+ - 3 per second up to 80 FP.
+ - 2 per second up to 160 FP.
+ - 1 per second until max.
+ - Weapon skills will pause FP regeneration during their animation and 1 second after.
+ - Magic will pause FP regeneration during the fire animation and 1 second after.
+ 
+# Flasks
+- Enemy kills will now build up Estus Flask charges. Every 5 kills will restore a flask.
+ 
+# Timed Block
+- Using a block at the right moment will reduce the guard stamina cost to 0.
+
+#-------------------------------------------------
+# Bosses
+#-------------------------------------------------
+- Slave Knight Gael is now the final boss. 
+ - He can be fought by selecting the 'Face the End' option at the World's End bonfire.
+ - All other bossess must be defeated first.
+ 
+#-------------------------------------------------
+# Enemies
+#-------------------------------------------------
+# Turmoil
+- Enemies have a chance to become Turmoiled, causing them to take on a red shade. Does not affect bosses.
+- Turmoil enemies:
+ - Drop 5 times more souls.
+ - Have 100% more HP over base.
+ - Deal 30% more damage over base.
+ 
+#-------------------------------------------------
+# World
+#-------------------------------------------------
+# Player Start
+- The player hub is now called World's End, and is hosted in the Filianore's Rest map.
+ - The player is automatically teleported here after character creation.
+ 
+# World Traversal
+- Each 'level' is now accessed via teleports surrounding the World's End bonfire.
+ - The following areas are now levels:
+  - High Wall of Lothric
+  - Lothric Castle (Lothric Castle + Grand Archives)
+  - Undead Settlement
+  - Swamps of Farron (Road of Sacrifices + Farron Keep)
+  - Depths of Carthus (Catacombs of Carthus + Smouldering Lake)
+  - Cathedral of the Deep
+  - Archdragon Peak
+  - Irithyll of the Boreal Valley (Irithyll + Anor Londo)
+  - Profaned Depths (Irithyll Dungeon + Profaned Capital)
+  - Painted World of Ariandel
+  - Dreg Heap
+  - Ringed City
+  - Blighted Cemetery
+  - Convergence of the Kingdoms
+- Each level is self-contained and will not allow access to another. You must return to World's End to switch level.
+- The Darksign now acts as a safe teleport back to World's End.
+- The teleport thrones will now have a larger flame burning within them if you've cleared the bosses within a level.
+
+# Bosses
+- Sister Friede poise reduced to 0.
+- Reduced the health of the Lordran Remnants.
+- Fixed the Abyss Walker AI weights so he uses his grab much less, and doesn't leap if the player is already close.
+- Reduced the part HP of Wolnir's bracelets.
+
+# World's End
+- There are 5 NPCs that provide services to the player whilst in World's End.
+ - Beautiful Pulpa:
+  - Hosts the transmogrification system.
+  
+ - The Last Pilgrim
+  - Hosts the Castigation system.
+  
+ - Slave Knight Gael
+  - Hosts the boss resurrection system.
+  
+ - Pygmy Merchant
+  - Allows the player to buy and sell items. Acts like the Shrine Handmaid from vanilla.
+  
+ - Fallen Pygmy
+  - Allows the player to transpose boss souls and to infuse their weapons.
+  
+- There is a passive Ringed Knight present for practising attacks on. You can interact with him to make him hostile.
+
+#-------------------------------------------------
+# Sidearms
+#-------------------------------------------------
+- Hunter's Pistol is now purely a parrying tool. It no longer emits a bullet, and thus will more reliably cause parries. However it no longer deals any damage.
+ - Adjusted the force parry window to make the pistol easier to parry with.
+- Removed the parry frames from the other sidearms.
+- Boosted the base damage of the other pistol sidearms, as they are now intended for damage.
+- Reduced the stamina cost of the pistol/spray sidearms.
+- Reduced the cancel window for the 'cannot fire' animations for the pistols.
+
+- Added weapon jam mechanic to the pistol/spray sidearms:
+ - There is now a base chance to play the 'cannot fire' animation each time the pistol is used.
+  - Hunter's Pistol: 5%
+  - Repeating Pistol: 10%
+  - Evelynn: 5%
+  - Blunderbuss: 20%
+  - Rosamarinus: 25%
+ - Rapid attacks will boost the jam chance, stacking up to 5 times. Each stack decays after 5 seconds.
+  - Shot 1: +5%
+  - Shot 2: +5%
+  - Shot 3: +5%
+  - Shot 4: +5%
+  - Shot 5: +5%
+ - After a jam, there is a grace period of 4 seconds where you cannot get another jam.
+ - The first shot (if you have not shot for 30 seconds or more) will never jam.
+ 
+#-------------------------------------------------
+# Poise
+#-------------------------------------------------
+- Changed the poise system:
+ - Removed the DS3 'toughness' system.
+ - Implemented a custom system within the HKS that emulates the feel of DS1 poise.
+ - Chest Armor provides stagger resistance. (Heavy to Medium only)
+ - Wolf Ring now provides its own stagger resistance. This stack with the other stagger resistances.
+ - Weapons that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
+ - Spells that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
+ - Items that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
+
+#-------------------------------------------------
+# Items
+#-------------------------------------------------
+- Changed the Ashes items to instead instead be themed around skulls 
+- Now automatically unlock their item sets at the Pygmy Merchant without requiring a turn-in action.
+- Added more items to the item sets unlocked by certain Skulls.

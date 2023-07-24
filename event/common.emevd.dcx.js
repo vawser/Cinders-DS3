@@ -50,52 +50,52 @@ $Event(0, Default, function() {
     //--------------------
     // Boss Teleports
     //--------------------
-    InitializeEvent( 0, 10006, 25000151, 3000972, 3002952, 30, 0); // Vordt
-    InitializeEvent( 1, 10006, 25000152, 3000971, 3002951, 30, 0); // Oceiros
-    InitializeEvent( 2, 10006, 25000150, 3000974, 3002954, 30, 0); // Dancer
+    InitializeEvent( 0, 10006, 25000151, 3000982, 3002960, 30, 0); // Vordt
+    InitializeEvent( 1, 10006, 25000152, 3000983, 3002961, 30, 0); // Oceiros
+    InitializeEvent( 2, 10006, 25000150, 3000981, 3002957, 30, 0); // Dancer
     
-    InitializeEvent( 3, 10006, 25000153, 3100971, 3102951, 31, 0); // Curse-rotted Greatwood
-    // TO ADD: Aborr
+    InitializeEvent( 3, 10006, 25000153, 3100980, 3102957, 31, 0); // Curse-rotted Greatwood
+    InitializeEvent(23, 10006, 25000175, 3100960, 3102960, 31, 0); // Aborr
     
-    InitializeEvent( 4, 10006, 25000154, 3200972, 3202952, 32, 0); // Nameless King
-    InitializeEvent( 5, 10006, 25000155, 3200970, 3202950, 32, 0); // Ancient Wyvern
-    // TO ADD: Trio of Explorers
+    InitializeEvent( 4, 10006, 25000154, 3200981, 3202961, 32, 0); // Nameless King
+    InitializeEvent( 5, 10006, 25000155, 3200980, 3202963, 32, 0); // Ancient Wyvern
+    InitializeEvent(24, 10006, 25000176, 3200960, 3202960, 32, 0); // Trio of Explorers
     
-    InitializeEvent( 6, 10006, 25000156, 3300972, 3302952, 33, 0); // Crystal Sage
-    InitializeEvent( 7, 10006, 25000157, 3300971, 3302951, 33, 0); // Abyss Watchers
+    InitializeEvent( 6, 10006, 25000156, 3300980, 3302960, 33, 0); // Crystal Sage
+    InitializeEvent( 7, 10006, 25000157, 3300981, 3302961, 33, 0); // Abyss Watchers
     
-    InitializeEvent( 8, 10006, 25000158, 3010971, 3012951, 30, 1); // Dragonslayer Armour
-    InitializeEvent( 9, 10006, 25000159, 3410970, 3412950, 34, 1); // Twin Princes
-    // TO ADD: Twisted Knight
-    // TO ADD: Mirror Knight
+    InitializeEvent( 8, 10006, 25000158, 3010980, 3012982, 30, 1); // Dragonslayer Armour
+    InitializeEvent(25, 10006, 25000177, 3010981, 3012981, 30, 1); // Twisted Knight
     
-    InitializeEvent(10, 10006, 25000160, 3500973, 3502953, 35, 0); // Deacons of the Deep
-    // TO ADD: Cathedral Guardian
+    InitializeEvent(26, 10006, 25000178, 3410960, 3412960, 34, 1); // Mirror Knight
+    InitializeEvent( 9, 10006, 25000159, 3410980, 3412961, 34, 1); // Twin Princes
     
-    InitializeEvent(11, 10006, 25000161, 3700971, 3702951, 37, 0); // Pontiff Sulyvahn
-    InitializeEvent(12, 10006, 25000162, 3700972, 3702952, 37, 0); // Aldrich
-    // TO ADD: Lordran Remnants
+    InitializeEvent(10, 10006, 25000160, 3500980, 3502957, 35, 0); // Deacons of the Deep
+    InitializeEvent(27, 10006, 25000179, 3500981, 3502956, 35, 0); // Cathedral Guardian
+
+    InitializeEvent(11, 10006, 25000161, 3700980, 3702976, 37, 0); // Pontiff Sulyvahn
+    InitializeEvent(12, 10006, 25000162, 3700981, 3702977, 37, 0); // Aldrich
+    InitializeEvent(28, 10006, 25000180, 3700982, 3702990, 37, 0); // Lordran Remnants
     
-    InitializeEvent(13, 10006, 25000163, 3800970, 3802950, 38, 0); // Wolnir
-    InitializeEvent(14, 10006, 25000164, 3800974, 3802954, 38, 0); // Old Demon King
+    InitializeEvent(13, 10006, 25000163, 3800980, 3802957, 38, 0); // Wolnir
+    InitializeEvent(14, 10006, 25000164, 3800981, 3802958, 38, 0); // Old Demon King
     
-    InitializeEvent(15, 10006, 25000165, 3900971, 3902951, 39, 0); // Yhorm
-    // TO ADD: Fallen Protector
+    InitializeEvent(15, 10006, 25000165, 3900980, 3902957, 39, 0); // Yhorm
+    InitializeEvent(29, 10006, 25000181, 3900971, 3902951, 39, 0); // Fallen Protector
     
-    InitializeEvent(16, 10006, 25000166, 4500970, 4502950, 45, 0); // Sister Friede
-    // REMOVE InitializeEvent(17, 10006, 25000167, 4500976, 4502956, 45, 0); // Gravetender
-    // TO ADD: Prince Dorthinus
-    // TO ADD: Princess Yngvil
+    InitializeEvent(21, 10006, 25000172, 4000981, 4002951, 40, 0); // Champion Gundyr
+    InitializeEvent(30, 10006, 25000184, 4000987, 4002972, 40, 0); // Marauder
     
-    InitializeEvent(18, 10006, 25000168, 5000973, 5002953, 50, 0); // Demon Prince
+    InitializeEvent(22, 10006, 25000173, 4100980, 4102955, 41, 0); // Soul of Cinder
     
-    InitializeEvent(19, 10006, 25000169, 5100970, 5102950, 51, 0); // Halflight
-    InitializeEvent(20, 10006, 25000170, 5100971, 5102951, 51, 0); // Midir
+    InitializeEvent(16, 10006, 25000166, 4500980, 4502926, 45, 0); // Sister Friede
+    InitializeEvent(31, 10006, 25000183, 4500981, 4502925, 45, 0); // Princess Yngvil
+    InitializeEvent(32, 10006, 25000182, 4500982, 4502920, 45, 0); // Prince Dorthinus
     
-    InitializeEvent(21, 10006, 25000172, 4000976, 4002951, 40, 0); // Champion Gundyr
-    // TO ADD: The Marauder
+    InitializeEvent(18, 10006, 25000168, 5000980, 5002955, 50, 0); // Demon Prince
     
-    InitializeEvent(22, 10006, 25000173, 4100975, 4102955, 41, 0); // Soul of Cinder
+    InitializeEvent(19, 10006, 25000169, 5100981, 5102957, 51, 0); // Halflight
+    InitializeEvent(20, 10006, 25000170, 5100980, 5102956, 51, 0); // Midir
     
     InitializeEvent(0, 10007, 25000171, 5110974, 5112954, 51, 1); // Gael
     
@@ -137,6 +137,12 @@ $Event(0, Default, function() {
     InitializeEvent( 9, 14020, 25000909, 120); // Spectral Shift
     InitializeEvent(10, 14020, 25000910, 120); // Relentlessness
     InitializeEvent(11, 14020, 25000911, 120); // Alacrity
+    
+    InitializeEvent( 0, 14030, 160101502, 160101503); // Company of Champions - 1
+    InitializeEvent( 1, 14030, 160101512, 160101513); // Company of Champions - 1
+    InitializeEvent( 2, 14030, 160101522, 160101523); // Company of Champions - 1
+    InitializeEvent( 3, 14030, 160101532, 160101533); // Company of Champions - 1
+    InitializeEvent( 4, 14030, 160101542, 160101543); // Company of Champions - 1
     
     // Ashes Unlocks
     InitializeEvent(0, 10025, 2107, 70000100); // Mortician's Ashes
@@ -277,7 +283,6 @@ $Event(0, Default, function() {
     InitializeEvent(25, 970, 15100850, 2350, 0, 0); // Darkeater Midir
     InitializeEvent(26, 970, 15110800, 2360, 0, 0); // Slave Knight Gael
     InitializeEvent(27, 970, 14500960, 2320, 0, 0); // Prince Dorthinus
-    InitializeEvent(28, 970, 13500810, 2370, 0, 0); // Cathedral Guardian
     InitializeEvent(29, 970, 13410870, 2380, 0, 0); // Mirror Knight
     InitializeEvent(30, 970, 13100870, 2390, 0, 0); // Aborr
     InitializeEvent(31, 970, 14500860, 2400, 0, 0); // Princess Yngvil
@@ -1876,7 +1881,6 @@ $Event(10005, Default, function() {
     
     WaitFor(EventFlag(9323)); // Lordran Remnants
     WaitFor(EventFlag(9328)); // Prince Dorthinus
-    WaitFor(EventFlag(9340)); // Cathedral Guardian
     WaitFor(EventFlag(9341)); // Mirror Knight
     WaitFor(EventFlag(9342)); // Aborr
     WaitFor(EventFlag(9343)); // Princess Yngvil
@@ -2070,6 +2074,19 @@ $Event(14020, Restart, function(X0_4, X4_4) {
         AwardItemLot(110);
     }
     
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+// Covenants - Enemies
+$Event(14030, Restart, function(X0_4, X4_4) {
+    WaitFor(CharacterHasSpEffect(10000, X0_4));
+    SetSpEffect(3605800, X4_4);
+
+    WaitFor(!CharacterHasSpEffect(10000, X0_4));
+    ClearSpEffect(3605800, X4_4);
+
     WaitFixedTimeSeconds(1.0);
     
     RestartEvent();
