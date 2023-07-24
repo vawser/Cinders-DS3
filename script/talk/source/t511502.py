@@ -228,7 +228,7 @@ def t511502_x26():
     """State 0"""
     while True:
         """State 5"""
-        call = t511502_x1(6000, 6000)
+        call = t511502_x1(6051, 6051)
         
         if call.Done():
             """State 3"""
@@ -247,10 +247,10 @@ def t511502_x26():
                     break
             elif IsPlayerDead() == 1:
                 break
-            elif GetDistanceToPlayer() > 3 or GetPlayerYDistance() > 0.25:
+            elif GetDistanceToPlayer() > 8 or GetPlayerYDistance() > 1.0:
                 """State 4"""
                 call = t511502_x13()
-                if call.Done() and (GetDistanceToPlayer() < 2.5 and GetPlayerYDistance() < 0.249):
+                if call.Done() and (GetDistanceToPlayer() < 7.5 and GetPlayerYDistance() < 0.99):
                     pass
                 elif IsAttackedBySomeone() == 1:
                     Goto('L0')
@@ -439,6 +439,12 @@ def t511502_x101():
         # Alacrity (selected)
         AddTalkListDataIf(GetEventStatus(25000911) == 1, 206, 80020211, -1)
         
+        # Feeding Frenzy
+        AddTalkListDataIf(GetEventStatus(25000912) == 0, 107, 80020112, -1)
+        
+        # Feeding Frenzy
+        AddTalkListDataIf(GetEventStatus(25000912) == 1, 207, 80020212, -1)
+        
         # Leave
         AddTalkListData(99, 80000999, -1)
         
@@ -498,6 +504,13 @@ def t511502_x101():
         # Alacrity (enabled)
         elif GetTalkListEntryResult() == 206:
             assert t511502_x110(25000911, 0, 80020411)
+        # Feeding Frenzy
+        elif GetTalkListEntryResult() == 107:
+            assert t511502_x110(25000912, 1, 80020312)
+            continue
+        # Feeding Frenzy (enabled)
+        elif GetTalkListEntryResult() == 207:
+            assert t511502_x110(25000912, 0, 80020412)
         else:
             return 0
             

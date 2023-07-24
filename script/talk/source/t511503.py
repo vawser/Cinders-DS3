@@ -1,5 +1,5 @@
 #------------------------------
-# Slave Knight Gael - Boss Resurrection / Talisman Forge
+# Slave Knight Gael - Boss Resurrection
 #------------------------------
 # -*- coding: utf-8 -*-
 def t511503_1():
@@ -228,7 +228,7 @@ def t511503_x26():
     """State 0"""
     while True:
         """State 5"""
-        call = t511503_x1(6000, 6000)
+        call = t511503_x1(6052, 6052)
         
         if call.Done():
             """State 3"""
@@ -247,10 +247,10 @@ def t511503_x26():
                     break
             elif IsPlayerDead() == 1:
                 break
-            elif GetDistanceToPlayer() > 3 or GetPlayerYDistance() > 0.25:
+            elif GetDistanceToPlayer() > 8 or GetPlayerYDistance() > 0.25:
                 """State 4"""
                 call = t511503_x13()
-                if call.Done() and (GetDistanceToPlayer() < 2.5 and GetPlayerYDistance() < 0.249):
+                if call.Done() and (GetDistanceToPlayer() < 7.5 and GetPlayerYDistance() < 0.249):
                     pass
                 elif IsAttackedBySomeone() == 1:
                     Goto('L0')

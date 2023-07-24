@@ -1,19 +1,4 @@
-﻿#-------------------------------------------------
-# WIP
-#-------------------------------------------------
-Write small action in MapBuddy to port Fate carthus parts + collision
-
-Sort out m40
-
-Re-add "Curse of Attraction" as castigation, link to the current COA enemies
-
-Add cinders boss to the hub VFX stuff
-
-Re-distribute the old hub NPCs to other maps.
-
-
-
-#------------------------------
+﻿#------------------------------
 # Changelog
 #------------------------------
 # System Changes

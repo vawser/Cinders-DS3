@@ -228,7 +228,7 @@ def t511501_x26():
     """State 0"""
     while True:
         """State 5"""
-        call = t511501_x1(6000, 6000)
+        call = t511501_x1(6050, 6050)
         
         if call.Done():
             """State 3"""
@@ -247,10 +247,10 @@ def t511501_x26():
                     break
             elif IsPlayerDead() == 1:
                 break
-            elif GetDistanceToPlayer() > 3 or GetPlayerYDistance() > 0.25:
+            elif GetDistanceToPlayer() > 8 or GetPlayerYDistance() > 0.25:
                 """State 4"""
                 call = t511501_x13()
-                if call.Done() and (GetDistanceToPlayer() < 2.5 and GetPlayerYDistance() < 0.249):
+                if call.Done() and (GetDistanceToPlayer() < 7.5 and GetPlayerYDistance() < 0.249):
                     pass
                 elif IsAttackedBySomeone() == 1:
                     Goto('L0')

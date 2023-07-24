@@ -80,7 +80,7 @@ $Event(0, Default, function() {
     InitializeEvent(13, 10006, 25000163, 3800980, 3802957, 38, 0); // Wolnir
     InitializeEvent(14, 10006, 25000164, 3800981, 3802958, 38, 0); // Old Demon King
     
-    InitializeEvent(15, 10006, 25000165, 3900980, 3902957, 39, 0); // Yhorm
+    InitializeEvent(15, 10006, 25000165, 3900980, 3902956, 39, 0); // Yhorm
     InitializeEvent(29, 10006, 25000181, 3900971, 3902951, 39, 0); // Fallen Protector
     
     InitializeEvent(21, 10006, 25000172, 4000981, 4002951, 40, 0); // Champion Gundyr
@@ -124,6 +124,7 @@ $Event(0, Default, function() {
     // Castigations
     InitializeEvent(0, 14000, 0); // Castigations - Player
     InitializeEvent(0, 14010, 0); // Castigations - Enemy
+    InitializeEvent(0, 14011, 0); // Castigations - Feeding Frenzy
     
     InitializeEvent( 0, 14020, 25000900, 110); // Abyssal Maw
     InitializeEvent( 1, 14020, 25000901, 110); // Brittle Bones
@@ -137,6 +138,7 @@ $Event(0, Default, function() {
     InitializeEvent( 9, 14020, 25000909, 120); // Spectral Shift
     InitializeEvent(10, 14020, 25000910, 120); // Relentlessness
     InitializeEvent(11, 14020, 25000911, 120); // Alacrity
+    InitializeEvent(12, 14020, 25000912, 120); // Feeding Frenzy
     
     InitializeEvent( 0, 14030, 160101502, 160101503); // Company of Champions - 1
     InitializeEvent( 1, 14030, 160101512, 160101513); // Company of Champions - 1
@@ -1878,7 +1880,6 @@ $Event(10005, Default, function() {
     WaitFor(EventFlag(9324)); // Demon Prince
     WaitFor(EventFlag(9325)); // Halflight
     WaitFor(EventFlag(9326)); // Midir
-    
     WaitFor(EventFlag(9323)); // Lordran Remnants
     WaitFor(EventFlag(9328)); // Prince Dorthinus
     WaitFor(EventFlag(9341)); // Mirror Knight
@@ -1888,6 +1889,8 @@ $Event(10005, Default, function() {
     WaitFor(EventFlag(9345)); // Twisted Knight
     WaitFor(EventFlag(9346)); // Fallen Protector
     WaitFor(EventFlag(9348)); // The Marauder
+    
+    DisplayEpitaphMessage(80020111);
     
     SetEventFlag(25000120, ON);
 });
@@ -2057,6 +2060,20 @@ $Event(14010, Restart, function() {
     else
     {
         ClearSpEffect(3605800, 200410600);
+    }
+    
+    WaitFixedTimeSeconds(1);
+    
+    RestartEvent();
+});
+
+// Castigation - Feeding Frenzy
+$Event(14010, Restart, function() {
+    
+    if(!EventFlag(25000912))
+    {
+        ChangeCharacterEnableState(3605800, Disabled);
+        SetCharacterAIState(3605800, Disabled);
     }
     
     WaitFixedTimeSeconds(1);

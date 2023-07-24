@@ -80,10 +80,10 @@ def t511504_x4():
                     break
             elif IsPlayerDead() == 1:
                 break
-            elif GetDistanceToPlayer() > 2 or GetPlayerYDistance() > 0.25:
+            elif GetDistanceToPlayer() > 8 or GetPlayerYDistance() > 0.25:
                 """ State 4 """
                 call = t511504_x7() # Distance Check
-                if call.Done() and (GetDistanceToPlayer() < 1.5 and GetPlayerYDistance() < 0.249):
+                if call.Done() and (GetDistanceToPlayer() < 7.5 and GetPlayerYDistance() < 0.249):
                     pass
                 elif IsAttackedBySomeone() == 1:
                     Goto('L0')
@@ -104,7 +104,7 @@ def t511504_x5():
         if (not (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
             and not IsPlayerDead() and not IsCharacterDisabled())):
             pass
-        elif CheckActionButtonArea(6120):
+        elif CheckActionButtonArea(6053):
             break
     """ State 4 """
     return 0
