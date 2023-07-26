@@ -202,13 +202,13 @@ def t370020_x9(lot1=4230, goods1=367, lot2=4238, lot3=4237, action1=15000406, ac
         AddTalkListDataIf(GetEventStatus(flag1) == 1, 2, 99062000, -1)
         
         # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008050) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
+        #AddTalkListDataIf(GetEventStatus(25008050) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
         
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008050) == 1, 11, 15015041, -1)
+        #AddTalkListDataIf(GetEventStatus(25008050) == 1, 11, 15015041, -1)
         
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008050) == 1, 12, 15015042, -1)
+        #AddTalkListDataIf(GetEventStatus(25008050) == 1, 12, 15015042, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)

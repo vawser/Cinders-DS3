@@ -178,9 +178,6 @@ def t310500_x9():
         # Smithbox
         AddTalkListDataIf(GetEventStatus(25009540) == 0, 4, 99013110, -1)
         
-        # Send to Overgrown Sanctum
-        AddTalkListDataIf(GetEventStatus(25009541) == 0, 10, 99013120, -1)
-        
         # Talk
         AddTalkListData(6, 10010200, -1)
         
@@ -214,10 +211,6 @@ def t310500_x9():
             PlayerEquipmentQuantityChange(3, 2006, -1)
             assert t310500_x10(text1=10011030, flag1=0, mode1=0)
             continue  
-        # Send to Overgrown Sanctum
-        elif GetTalkListEntryResult() == 10:
-            SetEventState(25009541, 1)
-            return 0 
         # Talk
         elif GetTalkListEntryResult() == 6:
             assert t310500_x10(text1=10011000, flag1=0, mode1=0)

@@ -171,13 +171,13 @@ def t400130_x10(goods1=2135, z1=390, weapon1=6260000, weapon2=6280000):
         AddTalkListDataIf(GetEventStatus(25009850) == 0 and GetEventStatus(74000171) == 1 and GetEventStatus(74000182) == 1, 3, 15003002, -1)   
          
         # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008100) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
+        #AddTalkListDataIf(GetEventStatus(25008100) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
         
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008100) == 1, 11, 15015041, -1)
+        #AddTalkListDataIf(GetEventStatus(25008100) == 1, 11, 15015041, -1)
         
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008100) == 1, 12, 15015042, -1)
+        #AddTalkListDataIf(GetEventStatus(25008100) == 1, 12, 15015042, -1)
         
         # Talk
         AddTalkListData(5, 15000000, -1)

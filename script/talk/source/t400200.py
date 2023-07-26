@@ -249,13 +249,13 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
         AddTalkListDataIf(GetEventStatus(6074) == 0, 9, 99000960, -1)
         
         # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008130) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
+        #AddTalkListDataIf(GetEventStatus(25008130) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
         
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008130) == 1, 31, 15015041, -1)
+        #AddTalkListDataIf(GetEventStatus(25008130) == 1, 31, 15015041, -1)
         
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008130) == 1, 32, 15015042, -1)
+        #AddTalkListDataIf(GetEventStatus(25008130) == 1, 32, 15015042, -1)
         
         # Talk
         AddTalkListData(5, 15000000, -1)

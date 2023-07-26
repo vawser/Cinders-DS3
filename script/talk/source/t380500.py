@@ -167,11 +167,11 @@ def t380500_x9():
         AddTalkListData(1, 15003003, -1)
 
         # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008090) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
+        #AddTalkListDataIf(GetEventStatus(25008090) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008090) == 1, 11, 15015041, -1)
+        #AddTalkListDataIf(GetEventStatus(25008090) == 1, 11, 15015041, -1)
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008090) == 1, 12, 15015042, -1)
+        #AddTalkListDataIf(GetEventStatus(25008090) == 1, 12, 15015042, -1)
         
         # Talk
         AddTalkListData(2, 15000000, -1)

@@ -550,13 +550,13 @@ def t400210_x15(goods1=2107, goods2=2108, goods3=2109, goods4=2110, goods5=2111,
         # Sell Item
         AddTalkListDataIf(GetEventStatus(25009850) == 0, 2, 15000012, -1)
         # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008140) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
+        #AddTalkListDataIf(GetEventStatus(25008140) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
         
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008140) == 1, 31, 15015041, -1)
+        #AddTalkListDataIf(GetEventStatus(25008140) == 1, 31, 15015041, -1)
         
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008140) == 1, 32, 15015042, -1)
+        #AddTalkListDataIf(GetEventStatus(25008140) == 1, 32, 15015042, -1)
         
         # Learn Gesture
         AddTalkListDataIf(GetEventStatus(25000301) == 0, 9, 99000960, -1)

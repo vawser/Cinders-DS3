@@ -6,69 +6,32 @@
 #------------
 Sort out m40, add new area for Marauder
 
-#------------
-# NPCS
-#------------
-Move the covenant npcs from m40 elsewhere
- -> Either make them merchants in other levels
- -> Or make them 'background' enemies, i.e. Magnum Ursus randomly wandering in a level
+Look at the lighting issue with the m38 catacombs
+ - Occurs randomly on reload, is fine on initial load
 
-# NPC:
-Magnum Ursus: 400504 - REMOVED
-Astrologer Lillian 400503 - REMOVED
 
 #------------
 # Items
 #------------
 # PLACE
-ID;Name
-2400;Apprentice's Scroll
-2401;Scholar's Scroll
-2402;Farron Scroll
-2403;Assassin's Scroll
-2404;Sage's Scroll
-2405;Logan's Scroll
-2406;Golden Scroll
-2407;Crystal Scroll
-
-2410;Divine Tome of Carim
-2411;Divine Tome of Lothric # DONE
-2412;Humble Divine Tome
-2413;Divine Tome of Astora
-2414;Divine Tome of Sunlight
-2415;Angelic Divine Tome
-2416;Wrathful Divine Tome # DONE
-
-2420;Simple Pyromancy Tome # DONE
-2421;Great Swamp Pyromancy Tome
-2422;Carthus Pyromancy Tome
-2423;Izalith Pyromancy Tome
-2424;Quelana Pyromancy Tome
-2425;Burnt Pyromany Tome
-2426;Dusty Pyromancy Tome
-2427;Earthen Pyromancy Tome
-2428;Muddy Pyromancy Tome
-
-2430;Black Tome of the Deep
-2431;Black Tome of Despair
-2432;Black Tome of Yearning
-2433;Black Tome of the Abyss
-
-2440;Black Tome of the Accursed
-2441;Black Tome of the Grave Warden
-
-2450;Gnawing Tome of Famine # DONE
-2451;Gnawing Tome of Agony
-2452;Gnawing Tome of Londor
-
-2500;Mortician's Skull
-2501;Dreamchaser's Skull
-2502;Paladin's Skull
-2503;Grave Warden's Skull
-2504;Pontificate's Skull
-2505;Prisoner Chief's Skull
-2506;Xanthous Skull 
-2507;Hollow's Skull # DONE
-2508;Dragon Chaser's Skull
-2509;Easterner's Skull # DONE
-2510;Captain's Skull
+27500000 Black Set
+2001 Lift Chamber Key
+26500000 Cornyx Set
+19800000 Pyromancy Flame
+74000000 Catarina Set
+21140000 Pierce Shield
+78001000 Black Leather Set
+9010000 Winged Spear
+1020000 Parrying Dagger
+4010000 Shotel
+2230000 Anri's Straight Sword
+20590 Ring of the Evil Eye
+20250000 Llewellyn Shield
+1355000 Chameleon
+18080000 Sacred Chime of Filianore
+9260000 Crucifix of the Mad King
+14120000 White Birch Bow
+20610 Farron Ring
+4100000 Crescent Moon Sword
+728 Soul of Rosaria
+32000000 Lapp's Set

@@ -1,5 +1,5 @@
 #-------------------------------------------
-#-- Boss Revival: Demon Prince
+#-- Occultist Grudore
 #-------------------------------------------
 # -*- coding: utf-8 -*-
 
@@ -22,7 +22,6 @@ def t500500_x0():
     """ State 0,1 """
     while True:
         call = t500500_x3()
-        assert not GetEventStatus(1000) and not GetEventStatus(1001) and not GetEventStatus(1002)
 
 # Client Player
 def t500500_x1():
@@ -68,7 +67,7 @@ def t500500_x3():
 def t500500_x4():
     """ State 0,5 """
     while True:
-        call = t500500_x5(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000) # Interaction State
+        call = t500500_x5()
         if call.Done():
             """ State 3 """
             call = t500500_x8() # Menu Pre-loop
@@ -86,10 +85,10 @@ def t500500_x4():
                     break
             elif IsPlayerDead() == 1:
                 break
-            elif GetDistanceToPlayer() > 3 or GetPlayerYDistance() > 0.25:
+            elif GetDistanceToPlayer() > 2 or GetPlayerYDistance() > 0.25:
                 """ State 4 """
                 call = t500500_x7() # Distance Check
-                if call.Done() and (GetDistanceToPlayer() < 2.5 and GetPlayerYDistance() < 0.249):
+                if call.Done() and (GetDistanceToPlayer() < 1.5 and GetPlayerYDistance() < 0.249):
                     pass
                 elif IsAttackedBySomeone() == 1:
                     Goto('L0')
@@ -101,22 +100,16 @@ def t500500_x4():
     t500500_x2() # Clear Talk State
     
 # Interaction State
-def t500500_x5(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000):
+def t500500_x5():
     """ State 0,1 """
     while True:
         assert (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
                 and not IsPlayerDead() and not IsCharacterDisabled())
-        """ State 3 """
-        assert (GetEventStatus(flag4) == 1 or GetEventStatus(flag5) == 1 or GetEventStatus(flag6) ==
-                1 or GetEventStatus(flag7) == 1 or GetEventStatus(flag8) == 1)
         """ State 2 """
         if (not (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
             and not IsPlayerDead() and not IsCharacterDisabled())):
             pass
-        elif (not GetEventStatus(flag4) and not GetEventStatus(flag5) and not GetEventStatus(flag6) and
-              not GetEventStatus(flag7) and not GetEventStatus(flag8)):
-            pass
-        elif CheckActionButtonArea(z4):
+        elif CheckActionButtonArea(6120):
             break
     """ State 4 """
     return 0
@@ -127,10 +120,8 @@ def t500500_x6():
     assert t500500_x2() # Clear Talk State
     """ State 3 """
     assert GetCurrentStateElapsedFrames() > 1
-    """ State 1 """
-    assert not GetEventStatus(1016) and not GetEventStatus(1017)
     """ State 2 """
-    if GetDistanceToPlayer() > 12:
+    if GetDistanceToPlayer() > 3:
         """ State 7 """
         assert t500500_x2() # Clear Talk State
     else:
@@ -142,10 +133,10 @@ def t500500_x6():
 # Distance Check
 def t500500_x7():
     """ State 0,1 """
-    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonMenuIsOpen(12, 0) and not
+    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not 
         CheckSpecificPersonGenericDialogIsOpen(0)):
         """ State 2,5 """
-        if GetDistanceToPlayer() > 12:
+        if GetDistanceToPlayer() > 3:
             """ State 4 """
             Label('L0')
             assert t500500_x2() # Clear Talk State
@@ -168,73 +159,122 @@ def t500500_x9():
     while True:
         ClearTalkListData()
         
-        # Revive
-        AddTalkListDataIf(GetEventStatus(25001022) == 1 and GetEventStatus(15000800) == 1, 1, 99002850, -1) 
+        # Purchase Item
+        AddTalkListData(1, 15000010, -1)
+        
+        # Give Farron Coal
+        AddTalkListDataIf(GetEventStatus(25009580) == 0 and ComparePlayerInventoryNumber(3, 2103, 2, 0, 0) == 1, 30, 99030620, -1)
+        
+        # Give Sage's Coal
+        AddTalkListDataIf(GetEventStatus(25009581) == 0 and ComparePlayerInventoryNumber(3, 2104, 2, 0, 0) == 1, 31, 99030621, -1)
+        
+        # Give Giant's Coal
+        AddTalkListDataIf(GetEventStatus(25009582) == 0 and ComparePlayerInventoryNumber(3, 2105, 2, 0, 0) == 1, 32, 99030622, -1)
+        
+        # Give Profaned Coal
+        AddTalkListDataIf(GetEventStatus(25009583) == 0 and ComparePlayerInventoryNumber(3, 2106, 2, 0, 0) == 1, 33, 99030623, -1)
+        
+        # Form Betrothal
+        #AddTalkListDataIf(GetEventStatus(25008250) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
+        
+        # Flirt
+        #AddTalkListDataIf(GetEventStatus(25008250) == 1, 11, 15015041, -1)
+        
+        # Divorce
+        #AddTalkListDataIf(GetEventStatus(25008250) == 1, 12, 15015042, -1)
+        
+        # Talk
+        AddTalkListData(3, 10010200, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
         
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
         
-        # Revive 
-        if GetTalkListEntryResult() == 1:
-            assert t500500_x52(99002622, 400, 1)
+        # Form Betrothal
+        if GetTalkListEntryResult() == 10:
+            SetEventState(25008250, 1)
+            PlayerEquipmentQuantityChange(3, 2000, -1)
+            assert t500500_x10(text1=10123030, flag1=0, mode1=0)
+            continue
+        # Flirt
+        elif GetTalkListEntryResult() == 11:
+            # Good
+            if GetEventStatus(25008900):
+                assert t500500_x10(text1=10123000, flag1=0, mode1=0)
+                GetItemFromItemLot(90240)
+            # Neutral
+            elif GetEventStatus(25008901):
+                assert t500500_x10(text1=10123010, flag1=0, mode1=0)
+            # Bad
+            elif GetEventStatus(25008902):
+                assert t500500_x10(text1=10123020, flag1=0, mode1=0)
+            continue
+        # Divorce
+        elif GetTalkListEntryResult() == 12:
+            assert t500500_x10(text1=10123020, flag1=0, mode1=0)
+            SetEventState(25008250, 0)
             return 0
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        # Talk
+        elif GetTalkListEntryResult() == 3:
+            assert t500500_x10(text1=10023000, flag1=0, mode1=0)
+            continue
+        # Purchase Items
+        elif GetTalkListEntryResult() == 1:
+            OpenRegularShop(290000, 290999)
+            continue
+        # Give Farron Coal
+        elif GetTalkListEntryResult() == 30:
+            SetEventState(25009580, 1)
+            PlayerEquipmentQuantityChange(3, 2103, -1)
+            assert t500500_x10(text1=10023010, flag1=0, mode1=0)
+            continue
+        # Give Sage's Coal
+        elif GetTalkListEntryResult() == 31:
+            SetEventState(25009581, 1)
+            PlayerEquipmentQuantityChange(3, 2104, -1)
+            assert t500500_x10(text1=10023010, flag1=0, mode1=0)
+            continue
+        # Give Giant's Coal
+        elif GetTalkListEntryResult() == 32:
+            SetEventState(25009582, 1)
+            PlayerEquipmentQuantityChange(3, 2105, -1)
+            assert t500500_x10(text1=10023010, flag1=0, mode1=0)
+            continue
+        # Give Profaned Coal
+        elif GetTalkListEntryResult() == 33:
+            SetEventState(25009583, 1)
+            PlayerEquipmentQuantityChange(3, 2106, -1)
+            assert t500500_x10(text1=10023010, flag1=0, mode1=0)
+            continue
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
-#----------------------------------------------------
-# Utility
-#----------------------------------------------------
-def t500500_x50(action1=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action1, 3, 4, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-
-def t500500_x51(action1=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action1, 0, 3, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-        
-# Revive
-def t500500_x52(text1=_, base_cost=_, derived_stat=_):
-    """ State 0,1 """
-    SetAquittalCostMessageTag(base_cost, derived_stat)
-    """ State 14 """
-    call = t500500_x50(action1=text1)
-    
-    if call.Get() == 0:
-        """ State 7 """
-        if ComparePlayerAcquittalPrice(base_cost, derived_stat, 2) == 1:
-            """ State 4,13 """
-            assert t500500_x50(action1=13000050) # Lack souls
-        else:
-            """ State 5 """
-            SubtractAcquittalCostFromPlayerSouls(base_cost, derived_stat)
-            """ State 6 """
-            SetEventState(15000800, 0);
-            SetEventState(9324, 0);
-            SetEventState(6324, 0);
-            SetEventState(15000000, 0);
-            GiveSpEffectToPlayer(260100220)
-    elif call.Get() == 1:
-        """ State 8 """
+# Talk Function
+def t500500_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t500500_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
         pass
-
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
     return 0
+    
+# Talk Cleanup
+def t500500_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    

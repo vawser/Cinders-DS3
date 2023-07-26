@@ -160,13 +160,13 @@ def t400120_x8(goods1=2138, goods2=390, goods3=2002, goods5=2000, goods6=2016):
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1, 16, 15002005, -1)
         
         # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008020) == 0 and ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1 and GetEventStatus(25009850) == 0, 30, 15015040, -1)
+        #AddTalkListDataIf(GetEventStatus(25008020) == 0 and ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1 and GetEventStatus(25009850) == 0, 30, 15015040, -1)
         
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008020) == 1 and GetEventStatus(25009850) == 0, 31, 15015041, -1)
+        #AddTalkListDataIf(GetEventStatus(25008020) == 1 and GetEventStatus(25009850) == 0, 31, 15015041, -1)
         
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008020) == 1 and GetEventStatus(25009850) == 0, 32, 15015042, -1)
+        #AddTalkListDataIf(GetEventStatus(25008020) == 1 and GetEventStatus(25009850) == 0, 32, 15015042, -1)
         
         # Seduce
         AddTalkListDataIf(GetEventStatus(25008020) == 1 and GetEventStatus(25009850) == 0, 33, 15015043, -1)

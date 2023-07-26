@@ -198,13 +198,13 @@ def t350020_x8(goods1=373, goods2=728, lot1=4268, lot2=4267):
         AddTalkListDataIf(GetEventStatus(1501) == 1 and ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1, 5, 15027012, -1)
         
         # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008040) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
+        #AddTalkListDataIf(GetEventStatus(25008040) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
         
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008040) == 1, 11, 15015041, -1)
+        #AddTalkListDataIf(GetEventStatus(25008040) == 1, 11, 15015041, -1)
         
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008040) == 1, 12, 15015042, -1)
+        #AddTalkListDataIf(GetEventStatus(25008040) == 1, 12, 15015042, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)

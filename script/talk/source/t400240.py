@@ -319,13 +319,13 @@ def t400240_x16(goods1=2127, goods2=2128, goods3=2129, goods4=2130, goods5=2131,
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods1, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods4, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods6, 2, 0, 0) == 1, 3, 15014002, -1)
         
         # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008150) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
+        #AddTalkListDataIf(GetEventStatus(25008150) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
         
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008150) == 1, 31, 15015041, -1)
+        #AddTalkListDataIf(GetEventStatus(25008150) == 1, 31, 15015041, -1)
         
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008150) == 1, 32, 15015042, -1)
+        #AddTalkListDataIf(GetEventStatus(25008150) == 1, 32, 15015042, -1)
         
         # Talk
         AddTalkListData(4, 15000000, -1)

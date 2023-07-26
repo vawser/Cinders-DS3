@@ -454,11 +454,11 @@ def t400301_x21():
         AddTalkListDataIf(GetEventStatus(25000055) == 0, 2, 15000012, -1)
         
         # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008170) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
+        #AddTalkListDataIf(GetEventStatus(25008170) == 0 and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 10, 15015040, -1)
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008170) == 1, 11, 15015041, -1)
+        #AddTalkListDataIf(GetEventStatus(25008170) == 1, 11, 15015041, -1)
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008170) == 1, 12, 15015042, -1)
+        #AddTalkListDataIf(GetEventStatus(25008170) == 1, 12, 15015042, -1)
         
         # action:15000000:Talk
         AddTalkListData(3, 15000000, -1)

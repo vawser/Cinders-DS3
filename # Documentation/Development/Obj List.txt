@@ -134,6 +134,21 @@ m109320 XXXX - Statue (King)
 m109340 XXXX - Statue (Frampt)
 m109350 XXXX - Statue (Wax Scholar)
 
+# m37
+m006530 5300 - Ornate Post 1
+m002020 5301 - Irithyll Tree
+m006531 5302 - Ornate Post 2
+XXXXXXX 5303 - 
+XXXXXXX 5304 - 
+XXXXXXX 5305 - 
+XXXXXXX 5306 - 
+XXXXXXX 5307 - 
+XXXXXXX 5308 - 
+XXXXXXX 5310 - 
+XXXXXXX 5311 - 
+XXXXXXX 5312 - 
+XXXXXXX 5313 - 
+
 # m38
 m000060 XXXX - Wolnir Arena (simple)
 m000065 XXXX - Wolnir Arena (back lower detail)

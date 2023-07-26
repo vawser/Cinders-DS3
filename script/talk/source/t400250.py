@@ -145,13 +145,13 @@ def t400250_x6(goods1=2130, goods2=2131, goods3=2144, goods4=2145, goods5=2000, 
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods6, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods7, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods8, 2, 0, 0) == 1, 8, 15015050, -1)
         
         # Form Betrothal
-        AddTalkListDataIf(GetEventStatus(25008010) == 0 and ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1, 10, 15015040, -1)
+        #AddTalkListDataIf(GetEventStatus(25008010) == 0 and ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1, 10, 15015040, -1)
         
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008010) == 1, 11, 15015041, -1) 
+        #AddTalkListDataIf(GetEventStatus(25008010) == 1, 11, 15015041, -1) 
         
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008010) == 1, 12, 15015042, -1)
+        #AddTalkListDataIf(GetEventStatus(25008010) == 1, 12, 15015042, -1)
         
         # Talk
         AddTalkListData(5, 15000000, -1)
