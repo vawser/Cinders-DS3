@@ -196,7 +196,7 @@ def t350002_x9():
         AddTalkListData(19, 15010003, -1)
         
         # Purchase Item
-        AddTalkListData(20, 15010005, -1)
+        # AddTalkListData(20, 15010005, -1)
         
         # Sell Item
         AddTalkListData(21, 15010006, -1)

@@ -1,0 +1,440 @@
+﻿#----------------------------------------
+# Attributes
+#----------------------------------------
+# Life Ring
+- Grants 20% increased Max HP
+
+# Dragonscale Ring
+- Grants 10% increased Max FP
+
+# Dusk Crown Ring
+- Boosts max FP by 25% but reduces max HP by 30%.
+
+# Symbol of the Penitent
+- Grants 20% increased Max Stamina
+
+# Havel's Ring
+- Grants 20% increased Max. Equip Load
+
+# Ring of Favor
+- Grants 7.5% increased Max HP, Max Stamina and Max. Equip Load.
+
+# Ring of Wisdom
+- Increases max FP by 7.5% and grants 1 attunement slots.
+
+# Chloranthy Ring
+- Grants 20 Stamina Recovery
+
+# Knight's Ring
+- Increases STR by 5
+
+# Hunter's Ring
+- Increases DEX by 5
+
+# Scholar Ring
+- Increases INT by 5
+
+# Priestess Ring
+- Increases FTH by 5
+
+# Mercenary Ring
+- Increases VIG by 5
+
+# Heretic Ring
+- Increases ATN by 5
+
+# Merchant Ring
+- Increases END by 5
+
+# Physician Ring
+- Increases VIT by 5
+
+# Jester Ring
+- Increases LCK by 5
+
+# Prisoner's Chain
+- Grants 5 Vigor, Endurance and Vitality but reduces absorption by 10%.
+
+#----------------------------------------
+# Combat
+#----------------------------------------
+# Ring of Blades
+- Increases physical damage by 30.
+
+# Sigil of Magic
+- Increases magic damage by 30.
+
+# Sigil of Flame
+- Increases fire damage by 30.
+
+# Sigil of Thunder
+- Increases lightning damage by 30.
+
+# Sigil of Darkness
+- Increases dark damage by 30.
+
+# Eyri's Signet
+- Boosts slash damage by 10%.
+
+# Ofydd's Signet
+- Boosts strike damage by 10%.
+
+# Ifanna's Signet
+- Boosts thrust damage by 10%.
+
+# Grufudd's Signet
+- Boosts standard damage by 10%.
+
+# Skull Ring
+- Grants 15% boost to physical damage, reduces absorption by 10%.
+
+# Magic Clutch Ring
+- Grants 15% Magic boost but reduces absorption by 10%
+
+# Lightning Clutch Ring
+- Grants 15% Lightning boost but reduces absorption by 10%
+
+# Fire Clutch Ring
+- Grants 15% Fire boost but reduces absorption by 10%
+
+# Dark Clutch Ring
+- Grants 15% Dark boost but reduces absorption by 10%
+
+# Wood Grain Ring
+- Reduces weapon stamina consumption by 20%.
+
+# Leo Ring
+- Increases thrust attacks and counter attacks by 10%.
+
+# Hawk Ring
+- Grants 100 boost to effective bow distance, reducing damage falloff.
+
+# Hornet Ring
+- Increases damage of backstabs and ripostes by 50%.
+
+# Farron Ring
+- Grants 30% reduction to the FP cost of Weapon Arts
+
+# Knight Slayer's Ring
+- Increases stamina drain dealt to enemies by 100%.
+
+# Horsehoof Ring
+- Grants 100% increase in kick stamina damage
+
+# Eagle-eye Ring
+- Boosts the attack power of ammunition by 25%.
+
+# Elden Ring
+- Boosts backstab/riposte damage from halberds by 100%.
+
+# Ring of Punishment
+- Adds 25 Bleed inflict.
+
+# Tainted Chalice
+- Adds 25 Poison inflict.
+
+# Accursed Sigil
+- Adds 25 Curse inflict.
+
+# Frostflower Ring
+- Adds 25 Frost inflict.
+
+# Old Man's Gambit
+- Using different consecutive attacks will reduces weapon stamina consumption by 25% and increase all damage by 10% for 2 seconds.
+
+# Assassin's Mark
+- Boosts backstab/riposte damage from daggers by 100%.
+
+# Gower's Ring of Protection
+- Whenever you are hit on the back, you recoup HP, restorting 10% HP over 1 second.
+
+# Stalwart Ring
+- Attacks against enemies will restore 1% HP per hit.
+
+# Ring of True Sight
+- Holding a shot for a short while will boost the attack power of ammunition by 50% for that shot.
+
+# Wretched Pendant
+- Boosts the attack power of heavy attacks by 25%.
+
+# Fool's Sigil
+- Boosts the attack power of throwable items by 100%.
+ 
+#----------------------------------------
+# Survival
+#----------------------------------------
+# Ring of Steel Protection
+- Grants 10% Physical Absorption
+
+# Flame Stoneplate Ring
+- Grants 10% Fire Absorption
+
+# Thunder Stoneplate Ring
+- Grants 10% Lightning Absorption
+
+# Magic Stoneplate Ring
+- Grants 10% Magic Absorption
+
+# Dark Stoneplate Ring
+- Grants 10% Dark Absorption
+
+# Speckled Stoneplate Ring
+- Grants 5% Magic, Fire, Lightning and Dark Absorption
+
+# Band of Stone
+- Boosts Physical defence by 50.
+
+# Band of Magic
+- Boosts Magic defence by 50.
+
+# Band of Flame
+- Boosts Fire defence by 50.
+
+# Band of Sparks
+- Boosts Lightning defence by 50.
+
+# Band of Darkness
+- Boosts Dark defence by 50.
+
+# Bloodbite Ring
+- Increases Bleed resistance by 200
+
+# Poisonbite Ring
+- Increases Poison and Toxic resistance by 200
+
+# Cursebite Ring
+- Increases Curse resistance by 200
+
+# Fleshbite Ring
+- Increases Poison, Toxic, Bleed, Curse and Frost resistance by 100
+
+# Chillbite Ring
+- Increases Frost resistance by 200
+
+# Wolf Ring
+- Boosts poise by 25%.
+
+# Tome of Sunlight
+- Increases effectiveness of HP restoration sourcees by 10%.
+
+# Sun Princess Ring
+- Grants 3 HP every second.
+
+# Ring of the Evil Eye
+- Grants 100 HP on enemy kills.
+
+# Estus Ring
+- Grants 50% increase in Estus Recovery
+
+# Londor Tincture
+- Boosts all defence by 5%.
+
+# Old Pygmy Brooch
+- Boosts stability by 2.5%.
+
+# Runic Seal
+- Whilst below 50%, ironskin is applied to the wearer. 
+- Ironskin boosts Physical absorption by 20%, reduces elemental absorptions by 20%, prevents stagger and increases attack defelection by 65.
+
+# Greatwood Remnants
+- Increases physical defense by 50% but shortens your roll distance.
+
+# Gwynevere's Urn
+- Stand still in contemplation to gain Gwynevere's Blessing, granting one the chance to endure upon reaching 0 HP.  Can only be triggered every 60 seconds.
+
+# Rare Ring of Humanity
+- Prevents grab/critical attacks against the player.
+
+# Unholy Remains
+- As HP lowers, damage is increased dramatically, up to 50%. However, HP recovery is reduced alongside, up to a 100% reduction.
+
+#----------------------------------------
+# Movement
+#----------------------------------------
+# Dashmaster's String
+- Increases movement speed by 10%.
+
+# Ring of Momentum
+- Allows you to quickstep easily and adds 15 stamina cost to quickstep roll. 
+
+# Bell of Grace
+- Allows you to jump simply and extends jump distance by 75.
+
+# Ring of Retreat
+- Increases backstep distance by 15%
+
+# Carthus Milkring
+- Reduces evasion stamina consumption by 25% aand lengthens your roll distance.
+
+# Carthus Bloodring
+- Shifts evasion class downwards and obscures rolling, but increases evasive movement stamina costs by 50%.
+
+#----------------------------------------
+# Magic
+#----------------------------------------
+# Darkmoon Ring
+- Increases the rate of FP recovery.
+
+# Focusing Ring
+- Whilst standing still, the rate of FP recovery is increased.
+
+# Young Dragon Ring
+- Whilst standing still, the damage of magic spells is increased by 20%.
+
+# Bellowing Dragoncrest Ring
+- Reduces FP consumption of Sorceries by 15%.
+
+# Great Swamp Ring
+- Whenever damage is suffered, cast speed is increased by 25 and fire damage by 20% for 8 seconds.
+
+# Witch's Ring
+- Reduces FP consumption of Pyromancies by 15%.
+
+# Morne's Ring
+- Whenever a spell is cast, the caster is immune to stagger and lighting damage is increased by 5% for 12 seconds, stacking for each cast.
+
+# Ring of the Sun's First Born
+- Reduces FP consumption of Miracles by 15%.
+
+# Deep Ring
+- Whilst standing still, the damage of dark spells is increased by 20%.
+
+# Lingering Dragoncrest Ring
+- Grants 100% boost to the duration of magical effects.
+
+# Sage Ring
+- Grants 20 Casting Speed
+
+# Saint's Ring
+- Grants 3 Attunement slots
+
+# Ring of Londor
+- Conducting a successful backstab will turn the body nigh on invisible, mask the noises of the caster and prevent fall damage for 30 seconds.
+- Boosts backstab damage by 30%.
+
+# Spirit Amethyst
+- Attacks against enemies will restore 2% FP per hit.
+
+#----------------------------------------
+# Situational
+#----------------------------------------
+# Red Tearstone Ring
+- Grants 20% increased damage whilst below 25% HP
+
+# Blue Tearstone Ring
+- Grants 40% absorption whilst below 25% HP
+
+# Flynn's Ring
+- Boosts physical weapon damage by 25%, scaling downwards with equip load to 0% at 30 weight.
+
+# Aldrich's Ruby
+- Restores 100 HP on critical hit
+
+# Aldrich's Sapphire
+- Restores 100 FP on critical hit
+
+# Lloyd's Sword Ring
+- Grants 15% boost to damage when at 100% HP
+
+# Lloyd's Shield Ring
+- Grants 40% absorption when at 100% HP
+
+# Pontiff's Right Eye
+- Grants 5% HP with successive attacks.
+
+# Pontiff's Left Eye
+- Grants 1 Bloodthirst charge with each successive attack.
+
+# Bestial Band
+- Every 3 enemy kills increase physical damage by 5%, and restores 1 HP per second. This caps out at 30 kill count.
+
+# Demonsbane Ring
+- Increase damage against Demon enemies by 15%
+
+# Crypt Ring
+- Increase damage against Undead enemies by 15%
+
+# Blight Ring
+- Increase damage against Hollow enemies by 15%
+
+# Hallowed Ring
+- Increase damage against Abyssal enemies by 15%
+
+# Ring of Retaliation
+- Grants 50 Physical damage whilst rolling or kicking.
+
+# Ring of Reprisal
+- Grants 50 Magic damage whilst rolling or kicking.
+
+# Ring of Spite
+- Grants 50 Fire damage whilst rolling or kicking.
+
+# Ring of Retribution
+- Grants 50 Lightning damage whilst rolling or kicking.
+
+# Ring of Vengeance
+- Grants 50 Dark damage whilst rolling or kicking.
+
+# Cursed Ring of Evasion
+- Reduces the cost of evasive movements by 25%.
+- Reduced max HP by 20%.
+
+# Cursed Ring of Vengeance
+- Grants stagger immunity whilst attacking.
+- Reduced max HP by 20%.
+
+# Cursed Ring of Deflection
+- Randomly deflect spells.
+- Reduced max HP by 20%.
+
+# Cursed Ring of Confusion
+- Emits a confusion aura, allowing enemies to harm one another.
+- Reduced max HP by 20%.
+
+#----------------------------------------
+# Utility
+#----------------------------------------
+# Ring of Sacrifice
+- Negate the effects of death. Breaks after use.
+
+# Slumbering Dragoncrest Ring
+- Masks the sound of the wearer, reducing enemy detection via hearing by 90%.
+
+# Obscuring Ring
+- Obscures the user and reducing enemy detection via sight by 90%.
+
+# Covetous Gold Serpent Ring
+- Grants 100 item discovery
+
+# Covetous Silver Serpent Ring
+- Grants 25% extra souls
+
+# Ravenous Chalice
+- Boosts soul absorption by 30% for 8 seconds after killing an enemy.
+
+# Silvercat Ring
+- Negates non-fatal falling damage.
+
+# Reversal Ring
+- Switchs moveset to opposite gender.
+
+# Ring of Conjuration
+- Boosts the damage and health of conjured allies by 20% whilst worn.
+
+#----------------------------------------
+# Relics
+#----------------------------------------
+# Relic of Swiftness
+- Increases movement speed by 15%.
+
+# Relic of Protection
+- Boosts all absorptions by 20%.
+
+# Relic of Eternity
+- Reduces weapon stamina consumption by 25%.
+
+# Relic of Sanctification
+- Boosts max HP, FP and Max Stamina by 20%.
+
+# Relic of Corruption
+- Boosts all damage by 30%.

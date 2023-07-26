@@ -1,52 +1,74 @@
-﻿#------------------------------
-# Weapons
-#------------------------------
-Finish following weapons:
- - ID
- - Behavior/Resident SpEffects
- - Reinforcement/Material Set
- - Infusion Flags
- - Correction Types (Fire/Dark)
- - Attack Element Correct ID
- - Scaling/Damage
-    
-31550000 Malformed Skull                 - Great Club
-    Dragon Roar WA
-    
-31610000 Roaring Halberd                 - Halberd
-    Dark Roar WA
-        
-31630000 Spider's Silk                   - Rapier
-    Guard bypass
-    
-31470000 Dragonrider Twinblade           - Splitleaf Greatsword
-31530000 Giant Warrior Club              - Great Club 
-31650000 Syan's Halberd                  - Halberd
-31660000 Warped Sword                    - Falchion
+﻿#-------------------------------------------------
+# WIP
+#-------------------------------------------------
+#------------
+# Maps
+#------------
+Sort out m40, add new area for Marauder
 
-# Lost Cat
-- Shield Catalyst - Vessel Shield (Pyromancies)
-- Finish Kirkhammer/Sunlight GS/Serpentine Chain-axe.
+#------------
+# NPCS
+#------------
+Move the covenant npcs from m40 elsewhere
+ -> Either make them merchants in other levels
+ -> Or make them 'background' enemies, i.e. Magnum Ursus randomly wandering in a level
 
-#------------------------------
-# TODO
-#------------------------------
-Curse of Collusion:
- Add additional enemies or traps to boss encounters
+# NPC:
+Magnum Ursus: 400504 - REMOVED
+Astrologer Lillian 400503 - REMOVED
 
-Bulk out the Curse of Attraction additions
- - Made it more like ascended in enemy count
+#------------
+# Items
+#------------
+# PLACE
+ID;Name
+2400;Apprentice's Scroll
+2401;Scholar's Scroll
+2402;Farron Scroll
+2403;Assassin's Scroll
+2404;Sage's Scroll
+2405;Logan's Scroll
+2406;Golden Scroll
+2407;Crystal Scroll
 
-# NG+
-xxx5775
-xxx5776
-xxx5777
+2410;Divine Tome of Carim
+2411;Divine Tome of Lothric # DONE
+2412;Humble Divine Tome
+2413;Divine Tome of Astora
+2414;Divine Tome of Sunlight
+2415;Angelic Divine Tome
+2416;Wrathful Divine Tome # DONE
 
-# Attraction
-xxx5750
+2420;Simple Pyromancy Tome # DONE
+2421;Great Swamp Pyromancy Tome
+2422;Carthus Pyromancy Tome
+2423;Izalith Pyromancy Tome
+2424;Quelana Pyromancy Tome
+2425;Burnt Pyromany Tome
+2426;Dusty Pyromancy Tome
+2427;Earthen Pyromancy Tome
+2428;Muddy Pyromancy Tome
 
-626200 # Ringed Knight - Sword
-626210 # Ringed Knight - Spear
-626220 # Ringed Knight - Paired Greatsword
+2430;Black Tome of the Deep
+2431;Black Tome of Despair
+2432;Black Tome of Yearning
+2433;Black Tome of the Abyss
 
-Add toggle for covenant drops
+2440;Black Tome of the Accursed
+2441;Black Tome of the Grave Warden
+
+2450;Gnawing Tome of Famine # DONE
+2451;Gnawing Tome of Agony
+2452;Gnawing Tome of Londor
+
+2500;Mortician's Skull
+2501;Dreamchaser's Skull
+2502;Paladin's Skull
+2503;Grave Warden's Skull
+2504;Pontificate's Skull
+2505;Prisoner Chief's Skull
+2506;Xanthous Skull 
+2507;Hollow's Skull # DONE
+2508;Dragon Chaser's Skull
+2509;Easterner's Skull # DONE
+2510;Captain's Skull

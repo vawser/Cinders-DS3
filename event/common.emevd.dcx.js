@@ -11,6 +11,8 @@
 // Constructor
 //----------------------------------------------
 $Event(0, Default, function() {
+    // DEBUG
+    // AwardItemLot(10);
     
     //-----------------------------------
     // Run for Host and Clients
@@ -140,27 +142,60 @@ $Event(0, Default, function() {
     InitializeEvent(11, 14020, 25000911, 120); // Alacrity
     InitializeEvent(12, 14020, 25000912, 120); // Feeding Frenzy
     
-    InitializeEvent( 0, 14030, 160101502, 160101503); // Company of Champions - 1
-    InitializeEvent( 1, 14030, 160101512, 160101513); // Company of Champions - 1
-    InitializeEvent( 2, 14030, 160101522, 160101523); // Company of Champions - 1
-    InitializeEvent( 3, 14030, 160101532, 160101533); // Company of Champions - 1
-    InitializeEvent( 4, 14030, 160101542, 160101543); // Company of Champions - 1
+    InitializeEvent( 0, 14030, 160101502, 160101503); // Company of Champions
     
-    // Ashes Unlocks
-    InitializeEvent(0, 10025, 2107, 70000100); // Mortician's Ashes
-    InitializeEvent(1, 10025, 2108, 70000101); // Dreamchaser's Ashes
-    InitializeEvent(2, 10025, 2109, 70000102); // Paladin's Ashes
-    InitializeEvent(3, 10025, 2110, 70000103); // Grave Warden's Ashes
-    InitializeEvent(4, 10025, 2146, 70000104); // Excrement-covered Ashes
-    InitializeEvent(5, 10025, 2147, 70000105); // Prisoner Chief's Ashes
-    InitializeEvent(6, 10025, 2148, 70000106); // Xanthous Ashes
-    InitializeEvent(7, 10025, 2149, 70000107); // Hollow's Ashes
-    InitializeEvent(8, 10025, 2151, 70000108); // Dragon Chaser's Ashes
-    InitializeEvent(9, 10025, 2152, 70000109); // Easterner's Ashes  
-    InitializeEvent(10, 10025, 2154, 70000120); // Captain's Ashes
+    // Pygmy Merchant Unlocks
+    InitializeEvent(0, 10025, 2500, 70000100); // Mortician's Skull
+    InitializeEvent(1, 10025, 2501, 70000101); // Dreamchaser's Skull
+    InitializeEvent(2, 10025, 2502, 70000102); // Paladin's Skull
+    InitializeEvent(3, 10025, 2503, 70000103); // Grave Warden's Skull
+    InitializeEvent(4, 10025, 2504, 70000104); // Pontificate's Skull
+    InitializeEvent(5, 10025, 2505, 70000105); // Prisoner Chief's Skull
+    InitializeEvent(6, 10025, 2506, 70000106); // Xanthous Skull
+    InitializeEvent(7, 10025, 2507, 70000107); // Hollow's Skull
+    InitializeEvent(8, 10025, 2508, 70000108); // Dragon Chaser's Skull
+    InitializeEvent(9, 10025, 2509, 70000109); // Easterner's Skull  
+    InitializeEvent(10, 10025, 2510, 70000120); // Captain's Skull
     
     // Tome Unlocks
-    //InitializeEvent( 0, 10010, 200300100, 2174, 200); // Sage's Scroll
+    InitializeEvent( 0, 10010, 200700000, 2400, 240); // Apprentice's Scroll
+    InitializeEvent( 1, 10010, 200700001, 2401, 250); // Scholar's Scroll
+    InitializeEvent( 2, 10010, 200700002, 2402, 260); // Farron Scroll
+    InitializeEvent( 3, 10010, 200700003, 2403, 270); // Assassin's Scroll
+    InitializeEvent( 4, 10010, 200700004, 2404, 200); // Sage's Scroll
+    InitializeEvent( 6, 10010, 200700005, 2405, 220); // Logan's Scroll
+    InitializeEvent( 7, 10010, 200700006, 2406, 210); // Golden Scroll
+    InitializeEvent( 8, 10010, 200700007, 2407, 230); // Crystal Scroll
+    
+    InitializeEvent( 9, 10010, 200700008, 2410, 300); // Divine Tome of Carim
+    InitializeEvent(10, 10010, 200700009, 2411, 310); // Divine Tome of Lothric
+    InitializeEvent(11, 10010, 200700010, 2412, 320); // Humble Divine Tome
+    InitializeEvent(12, 10010, 200700011, 2413, 340); // Divine Tome of Astora
+    InitializeEvent(13, 10010, 200700012, 2414, 330); // Divine Tome of Sunlight
+    InitializeEvent(14, 10010, 200700013, 2415, 350); // Angelic Divine Tome
+    InitializeEvent(15, 10010, 200700014, 2416, 360); // Wrathful Divine Tome
+    
+    InitializeEvent(16, 10010, 200700015, 2420, 440); // Simple Pyromancy Tome
+    InitializeEvent(17, 10010, 200700016, 2421, 400); // Great Swamp Pyromancy Tome
+    InitializeEvent(18, 10010, 200700017, 2422, 410); // Carthus Pyromancy Tome
+    InitializeEvent(19, 10010, 200700018, 2423, 420); // Izalith Pyromancy Tome
+    InitializeEvent(20, 10010, 200700019, 2424, 430); // Quelana Pyromancy Tome
+    InitializeEvent(21, 10010, 200700020, 2425, 450); // Burnt Pyromany Tome
+    InitializeEvent(22, 10010, 200700021, 2426, 460); // Dusty Pyromancy Tome
+    InitializeEvent(23, 10010, 200700022, 2427, 470); // Earthen Pyromancy Tome
+    InitializeEvent(24, 10010, 200700023, 2428, 480); // Muddy Pyromancy Tome
+    
+    InitializeEvent(25, 10010, 200700024, 2430, 500); // Black Tome of the Deep
+    InitializeEvent(26, 10010, 200700025, 2431, 510); // Black Tome of Despair
+    InitializeEvent(27, 10010, 200700026, 2432, 520); // Black Tome of Yearning
+    InitializeEvent(28, 10010, 200700027, 2433, 530); // Black Tome of the Abyss
+    
+    InitializeEvent(29, 10010, 200700028, 2440, 600); // Black Tome of the Accursed
+    InitializeEvent(30, 10010, 200700029, 2441, 610); // Black Tome of the Grave Warden
+    
+    InitializeEvent(31, 10010, 200700030, 2450, 700); // Gnawing Tome of Famine
+    InitializeEvent(32, 10010, 200700031, 2451, 710); // Gnawing Tome of Agony
+    InitializeEvent(33, 10010, 200700032, 2452, 720); // Gnawing Tome of Londor
     
     //--------------------
     // Items
@@ -429,28 +464,6 @@ $Event(50, Default, function() {
         RemoveItemFromPlayer(ItemType.Goods, 2104, 1); // Sage's Coal
         RemoveItemFromPlayer(ItemType.Goods, 2105, 1); // Giant's Coal
         RemoveItemFromPlayer(ItemType.Goods, 2106, 1); // Profaned Coal
-        RemoveItemFromPlayer(ItemType.Goods, 2177, 1); // Angelic Braille Divine Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2178, 1); // Heavenly Braille Divine Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2119, 1); // Braille Divine Tome of Carim
-        RemoveItemFromPlayer(ItemType.Goods, 2120, 1); // Braille Divine Tome of Lothric
-        RemoveItemFromPlayer(ItemType.Goods, 2121, 1); // Braille Divine Tome of Sunlight
-        RemoveItemFromPlayer(ItemType.Goods, 2144, 1); // Deep Braille Divine Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2145, 1); // Londor Braille Divine Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2175, 1); // Writhing Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2176, 1); // Abyssal Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2127, 1); // Great Swamp Pyromancy Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2128, 1); // Carthus Pyromancy Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2129, 1); // Izalith Pyromancy Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2130, 1); // Quelana Pyromancy Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2131, 1); // Grave Warden Pyromancy Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2173, 1); // Profaned Pyromancy Tome
-        RemoveItemFromPlayer(ItemType.Goods, 2132, 1); // Sage's Scroll
-        RemoveItemFromPlayer(ItemType.Goods, 2133, 1); // Logan's Scroll
-        RemoveItemFromPlayer(ItemType.Goods, 2134, 1); // Crystal Scroll
-        RemoveItemFromPlayer(ItemType.Goods, 2140, 1); // Golden Scroll
-        RemoveItemFromPlayer(ItemType.Goods, 2002, 1); // Lordvessel
-        RemoveItemFromPlayer(ItemType.Goods, 2004, 1); // Tortured Soul
-        RemoveItemFromPlayer(ItemType.Goods, 2006, 1); // Smithbox
 
         SetEventFlag(6400, OFF);
     }
@@ -1825,8 +1838,6 @@ $Event(10002, Default, function() {
     // Explorer
     if(EventFlag(25000102))
     {
-        SetSpEffect(3605800, 200101010);
-        SetSpEffect(3605800, 200101011);
     }
     
     // Conqueror
@@ -2072,8 +2083,8 @@ $Event(14010, Restart, function() {
     
     if(!EventFlag(25000912))
     {
-        ChangeCharacterEnableState(3605800, Disabled);
-        SetCharacterAIState(3605800, Disabled);
+        ChangeCharacterEnableState(3605802, Disabled);
+        SetCharacterAIState(3605802, Disabled);
     }
     
     WaitFixedTimeSeconds(1);
@@ -2122,7 +2133,7 @@ $Event(15001, Restart, function() {
     
     SetSpEffect(10000, 200110100);
     
-    WaitFor(CharacterHasSpEffect(10000, 113010, ComparisonType.Equal, 1));
+    WaitFor(CharacterHasSpEffect(10000, 112100, ComparisonType.Equal, 1));
     
     SetEventFlag(25000132, ON);
     WarpPlayer(51, 1, 5110975);
@@ -2135,7 +2146,7 @@ $Event(15002, Restart, function() {
     
     SetSpEffect(10000, 200110200);
     
-    WaitFor(CharacterHasSpEffect(10000, 112000, ComparisonType.Equal, 1));
+    WaitFor(CharacterHasSpEffect(10000, 112101, ComparisonType.Equal, 1));
     
     SetSpEffect(10000, 200110201);
 });

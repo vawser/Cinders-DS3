@@ -22,14 +22,22 @@ function UpdateFP()
             local fp_bounds_low = 80
             local fp_bounds_medium = 160
             
+            -- Darkmoon Faithful
             if env(GetSpEffectID, 160100102) == TRUE then
-                fp_bounds_low = fp_bounds_low - 20
-                fp_bounds_medium = fp_bounds_medium - 20
+                fp_bounds_low = fp_bounds_low + 20
+                fp_bounds_medium = fp_bounds_medium + 20
             end
             
+            -- Darkmoon Ring
             if env(GetSpEffectID, 160600350) == TRUE then
-                fp_bounds_low = fp_bounds_low - 20
-                fp_bounds_medium = fp_bounds_medium - 20
+                fp_bounds_low = fp_bounds_low + 20
+                fp_bounds_medium = fp_bounds_medium + 20
+            end
+            
+            -- Focusing Ring
+            if env(GetSpEffectID, 117101) == TRUE then
+                fp_bounds_low = fp_bounds_low + 20
+                fp_bounds_medium = fp_bounds_medium + 20
             end
             
             if env(GetFP) < fp_bounds_low then
@@ -62,26 +70,26 @@ end
 
 function ApplyEffect_LightAttack()  
     g_CurrentAttackType = "Light"
-    UpdateAttackType_Fighter()
+    Apply_Boost_for_Different_Attack_Type()
     
     act(AddSpEffect, 150000) -- AI Notify
+    
+    -- Cursed Ring of Vengeance
+    Apply_Stagger_Immunity(117130, 117131)
 end
 
 function ApplyEffect_HeavyAttack()
     g_CurrentAttackType = "Heavy"
-    UpdateAttackType_Fighter()
+    Apply_Boost_for_Different_Attack_Type()
     
     act(AddSpEffect, 150001) -- AI Notify
     
-    -- Runic Seal
-    if env(GetSpEffectID, 113100000) == TRUE then
-        act(AddSpEffect, 101020)
-    elseif env(GetSpEffectID, 113100100) == TRUE then
-        act(AddSpEffect, 101021)
-    elseif env(GetSpEffectID, 113100200) == TRUE then
-        act(AddSpEffect, 101022)
-    elseif env(GetSpEffectID, 113100300) == TRUE then
-        act(AddSpEffect, 101023)
+    -- Cursed Ring of Vengeance
+    Apply_Stagger_Immunity(117130, 117131)
+    
+    -- Wretched Pendant
+    if env(GetSpEffectID, 117140) == TRUE then
+        act(AddSpEffect, 117141)
     end
 end
 
@@ -90,81 +98,55 @@ function ApplyEffect_SkillAttack()
     act(AddSpEffect, 111000)
     
     g_CurrentAttackType = "Skill"
-    UpdateAttackType_Fighter()
+    Apply_Boost_for_Different_Attack_Type()
     
     act(AddSpEffect, 150002) -- AI Notify
     
-    -- Birchwood Ring
-    if env(GetSpEffectID, 112014000) == TRUE then
-        act(AddSpEffect, 101010)
-    elseif env(GetSpEffectID, 112014100) == TRUE then
-        act(AddSpEffect, 101011)
-    elseif env(GetSpEffectID, 112014200) == TRUE then
-        act(AddSpEffect, 101012)
-    elseif env(GetSpEffectID, 112014300) == TRUE then
-        act(AddSpEffect, 101013)
-    end
+    -- Cursed Ring of Vengeance
+    Apply_Stagger_Immunity(117130, 117131)
+    
 end
 
 function ApplyEffect_DashAttack()
     g_CurrentAttackType = "Dash"
-    UpdateAttackType_Fighter()
+    Apply_Boost_for_Different_Attack_Type()
     
     act(AddSpEffect, 150003) -- AI Notify
     
-    -- Bestial Fang
-    if env(GetSpEffectID, 112200000) == TRUE then
-        act(AddSpEffect, 101000)
-    elseif env(GetSpEffectID, 112200100) == TRUE then
-        act(AddSpEffect, 101001)
-    elseif env(GetSpEffectID, 112200200) == TRUE then
-        act(AddSpEffect, 101002)
-    elseif env(GetSpEffectID, 112200300) == TRUE then
-        act(AddSpEffect, 101003)
-    end
+    -- Cursed Ring of Vengeance
+    Apply_Stagger_Immunity(117130, 117131)
+    
 end
 
 function ApplyEffect_GuardAttack()
     g_CurrentAttackType = "Guard"
-    UpdateAttackType_Fighter()
+    Apply_Boost_for_Different_Attack_Type()
     
     act(AddSpEffect, 150004) -- AI Notify
 end
 
 function ApplyEffect_AmmoAttack()
     g_CurrentAttackType = "Ammunition"
-    UpdateAttackType_Fighter()
-    UpdateAmmoAttack_Hunter()
+    Apply_Boost_for_Different_Attack_Type()
+    Apply_Boost_for_Ammunition_Attack()
     
     act(AddSpEffect, 150005) -- AI Notify
     
-    -- Thumb Ring
-    if env(GetSpEffectID, 113600000) == TRUE then
-        act(AddSpEffect, 101030)
-    elseif env(GetSpEffectID, 113600010) == TRUE then
-        act(AddSpEffect, 101031)
-    elseif env(GetSpEffectID, 113600020) == TRUE then
-        act(AddSpEffect, 101032)
-    elseif env(GetSpEffectID, 113600030) == TRUE then
-        act(AddSpEffect, 101033)
+    -- Eagle-eye Ring
+    if env(GetSpEffectID, 117160) == TRUE then
+        act(AddSpEffect, 117161)
     end
 end
 
 function ApplyEffect_ThrowableItem()
     g_CurrentAttackType = "Throwable"
-    UpdateAttackType_Fighter()
+    Apply_Boost_for_Different_Attack_Type()
     
     act(AddSpEffect, 150006) -- AI Notify
     
-    -- Smouldering Crucible
-    if env(GetSpEffectID, 113700000) == TRUE then
-        act(AddSpEffect, 101040)
-    elseif env(GetSpEffectID, 113700010) == TRUE then
-        act(AddSpEffect, 101041)
-    elseif env(GetSpEffectID, 113700020) == TRUE then
-        act(AddSpEffect, 101042)
-    elseif env(GetSpEffectID, 113700030) == TRUE then
-        act(AddSpEffect, 101043)
+    -- Fool's Sigil
+    if env(GetSpEffectID, 117150) == TRUE then
+        act(AddSpEffect, 117151)
     end
 end
 
@@ -238,8 +220,7 @@ end
 --------------------
 -- Rings
 --------------------
-function UpdateFocusingRing()
-    -- Focusing Ring
+function UpdateYoungDragonRing()
     if env(GetSpEffectID, 117020) == TRUE then
         -- Is not moving
         if GetVariable("MoveSpeedLevel") < 0.5 then
@@ -261,48 +242,69 @@ function UpdateFocusingRing()
     end
 end
 
+function UpdateFocusingRing()
+    if env(GetSpEffectID, 117100) == TRUE then
+        -- Is not moving
+        if GetVariable("MoveSpeedLevel") < 0.5 then
+            g_IsInConcentration = true
+            g_ConcentrationFrames = g_ConcentrationFrames + 1
+            
+            if g_ConcentrationFrames > 1000 then
+                g_ConcentrationFrames = 1000
+            end
+        else
+            g_IsInConcentration = false
+            g_ConcentrationFrames = 0
+        end
+        
+        -- Has stood still for approx. 3 seconds
+        if g_IsInConcentration == true and g_ConcentrationFrames > 100 then
+            act(AddSpEffect, 117101)
+        end
+    end
+end
+
+function UpdateDeepRing()
+    if env(GetSpEffectID, 117110) == TRUE then
+        -- Is not moving
+        if GetVariable("MoveSpeedLevel") < 0.5 then
+            g_IsInConcentration = true
+            g_ConcentrationFrames = g_ConcentrationFrames + 1
+            
+            if g_ConcentrationFrames > 1000 then
+                g_ConcentrationFrames = 1000
+            end
+        else
+            g_IsInConcentration = false
+            g_ConcentrationFrames = 0
+        end
+        
+        -- Has stood still for approx. 3 seconds
+        if g_IsInConcentration == true and g_ConcentrationFrames > 100 then
+            act(AddSpEffect, 117111)
+        end
+    end
+end
+
 --------------------
 -- Pacts
 --------------------
 g_PactApplied = false
 
--- Fighter
 g_PreviousAttackType = nil
 g_CurrentAttackType = nil
 
--- Sorcerer
 g_IsInConcentration = false
 g_ConcentrationFrames = 0
 
--- Hunter
 g_HeldShot = false
 g_HeldShotFrames = 0
 
--- Cannibal
 g_KillCount = 0
 g_KillIncrement = 3
 
 function UpdatePact_Core()
-    -- Barbarian's Pact
-    if env(GetSpEffectID, 117010) == TRUE then
-        act(AddSpEffect, 117950) -- Block Sorcery
-        act(AddSpEffect, 117951) -- Block Pyromancy
-        act(AddSpEffect, 117952) -- Block Miracles
-    end
-    
-    -- Pyromancer's Pact
-    if env(GetSpEffectID, 117030) == TRUE then
-        act(AddSpEffect, 117950) -- Block Sorcery
-        act(AddSpEffect, 117952) -- Block Miracles
-    end
-    
-    -- Warrior's Pact
-    if env(GetSpEffectID, 117040) == TRUE then
-        act(AddSpEffect, 117950) -- Block Sorcery
-        act(AddSpEffect, 117951) -- Block Pyromancy
-    end
-    
-    -- Cannibal's Pact
+    -- Bestial Band
     if env(GetSpEffectID, 117070) == TRUE then
         -- Boost kill count on enemy death
         if env(GetSpEffectID, 117071) == TRUE then
@@ -345,7 +347,7 @@ function UpdatePact_Core()
         g_KillCount = 0
     end
     
-    -- Daredevil's Pact
+    -- Unholy Remains
     if env(GetSpEffectID, 117080) == TRUE then
         if env(GetHP) > 400 and env(GetHP) <= 500 then
             act(AddSpEffect, 117810)
@@ -359,22 +361,10 @@ function UpdatePact_Core()
             act(AddSpEffect, 117814)
         end
     end
-    
-    -- Pact Switch
-    if env(GetSpEffectID, 117992) == FALSE then
-        if env(GetSpEffectID, 117990) == TRUE then
-            if g_PactApplied == true then
-                act(AddSpEffect, 117991)
-            end
-        
-            act(AddSpEffect, 117992)
-            g_PactApplied = true
-        end
-    end
 end
 
-function UpdateAttackType_Fighter()
-    -- Fighter's Pact
+-- Old Man's Gambit
+function Apply_Boost_for_Different_Attack_Type()
     if env(GetSpEffectID, 117000) == TRUE then
         -- Apply buff if current attack is different to previous attack
         if g_CurrentAttackType ~= g_PreviousAttackType then
@@ -385,20 +375,22 @@ function UpdateAttackType_Fighter()
     end
 end
 
-function UpdateDamageStatus_Pyromancer()
-    -- Pyromancer's Pact
+-- Great Swamp Ring
+function Apply_Boost_when_Damaged()
     if env(GetSpEffectID, 117030) == TRUE then
         act(AddSpEffect, 117031)
     end
 end
 
-function UpdateStaggerImmunity_Warrior()
-    if env(GetSpEffectID, 117040) == TRUE then
-        act(AddSpEffect, 117041)
+-- Morne's Ring / Cursed Ring of Vengeance
+function Apply_Stagger_Immunity(trigger_speffect, effect_speffect)
+    if env(GetSpEffectID, trigger_speffect) == TRUE then
+        act(AddSpEffect, effect_speffect)
     end
 end
 
-function UpdateBoost_Warrior()
+-- Morne's Ring
+function Apply_Spell_Damage_Boost()
     if env(GetSpEffectID, 117040) == TRUE then
         if env(GetSpEffectID, 117043) == FALSE then
             act(AddSpEffect, 117042)
@@ -407,7 +399,8 @@ function UpdateBoost_Warrior()
     end
 end
 
-function UpdateBackstab_Assassin()
+-- Ring of Londor
+function Apply_Boost_on_Backstab()
     if env(GetSpEffectID, 117050) == TRUE then
         act(AddSpEffect, 117051)
         act(AddSpEffect, 117052)
@@ -415,20 +408,20 @@ function UpdateBackstab_Assassin()
     end
 end
 
-function UpdateAmmoAttack_Hunter()
+function Apply_Boost_for_Ammunition_Attack()
     if env(GetSpEffectID, 117060) == TRUE then
         act(AddSpEffect, 117062)
     end
 end
 
-function UpdateStartShot_Hunter()
+function Init_HoldShot()
     if env(GetSpEffectID, 117060) == TRUE then
         g_HeldShot = false
         g_HeldShotFrames = 0
     end
 end
 
-function UpdateHoldShot_Hunter()
+function Update_HoldShot()
     if env(GetSpEffectID, 117060) == TRUE then
         g_HeldShotFrames = g_HeldShotFrames + 1
         
@@ -440,7 +433,7 @@ function UpdateHoldShot_Hunter()
     end
 end
 
-function UpdateEndShot_Hunter()
+function End_HoldShot()
     if env(GetSpEffectID, 117060) == TRUE then
         if g_HeldShot == true then
             act(AddSpEffect, 117063)
@@ -604,147 +597,6 @@ function UpdateBloodthirstCharges()
     end
 end
 
--- Fool's Sigil
-function UpdateSigilEffect()
-    -- End if AI player
-    if env(1007) == TRUE then
-        return
-    end
-    -- Has Fool's Sigil equipped
-    if IsFoolsSigil() == TRUE then  
-        local roll = math.random(0, 100)
-        local movement_roll = math.random(0, 100)
-    
-        -- Apply every 10 seconds
-        if env(GetSpEffectID, 114000) ~= TRUE then
-            act(2002, 114000)
-            
-            -- +0
-            if env(GetSpEffectID, 112030) == TRUE then
-                if roll <= 25 then
-                    act(2002, 114010)
-                elseif roll > 25 and roll <= 50 then
-                    act(2002, 114011)
-                elseif roll > 50 and roll <= 75 then
-                    act(2002, 114012)
-                else
-                    act(2002, 114013)
-                end
-            end
-            
-            -- +1
-            if env(GetSpEffectID, 112031) == TRUE then
-                if roll <= 25 then
-                    act(2002, 114020)
-                elseif roll > 25 and roll <= 50 then
-                    act(2002, 114021)
-                elseif roll > 50 and roll <= 75 then
-                    act(2002, 114022)
-                else
-                    act(2002, 114023)
-                end
-            end
-            
-            -- +2
-            if env(GetSpEffectID, 112032) == TRUE then
-                if roll <= 25 then
-                    act(2002, 114030)
-                elseif roll > 25 and roll <= 50 then
-                    act(2002, 114031)
-                elseif roll > 50 and roll <= 75 then
-                    act(2002, 114032)
-                else
-                    act(2002, 114033)
-                end
-            end
-            
-            -- +3
-            if env(GetSpEffectID, 112033) == TRUE then
-                if roll <= 25 then
-                    act(2002, 114040)
-                elseif roll > 25 and roll <= 50 then
-                    act(2002, 114041)
-                elseif roll > 50 and roll <= 75 then
-                    act(2002, 114042)
-                else
-                    act(2002, 114043)
-                end
-            end
-            
-            -- +4
-            if env(GetSpEffectID, 112034) == TRUE then
-                if roll <= 25 then
-                    act(2002, 114050)
-                elseif roll > 25 and roll <= 50 then
-                    act(2002, 114051)
-                elseif roll > 50 and roll <= 75 then
-                    act(2002, 114052)
-                else
-                    act(2002, 114053)
-                end
-            end
-            
-            -- +5
-            if env(GetSpEffectID, 112035) == TRUE then
-                if roll <= 25 then
-                    act(2002, 114060)
-                elseif roll > 25 and roll <= 50 then
-                    act(2002, 114061)
-                elseif roll > 50 and roll <= 75 then
-                    act(2002, 114062)
-                else
-                    act(2002, 114063)
-                end
-            end
-            
-            -- Set movement speed for this cycle
-            if movement_roll <= 10 then
-                act(2002, 114100)
-            elseif movement_roll > 10 and movement_roll <= 20 then
-                act(2002, 114101)
-            elseif movement_roll > 20 and movement_roll <= 30 then
-                act(2002, 114102)
-            elseif movement_roll > 30 and movement_roll <= 40 then
-                act(2002, 114103)
-            elseif movement_roll > 40 and movement_roll <= 50 then
-                act(2002, 114104)
-            elseif movement_roll > 50 and movement_roll <= 60 then
-                act(2002, 114105)
-            elseif movement_roll > 60 and movement_roll <= 70 then
-                act(2002, 114106)
-            elseif movement_roll > 70 and movement_roll <= 80 then
-                act(2002, 114107)
-            elseif movement_roll > 80 and movement_roll <= 90 then
-                act(2002, 114108)
-            else
-                act(2002, 114109)
-            end
-        end
-    end
-end
-
--- Curse of Impermanence
-function UpdateImpermanenceCurseEffect()
-    -- End if AI player
-    if env(1007) == TRUE then
-        return
-    end
-    
-    -- Curse is active
-    if env(GetSpEffectID, 112130) == TRUE then
-        if env(GetSpEffectID, 112131) ~= TRUE then -- Cooldown for roll
-            act(2002, 112131) -- Cooldown
-            
-            local roll = math.random(0, 100)
-            
-            if roll < 10 then
-                act(2002, 112132) -- Right Durability loss
-                act(2002, 112133) -- Left Durability loss
-            end
-        end
-    end
-end
-
 -- Psychedelic Phantom
 function PsychedelicPhantomEffect()
     -- End if AI player
@@ -775,66 +627,6 @@ function PsychedelicTintEffect()
     end
 end
 
--- Young Dragon Ring
-function UpdateYoungDragonRingEffect()  
-    -- End if AI player
-    if env(1007) == TRUE then
-        return
-    end
-    
-    if env(GetSpEffectID, 112160) == TRUE then
-        if env(GetSpEffectID, 112170) ~= TRUE then
-            act(2002, 112170) -- Timer
-            act(2002, 112161) -- Effect
-        end
-    end
-end
-
--- Great Swamp Ring
-function UpdateGreatSwampRingEffect()  
-    -- End if AI player
-    if env(1007) == TRUE then
-        return
-    end
-    
-    if env(GetSpEffectID, 112162) == TRUE then
-        if env(GetSpEffectID, 112171) ~= TRUE then
-            act(2002, 112171) -- Timer
-            act(2002, 112163) -- Effect
-        end
-    end
-end
-
--- Morne's Ring
-function UpdateMornesRingEffect()  
-    -- End if AI player
-    if env(1007) == TRUE then
-        return
-    end
-    
-    if env(GetSpEffectID, 112164) == TRUE then
-        if env(GetSpEffectID, 112172) ~= TRUE then
-            act(2002, 112172) -- Timer
-            act(2002, 112165) -- Effect
-        end
-    end
-end
-
--- Deep Ring
-function UpdateDeepRingEffect()  
-    -- End if AI player
-    if env(1007) == TRUE then
-        return
-    end
-    
-    if env(GetSpEffectID, 112166) == TRUE then
-       if env(GetSpEffectID, 112173) ~= TRUE then
-            act(2002, 112173) -- Timer
-            act(2002, 112167) -- Effect
-        end
-    end
-end
-
 function UpdateVitalityMasteryEffect()
     -- End if AI player
     if env(1007) == TRUE then
@@ -861,38 +653,12 @@ function UpdateHawkRingEffect()
         hand = HAND_RIGHT
     end
     
-    -- Assassin's Mark
 	local sp_kind = env(345, hand)
     if env(225, hand) == WEAPON_CATEGORY_SMALL_ARROW or env(225, hand) == WEAPON_CATEGORY_LARGE_ARROW or env(225, hand) == WEAPON_CATEGORY_CROSSBOW or sp_kind == 754 then
     
-        -- Hawk Ring 0
+        -- Hawk Ring
         if env(GetSpEffectID, 112480) == TRUE then
             act(2002, 112481)
-        end
-        
-        -- Hawk Ring 1
-        if env(GetSpEffectID, 112482) == TRUE then
-            act(2002, 112483)
-        end
-        
-        -- Hawk Ring 2
-        if env(GetSpEffectID, 112484) == TRUE then
-            act(2002, 112485)
-        end
-        
-        -- Hawk Ring 3
-        if env(GetSpEffectID, 112486) == TRUE then
-            act(2002, 112487)
-        end
-        
-        -- Hawk Ring 4
-        if env(GetSpEffectID, 112488) == TRUE then
-            act(2002, 112489)
-        end
-        
-        -- Hawk Ring 5
-        if env(GetSpEffectID, 112490) == TRUE then
-            act(2002, 112491)
         end
     end
 end
@@ -1760,7 +1526,7 @@ function GetWeightIndex(is_move)
         move_weight = MOVE_WEIGHT_HEAVY
     end
     
-    -- Cinders: Carthus Bloodring Effect
+    -- Carthus Bloodring Effect
     if env(GetSpEffectID, 111100) == TRUE then 
         if evasion_weight == EVASION_WEIGHT_INDEX_OVERWEIGHT then
             evasion_weight = EVASION_WEIGHT_INDEX_HEAVY
@@ -2255,53 +2021,25 @@ function SetEvasionStaminaCost()
         c_StaminaCostJump = -16
     end
     
-    -- Cinders: Carthus Bloodring Effect
+    -- Carthus Bloodring Effect
     if env(GetSpEffectID, 111100) == TRUE then 
         c_StaminaCostRolling = c_StaminaCostRolling * 1.5
         c_StaminaCostBackStep = c_StaminaCostBackStep * 1.5
         c_StaminaCostJump = c_StaminaCostJump * 1.5
     end
     
-    -- Cinders: Carthus Milkring Effect
-    if IsCarthusMilkRing() == TRUE then 
+    -- Carthus Milkring Effect
+    if env(GetSpEffectID, 111110) == TRUE then 
         if env(GetSpEffectID, 111110) == TRUE then
             c_StaminaCostRolling = c_StaminaCostRolling * 0.75
-        elseif env(GetSpEffectID, 111111) == TRUE then
-            c_StaminaCostRolling = c_StaminaCostRolling * 0.7
-        elseif env(GetSpEffectID, 112012) == TRUE then
-            c_StaminaCostRolling = c_StaminaCostRolling * 0.65
-        elseif env(GetSpEffectID, 112013) == TRUE then
-            c_StaminaCostRolling = c_StaminaCostRolling * 0.6
-        elseif env(GetSpEffectID, 112014) == TRUE then
-            c_StaminaCostRolling = c_StaminaCostRolling * 0.55
-        elseif env(GetSpEffectID, 112015) == TRUE then
-            c_StaminaCostRolling = c_StaminaCostRolling * 0.5
         end
     end
     
-    -- Cinders: Cursed Ring of Evasion Effect
+    -- Cursed Ring of Evasion Effect
     if env(GetSpEffectID, 112003) == TRUE then 
-        c_StaminaCostRolling = c_StaminaCostRolling * 0.5
-        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.5
-        c_StaminaCostJump = c_StaminaCostJump * 0.5
-    end
-    
-    -- Cinders: Curse of Gluttony
-    if env(GetSpEffectID, 112070) == TRUE then 
-        c_StaminaCostRolling = c_StaminaCostRolling * 2
-        c_StaminaCostBackStep = c_StaminaCostBackStep * 2
-        c_StaminaCostJump = c_StaminaCostJump * 2
-    end
-    
-	-- Fate: Thumb Ring
-    if env(GetSpEffectID, 113600000) == TRUE then
-        c_StaminaCostRolling = c_StaminaCostRolling * 0.9
-    elseif env(GetSpEffectID, 113600010) == TRUE then
-        c_StaminaCostRolling = c_StaminaCostRolling * 0.85
-    elseif env(GetSpEffectID, 113600020) == TRUE then
-        c_StaminaCostRolling = c_StaminaCostRolling * 0.8
-    elseif env(GetSpEffectID, 113600030) == TRUE then
         c_StaminaCostRolling = c_StaminaCostRolling * 0.75
+        c_StaminaCostBackStep = c_StaminaCostBackStep * 0.75
+        c_StaminaCostJump = c_StaminaCostJump * 0.75
     end
     
     return 
@@ -2836,7 +2574,7 @@ function ExecGuard(event, blend_type)
             end
             
             --------------------
-            -- Cinders: Sidearms
+            -- Sidearms
             --------------------
             if IsSidearm() == TRUE and style ~= HAND_RIGHT_BOTH then
                 l1 = "W_AttackLeftLight1"
@@ -2978,9 +2716,6 @@ function ExecGuard(event, blend_type)
                 -- Allow the AI to always fire
                 if env(1007) == TRUE then -- IsCOMPlayer
                     l1 = "W_AttackLeftLight1"
-                    
-                    -- Boost AI damage with sidearms
-                    -- act(2002, 112450)
                 end
                    
                 ExecEventAllBody(l1)
@@ -2989,9 +2724,9 @@ function ExecGuard(event, blend_type)
             end
             
             --------------------
-            -- Cinders: Bell of Grace
+            -- Bell of Grace
             --------------------
-            if IsBellOfGrace() == TRUE then
+            if env(GetSpEffectID, 112550) == TRUE then
                 AddStamina(-10)
                 ExecEventAllBody("W_Jump")
                 
@@ -2999,7 +2734,7 @@ function ExecGuard(event, blend_type)
             end
             
             --------------------
-            -- Cinders: Horsehoof Ring
+            -- Horsehoof Ring
             --------------------
             if env(GetSpEffectID, 112090) == TRUE then
                 if style == HAND_RIGHT_BOTH then
@@ -3128,70 +2863,9 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     local is_find_atk = TRUE
     local is_atk_auto_aim = TRUE
     act(SetDamageMotionBlendRatio, 0)
-
-    -----------------------
-    -- Cinders: Restraint: Kick
-	-----------------------
-    if env(GetSpEffectID, 112925) == TRUE then
-        if request == ATTACK_REQUEST_LIGHT_KICK or request == ATTACK_REQUEST_HEAVY_KICK then
-            return ATTACK_REQUEST_INVALID
-        end
-    end
     
     -----------------------
-    -- Cinders: Shatter
-    -----------------------
-    local shatter_chance = 0
-    local roll = math.random(0, 100)
-    
-    -- Old Man's Gambit
-    if IsOldMansGambit() == TRUE then
-        -- Add chance for current ring
-        if env(GetSpEffectID, 112360) == TRUE then
-            shatter_chance = shatter_chance + 5
-        elseif env(GetSpEffectID, 112361) == TRUE then
-            shatter_chance = shatter_chance + 6
-        elseif env(GetSpEffectID, 112362) == TRUE then
-            shatter_chance = shatter_chance + 7
-        elseif env(GetSpEffectID, 112363) == TRUE then
-            shatter_chance = shatter_chance + 8
-        elseif env(GetSpEffectID, 112364) == TRUE then
-            shatter_chance = shatter_chance + 9
-        elseif env(GetSpEffectID, 112365) == TRUE then
-            shatter_chance = shatter_chance + 10
-        end
-    end
-    
-    -- Shatter Window for Gower's Ring of Retribution
-    if env(GetSpEffectID, 112506) == TRUE then
-        -- Add chance for current ring
-        if env(GetSpEffectID, 112500) == TRUE then
-            shatter_chance = shatter_chance + 10
-        elseif env(GetSpEffectID, 112501) == TRUE then
-            shatter_chance = shatter_chance + 12
-        elseif env(GetSpEffectID, 112502) == TRUE then
-            shatter_chance = shatter_chance + 14
-        elseif env(GetSpEffectID, 112503) == TRUE then
-            shatter_chance = shatter_chance + 16
-        elseif env(GetSpEffectID, 112504) == TRUE then
-            shatter_chance = shatter_chance + 18
-        elseif env(GetSpEffectID, 112505) == TRUE then
-            shatter_chance = shatter_chance + 20
-        end
-    end
-    
-    -- Twin Princes Boon
-    if env(GetSpEffectID, 112592) == TRUE then
-        shatter_chance = shatter_chance + 2
-    end
-    
-    -- Apply Shatter if lucky
-    if roll < shatter_chance then
-         act(2002, 113510)
-    end
-    
-    -----------------------
-    -- Cinders: Sidearms
+    -- Sidearms
     -----------------------
     -- Sidearms
     local sidearm_sp_kind = env(345, HAND_LEFT)
@@ -3207,81 +2881,31 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     end
     
     -----------------------
-    -- Cinders: Rings
+    -- Rings
     -----------------------
     -- Ring of Blades
     if env(GetSpEffectID, 115000) == TRUE then
         act(2002, 115010)
-    elseif env(GetSpEffectID, 115001) == TRUE then
-        act(2002, 115011)
-    elseif env(GetSpEffectID, 115002) == TRUE then
-        act(2002, 115012)
-    elseif env(GetSpEffectID, 115003) == TRUE then
-        act(2002, 115013)
-    elseif env(GetSpEffectID, 115004) == TRUE then
-        act(2002, 115014)
-    elseif env(GetSpEffectID, 115005) == TRUE then
-        act(2002, 115015)
     end
     
     -- Sigil of Magic
     if env(GetSpEffectID, 115020) == TRUE then
         act(2002, 115030)
-    elseif env(GetSpEffectID, 115021) == TRUE then
-        act(2002, 115031)
-    elseif env(GetSpEffectID, 115022) == TRUE then
-        act(2002, 115032)
-    elseif env(GetSpEffectID, 115023) == TRUE then
-        act(2002, 115033)
-    elseif env(GetSpEffectID, 115024) == TRUE then
-        act(2002, 115034)
-    elseif env(GetSpEffectID, 115025) == TRUE then
-        act(2002, 115035)
     end
     
     -- Sigil of Flame
     if env(GetSpEffectID, 115040) == TRUE then
         act(2002, 115050)
-    elseif env(GetSpEffectID, 115041) == TRUE then
-        act(2002, 115051)
-    elseif env(GetSpEffectID, 115042) == TRUE then
-        act(2002, 115052)
-    elseif env(GetSpEffectID, 115043) == TRUE then
-        act(2002, 115053)
-    elseif env(GetSpEffectID, 115044) == TRUE then
-        act(2002, 115054)
-    elseif env(GetSpEffectID, 115045) == TRUE then
-        act(2002, 115055)
     end
     
     -- Sigil of Thunder
     if env(GetSpEffectID, 115060) == TRUE then
         act(2002, 115070)
-    elseif env(GetSpEffectID, 115061) == TRUE then
-        act(2002, 115071)
-    elseif env(GetSpEffectID, 115062) == TRUE then
-        act(2002, 115072)
-    elseif env(GetSpEffectID, 115063) == TRUE then
-        act(2002, 115073)
-    elseif env(GetSpEffectID, 115064) == TRUE then
-        act(2002, 115074)
-    elseif env(GetSpEffectID, 115065) == TRUE then
-        act(2002, 115075)
     end
     
     -- Sigil of Darkness
     if env(GetSpEffectID, 115080) == TRUE then
         act(2002, 115090)
-    elseif env(GetSpEffectID, 115081) == TRUE then
-        act(2002, 115091)
-    elseif env(GetSpEffectID, 115082) == TRUE then
-        act(2002, 115092)
-    elseif env(GetSpEffectID, 115083) == TRUE then
-        act(2002, 115093)
-    elseif env(GetSpEffectID, 115084) == TRUE then
-        act(2002, 115094)
-    elseif env(GetSpEffectID, 115085) == TRUE then
-        act(2002, 115095)
     end
     
     if request == ATTACK_REQUEST_RIGHT_LIGHT then
@@ -4381,7 +4005,7 @@ function ExecMagic(quick_type, blend_type)
         magic_index = MAGIC_REQUEST_BOW
     elseif magic_type == 50 then
         magic_index = MAGIC_REQUEST_FAN
-    elseif magic_type == 51 then -- Cinders: 
+    elseif magic_type == 51 then -- 
         magic_index = 51
     else
         if magic_hand == HAND_LEFT then
@@ -4394,7 +4018,7 @@ function ExecMagic(quick_type, blend_type)
         return TRUE
     end
 
-    -- Cinders: Insanity Catalyst - WA Effect
+    -- Insanity Catalyst - WA Effect
     if env(GetSpEffectID, 112004) == TRUE then
         act(2002, 112005) -- Apply HP loss on cast
     end
@@ -4861,7 +4485,7 @@ function ExecItem(quick_type, blend_type)
             blend_type = UPPER
         end
         ExecEventHalfBlend(Event_ItemDrinkEmpty, blend_type)
-    -- Cinders: Draconic Fire
+    -- Draconic Fire
     elseif item_type == 27 then
         if env(GetStateChangeType, CONDITION_TYPE_DRAGONHEAD) == FALSE or env(GetStateChangeType, CONDITION_TYPE_DRAGONFULL) == FALSE then -- GetStateChangeType
             if env(1001) <= 0 then -- GetStamina
@@ -4872,7 +4496,7 @@ function ExecItem(quick_type, blend_type)
         else
             ExecEventHalfBlend(Event_DragonHeadStartBefore, blend_type)
         end
-    -- Cinders: Draconic Might
+    -- Draconic Might
     elseif item_type == 28 then
         if env(GetStateChangeType, CONDITION_TYPE_DRAGONFULL) == FALSE then -- GetStateChangeType
             if env(1001) < 0 then -- GetStamina
@@ -5211,16 +4835,11 @@ function ExecEvasion(backstep_limit, estep, is_usechainrecover)
     
     -- Roll
     if request == ATTACK_REQUEST_ROLLING then
-        -- Cinders: Restraint: Roll
-        if env(GetSpEffectID, 112920) == TRUE then
-            return FALSE
-        end
-        
-        -- Cinders: Trigger: Roll
+        -- Trigger: Roll
         act(AddSpEffect, 112930)
         
-        -- Cinders: Ring of Momentum/BB Dash override
-        if IsRingOfMomentum() == TRUE or IsBBDashWeapon() == TRUE then 
+        -- Ring of Momentum/BB Dash override
+        if env(GetSpEffectID, 112560) == TRUE or IsBBDashWeapon() == TRUE then 
             local index = GetWeightIndex(FALSE)
             if index < EVASION_WEIGHT_INDEX_HEAVY then
                 local angle = GetVariable("MoveAngle")
@@ -5386,24 +5005,14 @@ function ExecEvasion(backstep_limit, estep, is_usechainrecover)
         ExecEventAllBody(event)
     -- Jump
     elseif request == ATTACK_REQUEST_JUMP then
-        -- Cinders: Restraint: Jump
-        if env(GetSpEffectID, 112924) == TRUE then
-            return FALSE
-        end
-        
-        -- Cinders: Trigger: Jump
+        -- Trigger: Jump
         act(AddSpEffect, 112931)
         
         AddStamina(c_StaminaCostJump)
         ExecEventAllBody("W_Jump")
     -- Backstep
     elseif request == ATTACK_REQUEST_BACKSTEP then
-        -- Cinders: Restraint: Backstep
-        if env(GetSpEffectID, 112923) == TRUE then
-            return FALSE
-        end
-        
-        -- Cinders: Trigger: Backstep
+        -- Trigger: Backstep
         act(AddSpEffect, 112932)
         
         ResetDamageCount()
@@ -5893,7 +5502,7 @@ function ExecDeath()
             return FALSE
         end
         
-        -- Cinders: Deathless Run Failure
+        -- Deathless Run Failure
         if env(IsCOMPlayer) == FALSE then
             act(AddSpEffect, 112100)
             act(AddSpEffect, 112101) -- Hitless
@@ -5962,7 +5571,7 @@ function ExecDamage(is_parry, is_attackwhileguard)
     local damage_type = env(GetReceivedDamageType)
     local is_damaged = env(HasReceivedAnyDamage)
     
-    -- Cinders: Hitless Run Failure
+    -- Hitless Run Failure
     if is_damaged == TRUE then
         if env(IsCOMPlayer) == FALSE then
             act(AddSpEffect, 112101)
@@ -5977,32 +5586,18 @@ function ExecDamage(is_parry, is_attackwhileguard)
     local damage_angle = env(GetReceivedDamageDirection)
     local style = c_Style
     
-	-- Fate: Is Damaged
     if is_damaged == TRUE then
-        act(AddSpEffect, 111100) 
-        UpdateDamageStatus_Pyromancer()
-    end
-    
-    -- Fate: Warrior's Pact - Casting Spell
-    if env(GetSpEffectID, 116030) == TRUE then
-        return FALSE
-    end
-
-    -- Cinders: Gower's Ring of Protection
-    if IsGowersRingOfRetribution() == TRUE then
-        if damage_angle == DAMAGE_DIR_BACK then
-            act(AddSpEffect, 112506) -- Shatter window
+        Apply_Boost_when_Damaged()
+        
+        act(AddSpEffect, 111100) -- Timed Block: Is Hit
+        
+        -- Gower's Ring of Protection
+        if env(GetSpEffectID, 117170) == TRUE and damage_angle == DAMAGE_DIR_BACK then
+            act(AddSpEffect, 117171)
         end
     end
     
-    -- Cinders: Cursed Ring of Vengeance
-    if env(GetSpEffectID, 115100) == TRUE then
-        if is_damaged == TRUE then
-            act(AddSpEffect, 115101)
-        end
-    end
-    
-    -- Cinders: Redeye Ring
+    -- Redeye Ring
     if env(GetSpEffectID, 112520) == TRUE then
         act(AddSpEffect, 112521)
     end
@@ -6217,7 +5812,7 @@ function ExecDamage(is_parry, is_attackwhileguard)
     end
     
     ------------------------------------
-    -- Cinders: Stagger System
+    -- Stagger System
     ------------------------------------
     -- This system works by applying 'stacks' for each enemy hit.
     -- If there is space for a stack, the hit is returned as false and no stagger occurs. A stack is then added.
@@ -6638,11 +6233,6 @@ function HasStaggerResistBoost_Item()
         return TRUE
     end
     
-    -- Boon of the Marauder 
-    if env(GetSpEffectID, 112822) == TRUE then
-        return TRUE
-    end
-
     return FALSE
 end
 
@@ -7056,7 +6646,7 @@ function IdleCommonFunction()
     
     local style = c_Style
 
-    -- Cinders: Gwynevere's Urn
+    -- Gwynevere's Urn
     if env(GetSpEffectID, 112190) == TRUE then
         if env(GetSpEffectID, 112191) ~= TRUE then
             act(AddSpEffect, 112191) -- Cooldown
@@ -7194,7 +6784,7 @@ function FallCommonFunction(is_enable_falling_death, is_jump, fall_style)
     local height = env(GetFallHeight) / 100
     local damage_type = env(GetReceivedDamageType)
     if damage_type == DAMAGE_TYPE_DEATH_FALLING then
-        -- Cinders: Deathless Run Failure
+        -- Deathless Run Failure
         if IsDead() == TRUE then
             if env(IsCOMPlayer) == FALSE then
                 act(AddSpEffect, 112100)
@@ -7246,7 +6836,7 @@ function FallCommonFunction(is_enable_falling_death, is_jump, fall_style)
                 return TRUE
             elseif fall_style == FALL_DEFAULT then
                 if IsLandDead(height) == TRUE then
-                    -- Cinders: Deathless Run Failure
+                    -- Deathless Run Failure
                     if IsDead() == TRUE then
                         if env(IsCOMPlayer) == FALSE then
                             act(AddSpEffect, 112100)
@@ -8785,68 +8375,20 @@ function Rolling_onUpdate()
     local addratio = 0.400000005960464
     local endratio = 1
 
-    -- Cinders: Greatwood Remnants
-    if IsGreatwoodRemnants() == TRUE then
+    -- Greatwood Remnants
+    if env(GetSpEffectID, 112020) == TRUE then
         base_move_mult = base_move_mult - 0.4
     end
     
-    -- Cinders: Carthus Milkring
-    if IsCarthusMilkRing() == TRUE then 
-        if env(GetSpEffectID, 111110) == TRUE then
-            base_move_mult = base_move_mult + 0.25
-        elseif env(GetSpEffectID, 111111) == TRUE then
-            base_move_mult = base_move_mult + 0.3
-        elseif env(GetSpEffectID, 112012) == TRUE then
-            base_move_mult = base_move_mult + 0.35
-        elseif env(GetSpEffectID, 112013) == TRUE then
-            base_move_mult = base_move_mult + 0.4
-        elseif env(GetSpEffectID, 112014) == TRUE then
-            base_move_mult = base_move_mult + 0.45
-        elseif env(GetSpEffectID, 112015) == TRUE then
-            base_move_mult = base_move_mult + 0.5
-        end
+    -- Carthus Milkring
+    if env(GetSpEffectID, 111110) == TRUE then 
+        base_move_mult = base_move_mult + 0.25
     end
     
-    -- Cinders: Fool's Sigil
-    if IsFoolsSigil() == TRUE then
-        -- Randomise movement speed
-        if env(GetSpEffectID, 114100) == TRUE then
-            base_move_mult = base_move_mult - 0.1
-        elseif env(GetSpEffectID, 114101) == TRUE then
-            base_move_mult = base_move_mult - 0.2
-        elseif env(GetSpEffectID, 114102) == TRUE then
-            base_move_mult = base_move_mult - 0.3
-        elseif env(GetSpEffectID, 114103) == TRUE then
-            base_move_mult = base_move_mult - 0.4
-        elseif env(GetSpEffectID, 114104) == TRUE then
-            base_move_mult = base_move_mult - 0.5
-        elseif env(GetSpEffectID, 114105) == TRUE then
-            base_move_mult = base_move_mult + 0.1
-        elseif env(GetSpEffectID, 114106) == TRUE then
-            base_move_mult = base_move_mult + 0.2
-        elseif env(GetSpEffectID, 114107) == TRUE then
-            base_move_mult = base_move_mult + 0.3
-        elseif env(GetSpEffectID, 114108) == TRUE then
-            base_move_mult = base_move_mult + 0.4
-        elseif env(GetSpEffectID, 114109) == TRUE then
-            base_move_mult = base_move_mult + 0.5
-        end
-    end
-    
-    -- Cinders: Devil's Trumpet
+    -- Devil's Trumpet
     if env(GetSpEffectID, 116200) == TRUE then
         base_move_mult = base_move_mult + 1.0
     end 
-    
-    -- Cinders: Trio of Explorers Boon
-    if env(GetSpEffectID, 112594) == TRUE then
-        base_move_mult = base_move_mult + 0.2
-    end
-    
-    -- Cinders: Yhorm Malus
-    if env(GetSpEffectID, 112620) == TRUE then
-        base_move_mult = 0.25
-    end
     
     act(SetMovementScaleMult, math.abs(base_move_mult + addratio * math.abs(math.sin(math.rad(2 * rolling_angle)))))
     
@@ -8901,68 +8443,20 @@ function RollingSelftrans_onUpdate()
     local addratio = 0.400000005960464
     local endratio = 1
     
-    -- Cinders: Greatwood Remnants
-    if IsGreatwoodRemnants() == TRUE then
+    -- Greatwood Remnants
+    if env(GetSpEffectID, 112020) == TRUE then
         base_move_mult = base_move_mult - 0.4
     end
     
-    -- Cinders: Carthus Milkring
-    if IsCarthusMilkRing() == TRUE then 
-        if env(GetSpEffectID, 111110) == TRUE then
-            base_move_mult = base_move_mult + 0.25
-        elseif env(GetSpEffectID, 111111) == TRUE then
-            base_move_mult = base_move_mult + 0.3
-        elseif env(GetSpEffectID, 112012) == TRUE then
-            base_move_mult = base_move_mult + 0.35
-        elseif env(GetSpEffectID, 112013) == TRUE then
-            base_move_mult = base_move_mult + 0.4
-        elseif env(GetSpEffectID, 112014) == TRUE then
-            base_move_mult = base_move_mult + 0.45
-        elseif env(GetSpEffectID, 112015) == TRUE then
-            base_move_mult = base_move_mult + 0.5
-        end
+    -- Carthus Milkring
+    if env(GetSpEffectID, 111110) == TRUE then 
+        base_move_mult = base_move_mult + 0.25
     end
     
-    -- Cinders: Fool's Sigil
-    if IsFoolsSigil() == TRUE then
-        -- Randomise movement speed
-        if env(GetSpEffectID, 114100) == TRUE then
-            base_move_mult = base_move_mult - 0.1
-        elseif env(GetSpEffectID, 114101) == TRUE then
-            base_move_mult = base_move_mult - 0.2
-        elseif env(GetSpEffectID, 114102) == TRUE then
-            base_move_mult = base_move_mult - 0.3
-        elseif env(GetSpEffectID, 114103) == TRUE then
-            base_move_mult = base_move_mult - 0.4
-        elseif env(GetSpEffectID, 114104) == TRUE then
-            base_move_mult = base_move_mult - 0.5
-        elseif env(GetSpEffectID, 114105) == TRUE then
-            base_move_mult = base_move_mult + 0.1
-        elseif env(GetSpEffectID, 114106) == TRUE then
-            base_move_mult = base_move_mult + 0.2
-        elseif env(GetSpEffectID, 114107) == TRUE then
-            base_move_mult = base_move_mult + 0.3
-        elseif env(GetSpEffectID, 114108) == TRUE then
-            base_move_mult = base_move_mult + 0.4
-        elseif env(GetSpEffectID, 114109) == TRUE then
-            base_move_mult = base_move_mult + 0.5
-        end
-    end
-    
-    -- Cinders: Devil's Trumpet
+    -- Devil's Trumpet
     if env(GetSpEffectID, 116200) == TRUE then
         base_move_mult = base_move_mult + 1.0
     end 
-    
-    -- Cinders: Trio of Explorers Boon
-    if env(GetSpEffectID, 112594) == TRUE then
-        base_move_mult = base_move_mult + 0.2
-    end
-    
-    -- Cinders: Yhorm Malus
-    if env(GetSpEffectID, 112620) == TRUE then
-        base_move_mult = 0.25
-    end
     
     act(SetMovementScaleMult, math.abs(base_move_mult + addratio * math.abs(math.sin(math.rad(2 * rolling_angle)))))
     
@@ -8994,47 +8488,9 @@ function BackStep_onUpdate()
 
 	local base_move_mult = 1.0
     
-    -- Cinders: Ring of Retreat
-    if IsRingOfRetreat() == TRUE then 
-        if env(GetSpEffectID, 112530) == TRUE then
-            base_move_mult = base_move_mult + 0.15
-        elseif env(GetSpEffectID, 112531) == TRUE then
-            base_move_mult = base_move_mult + 0.3
-        elseif env(GetSpEffectID, 112532) == TRUE then
-            base_move_mult = base_move_mult + 0.5
-        elseif env(GetSpEffectID, 112533) == TRUE then
-            base_move_mult = base_move_mult + 0.65
-        elseif env(GetSpEffectID, 112534) == TRUE then
-            base_move_mult = base_move_mult + 0.8
-        elseif env(GetSpEffectID, 112535) == TRUE then
-            base_move_mult = base_move_mult + 1.0
-        end
-    end
-    
-    -- Cinders: Fool's Sigil
-    if IsFoolsSigil() == TRUE then
-        -- Randomise movement speed
-        if env(GetSpEffectID, 114100) == TRUE then
-            base_move_mult = base_move_mult - 0.1
-        elseif env(GetSpEffectID, 114101) == TRUE then
-            base_move_mult = base_move_mult - 0.2
-        elseif env(GetSpEffectID, 114102) == TRUE then
-            base_move_mult = base_move_mult - 0.3
-        elseif env(GetSpEffectID, 114103) == TRUE then
-            base_move_mult = base_move_mult - 0.4
-        elseif env(GetSpEffectID, 114104) == TRUE then
-            base_move_mult = base_move_mult - 0.5
-        elseif env(GetSpEffectID, 114105) == TRUE then
-            base_move_mult = base_move_mult + 0.1
-        elseif env(GetSpEffectID, 114106) == TRUE then
-            base_move_mult = base_move_mult + 0.2
-        elseif env(GetSpEffectID, 114107) == TRUE then
-            base_move_mult = base_move_mult + 0.3
-        elseif env(GetSpEffectID, 114108) == TRUE then
-            base_move_mult = base_move_mult + 0.4
-        elseif env(GetSpEffectID, 114109) == TRUE then
-            base_move_mult = base_move_mult + 0.5
-        end
+    -- Ring of Retreat
+    if env(GetSpEffectID, 112530) == TRUE then 
+        base_move_mult = base_move_mult + 0.15
     end
     
     act(SetMovementScaleMult, base_move_mult)
@@ -9068,34 +8524,22 @@ function Jump_onUpdate()
     
 	local base_distance_adjustment = 1.0
     
-    -- Cinders: Bell of Grace
-    if IsBellOfGrace() == TRUE then 
-        if env(GetSpEffectID, 112550) == TRUE then
-            base_distance_adjustment = base_distance_adjustment + 0.75
-        elseif env(GetSpEffectID, 112551) == TRUE then
-           base_distance_adjustment = base_distance_adjustment + 1
-        elseif env(GetSpEffectID, 112552) == TRUE then
-            base_distance_adjustment = base_distance_adjustment + 1.25
-        elseif env(GetSpEffectID, 112553) == TRUE then
-            base_distance_adjustment = base_distance_adjustment + 1.5
-        elseif env(GetSpEffectID, 112554) == TRUE then
-            base_distance_adjustment = base_distance_adjustment + 1.75
-        elseif env(GetSpEffectID, 112555) == TRUE then
-            base_distance_adjustment = base_distance_adjustment + 2
-        end
+    -- Bell of Grace
+    if env(GetSpEffectID, 112550) == TRUE then 
+        base_distance_adjustment = base_distance_adjustment + 0.75
     end
     
-    -- Cinders: Weapon Jump Boost
+    -- Weapon Jump Boost
     if env(GetSpEffectID, 112591) == TRUE then
         base_distance_adjustment = base_distance_adjustment + 0.25
     end
     
-    -- Cinders: Moonflower
+    -- Moonflower
     if env(GetSpEffectID, 116300) == TRUE then
         base_distance_adjustment = base_distance_adjustment + 5.0
     end
     
-    -- Cinders: Apply root motion modifier
+    -- Apply root motion modifier
     if base_distance_adjustment > 1.0 then
         act(SetMovementScaleMult, base_distance_adjustment)
     end
@@ -9235,62 +8679,24 @@ function Move_onUpdate()
     
     local base_move_mult = 1.0
     
-    -- Cinders: Dashmaster's String
-    if IsDashmastersString() == TRUE then
-        if env(GetSpEffectID, 112540) == TRUE then
-            base_move_mult = base_move_mult + 0.25
-        elseif env(GetSpEffectID, 112541) == TRUE then
-            base_move_mult = base_move_mult + 0.3
-        elseif env(GetSpEffectID, 112542) == TRUE then
-            base_move_mult = base_move_mult + 0.35
-        elseif env(GetSpEffectID, 112543) == TRUE then
-            base_move_mult = base_move_mult + 0.4
-        elseif env(GetSpEffectID, 112544) == TRUE then
-            base_move_mult = base_move_mult + 0.45
-        elseif env(GetSpEffectID, 112545) == TRUE then
-            base_move_mult = base_move_mult + 0.5
-        end
+    -- Dashmaster's String
+    if env(GetSpEffectID, 112540) == TRUE then
+        base_move_mult = base_move_mult + 0.1
     end
     
-    -- Cinders: Relic of Swiftness
+    -- Relic of Swiftness
     if env(GetSpEffectID, 112570) == TRUE then
-        base_move_mult = base_move_mult + 0.5
+        base_move_mult = base_move_mult + 0.15
     end
     
-    -- Cinders: Weapon Movement Speed Boost
+    -- Weapon Movement Speed Boost
     if env(GetSpEffectID, 112590) == TRUE then
         base_move_mult = base_move_mult + 0.1
     end
     
-    -- Cinders: Tailwind
+    -- Tailwind
     if env(GetSpEffectID, 112800) == TRUE or env(GetSpEffectID, 112801) == TRUE then
         base_move_mult = base_move_mult + 0.2
-    end
-    
-    -- Cinders: Fool's Sigil
-    if IsFoolsSigil() == TRUE then
-        -- Randomise movement speed
-        if env(GetSpEffectID, 114100) == TRUE then
-            base_move_mult = base_move_mult - 0.1
-        elseif env(GetSpEffectID, 114101) == TRUE then
-            base_move_mult = base_move_mult - 0.2
-        elseif env(GetSpEffectID, 114102) == TRUE then
-            base_move_mult = base_move_mult - 0.3
-        elseif env(GetSpEffectID, 114103) == TRUE then
-            base_move_mult = base_move_mult - 0.4
-        elseif env(GetSpEffectID, 114104) == TRUE then
-            base_move_mult = base_move_mult - 0.5
-        elseif env(GetSpEffectID, 114105) == TRUE then
-            base_move_mult = base_move_mult + 0.1
-        elseif env(GetSpEffectID, 114106) == TRUE then
-            base_move_mult = base_move_mult + 0.2
-        elseif env(GetSpEffectID, 114107) == TRUE then
-            base_move_mult = base_move_mult + 0.3
-        elseif env(GetSpEffectID, 114108) == TRUE then
-            base_move_mult = base_move_mult + 0.4
-        elseif env(GetSpEffectID, 114109) == TRUE then
-            base_move_mult = base_move_mult + 0.5
-        end
     end
     
     -- Nameless King Malus
@@ -11806,7 +11212,7 @@ function AttackArrowRightStart_Upper_onUpdate()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStartShot_Hunter()
+    Init_HoldShot()
     
     if ArrowCommonFunction(blend_type, FALSE, FALSE) == TRUE then
         return 
@@ -11838,7 +11244,7 @@ function AttackArrowRightLoop_Upper_onUpdate()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateHoldShot_Hunter()
+    Update_HoldShot()
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 90, 90)
@@ -11868,7 +11274,7 @@ function AttackArrowRightFire_onUpdate()
     ApplyEffect_AmmoAttack()
     act(PrecisionShootPossible)
     
-    UpdateEndShot_Hunter()
+    End_HoldShot()
     
     if ArrowCommonFunction(ALLBODY, TRUE, FALSE) == TRUE then
         return 
@@ -11905,7 +11311,7 @@ function AttackArrowRightFireDash_onUpdate()
     ApplyEffect_AmmoAttack()
     act(PrecisionShootPossible)
     
-    UpdateEndShot_Hunter()
+    End_HoldShot()
     
     if ArrowCommonFunction(ALLBODY, TRUE, TRUE) == TRUE then
         return 
@@ -11921,7 +11327,7 @@ function AttackArrowRightFireStep_onUpdate()
     ApplyEffect_AmmoAttack()
     act(PrecisionShootPossible)
     
-    UpdateEndShot_Hunter()
+    End_HoldShot()
     
     if ArrowCommonFunction(ALLBODY, TRUE, TRUE) == TRUE then
         return 
@@ -11973,7 +11379,7 @@ end
 function AttackCrossbowRightStart_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStartShot_Hunter()
+    Init_HoldShot()
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 90, 90)
@@ -12007,7 +11413,7 @@ end
 function AttackCrossbowRightLoop_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateHoldShot_Hunter()
+    Update_HoldShot()
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 90, 90)
@@ -12036,7 +11442,7 @@ function AttackCrossbowRightFire_Upper_onUpdate()
     -- Adjustments: Effects
     ApplyEffect_AmmoAttack()
     
-    UpdateEndShot_Hunter()
+    End_HoldShot()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -12084,7 +11490,7 @@ end
 function AttackCrossbowLeftStart_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStartShot_Hunter()
+    Init_HoldShot()
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 90, 90)
@@ -12118,7 +11524,7 @@ end
 function AttackCrossbowLeftLoop_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateHoldShot_Hunter()
+    Update_HoldShot()
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 90, 90)
@@ -12147,7 +11553,7 @@ function AttackCrossbowLeftFire_Upper_onUpdate()
     -- Adjustments: Effects
     ApplyEffect_AmmoAttack()
     
-    UpdateEndShot_Hunter()
+    End_HoldShot()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -12196,7 +11602,7 @@ end
 function AttackCrossbowBothLeftStart_Upper_onUpdate()
     act(PrecisionShootPossible)
     
-    UpdateStartShot_Hunter()
+    Init_HoldShot()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -12232,7 +11638,7 @@ end
 function AttackCrossbowBothLeftLoop_Upper_onUpdate()
     act(PrecisionShootPossible)
     
-    UpdateHoldShot_Hunter()
+    Update_HoldShot()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -12263,7 +11669,7 @@ function AttackCrossbowBothLeftFire_Upper_onUpdate()
     -- Adjustments: Effects
     ApplyEffect_AmmoAttack()
     
-    UpdateEndShot_Hunter()
+    End_HoldShot()
     
     act(PrecisionShootPossible)
     
@@ -12330,7 +11736,7 @@ function AttackCrossbowBothRightStart_Upper_onUpdate()
     
     act(PrecisionShootPossible)
     
-    UpdateStartShot_Hunter()
+    Init_HoldShot()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -12366,7 +11772,7 @@ end
 function AttackCrossbowBothRightLoop_Upper_onUpdate()
     act(PrecisionShootPossible)
     
-    UpdateHoldShot_Hunter()
+    Update_HoldShot()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -12397,7 +11803,7 @@ function AttackCrossbowBothRightFire_Upper_onUpdate()
     -- Adjustments: Effects
     ApplyEffect_AmmoAttack()
     
-    UpdateEndShot_Hunter()
+    End_HoldShot()
     
     act(PrecisionShootPossible)
     
@@ -17631,7 +17037,7 @@ end
 function MagicLaunchRight_Upper_onUpdate()
     act(DisableMagicIDSwitching)
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -17682,7 +17088,7 @@ end
 function MagicLaunchRightSA_Upper_onUpdate()
     act(DisableMagicIDSwitching)
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -17713,7 +17119,7 @@ end
 function MagicLoopRight_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 45, 45)
@@ -17756,7 +17162,7 @@ end
 function MagicLoopRightSA_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 45, 45)
@@ -17780,7 +17186,7 @@ end
 function MagicLoopRightLvl2_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 45, 45)
@@ -17819,8 +17225,8 @@ function MagicFireRight_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -17845,8 +17251,8 @@ function MagicFireRight2_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -17871,8 +17277,8 @@ function MagicFireRight3_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -17897,8 +17303,8 @@ function MagicFireRightLvl2_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -17927,7 +17333,7 @@ end
 function MagicLaunchLeft_Upper_onUpdate()
     act(DisableMagicIDSwitching)
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -17977,7 +17383,7 @@ end
 function MagicLaunchLeftSA_Upper_onUpdate()
     act(DisableMagicIDSwitching)
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18008,7 +17414,7 @@ end
 function MagicLoopLeft_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 45, 45)
@@ -18051,7 +17457,7 @@ end
 function MagicLoopLeftSA_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 45, 45)
@@ -18075,7 +17481,7 @@ end
 function MagicLoopLeftLvl2_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     if lower_state == LOWER_IDLE then
         act(LockonSystemUnableToTurnAngle, 45, 45)
@@ -18113,8 +17519,8 @@ function MagicFireLeft_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18139,8 +17545,8 @@ function MagicFireLeft2_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18165,8 +17571,8 @@ function MagicFireLeft3_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18191,8 +17597,8 @@ function MagicFireLeftLvl2_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18217,8 +17623,8 @@ function QuickMagicFireRightNormal_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18246,8 +17652,8 @@ function QuickMagicFireRightDash_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     act(LockonFixedAngleCancel)
     
@@ -18272,8 +17678,8 @@ function QuickMagicFireRightStep_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18296,8 +17702,8 @@ function QuickMagicFireRightAttackRight_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18320,8 +17726,8 @@ function QuickMagicFireRightAttackRight2_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18344,8 +17750,8 @@ function QuickMagicFireRightAttackLeft_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18368,8 +17774,8 @@ function QuickMagicFireRightAttackLeft2_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18392,8 +17798,8 @@ function QuickMagicFireLeftNormal_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18421,8 +17827,8 @@ function QuickMagicFireLeftDash_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     act(LockonFixedAngleCancel)
     
@@ -18447,8 +17853,8 @@ function QuickMagicFireLeftStep_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18471,8 +17877,8 @@ function QuickMagicFireLeftAttackRight_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18495,8 +17901,8 @@ function QuickMagicFireLeftAttackRight2_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18519,8 +17925,8 @@ function QuickMagicFireLeftAttackLeft_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18543,8 +17949,8 @@ function QuickMagicFireLeftAttackLeft2_Upper_onUpdate()
     -- Adjustments: Effect
     ApplyEffect_Magic()
     
-    UpdateStaggerImmunity_Warrior()
-    UpdateBoost_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
+    Apply_Spell_Damage_Boost()
     
     local blend_type, lower_state = GetHalfBlendInfo()
     
@@ -18566,7 +17972,7 @@ end
 function MagicInvalidRight_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     if MagicCommonFunction(ALLBODY, QUICKTYPE_NORMAL) == TRUE then
         return 
@@ -18582,7 +17988,7 @@ end
 function MagicInvalidLeft_Upper_onUpdate()
     local blend_type, lower_state = GetHalfBlendInfo()
     
-    UpdateStaggerImmunity_Warrior()
+    Apply_Stagger_Immunity(117040, 117041)
     
     if MagicCommonFunction(ALLBODY, QUICKTYPE_NORMAL) == TRUE then
         return 
@@ -18609,7 +18015,7 @@ function ThrowBackStab_Activate()
 end
 
 function ThrowBackStab_onUpdate()
-    UpdateBackstab_Assassin()
+    Apply_Boost_on_Backstab()
     
     if env(HasThrowRequest) == FALSE then
         if BackStabCommonFunction() == TRUE then
@@ -18665,58 +18071,22 @@ function Throw_Activate()
         hand = HAND_RIGHT
     end
     
-    -- Cinders: Hornet Ring
-    if IsHornetRing() == TRUE then
-        if env(GetSpEffectID, 112700) == TRUE then
-            act(AddSpEffect, 112710)
-        elseif env(GetSpEffectID, 112701) == TRUE then
-            act(AddSpEffect, 112711)
-        elseif env(GetSpEffectID, 112702) == TRUE then
-            act(AddSpEffect, 112712)
-        elseif env(GetSpEffectID, 112703) == TRUE then
-            act(AddSpEffect, 112713)
-        elseif env(GetSpEffectID, 112704) == TRUE then
-            act(AddSpEffect, 112714)
-        elseif env(GetSpEffectID, 112705) == TRUE then
-            act(AddSpEffect, 112715)
-        end
+    -- Hornet Ring
+    if env(GetSpEffectID, 112700) == TRUE then
+        act(AddSpEffect, 112710)
     end
     
-    -- Cinders: Assassin's Mark
-    if IsAssassinsMark() == TRUE then
+    -- Assassin's Mark
+    if env(GetSpEffectID, 112720) == TRUE then
         if env(GetEquipWeaponCategory, hand) == WEAPON_CATEGORY_SHORT_SWORD then
-            if env(GetSpEffectID, 112720) == TRUE then
-                act(AddSpEffect, 112730)
-            elseif env(GetSpEffectID, 112721) == TRUE then
-                act(AddSpEffect, 112731)
-            elseif env(GetSpEffectID, 112722) == TRUE then
-                act(AddSpEffect, 112732)
-            elseif env(GetSpEffectID, 112723) == TRUE then
-                act(AddSpEffect, 112733)
-            elseif env(GetSpEffectID, 112724) == TRUE then
-                act(AddSpEffect, 112734)
-            elseif env(GetSpEffectID, 112725) == TRUE then
-                act(AddSpEffect, 112735)
-            end
+            act(AddSpEffect, 112730)
         end
     end
     
-    -- Cinders: Elden Ring
-    if IsEldenRing() == TRUE then
+    -- Elden Ring
+    if env(GetSpEffectID, 112740) == TRUE then
         if env(GetEquipWeaponCategory, hand) == WEAPON_CATEGORY_HALBERD then
-            if env(GetSpEffectID, 112740) == TRUE then
-                act(AddSpEffect, 112750)
-            elseif env(GetSpEffectID, 112741) == TRUE then
-                act(AddSpEffect, 112751)
-            elseif env(GetSpEffectID, 112742) == TRUE then
-                act(AddSpEffect, 112752)
-            elseif env(GetSpEffectID, 112743) == TRUE then
-                act(AddSpEffect, 112753)
-            elseif env(GetSpEffectID, 112744) == TRUE then
-                act(AddSpEffect, 112754)
-            elseif env(GetSpEffectID, 112745) == TRUE then
-                act(AddSpEffect, 112755)
-            end
+            act(AddSpEffect, 112750)
         end
     end
     
@@ -21337,20 +20707,6 @@ function SpeedUpdate()
         stick_level = 0.5
     end
     
-    -- Cinders: Restraint: Sprint
-    if env(GetSpEffectID, 112921) == TRUE then
-        if stick_level > 1 then
-            stick_level = 1
-        end
-    end
-    
-    -- Cinders: Restraint: Run
-    if env(GetSpEffectID, 112922) == TRUE then
-        if stick_level > 0.5 then
-            stick_level = 0.5
-        end
-    end
-    
     if 1.10000002384186 < stick_level then
         if GetVariable("MoveType") == 3 then
             act(LockonFixedAngleCancel)
@@ -21389,24 +20745,20 @@ function Update()
     UpdateDurability()
     TrackTimedBlock()
     UpdatePact_Core()
-    UpdateFocusingRing()
 	
 	-- Cinders
     UpdateBloodthirstCharges()
-    UpdateImpermanenceCurseEffect()
     PsychedelicPhantomEffect()
     PsychedelicTintEffect()
-    UpdateVitalityMasteryEffect()
     UpdateHawkRingEffect()
     UpdateCatalystAffinityEffect()
     
-    -- Rings
-    UpdateSigilEffect()
-    UpdateYoungDragonRingEffect()
-    UpdateGreatSwampRingEffect()
-    UpdateMornesRingEffect()
-    UpdateDeepRingEffect()
+    -- Still Rings
+    UpdateDeepRing()
+    UpdateYoungDragonRing()
+    UpdateFocusingRing()
     
+    -- Rings
     -- Lifegem
     UpdateStackableItem(116000, 116001, 116002, 116003, 116004, 116005, -1, -1, -1, -1, -1) 
     
@@ -21473,7 +20825,7 @@ function Master_onGenerate()
 end
 
 ------------------------------------------
--- Utility
+-- Cinders: Utility
 ------------------------------------------
 function IsBBDashWeapon()
     if env(GetSpEffectID, 112415) == TRUE and env(GetSpEffectID, 112414) == TRUE then
@@ -21482,105 +20834,6 @@ function IsBBDashWeapon()
         return FALSE
     end
 end
-
-function IsRingOfMomentum()
-    if env(GetSpEffectID, 112560) == TRUE or env(GetSpEffectID, 112561) == TRUE or env(GetSpEffectID, 112562) == TRUE or env(GetSpEffectID, 112563) == TRUE or env(GetSpEffectID, 112564) == TRUE or env(GetSpEffectID, 112565) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsBellOfGrace()
-    if env(GetSpEffectID, 112550) == TRUE or env(GetSpEffectID, 112551) == TRUE or env(GetSpEffectID, 112552) == TRUE or env(GetSpEffectID, 112553) == TRUE or env(GetSpEffectID, 112554) == TRUE or env(GetSpEffectID, 112555) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsDashmastersString()
-    if env(GetSpEffectID, 112540) == TRUE or env(GetSpEffectID, 112541) == TRUE or env(GetSpEffectID, 112542) == TRUE or env(GetSpEffectID, 112543) == TRUE or env(GetSpEffectID, 112544) == TRUE or env(GetSpEffectID, 112545) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsRingOfRetreat()
-    if env(GetSpEffectID, 112530) == TRUE or env(GetSpEffectID, 112531) == TRUE or env(GetSpEffectID, 112532) == TRUE or env(GetSpEffectID, 112533) == TRUE or env(GetSpEffectID, 112534) == TRUE or env(GetSpEffectID, 112535) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsGowersRingOfRetribution()
-    if env(GetSpEffectID, 112500) == TRUE or env(GetSpEffectID, 112501) == TRUE or env(GetSpEffectID, 112502) == TRUE or env(GetSpEffectID, 112503) == TRUE or env(GetSpEffectID, 112504) == TRUE or env(GetSpEffectID, 112505) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsOldMansGambit()
-    if env(GetSpEffectID, 112360) == TRUE or env(GetSpEffectID, 112361) == TRUE or env(GetSpEffectID, 112362) == TRUE or env(GetSpEffectID, 112363) == TRUE or env(GetSpEffectID, 112364) == TRUE or env(GetSpEffectID, 112365) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsHornetRing()
-    if env(GetSpEffectID, 112700) == TRUE or env(GetSpEffectID, 112701) == TRUE or env(GetSpEffectID, 112702) == TRUE or env(GetSpEffectID, 112703) == TRUE or env(GetSpEffectID, 112704) == TRUE or env(GetSpEffectID, 112705) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsAssassinsMark()
-    if env(GetSpEffectID, 112720) == TRUE or env(GetSpEffectID, 112721) == TRUE or env(GetSpEffectID, 112722) == TRUE or env(GetSpEffectID, 112723) == TRUE or env(GetSpEffectID, 112724) == TRUE or env(GetSpEffectID, 112725) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsEldenRing()
-    if env(GetSpEffectID, 112740) == TRUE or env(GetSpEffectID, 112741) == TRUE or env(GetSpEffectID, 112742) == TRUE or env(GetSpEffectID, 112743) == TRUE or env(GetSpEffectID, 112744) == TRUE or env(GetSpEffectID, 112745) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsCarthusMilkRing()
-    if env(GetSpEffectID, 111110) == TRUE or env(GetSpEffectID, 111111) == TRUE or env(GetSpEffectID, 112012) == TRUE or env(GetSpEffectID, 112013) == TRUE or env(GetSpEffectID, 112014) == TRUE or env(GetSpEffectID, 112015) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsGreatwoodRemnants()
-    if env(GetSpEffectID, 112020) == TRUE or env(GetSpEffectID, 112021) == TRUE or env(GetSpEffectID, 112022) == TRUE or env(GetSpEffectID, 112023) == TRUE or env(GetSpEffectID, 112024) == TRUE or env(GetSpEffectID, 112025) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-function IsFoolsSigil()
-    if env(GetSpEffectID, 112030) == TRUE or env(GetSpEffectID, 112031) == TRUE or env(GetSpEffectID, 112032) == TRUE or env(GetSpEffectID, 112033) == TRUE or env(GetSpEffectID, 112034) == TRUE or env(GetSpEffectID, 112035) == TRUE then
-        return TRUE
-    else
-        return FALSE
-    end
-end
-
-
-
 
 -------------------------------
 -- Mod: Utility Functions
