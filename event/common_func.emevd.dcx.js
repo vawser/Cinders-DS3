@@ -9218,6 +9218,8 @@ $Event(20085001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4)
 // <entity id>, <action id>, <sfx id>
 //----------------------------------------------
 $Event(20085002, Restart, function(X0_4, X4_4, X8_4) {
+    DeleteObjectfollowingSFX(X0_4, true);
+    
     // Skip FFX if -1 is arg
     if (X8_4 != -1) {
         SpawnOneshotSFX(TargetEntityType.Object, X0_4, -1, X8_4);

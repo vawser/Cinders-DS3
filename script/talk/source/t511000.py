@@ -749,16 +749,9 @@ def t511000_x21():
     """State 0,6"""
     call = t511000_x22(0)
     if call.Get() == 1:
-        """State 1,7"""
-        call = t511000_x22(1)
-        if call.Get() == 1:
-            """State 3,4"""
-            OpenEstusAllotMenu()
-            assert not (CheckSpecificPersonMenuIsOpen(14, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-        elif call.Done():
-            """State 5,9"""
-            # action:13002014:"No <?gdsparam@190?> in inventory"
-            assert t511000_x23(action1=13002014)
+        """State 3,4"""
+        OpenEstusAllotMenu()
+        assert not (CheckSpecificPersonMenuIsOpen(14, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
     elif call.Done():
         """State 2,8"""
         # action:13002013:"No <?gdsparam@150?> in inventory"
@@ -826,43 +819,36 @@ def t511000_x24():
     """State 0,18"""
     call = t511000_x22(0)
     if call.Get() == 1:
-        """State 10,19"""
-        call = t511000_x22(1)
-        if call.Get() == 1:
-            """State 12,9"""
-            if GetEstusAllocation(0) + GetEstusAllocation(1) < 9:
-                """State 1"""
-                # goods:2141:Estus Shard
-                if ComparePlayerInventoryNumber(3, 2141, 2, 0, 0) == 1:
-                    """State 2,14"""
-                    # action:12002003:"Use <?gdsparam@2141?> to reinforce Estus Flask?"
-                    call = t511000_x25(12002003)
-                    if call.Get() == 0:
-                        """State 4,6"""
-                        # goods:2141:Estus Shard
-                        PlayerEquipmentQuantityChange(3, 2141, -1)
-                        """State 7"""
-                        EstusAllocationUpdate(GetEstusAllocation(0) + 1, 0)
-                        """State 16"""
-                        # action:13002010:"Reinforced Estus Flask, increasing number of uses\n"
-                        assert t511000_x23(action1=13002010)
-                        """State 22"""
-                        assert t511000_x26()
-                    elif call.Done():
-                        """State 5"""
-                        pass
-                else:
-                    """State 3,15"""
-                    # action:13002011:"No <?gdsparam@2141?> in inventory"
-                    assert t511000_x23(action1=13002011)
+        """State 12,9"""
+        if GetEstusAllocation(0) + GetEstusAllocation(1) < 9:
+            """State 1"""
+            # goods:2141:Estus Shard
+            if ComparePlayerInventoryNumber(3, 2141, 2, 0, 0) == 1:
+                """State 2,14"""
+                # action:12002003:"Use <?gdsparam@2141?> to reinforce Estus Flask?"
+                call = t511000_x25(12002003)
+                if call.Get() == 0:
+                    """State 4,6"""
+                    # goods:2141:Estus Shard
+                    PlayerEquipmentQuantityChange(3, 2141, -1)
+                    """State 7"""
+                    EstusAllocationUpdate(GetEstusAllocation(0) + 1, 0)
+                    """State 16"""
+                    # action:13002010:"Reinforced Estus Flask, increasing number of uses\n"
+                    assert t511000_x23(action1=13002010)
+                    """State 22"""
+                    assert t511000_x26()
+                elif call.Done():
+                    """State 5"""
+                    pass
             else:
-                """State 8,17"""
-                # action:13002012:"Cannot reinforce further"
-                assert t511000_x23(action1=13002012)
-        elif call.Done():
-            """State 13,21"""
-            # action:13002014:"No <?gdsparam@190?> in inventory"
-            assert t511000_x23(action1=13002014)
+                """State 3,15"""
+                # action:13002011:"No <?gdsparam@2141?> in inventory"
+                assert t511000_x23(action1=13002011)
+        else:
+            """State 8,17"""
+            # action:13002012:"Cannot reinforce further"
+            assert t511000_x23(action1=13002012)
     elif call.Done():
         """State 11,20"""
         # action:13002013:"No <?gdsparam@150?> in inventory"
