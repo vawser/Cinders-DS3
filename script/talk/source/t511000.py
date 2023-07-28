@@ -324,6 +324,9 @@ def t511000_x12():
         # Face the End
         AddTalkListDataIf(GetEventStatus(25000120) == 1 and GetEventStatus(9327) == 0, 9, 80040000, -1)
         
+        # Travel
+        AddTalkListData(5, 15000150, -1)
+        
         # Level Up
         AddTalkListData(6, 15002000, -1)
         
@@ -382,10 +385,15 @@ def t511000_x12():
                 # goods:2143:Undead Bone Shard
                 assert t511000_x13()
                 continue
-        # Allot Estus
+        # Travel
         elif GetTalkListEntryResult() == 5:
-            assert (t511000_x21() and not (CheckSpecificPersonMenuIsOpen(8, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)))
-            continue
+            if GetEventStatus(2030) == 1:
+                StartWarpMenuInit(-1)
+                assert GetCurrentStateElapsedFrames() > 1
+                if WasWarpMenuDestinationSelected() == 1:
+                    break
+                elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+                    pass
         # Level up
         elif GetTalkListEntryResult() == 6:
             OpenSoul()

@@ -9,29 +9,8 @@ Sort out m40, add new area for Marauder
 Look at the lighting issue with the m38 catacombs
  - Occurs randomly on reload, is fine on initial load
 
+Fix Champion Gundyr fogwall
 
 #------------
 # Items
 #------------
-# PLACE
-27500000 Black Set
-2001 Lift Chamber Key
-26500000 Cornyx Set
-19800000 Pyromancy Flame
-74000000 Catarina Set
-21140000 Pierce Shield
-78001000 Black Leather Set
-9010000 Winged Spear
-1020000 Parrying Dagger
-4010000 Shotel
-2230000 Anri's Straight Sword
-20590 Ring of the Evil Eye
-20250000 Llewellyn Shield
-1355000 Chameleon
-18080000 Sacred Chime of Filianore
-9260000 Crucifix of the Mad King
-14120000 White Birch Bow
-20610 Farron Ring
-4100000 Crescent Moon Sword
-728 Soul of Rosaria
-32000000 Lapp's Set

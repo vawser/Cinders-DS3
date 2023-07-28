@@ -163,8 +163,14 @@ def t390500_x9():
         # Ascension
         AddTalkListData(1, 15004004, -1)
     
+        # Form Covenant
+        AddTalkListDataIf(IsEquipmentIDObtained(2, 10110) == 0, 2, 15003019, -1)
+        
+        # View Inventory
+        AddTalkListData(3, 99062003, -1)
+        
         # Talk
-        AddTalkListData(3, 99010001, -1) 
+        AddTalkListData(4, 99010001, -1) 
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -177,8 +183,16 @@ def t390500_x9():
         if GetTalkListEntryResult() == 1:
             assert t390500_x20()
             return 0
-        # Talk
+        # Form Covenant
+        elif GetTalkListEntryResult() == 2:
+            GetItemFromItemLot(800001060)
+            return 0
+        # View Inventory
         elif GetTalkListEntryResult() == 3:
+            c1111(22600, 22699)
+            continue
+        # Talk
+        elif GetTalkListEntryResult() == 4:
             assert t390500_x10(text1=10024000, flag1=0, mode1=0)
             continue
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

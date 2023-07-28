@@ -163,8 +163,14 @@ def t350500_x9():
         # Ascension
         AddTalkListData(1, 15004003, -1)
     
+        # Form Covenant
+        AddTalkListDataIf(IsEquipmentIDObtained(2, 10120) == 0, 2, 15003019, -1)
+        
+        # View Inventory
+        AddTalkListData(3, 99062003, -1)
+        
         # Talk
-        AddTalkListData(3, 99010001, -1) 
+        AddTalkListData(4, 99010001, -1) 
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -177,6 +183,14 @@ def t350500_x9():
         if GetTalkListEntryResult() == 1:
             assert t350500_x20()
             return 0
+        # Form Covenant
+        elif GetTalkListEntryResult() == 2:
+            GetItemFromItemLot(800001080)
+            return 0
+        # View Inventory
+        elif GetTalkListEntryResult() == 3:
+            c1111(22800, 22899)
+            continue
         # Talk
         elif GetTalkListEntryResult() == 3:
             assert t350500_x10(text1=10026000, flag1=0, mode1=0)
