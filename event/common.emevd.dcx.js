@@ -2084,6 +2084,7 @@ $Event(14010, Restart, function() {
     if(!EventFlag(25000912))
     {
         ChangeCharacterEnableState(3605802, Disabled);
+        SetCharacterAnimationState(3605802, Disabled);
         SetCharacterAIState(3605802, Disabled);
     }
     

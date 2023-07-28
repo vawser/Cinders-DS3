@@ -144,20 +144,17 @@ def t511501_x7():
 # Menu Pre-loop
 def t511501_x8():
     """ State 0,1 """
-    assert t511501_x50()
+    assert t511501_x9()
     """ State 24 """
     return 0
     
-#-------------------------------------
-# Journey Menu
-#-------------------------------------
-def t511501_x50():
-    MainBonfireMenuFlag()
-    
+# Menu Loop
+def t511501_x9():
+    c1110()
     while True:
         ClearTalkListData()
-        
-        # Select Journey Type
+       
+       # Select Journey Type
         AddTalkListDataIf(GetEventStatus(25000100) == 0, 10, 80000100, -1)
         
         # Select Journey Restrictions
@@ -172,8 +169,8 @@ def t511501_x50():
         # Leave
         AddTalkListData(99, 80000999, -1)
         
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         
         # Select Journey Type
         if GetTalkListEntryResult() == 10:
@@ -217,11 +214,36 @@ def t511501_x50():
                 return 2
    
             return 0
-        else:
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
-            
-        assert CheckSpecificPersonTalkHasEnded(0) == 1
-        
+
+# Talk Function
+def t511501_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t511501_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t511501_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    
 # Journey Type
 def t511501_x51():
     MainBonfireMenuFlag()
@@ -287,9 +309,9 @@ def t511501_x51():
         elif GetTalkListEntryResult() == 13:
             assert t511501_x60(80000133)
             return 0
-        else:
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
-        assert CheckSpecificPersonTalkHasEnded(0) == 1
         
 # Custom Loadout
 def t511501_x52():
@@ -417,9 +439,9 @@ def t511501_x53():
         elif GetTalkListEntryResult() == 3:
             assert t511501_x63(80000172, 25000142, 0)
             continue
-        else:
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
-        assert CheckSpecificPersonTalkHasEnded(0) == 1
         
 # Description Prompt
 def t511501_x60(action1=_):

@@ -1,244 +1,77 @@
 #------------------------------
-# Slave Knight Gael - Boss Resurrection
+# Slave Knight Gael
 #------------------------------
-# -*- coding: utf-8 -*-
 def t511503_1():
-    """State 0,1"""
+    """ State 0,1 """
     assert GetCurrentStateElapsedTime() > 1
+    """ State 2 """
     while True:
-        """State 2"""
-        call = t511503_x14()
+        call = t511503_x0() # Host Player
         assert IsClientPlayer() == 1
-        """State 3"""
-        call = t511503_x15()
+        """ State 3 """
+        call = t511503_x1() # Client Player
         assert not IsClientPlayer()
 
-def t511503_x0(action=_):
-    """State 0,1"""
-    OpenGenericDialog(8, action, 3, 4, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """State 2"""
-    if GetGenericDialogButtonResult() == 1:
-        """State 3"""
-        return 0
-    else:
-        """State 4"""
-        return 1
-
-def t511503_x1(action_button=_, flag=_):
-    """State 0"""
+# Host Player
+def t511503_x0():
+    """ State 0,1 """
     while True:
-        """State 1"""
-        assert (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
-                and not IsPlayerDead() and not IsCharacterDisabled())
-        """State 2"""
-        if (not (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
-            and not IsPlayerDead() and not IsCharacterDisabled())):
-            pass
-        elif CheckActionButtonArea(action_button):
-            break
-    """State 4"""
+        call = t511503_x3()
+
+# Client Player
+def t511503_x1():
+    """ State 0,1 """
+    assert t511503_x2() # Clear Talk State
+    """ State 2 """
     return 0
 
+# Clear Talk State
 def t511503_x2():
-    """State 0,1"""
+    """ State 0,1 """
     if not CheckSpecificPersonTalkHasEnded(0):
-        """State 7"""
+        """ State 7 """
         ClearTalkProgressData()
         StopEventAnimWithoutForcingConversationEnd(0)
-        """State 6"""
+        """ State 6 """
         ReportConversationEndToHavokBehavior()
     else:
         pass
-    """State 2"""
+    """ State 2 """
     if CheckSpecificPersonGenericDialogIsOpen(0) == 1:
-        """State 3"""
+        """ State 3 """
         ForceCloseGenericDialog()
     else:
         pass
-    """State 4"""
+    """ State 4 """
     if CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0):
-        """State 5"""
+        """ State 5 """
         ForceCloseMenu()
     else:
         pass
-    """State 8"""
+    """ State 8 """
     return 0
-
+    
+# Check Death
 def t511503_x3():
-    """State 0,1"""
-    ClearTalkProgressData()
-    StopEventAnimWithoutForcingConversationEnd(0)
-    ForceCloseGenericDialog()
-    ForceCloseMenu()
-    ReportConversationEndToHavokBehavior()
-    """State 2"""
-    return 0
-
-# Talk to Player
-def t511503_x4(text=_, end_mode=_):
-    """State 0,5"""
-    assert t511503_x3() and CheckSpecificPersonTalkHasEnded(0) == 1
-    """State 1"""
-    TalkToPlayer(text, -1, -1, 0)
-    assert CheckSpecificPersonTalkHasEnded(0) == 1
-    """State 4"""
-    if not end_mode:
-        pass
-    else:
-        """State 3"""
-        ReportConversationEndToHavokBehavior()
-    """State 6"""
-    return 0
-
-# Talk to Player
-def t511503_x5(text=_, end_mode=_):
-    """State 0,5"""
-    assert t511503_x3() and CheckSpecificPersonTalkHasEnded(0) == 1
-    """State 1"""
-    TalkToPlayer(text, -1, -1, 0)
-    assert CheckSpecificPersonTalkHasEnded(0) == 1
-    """State 4"""
-    if not end_mode:
-        pass
-    else:
-        """State 3"""
-        ReportConversationEndToHavokBehavior()
-    """State 6"""
-    return 0
-
-# Talk to Player
-def t511503_x6(text=_, end_mode=_):
-    """State 0,4"""
-    assert t511503_x3() and CheckSpecificPersonTalkHasEnded(0) == 1
-    """State 1"""
-    TalkToPlayer(text, -1, -1, 0)
-    assert CheckSpecificPersonTalkHasEnded(0) == 1
-    """State 3"""
-    if not end_mode:
-        pass
-    else:
-        """State 2"""
-        ReportConversationEndToHavokBehavior()
-    """State 5"""
-    return 0
-
-# Dialog
-def t511503_x7(action=_):
-    """State 0,1"""
-    OpenGenericDialog(7, action, 1, 0, 1)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """State 2"""
-    return 0
-
-def t511503_x9():
-    assert t511503_x50()
-    """State 24"""
-    return 0
-
-def t511503_x10():
-    """State 0,6"""
-    assert t511503_x2()
-    """State 3"""
-    assert GetCurrentStateElapsedFrames() > 1
-    """State 1"""
-    assert not GetEventStatus(1016) and not GetEventStatus(1017)
-    """State 2"""
-    if GetDistanceToPlayer() < 10:
-        """State 4,8"""
-        call = t511503_x18()
-        if call.Done():
-            pass
-        elif GetDistanceToPlayer() > 12:
-            """State 7"""
-            assert t511503_x2()
-    else:
-        """State 5"""
-        pass
-    """State 9"""
-    return 0
-
-def t511503_x12():
-    """State 0,1,2"""
-    assert t511503_x2()
-    """State 3"""
-    return 0
-
-def t511503_x13():
-    """State 0,1"""
-    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonMenuIsOpen(12, 0) and not
-        CheckSpecificPersonGenericDialogIsOpen(0)):
-        """State 2,5"""
-        call = t511503_x19()
-        if call.Done():
-            pass
-        elif GetDistanceToPlayer() > 12:
-            """State 4"""
-            Label('L0')
-            assert t511503_x2()
-    else:
-        """State 3"""
-        Goto('L0')
-    """State 6"""
-    return 0
-
-def t511503_x14():
-    """State 0"""
-    while True:
-        """State 1"""
-        call = t511503_x16()
-        assert not GetEventStatus(1000) and not GetEventStatus(1001) and not GetEventStatus(1002)
-        """State 2"""
-        call = t511503_x17()
-        assert GetEventStatus(1000) == 1 or GetEventStatus(1001) == 1 or GetEventStatus(1002) == 1
-    """Unused"""
-    """State 3"""
-    return 0
-
-def t511503_x15():
-    """State 0,1"""
-    assert t511503_x2()
-    """State 2"""
-    return 0
-
-def t511503_x16():
-    """State 0,1"""
-    call = t511503_x26()
+    """ State 0,1 """
+    call = t511503_x4() # NPC Loop
     assert CheckSelfDeath() == 1
-    """State 2"""
-    Quit()
-    """Unused"""
-    """State 3"""
     return 0
 
-def t511503_x17():
-    """State 0"""
-    Quit()
-    """Unused"""
-    """State 1"""
-    return 0
-
-def t511503_x18():
-    return 0
-
-def t511503_x19():
-    return 0
-
-def t511503_x26():
-    """State 0"""
+# NPC Loop
+def t511503_x4():
+    """ State 0,5 """
     while True:
-        """State 5"""
-        call = t511503_x1(6052, 6052)
-        
+        call = t511503_x5() # Interaction State
         if call.Done():
-            """State 3"""
-            call = t511503_x9()
+            """ State 3 """
+            call = t511503_x8() # Menu Pre-loop
             if call.Done():
                 pass
             elif IsAttackedBySomeone() == 1:
-                """State 1"""
+                """ State 1 """
                 Label('L0')
-                call = t511503_x10()
+                call = t511503_x6() # Attack Check
                 def ExitPause():
                     RemoveMyAggro()
                 if call.Done():
@@ -248,8 +81,8 @@ def t511503_x26():
             elif IsPlayerDead() == 1:
                 break
             elif GetDistanceToPlayer() > 8 or GetPlayerYDistance() > 0.25:
-                """State 4"""
-                call = t511503_x13()
+                """ State 4 """
+                call = t511503_x7() # Distance Check
                 if call.Done() and (GetDistanceToPlayer() < 7.5 and GetPlayerYDistance() < 0.249):
                     pass
                 elif IsAttackedBySomeone() == 1:
@@ -258,22 +91,69 @@ def t511503_x26():
             Goto('L0')
         elif IsPlayerDead() == 1:
             break
-    """State 2"""
-    t511503_x12()
-    Quit()
-    """Unused"""
-    """State 6"""
+    """ State 2 """
+    t511503_x2() # Clear Talk State
+    
+# Interaction State
+def t511503_x5():
+    """ State 0,1 """
+    while True:
+        assert (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
+                and not IsPlayerDead() and not IsCharacterDisabled())
+        """ State 2 """
+        if (not (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
+            and not IsPlayerDead() and not IsCharacterDisabled())):
+            pass
+        elif CheckActionButtonArea(6052):
+            break
+    """ State 4 """
     return 0
 
-#-------------------------------------
-# Menu
-#-------------------------------------
-def t511503_x50():
-    MainBonfireMenuFlag()
+# Attack Check
+def t511503_x6():
+    """ State 0,6 """
+    assert t511503_x2() # Clear Talk State
+    """ State 3 """
+    assert GetCurrentStateElapsedFrames() > 1
+    """ State 2 """
+    if GetDistanceToPlayer() > 3:
+        """ State 7 """
+        assert t511503_x2() # Clear Talk State
+    else:
+        """ State 5 """
+        pass
+    """ State 9 """
+    return 0
+
+# Distance Check
+def t511503_x7():
+    """ State 0,1 """
+    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not
+        CheckSpecificPersonGenericDialogIsOpen(0)):
+        """ State 2,5 """
+        if GetDistanceToPlayer() > 3:
+            """ State 4 """
+            Label('L0')
+            assert t511503_x2() # Clear Talk State
+    else:
+        """ State 3 """
+        Goto('L0')
+    """ State 6 """
+    return 0
+
+# Menu Pre-loop
+def t511503_x8():
+    """ State 0,1 """
+    assert t511503_x9()
+    """ State 24 """
+    return 0
     
+# Menu Loop
+def t511503_x9():
+    c1110()
     while True:
         ClearTalkListData()
-        
+       
         # Forge with Darkness
         # AddTalkListData(1, 80002000, -1)
         
@@ -286,8 +166,11 @@ def t511503_x50():
         # Leave
         AddTalkListData(99, 80000999, -1)
         
+        # Leave
+        AddTalkListData(99, 80000999, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         
         # Forge with Darkness
         if GetTalkListEntryResult() == 1:
@@ -301,11 +184,37 @@ def t511503_x50():
         # Achievements
         elif GetTalkListEntryResult() == 3:
             return 0
-        else:
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
-            
-        assert CheckSpecificPersonTalkHasEnded(0) == 1
-        
+
+# Talk Function
+def t511503_x10(text1=_, flag1=0, mode1=_):
+    """ State 0,4 """
+    assert t511503_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 1 """
+    TalkToPlayer(text1, -1, -1, flag1)
+    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    """ State 3 """
+    if not mode1:
+        pass
+    else:
+        """ State 2 """
+        ReportConversationEndToHavokBehavior()
+    """ State 5 """
+    return 0
+    
+# Talk Cleanup
+def t511503_x11():
+    """ State 0,1 """
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
+    """ State 2 """
+    return 0
+    
 #------------------------------------------
 # Resurrection
 #------------------------------------------
@@ -361,8 +270,8 @@ def t511503_x51():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         if GetTalkListEntryResult() == 1:
             assert t511503_x52()
@@ -409,7 +318,8 @@ def t511503_x51():
         elif GetTalkListEntryResult() == 15:
             assert t511503_x66()
             continue
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
             
     return 0
@@ -429,9 +339,9 @@ def t511503_x52():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-         
+        
         # Vordt of the Boreal Valley
         if GetTalkListEntryResult() == 1:
             assert t511503_x100(13000800, 0, 0, 0, 0, 25000151)
@@ -444,7 +354,8 @@ def t511503_x52():
         elif GetTalkListEntryResult() == 3:
             assert t511503_x100(13000890, 0, 0, 0, 0, 25000152)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -466,8 +377,8 @@ def t511503_x53():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Dragonslayer Armour
         if GetTalkListEntryResult() == 1:
@@ -485,7 +396,8 @@ def t511503_x53():
         elif GetTalkListEntryResult() == 4:
             assert t511503_x100(13410870, 13410871, 13410872, 0, 0, 25000178)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -503,8 +415,8 @@ def t511503_x54():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Curse-rotted Greatwood
         if GetTalkListEntryResult() == 1:
@@ -514,7 +426,8 @@ def t511503_x54():
         elif GetTalkListEntryResult() == 2:
             assert t511503_x100(13100870, 13100871, 0, 0, 0, 25000175)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -532,8 +445,8 @@ def t511503_x55():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Deacons of the Deep
         if GetTalkListEntryResult() == 1:
@@ -543,7 +456,8 @@ def t511503_x55():
         elif GetTalkListEntryResult() == 2:
             assert t511503_x100(13500810, 0, 0, 0, 0, 25000179)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -561,8 +475,8 @@ def t511503_x56():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Crystal Sage
         if GetTalkListEntryResult() == 1:
@@ -572,7 +486,8 @@ def t511503_x56():
         elif GetTalkListEntryResult() == 2:
             assert t511503_x100(13300800, 0, 0, 0, 0, 25000157)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -590,8 +505,8 @@ def t511503_x57():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Wolnir
         if GetTalkListEntryResult() == 1:
@@ -601,7 +516,8 @@ def t511503_x57():
         elif GetTalkListEntryResult() == 2:
             assert t511503_x100(13800830, 0, 0, 0, 0, 25000164)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -621,9 +537,9 @@ def t511503_x58():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
-         
+        
         # Pontiff Sulyvahn
         if GetTalkListEntryResult() == 1:
             assert t511503_x100(13700850, 0, 0, 0, 0, 25000161)
@@ -636,7 +552,8 @@ def t511503_x58():
         elif GetTalkListEntryResult() == 3:
             assert t511503_x100(13700870, 13700871, 13700872, 13700873, 0, 25000180)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -654,8 +571,8 @@ def t511503_x59():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Yhorm the Giant
         if GetTalkListEntryResult() == 1:
@@ -665,7 +582,8 @@ def t511503_x59():
         elif GetTalkListEntryResult() == 2:
             assert t511503_x100(13900860, 13900862, 0, 0, 0, 25000181)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -685,8 +603,8 @@ def t511503_x60():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Ancient Wyvern
         if GetTalkListEntryResult() == 1:
@@ -700,7 +618,8 @@ def t511503_x60():
         elif GetTalkListEntryResult() == 3:
             assert t511503_x100(13200870, 13200871, 13200872, 0, 0, 25000176)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -720,8 +639,8 @@ def t511503_x61():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Sister Friede
         if GetTalkListEntryResult() == 1:
@@ -735,7 +654,8 @@ def t511503_x61():
         elif GetTalkListEntryResult() == 3:
             assert t511503_x100(14500960, 0, 0, 0, 0, 25000182)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -751,14 +671,15 @@ def t511503_x62():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # The Demon Prince
         if GetTalkListEntryResult() == 1:
             assert t511503_x100(15000800, 0, 0, 0, 0, 25000168)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -776,8 +697,8 @@ def t511503_x63():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Halflight, Spear of the Church
         if GetTalkListEntryResult() == 1:
@@ -787,7 +708,8 @@ def t511503_x63():
         elif GetTalkListEntryResult() == 2:
             assert t511503_x100(15100850, 0, 0, 0, 0, 25000170)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -803,14 +725,15 @@ def t511503_x64():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Slave Knight Gael
         if GetTalkListEntryResult() == 1:
             assert t511503_x100(15110800, 0, 0, 0, 0, 25000171)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -828,8 +751,8 @@ def t511503_x65():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Champion Gundyr
         if GetTalkListEntryResult() == 1:
@@ -839,7 +762,8 @@ def t511503_x65():
         elif GetTalkListEntryResult() == 2:
             assert t511503_x100(14000850, 0, 0, 0, 0, 25000184)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -855,14 +779,15 @@ def t511503_x66():
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
          
         # Soul of Cinder
         if GetTalkListEntryResult() == 1:
             assert t511503_x100(14100800, 0, 0, 0, 0, 25000173)
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
 
     return 0
@@ -880,8 +805,8 @@ def t511503_x100(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, teleport_flag=_):
         # Leave
         AddTalkListData(99, 80000999, -1)
     
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         
         # Resurrect
         if GetTalkListEntryResult() == 1:
@@ -911,7 +836,8 @@ def t511503_x100(flag1=_, flag2=_, flag3=_, flag4=_, flag5=_, teleport_flag=_):
                 return 0
                 
             return 0
-        elif GetTalkListEntryResult() == 99 or not GetTalkListEntryResult():
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
         
         return 0

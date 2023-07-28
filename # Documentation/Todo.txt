@@ -4,13 +4,16 @@
 #------------
 # Maps
 #------------
-Sort out m40, add new area for Marauder
+Add new area for Marauder
 
 Look at the lighting issue with the m38 catacombs
  - Occurs randomly on reload, is fine on initial load
 
-Fix Champion Gundyr fogwall
+Add flag toggles for the covenant drops at the covenant npcs
 
+- Emilia:
+    - Add menu kick that Solaire uses so item is displayed when ocvenant is taken
+    
 #------------
 # Items
 #------------
