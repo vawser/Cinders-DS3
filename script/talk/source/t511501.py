@@ -274,8 +274,8 @@ def t511501_x51():
         # Leave
         AddTalkListData(99, 80000999, -1)
         
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
 
         # Tarnished
         if GetTalkListEntryResult() == 1:
@@ -347,9 +347,8 @@ def t511501_x52():
         # Leave
         AddTalkListData(99, 80000999, -1)
 
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         
         # Weapons
         if GetTalkListEntryResult() == 1:
@@ -412,8 +411,8 @@ def t511501_x53():
         # Leave
         AddTalkListData(99, 80000999, -1)
         
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
 
         # Flameless
         if GetTalkListEntryResult() == 1:
