@@ -1,62 +1,4 @@
-﻿------------------------------------------
--- Invader Apperance
-------------------------------------------
-function UpdateInvaderAppearance()
-    local roll_1 = math.random(0, 100)
-    local roll_2 = math.random(0, 100)
-    local roll_3 = math.random(0, 100)
-    local roll_4 = math.random(0, 100)
-    local roll_5 = math.random(0, 100)
-    local roll_6 = math.random(0, 100)
-    local roll_7 = math.random(0, 100)
-    local roll_8 = math.random(0, 100)
-    
-    if env(GetSpEffectID, 131100) == FALSE then
-        act(AddSpEffect, 131100)
-        
-        -- Invader Appearance: Trigger 1
-        if roll_1 <= 50 then
-            act(AddSpEffect, 131001)
-        end
-
-        -- Invader Appearance: Trigger 2
-        if roll_2 <= 50 then
-            act(AddSpEffect, 131002)
-        end
-
-        -- Invader Appearance: Trigger 3
-        if roll_3 <= 50 then
-            act(AddSpEffect, 131003)
-        end
-
-        -- Invader Appearance: Trigger 4
-        if roll_4 <= 50 then
-            act(AddSpEffect, 131004)
-        end
-
-        -- Invader Appearance: Trigger 5
-        if roll_5 <= 50 then
-            act(AddSpEffect, 131005)
-        end
-
-        -- Invader Appearance: Trigger 6
-        if roll_6 <= 50 then
-            act(AddSpEffect, 131006)
-        end
-
-        -- Invader Appearance: Trigger 7
-        if roll_7 <= 50 then
-            act(AddSpEffect, 131007)
-        end
-
-        -- Invader Appearance: Trigger 8
-        if roll_8 <= 50 then
-            act(AddSpEffect, 131008)
-        end
-    end
-end
-
---------------------
+﻿--------------------
 -- Player
 --------------------
 function UpdateFP()
@@ -486,6 +428,95 @@ function End_HoldShot()
             act(AddSpEffect, 117063)
             g_HeldShot = false
             g_HeldShotFrames = 0
+        end
+    end
+end
+
+------------------------------------------
+-- Invader Apperance
+------------------------------------------
+function UpdateInvaderAppearance()
+    local roll_1 = math.random(0, 100)
+    local roll_2 = math.random(0, 100)
+    local roll_3 = math.random(0, 100)
+    local roll_4 = math.random(0, 100)
+    local roll_5 = math.random(0, 100)
+    local roll_6 = math.random(0, 100)
+    local roll_7 = math.random(0, 100)
+    local roll_8 = math.random(0, 100)
+    
+    if env(GetSpEffectID, 131100) == FALSE then
+        act(AddSpEffect, 131100)
+        
+        -- Invader Appearance: Trigger 1
+        if roll_1 <= 50 then
+            act(AddSpEffect, 131001)
+        end
+
+        -- Invader Appearance: Trigger 2
+        if roll_2 <= 50 then
+            act(AddSpEffect, 131002)
+        end
+
+        -- Invader Appearance: Trigger 3
+        if roll_3 <= 50 then
+            act(AddSpEffect, 131003)
+        end
+
+        -- Invader Appearance: Trigger 4
+        if roll_4 <= 50 then
+            act(AddSpEffect, 131004)
+        end
+
+        -- Invader Appearance: Trigger 5
+        if roll_5 <= 50 then
+            act(AddSpEffect, 131005)
+        end
+
+        -- Invader Appearance: Trigger 6
+        if roll_6 <= 50 then
+            act(AddSpEffect, 131006)
+        end
+
+        -- Invader Appearance: Trigger 7
+        if roll_7 <= 50 then
+            act(AddSpEffect, 131007)
+        end
+
+        -- Invader Appearance: Trigger 8
+        if roll_8 <= 50 then
+            act(AddSpEffect, 131008)
+        end
+    end
+end
+
+------------------------------------------
+-- Covenant Drops
+------------------------------------------
+function UpdateCovenantDrops()
+    local roll = math.random(0, 100)
+    local item_type_roll = math.random(0, 100)
+    
+    -- Occur once per second
+    if env(GetSpEffectID, 132001) == FALSE then
+        act(AddSpEffect, 132001)
+        
+        -- 10% for drop to be allowed during this second
+        if roll <= 10 then
+            act(AddSpEffect, 132002)
+        end
+        
+        -- Set which item drops for the consumable drops
+        if item_type_roll >= 0 and item_type_roll < 20 then
+            act(AddSpEffect, 132010)
+        elseif item_type_roll >= 20 and item_type_roll < 40 then
+            act(AddSpEffect, 132011)
+        elseif item_type_roll >= 40 and item_type_roll < 60 then
+            act(AddSpEffect, 132012)
+        elseif item_type_roll >= 60 and item_type_roll < 80 then
+            act(AddSpEffect, 132013)
+        elseif item_type_roll >= 80 then
+            act(AddSpEffect, 132014)
         end
     end
 end
@@ -20792,6 +20823,7 @@ function Update()
     TrackTimedBlock()
     UpdatePact_Core()
     UpdateInvaderAppearance()
+    UpdateCovenantDrops()
 	
 	-- Cinders
     UpdateBloodthirstCharges()

@@ -41,13 +41,31 @@ $Event(0, Default, function() {
     InitializeEvent(0, 15001, 0);
     InitializeEvent(0, 15002, 0);
     
-    // Trackers
-    InitializeEvent(0, 20006, 0); // Baseline SpEffects
+    // BB Dodge Toggle
+    InitializeEvent(0, 20006, 0); 
 
     // Covenant
-    InitializeEvent(0, 20007, 0); // Covenant Material Drops - 1
-    InitializeEvent(0, 20008, 0); // Covenant Material Drops - 2
-    InitializeEvent(0, 20009, 0); // Covenant Consumable Drops
+    InitializeEvent(0, 20007, 160100102, 372); // Darkmoon Faithful
+    InitializeEvent(1, 20007, 160100202, 366); // Watchdogs of Farron
+    InitializeEvent(2, 20007, 160100302, 367); // Aldrich Faithful 
+    InitializeEvent(3, 20007, 160100402, 375); // Warrior of Sunlight
+    InitializeEvent(4, 20007, 160100502, 374); // Mound-makers
+    InitializeEvent(5, 20007, 160100602, 383); // Thieves' Pact
+    InitializeEvent(6, 20007, 160100702, 1060); // Chaos Servant
+    InitializeEvent(7, 20007, 160100802, 373); // Rosaria's Fingers
+    InitializeEvent(8, 20007, 160101802, 379); // Spears of the Church
+    InitializeEvent(9, 20007, 160100902, 1070); // Vinheim Scholars 
+    InitializeEvent(10, 20007, 160101002, 1080); // Pilgrims of Dark
+    InitializeEvent(11, 20007, 160101102, 1090); // Way of White
+    InitializeEvent(12, 20007, 160101202, 4015); // Dragon Remnants
+    InitializeEvent(13, 20007, 160101302, 372); // Blue Sentinels
+    InitializeEvent(14, 20007, 160101402, 384); // Way of Blue
+    InitializeEvent(15, 20007, 160101502, 365); // Company of Champions
+    InitializeEvent(16, 20007, 160101602, 381); // Servant of the Rat
+    InitializeEvent(17, 20007, 160101702, 382); // Ritualist Pact
+
+    InitializeEvent(0, 20008, 0); // Thieves' Pact Drops
+    InitializeEvent(0, 20009, 0); // Way of Blue Drops
     
     //--------------------
     // Boss Teleports
@@ -2348,15 +2366,10 @@ $Event(20002, Restart, function(X0_4, X4_4) {
 });
 
 //------------------------------------------------
-// Baseline SpEffects
+// BB Dodge Toggle
 //------------------------------------------------
 $Event(20006, Restart, function() {
     SetNetworkSyncState(Disabled);
-
-    // Kill Tracker
-    if (!CharacterHasSpEffect(10000, 160010000)) { // Skip if already applied
-        SetSpEffect(10000, 160010000);
-    }
 
     // BB Dodge Toggle - Add SpEffect when enabled
     if (EventFlag(25009750)) { // Skip if BB Dodge is not activated
@@ -2372,6 +2385,8 @@ $Event(20006, Restart, function() {
         }
     }
 
+    WaitFixedTimeSeconds(1.0);
+    
     RestartEvent();
 });
 
@@ -2379,151 +2394,83 @@ $Event(20006, Restart, function() {
 //------------------------------------------------
 // Covenant Material Drops
 //------------------------------------------------
-$Event(20007, Default, function() {
-    SetNetworkSyncState(Disabled);
+$Event(20007, Default, function(X0_4, X4_4) {
+    // No in drop cooldown, and enemy has been killed
+    WaitFor(!CharacterHasSpEffect(10000, 160010010) && // Material Drop Cooldown
+    CharacterHasSpEffect(10000, 200000011) && // Enemy Kill
+    CharacterHasSpEffect(10000, 132002) && // Covenant Drop Allowed
+    CharacterHasSpEffect(10000, X0_4)); // Covenant Equipped
 
-    WaitFor(!CharacterHasSpEffect(10000, 160010010) && CharacterHasSpEffect(10000, 160010001)); // Enemy has died // Is not in cooldown
-
-    // Darkmoon Faithful
-    if (CharacterHasSpEffect(10000, 160100102)) {
-        AwardItemsIncludingClients(800011000);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Watchdogs of Farron
-    if (CharacterHasSpEffect(10000, 160100202)) {
-        AwardItemsIncludingClients(800011010);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Aldrich Faithful 
-    if (CharacterHasSpEffect(10000, 160100302)) {
-        AwardItemsIncludingClients(800011020);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Warrior of Sunlight
-    if (CharacterHasSpEffect(10000, 160100402)) {
-        AwardItemsIncludingClients(800011030);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Mound-makers
-    if (CharacterHasSpEffect(10000, 160100502)) {
-        AwardItemsIncludingClients(800011040);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Thieves' Pact
-    if (CharacterHasSpEffect(10000, 160100602)) {
-        AwardItemsIncludingClients(800011050);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Chaos Servant
-    if (CharacterHasSpEffect(10000, 160100702)) {
-        AwardItemsIncludingClients(800011060);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Rosaria's Fingers
-    if (CharacterHasSpEffect(10000, 160100802)) {
-        AwardItemsIncludingClients(800011070);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Spears of the Church
-    if (CharacterHasSpEffect(10000, 160101802)) {
-        AwardItemsIncludingClients(800011120);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Vinheim Scholars 
-    if (CharacterHasSpEffect(10000, 160100902)) {
-        AwardItemsIncludingClients(800011080);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Pilgrims of Dark
-    if (CharacterHasSpEffect(10000, 160101002)) {
-        AwardItemsIncludingClients(800011090);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Way of White
-    if (CharacterHasSpEffect(10000, 160101102)) {
-        AwardItemsIncludingClients(800011100);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Dragon Remnants
-    if (CharacterHasSpEffect(10000, 160101202)) {
-        AwardItemsIncludingClients(800011110);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Blue Sentinels
-    if (CharacterHasSpEffect(10000, 160101302)) {
-        AwardItemsIncludingClients(800011000);
-        SetSpEffect(10000, 160010010);
-    }
-
-    // Way of Blue
-    if (CharacterHasSpEffect(10000, 160101402)) {
-        AwardItemsIncludingClients(800011130);
-        SetSpEffect(10000, 160010010);
-    }
-
+    // Drop cooldown
+    SetSpEffect(10000, 160010010);
+    
+    DisplayBanner(TextBannerType.BeginMatch);
+    DirectlyGivePlayerItem(ItemType.Goods, X4_4, 6001, 1);
+    
     RestartEvent();
 });
 
 //------------------------------------------------
-// Covenant Material Drops
+// Thieves' Pact Drops
 //------------------------------------------------
 $Event(20008, Default, function() {
-    SetNetworkSyncState(Disabled);
+    // No in drop cooldown, and enemy has been killed
+    WaitFor(!CharacterHasSpEffect(10000, 160010011) && // Consumable Drop cooldown
+    CharacterHasSpEffect(10000, 200000011) && // Enemy Kill
+    CharacterHasSpEffect(10000, 132002) && // Covenant Drop Allowed
+    CharacterHasSpEffect(10000, 160100602));  // Thieves' Pact Covenant
 
-    WaitFor(!CharacterHasSpEffect(10000, 160010010) && CharacterHasSpEffect(10000, 160010001)); // Enemy has died // Is not in cooldown
-
-    // Company of Champions
-    if (CharacterHasSpEffect(10000, 160101502)) {
-        AwardItemsIncludingClients(800011140);
-        SetSpEffect(10000, 160010010);
+    // Drop cooldown
+    SetSpEffect(10000, 160010011);
+    
+    // Items
+    if (CharacterHasSpEffect(10000, 132010)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 292, 6001, 1); // Firebomb
     }
-
-    // Servant of the Rat
-    if (CharacterHasSpEffect(10000, 160101602)) {
-        AwardItemsIncludingClients(800011150);
-        SetSpEffect(10000, 160010010);
+    if (CharacterHasSpEffect(10000, 132011)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 297, 6001, 1); // Black Firebomb
     }
-
-    // Ritualist Pact
-    if (CharacterHasSpEffect(10000, 160101702)) {
-        AwardItemsIncludingClients(800011160);
-        SetSpEffect(10000, 160010010);
+    if (CharacterHasSpEffect(10000, 132012)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 310, 6001, 1); // Throwing Knife
+    }
+    if (CharacterHasSpEffect(10000, 132013)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 293, 6001, 1); // Dung Pie
+    }
+    if (CharacterHasSpEffect(10000, 132014)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 296, 6001, 1); // Undead Hunter Charm
     }
 
     RestartEvent();
 });
 
 //------------------------------------------------
-// Covenant Consumable Drops
+// Way of Blue Drops
 //------------------------------------------------
 $Event(20009, Default, function() {
-    SetNetworkSyncState(Disabled);
-
-    WaitFor(!CharacterHasSpEffect(10000, 160010011) && CharacterHasSpEffect(10000, 160010001)); // Enemy has died // Is not in cooldown
-
-    // Thieves' Pact
-    if (CharacterHasSpEffect(10000, 160100602)) {
-        AwardItemsIncludingClients(800020000);
-        SetSpEffect(10000, 160010011);
+    // No in drop cooldown, and enemy has been killed
+    WaitFor(!CharacterHasSpEffect(10000, 160010011) && // Consumable Drop cooldown
+    CharacterHasSpEffect(10000, 200000011) && // Enemy Kill
+    CharacterHasSpEffect(10000, 132002) && // Covenant Drop Allowed
+    CharacterHasSpEffect(10000, 160101402)); // Way of Blue Covenant
+    
+    // Drop cooldown
+    SetSpEffect(10000, 160010011);
+    
+    // Items
+    if (CharacterHasSpEffect(10000, 132010)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 240, 6001, 1); // Divine Blessing
     }
-
-    // Way of Blue
-    if (CharacterHasSpEffect(10000, 160101402)) {
-        AwardItemsIncludingClients(800020010);
-        SetSpEffect(10000, 160010011);
+    if (CharacterHasSpEffect(10000, 132011)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 241, 6001, 1); // Hidden Blessing
+    }
+    if (CharacterHasSpEffect(10000, 132012)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 260, 6001, 1); // Green Blossom
+    }
+    if (CharacterHasSpEffect(10000, 132013)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 456, 6001, 1); // Siegbrau
+    }
+    if (CharacterHasSpEffect(10000, 132014)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 801, 6001, 1); // Radiant Lifegem
     }
 
     RestartEvent();

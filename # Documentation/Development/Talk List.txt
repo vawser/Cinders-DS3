@@ -19,8 +19,8 @@ Then create the python version and recompile it.
 300220 Greirat
 300324 Oceiros
 300330 Emma
-300500 Solaire of Astora
-300501 Priestess Emilia
+300500 Solaire of Astora - Covenant
+300501 Priestess Emilia - Covenant
 300502 Greirat - Covenant
 300503 UNUSED
 300504 UNUSED
@@ -36,7 +36,7 @@ Then create the python version and recompile it.
 301000 Lothric Castle bonfire
 301001 Dragonslayer Armour bonfire
 301002 Dragon Barracks bonfire
-301020 Sunlight Altar
+301020 Sunlight Altar - Covenant
 301500 UNUSED
 301501 UNUSED
 301502 UNUSED
@@ -53,7 +53,7 @@ Then create the python version and recompile it.
 310002 Cliff Underside bonfire
 310003 Dilapidated Bridge bonfire
 310004 Foot of the High Wall bonfire
-310020 Mound-makers
+310020 Mound-makers - Covenant
 310021 Velka's Statue
 310150 Yoel of Londor
 310180 Sirris of the Sunless Realm
@@ -65,7 +65,7 @@ Then create the python version and recompile it.
 310380 Cage Madman
 310410 Holy Knight Hodrick
 310500 Master Benjin    # Talk Flags: 73109000
-310501 Remy the Rat
+310501 Remy the Rat - Covenant
 310502 UNUSED
 310503 UNUSED
 310504 UNUSED
@@ -80,7 +80,7 @@ Then create the python version and recompile it.
 320001 Nameless King bonfire
 320002 Great Belfry bonfire
 320003 Dragon-kin Mausoleum bonfire
-320010 Dragon Altar
+320010 Dragon Altar - Covenant
 320500 UNUSED
 320501 UNUSED
 320502 UNUSED
@@ -101,7 +101,7 @@ Then create the python version and recompile it.
 330006 Road of Sacrifices bonfire
 330007 Sage's Overlook bonfire
 330008 Farron Keep Perimeter bonfire
-330020 Old Wolf of Farron
+330020 Old Wolf of Farron - Covenant
 330170 Hawkwood the Deserter
 330230 Orbeck of Vinheim
 330290 Anri of Astora (male)
@@ -137,7 +137,7 @@ Then create the python version and recompile it.
 350001 Rosaria's Bed Chamber bonfire
 350002 Deacons of the Deep bonfire
 350003 Cathedral of the Deep bonfire
-350020 Rosaria
+350020 Rosaria - Covenant
 350190 Ringfinger Leonhard
 350191 Unused
 350300 Unbreakable Patches (Door side)
@@ -169,7 +169,7 @@ Then create the python version and recompile it.
 370007 Irithyll of the Boreal Valley bonfire
 370008 Prison Tower bonfire
 370020 Archdeacon McDonnell
-370160 Company Captain Yorshka
+370160 Company Captain Yorshka - Covenant
 370180 Sirris of the Sunless Realm
 370190 Ringfinger Leonhard
 370290 Anri of Astora (male)
@@ -280,10 +280,10 @@ Then create the python version and recompile it.
 400511 The Marauder - Talk
 400512 UNUSED
 400513 Priestess Emilia - Way of Blue
-400514 Domhnall of Zena - Company of Champions
+400514 Domhnall of Zena - Covenant
 400515 UNUSED
-400516 Bone Collector
-400517 Oathkeeper Xavius
+400516 UNUSED
+400517 UNUSED
 400518 UNUSED
 400519 UNUSED
 400790
@@ -325,7 +325,7 @@ Then create the python version and recompile it.
 450006
 450007
 450500 Princess Yngvil
-450501 Knight Lun
+450501 Knight Lun - Covenant
 450502 UNUSED
 450503 UNUSED
 450504 UNUSED
@@ -374,7 +374,7 @@ Then create the python version and recompile it.
 510005
 510020 Church Monument
 510021 Purging Monument
-510500 Ritualist Ellie
+510500 Ritualist Ellie - Covenant
 510501 UNUSED
 510502 UNUSED
 510503 UNUSED

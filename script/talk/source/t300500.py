@@ -273,11 +273,7 @@ def t300500_x50():
         ClearTalkListData()
 
         # Form Covenant
-        AddTalkListDataIf(IsEquipmentIDObtained(2, 10040) == 0 and 
-        IsEquipmentIDObtained(2, 10041) == 0 and 
-        IsEquipmentIDObtained(2, 10042) == 0 and 
-        IsEquipmentIDObtained(2, 10043) == 0 and 
-        IsEquipmentIDObtained(2, 10044) == 0, 1, 15003019, -1)
+        AddTalkListDataIf(IsEquipmentIDObtained(2, 10040) == 0, 1, 15003019, -1)
         
         # View Inventory
         AddTalkListData(2, 99062003, -1)
