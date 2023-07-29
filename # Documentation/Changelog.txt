@@ -111,6 +111,10 @@
  - Have 100% more HP over base.
  - Deal 30% more damage over base.
  
+# Intruders
+- The intruders will now randomly appear when not embered (they will always appear when embered).
+- The intruders now have boss bars.
+
 #-------------------------------------------------
 # World
 #-------------------------------------------------

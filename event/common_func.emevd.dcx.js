@@ -6304,9 +6304,9 @@ $Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 
 //----------------------------------------------
 // Intruder - Setup
-// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>
+// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <appearance SpEffect id>, <name id>
 //----------------------------------------------
-$Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+$Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
 
@@ -6314,11 +6314,13 @@ $Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
     EndIf(EventFlag(X28_4));
 
     // Trigger Invader if in region
-    WaitFor(InArea(10000, X4_4) && CharacterHasSpEffect(10000, 490)); // Player is embered // Is in Region
+    WaitFor(!CharacterHasSpEffect(10000, 131010) && InArea(10000, X4_4) && ( CharacterHasSpEffect(10000, 490) || CharacterHasSpEffect(10000, X32_4) )); // Is in Region and (Is embered || Has apperance SpEffect)
     WaitRandomTimeSeconds(1, 3);
 
     DisplayMessage(X20_4, 1);
-
+    DisplayBossHealthBar(Enabled, X0_4, 0, X36_4);
+    SetSpEffect(10000, 131010);
+    
     // Spawn
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X8_4);
     ChangeCharacterEnableState(X0_4, Enabled);
@@ -6328,6 +6330,8 @@ $Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
 
     // Killed
     WaitFor(CharacterDead(X0_4));
+    DisplayBossHealthBar(Disabled, X0_4, 0, X36_4);
+    ClearSpEffect(10000, 131010);
 
     DisplayMessage(X24_4, 1);
 
@@ -6339,9 +6343,9 @@ $Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
 
 //----------------------------------------------
 // Intruder - Setup - Conditional
-// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <conditional flag>
+// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <conditional flag>,  <appearance SpEffect id>, <name id>
 //----------------------------------------------
-$Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+$Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
 
@@ -6349,10 +6353,12 @@ $Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
     EndIf(EventFlag(X28_4));
 
     // Trigger Invader if in region
-    WaitFor(EventFlag(X32_4) && InArea(10000, X4_4) && CharacterHasSpEffect(10000, 490)); // Player is embered // Has conditional flag // Is in Region
+    WaitFor(!CharacterHasSpEffect(10000, 131010) && EventFlag(X32_4) && InArea(10000, X4_4) && ( CharacterHasSpEffect(10000, 490) || CharacterHasSpEffect(10000, X32_4) )); // Is in Region and (Is embered || Has apperance SpEffect)
     WaitRandomTimeSeconds(1, 3);
 
     DisplayMessage(X20_4, 1);
+    DisplayBossHealthBar(Enabled, X0_4, 0, X40_4);
+    SetSpEffect(10000, 131010);
 
     // Spawn
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X8_4);
@@ -6363,6 +6369,8 @@ $Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
 
     // Killed
     WaitFor(CharacterDead(X0_4));
+    DisplayBossHealthBar(Disabled, X0_4, 0, X40_4);
+    ClearSpEffect(10000, 131010);
 
     DisplayMessage(X24_4, 1);
 

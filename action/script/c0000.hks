@@ -1,13 +1,60 @@
 ﻿------------------------------------------
--- Mod: Functions
+-- Invader Apperance
 ------------------------------------------
-function TestFunction()
-    --if env(ActionRequest, ACTION_ARM_JUMP) == TRUE then
-    --    act(AddSpEffect, 119900000)
-    --end
-end
+function UpdateInvaderAppearance()
+    local roll_1 = math.random(0, 100)
+    local roll_2 = math.random(0, 100)
+    local roll_3 = math.random(0, 100)
+    local roll_4 = math.random(0, 100)
+    local roll_5 = math.random(0, 100)
+    local roll_6 = math.random(0, 100)
+    local roll_7 = math.random(0, 100)
+    local roll_8 = math.random(0, 100)
+    
+    if env(GetSpEffectID, 131100) == FALSE then
+        act(AddSpEffect, 131100)
+        
+        -- Invader Appearance: Trigger 1
+        if roll_1 <= 50 then
+            act(AddSpEffect, 131001)
+        end
 
--- debug_log = io.open("-- debug_log.txt", "w+")
+        -- Invader Appearance: Trigger 2
+        if roll_2 <= 50 then
+            act(AddSpEffect, 131002)
+        end
+
+        -- Invader Appearance: Trigger 3
+        if roll_3 <= 50 then
+            act(AddSpEffect, 131003)
+        end
+
+        -- Invader Appearance: Trigger 4
+        if roll_4 <= 50 then
+            act(AddSpEffect, 131004)
+        end
+
+        -- Invader Appearance: Trigger 5
+        if roll_5 <= 50 then
+            act(AddSpEffect, 131005)
+        end
+
+        -- Invader Appearance: Trigger 6
+        if roll_6 <= 50 then
+            act(AddSpEffect, 131006)
+        end
+
+        -- Invader Appearance: Trigger 7
+        if roll_7 <= 50 then
+            act(AddSpEffect, 131007)
+        end
+
+        -- Invader Appearance: Trigger 8
+        if roll_8 <= 50 then
+            act(AddSpEffect, 131008)
+        end
+    end
+end
 
 --------------------
 -- Player
@@ -20740,11 +20787,11 @@ function Update()
     UpdateOldMonkState()
     
     -- Fate
-    TestFunction()
     UpdateFP()
     UpdateDurability()
     TrackTimedBlock()
     UpdatePact_Core()
+    UpdateInvaderAppearance()
 	
 	-- Cinders
     UpdateBloodthirstCharges()
