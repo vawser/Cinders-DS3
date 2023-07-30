@@ -14,6 +14,11 @@ Add flag toggles for the covenant drops at the covenant npcs
 - Emilia:
     - Add menu kick that Solaire uses so item is displayed when ocvenant is taken
     
-#------------
-# Items
-#------------
+- Add training system from Vigil
+
+- Added 'essence' shop to The Rock
+ - Reward 1 Essence on game clear
+ - 1 Essence may be taken as a gift
+ - Maybe other single challenges will reward Essence
+ 
+ 2181 Essence of the Dark Soul

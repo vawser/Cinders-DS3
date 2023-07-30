@@ -393,6 +393,22 @@
 25000453 Unique Boss Kills: 12
 25000454 Unique Boss Kills: 15
 
+# Training System
+25000500 Spawn Subject
+25000501 Initial Training Flags
+25000510 Player: Invulerability
+25000511 Player: Endless Stamina
+25000512 Player: Endless Focus
+25000520 Subject: Hostility
+25000521 Subject: Endless Regeneration
+25000522 Subject: Invulerability
+
+25000550 Subject Type: Soldier # 110005 / 110015
+25000551 Subject Type: Knight # 128020 / 128040
+25000552 Subject Type: Dog # 202005
+25000553 Subject Type: Elder Ghru # 312010
+25000554 Subject Type: Skeleton # 107400
+
 # Castigation
 25000900 Abyssal Maw
 25000901 Brittle Bones

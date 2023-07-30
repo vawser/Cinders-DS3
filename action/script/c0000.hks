@@ -8777,9 +8777,9 @@ function Move_onUpdate()
         base_move_mult = base_move_mult + 0.2
     end
     
-    -- Nameless King Malus
-    if env(GetSpEffectID, 112621) == TRUE then
-        base_move_mult = base_move_mult - 0.5
+    -- Frostbite
+    if env(GetSpEffectID, 180021000) == TRUE then
+        base_move_mult = base_move_mult * 0.5
     end
     
     if GetVariable("MoveDirection") == 3 or GetVariable("MoveDirection") == 2 then

@@ -7,7 +7,7 @@
 ------------------------------------------
 IS_INITIALIZED_TURMOIL = FALSE
 
-function TurmoilEffect()
+function UpdateTurmoilEffect()
     if IS_INITIALIZED_TURMOIL == TRUE then
         return
     elseif env(GetSpEffectID, 111200) == TRUE or env(GetSpEffectID, 111201) == TRUE then
@@ -15,30 +15,15 @@ function TurmoilEffect()
         return
     end
     
-    local turmoil_roll = math.random(1000)
+    local turmoil_roll = math.random(100)
     local turmoil_chance = 0
     
-    -- 100%
-    if env(GetSpEffectID, 111216) == TRUE then
-        turmoil_chance = 1000
-    -- 10%
-    elseif env(GetSpEffectID, 111215) == TRUE then
-        turmoil_chance = 100
-    -- 5%
-    elseif env(GetSpEffectID, 111214) == TRUE then
-        turmoil_chance = 50
-    -- 4%
-    elseif env(GetSpEffectID, 111213) == TRUE then
-        turmoil_chance = 40
-    -- 3%
-    elseif env(GetSpEffectID, 111212) == TRUE then
-        turmoil_chance = 30
-    -- 2%
-    elseif env(GetSpEffectID, 111211) == TRUE then
-        turmoil_chance = 20
-    -- 1%
-    elseif env(GetSpEffectID, 111210) == TRUE then
-        turmoil_chance = 10
+    -- 0% for Blocked NPCs
+    if env(GetSpEffectID, 111210) == TRUE then
+        turmoil_chance = 0
+    -- 1% for others
+    else
+        turmoil_chance = 1
     end
     
     if turmoil_chance > 0 and turmoil_roll <= turmoil_chance then
@@ -1591,6 +1576,11 @@ function ExecMove(move_type, is_on_cancel)
         movement_speed_mult = 2.0
     elseif env(GetSpEffectID, 111310) == TRUE then
         movement_speed_mult = 3.0
+    end
+    
+    -- Frostbite
+    if env(GetSpEffectID, 180021000) == TRUE then
+        movement_speed_mult = movement_speed_mult * 0.5
     end
     
     -- Apply movement speed change
@@ -3970,7 +3960,7 @@ function Damage_Update()
 end
 
 function Update()
-    -- TurmoilEffect()
+    UpdateTurmoilEffect()
     
     g_FrameCount = g_FrameCount + 1
 end

@@ -12,7 +12,7 @@
 //----------------------------------------------
 $Event(0, Default, function() {
     // DEBUG
-    // AwardItemLot(10);
+    //AwardItemLot(10);
     
     //-----------------------------------
     // Run for Host and Clients

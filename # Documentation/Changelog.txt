@@ -22,6 +22,22 @@
 - These can all be active at the same time.
 
 #------------------------------
+# Essence of the Dark Soul
+#------------------------------
+- Slave Knight Gael in World's End will now exchange a Essence of the Dark Soul for:
+ - Any weapon
+ - Any armor
+ - Any ring
+ - Any spell
+
+- You can obtain Essence of the Dark Soul from:
+ - Taking 1 as a gift.
+ - Awarded 3 upon killing the Soul of Cinder (once per journey).
+ - NPC Invaders have a 10% chance to drop 1.
+
+- Note, you can view this menu without needing any Essence, allowing you to preview all the items available.
+
+#------------------------------
 # Boss Resurrection
 #------------------------------
 - Added the ability to resurrect bosses that have been defeated.
@@ -83,6 +99,26 @@
  - Alacrity
   - Enemies will move 50% faster.
   - Enemy kills have a 1% chance to award 1 Hollow Fragment.
+ 
+#-------------------------------------------------
+# Training System
+#-------------------------------------------------
+- Added a dummy system to World's End.
+ - You can toggle the following for the player:
+  - Invulerability
+  - Infinite Stamina
+  - Infinite FP
+  
+ - You can toggle the following for the dummy:
+  - Invulerability
+  - Infinite HP
+ 
+ - You can change the dummy enemy type to the following:
+  - Soldier
+  - Knight
+  - Dog
+  - Elder Ghru
+  - Skeleton
   
 #-------------------------------------------------
 # Player
@@ -123,6 +159,9 @@
 # Intruders
 - The intruders will now randomly intrude even when the player is not embered. They will always intrude if the player is embered.
 - The intruders now have boss bars.
+
+# Frostbite
+- Frostbite now slows enemy movement by 50% whilst present on the enemy.
 
 #-------------------------------------------------
 # World

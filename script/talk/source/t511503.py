@@ -155,7 +155,7 @@ def t511503_x9():
         ClearTalkListData()
        
         # Forge with Darkness
-        # AddTalkListData(1, 80002000, -1)
+        AddTalkListData(1, 80002000, -1)
         
         # Resurrection
         AddTalkListData(2, 80050000, -1)
@@ -174,8 +174,7 @@ def t511503_x9():
         
         # Forge with Darkness
         if GetTalkListEntryResult() == 1:
-            OpenTranspositionShop(8100000, 8109999)
-            assert not (CheckSpecificPersonMenuIsOpen(18, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
+            assert t511503_x200()
             continue
         # Resurrection
         elif GetTalkListEntryResult() == 2:
@@ -851,3 +850,78 @@ def t511503_x110(action=_):
         return 0
     else:
         return 1
+        
+#------------------------------------------
+# Forge with Darkness
+#------------------------------------------
+def t511503_x200():
+    while True:
+        ClearTalkListData()
+        
+        # View Weaponry
+        AddTalkListData(1, 80054001, -1)
+
+        # View Armor
+        AddTalkListData(2, 80054002, -1)
+        
+        # View Accessories
+        AddTalkListData(3, 80054003, -1)
+        
+        # View Spells
+        AddTalkListData(4, 80054004, -1)
+        
+        # View Ammunition
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2181, 4, 50, 0) == 1, 5, 80054005, -1) # Show only if player has 'cheat' level of Essence
+        
+        # View Consumables
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2181, 4, 50, 0) == 1, 6, 80054006, -1) # Show only if player has 'cheat' level of Essence
+        
+        # View Materials
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2181, 4, 50, 0) == 1, 7, 80054007, -1) # Show only if player has 'cheat' level of Essence
+        
+        # View Key Items
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 2181, 4, 50, 0) == 1, 8, 80054008, -1) # Show only if player has 'cheat' level of Essence
+        
+        # Leave
+        AddTalkListData(99, 80000999, -1)
+    
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+         
+        # Weapons
+        if GetTalkListEntryResult() == 1:
+            c1111(910000, 910999)
+            return 0
+        # Armor
+        elif GetTalkListEntryResult() == 2:
+            c1111(911000, 911999)
+            return 0
+        # Accessories
+        elif GetTalkListEntryResult() == 3:
+            c1111(912000, 912999)
+            return 0
+        # Spells
+        elif GetTalkListEntryResult() == 4:
+            c1111(913000, 913999)
+            return 0
+        # Ammunition
+        elif GetTalkListEntryResult() == 5:
+            c1111(914000, 914999)
+            return 0
+        # Consumables
+        elif GetTalkListEntryResult() == 6:
+            c1111(915000, 915999)
+            return 0
+        # Materials
+        elif GetTalkListEntryResult() == 7:
+            c1111(916000, 916999)
+            return 0
+        # Key Items
+        elif GetTalkListEntryResult() == 8:
+            c1111(917000, 917999)
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+            
+    return 0

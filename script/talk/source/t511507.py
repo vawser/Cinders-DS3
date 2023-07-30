@@ -1,50 +1,31 @@
-#-------------------------------------------
-#-- Domhnall of Zena
-#-------------------------------------------
-# -*- coding: utf-8 -*-
+#------------------------------
+# The Rock
+#------------------------------
 def t511507_1():
     """ State 0,1 """
     assert GetCurrentStateElapsedTime() > 1
     """ State 2 """
     while True:
-        call = t511507_x14()
+        call = t511507_x0() # Host Player
         assert IsClientPlayer() == 1
         """ State 3 """
-        call = t511507_x15()
+        call = t511507_x1() # Client Player
         assert not IsClientPlayer()
 
-def t511507_x0(action2=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action2, 3, 4, 2)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-
-def t511507_x1(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000):
+# Host Player
+def t511507_x0():
     """ State 0,1 """
     while True:
-        assert (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
-                and not IsPlayerDead() and not IsCharacterDisabled())
-        """ State 3 """
-        assert (GetEventStatus(flag4) == 1 or GetEventStatus(flag5) == 1 or GetEventStatus(flag6) ==
-                1 or GetEventStatus(flag7) == 1 or GetEventStatus(flag8) == 1)
-        """ State 2 """
-        if (not (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
-            and not IsPlayerDead() and not IsCharacterDisabled())):
-            pass
-        elif (not GetEventStatus(flag4) and not GetEventStatus(flag5) and not GetEventStatus(flag6) and
-              not GetEventStatus(flag7) and not GetEventStatus(flag8)):
-            pass
-        elif CheckActionButtonArea(z4):
-            break
-    """ State 4 """
+        call = t511507_x3()
+
+# Client Player
+def t511507_x1():
+    """ State 0,1 """
+    assert t511507_x2() # Clear Talk State
+    """ State 2 """
     return 0
 
+# Clear Talk State
 def t511507_x2():
     """ State 0,1 """
     if not CheckSpecificPersonTalkHasEnded(0):
@@ -69,55 +50,137 @@ def t511507_x2():
         pass
     """ State 8 """
     return 0
-
+    
+# Check Death
 def t511507_x3():
     """ State 0,1 """
-    ClearTalkProgressData()
-    StopEventAnimWithoutForcingConversationEnd(0)
-    ForceCloseGenericDialog()
-    ForceCloseMenu()
-    ReportConversationEndToHavokBehavior()
-    """ State 2 """
+    call = t511507_x4() # NPC Loop
+    assert CheckSelfDeath() == 1
     return 0
 
-def t511507_x4(text3=12002600, z3=74000115, flag3=0, mode3=1):
+# NPC Loop
+def t511507_x4():
     """ State 0,5 """
-    assert t511507_x3() and CheckSpecificPersonTalkHasEnded(0) == 1
+    while True:
+        call = t511507_x5() # Interaction State
+        if call.Done():
+            """ State 3 """
+            call = t511507_x8() # Menu Pre-loop
+            if call.Done():
+                pass
+            elif IsAttackedBySomeone() == 1:
+                """ State 1 """
+                Label('L0')
+                call = t511507_x6() # Attack Check
+                def ExitPause():
+                    RemoveMyAggro()
+                if call.Done():
+                    pass
+                elif IsPlayerDead() == 1:
+                    break
+            elif IsPlayerDead() == 1:
+                break
+            elif GetDistanceToPlayer() > 8 or GetPlayerYDistance() > 0.25:
+                """ State 4 """
+                call = t511507_x7() # Distance Check
+                if call.Done() and (GetDistanceToPlayer() < 7.5 and GetPlayerYDistance() < 0.249):
+                    pass
+                elif IsAttackedBySomeone() == 1:
+                    Goto('L0')
+        elif IsAttackedBySomeone() == 1:
+            Goto('L0')
+        elif IsPlayerDead() == 1:
+            break
     """ State 2 """
-    SetEventState(z3, 1)
-    """ State 1 """
-    # talk:12002600: 
-    TalkToPlayer(text3, -1, -1, flag3)
-    assert CheckSpecificPersonTalkHasEnded(0) == 1
+    t511507_x2() # Clear Talk State
+    
+# Interaction State
+def t511507_x5():
+    """ State 0,1 """
+    while True:
+        assert (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
+                and not IsPlayerDead() and not IsCharacterDisabled())
+        """ State 2 """
+        if (not (not GetOneLineHelpStatus() and not IsTalkingToSomeoneElse() and not IsClientPlayer()
+            and not IsPlayerDead() and not IsCharacterDisabled())):
+            pass
+        elif CheckActionButtonArea(6055):
+            break
     """ State 4 """
-    if not mode3:
+    return 0
+
+# Attack Check
+def t511507_x6():
+    """ State 0,6 """
+    assert t511507_x2() # Clear Talk State
+    """ State 3 """
+    assert GetCurrentStateElapsedFrames() > 1
+    """ State 2 """
+    if GetDistanceToPlayer() > 3:
+        """ State 7 """
+        assert t511507_x2() # Clear Talk State
+    else:
+        """ State 5 """
         pass
+    """ State 9 """
+    return 0
+
+# Distance Check
+def t511507_x7():
+    """ State 0,1 """
+    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not
+        CheckSpecificPersonGenericDialogIsOpen(0)):
+        """ State 2,5 """
+        if GetDistanceToPlayer() > 3:
+            """ State 4 """
+            Label('L0')
+            assert t511507_x2() # Clear Talk State
     else:
         """ State 3 """
-        ReportConversationEndToHavokBehavior()
+        Goto('L0')
     """ State 6 """
     return 0
 
-def t511507_x5(text2=_, z2=_, flag2=0, mode2=0):
-    """ State 0,5 """
-    assert t511507_x3() and CheckSpecificPersonTalkHasEnded(0) == 1
-    """ State 1 """
-    TalkToPlayer(text2, -1, -1, flag2)
-    assert CheckSpecificPersonTalkHasEnded(0) == 1
-    """ State 4 """
-    if not mode2:
-        pass
-    else:
-        """ State 3 """
-        ReportConversationEndToHavokBehavior()
-    """ State 2 """
-    SetEventState(z2, 1)
-    """ State 6 """
+# Menu Pre-loop
+def t511507_x8():
+    """ State 0,1 """
+    assert t511507_x9()
+    """ State 24 """
     return 0
+    
+# Menu Loop
+def t511507_x9():
+    c1110()
+    while True:
+        ClearTalkListData()
+       
+        # Configure Training Arena
+        AddTalkListData(1, 80054100, -1)
+        
+        # Spawn Enemy
+        AddTalkListData(2, 80054101, -1)
+        
+        # Leave
+        AddTalkListData(99, 80000999, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+        
+        # Configure Training Arena
+        if GetTalkListEntryResult() == 1:
+            assert t511507_x20()
+            return 0
+        # Spawn Enemy
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000500, 1)
+            return 0
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
 
-def t511507_x6(text1=_, flag1=0, mode1=_):
+# Talk Function
+def t511507_x10(text1=_, flag1=0, mode1=_):
     """ State 0,4 """
-    assert t511507_x3() and CheckSpecificPersonTalkHasEnded(0) == 1
+    assert t511507_x11() and CheckSpecificPersonTalkHasEnded(0) == 1
     """ State 1 """
     TalkToPlayer(text1, -1, -1, flag1)
     assert CheckSpecificPersonTalkHasEnded(0) == 1
@@ -129,223 +192,272 @@ def t511507_x6(text1=_, flag1=0, mode1=_):
         ReportConversationEndToHavokBehavior()
     """ State 5 """
     return 0
-
-def t511507_x7(action1=_):
-    """ State 0,1 """
-    OpenGenericDialog(7, action1, 1, 0, 1)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    return 0
-
-def t511507_x9():
-    """ State 0,1 """
-    assert t511507_x8()
-    """ State 24 """
-    return 0
-
-def t511507_x10():
-    """ State 0,6 """
-    assert t511507_x2()
-    """ State 3 """
-    assert GetCurrentStateElapsedFrames() > 1
-    """ State 1 """
-    assert not GetEventStatus(1016) and not GetEventStatus(1017)
-    """ State 2 """
-    if GetDistanceToPlayer() < 10:
-        """ State 4,8 """
-        call = t511507_x18()
-        if call.Done():
-            pass
-        elif GetDistanceToPlayer() > 12:
-            """ State 7 """
-            assert t511507_x2()
-    else:
-        """ State 5 """
-        pass
-    """ State 9 """
-    return 0
-
+    
+# Talk Cleanup
 def t511507_x11():
     """ State 0,1 """
-    if GetEventStatus(1018) == 1:
-        """ State 2 """
-        pass
-    else:
-        """ State 3 """
-        if GetDistanceToPlayer() < 10:
-            """ State 4 """
-            if GetEventStatus(50006020) == 1:
-                """ State 6,9 """
-                # talk:12002900: 
-                call = t511507_x6(text1=12002900, flag1=0, mode1=1)
-                if call.Done():
-                    Goto('L0')
-                elif GetDistanceToPlayer() > 12:
-                    pass
-            else:
-                """ State 7,10 """
-                # talk:12002950: 
-                call = t511507_x6(text1=12002950, flag1=0, mode1=1)
-                if call.Done():
-                    Goto('L0')
-                elif GetDistanceToPlayer() > 12:
-                    pass
-            """ State 8 """
-            assert t511507_x2()
-        else:
-            """ State 5 """
-            pass
-    """ State 11 """
-    Label('L0')
-    return 0
-
-def t511507_x12():
-    """ State 0,1,2 """
-    assert t511507_x2()
-    """ State 3 """
-    return 0
-
-def t511507_x13():
-    """ State 0,1 """
-    if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonMenuIsOpen(12, 0) and not
-        CheckSpecificPersonGenericDialogIsOpen(0)):
-       if GetDistanceToPlayer() > 12:
-            """ State 4 """
-            Label('L0')
-            assert t511507_x2()
-    else:
-        """ State 3 """
-        Goto('L0')
-    """ State 6 """
-    return 0
-
-def t511507_x14():
-    """ State 0,1 """
-    while True:
-        call = t511507_x16()
-        assert not GetEventStatus(1000) and not GetEventStatus(1001) and not GetEventStatus(1002)
-        """ State 2 """
-        call = t511507_x17()
-        assert GetEventStatus(1000) == 1 or GetEventStatus(1001) == 1 or GetEventStatus(1002) == 1
-
-def t511507_x15():
-    """ State 0,1 """
-    assert t511507_x2()
+    ClearTalkProgressData()
+    StopEventAnimWithoutForcingConversationEnd(0)
+    ForceCloseGenericDialog()
+    ForceCloseMenu()
+    ReportConversationEndToHavokBehavior()
     """ State 2 """
     return 0
-
-def t511507_x16():
-    """ State 0,1 """
-    call = t511507_x26()
-    assert CheckSelfDeath() == 1
-    """ State 2 """
-    t511507_x11()
-
-def t511507_x17():
-    """ State 0 """
-
-def t511507_x18():
-    """ State 0,1 """
-    if not GetEventStatus(74000115):
-        """ State 2,5 """
-        # talk:12002600: 
-        assert t511507_x4(text3=12002600, z3=74000115, flag3=0, mode3=1)
-    else:
-        """ State 3,6 """
-        # talk:12002700: 
-        assert t511507_x6(text1=12002700, flag1=0, mode1=1)
-        """ State 4 """
-        SetEventState(74000115, 0)
-    """ State 7 """
-    return 0
-
-def t511507_x26():
-    """ State 0,5 """
-    while True:
-        call = t511507_x1(z4=6120, flag4=1015, flag5=6000, flag6=6000, flag7=6000, flag8=6000)
-        if call.Done():
-            """ State 3 """
-            SetEventState(74000139, 1)
-            call = t511507_x9()
-            if call.Done():
-                pass
-            elif IsAttackedBySomeone() == 1:
-                """ State 1 """
-                Label('L0')
-                call = t511507_x10()
-                def ExitPause():
-                    RemoveMyAggro()
-                if call.Done():
-                    pass
-                elif IsPlayerDead() == 1:
-                    break
-            elif IsPlayerDead() == 1:
-                break
-            elif GetDistanceToPlayer() > 3 or GetPlayerYDistance() > 0.25:
-                """ State 4 """
-                call = t511507_x13()
-                if call.Done() and (GetDistanceToPlayer() < 2.5 and GetPlayerYDistance() < 0.249):
-                    pass
-                elif IsAttackedBySomeone() == 1:
-                    Goto('L0')
-        elif IsAttackedBySomeone() == 1:
-            Goto('L0')
-        elif IsPlayerDead() == 1:
-            break
-    """ State 2 """
-    t511507_x12()
-
-def t511507_x27(action2=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action2, 1, 0, 1)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-       
-def t511507_x28(action2=_):
-    """ State 0,1 """
-    OpenGenericDialog(8, action2, 1, 0, 1)
-    assert not CheckSpecificPersonGenericDialogIsOpen(0)
-    """ State 2 """
-    if GetGenericDialogButtonResult() == 1:
-        """ State 3 """
-        return 0
-    else:
-        """ State 4 """
-        return 1
-
-# Menu
-def t511507_x8():
-    c1110()
+    
+# Training Menu
+def t511507_x20():
     while True:
         ClearTalkListData()
-       
-        # Offerings
-        AddTalkListData(1, 15003003, -1)
-
-        # Form Covenant
-        AddTalkListDataIf(GetEventStatus(25000207) == 0, 6, 15003019, -1)
+        
+        # Player Status
+        AddTalkListData(1, 80054110, -1)
+        # Enemy Status
+        AddTalkListData(2, 80054510, -1)
         
         # Leave
-        AddTalkListData(99, 15000005, -1)
-        
-        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
-                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        AddTalkListData(99, 80000999, -1)
+    
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         ShowShopMessage(1)
-        
-        # Offerings
+         
+        # Player Status
         if GetTalkListEntryResult() == 1:
-            c1111(210000, 210999)
-            continue
-        # Form Covenant
-        elif GetTalkListEntryResult() == 6:
-            SetEventState(25000207, 1)
-            GetItemFromItemLot(800001110)
+            assert t511507_x21()
             return 0
-        elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+        # Enemy Status
+        elif GetTalkListEntryResult() == 2:
+            assert t511507_x22()
             return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+    return 0
+    
+# Player Status
+def t511507_x21():
+    while True:
+        ClearTalkListData()
+        
+        # Invulerability (off)
+        AddTalkListDataIf(GetEventStatus(25000510) == 1, 10, 80054111, -1)
+        # Invulerability (on)
+        AddTalkListDataIf(GetEventStatus(25000510) == 0, 11, 80054111, -1)
+        
+        # Endless Stamina (off)
+        AddTalkListDataIf(GetEventStatus(25000511) == 1, 12, 80054113, -1)
+        # Endless Stamina (on)
+        AddTalkListDataIf(GetEventStatus(25000511) == 0, 13, 80054113, -1)
+        
+        # Endless Focus (off)
+        AddTalkListDataIf(GetEventStatus(25000512) == 1, 14, 80054115, -1)
+        # Endless Focus (on)
+        AddTalkListDataIf(GetEventStatus(25000512) == 0, 15, 80054115, -1)
+        
+        # Leave
+        AddTalkListData(99, 80000999, -1)
+    
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+
+        # Invulerability (off)
+        if GetTalkListEntryResult() == 10:
+            SetEventState(25000510, 0)
+            assert t511507_x30(80054211)
+            return 0
+        # Invulerability (on)
+        elif GetTalkListEntryResult() == 11:
+            SetEventState(25000510, 1)
+            assert t511507_x30(80054212)
+            return 0
+        # Endless Stamina (off)
+        elif GetTalkListEntryResult() == 12:
+            SetEventState(25000511, 0)
+            assert t511507_x30(80054213)
+            return 0
+        # Endless Stamina (on)
+        elif GetTalkListEntryResult() == 13:
+            SetEventState(25000511, 1)
+            assert t511507_x30(80054214)
+            return 0
+        # Endless Focus (off)
+        elif GetTalkListEntryResult() == 14:
+            SetEventState(25000512, 0)
+            assert t511507_x30(80054215)
+            return 0
+        # Endless Focus (on)
+        elif GetTalkListEntryResult() == 15:
+            SetEventState(25000512, 1)
+            assert t511507_x30(80054216)
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+    return 0
+    
+# Enemy Status
+def t511507_x22():
+    while True:
+        ClearTalkListData()
+        
+        # Enemy Type
+        AddTalkListData(1, 80054511, -1)
+        
+        # Hostility (off)
+        #AddTalkListDataIf(GetEventStatus(25000520) == 1, 10, 80054512, -1)
+        # Hostility (on)
+        #AddTalkListDataIf(GetEventStatus(25000520) == 0, 11, 80054512, -1)
+        
+        # Endless Regeneration (off)
+        AddTalkListDataIf(GetEventStatus(25000521) == 1, 12, 80054514, -1)
+        # Endless Regeneration (on)
+        AddTalkListDataIf(GetEventStatus(25000521) == 0, 13, 80054514, -1)
+        
+        # Invulerability (off)
+        AddTalkListDataIf(GetEventStatus(25000522) == 1, 14, 80054516, -1)
+        # Invulerability (on)
+        AddTalkListDataIf(GetEventStatus(25000522) == 0, 15, 80054516, -1)
+        
+        # Leave
+        AddTalkListData(99, 80000999, -1)
+    
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+         
+        # Enemy Type
+        if GetTalkListEntryResult() == 1:
+            assert t511507_x23()
+            return 0
+        # Hostility (off)
+        elif GetTalkListEntryResult() == 10:
+            SetEventState(25000520, 0)
+            assert t511507_x30(80054612)
+            return 0
+        # Hostility (on)
+        elif GetTalkListEntryResult() == 11:
+            SetEventState(25000520, 1)
+            assert t511507_x30(80054613)
+            return 0
+        # Endless Regeneration (off)
+        elif GetTalkListEntryResult() == 12:
+            SetEventState(25000521, 0)
+            assert t511507_x30(80054615)
+            return 0
+        # Endless Regeneration (on)
+        elif GetTalkListEntryResult() == 13:
+            SetEventState(25000521, 1)
+            assert t511507_x30(80054614)
+            return 0
+        # Invulerability (off)
+        elif GetTalkListEntryResult() == 14:
+            SetEventState(25000522, 0)
+            assert t511507_x30(80054617)
+            return 0
+        # Invulerability (on)
+        elif GetTalkListEntryResult() == 15:
+            SetEventState(25000522, 1)
+            assert t511507_x30(80054616)
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+    return 0
+    
+# Enemy Type
+def t511507_x23():
+    while True:
+        ClearTalkListData()
+        
+        # Soldier
+        AddTalkListDataIf(GetEventStatus(25000550) == 0, 1, 80054520, -1)
+        # Soldier
+        AddTalkListDataIf(GetEventStatus(25000550) == 1, 1, 80054530, -1)
+        
+        # Knight
+        AddTalkListDataIf(GetEventStatus(25000551) == 0, 2, 80054521, -1)
+        # Knight
+        AddTalkListDataIf(GetEventStatus(25000551) == 1, 2, 80054531, -1)
+        
+        # Dog
+        AddTalkListDataIf(GetEventStatus(25000552) == 0, 3, 80054522, -1)
+        # Dog
+        AddTalkListDataIf(GetEventStatus(25000552) == 1, 3, 80054532, -1)
+        
+        # Elder Ghru
+        AddTalkListDataIf(GetEventStatus(25000553) == 0, 4, 80054523, -1)
+        # Elder Ghru
+        AddTalkListDataIf(GetEventStatus(25000553) == 1, 4, 80054533, -1)
+        
+        # Skeleton
+        AddTalkListDataIf(GetEventStatus(25000554) == 0, 5, 80054524, -1)
+        # Skeleton
+        AddTalkListDataIf(GetEventStatus(25000554) == 1, 5, 80054534, -1)
+        
+        # Leave
+        AddTalkListData(99, 80000999, -1)
+    
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1, 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        ShowShopMessage(1)
+         
+        # Soldier
+        if GetTalkListEntryResult() == 1:
+            SetEventState(25000550, 1)
+            SetEventState(25000551, 0)
+            SetEventState(25000552, 0)
+            SetEventState(25000553, 0)
+            SetEventState(25000554, 0)
+            assert t511507_x30(80054550)
+            return 0
+        # Soldier
+        elif GetTalkListEntryResult() == 2:
+            SetEventState(25000550, 0)
+            SetEventState(25000551, 1)
+            SetEventState(25000552, 0)
+            SetEventState(25000553, 0)
+            SetEventState(25000554, 0)
+            assert t511507_x30(80054551)
+            return 0
+        # Soldier
+        elif GetTalkListEntryResult() == 3:
+            SetEventState(25000550, 0)
+            SetEventState(25000551, 0)
+            SetEventState(25000552, 1)
+            SetEventState(25000553, 0)
+            SetEventState(25000554, 0)
+            assert t511507_x30(80054552)
+            return 0
+        # Soldier
+        elif GetTalkListEntryResult() == 4:
+            SetEventState(25000550, 0)
+            SetEventState(25000551, 0)
+            SetEventState(25000552, 0)
+            SetEventState(25000553, 1)
+            SetEventState(25000554, 0)
+            assert t511507_x30(80054553)
+            return 0
+        # Soldier
+        elif GetTalkListEntryResult() == 5:
+            SetEventState(25000550, 0)
+            SetEventState(25000551, 0)
+            SetEventState(25000552, 0)
+            SetEventState(25000553, 0)
+            SetEventState(25000554, 1)
+            assert t511507_x30(80054554)
+            return 0
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+    return 0
+    
+def t511507_x30(action=_):
+    OpenGenericDialog(8, action, 1, 0, 1)
+    
+    assert not CheckSpecificPersonGenericDialogIsOpen(0)
+    
+    if GetGenericDialogButtonResult() == 1:
+        return 0
+    else:
+        return 1
