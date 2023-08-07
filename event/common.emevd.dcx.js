@@ -2404,7 +2404,6 @@ $Event(20007, Default, function(X0_4, X4_4) {
     // Drop cooldown
     SetSpEffect(10000, 160010010);
     
-    DisplayBanner(TextBannerType.BeginMatch);
     DirectlyGivePlayerItem(ItemType.Goods, X4_4, 6001, 1);
     
     RestartEvent();
