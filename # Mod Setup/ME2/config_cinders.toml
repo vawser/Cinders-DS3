@@ -1,0 +1,14 @@
+[modengine]
+debug = true
+external_dlls = [ ]
+
+[extension.mod_loader]
+enabled = true
+loose_params = true
+mods = [
+    { enabled = true, name = "Cinders", path = "C:\\Users\\benja\\Modding\\Dark Souls III\\Projects\\Cinders-DS3" }
+]
+
+[extension.scylla_hide]
+enabled = false
+
