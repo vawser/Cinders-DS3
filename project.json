@@ -1,1 +1,13 @@
-{"ProjectName":"Cinders","GameRoot":"C:\\Program Files (x86)\\Steam\\steamapps\\common\\DARK SOULS III\\Game","GameType":5,"PinnedParams":["AtkParam_Npc","AtkParam_Pc","BehaviorParam","BehaviorParam_PC","Bullet","EquipParamAccessory","EquipParamGoods","EquipParamProtector","EquipParamWeapon","ItemLotParam","Magic","NpcParam","NpcThinkParam","SpEffectParam","ShopLineupParam"],"PinnedRows":{"AtkParam_Pc":[]},"PinnedFields":{},"UseLooseParams":true,"PartialParams":false,"LastFmgLanguageUsed":""}
+{
+  "ProjectName": "Cinders",
+  "GameRoot": "F:\\SteamLibrary\\steamapps\\common\\DARK SOULS III\\Game",
+  "GameType": 5,
+  "PinnedParams": [],
+  "PinnedRows": {
+    "AtkParam_Pc": []
+  },
+  "PinnedFields": {},
+  "UseLooseParams": true,
+  "PartialParams": false,
+  "LastFmgLanguageUsed": ""
+}
