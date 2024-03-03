@@ -1,1 +1,39 @@
-{"list":[{"id":"dummy","name":"Dummy","tags":["dummy"]},{"id":"c1070","name":"Skeleton","tags":["creature"]}]}
+{
+  "list": [
+    {
+      "id": "dummy",
+      "name": "Dummy",
+      "tags": [
+        "dummy"
+      ]
+    },
+    {
+      "id": "c1070",
+      "name": "Skeleton",
+      "tags": [
+        "creature"
+      ]
+    },
+    {
+      "id": "c0100",
+      "name": "",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "c1100",
+      "name": "Hollow Soldier",
+      "tags": [
+        "creature"
+      ]
+    },
+    {
+      "id": "c1000",
+      "name": "Human",
+      "tags": [
+        "creature"
+      ]
+    }
+  ]
+}

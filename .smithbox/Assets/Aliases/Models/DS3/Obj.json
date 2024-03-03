@@ -1,0 +1,522 @@
+{
+  "list": [
+    {
+      "id": "dummy",
+      "name": "Dummy",
+      "tags": [
+        "dummy"
+      ]
+    },
+    {
+      "id": "o004682",
+      "name": "Thatched Settlement Tower",
+      "tags": [
+        "structure",
+        "wood"
+      ]
+    },
+    {
+      "id": "o001000",
+      "name": "Cloth Scrap",
+      "tags": [
+        "clutter"
+      ]
+    },
+    {
+      "id": "o001002",
+      "name": "Cloth Scrap",
+      "tags": [
+        "clutter"
+      ]
+    },
+    {
+      "id": "o001003",
+      "name": "Cloth Scrap",
+      "tags": [
+        "clutter"
+      ]
+    },
+    {
+      "id": "o004683",
+      "name": "Broken Settlement Tower",
+      "tags": [
+        "structure",
+        "wood"
+      ]
+    },
+    {
+      "id": "o004684",
+      "name": "Wooden Settlement House",
+      "tags": [
+        "structure",
+        "wood"
+      ]
+    },
+    {
+      "id": "o007010",
+      "name": "DS1 Gargoyle",
+      "tags": [
+        "enemy",
+        "cutscene"
+      ]
+    },
+    {
+      "id": "o007030",
+      "name": "Lothric Banner",
+      "tags": [
+        "decoration",
+        "yellow"
+      ]
+    },
+    {
+      "id": "o007035",
+      "name": "Lothric Banner",
+      "tags": [
+        "decoration",
+        "blue"
+      ]
+    },
+    {
+      "id": "o007040",
+      "name": "Basin of Vows",
+      "tags": [
+        "story"
+      ]
+    },
+    {
+      "id": "o007050",
+      "name": "Yhorm\u0027s Skull",
+      "tags": [
+        "story"
+      ]
+    },
+    {
+      "id": "o007070",
+      "name": "Maggot Skull",
+      "tags": [
+        "story"
+      ]
+    },
+    {
+      "id": "o007080",
+      "name": "Prince\u0027s Skull",
+      "tags": [
+        "story"
+      ]
+    },
+    {
+      "id": "o007090",
+      "name": "Ludleth\u0027s Remains",
+      "tags": [
+        "story"
+      ]
+    },
+    {
+      "id": "o007100",
+      "name": "Coiled Sword",
+      "tags": [
+        "story"
+      ]
+    },
+    {
+      "id": "o007110",
+      "name": "Sword of Avowal",
+      "tags": [
+        "story"
+      ]
+    },
+    {
+      "id": "o007120",
+      "name": "Catarina Helmet",
+      "tags": [
+        "armor"
+      ]
+    },
+    {
+      "id": "o007130",
+      "name": "Storm Ruler",
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "o007140",
+      "name": "Pierce Shield",
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "o007150",
+      "name": "Pool of Blood",
+      "tags": [
+        "cutscene"
+      ]
+    },
+    {
+      "id": "o007170",
+      "name": "Lapp\u0027s Helm",
+      "tags": [
+        "armor"
+      ]
+    },
+    {
+      "id": "o007180",
+      "name": "Rusty Sword",
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "o007200",
+      "name": "Altar of Sunlight",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o008000",
+      "name": "Crystal Cluster",
+      "tags": [
+        "decoration",
+        "purple"
+      ]
+    },
+    {
+      "id": "o008800",
+      "name": "Lothric Castle",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008801",
+      "name": "Lothric Castle",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008805",
+      "name": "Cliff Face",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008814",
+      "name": "Cathedral of the Deep",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008816",
+      "name": "Anor Londo",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008821",
+      "name": "Archdragon Peak",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008910",
+      "name": "Skybox: Dark Stormy Skies",
+      "tags": [
+        "skybox",
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008920",
+      "name": "Skybox: Red Cloudy Skies",
+      "tags": [
+        "skybox",
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008930",
+      "name": "Skybox: Blue Mild Night with Moon",
+      "tags": [
+        "skybox",
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008940",
+      "name": "Skybox: Orange Daylight",
+      "tags": [
+        "skybox",
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008950",
+      "name": "Skybox: Cloudy",
+      "tags": [
+        "skybox",
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008960",
+      "name": "Skybox: Dark Clouds",
+      "tags": [
+        "skybox",
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008961",
+      "name": "Skybox: Cyan Cloudy Skies",
+      "tags": [
+        "skybox",
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008965",
+      "name": "Skybox: ?",
+      "tags": [
+        "skybox",
+        "LOD"
+      ]
+    },
+    {
+      "id": "o008966",
+      "name": "Skybox: ?",
+      "tags": [
+        "skybox",
+        "LOD"
+      ]
+    },
+    {
+      "id": "o009009",
+      "name": "Lothric Castle Lift",
+      "tags": [
+        "interactable",
+        "transportation"
+      ]
+    },
+    {
+      "id": "o009010",
+      "name": "Grand Archives Chandelier",
+      "tags": [
+        "interactable",
+        "decoration"
+      ]
+    },
+    {
+      "id": "o009050",
+      "name": "Irithyll",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o009055",
+      "name": "Cathedral of the Deep",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o009056",
+      "name": "Farron Keep",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o009057",
+      "name": "Undead Settlement",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o009058",
+      "name": "Cathedral of the Deep",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o009990",
+      "name": "Texture Triangle: ?",
+      "tags": [
+        "texture"
+      ]
+    },
+    {
+      "id": "o300301",
+      "name": "Wooden Twin Door",
+      "tags": [
+        "door",
+        "interactable"
+      ]
+    },
+    {
+      "id": "o300305",
+      "name": "Stone Twin Door",
+      "tags": [
+        "door",
+        "interactable"
+      ]
+    },
+    {
+      "id": "o300310",
+      "name": "Jail Cell Door",
+      "tags": [
+        "door",
+        "interactable"
+      ]
+    },
+    {
+      "id": "o300320",
+      "name": "Wooden Door",
+      "tags": [
+        "door",
+        "interactable"
+      ]
+    },
+    {
+      "id": "o300330",
+      "name": "Ornate Twin Door with Statues",
+      "tags": [
+        "door",
+        "interactable"
+      ]
+    },
+    {
+      "id": "o300370",
+      "name": "Metal Twin Door",
+      "tags": [
+        "door",
+        "interactable"
+      ]
+    },
+    {
+      "id": "o300390",
+      "name": "Giant Metal Twin Door",
+      "tags": [
+        "door",
+        "interactable",
+        "damaged"
+      ]
+    },
+    {
+      "id": "o300395",
+      "name": "Porticullis",
+      "tags": [
+        "door",
+        "interactable"
+      ]
+    },
+    {
+      "id": "o300460",
+      "name": "Illusory Wall: Window Hole",
+      "tags": [
+        "illusory"
+      ]
+    },
+    {
+      "id": "o300465",
+      "name": "Illusory Wall",
+      "tags": [
+        "illusory"
+      ]
+    },
+    {
+      "id": "o300500",
+      "name": "Ornate Lever",
+      "tags": [
+        "interactable"
+      ]
+    },
+    {
+      "id": "o300510",
+      "name": "Mounted Lever",
+      "tags": [
+        "interactable"
+      ]
+    },
+    {
+      "id": "o300700",
+      "name": "Wooden Ladder",
+      "tags": [
+        "interactable",
+        "average"
+      ]
+    },
+    {
+      "id": "o300701",
+      "name": "Metal Ladder",
+      "tags": [
+        "interactable",
+        "long"
+      ]
+    },
+    {
+      "id": "o300711",
+      "name": "Wooden Ladder",
+      "tags": [
+        "interactable",
+        "long"
+      ]
+    },
+    {
+      "id": "o300712",
+      "name": "Wooden Ladder",
+      "tags": [
+        "interactable",
+        "short"
+      ]
+    },
+    {
+      "id": "o300713",
+      "name": "Wooden Ladder",
+      "tags": [
+        "interactable",
+        "short"
+      ]
+    },
+    {
+      "id": "o300714",
+      "name": "Wooden Ladder",
+      "tags": [
+        "interactable",
+        "short"
+      ]
+    },
+    {
+      "id": "o300715",
+      "name": "Metal Ladder",
+      "tags": [
+        "interactable",
+        "average"
+      ]
+    },
+    {
+      "id": "o300720",
+      "name": "Kick Ladder",
+      "tags": [
+        "interactable"
+      ]
+    },
+    {
+      "id": "o300730",
+      "name": "Metal Ladder",
+      "tags": [
+        "interactable",
+        "average"
+      ]
+    }
+  ]
+}
