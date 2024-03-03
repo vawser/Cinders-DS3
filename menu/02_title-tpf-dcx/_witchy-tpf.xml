@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tpf>
+  <filename>02_title.tpf.dcx</filename>
+  <compression>DCX_DFLT_10000_44_9</compression>
+  <encoding>0x01</encoding>
+  <flag2>0x03</flag2>
+  <platform>PC</platform>
+  <textures>
+    <texture>
+      <name>MENU_BNE_Logo.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+    <texture>
+      <name>MENU_DS3_LOGO.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+    <texture>
+      <name>MENU_ESRB_Logo.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+    <texture>
+      <name>MENU_FROMSOFTWARE_Logo.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+    <texture>
+      <name>MENU_gameware_logo_white_red.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+    <texture>
+      <name>MENU_Warn_IllegalCopy.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+  </textures>
+</tpf>
