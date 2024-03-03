@@ -1,0 +1,2118 @@
+#-------------------------------------
+# Treasure
+#-------------------------------------
+53002112 High Wall of Lothric / Consumed King's Garden
+53012092 Lothric Castle
+53102097 Undead Settlement
+53202081 Archdragon Peak
+53302185 Road of Sacrifices / Farron Keep
+53412137 Grand Archives
+53502087 Cathedral of the Deep
+53702160 Irithyll of the Boreal Valley / Anor Londo
+53802181 Catacombs of Carthus / Smouldering Lake
+53902125 Irithyll Dungeon / Profaned Capital
+54002200 Cemetery of Ash / Unturned Graves
+54102014 Kiln of the First Flame
+54502091 Painted World of Ariandel
+55002071 Dreg Heap
+55102068 The Ringed City
+
+#-------------------------------------
+# General
+#-------------------------------------
+50 NG+0
+51 NG+1
+52 NG+2
+53 NG+3
+54 NG+4
+55 NG+5
+56 NG+6
+
+130 Loaded High Wall
+131 Loaded Undead Settlement
+132 Loaded Archdragon Peak
+133 Loaded Road of Sacrifices/Farron Keep
+134 Loaded Grand Archives
+135 Loaded Cathedral of the Deep
+137 Loaded Irithyll
+138 Loaded Catacombs of Carthus
+139 Loaded Irithyll Dungeon
+140 Loaded Firelink
+141 Loaded Kiln of the First Flame
+145 Loaded Ariandel
+150 Loaded Dreg Heap
+151 Loaded Ringed City
+230 Eclipse Ceremonies enabled
+
+2052 Is Client?
+
+6312 Killed Leonhard
+6330 Entered Undead Settlement
+6331 Entered Road of Sacrifices
+6951 DLC1 ownership flag
+6952 DLC2 ownership flag
+
+9210 Placed all Cinders of a Lord
+9211 Lord 1
+9212 Lord 2
+9213 Lord 3
+9214 Lord 4
+9215 Firelink Shrine lit
+
+# Reset
+6300 Killed Dancer of the Boreal Valley
+6301 Killed Vordt of the Boreal Valley
+6302 Killed Oceiros, the Consumed King
+6303 Killed Curse-Rotted Greatwood
+6304 Killed Nameless King
+6305 Killed Ancient Wyvern
+6306 Killed Crystal Sage
+6307 Killed Abyss Watchers
+6308 Killed Dragonslayer Armour
+6309 Killed Lothric, Younger Prince
+6311 Killed Deacons of the Deep
+6313 Killed Pontiff Sulyvahn
+6314 Killed Aldrich, Devourer of Gods
+6315 Killed High Lord Wolnir
+6317 Killed Old Demon King
+6318 Killed Yhorm the Giant
+6319 Killed Corrupted Gundyr
+6320 Killed Champion Gundyr
+6321 Killed Soul of Cinder
+6322 Killed Sister Friede
+6323 Killed Lordran Remnants
+6324 Killed Demon Prince
+6325 Killed Halflight
+6326 Killed Darkeater Midir
+6327 Killed Slave Knight Gael
+6328 Killed Prince Dorthinus
+6340 Killed Cathedral Guardian
+6341 Killed Mirror Knight
+6342 Killed Aborr
+6343 Killed Princess Yngvil
+6344 Killed Trio of Explorers
+6345 Killed Twisted Knight
+6346 Killed Fallen Protector
+6347 Killed UNUSED
+6348 Killed The Marauder
+
+# Never Reset
+9300 Killed Dancer of the Boreal Valley
+9301 Killed Vordt of the Boreal Valley
+9302 Killed Oceiros, the Consumed King
+9303 Killed Curse-Rotted Greatwood
+9304 Killed Nameless King
+9305 Killed Ancient Wyvern
+9306 Killed Crystal Sage
+9307 Killed Abyss Watchers
+9308 Killed Dragonslayer Armour
+9309 Killed Lothric, Younger Prince
+9311 Killed Deacons of the Deep
+9313 Killed Pontiff Sulyvahn
+9314 Killed Aldrich, Devourer of Gods
+9315 Killed High Lord Wolnir
+9317 Killed Old Demon King
+9318 Killed Yhorm the Giant
+9319 Killed Corrupted Gundyr
+9320 Killed Champion Gundyr
+9321 Killed Soul of Cinder
+9322 Killed Sister Friede
+9323 Killed Lordran Remnants
+9324 Killed Demon Prince
+9325 Killed Halflight
+9326 Killed Darkeater Midir
+9327 Killed Slave Knight Gael
+9328 Killed Prince Dorthinus
+9340 Killed Cathedral Guardian
+9341 Killed Mirror Knight
+9342 Killed Aborr
+9343 Killed Princess Yngvil
+9344 Killed Trio of Explorers
+9345 Killed Twisted Knight
+9346 Killed Fallen Protector
+9347 Killed UNUSED
+9348 Killed The Marauder
+
+# Misc
+74000587 Is Sorcerer class
+
+# Boss Kill Trackers
+74000756 Sirris:
+74000760 Sirris: 
+
+74000552
+74000591
+74000592
+
+74000552 Orbeck:
+74000553 Orbeck: 
+74000592 Orbeck:
+
+74000303 Greirat: Undead Settlement Pillage
+74000316 Greirat: Undead Settlement Pillage end
+
+74000306 Greirat: Irithyll Pillage
+74000318 Greirat: Irithyll Pillage end
+
+74000921 Patches: 
+74000925 Patches: 
+
+74000916 Patches: 
+74000913 Patches: 
+
+73500265
+73500264
+
+74000465 Is Pyromancer class
+74000587 Is Sorcerer class
+70000900 Is in NG+
+
+#-------------------------------------
+# Sin
+#-------------------------------------
+9001 NPC Sin
+9003 Cleared NPC Sin
+
+9007 Set when Hostile is ON for 70000050 -> 70000066
+9008 Set when Hostile is ON for 70000067 -> 70000081
+9009 Set when Hostile is ON for 70001073
+
+# ON means NO SIN, OFF means SIN
+70000050 Sin State: 
+70000051 Sin State: 
+70000052 Sin State: Firekeeper
+70000053 Sin State: Ludleth
+70000054 Sin State: Yuria
+70000055 Sin State: Yoel
+70000056 Sin State: 
+70000057 Sin State: Hawkwood
+70000058 Sin State: Sirris
+70000059 Sin State: Leonhard
+70000060 Sin State: Andre
+70000061 Sin State: Shrine Handmaid
+70000062 Sin State: Greirat
+70000063 Sin State: Orbeck
+70000064 Sin State: Cornyx
+70000065 Sin State: Karla
+70000066 Sin State: Irina
+70000067 Sin State: Eygon
+70000068 Sin State: 
+70000069 Sin State: Anri
+70000070 Sin State: Patches
+70000071 Sin State: Siegward
+70000072 Sin State: 
+70000073 Sin State: 
+70000074 Sin State: 
+70000075 Sin State: Tower Giant
+70000076 Sin State: Horace
+70000077 Sin State: 
+70000078 Sin State: 
+70000079 Sin State: 
+70000080 Sin State: 
+70000081 Sin State: Hodrick
+70000082 Sin State: 
+70000083 Sin State: 
+70000084 Sin State: 
+70000085 Sin State: 
+70000086 Sin State: 
+70000087 Sin State: 
+70000088 Sin State: 
+70000089 Sin State: 
+70000090 Sin State: 
+70000091 Sin State: 
+70000092 Sin State: 
+70000093 Sin State: 
+70000094 Sin State: 
+70000095 Sin State: 
+70000096 Sin State: 
+70000097 Sin State: 
+70000098 Sin State: 
+70000099 Sin State: 
+70001073 Sin State: Lapp
+
+#-------------------------------------
+# Cinders
+#-------------------------------------
+Flags used in the Cinders range:
+
+# Map Specific
+xxx5760 All Enemies
+xxx5750 Enemies enabled by Curse of Attraction
+
+#------------------------
+# General
+#------------------------
+25000011 Is in NG+1
+25000012 Is in NG+2
+25000013 Is in NG+3
+25000014 Is in NG+4
+25000015 Is in NG+5
+25000016 Is in NG+6
+25000017 Is in NG+7
+
+25000020 Debug Flag 
+
+25000050 Claimed Relic of Power
+25000051 Claimed Relic of Insanity
+25000052 Claimed Relic of Legends
+25000053 Claimed Relic of Myths
+25000055 Disable Reinforcement
+
+25000099 Game Flags Set
+
+#------------------------
+# Covenants
+#------------------------
+25000200 Covenant Acquired: Thieves Pact           - Greirat
+25000201 Covenant Acquired: Chaos Servant          - Cornyx
+25000202 Covenant Acquired: Vinheim Scholars       - Orbeck
+25000203 Covenant Acquired: Pilgrims of Dark       - Karla
+25000204 Covenant Acquired: Way of White           - Irina
+25000205 Covenant Acquired: Dragon Remnants        - Hawkwood
+25000206 Covenant Acquired: Warrior of Sunlight    - Solaire
+25000207 Covenant Acquired: Covenant of Champions  - Domhnall of Zena
+25000208 Covenant Acquired: Servant of the Rat     - Remy the Rat
+25000209 Covenant Acquired: Ritualist Pact         - Ritualist Ellie
+
+#------------------------
+# Gestures
+#------------------------
+25000300 Gesture Acquired: Unmannered Bow     - Cornyx
+25000301 Gesture Acquired: Shrug              - Shrine Handmaid
+25000302 Gesture Acquired: Path of the Dragon - Dragon Altar/Hawkwood
+25000303 Gesture Acquired: Dismissive Point   - Yuria
+25000304 Gesture Acquired: Look Skyward       - Tower Giant
+25000305 Gesture Acquired: Well! What is it!  - Ringfinger Leonhard
+25000306 Gesture Acquired: Praise the Heavens - Irina of Carim
+25000307 Gesture Acquired: Retch              - Archdeacon McDonnell
+25000308 Gesture Acquired: Confused           - Greirat
+
+#------------------------
+# Curses
+#------------------------
+25000400 Curse of Pride I
+25000401 Curse of Pride II
+25000402 Curse of Pride III
+25000403 Curse of Pride IV
+25000404 Curse of Pride V
+25000405 Curse of Pride VI
+25000406 Curse of Pride VII
+25000407 Curse of Pride VIII
+25000408 Curse of Pride IX
+25000409 Curse of Pride X
+
+25000410 Curse of Fortitude I
+25000411 Curse of Fortitude II
+25000412 Curse of Fortitude III
+25000413 Curse of Fortitude IV
+25000414 Curse of Fortitude V
+25000415 Curse of Fortitude VI
+25000416 Curse of Fortitude VII
+25000417 Curse of Fortitude VIII
+25000418 Curse of Fortitude IX
+25000419 Curse of Fortitude X
+
+25000420 Curse of Vitality I
+25000421 Curse of Vitality II
+25000422 Curse of Vitality III
+25000423 Curse of Vitality IV
+25000424 Curse of Vitality V
+25000425 Curse of Vitality VI
+25000426 Curse of Vitality VII
+25000427 Curse of Vitality VIII
+25000428 Curse of Vitality IX
+25000429 Curse of Vitality X
+
+25000430 Curse of Wrath I
+25000431 Curse of Wrath II
+25000432 Curse of Wrath III
+25000433 Curse of Wrath IV
+25000434 Curse of Wrath V
+25000435 Curse of Wrath VI
+25000436 Curse of Wrath VII
+25000437 Curse of Wrath VIII
+25000438 Curse of Wrath IX
+25000439 Curse of Wrath X
+
+25000440 Curse of Attraction
+25000450 Curse of Obscurity 
+25000460 Curse of Simplicity 
+25000470 Curse of Gluttony 
+25000480 Curse of Frailty 
+25000490 Curse of Enfeeblement 
+25000500 Curse of Impermanence 
+25000510 Curse of Valor
+
+#------------------------
+# Bosses
+#------------------------
+25001001 Boss Kill: Corrupted Gundyr
+25001002 Boss Kill: Vordt
+25001003 Boss Kill: Curse-rotted Greatwood
+25001004 Boss Kill: Crystal Sage
+25001005 Boss Kill: Deacons
+25001006 Boss Kill: Abyss Watchers
+25001007 Boss Kill: High Lord Wolnir
+25001008 Boss Kill: Old Demon King
+25001009 Boss Kill: Pontiff Sulyvahn
+25001010 Boss Kill: Aldrich
+25001011 Boss Kill: Yhorm
+25001012 Boss Kill: Dancer
+25001013 Boss Kill: Oceiros
+25001014 Boss Kill: Dragonslayer Armour
+25001015 Boss Kill: Ancient Wyvern
+25001016 Boss Kill: Nameless King
+25001017 Boss Kill: Champion Gundyr
+25001018 Boss Kill: Twin Princes
+25001019 Boss Kill: Cinder
+25001020 Boss Kill: Sister Friede
+25001021 Boss Kill: Lordran Remnants
+25001022 Boss Kill: Demon Prince
+25001023 Boss Kill: Darkeater Midir
+25001024 Boss Kill: Slave Knight Gael
+25001025 Boss Kill: Halflight
+25001026 Boss Kill: Prince Dorthinus
+25001027 Boss Kill: Cathedral Guardian
+25001028 Boss Kill: Mirror Knight
+25001029 Boss Kill: Aborr
+25001030 Boss Kill: Princess Yngvil
+25001031 Boss Kill: Trio of Explorers
+25001032 Boss Kill: Twisted Knight
+25001033 Boss Kill: Fallen Protector
+25001034 Boss Kill: UNUSED
+25001035 Boss Kill: The Marauder
+
+25001100 Boss fight started
+25001110 Boss fight ended
+
+25002001 First Boss Kill: Corrupted Gundyr
+25002002 First Boss Kill: Vordt
+25002003 First Boss Kill: Curse-rotted Greatwood
+25002004 First Boss Kill: Crystal Sage
+25002005 First Boss Kill: Deacons
+25002006 First Boss Kill: Abyss Watchers
+25002007 First Boss Kill: High Lord Wolnir
+25002008 First Boss Kill: Old Demon King
+25002009 First Boss Kill: Pontiff Sulyvahn
+25002010 First Boss Kill: Aldrich
+25002011 First Boss Kill: Yhorm
+25002012 First Boss Kill: Dancer
+25002013 First Boss Kill: Oceiros
+25002014 First Boss Kill: Dragonslayer Armour
+25002015 First Boss Kill: Ancient Wyvern
+25002016 First Boss Kill: Nameless King
+25002017 First Boss Kill: Champion Gundyr
+25002018 First Boss Kill: Twin Princes
+25002019 First Boss Kill: Soul of Cinder
+25002020 First Boss Kill: Sister Friede
+25002021 First Boss Kill: Lordran Remnants
+25002022 First Boss Kill: Demon Prince
+25002023 First Boss Kill: Darkeater Midir
+25002024 First Boss Kill: Slave Knight Gael
+25002025 First Boss Kill: Halflight
+25002026 First Boss Kill: Prince Dorthinus
+25002027 First Boss Kill: Cathedral Guardian
+25002028 First Boss Kill: Mirror Knight
+25002029 First Boss Kill: Aborr             
+25002030 First Boss Kill: Princess Yngvil
+25002031 First Boss Kill: Trio of Explorers
+25002032 First Boss Kill: Twisted Knight
+25002033 First Boss Kill: Fallen Protector
+25002034 First Boss Kill: UNUSED
+25002035 First Boss Kill: The Marauder
+
+#------------------------
+# Achivements
+#------------------------
+25002100 Achievement: Defying Death
+25002101 Achievement: Untouchable
+25002102 Achievement: Flameless
+25002103 Achievement: Sword and Board
+25002104 Achievement: Stormageddon
+25002105 Achievement: Master of Corruption
+
+25002200 Failed Achievement: Defying Death
+25002201 Failed Achievement: Untouchable
+25002202 Failed Achievement: Flameless
+25002203 Failed Achievement: Sword and Board
+25002204 Failed Achievement: Stormageddon
+
+25002300 Reward Given: Defying Death
+25002301 Reward Given: Untouchable
+25002302 Reward Given: Flameless
+25002303 Reward Given: Sword and Board
+25002304 Reward Given: Stormageddon
+25002305 Reward Given: Master of Corruption
+
+25002400 Completion Monitor: Stormageddon Done
+25002401 Completion Monitor: Stormageddon In Progress
+
+25002499 Setup Achievements
+
+#------------------------
+# Restraints
+#------------------------
+25002500 Restraint: Roll
+25002501 Restraint: Sprint
+25002502 Restraint: Run
+25002503 Restraint: Backstep
+25002504 Restraint: Jump
+25002505 Restraint: Kick
+
+#------------------------
+# 
+#------------------------
+25003001 Selection: Corrupted Gundyr
+25003002 Selection: Vordt
+25003003 Selection: Curse-rotted Greatwood
+25003004 Selection: Crystal Sage
+25003005 Selection: Deacons
+25003006 Selection: Abyss Watchers
+25003007 Selection: High Lord Wolnir
+25003008 Selection: Old Demon King
+25003009 Selection: Pontiff Sulyvahn
+25003010 Selection: Aldrich
+25003011 Selection: Yhorm
+25003012 Selection: Dancer
+25003013 Selection: Oceiros
+25003014 Selection: Dragonslayer Armour
+25003015 Selection: Ancient Wyvern
+25003016 Selection: Nameless King
+25003017 Selection: Champion Gundyr
+25003018 Selection: Twin Princes
+25003019 Selection: Cinder
+25003020 Selection: Sister Friede
+25003021 Selection: Lordran Remnants
+25003022 Selection: Demon Prince
+25003023 Selection: Darkeater Midir
+25003024 Selection: Slave Knight Gael
+25003025 Selection: Halflight
+25003026 Selection: Prince Dorthinus
+25003027 Selection: Cathedral Guardian
+25003028 Selection: Mirror Knight
+25003029 Selection: Aborr             
+25003030 Selection: Princess Yngvil
+25003031 Selection: Trio of Explorers
+25003032 Selection: Twisted Knight
+25003033 Selection: Fallen Protector
+25003034 Selection: UNUSED
+25003035 Selection: The Marauder
+
+25003100 Engaged Boss 
+25003101 Killed Boss 
+
+25003200 Gauntlet: Set
+25003201 Gauntlet: Random
+25003202 Gauntlet: Endless
+25003203 Gauntlet: Reverse Set
+25003204 Gauntlet: Reverse Endless
+25003205 Gauntlet: Boss Select
+
+#------------------------
+# Player VFX
+#------------------------
+# Player - Weapon Emission 
+25007100 Weapon Emission: Magic (Right)
+25007101 Weapon Emission: Fire (Right)
+25007102 Weapon Emission: Lightning (Right)
+25007103 Weapon Emission: Abyss (Right)
+25007104 Weapon Emission: Poison (Right)
+25007105 Weapon Emission: Blood (Right)
+25007106 Weapon Emission: Frost (Right)
+25007107 Weapon Emission: Moonlight (Right)
+25007108 Weapon Emission: Divine (Right)
+25007109 Weapon Emission: Black Fire (Right)
+25007110 Weapon Emission: Bolt (Right)
+25007111 Weapon Emission: Sunlight (Right)
+25007112 Weapon Emission: Enchanted (Right)
+25007113 Weapon Emission: Scorched (Right)
+25007114 Weapon Emission: Rotten (Right)
+25007115 Weapon Emission: Wind (Right)
+25007116 Weapon Emission: Psychedelic (Right)
+25007117 Weapon Emission: Brume (Right)
+25007118 Weapon Emission: Infusion (Right)
+25007119 Weapon Emission: Pale Magic (Right)
+25007120
+25007121
+25007122
+25007123
+25007124
+25007125
+25007126
+25007127
+25007128
+25007129
+
+25007130 Weapon Emission: Magic (Left)
+25007131 Weapon Emission: Fire (Left)
+25007132 Weapon Emission: Lightning (Left)
+25007133 Weapon Emission: Abyss (Left)
+25007134 Weapon Emission: Poison (Left)
+25007135 Weapon Emission: Blood (Left)
+25007136 Weapon Emission: Frost (Left)
+25007137 Weapon Emission: Moonlight (Left)
+25007138 Weapon Emission: Divine (Left)
+25007139 Weapon Emission: Black Fire (Left)
+25007140 Weapon Emission: Bolt (Left)
+25007141 Weapon Emission: Sunlight (Left)
+25007142 Weapon Emission: Enchanted (Left)
+25007143 Weapon Emission: Scorched (Left)
+25007144 Weapon Emission: Rotten (Left)
+25007145 Weapon Emission: Wind (Left)
+25007146 Weapon Emission: Psychedelic (Left)
+25007147 Weapon Emission: Brume (Left)
+25007148 
+25007149 Weapon Emission: Pale Magic (Right)
+25007150
+25007151
+25007152
+25007153
+25007154
+25007155
+25007156
+25007157
+25007158
+25007159
+
+# Player - Body Emission
+25007200 Body Emission: UNUSED
+25007201 Body Emission: Magical Crystals
+25007202 Body Emission: Invisibility
+25007203 Body Emission: Stoneform
+25007204 Body Emission: Maggots
+25007205 Body Emission: Lightning
+25007206 Body Emission: White Stars
+25007207 Body Emission: Prismatic Stars
+25007208 Body Emission: Corrupted Crystals
+25007209 Body Emission: Dung
+25007210 Body Emission: Barrier Wards
+25007211 Body Emission: Poison
+25007212 Body Emission: Frost
+25007213 Body Emission: Flame
+25007214 Body Emission: Dust
+25007215 Body Emission: Water
+25007216 Body Emission: Holy
+25007217 Body Emission: Smouldering
+25007218
+25007219
+25007220
+25007221
+25007222
+25007223
+25007224
+25007225
+25007226
+25007227
+25007228
+25007229
+
+# Player - Eye Emission
+25007250 Eye Emission: Red Glow
+25007251 Eye Emission: Burning Red Glow
+25007252 Eye Emission: White Glow
+25007253 Eye Emission: Blue Glow
+25007254 Eye Emission: Golden Glow
+25007255 Eye Emission: Green Glow 
+25007256 Eye Emission: Purple Glow 
+25007257
+25007258
+25007259
+25007260
+25007261
+25007262
+25007263
+25007264
+25007265
+25007266
+25007267
+25007268
+25007269
+
+# Player - Head Emission
+25007270 Head Emission: Mass of Humanity
+25007271
+25007272
+25007273
+25007274
+25007275
+25007276
+25007277
+25007278
+25007279
+25007280
+25007281
+25007282
+25007283
+25007284
+25007285
+25007286
+25007287
+25007288
+25007289
+25007290
+25007291
+25007292
+25007293
+25007294
+25007295
+25007296
+25007297
+25007298
+25007299
+
+# Player - Body Aura
+25007300 Body Aura: Ethereal Phantom
+25007301 Body Aura: 
+25007302 Body Aura: 
+25007303 Body Aura: White Phantom
+25007304 Body Aura: Darkmoon Phantom
+25007305 Body Aura: Holy Phantom
+25007306 Body Aura: Swamp Phantom
+25007307 Body Aura: Abyssal Phantom
+25007308 Body Aura: Sunlight Phantom
+25007309 Body Aura: Mad Phantom
+25007310 Body Aura: Red Phantom
+25007311 Body Aura: Demonic Phantom
+25007312 Body Aura: Psychedelic Phantom
+25007313
+25007314
+25007315
+25007316
+25007317
+25007318
+25007319
+
+# Player - Body Tint
+25007320 Body Tint: Red
+25007321 Body Tint: Orange
+25007322 Body Tint: Yellow
+25007323 Body Tint: Green
+25007324 Body Tint: Cyan
+25007325 Body Tint: Blue
+25007326 Body Tint: Indigo
+25007327 Body Tint: Violet
+25007328 Body Tint: Pink
+25007329 Body Tint: White
+25007330 Body Tint: Black
+25007331 Body Tint: Psychedelic
+25007332
+25007333
+25007334
+25007335
+25007336
+25007337
+25007338
+25007339
+
+# Player - Humanity Aura
+25007350 Humanity Aura: Human
+25007351 Humanity Aura: Hollow
+
+# FOV
+25007360 FOV: Standard
+25007361 FOV: Narrow
+25007362 FOV: Very Narrow
+25007363 FOV: Wide
+25007364 FOV: Very Wide
+25007365 Camera Distance: Standard
+25007366 Camera Distance: Near
+25007367 Camera Distance: Far
+25007368 Camera Distance: Very Far
+25007369 Camera Distance: Extremely Far
+25007370 None
+25007371 Remove Camera Effects
+
+# Utility
+25007396 Disable head armor
+25007397 Disable body armor
+25007398 Disable visual transformation flags
+25007399 Disable armor transformation flags
+
+#------------------------
+# Spell Summon
+#------------------------
+# Spell Summon - Skeleton
+25007700 Visual Emission: Fire
+25007701 Visual Emission: 
+25007702 Visual Emission:  
+25007703 Visual Emission: 
+25007704 Visual Emission: 
+25007705 Visual Emission: 
+25007706 Visual Emission: 
+25007707 Visual Emission: 
+25007708 Visual Emission:
+25007709 Visual Tint Toggle
+25007710 Visual Aura: Red
+25007711 Visual Aura: Orange
+25007712 Visual Aura: Yellow
+25007713 Visual Aura: Green
+25007714 Visual Aura: Cyan
+25007715 Visual Aura: Blue
+25007716 Visual Aura: Indigo
+25007717 Visual Aura: Violet
+25007718 Visual Aura: Pink
+25007719 Visual Aura: Rainbow
+
+# Spell Summon - Hollow
+25007720 Visual Emission: Fire
+25007721 Visual Emission: 
+25007722 Visual Emission:  
+25007723 Visual Emission: 
+25007724 Visual Emission: 
+25007725 Visual Emission: 
+25007726 Visual Emission: 
+25007727 Visual Emission: 
+25007728 Visual Emission:
+25007729 Visual Tint Toggle
+25007730 Visual Aura: Red
+25007731 Visual Aura: Orange
+25007732 Visual Aura: Yellow
+25007733 Visual Aura: Green
+25007734 Visual Aura: Cyan
+25007735 Visual Aura: Blue
+25007736 Visual Aura: Indigo
+25007737 Visual Aura: Violet
+25007738 Visual Aura: Pink
+25007739 Visual Aura: Rainbow
+
+# Spell Summon - Hound
+25007740 Visual Emission: Fire
+25007741 Visual Emission: 
+25007742 Visual Emission:  
+25007743 Visual Emission: 
+25007744 Visual Emission: 
+25007745 Visual Emission: 
+25007746 Visual Emission: 
+25007747 Visual Emission: 
+25007748 Visual Emission:
+25007749 Visual Tint Toggle
+25007750 Visual Aura: Red
+25007751 Visual Aura: Orange
+25007752 Visual Aura: Yellow
+25007753 Visual Aura: Green
+25007754 Visual Aura: Cyan
+25007755 Visual Aura: Blue
+25007756 Visual Aura: Indigo
+25007757 Visual Aura: Violet
+25007758 Visual Aura: Pink
+25007759 Visual Aura: Rainbow
+
+# Spell Summon - Carthus Warrior
+25007760 Visual Emission: Fire
+25007761 Visual Emission: 
+25007762 Visual Emission:  
+25007763 Visual Emission: 
+25007764 Visual Emission: 
+25007765 Visual Emission: 
+25007766 Visual Emission: 
+25007767 Visual Emission: 
+25007768 Visual Emission:
+25007769 Visual Tint Toggle
+25007770 Visual Aura: Red
+25007771 Visual Aura: Orange
+25007772 Visual Aura: Yellow
+25007773 Visual Aura: Green
+25007774 Visual Aura: Cyan
+25007775 Visual Aura: Blue
+25007776 Visual Aura: Indigo
+25007777 Visual Aura: Violet
+25007778 Visual Aura: Pink
+25007779 Visual Aura: Rainbow
+
+# Spell Summon - Lothric Knight
+25007780 Visual Emission: Fire
+25007781 Visual Emission: 
+25007782 Visual Emission:  
+25007783 Visual Emission: 
+25007784 Visual Emission: 
+25007785 Visual Emission: 
+25007786 Visual Emission: 
+25007787 Visual Emission: 
+25007788 Visual Emission:
+25007789 Visual Tint Toggle
+25007790 Visual Aura: Red
+25007791 Visual Aura: Orange
+25007792 Visual Aura: Yellow
+25007793 Visual Aura: Green
+25007794 Visual Aura: Cyan
+25007795 Visual Aura: Blue
+25007796 Visual Aura: Indigo
+25007797 Visual Aura: Violet
+25007798 Visual Aura: Pink
+25007799 Visual Aura: Rainbow
+
+# Spell Summon - Lycanthrope
+25007800 Visual Emission: Fire
+25007801 Visual Emission: 
+25007802 Visual Emission:  
+25007803 Visual Emission: 
+25007804 Visual Emission: 
+25007805 Visual Emission: 
+25007806 Visual Emission: 
+25007807 Visual Emission: 
+25007808 Visual Emission:
+25007809 Visual Tint Toggle
+25007810 Visual Aura: Red
+25007811 Visual Aura: Orange
+25007812 Visual Aura: Yellow
+25007813 Visual Aura: Green
+25007814 Visual Aura: Cyan
+25007815 Visual Aura: Blue
+25007816 Visual Aura: Indigo
+25007817 Visual Aura: Violet
+25007818 Visual Aura: Pink
+25007819 Visual Aura: Rainbow
+
+# Spell Summon - Black Knight
+25007820 Visual Emission: Fire
+25007821 Visual Emission: 
+25007822 Visual Emission:  
+25007823 Visual Emission: 
+25007824 Visual Emission: 
+25007825 Visual Emission: 
+25007826 Visual Emission: 
+25007827 Visual Emission: 
+25007828 Visual Emission:
+25007829 Visual Tint Toggle
+25007830 Visual Aura: Red
+25007831 Visual Aura: Orange
+25007832 Visual Aura: Yellow
+25007833 Visual Aura: Green
+25007834 Visual Aura: Cyan
+25007835 Visual Aura: Blue
+25007836 Visual Aura: Indigo
+25007837 Visual Aura: Violet
+25007838 Visual Aura: Pink
+25007839 Visual Aura: Rainbow
+
+# Spell Summon - Abyss Watcher
+25007840 Visual Emission: Fire
+25007841 Visual Emission: 
+25007842 Visual Emission:  
+25007843 Visual Emission: 
+25007844 Visual Emission: 
+25007845 Visual Emission: 
+25007846 Visual Emission: 
+25007847 Visual Emission: 
+25007848 Visual Emission:
+25007849 Visual Tint Toggle
+25007850 Visual Aura: Red
+25007851 Visual Aura: Orange
+25007852 Visual Aura: Yellow
+25007853 Visual Aura: Green
+25007854 Visual Aura: Cyan
+25007855 Visual Aura: Blue
+25007856 Visual Aura: Indigo
+25007857 Visual Aura: Violet
+25007858 Visual Aura: Pink
+25007859 Visual Aura: Rainbow
+
+# Spell Summon - Stone Gargoyle
+25007860 Visual Emission: Fire
+25007861 Visual Emission: 
+25007862 Visual Emission:  
+25007863 Visual Emission: 
+25007864 Visual Emission: 
+25007865 Visual Emission: 
+25007866 Visual Emission: 
+25007867 Visual Emission: 
+25007868 Visual Emission:
+25007869 Visual Tint Toggle
+25007870 Visual Aura: Red
+25007871 Visual Aura: Orange
+25007872 Visual Aura: Yellow
+25007873 Visual Aura: Green
+25007874 Visual Aura: Cyan
+25007875 Visual Aura: Blue
+25007876 Visual Aura: Indigo
+25007877 Visual Aura: Violet
+25007878 Visual Aura: Pink
+25007879 Visual Aura: Rainbow
+
+#------------------------
+# NPC Marriage
+#------------------------
+25008000 Married: 
+25008010 Married: Karla
+25008020 Married: Fire Keeper
+25008030 Married: Painter
+25008040 Married: Rosaria
+25008050 Married: Archdeacon McDonnell
+25008060 Married: Company Captain Yorshka
+25008070 Married: Domhnall of Zena
+25008080 Married: Marvelous Chester
+25008090 Married: Crestfallen Merchant
+25008100 Married: Ludleth
+25008110 Married: Yuria
+25008120 Married: Orbeck
+25008130 Married: Andre
+25008140 Married: Shrine Handmaid
+25008150 Married: Cornyx
+25008160 Married: Irina of Carim
+25008170 Married: Patches
+25008180 Married: Grave Warden Lillian
+25008190 Married: Magnum Ursus
+25008200 Married: Greirat
+25008210 Married: Yoel
+25008220 Married: Solaire of Astora
+25008230 Married: Remy the Rat
+25008240 Married: Ritualist Ellie
+25008250 Married: Acolyte Grudore
+25008260 Married: Erstwhile George
+
+25008300 Ritualist Ellie: Talk Flag 1
+
+#------------------------
+# Misc Usage
+#------------------------
+25008800 Screenshot mode
+
+25009000 Random flag range
+
+25009100 Sandworm Item state
+25009101 Sandworm Wall state
+25009110 Wyvern flag
+
+25009115 Update Armor Effects
+
+25009120 Princess Yngvil - Talk trigger
+
+#------------------------
+# Soul Coalescence
+#------------------------
+25009410 Strength Coalescence
+25009411 Dexterity Coalescence
+25009412 Intelligence Coalescence
+25009413 Faith Coalescence
+25009414 Luck Coalescence
+
+#------------------------
+#
+#------------------------
+25009520 Magnum Ursus - Dark Soul turn-in
+
+25009530 Tortured Soul turn-in
+25009540 Smithbox turn-in
+25009541 Benjin - Returned to Sanctum
+
+25009550 Irina - Given Humanity
+25009551 Irina - Given Holy Fragments
+
+25009560 Statue Puzzle 1
+25009561 Statue Puzzle 2
+25009562 Statue Puzzle 3
+25009563 Statue Puzzle 4
+25009564 Statue Puzzle 5
+25009565 Statue Puzzle 6
+25009566 Statue Puzzle 7
+25009567 Statue Puzzle 8
+25009568 Statue Puzzle 9
+25009569 Statue Puzzle 10
+25009570 Statue Puzzle Null
+
+25009580 Grudore - Farron Coal
+25009581 Grudore - Sage's Coal
+25009582 Grudore - Giant's Coal
+25009583 Grudore - Profaned Coal
+
+25009590 Disable Curse soul gain
+
+25009600 Start Memory
+25009610 Memory Difficulty: Easy
+25009611 Memory Difficulty: Normal
+25009612 Memory Difficulty: Hard
+25009613 Memory Difficulty: Very Hard
+25009614 Memory Difficulty: Mythic
+25009620 Memory of Strength - Random Set 1
+25009621 Memory of Strength - Random Set 2
+25009630 Memory of Glory - Random Set 1
+25009631 Memory of Glory - Random Set 2
+25009632 Memory of Glory - Random Set 3
+
+25009690 End Wave
+
+25009700 Touched Colossus Tower
+25009710 Reached into Profaned Flame
+
+25009720 Priestess Emilia trigger
+25009730 Knight Lun trigger
+25009740 Marauder talk state disabled trigger
+25009750 BB Dodge toggle
+
+25009760 Spurned Shade warp
+25009761 Spurned Shade in progress
+
+25009770 Corrupted Gundyr gate opened
+
+25009780 Summon VFX toggle
+
+25009999 NO SHOW flag
+
+#------------------------
+# Training Dummy
+#------------------------
+25009790 Dummy 1 enabled
+25009791 Dummy 2 enabled
+25009792 Dummy 3 enabled
+25009793 Outside location enabled
+
+#------------------------
+# Configuration
+#------------------------
+25009800 Game setup completed
+25009801 Location set
+25009802 Journey began
+25009803 Unlock memories
+25009804 Gauntlet setup completed
+25009805 Ignore DLC bosses in Gauntlet
+
+25009810 Standard mode
+25009811 Wanderer mode
+25009812 Mythic mode
+25009813 Gauntlet mode
+25009814 Explorer mode
+25009815 Onslaught mode
+
+25009820 Untended Graves
+25009821 Archdragon Peak
+25009822 Farron Keep
+25009823 Catacombs of Carthus
+25009824 Irithyll
+25009825 Profaned Capital
+25009826 Consumed King's Garden
+25009827 Lothric Castle
+25009828 Cathedral of the Deep
+25009829 Ariandel
+25009830 Dreg Heap
+25009831 Ringed City
+25009840 Random location
+
+25009850 Gauntlet Features activated
+25009851 Boon features activated
+25009852 Malus features activated
+
+25009860 Malus flag 1
+25009861 Malus flag 2
+25009862 Malus flag 3
+25009863 Malus flag 4
+25009864 Malus flag 5
+25009865 Malus flag 6
+25009866 Malus flag 7
+25009867 Malus flag 8
+25009868 Malus flag 9
+25009869 Malus flag 10
+
+#------------------------
+# Other
+#------------------------
+75003000 Stone-humped Hag 1
+75003010 Stone-humped Hag 1
+75003020 Stone-humped Hag 1
+
+#------------------------
+# Head Armor
+#------------------------
+24007000 Head - Dragonform (DS3)
+24007001 Head - Bloodborne Hunter
+24007002 Head - Skeleton (Normal)
+24007003 Head - Skeleton (Tree)
+24007004 Head - Skeleton (Peasant)
+24007005 Head - Skeleton (Overgrown)
+24007006 Head - Capra Demon
+24007007 Head - Titanite Demon
+24007008 Head - Murkman
+24007009 Head - Wax Mould #HEAD ONLY
+24007010 Head - Humanity Sprite
+24007011 Head - Havel's
+24007012 Head - Giant-horned Helmet #HEAD ONLY
+24007013 Head - Fang Boar Helm #HEAD ONLY
+24007014 Head - Golem
+24007015 Head - Giant's
+24007016 Head - Pursuer's
+24007017 Head - Smough's
+24007018 Head - Gundyr's
+24007019 Head - Brushwood
+24007020 Head - Winged Knight
+24007021 Head - Snail Shell #HEAD ONLY
+24007022 Head - Millwood Knight
+24007023 Head - Mirror Knight
+24007024 Head - Dragonrider
+24007025 Head - Catarina
+24007026 Head - Stone
+24007027 Head - Guardian
+24007028 Head - Steel
+24007029 Head - Cathedral Knight
+24007030 Head - Dragon Hunter
+24007031 Head - Black Iron
+24007032 Head - Iron Dragonslayer
+24007033 Head - Lapp
+24007034 Head - Penetrator
+24007035 Head - Morne's
+24007036 Head - Paladin
+24007037 Head - Quicksilver
+24007038 Head - Executioner
+24007039 Head - Dragonslayer
+24007040 Head - Lothric Knight
+24007041 Head - Iron Keeper #HEAD ONLY
+24007042 Head - Heide Mask #HEAD ONLY
+24007043 Head - Harald Legion
+24007044 Head - Exile
+24007045 Head - Overseer's Mask #HEAD ONLY
+24007046 Head - Raime's
+24007047 Head - Black Knight
+24007048 Head - Silver Knight
+24007049 Head - Tarnished Knight
+24007050 Head - Heide Knight
+24007051 Head - Syan Knight
+24007052 Head - Alonne Captain
+24007053 Head - Gloom
+24007054 Head - Ruin
+24007055 Head - Rampart Golem
+24007056 Head - Lost Gargoyle #HEAD ONLY
+24007057 Head - Gargoyle
+24007058 Head - Crab Helmet #HEAD ONLY
+24007059 
+24007060 Head - Horned Samurai Helm #HEAD ONLY
+24007061 Head - Ornate Samurai Helm #HEAD ONLY
+24007062 Head - Lorian
+24007063 Head - Great Lord
+24007064 Head - Ludleth's Crown #HEAD ONLY
+24007065 Head - Symbol of Avarice #HEAD ONLY
+24007066 Head - Giant Slave Helmet #HEAD ONLY
+24007067 Head - Old Demon King's Crown #HEAD ONLY
+24007068 Head - Pygmy King's Crown #HEAD ONLY
+24007069 Head - Drakeblood
+24007070 Head - Barrel #HEAD ONLY
+24007071 Head - Gough's
+24007072 Head - Mad Warrior
+24007073 Head - Imperious
+24007074 Head - Vengarl
+24007075 Head - Mask of Sin #HEAD ONLY
+24007076 Head - Pot #HEAD ONLY
+24007077 Head - Black Dragon
+24007078 Head - Ringed Knight
+24007079 Head - Grave Keeper
+24007080 Head - Ivory King
+24007081 Head - Yhorm
+24007082 Head - Smelter Demon
+24007083 Head - Firelink
+24007084 Head - Gold Ardeo #HEAD ONLY
+24007085 Head - Iron Cage #HEAD ONLY
+24007086 Head - Corvian Knight
+24007087 Head - Eastern
+24007088 Head - Alonne
+24007089 Head - Brass
+24007090 Head - Charred Loyce
+24007091 Head - Loyce
+24007092 Head - Favor
+24007093 Head - King's
+24007094 Head - Lord's Blade
+24007095 Head - Sunset
+24007096 Head - Wolf Knight
+24007097 Head - Winged Helm of Ridoh #HEAD ONLY
+24007098 Head - Artificial Helmet #HEAD ONLY
+24007099 Head - Ancient King
+24007100 Head - Filianore's Crown #HEAD ONLY
+24007101 Head - Holy King's Crown #HEAD ONLY
+24007102 Head - Elite Knight
+24007103 Head - Bucket #HEAD ONLY
+24007104 Head - Burial Knight
+24007105 Head - Adventurer
+24007106 Head - Knight
+24007107 Head - Thorn
+24007108 Head - Nameless Knight
+24007109 Head - Mask of the Father #HEAD ONLY
+24007110 Head - Mask of the Mother #HEAD ONLY
+24007111 Head - Mask of the Child #HEAD ONLY
+24007112 Head - Demon Cleric Mask #HEAD ONLY
+24007113 Head - Mask of Horror #HEAD ONLY
+24007114 Head - Mask of Cruelty #HEAD ONLY
+24007115 Head - Mask of Serenity #HEAD ONLY
+24007116 Head - Mask of War #HEAD ONLY
+24007117 Head - Faraam
+24007118 Head - Alva
+24007119 Head - Attendant
+24007120 Head - Footman
+24007121 Head - Outrider
+24007122 Head - Dark
+24007123 Head - Skull Mask #HEAD ONLY
+24007124 Head - Suspicious Gold Mask #HEAD ONLY
+24007125 Head - Undead Legion
+24007126 Head - Fallen Mirrah
+24007127 Head - Herald
+24007128 Head - Fallen Knight
+24007129 Head - Hallowed Knight
+24007130 Head - Forlorn
+24007131 Head - Aurous
+24007132 Head - Sun
+24007133 Head - Fire Witch
+24007134 Head - Channeler
+24007135 Head - Chain
+24007136 Head - Vilhelm
+24007137 Head - Bone Ash
+24007138 Head - Varangian
+24007139 Head - Thorolund
+24007140 Head - Bear
+24007141 Head - Wolnir's Crown #HEAD ONLY
+24007142 Head - Crown of Illusions #HEAD ONLY
+24007143 Head - Northern
+24007144 Head - Slave Knight
+24007145 Head - Nameless King
+24007146 Head - Courtier
+24007147 Head - Follower
+24007148 Head - Royal Soldier
+24007149 Head - Pontiff Knight
+24007150 Head - Dancer
+24007151 
+24007152 Head - Evangelist
+24007153 Head - Mirrah
+24007154 Head - Hard Leather
+24007155 Head - Jailer
+24007156 Head - Black
+24007157 Head - Sellsword
+24007158 Head - Vileblood
+24007159 Head - Sunless
+24007160 Head - Leonhard
+24007161 Head - Xanthous
+24007162 Head - White Preacher #HEAD ONLY
+24007163 Head - Poisonhorn Cap #HEAD ONLY
+24007164 Head - Hollow Head #HEAD ONLY
+24007165 Head - Basilisk Cap #HEAD ONLY
+24007166 Head - Vagabond #HEAD ONLY
+24007167 Head - Raven Mask #HEAD ONLY
+24007168 Head - Deserter
+24007169 Head - Deserter Helm #HEAD ONLY
+24007170 Head - Soldier's Hood #HEAD ONLY
+24007171 Head - Black Leather
+24007172 Head - Brigand
+24007173 Head - Pharis
+24007174 Head - Shira
+24007175 Head - Black Hand
+24007176 Head - Conjurator
+24007177 Head - Jester
+24007178 Head - Grotto
+24007179 Head - Black Straw Hat #HEAD ONLY
+24007180 Head - Tan Straw Hat #HEAD ONLY
+24007181 Head - Cleric
+24007182 Head - Black Cleric
+24007183 Head - Astrologist
+24007184 Head - Worker
+24007185 Head - Salvador's Hat #HEAD ONLY
+24007186 Head - Chester
+24007187 Head - Binded
+24007188 Head - Thrall Hood #HEAD ONLY
+24007189 Head - Assassin
+24007190 Head - Painting Guardian
+24007191 Head - Drang #BODY ONLY 
+24007192 Head - Serpentine
+24007193 Head - Scholar
+24007194 Head - Priest's Cap #HEAD ONLY
+24007195 Head - Pyromancer
+24007196 Head - Sack #HEAD ONLY
+24007197 Head - Dragon Acolyte
+24007198 Head - Karla
+24007199 Head - Black Witch
+24007200 Head - Black Witch Veil #HEAD ONLY
+24007201 Head - Rosaria's Dress #BODY ONLY  
+24007202 Head - Sorcerer
+24007203 Head - Court Sorcerer
+24007204 Head - Old Sorcerer
+24007205 Head - Venerable Sage
+24007206 Head - Clandestine Coat #BODY ONLY
+24007207 Head - Wanderer
+24007208 Head - Sage's Hat #HEAD ONLY
+24007209 Head - Moonlight
+24007210 Head - Gold-hemmed
+24007211 Head - Crimson
+24007212 Head - Pale Shade
+24007213 Head - Shadow
+24007214 Head - Maiden 
+24007215 Head - Hexer
+24007216 Head - Cornyx's
+24007217 Head - Grave Warden
+24007218 Head - Ordained
+24007219 Head - Desert Pyromancer
+24007220 Head - Manikin
+24007221 Head - Crude Manikin Mask #HEAD ONLY
+24007222 Head - Archdeacon
+24007223 Head - Prayer
+24007224 Head - Fire Keeper
+24007225 Head - Blindfold Mask #HEAD ONLY
+24007226 Head - Carthus Blindfold #HEAD ONLY
+24007227 Head - Antiquated
+24007228 Head - Antiquated Plain #BODY ONLY
+24007229 Head - Master
+24007230 Head - Deacon #BODY ONLY
+24007231 Head - Saint
+24007232 Head - Gallant
+24007233 Head - Warden
+24007234 Head - Dull Gold
+24007235 Head - Fluted
+24007236 Head - Huntsman
+24007237 Head - Mirdan
+24007238 Head - Sentinel
+24007239 Head - Raggedy
+24007240 Head - Charlatan
+24007241 Head - Martyr #BODY ONLY
+24007242 Head - Pickpocket
+24007243 Head - Magician #BODY ONLY
+24007244 Head - Nullus
+24007245 Head - Ironclad
+24007246 Head - Sanctum
+24007247 Head - Imported
+24007248 Head - Stalwart Knight
+24007249 Head - Okami
+24007250 Head - Eastern General
+24007251 Head - Eastern Wolf #BODY ONLY
+24007252 Head - Fallen Prince
+24007253 Head - Eastern Commander
+24007254 Head - Blue Lothric Knight
+24007255 Head - Blue Lothric Knight Open Helm #HEAD ONLY
+24007256 Head - Lothric Knight Open Helm #HEAD ONLY
+24007257 Head - Consumed King's Knight
+24007258 Head - Elite Deacon #BODY ONLY
+24007259 Head - Elite Soldier
+24007260 Head - Gertrude's Knight
+24007261 Head - Red Worker
+24007262 Head - Profaned Capital Handmaid
+24007263 Head - Burned Firelink
+24007264 Head - Overgrown Lothric Knight
+24007265 Head - Herald Helm (Lower Visor) #HEAD ONLY
+24007266 Head - Undead Legion Cap #HEAD ONLY
+24007267 Head - Carthus Swordsman
+24007268 Head - Royal Swordsman
+24007269 Head - Vordt's
+24007270 Head - Throne Watcher
+24007271 Head - Throne Defender
+24007272 Head - Mirrah ALT #HEAD ONLY
+24007273 Head - Blue Smelter Demon
+24007274 Head - Dragonform DS1
+24007275
+24007276
+24007277
+24007278
+24007279
+24007280
+24007281
+24007282
+24007283
+24007284
+24007285
+24007286
+24007287
+24007288
+24007289
+24007290
+24007291
+24007292
+24007293
+24007294
+24007295
+24007296
+24007297
+24007298
+24007299
+24007300
+24007301
+24007302
+24007303
+24007304
+24007305
+24007306
+24007307
+24007308
+24007309
+24007310
+24007311
+24007312
+24007313
+24007314
+24007315
+24007316
+24007317
+24007318
+24007319
+24007320
+24007321
+24007322
+24007323
+24007324
+24007325
+24007326
+24007327
+24007328
+24007329
+24007330
+24007331
+24007332
+24007333
+24007334
+24007335
+24007336
+24007337
+24007338
+24007339
+24007340
+24007341
+24007342
+24007343
+24007344
+24007345
+24007346
+24007347
+24007348
+24007349
+24007350
+24007351
+24007352
+24007353
+24007354
+24007355
+24007356
+24007357
+24007358
+24007359
+24007360
+24007361
+24007362
+24007363
+24007364
+24007365
+24007366
+24007367
+24007368
+24007369
+24007370
+24007371
+24007372
+24007373
+24007374
+24007375
+24007376
+24007377
+24007378
+24007379
+24007380
+24007381
+24007382
+24007383
+24007384
+24007385
+24007386
+24007387
+24007388
+24007389
+24007390
+24007391
+24007392
+24007393
+24007394
+24007395
+24007396
+24007397
+24007398
+24007399
+24007400
+24007401
+24007402
+24007403
+24007404
+24007405
+24007406
+24007407
+24007408
+24007409
+24007410
+24007411
+24007412
+24007413
+24007414
+24007415
+24007416
+24007417
+24007418
+24007419
+24007420
+24007421
+24007422
+24007423
+24007424
+24007425
+24007426
+24007427
+24007428
+24007429
+24007430
+24007431
+24007432
+24007433
+24007434
+24007435
+24007436
+24007437
+24007438
+24007439
+24007440
+24007441
+24007442
+24007443
+24007444
+24007445
+24007446
+24007447
+24007448
+24007449
+24007450
+24007451
+24007452
+24007453
+24007454
+24007455
+24007456
+24007457
+24007458
+24007459
+24007460
+24007461
+24007462
+24007463
+24007464
+24007465
+24007466
+24007467
+24007468
+24007469
+24007470
+24007471
+24007472
+24007473
+24007474
+24007475
+24007476
+24007477
+24007478
+24007479
+24007480
+24007481
+24007482
+24007483
+24007484
+24007485
+24007486
+24007487
+24007488
+24007489
+24007490
+24007491
+24007492
+24007493
+24007494
+24007495
+24007496
+24007497
+24007498
+24007499
+
+#------------------------
+# Body Armor
+#------------------------
+24007500 Body - Dragonform (DS3)
+24007501 Body - Bloodborne Hunter
+24007502 Body - Skeleton (Normal)
+24007503 Body - Skeleton (Tree)
+24007504 Body - Skeleton (Peasant)
+24007505 Body - Skeleton (Overgrown)
+24007506 Body - Capra Demon
+24007507 Body - Titanite Demon
+24007508 Body - Murkman
+24007509 Body - Wax Mould #HEAD ONLY
+24007510 Body - Humanity Sprite
+24007511 Body - Havel's
+24007512 Body - Giant-horned Helmet #HEAD ONLY
+24007513 Body - Fang Boar Helm #HEAD ONLY
+24007514 Body - Golem
+24007515 Body - Giant's
+24007516 Body - Pursuer's
+24007517 Body - Smough's
+24007518 Body - Gundyr's
+24007519 Body - Brushwood
+24007520 Body - Winged Knight
+24007521 Body - Snail Shell #HEAD ONLY
+24007522 Body - Millwood Knight
+24007523 Body - Mirror Knight
+24007524 Body - Dragonrider
+24007525 Body - Catarina
+24007526 Body - Stone
+24007527 Body - Guardian
+24007528 Body - Steel
+24007529 Body - Cathedral Knight
+24007530 Body - Dragon Hunter
+24007531 Body - Black Iron
+24007532 Body - Iron Dragonslayer
+24007533 Body - Lapp
+24007534 Body - Penetrator
+24007535 Body - Morne's
+24007536 Body - Paladin
+24007537 Body - Quicksilver
+24007538 Body - Executioner
+24007539 Body - Dragonslayer
+24007540 Body - Lothric Knight
+24007541 Body - Iron Keeper #HEAD ONLY
+24007542 Body - Heide Mask #HEAD ONLY
+24007543 Body - Harald Legion
+24007544 Body - Exile
+24007545 Body - Overseer's Mask #HEAD ONLY
+24007546 Body - Raime's
+24007547 Body - Black Knight
+24007548 Body - Silver Knight
+24007549 Body - Tarnished Knight
+24007550 Body - Heide Knight
+24007551 Body - Syan Knight
+24007552 Body - Alonne Captain
+24007553 Body - Gloom
+24007554 Body - Ruin
+24007555 Body - Rampart Golem
+24007556 Body - Lost Gargoyle
+24007557 Body - Gargoyle
+24007558 Body - Crab Helmet #HEAD ONLY
+24007559 
+24007560 Body - Horned Samurai Helm #HEAD ONLY
+24007561 Body - Ornate Samurai Helm #HEAD ONLY
+24007562 Body - Lorian
+24007563 Body - Great Lord
+24007564 Body - Ludleth's Crown #HEAD ONLY
+24007565 Body - Symbol of Avarice #HEAD ONLY
+24007566 Body - Giant Slave Helmet #HEAD ONLY
+24007567 Body - Old Demon King's Crown #HEAD ONLY
+24007568 Body - Pygmy King's Crown #HEAD ONLY
+24007569 Body - Drakeblood
+24007570 Body - Barrel #HEAD ONLY
+24007571 Body - Gough's
+24007572 Body - Mad Warrior
+24007573 Body - Imperious
+24007574 Body - Vengarl
+24007575 Body - Mask of Sin #HEAD ONLY
+24007576 Body - Pot #HEAD ONLY
+24007577 Body - Black Dragon
+24007578 Body - Ringed Knight
+24007579 Body - Grave Keeper
+24007580 Body - Ivory King
+24007581 Body - Yhorm
+24007582 Body - Smelter Demon
+24007583 Body - Firelink
+24007584 Body - Gold Ardeo #HEAD ONLY
+24007585 Body - Iron Cage #HEAD ONLY
+24007586 Body - Corvian Knight
+24007587 Body - Eastern
+24007588 Body - Alonne
+24007589 Body - Brass
+24007590 Body - Charred Loyce
+24007591 Body - Loyce
+24007592 Body - Favor
+24007593 Body - King's
+24007594 Body - Lord's Blade
+24007595 Body - Sunset
+24007596 Body - Wolf Knight
+24007597 Body - Winged Helm of Ridoh #HEAD ONLY
+24007598 Body - Artificial Helmet #HEAD ONLY
+24007599 Body - Ancient King
+24007600 Body - Filianore's Crown #HEAD ONLY
+24007601 Body - Holy King's Crown #HEAD ONLY
+24007602 Body - Elite Knight
+24007603 Body - Bucket #HEAD ONLY
+24007604 Body - Burial Knight
+24007605 Body - Adventurer
+24007606 Body - Knight
+24007607 Body - Thorn
+24007608 Body - Nameless Knight
+24007609 Body - Mask of the Father #HEAD ONLY
+24007610 Body - Mask of the Mother #HEAD ONLY
+24007611 Body - Mask of the Child #HEAD ONLY
+24007612 Body - Demon Cleric Mask #HEAD ONLY
+24007613 Body - Mask of Horror #HEAD ONLY
+24007614 Body - Mask of Cruelty #HEAD ONLY
+24007615 Body - Mask of Serenity #HEAD ONLY
+24007616 Body - Mask of War #HEAD ONLY
+24007617 Body - Faraam
+24007618 Body - Alva
+24007619 Body - Attendant
+24007620 Body - Footman
+24007621 Body - Outrider
+24007622 Body - Dark
+24007623 Body - Skull Mask #HEAD ONLY
+24007624 Body - Suspicious Gold Mask #HEAD ONLY
+24007625 Body - Undead Legion
+24007626 Body - Fallen Mirrah
+24007627 Body - Herald
+24007628 Body - Fallen Knight
+24007629 Body - Hallowed Knight
+24007630 Body - Forlorn
+24007631 Body - Aurous
+24007632 Body - Sun
+24007633 Body - Fire Witch
+24007634 Body - Channeler
+24007635 Body - Chain
+24007636 Body - Vilhelm
+24007637 Body - Bone Ash
+24007638 Body - Varangian
+24007639 Body - Thorolund
+24007640 Body - Bear
+24007641 Body - Wolnir's Crown #HEAD ONLY
+24007642 Body - Crown of Illusions #HEAD ONLY
+24007643 Body - Northern
+24007644 Body - Slave Knight
+24007645 Body - Nameless King
+24007646 Body - Courtier
+24007647 Body - Follower
+24007648 Body - Royal Soldier
+24007649 Body - Pontiff Knight
+24007650 Body - Dancer
+24007651 
+24007652 Body - Evangelist
+24007653 Body - Mirrah
+24007654 Body - Hard Leather
+24007655 Body - Jailer
+24007656 Body - Black
+24007657 Body - Sellsword
+24007658 Body - Vileblood
+24007659 Body - Sunless
+24007660 Body - Leonhard
+24007661 Body - Xanthous
+24007662 Body - White Preacher #HEAD ONLY
+24007663 Body - Poisonhorn Cap #HEAD ONLY
+24007664 Body - Hollow Head #HEAD ONLY
+24007665 Body - Basilisk Cap #HEAD ONLY
+24007666 Body - Vagabond #HEAD ONLY
+24007667 Body - Raven Mask #HEAD ONLY
+24007668 Body - Deserter
+24007669 Body - Deserter Helm #HEAD ONLY
+24007670 Body - Soldier's Hood #HEAD ONLY
+24007671 Body - Black Leather
+24007672 Body - Brigand
+24007673 Body - Pharis
+24007674 Body - Shira
+24007675 Body - Black Hand
+24007676 Body - Conjurator
+24007677 Body - Jester
+24007678 Body - Grotto
+24007679 Body - Black Straw Hat #HEAD ONLY
+24007680 Body - Tan Straw Hat #HEAD ONLY
+24007681 Body - Cleric
+24007682 Body - Black Cleric
+24007683 Body - Astrologist
+24007684 Body - Worker
+24007685 Body - Salvador's Hat #HEAD ONLY
+24007686 Body - Chester
+24007687 Body - Binded
+24007688 Body - Thrall Hood #HEAD ONLY
+24007689 Body - Assassin
+24007690 Body - Painting Guardian
+24007691 Body - Drang #BODY ONLY 
+24007692 Body - Serpentine
+24007693 Body - Scholar
+24007694 Body - Priest's Cap #HEAD ONLY
+24007695 Body - Pyromancer
+24007696 Body - Sack #HEAD ONLY
+24007697 Body - Dragon Acolyte
+24007698 Body - Karla
+24007699 Body - Black Witch
+24007700 Body - Black Witch Veil #HEAD ONLY
+24007701 Body - Rosaria's Dress #BODY ONLY  
+24007702 Body - Sorcerer
+24007703 Body - Court Sorcerer
+24007704 Body - Old Sorcerer
+24007705 Body - Venerable Sage
+24007706 Body - Clandestine Coat #BODY ONLY
+24007707 Body - Wanderer
+24007708 Body - Sage's Hat #HEAD ONLY
+24007709 Body - Moonlight
+24007710 Body - Gold-hemmed
+24007711 Body - Crimson
+24007712 Body - Pale Shade
+24007713 Body - Shadow
+24007714 Body - Maiden 
+24007715 Body - Hexer
+24007716 Body - Cornyx's
+24007717 Body - Grave Warden
+24007718 Body - Ordained
+24007719 Body - Desert Pyromancer
+24007720 Body - Manikin
+24007721 Body - Crude Manikin Mask #HEAD ONLY
+24007722 Body - Archdeacon
+24007723 Body - Prayer
+24007724 Body - Fire Keeper
+24007725 Body - Blindfold Mask #HEAD ONLY
+24007726 Body - Carthus Blindfold #HEAD ONLY
+24007727 Body - Antiquated
+24007728 Body - Antiquated Plain #BODY ONLY
+24007729 Body - Master
+24007730 Body - Deacon #BODY ONLY
+24007731 Body - Saint
+24007732 Body - Gallant
+24007733 Body - Warden
+24007734 Body - Dull Gold
+24007735 Body - Fluted
+24007736 Body - Huntsman
+24007737 Body - Mirdan
+24007738 Body - Sentinel
+24007739 Body - Raggedy
+24007740 Body - Charlatan
+24007741 Body - Martyr #BODY ONLY
+24007742 Body - Pickpocket
+24007743 Body - Magician #BODY ONLY
+24007744 Body - Nullus
+24007745 Body - Ironclad
+24007746 Body - Sanctum
+24007747 Body - Imported
+24007748 Body - Stalwart Knight
+24007749 Body - Okami
+24007750 Body - Eastern General
+24007751 Body - Eastern Wolf #BODY ONLY
+24007752 Body - Fallen Prince
+24007753 Body - Eastern Commander
+24007754 Body - Blue Lothric Knight
+24007755 Body - Blue Lothric Knight Open Helm #HEAD ONLY
+24007756 Body - Lothric Knight Open Helm #HEAD ONLY
+24007757 Body - Consumed King's Knight
+24007758 Body - Elite Deacon #BODY ONLY
+24007759 Body - Elite Soldier
+24007760 Body - Gertrude's Knight
+24007761 Body - Red Worker
+24007762 Body - Profaned Capital Handmaid
+24007763 Body - Burned Firelink
+24007764 Body - Overgrown Lothric Knight
+24007765 Body - Herald Helm (Lower Visor) #HEAD ONLY
+24007766 Body - Undead Legion Cap #HEAD ONLY
+24007767 Body - Carthus Swordsman
+24007768 Body - Royal Swordsman
+24007769 Body - Vordt's
+24007770 Body - Throne Watcher
+24007771 Body - Throne Defender
+24007772 Body - Mirrah ALT #HEAD ONLY
+24007773 Body - Blue Smelter Demon
+24007774 Body - Dragonform DS1
+24007775
+24007776
+24007777
+24007778
+24007779
+24007780
+24007781
+24007782
+24007783
+24007784
+24007785
+24007786
+24007787
+24007788
+24007789
+24007790
+24007791
+24007792
+24007793
+24007794
+24007795
+24007796
+24007797
+24007798
+24007799
+24007300
+24007301
+24007302
+24007303
+24007304
+24007305
+24007306
+24007307
+24007308
+24007309
+24007310
+24007311
+24007312
+24007313
+24007314
+24007315
+24007316
+24007317
+24007318
+24007319
+24007320
+24007321
+24007322
+24007323
+24007324
+24007325
+24007326
+24007327
+24007328
+24007329
+24007330
+24007331
+24007332
+24007333
+24007334
+24007335
+24007336
+24007337
+24007338
+24007339
+24007340
+24007341
+24007342
+24007343
+24007344
+24007345
+24007346
+24007347
+24007348
+24007349
+24007350
+24007351
+24007352
+24007353
+24007354
+24007355
+24007356
+24007357
+24007358
+24007359
+24007360
+24007361
+24007362
+24007363
+24007364
+24007365
+24007366
+24007367
+24007368
+24007369
+24007370
+24007371
+24007372
+24007373
+24007374
+24007375
+24007376
+24007377
+24007378
+24007379
+24007380
+24007381
+24007382
+24007383
+24007384
+24007385
+24007386
+24007387
+24007388
+24007389
+24007390
+24007391
+24007392
+24007393
+24007394
+24007395
+24007396
+24007397
+24007398
+24007399
+24007400
+24007401
+24007402
+24007403
+24007404
+24007405
+24007406
+24007407
+24007408
+24007409
+24007410
+24007411
+24007412
+24007413
+24007414
+24007415
+24007416
+24007417
+24007418
+24007419
+24007420
+24007421
+24007422
+24007423
+24007424
+24007425
+24007426
+24007427
+24007428
+24007429
+24007430
+24007431
+24007432
+24007433
+24007434
+24007435
+24007436
+24007437
+24007438
+24007439
+24007440
+24007441
+24007442
+24007443
+24007444
+24007445
+24007446
+24007447
+24007448
+24007449
+24007450
+24007451
+24007452
+24007453
+24007454
+24007455
+24007456
+24007457
+24007458
+24007459
+24007460
+24007461
+24007462
+24007463
+24007464
+24007465
+24007466
+24007467
+24007468
+24007469
+24007470
+24007471
+24007472
+24007473
+24007474
+24007475
+24007476
+24007477
+24007478
+24007479
+24007480
+24007481
+24007482
+24007483
+24007484
+24007485
+24007486
+24007487
+24007488
+24007489
+24007490
+24007491
+24007492
+24007493
+24007494
+24007495
+24007496
+24007497
+24007498
+24007499

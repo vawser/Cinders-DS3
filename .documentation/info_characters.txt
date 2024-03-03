@@ -1,0 +1,116 @@
+#--------------------------------------
+# Overview
+#--------------------------------------
+Duplicate the following from the original enemy:
+ cXXXX.anibnd.dcx
+ cXXXX.behbnd.dcx
+ cXXXX.chrbnd.dcx
+ cXXXX.texbnd.dcx
+ 
+# action folder
+Copy the original cXXXX.hks and rename it to the new ID
+
+# chr folder
+Rename the original cXXXX to the new ID in the filenames.
+ 
+Edit anibnd, changing the cXXXX to the new ID.
+ - Hex edit the cXXXX.tae file for ID changes
+ 
+Edit behbnd, changing the cXXXX to the new ID.
+ - Hex edit the cXXXX.hkx and cXXXX.hkt files for ID changes
+ 
+Edit chrbnd, changing the cXXXX to the new ID.
+
+# sound folder
+Copy the original cXXXX files and rename to the new ID.
+ fdp_cXXXX.fev
+ fdp_cXXXX.fsb
+ fdp_cXXXX.itl
+ 
+Hex edit the fdp_cXXXX.fev, replacing fdp_cXXXX with the new ID.
+
+#--------------------------------------
+# Additions
+#--------------------------------------
+c1010 Gyrm                      c1290 (Winged Knight)
+c1020 Morne's Armor             c3160 (Dragonslayer Armour)
+c1030 Mirror Knight             c3160 (Dragonslayer Armour)
+c1040 Ruin Sentinel             c2030 (Pontiff Knight)
+c1041 Ruin Sentinel             c3160 (Dragonslayer Armour) # UNUSED
+c1042 Ruin Sentinel             c1410 (Silver Knight)       # UNUSED
+c1050 Dragonrider               c5110 (Champion Gundyr)
+c1051 Dragonrider               c3160 (Dragonslayer Armour) # UNUSED
+c1052 Dragonrider               c6100 (Millwood Knight)     # UNUSED
+c1053 Dragonrider               c5010 (Nameless King)       # UNUSED
+c1060 Black Dragon Knight       c1300 (Black Knight)
+c1061 Black Dragon Knight       c6020 (Friede)              
+c1062 Black Dragon Knight       c1250 (Grave Warden)        
+c1063 Black Dragon Knight       c6260 (Ringed Knight)       
+c1064 Black Dragon Knight       c1410 (Silver Knight)       
+c1065 Black Dragon Knight       c1290 (Winged Knight)       
+c7500 Ciaran                    c1250 (Grave Warden)        
+c7510 Artorias                  c5280 (Soul of Cinder)
+c7511 Artorias                  c6200 (Slave Knight Gael)   # UNUSED
+c7512 Artorias                  c6201 (Slave Knight Gael)   # UNUSED
+c7520 Ornstein                  c5010 (Nameless King)
+c7530 Smelter Demon             c5020 (Demon Prince)        # UNUSED
+c7540 Big Havel                 c5260 (Yhorm)                          
+c7550 Fume Knight               c5280 (Soul of Cinder)
+c7551 Fume Knight               c5140 (Pontiff Sulyvahn)    # UNUSED
+c7560 Frostfire Colossus        c3050 (Old Demon King)
+c7561 Orb                       c1000
+c7562 Sapping Orb               c1000
+c7570 Frostfire Cleric          c3070 (Demon Cleric)
+c7571 Orb                       c1000
+c7580 Velstadt                  c6100 (Millwood Knight)
+c7590 Smough                    c1290 (Winged Knight)       # UNUSED
+c7591 Smough                    c3160 (Dragonslayer Armour) # UNUSED
+c7600 Sir Yorgh                 c5110 (Champion Gundyr)     # UNUSED
+c7610 Big Red Crystal Lizard    c3220 (Rock Lizard)
+c7620 Lautrec                   c1180 (Cathrus Skeleton)
+c7630 The Rock                  c3160 (Dragonslayer Armour)
+c7640 Giant Sentinel            c3160 (Dragonslayer Armour)
+c7650 Berenike Knight           c1190 (Cathedral Knight)    
+c7660 Old Giant                 c3020 (Giant Slave) 
+c7670 Fallen Protector          c5250 (Twin Princes)
+c7671 Fallen Maiden (Dummy)     c1000 
+c7680 Titanite Demon            c2090 (Oceiros)
+c7690 Crystal Golem             c6100 (Millwood Knight)     # UNUSED
+c7700 Pursuer                   c3160 (Dragonslayer Armour) # UNUSED
+c7710 Royal Rat Authority       c6030 (Great Wolf)          # UNUSED
+c7720 Demon Bishop              c1320 (Crystal Sage)        # UNUSED
+c7730 Elite Knight              c1280 (Lothric Knight)      # UNUSED
+c7740 Outrider and Dancer       c5250 (Twin Princes)        # UNUSED
+c7750 Small Rock Lizard         c2150 (Crystal Lizard)      # UNUSED
+c7760 Bearbug                   c3220 (Rock Lizard)         # UNUSED
+c7770 Boletaria Knight          c1300 (Black Knight)        # UNUSED
+c7771 Boletaria Knight          c1280 (Lothric Knight)      # UNUSED
+c7772 Boletaria Knight          c1410 (Silver Knight)       # UNUSED
+c7780 Flamelurker               c6070 (Corvian Knight)      # UNUSED
+c7790 Garl Vinland              c1190 (Cathedral Knight)    # UNUSED
+c7800 King Allant               c5140 (Pontiff Sulyvahn)    # UNUSED
+c7810 Tarnished Gundyr          c5110
+c7820 Crystal Lizard (White)
+c7821 Crystal Lizard (Red)
+c7822 Crystal Lizard (Purple)
+c7823 Crystal Lizard (Moonlight)
+c7824 Crystal Lizard (Ice)
+c7825 Crystal Lizard (Golden)
+c7826 Crystal Lizard (Cursed)
+c7830
+c7840
+c7850
+c7860
+c7870
+c7880
+c7890
+c7900
+c7910
+c7920
+c7930
+c7940
+c7950
+c7960
+c7970
+c7980
+c7990

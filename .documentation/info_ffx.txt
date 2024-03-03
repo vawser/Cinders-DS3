@@ -1,0 +1,633 @@
+#------------------------
+# Notes
+#------------------------
+f000 is the normal prefix for the fxr filenames.
+
+dmy:
+ 15 - all body (total)
+ 198 - all body (fewer)
+ 210 - above head
+ 
+#------------------------ 
+# New FFX
+#------------------------
+
+440155 Green Moonlight Wave (Alonne Sword)
+440156 Green Moonlight Wave Impact (Alonne Sword)
+
+440287 Scythe of Want ground aura?
+527006 Scythe of Want mine explosion
+
+854000 Blue Fire
+854001 Green Fire
+854002 Pink Fire
+854003 Purple Fire
+854004 Yellow Fire
+854005 Grey Fire
+854006 Silent Prism Stone
+854007 Rainbow Fire
+854008 Rainbow Fire (Parting Flame)
+
+854010 Black Fire Vestiges
+854011 Black Fire Vestiges [Hit]
+
+854020 Lothric's Holy Spear
+854021 Lothric's Holy Spear [Hit]
+
+854030 Overwhelming Power
+854031 Overwhelming Power [Hit]
+
+854040 Throwing Pan 
+854041 Throwing Pan (Spin)
+
+854050 Dung Aura
+
+854060 Silent Fire Orb
+
+854100 Lightning Orb (Blue)
+854101 Lightning STrike (not working)
+854102 Lightning Burst (Blue) 
+
+854110 Lightning Spear Launch Burst (Blue)
+854111 Lightning Spear (Blue)
+854112 Lightning Spear Impact (Blue)
+
+854120 Sunlight Stake Cast
+
+854130 Lightning Orb (Blue) BIG
+854132 Lightning Burst (Blue) BIG
+
+854140 Lightning Spear Launch Burst (Blue) BIG
+854141 Lightning Spear (Blue) BIG
+854142 Lightning Spear Impact (Blue) BIG
+
+854200 Blue Eyes - ID Link
+854201 Green Eyes - ID Link
+854203 Purple Eyes - ID Link
+
+854210 Blue Eyes
+854211 Green Eyes
+854213 Purple Eyes
+
+854300 Red Moonlight Sword
+854301 Yellow Moonlight Sword
+854302 Purple Moonlight Sword
+854303 Rainbow Moonlight Sword
+854304 White Moonlight Sword
+854305 Blue Moonlight Sword
+
+855000 Green-Blackflame Trail
+855001 Green-Blackflame Buff
+
+856000 Deep Purple Fire Trial
+
+856002 Torch: Curse
+856004 Torch: Poison
+856006 Torch: Bleed
+856008 Torch: Frost
+856010 Torch: Magic
+856012 Torch: Fire
+856014 Torch: Lightning
+856016 Torch: Dark
+856018 Torch: Luck
+856020 Torch: Enchanted
+856022 Torch: Holy
+856028 Torch: Normal
+
+857002 Follower Torch WA: Curse
+857004 Follower Torch WA: Poison
+857006 Follower Torch WA: Bleed
+857008 Follower Torch WA: Frost
+857010 Follower Torch WA: Magic
+857012 Follower Torch WA: Fire
+857014 Follower Torch WA: Lightning
+857016 Follower Torch WA: Dark
+857018 Follower Torch WA: Luck
+857020 Follower Torch WA: Enchanted
+857022 Follower Torch WA: Holy
+
+856030 Red Cloud
+856031 Black Cloud
+856032 Cyan Cloud
+
+856100 Great Cataclysm Fire Forming Orb
+856101 Great Cataclysm Projectile
+
+856110 Great Fecal Expulsion Projectile
+856111 Great Fecal Expulsion Burst
+
+856200 Echo of Despair
+
+856210 Ground Black Fire Patch
+
+856220 Scorching Black Fire Vestiges [Hit]
+
+856230 Scorching Black Flame
+
+856240 Explosive Climax 
+856241 Explosive Climax [Hit]
+
+856250 Forceful Dark Dance
+856251 Forceful Dark Dance (chained EffectID="2001" from 856250, required for sound)
+
+856260 Gravelord Sword (with added sound)
+
+856270 Great Writhing Deep Explosion
+
+856280 Silent Soul Spear
+856281 Silent Soul Spear Impact
+856282 Silent Crystal Soul Spear
+856283 Silent Crystal Soul Spear Impact
+
+856290 Yellow Black-fire ground patch
+856291 Yellow Black-fire burst
+856292 Chain for 856291
+
+856300 Large glow (441400 without particles)
+
+856401 Magic Throwing Knife Projectile
+856402 Magic Throwing Knife Impact
+856403 Magic Throwing Knife Flick
+
+856404 Fire Throwing Knife Projectile
+856405 Fire Throwing Knife Impact
+856406 Fire Throwing Knife Flick
+
+856407 Lightning Throwing Knife Projectile
+856408 Lightning Throwing Knife Impact
+856409 Lightning Throwing Knife Flick
+
+856410 Dark Throwing Knife Projectile
+856411 Dark Throwing Knife Impact
+856412 Dark Throwing Knife Flick
+
+856420 Curse Throwing Knife Projectile
+856421 Curse Throwing Knife Impact
+856422 Curse Throwing Knife Flick
+
+856423 Poison Throwing Knife Projectile
+856424 Poison Throwing Knife Impact
+856425 Poison Throwing Knife Flick
+
+856426 Bleed Throwing Knife Projectile
+856427 Bleed Throwing Knife Impact
+856428 Bleed Throwing Knife Flick
+
+856429 Frost Throwing Knife Projectile
+856430 Frost Throwing Knife Impact
+856431 Frost Throwing Knife Flick
+
+856500 Chain for 856502
+856501 White Soul Arrow
+856502 Chain for 856501
+856510 Pure White trimmed down WoG
+
+856520 Frost Chaos Beam
+
+856530 650293 with sound
+856531 650299 with sound
+
+856540 Dark Edge Flash
+856541 Dark Edge Blade
+
+856550 Gael lightning with sound
+
+860030 Fire MLGS
+860032 Fire MLGS
+860033 Fire MLGS
+860034 Fire MLGS
+860035 Fire MLGS
+
+870030 Lightning MLGS
+870032 Lightning MLGS
+870033 Lightning MLGS
+870034 Lightning MLGS
+870035 Lightning MLGS
+
+880030 Dark MLGS
+880032 Dark MLGS
+880033 Dark MLGS
+880034 Dark MLGS
+880035 Dark MLGS
+
+890030 Luck MLGS
+890032 Luck MLGS
+890033 Luck MLGS
+890034 Luck MLGS
+890035 Luck MLGS
+
+900030 Holy MLGS
+900032 Holy MLGS
+900033 Holy MLGS
+900034 Holy MLGS
+900035 Holy MLGS
+
+910030 Enchanted MLGS
+910032 Enchanted MLGS
+910033 Enchanted MLGS
+910034 Enchanted MLGS
+910035 Enchanted MLGS
+
+881101 Deep Accursed Vomit (With Sounds)
+
+880050 Silent Lorian's Greatsword Flame Effect
+880051 Silent Lorian's Greatsword Flame Effect
+880052 Silent Lorian's Greatsword Flame Effect
+880053 Silent Lorian's Greatsword Flame Effect
+880054 Silent Lorian's Greatsword Flame Effect
+880055 Silent Lorian's Greatsword Flame Effect
+
+880060 Black-orange Lorian Buff
+
+880070 Silent Black-orange Lorian Buff
+880071 Silent Black-orange Lorian Buff
+880072 Silent Black-orange Lorian Buff
+880073 Silent Black-orange Lorian Buff
+880074 Silent Black-orange Lorian Buff
+880075 Silent Black-orange Lorian Buff
+
+880202 Chaos Beam with sound
+
+880216 Silent Pacify Effect
+880217 Silent Pacify Effect
+880218 Silent Pacify Effect
+880219 Silent Pacify Effect
+880220 Silent Pacify Effect
+880221 Silent Pacify Effect
+
+880380 Silent Storm Ruler Wind Effect
+880381 Silent Storm Ruler Wind Effect
+880382 Silent Storm Ruler Wind Effect
+880383 Silent Storm Ruler Wind Effect
+880384 Silent Storm Ruler Wind Effect
+880385 Silent Storm Ruler Wind Effect
+
+880231 Red Profaned Flame
+
+884553 Red Profaned Flame (Spell)
+
+887802 Red Curse Aura
+
+880462 - 880467 Black Flame Arc
+
+882501 Angelic Barrage with sound
+
+883502 Rainbow Orb
+
+884020 Lothric's Holy Spear with Soul Spear sound
+
+884112 Psychedelic Great Combustion
+
+884363 Rainbow Eyes
+
+885020 Red Blackflame 
+
+885030 Red Blackflame (Buff)
+
+881032 Orange Moonlight Horizontal Wave
+881033 Orange Moonlight Wave Impact
+881034 Orange Moonlight Vertical Wave
+
+881431 Pontiff Beam with sound
+881432 Pontiff Beam impact with sound
+
+886102 Black-orange Fireball (Big)
+886103 Black-orange Fireball (Big Impact)
+886104 Black-orange Fireball (Small)
+886105 Black-orange Fireball (Small Impact)
+
+893011 Blue Lightning Buff
+893012 Blue Lightning Buff
+893013 Blue Lightning Buff
+893014 Blue Lightning Buff
+893015 Blue Lightning Buff
+893016 Blue Lightning Buff
+
+894011 Rainbow Fire Buff
+894012 Rainbow Fire Buff
+894013 Rainbow Fire Buff
+894014 Rainbow Fire Buff
+894015 Rainbow Fire Buff
+894016 Rainbow Fire Buff
+
+895533 Blue Lightning Spark
+
+896000 Soul Greatsword but Ivory King UGS
+
+897000 Black Laser
+
+898000 Drizzle
+
+899000 Bubble Wall
+
+900000 Blood Corruption
+900100 Great Blood Corruption (Projectile)
+900200 Great Blood Corruption (Impact)
+
+901000 Soul Instability
+
+902000 Gale Force
+
+903000 Slicing Wind
+
+904000 Cyclone Blast (Projectile)
+904100 Explosive Cyclone Blast (Impact)
+
+905000 Blood Crystallization
+
+906000 Fallen Protector Teleport
+
+907000 Cathedral Guardian Holy Mine
+907100 Cathedral Guardian Holy Mine [Hit]
+
+908000 Mirror Knight Lightning Weapon Buff
+
+909000 Frigid Orbs
+
+910000 Ice Burn (Projectile)
+910100 Ice Burn (Impact)
+
+911000 Rupturing Frostfire
+911100 Great Rupturing Frostfire
+
+912000 Void Flame Arc
+
+913000 Chaos Flame Arc
+
+914000 Holy Weapon
+
+915000 Explosive Crystal Orb Burst
+915100 Explosive Crystal Orb Burst (Required for 915000)
+
+916000 Hail of Blades (Projectile)
+916100 Hail of Blades (Impact)
+
+917000 Magic Smelter Sword Buff
+917100 Magic Smelter Sword Burst
+
+918000 Fume Ultra Greatsword/Fume Slated Swords Buff
+918100 Fume Slated Swords Weapon Art Projectile
+918200 Fume Ultra Greatsword Fireball
+
+919000 Dark Branding Iron
+
+920000 Darkmoon Longbow Weapon Art Arrow Release
+
+921000 Crystalline Stars Weapon and Body Emission
+
+922000 Fulgurant Sunlight Spear (Projectile)
+922100 Fulgurant Sunlight Spear (Impact)
+
+923000 Shredding Winds
+
+924000 Explosive Lacerating Ring
+924100 Explosive Lacerating Ring (Required for 924000)
+
+925000 Sunlight Stake (Projectile)
+
+926000 Frozen Chaos (Impact)
+
+927000 Spellbound Draconic Fury Lingering Ground Fire
+
+928000 Larger Undead Hunter Charm Mist
+
+929000 Abyss Walker Sword Trail
+929100 Abyss Walker Thrust Bullet
+
+930000 The Dragonslayer Lightning Wall/Line/Wave
+
+931000 Wolnir's Black Flames
+
+932000 Red Crystal Lizard Sparkles
+932100 Large Red Crystal Lizard Sparkles
+
+933000 Chaos Fire Whip
+
+934000 Brume Pyromancies DoT and Casting
+934100 Brume Pyromancies DoT and Casting (Required for 934000)
+
+935000 Frostfire Volley (Projectile)
+935100 Frostfire Volley (Projectile)
+935200 Frostfire Volley (Impact)
+
+936000 Red Crystal Lizard Beam
+936100 Red Crystal Lizard Beam (Required for 936000)
+936200 Red Crystal Lizard Beam (Required for 936100)
+
+937000 Great Swamp Ring Firestorm
+
+#------------------------
+# Frostfall
+#------------------------
+
+854400: Rising bluish-white, transparent smoke
+854410: Great Combustion Frostfire
+854420: Frostfire Trail/Falling Crystals
+854430: Frostfire Blade
+854440: Frostfire Blade Ignition
+854450: Frostfire Blade Trail
+854460: Blue Ground Upheaval (Unused)
+854470: Frostfire Explosion
+854480: Large Blue Summoning Ring
+854490: Frostfire Weapon Buff
+854500: Crescendo Stability Aura
+854510: Frostfall Trail
+854520: Ice Dagger
+854530: Ice Dagger Impact
+854540: Alternate Frostfire Trail
+854550: Ice Dagger (Held)
+854560: Frostfire Trail
+854570: Blue Flash of light (No Reflection)
+854580: Frost Mist
+854590: Frost Disc
+854600: Frost Disc Impact # Caused CTD
+854610: Frostfire Burst
+
+#------------------------
+# Frostfire Colossus and Clerics
+#------------------------
+
+854700, 854701, 854702: Frostfire Body
+854703: Frostfire Club
+854710: Frostfire Eye
+854720: Club White Light Phase 1
+854721: Colossus Frosty Particles
+854730, 854731, 854732: Phase 2 Transition Frostfire Burst
+854740: Club Frostfire Slam
+854741: Club Frostfire Sweep 1
+854742: Club Frostfire Sweep 2
+854750: Mouthful of Frostfire 1
+854752: Frostfire Breath
+854753: Frostfire Breath Impact
+854758: Mouthful of Frostfire 2 (Unused)
+854760: Frostfire Hand Blast Ignition
+854762: Frostfire Hand Blast
+854763: Frostfire Hand Blast Impact
+854765: Hammer Impale Massive Explosion
+854770: Homing Frostfire Projectiles (Stationary)
+854771: Homing Frostfire Projectiles (Tracking)
+854772: Homing Frostfire Projectiles (Impact)
+854780/854781: Lava Ring Sounds
+854784: Lava Ring Out to In to Out
+854785: Hammer Pound Frostfire Splash
+854786: Lava Ring In to Out
+854790: Tracking Frostfire Pillar Light
+854791: Tracking Frostfire Pillar
+854792: Track Frostfire Pillar Hazard
+854800: Colossus Frostfire Orb
+854810: Frost Force Blast
+854820: Big Frost Explosion
+854830: Colossus Orb’s Frostfire Ball-Darts
+854831: Colossus Orb’s Frostfire Ball-Darts Impact
+854840: Seething Frostfire Effect
+854850: Huge Arena Igniting Frostfire Explosion Piece 1
+854851: Huge Arena Igniting Frostfire Explosion Piece 2
+854860: Frostfire Floor
+854870: Green Vow
+854880: Unleash Massive Frostfire Burst
+854890: Health Regen Aura (Green)
+854892: Enhance Aura (Red)
+854900: Cleric Held Orb Medium
+854901: Cleric Held Orb Small
+854902: Cleric Held Orb Large
+854910: Cleric Frost Weapon
+854911: Cleric Frostfire Orb
+854915: Cleric Frostfire-ball
+854916: Cleric Frostfire-ball impact
+854920: Cleric Frostfire Flames
+854922 calls 854923: Cleric Frostfire Hand Transfer
+854925: Cleric Frostfire Combustion
+
+#------------------------
+# The Marauder
+#------------------------
+
+- FFX used in Bullets
+950102 Black-orange Fireball (Big)
+950103 Black-orange Fireball (Big Impact)
+950104 Black-orange Fireball (Small)
+950105 Black-orange Fireball (Small Impact)
+950280 Combustion
+950867 Power Within
+
+- FFX used in TAE
+950795
+950796
+950797
+950802
+950810
+950812
+950813
+950816
+950817
+950890
+950891
+950895
+950896
+950897
+
+#------------------------
+# Resource Bin
+#------------------------
+
+s8450.flver
+s8450_a.tpf
+s8450_a.tpf
+s8450_a.tpf All 4 are for 854520
+
+s41000.tpf frost s3000.tpf?
+
+s98000.flver Lucky MLGS Model
+s98000_a.tpf Lucky MLGS Texture
+
+s98010.tpf  No colour s11640.tpf 
+s98011.tpf  Black s11623.tpf
+s98012.tpf  Black s11627.tpf 
+s98013.tpf  Black s11657.tpf 
+s98014.tpf  Black s11621.tpf 
+s98015.tpf  Black s11629.tpf
+s98016.tpf  Black s11633.tpf 
+s98017.tpf  Black and White s6001.tpf 
+
+s98020.flver Ivory King UGS model
+s98020_a.tpf Ivory King UGS texture
+
+s98030 Magic Throwing Knife Model
+s98030_a Magic Throwing Knife Texture
+
+s98031 Fire Throwing Knife Model
+s98031_a Fire Throwing Knife Texture
+
+s98032 Lightning Throwing Knife Model
+s98032_a Lightning Throwing Knife Texture
+
+s98033 Dark Throwing Knife Model
+s98033_a Dark Throwing Knife Texture
+
+s98040 Curse Throwing Knife Model
+s98040_a Curse Throwing Knife Texture
+
+s98041 Poison Throwing Knife Model
+s98041_a Poison Throwing Knife Texture
+
+s98042 Bleed Throwing Knife Model
+s98042_a Bleed Throwing Knife Texture
+
+s98043 Frost Throwing Knife Model
+s98043_a Frost Throwing Knife Texture
+
+s98050.flver Dark Edge model
+s98050.tpf Dark Edge texture
+
+s98060 Slightly larger s3000 (embers) with no black background, also black and white, good for recolours
+
+#------------------------
+# Reference
+#------------------------
+EffectID
+ 1004       - Effect
+ 1005       - 
+ 2000       -
+ 2001       - Chain Effect?
+ 2002       - 
+ 2200       - Effect Group
+ 
+ActionID
+ 0          -
+ 1          - 
+ 34         - Movement
+ 35         - Angle
+ 55         - 
+ 75         - Sound 
+ 81         - Sound 
+ 105        - Movement 
+ 128        -
+ 129        -
+ 130        -
+ 131        - Color 
+ 132        - ID Link
+ 199        -
+ 300        - 
+ 399        -
+ 400        -
+ 404        - Distance from Dummy
+ 500        -
+ 501        - 
+ 603        - Color/Sound 
+ 605        - Color/Sound 
+ 609        - Color 
+ 10100      -
+ 10400      -
+ 10500      -
+
+TypeEnumA
+0   - 
+16  - 
+19  - 
+32  - Angle
+35  - Color Floats - R, G, B, Alpha
+64  - Stretch
+67  - Color Floats (Special)
+96  - 
+4160 - 
+4147 - 

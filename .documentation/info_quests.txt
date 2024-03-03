@@ -1,0 +1,150 @@
+#------------------------
+# Greirat
+#------------------------
+Pickpocket mechanic:
+    Patrol enemy appears when on assignment
+    Enemy has limited detection, with a low sight range and 0 listen and sense
+    Player has to get close enough to use "Pickpocket" action, which awards the trinket Greirat asks for
+    Enemy will "poof" if the player is spotted and/or the trinket is taken
+
+Greirat:
+ First Assignment: Undead Settlement
+    Steal trinket from patrolling Peasant
+        
+    Dialogue:
+        <initial>
+        My dear Loretta... Her trinket meant so much to her.
+        It pains me that one of those foul peasants of the settlement took it.
+        Please, return this trinket to me.
+        But be careful, it is fragile, so I recommend you obtain it my stealth.
+        A quick burrow into the peasant's pockets will do.
+
+        <return>
+        Ahh! The trinket! Thank you for this service.
+        May I teach you a little of the art of thievery?
+        In return for this act of loyalty.
+
+    Reward:
+        Stick to the Shadows
+            Reduces enemy sight by 10%
+
+ Second Assignment: Irithyll
+    Steal trinket from patrolling Pontiff Knight
+    
+    Dialogue:
+        <initial>
+        Ahh, hello, fine work, I say.  Discovering Irithyll in the Boreal Valley, all in a day's work.
+        If the tales are true, it is home to old moon-worshipping nobles, and should be packed with treasure.  
+        In fact, I have heard that one of the knights possess a valuable trinket.
+        If you were to acquire such a trinket, I would be willing to teach you more about the art of thievery.
+        I believe your target is known to patrol the main cathedral, above their fallen pontiff.
+         
+        <return>
+        Ah, yes. What a wonderful trinket indeed.
+        As promised, I shall teach you more about the art of thievery.
+         
+    Reward:
+        Feather Step
+            Reduces enemy listen by 10%
+            
+            
+  Third Assignment: Lothric Castle
+    Steal Urn trinket from patrolling Lothric Knight
+  
+    Dialogue:
+        <initial>
+        Rumour has it, Lothric Castle is home to a divine urn.
+        Such a treasure shouldn't be left in the hands of those blasted knights.
+        Enter the castle, and retrieve the urn.
+        But be warned, the castle is a death trap, and not a single man has returned from the castle unscathed.
+        
+        <return>
+        Hello. What a beautiful urn. But upon closer inspection, it looks to be little more than a decoration.
+        Here, you keep it. I'm sure you can find a use for such a thing.
+        
+    Reward:
+        Awards Gwynevere's Urn
+        
+#------------------------
+# Remy the Rat
+#------------------------
+Grave mechanic:
+    Random spot (out of 3 preselected spots) in several maps is chosen
+    A grave appears (use o000800) in that spot
+    Player needs to find grave and use "Steal" to take "Ancient Rat Tail"
+    Grave will then "poof" away
+    
+Remy:
+    Dialogue:
+        <initial>
+        So, you wish to serve me? 
+        Knowledge to the whereabouts of a fallen brethren has been supplied.
+        Seek their grave and recover their tail.
+        Return to me with this, and I shall reward you.
+        
+        <location - Undead Settlement>
+        To seek their grave, look within the fallen settlement.
+        
+        <location - Farron Keep>
+        To seek their grave, look to the murky swamp.
+        
+        <location - Catacombs of Carthus>
+        To seek their grave, look below the dusty catacombs.
+        
+        <location - Irithyll Dungeon>
+        To seek their grave, look deep within the city of snow.
+        
+        <location - Dreg Heap>
+        To seek their grave, look to the convergence of all things.
+        
+        <return>
+        Once again, my brethren rest at ease.
+        Here, take this titanite, I'm sure you'll find it useful.
+        
+    Reward:
+        Awards Titanite material:
+            Undead Settlement: 5 Titanite Shard
+            Farron Keep: 5 Large Titanite Shard
+            Catacombs of Carthus: 3 Large Titanite Shard / 2 Titanite Chunk
+            Irithyll Dungeon: 5 Titanite Chunk
+            Dreg Heap: 1 Titanite Slab
+            
+#------------------------
+# Anri of Astora
+#------------------------
+Road of Sacrifices:
+    Progression:
+        Speak to Anri. Exhaust dialogue
+
+    Dialogue:
+        Oh, hello. How do you do.
+        I am Anri of Astora. Unkindled, like you.
+        This is Horace. A friend and travelling companion.
+        Are you too in search of the Lords of Cinder?
+        We are well along the road of sacrifices. Below us is the Crucifixion Woods.
+        Beyond the flooded woods lies Farron Keep, home of the Undead Legion. Further yet is the Cathedral of the Deep.
+        We seek the cathedral, home of the grim Aldrich.
+        We may go our separate ways now, but we are both seekers of lords.
+        The next time we cross paths, one may find the other in a time of need.
+        May the flames guide your way.
+
+        Oh, yes, Horace…
+        He's not very talkative.
+        But don't think ill of him. He's an upstanding, kind-hearted knight, a fine partner for this gruelling journey.
+        Without his help, I would have cursed this onerous duty long ago.
+
+        We are well along the road of sacrifices. Below us is the Crucifixion Woods.
+        Beyond the flooded woods lies Farron Keep, home of the Undead Legion. Further yet is the Cathedral of the Deep.
+        We may go our separate ways now, but we are both seekers of lords.
+        The next time we cross paths, one may find the other in a time of need.
+        May the flames guide your way.
+
+Deacons of the Deep:
+    Progression:
+        Speak to phantom Anri. Exhaust dialogue.
+        
+    Dialogue:
+        Yes. Eliminate the accursed creatures within this cathedral.
+        Once they have fallen, you may find me in the dusty catacombs below the swamp.
+        
+Catacombs of Carthus:

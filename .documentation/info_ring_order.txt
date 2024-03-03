@@ -1,0 +1,173 @@
+# Baseline - 20000
+Life Ring                       20000
+Dragonscale Ring                20010
+Symbol of the Penitent          20020
+Chloranthy Ring                 20030
+Havel's Ring                    20040
+Ring of Favor                   20050
+Covetous Gold Serpent Ring      20060
+Covetous Silver Serpent Ring    20070
+
+# Melee Combat - 21000
+Ring of Blades                  21000
+Sigil of Magic                  21010
+Sigil of Flame                  21020
+Sigil of Thunder                21030
+Sigil of Darkness               21040
+Skull Ring                      21100
+Magic Clutch Ring               21110
+Lightning Clutch Ring           21120
+Fire Clutch Ring                21130
+Dark Clutch Ring                21140
+Flynn's Ring                    21200
+Wretched Pendant                21210
+Wood Grain Ring                 21220
+Knight Slayer's Ring            21230
+Farron Ring                     21240
+Old Pygmy Brooch                21250
+Tainted Chalice                 21300
+Ring of Punishment              21310
+Frostflower Ring                21320
+Accursed Sigil                  21330
+
+# Spell Combat - 22000
+Young Dragon Ring               22000
+Great Swamp Ring                22010
+Morne's Ring                    22020
+Deep Ring                       22030
+Bellowing Dragoncrest Ring      22100
+Witch's Ring                    22110
+Ring of the Sun's First Born    22120
+Unholy Remains                  22130
+Spirit Amethyst                 22140
+Sage Ring                       22200
+Lingering Dragoncrest Ring      22210
+Slumbering Dragoncrest Ring     22220
+Dusk Crown Ring                 22230
+Darkmoon Ring                   22240
+Focusing Ring                   22250
+Ring of Londor                  22260
+Saint's Ring                    22270
+Ring of Wisdom                  22280
+
+# Defensive - 23000
+Ring of Steel Protection        23000
+Magic Stoneplate Ring           23010
+Flame Stoneplate Ring           23020
+Thunder Stoneplate Ring         23030
+Dark Stoneplate Ring            23040
+Speckled Stoneplate Ring        23050
+Poisonbite Ring                 23060
+Bloodbite Ring                  23070
+Chillbite Ring                  23080
+Cursebite Ring                  23090
+Fleshbite Ring                  23100
+Band of Stone                   23110
+Band of Magic                   23120
+Band of Flame                   23130
+Band of Sparks                  23140
+Band of Darkness                23150
+Londor Tincture                 23160
+Greatwood Remnants              23170
+Runic Seal                      23180
+
+# Healing - 24000
+Estus Ring                      24000
+Tome of Sunlight                24010
+Sun Princess Ring               24020
+Ring of the Evil Eye            24030
+Gwynevere's Urn                 24040
+
+# Movement - 25000
+Dashmaster's String             25000
+Bell of Grace                   25010
+Ring of Momentum                25020
+Ring of Retreat                 25030
+Carthus Milkring                25040
+Carthus Bloodring               25050
+
+# Critical - 26000
+Old Man's Gambit                26000
+Gower's Ring of Retribution     26010
+Elden Ring                      26020
+Assassin's Mark                 26030
+
+# Lore Rings - 27000
+Hornet Ring                     27000
+Wolf Ring                       27010
+Leo Ring                        27020
+Hawk Ring                       27030
+
+# Attack Type Rings - 28000
+Eyri's Signet                   28000
+Ofydd's Signet                  28010
+Ifanna's Signet                 28020
+Grufudd's Signet                28030
+
+# Conditional - 29000
+Red Tearstone Ring              29000
+Blue Tearstone Ring             29010
+Lloyd's Sword Ring              29020
+Lloyd's Shield Ring             29030
+Demonsbane Ring                 29040
+Crypt Ring                      29050
+Blight Ring                     29060
+Hallowed Ring                   29070
+Ring of Calamity                29080
+Aldrich's Ruby                  29090
+Aldrich's Sapphire              29100
+Pontiff's Right Eye             29110
+Pontiff's Left Eye              29120
+Bestial Band                    29130
+Fool's Sigil                    29140
+
+# Stats - 30000
+Mercenary Ring                  30000
+Heretic Ring                    30010
+Merchant Ring                   30020
+Physician Ring                  30030
+Knight's Ring                   30040
+Hunter's Ring                   30050
+Scholar Ring                    30060
+Priestess Ring                  30070
+Jester Ring                     30080
+Prisoner's Chain                30090
+
+# Utility - 31000
+Silvercat Ring                  31000
+Obscuring Ring                  31010
+Horsehoof Ring                  31020
+Bulwark Ring                    31030
+Redeye Ring                     31040
+Rare Ring of Humanity           31050
+Ravenous Chalice                31060
+
+# Cursed Ring - 32000
+Cursed Ring of Evasion          32000
+Cursed Ring of Vengeance        32010
+Cursed Ring of Deflection       32020
+Cursed Ring of Confusion        32030
+
+# Roll - 33000
+Ring of Retaliation             33000
+Ring of Reprisal                33010
+Ring of Spite                   33020
+Ring of Retribution             33030
+Ring of Vengeance               33040
+
+# Misc - 34000
+Ring of Conjuration             34000
+Reversal Ring                   34010
+Ring of Sacrifice               34020
+
+# Relics - 35000
+Relic of Power                  35000
+Relic of Insanity               35010
+Relic of Legends                35020
+Relic of Myths                  35030
+
+# Multiplayer Phantoms - 36000
+Scroll of Ethereality           36000
+Scroll of Hollowing             36010
+Scroll of Humanity              36020
+Scroll of Cooperation           36030

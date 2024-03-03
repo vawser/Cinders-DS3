@@ -1,0 +1,2191 @@
+#------------------------
+# BLOCK 0
+#------------------------
+# _0
+0   TEST DATA
+1   White Sign Soapstone
+2   Red Sign Soapstone
+3   Red Eye Orb
+4   Black Separation Crystal
+5   Darksign
+6   Estus Flask
+7   Estus Flask
+8   Estus Flask
+9   Estus Flask
+10  Conjure Skeleton
+11  Conjure Hollow
+12  Conjure Hound
+13  Conjure Warrior
+14  Divine Blessing
+15  Green Blossom
+16  Bloodred Moss Clump
+17  Purple Moss Clump
+18  Blooming Purple Moss Clump
+19  Purging Stone
+20  Draconic Arrow
+21  Draconic Greatarrow
+22  Kukri (Unassigned)
+23  Poison Kukri (Unassigned)
+24  Draconic Bolt
+25  Throwing Knife - Normal
+26  Throwing Knife - Poison
+27  Wood Greatarrow
+28  Firebomb
+29  Conjure Sentinel
+30  Black Firebomb
+31  Conjure Lycanthrope
+32  Dung Pie
+33  Alluring Skull
+34  Undead Hunter Charm
+35  Charcoal Pine Resin
+36  Gold Pine Resin
+37  Rotten Pine Resin
+38  Charcoal Pine Bundle (Unassigned)
+39  Gold Pine Bundle (Unassigned)
+40  Rotten Pine Bundle (Unassigned)
+41  Homeward Bone
+42  Prism Stone
+43  Binoculars
+44  Pale Tongue
+45  Vertebra Shackle
+46  Red Eye Ring
+47  Rubbish
+48  Dried Finger
+49  Fire Keeper Soul
+50  Old Growth Balm
+51  Vine Balm
+52  Blackweed Balm
+53  Goldenfruit Balm
+54  Soul (Unassigned)
+55  Hexing Urn
+56  Bubble Wall
+57  Witching Urn
+58  Pursuer's Ultra Greatsword
+59  Pursuer H
+60  Pursuer T
+61  Titanite Shard
+62  Large Titanite Shard
+63  Pursuer A
+64  Titanite Chunk
+65  Pursuer L
+66  Conjure Knight
+67  Skull Mask
+68  Titanite Slab
+69  Wanderer's Coat
+70  Bloodletter
+71  Locust Arm
+72  Dragon Scale
+73  Titanite Scale
+74  Twinkling Titanite
+75  Hello Carving
+76  Thank you Carving
+77  I'm sorry Carving
+78  Very good! Carving
+79  Beast Cutter
+80  Beasthunter Saif
+81  Boom Hammer
+82  Burial Blade
+83  Help me! Carving
+84  Rime-blue Moss Clump
+85  Rope Firebomb
+86  Rope Black Firebomb
+87  Lift Chamber Key
+88  Ember
+89  Soul of {Boss}
+90  Monastery Charm
+91  Lightning Urn
+92  Holy Water Urn
+93  Dragon Head Stone
+94  Dragon Torso Stone
+95  Pale Pine Resin
+96  Human Pine Resin
+97  Carthus Rouge
+98  Brightbug
+99  Pendant
+100 Coiled Sword Fragment
+101 Young White Branch
+102 Rusted Coin
+103 Repair Powder
+104 Silver Pendant
+105 Way of White Circlet
+106 Seed of a Giant Tree
+107 Sunlight Medal
+108 Proof of a Concord Kept
+109 Burial Scythe
+110 Chikage
+111 Hidden Blessing
+112 Stalk Dung Pie
+113 Oozing Charm Berry (Unassigned)
+114 Oozing Charm Berry (Unassigned)
+115 Mossfruit
+116 Shredding Winds
+117 Unholy Remains
+118 Heavy Gem
+119 Sharp Gem
+120 Refined Gem
+121 Crystal Gem
+122 Simple Gem
+123 Fire Gem (Unassigned)
+124 Chaos Gem
+125 Lightning Gem
+126 Deep Gem (Unassigned)
+127 Dark Gem
+128 Poison Gem
+129 Blood Gem
+130 Raw Gem
+131 Blessed Gem
+132 Hollow Gem
+133 Roster of Knights
+134 Frozen Gem (Unassigned)
+135 Spirit Amethyst (Drained) (Unassigned)
+136 Church Pick
+137 Hunter Axe
+138 Small Lothric Banner
+139 Farron Coal
+140 Sage's Coal
+141 Giant's Coal
+142 Profaned Coal
+143 Conjure Watcher
+
+# _1
+144 Conjure Gargoyle
+145 Ferverous Ritual
+146 Major Restoration Ritual
+147 Minor Restoration Ritual
+148 Sacrificial Ritual
+149 Teleport
+150 Soul Eruption
+151 Sigil of Magic
+152 Sigil of Flame
+153 Loretta's Bone
+154 Braille Divine Tome of Carim
+155 Braille Divine Tome of Lothric
+156 Braille Divine Sunlight Tome
+157 Dark Sigil
+158 Basin of Vows
+159 Cinders of a Lord
+160 Cinders of a Lord
+161 Cinders of a Lord
+162 Cinders of a Lord
+163 Duel Charm
+164 Great Swamp Pyromancy Tome
+165 Carthus Pyromancy Tome
+166 Izalith Pyromancy Tome
+167 Quelana Pyromancy Tome
+168 Grave Warden Pyromancy Tome
+169 Sage's Scroll
+170 Logan's Scroll
+171 Crystal Scroll
+172 Transposing Kiln
+173 Iron Seal of the Wolf
+174 Small Doll
+175 Gower's Ring of Protection
+176 Beckoning Grace
+177 Sigil of Thunder
+178 Twinkling Dragon Head Stone
+179 Twinkling Dragon Torso Stone
+180 Jailbreaker's Key
+181 Jailer's Key Ring
+182 Bridge Key (Unassigned)
+183 Grave Key
+184 Eyes of a Fire Keeper
+185 Cracked Red Eye Orb
+186 Cell Key
+187 Black Eye Orb
+188 Sword of Avowal
+189 Ring of Retreat
+190 Siegbräu
+191 Dungeon Ground Floor Key
+192 Old Cell Key
+193 Proof of a Concord Well Kept
+194 Golden Scroll
+195 Estus Shard
+196 Soul of Rosaria
+197 Shriving Stone
+198 Rusted Gold Coin
+199 Tower Key
+200 Grand Archives Key
+201 Hawkwood's Swordgrass
+202 Undead Bone Shard
+203 Deep Braille Divine Tome
+204 Londor Braille Divine Tome
+205 Blue Bug Pellet
+206 Red Bug Pellet
+207 Yellow Bug Pellet
+208 Black Bug Pellet
+209 Sigil of Darkness
+210 Throw Dust
+211 Magnetism
+212 Crystal Orb
+213 Black Star
+214 Fading Soul
+215 Soul of a Deserted Corpse
+216 Large Soul of a Deserted Corpse
+217 Soul of an Unknown Traveler
+218 Large Soul of an Unknown Traveler
+219 Soul of a Nameless Soldier
+220 Large Soul of a Nameless Soldier
+221 Soul of a Weary Warrior
+222 Large Soul of a Weary Warrior
+223 Soul of a Crestfallen Knight
+224 Large Soul of a Crestfallen Knight
+225 Soul of a Proud Paladin
+226 Large Soul of a Proud Paladin
+227 Soul of an Intrepid Hero
+228 Large Soul of an Intrepid Hero
+229 Soul of a Seasoned Warrior
+230 Large Soul of a Seasoned Warrior
+231 Soul of an Old Hand
+232 Soul of a Venerable Old Hand
+233 Soul of a Champion
+234 Soul of a Great Champion
+235 Whirlwind
+236 Young White Branch
+237 Wolf's Blood Swordgrass
+238 Human Dregs
+239 Soul of a Crystal Sage
+240 Soul of the Old Demon King
+241 Soul of a Stray Demon
+242 Soul of the Deacons of the Deep
+243 Soul of Aldrich
+244 Soul of the Rotted Greatwood
+245 Soul of the Nameless King
+246 Soul of the Twin Princes
+247 Soul of the Lords
+248 Soul of the Blood of the Wolf
+249 Budding Green Blossom
+250 Budding Green Blossom
+251 Geyser
+252 Forked Pale Tongue
+253 Drizzle
+254 Soul of Sister Friede
+255 Pulsating Mud
+256 Contraption Key
+257 Soul of Slave Knight Gael
+258 Soul of the Demon Prince
+259 Small Envoy Banner
+260 Church Guardian Shiv
+261 Mark of Attraction
+262 Blood of the Dark Soul
+263 Filianore's Spear Ornament
+264 Soul of Darkeater Midir
+265 Ritual Spear Fragment
+266 Divine Spear Fragment
+267 Young Grass Dew
+268 Banishing Ritual
+269 Squall
+270 Slicing Wind
+271 Gale Force
+272 Cyclone Blast
+273 Tailwind
+274 Censuring Palm
+275 Blast Wave
+276 Blood Sacrifice
+277 Ring of Wisdom
+278 Blood Resonance
+279 Blood Orb
+280 Relic 1 
+281 Relic 2 
+282 Relic 3
+283 Relic 4
+284 Demonsbane Ring
+285 Crypt Ring
+286 Blight Ring
+287 Hallowed Ring
+
+#------------------------
+# BLOCK 1
+#------------------------
+1000 Lacerating Ring
+1001 Dagger
+1002 Bandit's Knife
+1003 Parrying Dagger
+1004 Kirkhammer
+1005 Rotten Ghru Dagger
+1006 Grand Lance
+1007 Harpe
+1008 Scholar's Candlestick
+1009 Tailbone Short Sword
+1010 Corvian Greatknife
+1011 Twinspears of the Forlorn
+1012 Shortsword
+1013 Long Sword
+1014 Broadsword
+1015 Broken Straight Sword
+1016 Nil Bow and Blade
+1017 Sanguinus
+1018 Lothric Knight Sword
+1019 Tonitrus
+1020 Blades of Mercy
+1021 Cart Wheel
+1022 Sunlight Straight Sword
+1023 Rotten Ghru Curved Sword
+1024 Awestone
+1025 Irithyll Straight Sword
+1026 Tarnished Coin
+1027 Cleric's Candlestick
+1028 Estoc
+1029 Mail Breaker
+1030 Rapier
+1031 Ricard's Rapier
+1032 Crystal Sage's Rapier
+1033 Shotel
+1034 Tarnished Silver Coin
+1035 Scimitar
+1036 Falchion
+1037 Carthus Curved Sword
+1038 Carthus Curved Greatsword
+1039 Pontiff Knight Curved Sword
+1040 Storm Curved Sword
+1041 Uchigatana
+1042 Washing Pole
+1043 Chaos Blade
+1044 Black Blade
+1045 Bastard Sword
+1046 Slug Whistle (Unassigned)
+1047 Claymore
+1048 Mask of the Father
+1049 Zweihander
+1050 Greatsword
+1051 Mask of the Mother
+1052 Astora Greatsword
+1053 Murakumo
+1054 Mask of the Child
+1055 Lothric Knight Greatsword
+1056 Black Tearstone Ring (Unassigned)
+1057 Blessed Pine Resin
+1058 Black Knight Greatsword
+1059 Flamberge
+1060 Exile Greatsword
+1061 Lorian's Greatsword
+1062 Greatsword of Judgment
+1063 Profaned Greatsword
+1064 Cathedral Knight Greatsword
+1065 Farron Greatsword
+1066 Throwing Knife - Bleed
+1067 Throwing Knife - Curse
+1068 Yhorm's Great Machete
+1069 Dark Sword
+1070 Black Knight Sword
+1071 Hand Axe
+1072 Battle Axe
+1073 Brigand Axe
+1074 Throwing Knife - Frost
+1075 Crescent Axe
+1076 Greataxe
+1077 Throwing Knife - Magic
+1078 Butcher Knife
+1079 Dragonslayer's Axe
+1080 Missionary's Axe
+1081 Thrall Axe
+1082 Dragonslayer Greataxe
+1083 Demon's Greataxe
+1084 Club
+1085 Mace
+1086 Morning Star
+1087 Reinforced Club
+1088 Throwing Knife - Fire
+1089 Throwing Knife - Lightning
+1090 Large Club
+1091 Great Club
+1092 Throwing Knife - Dark
+1093 Cursed Resin
+1094 Great Mace
+1095 Giant H
+1096 Giant T
+1097 Giant A
+1098 Giant L
+1099 Great Wooden Hammer
+1100 Gargoyle Flame Hammer
+1101 Vordt's Great Hammer
+1102 Old King's Great Hammer
+1103 Demon's Fist
+1103 Balder Straight Sword
+1104 Spear
+1105 Winged Spear
+1106 Black Dragon Greataxe
+1107 Partizan
+1108 Black Dragon Greatsword
+1109 Black Dragon Sword
+1110 Black Dragon Shield
+1111 Heide Greatlance
+1112 Lothric Knight Long Spear
+1113 Four-Pronged Plow
+1114 Gargoyle Flame Spear
+1115 Rotten Ghru Spear
+1116 Tailbone Spear
+1117 Soldering Iron
+1118 Dragonslayer Swordspear
+1119 Great Scythe
+1120 Lucerne
+1121 Glaive
+1122 Halberd
+1123 Blind
+1124 Black Knight Greataxe
+1125 Blueblood Sword
+1126 Pontiff Knight Great Scythe
+1127 Great Corvian Scythe
+1128 Winged Knight Halberd
+1129 Gundyr's Halberd
+1130 Claw
+1131 Caestus
+1132 Manikin Claws
+1133 Whip
+1134 Bramd
+1135 Channeler's Trident
+1136 Marvelous Zweihander
+1137 Sanctum Shield
+1138 Talisman
+1139 Sorcerer's Staff
+1140 Storyteller's Staff
+1141 Mendicant's Staff
+1142 Crystalline Shield
+1143 Man-grub's Staff
+
+# _1
+1144 Archdeacon's Great Staff
+1145 Golden Ritual Spear
+1146 Crystal Straight Sword
+1147 Yorshka's Chime
+1148 Vordt T
+1149 Dragonslayer Greatbow
+1150 Short Bow
+1151 Composite Bow
+1152 Demon's Great Axe
+1153 Light Crossbow
+1154 Arbalest
+1155 Longbow
+1156 Dragonrider Bow
+1157 Demon's Great Hammer
+1158 Avelyn
+1159 Knight's Crossbow
+1160 Heavy Crossbow
+1162 Demon's Machete
+1163 Sellsword Twinblades
+1164 Demon's Spear
+1165 Warden Twinblades
+1166 Winged Knight Twinaxes
+1167 Dancer's Enchanted Swords
+1168 Great Machete
+1169 Brigand Twindaggers
+1170 Gotthard Twinswords
+1171 Golden Dual Swords
+1172 Onikiri and Ubadachi
+1173 Drang Twinspears
+1174 Dozer Axe
+1175 Dragon Bone Fist
+1176 Dragon Bone Smasher
+1177 Torch
+1178 Dragon Greatsword
+1179 Dragon King Greataxe
+1180 Handmaid's Dagger
+1181 Drake Sword
+1182 Abyssal Blade
+1183 Gargoyle Shield
+1184 Morion Blade
+1185 Astora Straight Sword
+1186 Barbed Straight Sword
+1187 Executioner's Greatsword
+1188 Irithyll Rapier
+1189 Painting Guardian's Curved Sword
+1190 Crescent Moon Sword
+1191 Carthus Shotel
+1192 Sage's Stiletto
+1193 Bloodlust
+1194 Darkdrift
+1195 Giant Shield
+1196 Wolf Knight's Greatsword
+1197 Hollowslayer Greatsword
+1198 Moonlight Greatsword
+1199 Drakeblood Greatsword
+1200 Firelink Greatsword
+1201 Fume Ultra Greatsword
+1202 Old Wolf Curved Sword
+1203 Giant's Halberd
+1204 Golem Axe
+1205 Eleonora
+1206 Man Serpent Hatchet
+1207 Grant
+1208 Four Knights Hammer
+1209 Heysel Pick
+1210 Hammer of the Great Tree
+1211 Warpick
+1212 Pickaxe
+1213 Dragon Tooth
+1214 Smough's Great Hammer
+1215 Blacksmith Hammer
+1216 Arstor's Spear
+1217 Saint Bident
+1218 Yorshka's Spear
+1219 Pike
+1220 Disc Chime
+1221 Dragonslayer Spear
+1222 Lothric's Scythe
+1223 Ancient Dragon Halberd
+1224 Gravelord Curved Sword
+1225 Red Hilted Halberd
+1226 Black Knight Glaive
+1227 Immolation Tinder
+1229 Dark Hand
+1230 Witch's Locks
+1231 Notched Whip
+1232 Spotted Whip
+1233 Sage's Crystal Staff
+1234 Heretic's Staff
+1235 Court Sorcerer's Staff
+1236 Witchtree Branch
+1237 Izalith Staff
+1238 Cleric's Sacred Chime
+1239 Priest's Chime
+1240 Saint-tree Bellvine
+1241 Caitha's Chime
+1242 Crystal Chime
+1243 Sunlight Talisman
+1244 Canvas Talisman
+1245 Sunless Talisman
+1246 Saint's Talisman
+1247 White Hair Talisman
+1248 Pyromancy Flame
+1250 Great Lord Greatsword
+1251 Greatshield of Artorias
+1252 Greatsword of Artorias
+1253 Guillotine Axe
+1254 Darkmoon Longbow
+1255 Onislayer Greatbow
+1256 Black Bow of Pharis
+1257 Hands of God
+1258 Sniper Crossbow
+1259 Drang Hammers
+1260 Twin Princes' Greatsword
+1261 Lothric's Holy Sword
+1262 Wolnir's Holy Sword
+1263 Morne's Great Hammer
+1264 Spiked Mace
+1265 Storm Ruler
+1266 Anri's Straight Sword
+1267 Onyx Blade
+1268 Follower Sabre
+1269 Millwood Battle Axe
+1270 Earth Seeker
+1271 Quakestone Hammer
+1272 Follower Javelin
+1273 Friede's Great Scythe
+1274 Rose of Ariandel
+1275 Crow Talons
+1276 Valorheart
+1277 Crow Quills
+1278 Millwood Greatbow
+1279 Pyromancer's Parting Flame
+1280 Follower Torch
+1281 Aquamarine Dagger
+1282 Murky Hand Scythe
+1283 Ringed Knight Straight Sword
+1284 Gael's Greatsword
+1285 Demon's Scar
+1286 Frayed Blade
+1287 Ledo's Great Hammer
+
+# _2
+1288 Ringed Knight Spear
+1289 Lothric War Banner
+1290 Crucifix of the Mad King
+1291 Splitleaf Greatsword
+1292 Murky Longstaff
+1293 Sacred Chime of Filianore
+1294 White Birch Bow
+1295 Repeating Crossbow
+1296 Giant Door Shield
+1297 Ringed Knight Paired Greatswords
+1298 Preacher's Right Arm
+1299 Harald Curved Greatsword
+1300 Steel H
+1301 Steel T
+1302 Steel A
+1303 Steel L
+1304 Dragonrider H
+1305 Dragonrider T
+1306 Dragonrider A
+1307 Dragonrider L
+1308 Penetrator H
+1309 Penetrator T
+1310 Penetrator A
+1311 Penetrator L
+1312 Paladin H
+1313 Paladin T
+1314 Paladin A
+1315 Paladin L
+1316 Quicksilver H
+1317 Quicksilver T
+1318 Quicksilver A
+1319 Quicksilver L
+1320 Heide Mask
+1321 Gloom H
+1322 Gloom T
+1323 Gloom A
+1324 Gloom L
+1325 Gargoyle Skull
+1326 Crab Helmet
+1327 Great Lord H
+1328 Great Lord T
+1329 Great Lord A
+1330 Great Lord L
+1331 Giant Slave Helmet
+1332 Corvian Knight Helmet
+1333 Ciaran H
+1334 Ciaran T
+1335 Ciaran A
+1336 Ciaran L
+1337 Ancient King H
+1338 Ancient King T
+1339 Ancient King A
+1340 Ancient King L
+1341 Demon Cleric Mask
+1342 Pontiff's Crown
+1343 Pontiff's Bracelets
+1344 Black Cleric H
+1345 Black Cleric T
+1346 Black Cleric A
+1347 Black Cleric L
+1348 Binded H
+1349 Binded T
+1350 Binded A
+1351 Binded L
+1352 Venerable Sage H
+1353 Venerable Sage T
+1354 Venerable Sage A
+1355 Venerable Sage L
+1356 Moonlight H
+1357 Moonlight T
+1358 Moonlight A
+1359 Moonlight L
+1360 Beast Claw
+1361 Rakuyo
+1362 Ladle
+1363 Crypt Blacksword
+1364 Smelter Sword
+1365 Blue Flame
+1366 Ash Demon Hammer
+1367 Elder Ghru Tree
+1368 Giant Crab Arm
+1369 Hunter's Log
+1370 Serpentine Twindaggers
+1371 Shiv
+1372 Serpentine Hatchet
+1373 Serpentine Axe
+1374 Thrall Harpe
+1375 Smouldering Curved Sword
+1376 Smouldering Dagger
+1377 Smouldering Spear
+1378 Thrall Pick
+1379 Worker Machete
+1380 Rampart Golem Lance
+1381 Bewitched Alonne Sword
+1382 Bone Scythe
+1383 Dragonrider Halberd
+1384 Key to the Embedded
+1385 King's Ultra Greatsword
+1386 Pilgrim's Spontoon
+1387 Sacred Chime Hammer
+1388 Scythe of Nahr Alma
+1389 Scythe of Want
+1390 Crab Claw
+1391 Crystal Ring Shield
+1392 Sanctus
+1393 Shield of the Hunted
+1394 Smouldering Shield
+1395 Velka's Talisman
+1396 Consumed King's Staff
+1397 Rotten Talisman
+1398 Smouldering Talisman
+1399 Dragon Hunter H
+1400 Dragon Hunter T
+1401 Dragon Hunter A
+1402 Dragon Hunter L
+1403 Ivory King H
+1404 Ivory King T
+1405 Ivory King A
+1406 Ivory King L
+1407 Mad Warrior H
+1408 Mad Warrior T
+1409 Mad Warrior A
+1410 Mad Warrior L
+1411 Mirror Knight H
+1412 Mirror Knight T
+1413 Mirror Knight A
+1414 Mirror Knight L
+1415 Syan Knight H
+1416 Syan Knight T
+1417 Syan Knight A
+1418 Syan Knight L
+1419 Hands of Sin
+1420 Frying Pan / Throwing Frying Pan
+1421 Serpentine Chain-axe
+1422 Imperious Greatshield
+1423 Giant's Bow
+1424 Model Ballista
+1425 Thorned Greatsword
+1426 King's Mirror
+1427 True Manikin Mask
+1428 Manikin T
+1429 Manikin A
+1430 Manikin L
+1431 False Manikin Mask
+
+#------------------------
+# BLOCK 2
+#------------------------
+2000 Buckler
+2001 Small Leather Shield
+2003 Round Shield
+2004 Large Leather Shield
+2006 Hawkwood's Shield
+2007 Iron Round Shield
+2010 Wooden Shield
+2011 Kite Shield
+2012 Ghru Rotshield
+2014 Havel's Greatshield
+2015 Target Shield
+2017 Lothric Knight Shield
+2020 Knight Shield
+2021 Carthus Shield
+2022 Pontiff Knight Shield
+2023 Black Knight Shield
+2024 Lothric Knight Greatshield
+2025 Cathedral Knight Greatshield
+2027 Dragonslayer Greatshield
+2028 Elkhorn Round Shield
+2029 Warrior's Round Shield
+2030 Caduceus Round Shield
+2031 Red and White Round Shield
+2032 Plank Shield
+2033 Leather Shield
+2034 Crimson Parma
+2035 Eastern Iron Shield
+2036 Llewellyn Shield
+2037 Cleric Parma
+2038 Golden Falcon Shield
+2039 Sacred Bloom Shield
+2040 Prince's Shield
+2041 Silver Knight Shield
+2042 Spiked Shield
+2043 Pierce Shield
+2044 East-West Shield
+2045 Sunlight Shield
+2046 Crest Shield
+2047 Dragon Crest Shield
+2048 Spider Shield
+2049 Grass Crest Shield
+2050 Sunset Shield
+2051 Golden Wing Crest Shield
+2052 Blue Wooden Shield
+2053 Silver Eagle Kite Shield
+2054 Stone Parma
+2055 Spirit Tree Crest Shield
+2056 Porcine Shield
+2057 Shield of Want
+2058 Wargod Wooden Shield
+2059 Relic of Corruption
+2060 [Unassigned]
+2061 Moaning Shield
+2062 Ancient Dragon Greatshield
+2063 Yhorm's Greatshield
+2064 Black Iron Greatshield
+2065 Wolf Knight's Greatshield
+2066 Twin Dragon Greatshield
+2067 Greatshield of Glory
+2068 Curse Ward Greatshield
+2069 Bonewheel Shield
+2070 Stone Greatshield
+2071 Ancient Dragon Greatshield
+2072 Ethereal Oak Shield
+2073 Follower Shield
+2074 Dragonhead Shield
+2075 Dragonhead Greatshield
+2076 Frost Arrow
+2077 Lacerating Arrow (Unassigned)
+2078 Arrow Green (Unassigned)
+2079 Arrow Grey (Unassigned)
+2080 Frost Arrow (Unassigned)
+2081 Lacerating Arrow
+2082 Lightning Arrow
+2083 Greatarrow Blue (Unassigned)
+2084 Moonlight Greatarrow
+2085 Greatarrow Green (Unassigned)
+2086 Corrupted Greatarrow
+2087 Demonic Greatarrow
+2088 Magic Bolt
+2089 Dark Bolt
+2090 Frost Bolt
+2091 Poison Bolt
+2092 Fire Bolt
+2093 Lacerating Bolt (Unassigned)
+2094 Insanity Catalyst
+2095 Istraselle
+2096 Kris Blade
+2097 Lifehunt Scythe
+2098 Makoto
+2099 Man Serpent Greatsword
+2100 Manus Catalyst
+2101 Moonlight Butterfly Horn
+2102 Morion Great Blade
+2103 Needle of Eternal Agony
+2104 Obsidian Greatsword
+2105 Penetrating Sword
+2106 Phosophrescent Pole
+2107 Quelaag's Fury Sword
+2108 Pharros Lockstone (Unassigned)
+2109 Old Branch of Yore (Unassigned)
+2110 Petrified Something
+2111 Bonfire Ascetic (Unassigned)
+2112 Ash Knuckle Ring (Unassigned)
+2113 Bracing Knuckle Ring (Unassigned)
+2114 Ring of Blades
+2115 Stone Ring
+2116 Giant's ring (Unassigned)
+2117 Clear Bluestone Ring (Unassigned)
+2118 Old Sun Ring
+2119 Ring of Thorns (Unassigned)
+2120 Red String
+2121 Ludleth's Crown
+2122 Stone H
+2123 Stone T
+2124 Stone A
+2125 Stone L
+2126 Guardian H
+2127 Guardian T
+2128 Guardian A
+2129 Guardian L
+2130 Gough H
+2131 Gough T
+2132 Gough A
+2133 Gough L
+2134 Crimson H
+2135 Crimson T
+2136 Crimson A
+2137 Crimson L
+2138 Channeler H
+2139 Channeler T
+2140 Channeler A
+2141 Channeler L
+2142 Fist of Gratia
+2143 Gatling Gun
+
+#------------------------
+# BLOCK 3
+#------------------------
+3000 Fallen Knight H
+3001 Fallen Knight T
+3002 Pursuer H 
+3003 Pursuer T 
+3004 Knight H
+3005 Knight T
+3006 Giant H 
+3007 Giant T 
+3008 Burial Knight H
+3009 Burial Knight T
+3010 Mask of the Father 
+3011 Mask of the Mother 
+3012 Firelink H
+3013 Firelink T
+3014 Mask of the Child 
+3015 Sage's Big Hat 
+3016 Sellsword H
+3017 Sellsword T
+3018 Gallant H 
+3019 Gallent T 
+3020 Herald H
+3021 Herald T
+3022 Dull Gold H 
+3023 Dull Gold T 
+3024 Sunless H
+3025 Sunless T
+3026 Huntsman H
+3027 Huntsman T
+3028 Black Hand H
+3029 Black Hand T
+3030 Brushwood H
+3031 Brushwood T
+3032 Xanthous H
+3033 Xanthous T
+3034 Xanthous A
+3035 Xanthous L
+3036 Northern H
+3037 Northern T
+3038 Northern A
+3039 Northern L
+3040 Morne's H
+3041 Morne's T
+3042 Morne A
+3043 Morne L
+3044 Leonhard's H
+3045 Leonhard's T
+3046 Leonhard A
+3047 Leonhard L
+3048 Pale Shade H
+3049 Pale Shade T
+3050 Pale Shade A
+3051 Pale Shade L
+3052 Sunset H
+3053 Sunset T
+3054 Sunset A
+3055 Sunset L
+3056 Cornyx H
+3057 Cornyx T
+3058 Cornyx A
+3059 Cornyx L
+3060 Executioner H
+3061 Executioner T
+3062 Executioner A
+3063 Executioner L
+3064 Yuria H
+3065 Yuria T
+3066 Yuria A
+3067 Yuria L
+3068 Pyromancer H
+3069 Pyromancer T
+3070 Pyromancer A
+3071 Pyromancer L
+3072 Court Sorcerer H
+3073 Court Sorcerer T
+3074 Court Sorcerer A
+3075 Court Sorcerer L
+3076 Sorcerer H
+3077 Sorcerer T
+3078 Sorcerer A
+3079 Sorcerer L
+3080 Cleric H
+3081 Cleric T
+3082 Cleric A
+3083 Cleric L
+3084 Carthus Swordsman H
+3085 Carthus Swordsman T
+3086 Carthus Swordsman A
+3087 Carthus Swordsman L
+3088 Grotto H
+3089 Grotto H
+3090 Grotto A
+3091 Grotto L
+3092 Deserter H
+3093 Deserter T
+3094 Gallant H
+3095 Gallant T
+3096 Deserter Hood
+3097 Thrall Hood
+3098 USED
+3099 USED
+3100 Warden H
+3101 Warden T
+3102 USED
+3103 USED
+3104 Jailer H
+3105 Jailer T
+3106 USED
+3107 USED
+3108 Maiden H
+3109 Maiden T
+3110 USED
+3111 USED
+3112 Footman H
+3113 Footman T
+3114 USED
+3115 USED
+3116 Grave Warden H
+3117 Grave Warden T
+3118 USED
+3119 USED
+3120 Worker H
+3121 Worker T
+3122 USED
+3123 USED
+3124 USED
+3125 USED
+3126 USED
+3127 USED
+3128 Evangelist H
+3129 Evangelist T
+3130 USED
+3131 USED
+3132 Scholar H
+3133 Scholar T
+3134 Fluted H
+3135 Fluted T
+3136 Winged Knight H
+3137 Winged Knight T
+3138 USED
+3139 USED
+3140 USED
+3141 USED
+3142 Huntsman's Cap
+3143 Huntsman's Armor
+
+# _1
+3144 Cathedral Knight H
+3145 Cathedral Knight T
+3146 USED
+3147 USED
+3148 USED
+3149 USED
+3150 Mirdan H
+3151 Mirdan T
+3152 Lothric Knight H
+3153 Lothric Knight T
+3154 USED
+3155 USED
+3156 Outrider Knight H
+3157 Outrider Knight T
+3158 USED
+3159 USED
+3160 Black Knight H
+3161 Black Knight T
+3162 USED
+3163 USED
+3164 Darkwraith H
+3165 Darkwraith T
+3166 USED
+3167 USED
+3168 Exile H
+3169 Exile T
+3170 USED
+3171 USED
+3172 Pontiff Knight H
+3173 Pontiff Knight T
+3174 USED
+3175 USED
+3176 Nameless King H
+3177 Nameless King T
+3178 USED
+3179 USED
+3180 Wolnir's Crown
+3181 USED
+3182 USED
+3183 Sentinel Helmet
+3184 Undead Legion H
+3185 Undead Legion T
+3186 USED
+3187 USED
+3188 Sentinel Armor
+3189 USED
+3190 USED
+3191 Three-cornered Hat
+3192 Serpentine H
+3193 Serpentine T
+3194 Old Raggedy Robes
+3195 USED
+3196 Fire Witch H
+3197 Fire Witch T
+3198 USED
+3199 USED
+3200 Lorian H
+3201 Lorian T
+3202 USED
+3203 USED
+3204 Prayer H
+3205 Prayer T
+3206 USED
+3207 USED
+3208 Yhorm H
+3209 Yhorm T
+3210 USED
+3211 USED
+3212 Dancer H
+3213 Dancer T
+3214 USED
+3215 USED
+3216 Gundyr H
+3217 Gundyr T
+3218 USED
+3219 USED
+3220 Charlatan H
+3221 Charlatan T
+3222 USED
+3223 USED
+3224 Archdeacon H
+3225 Archdeacon T
+3226 Martyr T
+3227 USED
+3228 USED
+3229 Deacon T
+3230 USED
+3231 USED
+3232 Frigid Valley Mask 
+3233 Pickpocket H
+3234 Pickpocket T
+3235 USED
+3236 Fire Keeper H
+3237 Fire Keeper T
+3238 USED
+3239 USED
+3240 USED
+3241 Magician T
+3242 USED
+3243 USED
+3244 Elite Knight H
+3245 Elite Knight T
+3246 USED
+3247 USED
+3248 Faraam H
+3249 Faraam T
+3250 USED
+3251 USED
+3252 Catarina H
+3253 Catarina T
+3254 USED
+3255 USED
+3256 Havel H
+3257 Havel T
+3258 USED
+3259 USED
+3260 Pharis H
+3261 Pharis T
+3262 USED
+3263 USED
+3264 Old Sorcerer H
+3265 Old Sorcerer T
+3266 USED
+3267 USED
+3268 Vordt H
+3269 Black Leather T
+3270 USED
+3271 USED
+3272 Creighton H
+3273 Creighton T
+3274 USED
+3275 USED
+3276 Alva H
+3277 Alva T
+3278 USED
+3279 USED
+3280 Shadow H
+3281 Shadow T
+3282 USED
+3283 USED
+3284 Eastern H
+3285 Eastern T
+3286 USED
+3287 USED
+
+# _2
+3288 Favor H
+3289 Favor T
+3290 USED
+3291 USED
+3292 Brass H
+3293 Brass T
+3294 USED
+3295 USED
+3296 Silver Knight H
+3297 Silver Knight T
+3298 USED
+3299 USED
+3300 Lucatiel H
+3301 Lucatiel T
+3302 USED
+3303 USED
+3304 Sunlight H
+3305 Sunlight T
+3306 USED
+3307 USED
+3308 Drakeblood H
+3309 Drakeblood T
+3310 USED
+3311 USED
+3312 Frostfall
+3313 Drang T
+3314 USED
+3315 USED
+3316 Black Iron H
+3317 Black Iron T
+3318 USED
+3319 USED
+3320 Painting Guardian H
+3321 Painting Guardian T
+3322 USED
+3323 USED
+3324 Wolf Knight H
+3325 Wolf Knight T
+3326 USED
+3327 USED
+3328 Dragonslayer H
+3329 Dragonslayer T
+3330 USED
+3331 USED
+3332 Smough H
+3333 Smough T
+3334 USED
+3335 USED
+3336 Maiden H
+3337 Maiden T
+3338 USED
+3339 USED
+3340 Deserter H
+3341 Deserter T
+3342 USED
+3343 USED
+3344 Nameless Knight H
+3345 Nameless Knight T
+3346 USED
+3347 USED
+3348 Hard Leather H
+3349 Hard Leather T
+3350 USED
+3351 USED
+3352 Brigand H
+3353 Brigand T
+3354 USED
+3355 USED
+3356 Sword Master H
+3357 Sword Master T
+3358 USED
+3359 USED
+3360 Conjurator H
+3361 Confjurator T
+3362 USED
+3363 USED
+3364 Symbol of Avarice
+3365 Eastern Commander H
+3366 Eastern Commander T 
+3367 USED
+3368 Hexer H
+3369 Hexer T
+3370 USED
+3371 USED
+3372 Thorns H
+3373 Thorns T
+3374 USED
+3375 USED
+3376 Varangian H
+3377 Varangian T
+3378 USED
+3379 USED
+3380 Dusk H
+3381 Dusk T
+3382 USED
+3383 USED
+3384 Karla H
+3385 Karla T
+3386 USED
+3387 USED
+3388 Assassin H
+3389 Assassin T
+3390 USED
+3391 Eastern General H
+3392 Clandestine Coat (F)
+3393 Cleric (F) H
+3394 Cleric (F) T
+3395 Eastern General T
+3396 Cleric (F) L
+3397 Cleric T (Unassigned)
+3398 Chain H (F)
+3399 Chain T (F)
+3400 Chain A (F)
+3401 Chain L (F)
+3402 Hard Leather (F) H
+3403 Hard Leather (F) T
+3404 Eastern General Gauntlets
+3405 Hard Leather (F) L
+3406 Brigand (F) H
+3407 Brigand (F) T
+3408 USED
+3409 USED
+3410 Pharis (F) H (Unassigned)
+3411 Pharis (F) T
+3412 USED
+3413 USED
+3414 Old Sorcerer (F) H
+3415 Old Sorcerer (F) T
+3416 USED
+3417 USED
+3418 Eastern General Leggings
+3419 Eastern Wolf T
+3420 Thief Mask (Hood)
+3421 Cleric T (Unassigned)
+3422 Clandestine Coat
+3423 USED
+3424 USED
+3425 Fallen Prince's Helm H
+3426 Fallen Prince's Armor T
+3427 Conjurator (F) H
+3428 Conjurator (F) T
+3429 USED
+3430 USED
+3431 Thief Mask (Unassigned)
+
+# _3
+3432 Black Leather (F) T
+3433 USED
+3434 USED
+3435 Shadow (F) H
+3436 Shadow (F) T
+3437 USED
+3438 USED
+3439 Sword Master (F) T
+3440 Sorcerer (F) T
+3441 Farron Follower H
+3442 Farron Follower T
+3443 USED
+3444 USED
+3445 Millwood H
+3446 Millwood T
+3447 USED
+3448 USED
+3449 Vilhelm H
+3450 Vilhelm T
+3451 USED
+3452 USED
+3453 Slave Knight H
+3454 Slave Knight T
+3455 USED
+3456 USED
+3457 Friede H
+3458 Friede T
+3459 Fallen Prince's Gauntlets
+3460 USED
+3461 Friede (F) T
+3462 Fallen Prince's Leggings
+3463 Halflight T
+3464 USED
+3465 USED
+3466 Shira H
+3467 Shira T
+3468 USED
+3469 USED
+3470 Lapp's H
+3471 Lapp's T
+3472 USED
+3473 USED
+3474 Ruin Sentinel H
+3475 Ruin Sentinel T
+3476 USED
+3477 USED
+3478 Harald Knight T
+3479 USED
+3480 USED
+3481 Royal Swordsman H
+3482 Royal Swordsman T
+3483 Royal Swordsman A
+3484 Royal Swordsman L
+3485 Desert Pyromancer H
+3486 Desert Pyromancer T
+3487 USED
+3488 USED
+3489 Black Witch H
+3490 Black Witch T
+3491 USED
+3492 USED
+3493 Black Witch Veil
+3494 Purple Mask
+3495 Ringed Knight H
+3496 Ringed Knight T
+3497 USED
+3498 USED
+3499 Tiny Mass of Humanity (Unassigned)
+3500 Halflight (F) T
+3501 Halflight (F) L
+3502 Desert Pyromancer (F) T
+3503 Desert Pyromancer (F) L
+3504 Black Witch (F) T
+3505 Vordt L
+3506 Black Witch (F) L
+3507 Iron Dragonslayer H
+3508 Iron Dragonslayer T
+3509 USED
+3510 USED
+3511 Preacher Head
+3512 Alonne H
+3513 Alonne T
+3514 USED
+3515 USED
+3516 Rampart Golem H
+3517 Rampart Golem T
+3518 USED
+3519 USED
+3520 Smelter Demon H
+3521 Smelter Demon T
+3522 USED
+3523 USED
+3524 Bone Ash H
+3525 Bone Ash T
+3526 USED
+3527 USED
+3528 Heide H
+3529 Heide T
+3530 USED
+3531 USED
+3532 Imperious H
+3533 Imperious T
+3534 USED
+3535 USED
+3536 Badger's Black Hat
+3537 Mask of Horror
+3538 Vordt A
+3539 Gyoubu's Helm
+3540 Nightjar Mask
+3541 Okami Mask
+3542 Seven Spear Helmet
+3543 Tengu Mask
+3544 Monk Straw Hat
+3545 Carthus Blindfold
+3546 Crown of Filianore
+3547 Mask of Sin
+3548 Old Demon King's Crown
+3549 Poisonhorn Helmet
+3550 Pygmy Crown
+3551 Vagabond Cowl
+3552 Hollow Head
+3553 Basilisk Cap
+3555 Crown of the Holy King
+3556 Pot Helmet
+3557 Mailed Soldier Helmet
+3557 Priest Mask
+3558 Helm of the Wise
+3559 Armor of the Glorious
+3560 USED
+3561 Hallowed Knight H
+3562 Hallowed Knight B
+3563 USED
+3564 USED
+3565 Courtier's Wig
+3566 Courtier's Garb
+3567 USED
+3568 USED
+3569 Crown of the Fallen
+3570 Steel Helm
+3571 Steel Armor
+3572 USED
+3573 USED
+3574 USED
+3575 Relic of Legends
+
+#------------------------
+# BLOCK 4
+#------------------------
+4000 Soul Arrow
+4001 Soul Instability
+4002 Static Field
+4003 Blood Corruption
+4004 Homing Soulmass
+4005 Homing Crystal Soulmass
+4006 Soul Spear
+4007 Crystal Soul Spear
+4008 Magic Weapon
+4009 Great Magic Weapon
+4010 Crystal Magic Weapon
+4011 Magic Shield
+4012 Great Magic Shield
+4013 Hidden Weapon
+4014 Hidden T
+4015 Cast Light
+4016 Meat Cleaver
+4017 Repair
+4018 Spook
+4019 Chameleon
+4020 Spiral Greatsword
+4021 Fireball
+4022 Adjudicator's Shield
+4023 Fire Orb
+4024 Firestorm
+4025 Blood Crystallization
+4026 Rune Shield
+4027 Quicksilver Shield
+4028 Great Combustion
+4029 Poison Mist
+4030 Toxic Mist
+4031 Iron Flesh
+4032 Flash Sweat
+4033 Carthus Flame Arc
+4034 Heal
+4035 Great Heal
+4036 Soothing Sunlight
+4037 Replenishment
+4038 Bountiful Sunlight
+4039 Homeward
+4040 Force
+4041 Wrath of the Gods
+4042 Emit Force
+4043 Seek Guidance
+4044 Lightning Spear
+4045 Great Lightning Spear
+4046 Sunlight Spear
+4047 Magic Barrier
+4048 Great Magic Barrier
+4049 Lightning Blade
+4050 Twinfang Greatshield
+4051 Sacred Oath
+4052 Tears of Denial
+4053 Dragonkin Shield
+4054 Great Chaos Fire Orb
+4055 Bulwark Shield
+4056 Challenge Ring 1 (Cursed Ring of Evasion)
+4057 White Dragon Breath
+4058 Blood Soul (Unassigned)
+4059 Farron Hail
+4060 Crystal Hail
+4061 Soul Greatsword
+4062 Challenge Ring 2 (Cursed Ring of Vengeance)
+4063 Challenge Ring 3 (Cursed Ring of Deflection)
+4064 Challenge Ring 4 (Cursed Ring of Confusion)
+4065 Aural Decoy
+4066 Paired Fume Swords
+4067 Smelter Hammer
+4068 Ice Burn
+4069 Med Heal
+4070 Dragon Eye
+4071 Bountiful Light
+4072 Caressing Tears
+4073 Humanity
+4074 Vow of Silence
+4075 Black Dragon H
+4076 Black Dragon T
+4077 Darkmoon Blade
+4078 Black Dragon A
+4079 Black Dragon L
+4080 Blue Band (Unassigned)
+4081 Devil's Trumpet
+4082 Moonflower
+4083 Henbane
+4084 Profuse Sweat
+4085 Accursed Ring (Unassigned)
+4086 Frozen Pine Resin
+4087 Chaos Storm
+4088 Fire Surge
+4089 Fire Whip
+4090 Ring of Betrothal
+4091 Profaned Flame
+4092 Chaos Bed Vestiges
+4093 Relic of Insanity
+4094 Acid Surge
+4095 Power Within
+4096 Rapport
+4097 Black Flame
+4098 Warmth
+4099 Deep Soul
+4100 Black Serpent
+4101 Great Deep Soul
+4102 Farron Flashsword
+4103 Writ (Unassigned)
+4104 Soul Stream
+4105 Scattering Soul Orb
+4106 Affinity
+4107 Scattering Crystal Orb
+4108 Black Fire Orb
+4109 Orbs of Judgment
+4110 Bursting Fireball
+4111 Dead Again
+4112 Dark Blade
+4113 Boulder Heave
+4114 Sacred Flame
+4115 Twisted Wall of Light
+4116 Carthus Beacon
+4117 Gnaw
+4118 Dorhys' Gnawing
+4119 Lifehunt Scythe
+4120 Blizzard
+4121 Lightning Stake
+4122 Divine Pillars of Light
+4123 Lightning Storm
+4124 Inferi Petal
+4125 Pestilent Mist
+4126 Dark Edge
+4127 Atonement
+4128 Deep Protection
+4129 Blessed Weapon
+4130 Farron Dart
+4131 Maelstrom
+4132 Heal Aid
+4133 Combustum Petal
+4134 Vindicti Petal
+4135 Frozen Weapon
+4136 Snap Freeze
+4137 Floating Chaos
+4138 Way of White Corona
+4139 Barathrum Petal
+4140 Celeritas Stem
+4141 Proof of a Pact
+4142 Veloxi Moss
+4143 Dominating Skull (Unassigned)
+4144 Old Moonlight
+4145 Great Soul Dregs
+4146 Flame Fan
+4147 Seething Chaos
+4148 Lightning Arrow
+4149 Projected Heal
+4150 Shockwave
+4151 Boon Tablet
+4152 Focus Souls (Unassigned)
+4153 Soul Bolt (Unassigned)
+4154 Soul Flash (Unassigned)
+4155 Soul Geyser
+4156 Soul Vortex (Unassigned)
+4157 Unleash Magic
+4158 Dance of Fire
+4159 Fire Snake (Unassigned)
+4160 Immolation
+4161 Lingering Flame
+4162 Outcry (Unassigned)
+4163 Heavenly Thunder
+4164 Perseverance
+4165 Angelic Barrage
+4166 Unveil (Unassigned)
+4167 Resplendent Life (Halo)
+4168 Splintering Lightning Spear (Unassigned)
+4169 Blinding Bolt (Lightning Orb)
+4170 Earthquake
+4171 Earthfall
+4172 Rockflesh
+4173 Heave Earth
+4174 Vow of Agony
+4175 Black Carthus Flame Arc
+4176 Black Bursting Fireball
+4177 Black Chaos Flame Vesitges
+4178 Black Fireball
+4179 Black Iron Flesh (Unassigned)
+4180 Black Profaned Flame (Unassigned)
+4181 Black Profuse Sweat (Unassigned)
+4182 Black Rapport (Unassigned)
+4183 Black Warmth (Unassigned)
+4184 Divine Arrow
+4185 Lothric's Holy Spear
+4186 Pungent Blade
+4187 Pulsating Blade
+4188 Fecal Explusion
+4189 Overwhelming Power
+4190 Ghostly Assault
+4191 Winged Helm of Ridoh
+4192 King's Crown
+4193 King's Armor
+4194 USED
+4195 USED
+4196 Cowl of the Bear
+4197 Armor of the Bear
+4198 USED
+4199 USED
+4200 Hunter's Mark (Unassigned)
+4201 Cannon
+4202 Church Cannon
+4203 Hunter's Pistol
+4204 Repeating Pistol
+4205 Evelynn
+4206 Hunter's Blunderbuss
+4207 Rosamarius
+4208 Corvian Knight T
+4209 USED
+4210 USED
+4211 Gargoyle T
+4212 USED
+4213 USED
+4214 Elite Cleric H
+4215 Elite Cleric T
+4216 USED
+4217 USED
+4218 Raime H
+4219 Raime T
+4220 USED
+4221 USED
+4222 Alonne Captain H
+4223 Alonne Captain T
+4224 USED
+4225 USED
+4226 Gravekeeper H
+4227 Gravekeeper T
+4228 USED
+4229 USED
+4230 Attendant H
+4231 Attendant T
+4232 Artifical Helmet
+4233 Giant-horned Helmet
+4234 Heide Lance
+4235 Overseer's Mask
+4236 Suspicious Gold Mask
+4237 Boar Helm
+4238 Barrel
+4239 Bucket
+4240 Sack
+4241 Rosaria's Dress
+4242 Salvador's Hat
+4243 Snail Shell
+4244 Willem's Cap
+4245 Rattling Skull (Unassigned)
+4246 Murky Skull (Unassigned)
+4247 Hunter's Emblem (Unassigned)
+4248 Accursed Sigil
+4249 Tainted Chalice
+4250 Lifegem
+4251 Radiant Lifegem
+4252 Old Radiant Lifegem
+4253 Elizabeth Mushroom
+4254 Dried Root
+4255 Rouge Water
+4256 Crimson Water
+4257 Frigid Orbs
+4258 Servant of the Rat
+4259 Rat Tail
+4260 Spellbound Pellet
+4261 Holy Urn
+4262 Aldia Hammer
+4263 Black Scorpion Stinger
+4264 Dragonrider Twinblade
+4265 Drakekeeeper's Great Hammer
+4266 Drakekeeper's Greataxe
+4267 Drakekeeper's Warpick
+4268 Drakewing Ultra Greatsword
+4269 Gargoyle Bident
+4270 Giant Warrior Club
+4271 Helix Halberd
+4272 Malformed Skull
+4273 Melu Scimitars
+4274 Old Knight Battle Axe
+4275 Old Knight Maces
+4276 Old Knight Glaive
+4277 Red Rust Scimitar
+4278 Roaring Halberd
+4279 Sanctum Mace
+4280 Spider's Silk
+4281 Spitfire Spear
+4282 Syan's Halberd
+4283 Warped Sword
+4284 Ivory King Ultra Greatsword
+4285 Stone Greataxe
+4286 Gargoyle Halberd
+4287 Gargoyle Axe
+
+#------------------------
+# BLOCK 5
+#------------------------
+5000 Life Ring
+5001 Ring of Constitution (Unassigned)
+5002 Ring of Fortitude (Unassigned)
+5003 Ring of Clarity (Unassigned)
+5004 Chloranthy Ring
+5005 Iron Grain Ring (Bestial Band)
+5006 Elder Dragon Ring (Unassigned)
+5007 Havel's Ring
+5008 Ring of Disparity (Unassigned)
+5009 Ring of the Sun (Unassigned)
+5010 Ring of Favor
+5011 Abyss Ring (Unassigned)
+5012 Ring of Alacrity (Unassigned)
+5013 Ring of Steel Protection
+5014 Vanquisher Ring (Unassigned)
+5015 Celestial Ring (Unassigned)
+5016 Flame Stoneplate Ring
+5017 Ring of Retaliation (Unassigned)
+5018 Ring of Reprisal (Unassigned)
+5019 Thunder Stoneplate Ring
+5020 Ring of Spite (Unassigned)
+5021 Ring of Retribution (Unassigned)
+5022 Magic Stoneplate Ring
+5023 Ring of Vengeance (Unassigned)
+5024 Ring of Retaliation
+5025 Dark Stoneplate Ring
+5026 Ring of Reprisal
+5027 Ring of Spite
+5028 Speckled Stoneplate Ring
+5029 Ring of Retribution
+5030 Bloodbite Ring
+5031 Ring of Vengeance
+5032 Poisonbite Ring
+5033 Band of Stone
+5034 Cursebite Ring
+5035 Fleshbite Ring
+5036 Band of Magic
+5037 Wood Grain Ring
+5038 Band of Flame
+5039 Band of Sparks
+5040 Scholar Ring
+5041 Priestess Ring
+5042 Red Tearstone Ring
+5043 Blue Tearstone Ring
+5044 Wolf Ring
+5045 Band of Darkness
+5046 Old Man's Gambit
+5047 Leo Ring
+5048 Ring of Sacrifice
+5049 Rare Ring of Sacrifice
+5050 Young Dragon Ring
+5051 Bellowing Dragoncrest Ring
+5052 Great Swamp Ring
+5053 Witch's Ring
+5054 Morne's Ring
+5055 Ring of the Sun's First Born
+5056 Imported H
+5057 Imported T
+5058 Lingering Dragoncrest Ring
+5059 USED
+5061 Sage Ring
+5062 USED
+5063 Ironclad H
+5064 Slumbering Dragoncrest Ring
+5065 Dusk Crown Ring
+5066 Saint's Ring
+5067 Deep Ring
+5068 Darkmoon Ring
+5069 Ring of Momentum
+5070 Ring of Grace
+5071 Ring of Wounding
+5072 Hawk Ring
+5073 Hornet Ring
+5074 Covetous Gold Serpent Ring
+5075 Ironclad T
+5076 USED
+5077 Covetous Silver Serpent Ring
+5078 USED
+5079 Okami H
+5080 Sun Princess Ring
+5081 Silvercat Ring
+5082 Skull Ring
+5083 Untrue White Ring (Unassigned)
+5084 Carthus Milkring
+5085 Knight's Ring
+5086 Hunter's Ring
+5087 Knight Slayer's Ring
+5088 Magic Clutch Ring
+5089 Lightning Clutch Ring
+5090 Fire Clutch Ring
+5091 Dark Clutch Ring
+5092 Okami T
+5093 Flynn's Ring
+5094 Prisoner's Chain
+5095 Untrue Dark Ring (Unassigned)
+5096 Yorgh's Ring
+5098 Ring of the Evil Eye
+5099 USED
+5100 Sanctum Knight Head
+5101 Calamity Ring
+5102 Farron Ring
+5103 Aldrich's Ruby
+5104 Aldrich's Sapphire
+5105 Sanctum Knight T
+5106 USED
+5107 Lloyd's Sword Ring
+5108 Lloyd's Shield Ring
+5109 USED
+5110 Obscuring Ring
+5111 Estus Ring
+5112 Ashen Estus Ring
+5113 Horsehoof Ring
+5114 Carthus Bloodring
+5115 Reversal Ring
+5116 Pontiff's Right Eye
+5117 Stalwart Knight H
+5118 Stalwart Knight T
+5119 Corrupted Bow (Unassigned)
+5120 Pontiff's Left Eye
+5121 Throne Defender H
+5122 Throne Defender T
+5123 Throne Defender A
+5124 Dragonscale Ring
+5125 Chillbite Ring
+5126 Red Scroll
+5127 Throne Defender L
+5128 Throne Watcher H
+5129 Throne Watcher T
+5130 Rosaria's Fingers
+5131 Blade of the Darkmoon
+5132 Watchdogs of Farron
+5133 Aldrich Faithful
+5134 Throne Watcher A
+5135 Way of Blue
+5136 Warrior of Sunlight
+5137 Mound-makers
+5138 Blue Sentinels
+5139 Spears of the Church
+5140 Throne Watcher L
+5141 Wanderer H
+5142 Wanderer T
+5143 Wanderer A
+
+#------------------------
+# BLOCK 6
+#------------------------
+6000 Standard Arrow
+6001 Fire Arrow
+6002 Poison Arrow
+6003 Large Arrow
+6004 Feather Arrow
+6005 Moonlight Arrow
+6006 Wood Arrow
+6007 Dragonslayer Greatarrow
+6008 Assassin's Mark
+6009 Standard Bolt
+6010 Heavy Bolt
+6011 Sniper Bolt
+6012 Wood Bolt
+6013 Lightning Bolt
+6014 Splintering Bolt
+6015 Exploding Bolt
+6016 Dark Arrow
+6017 Dragonslayer Lightning Arrow
+6018 Onislayer Greatarrow
+6019 Millwood Greatarrow
+6020 Crystal Fragment
+6021 Abyssal Fragment
+6022 Holy Fragment
+6023 Fire Seed
+6024 Primsatic Slab
+6025 Company of Champions
+6026 Gargoyle Helm
+6027 Velka's Rapier
+6028 Gold Ardeo
+6029 Iron Cage
+6030 Iron Keeper Helm
+6031 Executioner Gauntlets
+6032 Vileblood Helmet
+6033 Vileblood Armor
+6034 Vileblood
+6035 Vileblood
+6036 Frozen Chaos
+6037 Fire Seed (Unassigned)
+6038 Lizard Hide
+6039 Lordvessel
+6040 Charred Bone (Unassigned)
+6041 Greatwood Seed Pod (Unassigned)
+6042 Pontiff's Crown (Unassigned)
+6043 Pontiff's Bracelets (Unassigned)
+6044 Harald Legion H
+6045 Bone Rapier
+6046 Engraved Dagger
+6047 Jester's Talisman
+6048 Priest's Candlestick
+6049 Smouldering Blade
+6050 Hallowed Sword
+6051 Hallowed Greatsword
+6052 Sunlight Greatsword
+6053 Bluemoon Greatsword
+6054 Loch Shield
+6055 Black Flame
+6056 Holy Flame
+6057 Sorcerous Flame
+6058 Fool's Flame
+6059 Wanderer L
+6060 Mercenary Ring
+6061 Heretic Ring
+6062 Merchant Ring
+6063 Physician Ring
+6064 Jester Ring
+6065 Rupturing Frostfire
+6066 Cleansing Stone (Unassigned)
+6067 Profaned Pyromancy Tome
+6068 Accursed Scroll
+6069 Writhing Tome
+6070 Abyssal Tome
+6071 Heavenly Tome
+6072 Angelic Tome
+6073 Primordial Shard
+6074 Large Primordial Shard
+6075 Primordial Fragment
+6076 Primordial Chunk
+6077 Primordial Slab
+6078 Ritual Incense
+6079 Dark Dance
+6080 Forgotten Tablet (Unassigned)
+6081 Demonic Claw (Unassigned)
+6082 Forgotten Seal (Unassigned)
+6083 Demonic Skull (Unassigned)
+6084 Pink Crystal (Unassigned)
+6085 Cinder (Unassigned)
+6086 Frost Gem
+6087 Invigorating Phial (Unassigned)
+6088 Rejuvenating Phial (Unassigned)
+6089 Regenerating Phial (Unassigned)
+6090 Old Bone (Unassigned)
+6091 Pygmy Brooch
+6092 Arcane Trinket
+6093 Sorcerer's Coin
+6094 Londor Tincture
+6095 Pygmy's Bracelet (Unassigned)
+6096 Greatwood Remannts
+6097 Frostflower Ring
+6098 Spirit Amethyst
+6099 Elden Ring
+6100 Abyssal Edge
+6101 Nibble
+6102 Hex Page (Unassigned)
+6103 Fancy Book (Unassigned)
+6104 Frostfire Volley
+6105 Soul Wave
+6106 Unleash Magic (Unassigned)
+6107 Abyssal Surge (Unassigned)
+6108 Dark Dance (Unassigned)
+6109 Mournful Flames
+6110 Blue Dark Hail (Unassigned)
+6111 Dark Touch (Unassigned)
+6112 Recollection
+6113 Repel
+6114 Whisper of Despair
+6115 Numbness
+6116 Perseverance (Old) (Unassigned)
+6117 Soul Flash (Unassigned)
+6118 Climax
+6119 Cataclysm
+6120 Devouring Swarm
+6121 Deep Barb
+6122 Surging Deep 1
+6123 Surging Deep 2
+6124 Seething Dregs
+6125 Soul Focus (Unassigned)
+6126 Inner Fervor (Unassigned)
+6127 Cascading Deep
+6128 Dreg Torrent
+6129 Yearning Void
+6130 Orbs of Judgment (Unassigned)
+6131 Ring of Conjuration
+6132 Eyri's Signet
+6133 Ofydd's Signet
+6134 Ifanna's Signet
+6135 Grufudd's Signet
+6136 [Unassigned]
+6137 [Unassigned]
+6138 [Unassigned]
+6139 [Unassigned]
+6140 [Unassigned]
+6141 [Unassigned]
+6142 [Unassigned]
+6143 [Unassigned]
+
+#------------------------
+# BLOCK 7
+#------------------------
+7000 Beckon
+7001 Praise the Sun
+7002 Point up
+7003 Point down
+7004 Duel bow
+7005 Point forward
+7006 Welcome
+7007 Prostration
+7008 Proper bow
+7009 Prayer
+7010 Bow
+7011 Wave
+7012 Hurrah!
+7013 [Unassigned]
+7014 Jump for joy
+7015 My thanks!
+7016 Joy
+7017 [Unassigned]
+7018 Rest
+7019 [Unassigned]
+7020 [Unassigned]
+7021 [Unassigned]
+7022 [Unassigned]
+7023 [Unassigned]
+7024 By my sword
+7025 [Unassigned]
+7026 Ravenous Chalice
+7027 Empty H
+7028 Empty T
+7029 Dignified bow
+7030 Unmannered Bow
+7031 Gesture
+7032 Curl up
+7033 Stretch out
+7034 Call over
+7035 Collapse
+7036 Quiet Resolve
+7037 Patches Squat
+7038 Applause
+7039 Path of the Dragon
+7040 Legion Etiquette
+7041 Darkmoon Loyalty
+7042 Sleep
+7043 Toast
+7044 Silent Ally
+7045 Gesture
+7046 Gesture
+7047 Gesture
+7048 Gesture
+7049 Gesture
+7050 Gesture
+7051 Gesture
+7052 Gesture
+7053 Bone Marrow Ash
+7054 Frigid Tumult 
+7055 Hail of Blades
+7056 Piercing Ice
+7057 Rime
+7058 Path of Frost
+7059 Discs of Dorthinus
+7060 Gold-Hemmed Black H
+7061 Gold-Hemmed Black T
+7062 Conjure Skeleton
+7063 Conjure Hollow
+7064 Charred Loyce H
+7065 Charred Loyce T
+7066 Conjure Hound
+7067 Conjure Warrior
+7068 Forlorn H
+7069 Forlorn T
+7070 Conjure Sentinel
+7071 Conjure Lycanthrope
+7072 Jester H
+7073 Jester T
+7074 Conjure Knight
+7075 Conjure Watcher
+7076 Royal Soldier H
+7077 Royal Soldier T
+7078 Conjure Gargoyle
+7079 Ferverous Ritual
+7080 Loyce H
+7081 Loyce T
+7082 Major Restoration Ritual
+7083 Minor Restoration Ritual
+7084 Chariot Lance
+7085 Golem H
+7086 Golem T
+7087 Sacrificial Ritual
+7088 Teleport
+7089 Astrologist H
+7090 Astrologist T
+7091 Astrologist
+7092 Astrologist
+7093 Aurous H
+7094 Aurous T
+7095 Aurous
+7096 Aurous
+7097 Dragon Acolyte H
+7098 Dragon Acolyte T
+7099 Dragon Acolyte
+7100 Dragon Acolyte
+7101 Vengarl H
+7102 Vengarl T
+7103 Vengarl
+7104 Vengarl
+7105 Chester H
+7106 Chester T
+7107 Chester
+7108 Chester
+7109 Essence of Cleansing (Unassigned)
+7110 Essence of Magic (Unassigned)
+7111 Essence of Fire (Unassigned)
+7112 Essence of Lightning (Unassigned)
+7113 Essence of Darkness (Unassigned)
+7114 Essence of Poison (Unassigned)
+7115 Essence of Blood (Unassigned)
+7116 Essence of Frost (Unassigned)
+7117 Essence of Enchancement (Unassigned)
+7118 Essence of Divinity (Unassigned)
+7119 Essence of Black Fire (Unassigned)
+7120 Tome
+7121 Wrathful Orbs
+7122 Holy Schism
+7123 Wrathful Barrage
+7124 Gravelord Sword Dance
+7125 Soul Vessel
+7126 Smithbox
+7127 Essence of Avarice
+7128 Dragon Talon
+7129 Pilgrim's Soul
+7130 Smouldering Key
+7131 Eye of Londor
+7132 Frozen Flower
+7133 Broken Tablet
+7134 Catacombs Key
+7135 Giant's Soul
+7136 Smouldering Rubble
+7137 Ledo H
+7138 Ledo T
+7139 Ledo
+7140 Ledo
+7141 Primordial Essence (Unassigned)
+7142 Focus Implement (Unassigned)
+7143 Chaos Beam

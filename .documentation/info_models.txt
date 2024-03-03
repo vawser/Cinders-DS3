@@ -1,0 +1,506 @@
+#------------------------
+# Custom Weapons
+#------------------------
+0840    Hands of Sin 
+0841    Aldia Hammer 
+0842    Black Scorpion Stinger 
+0843    Dragonrider Twinblade 
+0844    Drakekeeeper's Great Hammer 
+0845    Drakekeeper's Greataxe 
+0846    Drakekeeper's Warpick
+0847    Drakewing Ultra Greatsword
+0848    Gargoyle Bident
+0849    Giant Warrior Club
+0850    Helix Halberd
+0851    Malformed Skull
+0852    Melu Scimitar
+0853    Old Knight Halberd
+0854    Old Knight Hammer
+0855    Old Knight Pike
+0856    Red Rust Scimitar
+0857    Roaring Halberd
+0858    Sanctum Mace
+0859    Spider's Silk
+0860    Spitfire Spear
+0861    Syan's Halberd
+0862    Warped Sword
+0863    Cracked Round Shield        # UNUSED
+0864    Frying Pan
+0865    Gertrude's Knight Longaxe   # UNUSED
+0866    Winged Knight Longaxe       # UNUSED
+0867    Giant's Bow
+0868    Lothric Knight Claymore     # UNUSED
+0869    Serpentine Chain-axe
+0870    Model Ballista
+0871    Bone Ash Katana             # UNUSED
+0872    Fist of Gratia              # UNUSED
+0873    Imperious Greatshield
+0874    Armored Warrior Sword       # UNUSED
+0875    Black Mortal Blade          # UNUSED
+0876    Centipede Claws             # UNUSED
+0877    Corrupted Monk Dagger       # UNUSED
+0878    Corrupted Monk Glaive       # UNUSED
+0879    Drunkard Sword              # UNUSED
+0880    Emma's Gentle Blade         # UNUSED
+0881    Genichiro's Blade           # UNUSED
+0882    Genichiro's Bow             
+0883    Guardian Ape Sword          # UNUSED
+0884    Gyoubu's Spear              # UNUSED
+0885    Headless Sword              # UNUSED
+0886    Kusabimaru                  # UNUSED
+0887    Kusabimaru+Sabimaru         # UNUSED
+0888    Loaded Axe                  # UNUSED
+0889    Loaded Spear                # UNUSED
+0890    Mortal Blade                # UNUSED
+0891    Nightjar Sickle             # UNUSED
+0892    Nightjar Twinsickles        # UNUSED
+0893    Okami Bow                   # UNUSED
+0894    Okami Glaive                # UNUSED
+0895    Okami Sword                 # UNUSED
+0896    Owl's Sword                 # UNUSED
+0897    Rat Dagger                  # UNUSED
+0898    Sabimaru                    # UNUSED
+0899    Seven Ashina Spear          # UNUSED
+
+0927    Shichimen Staff             # UNUSED
+0928    Sword Saint's Gun           # UNUSED
+0929    Sword Saint's Spear         # UNUSED
+0930    Tengu Sword                 # UNUSED
+0931    Butterfly Kunai             # UNUSED
+0932    Gun Fort Bayonet            # UNUSED
+0933    Monk Staff                  # UNUSED
+0934    Monk Twinblade              # UNUSED
+0935    Shinobi Hunter Spear        # UNUSED
+0936    Snake Eyes Cannon           # UNUSED
+0937    Taro Mace                   # UNUSED
+0938    Taro Mallet                 # UNUSED
+
+0939    Stone Greataxe
+0940    Priscilla's Dagger          # UNUSED
+0941    Jagged Ghost Blade          # UNUSED
+0942    Iaito                       # UNUSED
+0943    Hammer of Vamos             # UNUSED
+0944    Ghost Blade                 # UNUSED
+0945    Gargoyle Halberd            
+0946    Gargoyle Axe                
+0947    Demon's Catalyst            # UNUSED
+0948    Crystal Greatsword          # UNUSED
+0949    DS1 Knight Shield           # UNUSED
+0950    Effigy Shield               # UNUSED
+0951    Blood Shield                # UNUSED
+0952    Balder Shield               # UNUSED
+0953    Achillies Shield            # UNUSED
+0954    Tower Shield                # UNUSED
+0955    Ivory King Ultra Greatsword
+0956    King's Mirror
+0957    Thorned Greatsword
+0958    Firelink Curved Sword       # UNUSED       
+0959    Firelink Lance              # UNUSED
+0960    Firelink Staff              # UNUSED
+0961    Firelink UGS                # UNUSED
+0962    Runelock
+0963    Cannon
+
+0964    Hunter's Pistol
+0965    Repeating Pistol
+0966    Evelynn
+0967    Hunter's Blunderbuss
+0968    Rosamarius
+0969    Flamesprayer                # UNUSED
+0970    Fist of Gratia
+0971    'Fake' Invisible Spell Tool    
+0972    Prism Stone VFX Hand
+0973	Bluemoon Greatsword
+0974    Fume Slated Swords 
+0975	Heide Lance
+0976	Chariot Lance
+0977	Grand Lance
+0978	Glowing Wolnir's Sword
+0979	Cinder Greatsword (Farron Greatsword)
+0980	Cinder Machete (Yhorm's Great Machete)
+0981	Embered Ringed Knight Paired Greatswords
+0982	Embered Ringed Knight Spear
+0983	Embered Ringed Knight Straight Sword
+0984	Fuming Ultra Greatsword
+0985	Heated Flamberge
+0986	Heated Thrall Axe
+0987	Heated Thrall Pick
+0988	Fuming Slated Swords
+0989	Disc Chime
+0990	Sanctum Shield
+0991	Lorian's Greatsword (Black Flame)
+0992	Dancer's Enchanted Swords (Black Flame)
+0993	Branding Iron (Black Flame)
+0994
+0995
+0996
+0997
+0998
+0999
+
+9801    Firelink Dagger             
+9802    Firelink Spear
+9803    Firelink Straight Sword
+9804    Firelink Rapier
+9805    Bloodletter
+9806    Greatwood Club
+9807    Irithyll Spear
+9808    Burial Scythe (twinned)     # UNUSED
+9809    Fume Straight Sword
+9810    Sword of Avowal
+9811    Machete
+9812    Demon Axe
+9813    Amygdalan Arm
+9814    Abyss Greatsword
+9815    Moonlight Blade
+9816    Beast Cutter
+9817    Pontiff Knight Greatsword
+9818    Beasthunter Saif
+9819    Smelter Hammer
+9820    Irithyll Greatsword
+9821    Corvian Longstaff
+9822    Witchtree Limb     
+9823    Murky Warstaff           
+9824    Longstaff of Rosaria 
+9825    Staff of Serpents
+9826    Archdeacon's Longstaff
+9827    Heretic's Warstaff
+9828    Witch's Staff     
+9929    Blades of Mercy
+9830    Quarterstaff
+9831    Tailbone Sword              # UNUSED
+9832    Yorshka Hammer              # UNUSED
+9833    Irithyll Warpick
+9834    Boom Hammer
+9835    Tailbone Pick               # UNUSED
+9836    Burial Blade
+9837    Tailbone Club               
+9838    
+9839    Irithyll Mace
+9840    Burial Scythe
+9841    
+9842    Wooden Mallet
+9843    Chikage (twinned)
+9844    Church Cannon
+9845    Church Pick
+9846    Gatling Gun
+9847    Hunter Axe
+9848    Kirkhammer
+9849    Breaking Wheel (Logarius Wheel)
+9850    Hallowed Sword (Ludwig's Holy Blade)
+9851    Sunlight Greatsword (Ludwig's Holy Greatsword)
+9852    Holy Moonlight Sword
+9853    Hallowed Greatsword (Holy Moonlight Greatsword)
+9854    Loch Shield
+9855    Velka's Rapier
+9856    Reiterpallasch              # UNUSED
+9857    Twinspears of the Forlorn
+9858    Nil Blade (Simon's Blade)   
+9859    Sanguinus (Small Bloodletter)
+9860    Stake Driver                # UNUSED
+9861    Threaded Cane               # UNUSED
+9862    Tonitrus
+9863    Whirligig (no saw)          # UNUSED
+9864    Pursuer Ultra Greatsword
+9865    Whirligig Saw               # UNUSED
+9866    Quelaag's Fury Sword        # UNUSED
+9867    Black Dragon Shortsword
+9868    Black Dragon Greatsword
+9869    Black Dragon Greataxe
+9870    Black Dragon Shield
+9871    Adjudicator's Shield
+9872    Blind
+9873    Blueblood Sword
+9874    Bramd
+9875    Dozer Axe
+9876    Dragon Bone Smasher
+9877    Sage's Stiletto (Geri's Stiletto)
+9878    Guillotine Axe
+9879    Hands of God
+9880    Insanity Catalyst
+9881    Istarelle
+9882    Kris Blade
+9883    Large Sword of Searching    # UNUSED
+9884    Makoto (Magic Sword Makota)
+9885    Meat Cleaver
+9886    Morion Great Blade
+9887    Needle of Eternal Agony
+9888    Penetrating Sword
+9889    Phosophrescent Pole
+9890    Rune Shield                 # UNUSED
+9891    Rune Sword                  # UNUSED
+9892    Scrapping Spear
+9893    Talisman of Beasts
+9894    Storm Ruler
+9895    Blades of Mercy
+9896    Amygdalan Arm (closed)
+9897    Greatshield of Artorias
+9898    Greatsword of Artorias
+9899    Artorias sword
+9900    Balder Side Sword
+9901    Channeler's Trident
+9902    Marvelous Zweihander
+9903    Crystalline Shield
+9904    Crystal Straight Sword
+9905    Demon's Great Hammer
+9906    Demon's Great Axe
+9907    Demon's Machete
+9908    Demon's Spear
+9909    Dragon Bone Fist
+9910    Dragon Greatsword
+9911    Dragon King Greataxe
+9912    Drake Sword
+9913    Abyssal Blade
+9914    Gargoyle Shield
+9915    Giant's Shield
+9916    Giant's Halberd
+9917    Golem Axe
+9918    Grant
+9919    Gravelord Sword
+9920    Great Lord Greatsword
+9921    Lifehunt Scythe
+9922    Man Serpent Greatsword
+9923    Manus Catalyst
+9924    Moonlight Butterfly Horn
+9925    Obsidian Greatsword
+9926    Quelaag's Fury Sword
+9927    Server
+9928    Silver Knight Spear
+9929    Silver Knight Straight Sword
+9930    Stone Greatsword
+9931    Tin Banishment Catalyst
+9932    Titanite Catchpole
+9933    Quicksilver Shield
+9934    Twinfang Greatshield
+9935    Dragonkin Shield
+9936    Bulwark Shield
+9937    Beast Claw
+9938    Mini Claw
+9939    Rakuyo (long)
+9940    Rakuyo (short)              # UNUSED
+9941    Saw Cleaver                 # UNUSED
+9942    Saw Spear                   # UNUSED
+9943    Skull                       # UNUSED
+9944    Cleansing Greatshield       # UNUSED
+9945    Cleansing Sword             # UNUSED
+9946    Crystal Shield
+9947    Sanctus
+9948    Velka's Talisman
+9949    Ladle
+9950    Crypt Greatsword
+9951    Smelter Sword
+9952    Demonbrandt                 # UNUSED
+9953    Blue Flame
+9954    Ash Demon Hammer
+9955    Consumed King's Staff
+9956    Elder Ghru Tree
+9957    Giant Crab Arm
+9958    Hunter's Log
+9959    Shield of the Hunted
+9960    Man-serpent Battle Axe
+9961    Man-serpent Handaxe
+9962    Man-serpent Twindaggers
+9963    Rotten Ghru Talisman
+9964    Slave Knife
+9965    Small Harpe
+9966    Smouldering Ghru Curved Sword
+9967    Smouldering Ghru Dagger
+9968    Smouldering Ghru Shield
+9969    Smouldering Ghru Spear
+9970    Smouldering Ghru Talisman
+9971    Thrall Pick
+9972    Worker Machete
+9973    Rampart Golem Lance
+9974    Bewitched Alonne Sword
+9975    Bone Scythe
+9976    Dragonrider Halberd
+9977    Key to the Embedded
+9978    King's Ultra Greatsword
+9979    Pilgrim's Spontoon
+9980    Sacred Chime Hammer
+9981    Scythe of Nahr Alma
+9982    Scythe of Want
+9983    Crab Claws
+9984    Old Moonlight Greatsword
+9988    Frost Crab Claws
+
+
+#------------------------
+# Custom Armor
+#------------------------
+9801    Skull Mask
+9802    Wanderer's Coat
+9803    Crown of the Great Lord
+9804    Pontiff Set
+9805    Mask of the Mother
+9806    Mask of the Child
+9807    Mask of the Father
+9808    Heide's Mask
+9809    Giant Slave Helmet
+9810    Gargoyle Skull
+9811    Demon Cleric Mask
+9812    Crab Helmet
+9813    Corvian Knight Helmet
+9814    Corvian Knight Hooded Helmet
+9815    Great Lord Set
+9816    Gwyndolin's Set
+9817    Lord's Blade Set
+9818    Paladin's Set
+9819    Dragonrider's Set
+
+9820    Alonne Set
+9821    Rampart Golem Set
+9822    Smelter Demon Set
+9823    Andre's Beard 
+9824    Carthus Blindfold
+9825    Crown of Filianore
+9826    Ludleth's Crown
+9827    Mask of Sin
+9828    Old Demon King's Crown
+9829    Poisonhorn Helmet
+9830    Pygmy Crown
+9831    Ringed Cleric Turban
+9832    Ringed Knight Head
+9833    Basilisk Cap
+9834    Crown of the Holy King
+9835    Large Soldier Helm
+9836    Pot Helmet
+9837    Priest Mask
+9838    Murkman
+9839    Skeleton
+9840    Skeleton (Tree)
+9841    Skeleton (hat)
+9842    Bone Ash Set
+9843    Heide Set
+9844    Imperious Set
+9845    Badger's Black Hat
+9846    Corrupted Monk Mask
+9847    Genichiro's Helmet (mf)
+9848    Gyoubu's Helm
+9849    Nightjar Mask
+9850    Nightjar Wrapped Mask
+9851    Okami Mask
+9852    Seven Spear Helmet
+9853    Tengu Mask
+9854    Wings
+9855    Gold Ardeo
+9856    Micolash Cage
+9857    Yaraghul Head
+9859    Executioner Gloves
+9860    Cainhurst Set
+9861    Burial Knight Set
+9862    Gargoyle Helm
+9863    Velka's Set
+9865    Pursuer Armor Set
+9866    DS2 Dragonform
+9867    Giant's Set
+9868    Heide Mask
+9869    Ancient King Set
+9870    Binded Set
+9871    Brushwood Set
+9872    Venerable Sage's Set
+9873    Demon of Hatred Head
+9874    Monk Straw Hat
+9875    Gloom Set
+9876    Cainhurst Guard
+9877    Royal Knight
+9878    Penetrator Set
+9879    Logarius Crown
+9880    Quicksilver Set
+9881    Steel Set
+9882    Drake Kepeer Set
+9883    Ivory King Set
+9884    Mad Warrior Set
+9885    Mirror Knight Set
+9886    Syan Knight Set
+9887    Adventurer's Set
+9888    Gold Hemmed Set
+9889    Charred Loyce
+9890    Forlorn
+9891    Jester
+9892    Royal Warrior
+9893    Silver Loyce
+9894    Golem Set
+9895    Ledo Set
+9896    Capra Demon Form
+9897    Titanite Demon Form
+9898    Manikin Set
+9899    True Manikin Mask
+9901    Stone Set
+9902    Guardian Set
+9903    Gough's Set
+9904    Crimson Set
+9905    Channeler Set
+9906    Astrologist Set
+9907    Aurous Set
+9908    Acolyte Set
+9909    Vengarl Set
+9910    Chester Set
+9911    Bear Set
+9912    Vendrick Set    
+9913    Valykrie Helm
+9914    Old Hunter Set
+
+9915    Elite Cleric
+9916    Artifical Helmet
+9917    Giant-horned Helmet
+9918    Heide Lancer Helm
+9919    Overseer's Mask
+9920    Suspicious Gold Mask
+9921    Raime Set
+9922    Alonne Captain
+9923    Boar Helm
+9924    Barrel
+9925    Bucket
+9926    Sack
+9927    Rosaria's Dress
+9928    Gargoyle
+9929    Gravetender
+9930    Salvador's Hat
+9931    Attendant Set
+9932    Snail Shell
+9933    Willem's Cap
+9934    DeS Chain Mail
+9935    DeS Chained Priest
+9936    DeS Dull Gold
+9937    DeS Fluted # F support on head
+9938    DeS Hunter
+9939    DeS Mirdan # F support on all
+9940    DeS Plate
+9941    DeS Ragged
+9942    DeS Rogue
+9943    DeS Saint
+9944    DeS Thief
+9945    DeS Wizard
+9946    Ice Sanctum Knight Set
+9947    Imported Set
+9948    Ironclad Set
+9949    Velstadt Set
+9950    Armored Warrior Set
+9951    Eastern General Set
+9952    Genichiro Set
+9953    Okami Set
+9954    Wolf Set
+9955	Wanderer's Set
+9956	Carthus Swordsman Set
+9957	Royal Swordsman Set
+9958	Vordt Set
+9959	Throne Watcher Set
+9960	Throne Defender Set
+
+9980	Elite Lothric Knight Set
+9981	Elite Lothric Knight Helm (Open Helm)
+9982	Lothric Knight Helm (Open Helm)
+9983	Consumed King's Knight Set
+9984 	Elite Deacon Set
+9985	Elite Soldier Set
+9986	Gertrude's Knight Set
+9987	Red Worker Set
+9988	Profaned Capital Handmaid Set
+9989	Burnt Firelink Set
+9990	Overgrown Lothric Knight Set
+9991	Herald Helm (Lowered Visor)
+9992	Undead Legion Helm (Only Cap)
+9993	Mirrah Hat
+9994	Smelter Demon (Alt)
+9995    DS1 Dragonform

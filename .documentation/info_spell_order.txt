@@ -1,0 +1,590 @@
+# Sorceries (EquipParamGoods Sort ID 110500 - 114301)
+Farron Dart 110500
+Refined Farron Dart 110501
+
+Soul Wave 110600
+Swift Soul Wave 110601
+
+Soul Arrow 110700
+Explosive Soul Arrow 110701
+
+Soul Spear 110800
+Explosive Soul Spear 110801
+
+Crystal Soul Spear 110900
+Homing Crystal Soul Spear 110901
+
+Crystal Orb 110950
+Explosive Crystal Orb 110951
+
+White Dragon Breath 111000
+Extended White Dragon Breath 111001
+
+Farron Flashsword 111100
+Refined Farron Flashsword 111101
+
+Soul Greatsword 111200
+Heavy Soul Greatsword 111201
+
+Old Moonlight 111300
+Heavy Old Moonlight 111301
+
+Homing Soulmass 111400
+Surging Soulmass 111401
+
+Homing Crystal Soulmass 111500
+Weakening Crystal Soulmass 111501
+
+Scattering Soul Orb 111600
+Repeating Soul Orb 111601
+
+Scattering Crystal Orb 111700
+Repeating Crystal Orb 111701
+
+Soul Eruption 111750
+Soul Explosion 111751
+
+Farron Hail 111800
+Homing Farron Hail 111801
+
+Crystal Hail 111900
+Focused Crystal Hail 111901
+
+Orbs of Judgment 112000
+Swift Orbs of Judgment 112001
+
+Soul Instability 112050
+Lingering Soul Instability 112051
+
+Crystal Storm 112100
+Repeating Crystal Storm 112101
+
+Soul Stream 112110
+Quickened Soul Stream 112111
+
+Soul Geyser 112120
+Crystal Soul Geyser 112121
+
+Frigid Tumult 112210
+Frigid Roar 112211
+
+Hail of Blades 112220
+Focused Hail of Blades 112221
+
+Piercing Ice 112230
+Explosive Ice 112231
+
+Ice Burn 112232
+Bloodthirsty Ice Burn 112233
+
+Frozen Chaos 112234
+Quickened Frozen Chaos 112235
+
+Rupturing Frostfire 112236
+Great Rupturing Frostfire 112237
+
+Blizzard 112238
+Repeating Blizzard 112239
+
+Rime 112240
+Chilling Rime 112241
+
+Path of Frost 112250
+Refined Path of Frost 112251
+
+Discs of Dorthinus 112260
+Quickened Discs of Dorthinus 112261
+
+Frigid Orbs 112270
+Lingering Frigid Orbs 112271
+
+Frostfire Volley 112280
+Great Frostfire Volley 112281
+
+Snap Freeze 112600
+Lingering Snap Freeze 112601
+
+Pestilent Mist 112650
+Lingering Pestilent Mist 112651
+
+Shockwave 112700
+Refined Shockwave 112701
+
+Blinding Light 112800
+Refined Blinding Light 112801
+
+Twisted Wall of Light 112900
+Impenetrable Wall of Light 112901
+
+Aural Decoy 113000
+Refined Aural Decoy 113001
+
+Repair 113100
+Skilled Repair 113101
+
+Magic Weapon 113200
+
+Great Magic Weapon 113300
+
+Crystal Magic Weapon 113400
+Supreme Magic Weapon 113401
+
+Frozen Weapon 113500
+Supreme Frozen Weapon 113501
+
+Hidden Weapon 113600
+Refined Hidden Weapon 113601
+
+Magic Shield 113700
+
+Great Magic Shield 113800
+Supreme Magic Shield 113801
+
+Unleash Magic 113900
+Lingering Unleash Magic 113901
+
+Spook 114000
+Mass Spook 114001
+
+Hidden Body 114100
+Mass Hidden Body 114101
+
+Chameleon 114200
+Refined Chameleon 114201
+
+Cast Light 114300
+Refined Cast Light 114301
+
+
+# Pyromancies (EquipParamGoods Sort ID 120100 - 123500)
+Fireball 120100
+Incendiary Fireball 120101
+
+Fire Orb 120200
+Weakening Fire Orb 120201
+
+Great Chaos Fire Orb 120300
+Homing Chaos Fire Orb 120301
+
+Bursting Fireball 120400
+Incendiary Bursting Fireball 120401
+
+Profaned Flame 120500
+Distant Profaned Flame 120501
+
+Chaos Bed Vestiges 120600
+Chaos Vortex 120601
+
+Seething Chaos 120700
+Great Seething Chaos 120701
+
+Flame Fan 120800
+Refined Flame Fan 120801
+
+Great Combustion 120900
+Incendiary Combustion 120901
+
+Fire Surge 121000
+Refined Fire Surge 121001
+
+Fire Whip 121100
+Incendiary Fire Whip 121101
+
+Dance of Fire 121150
+Repeating Dance of Fire 121151
+
+Sacred Flame 121200
+Refined Sacred Flame 121201
+
+Firestorm 121300
+Repeating Firestorm 121301
+
+Chaos Storm 121350
+Repeating Chaos Storm 121351
+
+Lingering Chaos 121400
+Refined Lingering Chaos 121401
+
+Floating Chaos 121500
+Lingering Floating Chaos 121501
+
+Chaos Beam 121600
+Incinerating Chaos Beam 121601
+
+Cataclysm 121700
+Great Cataclysm 121701
+
+Throw Dust 121750
+Bloodthirsty Dust 121751
+
+Pulsating Mud 121775
+Bloodthirsty Pulsating Mud 121776
+
+Boulder Heave 121800
+Swift Boulder Heave 121801
+
+Fecal Expulsion 121900
+Great Fecal Expulsion 121901
+
+Geyser 121950
+Great Geyser 121951
+
+Heave Earth 122000
+Homing Heave Earth 122001
+
+Maelstrom 122050
+Lingering Maelstrom 122051
+
+Earthquake 122100
+Quickened Earthquake 122101
+
+Earthfall 122200
+Summon Earthfall 122201
+
+Acid Surge 122300
+Lingering Acid Surge 122301
+
+Poison Mist 122400
+Lingering Poison Mist 122401
+
+Toxic Mist 122500
+Lingering Toxic Mist 122501
+
+Immolation 122600
+Lingering Immolation 122601
+
+Rapport 122700
+Fortified Rapport 122701
+
+Warmth 122800
+Fond Warmth 122801
+
+Carthus Flame Arc 122900
+Supreme Carthus Flame Arc 122901
+
+Carthus Beacon 123000
+Lingering Carthus Beacon 123001
+
+Power Within 123100
+Lingering Power Within 123101
+
+Flash Sweat 123200
+Great Flash Sweat 123201
+
+Profuse Sweat 123300
+Refined Profuse Sweat 123301
+
+Iron Flesh 123400
+Lingering Iron Flesh 123401
+
+Rockflesh 123500
+Lingering Rockflesh 123501
+
+Magnetism 123600
+Refined Magnetism 123601
+
+Bubble Wall 123650
+Bubble Prison 123651
+
+Drizzle 123700
+Lingering Drizzle 123701
+
+
+# Miracles (EquipParamGoods Sort ID 130100 - 134201)
+Lightning Arrow 130100
+Refined Lightning Arrow 130101
+
+Lightning Spear 130200
+Lightning Surge 130201
+
+Great Lightning Spear 130300
+Storm Spear 130301
+
+Sunlight Spear 130400
+Homing Sunlight Spear 130401
+
+Lightning Orb 130450
+Lingering Lightning Orb 130451
+
+Wrathful Orbs 130500
+Weakening Wrathful Orbs 130501
+
+Wrathful Barrage 130600
+Wrathful Wave 130601
+
+Holy Schism 130700
+Quickened Holy Schism 130701
+
+Lightning Stake 130800
+Sunlight Stake 130801
+
+Lightning Storm 130900
+Sunlight Storm 130901
+
+Heavenly Thunder 131000
+Repeating Heavenly Thunder 131001
+
+Overwhelming Power 131100
+Lingering Overwhelming Power 131101
+
+Way of White Corona 131200
+Refined Way of White Corona 131201
+
+Halo 131300
+Quickened Halo 131301
+
+Divine Arrow 131400
+Refined Divine Arrow 131401
+
+Lothric's Holy Spear 131500
+Homing Lothric's Holy Spear 131501
+
+Force 131600
+Refined Force 131601
+
+Wrath of the Gods 131700
+Quickened Wrath of the Gods 131701
+
+Emit Force 131800
+Emit Wrath 131801
+
+Divine Pillars of Light 131900
+Repeating Pillars of Light 131901
+
+Angelic Barrage 132000
+Angelic Punishment 132001
+
+Proof of a Pact 132100
+Repeating Proof of a Pact 132101
+
+Ghostly Assault 132200
+Extended Ghostly Assault 132201
+
+Slicing Wind 132210
+Swift Slicing Wind 132211
+
+Gale Force 132214
+Weakening Gale Force 132215
+
+Cyclone Blast 132216
+Explosive Cyclone Blast 132217
+
+Shredding Winds 132220
+Lingering Shredding Winds 132221
+
+Blast Wave 132224
+Distant Blast Wave 132225
+
+Squall 132231
+Bloodthirsty Squall 132232
+
+Whirlwind 132250
+Lingering Whirlwind 132251
+
+Heal Aid 132300
+Extended Heal Aid 132301
+
+Heal 132400
+Extended Heal 132401
+
+Med Heal 132500
+Extended Med Heal 132501
+
+Great Heal 132600
+Extended Great Heal 132601
+
+Soothing Sunlight 132700
+Extended Soothing Sunlight 132701
+
+Projected Heal 132800
+Extended Projected Heal 132801
+
+Replenishment 132900
+Lingering Replenishment 132901
+
+Bountiful Light 133000
+Lingering Bountiful Light 133001
+
+Bountiful Sunlight 133100
+Lingering Bountiful Sunlight 133101
+
+Caressing Tears 133200
+Quickened Caressing Tears 133201
+
+Lightning Blade 133300
+Supreme Lightning Blade 133301
+
+Blessed Weapon 133400
+Supreme Blessed Weapon 133401
+
+Darkmoon Blade 133500
+Supreme Darkmoon Blade 133501
+
+Static Field 133550
+Lingering Static Field 133551
+
+Magic Barrier 133600
+
+Great Magic Barrier 133700
+Supreme Great Magic Barrier 133701
+
+Sacred Oath 133800
+Extended Sacred Oath 133801
+
+Heavenly Relief 133900
+Divine Relief 133901
+
+Perseverance 134000
+Lingering Perseverance 134001
+
+Tears of Denial 134100
+Mass Tears of Denial 134101
+
+Homeward 134200
+Refined Homeward 134201
+
+
+# Hexes (EquipParamGoods Sort ID 140100 - 144101)
+Deep Barb 140100
+Refined Deep Barb 140101
+
+Deep Soul 140200
+Deep Overflow 140201
+
+Great Deep Soul 140300
+Weakening Deep Soul 140301
+
+Great Soul Dregs 140400
+Quickened Soul Dregs 140401
+
+Surging Deep 140500
+Refined Surging Deep 140501
+
+Climax 140600
+Explosive Climax 140601
+
+Writhing Deep 140700
+Great Writhing Deep 140701
+
+Dark Edge 140800
+Refined Dark Edge 140801
+
+Abyssal Edge 140900
+Heavy Abyssal Edge 140901
+
+Affinity 141000
+Pursuers 141001
+
+Dark Bead 141100
+Cursed Dark Bead 141101
+
+Cascading Deep 141200
+Lingering Cascading Deep 141201
+
+Dreg Torrent 141300
+Repeating Dreg Torrent 141301
+
+Yearning Dregs 141400
+Repeating Yearning Dregs 141401
+
+Black Fireball 141500
+Black Fire Whip 141501
+
+Black Fire Orb 141600
+Weakening Black Fire Orb 141601
+
+Black Fire Scatter 141700
+Refined Black Fire Scatter 141701
+
+Black Fire Vestiges 141800
+Scorching Black Fire Vestiges 141801
+
+Black Flame 141900
+Scorching Black Flame 141901
+
+Black Serpent 142000
+Quickened Black Serpent 142001
+
+Mournful Flames 142100
+Scorching Mournful Flames 142101
+
+Dark Dance 142200
+Forceful Dark Dance 142201
+
+Recollection 142300
+Scorching Recollection 142301
+
+Black Star 142350
+Adjacent Black Star 142351
+
+Nibble 142400
+Refined Nibble 142401
+
+Gnaw 142500
+Gnawing Swarm 142501
+
+Dorhys' Gnawing 142600
+Quickened Dorhys' Gnawing 142601
+
+Devouring Swarm 142700
+Repeating Swarm 142701
+
+Lifehunt Scythe 142800
+Great Lifehunt Scythe 142801
+
+Gravelord Sword Dance 142900
+Gravelord Sword 142901
+
+Vow of Agony 143000
+Curse of Agony 143001
+
+Lacerating Ring 143009
+Explosive Lacerating Ring 143010
+
+Blood Orb 143011
+Lingering Orb 143012
+
+Blood Resonance 143025
+Bloodthirsty Resonance 143026
+
+Blood Crystallization 143027
+Great Blood Crystallization 143028
+
+Blood Corruption 143031
+Great Blood Corruption 143032
+
+Blood Sacrifice 143050
+Bloodthirsty Sacrifice 143051
+
+Dead Again 143100
+Refined Dead Again 143101
+
+Whisper of Despair 143200
+Echo of Despair 143201
+
+Repel 143300
+Lingering Repel 143301
+
+Vow of Silence 143400
+Curse of Silence 143401
+
+Black Flame Arc 143500
+Supreme Black Flame Arc 143501
+
+Dark Blade 143600
+Supreme Dark Blade 143601
+
+Pungent Blade 143700
+Supreme Pungent Blade 143701
+
+Pulsating Blade 143800
+Supreme Pulsating Blade 143801
+
+Numbness 143900
+Lingering Numbness 143901
+
+Atonement 144000
+Lingering Atonement 144001
+
+Deep Protection 144100
+Bottomless Deep Protection 144101
