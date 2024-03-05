@@ -7,7 +7,7 @@
     "AtkParam_Pc": []
   },
   "PinnedFields": {},
-  "UseLooseParams": true,
+  "UseLooseParams": false,
   "PartialParams": false,
   "LastFmgLanguageUsed": ""
 }

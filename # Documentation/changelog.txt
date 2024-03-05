@@ -223,8 +223,12 @@
 #----------------------------------------------
 - Finish adding all the p0 images to the repository
 
-- Fix CTD in High Wall
 
 #----------------------------------------------
 # Notes
 #----------------------------------------------
+# Noted Issues:
+- Need to do ESD pass for the covenant NPC talks:
+- Form Covenant needs to kick player out of interaction
+- Remove Strengthen Bonds that were missed
+

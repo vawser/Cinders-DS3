@@ -28,6 +28,7 @@ $Event(0, Default, function() {
     
     InitializeEvent(0, 10001, 0); // Effect: Player
     InitializeEvent(0, 10002, 0); // Effect: Enemy
+    InitializeEvent(0, 10003, 0); // Disabled by Default
     
     // BB Dodge Toggle
     InitializeEvent(0, 20006, 0); 
@@ -1967,6 +1968,13 @@ $Event(10002, Default, function() {
     RestartEvent();
 });
 
+// Disabled by Default
+$Event(10003, Restart, function() {
+    ChangeCharacterEnableState(3605900, Disabled);
+    SetCharacterAnimationState(3605900, Disabled);
+    SetCharacterAIState(3605900, Disabled);
+});
+
 //--------------------------------------
 // Castigations
 //--------------------------------------
@@ -2099,7 +2107,7 @@ $Event(14010, Restart, function() {
 });
 
 // Castigation - Feeding Frenzy
-$Event(14010, Restart, function() {
+$Event(14011, Restart, function() {
     
     if(!EventFlag(25000912))
     {

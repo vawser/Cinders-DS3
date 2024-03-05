@@ -7,4 +7,7 @@
 3605830 Group: Intruder NPC
 3605850 Group: NG+1
 3605851 Group: NG+2
-3605852 Group: NG+3
+3605852 Group: NG+3#
+
+
+3605900 Disabled by Default (used to disable vanilla enemies to retain msb index)
