@@ -1,0 +1,10 @@
+# Entity Group IDs
+3605800 Group: Enemy
+3605801 Group: Boss
+3605802 Group: Feeding Frenzy Addition
+3605810 Group: Spell Summon
+3605820 Group: Friendly NPC
+3605830 Group: Intruder NPC
+3605850 Group: NG+1
+3605851 Group: NG+2
+3605852 Group: NG+3

@@ -4999,7 +4999,7 @@ $Event(20006033, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIf(EventFlag(X16_4));
 
     // End if not in Gauntlet mode
-    EndIf(!EventFlag(25009850));
+    EndIf(!CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1));
 
 
     // Goto label based on selection arg
@@ -5492,8 +5492,6 @@ L0:
 // <boss kill flag>, <first boss kill flag>, <base itemlot>, <special itemlot>, <wanderer itemlot>, <corrupted itemlot>
 //----------------------------------------------
 $Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    
-    
     // Skip Primordial Fragment reward if this is the first kill
     if (EventFlag(X4_4)) {
 
@@ -5502,11 +5500,6 @@ $Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
 
         // No Hit Reward
         if (!EventFlag(25000040)) {
-            AwardItemLot(X12_4);
-        }
-
-        // Curse of Valor
-        if (EventFlag(25000510)) {
             AwardItemLot(X12_4);
         }
 
@@ -5533,18 +5526,13 @@ L0:
     SetEventFlag(X0_4, ON); // Boss Killed
     SetEventFlag(X4_4, ON); // First Boss Kill
 
-    // Boon item
-    if (EventFlag(25009851)) {
+    // Wanderer: Boon item
+    if (CharacterHasSpEffect(10000, 200105000, ComparisonType.Equal, 1)) {
         AwardItemLot(X16_4);
     }
 
-    // Malus item
-    if (EventFlag(25009852)) {
-        AwardItemLot(X20_4);
-    }
-
     // End if not in Gauntlet feature mode
-    EndIf(!EventFlag(25009850));
+    EndIf(!CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1));
 
     AwardItemLot(800002000); // Token drop
 
@@ -5945,7 +5933,7 @@ $Event(20020116, Default, function() {
     EndIf(PlayerIsNotInOwnWorld());
 
     // Skip if not in Gauntlet mode
-    if (EventFlag(25009850)) {
+    if (CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1)) {
         WaitFor(HPRatio(10000) <= 0);
         SetMapCeremony(40, 0, 0);
     }
@@ -6318,20 +6306,6 @@ $Event(20081011, Restart, function(X0_4, X4_4, X8_4) {
 });
 
 //----------------------------------------------
-// Company of Champions - Add SpEffect
-// <entity id>, <speffect id>, <trigger flag>
-//----------------------------------------------
-$Event(20081020, Restart, function(X0_4, X4_4, X8_4) {
-    WaitFor(CharacterHasSpEffect(10000, X4_4));
-    SetSpEffect(X0_4, X8_4);
-
-    WaitFor(!CharacterHasSpEffect(10000, X4_4));
-    ClearSpEffect(X0_4, X8_4);
-
-    RestartEvent();
-});
-
-//----------------------------------------------
 // Enemy - Award Itemlot - Special Boss Case
 // <entity id>, <itemlot id>, <speffect id>
 //----------------------------------------------
@@ -6547,9 +6521,9 @@ $Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 
 //----------------------------------------------
 // Intruder - Setup
-// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>
+// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <appearance SpEffect id>, <name id>
 //----------------------------------------------
-$Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4) {
+$Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
 
@@ -6557,11 +6531,13 @@ $Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
     EndIf(EventFlag(X28_4));
 
     // Trigger Invader if in region
-    WaitFor(InArea(10000, X4_4) && CharacterHasSpEffect(10000, 490)); // Player is embered // Is in Region
+    WaitFor(!CharacterHasSpEffect(10000, 131010) && InArea(10000, X4_4) && ( CharacterHasSpEffect(10000, 490) || CharacterHasSpEffect(10000, X32_4) )); // Is in Region and (Is embered || Has apperance SpEffect)
     WaitRandomTimeSeconds(1, 3);
 
     DisplayMessage(X20_4, 1);
-
+    DisplayBossHealthBar(Enabled, X0_4, 0, X36_4);
+    SetSpEffect(10000, 131010);
+    
     // Spawn
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X8_4);
     ChangeCharacterEnableState(X0_4, Enabled);
@@ -6571,6 +6547,8 @@ $Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
 
     // Killed
     WaitFor(CharacterDead(X0_4));
+    DisplayBossHealthBar(Disabled, X0_4, 0, X36_4);
+    ClearSpEffect(10000, 131010);
 
     DisplayMessage(X24_4, 1);
 
@@ -6582,9 +6560,9 @@ $Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
 
 //----------------------------------------------
 // Intruder - Setup - Conditional
-// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <conditional flag>
+// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <conditional flag>,  <appearance SpEffect id>, <name id>
 //----------------------------------------------
-$Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4) {
+$Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
 
@@ -6592,10 +6570,12 @@ $Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
     EndIf(EventFlag(X28_4));
 
     // Trigger Invader if in region
-    WaitFor(EventFlag(X32_4) && InArea(10000, X4_4) && CharacterHasSpEffect(10000, 490)); // Player is embered // Has conditional flag // Is in Region
+    WaitFor(!CharacterHasSpEffect(10000, 131010) && EventFlag(X32_4) && InArea(10000, X4_4) && ( CharacterHasSpEffect(10000, 490) || CharacterHasSpEffect(10000, X32_4) )); // Is in Region and (Is embered || Has apperance SpEffect)
     WaitRandomTimeSeconds(1, 3);
 
     DisplayMessage(X20_4, 1);
+    DisplayBossHealthBar(Enabled, X0_4, 0, X40_4);
+    SetSpEffect(10000, 131010);
 
     // Spawn
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X8_4);
@@ -6606,6 +6586,50 @@ $Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
 
     // Killed
     WaitFor(CharacterDead(X0_4));
+    DisplayBossHealthBar(Disabled, X0_4, 0, X40_4);
+    ClearSpEffect(10000, 131010);
+
+    DisplayMessage(X24_4, 1);
+
+    AwardItemLot(X16_4);
+    SetCharacterDefaultBackreadState(X0_4, Disabled);
+
+    SetEventFlag(X28_4, ON);
+});
+
+//----------------------------------------------
+// Intruder - Setup: For Untended Graves intruders
+// <entity id>, <trigger area id>, <ffx id>, <anim id>, <itemlot id>, <spawn msg id>, <death msg id>, <killed flag>, <appearance SpEffect id>, <name id>
+//----------------------------------------------
+$Event(20090012, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4) {
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+
+    // End if in normal Firelink ceremony
+    EndIf(MapCeremony(40, 0, 0));
+    
+    // End if X has been killed once already
+    EndIf(EventFlag(X28_4));
+
+    // Trigger Invader if in region
+    WaitFor(!CharacterHasSpEffect(10000, 131010) && InArea(10000, X4_4) && ( CharacterHasSpEffect(10000, 490) || CharacterHasSpEffect(10000, X32_4) )); // Is in Region and (Is embered || Has apperance SpEffect)
+    WaitRandomTimeSeconds(1, 3);
+
+    DisplayMessage(X20_4, 1);
+    DisplayBossHealthBar(Enabled, X0_4, 0, X36_4);
+    SetSpEffect(10000, 131010);
+    
+    // Spawn
+    SpawnOneshotSFX(TargetEntityType.Character, X0_4, 236, X8_4);
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterDefaultBackreadState(X0_4, Enabled);
+    ForceAnimationPlayback(X0_4, X12_4, false, false, false, 0, 1);
+
+    // Killed
+    WaitFor(CharacterDead(X0_4));
+    DisplayBossHealthBar(Disabled, X0_4, 0, X36_4);
+    ClearSpEffect(10000, 131010);
 
     DisplayMessage(X24_4, 1);
 
@@ -6649,7 +6673,7 @@ $Event(20090100, Default, function(X0_4, X4_4, X8_4, X12_4) {
     // End if not in own world
     EndIf(PlayerIsNotInOwnWorld());
 
-    EndIf(EventFlag(25009850)); // End if in Gauntlet Mode
+    EndIf(CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1)); // End if in Gauntlet Mode
 
     // Player is embered
     WaitFor(CharacterHasSpEffect(10000, 490));
@@ -6683,7 +6707,7 @@ $Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
     // End if not in own world
     EndIf(PlayerIsNotInOwnWorld());
 
-    EndIf(EventFlag(25009850)); // End if in Gauntlet Mode
+    EndIf(CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1)); // End if in Gauntlet Mode
 
     // Delay the following checks so the summoned flag is reset before they are checked
     WaitFixedTimeSeconds(1.0);
@@ -6734,7 +6758,7 @@ $Event(20090101, Default, function(X0_4, X4_4, X8_4, X12_4) {
 $Event(20090102, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
 
-    EndIf(EventFlag(25009850)); // End if in Gauntlet Mode
+    EndIf(CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1)); // End if in Gauntlet Mode
 
     WaitFixedTimeSeconds(1.0);
 
@@ -6752,7 +6776,7 @@ $Event(20090102, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 $Event(20090103, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
 
-    EndIf(EventFlag(25009850)); // End if in Gauntlet Mode
+    EndIf(CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1)); // End if in Gauntlet Mode
 
     WaitFor(EventFlag(X0_4)); // Summon is active
 
@@ -6776,7 +6800,7 @@ $Event(20090104, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 
     EndIf(PlayerIsNotInOwnWorld()); // End if player is a client
 
-    EndIf(EventFlag(25009850)); // End if in Gauntlet Mode
+    EndIf(CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1)); // End if in Gauntlet Mode
 
     WaitFor(EventFlag(X0_4)); // Summon is active
 
@@ -6863,9 +6887,8 @@ $Event(20090601, Restart, function(X0_4) {
 // <id>
 // ----------------------------------------
 $Event(20090800, Restart, function(X0_4) {
-    const flag_GauntletMode = 25009850;
-
-    EndIf(!EventFlag(flag_GauntletMode));
+    // Only for Gladiator journey type
+    EndIf(!CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1));
 
     WaitFor(InArea(10000, X0_4));
 
@@ -6878,8 +6901,6 @@ $Event(20090800, Restart, function(X0_4) {
 // <id>
 // ----------------------------------------
 $Event(20090810, Restart, function(X0_4, X4_4, X8_4, X12_4) {
-    const flag_GauntletMode = 25009850;
-
     // Disable Gauntlet fogwalls
     DeactivateObject(X0_4, Disabled);
     DeleteObjectfollowingSFX(X0_4, true);
@@ -6890,7 +6911,7 @@ $Event(20090810, Restart, function(X0_4, X4_4, X8_4, X12_4) {
     DeactivateObject(X12_4, Disabled);
     DeleteObjectfollowingSFX(X12_4, true);
 
-    EndIf(!EventFlag(flag_GauntletMode));
+    EndIf(!CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1));
 
     SetPlayerRespawnPoint(4002950);
 

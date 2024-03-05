@@ -1,7 +1,230 @@
 #----------------------------------------------
 # Changelog
 #----------------------------------------------
+# System Changes
+- Removed Shatter mechanic.
+- Removed Ring affixing.
+- Removed the Corruption mode.
 
+#-------------------------------------------------
+# Player
+#-------------------------------------------------
+- The player now regenerates FP passively.
+ - 3 per second up to 50 FP.
+ - 2 per second up to 100 FP.
+ - 1 per second until max.
+ - Weapon skills will pause FP regeneration during their animation and 1 second after.
+ - Magic will pause FP regeneration during the fire animation and 1 second after.
+- Sources of FP recovery increase now change the bounds for the stepped regeneration
+ - i.e. Darkmoon Ring increases the bounds by 20, so you get +3 up to 100 FP, +2 up to +180 FP.
+ - Multiple sources of this will stack, i.e. 3 sources will increase the bounds by 60.
+
+# Poise
+- Changed the poise system:
+ - Removed the DS3 'toughness' system.
+ - Implemented a custom system within the HKS that emulates the feel of DS1 poise.
+ - Chest Armor provides stagger resistance. (Heavy to Medium only)
+ - Wolf Ring now provides its own stagger resistance. This stack with the other stagger resistances.
+ - Weapons that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
+ - Spells that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
+ - Items that boosted poise now provide their own stagger resistance. This stack with the other stagger resistances.
+
+# Flasks
+- Enemy kills will now build up Estus Flask charges. Every 5 kills will restore a flask.
+ 
+# Timed Block
+- Using a block at the right moment will reduce the guard stamina cost to 0.
+
+#-------------------------------------------------
+# Player Setup
+#-------------------------------------------------
+- Changed the starting gifts.
+
+#-------------------------------------------------
+# Castigations
+#-------------------------------------------------
+- Replaced Curses with Castigations.
+- Added the ability to apply debuffs to yourself, or buffs to enemies, in exchange for chances at Essences of the Dark Soul.
+
+- Player castigations:
+ - Abyssal Maw
+  - Soul absorption is reduced by 50%.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+ - Brittle Bones
+  - Your absorption will be reduced by 30%.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+ - Fresh Meat
+  - Enemies will detect the player much easier, and will always prioritise the player first.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+ - Fading Flasks
+  - Your Estus Flask will be 30% less effective.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+ - Lethargic Mind
+  - Your passive FP regeneration becomes 0.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+- Enemy castigations:
+ - Wounded Fury
+  - Enemies deal 30% more damage while below 50% HP.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+ - Thick Hides
+  - Enemies take 30% less damage while above 50% HP.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+ - Stout Hearts
+  - Enemies have 50% more HP.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+ - Regenerative Skin
+  - Enemies will regenerate 1% HP plus 25 HP every 2 seconds.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+ - Spectral Shift
+  - Enemies are now invisible until damaged.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+ - Relentlessness
+  - Enemies will no longer act passive when fighting together as a group.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+
+ - Alacrity
+  - Enemies will move 50% faster.
+  - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
+  
+#-------------------------------------------------
+# World
+#-------------------------------------------------
+# Bosses
+- Sister Friede poise reduced to 0.
+- Reduced the health of several bosses.
+
+# NPCs
+- Magnum Ursus now hosts the Castigation system.
+
+#-------------------------------------------------
+# Items
+#-------------------------------------------------
+- Added Essence of the Dark Soul:
+ - Consumable item that grants a tremendous boost for a short while.
+
+#-------------------------------------------------
+# Weapons
+#-------------------------------------------------
+- Pulsating now grants 10% max FP.
+- Enchanted now grants 10% max FP.
+- Clarity now grants 10% max FP.
+
+#-------------------------------------------------
+# Rings
+#-------------------------------------------------
+- Strength of all rings has been adjusted due to the removal of +1, +2, +3, +4 and +5 versions.
+
+# Stalwart Ring
+- Renamed Bulwark Ring.
+- Changed effect to: Attacks against enemies will restore 1% HP per hit.
+
+# Eagle-eye Ring
+- Renamed Red-eye Ring
+- Changed effect to: Boosts the attack power of ammunition by 25%.
+
+# Fool's Sigil
+- Changed effect to: Boosts the attack power of throwable items by 100%.
+
+# Wretched Pendant
+- Changed effect to: Boosts the attack power of heavy attacks by 25%.
+
+# Ring of True Sight
+- Changed effect to: Holding a shot for a short while will boost the attack power of ammunition by 50% for that shot.
+
+# Gower's Ring of Protection
+- Changed effect to: Whenever you are hit on the back, you recoup HP, restorting 10% HP over 1 second.
+
+# Old Man's Gambit
+- Changed effect to: Using different consecutive attacks will reduces weapon stamina consumption by 25% and increase all damage by 10% for 2 seconds.
+
+# Unholy Remains
+- Changed effect to: As HP lowers, damage is increased dramatically, up to 50%. However, HP recovery is reduced alongside, up to a 100% reduction.
+
+# Focusing Ring
+- Changed effect to: Whilst standing still, the rate of FP recovery is increased.
+
+# Young Dragon Ring
+- Changed effect to: Whilst standing still, the damage of magic spells is increased by 20%.
+
+# Great Swamp Ring
+- Changed effect to: Whenever damage is suffered, cast speed is increased by 25 and fire damage by 20% for 8 seconds.
+
+# Morne's Ring
+- Changed effect to: Whenever a spell is cast, the caster is immune to stagger and lighting damage is increased by 5% for 12 seconds, stacking for each cast.
+
+# Deep Ring
+- Changed effect to: Whilst standing still, the damage of dark spells is increased by 20%.
+
+# Ring of Londor
+- Changed effect to: Conducting a successful backstab will turn the body nigh on invisible, mask the noises of the caster and prevent fall damage for 30 seconds. Boosts backstab damage by 30%.
+
+# Spirit Amethyst
+- Changed effect to: Attacks against enemies will restore 2% FP per hit.
+
+# Cursed Ring of Evasion
+- Reduced evasive movement buff to 25%.
+- Reduced max HP debuff to 20%.
+
+# Cursed Ring of Vengeance
+- Changed effect to: Grants stagger immunity whilst attacking.
+- Reduced max HP debuff to 20%.
+
+# Cursed Ring of Deflection
+- Reduced max HP debuff to 20%.
+
+# Cursed Ring of Confusion
+- Reduced max HP debuff to 20%.
+
+#-------------------------------------------------
+# Covenants
+#-------------------------------------------------
+- Removed Covenant bond levels.
+- Covenant drops are now added directly to the player inventory without the item pickup prompt.
+- Covenant drops will occur 10% of the time upon the death of an enemy.
+
+#-------------------------------------------------
+# Sidearms
+#-------------------------------------------------
+- Hunter's Pistol is now purely a parrying tool. It no longer emits a bullet, and thus will more reliably cause parries. However it no longer deals any damage.
+ - Adjusted the force parry window to make the pistol easier to parry with.
+- Removed the parry frames from the other sidearms.
+- Boosted the base damage of the other pistol sidearms, as they are now intended for damage.
+- Reduced the stamina cost of the pistol/spray sidearms.
+- Reduced the cancel window for the 'cannot fire' animations for the pistols.
+
+- Added weapon jam mechanic to the pistol/spray sidearms:
+ - There is now a base chance to play the 'cannot fire' animation each time the pistol is used.
+  - Hunter's Pistol: 5%
+  - Repeating Pistol: 10%
+  - Evelynn: 5%
+  - Blunderbuss: 20%
+  - Rosamarinus: 25%
+ - Rapid attacks will boost the jam chance, stacking up to 5 times. Each stack decays after 5 seconds.
+  - Shot 1: +5%
+  - Shot 2: +5%
+  - Shot 3: +5%
+  - Shot 4: +5%
+  - Shot 5: +5%
+ - After a jam, there is a grace period of 4 seconds where you cannot get another jam.
+ - The first shot (if you have not shot for 30 seconds or more) will never jam.
+ 
 #----------------------------------------------
 # TODO
+#----------------------------------------------
+- Finish adding all the p0 images to the repository
+
+- Fix CTD in High Wall
+
+#----------------------------------------------
+# Notes
 #----------------------------------------------

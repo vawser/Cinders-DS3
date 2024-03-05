@@ -1389,10 +1389,57 @@
 70000099 Sin State: 
 70001073 Sin State: Lapp
 
-#-------------------------------------
-# Cinders
-#-------------------------------------
-Flags used in the Cinders range:
+#-----------------------------------------------------------------
+# Mod Ranges - 20000000
+#-----------------------------------------------------------------
+# Detriments
+20000400 Max HP
+20000410 Max FP
+20000420 Max Stamina
+20000430 Max Equip Load
+20000440 HP Recovery Effectiveness
+20000450 Vigor
+20000460 Attunement
+20000470 Vitality
+20000480 Endurance
+20000490 Strength
+20000100 Dexterity
+20000110 Intelligence
+20000120 Faith
+20000130 Luck
+20000140 Stamina Recovery
+20000150 Physical Damage
+20000160 Magic Damage
+20000170 Fire Damage
+20000180 Lightning Damage
+20000190 Dark Damage
+20000200 Slash Absorption
+20000210 Strike Absorption
+20000220 Thrust Absorption
+20000230 Standard Absorption
+20000240 Magic Absorption
+20000250 Fire Absorption
+20000260 Lightning Absorption
+20000270 Dark Absorption
+20000280 Toughness Absorption
+20000290 Poison Resist
+20000300 Bleed Resist
+20000310 Frost Resist
+20000320 Curse Resist
+20000330 Soul Absorption
+20000340 Skill FP Consumption
+20000350 Sorcery FP Consumption
+20000360 Pyromancy FP Consumption
+20000370 Miracle FP Consumption
+20000380 Weapon Stamina Consumption
+20000390 Vendor Greed
+
+20000900 Random range start
+20000999 Random range end
+
+#-----------------------------------------------------------------
+# Mod Ranges - 25000000
+#-----------------------------------------------------------------
 
 # Map Specific
 xxx5760 All Enemies
@@ -1419,9 +1466,65 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25000099 Game Flags Set
 
-#------------------------
+25000100 Journey Finalized
+25000101 Journey Type: Hollow
+25000102 Journey Type: Explorer
+25000103 Journey Type: Conqueror
+25000104 Journey Type: Accursed
+25000105 Journey Type: Gladiator
+25000106 Journey Type: Wanderer
+
+25000110 Custom Loadout: Selected
+25000111 Custom Loadout: Itemlot Option
+25000112 Custom Loadout: Free Souls Option
+25000113 Custom Loadout: Hollow Fragment Itemlot
+
+25000130 NG+ Allowed
+25000131 Accursed Run completed
+25000132 Deathless failed
+
+25000140 Flameless
+25000141 Deathless
+25000142 Hitless
+
+# Boss Warp Allowed
+25000150 Dancer
+25000151 Vordt
+25000152 Oceiros
+25000153 Curse-rotted Greatwood
+25000154 Nameless King
+25000155 Ancient Wyvern
+25000156 Crystal Sage
+25000157 Abyss Watchers
+25000158 Dragonslayer Armour
+25000159 Twin Princes
+25000160 Deacons of the Deep
+25000161 Pontiff Sulyvahn
+25000162 Aldrich
+25000163 Wolnir
+25000164 Old Demon King
+25000165 Yhorm
+25000166 Sister Friede
+25000167 Gravetender
+25000168 Demon Prince
+25000169 Halflight
+25000170 Midir
+25000171 Gael
+25000172 Champion Gundyr
+25000173 Soul of Cinder
+
+25000175 Aborr
+25000176 Trio of Explorers
+25000177 Twisted Knight
+25000178 Mirror Knight
+25000179 Cathedral Guardian
+25000180 Lordran Remnants
+25000181 Fallen Protector
+25000182 Prince Dorthinus
+25000183 Princess Yngvil
+25000184 The Marauder
+
 # Covenants
-#------------------------
 25000200 Covenant Acquired: Thieves Pact           - Greirat
 25000201 Covenant Acquired: Chaos Servant          - Cornyx
 25000202 Covenant Acquired: Vinheim Scholars       - Orbeck
@@ -1433,9 +1536,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000208 Covenant Acquired: Servant of the Rat     - Remy the Rat
 25000209 Covenant Acquired: Ritualist Pact         - Ritualist Ellie
 
-#------------------------
 # Gestures
-#------------------------
 25000300 Gesture Acquired: Unmannered Bow     - Cornyx
 25000301 Gesture Acquired: Shrug              - Shrine Handmaid
 25000302 Gesture Acquired: Path of the Dragon - Dragon Altar/Hawkwood
@@ -1446,65 +1547,55 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000307 Gesture Acquired: Retch              - Archdeacon McDonnell
 25000308 Gesture Acquired: Confused           - Greirat
 
-#------------------------
-# Curses
-#------------------------
-25000400 Curse of Pride I
-25000401 Curse of Pride II
-25000402 Curse of Pride III
-25000403 Curse of Pride IV
-25000404 Curse of Pride V
-25000405 Curse of Pride VI
-25000406 Curse of Pride VII
-25000407 Curse of Pride VIII
-25000408 Curse of Pride IX
-25000409 Curse of Pride X
+# Boss Kill Counter
+25000400 -> 25000409 # Event Value 
+25000410 -> 25000419 # Event Value Operand
 
-25000410 Curse of Fortitude I
-25000411 Curse of Fortitude II
-25000412 Curse of Fortitude III
-25000413 Curse of Fortitude IV
-25000414 Curse of Fortitude V
-25000415 Curse of Fortitude VI
-25000416 Curse of Fortitude VII
-25000417 Curse of Fortitude VIII
-25000418 Curse of Fortitude IX
-25000419 Curse of Fortitude X
+25000450 Unique Boss Kills: 3
+25000451 Unique Boss Kills: 6
+25000452 Unique Boss Kills: 9
+25000453 Unique Boss Kills: 12
+25000454 Unique Boss Kills: 15
 
-25000420 Curse of Vitality I
-25000421 Curse of Vitality II
-25000422 Curse of Vitality III
-25000423 Curse of Vitality IV
-25000424 Curse of Vitality V
-25000425 Curse of Vitality VI
-25000426 Curse of Vitality VII
-25000427 Curse of Vitality VIII
-25000428 Curse of Vitality IX
-25000429 Curse of Vitality X
+# Training System
+25000500 Spawn Subject
+25000501 Initial Training Flags
+25000510 Player: Invulerability
+25000511 Player: Endless Stamina
+25000512 Player: Endless Focus
+25000520 Subject: Hostility
+25000521 Subject: Endless Regeneration
+25000522 Subject: Invulerability
 
-25000430 Curse of Wrath I
-25000431 Curse of Wrath II
-25000432 Curse of Wrath III
-25000433 Curse of Wrath IV
-25000434 Curse of Wrath V
-25000435 Curse of Wrath VI
-25000436 Curse of Wrath VII
-25000437 Curse of Wrath VIII
-25000438 Curse of Wrath IX
-25000439 Curse of Wrath X
+25000550 Subject Type: Soldier # 110005 / 110015
+25000551 Subject Type: Knight # 128020 / 128040
+25000552 Subject Type: Dog # 202005
+25000553 Subject Type: Elder Ghru # 312010
+25000554 Subject Type: Skeleton # 107400
 
-25000440 Curse of Attraction
-25000450 Curse of Obscurity 
-25000460 Curse of Simplicity 
-25000470 Curse of Gluttony 
-25000480 Curse of Frailty 
-25000490 Curse of Enfeeblement 
-25000500 Curse of Impermanence 
-25000510 Curse of Valor
+# Castigation
+25000900 Abyssal Maw
+25000901 Brittle Bones
+25000902 Fresh Meat
+25000903 Fading Flasks
+25000904 Lethargic Mind
+25000905 Wounded Fury
+25000906 Thick Hides
+25000907 Stout Hearts
+25000908 Regenerative Skin
+25000909 Spectral Shift
+25000910 Relentlessness
+25000911 Alacrity
+25000912 Feeding Frenzy 
+25000913
+25000914
+25000915
+25000916
+25000917
+25000918
+25000919
 
-#------------------------
 # Bosses
-#------------------------
 25001001 Boss Kill: Corrupted Gundyr
 25001002 Boss Kill: Vordt
 25001003 Boss Kill: Curse-rotted Greatwood
@@ -1583,25 +1674,25 @@ xxx5750 Enemies enabled by Curse of Attraction
 #------------------------
 # Achivements
 #------------------------
-25002100 Achievement: Defying Death
-25002101 Achievement: Untouchable
-25002102 Achievement: Flameless
+25002100 Achievement: 
+25002101 Achievement: 
+25002102 Achievement: 
 25002103 Achievement: Sword and Board
 25002104 Achievement: Stormageddon
-25002105 Achievement: Master of Corruption
+25002105 Achievement: 
 
-25002200 Failed Achievement: Defying Death
-25002201 Failed Achievement: Untouchable
-25002202 Failed Achievement: Flameless
+25002200 Failed Achievement: 
+25002201 Failed Achievement: 
+25002202 Failed Achievement: 
 25002203 Failed Achievement: Sword and Board
 25002204 Failed Achievement: Stormageddon
 
-25002300 Reward Given: Defying Death
-25002301 Reward Given: Untouchable
-25002302 Reward Given: Flameless
+25002300 Reward Given:
+25002301 Reward Given: 
+25002302 Reward Given: 
 25002303 Reward Given: Sword and Board
 25002304 Reward Given: Stormageddon
-25002305 Reward Given: Master of Corruption
+25002305 Reward Given: 
 
 25002400 Completion Monitor: Stormageddon Done
 25002401 Completion Monitor: Stormageddon In Progress
@@ -2148,7 +2239,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 #------------------------
 #
 #------------------------
-25009520 Magnum Ursus - Dark Soul turn-in
+25009520 Magnum Ursus - Lordvessel turn-in
 
 25009530 Tortured Soul turn-in
 25009540 Smithbox turn-in
@@ -2225,13 +2316,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009804 Gauntlet setup completed
 25009805 Ignore DLC bosses in Gauntlet
 
-25009810 Standard mode
-25009811 Wanderer mode
-25009812 Mythic mode
-25009813 Gauntlet mode
-25009814 Explorer mode
-25009815 Onslaught mode
-
 25009820 Untended Graves
 25009821 Archdragon Peak
 25009822 Farron Keep
@@ -2244,22 +2328,8 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009829 Ariandel
 25009830 Dreg Heap
 25009831 Ringed City
+25009835 None
 25009840 Random location
-
-25009850 Gauntlet Features activated
-25009851 Boon features activated
-25009852 Malus features activated
-
-25009860 Malus flag 1
-25009861 Malus flag 2
-25009862 Malus flag 3
-25009863 Malus flag 4
-25009864 Malus flag 5
-25009865 Malus flag 6
-25009866 Malus flag 7
-25009867 Malus flag 8
-25009868 Malus flag 9
-25009869 Malus flag 10
 
 #------------------------
 # Other

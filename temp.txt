@@ -1,0 +1,161 @@
+def t400504_x30():
+	while True:
+		"""State 0"""
+		MainBonfireMenuFlag()
+		ClearTalkListData()
+		AddTalkListDataIf(not GetEventStatus(25000900), 100, 80020100, -1)
+		AddTalkListDataIf(GetEventStatus(25000900) == FlagState.On, 200, 80020200, -1)
+		AddTalkListDataIf(not GetEventStatus(25000901), 103, 80020101, -1)
+		AddTalkListDataIf(GetEventStatus(25000901) == FlagState.On, 203, 80020201, -1)
+		AddTalkListDataIf(not GetEventStatus(25000902), 101, 80020102, -1)
+		AddTalkListDataIf(GetEventStatus(25000902) == FlagState.On, 201, 80020202, -1)
+		AddTalkListDataIf(not GetEventStatus(25000903), 102, 80020103, -1)
+		AddTalkListDataIf(GetEventStatus(25000903) == FlagState.On, 202, 80020203, -1)
+		AddTalkListDataIf(not GetEventStatus(25000904), 104, 80020104, -1)
+		AddTalkListDataIf(GetEventStatus(25000904) == FlagState.On, 204, 80020204, -1)
+		AddTalkListData(99, 80000999, -1)
+		assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
+				2) == true and not CheckSpecificPersonGenericDialogIsOpen(2)))
+		"""State 1"""
+		ShowShopMessage(TalkOptionsType.Regular)
+		if GetTalkListEntryResult() == 100:
+			"""State 2"""
+			assert t400504_x40(z1=25000900, z2=1, action1=80020300)
+		elif GetTalkListEntryResult() == 200:
+			"""State 3"""
+			assert t400504_x40(z1=25000900, z2=0, action1=80020400)
+		elif GetTalkListEntryResult() == 101:
+			"""State 4"""
+			assert t400504_x40(z1=25000902, z2=1, action1=80020302)
+		elif GetTalkListEntryResult() == 201:
+			"""State 5"""
+			assert t400504_x40(z1=25000902, z2=0, action1=80020402)
+		elif GetTalkListEntryResult() == 102:
+			"""State 6"""
+			assert t400504_x40(z1=25000903, z2=1, action1=80020303)
+		elif GetTalkListEntryResult() == 202:
+			"""State 7"""
+			assert t400504_x40(z1=25000903, z2=0, action1=80020403)
+		elif GetTalkListEntryResult() == 103:
+			"""State 8"""
+			assert t400504_x40(z1=25000901, z2=1, action1=80020301)
+		elif GetTalkListEntryResult() == 203:
+			"""State 9"""
+			assert t400504_x40(z1=25000901, z2=0, action1=80020401)
+		elif GetTalkListEntryResult() == 104:
+			"""State 10"""
+			assert t400504_x40(z1=25000904, z2=1, action1=80020304)
+		elif GetTalkListEntryResult() == 204:
+			"""State 11"""
+			assert t400504_x40(z1=25000904, z2=0, action1=80020404)
+		elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == true and not CheckSpecificPersonGenericDialogIsOpen(0)):
+			"""State 12"""
+			return 0
+
+def t400504_x31():
+	while True:
+		"""State 0"""
+		MainBonfireMenuFlag()
+		ClearTalkListData()
+		AddTalkListDataIf(not GetEventStatus(25000907), 100, 80020107, -1)
+		AddTalkListDataIf(GetEventStatus(25000907) == FlagState.On, 200, 80020207, -1)
+		AddTalkListDataIf(not GetEventStatus(25000908), 101, 80020108, -1)
+		AddTalkListDataIf(GetEventStatus(25000908) == FlagState.On, 201, 80020208, -1)
+		AddTalkListDataIf(not GetEventStatus(25000905), 102, 80020105, -1)
+		AddTalkListDataIf(GetEventStatus(25000905) == FlagState.On, 202, 80020205, -1)
+		AddTalkListDataIf(not GetEventStatus(25000906), 103, 80020106, -1)
+		AddTalkListDataIf(GetEventStatus(25000906) == FlagState.On, 203, 80020206, -1)
+		AddTalkListDataIf(not GetEventStatus(25000909), 104, 80020109, -1)
+		AddTalkListDataIf(GetEventStatus(25000909) == FlagState.On, 204, 80020209, -1)
+		AddTalkListDataIf(not GetEventStatus(25000910), 105, 80020110, -1)
+		AddTalkListDataIf(GetEventStatus(25000910) == FlagState.On, 205, 80020210, -1)
+		AddTalkListDataIf(not GetEventStatus(25000911), 106, 80020111, -1)
+		AddTalkListDataIf(GetEventStatus(25000911) == FlagState.On, 206, 80020211, -1)
+		AddTalkListDataIf(not GetEventStatus(25000912), 107, 80020112, -1)
+		AddTalkListDataIf(GetEventStatus(25000912) == FlagState.On, 207, 80020212, -1)
+		AddTalkListData(99, 80000999, -1)
+		ShowShopMessage(TalkOptionsType.Regular)
+		assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
+				2) == true and not CheckSpecificPersonGenericDialogIsOpen(2)))
+		"""State 1"""
+		ShowShopMessage(TalkOptionsType.Regular)
+		if GetTalkListEntryResult() == 100:
+			"""State 2"""
+			assert t400504_x40(z1=25000907, z2=1, action1=80020307)
+		elif GetTalkListEntryResult() == 200:
+			"""State 3"""
+			assert t400504_x40(z1=25000907, z2=0, action1=80020407)
+		elif GetTalkListEntryResult() == 101:
+			"""State 4"""
+			assert t400504_x40(z1=25000908, z2=1, action1=80020308)
+		elif GetTalkListEntryResult() == 201:
+			"""State 5"""
+			assert t400504_x40(z1=25000908, z2=0, action1=80020408)
+		elif GetTalkListEntryResult() == 102:
+			"""State 6"""
+			assert t400504_x40(z1=25000905, z2=1, action1=80020305)
+		elif GetTalkListEntryResult() == 202:
+			"""State 7"""
+			assert t400504_x40(z1=25000905, z2=0, action1=80020405)
+		elif GetTalkListEntryResult() == 103:
+			"""State 8"""
+			assert t400504_x40(z1=25000906, z2=1, action1=80020306)
+		elif GetTalkListEntryResult() == 203:
+			"""State 9"""
+			assert t400504_x40(z1=25000906, z2=0, action1=80020406)
+		elif GetTalkListEntryResult() == 104:
+			"""State 10"""
+			assert t400504_x40(z1=25000909, z2=1, action1=80020309)
+		elif GetTalkListEntryResult() == 204:
+			"""State 11"""
+			assert t400504_x40(z1=25000909, z2=0, action1=80020409)
+		elif GetTalkListEntryResult() == 105:
+			"""State 12"""
+			assert t400504_x40(z1=25000910, z2=1, action1=80020310)
+		elif GetTalkListEntryResult() == 205:
+			"""State 13"""
+			assert t400504_x40(z1=25000910, z2=0, action1=80020410)
+		elif GetTalkListEntryResult() == 106:
+			"""State 14"""
+			assert t400504_x40(z1=25000911, z2=1, action1=80020311)
+		elif GetTalkListEntryResult() == 206:
+			"""State 15"""
+			assert t400504_x40(z1=25000911, z2=0, action1=80020411)
+		elif GetTalkListEntryResult() == 107:
+			"""State 16"""
+			assert t400504_x40(z1=25000912, z2=1, action1=80020312)
+		elif GetTalkListEntryResult() == 207:
+			"""State 17"""
+			assert t400504_x40(z1=25000912, z2=0, action1=80020412)
+		elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == true and not CheckSpecificPersonGenericDialogIsOpen(0)):
+			"""State 18"""
+			return 0
+
+def t400504_x40(z1=_, z2=_, action1=_):
+	"""State 0"""
+	assert t400504_x41(action1=action1)
+	"""State 1"""
+	MainBonfireMenuFlag()
+	ClearTalkListData()
+	AddTalkListData(1, 80000103, -1)
+	AddTalkListData(2, 80000104, -1)
+	OpenConversationChoicesMenu(0)
+	assert not (CheckSpecificPersonMenuIsOpen(12, 0) == true and not CheckSpecificPersonGenericDialogIsOpen(0))
+	"""State 2"""
+	if GetTalkListEntryResult() == 1:
+		"""State 3"""
+		SetEventState(z1, z2)
+		return 0
+	elif GetTalkListEntryResult() == 2:
+		"""State 4"""
+		return 1
+	else:
+		"""State 5"""
+		return 2
+
+def t400504_x41(action1=_):
+	"""State 0,1"""
+	OpenGenericDialog(DialogBoxType.CenterBottom2, action1, DialogResult.Left, DialogBoxStyle.OrnateNoOptions, 1)
+	assert not CheckSpecificPersonGenericDialogIsOpen(0)
+	"""State 2"""
+	return 0
