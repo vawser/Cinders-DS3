@@ -1,0 +1,5 @@
+# Crash Notes
+c1280_0017 (Red-Eyed Lothric Knight)
+ - Caused CTD on bonfire sit in m30_00_00_00, at the first bonfire
+ 
+Cause: duplicate Entity Group ID, same ID in [3] and [5]
