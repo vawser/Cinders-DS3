@@ -151,7 +151,7 @@ def t400503_x9():
         ClearTalkListData()
         
         # Learn the Magical Arts
-        AddTalkListDataIf(not GetEventStatus(25009850), 1, 15003023, -1)
+        AddTalkListData(1, 15003023, -1)
         
         # Magical Restraints
         AddTalkListData(2, 99095000, -1)
@@ -297,74 +297,62 @@ def t400503_x20():
         # Enable Restraint: Roll
         if GetTalkListEntryResult() == 1:
             """State 2"""
-            OpenGenericDialog(1, 99095200, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095200, 0, 0, 0)
             SetEventState(25002500, 1)
         # Disable Restraint: Roll
         elif GetTalkListEntryResult() == 2:
             """State 3"""
-            OpenGenericDialog(1, 99095100, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095100, 0, 0, 0)
             SetEventState(25002500, 0)
         # Enable Restraint: Sprint
         elif GetTalkListEntryResult() == 3:
             """State 4"""
-            OpenGenericDialog(1, 99095201, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095201, 0, 0, 0)
             SetEventState(25002501, 1)
         # Disable Restraint: Sprint
         elif GetTalkListEntryResult() == 4:
             """State 5"""
-            OpenGenericDialog(1, 99095101, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095101, 0, 0, 0)
             SetEventState(25002501, 0)
         # Enable Restraint: Run
         elif GetTalkListEntryResult() == 5:
             """State 6"""
-            OpenGenericDialog(1, 99095202, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095202, 0, 0, 0)
             SetEventState(25002502, 1)
         # Disable Restraint: Run
         elif GetTalkListEntryResult() == 6:
             """State 7"""
-            OpenGenericDialog(1, 99095102, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095102, 0, 0, 0)
             SetEventState(25002502, 0)
         # Enable Restraint: Backstep
         elif GetTalkListEntryResult() == 7:
             """State 8"""
-            OpenGenericDialog(1, 99095203, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095203, 0, 0, 0)
             SetEventState(25002503, 1)
         # Disable Restraint: Backstep
         elif GetTalkListEntryResult() == 8:
             """State 9"""
-            OpenGenericDialog(1, 99095103, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095103, 0, 0, 0)
             SetEventState(25002503, 0)
         # Enable Restraint: Jump
         elif GetTalkListEntryResult() == 9:
             """State 10"""
-            OpenGenericDialog(1, 99095204, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095204, 0, 0, 0)
             SetEventState(25002504, 1)
         # Disable Restraint: Jump
         elif GetTalkListEntryResult() == 10:
             """State 11"""
-            OpenGenericDialog(1, 99095104, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095104, 0, 0, 0)
             SetEventState(25002504, 0)
         # Enable Restraint: Kick
         elif GetTalkListEntryResult() == 11:
             """State 12"""
-            OpenGenericDialog(1, 99095205, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095205, 0, 0, 0)
             SetEventState(25002505, 1)
         # Disable Restraint: Kick
         elif GetTalkListEntryResult() == 12:
             """State 13"""
-            OpenGenericDialog(1, 99095105, 
-            0, 0, 0)
+            OpenGenericDialog(1, 99095105, 0, 0, 0)
             SetEventState(25002505, 0)
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):

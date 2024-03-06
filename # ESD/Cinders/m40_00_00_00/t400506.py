@@ -148,7 +148,7 @@ def t400506_x9():
         ClearTalkListData()
         
         # Covenant
-        AddTalkListDataIf(not GetEventStatus(25009850), 1, 99062000, -1)
+        AddTalkListData(1, 99062000, -1)
         
         # Bite Material
         AddTalkListData(13, 99060400, -1)

@@ -150,7 +150,7 @@ def t400516_x9():
         AddTalkListData(1, 15003040, -1)
         
         # Train Outside
-        AddTalkListDataIf(not GetEventStatus(25009850) and not GetEventStatus(25009793), 2, 15003050,
+        AddTalkListDataIf(not GetEventStatus(25009793), 2, 15003050,
                           -1)
         
         # Train Inside

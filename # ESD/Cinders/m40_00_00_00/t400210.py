@@ -522,10 +522,10 @@ def t400210_x15(z1=2107, z2=2108, z3=2109, z4=2110, z5=2111, z6=2112, z7=2113, z
         """State 11"""
         
         # Purchase Item
-        AddTalkListDataIf(not GetEventStatus(25009850), 1, 15011020, -1)
+        AddTalkListData(1, 15011020, -1)
         
         # Sell Item
-        AddTalkListDataIf(not GetEventStatus(25009850), 2, 15000012, -1)
+        AddTalkListData(2, 15000012, -1)
         
         # Propose Marriage
         AddTalkListDataIf(not GetEventStatus(25008140) and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1,

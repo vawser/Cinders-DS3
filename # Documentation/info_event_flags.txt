@@ -2296,6 +2296,7 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25009780 Summon VFX toggle
 
+
 25009999 NO SHOW flag
 
 #------------------------
@@ -2330,6 +2331,13 @@ xxx5750 Enemies enabled by Curse of Attraction
 25009831 Ringed City
 25009835 None
 25009840 Random location
+
+25009850 Bonfire: Smithbox
+25009851 Bonfire: Sorcerer's Spellkit
+25009852 Bonfire: Pyromancer's Spellkit
+25009853 Bonfire: Priests' Spellkit
+25009854 Bonfire: Hexer's Spellkit
+25009855 Bonfire: Hunter's Toolkit
 
 #------------------------
 # Other

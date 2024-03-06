@@ -6,6 +6,9 @@
 - Removed Ring affixing.
 - Removed the Corruption mode.
 
+# Bugfixes
+- Fixed the Statue SFX near the first High Wall of Lothric bonfire from looping.
+
 #-------------------------------------------------
 # Player
 #-------------------------------------------------
@@ -40,6 +43,24 @@
 #-------------------------------------------------
 - Changed the starting gifts.
 
+#-------------------------------------------------
+# Bonfire
+#-------------------------------------------------
+- Adjusted the bonfire menu:
+ - Added "Open Smithbox" sub-menu (unlocked by purchasing the Smithbox from Andre)
+  - Adds "Reinforce Equipment" option
+  - Adds "Infuse Equipment" option
+  - Adds "Repair Equipment" option
+  
+ - Added "Open Spellkit" sub-menu, adding the spell ascension menus to the bonfire:
+  - Adds "Sorcerer's Spellkit" option (unlocked by purchasing the Sorcerer's Spellkit from Magician Quilion)
+  - Adds "Pyromancer's Spellkit" option (unlocked by purchasing the Pyromancer's Spellkit from Helia of the Lake)
+  - Adds "Priest's Spellkit" option (unlocked by purchasing the Priest's Spellkit from Scribe Vadan)
+  - Adds "Hexer's Spellkit" option (unlocked by purchasing the Hexer's Spellkit from Sinner Argith)
+
+ - Added "Open Hunter's Toolkit" sub-menu:
+  - Adds "Enable/Disable Hunter's Dash", allowing you to toggle the Bloodborne dash at the bonfire.
+  
 #-------------------------------------------------
 # Castigations
 #-------------------------------------------------
@@ -231,4 +252,5 @@
 - Need to do ESD pass for the covenant NPC talks:
 - Form Covenant needs to kick player out of interaction
 - Remove Strengthen Bonds that were missed
+
 

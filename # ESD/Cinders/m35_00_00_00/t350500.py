@@ -149,6 +149,9 @@ def t350500_x9():
         # Ascend Miracles
         AddTalkListData(1, 15004003, -1)
         
+        # View Inventory
+        AddTalkListData(2, 15004005, -1)
+        
         # Talk
         AddTalkListData(3, 99010001, -1)
         
@@ -164,6 +167,9 @@ def t350500_x9():
         if GetTalkListEntryResult() == 1:
             assert t350500_x20()
             return 0
+        # View Inventory
+        elif GetTalkListEntryResult() == 2:
+            OpenRegularShop(812000, 812999)
         # Talk
         elif GetTalkListEntryResult() == 3:
             """State 4"""
@@ -200,90 +206,220 @@ def t350500_x11():
     """State 2"""
     return 0
 
-# Ascension Menu
+# Ascension
 def t350500_x20():
     while True:
         """State 0"""
         MainBonfireMenuFlag()
         ClearTalkListData()
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3509000, 4, 1, 0) == 1, 1, 99047000, -1)
-        # goods:3550000:Lightning Spear
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3550000, 4, 1, 0) == 1, 2, 99047001, -1)
-        # goods:3551000:Great Lightning Spear
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3551000, 4, 1, 0) == 1, 3, 99047002, -1)
-        # goods:3552000:Sunlight Spear
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3552000, 4, 1, 0) == 1, 4, 99047003, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3819000, 4, 1, 0) == 1, 5, 99047004, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3821000, 4, 1, 0) == 1, 6, 99047005, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3820000, 4, 1, 0) == 1, 7, 99047006, -1)
-        # goods:3710000:Lightning Stake
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3710000, 4, 1, 0) == 1, 8, 99047007, -1)
-        # goods:3553000:Lightning Storm
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3553000, 4, 1, 0) == 1, 9, 99047008, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3802000, 4, 1, 0) == 1, 10, 99047009, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3818000, 4, 1, 0) == 1, 11, 99047010, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3556000, 4, 1, 0) == 1, 12, 99047011, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3803000, 4, 1, 0) == 1, 13, 99047012, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3813000, 4, 1, 0) == 1, 14, 99047013, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3814000, 4, 1, 0) == 1, 15, 99047014, -1)
-        # goods:3530000:Force
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3530000, 4, 1, 0) == 1, 16, 99047015, -1)
-        # goods:3531000:Wrath of the Gods
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3531000, 4, 1, 0) == 1, 17, 99047016, -1)
-        # goods:3532000:Emit Force
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3532000, 4, 1, 0) == 1, 18, 99047017, -1)
-        # goods:3720000:Divine Pillars of Light
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3720000, 4, 1, 0) == 1, 19, 99047018, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3812000, 4, 1, 0) == 1, 20, 99047019, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3815000, 4, 1, 0) == 1, 21, 99047020, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3816000, 4, 1, 0) == 1, 22, 99047021, -1)
-        # goods:3490000:Heal Aid
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3490000, 4, 1, 0) == 1, 23, 99047022, -1)
-        # goods:3500000:Heal
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3500000, 4, 1, 0) == 1, 24, 99047023, -1)
-        # goods:3501000:Med Heal
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3501000, 4, 1, 0) == 1, 25, 99047024, -1)
-        # goods:3502000:Great Heal
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3502000, 4, 1, 0) == 1, 26, 99047025, -1)
-        # goods:3503000:Soothing Sunlight
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3503000, 4, 1, 0) == 1, 27, 99047026, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3557000, 4, 1, 0) == 1, 28, 99047027, -1)
-        # goods:3504000:Replenishment
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3504000, 4, 1, 0) == 1, 29, 99047028, -1)
-        # goods:3507000:Bountiful Light
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3507000, 4, 1, 0) == 1, 30, 99047029, -1)
-        # goods:3505000:Bountiful Sunlight
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3505000, 4, 1, 0) == 1, 31, 99047030, -1)
-        # goods:3508000:Caressing Tears
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3508000, 4, 1, 0) == 1, 32, 99047031, -1)
-        # goods:3590000:Lightning Blade
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3590000, 4, 1, 0) == 1, 33, 99047032, -1)
-        # goods:3760000:Blessed Weapon
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3760000, 4, 1, 0) == 1, 34, 99047033, -1)
-        # goods:3591000:Darkmoon Blade
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3591000, 4, 1, 0) == 1, 35, 99047034, -1)
-        # goods:3561000:Great Magic Barrier
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3561000, 4, 1, 0) == 1, 37, 99047036, -1)
-        # goods:3563000:Sacred Oath
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3563000, 4, 1, 0) == 1, 38, 99047037, -1)
-        # goods:3540000:Seek Guidance
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3540000, 4, 1, 0) == 1, 39, 99047038, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3805000, 4, 1, 0) == 1, 40, 99047039, -1)
-        # goods:3520000:Tears of Denial
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3520000, 4, 1, 0) == 1, 41, 99047040, -1)
-        # goods:3521000:Homeward
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3521000, 4, 1, 0) == 1, 42, 99047041, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3822000, 4, 1, 0) == 1, 43, 99047042, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3823000, 4, 1, 0) == 1, 44, 99047043, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3824000, 4, 1, 0) == 1, 45, 99047044, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3825000, 4, 1, 0) == 1, 46, 99047045, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3826000, 4, 1, 0) == 1, 47, 99047046, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3827000, 4, 1, 0) == 1, 48, 99047047, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3828000, 4, 1, 0) == 1, 49, 99047048, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3829000, 4, 1, 0) == 1, 50, 99047049, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3830000, 4, 1, 0) == 1, 51, 99047050, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3831000, 4, 1, 0) == 1, 52, 99047051, -1)
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3832000, 4, 1, 0) == 1, 53, 99047052, -1)
+        
+        # Bloodthirsty Lightning Arrow
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3509000, 4, 
+        1, 0) == 1, 1, 99047000, -1)
+        
+        # Lightning Surge
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3550000, 4, 
+        1, 0) == 1, 2, 99047001, -1)
+        
+        # Storm Spear
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3551000, 4, 
+        1, 0) == 1, 3, 99047002, -1)
+        
+        # Fulgurant Sunlight Spear
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3552000, 4, 
+        1, 0) == 1, 4, 99047003, -1)
+        
+        # Weakening Wrathful Orbs
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3819000, 4, 
+        1, 0) == 1, 5, 99047004, -1)
+        
+        # Wrathful Wave
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3821000, 4,
+        1, 0) == 1, 6, 99047005, -1)
+        
+        # Quickened Holy Schism
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3820000, 4, 
+        1, 0) == 1, 7, 99047006, -1)
+        
+        # Sunlight Stake
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3710000, 4, 
+        1, 0) == 1, 8, 99047007, -1)
+        
+        # Sunlight Storm
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3553000, 4, 
+        1, 0) == 1, 9, 99047008, -1)
+        
+        # Repeating Heavenly Thunder
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3802000, 4, 
+        1, 0) == 1, 10, 99047009, -1)
+        
+        # Lingering Overwhelming Power
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3818000, 4, 
+        1, 0) == 1, 11, 99047010, -1)
+        
+        # Bloodthirsty Way of White Corona
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3556000, 4, 
+        1, 0) == 1, 12, 99047011, -1)
+        
+        # Quickened Halo
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3803000, 4, 
+        1, 0) == 1, 13, 99047012, -1)
+        
+        # Bloodthirsty Divine Arrow
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3813000, 4, 
+        1, 0) == 1, 14, 99047013, -1)
+        
+        # Homing Lothric's Holy Spear
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3814000, 4, 
+        1, 0) == 1, 15, 99047014, -1)
+        
+        # Refined Force
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3530000, 4, 
+        1, 0) == 1, 16, 99047015, -1)
+        
+        # Quickened Wrath of the Gods
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3531000, 4, 
+        1, 0) == 1, 17, 99047016, -1)
+        
+        # Emit Wrath
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3532000, 4, 
+        1, 0) == 1, 18, 99047017, -1)
+        
+        # Repeating Pillars of Light
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3720000, 4, 
+        1, 0) == 1, 19, 99047018, -1)
+        
+        # Angelic Punishment
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3812000, 4, 
+        1, 0) == 1, 20, 99047019, -1)
+        
+        # Repeating Proof of a Pact
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3815000, 4, 
+        1, 0) == 1, 21, 99047020, -1)
+        
+        # Extended Ghostly Assault
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3816000, 4, 
+        1, 0) == 1, 22, 99047021, -1)
+        
+        # Extended Heal Aid
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3490000, 4, 
+        1, 0) == 1, 23, 99047022, -1)
+        
+        # Extended Heal
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3500000, 4, 
+        1, 0) == 1, 24, 99047023, -1)
+        
+        # Extended Med Heal
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3501000, 4, 
+        1, 0) == 1, 25, 99047024, -1)
+        
+        # Extended Great Heal
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3502000, 4, 
+        1, 0) == 1, 26, 99047025, -1)
+        
+        # Extended Soothing Sunlight
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3503000, 4, 
+        1, 0) == 1, 27, 99047026, -1)
+        
+        # Extended Projected Heal
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3557000, 4, 
+        1, 0) == 1, 28, 99047027, -1)
+        
+        # Lingering Replenishment
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3504000, 4, 
+        1, 0) == 1, 29, 99047028, -1)
+        
+        # Lingering Bountiful Light
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3507000, 4, 
+        1, 0) == 1, 30, 99047029, -1)
+        
+        # Lingering Bountiful Sunlight
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3505000, 4, 
+        1, 0) == 1, 31, 99047030, -1)
+        
+        # Quickened Caressing Tears
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3508000, 4, 
+        1, 0) == 1, 32, 99047031, -1)
+        
+        # Sunlight Blade
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3590000, 4, 
+        1, 0) == 1, 33, 99047032, -1)
+        
+        # Holy Weapon
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3760000, 4, 
+        1, 0) == 1, 34, 99047033, -1)
+        
+        # Supreme Darkmoon Blade
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3591000, 4, 
+        1, 0) == 1, 35, 99047034, -1)
+        
+        # Supreme Magic Barrier
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3561000, 4, 
+        1, 0) == 1, 37, 99047036, -1)
+        
+        # Extended Sacred Oath
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3563000, 4, 
+        1, 0) == 1, 38, 99047037, -1)
+        
+        # Divine Relief
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3540000, 4, 
+        1, 0) == 1, 39, 99047038, -1)
+        
+        # Lingering Perseverance
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3805000, 4, 
+        1, 0) == 1, 40, 99047039, -1)
+        
+        # Mass Tears of Denial
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3520000, 4, 
+        1, 0) == 1, 41, 99047040, -1)
+        
+        # Refined Homeward
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3521000, 4, 
+        1, 0) == 1, 42, 99047041, -1)
+    
+        # Gwynevere's Refined Abnegation
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3822000, 4, 
+        1, 0) == 1, 43, 99047042, -1)
+        
+        # Lingering Lightning Orb
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3823000, 4, 
+        1, 0) == 1, 44, 99047043, -1)
+        
+        # Lingering Whirlwind
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3824000, 4, 
+        1, 0) == 1, 45, 99047044, -1)
+        
+        # Distant Blast Wave
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3825000, 4, 
+        1, 0) == 1, 46, 99047045, -1)
+        
+        # Bloodthirsty Squall
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3826000, 4, 
+        1, 0) == 1, 47, 99047046, -1)
+        
+        # Swift Slicing Wind
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3827000, 4, 
+        1, 0) == 1, 48, 99047047, -1)
+        
+        # Weakening Gale Force
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3828000, 4, 
+        1, 0) == 1, 49, 99047048, -1)
+        
+        # Explosive Cyclone Blast
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3829000, 4, 
+        1, 0) == 1, 50, 99047049, -1)
+        
+        # Lingering Static Field
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3830000, 4, 
+        1, 0) == 1, 51, 99047050, -1)
+        
+        # Lingering Tailwind
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3831000, 4, 
+        1, 0) == 1, 52, 99047051, -1)
+        
+        # Lingering Shredding Winds
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3832000, 4, 
+        1, 0) == 1, 53, 99047052, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)
@@ -297,210 +433,262 @@ def t350500_x20():
             """State 2"""
             assert (t350500_x50(lot1=82000, goods1=1090, z1=9, z2=-10, action1=99048000, action2=99049000,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 2:
             """State 3"""
             assert (t350500_x50(lot1=82010, goods1=1090, z1=9, z2=-10, action1=99048001, action2=99049001,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 3:
             """State 4"""
             assert (t350500_x50(lot1=82020, goods1=1090, z1=14, z2=-15, action1=99048002, action2=99049002,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 4:
             """State 5"""
             assert (t350500_x50(lot1=82030, goods1=1090, z1=14, z2=-15, action1=99048003, action2=99049003,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 5:
             """State 6"""
             assert (t350500_x50(lot1=82040, goods1=1090, z1=19, z2=-20, action1=99048004, action2=99049004,
                     action3=99040022))
+            continue
         elif GetTalkListEntryResult() == 6:
             """State 7"""
             assert (t350500_x50(lot1=82050, goods1=1090, z1=9, z2=-10, action1=99048005, action2=99049005,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 7:
             """State 8"""
             assert (t350500_x50(lot1=82060, goods1=1090, z1=14, z2=-15, action1=99048006, action2=99049006,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 8:
             """State 9"""
             assert (t350500_x50(lot1=82070, goods1=1090, z1=14, z2=-15, action1=99048007, action2=99049007,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 9:
             """State 10"""
             assert (t350500_x50(lot1=82080, goods1=1090, z1=14, z2=-15, action1=99048008, action2=99049008,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 10:
             """State 11"""
             assert (t350500_x50(lot1=82090, goods1=1090, z1=19, z2=-20, action1=99048009, action2=99049009,
                     action3=99040022))
+            continue
         elif GetTalkListEntryResult() == 11:
             """State 12"""
             assert (t350500_x50(lot1=82100, goods1=1090, z1=14, z2=-15, action1=99048010, action2=99049010,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 12:
             """State 13"""
             assert (t350500_x50(lot1=82110, goods1=1090, z1=9, z2=-10, action1=99048011, action2=99049011,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 13:
             """State 14"""
             assert (t350500_x50(lot1=82120, goods1=1090, z1=14, z2=-15, action1=99048012, action2=99049012,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 14:
             """State 15"""
             assert (t350500_x50(lot1=82130, goods1=1090, z1=9, z2=-10, action1=99048013, action2=99049013,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 15:
             """State 16"""
             assert (t350500_x50(lot1=82140, goods1=1090, z1=14, z2=-15, action1=99048014, action2=99049014,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 16:
             """State 17"""
             assert (t350500_x50(lot1=82150, goods1=1090, z1=9, z2=-10, action1=99048015, action2=99049015,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 17:
             """State 18"""
             assert (t350500_x50(lot1=82160, goods1=1090, z1=19, z2=-20, action1=99048016, action2=99049016,
                     action3=99040022))
+            continue
         elif GetTalkListEntryResult() == 18:
             """State 19"""
             assert (t350500_x50(lot1=82170, goods1=1090, z1=14, z2=-15, action1=99048017, action2=99049017,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 19:
             """State 20"""
             assert (t350500_x50(lot1=82180, goods1=1090, z1=14, z2=-15, action1=99048018, action2=99049018,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 20:
             """State 21"""
             assert (t350500_x50(lot1=82190, goods1=1090, z1=19, z2=-20, action1=99048019, action2=99049019,
                     action3=99040022))
+            continue
         elif GetTalkListEntryResult() == 21:
             """State 22"""
             assert (t350500_x50(lot1=82200, goods1=1090, z1=14, z2=-15, action1=99048020, action2=99049020,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 22:
             """State 23"""
             assert (t350500_x50(lot1=82210, goods1=1090, z1=14, z2=-15, action1=99048021, action2=99049021,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 23:
             """State 24"""
             assert (t350500_x50(lot1=82220, goods1=1090, z1=9, z2=-10, action1=99048022, action2=99049022,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 24:
             """State 25"""
             assert (t350500_x50(lot1=82230, goods1=1090, z1=9, z2=-10, action1=99048023, action2=99049023,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 25:
             """State 26"""
             assert (t350500_x50(lot1=82240, goods1=1090, z1=9, z2=-10, action1=99048024, action2=99049024,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 26:
             """State 27"""
             assert (t350500_x50(lot1=82250, goods1=1090, z1=9, z2=-10, action1=99048025, action2=99049025,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 27:
             """State 28"""
             assert (t350500_x50(lot1=82260, goods1=1090, z1=9, z2=-10, action1=99048026, action2=99049026,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 28:
             """State 29"""
             assert (t350500_x50(lot1=82270, goods1=1090, z1=9, z2=-10, action1=99048027, action2=99049027,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 29:
             """State 30"""
             assert (t350500_x50(lot1=82280, goods1=1090, z1=14, z2=-15, action1=99048028, action2=99049028,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 30:
             """State 31"""
             assert (t350500_x50(lot1=82290, goods1=1090, z1=14, z2=-15, action1=99048029, action2=99049029,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 31:
             """State 32"""
             assert (t350500_x50(lot1=82300, goods1=1090, z1=19, z2=-20, action1=99048030, action2=99049030,
                     action3=99040022))
+            continue
         elif GetTalkListEntryResult() == 32:
             """State 33"""
             assert (t350500_x50(lot1=82310, goods1=1090, z1=9, z2=-10, action1=99048031, action2=99049031,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 33:
             """State 34"""
             assert (t350500_x50(lot1=82320, goods1=1090, z1=14, z2=-15, action1=99048032, action2=99049032,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 34:
             """State 35"""
             assert (t350500_x50(lot1=82330, goods1=1090, z1=14, z2=-15, action1=99048033, action2=99049033,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 35:
             """State 36"""
             assert (t350500_x50(lot1=82340, goods1=1090, z1=14, z2=-15, action1=99048034, action2=99049034,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 37:
             """State 37"""
             assert (t350500_x50(lot1=82360, goods1=1090, z1=14, z2=-15, action1=99048036, action2=99049036,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 38:
             """State 38"""
             assert (t350500_x50(lot1=82370, goods1=1090, z1=9, z2=-10, action1=99048037, action2=99049037,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 39:
             """State 39"""
             assert (t350500_x50(lot1=82380, goods1=1090, z1=14, z2=-15, action1=99048038, action2=99049038,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 40:
             """State 40"""
             assert (t350500_x50(lot1=82390, goods1=1090, z1=14, z2=-15, action1=99048039, action2=99049039,
                     action3=99040021))
+            continue
         elif GetTalkListEntryResult() == 41:
             """State 41"""
             assert (t350500_x50(lot1=82400, goods1=1090, z1=9, z2=-10, action1=99048040, action2=99049040,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 42:
             """State 42"""
             assert (t350500_x50(lot1=82410, goods1=1090, z1=9, z2=-10, action1=99048041, action2=99049041,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 43:
             """State 43"""
             assert (t350500_x50(lot1=82420, goods1=1090, z1=9, z2=-10, action1=99048042, action2=99049042,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 44:
             """State 44"""
             assert (t350500_x50(lot1=82430, goods1=1090, z1=9, z2=-10, action1=99048043, action2=99049043,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 45:
             """State 45"""
             assert (t350500_x50(lot1=82440, goods1=1090, z1=9, z2=-10, action1=99048044, action2=99049044,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 46:
             """State 46"""
             assert (t350500_x50(lot1=82450, goods1=1090, z1=9, z2=-10, action1=99048045, action2=99049045,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 47:
             """State 47"""
             assert (t350500_x50(lot1=82460, goods1=1090, z1=9, z2=-10, action1=99048046, action2=99049046,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 48:
             """State 48"""
             assert (t350500_x50(lot1=82470, goods1=1090, z1=9, z2=-10, action1=99048047, action2=99049047,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 49:
             """State 49"""
             assert (t350500_x50(lot1=82480, goods1=1090, z1=9, z2=-10, action1=99048048, action2=99049048,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 50:
             """State 50"""
             assert (t350500_x50(lot1=82490, goods1=1090, z1=9, z2=-10, action1=99048049, action2=99049049,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 51:
             """State 51"""
             assert (t350500_x50(lot1=82500, goods1=1090, z1=9, z2=-10, action1=99048050, action2=99049050,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 52:
             """State 52"""
             assert (t350500_x50(lot1=82510, goods1=1090, z1=9, z2=-10, action1=99048051, action2=99049051,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 53:
             """State 53"""
             assert (t350500_x50(lot1=82520, goods1=1090, z1=9, z2=-10, action1=99048052, action2=99049052,
                     action3=99040020))
+            continue
         elif GetTalkListEntryResult() == 99:
             """State 54"""
             ReportConversationEndToHavokBehavior()

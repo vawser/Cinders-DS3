@@ -156,19 +156,19 @@ def t400120_x8(goods1=2138, goods2=390, z1=2002, goods3=2000, z2=2016):
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1, 16, 15002005, -1)
         
         # Propose Marriage
-        AddTalkListDataIf(not GetEventStatus(25008020) and ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1 and not GetEventStatus(25009850),
+        AddTalkListDataIf(not GetEventStatus(25008020) and ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1,
                           30, 15015040, -1)
                           
         # Flirt
-        AddTalkListDataIf(GetEventStatus(25008020) == 1 and not GetEventStatus(25009850), 31, 15015041,
+        AddTalkListDataIf(GetEventStatus(25008020) == 1, 31, 15015041,
                           -1)
                           
         # Divorce
-        AddTalkListDataIf(GetEventStatus(25008020) == 1 and not GetEventStatus(25009850), 32, 15015042,
+        AddTalkListDataIf(GetEventStatus(25008020) == 1, 32, 15015042,
                           -1)
                           
         # Seduce
-        AddTalkListDataIf(GetEventStatus(25008020) == 1 and not GetEventStatus(25009850), 33, 15015043,
+        AddTalkListDataIf(GetEventStatus(25008020) == 1, 33, 15015043,
                           -1)
                           
         # Talk
@@ -344,8 +344,6 @@ def t400120_x9():
     """State 24"""
     return 0
     """Unused"""
-    """State 25"""
-    assert not GetEventStatus(25009850)
     Goto('L0')
 
 def t400120_x10():

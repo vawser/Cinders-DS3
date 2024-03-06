@@ -164,11 +164,11 @@ def t400507_x9():
         AddTalkListDataIf(not GetEventStatus(25009540) and ComparePlayerInventoryNumber(3, 2006, 2, 0, 0) == 1,
                           5, 99013111, -1)
         
-        # Learn Benjin's Dash
-        AddTalkListDataIf(not GetEventStatus(25009750), 10, 99013130, -1)
+        # Learn Hunter's Dash
+        AddTalkListDataIf(not GetEventStatus(25009750), 10, 16000017, -1)
         
-        # Forget Benjin's Dash
-        AddTalkListDataIf(GetEventStatus(25009750) == 1, 11, 99013140, -1)
+        # Forget Hunter's Dash
+        AddTalkListDataIf(GetEventStatus(25009750) == 1, 11, 16000018, -1)
         
         # Talk
         AddTalkListData(6, 10010200, -1)
@@ -210,12 +210,12 @@ def t400507_x9():
         elif GetTalkListEntryResult() == 6:
             """State 7"""
             assert t400507_x10(text1=10021000, flag1=0, mode1=0)
-        # Learn Benjin's Dash
+        # Learn Hunter's Dash
         elif GetTalkListEntryResult() == 10:
             """State 8"""
             OpenGenericDialog(1, 99013131, 0, 0, 0)
             SetEventState(25009750, 1)
-        # Forget Benjin's Dash
+        # Forget Hunter's Dash
         elif GetTalkListEntryResult() == 11:
             """State 9"""
             OpenGenericDialog(1, 99013141, 0, 0, 0)

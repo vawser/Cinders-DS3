@@ -147,10 +147,10 @@ def t400508_x9():
         ClearTalkListData()
         
         # Covenant
-        AddTalkListDataIf(not GetEventStatus(25009850), 1, 99062000, -1)
+        AddTalkListData(1, 99062000, -1)
         
         # Purchase Item
-        AddTalkListDataIf(not GetEventStatus(25009850), 2, 15000010, -1)
+        AddTalkListData(2, 15000010, -1)
         
         # Conjuration
         AddTalkListData(3, 99091100, -1)

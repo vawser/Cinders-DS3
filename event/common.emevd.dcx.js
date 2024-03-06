@@ -19,6 +19,9 @@ $Event(0, Default, function() {
     InitializeEvent(0, 9570, 4500, 3740); // Forked Pale Tongue
     InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
 
+    // Debug
+    InitializeEvent(0, 50000, 0);
+    
     // Kill Tracker
     SetSpEffect(10000, 200000010);
     
@@ -29,6 +32,9 @@ $Event(0, Default, function() {
     InitializeEvent(0, 10001, 0); // Effect: Player
     InitializeEvent(0, 10002, 0); // Effect: Enemy
     InitializeEvent(0, 10003, 0); // Disabled by Default
+    
+    // Bonfire Key Items
+    InitializeEvent(0, 20005, 0);
     
     // BB Dodge Toggle
     InitializeEvent(0, 20006, 0); 
@@ -2308,6 +2314,52 @@ $Event(12010, Default, function(X0_4, X4_4, X8_4) {
     {
         SetSpEffect(10000, X4_4);
     }
+});
+
+//------------------------------------------------
+// Bonfire Key Items
+//------------------------------------------------
+$Event(20005, Restart, function() {
+    
+    // Smithbox
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2070))
+    {
+        SetEventFlag(25009850, ON);
+    }
+    
+    // Sorcerer's Spellkit
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2071))
+    {
+        SetEventFlag(25009851, ON);
+    }
+    
+    // Pyromancer's Spellkit
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2072))
+    {
+        SetEventFlag(25009852, ON);
+    }
+    
+    // Priest's Spellkit
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2073))
+    {
+        SetEventFlag(25009853, ON);
+    }
+    
+    // Hexer's Spellkit
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2074))
+    {
+        SetEventFlag(25009854, ON);
+    }
+    
+    // Hunter's Toolkit
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2006))
+    {
+        SetEventFlag(25009855, ON);
+    }
+    
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
 });
 
 //------------------------------------------------
@@ -10987,3 +11039,171 @@ $Event(20400, Restart, function() {
 
     RestartEvent();
 });
+
+//------------------------------------------------
+// DEBUG
+//------------------------------------------------
+$Event(50000, Restart, function() {
+    
+   //InitializeEvent(0, 50001, 0); // Instant Kill
+   //InitializeEvent(0, 50002, 0); // Immunity to Damage
+   //InitializeEvent(0, 50003, 0); // 100% HP Regen
+   //InitializeEvent(0, 50004, 0); // 100% FP Regen
+   
+   //InitializeEvent(0, 50010, 0); // Disable Enemy AI
+   //InitializeEvent(0, 50011, 0); // Hide Enemies
+   
+   //InitializeEvent(0, 50100, 0); // Unlock All Bonfires
+   
+   InitializeEvent(0, 50020, 0); // Debug NPC
+});
+
+// Instant Kill
+$Event(50001, Restart, function() {
+    SetSpEffect(10000, 200000001);
+});
+
+// Immunity to Damage
+$Event(50002, Restart, function() {
+    SetSpEffect(10000, 200000002);
+});
+
+// 100% HP Regen
+$Event(50003, Restart, function() {
+    SetSpEffect(10000, 200000003);
+});
+
+// 100% FP Regen
+$Event(50004, Restart, function() {
+    SetSpEffect(10000, 200000004);
+});
+
+// Disable Enemy AI
+$Event(50010, Restart, function() {
+    SetCharacterAIState(3605800, Disabled);
+});
+
+// Hide Enemies
+$Event(50011, Restart, function() {
+    ChangeCharacterEnableState(3605800, Disabled);
+});
+
+// Disable Debug NPC
+$Event(50020, Restart, function() {
+    ChangeCharacterEnableState(4000899, Disabled);
+    SetCharacterAnimationState(4000899, Disabled);
+    SetCharacterAIState(4000899, Disabled);
+});
+
+// Enable Debug NPC
+$Event(50021, Restart, function() {
+    ChangeCharacterEnableState(4000899, Disabled);
+    SetCharacterAnimationState(4000899, Disabled);
+    SetCharacterAIState(4000899, Disabled);
+});
+
+// Unlock All Bonfires
+$Event(50100, Restart, function() {
+    SetEventFlag(14000000, ON);
+    SetEventFlag(14000001, ON);
+    SetEventFlag(14000002, ON);
+    SetEventFlag(14000003, ON);
+    SetEventFlag(14000004, ON);
+    
+    SetEventFlag(13000009, ON);
+    SetEventFlag(13000000, ON);
+    SetEventFlag(13000005, ON);
+    SetEventFlag(13000002, ON);
+    SetEventFlag(13000004, ON);
+    SetEventFlag(13000001, ON);
+    SetEventFlag(13000003, ON);
+    SetEventFlag(13000008, ON);
+    
+    SetEventFlag(13010000, ON);
+    SetEventFlag(13010002, ON);
+    SetEventFlag(13010001, ON);
+    
+    SetEventFlag(13410000, ON);
+    SetEventFlag(13410001, ON);
+    
+    SetEventFlag(13100004, ON);
+    SetEventFlag(13100000, ON);
+    SetEventFlag(13100002, ON);
+    SetEventFlag(13100003, ON);
+    SetEventFlag(13100001, ON);
+    
+    SetEventFlag(13200000, ON);
+    SetEventFlag(13200003, ON);
+    SetEventFlag(13200002, ON);
+    SetEventFlag(13200001, ON);
+    
+    SetEventFlag(13300006, ON);
+    SetEventFlag(13300000, ON);
+    SetEventFlag(13300007, ON);
+    SetEventFlag(13300002, ON);
+    
+    SetEventFlag(13300003, ON);
+    SetEventFlag(13300004, ON);
+    SetEventFlag(13300008, ON);
+    SetEventFlag(13300005, ON);
+    SetEventFlag(13300001, ON);
+    
+    SetEventFlag(13500003, ON);
+    SetEventFlag(13500000, ON);
+    SetEventFlag(13500001, ON);
+    SetEventFlag(13500002, ON);
+    
+    SetEventFlag(13700007, ON);
+    SetEventFlag(13700004, ON);
+    SetEventFlag(13700000, ON);
+    SetEventFlag(13700005, ON);
+    SetEventFlag(13700001, ON);
+    SetEventFlag(13700006, ON);
+    SetEventFlag(13700003, ON);
+    SetEventFlag(13700008, ON);
+    SetEventFlag(13700002, ON);
+    
+    SetEventFlag(13800006, ON);
+    SetEventFlag(13800000, ON);
+    SetEventFlag(13800001, ON);
+    SetEventFlag(13800002, ON);
+    SetEventFlag(13800003, ON);
+    SetEventFlag(13800004, ON);
+    
+    SetEventFlag(13900000, ON);
+    SetEventFlag(13900002, ON);
+    SetEventFlag(13900001, ON);
+    
+    SetEventFlag(14100000, ON);
+    SetEventFlag(14100001, ON);
+    SetEventFlag(14100002, ON);
+    SetEventFlag(14100002, ON);
+    
+    SetEventFlag(14500001, ON);
+    SetEventFlag(14500002, ON);
+    SetEventFlag(14500003, ON);
+    SetEventFlag(14500004, ON);
+    SetEventFlag(14500005, ON);
+    SetEventFlag(14500000, ON);
+    SetEventFlag(14500007, ON);
+    SetEventFlag(14500006, ON);
+    
+    SetEventFlag(14700000, ON);
+    
+    SetEventFlag(15000001, ON);
+    SetEventFlag(15000002, ON);
+    SetEventFlag(15000003, ON);
+    SetEventFlag(14500008, ON);
+    
+    SetEventFlag(15100002, ON);
+    SetEventFlag(15100003, ON);
+    SetEventFlag(15100004, ON);
+    SetEventFlag(15100005, ON);
+    SetEventFlag(15100000, ON);
+    SetEventFlag(15100001, ON);
+    SetEventFlag(15110001, ON);
+    SetEventFlag(15110000, ON);
+    
+    SetEventFlag(15300000, ON);
+});
+
