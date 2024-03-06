@@ -10,6 +10,16 @@
 - Fixed the Statue SFX near the first High Wall of Lothric bonfire from looping.
 
 #-------------------------------------------------
+# Time
+#-------------------------------------------------
+- Added different times of day:
+ - Day
+ - Night
+ - Eclipse (occurs after Aldrich is killed, replaces Day in certain maps)
+
+- After death, the time will progress: e.g. Day becomes Night, or Night becomes Day.
+
+#-------------------------------------------------
 # Player
 #-------------------------------------------------
 - The player now regenerates FP passively.
@@ -248,10 +258,8 @@
 #----------------------------------------------
 # Notes
 #----------------------------------------------
-# Noted Issues:
-- Need to do ESD pass for the covenant NPC talks:
-- Form Covenant needs to kick player out of interaction
-- Remove Strengthen Bonds that were missed
-
-
-99062000
+Implement Day/Time cycle:
+ - Add Night gparams for all maps
+ - TODO: adjust lights for night versions of maps to remove odd spotlights 
+ OR add light source objects that make sense for the spotlight
+ - Adjust skyboxes for maps

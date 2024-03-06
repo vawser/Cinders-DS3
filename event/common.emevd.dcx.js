@@ -408,10 +408,6 @@ $Event(50, Default, function() {
     //-----------------------------------
     // Run for Host and Client
     //-----------------------------------
-    // Ceremonies
-    //InitializeEvent(0, 231, 0);   // Untended Graves - Ceremony Monitor
-    InitializeEvent(0, 232, 0); // Undead Settlement - Ceremony Monitor
-
     // Misc
     InitializeEvent(0, 701, 0); // Unknown
     InitializeEvent(0, 740, 0); // Reset Camera
@@ -515,65 +511,7 @@ $Event(230, Restart, function() {
 
     WaitFor(EventFlag(flag_BossKill_Aldrich));
 
-    SetMapCeremony(30, 0, 10);
-    SetMapCeremony(30, 1, 10);
-    SetMapCeremony(34, 1, 10);
-    SetMapCeremony(31, 0, 10);
-    SetMapCeremony(33, 0, 10);
-    SetMapCeremony(35, 0, 10);
-
     SetEventFlag(flag_EclipseActive, ON);
-});
-
-//----------------------------------------------
-// World - Enable Untended Graves if outside of m40
-//----------------------------------------------
-$Event(231, Restart, function() {
-    EndIf(PlayerInMap(40, 0));
-    SetMapCeremony(40, 0, 10);
-    EndEvent();
-});
-
-//----------------------------------------------
-// World - Undead Settlement Ceremonies
-//----------------------------------------------
-$Event(232, Default, function() {
-    const flag_EclipseActive = 230;
-    const flag_InSirrisWorld = 8221;
-
-    if (!EventFlag(flag_InSirrisWorld)) {
-        if (!EventFlag(flag_EclipseActive)) {
-
-            // Default
-            SetMapCeremony(31, 0, 0); // Day
-        } else {
-
-            // Eclipse
-L0:
-            SetMapCeremony(31, 0, 10); // Eclipse
-            Goto(L1);
-        }
-    }
-
-    // Sirris's Version of Undead Settlement
-L1:
-    WaitFor(PlayerInMap(30, 0) || PlayerInMap(30, 1) || PlayerInMap(34, 1) || PlayerInMap(40, 0));
-    WaitFixedTimeFrames(1);
-    if (!EventFlag(flag_EclipseActive)) {
-        SetMapCeremony(31, 0, 20); // Dusk
-    } else {
-
-        // Sirris's Version of Undead Settlement + Eclipse
-L2:
-        SetMapCeremony(31, 0, 30); // Night
-        Goto(L3);
-    }
-
-L3:
-    WaitFor(
-        !PlayerInMap(30, 0) && !PlayerInMap(30, 1) && !PlayerInMap(34, 1) && !PlayerInMap(40, 0));
-
-    RestartEvent();
 });
 
 //----------------------------------------------
@@ -11044,18 +10982,19 @@ $Event(20400, Restart, function() {
 // DEBUG
 //------------------------------------------------
 $Event(50000, Restart, function() {
+    SetEventFlag(20001000, ON);
     
-   //InitializeEvent(0, 50001, 0); // Instant Kill
-   //InitializeEvent(0, 50002, 0); // Immunity to Damage
-   //InitializeEvent(0, 50003, 0); // 100% HP Regen
-   //InitializeEvent(0, 50004, 0); // 100% FP Regen
+    InitializeEvent(0, 50001, 0); // Instant Kill
+    InitializeEvent(0, 50002, 0); // Immunity to Damage
+    //InitializeEvent(0, 50003, 0); // 100% HP Regen
+    //InitializeEvent(0, 50004, 0); // 100% FP Regen
    
-   //InitializeEvent(0, 50010, 0); // Disable Enemy AI
-   //InitializeEvent(0, 50011, 0); // Hide Enemies
+    //InitializeEvent(0, 50010, 0); // Disable Enemy AI
+    //InitializeEvent(0, 50011, 0); // Hide Enemies
    
-   //InitializeEvent(0, 50100, 0); // Unlock All Bonfires
+    //InitializeEvent(0, 50100, 0); // Unlock All Bonfires
    
-   InitializeEvent(0, 50020, 0); // Disable Debug NPC
+    InitializeEvent(0, 50020, 0); // Disable Debug NPC
 });
 
 // Instant Kill
