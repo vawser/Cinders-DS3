@@ -147,8 +147,8 @@ def t400506_x9():
         SetEventState(6500, 1)
         ClearTalkListData()
         
-        # Covenant
-        AddTalkListData(1, 99062000, -1)
+        # Servant of the Rat
+        AddTalkListData(1, 99062014, -1)
         
         # Bite Material
         AddTalkListData(13, 99060400, -1)

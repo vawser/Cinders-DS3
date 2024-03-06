@@ -146,8 +146,8 @@ def t400508_x9():
         MainBonfireMenuFlag()
         ClearTalkListData()
         
-        # Covenant
-        AddTalkListData(1, 99062000, -1)
+        # Conjurator's Pact
+        AddTalkListData(1, 99062013, -1)
         
         # Purchase Item
         AddTalkListData(2, 15000010, -1)

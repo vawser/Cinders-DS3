@@ -190,11 +190,8 @@ def t370020_x9(lot1=4230, z1=367, lot2=4238, lot3=4237, action1=15000406, z2=150
         ClearTalkListData()
         """State 2"""
         
-        # Ask to Join Covenant
-        AddTalkListDataIf(not GetEventStatus(flag1), 1, action1, -1)
-        
-        # Covenant
-        AddTalkListDataIf(GetEventStatus(flag1) == 1, 2, 99062000, -1)
+        # Aldrich Faithful
+        AddTalkListData(2, 99062019, -1)
         
         # Propose Marriage
         AddTalkListDataIf(not GetEventStatus(25008050) and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1,
@@ -212,23 +209,8 @@ def t370020_x9(lot1=4230, z1=367, lot2=4238, lot3=4237, action1=15000406, z2=150
         """State 3"""
         ShowShopMessage(1)
         
-        # Ask to Join Covenant
-        if GetTalkListEntryResult() == 1:
-            """State 4,14"""
-            call = t370020_x0(action2=action2)
-            if call.Get() == 0:
-                """State 9,11"""
-                SetEventState(flag2, 1)
-                assert GetCurrentStateElapsedTime() > 2
-                """State 12"""
-                assert t370020_x3(lot2=lot1) and not GetEventStatus(flag2)
-                """State 13"""
-                assert t370020_x5(action3=action3)
-            elif call.Done():
-                """State 8"""
-                pass
-        # Covenant
-        elif GetTalkListEntryResult() == 2:
+        # Aldrich Faithful
+        if GetTalkListEntryResult() == 2:
             """State 30,31"""
             assert t370020_x50()
         # Propose Marriage

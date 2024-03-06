@@ -187,8 +187,8 @@ def t330020_x9(lot1=4220, z1=366, lot2=4228, lot3=4226, action1=15000406, z2=150
         ClearTalkListData()
         """State 2"""
         
-        # Covenant
-        AddTalkListData(2, 99062000, -1)
+        # Watchdogs of Farron
+        AddTalkListData(2, 99062023, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)

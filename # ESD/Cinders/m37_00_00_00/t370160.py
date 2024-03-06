@@ -163,8 +163,8 @@ def t370160_x10():
         ClearTalkListData()
         """State 2"""
         
-        # Covenant
-        AddTalkListData(2, 99062000, -1)
+        # Darkmoon Faithful
+        AddTalkListData(2, 99062024, -1)
         
         # Propose Marriage
         AddTalkListDataIf(not GetEventStatus(25008060) and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1,
@@ -187,15 +187,9 @@ def t370160_x10():
         assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         """State 3"""
         
-        # ?
-        if GetTalkListEntryResult() == 1:
-            """State 4,11"""
-            assert t370160_x23()
         # Covenant
-        elif GetTalkListEntryResult() == 2:
-            """State 5,13"""
+        if GetTalkListEntryResult() == 2:
             assert t370160_x50()
-            """State 15"""
             return 0
         # Talk
         elif GetTalkListEntryResult() == 3:

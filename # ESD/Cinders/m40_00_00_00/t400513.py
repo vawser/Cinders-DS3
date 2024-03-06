@@ -146,8 +146,8 @@ def t400513_x9():
         MainBonfireMenuFlag()
         ClearTalkListData()
         
-        # Covenant
-        AddTalkListData(1, 99062000, -1)
+        # Way of Blue
+        AddTalkListData(1, 99062011, -1)
         
         # Talk
         AddTalkListData(2, 15000000, -1)

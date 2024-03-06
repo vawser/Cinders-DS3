@@ -148,8 +148,8 @@ def t400514_x9():
         MainBonfireMenuFlag()
         ClearTalkListData()
         
-        # Covenant
-        AddTalkListData(1, 99062000, -1)
+        # Company of Champions
+        AddTalkListData(1, 99062010, -1)
         
         # Propose Marriage
         AddTalkListDataIf(not GetEventStatus(25008070) and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1,

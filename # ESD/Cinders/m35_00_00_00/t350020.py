@@ -172,11 +172,8 @@ def t350020_x8(goods1=373, goods2=728, lot1=4268, lot2=4267):
         ClearTalkListData()
         """State 2"""
         
-        # Ask to Join Covenant
-        AddTalkListDataIf(not GetEventStatus(6760), 1, 15000406, -1)
-        
-        # Covenant
-        AddTalkListDataIf(GetEventStatus(6760) == 1, 2, 99062000, -1)
+        # Rosaria's Fingers
+        AddTalkListData(2, 99062020, -1)
         
         # Pledge Loyalty
         AddTalkListDataIf(not GetEventStatus(73500150, 1), 6, 15003020, -1)
@@ -212,26 +209,8 @@ def t350020_x8(goods1=373, goods2=728, lot1=4268, lot2=4267):
         assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         """State 10"""
         
-        # Ask to Join Covenant
-        if GetTalkListEntryResult() == 1:
-            """State 4,47"""
-            # action:12000026:"Join Covenant?"
-            call = t350020_x0(action4=12000026)
-            if call.Get() == 0:
-                """State 8,26"""
-                SetEventState(73500162, 1)
-                assert GetCurrentStateElapsedTime() > 2
-                """State 45"""
-                # lot:4260:Rosaria's Fingers
-                assert t350020_x3(lot1=4260) and not GetEventStatus(73500162)
-                """State 46"""
-                # action:13000046:"You have obtained proof of the covenant"
-                assert t350020_x4(action5=13000046)
-            elif call.Done():
-                """State 9"""
-                pass
         # Reallocate attributes
-        elif GetTalkListEntryResult() == 3:
+        if GetTalkListEntryResult() == 3:
             """State 11,48"""
             # action:13027020:"Further rebirth is not possible during this lifetime.\nPersisting will transform you into a grub.", action:12027020:"The price of rebirth is paid in Pale Tongues.\nRebirth can be performed <?evntAcquittalPrice?> more times during this lifetime.\nDo you wish to be reborn?", action:13027000:"No <?gdsparam@373?> in inventory"
             call = t350020_x16(goods1=goods1, action3=13027020, action4=12027020, action5=13027000)
@@ -273,7 +252,7 @@ def t350020_x8(goods1=373, goods2=728, lot1=4268, lot2=4267):
             elif call.Done():
                 """State 16"""
                 pass
-        # Covenant
+        # Rosaria's Fingers
         elif GetTalkListEntryResult() == 2:
             """State 5,50"""
             assert t350020_x50()

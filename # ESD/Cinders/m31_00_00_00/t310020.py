@@ -187,8 +187,8 @@ def t310020_x9(lot1=4210, z1=374, lot2=4218, lot3=4217, action1=15000401, z2=150
         ClearTalkListData()
         """State 2"""
         
-        # Covenant
-        AddTalkListData(2, 99062000, -1)
+        # Mound Makers
+        AddTalkListData(2, 99062022, -1)
         
         # Leave
         AddTalkListData(99, 15000005, -1)

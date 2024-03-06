@@ -146,8 +146,8 @@ def t300500_x9():
         MainBonfireMenuFlag()
         ClearTalkListData()
         
-        # Covenant
-        AddTalkListData(20, 99062000, -1)
+        # Warriors of Sunlight
+        AddTalkListData(20, 99062021, -1)
         
         # Purchase Item
         AddTalkListData(4, 15011020, -1)
@@ -208,7 +208,7 @@ def t300500_x9():
         elif GetTalkListEntryResult() == 3:
             """State 13"""
             assert t300500_x10(text1=10010000, flag1=0, mode1=0)
-        # Covenant
+        # Warriors of Sunlight
         elif GetTalkListEntryResult() == 20:
             """State 14"""
             assert t300500_x50()

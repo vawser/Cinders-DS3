@@ -146,8 +146,8 @@ def t400170_x8():
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         """State 2"""
         
-        # Covenant
-        AddTalkListData(1, 99062000, -1)
+        # Dragon Remnants
+        AddTalkListData(1, 99062025, -1)
         
         # Learn Gesture
         AddTalkListDataIf(not GetEventStatus(25000302), 2, 99000960, -1)
@@ -163,7 +163,7 @@ def t400170_x8():
         assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         
         """State 3"""
-        # Covenant
+        # Dragon Remnants
         if GetTalkListEntryResult() == 1:
             """State 4"""
             assert t400170_x50()
