@@ -217,29 +217,23 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
                 2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
         """State 12"""
         
+        # Blacksmith's Lessons
+        AddTalkListData(40, 15003070, -1)
+        
+        # Purchase Item
+        AddTalkListData(15, 15003018, -1)
+        
+        # Reinforce Estus Flask
+        AddTalkListData(8, 15002003, -1)
+        
         # Reinforce Weapon
         AddTalkListDataIf(not GetEventStatus(25000055), 2, 15010002, -1)
-        
-        # Weapon Infusions
-        AddTalkListData(11, 15003021, -1)
-        
-        # Shield Infusions
-        AddTalkListData(12, 15003022, -1)
-        
-        # Catalyst Infusions
-        AddTalkListData(13, 15003029, -1)
-        
+
         # Infuse Weapon
         AddTalkListData(1, 15010001, -1)
         
         # Repair Equipment
         AddTalkListData(3, 15010003, -1)
-        
-        # Reinforce Estus Flask
-        AddTalkListData(8, 15002003, -1)
-        
-        # Purchase Item
-        AddTalkListDataIf(not GetEventStatus(25009850), 15, 15003018, -1)
         
         # Learn Gesture
         AddTalkListDataIf(not GetEventStatus(6074), 9, 99000960, -1)
@@ -334,15 +328,6 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
             OpenRegularShop(100000, 109999)
             assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
                     2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
-        elif GetTalkListEntryResult() == 11:
-            """State 16"""
-            OpenGenericDialog(1, 99004000, 0, 0, 0)
-        elif GetTalkListEntryResult() == 12:
-            """State 29"""
-            OpenGenericDialog(1, 99004001, 0, 0, 0)
-        elif GetTalkListEntryResult() == 13:
-            """State 32"""
-            OpenGenericDialog(1, 99004002, 0, 0, 0)
         elif GetTalkListEntryResult() == 14:
             """State 33"""
             OpenGenericDialog(1, 99004003, 0, 0, 0)
@@ -370,6 +355,10 @@ def t400200_x11(goods1=2103, goods2=2104, goods3=2105, goods4=2106, goods5=150, 
             """State 41"""
             SetEventState(25008130, 0)
             return 0
+        # Blacksmith's Lessons
+        elif GetTalkListEntryResult() == 40:
+            assert t400200_x30()
+            continue
         else:
             """State 7,22"""
             # talk:20000500:"Prithee, be careful."
@@ -787,3 +776,42 @@ def t400200_x28(z1=_):
     """State 2"""
     return 0
 
+# Blacksmith's Lessons
+def t400200_x30():
+    while True:
+        MainBonfireMenuFlag()
+        ClearTalkListData()
+        
+        # Weapon Infusions
+        AddTalkListData(11, 15003021, -1)
+        
+        # Shield Infusions
+        AddTalkListData(12, 15003022, -1)
+        
+        # Catalyst Infusions
+        AddTalkListData(13, 15003029, -1)
+
+        # Leave
+        AddTalkListData(99, 80000999, -1)
+        
+        assert (not CheckSpecificPersonGenericDialogIsOpen(2) and not (CheckSpecificPersonMenuIsOpen(-1,
+                2) == 1 and not CheckSpecificPersonGenericDialogIsOpen(2)))
+        """State 1"""
+        ShowShopMessage(1)
+        
+        # Weapon Infusions
+        if GetTalkListEntryResult() == 11:
+            """State 16"""
+            OpenGenericDialog(1, 99004000, 0, 0, 0)
+        # Shield Infusions
+        elif GetTalkListEntryResult() == 12:
+            """State 29"""
+            OpenGenericDialog(1, 99004001, 0, 0, 0)
+        # Catalyst Infusions
+        elif GetTalkListEntryResult() == 13:
+            """State 32"""
+            OpenGenericDialog(1, 99004002, 0, 0, 0)
+        # Leave
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            """State 12"""
+            return 0

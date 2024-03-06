@@ -11055,7 +11055,7 @@ $Event(50000, Restart, function() {
    
    //InitializeEvent(0, 50100, 0); // Unlock All Bonfires
    
-   InitializeEvent(0, 50020, 0); // Debug NPC
+   InitializeEvent(0, 50020, 0); // Disable Debug NPC
 });
 
 // Instant Kill
