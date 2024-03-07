@@ -99,6 +99,11 @@ $Event(0, Default, function() {
 
     InitializeEvent(0, 20600, 0); // FOV - Monitor
     
+    // NG+
+    InitializeEvent(0, 14050, 0);
+    InitializeEvent(0, 14051, 0);
+    InitializeEvent(0, 14052, 0);
+    
     // Castigations
     InitializeEvent(0, 14000, 0); // Castigations - Player
     InitializeEvent(0, 14010, 0); // Castigations - Enemy
@@ -2091,6 +2096,37 @@ $Event(14030, Restart, function(X0_4, X4_4) {
     WaitFixedTimeSeconds(1.0);
     
     RestartEvent();
+});
+
+
+// NG+1 Enemies
+$Event(14050, Restart, function() {
+    if(!EventFlag(25000011))
+    {
+        ChangeCharacterEnableState(3605850, Disabled);
+        SetCharacterAnimationState(3605850, Disabled);
+        SetCharacterAIState(3605850, Disabled);
+    }
+});
+
+// NG+2 Enemies
+$Event(14051, Restart, function() {
+    if(!EventFlag(25000012))
+    {
+        ChangeCharacterEnableState(3605851, Disabled);
+        SetCharacterAnimationState(3605851, Disabled);
+        SetCharacterAIState(3605851, Disabled);
+    }
+});
+
+// NG+3 Enemies
+$Event(14052, Restart, function() {
+    if(!EventFlag(25000013))
+    {
+        ChangeCharacterEnableState(3605852, Disabled);
+        SetCharacterAnimationState(3605852, Disabled);
+        SetCharacterAIState(3605852, Disabled);
+    }
 });
 
 // Restriction - Flameless
@@ -10982,10 +11018,10 @@ $Event(20400, Restart, function() {
 // DEBUG
 //------------------------------------------------
 $Event(50000, Restart, function() {
-    SetEventFlag(20001000, ON);
+    //SetEventFlag(20001000, OFF);
     
-    InitializeEvent(0, 50001, 0); // Instant Kill
-    InitializeEvent(0, 50002, 0); // Immunity to Damage
+    //InitializeEvent(0, 50001, 0); // Instant Kill
+    //InitializeEvent(0, 50002, 0); // Immunity to Damage
     //InitializeEvent(0, 50003, 0); // 100% HP Regen
     //InitializeEvent(0, 50004, 0); // 100% FP Regen
    
@@ -11145,4 +11181,3 @@ $Event(50100, Restart, function() {
     
     SetEventFlag(15300000, ON);
 });
-

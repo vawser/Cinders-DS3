@@ -263,3 +263,7 @@ Implement Day/Time cycle:
  - TODO: adjust lights for night versions of maps to remove odd spotlights 
  OR add light source objects that make sense for the spotlight
  - Adjust skyboxes for maps
+ 
+ Continue from m39
+ 
+ CTD in m39
