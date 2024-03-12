@@ -10,16 +10,6 @@
 - Fixed the Statue SFX near the first High Wall of Lothric bonfire from looping.
 
 #-------------------------------------------------
-# Time
-#-------------------------------------------------
-- Added different times of day:
- - Day
- - Night
- - Eclipse (occurs after Aldrich is killed, replaces Day in certain maps)
-
-- After death, the time will progress: e.g. Day becomes Night, or Night becomes Day.
-
-#-------------------------------------------------
 # Player
 #-------------------------------------------------
 - The player now regenerates FP passively.
@@ -253,17 +243,76 @@
 # TODO
 #----------------------------------------------
 - Finish adding all the p0 images to the repository
-
+- Finish Night system
 
 #----------------------------------------------
 # Notes
 #----------------------------------------------
-Implement Day/Time cycle:
- - Add Night gparams for all maps
- - TODO: adjust lights for night versions of maps to remove odd spotlights 
- OR add light source objects that make sense for the spotlight
- - Adjust skyboxes for maps
+- Reduce chest/mimic count
+ - Move treasure into corpses or new merchants
  
- Continue from m39
- 
- CTD in m39
+2401 Scholar's Scroll
+2402 Farron Scroll
+2403 Assassin's Scroll
+
+2421 Great Swamp Pyromancy Tome 
+2424 Quelana Pyromancy Tome
+2426 Dusty Pyromancy Tome
+2427 Earthen Pyromancy Tome
+2428 Muddy Pyromancy Tome
+
+2440 Black Tome of the Accursed
+
+2450 Gnawing Tome of Famine
+2452 Gnawing Tome of Londor
+
+# m30_00 - Reassignments
+99040000 Iron Keeper Helm
+19100000 Talisman of Beasts
+14090000 Avelyn
+
+# m30_01
+2411 Divine Tome of Lothric
+30540000 Blind
+
+9080000 Greatlance
+21270000 Porcine Shield
+2006 Hunter's Toolkit
+99060000 Gold Ardeo
+21260000 Spirit Tree Crest Shield
+14170000 Sniper Crossbow
+31340000 Key to the Embedded
+99290000 Venerable Sage's Hood
+99291000 Venerable Sage Robe
+99292000 Venerable Sage Gloves
+99293000 Venerable Sage Leggings
+2431 Black Tome of Despair
+14140000 Onislayer Greatbow
+10170000 Splitleaf Greatsword
+14070000 Dragonrider Bow
+
+# m31_00
+
+# m32_00
+
+# m33_00
+
+# m34_01
+
+# m35_00
+
+# m37_00
+
+# m38_00
+
+# m39_00
+
+# m40_00
+
+# m41_00
+
+# m50_00
+
+# m51_00
+
+# m51_01

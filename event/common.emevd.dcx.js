@@ -125,6 +125,46 @@ $Event(0, Default, function() {
     
     InitializeEvent( 0, 14030, 160101502, 160101503); // Company of Champions
     
+    // Tome Unlocks
+    InitializeEvent( 0, 10010, 200700000, 2400, 240); // Apprentice's Scroll
+    InitializeEvent( 1, 10010, 200700001, 2401, 250); // Scholar's Scroll
+    InitializeEvent( 2, 10010, 200700002, 2402, 260); // Farron Scroll
+    InitializeEvent( 3, 10010, 200700003, 2403, 270); // Assassin's Scroll
+    InitializeEvent( 4, 10010, 200700004, 2404, 200); // Sage's Scroll
+    InitializeEvent( 6, 10010, 200700005, 2405, 220); // Logan's Scroll
+    InitializeEvent( 7, 10010, 200700006, 2406, 210); // Golden Scroll
+    InitializeEvent( 8, 10010, 200700007, 2407, 230); // Crystal Scroll
+    
+    InitializeEvent( 9, 10010, 200700008, 2410, 300); // Divine Tome of Carim
+    InitializeEvent(10, 10010, 200700009, 2411, 310); // Divine Tome of Lothric
+    InitializeEvent(11, 10010, 200700010, 2412, 320); // Humble Divine Tome
+    InitializeEvent(12, 10010, 200700011, 2413, 340); // Divine Tome of Astora
+    InitializeEvent(13, 10010, 200700012, 2414, 330); // Divine Tome of Sunlight
+    InitializeEvent(14, 10010, 200700013, 2415, 350); // Angelic Divine Tome
+    InitializeEvent(15, 10010, 200700014, 2416, 360); // Wrathful Divine Tome
+    
+    InitializeEvent(16, 10010, 200700015, 2420, 440); // Simple Pyromancy Tome
+    InitializeEvent(17, 10010, 200700016, 2421, 400); // Great Swamp Pyromancy Tome
+    InitializeEvent(18, 10010, 200700017, 2422, 410); // Carthus Pyromancy Tome
+    InitializeEvent(19, 10010, 200700018, 2423, 420); // Izalith Pyromancy Tome
+    InitializeEvent(20, 10010, 200700019, 2424, 430); // Quelana Pyromancy Tome
+    InitializeEvent(21, 10010, 200700020, 2425, 450); // Burnt Pyromany Tome
+    InitializeEvent(22, 10010, 200700021, 2426, 460); // Dusty Pyromancy Tome
+    InitializeEvent(23, 10010, 200700022, 2427, 470); // Earthen Pyromancy Tome
+    InitializeEvent(24, 10010, 200700023, 2428, 480); // Muddy Pyromancy Tome
+    
+    InitializeEvent(25, 10010, 200700024, 2430, 500); // Black Tome of the Deep
+    InitializeEvent(26, 10010, 200700025, 2431, 510); // Black Tome of Despair
+    InitializeEvent(27, 10010, 200700026, 2432, 520); // Black Tome of Yearning
+    InitializeEvent(28, 10010, 200700027, 2433, 530); // Black Tome of the Abyss
+    
+    InitializeEvent(29, 10010, 200700028, 2440, 600); // Black Tome of the Accursed
+    InitializeEvent(30, 10010, 200700029, 2441, 610); // Black Tome of the Grave Warden
+    
+    InitializeEvent(31, 10010, 200700030, 2450, 700); // Gnawing Tome of Famine
+    InitializeEvent(32, 10010, 200700031, 2451, 710); // Gnawing Tome of Agony
+    InitializeEvent(33, 10010, 200700032, 2452, 720); // Gnawing Tome of Londor
+    
     //--------------------
     // Items
     //--------------------
@@ -1922,6 +1962,14 @@ $Event(10003, Restart, function() {
     ChangeCharacterEnableState(3605900, Disabled);
     SetCharacterAnimationState(3605900, Disabled);
     SetCharacterAIState(3605900, Disabled);
+});
+
+// Tome Unlock
+$Event(10010, Default, function(X0_4, X4_4, X8_4) {
+    WaitFor(CharacterHasSpEffect(10000, X0_4, ComparisonType.Equal, 1));
+    
+    RemoveItemFromPlayer(ItemType.Goods, X4_4, -99);
+    AwardItemLot(X8_4);
 });
 
 //--------------------------------------
@@ -11018,10 +11066,12 @@ $Event(20400, Restart, function() {
 // DEBUG
 //------------------------------------------------
 $Event(50000, Restart, function() {
+    SetEventFlag(20001000, OFF);
+    
     //SetEventFlag(20001000, OFF);
     
     //InitializeEvent(0, 50001, 0); // Instant Kill
-    //InitializeEvent(0, 50002, 0); // Immunity to Damage
+    InitializeEvent(0, 50002, 0); // Immunity to Damage
     //InitializeEvent(0, 50003, 0); // 100% HP Regen
     //InitializeEvent(0, 50004, 0); // 100% FP Regen
    

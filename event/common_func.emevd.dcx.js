@@ -9707,3 +9707,85 @@ $Event(20087100, Restart, function(X0_4) {
     // Spawn FFX
     SpawnOneshotSFX(TargetEntityType.Character, X0_4, 203, 1060);
 });
+
+//------------------------
+// Mimic/Chest Setup
+// <isMimic flag> <used flag>, <object id>, <ObjAct id>, <mimic defeat flag>, 
+// <mimic entity id>, <itemlot flag>
+//------------------------
+$Event(20087200, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4) {
+    // Chest: Disabled by Default
+    DeactivateObject(X8_4, Disabled);
+    SetObjactState(X8_4, -1, Disabled);
+    
+    // Mimic: Disabled by Default
+    ChangeCharacterEnableState(X20_4, Disabled);
+    SetCharacterAnimationState(X20_4, Disabled);
+    
+    // If Mimic was defeated or item picked up, default to open chest
+    if(EventFlag(X16_4) || EventFlag(X24_4))
+    {
+        SetEventFlag(X0_4, OFF); // Never Mimic
+        SetEventFlag(X4_4, ON); // Chest open
+    }
+    
+    // Is Mimic
+    if(EventFlag(X0_4))
+    {
+        ChangeCharacterEnableState(X20_4, Enabled);
+        SetCharacterAnimationState(X20_4, Enabled);
+    
+        WaitFor(CharacterDead(X20_4));
+        SetEventFlag(X16_4, ON);
+    }
+    // Is Chest
+    else
+    {
+        DeactivateObject(X8_4, Enabled);
+        SetObjactState(X8_4, -1, Enabled);
+    
+        // Opened
+        if (EventFlag(X4_4)) 
+        {
+            // Used chest
+            ReproduceObjectAnimation(X8_4, 1); // Open the chest
+            SetObjactState(X8_4, -1, Disabled); // Disable interaction
+            SetObjectTreasureState(X8_4, Enabled); // Enable treasure
+        }
+        else
+        {
+            SetObjectTreasureState(X8_4, Disabled); 
+            WaitFor(ObjActEventFlag(X12_4)); // Wait for object activation flag
+            WaitFixedTimeFrames(10);
+            SetObjectTreasureState(X8_4, Enabled); // Enable treasure
+            SetEventFlag(X4_4, ON);
+        }
+    }
+});
+
+//------------------------
+// Mimic/Chest - Mimic Open Action
+//------------------------
+$Event(20087201, Restart, function(X0_4, X4_4) {
+    EndIf(!EventFlag(X0_4));
+
+    WaitFor(
+        CharacterHasSpEffect(X4_4, 11700)
+            && ActionButtonInArea(8010, X4_4)
+            && !CharacterType(10000, TargetType.BlackPhantom));
+    WarpCharacterAndCopyFloor(10000, TargetEntityType.Character, X4_4, 100, 10000);
+    ForceAnimationPlayback(10000, 60080, false, false, false, 0, 1);
+    GotoIf(L1, CharacterHasSpEffect(X4_4, 5020));
+    GotoIf(L2, CharacterHasSpEffect(X4_4, 5021));
+    EndEvent();
+L1:
+    ForceAnimationPlayback(X4_4, 3000, false, false, false, 0, 1);
+    RestartEvent();
+L2:
+    RequestCharacterAIReplan(X4_4);
+    RequestCharacterAICommand(X4_4, 10, 0);
+    WaitFor(CharacterHasSpEffect(X4_4, 5404));
+    RequestCharacterAICommand(X4_4, -1, 0);
+    RequestCharacterAIReplan(X4_4);
+    RestartEvent();
+});
