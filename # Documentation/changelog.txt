@@ -248,6 +248,13 @@
 #----------------------------------------------
 # Notes
 #----------------------------------------------
+2 merchants:
+- Alyx the Wandering Merchant
+ m32_00
+ m35_00
+ m39_00
+ m51_00
+
 - Reduce chest/mimic count
  - Move treasure into corpses or new merchants
  
@@ -261,13 +268,14 @@
 2427 Earthen Pyromancy Tome
 2428 Muddy Pyromancy Tome
 
+2431 Black Tome of Despair
+
 2440 Black Tome of the Accursed
 
 2450 Gnawing Tome of Famine
 2452 Gnawing Tome of Londor
 
 # m30_00 - Reassignments
-99040000 Iron Keeper Helm
 19100000 Talisman of Beasts
 14090000 Avelyn
 
@@ -275,21 +283,11 @@
 2411 Divine Tome of Lothric
 30540000 Blind
 
-9080000 Greatlance
-21270000 Porcine Shield
-2006 Hunter's Toolkit
 99060000 Gold Ardeo
-21260000 Spirit Tree Crest Shield
-14170000 Sniper Crossbow
 31340000 Key to the Embedded
-99290000 Venerable Sage's Hood
-99291000 Venerable Sage Robe
-99292000 Venerable Sage Gloves
-99293000 Venerable Sage Leggings
-2431 Black Tome of Despair
+
 14140000 Onislayer Greatbow
 10170000 Splitleaf Greatsword
-14070000 Dragonrider Bow
 
 # m31_00
 

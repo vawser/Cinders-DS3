@@ -9,6 +9,7 @@ title = "ESDDescriptions"
 341500 = "Erstwhile George"
 [maps.m35_00_00_00]
 350500 = "Scribe Vadan"
+350501 = "Alyx the Wandering Merchant"
 [maps.m37_00_00_00]
 370500 = "Domhnall of Zena"
 370501 = "Marvelous Chester"
@@ -18,6 +19,7 @@ title = "ESDDescriptions"
 380501 = "Helia of the Lake"
 [maps.m39_00_00_00]
 390500 = "Sinner Argith"
+390501 = "Alyx the Wandering Merchant"
 [maps.m40_00_00_00]
 400005 = "New Journey Giant"
 400006 = "Destitute Jester"
@@ -49,3 +51,6 @@ title = "ESDDescriptions"
 470001 = "Announcer"
 [maps.m32_00_00_00]
 320010 = "Dragon Remnants Altar"
+320500 = "Alyx the Wandering Merchant"
+[maps.m51_00_00_00]
+510500 = "Alyx the Wandering Merchant"
