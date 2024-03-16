@@ -517,6 +517,148 @@
         "interactable",
         "average"
       ]
+    },
+    {
+      "id": "o300731",
+      "name": "Wooden Ladder",
+      "tags": [
+        "interactable",
+        "long"
+      ]
+    },
+    {
+      "id": "o300735",
+      "name": "Wooden Ladder",
+      "tags": [
+        "interactable",
+        "long"
+      ]
+    },
+    {
+      "id": "o301000",
+      "name": "Library Bookcase",
+      "tags": [
+        "large"
+      ]
+    },
+    {
+      "id": "o301100",
+      "name": "Silver Orb",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o301230",
+      "name": "Three-stick Candleholder",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o301240",
+      "name": "Melted Candles with Wax",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o301336",
+      "name": "Pile of Skulls and Bones",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o301337",
+      "name": "Pile of Skulls and Bones",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o301885",
+      "name": "Ornate Balcony Segment",
+      "tags": [
+        "wooden"
+      ]
+    },
+    {
+      "id": "o301890",
+      "name": "Ornate Pillar",
+      "tags": [
+        "wooden"
+      ]
+    },
+    {
+      "id": "o301895",
+      "name": "Ornate Balcony Bridge",
+      "tags": [
+        "wooden"
+      ]
+    },
+    {
+      "id": "o301896",
+      "name": "Ornate Divider",
+      "tags": [
+        "wooden",
+        "solid"
+      ]
+    },
+    {
+      "id": "o301897",
+      "name": "Ornate Divider",
+      "tags": [
+        "wooden"
+      ]
+    },
+    {
+      "id": "o301898",
+      "name": "Royal Carpet",
+      "tags": [
+        "long",
+        "red"
+      ]
+    },
+    {
+      "id": "o301899",
+      "name": "Royal Carpet",
+      "tags": [
+        "long",
+        "red"
+      ]
+    },
+    {
+      "id": "o301965",
+      "name": "Shrubs",
+      "tags": [
+        "green",
+        "multiple"
+      ]
+    },
+    {
+      "id": "o302050",
+      "name": "Royal Flag",
+      "tags": [
+        "purple",
+        "lothric"
+      ]
+    },
+    {
+      "id": "o302051",
+      "name": "Flag Pole",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o302052",
+      "name": "Royal Flag",
+      "tags": [
+        "purple",
+        "lothric",
+        "damaged"
+      ]
     }
   ]
 }
