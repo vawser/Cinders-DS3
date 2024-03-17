@@ -1,26 +1,28 @@
 #----------------------------------------------
 # TODO
 #----------------------------------------------
+# Catacomb Dungeons
 Chalice-like dungeon system using the catacomb assets:
  3 to 5 dungeon layouts, random enemy type/placement
  
-Finish Night system
+# Day/Night
+Add Day/Night system:
+ Night has dark gparam applied, plus unique enemy placement.
 
-Treasure overhaul
+# Treasure Overhaul
+Continue reducing chests, converting mimics to the new 5 chest/mimic setup.
+Redistribute treasures
 
+Add new merchant: Alyx the Wandering Merchant
+ m32_00 (Archdragon Peak)
+ m35_00 (Cathedral of the Deep
+ m39_00 (Irithyll Dungeon)
+ m51_00 (Ringed City)
+ 
 #----------------------------------------------
 # Notes
 #----------------------------------------------
-2 merchants:
-- Alyx the Wandering Merchant
- m32_00
- m35_00
- m39_00
- m51_00
-
-- Reduce chest/mimic count
- - Move treasure into corpses or new merchants
- 
+# Items to distribute
 2401 Scholar's Scroll
 2402 Farron Scroll
 2403 Assassin's Scroll
