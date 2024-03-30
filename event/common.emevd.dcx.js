@@ -230,6 +230,13 @@ $Event(0, Default, function() {
     InitializeEvent(37, 12010, 8038, 200600038, 20000380); // Clumsy Form
     InitializeEvent(38, 12010, 8039, 200600039, 20000390); // Tourist
     
+    
+    //--------------------
+    // Alyx the Wandering Merchant
+    //--------------------
+    BatchSetEventFlags(25000070, 25000074, OFF);
+    RandomlySetEventFlagInRange(25000070, 25000074, ON);
+    
     //-----------------------------------
     // Run for Host only
     //-----------------------------------

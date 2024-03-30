@@ -2,7 +2,10 @@
   "ProjectName": "Cinders",
   "GameRoot": "F:\\SteamLibrary\\steamapps\\common\\DARK SOULS III\\Game",
   "GameType": 5,
-  "PinnedParams": [],
+  "PinnedParams": [
+    "ItemLotParam",
+    "ShopLineupParam"
+  ],
   "PinnedRows": {
     "AtkParam_Pc": []
   },

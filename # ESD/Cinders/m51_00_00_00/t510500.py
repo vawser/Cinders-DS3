@@ -1,29 +1,29 @@
 # -*- coding: utf-8 -*-
-def t320500_1():
+def t510500_1():
     """State 0,1"""
     assert GetCurrentStateElapsedTime() > 1
     while True:
         """State 2"""
-        call = t320500_x0()
+        call = t510500_x0()
         assert IsClientPlayer() == 1
         """State 3"""
-        call = t320500_x1()
+        call = t510500_x1()
         assert not IsClientPlayer()
 
-def t320500_x0():
+def t510500_x0():
     """State 0"""
     while True:
         """State 1"""
-        call = t320500_x3()
+        call = t510500_x3()
         assert not GetEventStatus(1000) and not GetEventStatus(1001) and not GetEventStatus(1002)
 
-def t320500_x1():
+def t510500_x1():
     """State 0,1"""
-    assert t320500_x2()
+    assert t510500_x2()
     """State 2"""
     return 0
 
-def t320500_x2():
+def t510500_x2():
     """State 0,1"""
     if not CheckSpecificPersonTalkHasEnded(0):
         """State 7"""
@@ -48,27 +48,27 @@ def t320500_x2():
     """State 8"""
     return 0
 
-def t320500_x3():
+def t510500_x3():
     """State 0,1"""
-    call = t320500_x4()
+    call = t510500_x4()
     assert CheckSelfDeath() == 1
     """State 2"""
     return 0
 
-def t320500_x4():
+def t510500_x4():
     """State 0"""
     while True:
         """State 5"""
-        call = t320500_x5(actionbutton1=6120, flag1=1015, flag2=6000, flag3=6000, flag4=6000, flag5=6000)
+        call = t510500_x5(actionbutton1=6120, flag1=1015, flag2=6000, flag3=6000, flag4=6000, flag5=6000)
         if call.Done():
             """State 3"""
-            call = t320500_x8()
+            call = t510500_x8()
             if call.Done():
                 pass
             elif IsAttackedBySomeone() == 1:
                 """State 1"""
                 Label('L0')
-                call = t320500_x6()
+                call = t510500_x6()
                 def ExitPause():
                     RemoveMyAggro()
                 if call.Done():
@@ -79,7 +79,7 @@ def t320500_x4():
                 break
             elif GetDistanceToPlayer() > 3 or GetPlayerYDistance() > 0.25:
                 """State 4"""
-                call = t320500_x7()
+                call = t510500_x7()
                 if call.Done() and (GetDistanceToPlayer() < 2.5 and GetPlayerYDistance() < 0.249):
                     pass
                 elif IsAttackedBySomeone() == 1:
@@ -89,10 +89,10 @@ def t320500_x4():
         elif IsPlayerDead() == 1:
             break
     """State 2"""
-    t320500_x2()
+    t510500_x2()
     Quit()
 
-def t320500_x5(actionbutton1=6120, flag1=1015, flag2=6000, flag3=6000, flag4=6000, flag5=6000):
+def t510500_x5(actionbutton1=6120, flag1=1015, flag2=6000, flag3=6000, flag4=6000, flag5=6000):
     """State 0"""
     while True:
         """State 1"""
@@ -113,9 +113,9 @@ def t320500_x5(actionbutton1=6120, flag1=1015, flag2=6000, flag3=6000, flag4=600
     """State 4"""
     return 0
 
-def t320500_x6():
+def t510500_x6():
     """State 0,6"""
-    assert t320500_x2()
+    assert t510500_x2()
     """State 3"""
     assert GetCurrentStateElapsedFrames() > 1
     """State 1"""
@@ -123,14 +123,14 @@ def t320500_x6():
     """State 2"""
     if GetDistanceToPlayer() > 12:
         """State 7"""
-        assert t320500_x2()
+        assert t510500_x2()
     else:
         """State 5"""
         pass
     """State 9"""
     return 0
 
-def t320500_x7():
+def t510500_x7():
     """State 0,1"""
     if (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonMenuIsOpen(12, 0) and not
         CheckSpecificPersonGenericDialogIsOpen(0)):
@@ -140,17 +140,17 @@ def t320500_x7():
         """State 3"""
         pass
     """State 4"""
-    assert t320500_x2()
+    assert t510500_x2()
     """State 6"""
     return 0
 
-def t320500_x8():
+def t510500_x8():
     """State 0,1"""
-    assert t320500_x9()
+    assert t510500_x9()
     """State 24"""
     return 0
 
-def t320500_x9():
+def t510500_x9():
     """State 0"""
     MainBonfireMenuFlag()
     ClearTalkListData()
@@ -176,34 +176,34 @@ def t320500_x9():
     
     # Browse Wares (1)
     if GetTalkListEntryResult() == 1:
-        OpenRegularShop(320000, 320999)
+        OpenRegularShop(330000, 330999)
         assert not (CheckSpecificPersonMenuIsOpen(5, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         return 0
     # Browse Wares (2)
     elif GetTalkListEntryResult() == 2:
-        OpenRegularShop(321000, 321999)
+        OpenRegularShop(331000, 331999)
         assert not (CheckSpecificPersonMenuIsOpen(5, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         return 0
     # Browse Wares (3)
     elif GetTalkListEntryResult() == 3:
-        OpenRegularShop(322000, 322999)
+        OpenRegularShop(332000, 332999)
         assert not (CheckSpecificPersonMenuIsOpen(5, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         return 0
     # Browse Wares (4)
     elif GetTalkListEntryResult() == 4:
-        OpenRegularShop(323000, 323999)
+        OpenRegularShop(333000, 333999)
         assert not (CheckSpecificPersonMenuIsOpen(5, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         return 0
     # Browse Wares (5)
     elif GetTalkListEntryResult() == 5:
-        OpenRegularShop(324000, 324999)
+        OpenRegularShop(334000, 334999)
         assert not (CheckSpecificPersonMenuIsOpen(5, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
         return 0
     # Leave
     elif not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
         return 0
 
-def t320500_x50(action1=_):
+def t510500_x50(action1=_):
     """State 0,1"""
     OpenGenericDialog(8, action1, 3, 4, 2)
     assert not CheckSpecificPersonGenericDialogIsOpen(0)
@@ -215,7 +215,7 @@ def t320500_x50(action1=_):
         """State 4"""
         return 1
 
-def t320500_x51(z3=_):
+def t510500_x51(z3=_):
     """State 0,1"""
     OpenGenericDialog(8, z3, 0, 3, 2)
     assert not CheckSpecificPersonGenericDialogIsOpen(0)
@@ -227,17 +227,17 @@ def t320500_x51(z3=_):
         """State 4"""
         return 1
 
-def t320500_x52(action1=99002615, z1=80, z2=1):
+def t510500_x52(action1=99002615, z1=80, z2=1):
     """State 0,1"""
     SetAquittalCostMessageTag(z1, z2)
     """State 14"""
-    call = t320500_x50(action1=action1)
+    call = t510500_x50(action1=action1)
     if call.Get() == 0:
         """State 7"""
         if ComparePlayerAcquittalPrice(z1, z2, 2) == 1:
             """State 4,13"""
             # action:13000050:"Insufficient souls"
-            assert t320500_x50(action1=13000050)
+            assert t510500_x50(action1=13000050)
         else:
             """State 5"""
             SubtractAcquittalCostFromPlayerSouls(z1, z2)

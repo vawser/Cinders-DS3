@@ -15,67 +15,63 @@ Redistribute treasures
 
 Add new merchant: Alyx the Wandering Merchant
  m32_00 (Archdragon Peak)
- m35_00 (Cathedral of the Deep
- m39_00 (Irithyll Dungeon)
  m51_00 (Ringed City)
  
 #----------------------------------------------
 # Notes
 #----------------------------------------------
 # Items to distribute
-2401 Scholar's Scroll
-2402 Farron Scroll
-2403 Assassin's Scroll
 
-2421 Great Swamp Pyromancy Tome 
-2424 Quelana Pyromancy Tome
-2426 Dusty Pyromancy Tome
-2427 Earthen Pyromancy Tome
-2428 Muddy Pyromancy Tome
+12140000 Murky Warstaff
+18090000 Saint-tree Bellvine
+12130000 Witchtree Limb
+4090000 Painting Guardian's Curved Sword
+19830000 Immolation Tinder
+22110000 Greatshield of Glory
+11050000 Crow Talons
+31020000 Morion Great Blade
+30930000 Titanite Catch Pole
 
-2431 Black Tome of Despair
+60000000 Fire Witch Helm
+60001000 Fire Witch Armor
+60002000 Fire Witch Gauntlets
+60003000 Fire Witch Leggings
+91000000 Painting Guardian Hood
+91001000 Painting Guardian Gown
+91002000 Painting Guardian Gloves
+91003000 Painting Guardian Waistcloth
+99540000 Tan Straw Hat
+99780000 Gold-Hemmed Black Hood
+99781000 Gold-Hemmed Black Cloak
+99782000 Gold-Hemmed Black Gloves
+99783000 Gold-Hemmed Black Skirt
+99360000 Gargoyle Skull
+99361000 Gargoyle Carapace
+99362000 Gargoyle Gauntlets
+99363000 Gargoyle Leggings
+77000000 Old Sorcerer Hat
+77001000 Old Sorcerer Coat
+77002000 Old Sorcerer Gauntlets
+77003000 Old Sorcerer Boots
+29000000 Court Sorcerer Hood
+29001000 Court Sorcerer Robe
+29002000 Court Sorcerer Gloves
+29003000 Court Sorcerer Trousers
+99390000 Corvian Knight Helmet
+99391000 Corvian Knight Armor
+99392000 Corvian Knight Gauntlets
+99393000 Corvian Knight Leggings
+10170000 Artificial Helmet
+82500000 Black Witch Hat
+82501000 Black Witch Garb
+82502000 Black Witch Wrappings
+82503000 Black Witch Trousers
+83500000 Black Witch Veil
 
-2440 Black Tome of the Accursed
-
-2450 Gnawing Tome of Famine
-2452 Gnawing Tome of Londor
-
-# m30_00 - Reassignments
-19100000 Talisman of Beasts
-14090000 Avelyn
-
-# m30_01
-2411 Divine Tome of Lothric
-30540000 Blind
-
-99060000 Gold Ardeo
-31340000 Key to the Embedded
-
-14140000 Onislayer Greatbow
-10170000 Splitleaf Greatsword
-
-# m31_00
-
-# m32_00
-
-# m33_00
-
-# m34_01
-
-# m35_00
-
-# m37_00
-
-# m38_00
-
-# m39_00
-
-# m40_00
-
-# m41_00
-
-# m50_00
-
-# m51_00
-
-# m51_01
+30180 Crypt Ring
+30000 Ring of Londor
+20350 Witch's Ring
+20340 Bellowing Dragoncrest Ring
+30370 Ring of Vengeance
+30670 Band of Magic
+20720 Horsehoof Ring

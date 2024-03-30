@@ -126,7 +126,10 @@
 
 # NPCs
 - Magnum Ursus now hosts the Castigation system.
-
+- Added new merchant: Alyx the Wandering Merchant
+ - Found in Archdragon Peak and the Ringed City
+ - Stock rotates randomly.
+ 
 #-------------------------------------------------
 # Items
 #-------------------------------------------------
