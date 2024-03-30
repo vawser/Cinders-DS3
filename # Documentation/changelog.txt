@@ -130,6 +130,20 @@
  - Found in Archdragon Peak and the Ringed City
  - Stock rotates randomly.
  
+# Treasure
+- Redistributed treasures.
+- Removed several mimics and chests
+ 
+# Connections
+- Removed the direct warps:
+ - Undead Settlement -> Farron Keep
+ - Undead Settlement -> Catacombs of Carthus
+ 
+- Added in the "Forgotten Catacombs", a mini-level that is used to traverse between the following levels:
+ - Undead Settlement
+ - Road of Sacrifices
+ - Catacombs of Carthus
+ 
 #-------------------------------------------------
 # Items
 #-------------------------------------------------

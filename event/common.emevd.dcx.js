@@ -100,9 +100,9 @@ $Event(0, Default, function() {
     InitializeEvent(0, 20600, 0); // FOV - Monitor
     
     // NG+
-    InitializeEvent(0, 14050, 0);
-    InitializeEvent(0, 14051, 0);
-    InitializeEvent(0, 14052, 0);
+    InitializeEvent(0, 14050, 3605850, 25000011);
+    InitializeEvent(1, 14050, 3605851, 25000012);
+    InitializeEvent(2, 14050, 3605852, 25000013);
     
     // Castigations
     InitializeEvent(0, 14000, 0); // Castigations - Player
@@ -230,12 +230,12 @@ $Event(0, Default, function() {
     InitializeEvent(37, 12010, 8038, 200600038, 20000380); // Clumsy Form
     InitializeEvent(38, 12010, 8039, 200600039, 20000390); // Tourist
     
-    
     //--------------------
     // Alyx the Wandering Merchant
     //--------------------
     BatchSetEventFlags(25000070, 25000074, OFF);
     RandomlySetEventFlagInRange(25000070, 25000074, ON);
+    
     
     //-----------------------------------
     // Run for Host only
@@ -1851,25 +1851,25 @@ $Event(20002, Restart, function(X0_4, X4_4) {
     BatchSetEventFlags(25000011, 25000017, OFF); // Reset NG+ flags
 
     // Conditional Flag Sets
-    WaitFor(GameCycle() >= 1);
+    WaitFor(GameCycle() >= 2);
     SetEventFlag(25000011, ON); // NG+1
 
-    WaitFor(GameCycle() >= 2);
+    WaitFor(GameCycle() >= 3);
     SetEventFlag(25000012, ON); // NG+2
 
-    WaitFor(GameCycle() >= 3);
+    WaitFor(GameCycle() >= 4);
     SetEventFlag(25000013, ON); // NG+3
 
-    WaitFor(GameCycle() >= 4);
+    WaitFor(GameCycle() >= 5);
     SetEventFlag(25000014, ON); // NG+4
 
-    WaitFor(GameCycle() >= 5);
+    WaitFor(GameCycle() >= 6);
     SetEventFlag(25000015, ON); // NG+5
 
-    WaitFor(GameCycle() >= 6);
+    WaitFor(GameCycle() >= 7);
     SetEventFlag(25000016, ON); // NG+6
 
-    WaitFor(GameCycle() >= 7);
+    WaitFor(GameCycle() >= 8);
     SetEventFlag(25000017, ON); // NG+7
 });
 
@@ -2112,17 +2112,15 @@ $Event(14010, Restart, function() {
 
 // Castigation - Feeding Frenzy
 $Event(14011, Restart, function() {
+    ChangeCharacterEnableState(3605802, Disabled);
+    SetCharacterAnimationState(3605802, Disabled);
+    SetCharacterAIState(3605802, Disabled);
     
-    if(!EventFlag(25000912))
-    {
-        ChangeCharacterEnableState(3605802, Disabled);
-        SetCharacterAnimationState(3605802, Disabled);
-        SetCharacterAIState(3605802, Disabled);
-    }
+    WaitFor(EventFlag(25000912));
     
-    WaitFixedTimeSeconds(1);
-    
-    RestartEvent();
+    ChangeCharacterEnableState(3605802, Enabled);
+    SetCharacterAnimationState(3605802, Enabled);
+    SetCharacterAIState(3605802, Enabled);
 });
 
 // Castigation - Reward
@@ -2155,33 +2153,16 @@ $Event(14030, Restart, function(X0_4, X4_4) {
 
 
 // NG+1 Enemies
-$Event(14050, Restart, function() {
-    if(!EventFlag(25000011))
-    {
-        ChangeCharacterEnableState(3605850, Disabled);
-        SetCharacterAnimationState(3605850, Disabled);
-        SetCharacterAIState(3605850, Disabled);
-    }
-});
-
-// NG+2 Enemies
-$Event(14051, Restart, function() {
-    if(!EventFlag(25000012))
-    {
-        ChangeCharacterEnableState(3605851, Disabled);
-        SetCharacterAnimationState(3605851, Disabled);
-        SetCharacterAIState(3605851, Disabled);
-    }
-});
-
-// NG+3 Enemies
-$Event(14052, Restart, function() {
-    if(!EventFlag(25000013))
-    {
-        ChangeCharacterEnableState(3605852, Disabled);
-        SetCharacterAnimationState(3605852, Disabled);
-        SetCharacterAIState(3605852, Disabled);
-    }
+$Event(14050, Restart, function(X0_4, X4_4) {
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    
+    WaitFor(EventFlag(X4_4))
+    
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterAIState(X0_4, Enabled);
 });
 
 // Restriction - Flameless
