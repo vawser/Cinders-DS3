@@ -13,65 +13,10 @@ Add Day/Night system:
 Continue reducing chests, converting mimics to the new 5 chest/mimic setup.
 Redistribute treasures
 
-Add new merchant: Alyx the Wandering Merchant
- m32_00 (Archdragon Peak)
- m51_00 (Ringed City)
- 
 #----------------------------------------------
 # Notes
 #----------------------------------------------
+# New Vendors:
+
+
 # Items to distribute
-
-12140000 Murky Warstaff
-18090000 Saint-tree Bellvine
-12130000 Witchtree Limb
-4090000 Painting Guardian's Curved Sword
-19830000 Immolation Tinder
-22110000 Greatshield of Glory
-11050000 Crow Talons
-31020000 Morion Great Blade
-30930000 Titanite Catch Pole
-
-60000000 Fire Witch Helm
-60001000 Fire Witch Armor
-60002000 Fire Witch Gauntlets
-60003000 Fire Witch Leggings
-91000000 Painting Guardian Hood
-91001000 Painting Guardian Gown
-91002000 Painting Guardian Gloves
-91003000 Painting Guardian Waistcloth
-99540000 Tan Straw Hat
-99780000 Gold-Hemmed Black Hood
-99781000 Gold-Hemmed Black Cloak
-99782000 Gold-Hemmed Black Gloves
-99783000 Gold-Hemmed Black Skirt
-99360000 Gargoyle Skull
-99361000 Gargoyle Carapace
-99362000 Gargoyle Gauntlets
-99363000 Gargoyle Leggings
-77000000 Old Sorcerer Hat
-77001000 Old Sorcerer Coat
-77002000 Old Sorcerer Gauntlets
-77003000 Old Sorcerer Boots
-29000000 Court Sorcerer Hood
-29001000 Court Sorcerer Robe
-29002000 Court Sorcerer Gloves
-29003000 Court Sorcerer Trousers
-99390000 Corvian Knight Helmet
-99391000 Corvian Knight Armor
-99392000 Corvian Knight Gauntlets
-99393000 Corvian Knight Leggings
-10170000 Artificial Helmet
-82500000 Black Witch Hat
-82501000 Black Witch Garb
-82502000 Black Witch Wrappings
-82503000 Black Witch Trousers
-83500000 Black Witch Veil
-
-30180 Crypt Ring
-30000 Ring of Londor
-20350 Witch's Ring
-20340 Bellowing Dragoncrest Ring
-30370 Ring of Vengeance
-30670 Band of Magic
-20720 Horsehoof Ring
