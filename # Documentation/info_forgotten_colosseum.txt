@@ -1,0 +1,83 @@
+ID,Name
+804000,Gyrm c1010
+
+804010,Pus of Man c1090
+
+804030,Black Knight - Greatsword c1300
+804031,Black Knight - Greataxe c1300
+
+804040,Lycanthrope c1360
+
+804050,Giant Serpent-man - Chainaxe c1391
+804051,Giant Serpent-man - Greataxe c1391
+
+804060,Mimic c2120
+
+804070,Gargoyle - Hammer c2190
+804071,Gargoyle - Spear c2190
+
+804080,Demon c3060
+
+804090,Stray Demon c5200
+
+804100,Ravenous Crystal Lizard c3100
+
+805000,Skeleton - Scimitar c1070
+805001,Skeleton - Falchion c1070
+805002,Skeleton - Bow c1070
+805003,Skeleton - Firebomb c1070
+
+805010,Carthus Swordsman - Sword c1170
+805011,Carthus Swordsman - Greatsword c1170
+805012,Carthus Swordsman - Shotel c1180
+805013,Carthus Swordsman - Twin Shotel c1180
+
+805100,Ghru - Spear c1210
+805101,Ghru - Curved Sword c1210
+805102,Ghru - Dagger and Talisman c1210
+805103,Ghru - Mad and Horned c1210
+
+805110,Smouldering Ghru - Spear c1211
+805111,Smouldering Ghru - Curved Sword c1211 c1211
+805112,Smouldering Ghru - Dagger and Talisman c1211
+805113,Smouldering Ghru - Mad and Horned c1211
+
+805430,Large Undead Dog c2020
+
+805200,Hollow Soldier - Sword
+805201,Hollow Soldier - Sword and Shield
+805202,Hollow Soldier - Crossbow
+805203,Hollow Soldier - Assassin
+
+805210,Large Hollow Soldier - Greataxe
+805211,Large Hollow Soldier - Halberd
+
+805220,Lothric Knight - Sword
+805221,Lothric Knight - Spear
+
+805300,Devout of the Deep #1
+805301,Devout of the Deep #2
+805302,Devout of the Deep #3
+805303,Devout of the Deep #4
+
+805310,Large Devout of the Deep
+
+805320,Cathedral Evangelist - Tome
+805330,Cathedral Grave Warden
+805340,Cathedral Knight - Mace
+805341,Cathedral Knight - Greatsword
+
+805350,Writhing Infested Corpse
+
+805400,Peasant Hollow - Axe
+805401,Peasant Hollow - Sickle
+805402,Peasant Hollow - Mallet
+
+805410,Hollow Slave - Pick
+805411,Hollow Slave - Flamberge
+
+805420,Hollow Manservant - Saw with Board
+805421,Hollow Manservant - Pot with Board
+
+804020,Winged Knight - Halberd  c1290
+804021,Winged Knight - Twinaxes c1290

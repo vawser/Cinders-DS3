@@ -5653,6 +5653,9 @@ function ExecDamage(is_parry, is_attackwhileguard)
     if is_damaged == TRUE then
         if env(IsCOMPlayer) == FALSE then
             act(AddSpEffect, 112101)
+    
+            -- Was Hit during this Load
+            act(AddSpEffect, 112933)
         end
     end
     

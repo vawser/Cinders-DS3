@@ -5327,7 +5327,7 @@ $Event(20008201, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4) {
 
     WaitFor(ActionButtonInArea(X4_4, X0_4));
     
-    SetMapCeremony(41, 0, 100);
+    SetEventFlag(25009611, ON);
     
     RotateCharacter(10000, X0_4, X16_4, false);
     WarpPlayer(X8_1, 0, X12_4);
@@ -5339,17 +5339,24 @@ $Event(20008201, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4) {
 //----------------------------------------------
 // Warp to Location (Forgotten Menargerie)
 //----------------------------------------------
-$Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4) {
+$Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4) {
     EndIf(PlayerIsNotInOwnWorld());
 
     WaitFor(ActionButtonInArea(X4_4, X0_4));
     
-    SetMapCeremony(41, 0, 200);
-    SetEventFlag(25009600, ON);
-    
-    RotateCharacter(10000, X0_4, X16_4, false);
-    WarpPlayer(X8_1, 0, X12_4);
-    SetPlayerRespawnPoint(X20_4);
+    // Ignore if flag is not set
+    if(!EventFlag(X24_4))
+    {
+        SetEventFlag(25009612, ON);
+        
+        RotateCharacter(10000, X0_4, X16_4, false);
+        WarpPlayer(X8_1, 0, X12_4);
+        SetPlayerRespawnPoint(X20_4);
+    }
+    else
+    {
+        DisplayMessage(99100000, 0);
+    }
 
     RestartEvent();
 });
@@ -5524,37 +5531,37 @@ L0:
 
 //----------------------------------------------
 // Boss Kill 
-// <boss kill flag>, <first boss kill flag>, <base itemlot>, <special itemlot>, <wanderer itemlot>, <corrupted itemlot>
+// <boss kill flag>, <first boss kill flag>, <bonus souls>, <wanderer itemlot>
 //----------------------------------------------
-$Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
-    // Skip Primordial Fragment reward if this is the first kill
-    if (EventFlag(X4_4)) {
-
-        // Default
-        AwardItemLot(X8_4);
-
-        // No Hit Reward
-        if (!EventFlag(25000040)) {
-            AwardItemLot(X12_4);
+$Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    // Skip bonus reward if this is the first kill
+    if (EventFlag(X4_4)) 
+    {
+        // No Hit - Bonus Souls
+        if (!CharacterHasSpEffect(10000, 112933, 0, 1)) 
+        {
+            SetSpEffect(10000, X8_4);
         }
 
-        // NG+1 Drop
-        if (EventFlag(25000011)) {
-            AwardItemLot(X8_4);
+        // NG+1 - Bonus Souls
+        if (EventFlag(25000011)) 
+        {
+            SetSpEffect(10000, X8_4);
         }
 
-        // NG+2 Drop
-        if (EventFlag(25000012)) {
-            AwardItemLot(X8_4);
+        // NG+2 - Bonus Souls
+        if (EventFlag(25000012))
+        {
+            SetSpEffect(10000, X8_4);
         }
 
-        // NG+3 Drop
-        if (EventFlag(25000013)) {
-            AwardItemLot(X8_4);
+        // NG+3 - Bonus Souls
+        if (EventFlag(25000013))
+        {
+            SetSpEffect(10000, X8_4);
         }
     }
 
-L0:
     // Don't set flags if a client player
     EndIf(PlayerIsNotInOwnWorld());
 
@@ -5563,7 +5570,7 @@ L0:
 
     // Wanderer: Boon item
     if (CharacterHasSpEffect(10000, 200105000, ComparisonType.Equal, 1)) {
-        AwardItemLot(X16_4);
+        AwardItemLot(X12_4);
     }
 
     // End if not in Gauntlet feature mode
@@ -5582,6 +5589,47 @@ L0:
     if (EventFlag(25003202) || EventFlag(25003204)) { // Reverse Endless // Endless
         WaitFixedTimeSeconds(10.0);
         SetSpEffect(10000, 260120000);
+    }
+});
+
+//----------------------------------------------
+// Boss Kill - Colosseum
+// <boss kill flag>, <first boss kill flag>, <bonus souls>, <wanderer itemlot>
+//----------------------------------------------
+$Event(20020001, Default, function(X0_4, X4_4, X8_4, X12_4) {
+    // No Hit - Bonus Souls
+    if (!CharacterHasSpEffect(10000, 112933, 0, 1)) 
+    {
+        SetSpEffect(10000, X8_4);
+    }
+
+    // NG+1 - Bonus Souls
+    if (EventFlag(25000011)) 
+    {
+        SetSpEffect(10000, X8_4);
+    }
+
+    // NG+2 - Bonus Souls
+    if (EventFlag(25000012))
+    {
+        SetSpEffect(10000, X8_4);
+    }
+
+    // NG+3 - Bonus Souls
+    if (EventFlag(25000013))
+    {
+        SetSpEffect(10000, X8_4);
+    }
+
+    // Don't set flags if a client player
+    EndIf(PlayerIsNotInOwnWorld());
+
+    SetEventFlag(X0_4, ON); // Boss Killed
+    SetEventFlag(X4_4, ON); // First Boss Kill
+
+    // Wanderer: Boon item
+    if (CharacterHasSpEffect(10000, 200105000, ComparisonType.Equal, 1)) {
+        AwardItemLot(X12_4);
     }
 });
 

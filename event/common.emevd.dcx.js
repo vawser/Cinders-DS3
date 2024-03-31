@@ -230,6 +230,8 @@ $Event(0, Default, function() {
     InitializeEvent(37, 12010, 8038, 200600038, 20000380); // Clumsy Form
     InitializeEvent(38, 12010, 8039, 200600039, 20000390); // Tourist
     
+    InitializeEvent(0, 20003, 0); // Ceremony Handler
+    
     //--------------------
     // Alyx the Wandering Merchant
     //--------------------
@@ -247,7 +249,7 @@ $Event(0, Default, function() {
     // Setup
     //--------------------
     InitializeEvent(0, 20001, 0); // Game Flags - Once
-    InitializeEvent(0, 20002, 0); // Game Flags - On Load
+    InitializeEvent(0, 20002, 0); // Game Flags - On 
 
     //--------------------
     // Journey Configuration
@@ -1800,7 +1802,7 @@ $Event(870, Default, function(X0_1, X4_4) {
 //------------------------------------------------
 // Game Flags - Once
 //------------------------------------------------
-$Event(20001, Default, function(X0_4, X4_4) {
+$Event(20001, Default, function() {
     EndIf(EventFlag(25000099));
 
     const flag_NeverDied           = 25000030;
@@ -1833,7 +1835,7 @@ $Event(20001, Default, function(X0_4, X4_4) {
 //------------------------------------------------
 // Game Flags - On Load
 //------------------------------------------------
-$Event(20002, Restart, function(X0_4, X4_4) {
+$Event(20002, Restart, function() {
     // Random Flag - Used for Flirt/Crow Drop Type
     BatchSetEventFlags(25008900, 25008902, OFF); // Reset
     RandomlySetEventFlagInRange(25008900, 25008902, ON); // Outcome
@@ -1871,6 +1873,26 @@ $Event(20002, Restart, function(X0_4, X4_4) {
 
     WaitFor(GameCycle() >= 8);
     SetEventFlag(25000017, ON); // NG+7
+});
+
+// m41 Ceremony Handler
+$Event(20003, Restart, function() {
+    // Catacombs
+    if(EventFlag(25009611))
+    {
+        SetEventFlag(25009611, OFF);
+        SetMapCeremony(41, 0, 100);
+    }
+    // Forgotten Menagerie
+    else if(EventFlag(25009612))
+    {
+        SetEventFlag(25009612, OFF);
+        SetMapCeremony(41, 0, 200);
+    }
+    else
+    {
+        SetMapCeremony(41, 0, 0);
+    }
 });
 
 // Effect: Player
@@ -11057,12 +11079,9 @@ $Event(50000, Restart, function() {
     SetEventFlag(25009541, ON);
     
     //SetEventFlag(20001000, OFF);
-    SetEventFlag(14700000, OFF);
-    SetEventFlag(15300000, OFF);
-    SetEventFlag(15400000, OFF);
     
-    //InitializeEvent(0, 50001, 0); // Instant Kill
-    //InitializeEvent(0, 50002, 0); // Immunity to Damage
+    InitializeEvent(0, 50001, 0); // Instant Kill
+    InitializeEvent(0, 50002, 0); // Immunity to Damage
     //InitializeEvent(0, 50003, 0); // 100% HP Regen
     //InitializeEvent(0, 50004, 0); // 100% FP Regen
    

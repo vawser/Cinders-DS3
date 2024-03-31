@@ -2276,18 +2276,11 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25009590 Disable Curse soul gain
 
-25009600 Start Trial
-
-25009610 Memory Difficulty: Easy
-25009611 Memory Difficulty: Normal
-25009612 Memory Difficulty: Hard
-25009613 Memory Difficulty: Very Hard
-25009614 Memory Difficulty: Mythic
-25009620 Memory of Strength - Random Set 1
-25009621 Memory of Strength - Random Set 2
-25009630 Memory of Glory - Random Set 1
-25009631 Memory of Glory - Random Set 2
-25009632 Memory of Glory - Random Set 3
+25009600 Forgotten Colosseum - Boss Fight
+25009611 Catacombs: Set Ceremony
+25009612 Forgotten Colosseum: Set Ceremony
+25009613 Forgotten Colosseum: Force Reload
+25009614 Ignore Force Reload
 
 25009690 End Wave
 

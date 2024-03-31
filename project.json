@@ -4,7 +4,8 @@
   "GameType": 5,
   "PinnedParams": [
     "ItemLotParam",
-    "ShopLineupParam"
+    "ShopLineupParam",
+    "SpEffectParam"
   ],
   "PinnedRows": {
     "AtkParam_Pc": []

@@ -5,6 +5,9 @@
 - Removed Shatter mechanic.
 - Removed Ring affixing.
 - Removed the Corruption mode.
+- Primordial Fragments have been removed.
+ - Essence of the Dark Soul will drop from NPC intruders in place of it.
+ - For No Hit, NG+1/2/3 boss kills, additiona souls drop instead of the Primordial Fragments.
 
 # Bugfixes
 - Fixed the Statue SFX near the first High Wall of Lothric bonfire from looping.
@@ -123,6 +126,7 @@
 # Bosses
 - Sister Friede poise reduced to 0.
 - Reduced the health of several bosses.
+- Moved the Twisted Knight into the Forgotten Menargerie.
 
 # NPCs
 - Magnum Ursus now hosts the Castigation system.
@@ -143,6 +147,16 @@
  - Undead Settlement
  - Road of Sacrifices
  - Catacombs of Carthus
+
+# Maps
+- Removed Memory of Strength.
+- Removed Memory of Endurance.
+- Added "Forgotten Colosseum":
+ - A wave survival gauntlet, with the Twisted Knight as a boss at the end.
+ - Enemies provide high amounts of souls, making it a good place to farm if desired.
+ - Player can leave at any time, except during the final boss fight.
+ - Accessible from Firelink Shrine.
+ - Quitting out will simply reset the gauntlet.
  
 #-------------------------------------------------
 # Items
