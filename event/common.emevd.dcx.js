@@ -1839,9 +1839,9 @@ $Event(20002, Restart, function(X0_4, X4_4) {
     RandomlySetEventFlagInRange(25008900, 25008902, ON); // Outcome
 
     // Memories
-    SetEventFlag(14700000, ON);
-    SetEventFlag(15300000, ON);
-    SetEventFlag(15400000, ON);
+    //SetEventFlag(14700000, ON);
+    //SetEventFlag(15300000, ON);
+    //SetEventFlag(15400000, ON);
 
     // Reset boss fight status flags used by Phantoms
     SetEventFlag(25001100, OFF);
@@ -11057,6 +11057,9 @@ $Event(50000, Restart, function() {
     SetEventFlag(25009541, ON);
     
     //SetEventFlag(20001000, OFF);
+    SetEventFlag(14700000, OFF);
+    SetEventFlag(15300000, OFF);
+    SetEventFlag(15400000, OFF);
     
     //InitializeEvent(0, 50001, 0); // Instant Kill
     //InitializeEvent(0, 50002, 0); // Immunity to Damage

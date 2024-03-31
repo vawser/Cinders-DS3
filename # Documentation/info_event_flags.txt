@@ -2276,7 +2276,8 @@ xxx5750 Enemies enabled by Curse of Attraction
 
 25009590 Disable Curse soul gain
 
-25009600 Start Memory
+25009600 Start Trial
+
 25009610 Memory Difficulty: Easy
 25009611 Memory Difficulty: Normal
 25009612 Memory Difficulty: Hard
