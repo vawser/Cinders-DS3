@@ -113,6 +113,11 @@ m001076 XXXX - Floor of Bodies
 m001561 XXXX - Brick Ledge
 m001575 XXXX - Brick Ledge (4 Tiers)
 
+
+XXXXXXX 6000 - Blunderbuss (967)
+XXXXXXX 6001 - Rosamarinus (968)
+XXXXXXX 6002 - Cannon (963)
+
 # OLD
 o375000 # Irithyll Guard Rail (Snowy)
 o009100 Test

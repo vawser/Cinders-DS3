@@ -127,7 +127,7 @@ def t400260_x6(goods1=2119, goods2=2120, z1=2121, goods3=2144, goods4=2145, good
         """State 2"""
         
         # Learn Miracles
-        AddTalkListData(1, 15016000, -1)
+        # AddTalkListData(1, 15016000, -1)
         
         # Way of White
         AddTalkListData(7, 99062015, -1)
@@ -136,12 +136,10 @@ def t400260_x6(goods1=2119, goods2=2120, z1=2121, goods3=2144, goods4=2145, good
         AddTalkListData(2, 15011020, -1)
         
         # Give Divine Tome
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods1, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods4, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods6, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods7, 2, 0, 0) == 1,
-                          3, 15016020, -1)
+        # AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods1, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods4, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods6, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods7, 2, 0, 0) == 1, 3, 15016020, -1)
         
         # Propose Marriage
-        AddTalkListDataIf(not GetEventStatus(25008160) and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1,
-                          30, 15015040, -1)
+        AddTalkListDataIf(not GetEventStatus(25008160) and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1, 30, 15015040, -1)
                           
         # Flirt
         AddTalkListDataIf(GetEventStatus(25008160) == 1, 31, 15015041, -1)

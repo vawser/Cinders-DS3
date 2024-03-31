@@ -127,7 +127,7 @@ def t400250_x6(z1=2130, goods1=2131, goods2=2144, goods3=2145, goods4=2000, good
         """State 2"""
         
         # Learn Dark Arts
-        AddTalkListData(1, 15015000, -1)
+        # AddTalkListData(1, 15015000, -1)
         
         # Pilgrims of Dark
         AddTalkListData(7, 99062016, -1)
@@ -140,12 +140,10 @@ def t400250_x6(z1=2130, goods1=2131, goods2=2144, goods3=2145, goods4=2000, good
         3, 15015020, -1)
         
         # Give Divine Tome
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1,
-                          4, 15015030, -1)
+        # AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1, 4, 15015030, -1)
                           
         # Give Dark Tome
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods6, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods7, 2, 0, 0) == 1,
-                          8, 15015050, -1)
+        # AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods5, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods6, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods7, 2, 0, 0) == 1, 8, 15015050, -1)
         
         # Propose Marriage
         AddTalkListDataIf(not GetEventStatus(25008010) and ComparePlayerInventoryNumber(3, goods4, 2, 0, 0) == 1,

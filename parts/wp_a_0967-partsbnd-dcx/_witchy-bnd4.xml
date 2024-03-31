@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bnd4>
+  <filename>wp_a_0967.partsbnd.dcx</filename>
+  <compression>DCX_DFLT_10000_44_9</compression>
+  <version>07D7R6</version>
+  <format>IDs, Names1, Names2, Compression</format>
+  <bigendian>False</bigendian>
+  <bitbigendian>False</bitbigendian>
+  <unicode>True</unicode>
+  <extended>0x00</extended>
+  <unk04>False</unk04>
+  <unk05>False</unk05>
+  <root>N:\FDP\data\INTERROOT_win64\parts\Weapon\WP_A_2600\</root>
+  <files>
+    <file>
+      <flags>Flag1</flags>
+      <id>100</id>
+      <path>WP_A_2600.tpf</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>200</id>
+      <path>WP_A_2600.flver</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>201</id>
+      <path>WP_A_2600_1.flver</path>
+    </file>
+  </files>
+</bnd4>

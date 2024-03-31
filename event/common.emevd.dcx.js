@@ -11054,7 +11054,7 @@ $Event(20400, Restart, function() {
 // DEBUG
 //------------------------------------------------
 $Event(50000, Restart, function() {
-    SetEventFlag(20001000, OFF);
+    SetEventFlag(25009541, ON);
     
     //SetEventFlag(20001000, OFF);
     

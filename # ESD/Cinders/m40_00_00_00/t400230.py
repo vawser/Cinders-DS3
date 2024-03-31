@@ -147,7 +147,7 @@ def t400230_x8(goods1=2132, goods2=2133, goods3=2134, goods4=2140):
         """State 2"""
         
         # Learn Sorceries
-        AddTalkListData(1, 15013000, -1)
+        # AddTalkListData(1, 15013000, -1)
         
         # Vinheim Scholars
         AddTalkListData(7, 99062000, -1)
@@ -156,8 +156,7 @@ def t400230_x8(goods1=2132, goods2=2133, goods3=2134, goods4=2140):
         AddTalkListData(2, 15011020, -1)
         
         # Give Sorcery Scroll
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods1, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods4, 2, 0, 0) == 1,
-                          3, 15013020, -1)
+        # AddTalkListDataIf(ComparePlayerInventoryNumber(3, goods1, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods2, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods3, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, goods4, 2, 0, 0) == 1, 3, 15013020, -1)
                           
         # Propose Marriage
         AddTalkListDataIf(not GetEventStatus(25008120) and ComparePlayerInventoryNumber(3, 2000, 2, 0, 0) == 1,
