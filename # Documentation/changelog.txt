@@ -8,6 +8,7 @@
 - Primordial Fragments have been removed.
  - Essence of the Dark Soul will drop from NPC intruders in place of it.
  - For No Hit, NG+1/2/3 boss kills, additiona souls drop instead of the Primordial Fragments.
+ - Primordial Enemies now drop reinforcement materials.
 
 # Bugfixes
 - Fixed the Statue SFX near the first High Wall of Lothric bonfire from looping.
