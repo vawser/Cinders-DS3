@@ -2881,6 +2881,11 @@ end
 function MoveStart(blend_type, event, gen_hand)
     -- debug_log:write("MoveStart" .. "\n")
     
+    -- Block Movement
+    if env(GetSpEffectID, 112001) == TRUE then
+        return FALSE
+    end
+    
     if GetVariable("MoveSpeedLevel") <= 0 then
         return FALSE
     elseif env(GetSpEffectID, 100200) == TRUE then

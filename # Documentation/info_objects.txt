@@ -132,10 +132,12 @@ and allowing mappieces and objects that reference them to use them.
 5231 - Catacombs: Wall - Roots <m004002> [Texture Pool 6100]
 5232 - Catacombs: Floor - Burning <m004006> [Texture Pool 6100]
 5233 - Catacombs: Pillar - Roots <m004018> [Texture Pool 6100]
-XXXX - Catacombs: Entrance - Tall, Wide <m000148>
 5227 - Lava Floor <m001581>
 5228 - Lava Floor (no collision) <m001581>
 5229 - Lava Floor: Large <m001581>
+5230 - Skulls with Candles <o381044>
+
+XXXX - Catacombs: Entrance - Tall, Wide <m000148>
 XXXX - Support Column <m001571>
 XXXX - Bridge - Earth Mounds <m001576>
 XXXX - Bridge Column <m001537>
@@ -144,6 +146,54 @@ XXXX - Rock Ceiling <m001533>
 XXXX - Catacombs Tunnel (Sloped) <m001559>
 XXXX - Catacombs Tunnel (Flat) <m001034>
 XXXX - Catacombs Tunnel (Sloped) - Bones <m001570>
+XXXX - Catacombs Tunnel (Down and then Flat) <m000116>
+XXXX - Catacombs Tunnel (Flat then Down) <m000121>
+XXXX - Stone Pillar <m000143>
+XXXX - Stone Pillar (Very Tall) <m000144>
+XXXX - Metal Porticullis <m000153>
+XXXX - Gravestone Clutter <m001026>
+XXXX - Gravestone Clutter <m001027>
+XXXX - Catacombs Arch <m001030>
+XXXX - Flat Tunnel <m001031>
+XXXX - Downwards Tunnel <m001032>
+XXXX - Tunnel Junction <m001033>
+XXXX - Tunnel <m001034>
+XXXX - Tunnel (Down and Slight Curve) <m001036>
+XXXX - Tunnel Junction (Hole into Lower Room) <m001040>
+XXXX - Catacombs Wall - Tall <m001043>
+XXXX - Catacombs Arch Wall - Tall <m001043>
+XXXX - Tunnel Section <m001046>
+XXXX - Brick Ledge <m001561>
+XXXX - Brick Ledge (4 Tiers) <m001575>
+XXXX - Catacombs Entrance <m001058>
+XXXX - Tunnel Section <m001059>
+XXXX - Tunnel Junction with Hole <m001060>
+XXXX - Tunnel Section <m001062>
+XXXX - Broken Pillar (Two Parts) <m001150>
+XXXX - Broken Pillar (Top Part) <m001151>
+XXXX - Broken Pillar (Two Parts) <m001152>
+XXXX - Throne Room - Wall <m001500>
+XXXX - Throne Room - Pillar <m001501>
+XXXX - Throne Room - Pillar <m001502>
+XXXX - Throne Room - Pillar <m001503>
+XXXX - Throne Room - Entrance Wall <m001504>
+XXXX - Throne Room - Floor (Altar Approach) <m001505>
+XXXX - Throne Room - Floor <m001506>
+XXXX - Throne Room - Floor <m001507>
+XXXX - Throne Room - Floor Detail <m001508>
+XXXX - Throne Room - Floor Detail <m001509>
+XXXX - Demon King - Stair Approach <m001510>
+XXXX - Throne Room - Exit Wall <m001511>
+XXXX - Throne Room - Ornate Pillar <m001512>
+XXXX - Throne Room Passage <m001515>
+XXXX - Ornate Stone Sidings <m001516>
+XXXX - Throne Room - Doorway <m001517>
+XXXX - Boulder Ceiling <m001533>
+XXXX - Catacombs Pillar - Tall <m001534>
+
+XXXX - Archtree <m002008>
+XXXX - Archtree <m002031>
+XXXX - Archtree Stump <m002305>
 
 5250 - Asylum Demon (Corpse A) <m005000>
 5251 - Asylum Demon (Corpse B) <m005001>
@@ -157,21 +207,28 @@ XXXX - Catacombs Tunnel (Sloped) - Bones <m001570>
 5259 - Centipede Demon (Corpse B) <m005301>
 5260 - Bewitched Alonne Sword
 
+5261 - Alcove Skull Pile 1 <m001090>
+5262 - Alcove Skull Pile 2 <m001091>
+5263 - Alcove Skull Pile 3 <m001092>
+5264 - Headstones and Skulls <m001025>
+5265 - Coffin with Bones <m001056>
+
+XXXX - Bones (for Floor) <m001087>
+XXXX - Bones (for Floor) <m001088>
+XXXX - Bones (for Floor) <m001089>
+
+XXXX - Bones <m001090>
+XXXX - Bones on Mound <m001091>
+XXXX - Bones on Mound <m001092>
+XXXX - Scattered Bones <m001093>
+XXXX - Scattered Bones <m001094>
+XXXX - Bones on Mound Floor <m001099>
+
+XXXX - Rubble Pile <m001155>
+
 5270 - Catacombs Door <o300301>
-
 5280 - Black Skybox <o300301>
-
-5230 - Skulls with Candles <o381044 >
 XXXX - Candles on Dirt <o381043>
-XXXX - Alcove Skull Pile 1 <m001090>
-XXXX - Alcove Skull Pile 2 <m001091>
-XXXX - Alcove Skull Pile 3 <m001092>
-XXXX - Headstones and Skulls <m001025>
-XXXX - Mass of Bodies <m001073>
-XXXX - Floor of Bodies <m001076>
-
-XXXX - Brick Ledge <m001561>
-XXXX - Brick Ledge (4 Tiers) <m001575>
 
 6000 - Blunderbuss (967)
 6001 - Rosamarinus (968)
