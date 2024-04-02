@@ -79,18 +79,6 @@ h41_00_00_00_000401 Catacombs: Floor - Corner
 h41_00_00_00_000402 Catacombs: Floor - Junction
 h41_00_00_00_000403 Catacombs: Floor - Hole
 
-#--------------------------
-# Texture Pools
-#--------------------------
-Adding these objects to a map will load the set of map textures, adding them to the pool
-and allowing mappieces and objects that reference them to use them.
-
-6100 - Texture Pool [m38_00_00_00]
-6101 - Texture Pool [m39_00_00_00]
-6102 - Texture Pool [m30_00_00_00]
-6103 - Texture Pool [m31_00_00_00]
-6104 - Texture Pool [m32_00_00_00]
-
 #------------------------------------------------
 # Added Objects
 #------------------------------------------------
@@ -129,9 +117,9 @@ and allowing mappieces and objects that reference them to use them.
 5209 - Catacombs: Wall - Flat, Tall <m001005>
 5221 - Catacombs: Wall - Flat, Tall <m001042>
 5226 - Catacombs: Wall - Alcove, Tall <m001111>
-5231 - Catacombs: Wall - Roots <m004002> [Texture Pool 6100]
-5232 - Catacombs: Floor - Burning <m004006> [Texture Pool 6100]
-5233 - Catacombs: Pillar - Roots <m004018> [Texture Pool 6100]
+5231 - Catacombs: Wall - Roots <m004002> 
+5232 - Catacombs: Floor - Burning <m004006> 
+5233 - Catacombs: Pillar - Roots <m004018> 
 5227 - Lava Floor <m001581>
 5228 - Lava Floor (no collision) <m001581>
 5229 - Lava Floor: Large <m001581>
@@ -207,11 +195,19 @@ XXXX - Archtree Stump <m002305>
 5259 - Centipede Demon (Corpse B) <m005301>
 5260 - Bewitched Alonne Sword
 
-5261 - Alcove Skull Pile 1 <m001090>
-5262 - Alcove Skull Pile 2 <m001091>
-5263 - Alcove Skull Pile 3 <m001092>
-5264 - Headstones and Skulls <m001025>
-5265 - Coffin with Bones <m001056>
+XXXX - Alcove Skull Pile 1 <m001090>
+XXXX - Alcove Skull Pile 2 <m001091>
+XXXX - Alcove Skull Pile 3 <m001092>
+XXXX - Headstones and Skulls <m001025>
+
+XXXX - Mass of Bodies <m001070>
+XXXX - Mass of Bodies <m001072>
+XXXX - Mass of Bodies <m001073>
+XXXX - Mass of Bodies <m001074>
+XXXX - Floor of Bodies <m001075>
+XXXX - Floor of Bodies <m001076>
+
+XXXX - Coffin with Bones <m001056>
 
 XXXX - Bones (for Floor) <m001087>
 XXXX - Bones (for Floor) <m001088>
