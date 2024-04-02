@@ -6528,7 +6528,7 @@ $Event(20081200, Default, function(X0_4, X4_4, X8_4) {
 
 //----------------------------------------------
 // Merchant - Hostility
-// <disabled flag>, <entity id>, <anim id>
+// <disabled flag>, <entity id>
 //----------------------------------------------
 $Event(20081210, Default, function(X0_4, X4_4) {
     SetCharacterAIState(X4_4, Disabled);

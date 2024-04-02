@@ -135,6 +135,10 @@
  - Found in Archdragon Peak and the Ringed City
  - Stock rotates randomly.
  
+- Added new mechant: Lonesome Gavlan
+ - Found in the Forgotten Catacombs.
+ - The player will occasionally be able to sell specific consumables for a large amount of souls
+ 
 # Treasure
 - Redistributed treasures.
 - Removed several mimics and chests

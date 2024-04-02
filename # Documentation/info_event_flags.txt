@@ -3356,3 +3356,19 @@ xxx5750 Enemies enabled by Curse of Attraction
 24007497
 24007498
 24007499
+
+#------------------------
+# Character Talk Ranges
+#------------------------
+74100500 Lonesome Gavlan: Initial Talk
+
+74100510 Gavlan Need: Mossfruit
+74100511 Gavlan Need: Young White Branch
+74100512 Gavlan Need: Rusted Gold Coin
+74100513 Gavlan Need: Elizabeth Mushroom
+74100514 Gavlan Need: Crimson Water
+74100515 Gavlan Need: Purging Stone
+74100516 Gavlan Need: Rubbish
+74100517 Gavlan Need: Seed of a Giant Tree
+74100518 Gavlan Need: Siegbräu
+74100519 Gavlan Need: Ember
