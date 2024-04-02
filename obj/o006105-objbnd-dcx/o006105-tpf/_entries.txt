@@ -1,0 +1,4490 @@
+<texture>
+      <name>m32_00_blendmask_01_m.dds</name>
+      <format>103</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c3010_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c3010_Angle01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c3010_Angle01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c3010_Angle01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c3010_hairs_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c3010_hairs_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c3010_hairs_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c3010_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c3010_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5010_hair_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5010_hair_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5010_hair_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5019_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5019_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5019_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5019_Sword_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5019_Sword_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5019_Sword_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5170_body_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5170_body_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5170_body_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5170_wings_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5170_wings_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_c5170_wings_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_carpet_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_carpet_broken_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_carpet_broken_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_carpet_broken_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_carpet_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_carpet_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_chain_00_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_chain_00_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_chain_00_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_chain_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_chain_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_cliff_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_cliff_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_cliff_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_cobbleStone_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_cobbleStone_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_cobbleStone_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_Dummy_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_dust_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_fabric_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_fabric_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_fabric_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_fabric_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_fabric_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_fabric_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_FlatRock_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_grass_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_grass_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_grass_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_grass_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_grass_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_grass_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_GroundSand_14_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_GroundSand_14_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_GroundSand_14_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ground_002_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ground_002_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ground_002_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ground_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ground_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ground_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ground_relief_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ground_relief_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ground_relief_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ironfence_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ironfence_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ironfence_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ivy_05_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ivy_05_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ivy_05_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ivy_07_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ivy_07_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ivy_07_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_02_m.dds</name>
+      <format>103</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_10_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_11_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_20_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_20_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_30_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_30_m.dds</name>
+      <format>103</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_33_m.dds</name>
+      <format>103</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_34_m.dds</name>
+      <format>103</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_40_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_40_m.dds</name>
+      <format>103</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_40_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_50_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_50_m.dds</name>
+      <format>103</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_60_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_60_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_kumo_70_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ladder_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ladder_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_ladder_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_lightshaft_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_cliff_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_cliff_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_cliff_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_cliff_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_cliff_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_cliff_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_tower_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_tower_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_tower_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_tower_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_wall_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_wall_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_wall_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_wall_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_wall_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_wall_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_wall_04_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_low_wall_04_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_Mountain002_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_Mountain007_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_Mountain008_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_Mountain009_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_Mountain_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_Mountain_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o004665_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o004665_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o004665_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o1240_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o1240_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o1240_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o2140_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o2140_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o2140_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o2400_10_cloth_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o2400_10_pattern2_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o2400_10_pattern2_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o2400_10_pattern2_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o300300_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o300300_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o300300_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o301974_01leaves_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o301974_01leaves_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o301974_01leaves_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o304859_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o304859_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o304859_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o304870_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o304870_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o304870_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o304870_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o304870_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o304870_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o309110_wall_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o309110_wall_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o309110_wall_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o309175_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o309175_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o309175_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o316500_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o316500_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o316500_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o320360_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o320360_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o320360_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_arch_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_arch_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_arch_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_arch_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_arch_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_arch_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_beam_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_beam_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_beam_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_beam_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_beam_03_damage_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_beam_03_damage_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_beam_03_damage_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_beam_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_beam_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_breakbrick_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_breakbrick_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_breakbrick_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_break_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_break_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_break_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_brick_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_brick_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_brick_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_brick_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_brick_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_brick_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_02.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_04_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_04_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_grace_04_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ground_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ground_01_damage_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ground_01_damage_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ground_01_damage_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ground_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ground_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ground_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ground_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ground_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ladder_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ladder_damage_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ladder_damage_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ladder_damage_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ladder_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_ladder_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_pillar_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_pillar_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_pillar_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_pillar_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_pillar_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_pillar_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_03_damage_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_03_damage_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_03_damage_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_ancient_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_ancient_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324000_wall_ancient_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_arch_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_arch_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_arch_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_arch_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_arch_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_arch_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_crenel2_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_crenel2_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_crenel2_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_grace_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_grace_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_grace_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_pillar_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_pillar_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_pillar_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_railing_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_railing_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_railing_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_railing_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_railing_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_railing_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_ruins_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_ruins_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_ruins_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_sand_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_sand_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_sand_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_sculpture_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_sculpture_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_sculpture_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_steps_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_steps_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_steps_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_stone_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_stone_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_stone_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_stone_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_stone_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_stone_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_stone_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_stone_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_stone_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_wall_damaged_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_wall_damaged_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324005_wall_damaged_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324010_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324010_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324010_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324010_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324010_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324010_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324011_1_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324011_1_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324011_1_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324011_2_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324011_2_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324011_2_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324012_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324012_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324012_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_04_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_04_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_grace_04_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_pillar_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_rock_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_rock_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_rock_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_roof_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_roof_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_roof_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_roof_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_roof_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_roof_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_04_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_04_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_04_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_05_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_05_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_05_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_06_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_06_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_06_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_07_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_07_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324013_wall_07_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324014_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324014_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324014_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324020_grace_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324020_grace_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324020_grace_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_branch_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_branch_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_branch_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_branch_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_branch_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_branch_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_floor_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_floor_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_floor_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_steps2_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_steps2_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_steps2_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_04_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_04_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324030_stone_tablet_04_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324050_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324050_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324050_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324050_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324050_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324050_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324051_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324051_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324051_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_arch_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_arch_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_arch_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_arch_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_arch_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_arch_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_arch_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_arch_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_arch_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_grace_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_grace_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_grace_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_grace_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_grace_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_grace_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_pillar_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_pillar_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_pillar_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_steps_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_steps_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_steps_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_stone_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_stone_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_stone_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_stone_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_stone_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_stone_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_tower_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_tower_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_tower_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_tower_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_tower_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_tower_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_wall_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_wall_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_wall_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_wall_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_wall_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_wall_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_windows_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_windows_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324060_windows_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_decorate_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_decorate_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_decorate_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_decorate_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_decorate_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_decorate_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_decorate_05_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_decorate_05_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_decorate_05_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_grace_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_grace_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_grace_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_pillar_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_pillar_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_pillar_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_roof_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_roof_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_roof_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_stone_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_stone_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_stone_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_stone_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_stone_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_stone_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_wood_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_wood_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324061_wood_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_decorate_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_decorate_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_decorate_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_edge_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_edge_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_edge_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_ground03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_ground03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_ground03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_pillar_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_pillar_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_pillar_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_pillar_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_pillar_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_pillar_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_pillar_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_pillar_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324070_pillar_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_arch_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_arch_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_arch_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_arch_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_arch_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_arch_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_pillar_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_pillar_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_pillar_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_railing_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_railing_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_railing_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_rock_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_rock_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_rock_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_roof_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_roof_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_roof_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_roof_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_roof_break_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_roof_break_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_roof_break_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_roof_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_roof_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_steps_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_steps_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_steps_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_wall_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_wall_01_break_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_wall_01_break_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_wall_01_break_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_wall_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324080_wall_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324100_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324100_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324100_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_04_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_04_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_04_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_05_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_05_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_05_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_2_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_3_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_4_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324101_5_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_03_s.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_04_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_04_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_04_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_05_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_05_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_05_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_06_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_06_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_06_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_07_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_07_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_07_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_08_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_08_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_08_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324102_09_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324103_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324103_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324103_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324103_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324103_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324103_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324103_05_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324103_05_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324103_05_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324110_mask_image.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324111_ground_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324111_ground_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324111_ground_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324600_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324600_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324600_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324600_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324600_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o324600_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329100_roof_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329100_roof_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329100_roof_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329100_roof_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329100_roof_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329100_roof_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_1_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_1_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_1_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_2_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_2_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_2_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_3_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_3_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_3_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_4_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_4_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_4_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_5_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_6_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_7_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_8_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_8_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329210_8_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329212_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329212_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329212_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329213_1_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329213_1_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329213_1_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329213_2_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329213_2_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329213_2_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329213_3_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329213_3_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329213_4_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329213_4_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329217_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329217_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329217_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329218_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329218_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329218_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_1_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_1_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_1_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_2_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_2_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_2_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_3_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_3_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_3_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_4_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_4_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329219_4_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_01_f_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_01_f_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_01_f_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_02_f_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_02_f_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_02_f_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_04_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_04_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_04_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_05_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_05_f_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_05_m.dds</name>
+      <format>103</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_05_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329220_05_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329221_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329221_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329221_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329221_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329221_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329221_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_1_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_1_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_1_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_2_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_2_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_2_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_3_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_3_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_3_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_4_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_4_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_4_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_5_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_5_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_5_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_6_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329222_7_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329223_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329223_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329223_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329223_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329223_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329223_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_04_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329230_05_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329235_1_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329235_1_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329235_1_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329235_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329235_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329235_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329250_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329250_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329250_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329400_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329400_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329400_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329501_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329501_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329501_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329502_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329502_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329502_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329502_wings_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329502_wings_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329502_wings_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329800_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329800_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o329800_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330001_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330001_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330001_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330002_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330002_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330002_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330003_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330003_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330003_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330004_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330004_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330004_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330005_00_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330005_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330005_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o330005_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331006_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331006_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331006_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331007_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331007_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331007_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331009_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331009_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331009_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331011_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331011_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331011_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331303_floor_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331303_floor_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331303_floor_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331303_wall_section_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331303_wall_section_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331303_wall_section_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331303_wall_section_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331303_wall_section_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331303_wall_section_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331305_edge_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331305_edge_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331305_edge_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331306_brick_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331306_brick_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331306_brick_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331306_floor_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331306_floor_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331306_floor_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331306_floor_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331306_floor_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331306_floor_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331309_edge_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331309_edge_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331309_edge_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331317_e_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331317_e_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331317_e_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331320_ruins_plant_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331320_ruins_plant_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331320_ruins_plant_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331361_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331361_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331361_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331380_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331380_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331380_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331381_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331381_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o331381_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o350008_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o350008_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o350008_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o350014_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o350014_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o350014_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o390550_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o390550_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o390550_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4520_3_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4520_3_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4520_3_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4520_4_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4520_4_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4520_4_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4808_floor_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4808_floor_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4808_floor_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4810_decoration_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4810_decoration_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4810_decoration_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4810_decoration_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4810_decoration_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4810_decoration_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4810_decoration_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4810_decoration_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4810_decoration_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4811_decorate_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4811_decorate_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4811_decorate_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4820_fence_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4820_fence_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4820_fence_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4821_wood_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4821_wood_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_o4821_wood_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_Outside_Snow_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_Outside_Snow_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_Outside_Snow_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_plant_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_plant_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_plant_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_plant_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_plant_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_plant_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_plant_4_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_RockSingle_00_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_RockSingle_00_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_RockWall_10_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_RockWall_10_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_RockWall_10_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_rock_small_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_rock_small_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_rock_small_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_rope1_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_rope1_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_rope1_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_rope_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_rope_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_rope_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_sky_01.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_sky_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_sky_moon_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_sky_sun_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_smoke_Standard_00_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_stake_01_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_stake_01_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_stormsky_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_stormsky_04_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_stormsky_05_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_stormsky_07_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_stormsky_08_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_storm_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_storm_20_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_storm_30_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_storm_50_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_treebranch_02_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_treebranch_02_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_treebranch_02_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_woodend_00_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_woodend_00_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_woodend_00_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_wood_00_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_wood_00_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_00_wood_00_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_01_ground_03_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_01_ground_03_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_01_ground_03_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_bmg_mtns3_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_mtns1_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_mtns2_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_mtns2_clouds_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_mtns4_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_tree_05_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_tree_05_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m32_tree_05_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m40_00_Dummy_01_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m40_00_kumo_10_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m40_00_kumo_11_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m40_00_kumo_20_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m40_00_kumo_20_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m40_00_kumo_40_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m40_00_kumo_40_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m40_00_kumo_60_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m40_00_kumo_60_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m40_00_smoke_Standard_00_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>m_ref_marble_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>o32_00_o1242_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>o32_00_o1242_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>o32_00_o1242_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>o4808_floor_a.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>o4808_floor_n.dds</name>
+      <format>106</format>
+      <flags1>0x00</flags1>
+    </texture>
+<texture>
+      <name>o4808_floor_r.dds</name>
+      <format>0</format>
+      <flags1>0x00</flags1>
+    </texture>
