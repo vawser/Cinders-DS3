@@ -72,9 +72,9 @@ m001020 5218 - Catacombs: Pillar - Tall
 m001005 5209 - Catacombs: Wall - Flat, Tall
 m001042 5221 - Catacombs: Wall - Flat, Tall
 m001111 5226 - Catacombs: Wall - Alcove, Tall
-m004002 5231 - Catacombs: Wall - Roots  [Requires o006100 for Textures]
-m004006 XXXX - Catacombs: Floor - Roots
-m004018 XXXX - Catacombs: Pillar - Roots
+m004002 5231 - Catacombs: Wall - Roots [Texture Pool 6100]
+m004006 5232 - Catacombs: Floor - Burning [Texture Pool 6100]
+m004018 5233 - Catacombs: Pillar - Roots [Texture Pool 6100]
 m000148 XXXX - Catacombs: Entrance - Tall, Wide
 m001581 5227 - Lava Floor
 m001581 5228 - Lava Floor (no collision)
@@ -121,11 +121,13 @@ XXXXXXX 6001 - Rosamarinus (968)
 XXXXXXX 6002 - Cannon (963)
 
 #--------------------------
-# Map Textures
+# Texture Pools
 #--------------------------
-These hold all the mXX textures within an Obj, making it easier to load all of the textures without needing to handle it within each individual object.
+Adding these objects to a map will load the set of map textures, adding them to the pool
+and allowing mappieces and objects that reference them to use them.
 
-XXXXXXX 6100 - m38 Textures
+XXXXXXX 6100 - Texture Pool [m38_00_00_00]
+XXXXXXX 6101 - Texture Pool [m39_00_00_00]
 
 #--------------------------
 # OLD
