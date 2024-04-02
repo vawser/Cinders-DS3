@@ -74,3 +74,8 @@ UnkT18:
 67 - Kneeling and punching the ground
 68 - Kneeling and holding heart
 
+#------------------------------------
+# Lit Objects
+#------------------------------------
+DeleteObjectfollowingSFX(4001573, false);
+CreateObjectfollowingSFX(4001573, 200, 838041);

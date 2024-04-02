@@ -1,0 +1,35 @@
+[
+  {
+    "Name": "m38_00_00_00_004002",
+    "ParentIndex": -1,
+    "ChildIndex": -1,
+    "NextSiblingIndex": -1,
+    "PreviousSiblingIndex": -1,
+    "Translation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "BoundingBoxMin": {
+      "X": -3.81199527,
+      "Y": -3.60551143,
+      "Z": -2.80563259
+    },
+    "BoundingBoxMax": {
+      "X": 3.76291728,
+      "Y": 5.60981274,
+      "Z": 1.89291489
+    },
+    "Unk3C": 0
+  }
+]

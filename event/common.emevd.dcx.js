@@ -11080,8 +11080,8 @@ $Event(50000, Restart, function() {
     
     //SetEventFlag(20001000, OFF);
     
-    InitializeEvent(0, 50001, 0); // Instant Kill
-    InitializeEvent(0, 50002, 0); // Immunity to Damage
+    //InitializeEvent(0, 50001, 0); // Instant Kill
+    //InitializeEvent(0, 50002, 0); // Immunity to Damage
     //InitializeEvent(0, 50003, 0); // 100% HP Regen
     //InitializeEvent(0, 50004, 0); // 100% FP Regen
    

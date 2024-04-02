@@ -659,6 +659,762 @@
         "lothric",
         "damaged"
       ]
+    },
+    {
+      "id": "o005000",
+      "name": "Dead Tree",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005001",
+      "name": "Dead Tree",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005010",
+      "name": "Swamp",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005011",
+      "name": "Swamp",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005100",
+      "name": "Wooden Bridge",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005101",
+      "name": "Wooden Platform",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005200",
+      "name": "Catacombs Entrance",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005201",
+      "name": "Catacombs Wall",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005202",
+      "name": "Catacombs Floor",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005203",
+      "name": "Catacombs Ceiling",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005204",
+      "name": "Catacombs Column (Short)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005205",
+      "name": "Catacombs Floor (Corner)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005206",
+      "name": "Catacombs Floor (Junction)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005207",
+      "name": "Catacombs Alcove",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005208",
+      "name": "Catacombs Entrance (Tall)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005209",
+      "name": "Catacombs Wall (Tall)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005210",
+      "name": "Catacombs Floor (Rubble)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005211",
+      "name": "Catacombs Stairway (Up to the Right)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005212",
+      "name": "Catacombs Stairway (Up to the Left)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005213",
+      "name": "Catacombs Ceiling Cap",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005214",
+      "name": "Catacombs Floor (Hole)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005215",
+      "name": "Catacombs Ceiling (Hole)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005216",
+      "name": "Catacombs Arch",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005217",
+      "name": "Catacombs Arch (Short)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005218",
+      "name": "Catacombs Column (Tall)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005219",
+      "name": "Catacombs Column",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005220",
+      "name": "Catacombs Wall (Doorway)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005221",
+      "name": "Catacombs Wall (Tall)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005222",
+      "name": "Catacombs Wall (Tall)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005223",
+      "name": "Catacombs Entrance (Tall)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005224",
+      "name": "Catacombs Balcony Rail",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005225",
+      "name": "Catacombs Trim",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005226",
+      "name": "Catacombs Alcove (Tall)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005227",
+      "name": "Lava",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005228",
+      "name": "Lava (No Collision)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005229",
+      "name": "Lava (Large)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005230",
+      "name": "Skulls with Candles",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005250",
+      "name": "Asylum Demon (Corpse A)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005251",
+      "name": "Asylum Demon (Corpse B)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005252",
+      "name": "Asylum Demon (Statue)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005253",
+      "name": "Capra Demon (Corpse A)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005254",
+      "name": "Capra Demon (Corpse B)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005255",
+      "name": "Taurus Demon (Corpse A)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005256",
+      "name": "Taurus Demon (Corpse B)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005257",
+      "name": "Taurus Demon (Statue)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005258",
+      "name": "Centipede Demon (Corpse A)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005259",
+      "name": "Centipede Demon (Corpse B)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005260",
+      "name": "Bewitched Alonne Sword",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005270",
+      "name": "Catacombs Door",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o005280",
+      "name": "Black Skybox",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o006000",
+      "name": "Blunderbuss",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o006001",
+      "name": "Rosamarinus",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o006002",
+      "name": "Cannon",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381000",
+      "name": "Building",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o381003",
+      "name": "Three Stones",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381004",
+      "name": "Candles",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381005",
+      "name": "Sitting Skeleton",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381006",
+      "name": "Candlestick",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381007",
+      "name": "Bench",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381008",
+      "name": "Torch",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381009",
+      "name": "Hanging Lantern",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381010",
+      "name": "Building",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o381011",
+      "name": "Dry Grass",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381012",
+      "name": "Pile of Bones",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381017",
+      "name": "Ladder (Long)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381018",
+      "name": "Ladder",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381019",
+      "name": "Wooden Ladder (Long)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381020",
+      "name": "Trim",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381021",
+      "name": "Hooded Lady Statue",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381022",
+      "name": "Sobbing Lady Statue",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381023",
+      "name": "Gargoyle Statue",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381024",
+      "name": "Large Gravestone",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381025",
+      "name": "Obelisk",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381026",
+      "name": "Cloaked Kneeling Statue",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381027",
+      "name": "Oil Barrel",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381028",
+      "name": "Vase",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381029",
+      "name": "Bone Pot",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381030",
+      "name": "Capped Pot",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381031",
+      "name": "Bone Vase",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381032",
+      "name": "Bone Pile",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381033",
+      "name": "Small Bone Pile",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381034",
+      "name": "Ruined Wall",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381035",
+      "name": "Ladder (Very Long)",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381036",
+      "name": "Trap Button",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381037",
+      "name": "Demon Cleric Statue",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381040",
+      "name": "Tiered Candles",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381041",
+      "name": "Candles on Cairn",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381043",
+      "name": "Candles on Rock",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381044",
+      "name": "Candles on Skulls",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381050",
+      "name": "Demon Statue on Plinth",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381051",
+      "name": "Wolnir\u0027s Cup",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381053",
+      "name": "Wolnir\u0027s Table",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381054",
+      "name": "Burnt Archtree Base",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381060",
+      "name": "Ornate Siding",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381070",
+      "name": "Skeleton Ball",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381080",
+      "name": "Stone Lever",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381081",
+      "name": "Metal Porticullis",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381082",
+      "name": "Illusory Wall",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381083",
+      "name": "Illusory Wall",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o381500",
+      "name": "Ballista Base",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o382002",
+      "name": "Door",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o382100",
+      "name": "Giant Corpse",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o389000",
+      "name": "Mountains",
+      "tags": [
+        "LOD"
+      ]
+    },
+    {
+      "id": "o389010",
+      "name": "Destructible Floor",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o389020",
+      "name": "Destructible Wall",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o389021",
+      "name": "Destructible Wall",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o389041",
+      "name": "Wooden Rickety Bridge",
+      "tags": [
+        ""
+      ]
+    },
+    {
+      "id": "o389999",
+      "name": "Skybox",
+      "tags": [
+        ""
+      ]
     }
   ]
 }

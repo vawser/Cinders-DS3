@@ -13,6 +13,9 @@ N - 0x6A
 
 N:\FDP\data\Material\mtd\map\M[ARSN].mtd
 
+# Collision
+When exporting the .obj, set "Forward" to Z, not -Z
+
 #------------------------------------------------
 # Added Collision
 #------------------------------------------------
@@ -69,7 +72,7 @@ m001020 5218 - Catacombs: Pillar - Tall
 m001005 5209 - Catacombs: Wall - Flat, Tall
 m001042 5221 - Catacombs: Wall - Flat, Tall
 m001111 5226 - Catacombs: Wall - Alcove, Tall
-m004002 XXXX - Catacombs: Wall - Roots
+m004002 5231 - Catacombs: Wall - Roots  [Requires o006100 for Textures]
 m004006 XXXX - Catacombs: Floor - Roots
 m004018 XXXX - Catacombs: Pillar - Roots
 m000148 XXXX - Catacombs: Entrance - Tall, Wide
@@ -101,7 +104,7 @@ o300301 5270 - Catacombs Door
 
 o300301 5280 - Black Skybox
 
-o381044 XXXX - Skulls with Candles
+o381044 5230 - Skulls with Candles
 o381043 XXXX - Candles on Dirt
 m001090 XXXX - Alcove Skull Pile 1
 m001091 XXXX - Alcove Skull Pile 2
@@ -113,12 +116,20 @@ m001076 XXXX - Floor of Bodies
 m001561 XXXX - Brick Ledge
 m001575 XXXX - Brick Ledge (4 Tiers)
 
-
 XXXXXXX 6000 - Blunderbuss (967)
 XXXXXXX 6001 - Rosamarinus (968)
 XXXXXXX 6002 - Cannon (963)
 
+#--------------------------
+# Map Textures
+#--------------------------
+These hold all the mXX textures within an Obj, making it easier to load all of the textures without needing to handle it within each individual object.
+
+XXXXXXX 6100 - m38 Textures
+
+#--------------------------
 # OLD
+#--------------------------
 o375000 # Irithyll Guard Rail (Snowy)
 o009100 Test
 
