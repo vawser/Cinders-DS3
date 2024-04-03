@@ -5345,7 +5345,7 @@ $Event(20008200, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4,
 //----------------------------------------------
 // Warp to Location (Catacomb)
 //----------------------------------------------
-$Event(20008201, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4) {
+$Event(20008230, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4) {
     EndIf(PlayerIsNotInOwnWorld());
 
     WaitFor(ActionButtonInArea(X4_4, X0_4));
@@ -5360,9 +5360,9 @@ $Event(20008201, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4) {
 });
 
 //----------------------------------------------
-// Warp to Location (Forgotten Menargerie)
+// Warp to Location (Forgotten Colosseum)
 //----------------------------------------------
-$Event(20008202, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4) {
+$Event(20008231, Restart, function(X0_4, X4_4, X8_1, X12_4, X16_4, X20_4, X24_4) {
     EndIf(PlayerIsNotInOwnWorld());
 
     WaitFor(ActionButtonInArea(X4_4, X0_4));
