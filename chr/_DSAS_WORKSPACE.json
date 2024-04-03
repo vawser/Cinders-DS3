@@ -87,7 +87,7 @@
       "ProjectionNearClipDist": 0.1,
       "ProjectionFarClipDist": 10000.0,
       "Matrix_Projection": {
-        "M11": 4.8896136,
+        "M11": 2.573221,
         "M12": 0.0,
         "M13": 0.0,
         "M14": 0.0,
@@ -105,7 +105,7 @@
         "M44": 0.0
       },
       "Matrix_Projection_Skybox": {
-        "M11": 2.750713,
+        "M11": 1.4475975,
         "M12": 0.0,
         "M13": 0.0,
         "M14": 0.0,
