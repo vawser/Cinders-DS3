@@ -735,8 +735,8 @@ function UpdateHawkRingEffect()
     if env(225, hand) == WEAPON_CATEGORY_SMALL_ARROW or env(225, hand) == WEAPON_CATEGORY_LARGE_ARROW or env(225, hand) == WEAPON_CATEGORY_CROSSBOW or sp_kind == 754 then
     
         -- Hawk Ring
-        if env(GetSpEffectID, 112480) == TRUE then
-            act(2002, 112481)
+        if env(GetSpEffectID, 160600360) == TRUE then
+            act(2002, 160600361)
         end
     end
 end
@@ -8463,7 +8463,7 @@ function Rolling_onUpdate()
 
     -- Greatwood Remnants
     if env(GetSpEffectID, 112020) == TRUE then
-        base_move_mult = base_move_mult - 0.4
+        base_move_mult = base_move_mult - 0.8
     end
     
     -- Carthus Milkring
