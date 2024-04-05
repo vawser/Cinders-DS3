@@ -20,10 +20,10 @@ aXXX_030000 - WeaponAnimSpeed_RightLight1 #15000 DONE
 aXXX_030010 - WeaponAnimSpeed_RightLight2 #15001 DONE
 aXXX_030020 - WeaponAnimSpeed_RightLight3 #15002 DONE
 
-aXXX_030100 - WeaponAnimSpeed_RightLightKick #15003
+aXXX_030100 - WeaponAnimSpeed_RightLightKick #15003 DONE
 
-aXXX_030320 - WeaponAnimSpeed_RightHeavyCharge1 #15004
-aXXX_030321 - WeaponAnimSpeed_RightHeavyRelease1 #15005
+aXXX_030320 - WeaponAnimSpeed_RightHeavyCharge1 #15004 DONE
+aXXX_030321 - WeaponAnimSpeed_RightHeavyRelease1 #15005 DONE
  
 aXXX_030340 - WeaponAnimSpeed_RightHeavyCharge2 #15006
 aXXX_030341 - WeaponAnimSpeed_RightHeavyRelease2 #15007
