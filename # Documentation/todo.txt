@@ -15,3 +15,8 @@ Restore the NPC quests
 #----------------------------------------------
 # Notes
 #----------------------------------------------
+- Add Rhythmic Attack windows to all TAE entries
+ - a20 has been done
+- Add description of Rhythmic Attacks to Occultist Grudore
+- Add Rhythmic Attack display options to Occultist Grudore
+ - Find a non-body aura VFX for the window tracker

@@ -626,27 +626,27 @@ function UpdateStackableItem(trg_eff, sk_eff_1, sk_eff_2, sk_eff_3, sk_eff_4, sk
     if env(GetSpEffectID, trg_eff) == TRUE then
         -- Add stacks, or just refresh first instance if at limit
         if env(GetSpEffectID, sk_eff_1) == FALSE then
-            act(2002, sk_eff_1)
+            act(AddSpEffect, sk_eff_1)
         elseif sk_eff_2 ~= -1 and env(GetSpEffectID, sk_eff_2) == FALSE then
-            act(2002, sk_eff_2)
+            act(AddSpEffect, sk_eff_2)
         elseif sk_eff_3 ~= -1 and env(GetSpEffectID, sk_eff_3) == FALSE then
-            act(2002, sk_eff_3)
+            act(AddSpEffect, sk_eff_3)
         elseif sk_eff_4 ~= -1 and  env(GetSpEffectID, sk_eff_4) == FALSE then
-            act(2002, sk_eff_4)
+            act(AddSpEffect, sk_eff_4)
         elseif sk_eff_5 ~= -1 and env(GetSpEffectID, sk_eff_5) == FALSE then
-            act(2002, sk_eff_5)
+            act(AddSpEffect, sk_eff_5)
         elseif sk_eff_6 ~= -1 and env(GetSpEffectID, sk_eff_6) == FALSE then
-            act(2002, sk_eff_6)
+            act(AddSpEffect, sk_eff_6)
         elseif sk_eff_7 ~= -1 and env(GetSpEffectID, sk_eff_7) == FALSE then
-            act(2002, sk_eff_7)
+            act(AddSpEffect, sk_eff_7)
         elseif sk_eff_8 ~= -1 and env(GetSpEffectID, sk_eff_8) == FALSE then
-            act(2002, sk_eff_8)
+            act(AddSpEffect, sk_eff_8)
         elseif sk_eff_9 ~= -1 and env(GetSpEffectID, sk_eff_9) == FALSE then
-            act(2002, sk_eff_9)
+            act(AddSpEffect, sk_eff_9)
         elseif sk_eff_10 ~= -1 and env(GetSpEffectID, sk_eff_10) == FALSE then
-            act(2002, sk_eff_10)
+            act(AddSpEffect, sk_eff_10)
         else
-            act(2002, sk_eff_1)
+            act(AddSpEffect, sk_eff_1)
         end
     end
 end
@@ -654,11 +654,11 @@ end
 function UpdateHenbaneEffect()
     if env(GetSpEffectID, 116100) == TRUE then
         if env(1000) > 100 then
-            act(2002, 116103)
+            act(AddSpEffect, 116103)
         elseif env(1000) > 10 then
-            act(2002, 116102)
+            act(AddSpEffect, 116102)
         elseif env(1000) > 1 then
-            act(2002, 116101)
+            act(AddSpEffect, 116101)
         end
     end
 end
@@ -677,8 +677,8 @@ function UpdateBloodthirstCharges()
     end
     
     if cooldown == false then
-        act(2002, 113500) -- Base Interval
-        act(2002, 113501) -- Baseline Regen
+        act(AddSpEffect, 113500) -- Base Interval
+        act(AddSpEffect, 113501) -- Baseline Regen
     end
 end
 
@@ -691,8 +691,8 @@ function PsychedelicPhantomEffect()
     
     if env(GetSpEffectID, 112140) == TRUE then
         if env(GetSpEffectID, 112150) ~= TRUE then
-            act(2002, 112150) -- Cooldown
-            act(2002, 112152) -- Effect
+            act(AddSpEffect, 112150) -- Cooldown
+            act(AddSpEffect, 112152) -- Effect
         end
     end
 end
@@ -706,8 +706,8 @@ function PsychedelicTintEffect()
     
     if env(GetSpEffectID, 112115) == TRUE then
         if env(GetSpEffectID, 112116) ~= TRUE then
-            act(2002, 112116) -- Cooldown
-            act(2002, 112117) -- Effect
+            act(AddSpEffect, 112116) -- Cooldown
+            act(AddSpEffect, 112117) -- Effect
         end
     end
 end
@@ -721,8 +721,8 @@ function UpdateVitalityMasteryEffect()
     -- Vitality Mastery enabled
     if env(GetSpEffectID, 112421) == TRUE then
         if env(GetSpEffectID, 112422) ~= TRUE then
-            act(2002, 112422)
-            act(2002, 112420)
+            act(AddSpEffect, 112422)
+            act(AddSpEffect, 112420)
         end
     end
 end
@@ -743,7 +743,7 @@ function UpdateHawkRingEffect()
     
         -- Hawk Ring
         if env(GetSpEffectID, 160600360) == TRUE then
-            act(2002, 160600361)
+            act(AddSpEffect, 160600361)
         end
     end
 end
@@ -754,34 +754,34 @@ function UpdateCatalystAffinityEffect()
         -- Physical
         if env(GetSpEffectID, 113400) == TRUE then
             if env(GetSpEffectID, 113401) == FALSE and env(GetSpEffectID, 113402) == FALSE and env(GetSpEffectID, 113403) == FALSE and env(GetSpEffectID, 113404) == FALSE then 
-                act(2002, 113450)
+                act(AddSpEffect, 113450)
             end
         -- Magic
         elseif env(GetSpEffectID, 113401) == TRUE then
             if env(GetSpEffectID, 113400) == FALSE and env(GetSpEffectID, 113402) == FALSE and env(GetSpEffectID, 113403) == FALSE and env(GetSpEffectID, 113404) == FALSE then 
-                act(2002, 113451)
+                act(AddSpEffect, 113451)
             end
         -- Fire
         elseif env(GetSpEffectID, 113402) == TRUE then
             if env(GetSpEffectID, 113400) == FALSE and env(GetSpEffectID, 113401) == FALSE and env(GetSpEffectID, 113403) == FALSE and env(GetSpEffectID, 113404) == FALSE then 
-                act(2002, 113452)
+                act(AddSpEffect, 113452)
             end
         -- Lightning
         elseif env(GetSpEffectID, 113403) == TRUE then
             if env(GetSpEffectID, 113400) == FALSE and env(GetSpEffectID, 113401) == FALSE and env(GetSpEffectID, 113402) == FALSE and env(GetSpEffectID, 113404) == FALSE then 
-                act(2002, 113453)
+                act(AddSpEffect, 113453)
             end
         -- Dark
         elseif env(GetSpEffectID, 113404) == TRUE then
             if env(GetSpEffectID, 113400) == FALSE and env(GetSpEffectID, 113401) == FALSE and env(GetSpEffectID, 113402) == FALSE and env(GetSpEffectID, 113403) == FALSE then 
-                act(2002, 113454)
+                act(AddSpEffect, 113454)
             end
         end
     end
     
     -- Add Torch effect to Fire affinitry
     if env(GetSpEffectID, 113402) == TRUE then
-        act(2002, 401)
+        act(AddSpEffect, 401)
     end
 end
 
@@ -791,8 +791,8 @@ function ApplyEffectsAfterCast()
     -- Unstable Catalyst
     if env(GetSpEffectID, 113522) == FALSE then
         if env(GetSpEffectID, 113520) == TRUE then
-            act(2002, 113521)
-            act(2002, 113522)
+            act(AddSpEffect, 113521)
+            act(AddSpEffect, 113522)
         end
     end
 end
@@ -2713,15 +2713,15 @@ function ExecGuard(event, blend_type)
                 
                 -- Weapon Jam Chance Growth
                 if env(GetSpEffectID, 112630) == FALSE then
-                    act(2002, 112630)
+                    act(AddSpEffect, 112630)
                 elseif env(GetSpEffectID, 112631) == FALSE then
-                    act(2002, 112631)
+                    act(AddSpEffect, 112631)
                 elseif env(GetSpEffectID, 112632) == FALSE then
-                    act(2002, 112632)
+                    act(AddSpEffect, 112632)
                 elseif env(GetSpEffectID, 112633) == FALSE then
-                    act(2002, 112633)
+                    act(AddSpEffect, 112633)
                 elseif env(GetSpEffectID, 112634) == FALSE then
-                    act(2002, 112634)
+                    act(AddSpEffect, 112634)
                 end
                 
                 -- Weapon Jam Grace
@@ -2732,13 +2732,13 @@ function ExecGuard(event, blend_type)
                 -- Recent Use
                 -- If this is the first shot in 30 seconds, don't allow it to jam
                 if env(GetSpEffectID, 112636) == FALSE then
-                    act(2002, 112636)
+                    act(AddSpEffect, 112636)
                     weapon_jam_roll = 100 -- Prevent jamming during grace period
                 end
                 
                 -- Bone Marrow Ash
                 if env(GetSpEffectID, 112440) == TRUE then
-                    act(2002, 112441)
+                    act(AddSpEffect, 112441)
                     weapon_jam_roll = 100 -- Prevent jamming on the Bone Marrow Ash shots
                 end
 
@@ -2746,49 +2746,49 @@ function ExecGuard(event, blend_type)
                 if IsCannon() == TRUE then
                     if 80 > env(1001) or weapon_jam_roll < cannon_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
-                        act(2002, 112635) -- Grace period after a jam
+                        act(AddSpEffect, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsChurchCannon() == TRUE then
                     if 80 > env(1001) or weapon_jam_roll < church_cannon_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
-                        act(2002, 112635) -- Grace period after a jam
+                        act(AddSpEffect, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsHunterPistol() == TRUE then
                     if 30 > env(1001) or weapon_jam_roll < hunter_pistol_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
-                        act(2002, 112635) -- Grace period after a jam
+                        act(AddSpEffect, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsRepeatingPistol() == TRUE then
                     if 35 > env(1001) or weapon_jam_roll < repeating_pistol_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
-                        act(2002, 112635) -- Grace period after a jam
+                        act(AddSpEffect, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsEvelynn() == TRUE then
                     if 40 > env(1001) or weapon_jam_roll < evelynn_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
-                        act(2002, 112635) -- Grace period after a jam
+                        act(AddSpEffect, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsBlunderbuss() == TRUE then
                     if 50 > env(1001) or weapon_jam_roll < blunderbuss_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
-                        act(2002, 112635) -- Grace period after a jam
+                        act(AddSpEffect, 112635) -- Grace period after a jam
                     end
                 end
                 
                 if IsRosamarinus() == TRUE then
                     if 15 > env(1001) or weapon_jam_roll < rosamarinus_jam_chance then
                         l1 = "W_AttackLeftHeavy2"
-                        act(2002, 112635) -- Grace period after a jam
+                        act(AddSpEffect, 112635) -- Grace period after a jam
                     end
                 end
                 
@@ -2944,15 +2944,26 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     elseif env(GetStamina) <= 0 then
         return FALSE
     end
+    
     local request = GetAttackRequest(is_guard)
+    
     if request == ATTACK_REQUEST_INVALID then
         return FALSE
     end
+    
     local style = c_Style
     local atk_hand = HAND_RIGHT
     local is_find_atk = TRUE
     local is_atk_auto_aim = TRUE
     act(SetDamageMotionBlendRatio, 0)
+    
+    -----------------------
+    -- Rhythmic Attack
+    -----------------------
+    -- Executed attack during window
+    if env(GetSpEffectID, 111120) == TRUE then
+        act(AddSpEffect, 111121) -- Bonus
+    end
     
     -----------------------
     -- Sidearms
@@ -2975,27 +2986,27 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     -----------------------
     -- Ring of Blades
     if env(GetSpEffectID, 115000) == TRUE then
-        act(2002, 115010)
+        act(AddSpEffect, 115010)
     end
     
     -- Sigil of Magic
     if env(GetSpEffectID, 115020) == TRUE then
-        act(2002, 115030)
+        act(AddSpEffect, 115030)
     end
     
     -- Sigil of Flame
     if env(GetSpEffectID, 115040) == TRUE then
-        act(2002, 115050)
+        act(AddSpEffect, 115050)
     end
     
     -- Sigil of Thunder
     if env(GetSpEffectID, 115060) == TRUE then
-        act(2002, 115070)
+        act(AddSpEffect, 115070)
     end
     
     -- Sigil of Darkness
     if env(GetSpEffectID, 115080) == TRUE then
-        act(2002, 115090)
+        act(AddSpEffect, 115090)
     end
     
     if request == ATTACK_REQUEST_RIGHT_LIGHT then
@@ -4110,7 +4121,7 @@ function ExecMagic(quick_type, blend_type)
 
     -- Insanity Catalyst - WA Effect
     if env(GetSpEffectID, 112004) == TRUE then
-        act(2002, 112005) -- Apply HP loss on cast
+        act(AddSpEffect, 112005) -- Apply HP loss on cast
     end
     
     if env(IsMagicUseMenuOpened) == TRUE then
@@ -5926,7 +5937,7 @@ function ExecDamage(is_parry, is_attackwhileguard)
         if env(GetSpEffectID, 112814) == TRUE then
             -- Stack 2
             if env(GetSpEffectID, 112674) == FALSE then
-                act(2002, 112674)
+                act(AddSpEffect, 112674)
                 
                 return FALSE
             end
@@ -5935,11 +5946,11 @@ function ExecDamage(is_parry, is_attackwhileguard)
         if env(GetSpEffectID, 112813) == TRUE then
             -- Stack 2
             if env(GetSpEffectID, 112673) == FALSE then
-                act(2002, 112673)
+                act(AddSpEffect, 112673)
             
                 -- For a powerful attack, apply 2 stacks per hit
                 if IsPowerfulHit(damage_level) then
-                    act(2002, 112674)
+                    act(AddSpEffect, 112674)
                 end
                 
                 return FALSE
@@ -5949,11 +5960,11 @@ function ExecDamage(is_parry, is_attackwhileguard)
         if env(GetSpEffectID, 112812) == TRUE then
             -- Stack 2
             if env(GetSpEffectID, 112672) == FALSE then
-                act(2002, 112672)
+                act(AddSpEffect, 112672)
             
                 -- For a powerful attack, apply 2 stacks per hit
                 if IsPowerfulHit(damage_level) then
-                    act(2002, 112673)
+                    act(AddSpEffect, 112673)
                 end
                 
                 return FALSE
@@ -5963,11 +5974,11 @@ function ExecDamage(is_parry, is_attackwhileguard)
         if env(GetSpEffectID, 112811) == TRUE then
             -- Stack 2
             if env(GetSpEffectID, 112671) == FALSE then
-                act(2002, 112671)
+                act(AddSpEffect, 112671)
             
                 -- For a powerful attack, apply 2 stacks per hit
                 if IsPowerfulHit(damage_level) then
-                    act(2002, 112672)
+                    act(AddSpEffect, 112672)
                 end
                 
                 return FALSE
@@ -5977,11 +5988,11 @@ function ExecDamage(is_parry, is_attackwhileguard)
         if env(GetSpEffectID, 112810) == TRUE then
             -- Stack 1
             if env(GetSpEffectID, 112670) == FALSE then
-                act(2002, 112670)
+                act(AddSpEffect, 112670)
             
                 -- For a powerful attack, apply 2 stacks per hit
                 if IsPowerfulHit(damage_level) then
-                    act(2002, 112671)
+                    act(AddSpEffect, 112671)
                 end
                 
                 return FALSE
@@ -5993,27 +6004,27 @@ function ExecDamage(is_parry, is_attackwhileguard)
     if HasStaggerResistBoost_Weapon() == TRUE then
         -- Stack 1
         if env(GetSpEffectID, 112690) == FALSE then
-            act(2002, 112690)
+            act(AddSpEffect, 112690)
         
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112691)
+                act(AddSpEffect, 112691)
             end
             
             return FALSE
         -- Stack 2
         elseif env(GetSpEffectID, 112691) == FALSE then
-            act(2002, 112691)
+            act(AddSpEffect, 112691)
         
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112692)
+                act(AddSpEffect, 112692)
             end
             
             return FALSE
         -- Stack 3
         elseif env(GetSpEffectID, 112692) == FALSE then
-            act(2002, 112692)
+            act(AddSpEffect, 112692)
             
             return FALSE
         end
@@ -6023,27 +6034,27 @@ function ExecDamage(is_parry, is_attackwhileguard)
     if HasStaggerResistBoost_Spell() == TRUE then
         -- Stack 1
         if env(GetSpEffectID, 112685) == FALSE then
-            act(2002, 112685)
+            act(AddSpEffect, 112685)
         
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112686)
+                act(AddSpEffect, 112686)
             end
             
             return FALSE
         -- Stack 2
         elseif env(GetSpEffectID, 112686) == FALSE then
-            act(2002, 112686)
+            act(AddSpEffect, 112686)
         
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112687)
+                act(AddSpEffect, 112687)
             end
             
             return FALSE
         -- Stack 3
         elseif env(GetSpEffectID, 112687) == FALSE then
-            act(2002, 112687)
+            act(AddSpEffect, 112687)
             
             return FALSE
         end
@@ -6053,27 +6064,27 @@ function ExecDamage(is_parry, is_attackwhileguard)
     if HasStaggerResistBoost_Item() == TRUE then
         -- Stack 1
         if env(GetSpEffectID, 112680) == FALSE then
-            act(2002, 112680)
+            act(AddSpEffect, 112680)
         
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112681)
+                act(AddSpEffect, 112681)
             end
             
             return FALSE
         -- Stack 2
         elseif env(GetSpEffectID, 112681) == FALSE then
-            act(2002, 112681)
+            act(AddSpEffect, 112681)
         
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112682)
+                act(AddSpEffect, 112682)
             end
             
             return FALSE
         -- Stack 3
         elseif env(GetSpEffectID, 112682) == FALSE then
-            act(2002, 112682)
+            act(AddSpEffect, 112682)
             
             return FALSE
         end
@@ -6084,43 +6095,43 @@ function ExecDamage(is_parry, is_attackwhileguard)
         -- Stagger Block
         -- 5 levels for High resist
         if env(GetSpEffectID, 112660) == FALSE then
-            act(2002, 112660)
+            act(AddSpEffect, 112660)
             
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112661)
+                act(AddSpEffect, 112661)
             end
             
             return FALSE
         elseif env(GetSpEffectID, 112661) == FALSE then
-            act(2002, 112661)
+            act(AddSpEffect, 112661)
             
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112662)
+                act(AddSpEffect, 112662)
             end
             
             return FALSE
         elseif env(GetSpEffectID, 112662) == FALSE then
-            act(2002, 112662)
+            act(AddSpEffect, 112662)
             
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112663)
+                act(AddSpEffect, 112663)
             end
             
             return FALSE
         elseif env(GetSpEffectID, 112663) == FALSE then
-            act(2002, 112663)
+            act(AddSpEffect, 112663)
             
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112664)
+                act(AddSpEffect, 112664)
             end
             
             return FALSE
         elseif env(GetSpEffectID, 112664) == FALSE then
-            act(2002, 112664)
+            act(AddSpEffect, 112664)
             
             return FALSE
         end
@@ -6131,29 +6142,29 @@ function ExecDamage(is_parry, is_attackwhileguard)
         -- Stagger Block
         -- 3 levels for Medium resist
         if env(GetSpEffectID, 112660) == FALSE then
-            act(2002, 112660)
+            act(AddSpEffect, 112660)
             
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112661)
+                act(AddSpEffect, 112661)
             end
             
             return FALSE
         elseif env(GetSpEffectID, 112661) == FALSE then
-            act(2002, 112661)
+            act(AddSpEffect, 112661)
             
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112662)
+                act(AddSpEffect, 112662)
             end
             
             return FALSE
         elseif env(GetSpEffectID, 112662) == FALSE then
-            act(2002, 112662)
+            act(AddSpEffect, 112662)
             
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112663)
+                act(AddSpEffect, 112663)
             end
             
             return FALSE
@@ -6165,11 +6176,11 @@ function ExecDamage(is_parry, is_attackwhileguard)
         -- Stagger Block
         -- 1 level for Weak resist
         if env(GetSpEffectID, 112660) == FALSE then
-            act(2002, 112660)
+            act(AddSpEffect, 112660)
             
             -- For a powerful attack, apply 2 stacks per hit
             if IsPowerfulHit(damage_level) then
-                act(2002, 112661)
+                act(AddSpEffect, 112661)
             end
             
             return FALSE
@@ -8770,39 +8781,46 @@ function Move_onUpdate()
         SetTurnSpeed(npc_turn_speed)
     end
     
-    local base_move_mult = g_Move_Base_Multiplier
+    local weight = GetWeightIndex(false)
+    local base = g_Move_Base_Multiplier
+    local multiplier = base
+    
+    -- Lightweight
+    if weight == EVASION_WEIGHT_INDEX_SUPERLIGHT or weight == EVASION_WEIGHT_INDEX_LIGHT then
+        multiplier = multiplier + 0.05
+    end
     
     -- Dashmaster's String
     if env(GetSpEffectID, 112540) == TRUE then
-        base_move_mult = base_move_mult + 0.1
+        multiplier = multiplier + 0.1
     end
     
     -- Relic of Swiftness
     if env(GetSpEffectID, 112570) == TRUE then
-        base_move_mult = base_move_mult + 0.15
+        multiplier = multiplier + 0.15
     end
     
     -- Weapon Movement Speed Boost
     if env(GetSpEffectID, 112590) == TRUE then
-        base_move_mult = base_move_mult + 0.1
+        multiplier = multiplier + 0.1
     end
     
     -- Tailwind
     if env(GetSpEffectID, 112800) == TRUE or env(GetSpEffectID, 112801) == TRUE then
-        base_move_mult = base_move_mult + 0.2
+        multiplier = multiplier + 0.2
     end
     
     -- Frostbite
     if env(GetSpEffectID, 180021000) == TRUE then
-        base_move_mult = base_move_mult * 0.5
+        multiplier = multiplier * 0.5
     end
     
     if GetVariable("MoveDirection") == 3 or GetVariable("MoveDirection") == 2 then
-        act(SetMovementScaleMult, 0.959999978542328 * base_move_mult)
+        act(SetMovementScaleMult, 0.959999978542328 * multiplier)
     elseif GetVariable("MoveDirection") == 1 then
-        act(SetMovementScaleMult, 0.959999978542328 * base_move_mult)
+        act(SetMovementScaleMult, 0.959999978542328 * multiplier)
     elseif GetVariable("MoveDirection") == 0 then
-        act(SetMovementScaleMult, 0.980000019073486 * base_move_mult)
+        act(SetMovementScaleMult, 0.980000019073486 * multiplier)
     end
     
     return 
@@ -20880,6 +20898,10 @@ function Update()
     -- Henbane
     UpdateHenbaneEffect()
     
+    -- RhythmicAttack
+    UpdateRhythmicAttackWindowTracker()
+    UpdateRhythmicAttackBonusTracker()
+    
     -- Anim Speed
     UpdateAnimationSpeed()
     
@@ -20919,6 +20941,23 @@ end
 
 function Master_onGenerate()
     return 
+end
+
+------------------------------------------
+-- Cinders: Rhythmic Attack
+------------------------------------------
+function UpdateRhythmicAttackWindowTracker()
+    -- Yellow Tracker
+    if env(GetSpEffectID, 111120) == TRUE then
+        act(AddSpEffect, 111130)
+    end
+end
+
+function UpdateRhythmicAttackBonusTracker()
+    -- Flames
+    if env(GetSpEffectID, 111121) == TRUE then
+        act(AddSpEffect, 111140)
+    end
 end
 
 ------------------------------------------
@@ -20969,6 +21008,11 @@ function SetLightAttackAnimSpeed()
     local baseValue = 1.0
     local value = baseValue
     
+    -- Rhythmic Attack Bonus
+    if env(GetSpEffectID, 111121) == TRUE then
+        value = value + 0.5
+    end
+    
     SetVariable("WeaponAnimSpeed_RightLight1", value)
     SetVariable("WeaponAnimSpeed_RightLight2", value)
     SetVariable("WeaponAnimSpeed_RightLight3", value)
@@ -20991,6 +21035,11 @@ end
 function SetHeavyAttackAnimSpeed()
     local baseValue = 1.0
     local value = baseValue
+    
+    -- Rhythmic Attack Bonus
+    if env(GetSpEffectID, 111121) == TRUE then
+        value = value + 0.2
+    end
     
     SetVariable("WeaponAnimSpeed_RightHeavyCharge1", value)
     SetVariable("WeaponAnimSpeed_RightHeavyRelease1", value)
@@ -21017,6 +21066,11 @@ function SetDashAttackAnimSpeed()
     local baseValue = 1.0
     local value = baseValue
     
+    -- Rhythmic Attack Bonus
+    if env(GetSpEffectID, 111121) == TRUE then
+        value = value + 0.2
+    end
+    
     SetVariable("WeaponAnimSpeed_RightDashAttack", value)
     SetVariable("WeaponAnimSpeed_BothDashAttack", value)
 end
@@ -21026,6 +21080,11 @@ function SetJumpAttackAnimSpeed()
     local baseValue = 1.0
     local value = baseValue
     
+    -- Rhythmic Attack Bonus
+    if env(GetSpEffectID, 111121) == TRUE then
+        value = value + 0.2
+    end
+    
     SetVariable("WeaponAnimSpeed_RightJumpAttack", value)
     SetVariable("WeaponAnimSpeed_BothJumpAttack", value)
 end
@@ -21034,6 +21093,11 @@ end
 function SetRollAttackAnimSpeed()
     local baseValue = 1.0
     local value = baseValue
+    
+    -- Rhythmic Attack Bonus
+    if env(GetSpEffectID, 111121) == TRUE then
+        value = value + 0.2
+    end
     
     SetVariable("WeaponAnimSpeed_RightRollAttack", value)
     SetVariable("WeaponAnimSpeed_BothRollAttack", value)

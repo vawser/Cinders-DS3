@@ -42,6 +42,9 @@
 # Timed Block
 - Using a block at the right moment will reduce the guard stamina cost to 0.
 
+# Movement
+- Lightweight or super lightweight players will move 5% faster.
+
 #-------------------------------------------------
 # Player Setup
 #-------------------------------------------------
