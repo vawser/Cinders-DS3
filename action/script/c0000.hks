@@ -1,4 +1,11 @@
 ﻿--------------------
+-- Globals
+--------------------
+g_Move_Base_Multiplier = 1.0
+g_Roll_Base_Multiplier = 1.0
+g_Backstep_Base_Multiplier = 1.0
+
+--------------------
 -- Player
 --------------------
 function UpdateFP()
@@ -8456,7 +8463,7 @@ function Rolling_onUpdate()
         act(PrecisionShootPossible)
     end
     
-    local base_move_mult = 1.0
+    local base_move_mult = g_Roll_Base_Multiplier
     local rolling_angle = GetVariable("RollingAngleReal")
     local addratio = 0.400000005960464
     local endratio = 1
@@ -8524,7 +8531,7 @@ function RollingSelftrans_onUpdate()
         act(PrecisionShootPossible)
     end
     
-	local base_move_mult = 1.0
+	local base_move_mult = g_Roll_Base_Multiplier
     local rolling_angle = GetVariable("RollingAngleRealSelftrans")
     local addratio = 0.400000005960464
     local endratio = 1
@@ -8572,7 +8579,7 @@ function BackStep_onUpdate()
     local Follow_B1 = "W_AttackBothDash"
     local Follow_B2 = "W_AttackBothHeavy1Start"
 
-	local base_move_mult = 1.0
+	local base_move_mult = g_Backstep_Base_Multiplier
     
     -- Ring of Retreat
     if env(GetSpEffectID, 112530) == TRUE then 
@@ -8763,7 +8770,7 @@ function Move_onUpdate()
         SetTurnSpeed(npc_turn_speed)
     end
     
-    local base_move_mult = 1.0
+    local base_move_mult = g_Move_Base_Multiplier
     
     -- Dashmaster's String
     if env(GetSpEffectID, 112540) == TRUE then
@@ -20873,8 +20880,8 @@ function Update()
     -- Henbane
     UpdateHenbaneEffect()
     
-    -- Anim Speed Test
-    TestAnimSpeed()
+    -- Anim Speed
+    UpdateAnimationSpeed()
     
     act(SwitchMotion, FALSE)
     act(LockonSystemUnableToTurnAngle, 0, 0)
@@ -20915,30 +20922,125 @@ function Master_onGenerate()
 end
 
 ------------------------------------------
--- Cinders: Utility
+-- Cinders: Animation Speed
 ------------------------------------------
-function TestAnimSpeed()
-    SetItemAnimSpeed(0.5) 
-    SetStaggerRecoverySpeed(0.5) 
-    SetMagicAnimSpeed(0.5) 
+function UpdateAnimationSpeed()
+    SetItemAnimSpeed() 
     
-    SetWeaponAnimSpeed(0.5)
+    SetStaggerRecoverySpeed() 
+    
+    SetMagicAnimSpeed() 
+    
+    SetLightAttackAnimSpeed()
+    SetKickAnimSpeed()
+    SetHeavyAttackAnimSpeed()
+    SetDashAttackAnimSpeed()
+    SetJumpAttackAnimSpeed()
+    SetRollAttackAnimSpeed()
 end
 
-function SetItemAnimSpeed(value)
+-- Items
+function SetItemAnimSpeed()
+    local baseValue = 1.0
+    local value = baseValue
+
     SetVariable("ItemAnimSpeed", value) 
 end
 
-function SetStaggerRecoverySpeed(value)
+-- Stagger Recovery
+function SetStaggerRecoverySpeed()
+    local baseValue = 1.0
+    local value = baseValue
+    
     SetVariable("StaggerAnimSpeed", value) 
 end
 
-function SetMagicAnimSpeed(value)
+-- Magic
+function SetMagicAnimSpeed()
+    local baseValue = 1.0
+    local value = baseValue
+    
     SetVariable("MagicLaunchAnimSpeed", value) 
     SetVariable("MagicFireAnimSpeed", value) 
 end
 
-function SetWeaponAnimSpeed(value)
+-- Light Attacks
+function SetLightAttackAnimSpeed()
+    local baseValue = 1.0
+    local value = baseValue
+    
+    SetVariable("WeaponAnimSpeed_RightLight1", value)
+    SetVariable("WeaponAnimSpeed_RightLight2", value)
+    SetVariable("WeaponAnimSpeed_RightLight3", value)
+    SetVariable("WeaponAnimSpeed_LeftLight1", value)
+    SetVariable("WeaponAnimSpeed_BothLight1", value)
+    SetVariable("WeaponAnimSpeed_BothLight2", value)
+    SetVariable("WeaponAnimSpeed_BothLight3", value)
+end
+
+-- Kicks
+function SetKickAnimSpeed()
+    local baseValue = 1.0
+    local value = baseValue
+    
+    SetVariable("WeaponAnimSpeed_RightLightKick", value)
+    SetVariable("WeaponAnimSpeed_BothLightKick", value)
+end
+
+-- Heavy Attacks
+function SetHeavyAttackAnimSpeed()
+    local baseValue = 1.0
+    local value = baseValue
+    
+    SetVariable("WeaponAnimSpeed_RightHeavyCharge1", value)
+    SetVariable("WeaponAnimSpeed_RightHeavyRelease1", value)
+    SetVariable("WeaponAnimSpeed_RightHeavyCharge2", value)
+    SetVariable("WeaponAnimSpeed_RightHeavyRelease2", value)
+    SetVariable("WeaponAnimSpeed_RightSpecialHeavyCharge1", value)
+    SetVariable("WeaponAnimSpeed_RightSpecialHeavyRelease1", value)
+    SetVariable("WeaponAnimSpeed_RightSpecialHeavyCharge2", value)
+    SetVariable("WeaponAnimSpeed_RightSpecialHeavyRelease2", value)
+    SetVariable("WeaponAnimSpeed_LeftHeavy1", value)
+    SetVariable("WeaponAnimSpeed_LeftHeavy2", value)
+    SetVariable("WeaponAnimSpeed_BothHeavyCharge1", value)
+    SetVariable("WeaponAnimSpeed_BothHeavyRelease1", value)
+    SetVariable("WeaponAnimSpeed_BothHeavyCharge2", value)
+    SetVariable("WeaponAnimSpeed_BothHeavyRelease2", value)
+    SetVariable("WeaponAnimSpeed_BothSpecialHeavyCharge1", value)
+    SetVariable("WeaponAnimSpeed_BothSpecialHeavyRelease1", value)
+    SetVariable("WeaponAnimSpeed_BothSpecialHeavyCharge2", value)
+    SetVariable("WeaponAnimSpeed_BothSpecialHeavyRelease2", value)
+end
+
+-- Dash Attacks
+function SetDashAttackAnimSpeed()
+    local baseValue = 1.0
+    local value = baseValue
+    
+    SetVariable("WeaponAnimSpeed_RightDashAttack", value)
+    SetVariable("WeaponAnimSpeed_BothDashAttack", value)
+end
+
+-- Jump Attacks
+function SetJumpAttackAnimSpeed()
+    local baseValue = 1.0
+    local value = baseValue
+    
+    SetVariable("WeaponAnimSpeed_RightJumpAttack", value)
+    SetVariable("WeaponAnimSpeed_BothJumpAttack", value)
+end
+
+-- Roll Attacks
+function SetRollAttackAnimSpeed()
+    local baseValue = 1.0
+    local value = baseValue
+    
+    SetVariable("WeaponAnimSpeed_RightRollAttack", value)
+    SetVariable("WeaponAnimSpeed_BothRollAttack", value)
+end
+
+-- Reference
+function SetWeaponAnimSpeed()
     SetVariable("WeaponAnimSpeed_RightLight1", value)
     SetVariable("WeaponAnimSpeed_RightLight2", value)
     SetVariable("WeaponAnimSpeed_RightLight3", value)
@@ -20974,6 +21076,9 @@ function SetWeaponAnimSpeed(value)
     SetVariable("WeaponAnimSpeed_BothRollAttack", value)
 end
 
+------------------------------------------
+-- Cinders: Utility
+------------------------------------------
 function IsBBDashWeapon()
     if env(GetSpEffectID, 112415) == TRUE and env(GetSpEffectID, 112414) == TRUE then
         return TRUE

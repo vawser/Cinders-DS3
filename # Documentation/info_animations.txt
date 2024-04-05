@@ -1,7 +1,136 @@
 ﻿#------------------------------------
 # Animations
 #------------------------------------
-# Right
+# Guard
+aXXX_019000 Guard Start: Idle
+aXXX_019001 Guard Start: Move
+aXXX_019002 Guard: End Move
+aXXX_019100 Guard End: Idle
+
+aXXX_019010 Heavy Guard Start: Idle
+aXXX_019011 Heavy Guard Start: Move
+aXXX_019012 Heavy Guard: End Move
+aXXX_019110 Heavy Guard End: Idle
+
+aXXX_019020 Small Guard Start: Idle
+aXXX_019021 Small Guard Start: Move
+aXXX_019022 Small Guard: End Move
+aXXX_019120 Small Guard End: Idle
+
+aXXX_019030 Torch Guard Start: Idle
+aXXX_019031 Torch Guard Start: Move
+aXXX_019032 Torch Guard: End Move
+aXXX_019130 Torch Guard End: Idle
+
+# Walk
+aXXX_020000 Walk Front: Light
+aXXX_020001 Walk Back: Light
+aXXX_020002 Walk Left: Light
+aXXX_020003 Walk Right: Light
+
+aXXX_020010 Walk Front: Heavy
+aXXX_020011 Walk Back: Heavy
+aXXX_020012 Walk Left: Heavy
+aXXX_020013 Walk Right: Heavy
+
+aXXX_020020 Walk Front: Encumbered
+aXXX_020021 Walk Back: Encumbered
+aXXX_020022 Walk Left: Encumbered
+aXXX_020023 Walk Right: Encumbered
+
+aXXX_020050 Walk Front: Bow Stance
+aXXX_020051 Walk Back: Bow Stance
+aXXX_020052 Walk Left: Bow Stance
+aXXX_020053 Walk Right: Bow Stance
+
+aXXX_020060 Walk Front: Rapier Stance
+aXXX_020061 Walk Back: Rapier Stance
+aXXX_020062 Walk Left: Rapier Stance
+aXXX_020063 Walk Right: Rapier Stance
+
+aXXX_020070 Walk Front: Greatbow Stance
+aXXX_020071 Walk Back: Greatbow Stance
+aXXX_020072 Walk Left: Greatbow Stance
+aXXX_020073 Walk Right: Greatbow Stance
+
+aXXX_022000 Walk Stop: Front
+aXXX_022001 Walk Stop: Back
+aXXX_022002 Walk Stop: Left
+aXXX_022003 Walk Stop: Right
+
+aXXX_023000 Walk: Guard Up - Default
+aXXX_023010 Walk: Guard Up - Heavy
+aXXX_023020 Walk: Guard Up - Small
+aXXX_023030 Walk: Guard Up - Torch
+
+# Run
+aXXX_020100 Run Front: Light
+aXXX_020101 Run Back: Light
+aXXX_020102 Run Left: Light
+aXXX_020103 Run Right: Light
+
+aXXX_020110 Run Front: Heavy
+aXXX_020111 Run Back: Heavy
+aXXX_020112 Run Left: Heavy
+aXXX_020113 Run Right: Heavy
+
+aXXX_020120 Run Front: Encumbered
+aXXX_020121 Run Back: Encumbered
+aXXX_020122 Run Left: Encumbered
+aXXX_020123 Run Right: Encumbered
+
+aXXX_022100 Run Stop: Front
+aXXX_022101 Run Stop: Back
+aXXX_022102 Run Stop: Left
+aXXX_022103 Run Stop: Right
+
+aXXX_023050 Run: Guard Up - Default
+aXXX_023100 Run: Guard Up - Heavy
+aXXX_023110 Run: Guard Up - Small
+aXXX_023120 Run: Guard Up - Torch
+
+# Sprint
+aXXX_020200 Sprint Front: Light
+aXXX_020210 Sprint Front: Heavy
+aXXX_020220 Sprint Front: Encumbered
+
+aXXX_022200 Sprint Stop
+
+aXXX_023200 Run: Guard Up - Default
+aXXX_023210 Run: Guard Up - Heavy
+aXXX_023220 Run: Guard Up - Small
+aXXX_023230 Run: Guard Up - Torch
+
+# Backstep
+aXXX_027000 Backstep: Light
+aXXX_027010 Backstep: Medium
+aXXX_027020 Backstep: Heavy
+aXXX_027030 Backstep: Encumbered
+aXXX_027040 Backstep: Ninja
+
+# Roll
+aXXX_027100 Roll: Front
+aXXX_027101 Roll: Back
+aXXX_027102 Roll: Left
+aXXX_027103 Roll: Right
+aXXX_027104 Roll: Front Right
+aXXX_027105 Roll: Front Left
+aXXX_027106 Roll: Back Right
+aXXX_027107 Roll: Back Left
+
+aXXX_027130 Encumbered Roll: Front
+aXXX_027131 Encumbered Roll: Back
+aXXX_027132 Encumbered Roll: Left
+aXXX_027133 Encumbered Roll: Right
+aXXX_027134 Encumbered Roll: Front Right
+aXXX_027135 Encumbered Roll: Front Left
+aXXX_027136 Encumbered Roll: Back Right
+aXXX_027137 Encumbered Roll: Back Left
+
+# Jump
+aXXX_027400 Jump
+
+# Attacks: Right
 aXXX_030000 - Right: Light 1
 aXXX_030010 - Right: Light 2
 aXXX_030020 - Right: Light 3
@@ -26,14 +155,14 @@ aXXX_030600 - Right: Jumping Attack
 
 aXXX_030900 - Right: Rollout Attack
 
-# Left
+# Attacks: Left
 aXXX_032000 - Left: Light 1
 
 aXXX_032030 - Left: Heavy 1
 
 aXXX_032060 - Left: Heavy 2
 
-# Both
+# Attacks: Both
 aXXX_034000 - Both: Light 1
 aXXX_034010 - Both: Light 2
 aXXX_034020 - Both: Light 3
@@ -58,7 +187,7 @@ aXXX_034600 - Both: Jumping Attack
 
 aXXX_034900 - Both: Rollout Attack
 
-# Stances
+# Attacks: Stances
 aXXX_036000 - Step In
 aXXX_036001 - Step In: No FP
 aXXX_036050 - Step In: Uppercut
@@ -80,7 +209,7 @@ aXXX_036411 - Spin Light: No FP
 aXXX_036420 - Spin Heavy
 aXXX_036421 - Spin Heavy: No FP
 
-# Sword Arts
+# Attacks: Sword Arts
 aXXX_036700 - Charge
 aXXX_036701 - Charge: No FP
 aXXX_036710 - Charge - Continue
