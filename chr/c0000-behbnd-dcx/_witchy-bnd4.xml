@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bnd4>
+  <filename>c0000.behbnd.dcx</filename>
+  <compression>DCX_DFLT_10000_44_9</compression>
+  <version>07D7R6</version>
+  <format>IDs, Names1, Names2, Compression</format>
+  <bigendian>False</bigendian>
+  <bitbigendian>False</bitbigendian>
+  <unicode>True</unicode>
+  <extended>0x04</extended>
+  <unk04>False</unk04>
+  <unk05>False</unk05>
+  <root>N:\FDP\data\INTERROOT_win64\Action\c0000\Export\</root>
+  <files>
+    <file>
+      <flags>Flag1</flags>
+      <id>7000000</id>
+      <path>c0000.hkt</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>7000100</id>
+      <path>Characters\c0000.hkt</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>7000200</id>
+      <path>Behaviors\c0000.hkt</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>7000300</id>
+      <path>c0000.hkx</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>7000400</id>
+      <path>Characters\c0000.hkx</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>7000500</id>
+      <path>Behaviors\c0000.hkx</path>
+    </file>
+  </files>
+</bnd4>

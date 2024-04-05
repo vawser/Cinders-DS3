@@ -1,79 +1,102 @@
-﻿# Weapon IDs
-800 Saw Blade
-900 Skull
+﻿#------------------------------------
+# Animations
+#------------------------------------
+# Right
+aXXX_030000 - Right: Light 1
+aXXX_030010 - Right: Light 2
+aXXX_030020 - Right: Light 3
 
-1000 None
-1001 Beast Claw
-1011 Saw Spear
-1020 Hunter Axe
-1021 Burial Blade
-1030 Ludwig's Blade
-1031 Kirkhammer
-1040 Rifle Spear
-1041 Reiterplasch
-1051 Tonitrus
-1052 Logarius Wheel
-1060 Blades of Mercy
-1061 Stake Driver
-1063 Chikage
-1070 Threaded Cane
+aXXX_030100 - Right: Light Kick
 
-1501 Plank Shield
+aXXX_030320 - Right: Heavy 1 Charge
+aXXX_030321 - Right: Heavy 1 Release
 
-1700 Beasthunter Saif
-1701 Amygadalan Arm
-1702 Beast Cutter
-1703 Rayuko
-1704 Church Pick
-1705 Boom Hammer
-1706 Bloodletter
-1707 Whirligig Saw
-1708 Moonlight Greatsword
-1709 Simon's Bowblade
-1711 Kos Parasite
-1712 None
+aXXX_030340 - Right: Heavy 2 Charge
+aXXX_030341 - Right: Heavy 2 Release
 
-1750 Gatling Cannon
-1751 Fist of Gratia
-1752 Church Cannon
-1753 Piercing Rifle
-1755 Loch Shield
+aXXX_030350 - Right: Heavy 1 Special Charge
+aXXX_030351 - Right: Heavy 1 Special Release
 
-1800 Torch
-1900 Shaman Bone Blade
-1901 Damanged Logarius Wheel
-2500 Hunter's Pistol
-2510 Repeating Pistol
-2520 Evelynn
-2550 Short pistol
-2560 Short pistol
-2600 Hunter's Blunderbuss
-2601 Long pistol
-2700 Cannon
-2701 Cannon (no handle)
-2710 Flamesprayer
-2711 Rosamarius
+aXXX_030370 - Right: Heavy 2 Special Charge
+aXXX_030371 - Right: Heavy 2 Special Release
 
+aXXX_030500 - Right: Running Attack
 
-# Sekiro Combat Arts
-a861 -> a070
-a862 -> a071
-a863 -> a072
-a864 -> a073
-a865 -> a074
-a866 -> a075
-a867 -> a076
-a868 -> a077
-a869 -> a078
-a870 -> a079
-a871 -> a100
-a872 -> a101
-a873 -> a102
-a874 -> a103
-a875 -> a104
-a876 -> a105
-a877 -> a106
-a878 -> a107
-a879 -> a108
-a880 -> a109
-a881 -> a050
+aXXX_030600 - Right: Jumping Attack
+
+aXXX_030900 - Right: Rollout Attack
+
+# Left
+aXXX_032000 - Left: Light 1
+
+aXXX_032030 - Left: Heavy 1
+
+aXXX_032060 - Left: Heavy 2
+
+# Both
+aXXX_034000 - Both: Light 1
+aXXX_034010 - Both: Light 2
+aXXX_034020 - Both: Light 3
+
+aXXX_034100 - Both: Light Kick
+
+aXXX_034320 - Both: Heavy 1 Charge
+aXXX_034321 - Both: Heavy 1 Release
+
+aXXX_034340 - Both: Heavy 2 Charge
+aXXX_034341 - Both: Heavy 2 Release
+
+aXXX_034350 - Both: Heavy 1 Special Charge
+aXXX_034351 - Both: Heavy 1 Special Release
+
+aXXX_034370 - Both: Heavy 2 Special Charge
+aXXX_034371 - Both: Heavy 2 Special Release
+
+aXXX_034500 - Both: Running Attack
+
+aXXX_034600 - Both: Jumping Attack
+
+aXXX_034900 - Both: Rollout Attack
+
+# Stances
+aXXX_036000 - Step In
+aXXX_036001 - Step In: No FP
+aXXX_036050 - Step In: Uppercut
+aXXX_036051 - Step In: Uppercut: No FP
+
+aXXX_036230 - Draw Stance: Right - Light
+aXXX_036231 - Draw Stance: Right - Light: No FP
+aXXX_036240 - Draw Stance: Right - Heavy
+aXXX_036241 - Draw Stance: Right - Heavy: No FP
+
+aXXX_036300 - Special Attack Start
+aXXX_036310 - Special Attack Light
+aXXX_036320 - Special Attack Heavy
+
+aXXX_036400 - Spin Start
+aXXX_036401 - Spin Start: No FP
+aXXX_036410 - Spin Light
+aXXX_036411 - Spin Light: No FP
+aXXX_036420 - Spin Heavy
+aXXX_036421 - Spin Heavy: No FP
+
+# Sword Arts
+aXXX_036700 - Charge
+aXXX_036701 - Charge: No FP
+aXXX_036710 - Charge - Continue
+aXXX_036711 - Charge - Continue: No FP
+
+aXXX_037670 - Warcry
+aXXX_037671 - Warcry: No FP
+
+aXXX_037700 - Endure
+aXXX_037701 - Endure: No FP
+
+aXXX_038400 - Stampede
+aXXX_038410 - Stampede - Light
+aXXX_038420 - Stampede - Heavy
+
+aXXX_038700 - OneShot
+aXXX_038701 - OneShot: No FP
+aXXX_038710 - OneShot - Continue
+aXXX_038711 - OneShot - Continue: No FP

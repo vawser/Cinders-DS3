@@ -20873,6 +20873,9 @@ function Update()
     -- Henbane
     UpdateHenbaneEffect()
     
+    -- Anim Speed Test
+    TestAnimSpeed()
+    
     act(SwitchMotion, FALSE)
     act(LockonSystemUnableToTurnAngle, 0, 0)
     
@@ -20914,6 +20917,47 @@ end
 ------------------------------------------
 -- Cinders: Utility
 ------------------------------------------
+function TestAnimSpeed()
+    SetVariable("StaggerAnimSpeed", 0.5) 
+    SetVariable("ItemAnimSpeed", 0.5) 
+    SetVariable("MagicLaunchAnimSpeed", 0.5) 
+    SetVariable("MagicFireAnimSpeed", 0.5) 
+    
+    SetVariable("WeaponAnimSpeed_RightLight1", 0.5)
+    SetVariable("WeaponAnimSpeed_RightLight2", 0.5)
+    SetVariable("WeaponAnimSpeed_RightLight3", 0.5)
+    SetVariable("WeaponAnimSpeed_RightLightKick", 0.5)
+    SetVariable("WeaponAnimSpeed_RightHeavyCharge1", 0.5)
+    SetVariable("WeaponAnimSpeed_RightHeavyRelease1", 0.5)
+    SetVariable("WeaponAnimSpeed_RightHeavyCharge2", 0.5)
+    SetVariable("WeaponAnimSpeed_RightHeavyRelease2", 0.5)
+    SetVariable("WeaponAnimSpeed_RightSpecialHeavyCharge1", 0.5)
+    SetVariable("WeaponAnimSpeed_RightSpecialHeavyRelease1", 0.5)
+    SetVariable("WeaponAnimSpeed_RightSpecialHeavyCharge2", 0.5)
+    SetVariable("WeaponAnimSpeed_RightSpecialHeavyRelease2", 0.5)
+    SetVariable("WeaponAnimSpeed_RightDashAttack", 0.5)
+    SetVariable("WeaponAnimSpeed_RightJumpAttack", 0.5)
+    SetVariable("WeaponAnimSpeed_RightRollAttack", 0.5)
+    SetVariable("WeaponAnimSpeed_LeftLight1", 0.5)
+    SetVariable("WeaponAnimSpeed_LeftHeavy1", 0.5)
+    SetVariable("WeaponAnimSpeed_LeftHeavy2", 0.5)
+    SetVariable("WeaponAnimSpeed_BothLight1", 0.5)
+    SetVariable("WeaponAnimSpeed_BothLight2", 0.5)
+    SetVariable("WeaponAnimSpeed_BothLight3", 0.5)
+    SetVariable("WeaponAnimSpeed_BothLightKick", 0.5)
+    SetVariable("WeaponAnimSpeed_BothHeavyCharge1", 0.5)
+    SetVariable("WeaponAnimSpeed_BothHeavyRelease1", 0.5)
+    SetVariable("WeaponAnimSpeed_BothHeavyCharge2", 0.5)
+    SetVariable("WeaponAnimSpeed_BothHeavyRelease2", 0.5)
+    SetVariable("WeaponAnimSpeed_BothSpecialHeavyCharge1", 0.5)
+    SetVariable("WeaponAnimSpeed_BothSpecialHeavyRelease1", 0.5)
+    SetVariable("WeaponAnimSpeed_BothSpecialHeavyCharge2", 0.5)
+    SetVariable("WeaponAnimSpeed_BothSpecialHeavyRelease2", 0.5)
+    SetVariable("WeaponAnimSpeed_BothDashAttack", 0.5)
+    SetVariable("WeaponAnimSpeed_BothJumpAttack", 0.5)
+    SetVariable("WeaponAnimSpeed_BothRollAttack", 0.5)
+end
+
 function IsBBDashWeapon()
     if env(GetSpEffectID, 112415) == TRUE and env(GetSpEffectID, 112414) == TRUE then
         return TRUE
