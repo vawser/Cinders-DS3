@@ -100,3 +100,63 @@ aXXX_038700 - OneShot
 aXXX_038701 - OneShot: No FP
 aXXX_038710 - OneShot - Continue
 aXXX_038711 - OneShot - Continue: No FP
+
+#------------------------------------
+# HKS Variables
+#------------------------------------
+# Right
+aXXX_030000 - WeaponAnimSpeed_RightLight1 #15000 DONE
+aXXX_030010 - WeaponAnimSpeed_RightLight2 #15001 DONE
+aXXX_030020 - WeaponAnimSpeed_RightLight3 #15002 DONE
+
+aXXX_030100 - WeaponAnimSpeed_RightLightKick #15003 DONE
+
+aXXX_030320 - WeaponAnimSpeed_RightHeavyCharge1 #15004 DONE
+aXXX_030321 - WeaponAnimSpeed_RightHeavyRelease1 #15005 DONE
+ 
+aXXX_030340 - WeaponAnimSpeed_RightHeavyCharge2 #15006 DONE
+aXXX_030341 - WeaponAnimSpeed_RightHeavyRelease2 #15007 DONE
+
+aXXX_030350 - WeaponAnimSpeed_RightSpecialHeavyCharge1 #15008 DONE
+aXXX_030351 - WeaponAnimSpeed_RightSpecialHeavyRelease1 #15009 DONE
+
+aXXX_030370 - WeaponAnimSpeed_RightSpecialHeavyCharge2 #15010 DONE
+aXXX_030371 - WeaponAnimSpeed_RightSpecialHeavyRelease2 #15011 DONE
+
+aXXX_030500 - WeaponAnimSpeed_RightDashAttack #15012 DONE
+
+aXXX_030600 - WeaponAnimSpeed_RightJumpAttack #15013 DONE
+
+aXXX_030900 - WeaponAnimSpeed_RightRollAttack #15014 DONE
+
+# Left 
+aXXX_032000 - WeaponAnimSpeed_LeftLight1 #15015 DONE
+ 
+aXXX_032030 - WeaponAnimSpeed_LeftHeavy1 #15016 DONE
+
+aXXX_032060 - WeaponAnimSpeed_LeftHeavy2 #15017 DONE
+
+# Both
+aXXX_034000 - WeaponAnimSpeed_BothLight1 #15018 DONE
+aXXX_034010 - WeaponAnimSpeed_BothLight2 #15019 DONE
+aXXX_034020 - WeaponAnimSpeed_BothLight3 #15020 DONE
+
+aXXX_034100 - WeaponAnimSpeed_BothLightKick #15021 DONE
+
+aXXX_034320 - WeaponAnimSpeed_BothHeavyCharge1 #15022 DONE
+aXXX_034321 - WeaponAnimSpeed_BothHeavyRelease1 #15023 DONE
+
+aXXX_034340 - WeaponAnimSpeed_BothHeavyCharge2 #15024 DONE
+aXXX_034341 - WeaponAnimSpeed_BothHeavyRelease2 #15025 DONE
+
+aXXX_034350 - WeaponAnimSpeed_BothSpecialHeavyCharge1 #15026 DONE
+aXXX_034351 - WeaponAnimSpeed_BothSpecialHeavyRelease1 #15027 DONE
+
+aXXX_034370 - WeaponAnimSpeed_BothSpecialHeavyCharge2 #15028 DONE
+aXXX_034371 - WeaponAnimSpeed_BothSpecialHeavyRelease2 #15029 DONE
+
+aXXX_034500 - WeaponAnimSpeed_BothDashAttack #15030 DONE
+
+aXXX_034600 - WeaponAnimSpeed_BothJumpAttack #15031 DONE
+
+aXXX_034900 - WeaponAnimSpeed_BothRollAttack #15032 DONE
