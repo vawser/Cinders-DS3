@@ -45,6 +45,17 @@
 # Movement
 - Lightweight or super lightweight players will move 5% faster.
 
+# Rhythmic Attack
+- The player can now perform a 'Rhythmic Attack' by pressing their next attack input during a 4 frame window during most normal attacks.
+ - Drum of Rhythm will extend this to 8 frames.
+
+- A rhythmic attack will:
+ - Cause the next 'normal' attack to be performed faster: starting at 10% and increasing to a cap of 50% faster if 4 rhythmic attacks are performed in a row.
+  - Doesn't affect Sword Arts.
+ - Cause the next attack to cost only 25% of its usual stamina cost.
+ 
+- Magnum Ursus will describe the mechanic to you if you need help, and contains the toggle for the 'tutorial' markers that show where 'Rhythmic Attack' window is (orange circle), and if a 'Rhythmic Attack' has occured (green circle).
+ 
 #-------------------------------------------------
 # Player Setup
 #-------------------------------------------------
@@ -71,6 +82,8 @@
 #-------------------------------------------------
 # Castigations
 #-------------------------------------------------
+- Occultist Grudore now hosts the Castigations.
+
 - Replaced Curses with Castigations.
 - Added the ability to apply debuffs to yourself, or buffs to enemies, in exchange for chances at Essences of the Dark Soul.
 
@@ -244,6 +257,10 @@
 
 # Cursed Ring of Confusion
 - Reduced max HP debuff to 20%.
+
+# Drum of Rhythm
+- Increases Rhythmic Attack window by 100%.
+- Sold by Magnum Ursus.
 
 #-------------------------------------------------
 # Covenants

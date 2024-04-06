@@ -2960,10 +2960,8 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     -----------------------
     -- Rhythmic Attack
     -----------------------
-    -- Executed attack during window
-    if env(GetSpEffectID, 111120) == TRUE then
-        act(AddSpEffect, 111121) -- Bonus
-    end
+    UpdateRhythmicAttackOnAttack()
+    
     
     -----------------------
     -- Sidearms
@@ -20901,6 +20899,7 @@ function Update()
     -- RhythmicAttack
     UpdateRhythmicAttackWindowTracker()
     UpdateRhythmicAttackBonusTracker()
+    UpdateRhythmicAttackSpeed()
     
     -- Anim Speed
     UpdateAnimationSpeed()
@@ -20947,16 +20946,49 @@ end
 -- Cinders: Rhythmic Attack
 ------------------------------------------
 function UpdateRhythmicAttackWindowTracker()
-    -- Yellow Tracker
-    if env(GetSpEffectID, 111120) == TRUE then
+    -- Rhythmic Attack Window tracker
+    if env(GetSpEffectID, 111120) == TRUE and env(GetSpEffectID, 111160) == TRUE then
         act(AddSpEffect, 111130)
     end
 end
 
 function UpdateRhythmicAttackBonusTracker()
-    -- Flames
-    if env(GetSpEffectID, 111121) == TRUE then
+    -- Successful Rhythmic Attack tracker
+    if env(GetSpEffectID, 111121) == TRUE and env(GetSpEffectID, 111160) == TRUE then
         act(AddSpEffect, 111140)
+    end
+end
+
+rhythmicAttackSpeed = 0.1
+attackDecayDone = false
+
+function UpdateRhythmicAttackOnAttack()
+    -- Executed attack during window
+    if env(GetSpEffectID, 111120) == TRUE then
+        act(AddSpEffect, 111121) -- Bonus
+        
+        rhythmicAttackSpeed = rhythmicAttackSpeed + 0.05
+        
+        if rhythmicAttackSpeed > 0.5 then
+            rhythmicAttackSpeed = 0.5
+        end
+    end
+end
+
+function UpdateRhythmicAttackSpeed()
+    if env(GetSpEffectID, 111150) == TRUE then
+        if attackDecayDone == false then
+            attackDecayDone = true
+            
+            rhythmicAttackSpeed = rhythmicAttackSpeed - 0.25
+            
+            if rhythmicAttackSpeed < 0.1 then
+                rhythmicAttackSpeed = 0.1
+            end
+        end
+    else
+        attackDecayDone = false
+        act(AddSpEffect, 111150)
     end
 end
 

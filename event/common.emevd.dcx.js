@@ -68,6 +68,11 @@ $Event(0, Default, function() {
     InitializeEvent(0, 20009, 0); // Way of Blue Drops
     
     //--------------------
+    // Rhythmic Attacks
+    //--------------------
+    InitializeEvent(0, 20410, 0); // Setup
+    
+    //--------------------
     // Achievements
     //--------------------
     InitializeEvent(0, 20300, 0); // Setup
@@ -11069,6 +11074,22 @@ $Event(20400, Restart, function() {
         ClearSpEffect(10000, 112925);
     }
 
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+//------------------------------------------------
+// Rhythmic Attacks
+//------------------------------------------------
+$Event(20410, Restart, function() {
+    // Rhythmic Attack markers enabled
+    if (EventFlag(25000060)) {
+        SetSpEffect(10000, 111160);
+    }
+    
+    WaitFixedTimeSeconds(1.0);
+    
     RestartEvent();
 });
 

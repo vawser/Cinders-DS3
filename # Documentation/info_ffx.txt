@@ -1,16 +1,8 @@
 #------------------------
-# Notes
+# New FXR
 #------------------------
-f000 is the normal prefix for the fxr filenames.
+f000005000 White, Smaller Vow Circle
 
-dmy:
- 15 - all body (total)
- 198 - all body (fewer)
- 210 - above head
- 
-#------------------------ 
-# New FFX
-#------------------------
 
 440155 Green Moonlight Wave (Alonne Sword)
 440156 Green Moonlight Wave Impact (Alonne Sword)
@@ -501,7 +493,6 @@ dmy:
 #------------------------
 # The Marauder
 #------------------------
-
 - FFX used in Bullets
 950102 Black-orange Fireball (Big)
 950103 Black-orange Fireball (Big Impact)
@@ -529,7 +520,6 @@ dmy:
 #------------------------
 # Resource Bin
 #------------------------
-
 s8450.flver
 s8450_a.tpf
 s8450_a.tpf
@@ -580,54 +570,3 @@ s98050.flver Dark Edge model
 s98050.tpf Dark Edge texture
 
 s98060 Slightly larger s3000 (embers) with no black background, also black and white, good for recolours
-
-#------------------------
-# Reference
-#------------------------
-EffectID
- 1004       - Effect
- 1005       - 
- 2000       -
- 2001       - Chain Effect?
- 2002       - 
- 2200       - Effect Group
- 
-ActionID
- 0          -
- 1          - 
- 34         - Movement
- 35         - Angle
- 55         - 
- 75         - Sound 
- 81         - Sound 
- 105        - Movement 
- 128        -
- 129        -
- 130        -
- 131        - Color 
- 132        - ID Link
- 199        -
- 300        - 
- 399        -
- 400        -
- 404        - Distance from Dummy
- 500        -
- 501        - 
- 603        - Color/Sound 
- 605        - Color/Sound 
- 609        - Color 
- 10100      -
- 10400      -
- 10500      -
-
-TypeEnumA
-0   - 
-16  - 
-19  - 
-32  - Angle
-35  - Color Floats - R, G, B, Alpha
-64  - Stretch
-67  - Color Floats (Special)
-96  - 
-4160 - 
-4147 - 
