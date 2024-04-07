@@ -20898,10 +20898,18 @@ function Update()
     -- RhythmicAttack
     UpdateRhythmicAttackWindowTracker()
     UpdateRhythmicAttackBonusTracker()
-    UpdateRhythmicAttackSpeed()
+    DecreaseRhythmicSpeed()
     
     -- Anim Speed
-    UpdateAnimationSpeed()
+    SetStaggerRecoverySpeed() 
+    SetItemAnimSpeed() 
+    SetMagicAnimSpeed() 
+    SetLightAttackAnimSpeed()
+    SetKickAnimSpeed()
+    SetHeavyAttackAnimSpeed()
+    SetDashAttackAnimSpeed()
+    SetJumpAttackAnimSpeed()
+    SetRollAttackAnimSpeed()
     
     act(SwitchMotion, FALSE)
     act(LockonSystemUnableToTurnAngle, 0, 0)
@@ -20944,89 +20952,96 @@ end
 ------------------------------------------
 -- Cinders: Rhythmic Attack
 ------------------------------------------
+RhythmicAttackSpeedMinimum = 1.0
+RhythmicAttackSpeedMaximum = 1.3
+CurrentRhythmicAttackSpeed = 1.0
+
+RhythmicAttackFrameCount = 0
+
 function UpdateRhythmicAttackWindowTracker()
+    local hand = HAND_RIGHT
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+    
     -- Only apply to real players
     if env(IsCOMPlayer) == FALSE then
-        -- Rhythmic Attack Window tracker
+        -- Attack during window
         if env(GetSpEffectID, 111120) == TRUE or env(GetSpEffectID, 111122) == TRUE then 
+            -- Display marker based on hand if markers are enabled
             if env(GetSpEffectID, 111160) == TRUE then
-                act(AddSpEffect, 111130)
+                if hand == HAND_LEFT then
+                    act(AddSpEffect, 111131)
+                else
+                    act(AddSpEffect, 111130)
+                end
             end
         end
     end
 end
 
 function UpdateRhythmicAttackBonusTracker()
+    local hand = HAND_RIGHT
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+    
     -- Only apply to real players
     if env(IsCOMPlayer) == FALSE then
-        -- Successful Rhythmic Attack tracker
-        if env(GetSpEffectID, 111121) == TRUE then 
+        -- Bonus active
+        if env(GetSpEffectID, 111125) == TRUE then 
+            -- Display marker based on hand if markers are enabled
             if env(GetSpEffectID, 111160) == TRUE then
-                act(AddSpEffect, 111140)
+                if hand == HAND_LEFT then
+                    act(AddSpEffect, 111141)
+                else
+                    act(AddSpEffect, 111140)
+                end
+            end
         end
     end
 end
-
-rhythmicAttackSpeed = 0.1
-attackDecayDone = false
 
 function UpdateRhythmicAttackOnAttack()
     -- Only apply to real players
     if env(IsCOMPlayer) == FALSE then
-        -- Executed attack during window
+        -- Attack during window
         if env(GetSpEffectID, 111120) == TRUE or env(GetSpEffectID, 111122) == TRUE then
-            act(AddSpEffect, 111121) -- Bonus
+            -- Add bonus
+            act(AddSpEffect, 111125)
             
-            -- Increase anim speed
-            rhythmicAttackSpeed = rhythmicAttackSpeed + 0.05
-            
-            if rhythmicAttackSpeed > 0.5 then
-                rhythmicAttackSpeed = 0.5
-            end
+            IncreaseRhythmicSpeed()
         end
     end
 end
 
-function UpdateRhythmicAttackSpeed()
-    -- Only apply to real players
-    if env(IsCOMPlayer) == FALSE then
-        -- Has decay timer speffect
-        if env(GetSpEffectID, 111150) == TRUE then
-            -- Reduce anim speed one time whilst the decay timer is active
-            if attackDecayDone == false then
-                attackDecayDone = true
-                
-                rhythmicAttackSpeed = rhythmicAttackSpeed - 0.25
-                
-                if rhythmicAttackSpeed < 0.1 then
-                    rhythmicAttackSpeed = 0.1
-                end
-            end
-        else
-            attackDecayDone = false
-            act(AddSpEffect, 111150)
+function IncreaseRhythmicSpeed()
+    CurrentRhythmicAttackSpeed = CurrentRhythmicAttackSpeed + 0.05
+    
+    if CurrentRhythmicAttackSpeed > RhythmicAttackSpeedMaximum then
+        CurrentRhythmicAttackSpeed = RhythmicAttackSpeedMaximum
+    end
+end
+
+function DecreaseRhythmicSpeed()
+    if RhythmicAttackFrameCount >= 100 then
+        RhythmicAttackFrameCount = 0
+        
+        CurrentRhythmicAttackSpeed = CurrentRhythmicAttackSpeed - 0.01
+        
+        if CurrentRhythmicAttackSpeed < RhythmicAttackSpeedMinimum then
+            CurrentRhythmicAttackSpeed = RhythmicAttackSpeedMinimum
         end
     end
+    
+    RhythmicAttackFrameCount = RhythmicAttackFrameCount + 1
 end
 
 ------------------------------------------
 -- Cinders: Animation Speed
 ------------------------------------------
-function UpdateAnimationSpeed()
-    SetItemAnimSpeed() 
-    
-    SetStaggerRecoverySpeed() 
-    
-    SetMagicAnimSpeed() 
-    
-    SetLightAttackAnimSpeed()
-    SetKickAnimSpeed()
-    SetHeavyAttackAnimSpeed()
-    SetDashAttackAnimSpeed()
-    SetJumpAttackAnimSpeed()
-    SetRollAttackAnimSpeed()
-end
-
 -- Items
 function SetItemAnimSpeed()
     local baseValue = 1.0
@@ -21060,8 +21075,8 @@ function SetLightAttackAnimSpeed()
     -- Apply these conditions only for real players
     if env(IsCOMPlayer) == FALSE then
         -- Rhythmic Attack Bonus
-        if env(GetSpEffectID, 111121) == TRUE then
-            value = value + 0.5
+        if env(GetSpEffectID, 111125) == TRUE then
+            value = CurrentRhythmicAttackSpeed
         end
     end
     
@@ -21091,8 +21106,8 @@ function SetHeavyAttackAnimSpeed()
     -- Apply these conditions only for real players
     if env(IsCOMPlayer) == FALSE then
         -- Rhythmic Attack Bonus
-        if env(GetSpEffectID, 111121) == TRUE then
-            value = value + 0.2
+        if env(GetSpEffectID, 111125) == TRUE then
+            value = CurrentRhythmicAttackSpeed
         end
     end
     
@@ -21124,7 +21139,7 @@ function SetDashAttackAnimSpeed()
     -- Apply these conditions only for real players
     if env(IsCOMPlayer) == FALSE then
         -- Rhythmic Attack Bonus
-        if env(GetSpEffectID, 111121) == TRUE then
+        if env(GetSpEffectID, 111125) == TRUE then
             value = value + 0.2
         end
     end
@@ -21141,8 +21156,8 @@ function SetJumpAttackAnimSpeed()
     -- Apply these conditions only for real players
     if env(IsCOMPlayer) == FALSE then
         -- Rhythmic Attack Bonus
-        if env(GetSpEffectID, 111121) == TRUE then
-            value = value + 0.2
+        if env(GetSpEffectID, 111125) == TRUE then
+            value = CurrentRhythmicAttackSpeed
         end
     end
     
@@ -21158,49 +21173,12 @@ function SetRollAttackAnimSpeed()
     -- Apply these conditions only for real players
     if env(IsCOMPlayer) == FALSE then
         -- Rhythmic Attack Bonus
-        if env(GetSpEffectID, 111121) == TRUE then
-            value = value + 0.2
+        if env(GetSpEffectID, 111125) == TRUE then
+            value = CurrentRhythmicAttackSpeed
         end
     end
     
     SetVariable("WeaponAnimSpeed_RightRollAttack", value)
-    SetVariable("WeaponAnimSpeed_BothRollAttack", value)
-end
-
--- Reference
-function SetWeaponAnimSpeed()
-    SetVariable("WeaponAnimSpeed_RightLight1", value)
-    SetVariable("WeaponAnimSpeed_RightLight2", value)
-    SetVariable("WeaponAnimSpeed_RightLight3", value)
-    SetVariable("WeaponAnimSpeed_RightLightKick", value)
-    SetVariable("WeaponAnimSpeed_RightHeavyCharge1", value)
-    SetVariable("WeaponAnimSpeed_RightHeavyRelease1", value)
-    SetVariable("WeaponAnimSpeed_RightHeavyCharge2", value)
-    SetVariable("WeaponAnimSpeed_RightHeavyRelease2", value)
-    SetVariable("WeaponAnimSpeed_RightSpecialHeavyCharge1", value)
-    SetVariable("WeaponAnimSpeed_RightSpecialHeavyRelease1", value)
-    SetVariable("WeaponAnimSpeed_RightSpecialHeavyCharge2", value)
-    SetVariable("WeaponAnimSpeed_RightSpecialHeavyRelease2", value)
-    SetVariable("WeaponAnimSpeed_RightDashAttack", value)
-    SetVariable("WeaponAnimSpeed_RightJumpAttack", value)
-    SetVariable("WeaponAnimSpeed_RightRollAttack", value)
-    SetVariable("WeaponAnimSpeed_LeftLight1", value)
-    SetVariable("WeaponAnimSpeed_LeftHeavy1", value)
-    SetVariable("WeaponAnimSpeed_LeftHeavy2", value)
-    SetVariable("WeaponAnimSpeed_BothLight1", value)
-    SetVariable("WeaponAnimSpeed_BothLight2", value)
-    SetVariable("WeaponAnimSpeed_BothLight3", value)
-    SetVariable("WeaponAnimSpeed_BothLightKick", value)
-    SetVariable("WeaponAnimSpeed_BothHeavyCharge1", value)
-    SetVariable("WeaponAnimSpeed_BothHeavyRelease1", value)
-    SetVariable("WeaponAnimSpeed_BothHeavyCharge2", value)
-    SetVariable("WeaponAnimSpeed_BothHeavyRelease2", value)
-    SetVariable("WeaponAnimSpeed_BothSpecialHeavyCharge1", value)
-    SetVariable("WeaponAnimSpeed_BothSpecialHeavyRelease1", value)
-    SetVariable("WeaponAnimSpeed_BothSpecialHeavyCharge2", value)
-    SetVariable("WeaponAnimSpeed_BothSpecialHeavyRelease2", value)
-    SetVariable("WeaponAnimSpeed_BothDashAttack", value)
-    SetVariable("WeaponAnimSpeed_BothJumpAttack", value)
     SetVariable("WeaponAnimSpeed_BothRollAttack", value)
 end
 

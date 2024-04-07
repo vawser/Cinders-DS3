@@ -22,6 +22,6 @@ Restore the NPC quests
 - Add HavokVar for the SwordArts and other animation 'groups'
 
 - Add Rhythmic Attack windows to all TAE entries
- - Continue from a75.tae
+ - Continue from a80.tae
  
 - Finish adding TAE documentation within the c0000 file

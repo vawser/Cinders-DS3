@@ -46,12 +46,10 @@
 - Lightweight or super lightweight players will move 5% faster.
 
 # Rhythmic Attack
-- The player can now perform a 'Rhythmic Attack' by pressing their next attack input during a 4 frame window during most normal attacks.
- - Drum of Rhythm will extend this to 8 frames.
+- The player can now perform a 'Rhythmic Attack' by pressing their next attack input during a 8 frame window during most normal attacks.
 
 - A rhythmic attack will:
- - Cause the next 'normal' attack to be performed faster: starting at 10% and increasing to a cap of 50% faster if 4 rhythmic attacks are performed in a row.
-  - Doesn't affect Sword Arts.
+ - Cause the next 'normal' attack to be performed faster: starting at 3% and increasing to a cap of 30% faster if multiple rhythmic attacks are performed in a row.
  - Cause the next attack to cost only 25% of its usual stamina cost.
  
 - Magnum Ursus will describe the mechanic to you if you need help, and contains the toggle for the 'tutorial' markers that show where 'Rhythmic Attack' window is (orange circle), and if a 'Rhythmic Attack' has occured (green circle).
