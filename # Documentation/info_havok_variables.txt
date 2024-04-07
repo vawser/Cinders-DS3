@@ -1,0 +1,41 @@
+#------------------------------------
+# HKS Variables
+#------------------------------------
+# Right
+030000 - WeaponAnimSpeed_RightLight1 #15000 DONE
+030010 - WeaponAnimSpeed_RightLight2 #15001 DONE
+030020 - WeaponAnimSpeed_RightLight3 #15002 DONE
+030100 - WeaponAnimSpeed_RightLightKick #15003 DONE
+030320 - WeaponAnimSpeed_RightHeavyCharge1 #15004 DONE
+030321 - WeaponAnimSpeed_RightHeavyRelease1 #15005 DONE
+030340 - WeaponAnimSpeed_RightHeavyCharge2 #15006 DONE
+030341 - WeaponAnimSpeed_RightHeavyRelease2 #15007 DONE
+030350 - WeaponAnimSpeed_RightSpecialHeavyCharge1 #15008 DONE
+030351 - WeaponAnimSpeed_RightSpecialHeavyRelease1 #15009 DONE
+030370 - WeaponAnimSpeed_RightSpecialHeavyCharge2 #15010 DONE
+030371 - WeaponAnimSpeed_RightSpecialHeavyRelease2 #15011 DONE
+030500 - WeaponAnimSpeed_RightDashAttack #15012 DONE
+030600 - WeaponAnimSpeed_RightJumpAttack #15013 DONE
+030900 - WeaponAnimSpeed_RightRollAttack #15014 DONE
+
+# Left 
+032000 - WeaponAnimSpeed_LeftLight1 #15015 DONE
+032030 - WeaponAnimSpeed_LeftHeavy1 #15016 DONE
+032060 - WeaponAnimSpeed_LeftHeavy2 #15017 DONE
+
+# Both
+034000 - WeaponAnimSpeed_BothLight1 #15018 DONE
+034010 - WeaponAnimSpeed_BothLight2 #15019 DONE
+034020 - WeaponAnimSpeed_BothLight3 #15020 DONE
+034100 - WeaponAnimSpeed_BothLightKick #15021 DONE
+034320 - WeaponAnimSpeed_BothHeavyCharge1 #15022 DONE
+034321 - WeaponAnimSpeed_BothHeavyRelease1 #15023 DONE
+034340 - WeaponAnimSpeed_BothHeavyCharge2 #15024 DONE
+034341 - WeaponAnimSpeed_BothHeavyRelease2 #15025 DONE
+034350 - WeaponAnimSpeed_BothSpecialHeavyCharge1 #15026 DONE
+034351 - WeaponAnimSpeed_BothSpecialHeavyRelease1 #15027 DONE
+034370 - WeaponAnimSpeed_BothSpecialHeavyCharge2 #15028 DONE
+034371 - WeaponAnimSpeed_BothSpecialHeavyRelease2 #15029 DONE
+034500 - WeaponAnimSpeed_BothDashAttack #15030 DONE
+034600 - WeaponAnimSpeed_BothJumpAttack #15031 DONE
+034900 - WeaponAnimSpeed_BothRollAttack #15032 DONE

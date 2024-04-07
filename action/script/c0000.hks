@@ -2962,7 +2962,6 @@ function ExecAttack(r1, r2, l1, l2, b1, b2, is_guard, blend_type, artsr1, artsr2
     -----------------------
     UpdateRhythmicAttackOnAttack()
     
-    
     -----------------------
     -- Sidearms
     -----------------------
@@ -20946,16 +20945,25 @@ end
 -- Cinders: Rhythmic Attack
 ------------------------------------------
 function UpdateRhythmicAttackWindowTracker()
-    -- Rhythmic Attack Window tracker
-    if env(GetSpEffectID, 111120) == TRUE and env(GetSpEffectID, 111160) == TRUE then
-        act(AddSpEffect, 111130)
+    -- Only apply to real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Rhythmic Attack Window tracker
+        if env(GetSpEffectID, 111120) == TRUE or env(GetSpEffectID, 111122) == TRUE then 
+            if env(GetSpEffectID, 111160) == TRUE then
+                act(AddSpEffect, 111130)
+            end
+        end
     end
 end
 
 function UpdateRhythmicAttackBonusTracker()
-    -- Successful Rhythmic Attack tracker
-    if env(GetSpEffectID, 111121) == TRUE and env(GetSpEffectID, 111160) == TRUE then
-        act(AddSpEffect, 111140)
+    -- Only apply to real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Successful Rhythmic Attack tracker
+        if env(GetSpEffectID, 111121) == TRUE then 
+            if env(GetSpEffectID, 111160) == TRUE then
+                act(AddSpEffect, 111140)
+        end
     end
 end
 
@@ -20963,32 +20971,41 @@ rhythmicAttackSpeed = 0.1
 attackDecayDone = false
 
 function UpdateRhythmicAttackOnAttack()
-    -- Executed attack during window
-    if env(GetSpEffectID, 111120) == TRUE then
-        act(AddSpEffect, 111121) -- Bonus
-        
-        rhythmicAttackSpeed = rhythmicAttackSpeed + 0.05
-        
-        if rhythmicAttackSpeed > 0.5 then
-            rhythmicAttackSpeed = 0.5
+    -- Only apply to real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Executed attack during window
+        if env(GetSpEffectID, 111120) == TRUE or env(GetSpEffectID, 111122) == TRUE then
+            act(AddSpEffect, 111121) -- Bonus
+            
+            -- Increase anim speed
+            rhythmicAttackSpeed = rhythmicAttackSpeed + 0.05
+            
+            if rhythmicAttackSpeed > 0.5 then
+                rhythmicAttackSpeed = 0.5
+            end
         end
     end
 end
 
 function UpdateRhythmicAttackSpeed()
-    if env(GetSpEffectID, 111150) == TRUE then
-        if attackDecayDone == false then
-            attackDecayDone = true
-            
-            rhythmicAttackSpeed = rhythmicAttackSpeed - 0.25
-            
-            if rhythmicAttackSpeed < 0.1 then
-                rhythmicAttackSpeed = 0.1
+    -- Only apply to real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Has decay timer speffect
+        if env(GetSpEffectID, 111150) == TRUE then
+            -- Reduce anim speed one time whilst the decay timer is active
+            if attackDecayDone == false then
+                attackDecayDone = true
+                
+                rhythmicAttackSpeed = rhythmicAttackSpeed - 0.25
+                
+                if rhythmicAttackSpeed < 0.1 then
+                    rhythmicAttackSpeed = 0.1
+                end
             end
+        else
+            attackDecayDone = false
+            act(AddSpEffect, 111150)
         end
-    else
-        attackDecayDone = false
-        act(AddSpEffect, 111150)
     end
 end
 
@@ -21040,9 +21057,12 @@ function SetLightAttackAnimSpeed()
     local baseValue = 1.0
     local value = baseValue
     
-    -- Rhythmic Attack Bonus
-    if env(GetSpEffectID, 111121) == TRUE then
-        value = value + 0.5
+    -- Apply these conditions only for real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Rhythmic Attack Bonus
+        if env(GetSpEffectID, 111121) == TRUE then
+            value = value + 0.5
+        end
     end
     
     SetVariable("WeaponAnimSpeed_RightLight1", value)
@@ -21068,9 +21088,12 @@ function SetHeavyAttackAnimSpeed()
     local baseValue = 1.0
     local value = baseValue
     
-    -- Rhythmic Attack Bonus
-    if env(GetSpEffectID, 111121) == TRUE then
-        value = value + 0.2
+    -- Apply these conditions only for real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Rhythmic Attack Bonus
+        if env(GetSpEffectID, 111121) == TRUE then
+            value = value + 0.2
+        end
     end
     
     SetVariable("WeaponAnimSpeed_RightHeavyCharge1", value)
@@ -21098,9 +21121,12 @@ function SetDashAttackAnimSpeed()
     local baseValue = 1.0
     local value = baseValue
     
-    -- Rhythmic Attack Bonus
-    if env(GetSpEffectID, 111121) == TRUE then
-        value = value + 0.2
+    -- Apply these conditions only for real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Rhythmic Attack Bonus
+        if env(GetSpEffectID, 111121) == TRUE then
+            value = value + 0.2
+        end
     end
     
     SetVariable("WeaponAnimSpeed_RightDashAttack", value)
@@ -21112,9 +21138,12 @@ function SetJumpAttackAnimSpeed()
     local baseValue = 1.0
     local value = baseValue
     
-    -- Rhythmic Attack Bonus
-    if env(GetSpEffectID, 111121) == TRUE then
-        value = value + 0.2
+    -- Apply these conditions only for real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Rhythmic Attack Bonus
+        if env(GetSpEffectID, 111121) == TRUE then
+            value = value + 0.2
+        end
     end
     
     SetVariable("WeaponAnimSpeed_RightJumpAttack", value)
@@ -21126,9 +21155,12 @@ function SetRollAttackAnimSpeed()
     local baseValue = 1.0
     local value = baseValue
     
-    -- Rhythmic Attack Bonus
-    if env(GetSpEffectID, 111121) == TRUE then
-        value = value + 0.2
+    -- Apply these conditions only for real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Rhythmic Attack Bonus
+        if env(GetSpEffectID, 111121) == TRUE then
+            value = value + 0.2
+        end
     end
     
     SetVariable("WeaponAnimSpeed_RightRollAttack", value)
