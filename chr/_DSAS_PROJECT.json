@@ -83,7 +83,7 @@
       "ProjectionNearClipDist": 0.1,
       "ProjectionFarClipDist": 10000.0,
       "Matrix_Projection": {
-        "M11": 4.5611644,
+        "M11": 6.0863485,
         "M12": 0.0,
         "M13": 0.0,
         "M14": 0.0,
@@ -101,7 +101,7 @@
         "M44": 0.0
       },
       "Matrix_Projection_Skybox": {
-        "M11": 2.56594,
+        "M11": 3.4239511,
         "M12": 0.0,
         "M13": 0.0,
         "M14": 0.0,
@@ -138,20 +138,20 @@
       },
       "Matrix_View": {
         "M11": 0.95233345,
-        "M12": 0.0030505029,
+        "M12": 0.0030505273,
         "M13": -0.3050437,
         "M14": 0.0,
-        "M21": 2.5933263E-08,
+        "M21": -2.3283064E-10,
         "M22": 0.99995,
-        "M23": 0.0099998,
+        "M23": 0.009999798,
         "M24": 0.0,
         "M31": 0.30505896,
-        "M32": -0.0095231505,
+        "M32": -0.009523141,
         "M33": 0.9522859,
         "M34": 0.0,
-        "M41": 0.17071357,
+        "M41": 0.17071366,
         "M42": -0.9233462,
-        "M43": -5.4597306,
+        "M43": -5.459485,
         "M44": 1.0
       },
       "Matrix_View_Skybox": {
@@ -179,7 +179,7 @@
       "AngleSnap": 0.7853982,
       "AngleSnapEnable": false,
       "PivotPrimIsEnabled": false,
-      "OrbitCamCenter_DummyPolyFollowRefPoint": "-0.024646398, 1.2398934, -0.09347789",
+      "OrbitCamCenter_DummyPolyFollowRefPoint": "-0.038329836, 1.2408898, -0.08895135",
       "OrbitCamCenter_DummyPolyFollowRefPoint_Init": "-0.020524971, 1.0788336, 0.06601651",
       "OverallMouseSpeedMult": 1.0,
       "CameraTurnSpeedMouse": 1.0,

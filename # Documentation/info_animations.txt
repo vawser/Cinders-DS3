@@ -135,6 +135,11 @@ aXXX_030000 - Right: Light 1
 aXXX_030010 - Right: Light 2
 aXXX_030020 - Right: Light 3
 
+aXXX_030050 - Right: Guard Attack: Normal
+aXXX_030051 - Right: Guard Attack: Heavy
+aXXX_030052 - Right: Guard Attack: Small
+aXXX_030053 - Right: Guard Attack: Torch
+
 aXXX_030100 - Right: Light Kick
 
 aXXX_030320 - Right: Heavy 1 Charge
@@ -149,11 +154,11 @@ aXXX_030351 - Right: Heavy 1 Special Release
 aXXX_030370 - Right: Heavy 2 Special Charge
 aXXX_030371 - Right: Heavy 2 Special Release
 
-aXXX_030500 - Right: Running Attack
+aXXX_030500 - Right: Dash Attack
 
-aXXX_030600 - Right: Jumping Attack
+aXXX_030600 - Right: Jump Attack
 
-aXXX_030900 - Right: Rollout Attack
+aXXX_030900 - Right: Roll Attack
 
 # Attacks: Left
 aXXX_032000 - Left: Light 1
@@ -181,11 +186,11 @@ aXXX_034351 - Both: Heavy 1 Special Release
 aXXX_034370 - Both: Heavy 2 Special Charge
 aXXX_034371 - Both: Heavy 2 Special Release
 
-aXXX_034500 - Both: Running Attack
+aXXX_034500 - Both: Dash Attack
 
-aXXX_034600 - Both: Jumping Attack
+aXXX_034600 - Both: Jump Attack
 
-aXXX_034900 - Both: Rollout Attack
+aXXX_034900 - Both: Roll Attack
 
 # Attacks: Stances
 aXXX_036000 - Step In
