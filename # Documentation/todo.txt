@@ -18,10 +18,10 @@ Restore the NPC quests
 - Add 'Statue of Marika' type assets by each boss fight
 
 - Add HavokVar to enemies for anim speed tweaks
+ 
+- Finish adding TAE documentation within the c0000 file
 
 - Add HavokVar for the SwordArts and other animation 'groups'
 
 - Add Rhythmic Attack windows to all TAE entries
- - Continue from a80.tae
- 
-- Finish adding TAE documentation within the c0000 file
+ - Continue from a739.tae
