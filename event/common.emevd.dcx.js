@@ -11099,15 +11099,15 @@ $Event(20410, Restart, function() {
 $Event(50000, Restart, function() {
     //SetEventFlag(20001000, OFF);
     
-    InitializeEvent(0, 50001, 0); // Instant Kill
-    InitializeEvent(0, 50002, 0); // Immunity to Damage
+    //InitializeEvent(0, 50001, 0); // Instant Kill
+    //InitializeEvent(0, 50002, 0); // Immunity to Damage
     //InitializeEvent(0, 50003, 0); // 100% HP Regen
     //InitializeEvent(0, 50004, 0); // 100% FP Regen
    
     //InitializeEvent(0, 50010, 0); // Disable Enemy AI
     //InitializeEvent(0, 50011, 0); // Hide Enemies
    
-    InitializeEvent(0, 50100, 0); // Unlock All Bonfires
+    //InitializeEvent(0, 50100, 0); // Unlock All Bonfires
    
     //InitializeEvent(0, 50020, 0); // Disable Debug NPC
 });

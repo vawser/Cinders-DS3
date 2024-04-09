@@ -162,7 +162,8 @@
 # Treasure
 - Redistributed treasures.
 - Removed several mimics and chests
- 
+- Petrified Stones are much less likely to drop.
+
 # Connections
 - Removed the direct warps:
  - Undead Settlement -> Farron Keep
