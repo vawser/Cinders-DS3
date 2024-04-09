@@ -1,5 +1,5 @@
 #------------------------------------
-# HKS Variables
+# c0000 Variables
 #------------------------------------
 # Right
 030000 - WeaponAnimSpeed_RightLight1 #15000 DONE
@@ -40,7 +40,6 @@
 034600 - WeaponAnimSpeed_BothJumpAttack #15031 DONE
 034900 - WeaponAnimSpeed_BothRollAttack #15032 DONE
 
-# TODO: implement the bindings
 033000 - WeaponAnimSpeed_BothLeft1 #15033 DONE
 033010 - WeaponAnimSpeed_BothLeft2 #15034 DONE
 033020 - WeaponAnimSpeed_BothLeft3 #15035 DONE
@@ -360,3 +359,104 @@
 035521 - WeaponAnimSpeed_CrossbowBothLeftReload 
 035531 - WeaponAnimSpeed_CrossbowBothLeftLoop 
 035541 - WeaponAnimSpeed_CrossbowBothLeftMoveLoop 
+
+-- MovementAnimSpeed_Walk #15085 DONE
+020000 - WalkFrontLight
+020001 - WalkBackLight
+020002 - WalkLeftLight
+020003 - WalkRightLight
+020010 - WalkFrontHeavy
+020011 - WalkBackHeavy
+020012 - WalkLeftHeavy
+020013 - WalkRightHeavy
+020020 - WalkFrontOver
+020021 - WalkBackOver
+020022 - WalkLeftOver
+020023 - WalkRightOver
+022000 - WalkStopFront
+022001 - WalkStopBack
+022002 - WalkStopLeft
+022003 - WalkStopRight
+023000 - GuardOnWalk
+023010 - GuardOnHeavyWalk
+023020 - GuardOnSmallWalk
+023030 - GuardOnTorchWalk
+020050 - RightStanceMove_Front
+020051 - RightStanceMove_Back
+020052 - RightStanceMove_Left
+020053 - RightStanceMove_Right
+020070 - Right45StanceMove_Front
+020071 - Right45StanceMove_Back
+020072 - Right45StanceMove_Left
+020073 - Right45StanceMove_Right
+020060 - LeftStanceMove_Front
+020061 - LeftStanceMove_Back
+020062 - LeftStanceMove_Left
+020063 - LeftStanceMove_Right
+
+-- MovementAnimSpeed_Run #15086 DONE
+020100 - RunFrontLight
+020101 - RunBackLight
+020102 - RunLeftLight
+020103 - RunRightLight
+020110 - RunFrontHeavy
+020111 - RunBackHeavy
+020112 - RunLeftHeavy
+020113 - RunRightHeavy
+020120 - RunFrontOver
+020121 - RunBackOver
+020122 - RunLeftOver
+020123 - RunRightOver
+022100 - RunStopFront
+022101 - RunStopBack
+022102 - RunStopLeft
+022103 - RunStopRight
+023100 - GuardOnRun
+023110 - GuardOnHeavyRun
+023120 - GuardOnSmallRun
+023130 - GuardOnTorchRun
+
+-- MovementAnimSpeed_Dash #15087 DONE
+020200 - DashFrontLight
+020210 - DashFrontHeavy
+020220 - DashFrontOver
+022200 - DashStop
+023200 - GuardOnDash
+023210 - GuardOnHeavyDash
+023220 - GuardOnSmallDash
+023230 - GuardOnTorchDash
+
+-- MovementAnimSpeed_Backstep #15088
+027000 - BackStepLight
+027010 - BackStepNormal
+027020 - BackStepHeavy
+027030 - BackStepOverweight
+027040 - BackStepSuperlight
+
+-- MovementAnimSpeed_Roll #15089
+027102 - RollingLightLeft
+027103 - RollingLightRight
+027104 - RollingFrontRight
+027105 - RollingFrontLeft
+027106 - RollingBackRight
+027107 - RollingBackLeft
+027112 - RollingMediumLeft
+027113 - RollingMediumRight
+027114 - RollingMediumFrontRight
+027115 - RollingMediumFrontLeft
+027116 - RollingMediumBackRight
+027117 - RollingMediumBackLeft
+027122 - RollingHeavyLeft
+027123 - RollingHeavyRight
+027124 - RollingHeavyFrontRight
+027125 - RollingHeavyFrontLeft
+027126 - RollingHeavyBackRight
+027127 - RollingHeavyBackLeft
+027130 - RollingOverweightFront
+027131 - RollingOverweightBack
+027132 - RollingOverweightLeft
+027133 - RollingOverweightRight
+
+#------------------------------------
+# c9997 Variables
+#------------------------------------

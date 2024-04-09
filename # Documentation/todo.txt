@@ -15,10 +15,10 @@ Restore the NPC quests
 #----------------------------------------------
 # Notes
 #----------------------------------------------
+- Finish adding TAE documentation within the c0000 file
+
 - Add 'Statue of Marika' type assets by each boss fight
 
 - Add HavokVar to enemies for anim speed tweaks
 
-- Finish adding TAE documentation within the c0000 file
-
-- Check the "unused" TAE entries actually being inherited moves
+- Add Havok Vars for the movement anims (Walk, Run, etc)

@@ -48,6 +48,7 @@ c1062 Black Dragon Knight       c1250 (Grave Warden)
 c1063 Black Dragon Knight       c6260 (Ringed Knight)       
 c1064 Black Dragon Knight       c1410 (Silver Knight)       
 c1065 Black Dragon Knight       c1290 (Winged Knight)       
+c1072 Smol Skeleton             c1070
 c7500 Ciaran                    c1250 (Grave Warden)        
 c7510 Artorias                  c5280 (Soul of Cinder)
 c7511 Artorias                  c6200 (Slave Knight Gael)   # UNUSED

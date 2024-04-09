@@ -20901,6 +20901,11 @@ function Update()
     DecreaseRhythmicSpeed()
     
     -- Anim Speed
+    SetMovementAnimSpeed()
+    SetDashAnimSpeed()
+    SetRollAnimSpeed()
+    SetBackstepAnimSpeed()
+    
     SetStaggerRecoverySpeed() 
     SetItemAnimSpeed() 
     
@@ -20955,98 +20960,34 @@ function Master_onGenerate()
 end
 
 ------------------------------------------
--- Cinders: Rhythmic Attack
-------------------------------------------
-RhythmicAttackSpeedMinimum = 1.0
-RhythmicAttackSpeedMaximum = 1.3
-CurrentRhythmicAttackSpeed = 1.0
-
-RhythmicAttackFrameCount = 0
-
-function UpdateRhythmicAttackWindowTracker()
-    local hand = HAND_RIGHT
-    
-    if style == HAND_LEFT_BOTH then
-        hand = HAND_LEFT
-    end
-    
-    -- Only apply to real players
-    if env(IsCOMPlayer) == FALSE then
-        -- Attack during window
-        if env(GetSpEffectID, 111120) == TRUE or env(GetSpEffectID, 111122) == TRUE then 
-            -- Display marker based on hand if markers are enabled
-            if env(GetSpEffectID, 111160) == TRUE then
-                if hand == HAND_LEFT then
-                    act(AddSpEffect, 111131)
-                else
-                    act(AddSpEffect, 111130)
-                end
-            end
-        end
-    end
-end
-
-function UpdateRhythmicAttackBonusTracker()
-    local hand = HAND_RIGHT
-    
-    if style == HAND_LEFT_BOTH then
-        hand = HAND_LEFT
-    end
-    
-    -- Only apply to real players
-    if env(IsCOMPlayer) == FALSE then
-        -- Bonus active
-        if env(GetSpEffectID, 111125) == TRUE then 
-            -- Display marker based on hand if markers are enabled
-            if env(GetSpEffectID, 111160) == TRUE then
-                if hand == HAND_LEFT then
-                    act(AddSpEffect, 111141)
-                else
-                    act(AddSpEffect, 111140)
-                end
-            end
-        end
-    end
-end
-
-function UpdateRhythmicAttackOnAttack()
-    -- Only apply to real players
-    if env(IsCOMPlayer) == FALSE then
-        -- Attack during window
-        if env(GetSpEffectID, 111120) == TRUE or env(GetSpEffectID, 111122) == TRUE then
-            -- Add bonus
-            act(AddSpEffect, 111125)
-            
-            IncreaseRhythmicSpeed()
-        end
-    end
-end
-
-function IncreaseRhythmicSpeed()
-    CurrentRhythmicAttackSpeed = CurrentRhythmicAttackSpeed + 0.05
-    
-    if CurrentRhythmicAttackSpeed > RhythmicAttackSpeedMaximum then
-        CurrentRhythmicAttackSpeed = RhythmicAttackSpeedMaximum
-    end
-end
-
-function DecreaseRhythmicSpeed()
-    if RhythmicAttackFrameCount >= 100 then
-        RhythmicAttackFrameCount = 0
-        
-        CurrentRhythmicAttackSpeed = CurrentRhythmicAttackSpeed - 0.01
-        
-        if CurrentRhythmicAttackSpeed < RhythmicAttackSpeedMinimum then
-            CurrentRhythmicAttackSpeed = RhythmicAttackSpeedMinimum
-        end
-    end
-    
-    RhythmicAttackFrameCount = RhythmicAttackFrameCount + 1
-end
-
-------------------------------------------
 -- Cinders: Animation Speed
 ------------------------------------------
+-- Movement
+function SetMovementAnimSpeed()
+    local value = GetModifiedAnimSpeedValue(1.0, "Movement")
+
+    SetVariable("MovementAnimSpeed_Run", value) 
+    SetVariable("MovementAnimSpeed_Walk", value) 
+end
+
+function SetDashAnimSpeed()
+    local value = GetModifiedAnimSpeedValue(1.0, "Movement")
+
+    SetVariable("MovementAnimSpeed_Dash", value) 
+end
+
+function SetRollAnimSpeed()
+    local value = GetModifiedAnimSpeedValue(1.0, "Evasion")
+
+    SetVariable("MovementAnimSpeed_Roll", value) 
+end
+
+function SetBackstepAnimSpeed()
+    local value = GetModifiedAnimSpeedValue(1.0, "Evasion")
+
+    SetVariable("MovementAnimSpeed_Backstep", value) 
+end
+
 -- Items
 function SetItemAnimSpeed()
     local value = GetModifiedAnimSpeedValue(1.0, "Item")
@@ -21205,7 +21146,6 @@ end
 function GetModifiedAnimSpeedValue(baseValue, category)
     local value = baseValue
     
-    -- Weapon speed modifiers
     if category == "Weapon" then
         if env(IsCOMPlayer) == FALSE then
             -- Rhythmic Attack Bonus
@@ -21215,22 +21155,118 @@ function GetModifiedAnimSpeedValue(baseValue, category)
         end
     end
     
-    -- Magic speed modifiers
     if category == "Magic" then
         
     end
     
-    -- Stagger speed modifiers
     if category == "Stagger" then
         
     end
     
-    -- Item speed modifiers
     if category == "Item" then
         
     end
     
+    if category == "Movement" then
+        
+    end
+    
+    if category == "Evasion" then
+        
+    end
+    
     return value
+end
+
+
+------------------------------------------
+-- Cinders: Rhythmic Attack
+------------------------------------------
+RhythmicAttackSpeedMinimum = 1.0
+RhythmicAttackSpeedMaximum = 1.3
+CurrentRhythmicAttackSpeed = 1.0
+
+RhythmicAttackFrameCount = 0
+
+function UpdateRhythmicAttackWindowTracker()
+    local hand = HAND_RIGHT
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+    
+    -- Only apply to real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Attack during window
+        if env(GetSpEffectID, 111120) == TRUE or env(GetSpEffectID, 111122) == TRUE then 
+            -- Display marker based on hand if markers are enabled
+            if env(GetSpEffectID, 111160) == TRUE then
+                if hand == HAND_LEFT then
+                    act(AddSpEffect, 111131)
+                else
+                    act(AddSpEffect, 111130)
+                end
+            end
+        end
+    end
+end
+
+function UpdateRhythmicAttackBonusTracker()
+    local hand = HAND_RIGHT
+    
+    if style == HAND_LEFT_BOTH then
+        hand = HAND_LEFT
+    end
+    
+    -- Only apply to real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Bonus active
+        if env(GetSpEffectID, 111125) == TRUE then 
+            -- Display marker based on hand if markers are enabled
+            if env(GetSpEffectID, 111160) == TRUE then
+                if hand == HAND_LEFT then
+                    act(AddSpEffect, 111141)
+                else
+                    act(AddSpEffect, 111140)
+                end
+            end
+        end
+    end
+end
+
+function UpdateRhythmicAttackOnAttack()
+    -- Only apply to real players
+    if env(IsCOMPlayer) == FALSE then
+        -- Attack during window
+        if env(GetSpEffectID, 111120) == TRUE or env(GetSpEffectID, 111122) == TRUE then
+            -- Add bonus
+            act(AddSpEffect, 111125)
+            
+            IncreaseRhythmicSpeed()
+        end
+    end
+end
+
+function IncreaseRhythmicSpeed()
+    CurrentRhythmicAttackSpeed = CurrentRhythmicAttackSpeed + 0.05
+    
+    if CurrentRhythmicAttackSpeed > RhythmicAttackSpeedMaximum then
+        CurrentRhythmicAttackSpeed = RhythmicAttackSpeedMaximum
+    end
+end
+
+function DecreaseRhythmicSpeed()
+    if RhythmicAttackFrameCount >= 1000 then
+        RhythmicAttackFrameCount = 0
+        
+        CurrentRhythmicAttackSpeed = CurrentRhythmicAttackSpeed - 0.01
+        
+        if CurrentRhythmicAttackSpeed < RhythmicAttackSpeedMinimum then
+            CurrentRhythmicAttackSpeed = RhythmicAttackSpeedMinimum
+        end
+    end
+    
+    RhythmicAttackFrameCount = RhythmicAttackFrameCount + 1
 end
 
 ------------------------------------------

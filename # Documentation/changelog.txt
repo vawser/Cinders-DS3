@@ -50,7 +50,7 @@
 
 - A rhythmic attack will:
  - Cause the next 'normal' attack to be performed faster: starting at 3% and increasing to a cap of 30% faster if multiple rhythmic attacks are performed in a row.
- - Cause the next attack to cost only 25% of its usual stamina cost.
+ - Cause the next attack to cost only 50% of its usual stamina cost.
  
 - Magnum Ursus will describe the mechanic to you if you need help, and contains the toggle for the 'tutorial' markers that show where 'Rhythmic Attack' window is (orange circle), and if a 'Rhythmic Attack' has occured (green circle).
  

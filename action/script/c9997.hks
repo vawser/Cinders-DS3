@@ -3931,6 +3931,8 @@ function Damage_Update()
 end
 
 function Update()
+    
+
     g_FrameCount = g_FrameCount + 1
 end
 
