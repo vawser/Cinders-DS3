@@ -1820,6 +1820,9 @@ $Event(20001, Default, function() {
     SetEventFlag(301, ON);
     SetEventFlag(302, ON);
     SetEventFlag(303, ON);
+    
+    // Rhythmic Attack - Markers
+    SetEventFlag(25000060, ON);
 
     // Game State
     SetEventFlag(flag_NeverDied, ON);
