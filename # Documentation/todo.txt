@@ -20,5 +20,3 @@ Restore the NPC quests
 - Add 'Statue of Marika' type assets by each boss fight
 
 - Add HavokVar to enemies for anim speed tweaks
-
-- Add Havok Vars for the movement anims (Walk, Run, etc)
