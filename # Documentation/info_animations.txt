@@ -117,7 +117,7 @@
 036246 - DrawStanceRightAttackHeavyL90
 036247 - DrawStanceRightAttackHeavyL90_NoPoints
 036250 - DrawStanceRightAttackLight2
-036251 - DrawStanceRightAttackLight2_NoPoints
+036251 - DrawStanceRightAttackLight2_NoPofints
 036260 - DrawStanceRightAttackHeavy2
 036261 - DrawStanceRightAttackHeavy2_NoPoints
 036270 - DrawStanceRightAttackHeavyLoop
