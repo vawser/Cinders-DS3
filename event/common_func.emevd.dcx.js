@@ -6632,6 +6632,7 @@ $Event(20081231, Restart, function(X0_4, X4_4, X8_4, X12_4) {
 $Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
+    DisplayBossHealthBar(Disabled, X0_4, 0, X36_4);
 
     // End if X has been killed once already
     EndIf(EventFlag(X28_4));
@@ -6671,6 +6672,7 @@ $Event(20090010, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
 $Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4, X40_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
+    DisplayBossHealthBar(Disabled, X0_4, 0, X40_4);
 
     // End if X has been killed once already
     EndIf(EventFlag(X28_4));
@@ -6710,6 +6712,7 @@ $Event(20090011, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4,
 $Event(20090012, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4, X24_4, X28_4, X32_4, X36_4) {
     ChangeCharacterEnableState(X0_4, Disabled);
     SetCharacterAnimationState(X0_4, Disabled);
+    DisplayBossHealthBar(Disabled, X0_4, 0, X36_4);
 
     // End if in normal Firelink ceremony
     EndIf(MapCeremony(40, 0, 0));
