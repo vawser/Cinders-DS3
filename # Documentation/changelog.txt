@@ -136,14 +136,17 @@
   - Enemy kills have a 1% chance to award 1 Essence of the Dark Soul.
   
 #-------------------------------------------------
-# World
+# Enemies
 #-------------------------------------------------
 # Bosses
 - Sister Friede poise reduced to 0.
 - Reduced the health of several bosses.
-- Moved the Twisted Knight into the Forgotten Menargerie.
+- Moved the Twisted Knight into the Forgotten Colosseum.
+- Corrupted Gundyr is now tuned as an early-game boss.
 
+#-------------------------------------------------
 # NPCs
+#-------------------------------------------------
 - Magnum Ursus now hosts the Castigation system.
 - Added new merchant: Alyx the Wandering Merchant
  - Found in Archdragon Peak and the Ringed City
@@ -153,6 +156,9 @@
  - Found in the Forgotten Catacombs.
  - The player will occasionally be able to sell specific consumables for a large amount of souls
  
+#-------------------------------------------------
+# World
+#-------------------------------------------------
 # Treasure
 - Redistributed treasures.
 - Removed several mimics and chests
@@ -177,6 +183,9 @@
  - Accessible from Firelink Shrine.
  - Quitting out will simply reset the gauntlet.
  
+# Cemetery of Ash
+- Corrupted Gundyr no longer has a portcullis blocking access.
+
 #-------------------------------------------------
 # Items
 #-------------------------------------------------

@@ -118,3 +118,5 @@ c7990
 # Rescaled Eenmies
 c1072 Skeleton (35%) c1070
 c1073 Skeleton (135%) c1070
+
+c2202 Sandworm (25%) c2200 # Collision extends noticably beyond, only use in 'continuous dig' mode

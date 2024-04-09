@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ASCII" standalone="no"?>
+<hkpackfile classversion="11" contentsversion="hk_2014.1.0-r1">
+    <hksection name="__data__">
+        <hkobject class="hkRootLevelContainer" name="#90" signature="0x2772c11e">
+            <hkparam name="namedVariants" numelements="1">
+                <hkobject>
+                    <hkparam name="name">hkbBehaviorGraph</hkparam>
+                    <hkparam name="className">hkbBehaviorGraph</hkparam>
+                    <hkparam name="variant">#91</hkparam>
+                </hkobject>
+            </hkparam>
+        </hkobject>
+        <hkobject class="hkbBehaviorGraph" name="#91" signature="0xfdedb83b">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="userData">0</hkparam>
+            <hkparam name="name">c2202.hkb</hkparam>
+            <hkparam name="variableMode">VARIABLE_MODE_DISCARD_WHEN_INACTIVE</hkparam>
+            <hkparam name="rootGenerator">#92</hkparam>
+            <hkparam name="data">#95</hkparam>
+        </hkobject>
+        <hkobject class="hkbStateMachine" name="#92" signature="0xe1221651">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="userData">0</hkparam>
+            <hkparam name="name">c2202.sm</hkparam>
+            <hkparam name="eventToSendWhenStateOrTransitionChanges">
+                <hkobject class="hkbEvent" name="eventToSendWhenStateOrTransitionChanges" signature="0x3e0fd810">
+                    <hkparam name="id">-1</hkparam>
+                    <hkparam name="payload">null</hkparam>
+                </hkobject>
+            </hkparam>
+            <hkparam name="startStateIdSelector">null</hkparam>
+            <hkparam name="startStateId">0</hkparam>
+            <hkparam name="returnToPreviousStateEventId">-1</hkparam>
+            <hkparam name="randomTransitionEventId">-1</hkparam>
+            <hkparam name="transitionToNextHigherStateEventId">-1</hkparam>
+            <hkparam name="transitionToNextLowerStateEventId">-1</hkparam>
+            <hkparam name="syncVariableIndex">-1</hkparam>
+            <hkparam name="wrapAroundStateId">false</hkparam>
+            <hkparam name="maxSimultaneousTransitions">32</hkparam>
+            <hkparam name="startStateMode">START_STATE_MODE_DEFAULT</hkparam>
+            <hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_NO_TRANSITION</hkparam>
+            <hkparam name="states" numelements="1">
+#93
+</hkparam>
+            <hkparam name="wildcardTransitions">null</hkparam>
+        </hkobject>
+        <hkobject class="hkbStateMachineStateInfo" name="#93" signature="0x39d76713">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="listeners" numelements="0">
+</hkparam>
+            <hkparam name="enterNotifyEvents">null</hkparam>
+            <hkparam name="exitNotifyEvents">null</hkparam>
+            <hkparam name="transitions">null</hkparam>
+            <hkparam name="generator">#94</hkparam>
+            <hkparam name="name">Root</hkparam>
+            <hkparam name="stateId">0</hkparam>
+            <hkparam name="probability">1.0</hkparam>
+            <hkparam name="enable">true</hkparam>
+        </hkobject>
+        <hkobject class="hkbBehaviorReferenceGenerator" name="#94" signature="0x154fcfaa">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="userData">0</hkparam>
+            <hkparam name="name">RootBFR</hkparam>
+            <hkparam name="behaviorName">Behaviors\c9997.hkt</hkparam>
+        </hkobject>
+        <hkobject class="hkbBehaviorGraphData" name="#95" signature="0x907a8222">
+            <hkparam name="attributeDefaults" numelements="0"/>
+            <hkparam name="variableInfos" numelements="0"/>
+            <hkparam name="characterPropertyInfos" numelements="0"/>
+            <hkparam name="eventInfos" numelements="23">
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+            </hkparam>
+            <hkparam name="variableBounds" numelements="0"/>
+            <hkparam name="variableInitialValues">#96</hkparam>
+            <hkparam name="stringData">#97</hkparam>
+        </hkobject>
+        <hkobject class="hkbVariableValueSet" name="#96" signature="0xeb5f7e25">
+            <hkparam name="wordVariableValues" numelements="0"/>
+            <hkparam name="quadVariableValues" numelements="0"/>
+            <hkparam name="variantVariableValues" numelements="0">
+</hkparam>
+        </hkobject>
+        <hkobject class="hkbBehaviorGraphStringData" name="#97" signature="0x1bd27f38">
+            <hkparam name="eventNames" numelements="23">
+                <hkcstring>State00_WC</hkcstring>
+                <hkcstring>W_CeremonyReleased</hkcstring>
+                <hkcstring>a000_000515.hkt_WC</hkcstring>
+                <hkcstring>State00_WC</hkcstring>
+                <hkcstring>W_CeremonyCaught</hkcstring>
+                <hkcstring>State00_WC</hkcstring>
+                <hkcstring>State00_WC</hkcstring>
+                <hkcstring>State00_WC</hkcstring>
+                <hkcstring>W_CultDeath</hkcstring>
+                <hkcstring>W_Event7999</hkcstring>
+                <hkcstring>W_CultDeathLoop</hkcstring>
+                <hkcstring>State00_WC</hkcstring>
+                <hkcstring>State01_WC</hkcstring>
+                <hkcstring>State01_WC</hkcstring>
+                <hkcstring>State01_WC</hkcstring>
+                <hkcstring>W_IdleWeak</hkcstring>
+                <hkcstring>W_StandCrouch</hkcstring>
+                <hkcstring>W_StandGround</hkcstring>
+                <hkcstring>W_ChangeDefault</hkcstring>
+                <hkcstring>a000_000052.hkt_WC</hkcstring>
+                <hkcstring>State01_WC</hkcstring>
+                <hkcstring>W_DummyIdle</hkcstring>
+                <hkcstring>State01_WC</hkcstring>
+            </hkparam>
+            <hkparam name="attributeNames" numelements="0"/>
+            <hkparam name="variableNames" numelements="0"/>
+            <hkparam name="characterPropertyNames" numelements="0"/>
+        </hkobject>
+    </hksection>
+</hkpackfile>

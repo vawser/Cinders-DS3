@@ -18,5 +18,3 @@ Restore the NPC quests
 - Finish adding TAE documentation within the c0000 file
 
 - Add 'Statue of Marika' type assets by each boss fight
-
-- Add HavokVar to enemies for anim speed tweaks
