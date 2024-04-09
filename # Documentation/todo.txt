@@ -19,7 +19,6 @@ Restore the NPC quests
 
 - Add HavokVar to enemies for anim speed tweaks
 
-- Add HavokVar for the SwordArts and other animation 'groups'
- 
 - Finish adding TAE documentation within the c0000 file
 
+- Check the "unused" TAE entries actually being inherited moves

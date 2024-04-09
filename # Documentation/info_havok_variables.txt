@@ -54,7 +54,7 @@
 050320 - WeaponAnimSpeed_Alt_RightHeavyCharge1 #15042 DONE
 050325 - WeaponAnimSpeed_Alt_RightHeavyRelease1 #15043 DONE
 050340 - WeaponAnimSpeed_Alt_RightHeavyCharge2 #15044 DONE
-050345 - WeaponAnimSpeed_Alt_RightHeavyRelease1 #15045 DONE
+050345 - WeaponAnimSpeed_Alt_RightHeavyRelease2 #15045 DONE
 050500 - WeaponAnimSpeed_Alt_RightDashAttack #15046 DONE
 050900 - WeaponAnimSpeed_Alt_RightRollAttack #15047 DONE
 054000 - WeaponAnimSpeed_Alt_BothLight1 #15048 DONE
@@ -78,7 +78,7 @@
 036061 - StepInRightSlash_NoPoints
 036070 - StepInRightDashStart
 
--- WeaponAnimSpeed_SwordArt_Spin #15060 DONE
+-- WeaponAnimSpeed_SwordArt_SpinStance #15060 DONE
 036100 - SpinRightLeft
 036110 - SpinRightRight
 036120 - SpinRightFrontLeft
@@ -261,7 +261,7 @@
 038710 - OneShotNoGenTransContinue
 038711 - OneShotNoGenTransContinuet_NoPoint
 
--- WeaponAnimSpeed_SwordArt_StormStance #15078
+-- WeaponAnimSpeed_SwordArt_StormStance #15078 DONE
 038800 - StormStanceStart
 038805 - StormStanceFullStart
 038810 - StormStanceLoop
@@ -282,7 +282,7 @@
 038880 - StormStanceFullHeavy_NonBoss
 038881 - StormStanceFullHeavy_NonBoss_NoPoints
 
--- WeaponAnimSpeed_SwordArt_FourWayAttack #15079
+-- WeaponAnimSpeed_SwordArt_FourWayAttack #15079 DONE
 038900 - FourWayAttackStartRight
 038901 - FourWayAttackStartRight_NoPoints
 038910 - FourWayAttackStartLeft
@@ -300,7 +300,7 @@
 038970 - FourWayAttackLight
 038971 - FourWayAttackLight_NoPoints
 
--- WeaponAnimSpeed_SwordArt_GatlingStance #15080
+-- WeaponAnimSpeed_SwordArt_GatlingStance #15080 DONE
 039000 - GatlingStanceRightStart
 039010 - GatlingStanceRightLoop
 039020 - GatlingStanceRightLoopRun_Upper
@@ -310,7 +310,7 @@
 039055 - GatlingStanceRightFireStartLeft
 039056 - GatlingStanceRightFireStartLeft_NoPoints
 
--- WeaponAnimSpeed_SwordArt_RandomOneShot #15081
+-- WeaponAnimSpeed_SwordArt_RandomOneShot #15081 DONE
 039100 - RandomOneShot1
 039101 - RandomOneShot1_NoPoints
 039110 - RandomOneShotNext1
@@ -322,7 +322,7 @@
 039140 - RandomOneShotNext4
 039141 - RandomOneShotNext4_NoPoints
 
--- WeaponAnimSpeed_SwordArt_DrawStanceDLC #15082
+-- WeaponAnimSpeed_SwordArt_DrawStanceDLC #15082 DONE
 039210 - DrawStanceRightLoopMaxNoSync
 039215 - DrawStanceRightLoopMaxNoSync_Upper_NoPoints
 039230 - DrawStanceRightAttackMaxLight
@@ -338,7 +338,7 @@
 039244 - DrawStanceRightAttackMaxHeavy180
 039245 - DrawStanceRightAttackMaxHeavy180_NoPoints
 
--- WeaponAnimSpeed_RangedAttack #15083
+-- WeaponAnimSpeed_RangedAttack #15083 DONE
 035500 - WeaponAnimSpeed_RangedBothStart
 035510 - WeaponAnimSpeed_RangedBothLoop
 035515 - WeaponAnimSpeed_RangedRightLoopMove 
@@ -352,8 +352,6 @@
 031520 - WeaponAnimSpeed_CrossbowRightReload
 031530 - WeaponAnimSpeed_CrossbowRightLoop
 031540 - WeaponAnimSpeed_CrossbowRightMoveLoop
-034000 - WeaponAnimSpeed_CrossbowBothRightFire 
-033500 - WeaponAnimSpeed_CrossbowLeftStart # Note, only change the crossbow ones here
 033510 - WeaponAnimSpeed_CrossbowLeftEmpty 
 033520 - WeaponAnimSpeed_CrossbowLeftReload 
 033530 - WeaponAnimSpeed_CrossbowLeftLoop 

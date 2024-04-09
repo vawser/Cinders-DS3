@@ -20903,13 +20903,18 @@ function Update()
     -- Anim Speed
     SetStaggerRecoverySpeed() 
     SetItemAnimSpeed() 
+    
     SetMagicAnimSpeed() 
+    
     SetLightAttackAnimSpeed()
     SetKickAnimSpeed()
     SetHeavyAttackAnimSpeed()
     SetDashAttackAnimSpeed()
     SetJumpAttackAnimSpeed()
     SetRollAttackAnimSpeed()
+    SetRangedAttackAnimSpeed()
+    
+    SetSwordArtAnimSpeed()
     
     act(SwitchMotion, FALSE)
     act(LockonSystemUnableToTurnAngle, 0, 0)
@@ -21044,24 +21049,21 @@ end
 ------------------------------------------
 -- Items
 function SetItemAnimSpeed()
-    local baseValue = 1.0
-    local value = baseValue
+    local value = GetModifiedAnimSpeedValue(1.0, "Item")
 
     SetVariable("ItemAnimSpeed", value) 
 end
 
 -- Stagger Recovery
 function SetStaggerRecoverySpeed()
-    local baseValue = 1.0
-    local value = baseValue
+    local value = GetModifiedAnimSpeedValue(1.0, "Stagger")
     
     SetVariable("StaggerAnimSpeed", value) 
 end
 
 -- Magic
 function SetMagicAnimSpeed()
-    local baseValue = 1.0
-    local value = baseValue
+    local value = GetModifiedAnimSpeedValue(1.0, "Magic")
     
     SetVariable("MagicLaunchAnimSpeed", value) 
     SetVariable("MagicFireAnimSpeed", value) 
@@ -21069,16 +21071,7 @@ end
 
 -- Light Attacks
 function SetLightAttackAnimSpeed()
-    local baseValue = 1.0
-    local value = baseValue
-    
-    -- Apply these conditions only for real players
-    if env(IsCOMPlayer) == FALSE then
-        -- Rhythmic Attack Bonus
-        if env(GetSpEffectID, 111125) == TRUE then
-            value = CurrentRhythmicAttackSpeed
-        end
-    end
+    local value = GetModifiedAnimSpeedValue(1.0, "Weapon")
     
     SetVariable("WeaponAnimSpeed_RightLight1", value)
     SetVariable("WeaponAnimSpeed_RightLight2", value)
@@ -21087,12 +21080,23 @@ function SetLightAttackAnimSpeed()
     SetVariable("WeaponAnimSpeed_BothLight1", value)
     SetVariable("WeaponAnimSpeed_BothLight2", value)
     SetVariable("WeaponAnimSpeed_BothLight3", value)
+    SetVariable("WeaponAnimSpeed_Alt_RightLight1", value)
+    SetVariable("WeaponAnimSpeed_Alt_RightLight2", value)
+    SetVariable("WeaponAnimSpeed_Alt_RightLight3", value)
+    SetVariable("WeaponAnimSpeed_Alt_RightLight4", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothLight1", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothLight2", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothLight3", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothLight4", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothLight5", value)
+    SetVariable("WeaponAnimSpeed_BothLeft1", value)
+    SetVariable("WeaponAnimSpeed_BothLeft2", value)
+    SetVariable("WeaponAnimSpeed_BothLeft3", value)
 end
 
 -- Kicks
 function SetKickAnimSpeed()
-    local baseValue = 1.0
-    local value = baseValue
+    local value = GetModifiedAnimSpeedValue(1.0, "Weapon")
     
     SetVariable("WeaponAnimSpeed_RightLightKick", value)
     SetVariable("WeaponAnimSpeed_BothLightKick", value)
@@ -21100,16 +21104,7 @@ end
 
 -- Heavy Attacks
 function SetHeavyAttackAnimSpeed()
-    local baseValue = 1.0
-    local value = baseValue
-    
-    -- Apply these conditions only for real players
-    if env(IsCOMPlayer) == FALSE then
-        -- Rhythmic Attack Bonus
-        if env(GetSpEffectID, 111125) == TRUE then
-            value = CurrentRhythmicAttackSpeed
-        end
-    end
+    local value = GetModifiedAnimSpeedValue(1.0, "Weapon")
     
     SetVariable("WeaponAnimSpeed_RightHeavyCharge1", value)
     SetVariable("WeaponAnimSpeed_RightHeavyRelease1", value)
@@ -21129,37 +21124,30 @@ function SetHeavyAttackAnimSpeed()
     SetVariable("WeaponAnimSpeed_BothSpecialHeavyRelease1", value)
     SetVariable("WeaponAnimSpeed_BothSpecialHeavyCharge2", value)
     SetVariable("WeaponAnimSpeed_BothSpecialHeavyRelease2", value)
+    SetVariable("WeaponAnimSpeed_Alt_RightHeavyCharge1", value)
+    SetVariable("WeaponAnimSpeed_Alt_RightHeavyRelease1", value)
+    SetVariable("WeaponAnimSpeed_Alt_RightHeavyCharge2", value)
+    SetVariable("WeaponAnimSpeed_Alt_RightHeavyRelease2", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothHeavyCharge1", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothHeavyRelease1", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothHeavyCharge2", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothHeavyRelease2", value)
 end
 
 -- Dash Attacks
 function SetDashAttackAnimSpeed()
-    local baseValue = 1.0
-    local value = baseValue
-    
-    -- Apply these conditions only for real players
-    if env(IsCOMPlayer) == FALSE then
-        -- Rhythmic Attack Bonus
-        if env(GetSpEffectID, 111125) == TRUE then
-            value = value + 0.2
-        end
-    end
+    local value = GetModifiedAnimSpeedValue(1.0, "Weapon")
     
     SetVariable("WeaponAnimSpeed_RightDashAttack", value)
     SetVariable("WeaponAnimSpeed_BothDashAttack", value)
+    SetVariable("WeaponAnimSpeed_Alt_RightDashAttack", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothDashAttack", value)
+    SetVariable("WeaponAnimSpeed_BothLeftDashAttack", value)
 end
 
 -- Jump Attacks
 function SetJumpAttackAnimSpeed()
-    local baseValue = 1.0
-    local value = baseValue
-    
-    -- Apply these conditions only for real players
-    if env(IsCOMPlayer) == FALSE then
-        -- Rhythmic Attack Bonus
-        if env(GetSpEffectID, 111125) == TRUE then
-            value = CurrentRhythmicAttackSpeed
-        end
-    end
+    local value = GetModifiedAnimSpeedValue(1.0, "Weapon")
     
     SetVariable("WeaponAnimSpeed_RightJumpAttack", value)
     SetVariable("WeaponAnimSpeed_BothJumpAttack", value)
@@ -21167,19 +21155,82 @@ end
 
 -- Roll Attacks
 function SetRollAttackAnimSpeed()
-    local baseValue = 1.0
-    local value = baseValue
-    
-    -- Apply these conditions only for real players
-    if env(IsCOMPlayer) == FALSE then
-        -- Rhythmic Attack Bonus
-        if env(GetSpEffectID, 111125) == TRUE then
-            value = CurrentRhythmicAttackSpeed
-        end
-    end
+    local value = GetModifiedAnimSpeedValue(1.0, "Weapon")
     
     SetVariable("WeaponAnimSpeed_RightRollAttack", value)
     SetVariable("WeaponAnimSpeed_BothRollAttack", value)
+    SetVariable("WeaponAnimSpeed_Alt_RightRollAttack", value)
+    SetVariable("WeaponAnimSpeed_Alt_BothRollAttack", value)
+    SetVariable("WeaponAnimSpeed_BothLeftRollAttack", value)
+end
+
+-- Bow/Crossbow
+function SetRangedAttackAnimSpeed()
+    local value = GetModifiedAnimSpeedValue(1.0, "Weapon")
+    
+    SetVariable("WeaponAnimSpeed_RangedAttack", value)
+    SetVariable("WeaponAnimSpeed_CrossbowAttack", value)
+end
+
+-- Sword Arts
+function SetSwordArtAnimSpeed()
+    local value = GetModifiedAnimSpeedValue(1.0, "Weapon")
+    
+    SetVariable("WeaponAnimSpeed_SwordArt_StepIn", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_SpinStance", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_DrawStance", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_SpecialAttack", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_Spin", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_ChainShot", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_Charge", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_StrongBash", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_Parry", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_WideShot", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_Stampede", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_Warcry", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_Endure", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_MagicBuff", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_CircleStep", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_ChargeShot", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_CrossbowStepIn", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_HeadHunt", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_OneShot", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_StormStance", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_FourWayAttack", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_GatlingStance", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_RandomOneShot", value)
+    SetVariable("WeaponAnimSpeed_SwordArt_DrawStanceDLC", value)
+end
+
+function GetModifiedAnimSpeedValue(baseValue, category)
+    local value = baseValue
+    
+    -- Weapon speed modifiers
+    if category == "Weapon" then
+        if env(IsCOMPlayer) == FALSE then
+            -- Rhythmic Attack Bonus
+            if env(GetSpEffectID, 111125) == TRUE then
+                value = CurrentRhythmicAttackSpeed
+            end
+        end
+    end
+    
+    -- Magic speed modifiers
+    if category == "Magic" then
+        
+    end
+    
+    -- Stagger speed modifiers
+    if category == "Stagger" then
+        
+    end
+    
+    -- Item speed modifiers
+    if category == "Item" then
+        
+    end
+    
+    return value
 end
 
 ------------------------------------------
