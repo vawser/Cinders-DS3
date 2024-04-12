@@ -1485,55 +1485,13 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000105 Journey Type: Gladiator
 25000106 Journey Type: Wanderer
 
-25000110 Custom Loadout: Selected
-25000111 Custom Loadout: Itemlot Option
-25000112 Custom Loadout: Free Souls Option
-25000113 Custom Loadout: Hollow Fragment Itemlot
+25000110 Flameless
+25000111 Deathless
+25000112 Hitless
 
 25000130 NG+ Allowed
 25000131 Accursed Run completed
 25000132 Deathless failed
-
-25000140 Flameless
-25000141 Deathless
-25000142 Hitless
-
-# Boss Warp Allowed
-25000150 Dancer
-25000151 Vordt
-25000152 Oceiros
-25000153 Curse-rotted Greatwood
-25000154 Nameless King
-25000155 Ancient Wyvern
-25000156 Crystal Sage
-25000157 Abyss Watchers
-25000158 Dragonslayer Armour
-25000159 Twin Princes
-25000160 Deacons of the Deep
-25000161 Pontiff Sulyvahn
-25000162 Aldrich
-25000163 Wolnir
-25000164 Old Demon King
-25000165 Yhorm
-25000166 Sister Friede
-25000167 Gravetender
-25000168 Demon Prince
-25000169 Halflight
-25000170 Midir
-25000171 Gael
-25000172 Champion Gundyr
-25000173 Soul of Cinder
-
-25000175 Aborr
-25000176 Trio of Explorers
-25000177 Twisted Knight
-25000178 Mirror Knight
-25000179 Cathedral Guardian
-25000180 Lordran Remnants
-25000181 Fallen Protector
-25000182 Prince Dorthinus
-25000183 Princess Yngvil
-25000184 The Marauder
 
 # Covenants
 25000200 Covenant Acquired: Thieves Pact           - Greirat

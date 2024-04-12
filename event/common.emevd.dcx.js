@@ -2197,35 +2197,42 @@ $Event(14050, Restart, function(X0_4, X4_4) {
 
 // Restriction - Flameless
 $Event(15000, Restart, function() {
-    EndIf(!EventFlag(25000140));
-    
-    SetSpEffect(10000, 200110000);
+    // Flameless
+    if(EventFlag(25000110))
+    {
+        SetSpEffect(10000, 200110000);
+    }
 });
 
 // Restriction - Deathless
 $Event(15001, Restart, function() {
-    EndIf(!EventFlag(25000141));
-    
-    SetSpEffect(10000, 200110100);
-    
-    WaitFor(CharacterHasSpEffect(10000, 112100, ComparisonType.Equal, 1));
-    
-    SetEventFlag(25000132, ON);
-    
-    // TODO: change this to a proper location (this is from FATE)
-    WarpPlayer(51, 1, 5110975);
-    SetPlayerRespawnPoint(5112955);
+    // Deathless
+    if(EventFlag(25000111))
+    {
+        SetSpEffect(10000, 200110100);
+        
+        WaitFor(CharacterHasSpEffect(10000, 112100, ComparisonType.Equal, 1));
+        
+        SetEventFlag(25000132, ON);
+        
+        // TODO: change this to a proper location (this is from FATE)
+        //WarpPlayer(51, 1, 5110975);
+        //SetPlayerRespawnPoint(5112955);
+    }
 });
 
 // Restriction - Hitless
 $Event(15002, Restart, function() {
-    EndIf(!EventFlag(25000142));
-    
-    SetSpEffect(10000, 200110200);
-    
-    WaitFor(CharacterHasSpEffect(10000, 112101, ComparisonType.Equal, 1));
-    
-    SetSpEffect(10000, 200110201);
+    // Hitless
+    if(EventFlag(25000112))
+    {
+        SetSpEffect(10000, 200110200);
+        
+        DisplayBanner(TextBannerType.BeginMatch);
+        
+        WaitFor(CharacterHasSpEffect(10000, 112101, ComparisonType.Equal, 1));
+        SetSpEffect(10000, 200110201);
+    }
 });
 
 //-------------------

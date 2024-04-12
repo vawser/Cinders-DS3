@@ -385,19 +385,19 @@ def t400510_x53():
         ClearTalkListData()
         
         # Flameless
-        AddTalkListDataIf(not GetEventStatus(25000140), 1, 80000150, -1)
+        AddTalkListDataIf(not GetEventStatus(25000110), 1, 80000150, -1)
         # Flameless (selected)
-        AddTalkListDataIf(GetEventStatus(25000140) == 1, 10, 80000160, -1)
+        AddTalkListDataIf(GetEventStatus(25000110) == 1, 10, 80000160, -1)
         
         # Deathless
-        AddTalkListDataIf(not GetEventStatus(25000141), 2, 80000151, -1)
+        AddTalkListDataIf(not GetEventStatus(25000111), 2, 80000151, -1)
         # Deathless (selected)
-        AddTalkListDataIf(GetEventStatus(25000141) == 1, 11, 80000161, -1)
+        AddTalkListDataIf(GetEventStatus(25000111) == 1, 11, 80000161, -1)
         
         # Hitless
-        AddTalkListDataIf(not GetEventStatus(25000142), 3, 80000152, -1)
+        AddTalkListDataIf(not GetEventStatus(25000112), 3, 80000152, -1)
         # Hitless (selected)
-        AddTalkListDataIf(GetEventStatus(25000142) == 1, 12, 80000162, -1)
+        AddTalkListDataIf(GetEventStatus(25000112) == 1, 12, 80000162, -1)
         
         # Leave
         AddTalkListData(99, 80000999, -1)
@@ -408,22 +408,22 @@ def t400510_x53():
         
         # Flameless
         if GetTalkListEntryResult() == 1:
-            assert t400510_x63(text=80000170, flag=25000140, value=1)
+            assert t400510_x63(text=80000170, flag=25000110, value=1)
         # Deathless
         elif GetTalkListEntryResult() == 2:
-            assert t400510_x63(text=80000171, flag=25000141, value=1)
+            assert t400510_x63(text=80000171, flag=25000111, value=1)
         # Hitless
         elif GetTalkListEntryResult() == 3:
-            assert t400510_x63(text=80000172, flag=25000142, value=1)
+            assert t400510_x63(text=80000172, flag=25000112, value=1)
         # Flameless (selected)
         elif GetTalkListEntryResult() == 10:
-            assert t400510_x63(text=80000170, flag=25000140, value=0)
+            assert t400510_x63(text=80000170, flag=25000110, value=0)
         # Deathless (selected)
         elif GetTalkListEntryResult() == 11:
-            assert t400510_x63(text=80000171, flag=25000141, value=0)
+            assert t400510_x63(text=80000171, flag=25000111, value=0)
         # Hitless (selected)
         elif GetTalkListEntryResult() == 12:
-            assert t400510_x63(text=80000172, flag=25000142, value=0)
+            assert t400510_x63(text=80000172, flag=25000112, value=0)
         # Leave
         elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
             return 0
