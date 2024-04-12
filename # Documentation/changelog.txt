@@ -1,6 +1,9 @@
 #----------------------------------------------
 # Changelog
 #----------------------------------------------
+# Balance
+- Reduced FP cost of Skills to vanilla-esque levels.
 
 # Bugfixes
 - Intruder boss bars now reset upon bonfire reset.
+- Fixed bug that caused Hitless challenge to be enabled when resting at the Dreg Heap bonfire.
