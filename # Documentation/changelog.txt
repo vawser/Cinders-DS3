@@ -3,7 +3,9 @@
 #----------------------------------------------
 # Balance
 - Reduced FP cost of Skills to vanilla-esque levels.
+- Reduced enemy power curve so it is smoother and lower during the early game.
 
 # Bugfixes
 - Intruder boss bars now reset upon bonfire reset.
 - Fixed bug that caused Hitless challenge to be enabled when resting at the Dreg Heap bonfire.
+- Essence of the Dark Soul now actually grants its effect.
