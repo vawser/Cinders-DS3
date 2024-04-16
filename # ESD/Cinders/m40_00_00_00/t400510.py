@@ -169,7 +169,9 @@ def t400510_x9():
         (not GetEventStatus(25000100) and GetEventStatus(25000101) == 1) or 
         (not GetEventStatus(25000100) and GetEventStatus(25000102) == 1) or 
         (not GetEventStatus(25000100) and GetEventStatus(25000103) == 1) or 
-        (not GetEventStatus(25000100) and GetEventStatus(25000104) == 1), 20, 80000102, -1)
+        (not GetEventStatus(25000100) and GetEventStatus(25000104) == 1) or 
+        (not GetEventStatus(25000100) and GetEventStatus(25000105) == 1) or 
+        (not GetEventStatus(25000100) and GetEventStatus(25000106) == 1), 20, 80000102, -1)
         
         # Leave
         AddTalkListData(99, 80000999, -1)
