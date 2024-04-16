@@ -18,6 +18,8 @@ Restore the NPC quests
 - Finish adding TAE documentation within the c0000 file
 - Add 'Statue of Marika' type assets by each boss fight
 
+- Check Flameless route
+
 Add:
 - Check mimic/chest script: prevent double awarding
 - Make Shadow Set less OP
@@ -26,7 +28,3 @@ Add:
  
 Bug:
 - Huntmaster Ava summons spawned within summon interaction (likely affects all summons)
-
-
-- Implement Flameless route
-- Add Deathless jail room

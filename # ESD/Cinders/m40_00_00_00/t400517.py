@@ -464,7 +464,7 @@ def t400517_x50():
         AddTalkListData(4, 15013004, -1)
         
         # Browse Items
-        AddTalkListData(5, 15013009, -1)
+        AddTalkListDataIf(GetEventStatus(25000105) == 1, 5, 15013009, -1)
         
         # Return
         AddTalkListData(99, 15000006, -1)
