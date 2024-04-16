@@ -5,6 +5,13 @@
 - Reduced FP cost of Skills to vanilla-esque levels.
 - Reduced enemy power curve so it is smoother and lower during the early game.
 
+# Journey Configuration
+- Deathless journey modifier, upon death will port you to the Abyss and prevent you from leaving, forcing the creation of a new character.
+
+# World
+- Removed the Spurned Shade mini-boss fight.
+- Ring of Betrothal is simply claimed from the friendly Spurned Shade within Firelink Shrine.
+
 # Bugfixes
 - Intruder boss bars now reset upon bonfire reset.
 - Fixed bug that caused Hitless challenge to be enabled when resting at the Dreg Heap bonfire.

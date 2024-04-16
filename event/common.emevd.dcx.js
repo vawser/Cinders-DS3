@@ -2206,19 +2206,35 @@ $Event(15000, Restart, function() {
 
 // Restriction - Deathless
 $Event(15001, Restart, function() {
-    // Deathless
-    if(EventFlag(25000111))
+    // Failed Deathless
+    if(EventFlag(25000132))
     {
-        SetSpEffect(10000, 200110100);
+        DisplayBanner(TextBannerType.BlackPhantomDeath);
         
-        WaitFor(CharacterHasSpEffect(10000, 112100, ComparisonType.Equal, 1));
+        SetSpEffect(10000, 200110101); // Apply warp item disable
         
-        SetEventFlag(25000132, ON);
-        
-        // TODO: change this to a proper location (this is from FATE)
-        //WarpPlayer(51, 1, 5110975);
-        //SetPlayerRespawnPoint(5112955);
+        // Warp player to abyss if not within the Abyss region
+        if(!InArea(10000, 4002934, 1))
+        {
+            SetPlayerRespawnPoint(4002971);
+            SetMapCeremony(40, 0, 10);
+            WarpPlayer(40, 0, 4000986);
+        }
     }
+    
+    // Deathless
+    WaitFor(EventFlag(25000111));
+    
+    DisplayBanner(TextBannerType.BeginMatch);
+    
+    SetSpEffect(10000, 200110100);
+    
+    WaitFor(CharacterHasSpEffect(10000, 112100, ComparisonType.Equal, 1) || CharacterDead(10000, ComparisonType.Equal, 1));
+    
+    DisplayBanner(TextBannerType.BeginMatch);
+    
+    SetEventFlag(25000132, ON);
+    SetSpEffect(10000, 200110101);
 });
 
 // Restriction - Hitless
@@ -2228,9 +2244,8 @@ $Event(15002, Restart, function() {
     {
         SetSpEffect(10000, 200110200);
         
-        DisplayBanner(TextBannerType.BeginMatch);
-        
         WaitFor(CharacterHasSpEffect(10000, 112101, ComparisonType.Equal, 1));
+        
         SetSpEffect(10000, 200110201);
     }
 });
@@ -11107,7 +11122,7 @@ $Event(20410, Restart, function() {
 // DEBUG
 //------------------------------------------------
 $Event(50000, Restart, function() {
-    //SetEventFlag(20001000, OFF);
+    //SetEventFlag(25001001, ON);
     
     //InitializeEvent(0, 50001, 0); // Instant Kill
     //InitializeEvent(0, 50002, 0); // Immunity to Damage

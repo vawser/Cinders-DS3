@@ -147,8 +147,8 @@ def t400515_x9():
     MainBonfireMenuFlag()
     ClearTalkListData()
     
-    # Face the Spurned Shade
-    AddTalkListData(1, 15003034, -1)
+    # Reclaim the Ring of Betrothal
+    AddTalkListDataIf(not IsEquipmentIDObtained(3, 2000), 1, 15003034, -1)
     
     # Leave
     AddTalkListData(99, 15000005, -1)
@@ -158,10 +158,9 @@ def t400515_x9():
     """State 1"""
     ShowShopMessage(1)
     
-    # Face the Spurned Shade
+    # Reclaim the Ring of Betrothal
     if GetTalkListEntryResult() == 1:
-        """State 2"""
-        SetEventState(25009760, 1)
+        GetItemFromItemLot(91000)
         return 0
     # Leave
     elif GetTalkListEntryResult() == 99:

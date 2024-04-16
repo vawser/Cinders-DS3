@@ -26,5 +26,7 @@ Add:
  
 Bug:
 - Huntmaster Ava summons spawned within summon interaction (likely affects all summons)
+
+
 - Implement Flameless route
 - Add Deathless jail room
