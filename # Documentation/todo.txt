@@ -15,12 +15,14 @@ Restore the NPC quests
 #----------------------------------------------
 # Notes
 #----------------------------------------------
-Bug:
-- Huntmaster Ava summons spawned within summon interaction (likely affects all summons)
-- Vordt boss bar disappears
-
 Notes:
 - Finish adding TAE documentation within the c0000 file
 - Add 'Statue of Marika' type assets by each boss fight
 - Check Flameless route
+
+Bug:
+- Huntmaster Ava summons spawned within summon interaction (likely affects all summons)
+- Swordmaster summon doesn't go through Vordt's fogwall
+- Vordt boss bar disappears
+- Crystal Sage crystals are oddly dark (lightmap issue?)
 

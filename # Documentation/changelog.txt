@@ -11,8 +11,20 @@
  - Gauntlet menu options are hidden if not in Gladiator mode.
 
 # Bosses
-- Adjusted boss HP to tune each encounter for the expected level of player power.
-- Aborr's dog now appears once Aborr is below 50% HP.
+ - Adjusted boss HP to tune each encounter for the expected level of player power.
+ 
+- Aborr:
+ - Aborr's dog now appears once Aborr is below 50% HP.
+
+- Deacons of the Deep:
+ - The Cathedral Knights can now harm the deacons.
+ - The Cathedral Knights will now die once the boss is defeated.
+ 
+# Summons
+- Summoned NPCs now have +75% absorption, making them much tankier.
+
+# Intruders
+- Hostile NPCs now have +25% absorption, making them tankier.
 
 # World
 - Removed the Spurned Shade mini-boss fight.

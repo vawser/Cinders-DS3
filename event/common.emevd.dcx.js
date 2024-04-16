@@ -11044,10 +11044,12 @@ $Event(50000, Restart, function() {
     //InitializeEvent(0, 50010, 0); // Disable Enemy AI
     //InitializeEvent(0, 50011, 0); // Hide Enemies
    
-    //ChangeCharacter(3200);
+    //ChangeCharacter(3201);
     //InitializeEvent(0, 50100, 0); // Unlock All Bonfires
     //InitializeEvent(0, 50101, 0); // Unlock All 
     //InitializeEvent(0, 50102, 0); // Give Warp Item
+    
+    //DirectlyGivePlayerItem(ItemType.Goods, 500, 6000, 4);
     
 });
 
