@@ -15,16 +15,14 @@ Restore the NPC quests
 #----------------------------------------------
 # Notes
 #----------------------------------------------
+Bug:
+- Huntmaster Ava summons spawned within summon interaction (likely affects all summons)
+
+Notes:
 - Finish adding TAE documentation within the c0000 file
 - Add 'Statue of Marika' type assets by each boss fight
-
 - Check Flameless route
 
 Add:
-- Check mimic/chest script: prevent double awarding
 - Make Shadow Set less OP
-- Go over enemy health and damage: 
- - in general enemy HP seems inflated
- 
-Bug:
-- Huntmaster Ava summons spawned within summon interaction (likely affects all summons)
+
