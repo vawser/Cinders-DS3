@@ -17,6 +17,7 @@ Restore the NPC quests
 #----------------------------------------------
 Bug:
 - Huntmaster Ava summons spawned within summon interaction (likely affects all summons)
+- Vordt boss bar disappears
 
 Notes:
 - Finish adding TAE documentation within the c0000 file
