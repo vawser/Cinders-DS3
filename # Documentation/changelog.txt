@@ -5,8 +5,10 @@
 - Reduced FP cost of Skills to vanilla-esque levels.
 - Reduced enemy power curve so it is smoother and lower during the early game.
 
-# Journey Configuration
-- Deathless journey modifier, upon death will port you to the Abyss and prevent you from leaving, forcing the creation of a new character.
+# Oathkeeper Xavius
+- Now appears in NG+1 and beyond.
+ - The tokens required for his shop also appear once per journey in NG+1 and beyond.
+ - Gauntlet menu options are hidden if not in Gladiator mode.
 
 # World
 - Removed the Spurned Shade mini-boss fight.
@@ -16,3 +18,5 @@
 - Intruder boss bars now reset upon bonfire reset.
 - Fixed bug that caused Hitless challenge to be enabled when resting at the Dreg Heap bonfire.
 - Essence of the Dark Soul now actually grants its effect.
+- Fixed bug that caused Accursed journey type to not add debuff items to the player.
+- Fixed bug that caused "Enter the Gauntlet" option with Oathkeeper Xavius to not function.

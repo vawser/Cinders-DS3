@@ -5012,7 +5012,7 @@ L0:
 });
 
 //----------------------------------
-// Gauntlet - Spawn Treasure
+// Gladiator Mode/NG+X - Spawn Treasure
 // <invisible entity>, <action button>, <selection value>, <itemlot>, <loot flag>
 //----------------------------------
 $Event(20006033, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
@@ -5022,8 +5022,8 @@ $Event(20006033, Default, function(X0_4, X4_4, X8_4, X12_4, X16_4) {
     EndIf(EventFlag(X16_4));
 
     // End if not in Gauntlet mode
-    EndIf(!CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1));
-
+    WaitFor(CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1) 
+    || EventFlag(51) || EventFlag(52) || EventFlag(53) || EventFlag(54) || EventFlag(55) || EventFlag(56) || EventFlag(57) || EventFlag(58) );
 
     // Goto label based on selection arg
     GotoIf(L1, 1 == X8_4);

@@ -2772,8 +2772,13 @@ $Event(20070, Restart, function() {
     SetEventFlag(13000009, OFF);
     SetEventFlag(13000000, OFF);
     SetEventFlag(13100004, OFF);
-    SetEventFlag(14700000, ON);
-    SetEventFlag(15300000, ON);
+    
+    SetEventFlag(25009850, ON); // Bonfire: Smithbox
+    SetEventFlag(25009851, ON); // Bonfire: Sorcerer's Spellkit
+    SetEventFlag(25009852, ON); // Bonfire: Pyromancer's Spellkit
+    SetEventFlag(25009853, ON); // Bonfire: Priests' Spellkit
+    SetEventFlag(25009854, ON); // Bonfire: Hexer's Spellkit
+    SetEventFlag(25009855, ON); // Bonfire: Hunter's Toolkit
 
     EndIf(EventFlag(flag_Gauntlet_Setup_Completed));
 
@@ -2812,9 +2817,10 @@ $Event(20071, Restart, function() {
     const flag_EndlessGauntlet  = 25003202;
     const flag_DisableDLCBosses = 25009805;
 
+    WaitFixedTimeSeconds(1.0);
     EndIf(!CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1));
 
-    // Wait fo trigger
+    // Wait for trigger
     WaitFor(CharacterHasSpEffect(10000, 260120000));
 
     // End if neither Set or Endless Gauntlet are ON
@@ -3052,6 +3058,7 @@ $Event(20072, Restart, function() {
     const flag_RandomOrder  = 25003201;
     const flag_DisableDLCBosses = 25009805;
 
+    WaitFixedTimeSeconds(1.0);
     EndIf(!CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1));
 
     // Wait for trigger
@@ -3395,6 +3402,7 @@ $Event(20073, Restart, function() {
     const flag_EndlessReverse = 25003204;
     const flag_DisableDLCBosses = 25009805;
 
+    WaitFixedTimeSeconds(1.0);
     EndIf(!CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1));
 
     // Wait for trigger
@@ -3632,82 +3640,13 @@ $Event(20073, Restart, function() {
 // Gauntlet Mode - Reset Progress
 //----------------------------------------------
 $Event(20079, Restart, function() {
+    WaitFixedTimeSeconds(1.0);
+    
     EndIf(!CharacterHasSpEffect(10000, 200104000, ComparisonType.Equal, 1));
 
     WaitFor(CharacterHasSpEffect(10000, 260120020));
 
     BatchSetEventFlags(25002000, 25002050, OFF);
-});
-
-//----------------------------------------------
-// Script Tool
-//----------------------------------------------
-$Event(20060, Default, function(X0_4) {
-    SetNetworkSyncState(Disabled);
-    WaitFor(CharacterHasSpEffect(X0_4, 160710000));
-
-    SetEventFlag(24007000, ON);
-
-    //ChangeCharacterEnableState(4000899, Enabled);
-    //SetCharacterAnimationState(4000899, Enabled);
-    //SetCharacterAIState(4000899, Enabled);
-
-    RestartEvent();
-});
-
-//----------------------------------------------
-// Screenshot Tool
-//----------------------------------------------
-$Event(20061, Default, function(X0_4) {
-    SetNetworkSyncState(Disabled);
-    WaitFor(CharacterHasSpEffect(X0_4, 160710107));
-
-    WarpPlayer(40, 0, 4000986);
-    SetMapCeremony(40, 0, 10);
-
-    SetEventFlag(25008800, ON);
-
-    RestartEvent();
-});
-
-//----------------------------------------------
-// Treasure Tool
-//----------------------------------------------
-$Event(20062, Default, function(X0_4) {
-    SetNetworkSyncState(Disabled);
-    WaitFor(CharacterHasSpEffect(X0_4, 160710108));
-
-    BatchSetEventFlags(53000000, 53002999, OFF);
-    BatchSetEventFlags(53010000, 53012999, OFF);
-    BatchSetEventFlags(53100000, 53102999, OFF);
-    BatchSetEventFlags(53200000, 53202999, OFF);
-    BatchSetEventFlags(53300000, 53302999, OFF);
-    BatchSetEventFlags(53410000, 53412999, OFF);
-    BatchSetEventFlags(53500000, 53502999, OFF);
-    BatchSetEventFlags(53700000, 53702999, OFF);
-    BatchSetEventFlags(53800000, 53802999, OFF);
-    BatchSetEventFlags(53900000, 53902999, OFF);
-    BatchSetEventFlags(54000000, 54002999, OFF);
-    BatchSetEventFlags(54100000, 54102999, OFF);
-    BatchSetEventFlags(54500000, 54502999, OFF);
-    BatchSetEventFlags(55000000, 55002999, OFF);
-    BatchSetEventFlags(55100000, 55102999, OFF);
-    BatchSetEventFlags(55110000, 55112999, OFF);
-
-    RestartEvent();
-});
-
-//----------------------------------------------
-// NG+ Tool
-//----------------------------------------------
-$Event(20063, Default, function(X0_4) {
-    SetNetworkSyncState(Disabled);
-    WaitFor(CharacterHasSpEffect(X0_4, 160710109));
-
-    SetEventFlag(74000012, ON);
-    SetEventFlag(14005617, OFF);
-
-    RestartEvent();
 });
 
 //----------------------------------------------

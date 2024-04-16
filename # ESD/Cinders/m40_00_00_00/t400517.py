@@ -147,20 +147,20 @@ def t400517_x9():
         ClearTalkListData()
         
         # Enter the Gauntlet (Set)
-        AddTalkListDataIf(GetEventStatus(25003200) == 1, 60, 99060110, -1)
+        AddTalkListDataIf(GetEventStatus(25000105) == 1 and GetEventStatus(25003200) == 1, 60, 99060110, -1)
         # Enter the Gauntlet (Random)
-        AddTalkListDataIf(GetEventStatus(25003201) == 1, 61, 99060110, -1)
+        AddTalkListDataIf(GetEventStatus(25000105) == 1 and GetEventStatus(25003201) == 1, 61, 99060110, -1)
         # Enter the Gauntlet (Endless)
-        AddTalkListDataIf(GetEventStatus(25003202) == 1, 62, 99060110, -1)
+        AddTalkListDataIf(GetEventStatus(25000105) == 1 and GetEventStatus(25003202) == 1, 62, 99060110, -1)
         # Enter the Gauntlet (Reverse Set)
-        AddTalkListDataIf(GetEventStatus(25003203) == 1, 63, 99060110, -1)
+        AddTalkListDataIf(GetEventStatus(25000105) == 1 and GetEventStatus(25003203) == 1, 63, 99060110, -1)
         # Enter the Gauntlet (Reverse Endless)
-        AddTalkListDataIf(GetEventStatus(25003204) == 1, 64, 99060110, -1)
+        AddTalkListDataIf(GetEventStatus(25000105) == 1 and GetEventStatus(25003204) == 1, 64, 99060110, -1)
         # Enter the Gauntlet (Boss Select)
-        AddTalkListDataIf(GetEventStatus(25003205) == 1, 65, 99060110, -1)
+        AddTalkListDataIf(GetEventStatus(25000105) == 1 and GetEventStatus(25003205) == 1, 65, 99060110, -1)
         
         # Gauntlet Configuration
-        AddTalkListData(53, 99060126, -1)
+        AddTalkListDataIf(GetEventStatus(25000105) == 1, 53, 99060126, -1)
         
         # Browse Inventory
         AddTalkListData(54, 99060127, -1)
@@ -226,7 +226,10 @@ def t400517_x9():
         # Talk
         elif GetTalkListEntryResult() == 2:
             """State 11"""
-            assert t400517_x10(text1=10134000, flag1=0, mode1=0)
+            if GetEventStatus(25000105) == 1:
+                assert t400517_x10(text1=10134000, flag1=0, mode1=0)
+            else:
+                assert t400517_x10(text1=10134010, flag1=0, mode1=0)
         # Leave
         elif GetTalkListEntryResult() == 99:
             """State 12"""
@@ -460,9 +463,6 @@ def t400517_x50():
         # Browse Accessories
         AddTalkListData(4, 15013004, -1)
         
-        # Browse Covenant Accessories
-        AddTalkListData(6, 15013011, -1)
-        
         # Browse Items
         AddTalkListData(5, 15013009, -1)
         
@@ -490,10 +490,6 @@ def t400517_x50():
         elif GetTalkListEntryResult() == 4:
             """State 7"""
             OpenTranspositionShop(802000, 802999)
-        # Browse Covenant Accessories
-        elif GetTalkListEntryResult() == 6:
-            """State 9"""
-            OpenTranspositionShop(804500, 804699)
         # Browse Items
         elif GetTalkListEntryResult() == 5:
             """State 10"""
