@@ -19,80 +19,122 @@ $Event(0, Default, function() {
     InitializeEvent(0, 9570, 4500, 3740); // Forked Pale Tongue
     InitializeEvent(1, 9570, 4510, 3750); // Proof of a Concord Well Kept
 
-    // Debug
-    InitializeEvent(0, 50000, 0);
+    //--- Player ---
+    InitializeEvent(0, 10000, 0); // Player Flags: Initial Setup
+    InitializeEvent(0, 10001, 0); // Player Flags: On Load
+    InitializeEvent(0, 10002, 0); // Player State: On Load
+    InitializeEvent(0, 10003, 0); // Player State: Loop
+    InitializeEvent(0, 10004, 0); // Player Castigations: Loop
+    InitializeEvent(0, 10005, 0); // Player Restriction: Flameless
+    InitializeEvent(0, 10006, 0); // Player Restriction: Deathless
+    InitializeEvent(0, 10007, 0); // Player Restriction: Hitless
+    InitializeEvent(0, 10008, 0); // Player State: Bonfire Turn-Ins
+    InitializeEvent(0, 10009, 0); // Player State: Bloodborne Dash
+    InitializeEvent(0, 10010, 160100102, 372);   // Covenant Drop: Darkmoon Faithful
+    InitializeEvent(1, 10010, 160100202, 366);   // Covenant Drop: Watchdogs of Farron
+    InitializeEvent(2, 10010, 160100302, 367);   // Covenant Drop: Aldrich Faithful 
+    InitializeEvent(3, 10010, 160100402, 375);   // Covenant Drop: Warrior of Sunlight
+    InitializeEvent(4, 10010, 160100502, 374);   // Covenant Drop: Mound-makers
+    InitializeEvent(5, 10010, 160100602, 383);   // Covenant Drop: Thieves' Pact
+    InitializeEvent(6, 10010, 160100702, 1060);  // Covenant Drop: Chaos Servant
+    InitializeEvent(7, 10010, 160100802, 373);   // Covenant Drop: Rosaria's Fingers
+    InitializeEvent(8, 10010, 160101802, 379);   // Covenant Drop: Spears of the Church
+    InitializeEvent(9, 10010, 160100902, 1070);  // Covenant Drop: Vinheim Scholars 
+    InitializeEvent(10, 10010, 160101002, 1080); // Covenant Drop: Pilgrims of Dark
+    InitializeEvent(11, 10010, 160101102, 1090); // Covenant Drop: Way of White
+    InitializeEvent(12, 10010, 160101202, 4015); // Covenant Drop: Dragon Remnants
+    InitializeEvent(13, 10010, 160101302, 372);  // Covenant Drop: Blue Sentinels
+    InitializeEvent(14, 10010, 160101402, 384);  // Covenant Drop: Way of Blue
+    InitializeEvent(15, 10010, 160101502, 365);  // Covenant Drop: Company of Champions
+    InitializeEvent(16, 10010, 160101602, 381);  // Covenant Drop: Servant of the Rat
+    InitializeEvent(17, 10010, 160101702, 382);  // Covenant Drop: Ritualist Pact
+    InitializeEvent(0, 10011, 0); // Covenant Drop: Thieves' Pact Consumables
+    InitializeEvent(0, 10012, 0); // Covenant Drop: Way of Blue Consumables
     
-    // Kill Tracker
-    SetSpEffect(10000, 200000010);
+    InitializeEvent(0, 50000, 0); // Player State: Debugging
     
-    // Estus Charge
-    SetSpEffect(10000, 200000020);
-    SetSpEffect(10000, 200000021);
+    //--- Enemy ---
+    InitializeEvent(0, 10100, 0); // Enemy State: On Load
+    InitializeEvent(0, 10101, 0); // Enemy State: Loop
+    InitializeEvent(0, 10102, 0); // Enemy Castigations - Loop
+    InitializeEvent(0, 10103, 0); // Enemy Castigations - Feeding Frenzy Loop
+    InitializeEvent(0, 10104, 160101502, 160101503); // Enemy State: Company of Champions
+    InitializeEvent(0, 10105, 3605850, 51); // Enemy State: NG+1
+    InitializeEvent(1, 10105, 3605851, 52); // Enemy State: NG+2
+    InitializeEvent(2, 10105, 3605852, 53); // Enemy State: NG+3
     
-    InitializeEvent(0, 10001, 0); // Effect: Player
-    InitializeEvent(0, 10002, 0); // Effect: Enemy
-    InitializeEvent(0, 10003, 0); // Disabled by Default
+    //--- Items ---
+    InitializeEvent( 0, 10100, 200700000, 2400, 240); // Item Reward: Apprentice's Scroll
+    InitializeEvent( 1, 10100, 200700001, 2401, 250); // Item Reward: Scholar's Scroll
+    InitializeEvent( 2, 10100, 200700002, 2402, 260); // Item Reward: Farron Scroll
+    InitializeEvent( 3, 10100, 200700003, 2403, 270); // Item Reward: Assassin's Scroll
+    InitializeEvent( 4, 10100, 200700004, 2404, 200); // Item Reward: Sage's Scroll
+    InitializeEvent( 6, 10100, 200700005, 2405, 220); // Item Reward: Logan's Scroll
+    InitializeEvent( 7, 10100, 200700006, 2406, 210); // Item Reward: Golden Scroll
+    InitializeEvent( 8, 10100, 200700007, 2407, 230); // Item Reward: Crystal Scroll
     
-    // Bonfire Key Items
-    InitializeEvent(0, 20005, 0);
+    InitializeEvent( 9, 10100, 200700008, 2410, 300); // Item Reward: Divine Tome of Carim
+    InitializeEvent(10, 10100, 200700009, 2411, 310); // Item Reward: Divine Tome of Lothric
+    InitializeEvent(11, 10100, 200700010, 2412, 320); // Item Reward: Humble Divine Tome
+    InitializeEvent(12, 10100, 200700011, 2413, 340); // Item Reward: Divine Tome of Astora
+    InitializeEvent(13, 10100, 200700012, 2414, 330); // Item Reward: Divine Tome of Sunlight
+    InitializeEvent(14, 10100, 200700013, 2415, 350); // Item Reward: Angelic Divine Tome
+    InitializeEvent(15, 10100, 200700014, 2416, 360); // Item Reward: Wrathful Divine Tome
     
-    // BB Dodge Toggle
-    InitializeEvent(0, 20006, 0); 
+    InitializeEvent(16, 10100, 200700015, 2420, 440); // Item Reward: Simple Pyromancy Tome
+    InitializeEvent(17, 10100, 200700016, 2421, 400); // Item Reward: Great Swamp Pyromancy Tome
+    InitializeEvent(18, 10100, 200700017, 2422, 410); // Item Reward: Carthus Pyromancy Tome
+    InitializeEvent(19, 10100, 200700018, 2423, 420); // Item Reward: Izalith Pyromancy Tome
+    InitializeEvent(20, 10100, 200700019, 2424, 430); // Item Reward: Quelana Pyromancy Tome
+    InitializeEvent(21, 10100, 200700020, 2425, 450); // Item Reward: Burnt Pyromany Tome
+    InitializeEvent(22, 10100, 200700021, 2426, 460); // Item Reward: Dusty Pyromancy Tome
+    InitializeEvent(23, 10100, 200700022, 2427, 470); // Item Reward: Earthen Pyromancy Tome
+    InitializeEvent(24, 10100, 200700023, 2428, 480); // Item Reward: Muddy Pyromancy Tome
+    
+    InitializeEvent(25, 10100, 200700024, 2430, 500); // Item Reward: Black Tome of the Deep
+    InitializeEvent(26, 10100, 200700025, 2431, 510); // Item Reward: Black Tome of Despair
+    InitializeEvent(27, 10101, 200700026, 2432, 520); // Item Reward: Black Tome of Yearning
+    InitializeEvent(28, 10100, 200700027, 2433, 530); // Item Reward: Black Tome of the Abyss
+    
+    InitializeEvent(29, 10100, 200700028, 2440, 600); // Item Reward: Black Tome of the Accursed
+    InitializeEvent(30, 10100, 200700029, 2441, 610); // Item Reward: Black Tome of the Grave Warden
+    
+    InitializeEvent(31, 10100, 200700030, 2450, 700); // Item Reward: Gnawing Tome of Famine
+    InitializeEvent(32, 10100, 200700031, 2451, 710); // Item Reward: Gnawing Tome of Agony
+    InitializeEvent(33, 10100, 200700032, 2452, 720); // Item Reward: Gnawing Tome of Londor
+    
+    InitializeEvent( 0, 14020, 25000900, 110); // Item Drop: Abyssal Maw
+    InitializeEvent( 1, 14020, 25000901, 110); // Item Drop: Brittle Bones
+    InitializeEvent( 2, 14020, 25000902, 120); // Item Drop: Fresh Meat
+    InitializeEvent( 3, 14020, 25000903, 120); // Item Drop: Fading Flasks
+    InitializeEvent( 4, 14020, 25000904, 120); // Item Drop: Lethargic Mind
+    InitializeEvent( 5, 14020, 25000905, 110); // Item Drop: Wounded Fury
+    InitializeEvent( 6, 14020, 25000906, 110); // Item Drop: Thick Hides
+    InitializeEvent( 7, 14020, 25000907, 110); // Item Drop: Stout Hearts
+    InitializeEvent( 8, 14020, 25000908, 110); // Item Drop: Regenerative Skin
+    InitializeEvent( 9, 14020, 25000909, 120); // Item Drop: Spectral Shift
+    InitializeEvent(10, 14020, 25000910, 120); // Item Drop: Relentlessness
+    InitializeEvent(11, 14020, 25000911, 120); // Item Drop: Alacrity
+    InitializeEvent(12, 14020, 25000912, 120); // Item Drop: Feeding Frenzy
+    
+    InitializeEvent(0, 20040, 0); // Crown of the Great Lord
+    InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame    
+    InitializeEvent(0, 20048, 0); // Frostbite Removal
 
-    // Restrictions
-    InitializeEvent(0, 15000, 0);
-    InitializeEvent(0, 15001, 0);
-    InitializeEvent(0, 15002, 0);
+    //--- World ---
+    InitializeEvent(0, 10200, 0); // m41 Ceremony Handler
     
-    // Covenant
-    InitializeEvent(0, 20007, 160100102, 372); // Darkmoon Faithful
-    InitializeEvent(1, 20007, 160100202, 366); // Watchdogs of Farron
-    InitializeEvent(2, 20007, 160100302, 367); // Aldrich Faithful 
-    InitializeEvent(3, 20007, 160100402, 375); // Warrior of Sunlight
-    InitializeEvent(4, 20007, 160100502, 374); // Mound-makers
-    InitializeEvent(5, 20007, 160100602, 383); // Thieves' Pact
-    InitializeEvent(6, 20007, 160100702, 1060); // Chaos Servant
-    InitializeEvent(7, 20007, 160100802, 373); // Rosaria's Fingers
-    InitializeEvent(8, 20007, 160101802, 379); // Spears of the Church
-    InitializeEvent(9, 20007, 160100902, 1070); // Vinheim Scholars 
-    InitializeEvent(10, 20007, 160101002, 1080); // Pilgrims of Dark
-    InitializeEvent(11, 20007, 160101102, 1090); // Way of White
-    InitializeEvent(12, 20007, 160101202, 4015); // Dragon Remnants
-    InitializeEvent(13, 20007, 160101302, 372); // Blue Sentinels
-    InitializeEvent(14, 20007, 160101402, 384); // Way of Blue
-    InitializeEvent(15, 20007, 160101502, 365); // Company of Champions
-    InitializeEvent(16, 20007, 160101602, 381); // Servant of the Rat
-    InitializeEvent(17, 20007, 160101702, 382); // Ritualist Pact
+    //--- Misc ---
+    InitializeEvent(0, 20300, 0); // Achievements
+    InitializeEvent(0, 20400, 0); // Restraints
 
-    InitializeEvent(0, 20008, 0); // Thieves' Pact Drops
-    InitializeEvent(0, 20009, 0); // Way of Blue Drops
-    
-    //--------------------
-    // Rhythmic Attacks
-    //--------------------
-    InitializeEvent(0, 20410, 0); // Setup
-    
-    //--------------------
-    // Achievements
-    //--------------------
-    InitializeEvent(0, 20300, 0); // Setup
-
-    //--------------------
-    // Restraints
-    //--------------------
-    InitializeEvent(0, 20400, 0); // Setup
-
-    //--------------------
-    // Visual Effects
-    //--------------------
+    //--- Visual Overrides ---
     InitializeEvent(0, 20201, 0); // Clear Visual Transformations
     InitializeEvent(0, 20202, 0); // Clear Armor Transformations
     InitializeEvent(0, 20203, 0); // Clear Head Armor Transformations
     InitializeEvent(0, 20204, 0); // Clear Body Armor Transformations
-
     InitializeEvent(0, 20210, 0); // Weapon Emission - Monitor
     InitializeEvent(0, 20211, 0); // Infusion Emission - Monitor
-
     InitializeEvent(0, 20220, 0); // Body Emission - Monitor
     InitializeEvent(0, 20230, 0); // Eye Emission - Monitor
     InitializeEvent(0, 20240, 0); // Body Aura - Monitor
@@ -101,91 +143,11 @@ $Event(0, Default, function() {
     InitializeEvent(0, 20270, 0); // Body Tint - Monitor
     InitializeEvent(0, 20280, 0); // Head Armor - Monitor
     InitializeEvent(0, 20290, 0); // Body Armor - Monitor
-
     InitializeEvent(0, 20600, 0); // FOV - Monitor
+    InitializeEvent(0, 20601, 0); // FOV - Handle Flags
+    InitializeEvent(0, 20602, 0); // FOV - Numbness
     
-    // NG+
-    InitializeEvent(0, 14050, 3605850, 25000011);
-    InitializeEvent(1, 14050, 3605851, 25000012);
-    InitializeEvent(2, 14050, 3605852, 25000013);
-    
-    // Castigations
-    InitializeEvent(0, 14000, 0); // Castigations - Player
-    InitializeEvent(0, 14010, 0); // Castigations - Enemy
-    InitializeEvent(0, 14011, 0); // Castigations - Feeding Frenzy
-    
-    InitializeEvent( 0, 14020, 25000900, 110); // Abyssal Maw
-    InitializeEvent( 1, 14020, 25000901, 110); // Brittle Bones
-    InitializeEvent( 2, 14020, 25000902, 120); // Fresh Meat
-    InitializeEvent( 3, 14020, 25000903, 120); // Fading Flasks
-    InitializeEvent( 4, 14020, 25000904, 120); // Lethargic Mind
-    InitializeEvent( 5, 14020, 25000905, 110); // Wounded Fury
-    InitializeEvent( 6, 14020, 25000906, 110); // Thick Hides
-    InitializeEvent( 7, 14020, 25000907, 110); // Stout Hearts
-    InitializeEvent( 8, 14020, 25000908, 110); // Regenerative Skin
-    InitializeEvent( 9, 14020, 25000909, 120); // Spectral Shift
-    InitializeEvent(10, 14020, 25000910, 120); // Relentlessness
-    InitializeEvent(11, 14020, 25000911, 120); // Alacrity
-    InitializeEvent(12, 14020, 25000912, 120); // Feeding Frenzy
-    
-    InitializeEvent( 0, 14030, 160101502, 160101503); // Company of Champions
-    
-    // Tome Unlocks
-    InitializeEvent( 0, 10010, 200700000, 2400, 240); // Apprentice's Scroll
-    InitializeEvent( 1, 10010, 200700001, 2401, 250); // Scholar's Scroll
-    InitializeEvent( 2, 10010, 200700002, 2402, 260); // Farron Scroll
-    InitializeEvent( 3, 10010, 200700003, 2403, 270); // Assassin's Scroll
-    InitializeEvent( 4, 10010, 200700004, 2404, 200); // Sage's Scroll
-    InitializeEvent( 6, 10010, 200700005, 2405, 220); // Logan's Scroll
-    InitializeEvent( 7, 10010, 200700006, 2406, 210); // Golden Scroll
-    InitializeEvent( 8, 10010, 200700007, 2407, 230); // Crystal Scroll
-    
-    InitializeEvent( 9, 10010, 200700008, 2410, 300); // Divine Tome of Carim
-    InitializeEvent(10, 10010, 200700009, 2411, 310); // Divine Tome of Lothric
-    InitializeEvent(11, 10010, 200700010, 2412, 320); // Humble Divine Tome
-    InitializeEvent(12, 10010, 200700011, 2413, 340); // Divine Tome of Astora
-    InitializeEvent(13, 10010, 200700012, 2414, 330); // Divine Tome of Sunlight
-    InitializeEvent(14, 10010, 200700013, 2415, 350); // Angelic Divine Tome
-    InitializeEvent(15, 10010, 200700014, 2416, 360); // Wrathful Divine Tome
-    
-    InitializeEvent(16, 10010, 200700015, 2420, 440); // Simple Pyromancy Tome
-    InitializeEvent(17, 10010, 200700016, 2421, 400); // Great Swamp Pyromancy Tome
-    InitializeEvent(18, 10010, 200700017, 2422, 410); // Carthus Pyromancy Tome
-    InitializeEvent(19, 10010, 200700018, 2423, 420); // Izalith Pyromancy Tome
-    InitializeEvent(20, 10010, 200700019, 2424, 430); // Quelana Pyromancy Tome
-    InitializeEvent(21, 10010, 200700020, 2425, 450); // Burnt Pyromany Tome
-    InitializeEvent(22, 10010, 200700021, 2426, 460); // Dusty Pyromancy Tome
-    InitializeEvent(23, 10010, 200700022, 2427, 470); // Earthen Pyromancy Tome
-    InitializeEvent(24, 10010, 200700023, 2428, 480); // Muddy Pyromancy Tome
-    
-    InitializeEvent(25, 10010, 200700024, 2430, 500); // Black Tome of the Deep
-    InitializeEvent(26, 10010, 200700025, 2431, 510); // Black Tome of Despair
-    InitializeEvent(27, 10010, 200700026, 2432, 520); // Black Tome of Yearning
-    InitializeEvent(28, 10010, 200700027, 2433, 530); // Black Tome of the Abyss
-    
-    InitializeEvent(29, 10010, 200700028, 2440, 600); // Black Tome of the Accursed
-    InitializeEvent(30, 10010, 200700029, 2441, 610); // Black Tome of the Grave Warden
-    
-    InitializeEvent(31, 10010, 200700030, 2450, 700); // Gnawing Tome of Famine
-    InitializeEvent(32, 10010, 200700031, 2451, 710); // Gnawing Tome of Agony
-    InitializeEvent(33, 10010, 200700032, 2452, 720); // Gnawing Tome of Londor
-    
-    //--------------------
-    // Items
-    //--------------------
-    InitializeEvent(0, 20040, 0); // Crown of the Great Lord
-    InitializeEvent(0, 20042, 0); // Pyromancer's Parting Flame    
-    InitializeEvent(0, 20048, 0); // Frostbite Removal
-
-    //--------------------
-    // Camera Effects
-    //--------------------
-    InitializeEvent(0, 20601, 0); // Handle Flags
-    InitializeEvent(0, 20602, 0); // Numbness
-    
-    //----------------------
-    // Accursed - Detriment System
-    //----------------------
+    ///--- Detriments ---
     InitializeEvent(0, 12000, 0); // Award Notes after Death
     
     InitializeEvent( 0, 12010, 8000, 200600000, 20000400); // HP Reduction
@@ -235,33 +197,21 @@ $Event(0, Default, function() {
     InitializeEvent(37, 12010, 8038, 200600038, 20000380); // Clumsy Form
     InitializeEvent(38, 12010, 8039, 200600039, 20000390); // Tourist
     
-    InitializeEvent(0, 20003, 0); // Ceremony Handler
-    
-    //--------------------
-    // Alyx the Wandering Merchant
-    //--------------------
+    //--- Merchant Stock ---
+    // Alyx
     BatchSetEventFlags(25000070, 25000074, OFF);
     RandomlySetEventFlagInRange(25000070, 25000074, ON);
-    
     
     //-----------------------------------
     // Run for Host only
     //-----------------------------------
     EndIf(HasMultiplayerState(MultiplayerState.Client));
     EndIf(EventFlag(2052));
+    
+    //--- Starting Location ---
+    InitializeEvent(0, 20059, 0);
 
-    //--------------------
-    // Setup
-    //--------------------
-    InitializeEvent(0, 20001, 0); // Game Flags - Once
-    InitializeEvent(0, 20002, 0); // Game Flags - On 
-
-    //--------------------
-    // Journey Configuration
-    //--------------------
-    InitializeEvent(0, 20059, 0); // Starting Location
-
-    // Gauntlet Features
+    //--- Gladiator Mode ---
     InitializeEvent(0, 20070, 0); // Gauntlet Mode
     InitializeEvent(0, 20071, 0); // Gauntlet Mode - Set/Endless Gauntlet
     InitializeEvent(0, 20072, 0); // Gauntlet Mode - Random Gauntlet
@@ -269,7 +219,7 @@ $Event(0, Default, function() {
 
     InitializeEvent(0, 20079, 0); // Gauntlet Mode - Reset Progress
 
-    // Boon Effects
+    //--- Wanderer Mode ---
     InitializeEvent(0, 20081, 41000, 260110000, 260110100); // Corrupted Gundyr
     InitializeEvent(1, 20081, 41001, 260110001, 260110101); // Vordt
     InitializeEvent(2, 20081, 41002, 260110002, 260110102); // Rotted Greatwood
@@ -305,9 +255,7 @@ $Event(0, Default, function() {
     InitializeEvent(32, 20081, 41032, 260110033, 260110133); // Marauder
     InitializeEvent(33, 20081, 41033, 260110020, 260110120); // Lordran Remnants
 
-    //--------------------
-    // Boss Revival
-    //--------------------
+    //--- Boss Revival ---
     InitializeEvent(0, 20100, 0); // Corrupted Gundyr
     InitializeEvent(0, 20101, 0); // Vordt
     InitializeEvent(0, 20102, 0); // Curse-rotted Greatwood
@@ -345,7 +293,7 @@ $Event(0, Default, function() {
     InitializeEvent(0, 20134, 0); // Titanite Abomination
     InitializeEvent(0, 20135, 0); // The Marauder
 
-    // Sin
+    //--- Sin ---
     InitializeEvent(0, 9004, 9007); // Sin - Check Hostility
     InitializeEvent(0, 9005, 9008); // Sin - Check Hostility
     InitializeEvent(0, 9006, 9009); // Sin - Check Hostility
@@ -353,7 +301,7 @@ $Event(0, Default, function() {
     InitializeEvent(0, 9002, 9003); // Clear Sin
     InitializeEvent(0, 9010, 0); // Sin - Shrine Handmaid Price Increase
 
-    // Boss Defeat - Award Items
+    //--- Boss Rewards ---
     InitializeEvent(0, 970, 13000800, 2000, 0, 0); // Vordt
     InitializeEvent(1, 970, 13000890, 2010, 0, 0); // Dancer
     InitializeEvent(2, 970, 13000830, 2020, 0, 0); // Oceiros
@@ -391,7 +339,7 @@ $Event(0, Default, function() {
     //InitializeEvent(35, 970, 13200880, 2440, 0, 0); // UNUSED
     InitializeEvent(36, 970, 14000850, 2450, 0, 0); // The Marauder
 
-    // Game Progress Flags
+    //--- Game Progress Flags ---
     InitializeEvent(0, 6100, 6100, 13300800); // Abyss Watcher
     InitializeEvent(1, 6100, 6101, 13900800); // Yhorm
     InitializeEvent(2, 6100, 6102, 13700800); // Aldrich
@@ -409,18 +357,18 @@ $Event(0, Default, function() {
     InitializeEvent(0, 702, 0); // Unknown
     InitializeEvent(0, 710, 0); // Warp to Dancer
 
-    // Phantoms
+    //--- Phantoms ---
     InitializeEvent(0, 9510, 0); // NPC - Sirris
     InitializeEvent(0, 9511, 0); // NPC - Longfinger Kirk
     InitializeEvent(0, 9512, 0); // NPC - Londor Pale Shade
 
-    // Gestures
+    //--- Gestures ---
     InitializeEvent(0, 9520, 4410, 8, 9013, 6058); // Yellowfinger Heysel - Proper bow
     InitializeEvent(0, 9525, 4430, 4, 9005, 6054); // Londor Pale Shade - Duel bow
     InitializeEvent(0, 9530, 4420, 18, 9020, 6068); // Black Hand Gotthard - By my sword
     InitializeEvent(0, 9540, 15, 9017, 6065); // Knight Slayer Tsorig - My thanks!
 
-    // NPC Flags
+    ///--- NPC Flags ---
     InitializeEvent(0, 9100, 70000007); // Hawkwood
     InitializeEvent(0, 9101, 70000008); // Sirris
     InitializeEvent(0, 9102, 70000012); // Greirat
@@ -437,7 +385,7 @@ $Event(0, Default, function() {
     InitializeEvent(0, 9113, 70000030); // Lapp
     InitializeEvent(0, 9114, 70000031); // Shria
 
-    // Boss Kill Count Trackers
+    //--- Boss Kill Trackers ---
     InitializeEvent(0, 9120, 74000756, 74000760, 74000760, 1, 1, 1, 0); // Sirris
     InitializeEvent(1, 9120, 74000591, 74000552, 74000592, 3, 3, 3, 0); // 
     InitializeEvent(2, 9120, 74000552, 74000553, 74000592, 3, 3, 6, 0); // Orbeck
@@ -1805,15 +1753,12 @@ $Event(870, Default, function(X0_1, X4_4) {
 });
 
 //------------------------------------------------
-// Game Flags - Once
+// Player Configuration
 //------------------------------------------------
-$Event(20001, Default, function() {
+// Player Flags - Initial Setup
+$Event(10000, Default, function() {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
     EndIf(EventFlag(25000099));
-
-    const flag_NeverDied           = 25000030;
-    const flag_NeverHit            = 25000031;
-    const flag_TranspositionActive = 74000171;
-    const flag_CoiledSword_Placed  = 14000101;
 
     // Infusion availability
     SetEventFlag(300, ON);
@@ -1825,10 +1770,8 @@ $Event(20001, Default, function() {
     SetEventFlag(25000060, ON);
 
     // Game State
-    SetEventFlag(flag_NeverDied, ON);
-    SetEventFlag(flag_NeverHit, ON);
-    SetEventFlag(flag_TranspositionActive, ON);
-    SetEventFlag(flag_CoiledSword_Placed, ON);
+    SetEventFlag(74000171, ON); // Transposition
+    SetEventFlag(14000101, ON); // Coiled Sword placed
 
     // Bonfire Unlocks
     SetEventFlag(13100004, ON); // Undead Settlement
@@ -1837,79 +1780,39 @@ $Event(20001, Default, function() {
     // No Perspective override set
     SetEventFlag(25007370, ON);
 
-    SetEventFlag(25000099, ON); // Execution flag
+    SetEventFlag(25000099, ON);
 });
 
-//------------------------------------------------
-// Game Flags - On Load
-//------------------------------------------------
-$Event(20002, Restart, function() {
-    // Random Flag - Used for Flirt/Crow Drop Type
-    BatchSetEventFlags(25008900, 25008902, OFF); // Reset
-    RandomlySetEventFlagInRange(25008900, 25008902, ON); // Outcome
-
-    // Memories
-    //SetEventFlag(14700000, ON);
-    //SetEventFlag(15300000, ON);
-    //SetEventFlag(15400000, ON);
-
-    // Reset boss fight status flags used by Phantoms
-    SetEventFlag(25001100, OFF);
-    SetEventFlag(25001110, OFF);
-
-    // Batch Flag Sets
-    BatchSetEventFlags(25000011, 25000017, OFF); // Reset NG+ flags
-
-    // Conditional Flag Sets
-    WaitFor(GameCycle() >= 2);
-    SetEventFlag(25000011, ON); // NG+1
-
-    WaitFor(GameCycle() >= 3);
-    SetEventFlag(25000012, ON); // NG+2
-
-    WaitFor(GameCycle() >= 4);
-    SetEventFlag(25000013, ON); // NG+3
-
-    WaitFor(GameCycle() >= 5);
-    SetEventFlag(25000014, ON); // NG+4
-
-    WaitFor(GameCycle() >= 6);
-    SetEventFlag(25000015, ON); // NG+5
-
-    WaitFor(GameCycle() >= 7);
-    SetEventFlag(25000016, ON); // NG+6
-
-    WaitFor(GameCycle() >= 8);
-    SetEventFlag(25000017, ON); // NG+7
+// Player Flags - On Load
+$Event(10001, Restart, function() {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
+    
+    // Flirt response
+    BatchSetEventFlags(25008900, 25008902, OFF);
+    RandomlySetEventFlagInRange(25008900, 25008902, ON);
 });
 
-// m41 Ceremony Handler
-$Event(20003, Restart, function() {
-    // Catacombs
-    if(EventFlag(25009611))
-    {
-        SetEventFlag(25009611, OFF);
-        SetMapCeremony(41, 0, 100);
-    }
-    // Forgotten Menagerie
-    else if(EventFlag(25009612))
-    {
-        SetEventFlag(25009612, OFF);
-        SetMapCeremony(41, 0, 200);
-    }
-    else
-    {
-        SetMapCeremony(41, 0, 0);
-    }
+// Player State - On Load
+$Event(10002, Default, function() {
+    // Kill Tracker
+    SetSpEffect(10000, 200000010);
+    
+    // Estus Charge
+    SetSpEffect(10000, 200000020);
+    SetSpEffect(10000, 200000021);
 });
 
-// Effect: Player
-$Event(10001, Default, function() {
+// Player State - Loop
+$Event(10003, Default, function() {
     // Hollow
     if(EventFlag(25000101))
     {
         SetSpEffect(10000, 200100000);
         SetEventFlag(25000055, OFF); // Enable Reinforcement
+    }
+    else
+    {
+        ClearSpEffect(10000, 200100000);
     }
     
     // Explorer
@@ -1918,12 +1821,20 @@ $Event(10001, Default, function() {
         SetSpEffect(10000, 200101000);
         SetEventFlag(25000055, OFF); // Enable Reinforcement
     }
+    else
+    {
+        ClearSpEffect(10000, 200101000);
+    }
     
     // Conqueror
     if(EventFlag(25000103))
     {
         SetSpEffect(10000, 200102000);
         SetEventFlag(25000055, OFF); // Enable Reinforcement
+    }
+    else
+    {
+        ClearSpEffect(10000, 200102000);
     }
     
     // Accursed
@@ -1932,12 +1843,20 @@ $Event(10001, Default, function() {
         SetSpEffect(10000, 200103000);
         SetEventFlag(25000055, OFF); // Enable Reinforcement
     }
+    else
+    {
+        ClearSpEffect(10000, 200103000);
+    }
     
     // Gladiator
     if(EventFlag(25000105))
     {
         SetSpEffect(10000, 200104000);
         SetEventFlag(25000055, OFF); // Enable Reinforcement
+    }
+    else
+    {
+        ClearSpEffect(10000, 200104000);
     }
     
     // Wanderer
@@ -1946,74 +1865,23 @@ $Event(10001, Default, function() {
         SetSpEffect(10000, 200105000);
         SetEventFlag(25000055, ON); // Disable Reinforcement
     }
-});
-
-// Effect: Enemy
-$Event(10002, Default, function() {
-    // Hollow
-    if(EventFlag(25000101))
+    else
     {
+        ClearSpEffect(10000, 200105000);
     }
     
-    // Explorer
-    if(EventFlag(25000102))
-    {
+    // Rhythmic Attack markers enabled
+    if (EventFlag(25000060)) {
+        SetSpEffect(10000, 111160);
     }
     
-    // Conqueror
-    if(EventFlag(25000103))
-    {
-        SetSpEffect(3605800, 200102010);
-    }
-    
-    // Accursed
-    if(EventFlag(25000104))
-    {
-        SetSpEffect(3605800, 200103010);
-    }
-    
-    // Gladiator
-    if(EventFlag(25000105))
-    {
-    }
-    
-    // Wanderer
-    if(EventFlag(25000106))
-    {
-    }
-    
-    // Company of Champions
-    if(CharacterHasSpEffect(10000, 160101500, ComparisonType.Equal, 1))
-    {
-        SetSpEffect(3605800, 160101503);
-    }
-    
-    // Loops so generated enemies are given the SpEffects.
-    WaitFixedTimeSeconds(1.0);
+    WaitFixedTimeSeconds(1);
     
     RestartEvent();
 });
 
-// Disabled by Default
-$Event(10003, Restart, function() {
-    ChangeCharacterEnableState(3605900, Disabled);
-    SetCharacterAnimationState(3605900, Disabled);
-    SetCharacterAIState(3605900, Disabled);
-});
-
-// Tome Unlock
-$Event(10010, Default, function(X0_4, X4_4, X8_4) {
-    WaitFor(CharacterHasSpEffect(10000, X0_4, ComparisonType.Equal, 1));
-    
-    RemoveItemFromPlayer(ItemType.Goods, X4_4, -99);
-    AwardItemLot(X8_4);
-});
-
-//--------------------------------------
-// Castigations
-//--------------------------------------
-// Castigation - Player
-$Event(14000, Restart, function() {
+// Player Castigations - Loop
+$Event(10004, Restart, function() {
     // Abyssal Maw
     if(EventFlag(25000900))
     {
@@ -2069,8 +1937,295 @@ $Event(14000, Restart, function() {
     RestartEvent();
 });
 
-// Castigation - Enemies
-$Event(14010, Restart, function() {
+
+// Restriction - Flameless
+$Event(10005, Restart, function() {
+    // Flameless
+    if(EventFlag(25000110))
+    {
+        SetSpEffect(10000, 200110000);
+    }
+    else
+    {
+        ClearSpEffect(10000, 200110000);
+    }
+    
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+// Restriction - Deathless
+$Event(10006, Restart, function() {
+    // Failed Deathless
+    if(EventFlag(25000132))
+    {
+        SetSpEffect(10000, 200110101); // Apply warp item disable
+        
+        // Warp player to abyss if not within the Abyss region
+        if(!InArea(10000, 4002934, 1))
+        {
+            SetPlayerRespawnPoint(4002971);
+            SetMapCeremony(40, 0, 10);
+            WarpPlayer(40, 0, 4000986);
+        }
+    }
+    
+    // Deathless
+    if(EventFlag(25000111))
+    {
+        SetSpEffect(10000, 200110100);
+    }
+    else
+    {
+        ClearSpEffect(10000, 200110100);    
+    }
+    
+    if(CharacterHasSpEffect(10000, 200110100, 0, 1))
+    {
+        if(CharacterHasSpEffect(10000, 112100, ComparisonType.Equal, 1) || CharacterDead(10000, ComparisonType.Equal, 1))
+        {
+            SetEventFlag(25000132, ON);
+        }
+    }
+    
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+// Restriction - Hitless
+$Event(10007, Restart, function() {
+    // Hitless
+    if(EventFlag(25000112))
+    {
+        SetSpEffect(10000, 200110200);
+        
+        WaitFor(CharacterHasSpEffect(10000, 112101, ComparisonType.Equal, 1));
+        
+        SetSpEffect(10000, 200110201);
+    }
+    else
+    {
+        ClearSpEffect(10000, 200110200);
+    }
+    
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+// Bonfire Turn-Ins
+$Event(10008, Restart, function() {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
+    
+    // Smithbox
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2070))
+    {
+        SetEventFlag(25009850, ON);
+    }
+    
+    // Sorcerer's Spellkit
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2071))
+    {
+        SetEventFlag(25009851, ON);
+    }
+    
+    // Pyromancer's Spellkit
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2072))
+    {
+        SetEventFlag(25009852, ON);
+    }
+    
+    // Priest's Spellkit
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2073))
+    {
+        SetEventFlag(25009853, ON);
+    }
+    
+    // Hexer's Spellkit
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2074))
+    {
+        SetEventFlag(25009854, ON);
+    }
+    
+    // Hunter's Toolkit
+    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2006))
+    {
+        SetEventFlag(25009855, ON);
+    }
+    
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+// Bloodborne Dash
+$Event(10009, Restart, function() {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
+    
+    if (EventFlag(25009750)) 
+    {
+        if (!CharacterHasSpEffect(10000, 112414)) 
+        {
+            SetSpEffect(10000, 112414);
+        }
+    }
+    else
+    {
+        if (CharacterHasSpEffect(10000, 112414)) 
+        {
+            ClearSpEffect(10000, 112414);
+        }
+    }
+
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+// Covenant Material Drops
+$Event(10010, Default, function(X0_4, X4_4) {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
+    
+    // No in drop cooldown, and enemy has been killed
+    WaitFor(!CharacterHasSpEffect(10000, 160010010) && // Material Drop Cooldown
+    CharacterHasSpEffect(10000, 200000011) && // Enemy Kill
+    CharacterHasSpEffect(10000, 132002) && // Covenant Drop Allowed
+    CharacterHasSpEffect(10000, X0_4)); // Covenant Equipped
+
+    // Drop cooldown
+    SetSpEffect(10000, 160010010);
+    
+    DirectlyGivePlayerItem(ItemType.Goods, X4_4, 6001, 1);
+    
+    RestartEvent();
+});
+
+// Thieves' Pact Drops
+$Event(10011, Default, function() {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
+    
+    // No in drop cooldown, and enemy has been killed
+    WaitFor(!CharacterHasSpEffect(10000, 160010011) && // Consumable Drop cooldown
+    CharacterHasSpEffect(10000, 200000011) && // Enemy Kill
+    CharacterHasSpEffect(10000, 132002) && // Covenant Drop Allowed
+    CharacterHasSpEffect(10000, 160100602));  // Thieves' Pact Covenant
+
+    // Drop cooldown
+    SetSpEffect(10000, 160010011);
+    
+    // Items
+    if (CharacterHasSpEffect(10000, 132010)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 292, 6001, 1); // Firebomb
+    }
+    if (CharacterHasSpEffect(10000, 132011)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 297, 6001, 1); // Black Firebomb
+    }
+    if (CharacterHasSpEffect(10000, 132012)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 310, 6001, 1); // Throwing Knife
+    }
+    if (CharacterHasSpEffect(10000, 132013)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 293, 6001, 1); // Dung Pie
+    }
+    if (CharacterHasSpEffect(10000, 132014)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 296, 6001, 1); // Undead Hunter Charm
+    }
+
+    RestartEvent();
+});
+
+// Way of Blue Drops
+$Event(10012, Default, function() {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
+    
+    // No in drop cooldown, and enemy has been killed
+    WaitFor(!CharacterHasSpEffect(10000, 160010011) && // Consumable Drop cooldown
+    CharacterHasSpEffect(10000, 200000011) && // Enemy Kill
+    CharacterHasSpEffect(10000, 132002) && // Covenant Drop Allowed
+    CharacterHasSpEffect(10000, 160101402)); // Way of Blue Covenant
+    
+    // Drop cooldown
+    SetSpEffect(10000, 160010011);
+    
+    // Items
+    if (CharacterHasSpEffect(10000, 132010)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 240, 6001, 1); // Divine Blessing
+    }
+    if (CharacterHasSpEffect(10000, 132011)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 241, 6001, 1); // Hidden Blessing
+    }
+    if (CharacterHasSpEffect(10000, 132012)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 260, 6001, 1); // Green Blossom
+    }
+    if (CharacterHasSpEffect(10000, 132013)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 456, 6001, 1); // Siegbrau
+    }
+    if (CharacterHasSpEffect(10000, 132014)) {
+        DirectlyGivePlayerItem(ItemType.Goods, 801, 6001, 1); // Radiant Lifegem
+    }
+
+    RestartEvent();
+});
+
+//--------------------------------------
+// Enemies
+//--------------------------------------
+// Enemy State - On Load
+$Event(10100, Default, function() {
+    ChangeCharacterEnableState(3605900, Disabled);
+    SetCharacterAnimationState(3605900, Disabled);
+    SetCharacterAIState(3605900, Disabled);
+});
+
+// Enemy State - Loop
+$Event(10101, Default, function() {
+    // Hollow
+    if(EventFlag(25000101))
+    {
+    }
+    
+    // Explorer
+    if(EventFlag(25000102))
+    {
+    }
+    
+    // Conqueror
+    if(EventFlag(25000103))
+    {
+        SetSpEffect(3605800, 200102010);
+    }
+    
+    // Accursed
+    if(EventFlag(25000104))
+    {
+        SetSpEffect(3605800, 200103010);
+    }
+    
+    // Gladiator
+    if(EventFlag(25000105))
+    {
+    }
+    
+    // Wanderer
+    if(EventFlag(25000106))
+    {
+    }
+    
+    // Company of Champions
+    if(CharacterHasSpEffect(10000, 160101500, ComparisonType.Equal, 1))
+    {
+        SetSpEffect(3605800, 160101503);
+    }
+    
+    // Loops so generated enemies are given the SpEffects.
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+// Enemy Castigations - Loop
+$Event(10102, Restart, function() {
     // Wounded Fury
     if(EventFlag(25000905))
     {
@@ -2141,7 +2296,7 @@ $Event(14010, Restart, function() {
 });
 
 // Castigation - Feeding Frenzy
-$Event(14011, Restart, function() {
+$Event(10103, Restart, function() {
     ChangeCharacterEnableState(3605802, Disabled);
     SetCharacterAnimationState(3605802, Disabled);
     SetCharacterAIState(3605802, Disabled);
@@ -2151,10 +2306,84 @@ $Event(14011, Restart, function() {
     ChangeCharacterEnableState(3605802, Enabled);
     SetCharacterAnimationState(3605802, Enabled);
     SetCharacterAIState(3605802, Enabled);
+    
+    WaitFor(!EventFlag(25000912));
+    
+    WaitFixedTimeSeconds(1);
+    
+    RestartEvent();
 });
 
+// Covenants - Enemies
+$Event(10104, Restart, function(X0_4, X4_4) {
+    WaitFor(CharacterHasSpEffect(10000, X0_4));
+    SetSpEffect(3605800, X4_4);
+
+    WaitFor(!CharacterHasSpEffect(10000, X0_4));
+    ClearSpEffect(3605800, X4_4);
+
+    WaitFixedTimeSeconds(1.0);
+    
+    RestartEvent();
+});
+
+
+// NG+X Enemies
+$Event(10105, Restart, function(X0_4, X4_4) {
+    ChangeCharacterEnableState(X0_4, Disabled);
+    SetCharacterAnimationState(X0_4, Disabled);
+    SetCharacterAIState(X0_4, Disabled);
+    
+    WaitFor(EventFlag(X4_4))
+    
+    ChangeCharacterEnableState(X0_4, Enabled);
+    SetCharacterAnimationState(X0_4, Enabled);
+    SetCharacterAIState(X0_4, Enabled);
+});
+
+//--------------------------------------
+// World
+//--------------------------------------
+// m41 Ceremony Handler
+$Event(10200, Restart, function() {
+    // Catacombs
+    if(EventFlag(25009611))
+    {
+        SetEventFlag(25009611, OFF);
+        SetMapCeremony(41, 0, 100);
+    }
+    // Forgotten Menagerie
+    else if(EventFlag(25009612))
+    {
+        SetEventFlag(25009612, OFF);
+        SetMapCeremony(41, 0, 200);
+    }
+    else
+    {
+        SetMapCeremony(41, 0, 0);
+    }
+});
+
+//--------------------------------------
+// Items
+//--------------------------------------
+// Tome Unlock
+$Event(10300, Default, function(X0_4, X4_4, X8_4) {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
+    
+    WaitFor(CharacterHasSpEffect(10000, X0_4, ComparisonType.Equal, 1));
+    
+    RemoveItemFromPlayer(ItemType.Goods, X4_4, -99);
+    AwardItemLot(X8_4);
+});
+
+//--------------------------------------
+// Utility
+//--------------------------------------
 // Castigation - Reward
 $Event(14020, Restart, function(X0_4, X4_4) {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
+    
     WaitFor(CharacterHasSpEffect(10000, 200000011, ComparisonType.Equal, 1));
     
     if(!CharacterHasSpEffect(10000, 200499999, ComparisonType.Equal, 1))
@@ -2168,88 +2397,6 @@ $Event(14020, Restart, function(X0_4, X4_4) {
     RestartEvent();
 });
 
-// Covenants - Enemies
-$Event(14030, Restart, function(X0_4, X4_4) {
-    WaitFor(CharacterHasSpEffect(10000, X0_4));
-    SetSpEffect(3605800, X4_4);
-
-    WaitFor(!CharacterHasSpEffect(10000, X0_4));
-    ClearSpEffect(3605800, X4_4);
-
-    WaitFixedTimeSeconds(1.0);
-    
-    RestartEvent();
-});
-
-
-// NG+1 Enemies
-$Event(14050, Restart, function(X0_4, X4_4) {
-    ChangeCharacterEnableState(X0_4, Disabled);
-    SetCharacterAnimationState(X0_4, Disabled);
-    SetCharacterAIState(X0_4, Disabled);
-    
-    WaitFor(EventFlag(X4_4))
-    
-    ChangeCharacterEnableState(X0_4, Enabled);
-    SetCharacterAnimationState(X0_4, Enabled);
-    SetCharacterAIState(X0_4, Enabled);
-});
-
-// Restriction - Flameless
-$Event(15000, Restart, function() {
-    // Flameless
-    if(EventFlag(25000110))
-    {
-        SetSpEffect(10000, 200110000);
-    }
-});
-
-// Restriction - Deathless
-$Event(15001, Restart, function() {
-    // Failed Deathless
-    if(EventFlag(25000132))
-    {
-        DisplayBanner(TextBannerType.BlackPhantomDeath);
-        
-        SetSpEffect(10000, 200110101); // Apply warp item disable
-        
-        // Warp player to abyss if not within the Abyss region
-        if(!InArea(10000, 4002934, 1))
-        {
-            SetPlayerRespawnPoint(4002971);
-            SetMapCeremony(40, 0, 10);
-            WarpPlayer(40, 0, 4000986);
-        }
-    }
-    
-    // Deathless
-    WaitFor(EventFlag(25000111));
-    
-    DisplayBanner(TextBannerType.BeginMatch);
-    
-    SetSpEffect(10000, 200110100);
-    
-    WaitFor(CharacterHasSpEffect(10000, 112100, ComparisonType.Equal, 1) || CharacterDead(10000, ComparisonType.Equal, 1));
-    
-    DisplayBanner(TextBannerType.BeginMatch);
-    
-    SetEventFlag(25000132, ON);
-    SetSpEffect(10000, 200110101);
-});
-
-// Restriction - Hitless
-$Event(15002, Restart, function() {
-    // Hitless
-    if(EventFlag(25000112))
-    {
-        SetSpEffect(10000, 200110200);
-        
-        WaitFor(CharacterHasSpEffect(10000, 112101, ComparisonType.Equal, 1));
-        
-        SetSpEffect(10000, 200110201);
-    }
-});
-
 //-------------------
 // Accursed - Detriment System
 //-------------------
@@ -2258,7 +2405,7 @@ $Event(12000, Restart, function() {
     EndIf(!EventFlag(25000104));
     
     // Grant new debuff item if the player dies
-    WaitFor(CharacterHasSpEffect(10000, 113010, ComparisonType.Equal, 1));
+    WaitFor(CharacterHasSpEffect(10000, 112100, ComparisonType.Equal, 1) || CharacterDead(10000, ComparisonType.Equal, 1));
     
     BatchSetEventFlags(20000900, 20000944, OFF);
     RandomlySetEventFlagInRange(20000900, 20000944, ON);
@@ -2313,6 +2460,8 @@ $Event(12000, Restart, function() {
 
 // Accursed - Debuff Item
 $Event(12001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
+    
     // This debuff has been selected
     if(EventFlag(X0_4))
     {
@@ -2330,6 +2479,7 @@ $Event(12001, Restart, function(X0_4, X4_4, X8_4, X12_4, X16_4, X20_4) {
 
 // Accursed - Apply Debuffs (10)
 $Event(12010, Default, function(X0_4, X4_4, X8_4) {
+    EndIf(HasMultiplayerState(MultiplayerState.Client));
     EndIf(EventFlag(25000131)); // Accursed run completed
     EndIf(!EventFlag(25000104));
     
@@ -2379,165 +2529,9 @@ $Event(12010, Default, function(X0_4, X4_4, X8_4) {
 });
 
 //------------------------------------------------
-// Bonfire Key Items
-//------------------------------------------------
-$Event(20005, Restart, function() {
-    
-    // Smithbox
-    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2070))
-    {
-        SetEventFlag(25009850, ON);
-    }
-    
-    // Sorcerer's Spellkit
-    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2071))
-    {
-        SetEventFlag(25009851, ON);
-    }
-    
-    // Pyromancer's Spellkit
-    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2072))
-    {
-        SetEventFlag(25009852, ON);
-    }
-    
-    // Priest's Spellkit
-    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2073))
-    {
-        SetEventFlag(25009853, ON);
-    }
-    
-    // Hexer's Spellkit
-    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2074))
-    {
-        SetEventFlag(25009854, ON);
-    }
-    
-    // Hunter's Toolkit
-    if(PlayerHasItemIncludingBBox(ItemType.Goods, 2006))
-    {
-        SetEventFlag(25009855, ON);
-    }
-    
-    WaitFixedTimeSeconds(1.0);
-    
-    RestartEvent();
-});
-
-//------------------------------------------------
-// BB Dodge Toggle
-//------------------------------------------------
-$Event(20006, Restart, function() {
-    SetNetworkSyncState(Disabled);
-
-    // BB Dodge Toggle - Add SpEffect when enabled
-    if (EventFlag(25009750)) { // Skip if BB Dodge is not activated
-        if (!CharacterHasSpEffect(10000, 112414)) { // Skip if already applied
-            SetSpEffect(10000, 112414);
-        }
-    }
-
-    // BB Dodge Toggle - Clear SpEffect when disabled
-    if (!EventFlag(25009750)) { // Skip if BB Dodge is activated
-        if (CharacterHasSpEffect(10000, 112414)) { // Skip if not applied
-            ClearSpEffect(10000, 112414);
-        }
-    }
-
-    RestartEvent();
-});
-
-
-//------------------------------------------------
-// Covenant Material Drops
-//------------------------------------------------
-$Event(20007, Default, function(X0_4, X4_4) {
-    // No in drop cooldown, and enemy has been killed
-    WaitFor(!CharacterHasSpEffect(10000, 160010010) && // Material Drop Cooldown
-    CharacterHasSpEffect(10000, 200000011) && // Enemy Kill
-    CharacterHasSpEffect(10000, 132002) && // Covenant Drop Allowed
-    CharacterHasSpEffect(10000, X0_4)); // Covenant Equipped
-
-    // Drop cooldown
-    SetSpEffect(10000, 160010010);
-    
-    DirectlyGivePlayerItem(ItemType.Goods, X4_4, 6001, 1);
-    
-    RestartEvent();
-});
-
-//------------------------------------------------
-// Thieves' Pact Drops
-//------------------------------------------------
-$Event(20008, Default, function() {
-    // No in drop cooldown, and enemy has been killed
-    WaitFor(!CharacterHasSpEffect(10000, 160010011) && // Consumable Drop cooldown
-    CharacterHasSpEffect(10000, 200000011) && // Enemy Kill
-    CharacterHasSpEffect(10000, 132002) && // Covenant Drop Allowed
-    CharacterHasSpEffect(10000, 160100602));  // Thieves' Pact Covenant
-
-    // Drop cooldown
-    SetSpEffect(10000, 160010011);
-    
-    // Items
-    if (CharacterHasSpEffect(10000, 132010)) {
-        DirectlyGivePlayerItem(ItemType.Goods, 292, 6001, 1); // Firebomb
-    }
-    if (CharacterHasSpEffect(10000, 132011)) {
-        DirectlyGivePlayerItem(ItemType.Goods, 297, 6001, 1); // Black Firebomb
-    }
-    if (CharacterHasSpEffect(10000, 132012)) {
-        DirectlyGivePlayerItem(ItemType.Goods, 310, 6001, 1); // Throwing Knife
-    }
-    if (CharacterHasSpEffect(10000, 132013)) {
-        DirectlyGivePlayerItem(ItemType.Goods, 293, 6001, 1); // Dung Pie
-    }
-    if (CharacterHasSpEffect(10000, 132014)) {
-        DirectlyGivePlayerItem(ItemType.Goods, 296, 6001, 1); // Undead Hunter Charm
-    }
-
-    RestartEvent();
-});
-
-//------------------------------------------------
-// Way of Blue Drops
-//------------------------------------------------
-$Event(20009, Default, function() {
-    // No in drop cooldown, and enemy has been killed
-    WaitFor(!CharacterHasSpEffect(10000, 160010011) && // Consumable Drop cooldown
-    CharacterHasSpEffect(10000, 200000011) && // Enemy Kill
-    CharacterHasSpEffect(10000, 132002) && // Covenant Drop Allowed
-    CharacterHasSpEffect(10000, 160101402)); // Way of Blue Covenant
-    
-    // Drop cooldown
-    SetSpEffect(10000, 160010011);
-    
-    // Items
-    if (CharacterHasSpEffect(10000, 132010)) {
-        DirectlyGivePlayerItem(ItemType.Goods, 240, 6001, 1); // Divine Blessing
-    }
-    if (CharacterHasSpEffect(10000, 132011)) {
-        DirectlyGivePlayerItem(ItemType.Goods, 241, 6001, 1); // Hidden Blessing
-    }
-    if (CharacterHasSpEffect(10000, 132012)) {
-        DirectlyGivePlayerItem(ItemType.Goods, 260, 6001, 1); // Green Blossom
-    }
-    if (CharacterHasSpEffect(10000, 132013)) {
-        DirectlyGivePlayerItem(ItemType.Goods, 456, 6001, 1); // Siegbrau
-    }
-    if (CharacterHasSpEffect(10000, 132014)) {
-        DirectlyGivePlayerItem(ItemType.Goods, 801, 6001, 1); // Radiant Lifegem
-    }
-
-    RestartEvent();
-});
-
-//------------------------------------------------
 // Pyromancer's Parting Flame - Ascension
 //------------------------------------------------
 $Event(20042, Default, function() {
-    SetNetworkSyncState(Disabled);
-
     WaitFor(CharacterHasSpEffect(10000, 130134100));
 
     SetSpEffect(10000, 130134101);
@@ -2555,8 +2549,6 @@ $Event(20042, Default, function() {
 // Numbness - Change Camera
 //------------------------------------------------
 $Event(20043, Default, function(X0_4, X4_4) {
-    SetNetworkSyncState(Disabled);
-
     WaitFor(CharacterHasSpEffect(X0_4, X4_4));
     ChangeCamera(20000, 20000);
 L0:
@@ -2570,8 +2562,6 @@ L0:
 // <trigger speffect>, <camera entry>
 //------------------------------------------------
 $Event(20045, Default, function(X0_4, X4_4) {
-    SetNetworkSyncState(Disabled);
-
     // Add camera effect if trigger effect is present
     WaitFor(!CharacterHasSpEffect(10000, X0_4));
     ChangeCamera(X4_4, X4_4);
@@ -2587,8 +2577,6 @@ $Event(20045, Default, function(X0_4, X4_4) {
 // Frostbite Removal
 //------------------------------------------------
 $Event(20048, Restart, function() {
-    SetNetworkSyncState(Disabled);
-
     WaitFor(
         CharacterHasSpEffect(10000, 3092)
             || CharacterHasSpEffect(10000, 3080)
@@ -2602,8 +2590,6 @@ $Event(20048, Restart, function() {
 // Crown of the Great Lord
 //------------------------------------------------
 $Event(20040, Default, function() {
-    SetNetworkSyncState(Disabled);
-
     WaitFor(CharacterHasSpEffect(10000, 160409012) && CharacterHasSpEffect(10000, 490));
 
     SetSpEffect(10000, 160409013);
@@ -2614,7 +2600,6 @@ $Event(20040, Default, function() {
 
     RestartEvent();
 });
-
 
 //----------------------------------------------
 // Starting Location
@@ -11099,20 +11084,6 @@ $Event(20400, Restart, function() {
         ClearSpEffect(10000, 112925);
     }
 
-    WaitFixedTimeSeconds(1.0);
-    
-    RestartEvent();
-});
-
-//------------------------------------------------
-// Rhythmic Attacks
-//------------------------------------------------
-$Event(20410, Restart, function() {
-    // Rhythmic Attack markers enabled
-    if (EventFlag(25000060)) {
-        SetSpEffect(10000, 111160);
-    }
-    
     WaitFixedTimeSeconds(1.0);
     
     RestartEvent();

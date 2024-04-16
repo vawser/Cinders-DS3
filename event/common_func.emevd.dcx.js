@@ -5567,19 +5567,19 @@ $Event(20020000, Default, function(X0_4, X4_4, X8_4, X12_4) {
         }
 
         // NG+1 - Bonus Souls
-        if (EventFlag(25000011)) 
+        if (EventFlag(51)) 
         {
             SetSpEffect(10000, X8_4);
         }
 
         // NG+2 - Bonus Souls
-        if (EventFlag(25000012))
+        if (EventFlag(52))
         {
             SetSpEffect(10000, X8_4);
         }
 
         // NG+3 - Bonus Souls
-        if (EventFlag(25000013))
+        if (EventFlag(53))
         {
             SetSpEffect(10000, X8_4);
         }
@@ -5627,19 +5627,19 @@ $Event(20020001, Default, function(X0_4, X4_4, X8_4, X12_4) {
     }
 
     // NG+1 - Bonus Souls
-    if (EventFlag(25000011)) 
+    if (EventFlag(51)) 
     {
         SetSpEffect(10000, X8_4);
     }
 
     // NG+2 - Bonus Souls
-    if (EventFlag(25000012))
+    if (EventFlag(52))
     {
         SetSpEffect(10000, X8_4);
     }
 
     // NG+3 - Bonus Souls
-    if (EventFlag(25000013))
+    if (EventFlag(53))
     {
         SetSpEffect(10000, X8_4);
     }

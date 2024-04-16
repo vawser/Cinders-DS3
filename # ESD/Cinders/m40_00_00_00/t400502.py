@@ -221,31 +221,31 @@ def t400502_x20():
         if GetTalkListEntryResult() == 1:
             """State 2"""
             # Journey 8
-            if GetEventStatus(25000017) == 1:
+            if GetEventStatus(57) == 1:
                 """State 3"""
                 OpenGenericDialog(1, 99094207, 0, 0, 0)
             # Journey 7
-            elif GetEventStatus(25000016) == 1:
+            elif GetEventStatus(56) == 1:
                 """State 4"""
                 OpenGenericDialog(1, 99094206, 0, 0, 0)
             # Journey 6
-            elif GetEventStatus(25000015) == 1:
+            elif GetEventStatus(55) == 1:
                 """State 5"""
                 OpenGenericDialog(1, 99094205, 0, 0, 0)
             # Journey 5
-            elif GetEventStatus(25000014) == 1:
+            elif GetEventStatus(54) == 1:
                 """State 6"""
                 OpenGenericDialog(1, 99094204, 0, 0, 0)
             # Journey 4
-            elif GetEventStatus(25000013) == 1:
+            elif GetEventStatus(53) == 1:
                 """State 7"""
                 OpenGenericDialog(1, 99094203, 0, 0, 0)
             # Journey 3
-            elif GetEventStatus(25000012) == 1:
+            elif GetEventStatus(52) == 1:
                 """State 8"""
                 OpenGenericDialog(1, 99094202, 0, 0, 0)
             # Journey 2
-            elif GetEventStatus(25000011) == 1:
+            elif GetEventStatus(51) == 1:
                 """State 9"""
                 OpenGenericDialog(1, 99094201, 0, 0, 0)
             # Journey 1

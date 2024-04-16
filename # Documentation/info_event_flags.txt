@@ -61,20 +61,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 #------------------------
 # General
 #------------------------
-25000011 Is in NG+1
-25000012 Is in NG+2
-25000013 Is in NG+3
-25000014 Is in NG+4
-25000015 Is in NG+5
-25000016 Is in NG+6
-25000017 Is in NG+7
-
-25000020 Debug Flag 
-
-25000050 Claimed Relic of Power
-25000051 Claimed Relic of Insanity
-25000052 Claimed Relic of Legends
-25000053 Claimed Relic of Myths
 25000055 Disable Reinforcement
 
 25000060 Rhythmic Attacks: Show Markers
@@ -125,32 +111,6 @@ xxx5750 Enemies enabled by Curse of Attraction
 25000306 Gesture Acquired: Praise the Heavens - Irina of Carim
 25000307 Gesture Acquired: Retch              - Archdeacon McDonnell
 25000308 Gesture Acquired: Confused           - Greirat
-
-# Boss Kill Counter
-25000400 -> 25000409 # Event Value 
-25000410 -> 25000419 # Event Value Operand
-
-25000450 Unique Boss Kills: 3
-25000451 Unique Boss Kills: 6
-25000452 Unique Boss Kills: 9
-25000453 Unique Boss Kills: 12
-25000454 Unique Boss Kills: 15
-
-# Training System
-25000500 Spawn Subject
-25000501 Initial Training Flags
-25000510 Player: Invulerability
-25000511 Player: Endless Stamina
-25000512 Player: Endless Focus
-25000520 Subject: Hostility
-25000521 Subject: Endless Regeneration
-25000522 Subject: Invulerability
-
-25000550 Subject Type: Soldier # 110005 / 110015
-25000551 Subject Type: Knight # 128020 / 128040
-25000552 Subject Type: Dog # 202005
-25000553 Subject Type: Elder Ghru # 312010
-25000554 Subject Type: Skeleton # 107400
 
 # Castigation
 25000900 Abyssal Maw
