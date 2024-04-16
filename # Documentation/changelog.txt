@@ -4,6 +4,7 @@
 # Balance
 - Reduced FP cost of Skills to vanilla-esque levels.
 - Reduced enemy power curve so it is smoother and lower during the early game.
+- Adjusted boss HP to tune each encounter for the expected level of player power.
 
 # Oathkeeper Xavius
 - Now appears in NG+1 and beyond.

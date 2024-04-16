@@ -64,44 +64,44 @@ $Event(0, Default, function() {
     InitializeEvent(2, 10105, 3605852, 53); // Enemy State: NG+3
     
     //--- Items ---
-    InitializeEvent( 0, 10100, 200700000, 2400, 240); // Item Reward: Apprentice's Scroll
-    InitializeEvent( 1, 10100, 200700001, 2401, 250); // Item Reward: Scholar's Scroll
-    InitializeEvent( 2, 10100, 200700002, 2402, 260); // Item Reward: Farron Scroll
-    InitializeEvent( 3, 10100, 200700003, 2403, 270); // Item Reward: Assassin's Scroll
-    InitializeEvent( 4, 10100, 200700004, 2404, 200); // Item Reward: Sage's Scroll
-    InitializeEvent( 6, 10100, 200700005, 2405, 220); // Item Reward: Logan's Scroll
-    InitializeEvent( 7, 10100, 200700006, 2406, 210); // Item Reward: Golden Scroll
-    InitializeEvent( 8, 10100, 200700007, 2407, 230); // Item Reward: Crystal Scroll
+    InitializeEvent( 0, 10300, 200700000, 2400, 240); // Item Reward: Apprentice's Scroll
+    InitializeEvent( 1, 10300, 200700001, 2401, 250); // Item Reward: Scholar's Scroll
+    InitializeEvent( 2, 10300, 200700002, 2402, 260); // Item Reward: Farron Scroll
+    InitializeEvent( 3, 10300, 200700003, 2403, 270); // Item Reward: Assassin's Scroll
+    InitializeEvent( 4, 10300, 200700004, 2404, 200); // Item Reward: Sage's Scroll
+    InitializeEvent( 6, 10300, 200700005, 2405, 220); // Item Reward: Logan's Scroll
+    InitializeEvent( 7, 10300, 200700006, 2406, 210); // Item Reward: Golden Scroll
+    InitializeEvent( 8, 10300, 200700007, 2407, 230); // Item Reward: Crystal Scroll
     
-    InitializeEvent( 9, 10100, 200700008, 2410, 300); // Item Reward: Divine Tome of Carim
-    InitializeEvent(10, 10100, 200700009, 2411, 310); // Item Reward: Divine Tome of Lothric
-    InitializeEvent(11, 10100, 200700010, 2412, 320); // Item Reward: Humble Divine Tome
-    InitializeEvent(12, 10100, 200700011, 2413, 340); // Item Reward: Divine Tome of Astora
-    InitializeEvent(13, 10100, 200700012, 2414, 330); // Item Reward: Divine Tome of Sunlight
-    InitializeEvent(14, 10100, 200700013, 2415, 350); // Item Reward: Angelic Divine Tome
-    InitializeEvent(15, 10100, 200700014, 2416, 360); // Item Reward: Wrathful Divine Tome
+    InitializeEvent( 9, 10300, 200700008, 2410, 300); // Item Reward: Divine Tome of Carim
+    InitializeEvent(10, 10300, 200700009, 2411, 310); // Item Reward: Divine Tome of Lothric
+    InitializeEvent(11, 10300, 200700010, 2412, 320); // Item Reward: Humble Divine Tome
+    InitializeEvent(12, 10300, 200700011, 2413, 340); // Item Reward: Divine Tome of Astora
+    InitializeEvent(13, 10300, 200700012, 2414, 330); // Item Reward: Divine Tome of Sunlight
+    InitializeEvent(14, 10300, 200700013, 2415, 350); // Item Reward: Angelic Divine Tome
+    InitializeEvent(15, 10300, 200700014, 2416, 360); // Item Reward: Wrathful Divine Tome
     
-    InitializeEvent(16, 10100, 200700015, 2420, 440); // Item Reward: Simple Pyromancy Tome
-    InitializeEvent(17, 10100, 200700016, 2421, 400); // Item Reward: Great Swamp Pyromancy Tome
-    InitializeEvent(18, 10100, 200700017, 2422, 410); // Item Reward: Carthus Pyromancy Tome
-    InitializeEvent(19, 10100, 200700018, 2423, 420); // Item Reward: Izalith Pyromancy Tome
-    InitializeEvent(20, 10100, 200700019, 2424, 430); // Item Reward: Quelana Pyromancy Tome
-    InitializeEvent(21, 10100, 200700020, 2425, 450); // Item Reward: Burnt Pyromany Tome
-    InitializeEvent(22, 10100, 200700021, 2426, 460); // Item Reward: Dusty Pyromancy Tome
-    InitializeEvent(23, 10100, 200700022, 2427, 470); // Item Reward: Earthen Pyromancy Tome
-    InitializeEvent(24, 10100, 200700023, 2428, 480); // Item Reward: Muddy Pyromancy Tome
+    InitializeEvent(16, 10300, 200700015, 2420, 440); // Item Reward: Simple Pyromancy Tome
+    InitializeEvent(17, 10300, 200700016, 2421, 400); // Item Reward: Great Swamp Pyromancy Tome
+    InitializeEvent(18, 10300, 200700017, 2422, 410); // Item Reward: Carthus Pyromancy Tome
+    InitializeEvent(19, 10300, 200700018, 2423, 420); // Item Reward: Izalith Pyromancy Tome
+    InitializeEvent(20, 10300, 200700019, 2424, 430); // Item Reward: Quelana Pyromancy Tome
+    InitializeEvent(21, 10300, 200700020, 2425, 450); // Item Reward: Burnt Pyromany Tome
+    InitializeEvent(22, 10300, 200700021, 2426, 460); // Item Reward: Dusty Pyromancy Tome
+    InitializeEvent(23, 10300, 200700022, 2427, 470); // Item Reward: Earthen Pyromancy Tome
+    InitializeEvent(24, 10300, 200700023, 2428, 480); // Item Reward: Muddy Pyromancy Tome
     
-    InitializeEvent(25, 10100, 200700024, 2430, 500); // Item Reward: Black Tome of the Deep
-    InitializeEvent(26, 10100, 200700025, 2431, 510); // Item Reward: Black Tome of Despair
-    InitializeEvent(27, 10101, 200700026, 2432, 520); // Item Reward: Black Tome of Yearning
-    InitializeEvent(28, 10100, 200700027, 2433, 530); // Item Reward: Black Tome of the Abyss
+    InitializeEvent(25, 10300, 200700024, 2430, 500); // Item Reward: Black Tome of the Deep
+    InitializeEvent(26, 10300, 200700025, 2431, 510); // Item Reward: Black Tome of Despair
+    InitializeEvent(27, 10300, 200700026, 2432, 520); // Item Reward: Black Tome of Yearning
+    InitializeEvent(28, 10300, 200700027, 2433, 530); // Item Reward: Black Tome of the Abyss
     
-    InitializeEvent(29, 10100, 200700028, 2440, 600); // Item Reward: Black Tome of the Accursed
-    InitializeEvent(30, 10100, 200700029, 2441, 610); // Item Reward: Black Tome of the Grave Warden
+    InitializeEvent(29, 10300, 200700028, 2440, 600); // Item Reward: Black Tome of the Accursed
+    InitializeEvent(30, 10300, 200700029, 2441, 610); // Item Reward: Black Tome of the Grave Warden
     
-    InitializeEvent(31, 10100, 200700030, 2450, 700); // Item Reward: Gnawing Tome of Famine
-    InitializeEvent(32, 10100, 200700031, 2451, 710); // Item Reward: Gnawing Tome of Agony
-    InitializeEvent(33, 10100, 200700032, 2452, 720); // Item Reward: Gnawing Tome of Londor
+    InitializeEvent(31, 10300, 200700030, 2450, 700); // Item Reward: Gnawing Tome of Famine
+    InitializeEvent(32, 10300, 200700031, 2451, 710); // Item Reward: Gnawing Tome of Agony
+    InitializeEvent(33, 10300, 200700032, 2452, 720); // Item Reward: Gnawing Tome of Londor
     
     InitializeEvent( 0, 14020, 25000900, 110); // Item Drop: Abyssal Maw
     InitializeEvent( 1, 14020, 25000901, 110); // Item Drop: Brittle Bones
@@ -11034,6 +11034,8 @@ $Event(20400, Restart, function() {
 $Event(50000, Restart, function() {
     //SetEventFlag(25001001, ON);
     
+    //InitializeEvent(0, 50020, 0); // Disable Debug NPC
+    
     //InitializeEvent(0, 50001, 0); // Instant Kill
     //InitializeEvent(0, 50002, 0); // Immunity to Damage
     //InitializeEvent(0, 50003, 0); // 100% HP Regen
@@ -11042,9 +11044,11 @@ $Event(50000, Restart, function() {
     //InitializeEvent(0, 50010, 0); // Disable Enemy AI
     //InitializeEvent(0, 50011, 0); // Hide Enemies
    
+    //ChangeCharacter(3200);
     //InitializeEvent(0, 50100, 0); // Unlock All Bonfires
-   
-    //InitializeEvent(0, 50020, 0); // Disable Debug NPC
+    //InitializeEvent(0, 50101, 0); // Unlock All 
+    //InitializeEvent(0, 50102, 0); // Give Warp Item
+    
 });
 
 // Instant Kill
@@ -11194,4 +11198,85 @@ $Event(50100, Restart, function() {
     SetEventFlag(15110000, ON);
     
     SetEventFlag(15300000, ON);
+});
+
+// Unlock All Bosses
+$Event(50101, Restart, function() {
+    SetEventFlag(25001001, ON);
+    SetEventFlag(25001002, ON);
+    SetEventFlag(25001003, ON);
+    SetEventFlag(25001004, ON);
+    SetEventFlag(25001005, ON);
+    SetEventFlag(25001006, ON);
+    SetEventFlag(25001007, ON);
+    SetEventFlag(25001008, ON);
+    SetEventFlag(25001009, ON);
+    SetEventFlag(25001010, ON);
+    SetEventFlag(25001011, ON);
+    SetEventFlag(25001012, ON);
+    SetEventFlag(25001013, ON);
+    SetEventFlag(25001014, ON);
+    SetEventFlag(25001015, ON);
+    SetEventFlag(25001016, ON);
+    SetEventFlag(25001017, ON);
+    SetEventFlag(25001018, ON);
+    SetEventFlag(25001019, ON);
+    SetEventFlag(25001020, ON);
+    SetEventFlag(25001021, ON);
+    SetEventFlag(25001022, ON);
+    SetEventFlag(25001023, ON);
+    SetEventFlag(25001024, ON);
+    SetEventFlag(25001025, ON);
+    SetEventFlag(25001026, ON);
+    SetEventFlag(25001027, ON);
+    SetEventFlag(25001028, ON);
+    SetEventFlag(25001029, ON);
+    SetEventFlag(25001030, ON);
+    SetEventFlag(25001031, ON);
+    SetEventFlag(25001032, ON);
+    SetEventFlag(25001033, ON);
+    SetEventFlag(25001034, ON);
+    SetEventFlag(25001035, ON);
+    
+    DirectlyGivePlayerItem(ItemType.Goods, 5000, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5001, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5002, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5003, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5004, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5005, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5006, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5007, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5008, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5009, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5010, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5011, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5012, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5013, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5014, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5015, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5016, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5017, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5018, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5019, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5020, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5021, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5022, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5023, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5024, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5025, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5026, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5027, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5028, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5029, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5030, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5031, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5032, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5033, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5034, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 5035, 6000, 4);
+});
+
+// Give Warp Item
+$Event(50102, Restart, function() {
+    DirectlyGivePlayerItem(ItemType.Goods, 351, 6000, 4);
 });
