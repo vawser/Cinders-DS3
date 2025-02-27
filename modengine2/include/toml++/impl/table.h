@@ -215,12 +215,13 @@ TOML_NAMESPACE_START
 	/// cats : ['tiger', 'lion', 'puma']
 	/// fish[1] : 'trout'
 	/// \eout
-	class table : public node
+	class TOML_EXPORTED_CLASS table : public node
 	{
 	  private:
 		/// \cond
 
 		using map_type			 = std::map<toml::key, impl::node_ptr, std::less<>>;
+		using map_pair			 = std::pair<const toml::key, impl::node_ptr>;
 		using map_iterator		 = typename map_type::iterator;
 		using const_map_iterator = typename map_type::const_iterator;
 		map_type map_;
@@ -228,40 +229,28 @@ TOML_NAMESPACE_START
 		bool inline_ = false;
 
 		TOML_NODISCARD_CTOR
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		table(const impl::table_init_pair*, const impl::table_init_pair*);
 
 		/// \endcond
 
 	  public:
-#if TOML_LIFETIME_HOOKS
-
-		TOML_NODISCARD_CTOR
-		table() noexcept
-		{
-			TOML_TABLE_CREATED;
-		}
-
-		~table() noexcept
-		{
-			TOML_TABLE_DESTROYED;
-		}
-#else
-
 		/// \brief	Default constructor.
 		TOML_NODISCARD_CTOR
-		table() noexcept = default;
+		TOML_EXPORTED_MEMBER_FUNCTION
+		table() noexcept;
 
-#endif
+		TOML_EXPORTED_MEMBER_FUNCTION
+		~table() noexcept;
 
 		/// \brief	Copy constructor.
 		TOML_NODISCARD_CTOR
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		table(const table&);
 
 		/// \brief	Move constructor.
 		TOML_NODISCARD_CTOR
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		table(table&& other) noexcept;
 
 		/// \brief	Constructs a table with one or more initial key-value pairs.
@@ -281,17 +270,17 @@ TOML_NAMESPACE_START
 		///
 		/// \param 	kvps	A list of key-value pairs used to initialize the table.
 		TOML_NODISCARD_CTOR
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		explicit table(std::initializer_list<impl::table_init_pair> kvps) //
 			: table(kvps.begin(), kvps.end())
 		{}
 
 		/// \brief	Copy-assignment operator.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		table& operator=(const table&);
 
 		/// \brief	Move-assignment operator.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		table& operator=(table&& rhs) noexcept;
 
 		/// \name Type checks
@@ -305,15 +294,15 @@ TOML_NAMESPACE_START
 		}
 
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		bool is_homogeneous(node_type ntype) const noexcept final;
 
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		bool is_homogeneous(node_type ntype, node*& first_nonmatch) noexcept final;
 
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		bool is_homogeneous(node_type ntype, const node*& first_nonmatch) const noexcept final;
 
 		/// \cond
@@ -636,7 +625,7 @@ TOML_NAMESPACE_START
 		///
 		/// \returns	A pointer to the node at the specified key, or nullptr.
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		node* get(std::string_view key) noexcept;
 
 		/// \brief	Gets the node at a specific key (const overload).
@@ -762,7 +751,7 @@ TOML_NAMESPACE_START
 
 		/// \brief	Gets a reference to the element at a specific key, throwing `std::out_of_range` if none existed.
 		TOML_NODISCARD
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		node& at(std::string_view key);
 
 		/// \brief	Gets a reference to the element at a specific key, throwing `std::out_of_range` if none existed.
@@ -796,7 +785,7 @@ TOML_NAMESPACE_START
 
 		/// @}
 
-		/// \name Iterators
+		/// \name Iteration
 		/// @{
 
 		/// \brief A BidirectionalIterator for iterating over key-value pairs in a toml::table.
@@ -847,6 +836,239 @@ TOML_NAMESPACE_START
 			return const_iterator{ map_.cend() };
 		}
 
+	  private:
+		/// \cond
+
+		template <typename T, typename Table>
+		using for_each_value_ref = impl::copy_cvref<impl::wrap_node<impl::remove_cvref<impl::unwrap_node<T>>>, Table>;
+
+		template <typename Func, typename Table, typename T>
+		static constexpr bool can_for_each = std::is_invocable_v<Func, const key&, for_each_value_ref<T, Table>> //
+										  || std::is_invocable_v<Func, for_each_value_ref<T, Table>>;
+
+		template <typename Func, typename Table, typename T>
+		static constexpr bool can_for_each_nothrow =
+			std::is_nothrow_invocable_v<Func, const key&, for_each_value_ref<T, Table>> //
+			|| std::is_nothrow_invocable_v<Func, for_each_value_ref<T, Table>>;
+
+		template <typename Func, typename Table>
+		static constexpr bool can_for_each_any = can_for_each<Func, Table, table>		//
+											  || can_for_each<Func, Table, array>		//
+											  || can_for_each<Func, Table, std::string> //
+											  || can_for_each<Func, Table, int64_t>		//
+											  || can_for_each<Func, Table, double>		//
+											  || can_for_each<Func, Table, bool>		//
+											  || can_for_each<Func, Table, date>		//
+											  || can_for_each<Func, Table, time>		//
+											  || can_for_each<Func, Table, date_time>;
+
+		template <typename Func, typename Table, typename T>
+		static constexpr bool for_each_is_nothrow_one = !can_for_each<Func, Table, T> //
+													 || can_for_each_nothrow<Func, Table, T>;
+
+		// clang-format off
+
+
+		  template <typename Func, typename Table>
+		  static constexpr bool for_each_is_nothrow = for_each_is_nothrow_one<Func, Table, table>		//
+												   && for_each_is_nothrow_one<Func, Table, array>		//
+												   && for_each_is_nothrow_one<Func, Table, std::string> //
+												   && for_each_is_nothrow_one<Func, Table, int64_t>		//
+												   && for_each_is_nothrow_one<Func, Table, double>		//
+												   && for_each_is_nothrow_one<Func, Table, bool>		//
+												   && for_each_is_nothrow_one<Func, Table, date>		//
+												   && for_each_is_nothrow_one<Func, Table, time>		//
+												   && for_each_is_nothrow_one<Func, Table, date_time>;
+
+		// clang-format on
+
+		template <typename Func, typename Table>
+		static void do_for_each(Func&& visitor, Table&& tbl) noexcept(for_each_is_nothrow<Func&&, Table&&>)
+		{
+			static_assert(can_for_each_any<Func&&, Table&&>,
+						  "TOML table for_each visitors must be invocable for at least one of the toml::node "
+						  "specializations:" TOML_SA_NODE_TYPE_LIST);
+
+			using kvp_type = impl::copy_cv<map_pair, std::remove_reference_t<Table>>;
+
+			for (kvp_type& kvp : tbl.map_)
+			{
+				using node_ref = impl::copy_cvref<toml::node, Table&&>;
+				static_assert(std::is_reference_v<node_ref>);
+
+				const auto keep_going =
+					static_cast<node_ref>(*kvp.second)
+						.visit(
+							[&](auto&& v)
+#if !TOML_MSVC || TOML_MSVC >= 1932 // older MSVC thinks this is invalid syntax O_o
+								noexcept(for_each_is_nothrow_one<Func&&, Table&&, decltype(v)>)
+#endif
+							{
+								using value_ref = for_each_value_ref<decltype(v), Table&&>;
+								static_assert(std::is_reference_v<value_ref>);
+
+								// func(key, val)
+								if constexpr (std::is_invocable_v<Func&&, const key&, value_ref>)
+								{
+									using return_type = decltype(static_cast<Func&&>(
+										visitor)(static_cast<const key&>(kvp.first), static_cast<value_ref>(v)));
+
+									if constexpr (impl::is_constructible_or_convertible<bool, return_type>)
+									{
+										return static_cast<bool>(static_cast<Func&&>(
+											visitor)(static_cast<const key&>(kvp.first), static_cast<value_ref>(v)));
+									}
+									else
+									{
+										static_cast<Func&&>(visitor)(static_cast<const key&>(kvp.first),
+																	 static_cast<value_ref>(v));
+										return true;
+									}
+								}
+
+								// func(val)
+								else if constexpr (std::is_invocable_v<Func&&, value_ref>)
+								{
+									using return_type =
+										decltype(static_cast<Func&&>(visitor)(static_cast<value_ref>(v)));
+
+									if constexpr (impl::is_constructible_or_convertible<bool, return_type>)
+									{
+										return static_cast<bool>(
+											static_cast<Func&&>(visitor)(static_cast<value_ref>(v)));
+									}
+									else
+									{
+										static_cast<Func&&>(visitor)(static_cast<value_ref>(v));
+										return true;
+									}
+								}
+
+								// visitor not compatible with this particular type
+								else
+									return true;
+							});
+
+				if (!keep_going)
+					return;
+			}
+		}
+
+		/// \endcond
+
+	  public:
+		/// \brief	Invokes a visitor on each key-value pair in the table.
+		///
+		/// \tparam	Func	A callable type invocable with one of the following signatures:
+		///					<ul>
+		///					<li> `func(key, val)`
+		///					<li> `func(val)`
+		///					</ul>
+		///					Where:
+		///					<ul>
+		///					<li> `key` will recieve a const reference to a toml::key
+		///					<li> `val` will recieve the value as it's concrete type with cvref-qualifications matching the table
+		///					</ul>
+		///					Visitors returning `bool` (or something convertible to `bool`) will cause iteration to
+		///					stop if they return `false`.
+		///
+		/// \param 	visitor	The visitor object.
+		///
+		/// \returns A reference to the table.
+		///
+		/// \details \cpp
+		/// toml::table tbl{
+		///		{ "0",  0      },
+		/// 	{ "1",  1      },
+		/// 	{ "2",  2      },
+		/// 	{ "3",  3.0    },
+		/// 	{ "4",  "four" },
+		/// 	{ "5",  "five" },
+		/// 	{ "6",  6      }
+		/// };
+		///
+		/// // select only the integers using a strongly-typed visitor
+		/// tbl.for_each([](toml::value<int64_t>& val)
+		/// {
+		/// 	std::cout << val << ", ";
+		/// });
+		/// std::cout << "\n";
+		///
+		/// // select all the numeric values using a generic visitor + is_number<> metafunction
+		/// tbl.for_each([](auto&& val)
+		/// {
+		/// 	if constexpr (toml::is_number<decltype(val)>)
+		/// 		std::cout << val << ", ";
+		/// });
+		/// std::cout << "\n";
+		///
+		/// // select all the numeric values until we encounter something non-numeric
+		/// tbl.for_each([](auto&& val)
+		/// {
+		///		if constexpr (toml::is_number<decltype(val)>)
+		///		{
+		///			std::cout << val << ", ";
+		///			return true; // "keep going"
+		///		}
+		///		else
+		///			return false; // "stop!"
+		///
+		/// });
+		/// std::cout << "\n\n";
+		///
+		/// // visitors may also recieve the key
+		/// tbl.for_each([](const toml::key& key, auto&& val)
+		/// {
+		///		std::cout << key << ": " << val << "\n";
+		/// });
+		///
+		/// \ecpp
+		/// \out
+		/// 0, 1, 2, 6,
+		/// 0, 1, 2, 3.0, 6,
+		/// 0, 1, 2, 3.0,
+		///
+		/// 0: 0
+		/// 1: 1
+		/// 2: 2
+		/// 3: 3.0
+		/// 4: 'four'
+		/// 5: 'five'
+		/// 6: 6
+		/// \eout
+		///
+		/// \see node::visit()
+		template <typename Func>
+		table& for_each(Func&& visitor) & noexcept(for_each_is_nothrow<Func&&, table&>)
+		{
+			do_for_each(static_cast<Func&&>(visitor), *this);
+			return *this;
+		}
+
+		/// \brief	Invokes a visitor on each key-value pair in the table (rvalue overload).
+		template <typename Func>
+		table&& for_each(Func&& visitor) && noexcept(for_each_is_nothrow<Func&&, table&&>)
+		{
+			do_for_each(static_cast<Func&&>(visitor), static_cast<table&&>(*this));
+			return static_cast<table&&>(*this);
+		}
+
+		/// \brief	Invokes a visitor on each key-value pair in the table (const lvalue overload).
+		template <typename Func>
+		const table& for_each(Func&& visitor) const& noexcept(for_each_is_nothrow<Func&&, const table&>)
+		{
+			do_for_each(static_cast<Func&&>(visitor), *this);
+			return *this;
+		}
+
+		/// \brief	Invokes a visitor on each key-value pair in the table (const rvalue overload).
+		template <typename Func>
+		const table&& for_each(Func&& visitor) const&& noexcept(for_each_is_nothrow<Func&&, const table&&>)
+		{
+			do_for_each(static_cast<Func&&>(visitor), static_cast<const table&&>(*this));
+			return static_cast<const table&&>(*this);
+		}
+
 		/// @}
 
 		/// \name Size and Capacity
@@ -875,7 +1097,7 @@ TOML_NAMESPACE_START
 		/// \cond
 
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		map_iterator get_lower_bound(std::string_view) noexcept;
 
 		/// \endcond
@@ -937,7 +1159,7 @@ TOML_NAMESPACE_START
 		///
 		/// \returns	An iterator to the node at the specified key, or end().
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		iterator find(std::string_view key) noexcept;
 
 		/// \brief	Gets an iterator to the node at a specific key (const overload)
@@ -946,7 +1168,7 @@ TOML_NAMESPACE_START
 		///
 		/// \returns	A const iterator to the node at the specified key, or cend().
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		const_iterator find(std::string_view key) const noexcept;
 
 		/// \brief	Returns true if the table contains a node at the given key.
@@ -1006,10 +1228,10 @@ TOML_NAMESPACE_START
 	  private:
 		/// \cond
 
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		map_iterator erase(const_map_iterator) noexcept;
 
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		map_iterator erase(const_map_iterator, const_map_iterator) noexcept;
 
 		/// \endcond
@@ -1123,7 +1345,7 @@ TOML_NAMESPACE_START
 		/// \param 	key		Key to erase.
 		///
 		/// \returns Number of elements removed (0 or 1).
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		size_t erase(std::string_view key) noexcept;
 
 #if TOML_ENABLE_WINDOWS_COMPAT
@@ -1164,7 +1386,7 @@ TOML_NAMESPACE_START
 		/// \param recursive Should child arrays and tables themselves be pruned?
 		///
 		/// \returns A reference to the table.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		table& prune(bool recursive = true) & noexcept;
 
 		/// \brief	Removes empty child arrays and tables (rvalue overload).
@@ -1178,7 +1400,7 @@ TOML_NAMESPACE_START
 		}
 
 		/// \brief	Removes all key-value pairs from the table.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		void clear() noexcept;
 
 		/// @}
@@ -1189,7 +1411,7 @@ TOML_NAMESPACE_START
 	  private:
 		/// \cond
 
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		map_iterator insert_with_hint(const_iterator, key&&, impl::node_ptr&&);
 
 		/// \endcond
@@ -1682,7 +1904,7 @@ TOML_NAMESPACE_START
 		/// \cond
 
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_STATIC_FUNCTION
 		static bool equal(const table&, const table&) noexcept;
 
 		/// \endcond

@@ -12,8 +12,8 @@ set_target_properties(modengine2 PROPERTIES
   IMPORTED_LOCATION_MINSIZEREL "${_IMPORT_PREFIX}/modengine2/bin/modengine2.dll"
   )
 
-list(APPEND _IMPORT_CHECK_TARGETS modengine2 )
-list(APPEND _IMPORT_CHECK_FILES_FOR_modengine2 "${_IMPORT_PREFIX}/modengine2/lib/modengine2.lib" "${_IMPORT_PREFIX}/modengine2/bin/modengine2.dll" )
+list(APPEND _cmake_import_check_targets modengine2 )
+list(APPEND _cmake_import_check_files_for_modengine2 "${_IMPORT_PREFIX}/modengine2/lib/modengine2.lib" "${_IMPORT_PREFIX}/modengine2/bin/modengine2.dll" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

@@ -223,7 +223,7 @@ TOML_ANON_NAMESPACE_START
 
 #endif
 
-#ifdef __APPLE__ // because, honestly, what the fuck mac OS??
+#if defined(__APPLE__) || defined(__MINGW32__) || defined(__MINGW64__)
 #define TOML_OVERALIGNED
 #else
 #define TOML_OVERALIGNED alignas(32)
@@ -1388,14 +1388,23 @@ TOML_IMPL_NAMESPACE_START
 						case U'"': str += '"'; break;
 						case U'\\': str += '\\'; break;
 
-						// unicode scalar sequences
-						case U'x':
-#if TOML_LANG_UNRELEASED // toml/pull/796 (\xHH unicode scalar sequences)
-							[[fallthrough]];
+#if TOML_LANG_UNRELEASED // toml/pull/790 (\e shorthand for \x1B)
+						case U'e': str += '\x1B'; break;
 #else
+						case U'e':
+							set_error_and_return_default(
+								"escape sequence '\\e' is not supported in TOML 1.0.0 and earlier"sv);
+#endif
+
+#if TOML_LANG_UNRELEASED // toml/pull/796 (\xHH unicode scalar sequences)
+						case U'x': [[fallthrough]];
+#else
+						case U'x':
 							set_error_and_return_default(
 								"escape sequence '\\x' is not supported in TOML 1.0.0 and earlier"sv);
 #endif
+
+						// unicode scalar sequences
 						case U'u': [[fallthrough]];
 						case U'U':
 						{
@@ -3026,11 +3035,6 @@ TOML_IMPL_NAMESPACE_START
 
 			while (!is_error())
 			{
-#if TOML_LANG_UNRELEASED // toml/issues/687 (unicode bare keys)
-				if (is_combining_mark(*cp))
-					set_error_and_return_default("bare keys may not begin with unicode combining marks"sv);
-#endif
-
 				std::string_view key_segment;
 				const auto key_begin = current_position();
 
@@ -3364,7 +3368,7 @@ TOML_IMPL_NAMESPACE_START
 						{
 							set_error_at(key_buffer.starts[i],
 										 "cannot redefine existing "sv,
-										 to_sv(p->type()),
+										 to_sv(pit->second.type()),
 										 " as dotted key-value pair"sv);
 							return_after_error({});
 						}
@@ -3736,10 +3740,7 @@ TOML_ANON_NAMESPACE_START
 	{
 #if TOML_EXCEPTIONS
 #define TOML_PARSE_FILE_ERROR(msg, path)                                                                               \
-	throw parse_error                                                                                                  \
-	{                                                                                                                  \
-		msg, source_position{}, std::make_shared<const std::string>(std::move(path))                                   \
-	}
+	throw parse_error{ msg, source_position{}, std::make_shared<const std::string>(std::move(path)) }
 #else
 #define TOML_PARSE_FILE_ERROR(msg, path)                                                                               \
 	return parse_result                                                                                                \

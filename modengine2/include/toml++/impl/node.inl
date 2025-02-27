@@ -22,6 +22,12 @@
 TOML_NAMESPACE_START
 {
 	TOML_EXTERNAL_LINKAGE
+	node::node() noexcept = default;
+
+	TOML_EXTERNAL_LINKAGE
+	node::~node() noexcept = default;
+
+	TOML_EXTERNAL_LINKAGE
 	node::node(node && other) noexcept //
 		: source_{ std::exchange(other.source_, {}) }
 	{}
@@ -52,9 +58,6 @@ TOML_NAMESPACE_START
 			source_ = std::exchange(rhs.source_, {});
 		return *this;
 	}
-
-	TOML_EXTERNAL_LINKAGE
-	node::~node() noexcept = default;
 
 	TOML_EXTERNAL_LINKAGE
 	node_view<node> node::at_path(std::string_view path) noexcept
@@ -99,16 +102,13 @@ TOML_IMPL_NAMESPACE_START
 		if ((!lhs != !rhs) || lhs->type() != rhs->type())
 			return false;
 
-		bool same;
-		lhs->visit(
-			[=, &same](auto& l) noexcept
+		return lhs->visit(
+			[=](auto& l) noexcept
 			{
 				using concrete_type = remove_cvref<decltype(l)>;
 
-				same = (l == *(rhs->as<concrete_type>()));
+				return l == *(rhs->as<concrete_type>());
 			});
-
-		return same;
 	}
 }
 TOML_IMPL_NAMESPACE_END;

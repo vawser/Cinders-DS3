@@ -261,7 +261,7 @@ TOML_NAMESPACE_START
 	/// [ 3, 4, 5, 'six', 7, 8.0, 'nine' ]
 	/// [ 3, 4, 5, 'six', 7, 8.0, 'nine', 'ten', [ 11, 12.0 ] ]
 	/// \eout
-	class array : public node
+	class TOML_EXPORTED_CLASS array : public node
 	{
 	  private:
 		/// \cond
@@ -272,7 +272,7 @@ TOML_NAMESPACE_START
 		vector_type elems_;
 
 		TOML_NODISCARD_CTOR
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		array(const impl::array_init_elem*, const impl::array_init_elem*);
 
 		TOML_NODISCARD_CTOR
@@ -280,13 +280,13 @@ TOML_NAMESPACE_START
 			: array{ elems.begin(), elems.end() }
 		{}
 
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		void preinsertion_resize(size_t idx, size_t count);
 
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		void insert_at_back(impl::node_ptr&&);
 
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		vector_iterator insert_at(const_vector_iterator, impl::node_ptr&&);
 
 		template <typename T>
@@ -301,10 +301,10 @@ TOML_NAMESPACE_START
 		}
 
 		TOML_NODISCARD
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		size_t total_leaf_count() const noexcept;
 
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		void flatten_child(array&& child, size_t& dest_index) noexcept;
 
 		/// \endcond
@@ -316,35 +316,22 @@ TOML_NAMESPACE_START
 		using reference		  = node&;
 		using const_reference = const node&;
 
-#if TOML_LIFETIME_HOOKS
-
-		TOML_NODISCARD_CTOR
-		array() noexcept
-		{
-			TOML_ARRAY_CREATED;
-		}
-
-		~array() noexcept
-		{
-			TOML_ARRAY_DESTROYED;
-		}
-
-#else
-
 		/// \brief	Default constructor.
 		TOML_NODISCARD_CTOR
-		array() noexcept = default;
+		TOML_EXPORTED_MEMBER_FUNCTION
+		array() noexcept;
 
-#endif
+		TOML_EXPORTED_MEMBER_FUNCTION
+		~array() noexcept;
 
 		/// \brief	Copy constructor.
 		TOML_NODISCARD_CTOR
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		array(const array&);
 
 		/// \brief	Move constructor.
 		TOML_NODISCARD_CTOR
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		array(array&& other) noexcept;
 
 		/// \brief	Constructs an array with one or more initial elements.
@@ -390,11 +377,11 @@ TOML_NAMESPACE_START
 		{}
 
 		/// \brief	Copy-assignment operator.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		array& operator=(const array&);
 
 		/// \brief	Move-assignment operator.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		array& operator=(array&& rhs) noexcept;
 
 		/// \name Type checks
@@ -408,15 +395,15 @@ TOML_NAMESPACE_START
 		}
 
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		bool is_homogeneous(node_type ntype) const noexcept final;
 
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		bool is_homogeneous(node_type ntype, node*& first_nonmatch) noexcept final;
 
 		TOML_PURE_GETTER
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		bool is_homogeneous(node_type ntype, const node*& first_nonmatch) const noexcept final;
 
 		/// \cond
@@ -746,7 +733,7 @@ TOML_NAMESPACE_START
 
 		/// \brief	Gets a reference to the element at a specific index, throwing `std::out_of_range` if none existed.
 		TOML_NODISCARD
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		node& at(size_t index);
 
 		/// \brief	Gets a reference to the element at a specific index, throwing `std::out_of_range` if none existed.
@@ -786,7 +773,7 @@ TOML_NAMESPACE_START
 
 		/// @}
 
-		/// \name Iterators
+		/// \name Iteration
 		/// @{
 
 		/// \brief A RandomAccessIterator for iterating over elements in a toml::array.
@@ -837,6 +824,235 @@ TOML_NAMESPACE_START
 			return const_iterator{ elems_.cend() };
 		}
 
+	  private:
+		/// \cond
+
+		template <typename T, typename Array>
+		using for_each_elem_ref = impl::copy_cvref<impl::wrap_node<impl::remove_cvref<impl::unwrap_node<T>>>, Array>;
+
+		template <typename Func, typename Array, typename T>
+		static constexpr bool can_for_each = std::is_invocable_v<Func, for_each_elem_ref<T, Array>, size_t> //
+										  || std::is_invocable_v<Func, size_t, for_each_elem_ref<T, Array>> //
+										  || std::is_invocable_v<Func, for_each_elem_ref<T, Array>>;
+
+		template <typename Func, typename Array, typename T>
+		static constexpr bool can_for_each_nothrow =
+			std::is_nothrow_invocable_v<Func, for_each_elem_ref<T, Array>, size_t>	  //
+			|| std::is_nothrow_invocable_v<Func, size_t, for_each_elem_ref<T, Array>> //
+			|| std::is_nothrow_invocable_v<Func, for_each_elem_ref<T, Array>>;
+
+		template <typename Func, typename Array>
+		static constexpr bool can_for_each_any = can_for_each<Func, Array, table>		//
+											  || can_for_each<Func, Array, array>		//
+											  || can_for_each<Func, Array, std::string> //
+											  || can_for_each<Func, Array, int64_t>		//
+											  || can_for_each<Func, Array, double>		//
+											  || can_for_each<Func, Array, bool>		//
+											  || can_for_each<Func, Array, date>		//
+											  || can_for_each<Func, Array, time>		//
+											  || can_for_each<Func, Array, date_time>;
+
+		template <typename Func, typename Array, typename T>
+		static constexpr bool for_each_is_nothrow_one = !can_for_each<Func, Array, T> //
+													 || can_for_each_nothrow<Func, Array, T>;
+
+		// clang-format off
+
+
+		template <typename Func, typename Array>
+		static constexpr bool for_each_is_nothrow = for_each_is_nothrow_one<Func, Array, table>		  //
+												 && for_each_is_nothrow_one<Func, Array, array>		  //
+												 && for_each_is_nothrow_one<Func, Array, std::string> //
+												 && for_each_is_nothrow_one<Func, Array, int64_t>	  //
+												 && for_each_is_nothrow_one<Func, Array, double>	  //
+												 && for_each_is_nothrow_one<Func, Array, bool>		  //
+												 && for_each_is_nothrow_one<Func, Array, date>		  //
+												 && for_each_is_nothrow_one<Func, Array, time>		  //
+												 && for_each_is_nothrow_one<Func, Array, date_time>;
+
+		// clang-format on
+
+		template <typename Func, typename Array>
+		static void do_for_each(Func&& visitor, Array&& arr) noexcept(for_each_is_nothrow<Func&&, Array&&>)
+		{
+			static_assert(can_for_each_any<Func&&, Array&&>,
+						  "TOML array for_each visitors must be invocable for at least one of the toml::node "
+						  "specializations:" TOML_SA_NODE_TYPE_LIST);
+
+			for (size_t i = 0; i < arr.size(); i++)
+			{
+				using node_ref = impl::copy_cvref<toml::node, Array&&>;
+				static_assert(std::is_reference_v<node_ref>);
+
+				const auto keep_going =
+					static_cast<node_ref>(static_cast<Array&&>(arr)[i])
+						.visit(
+							[&](auto&& elem)
+#if !TOML_MSVC || TOML_MSVC >= 1932 // older MSVC thinks this is invalid syntax O_o
+								noexcept(for_each_is_nothrow_one<Func&&, Array&&, decltype(elem)>)
+#endif
+							{
+								using elem_ref = for_each_elem_ref<decltype(elem), Array&&>;
+								static_assert(std::is_reference_v<elem_ref>);
+
+								// func(elem, i)
+								if constexpr (std::is_invocable_v<Func&&, elem_ref, size_t>)
+								{
+									using return_type =
+										decltype(static_cast<Func&&>(visitor)(static_cast<elem_ref>(elem), i));
+
+									if constexpr (impl::is_constructible_or_convertible<bool, return_type>)
+									{
+										return static_cast<bool>(
+											static_cast<Func&&>(visitor)(static_cast<elem_ref>(elem), i));
+									}
+									else
+									{
+										static_cast<Func&&>(visitor)(static_cast<elem_ref>(elem), i);
+										return true;
+									}
+								}
+
+								// func(i, elem)
+								else if constexpr (std::is_invocable_v<Func&&, size_t, elem_ref>)
+								{
+									using return_type =
+										decltype(static_cast<Func&&>(visitor)(i, static_cast<elem_ref>(elem)));
+
+									if constexpr (impl::is_constructible_or_convertible<bool, return_type>)
+									{
+										return static_cast<bool>(
+											static_cast<Func&&>(visitor)(i, static_cast<elem_ref>(elem)));
+									}
+									else
+									{
+										static_cast<Func&&>(visitor)(i, static_cast<elem_ref>(elem));
+										return true;
+									}
+								}
+
+								// func(elem)
+								else if constexpr (std::is_invocable_v<Func&&, elem_ref>)
+								{
+									using return_type =
+										decltype(static_cast<Func&&>(visitor)(static_cast<elem_ref>(elem)));
+
+									if constexpr (impl::is_constructible_or_convertible<bool, return_type>)
+									{
+										return static_cast<bool>(
+											static_cast<Func&&>(visitor)(static_cast<elem_ref>(elem)));
+									}
+									else
+									{
+										static_cast<Func&&>(visitor)(static_cast<elem_ref>(elem));
+										return true;
+									}
+								}
+
+								// visitor not compatible with this particular type
+								else
+									return true;
+							});
+
+				if (!keep_going)
+					return;
+			}
+		}
+
+		/// \endcond
+
+	  public:
+		/// \brief	Invokes a visitor on each element in the array.
+		///
+		/// \tparam	Func	A callable type invocable with one of the following signatures:
+		///					<ul>
+		///					<li> `func(elem, index)`
+		///					<li> `func(elem)`
+		///					<li> `func(index, elem)`
+		///					</ul>
+		///					Where:
+		///					<ul>
+		///					<li> `elem` will recieve the element as it's concrete type with cvref-qualifications matching the array
+		///					<li> `index` will recieve a `size_t` indicating the element's index
+		///					</ul>
+		///					Visitors returning `bool` (or something convertible to `bool`) will cause iteration to
+		///					stop if they return `false`.
+		///
+		/// \param 	visitor	The visitor object.
+		///
+		/// \returns A reference to the array.
+		///
+		/// \details \cpp
+		/// toml::array arr{ 0, 1, 2, 3.0, "four", "five", 6 };
+		///
+		/// // select only the integers using a strongly-typed visitor
+		/// arr.for_each([](toml::value<int64_t>& elem)
+		/// {
+		///		std::cout << elem << ", ";
+		/// });
+		/// std::cout << "\n";
+		///
+		/// // select all the numeric values using a generic visitor + is_number<> metafunction
+		/// arr.for_each([](auto&& elem)
+		/// {
+		///		if constexpr (toml::is_number<decltype(elem)>)
+		///			std::cout << elem << ", ";
+		/// });
+		/// std::cout << "\n";
+		///
+		/// // select all the numeric values until we encounter something non-numeric
+		/// arr.for_each([](auto&& elem)
+		/// {
+		///		if constexpr (toml::is_number<decltype(elem)>)
+		///		{
+		///			std::cout << elem << ", ";
+		///			return true; // "keep going"
+		///		}
+		///		else
+		///			return false; // "stop!"
+		///
+		/// });
+		/// std::cout << "\n";
+		///
+		/// \ecpp
+		/// \out
+		/// 0, 1, 2, 6,
+		/// 0, 1, 2, 3.0, 6,
+		/// 0, 1, 2, 3.0,
+		/// \eout
+		///
+		/// \see node::visit()
+		template <typename Func>
+		array& for_each(Func&& visitor) & noexcept(for_each_is_nothrow<Func&&, array&>)
+		{
+			do_for_each(static_cast<Func&&>(visitor), *this);
+			return *this;
+		}
+
+		/// \brief	Invokes a visitor on each element in the array (rvalue overload).
+		template <typename Func>
+		array&& for_each(Func&& visitor) && noexcept(for_each_is_nothrow<Func&&, array&&>)
+		{
+			do_for_each(static_cast<Func&&>(visitor), static_cast<array&&>(*this));
+			return static_cast<array&&>(*this);
+		}
+
+		/// \brief	Invokes a visitor on each element in the array (const lvalue overload).
+		template <typename Func>
+		const array& for_each(Func&& visitor) const& noexcept(for_each_is_nothrow<Func&&, const array&>)
+		{
+			do_for_each(static_cast<Func&&>(visitor), *this);
+			return *this;
+		}
+
+		/// \brief	Invokes a visitor on each element in the array (const rvalue overload).
+		template <typename Func>
+		const array&& for_each(Func&& visitor) const&& noexcept(for_each_is_nothrow<Func&&, const array&&>)
+		{
+			do_for_each(static_cast<Func&&>(visitor), static_cast<const array&&>(*this));
+			return static_cast<const array&&>(*this);
+		}
+
 		/// @}
 
 		/// \name Size and Capacity
@@ -871,11 +1087,11 @@ TOML_NAMESPACE_START
 		}
 
 		/// \brief	Reserves internal storage capacity up to a pre-determined number of elements.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		void reserve(size_t new_capacity);
 
 		/// \brief	Requests the removal of any unused internal storage capacity.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		void shrink_to_fit();
 
 		/// \brief	Shrinks the array to the given size.
@@ -900,7 +1116,7 @@ TOML_NAMESPACE_START
 		/// \eout
 		///
 		/// \remarks	Does nothing if the requested size is larger than or equal to the current size.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		void truncate(size_t new_size);
 
 		/// \brief	Resizes the array.
@@ -969,7 +1185,7 @@ TOML_NAMESPACE_START
 		/// \param 	pos		Iterator to the element being erased.
 		///
 		/// \returns Iterator to the first element immediately following the removed element.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		iterator erase(const_iterator pos) noexcept;
 
 		/// \brief	Removes the elements in the range [first, last) from the array.
@@ -991,7 +1207,7 @@ TOML_NAMESPACE_START
 		/// \param 	last	Iterator to the one-past-the-last element being erased.
 		///
 		/// \returns Iterator to the first element immediately following the last removed element.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		iterator erase(const_iterator first, const_iterator last) noexcept;
 
 		/// \brief	Flattens this array, recursively hoisting the contents of child arrays up into itself.
@@ -1013,12 +1229,10 @@ TOML_NAMESPACE_START
 		/// \remarks	Arrays inside child tables are not flattened.
 		///
 		/// \returns A reference to the array.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		array& flatten() &;
 
 		/// \brief	 Flattens this array, recursively hoisting the contents of child arrays up into itself (rvalue overload).
-		///
-		/// \returns An rvalue reference to the array.
 		array&& flatten() &&
 		{
 			return static_cast<toml::array&&>(this->flatten());
@@ -1043,7 +1257,7 @@ TOML_NAMESPACE_START
 		/// \param recursive Should child arrays and tables themselves be pruned?
 		///
 		/// \returns A reference to the array.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		array& prune(bool recursive = true) & noexcept;
 
 		/// \brief	Removes empty child arrays and tables (rvalue overload).
@@ -1057,11 +1271,11 @@ TOML_NAMESPACE_START
 		}
 
 		/// \brief	Removes the last element from the array.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		void pop_back() noexcept;
 
 		/// \brief	Removes all elements from the array.
-		TOML_API
+		TOML_EXPORTED_MEMBER_FUNCTION
 		void clear() noexcept;
 
 		/// @}
@@ -1406,7 +1620,7 @@ TOML_NAMESPACE_START
 		/// \cond
 
 		TOML_NODISCARD
-		TOML_API
+		TOML_EXPORTED_STATIC_FUNCTION
 		static bool equal(const array&, const array&) noexcept;
 
 		template <typename T>
