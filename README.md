@@ -7,7 +7,8 @@ Drop the files in the ZIP in your Dark Souls III Game directory: ~\steamapps\com
 Launch the mod with the launchmod_darksouls3.bat file.
 
 ## Links
-[Nexus Page](https://www.nexusmods.com/darksouls3/mods/310).
+[Nexus Page](https://www.nexusmods.com/darksouls3/mods/310)
+[Discord](https://discord.gg/qUmcvYYUAw)
 
 ## Credits
 - Katalash and Gary Tierney for ModEngine2
