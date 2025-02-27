@@ -1,4 +1,79 @@
-﻿# Sekiro Combat Arts
+﻿#--------------------------------
+# Override Sets
+#--------------------------------
+a177 Lance
+
+a272 Bewitched Alonne Sword
+
+a276 Dragonslayer Swordspear
+
+a280 Writhing Hammer
+
+a295 Manus Catalyst
+
+a298 Crystal Chime / Corrupted Talisman
+a299 Talisman / Saint's Talisman
+
+a604 Frostfall
+
+a701 Red Rust Sword
+
+a703 Warped Sword
+a704 Dragon Hunter's Greataxe
+a705 Dragon Hunter's Warpick
+a706 Dragon Hunter's Great Hammer
+a707 Ivory King Ultra Greatsword
+
+a709 Gargoyle Halberd
+a710 Gargoyle Tail Axe
+a711 Gargoyle Bident
+a712 Katana (Alt)
+a713 Scythe (Alt)
+a714 Sacred Chime Hammer
+
+a717 Fume Ultra Greatsword
+a718 Fume Slated Swords
+a719 Demon's Spear
+a720 Demon's Great Axe
+a721 Greatsword (Alt)
+a722 Greataxe (Alt)
+a723 Spear (Alt)
+a724 Straight Sword (Alt)
+
+a726 Hallowed Sword
+a727 Axe (Alt)
+a728 Curved Sword (Alt)
+a729 Beasthunter Saif
+a730 Burial Blade
+a731 Burial Scythe
+a732 Tonitrus
+a733 Hammer (Alt)
+a734 Crescent Axe
+a735 Hunter Axe
+a736 Sanguinus
+a737 Bloodletter
+a738 Moonlight Greatsword (Fire)
+a739 Moonlight Greatsword (Lightning)
+a740 Moonlight Greatsword (Dark)
+a741 Moonlight Greatsword (Lucky)
+a742 Great Hammer (Alt)
+a743 Church Pick
+a744 Boom Hammer
+
+a746 Bloodlust
+a747 Caestus (Alt)
+a748 Hammer (Alt)
+a749 Sanctum Mace
+a750 Kirkhammer
+a751 Sunlight Greatsword
+a752 Curved Greatsword (Alt)
+
+a754 Nil Bow and Blade
+a755 Carthus Shotel
+
+#--------------------------------
+# Sekiro Combat Arts
+#--------------------------------
 a861 -> a070
 a862 -> a071
 a863 -> a072

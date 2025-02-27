@@ -1,1 +1,11 @@
-{"ProjectName":"Cinders","GameRoot":"E:\\Program Files (x86)\\SteamLibrary\\steamapps\\common\\DARK SOULS III\\Game","GameType":5,"UseLooseParams":true}
+{
+  "ProjectName": "Cinders",
+  "GameRoot": "F:\\SteamLibrary\\steamapps\\common\\DARK SOULS III\\Game",
+  "GameType": 5,
+  "PinnedParams": [],
+  "PinnedRows": {},
+  "PinnedFields": {},
+  "UseLooseParams": true,
+  "PartialParams": false,
+  "LastFmgLanguageUsed": ""
+}
