@@ -1,0 +1,64 @@
+[2025-02-27 04:04:12.434] [modengine] [info] Attempting to load global config at G:\Cinders-DS3\modengine2\config.toml
+[2025-02-27 04:04:12.434] [modengine] [info] Attempting to load mod settings config at G:\Cinders-DS3\config_darksouls3.toml
+[2025-02-27 04:04:12.434] [modengine] [info] Local config loaded
+[2025-02-27 04:04:12.434] [modengine] [info] ModEngine version 2.1.0-0924ab36f1311bf84e7e626740b4bf2c0d54909a initializing for Dark Souls 3
+[2025-02-27 04:04:12.434] [modengine] [info] Local settings loaded: true, Global settings loaded: false
+[2025-02-27 04:04:12.434] [modengine] [info] Main thread ID: 26228
+[2025-02-27 04:04:12.436] [modengine] [info] Loaded external DLL G:\Cinders-DS3\HoodiePatcher.dll
+[2025-02-27 04:04:12.436] [modengine] [warning] External dll G:\Cinders-DS3\HoodiePatcher.dll at base address 0x7fffc96e0000 is not a modengine extension
+[2025-02-27 04:04:12.436] [modengine] [info] Enabling extension base
+[2025-02-27 04:04:12.436] [modengine] [info] Enabled extension base
+[2025-02-27 04:04:12.436] [modengine] [info] Enabling extension mod_loader
+[2025-02-27 04:04:12.436] [modengine] [info] Installing mod location Cinders
+[2025-02-27 04:04:12.437] [modengine] [info] Resolved mod path to G:\Cinders-DS3\Cinders
+[2025-02-27 04:04:12.437] [modengine] [info] Enabled extension mod_loader
+[2025-02-27 04:04:12.437] [modengine] [info] Enabling extension scylla_hide
+[2025-02-27 04:04:12.437] [modengine] [info] Found valid ScyllaHide injector. Injecting into game.
+[2025-02-27 04:04:12.437] [modengine] [info] Starting ScyllaHide injector: G:\Cinders-DS3\modengine2\tools\scyllahide\InjectorCLIx64.exe pid:33864 ./HookLibraryx64.dll nowait
+[2025-02-27 04:04:12.474] [modengine] [info] Launched Scyllahide process.
+[2025-02-27 04:04:12.823] [modengine] [info] ScyllaHide successfully injected
+[2025-02-27 04:04:12.823] [modengine] [info] Enabled extension scylla_hide
+[2025-02-27 04:04:12.869] [modengine] [info] Applied 3 hooks
+[2025-02-27 04:04:12.871] [modengine] [info] Starting worker thread
+[2025-02-27 04:04:15.969] [modengine] [info] Destroying
+[2025-02-27 04:04:15.969] [modengine] [info] Destroying
+[2025-02-27 04:04:15.969] [modengine] [info] Destroying
+[2025-02-27 04:04:15.969] [modengine] [info] Destroying
+[2025-02-27 04:04:15.969] [modengine] [info] Destroying
+[2025-02-27 04:04:15.969] [modengine] [info] Destroying
+[2025-02-27 04:04:15.969] [modengine] [info] Destroying
+[2025-02-27 04:04:15.969] [modengine] [info] Destroying
+[2025-02-27 04:04:15.969] [modengine] [info] Destroying
+[2025-02-27 04:04:15.969] [modengine] [info] Destroying
+[2025-02-27 04:06:42.276] [modengine] [info] Attempting to load global config at G:\Cinders-DS3\modengine2\config.toml
+[2025-02-27 04:06:42.276] [modengine] [info] Attempting to load mod settings config at G:\Cinders-DS3\config_darksouls3.toml
+[2025-02-27 04:06:42.276] [modengine] [info] Local config loaded
+[2025-02-27 04:06:42.276] [modengine] [info] ModEngine version 2.1.0-0924ab36f1311bf84e7e626740b4bf2c0d54909a initializing for Dark Souls 3
+[2025-02-27 04:06:42.276] [modengine] [info] Local settings loaded: true, Global settings loaded: false
+[2025-02-27 04:06:42.276] [modengine] [info] Main thread ID: 19136
+[2025-02-27 04:06:42.277] [modengine] [info] Loaded external DLL G:\Cinders-DS3\HoodiePatcher.dll
+[2025-02-27 04:06:42.277] [modengine] [warning] External dll G:\Cinders-DS3\HoodiePatcher.dll at base address 0x7fffbf5c0000 is not a modengine extension
+[2025-02-27 04:06:42.277] [modengine] [info] Enabling extension base
+[2025-02-27 04:06:42.277] [modengine] [info] Enabled extension base
+[2025-02-27 04:06:42.277] [modengine] [info] Enabling extension mod_loader
+[2025-02-27 04:06:42.277] [modengine] [info] Installing mod location Cinders
+[2025-02-27 04:06:42.277] [modengine] [info] Resolved mod path to G:\Cinders-DS3\Cinders
+[2025-02-27 04:06:42.278] [modengine] [info] Enabled extension mod_loader
+[2025-02-27 04:06:42.278] [modengine] [info] Enabling extension scylla_hide
+[2025-02-27 04:06:42.278] [modengine] [info] Found valid ScyllaHide injector. Injecting into game.
+[2025-02-27 04:06:42.278] [modengine] [info] Starting ScyllaHide injector: G:\Cinders-DS3\modengine2\tools\scyllahide\InjectorCLIx64.exe pid:38128 ./HookLibraryx64.dll nowait
+[2025-02-27 04:06:42.280] [modengine] [info] Launched Scyllahide process.
+[2025-02-27 04:06:42.562] [modengine] [info] ScyllaHide successfully injected
+[2025-02-27 04:06:42.562] [modengine] [info] Enabled extension scylla_hide
+[2025-02-27 04:06:42.939] [modengine] [info] Applied 3 hooks
+[2025-02-27 04:06:42.941] [modengine] [info] Starting worker thread
+[2025-02-27 04:09:10.409] [modengine] [info] Destroying
+[2025-02-27 04:09:10.409] [modengine] [info] Destroying
+[2025-02-27 04:09:10.409] [modengine] [info] Destroying
+[2025-02-27 04:09:10.409] [modengine] [info] Destroying
+[2025-02-27 04:09:10.409] [modengine] [info] Destroying
+[2025-02-27 04:09:10.409] [modengine] [info] Destroying
+[2025-02-27 04:09:10.409] [modengine] [info] Destroying
+[2025-02-27 04:09:10.409] [modengine] [info] Destroying
+[2025-02-27 04:09:10.409] [modengine] [info] Destroying
+[2025-02-27 04:09:10.409] [modengine] [info] Destroying

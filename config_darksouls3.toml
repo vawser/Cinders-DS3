@@ -1,0 +1,13 @@
+[modengine]
+debug = false
+external_dlls = [ "HoodiePatcher.dll" ]
+
+[extension.mod_loader]
+enabled = true
+loose_params = false
+mods = [
+    { enabled = true, name = "Cinders", path = "Cinders" }
+]
+
+[extension.scylla_hide]
+enabled = true
