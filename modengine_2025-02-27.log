@@ -1,0 +1,22 @@
+[2025-02-27 03:59:52.825] [modengine] [info] ModEngine version 2.0.0-preview3-d673e6000e50d5c559364b6276057f6bde09accb initializing for Dark Souls 3
+[2025-02-27 03:59:52.825] [modengine] [info] Local settings loaded: true, Global settings loaded: false
+[2025-02-27 03:59:52.825] [modengine] [info] Main thread ID: 11116
+[2025-02-27 03:59:52.826] [modengine] [info] Enabling extension base
+[2025-02-27 03:59:52.826] [modengine] [info] Enabled extension base
+[2025-02-27 03:59:52.826] [modengine] [info] Enabling extension mod_loader
+[2025-02-27 03:59:52.826] [modengine] [info] Installing mod location Cinders
+[2025-02-27 03:59:52.830] [modengine] [info] Resolved mod path to G:\Cinders-DS3\Cinders
+[2025-02-27 03:59:52.830] [modengine] [info] Enabled extension mod_loader
+[2025-02-27 03:59:52.938] [modengine] [error] Failed to apply a patch
+[2025-02-27 03:59:52.938] [modengine] [info] Applied 3 hooks
+[2025-02-27 03:59:52.941] [modengine] [info] Starting worker thread
+[2025-02-27 03:59:56.769] [modengine] [info] Destroying
+[2025-02-27 03:59:56.769] [modengine] [info] Destroying
+[2025-02-27 03:59:56.769] [modengine] [info] Destroying
+[2025-02-27 03:59:56.769] [modengine] [info] Destroying
+[2025-02-27 03:59:56.769] [modengine] [info] Destroying
+[2025-02-27 03:59:56.769] [modengine] [info] Destroying
+[2025-02-27 03:59:56.769] [modengine] [info] Destroying
+[2025-02-27 03:59:56.769] [modengine] [info] Destroying
+[2025-02-27 03:59:56.769] [modengine] [info] Destroying
+[2025-02-27 03:59:56.770] [modengine] [info] Destroying

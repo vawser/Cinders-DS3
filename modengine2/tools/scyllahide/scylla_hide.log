@@ -1,0 +1,38 @@
+2023.09.22 02:20:58 INFO: Loaded VA for NtUserBlockInput = 0x00007FFE7F548980
+2023.09.22 02:20:58 INFO: Loaded VA for NtUserQueryWindow = 0x00007FFE7F541660
+2023.09.22 02:20:58 INFO: Loaded VA for NtUserBuildHwndList = 0x00007FFE7F5417E0
+2023.09.22 02:20:58 INFO: Loaded VA for NtUserFindWindowEx = 0x00007FFE7F542180
+2023.09.22 02:20:58 INFO: Loaded VA for NtUserGetClassName = 0x00007FFE7F542320
+2023.09.22 02:20:58 INFO: Loaded VA for NtUserInternalGetWindowText = 0x00007FFE7F542040
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> _NtSetInformationThread 00007FFE819EEEE0 _NtQuerySystemInformation 00007FFE819EF400 _NtQueryInformationProcess 00007FFE819EF060 _NtSetInformationProcess 00007FFE819EF0C0 _NtQueryObject 00007FFE819EEF40
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> _NtYieldExecution 00007FFE819EF600 _NtGetContextThread 00007FFE819F0C50 _NtSetContextThread 00007FFE819F2030 _KiUserExceptionDispatcher 00007FFE819F2DC0 _NtContinue 00007FFE819EF5A0
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> _NtClose 00007FFE819EEF20 _NtDuplicateObject 00007FFE819EF4C0 _NtSetDebugFilterState 00007FFE819F2050 _NtCreateThread 00007FFE819EF700 _NtCreateThreadEx 00007FFE819F0610 _NtQuerySystemTime 00007FFE819EF880 _NtQueryPerformanceCounter 00007FFE819EF360 _NtResumeThread 00007FFE819EF780
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtSetInformationThread
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtQuerySystemInformation
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtQueryInformationProcess
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtSetInformationProcess
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtQueryObject
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtYieldExecution
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtGetContextThread
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtSetContextThread
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtClose
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtDuplicateObject
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtCreateThreadEx
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtSetDebugFilterState
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking KiUserExceptionDispatcher
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Finding jmp to RtlQuerySystemTime at NtQuerySystemTime
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtQuerySystemTime at 00007FFE819C76A0
+2023.09.22 02:20:58 DEBUG: ApplyNtdllHook -> Hooking NtQueryPerformanceCounter
+2023.09.22 02:20:58 DEBUG: ApplyKernel32Hook -> Using Kernelbase 00007FFE7EE30000 instead of kernel32 00007FFE7F6E0000
+2023.09.22 02:20:58 DEBUG: ApplyKernel32Hook -> _GetTickCount 00007FFE7EE89080 _GetTickCount64 00007FFE7EE90D80 _GetLocalTime 00007FFE7EE7C720 _GetSystemTime 00007FFE7EE9C7A0 _OutputDebugStringA 00007FFE7EE94F30
+2023.09.22 02:20:58 DEBUG: ApplyKernel32Hook -> Hooking GetTickCount
+2023.09.22 02:20:58 DEBUG: ApplyKernel32Hook -> Hooking GetTickCount64
+2023.09.22 02:20:58 DEBUG: ApplyKernel32Hook -> Hooking GetLocalTime
+2023.09.22 02:20:58 DEBUG: ApplyKernel32Hook -> Hooking GetSystemTime
+2023.09.22 02:20:58 DEBUG: ApplyKernel32Hook -> Hooking OutputDebugStringA
+2023.09.22 02:20:58 DEBUG: ApplyUserHook -> HookedNtUserBlockInput 0000000002211E3C HookedNtUserFindWindowEx 0000000002211E98 HookedNtUserBuildHwndList 0000000002211FD0 HookedNtUserBuildHwndList_Eight 0000000002212030 HookedNtUserQueryWindow 000000000221209C
+2023.09.22 02:20:58 DEBUG: ApplyUserHook -> _NtUserBlockInput 00007FFE7F548980 _NtUserFindWindowEx 00007FFE7F542180 _NtUserBuildHwndList 00007FFE7F5417E0 _NtUserQueryWindow 00007FFE7F541660
+2023.09.22 02:20:58 DEBUG: ApplyUserHook -> Hooking NtUserBlockInput
+2023.09.22 02:20:58 DEBUG: ApplyUserHook -> Hooking NtUserFindWindowEx
+2023.09.22 02:20:58 DEBUG: ApplyUserHook -> Hooking NtUserBuildHwndList
+2023.09.22 02:20:58 DEBUG: ApplyUserHook -> Hooking NtUserQueryWindow
