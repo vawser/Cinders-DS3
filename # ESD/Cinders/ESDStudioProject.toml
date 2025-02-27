@@ -1,7 +1,0 @@
-title = "ESDStudioProject"
-[project_info]
-name = "Cinders"
-base_directory = "C:\\Users\\benja\\Modding\\Dark Souls III\\Projects\\Cinders-DS3\\# ESD\\Cinders"
-game_directory = "F:\\SteamLibrary\\steamapps\\common\\DARK SOULS III\\Game"
-mod_directory = "C:\\Users\\benja\\Modding\\Dark Souls III\\Projects\\Cinders-DS3"
-game = "ds3"

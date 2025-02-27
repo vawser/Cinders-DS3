@@ -1,3 +1,10 @@
+\# Development
+modengine2
+config_darksouls3.toml
+HoodiePatcher.dll
+HoodiePatcher.ini
+launchmod_darksouls3.bat
+modengine2_launcher.exe
 
 map/m38_00_00_00/h38_00_00_00.hkxbdt
 map/m38_00_00_00/h38_00_00_00.hkxbhd
